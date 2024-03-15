@@ -19,4 +19,4 @@ The structure of this repository is as follows:
 - Folder **annotated_documents** contains the annotated documents in two format: (i) WebAnno TSV (Tab Separated Value) file format version 3, (ii) UIMA CAS XMI (XML 1.1). 
 Each folder contains 30 documents corresponding to the 30 items in the experiment. And each document contains all the 30 chat continuations for that item. 
 These files can be imported into WebAnno or INCEpTION for further annotations or into R/Python for analysis. 
-
+The current version of the annotations (v1.0) contains golden coreference and segment annotations. However, the annotations of coherence relations are still ongoing and get continuously updated.
