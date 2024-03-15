@@ -1,0 +1,1030 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Item_info|condition|item_id|latinsqr_list|unique_id
+#T_SP=webanno.custom.Ref_info|PersonalPronouns_detailed|ref_def|ref_function|ref_gender|ref_num
+#T_SP=webanno.custom.Segment|complex|segment_type
+#T_SP=webanno.custom.Sent_layer|feedback_id|item0_verb|item0_verbtype|openq_id|openq_type|sent_type
+#T_SP=webanno.custom.Speaker_meta|age|gender|speaker_id
+#T_SP=webanno.custom.Speaker_name|speaker_name
+#T_CH=de.tudarmstadt.ukp.dkpro.core.api.coref.type.CoreferenceLink|referenceRelation|referenceType
+#T_RL=webanno.custom.Relations|discourse_rel|speechAct_rel|BT_webanno.custom.Segment
+
+
+#Text=Alles klar bei dir?
+1-1	0-5	Alles	GFailure[1]	adoptieren\_set1\_13[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-adoptieren\_set1\_13[1]	_	_	_	_	_	false[89]	Int[89]	*[220]	*[220]	*[220]	yn\_1[220]	yesno\_question[220]	openq[220]	*[340]	male[340]	*[340]	speaker:Tobias[460]	_	_	QAP	*	2-1[90_89]	
+1-2	6-10	klar	GFailure[1]	adoptieren\_set1\_13[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-adoptieren\_set1\_13[1]	_	_	_	_	_	false[89]	Int[89]	*[220]	*[220]	*[220]	yn\_1[220]	yesno\_question[220]	openq[220]	*[340]	male[340]	*[340]	speaker:Tobias[460]	_	_	_	_	_	
+1-3	11-14	bei	GFailure[1]	adoptieren\_set1\_13[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-adoptieren\_set1\_13[1]	_	_	_	_	_	false[89]	Int[89]	*[220]	*[220]	*[220]	yn\_1[220]	yesno\_question[220]	openq[220]	*[340]	male[340]	*[340]	speaker:Tobias[460]	_	_	_	_	_	
+1-4	15-19	dir?	GFailure[1]	adoptieren\_set1\_13[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-adoptieren\_set1\_13[1]	2	*	*	*	singular	false[89]	Int[89]	*[220]	*[220]	*[220]	yn\_1[220]	yesno\_question[220]	openq[220]	*[340]	male[340]	*[340]	speaker:Tobias[460]	*->76-1	PerPron[76]	_	_	_	
+
+#Text=Diana hat eine Katze adoptiert
+2-1	21-26	Diana	GFailure[1]	adoptieren\_set1\_13[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-adoptieren\_set1\_13[1]	*	*	Subj	*	*	false[90]	Decl[90]	*[221]	adoptieren[221]	transitive[221]	*[221]	*[221]	item0[221]	35[341]	female[341]	2k56uavscuainedj0q9i1sb693[341]	speaker: YOU[461]	*->126-1	PropNm[126]	result|CR	*|*	4-1[91_90]|3-1[0_90]	
+2-2	27-30	hat	GFailure[1]	adoptieren\_set1\_13[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-adoptieren\_set1\_13[1]	_	_	_	_	_	false[90]	Decl[90]	*[221]	adoptieren[221]	transitive[221]	*[221]	*[221]	item0[221]	35[341]	female[341]	2k56uavscuainedj0q9i1sb693[341]	speaker: YOU[461]	_	_	_	_	_	
+2-3	31-35	eine	GFailure[1]	adoptieren\_set1\_13[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-adoptieren\_set1\_13[1]	*[31]	*[31]	object[31]	*[31]	*[31]	false[90]	Decl[90]	*[221]	adoptieren[221]	transitive[221]	*[221]	*[221]	item0[221]	35[341]	female[341]	2k56uavscuainedj0q9i1sb693[341]	speaker: YOU[461]	*->3-1	IndefNP[3]	_	_	_	
+2-4	36-41	Katze	GFailure[1]	adoptieren\_set1\_13[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-adoptieren\_set1\_13[1]	*[31]	*[31]	object[31]	*[31]	*[31]	false[90]	Decl[90]	*[221]	adoptieren[221]	transitive[221]	*[221]	*[221]	item0[221]	35[341]	female[341]	2k56uavscuainedj0q9i1sb693[341]	speaker: YOU[461]	*->3-1	IndefNP[3]	_	_	_	
+2-5	42-51	adoptiert	GFailure[1]	adoptieren\_set1\_13[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-adoptieren\_set1\_13[1]	_	_	_	_	_	false[90]	Decl[90]	*[221]	adoptieren[221]	transitive[221]	*[221]	*[221]	item0[221]	35[341]	female[341]	2k56uavscuainedj0q9i1sb693[341]	speaker: YOU[461]	_	_	_	_	_	
+
+#Text=Ähm?
+3-1	53-57	Ähm?	GFailure[1]	adoptieren\_set1\_13[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-adoptieren\_set1\_13[1]	_	_	_	_	_	false	NA	aehm\_question\_5	*	*	*	*	feedback	*	male	*	speaker:Tobias	_	_	_	_	_	
+
+#Text=Meine Mitbewohnerin Diana hat nun eine Katze.
+4-1	59-64	Meine	GFailure[1]	adoptieren\_set1\_13[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-adoptieren\_set1\_13[1]	*[32]|1[33]	*[32]|*[33]	Subj[32]|*[33]	*[32]|*[33]	*[32]|singular[33]	false[91]	Decl[91]	*[222]	*[222]	*[222]	*[222]	*[222]	input1[222]	35[342]	female[342]	2k56uavscuainedj0q9i1sb693[342]	speaker: YOU[462]	*->22-1|*->126-2|*->76-2	clause[22]|PropNm[126]|PossePron[76]	elaboration	*	5-1[92_91]	
+4-2	65-78	Mitbewohnerin	GFailure[1]	adoptieren\_set1\_13[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-adoptieren\_set1\_13[1]	*[32]	*[32]	Subj[32]	*[32]	*[32]	false[91]	Decl[91]	*[222]	*[222]	*[222]	*[222]	*[222]	input1[222]	35[342]	female[342]	2k56uavscuainedj0q9i1sb693[342]	speaker: YOU[462]	*->22-1|*->126-2	clause[22]|PropNm[126]	_	_	_	
+4-3	79-84	Diana	GFailure[1]	adoptieren\_set1\_13[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-adoptieren\_set1\_13[1]	*[32]	*[32]	Subj[32]	*[32]	*[32]	false[91]	Decl[91]	*[222]	*[222]	*[222]	*[222]	*[222]	input1[222]	35[342]	female[342]	2k56uavscuainedj0q9i1sb693[342]	speaker: YOU[462]	*->22-1|*->126-2	clause[22]|PropNm[126]	_	_	_	
+4-4	85-88	hat	GFailure[1]	adoptieren\_set1\_13[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-adoptieren\_set1\_13[1]	_	_	_	_	_	false[91]	Decl[91]	*[222]	*[222]	*[222]	*[222]	*[222]	input1[222]	35[342]	female[342]	2k56uavscuainedj0q9i1sb693[342]	speaker: YOU[462]	*->22-1	clause[22]	_	_	_	
+4-5	89-92	nun	GFailure[1]	adoptieren\_set1\_13[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-adoptieren\_set1\_13[1]	_	_	_	_	_	false[91]	Decl[91]	*[222]	*[222]	*[222]	*[222]	*[222]	input1[222]	35[342]	female[342]	2k56uavscuainedj0q9i1sb693[342]	speaker: YOU[462]	*->22-1	clause[22]	_	_	_	
+4-6	93-97	eine	GFailure[1]	adoptieren\_set1\_13[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-adoptieren\_set1\_13[1]	*[34]	*[34]	DirObj[34]	*[34]	*[34]	false[91]	Decl[91]	*[222]	*[222]	*[222]	*[222]	*[222]	input1[222]	35[342]	female[342]	2k56uavscuainedj0q9i1sb693[342]	speaker: YOU[462]	*->22-1|*->3-2	clause[22]|IndefNP[3]	_	_	_	
+4-7	98-104	Katze.	GFailure[1]	adoptieren\_set1\_13[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-adoptieren\_set1\_13[1]	*[34]	*[34]	DirObj[34]	*[34]	*[34]	false[91]	Decl[91]	*[222]	*[222]	*[222]	*[222]	*[222]	input1[222]	35[342]	female[342]	2k56uavscuainedj0q9i1sb693[342]	speaker: YOU[462]	*->22-1|*->3-2	clause[22]|IndefNP[3]	_	_	_	
+
+#Text=Find ich mega.
+5-1	106-110	Find	GFailure[1]	adoptieren\_set1\_13[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-adoptieren\_set1\_13[1]	_	_	_	_	_	false[92]	Decl[92]	*[223]	*[223]	*[223]	*[223]	*[223]	input2[223]	35[343]	female[343]	2k56uavscuainedj0q9i1sb693[343]	speaker: YOU[463]	*->22-2	zero[22]	_	_	_	
+5-2	111-114	ich	GFailure[1]	adoptieren\_set1\_13[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-adoptieren\_set1\_13[1]	1	*	Subj	*	singular	false[92]	Decl[92]	*[223]	*[223]	*[223]	*[223]	*[223]	input2[223]	35[343]	female[343]	2k56uavscuainedj0q9i1sb693[343]	speaker: YOU[463]	*->76-3	PerPron[76]	_	_	_	
+5-3	115-120	mega.	GFailure[1]	adoptieren\_set1\_13[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-adoptieren\_set1\_13[1]	_	_	_	_	_	false[92]	Decl[92]	*[223]	*[223]	*[223]	*[223]	*[223]	input2[223]	35[343]	female[343]	2k56uavscuainedj0q9i1sb693[343]	speaker: YOU[463]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+6-1	122-137	END_OF_DOCUMENT	GFailure[1]	adoptieren\_set1\_13[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-adoptieren\_set1\_13[1]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+7-1	139-144	Alles	GFailure[2]	adoptieren\_set1\_13[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-adoptieren\_set1\_13[2]	_	_	_	_	_	false[93]	Int[93]	*[224]	*[224]	*[224]	yn\_1[224]	yesno\_question[224]	openq[224]	*[344]	male[344]	*[344]	speaker:Tobias[464]	_	_	QAP	*	8-1[94_93]	
+7-2	145-149	klar	GFailure[2]	adoptieren\_set1\_13[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-adoptieren\_set1\_13[2]	_	_	_	_	_	false[93]	Int[93]	*[224]	*[224]	*[224]	yn\_1[224]	yesno\_question[224]	openq[224]	*[344]	male[344]	*[344]	speaker:Tobias[464]	_	_	_	_	_	
+7-3	150-153	bei	GFailure[2]	adoptieren\_set1\_13[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-adoptieren\_set1\_13[2]	_	_	_	_	_	false[93]	Int[93]	*[224]	*[224]	*[224]	yn\_1[224]	yesno\_question[224]	openq[224]	*[344]	male[344]	*[344]	speaker:Tobias[464]	_	_	_	_	_	
+7-4	154-158	dir?	GFailure[2]	adoptieren\_set1\_13[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-adoptieren\_set1\_13[2]	2	*	*	*	singular	false[93]	Int[93]	*[224]	*[224]	*[224]	yn\_1[224]	yesno\_question[224]	openq[224]	*[344]	male[344]	*[344]	speaker:Tobias[464]	*->71-1	PerPron[71]	_	_	_	
+
+#Text=Diana hat eine Katze adoptiert
+8-1	160-165	Diana	GFailure[2]	adoptieren\_set1\_13[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-adoptieren\_set1\_13[2]	*	*	Subj	*	*	false[94]	Decl[94]	*[225]	adoptieren[225]	transitive[225]	*[225]	*[225]	item0[225]	46[345]	male[345]	7bq5ecc5fndmatjvd44havavdp[345]	speaker: YOU[465]	*->115-1	PropNm[115]	elaboration|CR	*|*	10-1[95_94]|9-1[0_94]	
+8-2	166-169	hat	GFailure[2]	adoptieren\_set1\_13[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-adoptieren\_set1\_13[2]	_	_	_	_	_	false[94]	Decl[94]	*[225]	adoptieren[225]	transitive[225]	*[225]	*[225]	item0[225]	46[345]	male[345]	7bq5ecc5fndmatjvd44havavdp[345]	speaker: YOU[465]	_	_	_	_	_	
+8-3	170-174	eine	GFailure[2]	adoptieren\_set1\_13[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-adoptieren\_set1\_13[2]	*[35]	*[35]	object[35]	*[35]	*[35]	false[94]	Decl[94]	*[225]	adoptieren[225]	transitive[225]	*[225]	*[225]	item0[225]	46[345]	male[345]	7bq5ecc5fndmatjvd44havavdp[345]	speaker: YOU[465]	*->79-1	IndefNP[79]	_	_	_	
+8-4	175-180	Katze	GFailure[2]	adoptieren\_set1\_13[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-adoptieren\_set1\_13[2]	*[35]	*[35]	object[35]	*[35]	*[35]	false[94]	Decl[94]	*[225]	adoptieren[225]	transitive[225]	*[225]	*[225]	item0[225]	46[345]	male[345]	7bq5ecc5fndmatjvd44havavdp[345]	speaker: YOU[465]	*->79-1	IndefNP[79]	_	_	_	
+8-5	181-190	adoptiert	GFailure[2]	adoptieren\_set1\_13[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-adoptieren\_set1\_13[2]	_	_	_	_	_	false[94]	Decl[94]	*[225]	adoptieren[225]	transitive[225]	*[225]	*[225]	item0[225]	46[345]	male[345]	7bq5ecc5fndmatjvd44havavdp[345]	speaker: YOU[465]	_	_	_	_	_	
+
+#Text=Ähm?
+9-1	192-196	Ähm?	GFailure[2]	adoptieren\_set1\_13[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-adoptieren\_set1\_13[2]	_	_	_	_	_	false	NA	aehm\_question\_5	*	*	*	*	feedback	*	male	*	speaker:Tobias	_	_	_	_	_	
+
+#Text=hast richtig gelesen eine Katze
+10-1	198-202	hast	GFailure[2]	adoptieren\_set1\_13[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-adoptieren\_set1\_13[2]	2	*	*	*	singular	false[95]	Decl[95]	*[226]	*[226]	*[226]	*[226]	*[226]	input1[226]	46[346]	male[346]	7bq5ecc5fndmatjvd44havavdp[346]	speaker: YOU[466]	*->36-1	zero[36]	elaboration	*	10-4[96_95]	
+10-2	203-210	richtig	GFailure[2]	adoptieren\_set1\_13[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-adoptieren\_set1\_13[2]	_	_	_	_	_	false[95]	Decl[95]	*[226]	*[226]	*[226]	*[226]	*[226]	input1[226]	46[346]	male[346]	7bq5ecc5fndmatjvd44havavdp[346]	speaker: YOU[466]	_	_	_	_	_	
+10-3	211-218	gelesen	GFailure[2]	adoptieren\_set1\_13[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-adoptieren\_set1\_13[2]	_	_	_	_	_	false[95]	Decl[95]	*[226]	*[226]	*[226]	*[226]	*[226]	input1[226]	46[346]	male[346]	7bq5ecc5fndmatjvd44havavdp[346]	speaker: YOU[466]	_	_	_	_	_	
+10-4	219-223	eine	GFailure[2]	adoptieren\_set1\_13[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-adoptieren\_set1\_13[2]	_	_	_	_	_	false[96]	NA[96]	*[226]	*[226]	*[226]	*[226]	*[226]	input1[226]	46[346]	male[346]	7bq5ecc5fndmatjvd44havavdp[346]	speaker: YOU[466]	*->79-2	IndefNP[79]	contrast	*	11-1[97_96]	
+10-5	224-229	Katze	GFailure[2]	adoptieren\_set1\_13[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-adoptieren\_set1\_13[2]	_	_	_	_	_	false[96]	NA[96]	*[226]	*[226]	*[226]	*[226]	*[226]	input1[226]	46[346]	male[346]	7bq5ecc5fndmatjvd44havavdp[346]	speaker: YOU[466]	*->79-2	IndefNP[79]	_	_	_	
+
+#Text=obwohl sie allergisch ist
+11-1	231-237	obwohl	GFailure[2]	adoptieren\_set1\_13[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-adoptieren\_set1\_13[2]	_	_	_	_	_	false[97]	NA[97]	*[227]	*[227]	*[227]	*[227]	*[227]	input2[227]	46[347]	male[347]	7bq5ecc5fndmatjvd44havavdp[347]	speaker: YOU[467]	_	_	_	_	_	
+11-2	238-241	sie	GFailure[2]	adoptieren\_set1\_13[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-adoptieren\_set1\_13[2]	3	*	Subj	f	singular	false[97]	NA[97]	*[227]	*[227]	*[227]	*[227]	*[227]	input2[227]	46[347]	male[347]	7bq5ecc5fndmatjvd44havavdp[347]	speaker: YOU[467]	*->115-2	PerPron[115]	_	_	_	
+11-3	242-252	allergisch	GFailure[2]	adoptieren\_set1\_13[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-adoptieren\_set1\_13[2]	_	_	_	_	_	false[97]	NA[97]	*[227]	*[227]	*[227]	*[227]	*[227]	input2[227]	46[347]	male[347]	7bq5ecc5fndmatjvd44havavdp[347]	speaker: YOU[467]	_	_	_	_	_	
+11-4	253-256	ist	GFailure[2]	adoptieren\_set1\_13[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-adoptieren\_set1\_13[2]	_	_	_	_	_	false[97]	NA[97]	*[227]	*[227]	*[227]	*[227]	*[227]	input2[227]	46[347]	male[347]	7bq5ecc5fndmatjvd44havavdp[347]	speaker: YOU[467]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+12-1	258-273	END_OF_DOCUMENT	GFailure[2]	adoptieren\_set1\_13[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-adoptieren\_set1\_13[2]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+13-1	275-280	Alles	GFailure[3]	adoptieren\_set1\_13[3]	latin1[3]	9bb79dhfhst017575orahklqol-adoptieren\_set1\_13[3]	_	_	_	_	_	false[98]	Int[98]	*[228]	*[228]	*[228]	yn\_1[228]	yesno\_question[228]	openq[228]	*[348]	male[348]	*[348]	speaker:Tobias[468]	_	_	QAP	*	14-1[99_98]	
+13-2	281-285	klar	GFailure[3]	adoptieren\_set1\_13[3]	latin1[3]	9bb79dhfhst017575orahklqol-adoptieren\_set1\_13[3]	_	_	_	_	_	false[98]	Int[98]	*[228]	*[228]	*[228]	yn\_1[228]	yesno\_question[228]	openq[228]	*[348]	male[348]	*[348]	speaker:Tobias[468]	_	_	_	_	_	
+13-3	286-289	bei	GFailure[3]	adoptieren\_set1\_13[3]	latin1[3]	9bb79dhfhst017575orahklqol-adoptieren\_set1\_13[3]	_	_	_	_	_	false[98]	Int[98]	*[228]	*[228]	*[228]	yn\_1[228]	yesno\_question[228]	openq[228]	*[348]	male[348]	*[348]	speaker:Tobias[468]	_	_	_	_	_	
+13-4	290-294	dir?	GFailure[3]	adoptieren\_set1\_13[3]	latin1[3]	9bb79dhfhst017575orahklqol-adoptieren\_set1\_13[3]	2	*	*	*	singular	false[98]	Int[98]	*[228]	*[228]	*[228]	yn\_1[228]	yesno\_question[228]	openq[228]	*[348]	male[348]	*[348]	speaker:Tobias[468]	*->125-1	PerPron[125]	_	_	_	
+
+#Text=Diana hat eine Katze adoptiert
+14-1	296-301	Diana	GFailure[3]	adoptieren\_set1\_13[3]	latin1[3]	9bb79dhfhst017575orahklqol-adoptieren\_set1\_13[3]	*	*	Subj	*	*	false[99]	Decl[99]	*[229]	adoptieren[229]	transitive[229]	*[229]	*[229]	item0[229]	37[349]	female[349]	9bb79dhfhst017575orahklqol[349]	speaker: YOU[469]	*->44-1	PropNm[44]	elaboration|CR	*|*	17-1[102_99]|15-1[0_99]	
+14-2	302-305	hat	GFailure[3]	adoptieren\_set1\_13[3]	latin1[3]	9bb79dhfhst017575orahklqol-adoptieren\_set1\_13[3]	_	_	_	_	_	false[99]	Decl[99]	*[229]	adoptieren[229]	transitive[229]	*[229]	*[229]	item0[229]	37[349]	female[349]	9bb79dhfhst017575orahklqol[349]	speaker: YOU[469]	_	_	_	_	_	
+14-3	306-310	eine	GFailure[3]	adoptieren\_set1\_13[3]	latin1[3]	9bb79dhfhst017575orahklqol-adoptieren\_set1\_13[3]	*[36]	*[36]	object[36]	*[36]	*[36]	false[99]	Decl[99]	*[229]	adoptieren[229]	transitive[229]	*[229]	*[229]	item0[229]	37[349]	female[349]	9bb79dhfhst017575orahklqol[349]	speaker: YOU[469]	*->98-1	IndefNP[98]	_	_	_	
+14-4	311-316	Katze	GFailure[3]	adoptieren\_set1\_13[3]	latin1[3]	9bb79dhfhst017575orahklqol-adoptieren\_set1\_13[3]	*[36]	*[36]	object[36]	*[36]	*[36]	false[99]	Decl[99]	*[229]	adoptieren[229]	transitive[229]	*[229]	*[229]	item0[229]	37[349]	female[349]	9bb79dhfhst017575orahklqol[349]	speaker: YOU[469]	*->98-1	IndefNP[98]	_	_	_	
+14-5	317-326	adoptiert	GFailure[3]	adoptieren\_set1\_13[3]	latin1[3]	9bb79dhfhst017575orahklqol-adoptieren\_set1\_13[3]	_	_	_	_	_	false[99]	Decl[99]	*[229]	adoptieren[229]	transitive[229]	*[229]	*[229]	item0[229]	37[349]	female[349]	9bb79dhfhst017575orahklqol[349]	speaker: YOU[469]	_	_	_	_	_	
+
+#Text=Ähm?
+15-1	328-332	Ähm?	GFailure[3]	adoptieren\_set1\_13[3]	latin1[3]	9bb79dhfhst017575orahklqol-adoptieren\_set1\_13[3]	_	_	_	_	_	false	NA	aehm\_question\_5	*	*	*	*	feedback	*	male	*	speaker:Tobias	_	_	parallel	*	16-3[101_0]	
+
+#Text=Ich weiss ich war genauso geschockt
+16-1	334-337	Ich	GFailure[3]	adoptieren\_set1\_13[3]	latin1[3]	9bb79dhfhst017575orahklqol-adoptieren\_set1\_13[3]	1	*	Subj	*	singular	false[100]	Decl[100]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	37[350]	female[350]	9bb79dhfhst017575orahklqol[350]	speaker: YOU[470]	*->125-2	PerPron[125]	_	_	_	
+16-2	338-343	weiss	GFailure[3]	adoptieren\_set1\_13[3]	latin1[3]	9bb79dhfhst017575orahklqol-adoptieren\_set1\_13[3]	_	_	_	_	_	false[100]	Decl[100]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	37[350]	female[350]	9bb79dhfhst017575orahklqol[350]	speaker: YOU[470]	_	_	_	_	_	
+16-3	344-347	ich	GFailure[3]	adoptieren\_set1\_13[3]	latin1[3]	9bb79dhfhst017575orahklqol-adoptieren\_set1\_13[3]	1	*	Subj	*	singular	false[101]	Decl[101]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	37[350]	female[350]	9bb79dhfhst017575orahklqol[350]	speaker: YOU[470]	*->125-3	PerPron[125]	_	_	_	
+16-4	348-351	war	GFailure[3]	adoptieren\_set1\_13[3]	latin1[3]	9bb79dhfhst017575orahklqol-adoptieren\_set1\_13[3]	_	_	_	_	_	false[101]	Decl[101]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	37[350]	female[350]	9bb79dhfhst017575orahklqol[350]	speaker: YOU[470]	_	_	_	_	_	
+16-5	352-359	genauso	GFailure[3]	adoptieren\_set1\_13[3]	latin1[3]	9bb79dhfhst017575orahklqol-adoptieren\_set1\_13[3]	_	_	_	_	_	false[101]	Decl[101]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	37[350]	female[350]	9bb79dhfhst017575orahklqol[350]	speaker: YOU[470]	_	_	_	_	_	
+16-6	360-369	geschockt	GFailure[3]	adoptieren\_set1\_13[3]	latin1[3]	9bb79dhfhst017575orahklqol-adoptieren\_set1\_13[3]	_	_	_	_	_	false[101]	Decl[101]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	37[350]	female[350]	9bb79dhfhst017575orahklqol[350]	speaker: YOU[470]	_	_	_	_	_	
+
+#Text=die Katze ist niedlich
+17-1	371-374	die	GFailure[3]	adoptieren\_set1\_13[3]	latin1[3]	9bb79dhfhst017575orahklqol-adoptieren\_set1\_13[3]	*[37]	*[37]	Subj[37]	*[37]	*[37]	false[102]	Decl[102]	*[231]	*[231]	*[231]	*[231]	*[231]	input2[231]	37[351]	female[351]	9bb79dhfhst017575orahklqol[351]	speaker: YOU[471]	*->98-2	DefNP[98]	_	_	_	
+17-2	375-380	Katze	GFailure[3]	adoptieren\_set1\_13[3]	latin1[3]	9bb79dhfhst017575orahklqol-adoptieren\_set1\_13[3]	*[37]	*[37]	Subj[37]	*[37]	*[37]	false[102]	Decl[102]	*[231]	*[231]	*[231]	*[231]	*[231]	input2[231]	37[351]	female[351]	9bb79dhfhst017575orahklqol[351]	speaker: YOU[471]	*->98-2	DefNP[98]	_	_	_	
+17-3	381-384	ist	GFailure[3]	adoptieren\_set1\_13[3]	latin1[3]	9bb79dhfhst017575orahklqol-adoptieren\_set1\_13[3]	_	_	_	_	_	false[102]	Decl[102]	*[231]	*[231]	*[231]	*[231]	*[231]	input2[231]	37[351]	female[351]	9bb79dhfhst017575orahklqol[351]	speaker: YOU[471]	_	_	_	_	_	
+17-4	385-393	niedlich	GFailure[3]	adoptieren\_set1\_13[3]	latin1[3]	9bb79dhfhst017575orahklqol-adoptieren\_set1\_13[3]	_	_	_	_	_	false[102]	Decl[102]	*[231]	*[231]	*[231]	*[231]	*[231]	input2[231]	37[351]	female[351]	9bb79dhfhst017575orahklqol[351]	speaker: YOU[471]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+18-1	395-410	END_OF_DOCUMENT	GFailure[3]	adoptieren\_set1\_13[3]	latin1[3]	9bb79dhfhst017575orahklqol-adoptieren\_set1\_13[3]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+19-1	412-417	Alles	GFailure[4]	adoptieren\_set1\_13[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-adoptieren\_set1\_13[4]	_	_	_	_	_	false[103]	Int[103]	*[232]	*[232]	*[232]	yn\_1[232]	yesno\_question[232]	openq[232]	*[352]	male[352]	*[352]	speaker:Tobias[472]	_	_	QAP	*	20-1[104_103]	
+19-2	418-422	klar	GFailure[4]	adoptieren\_set1\_13[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-adoptieren\_set1\_13[4]	_	_	_	_	_	false[103]	Int[103]	*[232]	*[232]	*[232]	yn\_1[232]	yesno\_question[232]	openq[232]	*[352]	male[352]	*[352]	speaker:Tobias[472]	_	_	_	_	_	
+19-3	423-426	bei	GFailure[4]	adoptieren\_set1\_13[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-adoptieren\_set1\_13[4]	_	_	_	_	_	false[103]	Int[103]	*[232]	*[232]	*[232]	yn\_1[232]	yesno\_question[232]	openq[232]	*[352]	male[352]	*[352]	speaker:Tobias[472]	_	_	_	_	_	
+19-4	427-431	dir?	GFailure[4]	adoptieren\_set1\_13[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-adoptieren\_set1\_13[4]	2	*	*	*	singular	false[103]	Int[103]	*[232]	*[232]	*[232]	yn\_1[232]	yesno\_question[232]	openq[232]	*[352]	male[352]	*[352]	speaker:Tobias[472]	*->40-1	PerPron[40]	_	_	_	
+
+#Text=Diana hat eine Katze adoptiert
+20-1	433-438	Diana	GFailure[4]	adoptieren\_set1\_13[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-adoptieren\_set1\_13[4]	*	*	Subj	*	*	false[104]	Decl[104]	*[233]	adoptieren[233]	transitive[233]	*[233]	*[233]	item0[233]	21[353]	male[353]	afpst3sherp4732c4se5ajftkq[353]	speaker: YOU[473]	*->99-1	PropNm[99]	explanation|CR	*|*	22-1[105_104]|21-1[0_104]	
+20-2	439-442	hat	GFailure[4]	adoptieren\_set1\_13[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-adoptieren\_set1\_13[4]	_	_	_	_	_	false[104]	Decl[104]	*[233]	adoptieren[233]	transitive[233]	*[233]	*[233]	item0[233]	21[353]	male[353]	afpst3sherp4732c4se5ajftkq[353]	speaker: YOU[473]	_	_	_	_	_	
+20-3	443-447	eine	GFailure[4]	adoptieren\_set1\_13[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-adoptieren\_set1\_13[4]	*[38]	*[38]	object[38]	*[38]	*[38]	false[104]	Decl[104]	*[233]	adoptieren[233]	transitive[233]	*[233]	*[233]	item0[233]	21[353]	male[353]	afpst3sherp4732c4se5ajftkq[353]	speaker: YOU[473]	*->72-1	IndefNP[72]	_	_	_	
+20-4	448-453	Katze	GFailure[4]	adoptieren\_set1\_13[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-adoptieren\_set1\_13[4]	*[38]	*[38]	object[38]	*[38]	*[38]	false[104]	Decl[104]	*[233]	adoptieren[233]	transitive[233]	*[233]	*[233]	item0[233]	21[353]	male[353]	afpst3sherp4732c4se5ajftkq[353]	speaker: YOU[473]	*->72-1	IndefNP[72]	_	_	_	
+20-5	454-463	adoptiert	GFailure[4]	adoptieren\_set1\_13[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-adoptieren\_set1\_13[4]	_	_	_	_	_	false[104]	Decl[104]	*[233]	adoptieren[233]	transitive[233]	*[233]	*[233]	item0[233]	21[353]	male[353]	afpst3sherp4732c4se5ajftkq[353]	speaker: YOU[473]	_	_	_	_	_	
+
+#Text=Ähm?
+21-1	465-469	Ähm?	GFailure[4]	adoptieren\_set1\_13[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-adoptieren\_set1\_13[4]	_	_	_	_	_	false	NA	aehm\_question\_5	*	*	*	*	feedback	*	male	*	speaker:Tobias	_	_	_	_	_	
+
+#Text=Sie wäre sonst auf der Straße gelandet.
+22-1	471-474	Sie	GFailure[4]	adoptieren\_set1\_13[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-adoptieren\_set1\_13[4]	3	*	Subj	f	singular	false[105]	Decl[105]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	21[354]	male[354]	afpst3sherp4732c4se5ajftkq[354]	speaker: YOU[474]	*->72-2	PerPron[72]	_	_	_	
+22-2	475-479	wäre	GFailure[4]	adoptieren\_set1\_13[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-adoptieren\_set1\_13[4]	_	_	_	_	_	false[105]	Decl[105]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	21[354]	male[354]	afpst3sherp4732c4se5ajftkq[354]	speaker: YOU[474]	_	_	_	_	_	
+22-3	480-485	sonst	GFailure[4]	adoptieren\_set1\_13[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-adoptieren\_set1\_13[4]	_	_	_	_	_	false[105]	Decl[105]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	21[354]	male[354]	afpst3sherp4732c4se5ajftkq[354]	speaker: YOU[474]	_	_	_	_	_	
+22-4	486-489	auf	GFailure[4]	adoptieren\_set1\_13[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-adoptieren\_set1\_13[4]	_	_	_	_	_	false[105]	Decl[105]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	21[354]	male[354]	afpst3sherp4732c4se5ajftkq[354]	speaker: YOU[474]	_	_	_	_	_	
+22-5	490-493	der	GFailure[4]	adoptieren\_set1\_13[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-adoptieren\_set1\_13[4]	*[39]	*[39]	PrepObj[39]	*[39]	*[39]	false[105]	Decl[105]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	21[354]	male[354]	afpst3sherp4732c4se5ajftkq[354]	speaker: YOU[474]	*->20-1	DefNP[20]	_	_	_	
+22-6	494-500	Straße	GFailure[4]	adoptieren\_set1\_13[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-adoptieren\_set1\_13[4]	*[39]	*[39]	PrepObj[39]	*[39]	*[39]	false[105]	Decl[105]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	21[354]	male[354]	afpst3sherp4732c4se5ajftkq[354]	speaker: YOU[474]	*->20-1	DefNP[20]	_	_	_	
+22-7	501-510	gelandet.	GFailure[4]	adoptieren\_set1\_13[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-adoptieren\_set1\_13[4]	_	_	_	_	_	false[105]	Decl[105]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	21[354]	male[354]	afpst3sherp4732c4se5ajftkq[354]	speaker: YOU[474]	_	_	_	_	_	
+
+#Text=Also hat Sie sie adoptiert.
+23-1	512-516	Also	GFailure[4]	adoptieren\_set1\_13[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-adoptieren\_set1\_13[4]	_	_	_	_	_	false[106]	Decl[106]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	21[355]	male[355]	afpst3sherp4732c4se5ajftkq[355]	speaker: YOU[475]	_	_	_	_	_	
+23-2	517-520	hat	GFailure[4]	adoptieren\_set1\_13[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-adoptieren\_set1\_13[4]	_	_	_	_	_	false[106]	Decl[106]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	21[355]	male[355]	afpst3sherp4732c4se5ajftkq[355]	speaker: YOU[475]	_	_	_	_	_	
+23-3	521-524	Sie	GFailure[4]	adoptieren\_set1\_13[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-adoptieren\_set1\_13[4]	3	*	Subj	f	singular	false[106]	Decl[106]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	21[355]	male[355]	afpst3sherp4732c4se5ajftkq[355]	speaker: YOU[475]	*->99-2	PerPron[99]	_	_	_	
+23-4	525-528	sie	GFailure[4]	adoptieren\_set1\_13[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-adoptieren\_set1\_13[4]	3	*	DirObj	f	singular	false[106]	Decl[106]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	21[355]	male[355]	afpst3sherp4732c4se5ajftkq[355]	speaker: YOU[475]	*->72-3	PerPron[72]	_	_	_	
+23-5	529-539	adoptiert.	GFailure[4]	adoptieren\_set1\_13[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-adoptieren\_set1\_13[4]	_	_	_	_	_	false[106]	Decl[106]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	21[355]	male[355]	afpst3sherp4732c4se5ajftkq[355]	speaker: YOU[475]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+24-1	541-556	END_OF_DOCUMENT	GFailure[4]	adoptieren\_set1\_13[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-adoptieren\_set1\_13[4]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+25-1	558-563	Alles	GFailure[5]	adoptieren\_set1\_13[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-adoptieren\_set1\_13[5]	_	_	_	_	_	false[107]	Int[107]	*[236]	*[236]	*[236]	yn\_1[236]	yesno\_question[236]	openq[236]	*[356]	male[356]	*[356]	speaker:Tobias[476]	_	_	QAP	*	26-1[108_107]	
+25-2	564-568	klar	GFailure[5]	adoptieren\_set1\_13[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-adoptieren\_set1\_13[5]	_	_	_	_	_	false[107]	Int[107]	*[236]	*[236]	*[236]	yn\_1[236]	yesno\_question[236]	openq[236]	*[356]	male[356]	*[356]	speaker:Tobias[476]	_	_	_	_	_	
+25-3	569-572	bei	GFailure[5]	adoptieren\_set1\_13[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-adoptieren\_set1\_13[5]	_	_	_	_	_	false[107]	Int[107]	*[236]	*[236]	*[236]	yn\_1[236]	yesno\_question[236]	openq[236]	*[356]	male[356]	*[356]	speaker:Tobias[476]	_	_	_	_	_	
+25-4	573-577	dir?	GFailure[5]	adoptieren\_set1\_13[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-adoptieren\_set1\_13[5]	2	*	*	*	singular	false[107]	Int[107]	*[236]	*[236]	*[236]	yn\_1[236]	yesno\_question[236]	openq[236]	*[356]	male[356]	*[356]	speaker:Tobias[476]	*->13-1	PerPron[13]	_	_	_	
+
+#Text=Diana hat eine Katze adoptiert
+26-1	579-584	Diana	GFailure[5]	adoptieren\_set1\_13[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-adoptieren\_set1\_13[5]	*	*	Subj	*	*	false[108]	Decl[108]	*[237]	adoptieren[237]	transitive[237]	*[237]	*[237]	item0[237]	42[357]	female[357]	blj8i1h4sc8jti0m6gcav1c9ek[357]	speaker: YOU[477]	*->21-1	PropNm[21]	explanation|elaboration|CR	*|*|*	28-1[109_108]|28-8[110_108]|27-1[0_108]	
+26-2	585-588	hat	GFailure[5]	adoptieren\_set1\_13[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-adoptieren\_set1\_13[5]	_	_	_	_	_	false[108]	Decl[108]	*[237]	adoptieren[237]	transitive[237]	*[237]	*[237]	item0[237]	42[357]	female[357]	blj8i1h4sc8jti0m6gcav1c9ek[357]	speaker: YOU[477]	_	_	_	_	_	
+26-3	589-593	eine	GFailure[5]	adoptieren\_set1\_13[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-adoptieren\_set1\_13[5]	*[40]	*[40]	object[40]	*[40]	*[40]	false[108]	Decl[108]	*[237]	adoptieren[237]	transitive[237]	*[237]	*[237]	item0[237]	42[357]	female[357]	blj8i1h4sc8jti0m6gcav1c9ek[357]	speaker: YOU[477]	*->32-1	IndefNP[32]	_	_	_	
+26-4	594-599	Katze	GFailure[5]	adoptieren\_set1\_13[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-adoptieren\_set1\_13[5]	*[40]	*[40]	object[40]	*[40]	*[40]	false[108]	Decl[108]	*[237]	adoptieren[237]	transitive[237]	*[237]	*[237]	item0[237]	42[357]	female[357]	blj8i1h4sc8jti0m6gcav1c9ek[357]	speaker: YOU[477]	*->32-1	IndefNP[32]	_	_	_	
+26-5	600-609	adoptiert	GFailure[5]	adoptieren\_set1\_13[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-adoptieren\_set1\_13[5]	_	_	_	_	_	false[108]	Decl[108]	*[237]	adoptieren[237]	transitive[237]	*[237]	*[237]	item0[237]	42[357]	female[357]	blj8i1h4sc8jti0m6gcav1c9ek[357]	speaker: YOU[477]	_	_	_	_	_	
+
+#Text=Ähm?
+27-1	611-615	Ähm?	GFailure[5]	adoptieren\_set1\_13[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-adoptieren\_set1\_13[5]	_	_	_	_	_	false	NA	aehm\_question\_5	*	*	*	*	feedback	*	male	*	speaker:Tobias	_	_	_	_	_	
+
+#Text=Diana wollte schon lange ein Haustier <BR> heute hat sie eine Katze bei sich aufgenommen.
+28-1	617-622	Diana	GFailure[5]	adoptieren\_set1\_13[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-adoptieren\_set1\_13[5]	*	*	Subj	*	*	false[109]	Decl[109]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	42[358]	female[358]	blj8i1h4sc8jti0m6gcav1c9ek[358]	speaker: YOU[478]	*->21-2	PropNm[21]	result	*	28-8[110_109]	
+28-2	623-629	wollte	GFailure[5]	adoptieren\_set1\_13[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-adoptieren\_set1\_13[5]	_	_	_	_	_	false[109]	Decl[109]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	42[358]	female[358]	blj8i1h4sc8jti0m6gcav1c9ek[358]	speaker: YOU[478]	_	_	_	_	_	
+28-3	630-635	schon	GFailure[5]	adoptieren\_set1\_13[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-adoptieren\_set1\_13[5]	_	_	_	_	_	false[109]	Decl[109]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	42[358]	female[358]	blj8i1h4sc8jti0m6gcav1c9ek[358]	speaker: YOU[478]	_	_	_	_	_	
+28-4	636-641	lange	GFailure[5]	adoptieren\_set1\_13[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-adoptieren\_set1\_13[5]	_	_	_	_	_	false[109]	Decl[109]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	42[358]	female[358]	blj8i1h4sc8jti0m6gcav1c9ek[358]	speaker: YOU[478]	_	_	_	_	_	
+28-5	642-645	ein	GFailure[5]	adoptieren\_set1\_13[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-adoptieren\_set1\_13[5]	*[41]	*[41]	DirObj[41]	*[41]	*[41]	false[109]	Decl[109]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	42[358]	female[358]	blj8i1h4sc8jti0m6gcav1c9ek[358]	speaker: YOU[478]	*->42-1	IndefNP[42]	_	_	_	
+28-6	646-654	Haustier	GFailure[5]	adoptieren\_set1\_13[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-adoptieren\_set1\_13[5]	*[41]	*[41]	DirObj[41]	*[41]	*[41]	false[109]	Decl[109]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	42[358]	female[358]	blj8i1h4sc8jti0m6gcav1c9ek[358]	speaker: YOU[478]	*->42-1	IndefNP[42]	_	_	_	
+28-7	655-659	<BR>	GFailure[5]	adoptieren\_set1\_13[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-adoptieren\_set1\_13[5]	_	_	_	_	_	_	_	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	42[358]	female[358]	blj8i1h4sc8jti0m6gcav1c9ek[358]	speaker: YOU[478]	_	_	_	_	_	
+28-8	660-665	heute	GFailure[5]	adoptieren\_set1\_13[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-adoptieren\_set1\_13[5]	_	_	_	_	_	false[110]	Decl[110]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	42[358]	female[358]	blj8i1h4sc8jti0m6gcav1c9ek[358]	speaker: YOU[478]	_	_	_	_	_	
+28-9	666-669	hat	GFailure[5]	adoptieren\_set1\_13[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-adoptieren\_set1\_13[5]	_	_	_	_	_	false[110]	Decl[110]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	42[358]	female[358]	blj8i1h4sc8jti0m6gcav1c9ek[358]	speaker: YOU[478]	_	_	_	_	_	
+28-10	670-673	sie	GFailure[5]	adoptieren\_set1\_13[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-adoptieren\_set1\_13[5]	3	*	Subj	f	singular	false[110]	Decl[110]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	42[358]	female[358]	blj8i1h4sc8jti0m6gcav1c9ek[358]	speaker: YOU[478]	*->21-3	PerPron[21]	_	_	_	
+28-11	674-678	eine	GFailure[5]	adoptieren\_set1\_13[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-adoptieren\_set1\_13[5]	*[42]	*[42]	DirObj[42]	*[42]	*[42]	false[110]	Decl[110]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	42[358]	female[358]	blj8i1h4sc8jti0m6gcav1c9ek[358]	speaker: YOU[478]	*->32-2	IndefNP[32]	_	_	_	
+28-12	679-684	Katze	GFailure[5]	adoptieren\_set1\_13[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-adoptieren\_set1\_13[5]	*[42]	*[42]	DirObj[42]	*[42]	*[42]	false[110]	Decl[110]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	42[358]	female[358]	blj8i1h4sc8jti0m6gcav1c9ek[358]	speaker: YOU[478]	*->32-2	IndefNP[32]	_	_	_	
+28-13	685-688	bei	GFailure[5]	adoptieren\_set1\_13[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-adoptieren\_set1\_13[5]	_	_	_	_	_	false[110]	Decl[110]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	42[358]	female[358]	blj8i1h4sc8jti0m6gcav1c9ek[358]	speaker: YOU[478]	_	_	_	_	_	
+28-14	689-693	sich	GFailure[5]	adoptieren\_set1\_13[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-adoptieren\_set1\_13[5]	_	_	_	_	_	false[110]	Decl[110]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	42[358]	female[358]	blj8i1h4sc8jti0m6gcav1c9ek[358]	speaker: YOU[478]	_	_	_	_	_	
+28-15	694-706	aufgenommen.	GFailure[5]	adoptieren\_set1\_13[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-adoptieren\_set1\_13[5]	_	_	_	_	_	false[110]	Decl[110]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	42[358]	female[358]	blj8i1h4sc8jti0m6gcav1c9ek[358]	speaker: YOU[478]	_	_	_	_	_	
+
+#Text=Magst Du Katzen?
+29-1	708-713	Magst	GFailure[5]	adoptieren\_set1\_13[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-adoptieren\_set1\_13[5]	_	_	_	_	_	false[111]	Int[111]	*[239]	*[239]	*[239]	*[239]	*[239]	input2[239]	42[359]	female[359]	blj8i1h4sc8jti0m6gcav1c9ek[359]	speaker: YOU[479]	_	_	_	_	_	
+29-2	714-716	Du	GFailure[5]	adoptieren\_set1\_13[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-adoptieren\_set1\_13[5]	2	*	*	*	singular	false[111]	Int[111]	*[239]	*[239]	*[239]	*[239]	*[239]	input2[239]	42[359]	female[359]	blj8i1h4sc8jti0m6gcav1c9ek[359]	speaker: YOU[479]	*->77-1	PerPron[77]	_	_	_	
+29-3	717-724	Katzen?	GFailure[5]	adoptieren\_set1\_13[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-adoptieren\_set1\_13[5]	*	*	DirObj	*	*	false[111]	Int[111]	*[239]	*[239]	*[239]	*[239]	*[239]	input2[239]	42[359]	female[359]	blj8i1h4sc8jti0m6gcav1c9ek[359]	speaker: YOU[479]	*->73-1	IndefNP[73]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+30-1	726-741	END_OF_DOCUMENT	GFailure[5]	adoptieren\_set1\_13[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-adoptieren\_set1\_13[5]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+31-1	743-748	Alles	GFailure[6]	adoptieren\_set1\_13[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-adoptieren\_set1\_13[6]	_	_	_	_	_	false[112]	Int[112]	*[240]	*[240]	*[240]	yn\_1[240]	yesno\_question[240]	openq[240]	*[360]	male[360]	*[360]	speaker:Tobias[480]	_	_	QAP	*	32-1[113_112]	
+31-2	749-753	klar	GFailure[6]	adoptieren\_set1\_13[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-adoptieren\_set1\_13[6]	_	_	_	_	_	false[112]	Int[112]	*[240]	*[240]	*[240]	yn\_1[240]	yesno\_question[240]	openq[240]	*[360]	male[360]	*[360]	speaker:Tobias[480]	_	_	_	_	_	
+31-3	754-757	bei	GFailure[6]	adoptieren\_set1\_13[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-adoptieren\_set1\_13[6]	_	_	_	_	_	false[112]	Int[112]	*[240]	*[240]	*[240]	yn\_1[240]	yesno\_question[240]	openq[240]	*[360]	male[360]	*[360]	speaker:Tobias[480]	_	_	_	_	_	
+31-4	758-762	dir?	GFailure[6]	adoptieren\_set1\_13[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-adoptieren\_set1\_13[6]	2	*	*	*	singular	false[112]	Int[112]	*[240]	*[240]	*[240]	yn\_1[240]	yesno\_question[240]	openq[240]	*[360]	male[360]	*[360]	speaker:Tobias[480]	*->35-1	PerPron[35]	_	_	_	
+
+#Text=Diana hat eine Katze adoptiert
+32-1	764-769	Diana	GFailure[6]	adoptieren\_set1\_13[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-adoptieren\_set1\_13[6]	*	*	Subj	*	*	false[113]	Decl[113]	*[241]	adoptieren[241]	transitive[241]	*[241]	*[241]	item0[241]	42[361]	female[361]	h05ingrcngdnasp07727nvoq59[361]	speaker: YOU[481]	*->10-1	PropNm[10]	elaboration|CR	*|*	34-1[0_113]|33-1[0_113]	
+32-2	770-773	hat	GFailure[6]	adoptieren\_set1\_13[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-adoptieren\_set1\_13[6]	_	_	_	_	_	false[113]	Decl[113]	*[241]	adoptieren[241]	transitive[241]	*[241]	*[241]	item0[241]	42[361]	female[361]	h05ingrcngdnasp07727nvoq59[361]	speaker: YOU[481]	_	_	_	_	_	
+32-3	774-778	eine	GFailure[6]	adoptieren\_set1\_13[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-adoptieren\_set1\_13[6]	*[43]	*[43]	object[43]	*[43]	*[43]	false[113]	Decl[113]	*[241]	adoptieren[241]	transitive[241]	*[241]	*[241]	item0[241]	42[361]	female[361]	h05ingrcngdnasp07727nvoq59[361]	speaker: YOU[481]	*->54-1	IndefNP[54]	_	_	_	
+32-4	779-784	Katze	GFailure[6]	adoptieren\_set1\_13[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-adoptieren\_set1\_13[6]	*[43]	*[43]	object[43]	*[43]	*[43]	false[113]	Decl[113]	*[241]	adoptieren[241]	transitive[241]	*[241]	*[241]	item0[241]	42[361]	female[361]	h05ingrcngdnasp07727nvoq59[361]	speaker: YOU[481]	*->54-1	IndefNP[54]	_	_	_	
+32-5	785-794	adoptiert	GFailure[6]	adoptieren\_set1\_13[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-adoptieren\_set1\_13[6]	_	_	_	_	_	false[113]	Decl[113]	*[241]	adoptieren[241]	transitive[241]	*[241]	*[241]	item0[241]	42[361]	female[361]	h05ingrcngdnasp07727nvoq59[361]	speaker: YOU[481]	_	_	_	_	_	
+
+#Text=Ähm?
+33-1	796-800	Ähm?	GFailure[6]	adoptieren\_set1\_13[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-adoptieren\_set1\_13[6]	_	_	_	_	_	false	NA	aehm\_question\_5	*	*	*	*	feedback	*	male	*	speaker:Tobias	_	_	_	_	_	
+
+#Text=Ja <BR> von einer Nachbarskatze.
+34-1	802-804	Ja	GFailure[6]	adoptieren\_set1\_13[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-adoptieren\_set1\_13[6]	_	_	_	_	_	false	NA	*[242]	*[242]	*[242]	*[242]	*[242]	input1[242]	42[362]	female[362]	h05ingrcngdnasp07727nvoq59[362]	speaker: YOU[482]	_	_	elaboration|elaboration	*|*	34-3[114_0]|35-1[115_0]	
+34-2	805-809	<BR>	GFailure[6]	adoptieren\_set1\_13[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-adoptieren\_set1\_13[6]	_	_	_	_	_	_	_	*[242]	*[242]	*[242]	*[242]	*[242]	input1[242]	42[362]	female[362]	h05ingrcngdnasp07727nvoq59[362]	speaker: YOU[482]	_	_	_	_	_	
+34-3	810-813	von	GFailure[6]	adoptieren\_set1\_13[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-adoptieren\_set1\_13[6]	_	_	_	_	_	false[114]	NA[114]	*[242]	*[242]	*[242]	*[242]	*[242]	input1[242]	42[362]	female[362]	h05ingrcngdnasp07727nvoq59[362]	speaker: YOU[482]	_	_	_	_	_	
+34-4	814-819	einer	GFailure[6]	adoptieren\_set1\_13[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-adoptieren\_set1\_13[6]	*[44]	*[44]	PrepObj[44]	*[44]	*[44]	false[114]	NA[114]	*[242]	*[242]	*[242]	*[242]	*[242]	input1[242]	42[362]	female[362]	h05ingrcngdnasp07727nvoq59[362]	speaker: YOU[482]	*->108-1	IndefNP[108]	_	_	_	
+34-5	820-834	Nachbarskatze.	GFailure[6]	adoptieren\_set1\_13[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-adoptieren\_set1\_13[6]	*[44]	*[44]	PrepObj[44]	*[44]	*[44]	false[114]	NA[114]	*[242]	*[242]	*[242]	*[242]	*[242]	input1[242]	42[362]	female[362]	h05ingrcngdnasp07727nvoq59[362]	speaker: YOU[482]	*->108-1	IndefNP[108]	_	_	_	
+
+#Text=Bin gespannt <BR> ob sie sie behält
+35-1	836-839	Bin	GFailure[6]	adoptieren\_set1\_13[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-adoptieren\_set1\_13[6]	1	*	*	*	singular	false[115]	Decl[115]	*[243]	*[243]	*[243]	*[243]	*[243]	input2[243]	42[363]	female[363]	h05ingrcngdnasp07727nvoq59[363]	speaker: YOU[483]	*->35-2	zero[35]	elaboration	*	35-4[116_115]	
+35-2	840-848	gespannt	GFailure[6]	adoptieren\_set1\_13[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-adoptieren\_set1\_13[6]	_	_	_	_	_	false[115]	Decl[115]	*[243]	*[243]	*[243]	*[243]	*[243]	input2[243]	42[363]	female[363]	h05ingrcngdnasp07727nvoq59[363]	speaker: YOU[483]	_	_	_	_	_	
+35-3	849-853	<BR>	GFailure[6]	adoptieren\_set1\_13[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-adoptieren\_set1\_13[6]	_	_	_	_	_	_	_	*[243]	*[243]	*[243]	*[243]	*[243]	input2[243]	42[363]	female[363]	h05ingrcngdnasp07727nvoq59[363]	speaker: YOU[483]	_	_	_	_	_	
+35-4	854-856	ob	GFailure[6]	adoptieren\_set1\_13[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-adoptieren\_set1\_13[6]	_	_	_	_	_	false[116]	NA[116]	*[243]	*[243]	*[243]	*[243]	*[243]	input2[243]	42[363]	female[363]	h05ingrcngdnasp07727nvoq59[363]	speaker: YOU[483]	_	_	_	_	_	
+35-5	857-860	sie	GFailure[6]	adoptieren\_set1\_13[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-adoptieren\_set1\_13[6]	3	*	Subj	f	singular	false[116]	NA[116]	*[243]	*[243]	*[243]	*[243]	*[243]	input2[243]	42[363]	female[363]	h05ingrcngdnasp07727nvoq59[363]	speaker: YOU[483]	*->10-2	PerPron[10]	_	_	_	
+35-6	861-864	sie	GFailure[6]	adoptieren\_set1\_13[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-adoptieren\_set1\_13[6]	3	*	DirObj	f	singular	false[116]	NA[116]	*[243]	*[243]	*[243]	*[243]	*[243]	input2[243]	42[363]	female[363]	h05ingrcngdnasp07727nvoq59[363]	speaker: YOU[483]	*->54-2	PerPron[54]	_	_	_	
+35-7	865-871	behält	GFailure[6]	adoptieren\_set1\_13[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-adoptieren\_set1\_13[6]	_	_	_	_	_	false[116]	NA[116]	*[243]	*[243]	*[243]	*[243]	*[243]	input2[243]	42[363]	female[363]	h05ingrcngdnasp07727nvoq59[363]	speaker: YOU[483]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+36-1	873-888	END_OF_DOCUMENT	GFailure[6]	adoptieren\_set1\_13[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-adoptieren\_set1\_13[6]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+37-1	890-895	Alles	GFailure[7]	adoptieren\_set1\_13[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-adoptieren\_set1\_13[7]	_	_	_	_	_	false[117]	Int[117]	*[244]	*[244]	*[244]	yn\_1[244]	yesno\_question[244]	openq[244]	*[364]	male[364]	*[364]	speaker:Tobias[484]	_	_	QAP	*	38-1[118_117]	
+37-2	896-900	klar	GFailure[7]	adoptieren\_set1\_13[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-adoptieren\_set1\_13[7]	_	_	_	_	_	false[117]	Int[117]	*[244]	*[244]	*[244]	yn\_1[244]	yesno\_question[244]	openq[244]	*[364]	male[364]	*[364]	speaker:Tobias[484]	_	_	_	_	_	
+37-3	901-904	bei	GFailure[7]	adoptieren\_set1\_13[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-adoptieren\_set1\_13[7]	_	_	_	_	_	false[117]	Int[117]	*[244]	*[244]	*[244]	yn\_1[244]	yesno\_question[244]	openq[244]	*[364]	male[364]	*[364]	speaker:Tobias[484]	_	_	_	_	_	
+37-4	905-909	dir?	GFailure[7]	adoptieren\_set1\_13[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-adoptieren\_set1\_13[7]	2	*	*	*	singular	false[117]	Int[117]	*[244]	*[244]	*[244]	yn\_1[244]	yesno\_question[244]	openq[244]	*[364]	male[364]	*[364]	speaker:Tobias[484]	*->67-1	PerPron[67]	_	_	_	
+
+#Text=Diana hat eine Katze adoptiert
+38-1	911-916	Diana	GFailure[7]	adoptieren\_set1\_13[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-adoptieren\_set1\_13[7]	*	*	Subj	*	*	false[118]	Decl[118]	*[245]	adoptieren[245]	transitive[245]	*[245]	*[245]	item0[245]	42[365]	male[365]	jkqc35grurqg6r29efakrmibd9[365]	speaker: YOU[485]	*->8-1|*->43-1	clause[8]|PropNm[43]	elaboration|elaboration|CR	*|*|*	40-1[0_118]|41-1[120_118]|39-1[0_118]	
+38-2	917-920	hat	GFailure[7]	adoptieren\_set1\_13[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-adoptieren\_set1\_13[7]	_	_	_	_	_	false[118]	Decl[118]	*[245]	adoptieren[245]	transitive[245]	*[245]	*[245]	item0[245]	42[365]	male[365]	jkqc35grurqg6r29efakrmibd9[365]	speaker: YOU[485]	*->8-1	clause[8]	_	_	_	
+38-3	921-925	eine	GFailure[7]	adoptieren\_set1\_13[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-adoptieren\_set1\_13[7]	*[45]	*[45]	object[45]	*[45]	*[45]	false[118]	Decl[118]	*[245]	adoptieren[245]	transitive[245]	*[245]	*[245]	item0[245]	42[365]	male[365]	jkqc35grurqg6r29efakrmibd9[365]	speaker: YOU[485]	*->8-1|*->123-1	clause[8]|IndefNP[123]	_	_	_	
+38-4	926-931	Katze	GFailure[7]	adoptieren\_set1\_13[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-adoptieren\_set1\_13[7]	*[45]	*[45]	object[45]	*[45]	*[45]	false[118]	Decl[118]	*[245]	adoptieren[245]	transitive[245]	*[245]	*[245]	item0[245]	42[365]	male[365]	jkqc35grurqg6r29efakrmibd9[365]	speaker: YOU[485]	*->8-1|*->123-1	clause[8]|IndefNP[123]	_	_	_	
+38-5	932-941	adoptiert	GFailure[7]	adoptieren\_set1\_13[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-adoptieren\_set1\_13[7]	_	_	_	_	_	false[118]	Decl[118]	*[245]	adoptieren[245]	transitive[245]	*[245]	*[245]	item0[245]	42[365]	male[365]	jkqc35grurqg6r29efakrmibd9[365]	speaker: YOU[485]	*->8-1	clause[8]	_	_	_	
+
+#Text=Ähm?
+39-1	943-947	Ähm?	GFailure[7]	adoptieren\_set1\_13[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-adoptieren\_set1\_13[7]	_	_	_	_	_	false	NA	aehm\_question\_5	*	*	*	*	feedback	*	male	*	speaker:Tobias	_	_	_	_	_	
+
+#Text=Ja <BR> eine Katze
+40-1	949-951	Ja	GFailure[7]	adoptieren\_set1\_13[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-adoptieren\_set1\_13[7]	_	_	_	_	_	false	NA	*[246]	*[246]	*[246]	*[246]	*[246]	input1[246]	42[366]	male[366]	jkqc35grurqg6r29efakrmibd9[366]	speaker: YOU[486]	_	_	elaboration	*	40-3[119_0]	
+40-2	952-956	<BR>	GFailure[7]	adoptieren\_set1\_13[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-adoptieren\_set1\_13[7]	_	_	_	_	_	_	_	*[246]	*[246]	*[246]	*[246]	*[246]	input1[246]	42[366]	male[366]	jkqc35grurqg6r29efakrmibd9[366]	speaker: YOU[486]	_	_	_	_	_	
+40-3	957-961	eine	GFailure[7]	adoptieren\_set1\_13[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-adoptieren\_set1\_13[7]	*[46]	*[46]	DirObj[46]	*[46]	*[46]	false[119]	NA[119]	*[246]	*[246]	*[246]	*[246]	*[246]	input1[246]	42[366]	male[366]	jkqc35grurqg6r29efakrmibd9[366]	speaker: YOU[486]	*->123-2	IndefNP[123]	_	_	_	
+40-4	962-967	Katze	GFailure[7]	adoptieren\_set1\_13[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-adoptieren\_set1\_13[7]	*[46]	*[46]	DirObj[46]	*[46]	*[46]	false[119]	NA[119]	*[246]	*[246]	*[246]	*[246]	*[246]	input1[246]	42[366]	male[366]	jkqc35grurqg6r29efakrmibd9[366]	speaker: YOU[486]	*->123-2	IndefNP[123]	_	_	_	
+
+#Text=Kannst Du Dir das vorstellen???
+41-1	969-975	Kannst	GFailure[7]	adoptieren\_set1\_13[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-adoptieren\_set1\_13[7]	_	_	_	_	_	false[120]	Int[120]	*[247]	*[247]	*[247]	*[247]	*[247]	input2[247]	42[367]	male[367]	jkqc35grurqg6r29efakrmibd9[367]	speaker: YOU[487]	_	_	_	_	_	
+41-2	976-978	Du	GFailure[7]	adoptieren\_set1\_13[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-adoptieren\_set1\_13[7]	2	*	Subj	*	singular	false[120]	Int[120]	*[247]	*[247]	*[247]	*[247]	*[247]	input2[247]	42[367]	male[367]	jkqc35grurqg6r29efakrmibd9[367]	speaker: YOU[487]	*->118-1	PerPron[118]	_	_	_	
+41-3	979-982	Dir	GFailure[7]	adoptieren\_set1\_13[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-adoptieren\_set1\_13[7]	_	_	_	_	_	false[120]	Int[120]	*[247]	*[247]	*[247]	*[247]	*[247]	input2[247]	42[367]	male[367]	jkqc35grurqg6r29efakrmibd9[367]	speaker: YOU[487]	_	_	_	_	_	
+41-4	983-986	das	GFailure[7]	adoptieren\_set1\_13[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-adoptieren\_set1\_13[7]	_	_	_	_	_	false[120]	Int[120]	*[247]	*[247]	*[247]	*[247]	*[247]	input2[247]	42[367]	male[367]	jkqc35grurqg6r29efakrmibd9[367]	speaker: YOU[487]	*->8-2	D-Pron[8]	_	_	_	
+41-5	987-1000	vorstellen???	GFailure[7]	adoptieren\_set1\_13[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-adoptieren\_set1\_13[7]	_	_	_	_	_	false[120]	Int[120]	*[247]	*[247]	*[247]	*[247]	*[247]	input2[247]	42[367]	male[367]	jkqc35grurqg6r29efakrmibd9[367]	speaker: YOU[487]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+42-1	1002-1017	END_OF_DOCUMENT	GFailure[7]	adoptieren\_set1\_13[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-adoptieren\_set1\_13[7]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+43-1	1019-1024	Alles	GFailure[8]	adoptieren\_set1\_13[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-adoptieren\_set1\_13[8]	_	_	_	_	_	false[121]	Int[121]	*[248]	*[248]	*[248]	yn\_1[248]	yesno\_question[248]	openq[248]	*[368]	male[368]	*[368]	speaker:Tobias[488]	_	_	QAP	*	44-1[122_121]	
+43-2	1025-1029	klar	GFailure[8]	adoptieren\_set1\_13[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-adoptieren\_set1\_13[8]	_	_	_	_	_	false[121]	Int[121]	*[248]	*[248]	*[248]	yn\_1[248]	yesno\_question[248]	openq[248]	*[368]	male[368]	*[368]	speaker:Tobias[488]	_	_	_	_	_	
+43-3	1030-1033	bei	GFailure[8]	adoptieren\_set1\_13[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-adoptieren\_set1\_13[8]	_	_	_	_	_	false[121]	Int[121]	*[248]	*[248]	*[248]	yn\_1[248]	yesno\_question[248]	openq[248]	*[368]	male[368]	*[368]	speaker:Tobias[488]	_	_	_	_	_	
+43-4	1034-1038	dir?	GFailure[8]	adoptieren\_set1\_13[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-adoptieren\_set1\_13[8]	2	*	*	*	singular	false[121]	Int[121]	*[248]	*[248]	*[248]	yn\_1[248]	yesno\_question[248]	openq[248]	*[368]	male[368]	*[368]	speaker:Tobias[488]	*->82-1	PerPron[82]	_	_	_	
+
+#Text=Diana hat eine Katze adoptiert
+44-1	1040-1045	Diana	GFailure[8]	adoptieren\_set1\_13[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-adoptieren\_set1\_13[8]	*	*	Subj	*	*	false[122]	Decl[122]	*[249]	adoptieren[249]	transitive[249]	*[249]	*[249]	item0[249]	20[369]	male[369]	lhu26mh95feeqso1qtacqboi3v[369]	speaker: YOU[489]	*->51-1|*->58-1	clause[51]|PropNm[58]	elaboration|CR	*|*	46-1[123_122]|45-1[0_122]	
+44-2	1046-1049	hat	GFailure[8]	adoptieren\_set1\_13[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-adoptieren\_set1\_13[8]	_	_	_	_	_	false[122]	Decl[122]	*[249]	adoptieren[249]	transitive[249]	*[249]	*[249]	item0[249]	20[369]	male[369]	lhu26mh95feeqso1qtacqboi3v[369]	speaker: YOU[489]	*->51-1	clause[51]	_	_	_	
+44-3	1050-1054	eine	GFailure[8]	adoptieren\_set1\_13[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-adoptieren\_set1\_13[8]	*[47]	*[47]	object[47]	*[47]	*[47]	false[122]	Decl[122]	*[249]	adoptieren[249]	transitive[249]	*[249]	*[249]	item0[249]	20[369]	male[369]	lhu26mh95feeqso1qtacqboi3v[369]	speaker: YOU[489]	*->51-1|*->60-1	clause[51]|IndefNP[60]	_	_	_	
+44-4	1055-1060	Katze	GFailure[8]	adoptieren\_set1\_13[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-adoptieren\_set1\_13[8]	*[47]	*[47]	object[47]	*[47]	*[47]	false[122]	Decl[122]	*[249]	adoptieren[249]	transitive[249]	*[249]	*[249]	item0[249]	20[369]	male[369]	lhu26mh95feeqso1qtacqboi3v[369]	speaker: YOU[489]	*->51-1|*->60-1	clause[51]|IndefNP[60]	_	_	_	
+44-5	1061-1070	adoptiert	GFailure[8]	adoptieren\_set1\_13[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-adoptieren\_set1\_13[8]	_	_	_	_	_	false[122]	Decl[122]	*[249]	adoptieren[249]	transitive[249]	*[249]	*[249]	item0[249]	20[369]	male[369]	lhu26mh95feeqso1qtacqboi3v[369]	speaker: YOU[489]	*->51-1	clause[51]	_	_	_	
+
+#Text=Ähm?
+45-1	1072-1076	Ähm?	GFailure[8]	adoptieren\_set1\_13[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-adoptieren\_set1\_13[8]	_	_	_	_	_	false	NA	aehm\_question\_5	*	*	*	*	feedback	*	male	*	speaker:Tobias	_	_	_	_	_	
+
+#Text=Ja ich war auch dagegen.
+46-1	1078-1080	Ja	GFailure[8]	adoptieren\_set1\_13[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-adoptieren\_set1\_13[8]	_	_	_	_	_	false[123]	Decl[123]	*[250]	*[250]	*[250]	*[250]	*[250]	input1[250]	20[370]	male[370]	lhu26mh95feeqso1qtacqboi3v[370]	speaker: YOU[490]	_	_	contrast	*	47-1[124_123]	
+46-2	1081-1084	ich	GFailure[8]	adoptieren\_set1\_13[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-adoptieren\_set1\_13[8]	1	*	Subj	*	singular	false[123]	Decl[123]	*[250]	*[250]	*[250]	*[250]	*[250]	input1[250]	20[370]	male[370]	lhu26mh95feeqso1qtacqboi3v[370]	speaker: YOU[490]	*->82-2	PerPron[82]	_	_	_	
+46-3	1085-1088	war	GFailure[8]	adoptieren\_set1\_13[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-adoptieren\_set1\_13[8]	_	_	_	_	_	false[123]	Decl[123]	*[250]	*[250]	*[250]	*[250]	*[250]	input1[250]	20[370]	male[370]	lhu26mh95feeqso1qtacqboi3v[370]	speaker: YOU[490]	_	_	_	_	_	
+46-4	1089-1093	auch	GFailure[8]	adoptieren\_set1\_13[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-adoptieren\_set1\_13[8]	_	_	_	_	_	false[123]	Decl[123]	*[250]	*[250]	*[250]	*[250]	*[250]	input1[250]	20[370]	male[370]	lhu26mh95feeqso1qtacqboi3v[370]	speaker: YOU[490]	_	_	_	_	_	
+46-5	1094-1102	dagegen.	GFailure[8]	adoptieren\_set1\_13[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-adoptieren\_set1\_13[8]	_	_	_	_	_	false[123]	Decl[123]	*[250]	*[250]	*[250]	*[250]	*[250]	input1[250]	20[370]	male[370]	lhu26mh95feeqso1qtacqboi3v[370]	speaker: YOU[490]	*->51-2	DemPron[51]	_	_	_	
+
+#Text=Aber sie hat sich erfolgreich durchgesetzt.
+47-1	1104-1108	Aber	GFailure[8]	adoptieren\_set1\_13[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-adoptieren\_set1\_13[8]	_	_	_	_	_	false[124]	Decl[124]	*[251]	*[251]	*[251]	*[251]	*[251]	input2[251]	20[371]	male[371]	lhu26mh95feeqso1qtacqboi3v[371]	speaker: YOU[491]	_	_	_	_	_	
+47-2	1109-1112	sie	GFailure[8]	adoptieren\_set1\_13[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-adoptieren\_set1\_13[8]	3	*	Subj	*	singular	false[124]	Decl[124]	*[251]	*[251]	*[251]	*[251]	*[251]	input2[251]	20[371]	male[371]	lhu26mh95feeqso1qtacqboi3v[371]	speaker: YOU[491]	*->58-2	PerPron[58]	_	_	_	
+47-3	1113-1116	hat	GFailure[8]	adoptieren\_set1\_13[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-adoptieren\_set1\_13[8]	_	_	_	_	_	false[124]	Decl[124]	*[251]	*[251]	*[251]	*[251]	*[251]	input2[251]	20[371]	male[371]	lhu26mh95feeqso1qtacqboi3v[371]	speaker: YOU[491]	_	_	_	_	_	
+47-4	1117-1121	sich	GFailure[8]	adoptieren\_set1\_13[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-adoptieren\_set1\_13[8]	_	_	_	_	_	false[124]	Decl[124]	*[251]	*[251]	*[251]	*[251]	*[251]	input2[251]	20[371]	male[371]	lhu26mh95feeqso1qtacqboi3v[371]	speaker: YOU[491]	_	_	_	_	_	
+47-5	1122-1133	erfolgreich	GFailure[8]	adoptieren\_set1\_13[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-adoptieren\_set1\_13[8]	_	_	_	_	_	false[124]	Decl[124]	*[251]	*[251]	*[251]	*[251]	*[251]	input2[251]	20[371]	male[371]	lhu26mh95feeqso1qtacqboi3v[371]	speaker: YOU[491]	_	_	_	_	_	
+47-6	1134-1147	durchgesetzt.	GFailure[8]	adoptieren\_set1\_13[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-adoptieren\_set1\_13[8]	_	_	_	_	_	false[124]	Decl[124]	*[251]	*[251]	*[251]	*[251]	*[251]	input2[251]	20[371]	male[371]	lhu26mh95feeqso1qtacqboi3v[371]	speaker: YOU[491]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+48-1	1149-1164	END_OF_DOCUMENT	GFailure[8]	adoptieren\_set1\_13[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-adoptieren\_set1\_13[8]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+49-1	1166-1171	Alles	GFailure[9]	adoptieren\_set1\_13[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-adoptieren\_set1\_13[9]	_	_	_	_	_	false[125]	Int[125]	*[252]	*[252]	*[252]	yn\_1[252]	yesno\_question[252]	openq[252]	*[372]	male[372]	*[372]	speaker:Tobias[492]	_	_	QAP	*	50-1[126_125]	
+49-2	1172-1176	klar	GFailure[9]	adoptieren\_set1\_13[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-adoptieren\_set1\_13[9]	_	_	_	_	_	false[125]	Int[125]	*[252]	*[252]	*[252]	yn\_1[252]	yesno\_question[252]	openq[252]	*[372]	male[372]	*[372]	speaker:Tobias[492]	_	_	_	_	_	
+49-3	1177-1180	bei	GFailure[9]	adoptieren\_set1\_13[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-adoptieren\_set1\_13[9]	_	_	_	_	_	false[125]	Int[125]	*[252]	*[252]	*[252]	yn\_1[252]	yesno\_question[252]	openq[252]	*[372]	male[372]	*[372]	speaker:Tobias[492]	_	_	_	_	_	
+49-4	1181-1185	dir?	GFailure[9]	adoptieren\_set1\_13[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-adoptieren\_set1\_13[9]	2	*	*	*	singular	false[125]	Int[125]	*[252]	*[252]	*[252]	yn\_1[252]	yesno\_question[252]	openq[252]	*[372]	male[372]	*[372]	speaker:Tobias[492]	*->101-1	PerPron[101]	_	_	_	
+
+#Text=Diana hat eine Katze adoptiert
+50-1	1187-1192	Diana	GFailure[9]	adoptieren\_set1\_13[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-adoptieren\_set1\_13[9]	*	*	Subj	*	*	false[126]	Decl[126]	*[253]	adoptieren[253]	transitive[253]	*[253]	*[253]	item0[253]	21[373]	male[373]	tc4i3rsgsa9bl8tesf4679lok2[373]	speaker: YOU[493]	*->89-1|*->88-1	clause[89]|PropNm[88]	elaboration|CR	*|*	52-1[127_126]|51-1[0_126]	
+50-2	1193-1196	hat	GFailure[9]	adoptieren\_set1\_13[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-adoptieren\_set1\_13[9]	_	_	_	_	_	false[126]	Decl[126]	*[253]	adoptieren[253]	transitive[253]	*[253]	*[253]	item0[253]	21[373]	male[373]	tc4i3rsgsa9bl8tesf4679lok2[373]	speaker: YOU[493]	*->89-1	clause[89]	_	_	_	
+50-3	1197-1201	eine	GFailure[9]	adoptieren\_set1\_13[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-adoptieren\_set1\_13[9]	*[48]	*[48]	object[48]	*[48]	*[48]	false[126]	Decl[126]	*[253]	adoptieren[253]	transitive[253]	*[253]	*[253]	item0[253]	21[373]	male[373]	tc4i3rsgsa9bl8tesf4679lok2[373]	speaker: YOU[493]	*->89-1|*->17-1	clause[89]|IndefNP[17]	_	_	_	
+50-4	1202-1207	Katze	GFailure[9]	adoptieren\_set1\_13[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-adoptieren\_set1\_13[9]	*[48]	*[48]	object[48]	*[48]	*[48]	false[126]	Decl[126]	*[253]	adoptieren[253]	transitive[253]	*[253]	*[253]	item0[253]	21[373]	male[373]	tc4i3rsgsa9bl8tesf4679lok2[373]	speaker: YOU[493]	*->89-1|*->17-1	clause[89]|IndefNP[17]	_	_	_	
+50-5	1208-1217	adoptiert	GFailure[9]	adoptieren\_set1\_13[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-adoptieren\_set1\_13[9]	_	_	_	_	_	false[126]	Decl[126]	*[253]	adoptieren[253]	transitive[253]	*[253]	*[253]	item0[253]	21[373]	male[373]	tc4i3rsgsa9bl8tesf4679lok2[373]	speaker: YOU[493]	*->89-1	clause[89]	_	_	_	
+
+#Text=Ähm?
+51-1	1219-1223	Ähm?	GFailure[9]	adoptieren\_set1\_13[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-adoptieren\_set1\_13[9]	_	_	_	_	_	false	NA	aehm\_question\_5	*	*	*	*	feedback	*	male	*	speaker:Tobias	_	_	_	_	_	
+
+#Text=Ja ich verstehs auch nicht
+52-1	1225-1227	Ja	GFailure[9]	adoptieren\_set1\_13[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-adoptieren\_set1\_13[9]	_	_	_	_	_	false[127]	Decl[127]	*[254]	*[254]	*[254]	*[254]	*[254]	input1[254]	21[374]	male[374]	tc4i3rsgsa9bl8tesf4679lok2[374]	speaker: YOU[494]	_	_	_	_	_	
+52-2	1228-1231	ich	GFailure[9]	adoptieren\_set1\_13[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-adoptieren\_set1\_13[9]	1	*	Subj	*	singular	false[127]	Decl[127]	*[254]	*[254]	*[254]	*[254]	*[254]	input1[254]	21[374]	male[374]	tc4i3rsgsa9bl8tesf4679lok2[374]	speaker: YOU[494]	*->101-2	PerPron[101]	_	_	_	
+52-3	1232-1240	verstehs	GFailure[9]	adoptieren\_set1\_13[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-adoptieren\_set1\_13[9]	3	*	*	*	singular	false[127]	Decl[127]	*[254]	*[254]	*[254]	*[254]	*[254]	input1[254]	21[374]	male[374]	tc4i3rsgsa9bl8tesf4679lok2[374]	speaker: YOU[494]	*->89-2	PerPron[89]	_	_	_	
+52-4	1241-1245	auch	GFailure[9]	adoptieren\_set1\_13[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-adoptieren\_set1\_13[9]	_	_	_	_	_	false[127]	Decl[127]	*[254]	*[254]	*[254]	*[254]	*[254]	input1[254]	21[374]	male[374]	tc4i3rsgsa9bl8tesf4679lok2[374]	speaker: YOU[494]	_	_	_	_	_	
+52-5	1246-1251	nicht	GFailure[9]	adoptieren\_set1\_13[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-adoptieren\_set1\_13[9]	_	_	_	_	_	false[127]	Decl[127]	*[254]	*[254]	*[254]	*[254]	*[254]	input1[254]	21[374]	male[374]	tc4i3rsgsa9bl8tesf4679lok2[374]	speaker: YOU[494]	_	_	_	_	_	
+
+#Text=Ich bin auch gespannt was ihr Vermieter dazu sagt...
+53-1	1253-1256	Ich	GFailure[9]	adoptieren\_set1\_13[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-adoptieren\_set1\_13[9]	1	*	Subj	*	singular	false[128]	Decl[128]	*[255]	*[255]	*[255]	*[255]	*[255]	input2[255]	21[375]	male[375]	tc4i3rsgsa9bl8tesf4679lok2[375]	speaker: YOU[495]	*->101-3	PerPron[101]	_	_	_	
+53-2	1257-1260	bin	GFailure[9]	adoptieren\_set1\_13[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-adoptieren\_set1\_13[9]	_	_	_	_	_	false[128]	Decl[128]	*[255]	*[255]	*[255]	*[255]	*[255]	input2[255]	21[375]	male[375]	tc4i3rsgsa9bl8tesf4679lok2[375]	speaker: YOU[495]	_	_	_	_	_	
+53-3	1261-1265	auch	GFailure[9]	adoptieren\_set1\_13[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-adoptieren\_set1\_13[9]	_	_	_	_	_	false[128]	Decl[128]	*[255]	*[255]	*[255]	*[255]	*[255]	input2[255]	21[375]	male[375]	tc4i3rsgsa9bl8tesf4679lok2[375]	speaker: YOU[495]	_	_	_	_	_	
+53-4	1266-1274	gespannt	GFailure[9]	adoptieren\_set1\_13[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-adoptieren\_set1\_13[9]	_	_	_	_	_	false[128]	Decl[128]	*[255]	*[255]	*[255]	*[255]	*[255]	input2[255]	21[375]	male[375]	tc4i3rsgsa9bl8tesf4679lok2[375]	speaker: YOU[495]	_	_	_	_	_	
+53-5	1275-1278	was	GFailure[9]	adoptieren\_set1\_13[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-adoptieren\_set1\_13[9]	_	_	_	_	_	false[128]	Decl[128]	*[255]	*[255]	*[255]	*[255]	*[255]	input2[255]	21[375]	male[375]	tc4i3rsgsa9bl8tesf4679lok2[375]	speaker: YOU[495]	_	_	_	_	_	
+53-6	1279-1282	ihr	GFailure[9]	adoptieren\_set1\_13[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-adoptieren\_set1\_13[9]	*[49]|3[50]	*[49]|*[50]	Subj[49]|*[50]	*[49]|*[50]	*[49]|singular[50]	false[128]	Decl[128]	*[255]	*[255]	*[255]	*[255]	*[255]	input2[255]	21[375]	male[375]	tc4i3rsgsa9bl8tesf4679lok2[375]	speaker: YOU[495]	*->119-1|*->88-2	DefNP[119]|PossePron[88]	_	_	_	
+53-7	1283-1292	Vermieter	GFailure[9]	adoptieren\_set1\_13[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-adoptieren\_set1\_13[9]	*[49]	*[49]	Subj[49]	*[49]	*[49]	false[128]	Decl[128]	*[255]	*[255]	*[255]	*[255]	*[255]	input2[255]	21[375]	male[375]	tc4i3rsgsa9bl8tesf4679lok2[375]	speaker: YOU[495]	*->119-1	DefNP[119]	_	_	_	
+53-8	1293-1297	dazu	GFailure[9]	adoptieren\_set1\_13[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-adoptieren\_set1\_13[9]	_	_	_	_	_	false[128]	Decl[128]	*[255]	*[255]	*[255]	*[255]	*[255]	input2[255]	21[375]	male[375]	tc4i3rsgsa9bl8tesf4679lok2[375]	speaker: YOU[495]	*->89-3	DemPron[89]	_	_	_	
+53-9	1298-1305	sagt...	GFailure[9]	adoptieren\_set1\_13[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-adoptieren\_set1\_13[9]	_	_	_	_	_	false[128]	Decl[128]	*[255]	*[255]	*[255]	*[255]	*[255]	input2[255]	21[375]	male[375]	tc4i3rsgsa9bl8tesf4679lok2[375]	speaker: YOU[495]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+54-1	1307-1322	END_OF_DOCUMENT	GFailure[9]	adoptieren\_set1\_13[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-adoptieren\_set1\_13[9]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+55-1	1324-1329	Alles	GFailure[10]	adoptieren\_set1\_13[10]	latin1[10]	us0adlivem61c2bj5776kudbot-adoptieren\_set1\_13[10]	_	_	_	_	_	false[129]	Int[129]	*[256]	*[256]	*[256]	yn\_1[256]	yesno\_question[256]	openq[256]	*[376]	male[376]	*[376]	speaker:Tobias[496]	_	_	QAP	*	56-1[130_129]	
+55-2	1330-1334	klar	GFailure[10]	adoptieren\_set1\_13[10]	latin1[10]	us0adlivem61c2bj5776kudbot-adoptieren\_set1\_13[10]	_	_	_	_	_	false[129]	Int[129]	*[256]	*[256]	*[256]	yn\_1[256]	yesno\_question[256]	openq[256]	*[376]	male[376]	*[376]	speaker:Tobias[496]	_	_	_	_	_	
+55-3	1335-1338	bei	GFailure[10]	adoptieren\_set1\_13[10]	latin1[10]	us0adlivem61c2bj5776kudbot-adoptieren\_set1\_13[10]	_	_	_	_	_	false[129]	Int[129]	*[256]	*[256]	*[256]	yn\_1[256]	yesno\_question[256]	openq[256]	*[376]	male[376]	*[376]	speaker:Tobias[496]	_	_	_	_	_	
+55-4	1339-1343	dir?	GFailure[10]	adoptieren\_set1\_13[10]	latin1[10]	us0adlivem61c2bj5776kudbot-adoptieren\_set1\_13[10]	2	*	*	*	singular	false[129]	Int[129]	*[256]	*[256]	*[256]	yn\_1[256]	yesno\_question[256]	openq[256]	*[376]	male[376]	*[376]	speaker:Tobias[496]	*->4-1	PerPron[4]	_	_	_	
+
+#Text=Diana hat eine Katze adoptiert
+56-1	1345-1350	Diana	GFailure[10]	adoptieren\_set1\_13[10]	latin1[10]	us0adlivem61c2bj5776kudbot-adoptieren\_set1\_13[10]	*	*	Subj	*	*	false[130]	Decl[130]	*[257]	adoptieren[257]	transitive[257]	*[257]	*[257]	item0[257]	66[377]	male[377]	us0adlivem61c2bj5776kudbot[377]	speaker: YOU[497]	*->109-1	PropNm[109]	elaboration|CR	*|*	58-1[131_130]|57-1[0_130]	
+56-2	1351-1354	hat	GFailure[10]	adoptieren\_set1\_13[10]	latin1[10]	us0adlivem61c2bj5776kudbot-adoptieren\_set1\_13[10]	_	_	_	_	_	false[130]	Decl[130]	*[257]	adoptieren[257]	transitive[257]	*[257]	*[257]	item0[257]	66[377]	male[377]	us0adlivem61c2bj5776kudbot[377]	speaker: YOU[497]	_	_	_	_	_	
+56-3	1355-1359	eine	GFailure[10]	adoptieren\_set1\_13[10]	latin1[10]	us0adlivem61c2bj5776kudbot-adoptieren\_set1\_13[10]	*[51]	*[51]	object[51]	*[51]	*[51]	false[130]	Decl[130]	*[257]	adoptieren[257]	transitive[257]	*[257]	*[257]	item0[257]	66[377]	male[377]	us0adlivem61c2bj5776kudbot[377]	speaker: YOU[497]	*->53-1	IndefNP[53]	_	_	_	
+56-4	1360-1365	Katze	GFailure[10]	adoptieren\_set1\_13[10]	latin1[10]	us0adlivem61c2bj5776kudbot-adoptieren\_set1\_13[10]	*[51]	*[51]	object[51]	*[51]	*[51]	false[130]	Decl[130]	*[257]	adoptieren[257]	transitive[257]	*[257]	*[257]	item0[257]	66[377]	male[377]	us0adlivem61c2bj5776kudbot[377]	speaker: YOU[497]	*->53-1	IndefNP[53]	_	_	_	
+56-5	1366-1375	adoptiert	GFailure[10]	adoptieren\_set1\_13[10]	latin1[10]	us0adlivem61c2bj5776kudbot-adoptieren\_set1\_13[10]	_	_	_	_	_	false[130]	Decl[130]	*[257]	adoptieren[257]	transitive[257]	*[257]	*[257]	item0[257]	66[377]	male[377]	us0adlivem61c2bj5776kudbot[377]	speaker: YOU[497]	_	_	_	_	_	
+
+#Text=Ähm?
+57-1	1377-1381	Ähm?	GFailure[10]	adoptieren\_set1\_13[10]	latin1[10]	us0adlivem61c2bj5776kudbot-adoptieren\_set1\_13[10]	_	_	_	_	_	false	NA	aehm\_question\_5	*	*	*	*	feedback	*	male	*	speaker:Tobias	_	_	_	_	_	
+
+#Text=Liebes Tier
+58-1	1383-1389	Liebes	GFailure[10]	adoptieren\_set1\_13[10]	latin1[10]	us0adlivem61c2bj5776kudbot-adoptieren\_set1\_13[10]	*[52]	*[52]	Subj[52]	*[52]	*[52]	false[131]	NA[131]	*[258]	*[258]	*[258]	*[258]	*[258]	input1[258]	66[378]	male[378]	us0adlivem61c2bj5776kudbot[378]	speaker: YOU[498]	*->53-2	IndefNP[53]	elaboration	*	59-1[132_131]	
+58-2	1390-1394	Tier	GFailure[10]	adoptieren\_set1\_13[10]	latin1[10]	us0adlivem61c2bj5776kudbot-adoptieren\_set1\_13[10]	*[52]	*[52]	Subj[52]	*[52]	*[52]	false[131]	NA[131]	*[258]	*[258]	*[258]	*[258]	*[258]	input1[258]	66[378]	male[378]	us0adlivem61c2bj5776kudbot[378]	speaker: YOU[498]	*->53-2	IndefNP[53]	_	_	_	
+
+#Text=zum knuddeln
+59-1	1396-1399	zum	GFailure[10]	adoptieren\_set1\_13[10]	latin1[10]	us0adlivem61c2bj5776kudbot-adoptieren\_set1\_13[10]	_	_	_	_	_	false[132]	NA[132]	*[259]	*[259]	*[259]	*[259]	*[259]	input2[259]	66[379]	male[379]	us0adlivem61c2bj5776kudbot[379]	speaker: YOU[499]	_	_	_	_	_	
+59-2	1400-1408	knuddeln	GFailure[10]	adoptieren\_set1\_13[10]	latin1[10]	us0adlivem61c2bj5776kudbot-adoptieren\_set1\_13[10]	_	_	_	_	_	false[132]	NA[132]	*[259]	*[259]	*[259]	*[259]	*[259]	input2[259]	66[379]	male[379]	us0adlivem61c2bj5776kudbot[379]	speaker: YOU[499]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+60-1	1410-1425	END_OF_DOCUMENT	GFailure[10]	adoptieren\_set1\_13[10]	latin1[10]	us0adlivem61c2bj5776kudbot-adoptieren\_set1\_13[10]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+61-1	1427-1432	Alles	GSuccess[11]	adoptieren\_set1\_13[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-adoptieren\_set1\_13[11]	_	_	_	_	_	false[133]	Int[133]	*[260]	*[260]	*[260]	yn\_1[260]	yesno\_question[260]	openq[260]	*[380]	male[380]	*[380]	speaker:Tobias[500]	_	_	QAP	*	62-1[134_133]	
+61-2	1433-1437	klar	GSuccess[11]	adoptieren\_set1\_13[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-adoptieren\_set1\_13[11]	_	_	_	_	_	false[133]	Int[133]	*[260]	*[260]	*[260]	yn\_1[260]	yesno\_question[260]	openq[260]	*[380]	male[380]	*[380]	speaker:Tobias[500]	_	_	_	_	_	
+61-3	1438-1441	bei	GSuccess[11]	adoptieren\_set1\_13[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-adoptieren\_set1\_13[11]	_	_	_	_	_	false[133]	Int[133]	*[260]	*[260]	*[260]	yn\_1[260]	yesno\_question[260]	openq[260]	*[380]	male[380]	*[380]	speaker:Tobias[500]	_	_	_	_	_	
+61-4	1442-1446	dir?	GSuccess[11]	adoptieren\_set1\_13[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-adoptieren\_set1\_13[11]	2	*	*	*	singular	false[133]	Int[133]	*[260]	*[260]	*[260]	yn\_1[260]	yesno\_question[260]	openq[260]	*[380]	male[380]	*[380]	speaker:Tobias[500]	*->37-1	PerPron[37]	_	_	_	
+
+#Text=Diana hat eine Katze adoptiert
+62-1	1448-1453	Diana	GSuccess[11]	adoptieren\_set1\_13[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-adoptieren\_set1\_13[11]	*	*	Subj	*	*	false[134]	Decl[134]	*[261]	adoptieren[261]	transitive[261]	*[261]	*[261]	item0[261]	32[381]	female[381]	2em9nj6n4c2pjudl6n6hfpjc30[381]	speaker: YOU[501]	*->57-1	PropNm[57]	acknowledgement	*	63-1[0_134]	
+62-2	1454-1457	hat	GSuccess[11]	adoptieren\_set1\_13[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-adoptieren\_set1\_13[11]	_	_	_	_	_	false[134]	Decl[134]	*[261]	adoptieren[261]	transitive[261]	*[261]	*[261]	item0[261]	32[381]	female[381]	2em9nj6n4c2pjudl6n6hfpjc30[381]	speaker: YOU[501]	_	_	_	_	_	
+62-3	1458-1462	eine	GSuccess[11]	adoptieren\_set1\_13[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-adoptieren\_set1\_13[11]	*[53]	*[53]	object[53]	*[53]	*[53]	false[134]	Decl[134]	*[261]	adoptieren[261]	transitive[261]	*[261]	*[261]	item0[261]	32[381]	female[381]	2em9nj6n4c2pjudl6n6hfpjc30[381]	speaker: YOU[501]	*->94-1	IndefNP[94]	_	_	_	
+62-4	1463-1468	Katze	GSuccess[11]	adoptieren\_set1\_13[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-adoptieren\_set1\_13[11]	*[53]	*[53]	object[53]	*[53]	*[53]	false[134]	Decl[134]	*[261]	adoptieren[261]	transitive[261]	*[261]	*[261]	item0[261]	32[381]	female[381]	2em9nj6n4c2pjudl6n6hfpjc30[381]	speaker: YOU[501]	*->94-1	IndefNP[94]	_	_	_	
+62-5	1469-1478	adoptiert	GSuccess[11]	adoptieren\_set1\_13[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-adoptieren\_set1\_13[11]	_	_	_	_	_	false[134]	Decl[134]	*[261]	adoptieren[261]	transitive[261]	*[261]	*[261]	item0[261]	32[381]	female[381]	2em9nj6n4c2pjudl6n6hfpjc30[381]	speaker: YOU[501]	_	_	_	_	_	
+
+#Text=Okay
+63-1	1480-1484	Okay	GSuccess[11]	adoptieren\_set1\_13[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-adoptieren\_set1\_13[11]	_	_	_	_	_	false	NA	okay\_22	*	*	*	*	feedback	*	male	*	speaker:Tobias	_	_	_	_	_	
+
+#Text=Stellt sich heraus <BR> ich bin gegen Katzenhaar allergisch.
+64-1	1486-1492	Stellt	GSuccess[11]	adoptieren\_set1\_13[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-adoptieren\_set1\_13[11]	_	_	_	_	_	false[135]	Decl[135]	*[262]	*[262]	*[262]	*[262]	*[262]	input1[262]	32[382]	female[382]	2em9nj6n4c2pjudl6n6hfpjc30[382]	speaker: YOU[502]	*->110-1	zero[110]	_	_	_	
+64-2	1493-1497	sich	GSuccess[11]	adoptieren\_set1\_13[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-adoptieren\_set1\_13[11]	_	_	_	_	_	false[135]	Decl[135]	*[262]	*[262]	*[262]	*[262]	*[262]	input1[262]	32[382]	female[382]	2em9nj6n4c2pjudl6n6hfpjc30[382]	speaker: YOU[502]	_	_	_	_	_	
+64-3	1498-1504	heraus	GSuccess[11]	adoptieren\_set1\_13[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-adoptieren\_set1\_13[11]	_	_	_	_	_	false[135]	Decl[135]	*[262]	*[262]	*[262]	*[262]	*[262]	input1[262]	32[382]	female[382]	2em9nj6n4c2pjudl6n6hfpjc30[382]	speaker: YOU[502]	_	_	_	_	_	
+64-4	1505-1509	<BR>	GSuccess[11]	adoptieren\_set1\_13[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-adoptieren\_set1\_13[11]	_	_	_	_	_	_	_	*[262]	*[262]	*[262]	*[262]	*[262]	input1[262]	32[382]	female[382]	2em9nj6n4c2pjudl6n6hfpjc30[382]	speaker: YOU[502]	_	_	_	_	_	
+64-5	1510-1513	ich	GSuccess[11]	adoptieren\_set1\_13[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-adoptieren\_set1\_13[11]	1	*	Subj	*	singular	false[136]	Decl[136]	*[262]	*[262]	*[262]	*[262]	*[262]	input1[262]	32[382]	female[382]	2em9nj6n4c2pjudl6n6hfpjc30[382]	speaker: YOU[502]	*->90-1|*->37-2	clause[90]|PerPron[37]	_	_	_	
+64-6	1514-1517	bin	GSuccess[11]	adoptieren\_set1\_13[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-adoptieren\_set1\_13[11]	_	_	_	_	_	false[136]	Decl[136]	*[262]	*[262]	*[262]	*[262]	*[262]	input1[262]	32[382]	female[382]	2em9nj6n4c2pjudl6n6hfpjc30[382]	speaker: YOU[502]	*->90-1	clause[90]	_	_	_	
+64-7	1518-1523	gegen	GSuccess[11]	adoptieren\_set1\_13[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-adoptieren\_set1\_13[11]	_	_	_	_	_	false[136]	Decl[136]	*[262]	*[262]	*[262]	*[262]	*[262]	input1[262]	32[382]	female[382]	2em9nj6n4c2pjudl6n6hfpjc30[382]	speaker: YOU[502]	*->90-1	clause[90]	_	_	_	
+64-8	1524-1534	Katzenhaar	GSuccess[11]	adoptieren\_set1\_13[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-adoptieren\_set1\_13[11]	*	*	PrepObj	*	*	false[136]	Decl[136]	*[262]	*[262]	*[262]	*[262]	*[262]	input1[262]	32[382]	female[382]	2em9nj6n4c2pjudl6n6hfpjc30[382]	speaker: YOU[502]	*->90-1|*->103-1	clause[90]|IndefNP[103]	_	_	_	
+64-9	1535-1546	allergisch.	GSuccess[11]	adoptieren\_set1\_13[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-adoptieren\_set1\_13[11]	_	_	_	_	_	false[136]	Decl[136]	*[262]	*[262]	*[262]	*[262]	*[262]	input1[262]	32[382]	female[382]	2em9nj6n4c2pjudl6n6hfpjc30[382]	speaker: YOU[502]	*->90-1	clause[90]	_	_	_	
+
+#Text=Wer hätte das gedacht?
+65-1	1548-1551	Wer	GSuccess[11]	adoptieren\_set1\_13[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-adoptieren\_set1\_13[11]	_	_	_	_	_	false[137]	Int[137]	*[263]	*[263]	*[263]	*[263]	*[263]	input2[263]	32[383]	female[383]	2em9nj6n4c2pjudl6n6hfpjc30[383]	speaker: YOU[503]	_	_	_	_	_	
+65-2	1552-1557	hätte	GSuccess[11]	adoptieren\_set1\_13[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-adoptieren\_set1\_13[11]	_	_	_	_	_	false[137]	Int[137]	*[263]	*[263]	*[263]	*[263]	*[263]	input2[263]	32[383]	female[383]	2em9nj6n4c2pjudl6n6hfpjc30[383]	speaker: YOU[503]	_	_	_	_	_	
+65-3	1558-1561	das	GSuccess[11]	adoptieren\_set1\_13[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-adoptieren\_set1\_13[11]	_	_	_	_	_	false[137]	Int[137]	*[263]	*[263]	*[263]	*[263]	*[263]	input2[263]	32[383]	female[383]	2em9nj6n4c2pjudl6n6hfpjc30[383]	speaker: YOU[503]	*->90-2	D-Pron[90]	_	_	_	
+65-4	1562-1570	gedacht?	GSuccess[11]	adoptieren\_set1\_13[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-adoptieren\_set1\_13[11]	_	_	_	_	_	false[137]	Int[137]	*[263]	*[263]	*[263]	*[263]	*[263]	input2[263]	32[383]	female[383]	2em9nj6n4c2pjudl6n6hfpjc30[383]	speaker: YOU[503]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+66-1	1572-1587	END_OF_DOCUMENT	GSuccess[11]	adoptieren\_set1\_13[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-adoptieren\_set1\_13[11]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+67-1	1589-1594	Alles	GSuccess[12]	adoptieren\_set1\_13[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-adoptieren\_set1\_13[12]	_	_	_	_	_	false[138]	Int[138]	*[264]	*[264]	*[264]	yn\_1[264]	yesno\_question[264]	openq[264]	*[384]	male[384]	*[384]	speaker:Tobias[504]	_	_	QAP	*	68-1[139_138]	
+67-2	1595-1599	klar	GSuccess[12]	adoptieren\_set1\_13[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-adoptieren\_set1\_13[12]	_	_	_	_	_	false[138]	Int[138]	*[264]	*[264]	*[264]	yn\_1[264]	yesno\_question[264]	openq[264]	*[384]	male[384]	*[384]	speaker:Tobias[504]	_	_	_	_	_	
+67-3	1600-1603	bei	GSuccess[12]	adoptieren\_set1\_13[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-adoptieren\_set1\_13[12]	_	_	_	_	_	false[138]	Int[138]	*[264]	*[264]	*[264]	yn\_1[264]	yesno\_question[264]	openq[264]	*[384]	male[384]	*[384]	speaker:Tobias[504]	_	_	_	_	_	
+67-4	1604-1608	dir?	GSuccess[12]	adoptieren\_set1\_13[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-adoptieren\_set1\_13[12]	2	*	*	*	singular	false[138]	Int[138]	*[264]	*[264]	*[264]	yn\_1[264]	yesno\_question[264]	openq[264]	*[384]	male[384]	*[384]	speaker:Tobias[504]	*->12-1	PerPron[12]	_	_	_	
+
+#Text=Diana hat eine Katze adoptiert
+68-1	1610-1615	Diana	GSuccess[12]	adoptieren\_set1\_13[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-adoptieren\_set1\_13[12]	*	*	Subj	*	*	false[139]	Decl[139]	*[265]	adoptieren[265]	transitive[265]	*[265]	*[265]	item0[265]	41[385]	female[385]	2prsavjsjqbmc8hrbo9bovkues[385]	speaker: YOU[505]	*->68-1	PropNm[68]	elaboration|acknowledgement	*|*	70-1[140_139]|69-1[0_139]	
+68-2	1616-1619	hat	GSuccess[12]	adoptieren\_set1\_13[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-adoptieren\_set1\_13[12]	_	_	_	_	_	false[139]	Decl[139]	*[265]	adoptieren[265]	transitive[265]	*[265]	*[265]	item0[265]	41[385]	female[385]	2prsavjsjqbmc8hrbo9bovkues[385]	speaker: YOU[505]	_	_	_	_	_	
+68-3	1620-1624	eine	GSuccess[12]	adoptieren\_set1\_13[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-adoptieren\_set1\_13[12]	*[54]	*[54]	object[54]	*[54]	*[54]	false[139]	Decl[139]	*[265]	adoptieren[265]	transitive[265]	*[265]	*[265]	item0[265]	41[385]	female[385]	2prsavjsjqbmc8hrbo9bovkues[385]	speaker: YOU[505]	*->91-1	IndefNP[91]	_	_	_	
+68-4	1625-1630	Katze	GSuccess[12]	adoptieren\_set1\_13[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-adoptieren\_set1\_13[12]	*[54]	*[54]	object[54]	*[54]	*[54]	false[139]	Decl[139]	*[265]	adoptieren[265]	transitive[265]	*[265]	*[265]	item0[265]	41[385]	female[385]	2prsavjsjqbmc8hrbo9bovkues[385]	speaker: YOU[505]	*->91-1	IndefNP[91]	_	_	_	
+68-5	1631-1640	adoptiert	GSuccess[12]	adoptieren\_set1\_13[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-adoptieren\_set1\_13[12]	_	_	_	_	_	false[139]	Decl[139]	*[265]	adoptieren[265]	transitive[265]	*[265]	*[265]	item0[265]	41[385]	female[385]	2prsavjsjqbmc8hrbo9bovkues[385]	speaker: YOU[505]	_	_	_	_	_	
+
+#Text=Okay
+69-1	1642-1646	Okay	GSuccess[12]	adoptieren\_set1\_13[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-adoptieren\_set1\_13[12]	_	_	_	_	_	false	NA	okay\_22	*	*	*	*	feedback	*	male	*	speaker:Tobias	_	_	_	_	_	
+
+#Text=Die ist so süß!
+70-1	1648-1651	Die	GSuccess[12]	adoptieren\_set1\_13[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-adoptieren\_set1\_13[12]	*	*	Subj	*	*	false[140]	Decl[140]	*[266]	*[266]	*[266]	*[266]	*[266]	input1[266]	41[386]	female[386]	2prsavjsjqbmc8hrbo9bovkues[386]	speaker: YOU[506]	*->91-2	D-Pron[91]	_	_	_	
+70-2	1652-1655	ist	GSuccess[12]	adoptieren\_set1\_13[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-adoptieren\_set1\_13[12]	_	_	_	_	_	false[140]	Decl[140]	*[266]	*[266]	*[266]	*[266]	*[266]	input1[266]	41[386]	female[386]	2prsavjsjqbmc8hrbo9bovkues[386]	speaker: YOU[506]	_	_	_	_	_	
+70-3	1656-1658	so	GSuccess[12]	adoptieren\_set1\_13[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-adoptieren\_set1\_13[12]	_	_	_	_	_	false[140]	Decl[140]	*[266]	*[266]	*[266]	*[266]	*[266]	input1[266]	41[386]	female[386]	2prsavjsjqbmc8hrbo9bovkues[386]	speaker: YOU[506]	_	_	_	_	_	
+70-4	1659-1663	süß!	GSuccess[12]	adoptieren\_set1\_13[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-adoptieren\_set1\_13[12]	_	_	_	_	_	false[140]	Decl[140]	*[266]	*[266]	*[266]	*[266]	*[266]	input1[266]	41[386]	female[386]	2prsavjsjqbmc8hrbo9bovkues[386]	speaker: YOU[506]	_	_	_	_	_	
+
+#Text=Hier <BR> ich schick dir mal ein Foto.
+71-1	1665-1669	Hier	GSuccess[12]	adoptieren\_set1\_13[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-adoptieren\_set1\_13[12]	_	_	_	_	_	false	NA	*[267]	*[267]	*[267]	*[267]	*[267]	input2[267]	41[387]	female[387]	2prsavjsjqbmc8hrbo9bovkues[387]	speaker: YOU[507]	_	_	_	_	_	
+71-2	1670-1674	<BR>	GSuccess[12]	adoptieren\_set1\_13[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-adoptieren\_set1\_13[12]	_	_	_	_	_	_	_	*[267]	*[267]	*[267]	*[267]	*[267]	input2[267]	41[387]	female[387]	2prsavjsjqbmc8hrbo9bovkues[387]	speaker: YOU[507]	_	_	_	_	_	
+71-3	1675-1678	ich	GSuccess[12]	adoptieren\_set1\_13[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-adoptieren\_set1\_13[12]	1	*	Subj	*	singular	false[141]	Decl[141]	*[267]	*[267]	*[267]	*[267]	*[267]	input2[267]	41[387]	female[387]	2prsavjsjqbmc8hrbo9bovkues[387]	speaker: YOU[507]	*->12-2	PerPron[12]	_	_	_	
+71-4	1679-1685	schick	GSuccess[12]	adoptieren\_set1\_13[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-adoptieren\_set1\_13[12]	_	_	_	_	_	false[141]	Decl[141]	*[267]	*[267]	*[267]	*[267]	*[267]	input2[267]	41[387]	female[387]	2prsavjsjqbmc8hrbo9bovkues[387]	speaker: YOU[507]	_	_	_	_	_	
+71-5	1686-1689	dir	GSuccess[12]	adoptieren\_set1\_13[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-adoptieren\_set1\_13[12]	2	*	*	*	singular	false[141]	Decl[141]	*[267]	*[267]	*[267]	*[267]	*[267]	input2[267]	41[387]	female[387]	2prsavjsjqbmc8hrbo9bovkues[387]	speaker: YOU[507]	*->70-1	PerPron[70]	_	_	_	
+71-6	1690-1693	mal	GSuccess[12]	adoptieren\_set1\_13[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-adoptieren\_set1\_13[12]	_	_	_	_	_	false[141]	Decl[141]	*[267]	*[267]	*[267]	*[267]	*[267]	input2[267]	41[387]	female[387]	2prsavjsjqbmc8hrbo9bovkues[387]	speaker: YOU[507]	_	_	_	_	_	
+71-7	1694-1697	ein	GSuccess[12]	adoptieren\_set1\_13[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-adoptieren\_set1\_13[12]	*[55]	*[55]	DirObj[55]	*[55]	*[55]	false[141]	Decl[141]	*[267]	*[267]	*[267]	*[267]	*[267]	input2[267]	41[387]	female[387]	2prsavjsjqbmc8hrbo9bovkues[387]	speaker: YOU[507]	*->111-1	IndefNP[111]	_	_	_	
+71-8	1698-1703	Foto.	GSuccess[12]	adoptieren\_set1\_13[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-adoptieren\_set1\_13[12]	*[55]	*[55]	DirObj[55]	*[55]	*[55]	false[141]	Decl[141]	*[267]	*[267]	*[267]	*[267]	*[267]	input2[267]	41[387]	female[387]	2prsavjsjqbmc8hrbo9bovkues[387]	speaker: YOU[507]	*->111-1	IndefNP[111]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+72-1	1705-1720	END_OF_DOCUMENT	GSuccess[12]	adoptieren\_set1\_13[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-adoptieren\_set1\_13[12]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+73-1	1722-1727	Alles	GSuccess[13]	adoptieren\_set1\_13[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-adoptieren\_set1\_13[13]	_	_	_	_	_	false[142]	Int[142]	*[268]	*[268]	*[268]	yn\_1[268]	yesno\_question[268]	openq[268]	*[388]	male[388]	*[388]	speaker:Tobias[508]	_	_	QAP	*	74-1[143_142]	
+73-2	1728-1732	klar	GSuccess[13]	adoptieren\_set1\_13[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-adoptieren\_set1\_13[13]	_	_	_	_	_	false[142]	Int[142]	*[268]	*[268]	*[268]	yn\_1[268]	yesno\_question[268]	openq[268]	*[388]	male[388]	*[388]	speaker:Tobias[508]	_	_	_	_	_	
+73-3	1733-1736	bei	GSuccess[13]	adoptieren\_set1\_13[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-adoptieren\_set1\_13[13]	_	_	_	_	_	false[142]	Int[142]	*[268]	*[268]	*[268]	yn\_1[268]	yesno\_question[268]	openq[268]	*[388]	male[388]	*[388]	speaker:Tobias[508]	_	_	_	_	_	
+73-4	1737-1741	dir?	GSuccess[13]	adoptieren\_set1\_13[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-adoptieren\_set1\_13[13]	2	*	*	*	singular	false[142]	Int[142]	*[268]	*[268]	*[268]	yn\_1[268]	yesno\_question[268]	openq[268]	*[388]	male[388]	*[388]	speaker:Tobias[508]	*->47-1	PerPron[47]	_	_	_	
+
+#Text=Diana hat eine Katze adoptiert
+74-1	1743-1748	Diana	GSuccess[13]	adoptieren\_set1\_13[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-adoptieren\_set1\_13[13]	*	*	Subj	*	*	false[143]	Decl[143]	*[269]	adoptieren[269]	transitive[269]	*[269]	*[269]	item0[269]	46[389]	male[389]	3jjtes457iqluuhfmeiub8g6qd[389]	speaker: YOU[509]	*->84-1	PropNm[84]	elaboration|acknowledgement	*|*	77-1[145_143]|75-1[0_143]	
+74-2	1749-1752	hat	GSuccess[13]	adoptieren\_set1\_13[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-adoptieren\_set1\_13[13]	_	_	_	_	_	false[143]	Decl[143]	*[269]	adoptieren[269]	transitive[269]	*[269]	*[269]	item0[269]	46[389]	male[389]	3jjtes457iqluuhfmeiub8g6qd[389]	speaker: YOU[509]	_	_	_	_	_	
+74-3	1753-1757	eine	GSuccess[13]	adoptieren\_set1\_13[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-adoptieren\_set1\_13[13]	*[56]	*[56]	object[56]	*[56]	*[56]	false[143]	Decl[143]	*[269]	adoptieren[269]	transitive[269]	*[269]	*[269]	item0[269]	46[389]	male[389]	3jjtes457iqluuhfmeiub8g6qd[389]	speaker: YOU[509]	*->65-1	IndefNP[65]	_	_	_	
+74-4	1758-1763	Katze	GSuccess[13]	adoptieren\_set1\_13[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-adoptieren\_set1\_13[13]	*[56]	*[56]	object[56]	*[56]	*[56]	false[143]	Decl[143]	*[269]	adoptieren[269]	transitive[269]	*[269]	*[269]	item0[269]	46[389]	male[389]	3jjtes457iqluuhfmeiub8g6qd[389]	speaker: YOU[509]	*->65-1	IndefNP[65]	_	_	_	
+74-5	1764-1773	adoptiert	GSuccess[13]	adoptieren\_set1\_13[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-adoptieren\_set1\_13[13]	_	_	_	_	_	false[143]	Decl[143]	*[269]	adoptieren[269]	transitive[269]	*[269]	*[269]	item0[269]	46[389]	male[389]	3jjtes457iqluuhfmeiub8g6qd[389]	speaker: YOU[509]	_	_	_	_	_	
+
+#Text=Okay
+75-1	1775-1779	Okay	GSuccess[13]	adoptieren\_set1\_13[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-adoptieren\_set1\_13[13]	_	_	_	_	_	false	NA	okay\_22	*	*	*	*	feedback	*	male	*	speaker:Tobias	_	_	elaboration	*	76-1[144_0]	
+
+#Text=Na du sprühst ja vor Euphorie..
+76-1	1781-1783	Na	GSuccess[13]	adoptieren\_set1\_13[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-adoptieren\_set1\_13[13]	_	_	_	_	_	false[144]	Decl[144]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	46[390]	male[390]	3jjtes457iqluuhfmeiub8g6qd[390]	speaker: YOU[510]	_	_	_	_	_	
+76-2	1784-1786	du	GSuccess[13]	adoptieren\_set1\_13[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-adoptieren\_set1\_13[13]	2	*	Subj	*	singular	false[144]	Decl[144]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	46[390]	male[390]	3jjtes457iqluuhfmeiub8g6qd[390]	speaker: YOU[510]	*->41-1	PerPron[41]	_	_	_	
+76-3	1787-1794	sprühst	GSuccess[13]	adoptieren\_set1\_13[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-adoptieren\_set1\_13[13]	_	_	_	_	_	false[144]	Decl[144]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	46[390]	male[390]	3jjtes457iqluuhfmeiub8g6qd[390]	speaker: YOU[510]	_	_	_	_	_	
+76-4	1795-1797	ja	GSuccess[13]	adoptieren\_set1\_13[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-adoptieren\_set1\_13[13]	_	_	_	_	_	false[144]	Decl[144]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	46[390]	male[390]	3jjtes457iqluuhfmeiub8g6qd[390]	speaker: YOU[510]	_	_	_	_	_	
+76-5	1798-1801	vor	GSuccess[13]	adoptieren\_set1\_13[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-adoptieren\_set1\_13[13]	_	_	_	_	_	false[144]	Decl[144]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	46[390]	male[390]	3jjtes457iqluuhfmeiub8g6qd[390]	speaker: YOU[510]	_	_	_	_	_	
+76-6	1802-1812	Euphorie..	GSuccess[13]	adoptieren\_set1\_13[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-adoptieren\_set1\_13[13]	*	*	PrepObj	*	*	false[144]	Decl[144]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	46[390]	male[390]	3jjtes457iqluuhfmeiub8g6qd[390]	speaker: YOU[510]	*->25-1	IndefNP[25]	_	_	_	
+
+#Text=Die is total süß
+77-1	1814-1817	Die	GSuccess[13]	adoptieren\_set1\_13[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-adoptieren\_set1\_13[13]	*	*	Subj	*	*	false[145]	Decl[145]	*[271]	*[271]	*[271]	*[271]	*[271]	input2[271]	46[391]	male[391]	3jjtes457iqluuhfmeiub8g6qd[391]	speaker: YOU[511]	*->65-2	D-Pron[65]	_	_	_	
+77-2	1818-1820	is	GSuccess[13]	adoptieren\_set1\_13[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-adoptieren\_set1\_13[13]	_	_	_	_	_	false[145]	Decl[145]	*[271]	*[271]	*[271]	*[271]	*[271]	input2[271]	46[391]	male[391]	3jjtes457iqluuhfmeiub8g6qd[391]	speaker: YOU[511]	_	_	_	_	_	
+77-3	1821-1826	total	GSuccess[13]	adoptieren\_set1\_13[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-adoptieren\_set1\_13[13]	_	_	_	_	_	false[145]	Decl[145]	*[271]	*[271]	*[271]	*[271]	*[271]	input2[271]	46[391]	male[391]	3jjtes457iqluuhfmeiub8g6qd[391]	speaker: YOU[511]	_	_	_	_	_	
+77-4	1827-1830	süß	GSuccess[13]	adoptieren\_set1\_13[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-adoptieren\_set1\_13[13]	_	_	_	_	_	false[145]	Decl[145]	*[271]	*[271]	*[271]	*[271]	*[271]	input2[271]	46[391]	male[391]	3jjtes457iqluuhfmeiub8g6qd[391]	speaker: YOU[511]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+78-1	1832-1847	END_OF_DOCUMENT	GSuccess[13]	adoptieren\_set1\_13[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-adoptieren\_set1\_13[13]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+79-1	1849-1854	Alles	GSuccess[14]	adoptieren\_set1\_13[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-adoptieren\_set1\_13[14]	_	_	_	_	_	false[146]	Int[146]	*[272]	*[272]	*[272]	yn\_1[272]	yesno\_question[272]	openq[272]	*[392]	male[392]	*[392]	speaker:Tobias[512]	_	_	QAP	*	80-1[147_146]	
+79-2	1855-1859	klar	GSuccess[14]	adoptieren\_set1\_13[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-adoptieren\_set1\_13[14]	_	_	_	_	_	false[146]	Int[146]	*[272]	*[272]	*[272]	yn\_1[272]	yesno\_question[272]	openq[272]	*[392]	male[392]	*[392]	speaker:Tobias[512]	_	_	_	_	_	
+79-3	1860-1863	bei	GSuccess[14]	adoptieren\_set1\_13[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-adoptieren\_set1\_13[14]	_	_	_	_	_	false[146]	Int[146]	*[272]	*[272]	*[272]	yn\_1[272]	yesno\_question[272]	openq[272]	*[392]	male[392]	*[392]	speaker:Tobias[512]	_	_	_	_	_	
+79-4	1864-1868	dir?	GSuccess[14]	adoptieren\_set1\_13[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-adoptieren\_set1\_13[14]	2	*	*	*	singular	false[146]	Int[146]	*[272]	*[272]	*[272]	yn\_1[272]	yesno\_question[272]	openq[272]	*[392]	male[392]	*[392]	speaker:Tobias[512]	*->14-1	PerPron[14]	_	_	_	
+
+#Text=Diana hat eine Katze adoptiert
+80-1	1870-1875	Diana	GSuccess[14]	adoptieren\_set1\_13[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-adoptieren\_set1\_13[14]	*	*	Subj	*	*	false[147]	Decl[147]	*[273]	adoptieren[273]	transitive[273]	*[273]	*[273]	item0[273]	27[393]	female[393]	65p8m4ujg4fi983365pclnac28[393]	speaker: YOU[513]	*->112-1	PropNm[112]	elaboration|elaboration|acknowledgement	*|*|*	82-1[148_147]|83-1[149_147]|81-1[0_147]	
+80-2	1876-1879	hat	GSuccess[14]	adoptieren\_set1\_13[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-adoptieren\_set1\_13[14]	_	_	_	_	_	false[147]	Decl[147]	*[273]	adoptieren[273]	transitive[273]	*[273]	*[273]	item0[273]	27[393]	female[393]	65p8m4ujg4fi983365pclnac28[393]	speaker: YOU[513]	_	_	_	_	_	
+80-3	1880-1884	eine	GSuccess[14]	adoptieren\_set1\_13[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-adoptieren\_set1\_13[14]	*[57]	*[57]	object[57]	*[57]	*[57]	false[147]	Decl[147]	*[273]	adoptieren[273]	transitive[273]	*[273]	*[273]	item0[273]	27[393]	female[393]	65p8m4ujg4fi983365pclnac28[393]	speaker: YOU[513]	*->74-1	IndefNP[74]	_	_	_	
+80-4	1885-1890	Katze	GSuccess[14]	adoptieren\_set1\_13[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-adoptieren\_set1\_13[14]	*[57]	*[57]	object[57]	*[57]	*[57]	false[147]	Decl[147]	*[273]	adoptieren[273]	transitive[273]	*[273]	*[273]	item0[273]	27[393]	female[393]	65p8m4ujg4fi983365pclnac28[393]	speaker: YOU[513]	*->74-1	IndefNP[74]	_	_	_	
+80-5	1891-1900	adoptiert	GSuccess[14]	adoptieren\_set1\_13[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-adoptieren\_set1\_13[14]	_	_	_	_	_	false[147]	Decl[147]	*[273]	adoptieren[273]	transitive[273]	*[273]	*[273]	item0[273]	27[393]	female[393]	65p8m4ujg4fi983365pclnac28[393]	speaker: YOU[513]	_	_	_	_	_	
+
+#Text=Okay
+81-1	1902-1906	Okay	GSuccess[14]	adoptieren\_set1\_13[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-adoptieren\_set1\_13[14]	_	_	_	_	_	false	NA	okay\_22	*	*	*	*	feedback	*	male	*	speaker:Tobias	_	_	_	_	_	
+
+#Text=Sie ist so süß!
+82-1	1908-1911	Sie	GSuccess[14]	adoptieren\_set1\_13[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-adoptieren\_set1\_13[14]	3	*	Subj	*	singular	false[148]	Excl[148]	*[274]	*[274]	*[274]	*[274]	*[274]	input1[274]	27[394]	female[394]	65p8m4ujg4fi983365pclnac28[394]	speaker: YOU[514]	*->74-2	PerPron[74]	_	_	_	
+82-2	1912-1915	ist	GSuccess[14]	adoptieren\_set1\_13[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-adoptieren\_set1\_13[14]	_	_	_	_	_	false[148]	Excl[148]	*[274]	*[274]	*[274]	*[274]	*[274]	input1[274]	27[394]	female[394]	65p8m4ujg4fi983365pclnac28[394]	speaker: YOU[514]	_	_	_	_	_	
+82-3	1916-1918	so	GSuccess[14]	adoptieren\_set1\_13[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-adoptieren\_set1\_13[14]	_	_	_	_	_	false[148]	Excl[148]	*[274]	*[274]	*[274]	*[274]	*[274]	input1[274]	27[394]	female[394]	65p8m4ujg4fi983365pclnac28[394]	speaker: YOU[514]	_	_	_	_	_	
+82-4	1919-1923	süß!	GSuccess[14]	adoptieren\_set1\_13[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-adoptieren\_set1\_13[14]	_	_	_	_	_	false[148]	Excl[148]	*[274]	*[274]	*[274]	*[274]	*[274]	input1[274]	27[394]	female[394]	65p8m4ujg4fi983365pclnac28[394]	speaker: YOU[514]	_	_	_	_	_	
+
+#Text=Und noch sehr jung
+83-1	1925-1928	Und	GSuccess[14]	adoptieren\_set1\_13[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-adoptieren\_set1\_13[14]	_	_	_	_	_	false[149]	NA[149]	*[275]	*[275]	*[275]	*[275]	*[275]	input2[275]	27[395]	female[395]	65p8m4ujg4fi983365pclnac28[395]	speaker: YOU[515]	_	_	_	_	_	
+83-2	1929-1933	noch	GSuccess[14]	adoptieren\_set1\_13[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-adoptieren\_set1\_13[14]	_	_	_	_	_	false[149]	NA[149]	*[275]	*[275]	*[275]	*[275]	*[275]	input2[275]	27[395]	female[395]	65p8m4ujg4fi983365pclnac28[395]	speaker: YOU[515]	_	_	_	_	_	
+83-3	1934-1938	sehr	GSuccess[14]	adoptieren\_set1\_13[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-adoptieren\_set1\_13[14]	_	_	_	_	_	false[149]	NA[149]	*[275]	*[275]	*[275]	*[275]	*[275]	input2[275]	27[395]	female[395]	65p8m4ujg4fi983365pclnac28[395]	speaker: YOU[515]	_	_	_	_	_	
+83-4	1939-1943	jung	GSuccess[14]	adoptieren\_set1\_13[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-adoptieren\_set1\_13[14]	_	_	_	_	_	false[149]	NA[149]	*[275]	*[275]	*[275]	*[275]	*[275]	input2[275]	27[395]	female[395]	65p8m4ujg4fi983365pclnac28[395]	speaker: YOU[515]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+84-1	1945-1960	END_OF_DOCUMENT	GSuccess[14]	adoptieren\_set1\_13[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-adoptieren\_set1\_13[14]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+85-1	1962-1967	Alles	GSuccess[15]	adoptieren\_set1\_13[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-adoptieren\_set1\_13[15]	_	_	_	_	_	false[150]	Int[150]	*[276]	*[276]	*[276]	yn\_1[276]	yesno\_question[276]	openq[276]	*[396]	male[396]	*[396]	speaker:Tobias[516]	_	_	QAP	*	86-1[151_150]	
+85-2	1968-1972	klar	GSuccess[15]	adoptieren\_set1\_13[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-adoptieren\_set1\_13[15]	_	_	_	_	_	false[150]	Int[150]	*[276]	*[276]	*[276]	yn\_1[276]	yesno\_question[276]	openq[276]	*[396]	male[396]	*[396]	speaker:Tobias[516]	_	_	_	_	_	
+85-3	1973-1976	bei	GSuccess[15]	adoptieren\_set1\_13[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-adoptieren\_set1\_13[15]	_	_	_	_	_	false[150]	Int[150]	*[276]	*[276]	*[276]	yn\_1[276]	yesno\_question[276]	openq[276]	*[396]	male[396]	*[396]	speaker:Tobias[516]	_	_	_	_	_	
+85-4	1977-1981	dir?	GSuccess[15]	adoptieren\_set1\_13[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-adoptieren\_set1\_13[15]	2	*	*	*	singular	false[150]	Int[150]	*[276]	*[276]	*[276]	yn\_1[276]	yesno\_question[276]	openq[276]	*[396]	male[396]	*[396]	speaker:Tobias[516]	*->63-1	PerPron[63]	_	_	_	
+
+#Text=Diana hat eine Katze adoptiert
+86-1	1983-1988	Diana	GSuccess[15]	adoptieren\_set1\_13[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-adoptieren\_set1\_13[15]	*	*	Subj	*	*	false[151]	Decl[151]	*[277]	adoptieren[277]	transitive[277]	*[277]	*[277]	item0[277]	22[397]	female[397]	ad2p95q44evasm6vmbol4cikit[397]	speaker: YOU[517]	*->83-1	PropNm[83]	elaboration|elaboration|acknowledgement	*|*|*	88-1[152_151]|89-1[153_151]|87-1[0_151]	
+86-2	1989-1992	hat	GSuccess[15]	adoptieren\_set1\_13[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-adoptieren\_set1\_13[15]	_	_	_	_	_	false[151]	Decl[151]	*[277]	adoptieren[277]	transitive[277]	*[277]	*[277]	item0[277]	22[397]	female[397]	ad2p95q44evasm6vmbol4cikit[397]	speaker: YOU[517]	_	_	_	_	_	
+86-3	1993-1997	eine	GSuccess[15]	adoptieren\_set1\_13[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-adoptieren\_set1\_13[15]	*[58]	*[58]	object[58]	*[58]	*[58]	false[151]	Decl[151]	*[277]	adoptieren[277]	transitive[277]	*[277]	*[277]	item0[277]	22[397]	female[397]	ad2p95q44evasm6vmbol4cikit[397]	speaker: YOU[517]	*->116-1	IndefNP[116]	_	_	_	
+86-4	1998-2003	Katze	GSuccess[15]	adoptieren\_set1\_13[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-adoptieren\_set1\_13[15]	*[58]	*[58]	object[58]	*[58]	*[58]	false[151]	Decl[151]	*[277]	adoptieren[277]	transitive[277]	*[277]	*[277]	item0[277]	22[397]	female[397]	ad2p95q44evasm6vmbol4cikit[397]	speaker: YOU[517]	*->116-1	IndefNP[116]	_	_	_	
+86-5	2004-2013	adoptiert	GSuccess[15]	adoptieren\_set1\_13[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-adoptieren\_set1\_13[15]	_	_	_	_	_	false[151]	Decl[151]	*[277]	adoptieren[277]	transitive[277]	*[277]	*[277]	item0[277]	22[397]	female[397]	ad2p95q44evasm6vmbol4cikit[397]	speaker: YOU[517]	_	_	_	_	_	
+
+#Text=Okay
+87-1	2015-2019	Okay	GSuccess[15]	adoptieren\_set1\_13[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-adoptieren\_set1\_13[15]	_	_	_	_	_	false	NA	okay\_22	*	*	*	*	feedback	*	male	*	speaker:Tobias	_	_	_	_	_	
+
+#Text=Sie hat sich sehr über die Katze gefreut
+88-1	2021-2024	Sie	GSuccess[15]	adoptieren\_set1\_13[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-adoptieren\_set1\_13[15]	3	*	Subj	*	singular	false[152]	Decl[152]	*[278]	*[278]	*[278]	*[278]	*[278]	input1[278]	22[398]	female[398]	ad2p95q44evasm6vmbol4cikit[398]	speaker: YOU[518]	*->83-2	PerPron[83]	_	_	_	
+88-2	2025-2028	hat	GSuccess[15]	adoptieren\_set1\_13[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-adoptieren\_set1\_13[15]	_	_	_	_	_	false[152]	Decl[152]	*[278]	*[278]	*[278]	*[278]	*[278]	input1[278]	22[398]	female[398]	ad2p95q44evasm6vmbol4cikit[398]	speaker: YOU[518]	_	_	_	_	_	
+88-3	2029-2033	sich	GSuccess[15]	adoptieren\_set1\_13[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-adoptieren\_set1\_13[15]	_	_	_	_	_	false[152]	Decl[152]	*[278]	*[278]	*[278]	*[278]	*[278]	input1[278]	22[398]	female[398]	ad2p95q44evasm6vmbol4cikit[398]	speaker: YOU[518]	_	_	_	_	_	
+88-4	2034-2038	sehr	GSuccess[15]	adoptieren\_set1\_13[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-adoptieren\_set1\_13[15]	_	_	_	_	_	false[152]	Decl[152]	*[278]	*[278]	*[278]	*[278]	*[278]	input1[278]	22[398]	female[398]	ad2p95q44evasm6vmbol4cikit[398]	speaker: YOU[518]	_	_	_	_	_	
+88-5	2039-2043	über	GSuccess[15]	adoptieren\_set1\_13[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-adoptieren\_set1\_13[15]	_	_	_	_	_	false[152]	Decl[152]	*[278]	*[278]	*[278]	*[278]	*[278]	input1[278]	22[398]	female[398]	ad2p95q44evasm6vmbol4cikit[398]	speaker: YOU[518]	_	_	_	_	_	
+88-6	2044-2047	die	GSuccess[15]	adoptieren\_set1\_13[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-adoptieren\_set1\_13[15]	*[59]	*[59]	PrepObj[59]	*[59]	*[59]	false[152]	Decl[152]	*[278]	*[278]	*[278]	*[278]	*[278]	input1[278]	22[398]	female[398]	ad2p95q44evasm6vmbol4cikit[398]	speaker: YOU[518]	*->116-2	DefNP[116]	_	_	_	
+88-7	2048-2053	Katze	GSuccess[15]	adoptieren\_set1\_13[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-adoptieren\_set1\_13[15]	*[59]	*[59]	PrepObj[59]	*[59]	*[59]	false[152]	Decl[152]	*[278]	*[278]	*[278]	*[278]	*[278]	input1[278]	22[398]	female[398]	ad2p95q44evasm6vmbol4cikit[398]	speaker: YOU[518]	*->116-2	DefNP[116]	_	_	_	
+88-8	2054-2061	gefreut	GSuccess[15]	adoptieren\_set1\_13[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-adoptieren\_set1\_13[15]	_	_	_	_	_	false[152]	Decl[152]	*[278]	*[278]	*[278]	*[278]	*[278]	input1[278]	22[398]	female[398]	ad2p95q44evasm6vmbol4cikit[398]	speaker: YOU[518]	_	_	_	_	_	
+
+#Text=Sie hat alles für die Katze schon besorgt
+89-1	2063-2066	Sie	GSuccess[15]	adoptieren\_set1\_13[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-adoptieren\_set1\_13[15]	3	*	Subj	*	singular	false[153]	Decl[153]	*[279]	*[279]	*[279]	*[279]	*[279]	input2[279]	22[399]	female[399]	ad2p95q44evasm6vmbol4cikit[399]	speaker: YOU[519]	*->83-3	PerPron[83]	_	_	_	
+89-2	2067-2070	hat	GSuccess[15]	adoptieren\_set1\_13[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-adoptieren\_set1\_13[15]	_	_	_	_	_	false[153]	Decl[153]	*[279]	*[279]	*[279]	*[279]	*[279]	input2[279]	22[399]	female[399]	ad2p95q44evasm6vmbol4cikit[399]	speaker: YOU[519]	_	_	_	_	_	
+89-3	2071-2076	alles	GSuccess[15]	adoptieren\_set1\_13[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-adoptieren\_set1\_13[15]	_	_	_	_	_	false[153]	Decl[153]	*[279]	*[279]	*[279]	*[279]	*[279]	input2[279]	22[399]	female[399]	ad2p95q44evasm6vmbol4cikit[399]	speaker: YOU[519]	*->107-1	Allquantor[107]	_	_	_	
+89-4	2077-2080	für	GSuccess[15]	adoptieren\_set1\_13[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-adoptieren\_set1\_13[15]	_	_	_	_	_	false[153]	Decl[153]	*[279]	*[279]	*[279]	*[279]	*[279]	input2[279]	22[399]	female[399]	ad2p95q44evasm6vmbol4cikit[399]	speaker: YOU[519]	_	_	_	_	_	
+89-5	2081-2084	die	GSuccess[15]	adoptieren\_set1\_13[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-adoptieren\_set1\_13[15]	*[60]	*[60]	PrepObj[60]	*[60]	*[60]	false[153]	Decl[153]	*[279]	*[279]	*[279]	*[279]	*[279]	input2[279]	22[399]	female[399]	ad2p95q44evasm6vmbol4cikit[399]	speaker: YOU[519]	*->116-3	DefNP[116]	_	_	_	
+89-6	2085-2090	Katze	GSuccess[15]	adoptieren\_set1\_13[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-adoptieren\_set1\_13[15]	*[60]	*[60]	PrepObj[60]	*[60]	*[60]	false[153]	Decl[153]	*[279]	*[279]	*[279]	*[279]	*[279]	input2[279]	22[399]	female[399]	ad2p95q44evasm6vmbol4cikit[399]	speaker: YOU[519]	*->116-3	DefNP[116]	_	_	_	
+89-7	2091-2096	schon	GSuccess[15]	adoptieren\_set1\_13[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-adoptieren\_set1\_13[15]	_	_	_	_	_	false[153]	Decl[153]	*[279]	*[279]	*[279]	*[279]	*[279]	input2[279]	22[399]	female[399]	ad2p95q44evasm6vmbol4cikit[399]	speaker: YOU[519]	_	_	_	_	_	
+89-8	2097-2104	besorgt	GSuccess[15]	adoptieren\_set1\_13[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-adoptieren\_set1\_13[15]	_	_	_	_	_	false[153]	Decl[153]	*[279]	*[279]	*[279]	*[279]	*[279]	input2[279]	22[399]	female[399]	ad2p95q44evasm6vmbol4cikit[399]	speaker: YOU[519]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+90-1	2106-2121	END_OF_DOCUMENT	GSuccess[15]	adoptieren\_set1\_13[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-adoptieren\_set1\_13[15]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+91-1	2123-2128	Alles	GSuccess[16]	adoptieren\_set1\_13[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-adoptieren\_set1\_13[16]	_	_	_	_	_	false[154]	Int[154]	*[280]	*[280]	*[280]	yn\_1[280]	yesno\_question[280]	openq[280]	*[400]	male[400]	*[400]	speaker:Tobias[520]	_	_	QAP	*	92-1[155_154]	
+91-2	2129-2133	klar	GSuccess[16]	adoptieren\_set1\_13[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-adoptieren\_set1\_13[16]	_	_	_	_	_	false[154]	Int[154]	*[280]	*[280]	*[280]	yn\_1[280]	yesno\_question[280]	openq[280]	*[400]	male[400]	*[400]	speaker:Tobias[520]	_	_	_	_	_	
+91-3	2134-2137	bei	GSuccess[16]	adoptieren\_set1\_13[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-adoptieren\_set1\_13[16]	_	_	_	_	_	false[154]	Int[154]	*[280]	*[280]	*[280]	yn\_1[280]	yesno\_question[280]	openq[280]	*[400]	male[400]	*[400]	speaker:Tobias[520]	_	_	_	_	_	
+91-4	2138-2142	dir?	GSuccess[16]	adoptieren\_set1\_13[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-adoptieren\_set1\_13[16]	2	*	*	*	singular	false[154]	Int[154]	*[280]	*[280]	*[280]	yn\_1[280]	yesno\_question[280]	openq[280]	*[400]	male[400]	*[400]	speaker:Tobias[520]	*->50-1	PerPron[50]	_	_	_	
+
+#Text=Diana hat eine Katze adoptiert
+92-1	2144-2149	Diana	GSuccess[16]	adoptieren\_set1\_13[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-adoptieren\_set1\_13[16]	*	*	Subj	*	*	false[155]	Decl[155]	*[281]	adoptieren[281]	transitive[281]	*[281]	*[281]	item0[281]	36[401]	female[401]	aoum613lougtk5ql841j63bjo9[401]	speaker: YOU[521]	*->55-1	PropNm[55]	elaboration|acknowledgement	*|*	95-1[157_155]|93-1[0_155]	
+92-2	2150-2153	hat	GSuccess[16]	adoptieren\_set1\_13[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-adoptieren\_set1\_13[16]	_	_	_	_	_	false[155]	Decl[155]	*[281]	adoptieren[281]	transitive[281]	*[281]	*[281]	item0[281]	36[401]	female[401]	aoum613lougtk5ql841j63bjo9[401]	speaker: YOU[521]	_	_	_	_	_	
+92-3	2154-2158	eine	GSuccess[16]	adoptieren\_set1\_13[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-adoptieren\_set1\_13[16]	*[61]	*[61]	object[61]	*[61]	*[61]	false[155]	Decl[155]	*[281]	adoptieren[281]	transitive[281]	*[281]	*[281]	item0[281]	36[401]	female[401]	aoum613lougtk5ql841j63bjo9[401]	speaker: YOU[521]	*->86-1	IndefNP[86]	_	_	_	
+92-4	2159-2164	Katze	GSuccess[16]	adoptieren\_set1\_13[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-adoptieren\_set1\_13[16]	*[61]	*[61]	object[61]	*[61]	*[61]	false[155]	Decl[155]	*[281]	adoptieren[281]	transitive[281]	*[281]	*[281]	item0[281]	36[401]	female[401]	aoum613lougtk5ql841j63bjo9[401]	speaker: YOU[521]	*->86-1	IndefNP[86]	_	_	_	
+92-5	2165-2174	adoptiert	GSuccess[16]	adoptieren\_set1\_13[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-adoptieren\_set1\_13[16]	_	_	_	_	_	false[155]	Decl[155]	*[281]	adoptieren[281]	transitive[281]	*[281]	*[281]	item0[281]	36[401]	female[401]	aoum613lougtk5ql841j63bjo9[401]	speaker: YOU[521]	_	_	_	_	_	
+
+#Text=Okay
+93-1	2176-2180	Okay	GSuccess[16]	adoptieren\_set1\_13[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-adoptieren\_set1\_13[16]	_	_	_	_	_	false	NA	okay\_22	*	*	*	*	feedback	*	male	*	speaker:Tobias	_	_	explanation	*	94-1[156_0]	
+
+#Text=Was heißt okay?
+94-1	2182-2185	Was	GSuccess[16]	adoptieren\_set1\_13[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-adoptieren\_set1\_13[16]	_	_	_	_	_	false[156]	Int[156]	*[282]	*[282]	*[282]	*[282]	*[282]	input1[282]	36[402]	female[402]	aoum613lougtk5ql841j63bjo9[402]	speaker: YOU[522]	_	_	_	_	_	
+94-2	2186-2191	heißt	GSuccess[16]	adoptieren\_set1\_13[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-adoptieren\_set1\_13[16]	_	_	_	_	_	false[156]	Int[156]	*[282]	*[282]	*[282]	*[282]	*[282]	input1[282]	36[402]	female[402]	aoum613lougtk5ql841j63bjo9[402]	speaker: YOU[522]	_	_	_	_	_	
+94-3	2192-2197	okay?	GSuccess[16]	adoptieren\_set1\_13[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-adoptieren\_set1\_13[16]	_	_	_	_	_	false[156]	Int[156]	*[282]	*[282]	*[282]	*[282]	*[282]	input1[282]	36[402]	female[402]	aoum613lougtk5ql841j63bjo9[402]	speaker: YOU[522]	_	_	_	_	_	
+
+#Text=Das ist eine ganz süße Tigerkatze <BR> mehr Begeisterung bitte!!
+95-1	2199-2202	Das	GSuccess[16]	adoptieren\_set1\_13[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-adoptieren\_set1\_13[16]	*	*	Subj	*	*	false[157]	Decl[157]	*[283]	*[283]	*[283]	*[283]	*[283]	input2[283]	36[403]	female[403]	aoum613lougtk5ql841j63bjo9[403]	speaker: YOU[523]	*->86-2	D-Pron[86]	result	*	95-8[158_157]	
+95-2	2203-2206	ist	GSuccess[16]	adoptieren\_set1\_13[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-adoptieren\_set1\_13[16]	_	_	_	_	_	false[157]	Decl[157]	*[283]	*[283]	*[283]	*[283]	*[283]	input2[283]	36[403]	female[403]	aoum613lougtk5ql841j63bjo9[403]	speaker: YOU[523]	_	_	_	_	_	
+95-3	2207-2211	eine	GSuccess[16]	adoptieren\_set1\_13[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-adoptieren\_set1\_13[16]	*[62]	*[62]	Subj[62]	*[62]	*[62]	false[157]	Decl[157]	*[283]	*[283]	*[283]	*[283]	*[283]	input2[283]	36[403]	female[403]	aoum613lougtk5ql841j63bjo9[403]	speaker: YOU[523]	_	_	_	_	_	
+95-4	2212-2216	ganz	GSuccess[16]	adoptieren\_set1\_13[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-adoptieren\_set1\_13[16]	*[62]	*[62]	Subj[62]	*[62]	*[62]	false[157]	Decl[157]	*[283]	*[283]	*[283]	*[283]	*[283]	input2[283]	36[403]	female[403]	aoum613lougtk5ql841j63bjo9[403]	speaker: YOU[523]	_	_	_	_	_	
+95-5	2217-2221	süße	GSuccess[16]	adoptieren\_set1\_13[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-adoptieren\_set1\_13[16]	*[62]	*[62]	Subj[62]	*[62]	*[62]	false[157]	Decl[157]	*[283]	*[283]	*[283]	*[283]	*[283]	input2[283]	36[403]	female[403]	aoum613lougtk5ql841j63bjo9[403]	speaker: YOU[523]	_	_	_	_	_	
+95-6	2222-2232	Tigerkatze	GSuccess[16]	adoptieren\_set1\_13[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-adoptieren\_set1\_13[16]	*[62]	*[62]	Subj[62]	*[62]	*[62]	false[157]	Decl[157]	*[283]	*[283]	*[283]	*[283]	*[283]	input2[283]	36[403]	female[403]	aoum613lougtk5ql841j63bjo9[403]	speaker: YOU[523]	_	_	_	_	_	
+95-7	2233-2237	<BR>	GSuccess[16]	adoptieren\_set1\_13[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-adoptieren\_set1\_13[16]	_	_	_	_	_	_	_	*[283]	*[283]	*[283]	*[283]	*[283]	input2[283]	36[403]	female[403]	aoum613lougtk5ql841j63bjo9[403]	speaker: YOU[523]	_	_	_	_	_	
+95-8	2238-2242	mehr	GSuccess[16]	adoptieren\_set1\_13[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-adoptieren\_set1\_13[16]	_	_	_	_	_	false[158]	NA[158]	*[283]	*[283]	*[283]	*[283]	*[283]	input2[283]	36[403]	female[403]	aoum613lougtk5ql841j63bjo9[403]	speaker: YOU[523]	_	_	_	_	_	
+95-9	2243-2255	Begeisterung	GSuccess[16]	adoptieren\_set1\_13[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-adoptieren\_set1\_13[16]	*	*	DirObj	*	*	false[158]	NA[158]	*[283]	*[283]	*[283]	*[283]	*[283]	input2[283]	36[403]	female[403]	aoum613lougtk5ql841j63bjo9[403]	speaker: YOU[523]	*->38-1	IndefNP[38]	_	_	_	
+95-10	2256-2263	bitte!!	GSuccess[16]	adoptieren\_set1\_13[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-adoptieren\_set1\_13[16]	_	_	_	_	_	false[158]	NA[158]	*[283]	*[283]	*[283]	*[283]	*[283]	input2[283]	36[403]	female[403]	aoum613lougtk5ql841j63bjo9[403]	speaker: YOU[523]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+96-1	2265-2280	END_OF_DOCUMENT	GSuccess[16]	adoptieren\_set1\_13[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-adoptieren\_set1\_13[16]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+97-1	2282-2287	Alles	GSuccess[17]	adoptieren\_set1\_13[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-adoptieren\_set1\_13[17]	_	_	_	_	_	false[159]	Int[159]	*[284]	*[284]	*[284]	yn\_1[284]	yesno\_question[284]	openq[284]	*[404]	male[404]	*[404]	speaker:Tobias[524]	_	_	QAP	*	98-1[160_159]	
+97-2	2288-2292	klar	GSuccess[17]	adoptieren\_set1\_13[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-adoptieren\_set1\_13[17]	_	_	_	_	_	false[159]	Int[159]	*[284]	*[284]	*[284]	yn\_1[284]	yesno\_question[284]	openq[284]	*[404]	male[404]	*[404]	speaker:Tobias[524]	_	_	_	_	_	
+97-3	2293-2296	bei	GSuccess[17]	adoptieren\_set1\_13[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-adoptieren\_set1\_13[17]	_	_	_	_	_	false[159]	Int[159]	*[284]	*[284]	*[284]	yn\_1[284]	yesno\_question[284]	openq[284]	*[404]	male[404]	*[404]	speaker:Tobias[524]	_	_	_	_	_	
+97-4	2297-2301	dir?	GSuccess[17]	adoptieren\_set1\_13[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-adoptieren\_set1\_13[17]	2	*	*	*	singular	false[159]	Int[159]	*[284]	*[284]	*[284]	yn\_1[284]	yesno\_question[284]	openq[284]	*[404]	male[404]	*[404]	speaker:Tobias[524]	*->120-1	PerPron[120]	_	_	_	
+
+#Text=Diana hat eine Katze adoptiert
+98-1	2303-2308	Diana	GSuccess[17]	adoptieren\_set1\_13[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-adoptieren\_set1\_13[17]	*	*	Subj	*	*	false[160]	Decl[160]	*[285]	adoptieren[285]	transitive[285]	*[285]	*[285]	item0[285]	26[405]	male[405]	c48fsj7kc4kiuorutkbb4be30b[405]	speaker: YOU[525]	*->16-1	PropNm[16]	elaboration|elaboration|acknowledgement	*|*|*	100-1[161_160]|101-1[162_160]|99-1[0_160]	
+98-2	2309-2312	hat	GSuccess[17]	adoptieren\_set1\_13[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-adoptieren\_set1\_13[17]	_	_	_	_	_	false[160]	Decl[160]	*[285]	adoptieren[285]	transitive[285]	*[285]	*[285]	item0[285]	26[405]	male[405]	c48fsj7kc4kiuorutkbb4be30b[405]	speaker: YOU[525]	_	_	_	_	_	
+98-3	2313-2317	eine	GSuccess[17]	adoptieren\_set1\_13[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-adoptieren\_set1\_13[17]	*[63]	*[63]	object[63]	*[63]	*[63]	false[160]	Decl[160]	*[285]	adoptieren[285]	transitive[285]	*[285]	*[285]	item0[285]	26[405]	male[405]	c48fsj7kc4kiuorutkbb4be30b[405]	speaker: YOU[525]	*->85-1	IndefNP[85]	_	_	_	
+98-4	2318-2323	Katze	GSuccess[17]	adoptieren\_set1\_13[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-adoptieren\_set1\_13[17]	*[63]	*[63]	object[63]	*[63]	*[63]	false[160]	Decl[160]	*[285]	adoptieren[285]	transitive[285]	*[285]	*[285]	item0[285]	26[405]	male[405]	c48fsj7kc4kiuorutkbb4be30b[405]	speaker: YOU[525]	*->85-1	IndefNP[85]	_	_	_	
+98-5	2324-2333	adoptiert	GSuccess[17]	adoptieren\_set1\_13[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-adoptieren\_set1\_13[17]	_	_	_	_	_	false[160]	Decl[160]	*[285]	adoptieren[285]	transitive[285]	*[285]	*[285]	item0[285]	26[405]	male[405]	c48fsj7kc4kiuorutkbb4be30b[405]	speaker: YOU[525]	_	_	_	_	_	
+
+#Text=Okay
+99-1	2335-2339	Okay	GSuccess[17]	adoptieren\_set1\_13[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-adoptieren\_set1\_13[17]	_	_	_	_	_	false	NA	okay\_22	*	*	*	*	feedback	*	male	*	speaker:Tobias	_	_	_	_	_	
+
+#Text=Es ist eine Britisch Kurzhaar.
+100-1	2341-2343	Es	GSuccess[17]	adoptieren\_set1\_13[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-adoptieren\_set1\_13[17]	3	*	Subj	*	singular	false[161]	Decl[161]	*[286]	*[286]	*[286]	*[286]	*[286]	input1[286]	26[406]	male[406]	c48fsj7kc4kiuorutkbb4be30b[406]	speaker: YOU[526]	*->85-2	PerPron[85]	_	_	_	
+100-2	2344-2347	ist	GSuccess[17]	adoptieren\_set1\_13[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-adoptieren\_set1\_13[17]	_	_	_	_	_	false[161]	Decl[161]	*[286]	*[286]	*[286]	*[286]	*[286]	input1[286]	26[406]	male[406]	c48fsj7kc4kiuorutkbb4be30b[406]	speaker: YOU[526]	_	_	_	_	_	
+100-3	2348-2352	eine	GSuccess[17]	adoptieren\_set1\_13[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-adoptieren\_set1\_13[17]	*[64]	*[64]	Subj[64]	*[64]	*[64]	false[161]	Decl[161]	*[286]	*[286]	*[286]	*[286]	*[286]	input1[286]	26[406]	male[406]	c48fsj7kc4kiuorutkbb4be30b[406]	speaker: YOU[526]	_	_	_	_	_	
+100-4	2353-2361	Britisch	GSuccess[17]	adoptieren\_set1\_13[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-adoptieren\_set1\_13[17]	*[64]	*[64]	Subj[64]	*[64]	*[64]	false[161]	Decl[161]	*[286]	*[286]	*[286]	*[286]	*[286]	input1[286]	26[406]	male[406]	c48fsj7kc4kiuorutkbb4be30b[406]	speaker: YOU[526]	_	_	_	_	_	
+100-5	2362-2371	Kurzhaar.	GSuccess[17]	adoptieren\_set1\_13[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-adoptieren\_set1\_13[17]	*[64]	*[64]	Subj[64]	*[64]	*[64]	false[161]	Decl[161]	*[286]	*[286]	*[286]	*[286]	*[286]	input1[286]	26[406]	male[406]	c48fsj7kc4kiuorutkbb4be30b[406]	speaker: YOU[526]	_	_	_	_	_	
+
+#Text=Total süß!
+101-1	2373-2378	Total	GSuccess[17]	adoptieren\_set1\_13[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-adoptieren\_set1\_13[17]	_	_	_	_	_	false[162]	NA[162]	*[287]	*[287]	*[287]	*[287]	*[287]	input2[287]	26[407]	male[407]	c48fsj7kc4kiuorutkbb4be30b[407]	speaker: YOU[527]	_	_	_	_	_	
+101-2	2379-2383	süß!	GSuccess[17]	adoptieren\_set1\_13[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-adoptieren\_set1\_13[17]	_	_	_	_	_	false[162]	NA[162]	*[287]	*[287]	*[287]	*[287]	*[287]	input2[287]	26[407]	male[407]	c48fsj7kc4kiuorutkbb4be30b[407]	speaker: YOU[527]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+102-1	2385-2400	END_OF_DOCUMENT	GSuccess[17]	adoptieren\_set1\_13[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-adoptieren\_set1\_13[17]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+103-1	2402-2407	Alles	GSuccess[18]	adoptieren\_set1\_13[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-adoptieren\_set1\_13[18]	_	_	_	_	_	false[163]	Int[163]	*[288]	*[288]	*[288]	yn\_1[288]	yesno\_question[288]	openq[288]	*[408]	male[408]	*[408]	speaker:Tobias[528]	_	_	QAP	*	104-1[164_163]	
+103-2	2408-2412	klar	GSuccess[18]	adoptieren\_set1\_13[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-adoptieren\_set1\_13[18]	_	_	_	_	_	false[163]	Int[163]	*[288]	*[288]	*[288]	yn\_1[288]	yesno\_question[288]	openq[288]	*[408]	male[408]	*[408]	speaker:Tobias[528]	_	_	_	_	_	
+103-3	2413-2416	bei	GSuccess[18]	adoptieren\_set1\_13[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-adoptieren\_set1\_13[18]	_	_	_	_	_	false[163]	Int[163]	*[288]	*[288]	*[288]	yn\_1[288]	yesno\_question[288]	openq[288]	*[408]	male[408]	*[408]	speaker:Tobias[528]	_	_	_	_	_	
+103-4	2417-2421	dir?	GSuccess[18]	adoptieren\_set1\_13[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-adoptieren\_set1\_13[18]	2	*	*	*	singular	false[163]	Int[163]	*[288]	*[288]	*[288]	yn\_1[288]	yesno\_question[288]	openq[288]	*[408]	male[408]	*[408]	speaker:Tobias[528]	*->80-1	PerPron[80]	_	_	_	
+
+#Text=Diana hat eine Katze adoptiert
+104-1	2423-2428	Diana	GSuccess[18]	adoptieren\_set1\_13[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-adoptieren\_set1\_13[18]	*	*	Subj	*	*	false[164]	Decl[164]	*[289]	adoptieren[289]	transitive[289]	*[289]	*[289]	item0[289]	57[409]	female[409]	k0vnav0sqhr0fo3b0jpuaak9s4[409]	speaker: YOU[529]	*->18-1	PropNm[18]	elaboration|explanation|acknowledgement	*|*|*	106-1[0_164]|106-3[165_164]|105-1[0_164]	
+104-2	2429-2432	hat	GSuccess[18]	adoptieren\_set1\_13[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-adoptieren\_set1\_13[18]	_	_	_	_	_	false[164]	Decl[164]	*[289]	adoptieren[289]	transitive[289]	*[289]	*[289]	item0[289]	57[409]	female[409]	k0vnav0sqhr0fo3b0jpuaak9s4[409]	speaker: YOU[529]	_	_	_	_	_	
+104-3	2433-2437	eine	GSuccess[18]	adoptieren\_set1\_13[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-adoptieren\_set1\_13[18]	*[65]	*[65]	object[65]	*[65]	*[65]	false[164]	Decl[164]	*[289]	adoptieren[289]	transitive[289]	*[289]	*[289]	item0[289]	57[409]	female[409]	k0vnav0sqhr0fo3b0jpuaak9s4[409]	speaker: YOU[529]	*->104-1	IndefNP[104]	_	_	_	
+104-4	2438-2443	Katze	GSuccess[18]	adoptieren\_set1\_13[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-adoptieren\_set1\_13[18]	*[65]	*[65]	object[65]	*[65]	*[65]	false[164]	Decl[164]	*[289]	adoptieren[289]	transitive[289]	*[289]	*[289]	item0[289]	57[409]	female[409]	k0vnav0sqhr0fo3b0jpuaak9s4[409]	speaker: YOU[529]	*->104-1	IndefNP[104]	_	_	_	
+104-5	2444-2453	adoptiert	GSuccess[18]	adoptieren\_set1\_13[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-adoptieren\_set1\_13[18]	_	_	_	_	_	false[164]	Decl[164]	*[289]	adoptieren[289]	transitive[289]	*[289]	*[289]	item0[289]	57[409]	female[409]	k0vnav0sqhr0fo3b0jpuaak9s4[409]	speaker: YOU[529]	_	_	_	_	_	
+
+#Text=Okay
+105-1	2455-2459	Okay	GSuccess[18]	adoptieren\_set1\_13[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-adoptieren\_set1\_13[18]	_	_	_	_	_	false	NA	okay\_22	*	*	*	*	feedback	*	male	*	speaker:Tobias	_	_	_	_	_	
+
+#Text=Ja <BR> sie will internetberühmt werden.
+106-1	2461-2463	Ja	GSuccess[18]	adoptieren\_set1\_13[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-adoptieren\_set1\_13[18]	_	_	_	_	_	false	NA	*[290]	*[290]	*[290]	*[290]	*[290]	input1[290]	57[410]	female[410]	k0vnav0sqhr0fo3b0jpuaak9s4[410]	speaker: YOU[530]	_	_	_	_	_	
+106-2	2464-2468	<BR>	GSuccess[18]	adoptieren\_set1\_13[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-adoptieren\_set1\_13[18]	_	_	_	_	_	_	_	*[290]	*[290]	*[290]	*[290]	*[290]	input1[290]	57[410]	female[410]	k0vnav0sqhr0fo3b0jpuaak9s4[410]	speaker: YOU[530]	_	_	_	_	_	
+106-3	2469-2472	sie	GSuccess[18]	adoptieren\_set1\_13[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-adoptieren\_set1\_13[18]	3	*	Subj	f	singular	false[165]	Decl[165]	*[290]	*[290]	*[290]	*[290]	*[290]	input1[290]	57[410]	female[410]	k0vnav0sqhr0fo3b0jpuaak9s4[410]	speaker: YOU[530]	*->18-2	PerPron[18]	result	*	107-1[166_165]	
+106-4	2473-2477	will	GSuccess[18]	adoptieren\_set1\_13[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-adoptieren\_set1\_13[18]	_	_	_	_	_	false[165]	Decl[165]	*[290]	*[290]	*[290]	*[290]	*[290]	input1[290]	57[410]	female[410]	k0vnav0sqhr0fo3b0jpuaak9s4[410]	speaker: YOU[530]	_	_	_	_	_	
+106-5	2478-2493	internetberühmt	GSuccess[18]	adoptieren\_set1\_13[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-adoptieren\_set1\_13[18]	_	_	_	_	_	false[165]	Decl[165]	*[290]	*[290]	*[290]	*[290]	*[290]	input1[290]	57[410]	female[410]	k0vnav0sqhr0fo3b0jpuaak9s4[410]	speaker: YOU[530]	_	_	_	_	_	
+106-6	2494-2501	werden.	GSuccess[18]	adoptieren\_set1\_13[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-adoptieren\_set1\_13[18]	_	_	_	_	_	false[165]	Decl[165]	*[290]	*[290]	*[290]	*[290]	*[290]	input1[290]	57[410]	female[410]	k0vnav0sqhr0fo3b0jpuaak9s4[410]	speaker: YOU[530]	_	_	_	_	_	
+
+#Text=Arme Katze.
+107-1	2503-2507	Arme	GSuccess[18]	adoptieren\_set1\_13[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-adoptieren\_set1\_13[18]	*[66]	*[66]	Subj[66]	*[66]	*[66]	false[166]	NA[166]	*[291]	*[291]	*[291]	*[291]	*[291]	input2[291]	57[411]	female[411]	k0vnav0sqhr0fo3b0jpuaak9s4[411]	speaker: YOU[531]	*->104-2	IndefNP[104]	_	_	_	
+107-2	2508-2514	Katze.	GSuccess[18]	adoptieren\_set1\_13[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-adoptieren\_set1\_13[18]	*[66]	*[66]	Subj[66]	*[66]	*[66]	false[166]	NA[166]	*[291]	*[291]	*[291]	*[291]	*[291]	input2[291]	57[411]	female[411]	k0vnav0sqhr0fo3b0jpuaak9s4[411]	speaker: YOU[531]	*->104-2	IndefNP[104]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+108-1	2516-2531	END_OF_DOCUMENT	GSuccess[18]	adoptieren\_set1\_13[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-adoptieren\_set1\_13[18]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+109-1	2533-2538	Alles	GSuccess[19]	adoptieren\_set1\_13[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-adoptieren\_set1\_13[19]	_	_	_	_	_	false[167]	Int[167]	*[292]	*[292]	*[292]	yn\_1[292]	yesno\_question[292]	openq[292]	*[412]	male[412]	*[412]	speaker:Tobias[532]	_	_	QAP	*	110-1[168_167]	
+109-2	2539-2543	klar	GSuccess[19]	adoptieren\_set1\_13[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-adoptieren\_set1\_13[19]	_	_	_	_	_	false[167]	Int[167]	*[292]	*[292]	*[292]	yn\_1[292]	yesno\_question[292]	openq[292]	*[412]	male[412]	*[412]	speaker:Tobias[532]	_	_	_	_	_	
+109-3	2544-2547	bei	GSuccess[19]	adoptieren\_set1\_13[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-adoptieren\_set1\_13[19]	_	_	_	_	_	false[167]	Int[167]	*[292]	*[292]	*[292]	yn\_1[292]	yesno\_question[292]	openq[292]	*[412]	male[412]	*[412]	speaker:Tobias[532]	_	_	_	_	_	
+109-4	2548-2552	dir?	GSuccess[19]	adoptieren\_set1\_13[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-adoptieren\_set1\_13[19]	2	*	*	*	singular	false[167]	Int[167]	*[292]	*[292]	*[292]	yn\_1[292]	yesno\_question[292]	openq[292]	*[412]	male[412]	*[412]	speaker:Tobias[532]	*->62-1	PerPron[62]	_	_	_	
+
+#Text=Diana hat eine Katze adoptiert
+110-1	2554-2559	Diana	GSuccess[19]	adoptieren\_set1\_13[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-adoptieren\_set1\_13[19]	*	*	Subj	*	*	false[168]	Decl[168]	*[293]	adoptieren[293]	transitive[293]	*[293]	*[293]	item0[293]	26[413]	female[413]	qjdpg51abd5auurj3bduisfb43[413]	speaker: YOU[533]	*->7-1	PropNm[7]	elaboration|elaboration|acknowledgement	*|*|*	112-1[169_168]|113-1[170_168]|111-1[0_168]	
+110-2	2560-2563	hat	GSuccess[19]	adoptieren\_set1\_13[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-adoptieren\_set1\_13[19]	_	_	_	_	_	false[168]	Decl[168]	*[293]	adoptieren[293]	transitive[293]	*[293]	*[293]	item0[293]	26[413]	female[413]	qjdpg51abd5auurj3bduisfb43[413]	speaker: YOU[533]	_	_	_	_	_	
+110-3	2564-2568	eine	GSuccess[19]	adoptieren\_set1\_13[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-adoptieren\_set1\_13[19]	*[67]	*[67]	object[67]	*[67]	*[67]	false[168]	Decl[168]	*[293]	adoptieren[293]	transitive[293]	*[293]	*[293]	item0[293]	26[413]	female[413]	qjdpg51abd5auurj3bduisfb43[413]	speaker: YOU[533]	*->81-1	IndefNP[81]	_	_	_	
+110-4	2569-2574	Katze	GSuccess[19]	adoptieren\_set1\_13[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-adoptieren\_set1\_13[19]	*[67]	*[67]	object[67]	*[67]	*[67]	false[168]	Decl[168]	*[293]	adoptieren[293]	transitive[293]	*[293]	*[293]	item0[293]	26[413]	female[413]	qjdpg51abd5auurj3bduisfb43[413]	speaker: YOU[533]	*->81-1	IndefNP[81]	_	_	_	
+110-5	2575-2584	adoptiert	GSuccess[19]	adoptieren\_set1\_13[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-adoptieren\_set1\_13[19]	_	_	_	_	_	false[168]	Decl[168]	*[293]	adoptieren[293]	transitive[293]	*[293]	*[293]	item0[293]	26[413]	female[413]	qjdpg51abd5auurj3bduisfb43[413]	speaker: YOU[533]	_	_	_	_	_	
+
+#Text=Okay
+111-1	2586-2590	Okay	GSuccess[19]	adoptieren\_set1\_13[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-adoptieren\_set1\_13[19]	_	_	_	_	_	false	NA	okay\_22	*	*	*	*	feedback	*	male	*	speaker:Tobias	_	_	_	_	_	
+
+#Text=Die ist süß.
+112-1	2592-2595	Die	GSuccess[19]	adoptieren\_set1\_13[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-adoptieren\_set1\_13[19]	*	*	Subj	*	*	false[169]	Decl[169]	*[294]	*[294]	*[294]	*[294]	*[294]	input1[294]	26[414]	female[414]	qjdpg51abd5auurj3bduisfb43[414]	speaker: YOU[534]	*->81-2	D-Pron[81]	_	_	_	
+112-2	2596-2599	ist	GSuccess[19]	adoptieren\_set1\_13[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-adoptieren\_set1\_13[19]	_	_	_	_	_	false[169]	Decl[169]	*[294]	*[294]	*[294]	*[294]	*[294]	input1[294]	26[414]	female[414]	qjdpg51abd5auurj3bduisfb43[414]	speaker: YOU[534]	_	_	_	_	_	
+112-3	2600-2604	süß.	GSuccess[19]	adoptieren\_set1\_13[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-adoptieren\_set1\_13[19]	_	_	_	_	_	false[169]	Decl[169]	*[294]	*[294]	*[294]	*[294]	*[294]	input1[294]	26[414]	female[414]	qjdpg51abd5auurj3bduisfb43[414]	speaker: YOU[534]	_	_	_	_	_	
+
+#Text=Und schwarz.
+113-1	2606-2609	Und	GSuccess[19]	adoptieren\_set1\_13[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-adoptieren\_set1\_13[19]	_	_	_	_	_	false[170]	NA[170]	*[295]	*[295]	*[295]	*[295]	*[295]	input2[295]	26[415]	female[415]	qjdpg51abd5auurj3bduisfb43[415]	speaker: YOU[535]	_	_	_	_	_	
+113-2	2610-2618	schwarz.	GSuccess[19]	adoptieren\_set1\_13[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-adoptieren\_set1\_13[19]	_	_	_	_	_	false[170]	NA[170]	*[295]	*[295]	*[295]	*[295]	*[295]	input2[295]	26[415]	female[415]	qjdpg51abd5auurj3bduisfb43[415]	speaker: YOU[535]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+114-1	2620-2635	END_OF_DOCUMENT	GSuccess[19]	adoptieren\_set1\_13[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-adoptieren\_set1\_13[19]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+115-1	2637-2642	Alles	GSuccess[20]	adoptieren\_set1\_13[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-adoptieren\_set1\_13[20]	_	_	_	_	_	false[171]	Int[171]	*[296]	*[296]	*[296]	yn\_1[296]	yesno\_question[296]	openq[296]	*[416]	male[416]	*[416]	speaker:Tobias[536]	_	_	QAP	*	116-1[172_171]	
+115-2	2643-2647	klar	GSuccess[20]	adoptieren\_set1\_13[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-adoptieren\_set1\_13[20]	_	_	_	_	_	false[171]	Int[171]	*[296]	*[296]	*[296]	yn\_1[296]	yesno\_question[296]	openq[296]	*[416]	male[416]	*[416]	speaker:Tobias[536]	_	_	_	_	_	
+115-3	2648-2651	bei	GSuccess[20]	adoptieren\_set1\_13[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-adoptieren\_set1\_13[20]	_	_	_	_	_	false[171]	Int[171]	*[296]	*[296]	*[296]	yn\_1[296]	yesno\_question[296]	openq[296]	*[416]	male[416]	*[416]	speaker:Tobias[536]	_	_	_	_	_	
+115-4	2652-2656	dir?	GSuccess[20]	adoptieren\_set1\_13[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-adoptieren\_set1\_13[20]	2	*	*	*	singular	false[171]	Int[171]	*[296]	*[296]	*[296]	yn\_1[296]	yesno\_question[296]	openq[296]	*[416]	male[416]	*[416]	speaker:Tobias[536]	*->39-1	PerPron[39]	_	_	_	
+
+#Text=Diana hat eine Katze adoptiert
+116-1	2658-2663	Diana	GSuccess[20]	adoptieren\_set1\_13[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-adoptieren\_set1\_13[20]	*	*	Subj	*	*	false[172]	Decl[172]	*[297]	adoptieren[297]	transitive[297]	*[297]	*[297]	item0[297]	72[417]	male[417]	rhiec6c6hfje484c5bsbj040l0[417]	speaker: YOU[537]	*->56-1	PropNm[56]	elaboration|acknowledgement	*|*	118-1[173_172]|117-1[0_172]	
+116-2	2664-2667	hat	GSuccess[20]	adoptieren\_set1\_13[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-adoptieren\_set1\_13[20]	_	_	_	_	_	false[172]	Decl[172]	*[297]	adoptieren[297]	transitive[297]	*[297]	*[297]	item0[297]	72[417]	male[417]	rhiec6c6hfje484c5bsbj040l0[417]	speaker: YOU[537]	_	_	_	_	_	
+116-3	2668-2672	eine	GSuccess[20]	adoptieren\_set1\_13[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-adoptieren\_set1\_13[20]	*[68]	*[68]	object[68]	*[68]	*[68]	false[172]	Decl[172]	*[297]	adoptieren[297]	transitive[297]	*[297]	*[297]	item0[297]	72[417]	male[417]	rhiec6c6hfje484c5bsbj040l0[417]	speaker: YOU[537]	*->69-1	IndefNP[69]	_	_	_	
+116-4	2673-2678	Katze	GSuccess[20]	adoptieren\_set1\_13[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-adoptieren\_set1\_13[20]	*[68]	*[68]	object[68]	*[68]	*[68]	false[172]	Decl[172]	*[297]	adoptieren[297]	transitive[297]	*[297]	*[297]	item0[297]	72[417]	male[417]	rhiec6c6hfje484c5bsbj040l0[417]	speaker: YOU[537]	*->69-1	IndefNP[69]	_	_	_	
+116-5	2679-2688	adoptiert	GSuccess[20]	adoptieren\_set1\_13[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-adoptieren\_set1\_13[20]	_	_	_	_	_	false[172]	Decl[172]	*[297]	adoptieren[297]	transitive[297]	*[297]	*[297]	item0[297]	72[417]	male[417]	rhiec6c6hfje484c5bsbj040l0[417]	speaker: YOU[537]	_	_	_	_	_	
+
+#Text=Okay
+117-1	2690-2694	Okay	GSuccess[20]	adoptieren\_set1\_13[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-adoptieren\_set1\_13[20]	_	_	_	_	_	false	NA	okay\_22	*	*	*	*	feedback	*	male	*	speaker:Tobias	_	_	_	_	_	
+
+#Text=Sie wollte ja schon immer eine Katze
+118-1	2696-2699	Sie	GSuccess[20]	adoptieren\_set1\_13[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-adoptieren\_set1\_13[20]	3	*	Subj	*	singular	true[173]|false[174]	*[173]|Decl[174]	*[298]	*[298]	*[298]	*[298]	*[298]	input1[298]	72[418]	male[418]	rhiec6c6hfje484c5bsbj040l0[418]	speaker: YOU[538]	*->56-2	PerPron[56]	narration	*	119-1[175_174]	
+118-2	2700-2706	wollte	GSuccess[20]	adoptieren\_set1\_13[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-adoptieren\_set1\_13[20]	_	_	_	_	_	true[173]|false[174]	*[173]|Decl[174]	*[298]	*[298]	*[298]	*[298]	*[298]	input1[298]	72[418]	male[418]	rhiec6c6hfje484c5bsbj040l0[418]	speaker: YOU[538]	_	_	_	_	_	
+118-3	2707-2709	ja	GSuccess[20]	adoptieren\_set1\_13[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-adoptieren\_set1\_13[20]	_	_	_	_	_	true[173]|false[174]	*[173]|Decl[174]	*[298]	*[298]	*[298]	*[298]	*[298]	input1[298]	72[418]	male[418]	rhiec6c6hfje484c5bsbj040l0[418]	speaker: YOU[538]	_	_	_	_	_	
+118-4	2710-2715	schon	GSuccess[20]	adoptieren\_set1\_13[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-adoptieren\_set1\_13[20]	_	_	_	_	_	true[173]|false[174]	*[173]|Decl[174]	*[298]	*[298]	*[298]	*[298]	*[298]	input1[298]	72[418]	male[418]	rhiec6c6hfje484c5bsbj040l0[418]	speaker: YOU[538]	_	_	_	_	_	
+118-5	2716-2721	immer	GSuccess[20]	adoptieren\_set1\_13[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-adoptieren\_set1\_13[20]	_	_	_	_	_	true[173]|false[174]	*[173]|Decl[174]	*[298]	*[298]	*[298]	*[298]	*[298]	input1[298]	72[418]	male[418]	rhiec6c6hfje484c5bsbj040l0[418]	speaker: YOU[538]	_	_	_	_	_	
+118-6	2722-2726	eine	GSuccess[20]	adoptieren\_set1\_13[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-adoptieren\_set1\_13[20]	*[69]	*[69]	DirObj[69]	*[69]	*[69]	true[173]|false[174]	*[173]|Decl[174]	*[298]	*[298]	*[298]	*[298]	*[298]	input1[298]	72[418]	male[418]	rhiec6c6hfje484c5bsbj040l0[418]	speaker: YOU[538]	*->122-1	IndefNP[122]	_	_	_	
+118-7	2727-2732	Katze	GSuccess[20]	adoptieren\_set1\_13[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-adoptieren\_set1\_13[20]	*[69]	*[69]	DirObj[69]	*[69]	*[69]	true[173]|false[174]	*[173]|Decl[174]	*[298]	*[298]	*[298]	*[298]	*[298]	input1[298]	72[418]	male[418]	rhiec6c6hfje484c5bsbj040l0[418]	speaker: YOU[538]	*->122-1	IndefNP[122]	_	_	_	
+
+#Text=Jetzt hat Sie endlich eine bekommen
+119-1	2734-2739	Jetzt	GSuccess[20]	adoptieren\_set1\_13[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-adoptieren\_set1\_13[20]	_	_	_	_	_	true[173]|false[175]	*[173]|Decl[175]	*[299]	*[299]	*[299]	*[299]	*[299]	input2[299]	72[419]	male[419]	rhiec6c6hfje484c5bsbj040l0[419]	speaker: YOU[539]	_	_	_	_	_	
+119-2	2740-2743	hat	GSuccess[20]	adoptieren\_set1\_13[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-adoptieren\_set1\_13[20]	_	_	_	_	_	true[173]|false[175]	*[173]|Decl[175]	*[299]	*[299]	*[299]	*[299]	*[299]	input2[299]	72[419]	male[419]	rhiec6c6hfje484c5bsbj040l0[419]	speaker: YOU[539]	_	_	_	_	_	
+119-3	2744-2747	Sie	GSuccess[20]	adoptieren\_set1\_13[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-adoptieren\_set1\_13[20]	3	*	Subj	*	singular	true[173]|false[175]	*[173]|Decl[175]	*[299]	*[299]	*[299]	*[299]	*[299]	input2[299]	72[419]	male[419]	rhiec6c6hfje484c5bsbj040l0[419]	speaker: YOU[539]	*->56-3	PerPron[56]	_	_	_	
+119-4	2748-2755	endlich	GSuccess[20]	adoptieren\_set1\_13[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-adoptieren\_set1\_13[20]	_	_	_	_	_	true[173]|false[175]	*[173]|Decl[175]	*[299]	*[299]	*[299]	*[299]	*[299]	input2[299]	72[419]	male[419]	rhiec6c6hfje484c5bsbj040l0[419]	speaker: YOU[539]	_	_	_	_	_	
+119-5	2756-2760	eine	GSuccess[20]	adoptieren\_set1\_13[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-adoptieren\_set1\_13[20]	*	*	DirObj	*	*	true[173]|false[175]	*[173]|Decl[175]	*[299]	*[299]	*[299]	*[299]	*[299]	input2[299]	72[419]	male[419]	rhiec6c6hfje484c5bsbj040l0[419]	speaker: YOU[539]	*->69-2	IndefNP[69]	_	_	_	
+119-6	2761-2769	bekommen	GSuccess[20]	adoptieren\_set1\_13[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-adoptieren\_set1\_13[20]	_	_	_	_	_	true[173]|false[175]	*[173]|Decl[175]	*[299]	*[299]	*[299]	*[299]	*[299]	input2[299]	72[419]	male[419]	rhiec6c6hfje484c5bsbj040l0[419]	speaker: YOU[539]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+120-1	2771-2786	END_OF_DOCUMENT	GSuccess[20]	adoptieren\_set1\_13[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-adoptieren\_set1\_13[20]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+121-1	2788-2793	Alles	GWithout[21]	adoptieren\_set1\_13[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-adoptieren\_set1\_13[21]	_	_	_	_	_	false[176]	Int[176]	*[300]	*[300]	*[300]	yn\_1[300]	yesno\_question[300]	openq[300]	*[420]	male[420]	*[420]	speaker:Tobias[540]	_	_	QAP	*	122-1[177_176]	
+121-2	2794-2798	klar	GWithout[21]	adoptieren\_set1\_13[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-adoptieren\_set1\_13[21]	_	_	_	_	_	false[176]	Int[176]	*[300]	*[300]	*[300]	yn\_1[300]	yesno\_question[300]	openq[300]	*[420]	male[420]	*[420]	speaker:Tobias[540]	_	_	_	_	_	
+121-3	2799-2802	bei	GWithout[21]	adoptieren\_set1\_13[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-adoptieren\_set1\_13[21]	_	_	_	_	_	false[176]	Int[176]	*[300]	*[300]	*[300]	yn\_1[300]	yesno\_question[300]	openq[300]	*[420]	male[420]	*[420]	speaker:Tobias[540]	_	_	_	_	_	
+121-4	2803-2807	dir?	GWithout[21]	adoptieren\_set1\_13[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-adoptieren\_set1\_13[21]	2	*	*	*	singular	false[176]	Int[176]	*[300]	*[300]	*[300]	yn\_1[300]	yesno\_question[300]	openq[300]	*[420]	male[420]	*[420]	speaker:Tobias[540]	*->23-1	PerPron[23]	_	_	_	
+
+#Text=Diana hat eine Katze adoptiert
+122-1	2809-2814	Diana	GWithout[21]	adoptieren\_set1\_13[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-adoptieren\_set1\_13[21]	*	*	Subj	*	*	false[177]	Decl[177]	*[301]	adoptieren[301]	transitive[301]	*[301]	*[301]	item0[301]	18[421]	female[421]	0ncaea7aqlpc7oe43khd21qn11[421]	speaker: YOU[541]	*->87-1|*->114-1	clause[87]|PropNm[114]	elaboration	*	124-1[178_177]	
+122-2	2815-2818	hat	GWithout[21]	adoptieren\_set1\_13[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-adoptieren\_set1\_13[21]	_	_	_	_	_	false[177]	Decl[177]	*[301]	adoptieren[301]	transitive[301]	*[301]	*[301]	item0[301]	18[421]	female[421]	0ncaea7aqlpc7oe43khd21qn11[421]	speaker: YOU[541]	*->87-1	clause[87]	_	_	_	
+122-3	2819-2823	eine	GWithout[21]	adoptieren\_set1\_13[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-adoptieren\_set1\_13[21]	*[70]	*[70]	object[70]	*[70]	*[70]	false[177]	Decl[177]	*[301]	adoptieren[301]	transitive[301]	*[301]	*[301]	item0[301]	18[421]	female[421]	0ncaea7aqlpc7oe43khd21qn11[421]	speaker: YOU[541]	*->87-1|*->11-1	clause[87]|IndefNP[11]	_	_	_	
+122-4	2824-2829	Katze	GWithout[21]	adoptieren\_set1\_13[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-adoptieren\_set1\_13[21]	*[70]	*[70]	object[70]	*[70]	*[70]	false[177]	Decl[177]	*[301]	adoptieren[301]	transitive[301]	*[301]	*[301]	item0[301]	18[421]	female[421]	0ncaea7aqlpc7oe43khd21qn11[421]	speaker: YOU[541]	*->87-1|*->11-1	clause[87]|IndefNP[11]	_	_	_	
+122-5	2830-2839	adoptiert	GWithout[21]	adoptieren\_set1\_13[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-adoptieren\_set1\_13[21]	_	_	_	_	_	false[177]	Decl[177]	*[301]	adoptieren[301]	transitive[301]	*[301]	*[301]	item0[301]	18[421]	female[421]	0ncaea7aqlpc7oe43khd21qn11[421]	speaker: YOU[541]	*->87-1	clause[87]	_	_	_	
+
+#Text=-
+123-1	2841-2842	-	GWithout[21]	adoptieren\_set1\_13[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-adoptieren\_set1\_13[21]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	male	*	speaker:Tobias	_	_	_	_	_	
+
+#Text=Ist das nicht krank <BR> einfach so<BR>ohne mich zu fragen.
+124-1	2844-2847	Ist	GWithout[21]	adoptieren\_set1\_13[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-adoptieren\_set1\_13[21]	_	_	_	_	_	false[178]	Int[178]	*[302]	*[302]	*[302]	*[302]	*[302]	input1[302]	18[422]	female[422]	0ncaea7aqlpc7oe43khd21qn11[422]	speaker: YOU[542]	_	_	explanation	*	124-6[179_178]	
+124-2	2848-2851	das	GWithout[21]	adoptieren\_set1\_13[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-adoptieren\_set1\_13[21]	*	*	Subj	*	*	false[178]	Int[178]	*[302]	*[302]	*[302]	*[302]	*[302]	input1[302]	18[422]	female[422]	0ncaea7aqlpc7oe43khd21qn11[422]	speaker: YOU[542]	*->87-2	D-Pron[87]	_	_	_	
+124-3	2852-2857	nicht	GWithout[21]	adoptieren\_set1\_13[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-adoptieren\_set1\_13[21]	_	_	_	_	_	false[178]	Int[178]	*[302]	*[302]	*[302]	*[302]	*[302]	input1[302]	18[422]	female[422]	0ncaea7aqlpc7oe43khd21qn11[422]	speaker: YOU[542]	_	_	_	_	_	
+124-4	2858-2863	krank	GWithout[21]	adoptieren\_set1\_13[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-adoptieren\_set1\_13[21]	_	_	_	_	_	false[178]	Int[178]	*[302]	*[302]	*[302]	*[302]	*[302]	input1[302]	18[422]	female[422]	0ncaea7aqlpc7oe43khd21qn11[422]	speaker: YOU[542]	_	_	_	_	_	
+124-5	2864-2868	<BR>	GWithout[21]	adoptieren\_set1\_13[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-adoptieren\_set1\_13[21]	_	_	_	_	_	_	_	*[302]	*[302]	*[302]	*[302]	*[302]	input1[302]	18[422]	female[422]	0ncaea7aqlpc7oe43khd21qn11[422]	speaker: YOU[542]	_	_	_	_	_	
+124-6	2869-2876	einfach	GWithout[21]	adoptieren\_set1\_13[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-adoptieren\_set1\_13[21]	_	_	_	_	_	false[179]	NA[179]	*[302]	*[302]	*[302]	*[302]	*[302]	input1[302]	18[422]	female[422]	0ncaea7aqlpc7oe43khd21qn11[422]	speaker: YOU[542]	_	_	elaboration	*	124-7.2[180_179]	
+124-7	2877-2887	so<BR>ohne	GWithout[21]	adoptieren\_set1\_13[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-adoptieren\_set1\_13[21]	_	_	_	_	_	_	_	*[302]	*[302]	*[302]	*[302]	*[302]	input1[302]	18[422]	female[422]	0ncaea7aqlpc7oe43khd21qn11[422]	speaker: YOU[542]	_	_	_	_	_	
+124-7.1	2877-2879	so	_	_	_	_	_	_	_	_	_	false[179]	NA[179]	_	_	_	_	_	_	_	_	_	_	_	_	elaboration	*	124-7.2[180_179]	
+124-7.2	2883-2887	ohne	_	_	_	_	_	_	_	_	_	false[180]	NA[180]	_	_	_	_	_	_	_	_	_	_	_	_	result	*	125-1[181_180]	
+124-8	2888-2892	mich	GWithout[21]	adoptieren\_set1\_13[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-adoptieren\_set1\_13[21]	1	*	*	*	singular	false[180]	NA[180]	*[302]	*[302]	*[302]	*[302]	*[302]	input1[302]	18[422]	female[422]	0ncaea7aqlpc7oe43khd21qn11[422]	speaker: YOU[542]	*->23-2	PerPron[23]	_	_	_	
+124-9	2893-2895	zu	GWithout[21]	adoptieren\_set1\_13[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-adoptieren\_set1\_13[21]	_	_	_	_	_	false[180]	NA[180]	*[302]	*[302]	*[302]	*[302]	*[302]	input1[302]	18[422]	female[422]	0ncaea7aqlpc7oe43khd21qn11[422]	speaker: YOU[542]	_	_	_	_	_	
+124-10	2896-2903	fragen.	GWithout[21]	adoptieren\_set1\_13[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-adoptieren\_set1\_13[21]	_	_	_	_	_	false[180]	NA[180]	*[302]	*[302]	*[302]	*[302]	*[302]	input1[302]	18[422]	female[422]	0ncaea7aqlpc7oe43khd21qn11[422]	speaker: YOU[542]	_	_	_	_	_	
+
+#Text=Bin also etwas miesgelaunt <BR> und bei dir?
+125-1	2905-2908	Bin	GWithout[21]	adoptieren\_set1\_13[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-adoptieren\_set1\_13[21]	1	*	*	*	singular	false[181]	Decl[181]	*[303]	*[303]	*[303]	*[303]	*[303]	input2[303]	18[423]	female[423]	0ncaea7aqlpc7oe43khd21qn11[423]	speaker: YOU[543]	*->23-3	zero[23]	parallel	*	125-6[182_181]	
+125-2	2909-2913	also	GWithout[21]	adoptieren\_set1\_13[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-adoptieren\_set1\_13[21]	_	_	_	_	_	false[181]	Decl[181]	*[303]	*[303]	*[303]	*[303]	*[303]	input2[303]	18[423]	female[423]	0ncaea7aqlpc7oe43khd21qn11[423]	speaker: YOU[543]	_	_	_	_	_	
+125-3	2914-2919	etwas	GWithout[21]	adoptieren\_set1\_13[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-adoptieren\_set1\_13[21]	_	_	_	_	_	false[181]	Decl[181]	*[303]	*[303]	*[303]	*[303]	*[303]	input2[303]	18[423]	female[423]	0ncaea7aqlpc7oe43khd21qn11[423]	speaker: YOU[543]	_	_	_	_	_	
+125-4	2920-2931	miesgelaunt	GWithout[21]	adoptieren\_set1\_13[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-adoptieren\_set1\_13[21]	_	_	_	_	_	false[181]	Decl[181]	*[303]	*[303]	*[303]	*[303]	*[303]	input2[303]	18[423]	female[423]	0ncaea7aqlpc7oe43khd21qn11[423]	speaker: YOU[543]	_	_	_	_	_	
+125-5	2932-2936	<BR>	GWithout[21]	adoptieren\_set1\_13[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-adoptieren\_set1\_13[21]	_	_	_	_	_	_	_	*[303]	*[303]	*[303]	*[303]	*[303]	input2[303]	18[423]	female[423]	0ncaea7aqlpc7oe43khd21qn11[423]	speaker: YOU[543]	_	_	_	_	_	
+125-6	2937-2940	und	GWithout[21]	adoptieren\_set1\_13[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-adoptieren\_set1\_13[21]	_	_	_	_	_	false[182]	NA[182]	*[303]	*[303]	*[303]	*[303]	*[303]	input2[303]	18[423]	female[423]	0ncaea7aqlpc7oe43khd21qn11[423]	speaker: YOU[543]	_	_	_	_	_	
+125-7	2941-2944	bei	GWithout[21]	adoptieren\_set1\_13[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-adoptieren\_set1\_13[21]	_	_	_	_	_	false[182]	NA[182]	*[303]	*[303]	*[303]	*[303]	*[303]	input2[303]	18[423]	female[423]	0ncaea7aqlpc7oe43khd21qn11[423]	speaker: YOU[543]	_	_	_	_	_	
+125-8	2945-2949	dir?	GWithout[21]	adoptieren\_set1\_13[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-adoptieren\_set1\_13[21]	2	*	*	*	singular	false[182]	NA[182]	*[303]	*[303]	*[303]	*[303]	*[303]	input2[303]	18[423]	female[423]	0ncaea7aqlpc7oe43khd21qn11[423]	speaker: YOU[543]	*->97-1	PerPron[97]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+126-1	2951-2966	END_OF_DOCUMENT	GWithout[21]	adoptieren\_set1\_13[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-adoptieren\_set1\_13[21]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+127-1	2968-2973	Alles	GWithout[22]	adoptieren\_set1\_13[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-adoptieren\_set1\_13[22]	_	_	_	_	_	false[183]	Int[183]	*[304]	*[304]	*[304]	yn\_1[304]	yesno\_question[304]	openq[304]	*[424]	male[424]	*[424]	speaker:Tobias[544]	_	_	QAP	*	128-1[184_183]	
+127-2	2974-2978	klar	GWithout[22]	adoptieren\_set1\_13[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-adoptieren\_set1\_13[22]	_	_	_	_	_	false[183]	Int[183]	*[304]	*[304]	*[304]	yn\_1[304]	yesno\_question[304]	openq[304]	*[424]	male[424]	*[424]	speaker:Tobias[544]	_	_	_	_	_	
+127-3	2979-2982	bei	GWithout[22]	adoptieren\_set1\_13[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-adoptieren\_set1\_13[22]	_	_	_	_	_	false[183]	Int[183]	*[304]	*[304]	*[304]	yn\_1[304]	yesno\_question[304]	openq[304]	*[424]	male[424]	*[424]	speaker:Tobias[544]	_	_	_	_	_	
+127-4	2983-2987	dir?	GWithout[22]	adoptieren\_set1\_13[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-adoptieren\_set1\_13[22]	2	*	*	*	singular	false[183]	Int[183]	*[304]	*[304]	*[304]	yn\_1[304]	yesno\_question[304]	openq[304]	*[424]	male[424]	*[424]	speaker:Tobias[544]	*->64-1	PerPron[64]	_	_	_	
+
+#Text=Diana hat eine Katze adoptiert
+128-1	2989-2994	Diana	GWithout[22]	adoptieren\_set1\_13[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-adoptieren\_set1\_13[22]	*	*	Subj	*	*	false[184]	Decl[184]	*[305]	adoptieren[305]	transitive[305]	*[305]	*[305]	item0[305]	36[425]	male[425]	19gm0uv9ca6mcngf99lirno94a[425]	speaker: YOU[545]	*->75-1	PropNm[75]	elaboration|elaboration	*|*	130-1[185_184]|131-1[186_184]	
+128-2	2995-2998	hat	GWithout[22]	adoptieren\_set1\_13[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-adoptieren\_set1\_13[22]	_	_	_	_	_	false[184]	Decl[184]	*[305]	adoptieren[305]	transitive[305]	*[305]	*[305]	item0[305]	36[425]	male[425]	19gm0uv9ca6mcngf99lirno94a[425]	speaker: YOU[545]	_	_	_	_	_	
+128-3	2999-3003	eine	GWithout[22]	adoptieren\_set1\_13[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-adoptieren\_set1\_13[22]	*[71]	*[71]	object[71]	*[71]	*[71]	false[184]	Decl[184]	*[305]	adoptieren[305]	transitive[305]	*[305]	*[305]	item0[305]	36[425]	male[425]	19gm0uv9ca6mcngf99lirno94a[425]	speaker: YOU[545]	*->34-1	IndefNP[34]	_	_	_	
+128-4	3004-3009	Katze	GWithout[22]	adoptieren\_set1\_13[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-adoptieren\_set1\_13[22]	*[71]	*[71]	object[71]	*[71]	*[71]	false[184]	Decl[184]	*[305]	adoptieren[305]	transitive[305]	*[305]	*[305]	item0[305]	36[425]	male[425]	19gm0uv9ca6mcngf99lirno94a[425]	speaker: YOU[545]	*->34-1	IndefNP[34]	_	_	_	
+128-5	3010-3019	adoptiert	GWithout[22]	adoptieren\_set1\_13[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-adoptieren\_set1\_13[22]	_	_	_	_	_	false[184]	Decl[184]	*[305]	adoptieren[305]	transitive[305]	*[305]	*[305]	item0[305]	36[425]	male[425]	19gm0uv9ca6mcngf99lirno94a[425]	speaker: YOU[545]	_	_	_	_	_	
+
+#Text=-
+129-1	3021-3022	-	GWithout[22]	adoptieren\_set1\_13[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-adoptieren\_set1\_13[22]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	male	*	speaker:Tobias	_	_	_	_	_	
+
+#Text=Super niedlich!!!
+130-1	3024-3029	Super	GWithout[22]	adoptieren\_set1\_13[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-adoptieren\_set1\_13[22]	_	_	_	_	_	false[185]	NA[185]	*[306]	*[306]	*[306]	*[306]	*[306]	input1[306]	36[426]	male[426]	19gm0uv9ca6mcngf99lirno94a[426]	speaker: YOU[546]	_	_	_	_	_	
+130-2	3030-3041	niedlich!!!	GWithout[22]	adoptieren\_set1\_13[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-adoptieren\_set1\_13[22]	_	_	_	_	_	false[185]	NA[185]	*[306]	*[306]	*[306]	*[306]	*[306]	input1[306]	36[426]	male[426]	19gm0uv9ca6mcngf99lirno94a[426]	speaker: YOU[546]	_	_	_	_	_	
+
+#Text=Sie hat sie Luna getauft <BR> nach der Katze aus Sailor Moon
+131-1	3043-3046	Sie	GWithout[22]	adoptieren\_set1\_13[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-adoptieren\_set1\_13[22]	3	*	Subj	*	singular	false[186]	Decl[186]	*[307]	*[307]	*[307]	*[307]	*[307]	input2[307]	36[427]	male[427]	19gm0uv9ca6mcngf99lirno94a[427]	speaker: YOU[547]	*->75-2	PerPron[75]	explanation	*	131-7[187_186]	
+131-2	3047-3050	hat	GWithout[22]	adoptieren\_set1\_13[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-adoptieren\_set1\_13[22]	_	_	_	_	_	false[186]	Decl[186]	*[307]	*[307]	*[307]	*[307]	*[307]	input2[307]	36[427]	male[427]	19gm0uv9ca6mcngf99lirno94a[427]	speaker: YOU[547]	_	_	_	_	_	
+131-3	3051-3054	sie	GWithout[22]	adoptieren\_set1\_13[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-adoptieren\_set1\_13[22]	3	*	*	*	singular	false[186]	Decl[186]	*[307]	*[307]	*[307]	*[307]	*[307]	input2[307]	36[427]	male[427]	19gm0uv9ca6mcngf99lirno94a[427]	speaker: YOU[547]	*->34-2	PerPron[34]	_	_	_	
+131-4	3055-3059	Luna	GWithout[22]	adoptieren\_set1\_13[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-adoptieren\_set1\_13[22]	_	_	_	_	_	false[186]	Decl[186]	*[307]	*[307]	*[307]	*[307]	*[307]	input2[307]	36[427]	male[427]	19gm0uv9ca6mcngf99lirno94a[427]	speaker: YOU[547]	_	_	_	_	_	
+131-5	3060-3067	getauft	GWithout[22]	adoptieren\_set1\_13[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-adoptieren\_set1\_13[22]	_	_	_	_	_	false[186]	Decl[186]	*[307]	*[307]	*[307]	*[307]	*[307]	input2[307]	36[427]	male[427]	19gm0uv9ca6mcngf99lirno94a[427]	speaker: YOU[547]	_	_	_	_	_	
+131-6	3068-3072	<BR>	GWithout[22]	adoptieren\_set1\_13[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-adoptieren\_set1\_13[22]	_	_	_	_	_	_	_	*[307]	*[307]	*[307]	*[307]	*[307]	input2[307]	36[427]	male[427]	19gm0uv9ca6mcngf99lirno94a[427]	speaker: YOU[547]	_	_	_	_	_	
+131-7	3073-3077	nach	GWithout[22]	adoptieren\_set1\_13[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-adoptieren\_set1\_13[22]	_	_	_	_	_	false[187]	NA[187]	*[307]	*[307]	*[307]	*[307]	*[307]	input2[307]	36[427]	male[427]	19gm0uv9ca6mcngf99lirno94a[427]	speaker: YOU[547]	_	_	_	_	_	
+131-8	3078-3081	der	GWithout[22]	adoptieren\_set1\_13[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-adoptieren\_set1\_13[22]	*[72]	*[72]	PrepObj[72]	*[72]	*[72]	false[187]	NA[187]	*[307]	*[307]	*[307]	*[307]	*[307]	input2[307]	36[427]	male[427]	19gm0uv9ca6mcngf99lirno94a[427]	speaker: YOU[547]	*->6-1	DefNP[6]	_	_	_	
+131-9	3082-3087	Katze	GWithout[22]	adoptieren\_set1\_13[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-adoptieren\_set1\_13[22]	*[72]	*[72]	PrepObj[72]	*[72]	*[72]	false[187]	NA[187]	*[307]	*[307]	*[307]	*[307]	*[307]	input2[307]	36[427]	male[427]	19gm0uv9ca6mcngf99lirno94a[427]	speaker: YOU[547]	*->6-1	DefNP[6]	_	_	_	
+131-10	3088-3091	aus	GWithout[22]	adoptieren\_set1\_13[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-adoptieren\_set1\_13[22]	*[72]	*[72]	PrepObj[72]	*[72]	*[72]	false[187]	NA[187]	*[307]	*[307]	*[307]	*[307]	*[307]	input2[307]	36[427]	male[427]	19gm0uv9ca6mcngf99lirno94a[427]	speaker: YOU[547]	*->6-1	DefNP[6]	_	_	_	
+131-11	3092-3098	Sailor	GWithout[22]	adoptieren\_set1\_13[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-adoptieren\_set1\_13[22]	*[72]|*[73]	*[72]|*[73]	PrepObj[72]|Embedded[73]	*[72]|*[73]	*[72]|*[73]	false[187]	NA[187]	*[307]	*[307]	*[307]	*[307]	*[307]	input2[307]	36[427]	male[427]	19gm0uv9ca6mcngf99lirno94a[427]	speaker: YOU[547]	*->6-1|*->30-1	DefNP[6]|PropNm[30]	_	_	_	
+131-12	3099-3103	Moon	GWithout[22]	adoptieren\_set1\_13[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-adoptieren\_set1\_13[22]	*[72]|*[73]	*[72]|*[73]	PrepObj[72]|Embedded[73]	*[72]|*[73]	*[72]|*[73]	false[187]	NA[187]	*[307]	*[307]	*[307]	*[307]	*[307]	input2[307]	36[427]	male[427]	19gm0uv9ca6mcngf99lirno94a[427]	speaker: YOU[547]	*->6-1|*->30-1	DefNP[6]|PropNm[30]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+132-1	3105-3120	END_OF_DOCUMENT	GWithout[22]	adoptieren\_set1\_13[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-adoptieren\_set1\_13[22]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+133-1	3122-3127	Alles	GWithout[23]	adoptieren\_set1\_13[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-adoptieren\_set1\_13[23]	_	_	_	_	_	false[188]	Int[188]	*[308]	*[308]	*[308]	yn\_1[308]	yesno\_question[308]	openq[308]	*[428]	male[428]	*[428]	speaker:Tobias[548]	_	_	QAP	*	134-1[189_188]	
+133-2	3128-3132	klar	GWithout[23]	adoptieren\_set1\_13[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-adoptieren\_set1\_13[23]	_	_	_	_	_	false[188]	Int[188]	*[308]	*[308]	*[308]	yn\_1[308]	yesno\_question[308]	openq[308]	*[428]	male[428]	*[428]	speaker:Tobias[548]	_	_	_	_	_	
+133-3	3133-3136	bei	GWithout[23]	adoptieren\_set1\_13[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-adoptieren\_set1\_13[23]	_	_	_	_	_	false[188]	Int[188]	*[308]	*[308]	*[308]	yn\_1[308]	yesno\_question[308]	openq[308]	*[428]	male[428]	*[428]	speaker:Tobias[548]	_	_	_	_	_	
+133-4	3137-3141	dir?	GWithout[23]	adoptieren\_set1\_13[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-adoptieren\_set1\_13[23]	2	*	*	*	singular	false[188]	Int[188]	*[308]	*[308]	*[308]	yn\_1[308]	yesno\_question[308]	openq[308]	*[428]	male[428]	*[428]	speaker:Tobias[548]	*->117-1	PerPron[117]	_	_	_	
+
+#Text=Diana hat eine Katze adoptiert
+134-1	3143-3148	Diana	GWithout[23]	adoptieren\_set1\_13[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-adoptieren\_set1\_13[23]	*	*	Subj	*	*	false[189]	Decl[189]	*[309]	adoptieren[309]	transitive[309]	*[309]	*[309]	item0[309]	18[429]	female[429]	4qae3ph27q5gbjcsrgnltv8qld[429]	speaker: YOU[549]	*->28-1	PropNm[28]	elaboration|elaboration	*|*	136-1[190_189]|137-1[191_189]	
+134-2	3149-3152	hat	GWithout[23]	adoptieren\_set1\_13[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-adoptieren\_set1\_13[23]	_	_	_	_	_	false[189]	Decl[189]	*[309]	adoptieren[309]	transitive[309]	*[309]	*[309]	item0[309]	18[429]	female[429]	4qae3ph27q5gbjcsrgnltv8qld[429]	speaker: YOU[549]	_	_	_	_	_	
+134-3	3153-3157	eine	GWithout[23]	adoptieren\_set1\_13[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-adoptieren\_set1\_13[23]	*[74]	*[74]	object[74]	*[74]	*[74]	false[189]	Decl[189]	*[309]	adoptieren[309]	transitive[309]	*[309]	*[309]	item0[309]	18[429]	female[429]	4qae3ph27q5gbjcsrgnltv8qld[429]	speaker: YOU[549]	*->59-1	IndefNP[59]	_	_	_	
+134-4	3158-3163	Katze	GWithout[23]	adoptieren\_set1\_13[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-adoptieren\_set1\_13[23]	*[74]	*[74]	object[74]	*[74]	*[74]	false[189]	Decl[189]	*[309]	adoptieren[309]	transitive[309]	*[309]	*[309]	item0[309]	18[429]	female[429]	4qae3ph27q5gbjcsrgnltv8qld[429]	speaker: YOU[549]	*->59-1	IndefNP[59]	_	_	_	
+134-5	3164-3173	adoptiert	GWithout[23]	adoptieren\_set1\_13[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-adoptieren\_set1\_13[23]	_	_	_	_	_	false[189]	Decl[189]	*[309]	adoptieren[309]	transitive[309]	*[309]	*[309]	item0[309]	18[429]	female[429]	4qae3ph27q5gbjcsrgnltv8qld[429]	speaker: YOU[549]	_	_	_	_	_	
+
+#Text=-
+135-1	3175-3176	-	GWithout[23]	adoptieren\_set1\_13[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-adoptieren\_set1\_13[23]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	male	*	speaker:Tobias	_	_	_	_	_	
+
+#Text=sie ist sooo süß
+136-1	3178-3181	sie	GWithout[23]	adoptieren\_set1\_13[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-adoptieren\_set1\_13[23]	3	*	Subj	*	singular	false[190]	Excl[190]	*[310]	*[310]	*[310]	*[310]	*[310]	input1[310]	18[430]	female[430]	4qae3ph27q5gbjcsrgnltv8qld[430]	speaker: YOU[550]	*->59-2	PerPron[59]	_	_	_	
+136-2	3182-3185	ist	GWithout[23]	adoptieren\_set1\_13[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-adoptieren\_set1\_13[23]	_	_	_	_	_	false[190]	Excl[190]	*[310]	*[310]	*[310]	*[310]	*[310]	input1[310]	18[430]	female[430]	4qae3ph27q5gbjcsrgnltv8qld[430]	speaker: YOU[550]	_	_	_	_	_	
+136-3	3186-3190	sooo	GWithout[23]	adoptieren\_set1\_13[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-adoptieren\_set1\_13[23]	_	_	_	_	_	false[190]	Excl[190]	*[310]	*[310]	*[310]	*[310]	*[310]	input1[310]	18[430]	female[430]	4qae3ph27q5gbjcsrgnltv8qld[430]	speaker: YOU[550]	_	_	_	_	_	
+136-4	3191-3194	süß	GWithout[23]	adoptieren\_set1\_13[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-adoptieren\_set1\_13[23]	_	_	_	_	_	false[190]	Excl[190]	*[310]	*[310]	*[310]	*[310]	*[310]	input1[310]	18[430]	female[430]	4qae3ph27q5gbjcsrgnltv8qld[430]	speaker: YOU[550]	_	_	_	_	_	
+
+#Text=sie heißt Pizza
+137-1	3196-3199	sie	GWithout[23]	adoptieren\_set1\_13[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-adoptieren\_set1\_13[23]	3	*	Subj	*	singular	false[191]	Decl[191]	*[311]	*[311]	*[311]	*[311]	*[311]	input2[311]	18[431]	female[431]	4qae3ph27q5gbjcsrgnltv8qld[431]	speaker: YOU[551]	*->59-3	PerPron[59]	_	_	_	
+137-2	3200-3205	heißt	GWithout[23]	adoptieren\_set1\_13[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-adoptieren\_set1\_13[23]	_	_	_	_	_	false[191]	Decl[191]	*[311]	*[311]	*[311]	*[311]	*[311]	input2[311]	18[431]	female[431]	4qae3ph27q5gbjcsrgnltv8qld[431]	speaker: YOU[551]	_	_	_	_	_	
+137-3	3206-3211	Pizza	GWithout[23]	adoptieren\_set1\_13[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-adoptieren\_set1\_13[23]	_	_	_	_	_	false[191]	Decl[191]	*[311]	*[311]	*[311]	*[311]	*[311]	input2[311]	18[431]	female[431]	4qae3ph27q5gbjcsrgnltv8qld[431]	speaker: YOU[551]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+138-1	3213-3228	END_OF_DOCUMENT	GWithout[23]	adoptieren\_set1\_13[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-adoptieren\_set1\_13[23]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+139-1	3230-3235	Alles	GWithout[24]	adoptieren\_set1\_13[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-adoptieren\_set1\_13[24]	_	_	_	_	_	false[192]	Int[192]	*[312]	*[312]	*[312]	yn\_1[312]	yesno\_question[312]	openq[312]	*[432]	male[432]	*[432]	speaker:Tobias[552]	_	_	QAP	*	140-1[193_192]	
+139-2	3236-3240	klar	GWithout[24]	adoptieren\_set1\_13[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-adoptieren\_set1\_13[24]	_	_	_	_	_	false[192]	Int[192]	*[312]	*[312]	*[312]	yn\_1[312]	yesno\_question[312]	openq[312]	*[432]	male[432]	*[432]	speaker:Tobias[552]	_	_	_	_	_	
+139-3	3241-3244	bei	GWithout[24]	adoptieren\_set1\_13[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-adoptieren\_set1\_13[24]	_	_	_	_	_	false[192]	Int[192]	*[312]	*[312]	*[312]	yn\_1[312]	yesno\_question[312]	openq[312]	*[432]	male[432]	*[432]	speaker:Tobias[552]	_	_	_	_	_	
+139-4	3245-3249	dir?	GWithout[24]	adoptieren\_set1\_13[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-adoptieren\_set1\_13[24]	2	*	*	*	singular	false[192]	Int[192]	*[312]	*[312]	*[312]	yn\_1[312]	yesno\_question[312]	openq[312]	*[432]	male[432]	*[432]	speaker:Tobias[552]	*->61-1	PerPron[61]	_	_	_	
+
+#Text=Diana hat eine Katze adoptiert
+140-1	3251-3256	Diana	GWithout[24]	adoptieren\_set1\_13[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-adoptieren\_set1\_13[24]	*	*	Subj	*	*	false[193]	Decl[193]	*[313]	adoptieren[313]	transitive[313]	*[313]	*[313]	item0[313]	19[433]	male[433]	f28ipql67ma8cbjqke6k374ach[433]	speaker: YOU[553]	*->19-1	PropNm[19]	elaboration	*	142-1[194_193]	
+140-2	3257-3260	hat	GWithout[24]	adoptieren\_set1\_13[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-adoptieren\_set1\_13[24]	_	_	_	_	_	false[193]	Decl[193]	*[313]	adoptieren[313]	transitive[313]	*[313]	*[313]	item0[313]	19[433]	male[433]	f28ipql67ma8cbjqke6k374ach[433]	speaker: YOU[553]	_	_	_	_	_	
+140-3	3261-3265	eine	GWithout[24]	adoptieren\_set1\_13[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-adoptieren\_set1\_13[24]	*[75]	*[75]	object[75]	*[75]	*[75]	false[193]	Decl[193]	*[313]	adoptieren[313]	transitive[313]	*[313]	*[313]	item0[313]	19[433]	male[433]	f28ipql67ma8cbjqke6k374ach[433]	speaker: YOU[553]	*->78-1	IndefNP[78]	_	_	_	
+140-4	3266-3271	Katze	GWithout[24]	adoptieren\_set1\_13[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-adoptieren\_set1\_13[24]	*[75]	*[75]	object[75]	*[75]	*[75]	false[193]	Decl[193]	*[313]	adoptieren[313]	transitive[313]	*[313]	*[313]	item0[313]	19[433]	male[433]	f28ipql67ma8cbjqke6k374ach[433]	speaker: YOU[553]	*->78-1	IndefNP[78]	_	_	_	
+140-5	3272-3281	adoptiert	GWithout[24]	adoptieren\_set1\_13[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-adoptieren\_set1\_13[24]	_	_	_	_	_	false[193]	Decl[193]	*[313]	adoptieren[313]	transitive[313]	*[313]	*[313]	item0[313]	19[433]	male[433]	f28ipql67ma8cbjqke6k374ach[433]	speaker: YOU[553]	_	_	_	_	_	
+
+#Text=-
+141-1	3283-3284	-	GWithout[24]	adoptieren\_set1\_13[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-adoptieren\_set1\_13[24]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	male	*	speaker:Tobias	_	_	_	_	_	
+
+#Text=Die ist sooooo süß.
+142-1	3286-3289	Die	GWithout[24]	adoptieren\_set1\_13[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-adoptieren\_set1\_13[24]	*	*	Subj	*	*	false[194]	Excl[194]	*[314]	*[314]	*[314]	*[314]	*[314]	input1[314]	19[434]	male[434]	f28ipql67ma8cbjqke6k374ach[434]	speaker: YOU[554]	*->78-2	D-Pron[78]	result	*	143-1[195_194]	
+142-2	3290-3293	ist	GWithout[24]	adoptieren\_set1\_13[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-adoptieren\_set1\_13[24]	_	_	_	_	_	false[194]	Excl[194]	*[314]	*[314]	*[314]	*[314]	*[314]	input1[314]	19[434]	male[434]	f28ipql67ma8cbjqke6k374ach[434]	speaker: YOU[554]	_	_	_	_	_	
+142-3	3294-3300	sooooo	GWithout[24]	adoptieren\_set1\_13[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-adoptieren\_set1\_13[24]	_	_	_	_	_	false[194]	Excl[194]	*[314]	*[314]	*[314]	*[314]	*[314]	input1[314]	19[434]	male[434]	f28ipql67ma8cbjqke6k374ach[434]	speaker: YOU[554]	_	_	_	_	_	
+142-4	3301-3305	süß.	GWithout[24]	adoptieren\_set1\_13[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-adoptieren\_set1\_13[24]	_	_	_	_	_	false[194]	Excl[194]	*[314]	*[314]	*[314]	*[314]	*[314]	input1[314]	19[434]	male[434]	f28ipql67ma8cbjqke6k374ach[434]	speaker: YOU[554]	_	_	_	_	_	
+
+#Text=Willst du ein Bild sehen?
+143-1	3307-3313	Willst	GWithout[24]	adoptieren\_set1\_13[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-adoptieren\_set1\_13[24]	_	_	_	_	_	false[195]	Int[195]	*[315]	*[315]	*[315]	*[315]	*[315]	input2[315]	19[435]	male[435]	f28ipql67ma8cbjqke6k374ach[435]	speaker: YOU[555]	_	_	_	_	_	
+143-2	3314-3316	du	GWithout[24]	adoptieren\_set1\_13[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-adoptieren\_set1\_13[24]	2	*	Subj	*	singular	false[195]	Int[195]	*[315]	*[315]	*[315]	*[315]	*[315]	input2[315]	19[435]	male[435]	f28ipql67ma8cbjqke6k374ach[435]	speaker: YOU[555]	*->27-1	PerPron[27]	_	_	_	
+143-3	3317-3320	ein	GWithout[24]	adoptieren\_set1\_13[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-adoptieren\_set1\_13[24]	*[76]	*[76]	DirObj[76]	*[76]	*[76]	false[195]	Int[195]	*[315]	*[315]	*[315]	*[315]	*[315]	input2[315]	19[435]	male[435]	f28ipql67ma8cbjqke6k374ach[435]	speaker: YOU[555]	*->93-1	IndefNP[93]	_	_	_	
+143-4	3321-3325	Bild	GWithout[24]	adoptieren\_set1\_13[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-adoptieren\_set1\_13[24]	*[76]	*[76]	DirObj[76]	*[76]	*[76]	false[195]	Int[195]	*[315]	*[315]	*[315]	*[315]	*[315]	input2[315]	19[435]	male[435]	f28ipql67ma8cbjqke6k374ach[435]	speaker: YOU[555]	*->93-1	IndefNP[93]	_	_	_	
+143-5	3326-3332	sehen?	GWithout[24]	adoptieren\_set1\_13[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-adoptieren\_set1\_13[24]	_	_	_	_	_	false[195]	Int[195]	*[315]	*[315]	*[315]	*[315]	*[315]	input2[315]	19[435]	male[435]	f28ipql67ma8cbjqke6k374ach[435]	speaker: YOU[555]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+144-1	3334-3349	END_OF_DOCUMENT	GWithout[24]	adoptieren\_set1\_13[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-adoptieren\_set1\_13[24]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+145-1	3351-3356	Alles	GWithout[25]	adoptieren\_set1\_13[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-adoptieren\_set1\_13[25]	_	_	_	_	_	false[196]	Int[196]	*[316]	*[316]	*[316]	yn\_1[316]	yesno\_question[316]	openq[316]	*[436]	male[436]	*[436]	speaker:Tobias[556]	_	_	QAP	*	146-1[197_196]	
+145-2	3357-3361	klar	GWithout[25]	adoptieren\_set1\_13[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-adoptieren\_set1\_13[25]	_	_	_	_	_	false[196]	Int[196]	*[316]	*[316]	*[316]	yn\_1[316]	yesno\_question[316]	openq[316]	*[436]	male[436]	*[436]	speaker:Tobias[556]	_	_	_	_	_	
+145-3	3362-3365	bei	GWithout[25]	adoptieren\_set1\_13[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-adoptieren\_set1\_13[25]	_	_	_	_	_	false[196]	Int[196]	*[316]	*[316]	*[316]	yn\_1[316]	yesno\_question[316]	openq[316]	*[436]	male[436]	*[436]	speaker:Tobias[556]	_	_	_	_	_	
+145-4	3366-3370	dir?	GWithout[25]	adoptieren\_set1\_13[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-adoptieren\_set1\_13[25]	2	*	*	*	singular	false[196]	Int[196]	*[316]	*[316]	*[316]	yn\_1[316]	yesno\_question[316]	openq[316]	*[436]	male[436]	*[436]	speaker:Tobias[556]	*->105-1	PerPron[105]	_	_	_	
+
+#Text=Diana hat eine Katze adoptiert
+146-1	3372-3377	Diana	GWithout[25]	adoptieren\_set1\_13[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-adoptieren\_set1\_13[25]	*	*	Subj	*	*	false[197]	Decl[197]	*[317]	adoptieren[317]	transitive[317]	*[317]	*[317]	item0[317]	36[437]	male[437]	ifdbjqro2nfkup12rv8t6k0eu9[437]	speaker: YOU[557]	*->45-1	PropNm[45]	elaboration|elaboration	*|*	148-1[198_197]|149-1[199_197]	
+146-2	3378-3381	hat	GWithout[25]	adoptieren\_set1\_13[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-adoptieren\_set1\_13[25]	_	_	_	_	_	false[197]	Decl[197]	*[317]	adoptieren[317]	transitive[317]	*[317]	*[317]	item0[317]	36[437]	male[437]	ifdbjqro2nfkup12rv8t6k0eu9[437]	speaker: YOU[557]	_	_	_	_	_	
+146-3	3382-3386	eine	GWithout[25]	adoptieren\_set1\_13[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-adoptieren\_set1\_13[25]	*[77]	*[77]	object[77]	*[77]	*[77]	false[197]	Decl[197]	*[317]	adoptieren[317]	transitive[317]	*[317]	*[317]	item0[317]	36[437]	male[437]	ifdbjqro2nfkup12rv8t6k0eu9[437]	speaker: YOU[557]	*->52-1	IndefNP[52]	_	_	_	
+146-4	3387-3392	Katze	GWithout[25]	adoptieren\_set1\_13[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-adoptieren\_set1\_13[25]	*[77]	*[77]	object[77]	*[77]	*[77]	false[197]	Decl[197]	*[317]	adoptieren[317]	transitive[317]	*[317]	*[317]	item0[317]	36[437]	male[437]	ifdbjqro2nfkup12rv8t6k0eu9[437]	speaker: YOU[557]	*->52-1	IndefNP[52]	_	_	_	
+146-5	3393-3402	adoptiert	GWithout[25]	adoptieren\_set1\_13[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-adoptieren\_set1\_13[25]	_	_	_	_	_	false[197]	Decl[197]	*[317]	adoptieren[317]	transitive[317]	*[317]	*[317]	item0[317]	36[437]	male[437]	ifdbjqro2nfkup12rv8t6k0eu9[437]	speaker: YOU[557]	_	_	_	_	_	
+
+#Text=-
+147-1	3404-3405	-	GWithout[25]	adoptieren\_set1\_13[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-adoptieren\_set1\_13[25]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	male	*	speaker:Tobias	_	_	_	_	_	
+
+#Text=Die ist schwarz
+148-1	3407-3410	Die	GWithout[25]	adoptieren\_set1\_13[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-adoptieren\_set1\_13[25]	*	*	Subj	*	*	false[198]	Decl[198]	*[318]	*[318]	*[318]	*[318]	*[318]	input1[318]	36[438]	male[438]	ifdbjqro2nfkup12rv8t6k0eu9[438]	speaker: YOU[558]	*->52-2	D-Pron[52]	_	_	_	
+148-2	3411-3414	ist	GWithout[25]	adoptieren\_set1\_13[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-adoptieren\_set1\_13[25]	_	_	_	_	_	false[198]	Decl[198]	*[318]	*[318]	*[318]	*[318]	*[318]	input1[318]	36[438]	male[438]	ifdbjqro2nfkup12rv8t6k0eu9[438]	speaker: YOU[558]	_	_	_	_	_	
+148-3	3415-3422	schwarz	GWithout[25]	adoptieren\_set1\_13[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-adoptieren\_set1\_13[25]	_	_	_	_	_	false[198]	Decl[198]	*[318]	*[318]	*[318]	*[318]	*[318]	input1[318]	36[438]	male[438]	ifdbjqro2nfkup12rv8t6k0eu9[438]	speaker: YOU[558]	_	_	_	_	_	
+
+#Text=richtig niedlich
+149-1	3424-3431	richtig	GWithout[25]	adoptieren\_set1\_13[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-adoptieren\_set1\_13[25]	_	_	_	_	_	false[199]	NA[199]	*[319]	*[319]	*[319]	*[319]	*[319]	input2[319]	36[439]	male[439]	ifdbjqro2nfkup12rv8t6k0eu9[439]	speaker: YOU[559]	_	_	_	_	_	
+149-2	3432-3440	niedlich	GWithout[25]	adoptieren\_set1\_13[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-adoptieren\_set1\_13[25]	_	_	_	_	_	false[199]	NA[199]	*[319]	*[319]	*[319]	*[319]	*[319]	input2[319]	36[439]	male[439]	ifdbjqro2nfkup12rv8t6k0eu9[439]	speaker: YOU[559]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+150-1	3442-3457	END_OF_DOCUMENT	GWithout[25]	adoptieren\_set1\_13[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-adoptieren\_set1\_13[25]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+151-1	3459-3464	Alles	GWithout[26]	adoptieren\_set1\_13[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-adoptieren\_set1\_13[26]	_	_	_	_	_	false[200]	Int[200]	*[320]	*[320]	*[320]	yn\_1[320]	yesno\_question[320]	openq[320]	*[440]	male[440]	*[440]	speaker:Tobias[560]	_	_	QAP	*	152-1[201_200]	
+151-2	3465-3469	klar	GWithout[26]	adoptieren\_set1\_13[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-adoptieren\_set1\_13[26]	_	_	_	_	_	false[200]	Int[200]	*[320]	*[320]	*[320]	yn\_1[320]	yesno\_question[320]	openq[320]	*[440]	male[440]	*[440]	speaker:Tobias[560]	_	_	_	_	_	
+151-3	3470-3473	bei	GWithout[26]	adoptieren\_set1\_13[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-adoptieren\_set1\_13[26]	_	_	_	_	_	false[200]	Int[200]	*[320]	*[320]	*[320]	yn\_1[320]	yesno\_question[320]	openq[320]	*[440]	male[440]	*[440]	speaker:Tobias[560]	_	_	_	_	_	
+151-4	3474-3478	dir?	GWithout[26]	adoptieren\_set1\_13[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-adoptieren\_set1\_13[26]	2	*	*	*	singular	false[200]	Int[200]	*[320]	*[320]	*[320]	yn\_1[320]	yesno\_question[320]	openq[320]	*[440]	male[440]	*[440]	speaker:Tobias[560]	*->106-1	PerPron[106]	_	_	_	
+
+#Text=Diana hat eine Katze adoptiert
+152-1	3480-3485	Diana	GWithout[26]	adoptieren\_set1\_13[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-adoptieren\_set1\_13[26]	*	*	Subj	*	*	false[201]	Decl[201]	*[321]	adoptieren[321]	transitive[321]	*[321]	*[321]	item0[321]	27[441]	female[441]	nn1fs9jkn62eo9089lo89usbkb[441]	speaker: YOU[561]	*->66-1	PropNm[66]	result	*	154-1[202_201]	
+152-2	3486-3489	hat	GWithout[26]	adoptieren\_set1\_13[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-adoptieren\_set1\_13[26]	_	_	_	_	_	false[201]	Decl[201]	*[321]	adoptieren[321]	transitive[321]	*[321]	*[321]	item0[321]	27[441]	female[441]	nn1fs9jkn62eo9089lo89usbkb[441]	speaker: YOU[561]	_	_	_	_	_	
+152-3	3490-3494	eine	GWithout[26]	adoptieren\_set1\_13[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-adoptieren\_set1\_13[26]	*[78]	*[78]	object[78]	*[78]	*[78]	false[201]	Decl[201]	*[321]	adoptieren[321]	transitive[321]	*[321]	*[321]	item0[321]	27[441]	female[441]	nn1fs9jkn62eo9089lo89usbkb[441]	speaker: YOU[561]	*->29-1	IndefNP[29]	_	_	_	
+152-4	3495-3500	Katze	GWithout[26]	adoptieren\_set1\_13[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-adoptieren\_set1\_13[26]	*[78]	*[78]	object[78]	*[78]	*[78]	false[201]	Decl[201]	*[321]	adoptieren[321]	transitive[321]	*[321]	*[321]	item0[321]	27[441]	female[441]	nn1fs9jkn62eo9089lo89usbkb[441]	speaker: YOU[561]	*->29-1	IndefNP[29]	_	_	_	
+152-5	3501-3510	adoptiert	GWithout[26]	adoptieren\_set1\_13[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-adoptieren\_set1\_13[26]	_	_	_	_	_	false[201]	Decl[201]	*[321]	adoptieren[321]	transitive[321]	*[321]	*[321]	item0[321]	27[441]	female[441]	nn1fs9jkn62eo9089lo89usbkb[441]	speaker: YOU[561]	_	_	_	_	_	
+
+#Text=-
+153-1	3512-3513	-	GWithout[26]	adoptieren\_set1\_13[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-adoptieren\_set1\_13[26]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	male	*	speaker:Tobias	_	_	_	_	_	
+
+#Text=Jetzt müssen wir erst mal alles für sie besorgen.
+154-1	3515-3520	Jetzt	GWithout[26]	adoptieren\_set1\_13[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-adoptieren\_set1\_13[26]	_	_	_	_	_	false[202]	Decl[202]	*[322]	*[322]	*[322]	*[322]	*[322]	input1[322]	27[442]	female[442]	nn1fs9jkn62eo9089lo89usbkb[442]	speaker: YOU[562]	_	_	_	_	_	
+154-2	3521-3527	müssen	GWithout[26]	adoptieren\_set1\_13[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-adoptieren\_set1\_13[26]	_	_	_	_	_	false[202]	Decl[202]	*[322]	*[322]	*[322]	*[322]	*[322]	input1[322]	27[442]	female[442]	nn1fs9jkn62eo9089lo89usbkb[442]	speaker: YOU[562]	_	_	_	_	_	
+154-3	3528-3531	wir	GWithout[26]	adoptieren\_set1\_13[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-adoptieren\_set1\_13[26]	1	*	Subj	*	plural	false[202]	Decl[202]	*[322]	*[322]	*[322]	*[322]	*[322]	input1[322]	27[442]	female[442]	nn1fs9jkn62eo9089lo89usbkb[442]	speaker: YOU[562]	*->96-1	PerPron[96]	_	_	_	
+154-4	3532-3536	erst	GWithout[26]	adoptieren\_set1\_13[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-adoptieren\_set1\_13[26]	_	_	_	_	_	false[202]	Decl[202]	*[322]	*[322]	*[322]	*[322]	*[322]	input1[322]	27[442]	female[442]	nn1fs9jkn62eo9089lo89usbkb[442]	speaker: YOU[562]	_	_	_	_	_	
+154-5	3537-3540	mal	GWithout[26]	adoptieren\_set1\_13[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-adoptieren\_set1\_13[26]	_	_	_	_	_	false[202]	Decl[202]	*[322]	*[322]	*[322]	*[322]	*[322]	input1[322]	27[442]	female[442]	nn1fs9jkn62eo9089lo89usbkb[442]	speaker: YOU[562]	_	_	_	_	_	
+154-6	3541-3546	alles	GWithout[26]	adoptieren\_set1\_13[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-adoptieren\_set1\_13[26]	_	_	_	_	_	false[202]	Decl[202]	*[322]	*[322]	*[322]	*[322]	*[322]	input1[322]	27[442]	female[442]	nn1fs9jkn62eo9089lo89usbkb[442]	speaker: YOU[562]	*->124-1	Allquantor[124]	_	_	_	
+154-7	3547-3550	für	GWithout[26]	adoptieren\_set1\_13[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-adoptieren\_set1\_13[26]	_	_	_	_	_	false[202]	Decl[202]	*[322]	*[322]	*[322]	*[322]	*[322]	input1[322]	27[442]	female[442]	nn1fs9jkn62eo9089lo89usbkb[442]	speaker: YOU[562]	_	_	_	_	_	
+154-8	3551-3554	sie	GWithout[26]	adoptieren\_set1\_13[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-adoptieren\_set1\_13[26]	3	*	PrepObj	f	singular	false[202]	Decl[202]	*[322]	*[322]	*[322]	*[322]	*[322]	input1[322]	27[442]	female[442]	nn1fs9jkn62eo9089lo89usbkb[442]	speaker: YOU[562]	*->29-2	PerPron[29]	_	_	_	
+154-9	3555-3564	besorgen.	GWithout[26]	adoptieren\_set1\_13[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-adoptieren\_set1\_13[26]	_	_	_	_	_	false[202]	Decl[202]	*[322]	*[322]	*[322]	*[322]	*[322]	input1[322]	27[442]	female[442]	nn1fs9jkn62eo9089lo89usbkb[442]	speaker: YOU[562]	_	_	_	_	_	
+
+#Text=Ich möchte eigentlich nicht auf sie aufpassen.
+155-1	3566-3569	Ich	GWithout[26]	adoptieren\_set1\_13[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-adoptieren\_set1\_13[26]	1	*	Subj	*	singular	false[203]	Decl[203]	*[323]	*[323]	*[323]	*[323]	*[323]	input2[323]	27[443]	female[443]	nn1fs9jkn62eo9089lo89usbkb[443]	speaker: YOU[563]	*->106-2	PerPron[106]	_	_	_	
+155-2	3570-3576	möchte	GWithout[26]	adoptieren\_set1\_13[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-adoptieren\_set1\_13[26]	_	_	_	_	_	false[203]	Decl[203]	*[323]	*[323]	*[323]	*[323]	*[323]	input2[323]	27[443]	female[443]	nn1fs9jkn62eo9089lo89usbkb[443]	speaker: YOU[563]	_	_	_	_	_	
+155-3	3577-3587	eigentlich	GWithout[26]	adoptieren\_set1\_13[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-adoptieren\_set1\_13[26]	_	_	_	_	_	false[203]	Decl[203]	*[323]	*[323]	*[323]	*[323]	*[323]	input2[323]	27[443]	female[443]	nn1fs9jkn62eo9089lo89usbkb[443]	speaker: YOU[563]	_	_	_	_	_	
+155-4	3588-3593	nicht	GWithout[26]	adoptieren\_set1\_13[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-adoptieren\_set1\_13[26]	_	_	_	_	_	false[203]	Decl[203]	*[323]	*[323]	*[323]	*[323]	*[323]	input2[323]	27[443]	female[443]	nn1fs9jkn62eo9089lo89usbkb[443]	speaker: YOU[563]	_	_	_	_	_	
+155-5	3594-3597	auf	GWithout[26]	adoptieren\_set1\_13[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-adoptieren\_set1\_13[26]	_	_	_	_	_	false[203]	Decl[203]	*[323]	*[323]	*[323]	*[323]	*[323]	input2[323]	27[443]	female[443]	nn1fs9jkn62eo9089lo89usbkb[443]	speaker: YOU[563]	_	_	_	_	_	
+155-6	3598-3601	sie	GWithout[26]	adoptieren\_set1\_13[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-adoptieren\_set1\_13[26]	3	*	PrepObj	f	singular	false[203]	Decl[203]	*[323]	*[323]	*[323]	*[323]	*[323]	input2[323]	27[443]	female[443]	nn1fs9jkn62eo9089lo89usbkb[443]	speaker: YOU[563]	*->29-3	PerPron[29]	_	_	_	
+155-7	3602-3612	aufpassen.	GWithout[26]	adoptieren\_set1\_13[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-adoptieren\_set1\_13[26]	_	_	_	_	_	false[203]	Decl[203]	*[323]	*[323]	*[323]	*[323]	*[323]	input2[323]	27[443]	female[443]	nn1fs9jkn62eo9089lo89usbkb[443]	speaker: YOU[563]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+156-1	3614-3629	END_OF_DOCUMENT	GWithout[26]	adoptieren\_set1\_13[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-adoptieren\_set1\_13[26]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+157-1	3631-3636	Alles	GWithout[27]	adoptieren\_set1\_13[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-adoptieren\_set1\_13[27]	_	_	_	_	_	false[204]	Int[204]	*[324]	*[324]	*[324]	yn\_1[324]	yesno\_question[324]	openq[324]	*[444]	male[444]	*[444]	speaker:Tobias[564]	_	_	QAP	*	158-1[205_204]	
+157-2	3637-3641	klar	GWithout[27]	adoptieren\_set1\_13[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-adoptieren\_set1\_13[27]	_	_	_	_	_	false[204]	Int[204]	*[324]	*[324]	*[324]	yn\_1[324]	yesno\_question[324]	openq[324]	*[444]	male[444]	*[444]	speaker:Tobias[564]	_	_	_	_	_	
+157-3	3642-3645	bei	GWithout[27]	adoptieren\_set1\_13[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-adoptieren\_set1\_13[27]	_	_	_	_	_	false[204]	Int[204]	*[324]	*[324]	*[324]	yn\_1[324]	yesno\_question[324]	openq[324]	*[444]	male[444]	*[444]	speaker:Tobias[564]	_	_	_	_	_	
+157-4	3646-3650	dir?	GWithout[27]	adoptieren\_set1\_13[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-adoptieren\_set1\_13[27]	2	*	*	*	singular	false[204]	Int[204]	*[324]	*[324]	*[324]	yn\_1[324]	yesno\_question[324]	openq[324]	*[444]	male[444]	*[444]	speaker:Tobias[564]	*->113-1	PerPron[113]	_	_	_	
+
+#Text=Diana hat eine Katze adoptiert
+158-1	3652-3657	Diana	GWithout[27]	adoptieren\_set1\_13[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-adoptieren\_set1\_13[27]	*	*	Subj	*	*	false[205]	Decl[205]	*[325]	adoptieren[325]	transitive[325]	*[325]	*[325]	item0[325]	24[445]	male[445]	qaaqp55l485lvs9rdvpvbtmqal[445]	speaker: YOU[565]	*->92-1	PropNm[92]	parallel	*	160-1[206_205]	
+158-2	3658-3661	hat	GWithout[27]	adoptieren\_set1\_13[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-adoptieren\_set1\_13[27]	_	_	_	_	_	false[205]	Decl[205]	*[325]	adoptieren[325]	transitive[325]	*[325]	*[325]	item0[325]	24[445]	male[445]	qaaqp55l485lvs9rdvpvbtmqal[445]	speaker: YOU[565]	_	_	_	_	_	
+158-3	3662-3666	eine	GWithout[27]	adoptieren\_set1\_13[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-adoptieren\_set1\_13[27]	*[79]	*[79]	object[79]	*[79]	*[79]	false[205]	Decl[205]	*[325]	adoptieren[325]	transitive[325]	*[325]	*[325]	item0[325]	24[445]	male[445]	qaaqp55l485lvs9rdvpvbtmqal[445]	speaker: YOU[565]	*->33-1	IndefNP[33]	_	_	_	
+158-4	3667-3672	Katze	GWithout[27]	adoptieren\_set1\_13[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-adoptieren\_set1\_13[27]	*[79]	*[79]	object[79]	*[79]	*[79]	false[205]	Decl[205]	*[325]	adoptieren[325]	transitive[325]	*[325]	*[325]	item0[325]	24[445]	male[445]	qaaqp55l485lvs9rdvpvbtmqal[445]	speaker: YOU[565]	*->33-1	IndefNP[33]	_	_	_	
+158-5	3673-3682	adoptiert	GWithout[27]	adoptieren\_set1\_13[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-adoptieren\_set1\_13[27]	_	_	_	_	_	false[205]	Decl[205]	*[325]	adoptieren[325]	transitive[325]	*[325]	*[325]	item0[325]	24[445]	male[445]	qaaqp55l485lvs9rdvpvbtmqal[445]	speaker: YOU[565]	_	_	_	_	_	
+
+#Text=-
+159-1	3684-3685	-	GWithout[27]	adoptieren\_set1\_13[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-adoptieren\_set1\_13[27]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	male	*	speaker:Tobias	_	_	_	_	_	
+
+#Text=Sie sagt <BR> dass sie noch weitere adoptieren möchte
+160-1	3687-3690	Sie	GWithout[27]	adoptieren\_set1\_13[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-adoptieren\_set1\_13[27]	3	*	Subj	f	singular	false[206]	Decl[206]	*[326]	*[326]	*[326]	*[326]	*[326]	input1[326]	24[446]	male[446]	qaaqp55l485lvs9rdvpvbtmqal[446]	speaker: YOU[566]	*->92-2	PerPron[92]	elaboration	*	161-1[207_206]	
+160-2	3691-3695	sagt	GWithout[27]	adoptieren\_set1\_13[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-adoptieren\_set1\_13[27]	_	_	_	_	_	false[206]	Decl[206]	*[326]	*[326]	*[326]	*[326]	*[326]	input1[326]	24[446]	male[446]	qaaqp55l485lvs9rdvpvbtmqal[446]	speaker: YOU[566]	_	_	_	_	_	
+160-3	3696-3700	<BR>	GWithout[27]	adoptieren\_set1\_13[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-adoptieren\_set1\_13[27]	_	_	_	_	_	false[206]	Decl[206]	*[326]	*[326]	*[326]	*[326]	*[326]	input1[326]	24[446]	male[446]	qaaqp55l485lvs9rdvpvbtmqal[446]	speaker: YOU[566]	_	_	_	_	_	
+160-4	3701-3705	dass	GWithout[27]	adoptieren\_set1\_13[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-adoptieren\_set1\_13[27]	*[80]	*[80]	Embedded[80]	*[80]	*[80]	false[206]	Decl[206]	*[326]	*[326]	*[326]	*[326]	*[326]	input1[326]	24[446]	male[446]	qaaqp55l485lvs9rdvpvbtmqal[446]	speaker: YOU[566]	_	_	_	_	_	
+160-5	3706-3709	sie	GWithout[27]	adoptieren\_set1\_13[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-adoptieren\_set1\_13[27]	*[80]|3[81]	*[80]|*[81]	Embedded[80]|*[81]	*[80]|f[81]	*[80]|singular[81]	false[206]	Decl[206]	*[326]	*[326]	*[326]	*[326]	*[326]	input1[326]	24[446]	male[446]	qaaqp55l485lvs9rdvpvbtmqal[446]	speaker: YOU[566]	*->92-3	PerPron[92]	_	_	_	
+160-6	3710-3714	noch	GWithout[27]	adoptieren\_set1\_13[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-adoptieren\_set1\_13[27]	*[80]	*[80]	Embedded[80]	*[80]	*[80]	false[206]	Decl[206]	*[326]	*[326]	*[326]	*[326]	*[326]	input1[326]	24[446]	male[446]	qaaqp55l485lvs9rdvpvbtmqal[446]	speaker: YOU[566]	_	_	_	_	_	
+160-7	3715-3722	weitere	GWithout[27]	adoptieren\_set1\_13[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-adoptieren\_set1\_13[27]	*[80]	*[80]	Embedded[80]	*[80]	*[80]	false[206]	Decl[206]	*[326]	*[326]	*[326]	*[326]	*[326]	input1[326]	24[446]	male[446]	qaaqp55l485lvs9rdvpvbtmqal[446]	speaker: YOU[566]	*->95-1	IndefNP[95]	_	_	_	
+160-8	3723-3733	adoptieren	GWithout[27]	adoptieren\_set1\_13[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-adoptieren\_set1\_13[27]	*[80]	*[80]	Embedded[80]	*[80]	*[80]	false[206]	Decl[206]	*[326]	*[326]	*[326]	*[326]	*[326]	input1[326]	24[446]	male[446]	qaaqp55l485lvs9rdvpvbtmqal[446]	speaker: YOU[566]	_	_	_	_	_	
+160-9	3734-3740	möchte	GWithout[27]	adoptieren\_set1\_13[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-adoptieren\_set1\_13[27]	*[80]	*[80]	Embedded[80]	*[80]	*[80]	false[206]	Decl[206]	*[326]	*[326]	*[326]	*[326]	*[326]	input1[326]	24[446]	male[446]	qaaqp55l485lvs9rdvpvbtmqal[446]	speaker: YOU[566]	_	_	_	_	_	
+
+#Text=Ich glaube nicht <BR> dass sie dieser Aufgabe gewachsen ist
+161-1	3742-3745	Ich	GWithout[27]	adoptieren\_set1\_13[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-adoptieren\_set1\_13[27]	1	*	Subj	*	singular	false[207]	Decl[207]	*[327]	*[327]	*[327]	*[327]	*[327]	input2[327]	24[447]	male[447]	qaaqp55l485lvs9rdvpvbtmqal[447]	speaker: YOU[567]	*->113-2	PerPron[113]	_	_	_	
+161-2	3746-3752	glaube	GWithout[27]	adoptieren\_set1\_13[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-adoptieren\_set1\_13[27]	_	_	_	_	_	false[207]	Decl[207]	*[327]	*[327]	*[327]	*[327]	*[327]	input2[327]	24[447]	male[447]	qaaqp55l485lvs9rdvpvbtmqal[447]	speaker: YOU[567]	_	_	_	_	_	
+161-3	3753-3758	nicht	GWithout[27]	adoptieren\_set1\_13[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-adoptieren\_set1\_13[27]	_	_	_	_	_	false[207]	Decl[207]	*[327]	*[327]	*[327]	*[327]	*[327]	input2[327]	24[447]	male[447]	qaaqp55l485lvs9rdvpvbtmqal[447]	speaker: YOU[567]	_	_	_	_	_	
+161-4	3759-3763	<BR>	GWithout[27]	adoptieren\_set1\_13[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-adoptieren\_set1\_13[27]	_	_	_	_	_	false[207]	Decl[207]	*[327]	*[327]	*[327]	*[327]	*[327]	input2[327]	24[447]	male[447]	qaaqp55l485lvs9rdvpvbtmqal[447]	speaker: YOU[567]	_	_	_	_	_	
+161-5	3764-3768	dass	GWithout[27]	adoptieren\_set1\_13[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-adoptieren\_set1\_13[27]	*[82]	*[82]	Embedded[82]	*[82]	*[82]	false[207]	Decl[207]	*[327]	*[327]	*[327]	*[327]	*[327]	input2[327]	24[447]	male[447]	qaaqp55l485lvs9rdvpvbtmqal[447]	speaker: YOU[567]	_	_	_	_	_	
+161-6	3769-3772	sie	GWithout[27]	adoptieren\_set1\_13[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-adoptieren\_set1\_13[27]	*[82]|3[83]	*[82]|*[83]	Embedded[82]|*[83]	*[82]|f[83]	*[82]|singular[83]	false[207]	Decl[207]	*[327]	*[327]	*[327]	*[327]	*[327]	input2[327]	24[447]	male[447]	qaaqp55l485lvs9rdvpvbtmqal[447]	speaker: YOU[567]	*->92-4	PerPron[92]	_	_	_	
+161-7	3773-3779	dieser	GWithout[27]	adoptieren\_set1\_13[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-adoptieren\_set1\_13[27]	*[82]	*[82]	Embedded[82]	*[82]	*[82]	false[207]	Decl[207]	*[327]	*[327]	*[327]	*[327]	*[327]	input2[327]	24[447]	male[447]	qaaqp55l485lvs9rdvpvbtmqal[447]	speaker: YOU[567]	*->48-1	DefNP[48]	_	_	_	
+161-8	3780-3787	Aufgabe	GWithout[27]	adoptieren\_set1\_13[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-adoptieren\_set1\_13[27]	*[82]	*[82]	Embedded[82]	*[82]	*[82]	false[207]	Decl[207]	*[327]	*[327]	*[327]	*[327]	*[327]	input2[327]	24[447]	male[447]	qaaqp55l485lvs9rdvpvbtmqal[447]	speaker: YOU[567]	*->48-1	DefNP[48]	_	_	_	
+161-9	3788-3797	gewachsen	GWithout[27]	adoptieren\_set1\_13[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-adoptieren\_set1\_13[27]	*[82]	*[82]	Embedded[82]	*[82]	*[82]	false[207]	Decl[207]	*[327]	*[327]	*[327]	*[327]	*[327]	input2[327]	24[447]	male[447]	qaaqp55l485lvs9rdvpvbtmqal[447]	speaker: YOU[567]	_	_	_	_	_	
+161-10	3798-3801	ist	GWithout[27]	adoptieren\_set1\_13[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-adoptieren\_set1\_13[27]	*[82]	*[82]	Embedded[82]	*[82]	*[82]	false[207]	Decl[207]	*[327]	*[327]	*[327]	*[327]	*[327]	input2[327]	24[447]	male[447]	qaaqp55l485lvs9rdvpvbtmqal[447]	speaker: YOU[567]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+162-1	3803-3818	END_OF_DOCUMENT	GWithout[27]	adoptieren\_set1\_13[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-adoptieren\_set1\_13[27]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+163-1	3820-3825	Alles	GWithout[28]	adoptieren\_set1\_13[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-adoptieren\_set1\_13[28]	_	_	_	_	_	false[208]	Int[208]	*[328]	*[328]	*[328]	yn\_1[328]	yesno\_question[328]	openq[328]	*[448]	male[448]	*[448]	speaker:Tobias[568]	_	_	QAP	*	164-1[209_208]	
+163-2	3826-3830	klar	GWithout[28]	adoptieren\_set1\_13[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-adoptieren\_set1\_13[28]	_	_	_	_	_	false[208]	Int[208]	*[328]	*[328]	*[328]	yn\_1[328]	yesno\_question[328]	openq[328]	*[448]	male[448]	*[448]	speaker:Tobias[568]	_	_	_	_	_	
+163-3	3831-3834	bei	GWithout[28]	adoptieren\_set1\_13[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-adoptieren\_set1\_13[28]	_	_	_	_	_	false[208]	Int[208]	*[328]	*[328]	*[328]	yn\_1[328]	yesno\_question[328]	openq[328]	*[448]	male[448]	*[448]	speaker:Tobias[568]	_	_	_	_	_	
+163-4	3835-3839	dir?	GWithout[28]	adoptieren\_set1\_13[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-adoptieren\_set1\_13[28]	2	*	*	*	singular	false[208]	Int[208]	*[328]	*[328]	*[328]	yn\_1[328]	yesno\_question[328]	openq[328]	*[448]	male[448]	*[448]	speaker:Tobias[568]	*->102-1	PerPron[102]	_	_	_	
+
+#Text=Diana hat eine Katze adoptiert
+164-1	3841-3846	Diana	GWithout[28]	adoptieren\_set1\_13[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-adoptieren\_set1\_13[28]	*	*	Subj	*	*	false[209]	Decl[209]	*[329]	adoptieren[329]	transitive[329]	*[329]	*[329]	item0[329]	25[449]	female[449]	t6ah1r7hfmcncb44kgnh0sjmv6[449]	speaker: YOU[569]	*->49-1	PropNm[49]	elaboration	*	166-1[210_209]	
+164-2	3847-3850	hat	GWithout[28]	adoptieren\_set1\_13[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-adoptieren\_set1\_13[28]	_	_	_	_	_	false[209]	Decl[209]	*[329]	adoptieren[329]	transitive[329]	*[329]	*[329]	item0[329]	25[449]	female[449]	t6ah1r7hfmcncb44kgnh0sjmv6[449]	speaker: YOU[569]	_	_	_	_	_	
+164-3	3851-3855	eine	GWithout[28]	adoptieren\_set1\_13[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-adoptieren\_set1\_13[28]	*[84]	*[84]	object[84]	*[84]	*[84]	false[209]	Decl[209]	*[329]	adoptieren[329]	transitive[329]	*[329]	*[329]	item0[329]	25[449]	female[449]	t6ah1r7hfmcncb44kgnh0sjmv6[449]	speaker: YOU[569]	*->24-1	IndefNP[24]	_	_	_	
+164-4	3856-3861	Katze	GWithout[28]	adoptieren\_set1\_13[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-adoptieren\_set1\_13[28]	*[84]	*[84]	object[84]	*[84]	*[84]	false[209]	Decl[209]	*[329]	adoptieren[329]	transitive[329]	*[329]	*[329]	item0[329]	25[449]	female[449]	t6ah1r7hfmcncb44kgnh0sjmv6[449]	speaker: YOU[569]	*->24-1	IndefNP[24]	_	_	_	
+164-5	3862-3871	adoptiert	GWithout[28]	adoptieren\_set1\_13[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-adoptieren\_set1\_13[28]	_	_	_	_	_	false[209]	Decl[209]	*[329]	adoptieren[329]	transitive[329]	*[329]	*[329]	item0[329]	25[449]	female[449]	t6ah1r7hfmcncb44kgnh0sjmv6[449]	speaker: YOU[569]	_	_	_	_	_	
+
+#Text=-
+165-1	3873-3874	-	GWithout[28]	adoptieren\_set1\_13[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-adoptieren\_set1\_13[28]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	male	*	speaker:Tobias	_	_	_	_	_	
+
+#Text=Die ist sooooo süß
+166-1	3876-3879	Die	GWithout[28]	adoptieren\_set1\_13[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-adoptieren\_set1\_13[28]	*	*	Subj	*	*	false[210]	Excl[210]	*[330]	*[330]	*[330]	*[330]	*[330]	input1[330]	25[450]	female[450]	t6ah1r7hfmcncb44kgnh0sjmv6[450]	speaker: YOU[570]	*->24-2	D-Pron[24]	result	*	167-1[211_210]	
+166-2	3880-3883	ist	GWithout[28]	adoptieren\_set1\_13[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-adoptieren\_set1\_13[28]	_	_	_	_	_	false[210]	Excl[210]	*[330]	*[330]	*[330]	*[330]	*[330]	input1[330]	25[450]	female[450]	t6ah1r7hfmcncb44kgnh0sjmv6[450]	speaker: YOU[570]	_	_	_	_	_	
+166-3	3884-3890	sooooo	GWithout[28]	adoptieren\_set1\_13[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-adoptieren\_set1\_13[28]	_	_	_	_	_	false[210]	Excl[210]	*[330]	*[330]	*[330]	*[330]	*[330]	input1[330]	25[450]	female[450]	t6ah1r7hfmcncb44kgnh0sjmv6[450]	speaker: YOU[570]	_	_	_	_	_	
+166-4	3891-3894	süß	GWithout[28]	adoptieren\_set1\_13[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-adoptieren\_set1\_13[28]	_	_	_	_	_	false[210]	Excl[210]	*[330]	*[330]	*[330]	*[330]	*[330]	input1[330]	25[450]	female[450]	t6ah1r7hfmcncb44kgnh0sjmv6[450]	speaker: YOU[570]	_	_	_	_	_	
+
+#Text=Du musst sie unbedingt bald besuchen!
+167-1	3896-3898	Du	GWithout[28]	adoptieren\_set1\_13[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-adoptieren\_set1\_13[28]	2	*	Subj	*	singular	false[211]	Decl[211]	*[331]	*[331]	*[331]	*[331]	*[331]	input2[331]	25[451]	female[451]	t6ah1r7hfmcncb44kgnh0sjmv6[451]	speaker: YOU[571]	*->26-1	PerPron[26]	_	_	_	
+167-2	3899-3904	musst	GWithout[28]	adoptieren\_set1\_13[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-adoptieren\_set1\_13[28]	_	_	_	_	_	false[211]	Decl[211]	*[331]	*[331]	*[331]	*[331]	*[331]	input2[331]	25[451]	female[451]	t6ah1r7hfmcncb44kgnh0sjmv6[451]	speaker: YOU[571]	_	_	_	_	_	
+167-3	3905-3908	sie	GWithout[28]	adoptieren\_set1\_13[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-adoptieren\_set1\_13[28]	3	*	DirObj	f	singular	false[211]	Decl[211]	*[331]	*[331]	*[331]	*[331]	*[331]	input2[331]	25[451]	female[451]	t6ah1r7hfmcncb44kgnh0sjmv6[451]	speaker: YOU[571]	*->49-2	PerPron[49]	_	_	_	
+167-4	3909-3918	unbedingt	GWithout[28]	adoptieren\_set1\_13[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-adoptieren\_set1\_13[28]	_	_	_	_	_	false[211]	Decl[211]	*[331]	*[331]	*[331]	*[331]	*[331]	input2[331]	25[451]	female[451]	t6ah1r7hfmcncb44kgnh0sjmv6[451]	speaker: YOU[571]	_	_	_	_	_	
+167-5	3919-3923	bald	GWithout[28]	adoptieren\_set1\_13[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-adoptieren\_set1\_13[28]	_	_	_	_	_	false[211]	Decl[211]	*[331]	*[331]	*[331]	*[331]	*[331]	input2[331]	25[451]	female[451]	t6ah1r7hfmcncb44kgnh0sjmv6[451]	speaker: YOU[571]	_	_	_	_	_	
+167-6	3924-3933	besuchen!	GWithout[28]	adoptieren\_set1\_13[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-adoptieren\_set1\_13[28]	_	_	_	_	_	false[211]	Decl[211]	*[331]	*[331]	*[331]	*[331]	*[331]	input2[331]	25[451]	female[451]	t6ah1r7hfmcncb44kgnh0sjmv6[451]	speaker: YOU[571]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+168-1	3935-3950	END_OF_DOCUMENT	GWithout[28]	adoptieren\_set1\_13[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-adoptieren\_set1\_13[28]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+169-1	3952-3957	Alles	GWithout[29]	adoptieren\_set1\_13[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-adoptieren\_set1\_13[29]	_	_	_	_	_	false[212]	Int[212]	*[332]	*[332]	*[332]	yn\_1[332]	yesno\_question[332]	openq[332]	*[452]	male[452]	*[452]	speaker:Tobias[572]	_	_	QAP	*	170-1[213_212]	
+169-2	3958-3962	klar	GWithout[29]	adoptieren\_set1\_13[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-adoptieren\_set1\_13[29]	_	_	_	_	_	false[212]	Int[212]	*[332]	*[332]	*[332]	yn\_1[332]	yesno\_question[332]	openq[332]	*[452]	male[452]	*[452]	speaker:Tobias[572]	_	_	_	_	_	
+169-3	3963-3966	bei	GWithout[29]	adoptieren\_set1\_13[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-adoptieren\_set1\_13[29]	_	_	_	_	_	false[212]	Int[212]	*[332]	*[332]	*[332]	yn\_1[332]	yesno\_question[332]	openq[332]	*[452]	male[452]	*[452]	speaker:Tobias[572]	_	_	_	_	_	
+169-4	3967-3971	dir?	GWithout[29]	adoptieren\_set1\_13[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-adoptieren\_set1\_13[29]	2	*	*	*	singular	false[212]	Int[212]	*[332]	*[332]	*[332]	yn\_1[332]	yesno\_question[332]	openq[332]	*[452]	male[452]	*[452]	speaker:Tobias[572]	*->2-1	PerPron[2]	_	_	_	
+
+#Text=Diana hat eine Katze adoptiert
+170-1	3973-3978	Diana	GWithout[29]	adoptieren\_set1\_13[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-adoptieren\_set1\_13[29]	*	*	Subj	*	*	false[213]	Decl[213]	*[333]	adoptieren[333]	transitive[333]	*[333]	*[333]	item0[333]	29[453]	female[453]	ue2vk0ts1hkpki58vsa3j8t39j[453]	speaker: YOU[573]	*->9-1	PropNm[9]	elaboration	*	172-1[214_213]	
+170-2	3979-3982	hat	GWithout[29]	adoptieren\_set1\_13[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-adoptieren\_set1\_13[29]	_	_	_	_	_	false[213]	Decl[213]	*[333]	adoptieren[333]	transitive[333]	*[333]	*[333]	item0[333]	29[453]	female[453]	ue2vk0ts1hkpki58vsa3j8t39j[453]	speaker: YOU[573]	_	_	_	_	_	
+170-3	3983-3987	eine	GWithout[29]	adoptieren\_set1\_13[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-adoptieren\_set1\_13[29]	*[85]	*[85]	object[85]	*[85]	*[85]	false[213]	Decl[213]	*[333]	adoptieren[333]	transitive[333]	*[333]	*[333]	item0[333]	29[453]	female[453]	ue2vk0ts1hkpki58vsa3j8t39j[453]	speaker: YOU[573]	*->5-1	IndefNP[5]	_	_	_	
+170-4	3988-3993	Katze	GWithout[29]	adoptieren\_set1\_13[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-adoptieren\_set1\_13[29]	*[85]	*[85]	object[85]	*[85]	*[85]	false[213]	Decl[213]	*[333]	adoptieren[333]	transitive[333]	*[333]	*[333]	item0[333]	29[453]	female[453]	ue2vk0ts1hkpki58vsa3j8t39j[453]	speaker: YOU[573]	*->5-1	IndefNP[5]	_	_	_	
+170-5	3994-4003	adoptiert	GWithout[29]	adoptieren\_set1\_13[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-adoptieren\_set1\_13[29]	_	_	_	_	_	false[213]	Decl[213]	*[333]	adoptieren[333]	transitive[333]	*[333]	*[333]	item0[333]	29[453]	female[453]	ue2vk0ts1hkpki58vsa3j8t39j[453]	speaker: YOU[573]	_	_	_	_	_	
+
+#Text=-
+171-1	4005-4006	-	GWithout[29]	adoptieren\_set1\_13[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-adoptieren\_set1\_13[29]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	male	*	speaker:Tobias	_	_	_	_	_	
+
+#Text=Sie ist mega süss!
+172-1	4008-4011	Sie	GWithout[29]	adoptieren\_set1\_13[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-adoptieren\_set1\_13[29]	3	*	Subj	*	singular	false[214]	Decl[214]	*[334]	*[334]	*[334]	*[334]	*[334]	input1[334]	29[454]	female[454]	ue2vk0ts1hkpki58vsa3j8t39j[454]	speaker: YOU[574]	*->5-2	PerPron[5]	result	*	173-1[215_214]	
+172-2	4012-4015	ist	GWithout[29]	adoptieren\_set1\_13[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-adoptieren\_set1\_13[29]	_	_	_	_	_	false[214]	Decl[214]	*[334]	*[334]	*[334]	*[334]	*[334]	input1[334]	29[454]	female[454]	ue2vk0ts1hkpki58vsa3j8t39j[454]	speaker: YOU[574]	_	_	_	_	_	
+172-3	4016-4020	mega	GWithout[29]	adoptieren\_set1\_13[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-adoptieren\_set1\_13[29]	_	_	_	_	_	false[214]	Decl[214]	*[334]	*[334]	*[334]	*[334]	*[334]	input1[334]	29[454]	female[454]	ue2vk0ts1hkpki58vsa3j8t39j[454]	speaker: YOU[574]	_	_	_	_	_	
+172-4	4021-4026	süss!	GWithout[29]	adoptieren\_set1\_13[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-adoptieren\_set1\_13[29]	_	_	_	_	_	false[214]	Decl[214]	*[334]	*[334]	*[334]	*[334]	*[334]	input1[334]	29[454]	female[454]	ue2vk0ts1hkpki58vsa3j8t39j[454]	speaker: YOU[574]	_	_	_	_	_	
+
+#Text=Ich schick dir sofort Bilder!
+173-1	4028-4031	Ich	GWithout[29]	adoptieren\_set1\_13[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-adoptieren\_set1\_13[29]	1	*	Subj	*	singular	false[215]	Decl[215]	*[335]	*[335]	*[335]	*[335]	*[335]	input2[335]	29[455]	female[455]	ue2vk0ts1hkpki58vsa3j8t39j[455]	speaker: YOU[575]	*->2-2	PerPron[2]	_	_	_	
+173-2	4032-4038	schick	GWithout[29]	adoptieren\_set1\_13[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-adoptieren\_set1\_13[29]	_	_	_	_	_	false[215]	Decl[215]	*[335]	*[335]	*[335]	*[335]	*[335]	input2[335]	29[455]	female[455]	ue2vk0ts1hkpki58vsa3j8t39j[455]	speaker: YOU[575]	_	_	_	_	_	
+173-3	4039-4042	dir	GWithout[29]	adoptieren\_set1\_13[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-adoptieren\_set1\_13[29]	2	*	*	*	singular	false[215]	Decl[215]	*[335]	*[335]	*[335]	*[335]	*[335]	input2[335]	29[455]	female[455]	ue2vk0ts1hkpki58vsa3j8t39j[455]	speaker: YOU[575]	*->1-1	PerPron[1]	_	_	_	
+173-4	4043-4049	sofort	GWithout[29]	adoptieren\_set1\_13[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-adoptieren\_set1\_13[29]	*[86]	*[86]	DirObj[86]	*[86]	*[86]	false[215]	Decl[215]	*[335]	*[335]	*[335]	*[335]	*[335]	input2[335]	29[455]	female[455]	ue2vk0ts1hkpki58vsa3j8t39j[455]	speaker: YOU[575]	_	_	_	_	_	
+173-5	4050-4057	Bilder!	GWithout[29]	adoptieren\_set1\_13[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-adoptieren\_set1\_13[29]	*[86]	*[86]	DirObj[86]	*[86]	*[86]	false[215]	Decl[215]	*[335]	*[335]	*[335]	*[335]	*[335]	input2[335]	29[455]	female[455]	ue2vk0ts1hkpki58vsa3j8t39j[455]	speaker: YOU[575]	*->100-1	IndefNP[100]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+174-1	4059-4074	END_OF_DOCUMENT	GWithout[29]	adoptieren\_set1\_13[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-adoptieren\_set1\_13[29]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+175-1	4076-4081	Alles	GWithout[30]	adoptieren\_set1\_13[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-adoptieren\_set1\_13[30]	_	_	_	_	_	false[216]	Int[216]	*[336]	*[336]	*[336]	yn\_1[336]	yesno\_question[336]	openq[336]	*[456]	male[456]	*[456]	speaker:Tobias[576]	_	_	QAP	*	176-1[217_216]	
+175-2	4082-4086	klar	GWithout[30]	adoptieren\_set1\_13[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-adoptieren\_set1\_13[30]	_	_	_	_	_	false[216]	Int[216]	*[336]	*[336]	*[336]	yn\_1[336]	yesno\_question[336]	openq[336]	*[456]	male[456]	*[456]	speaker:Tobias[576]	_	_	_	_	_	
+175-3	4087-4090	bei	GWithout[30]	adoptieren\_set1\_13[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-adoptieren\_set1\_13[30]	_	_	_	_	_	false[216]	Int[216]	*[336]	*[336]	*[336]	yn\_1[336]	yesno\_question[336]	openq[336]	*[456]	male[456]	*[456]	speaker:Tobias[576]	_	_	_	_	_	
+175-4	4091-4095	dir?	GWithout[30]	adoptieren\_set1\_13[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-adoptieren\_set1\_13[30]	2	*	*	*	singular	false[216]	Int[216]	*[336]	*[336]	*[336]	yn\_1[336]	yesno\_question[336]	openq[336]	*[456]	male[456]	*[456]	speaker:Tobias[576]	*->31-1	PerPron[31]	_	_	_	
+
+#Text=Diana hat eine Katze adoptiert
+176-1	4097-4102	Diana	GWithout[30]	adoptieren\_set1\_13[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-adoptieren\_set1\_13[30]	*	*	Subj	*	*	false[217]	Decl[217]	*[337]	adoptieren[337]	transitive[337]	*[337]	*[337]	item0[337]	58[457]	male[457]	v3le8i0hm1ekj0ps9oou7k56t5[457]	speaker: YOU[577]	*->15-1	PropNm[15]	elaboration|result	*|*	178-1[218_217]|179-1[219_217]	
+176-2	4103-4106	hat	GWithout[30]	adoptieren\_set1\_13[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-adoptieren\_set1\_13[30]	_	_	_	_	_	false[217]	Decl[217]	*[337]	adoptieren[337]	transitive[337]	*[337]	*[337]	item0[337]	58[457]	male[457]	v3le8i0hm1ekj0ps9oou7k56t5[457]	speaker: YOU[577]	_	_	_	_	_	
+176-3	4107-4111	eine	GWithout[30]	adoptieren\_set1\_13[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-adoptieren\_set1\_13[30]	*[87]	*[87]	object[87]	*[87]	*[87]	false[217]	Decl[217]	*[337]	adoptieren[337]	transitive[337]	*[337]	*[337]	item0[337]	58[457]	male[457]	v3le8i0hm1ekj0ps9oou7k56t5[457]	speaker: YOU[577]	*->121-1	IndefNP[121]	_	_	_	
+176-4	4112-4117	Katze	GWithout[30]	adoptieren\_set1\_13[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-adoptieren\_set1\_13[30]	*[87]	*[87]	object[87]	*[87]	*[87]	false[217]	Decl[217]	*[337]	adoptieren[337]	transitive[337]	*[337]	*[337]	item0[337]	58[457]	male[457]	v3le8i0hm1ekj0ps9oou7k56t5[457]	speaker: YOU[577]	*->121-1	IndefNP[121]	_	_	_	
+176-5	4118-4127	adoptiert	GWithout[30]	adoptieren\_set1\_13[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-adoptieren\_set1\_13[30]	_	_	_	_	_	false[217]	Decl[217]	*[337]	adoptieren[337]	transitive[337]	*[337]	*[337]	item0[337]	58[457]	male[457]	v3le8i0hm1ekj0ps9oou7k56t5[457]	speaker: YOU[577]	_	_	_	_	_	
+
+#Text=-
+177-1	4129-4130	-	GWithout[30]	adoptieren\_set1\_13[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-adoptieren\_set1\_13[30]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	male	*	speaker:Tobias	_	_	_	_	_	
+
+#Text=eine rabenschwarze katze
+178-1	4132-4136	eine	GWithout[30]	adoptieren\_set1\_13[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-adoptieren\_set1\_13[30]	*[88]	*[88]	Subj[88]	*[88]	*[88]	false[218]	NA[218]	*[338]	*[338]	*[338]	*[338]	*[338]	input1[338]	58[458]	male[458]	v3le8i0hm1ekj0ps9oou7k56t5[458]	speaker: YOU[578]	*->121-2	IndefNP[121]	_	_	_	
+178-2	4137-4150	rabenschwarze	GWithout[30]	adoptieren\_set1\_13[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-adoptieren\_set1\_13[30]	*[88]	*[88]	Subj[88]	*[88]	*[88]	false[218]	NA[218]	*[338]	*[338]	*[338]	*[338]	*[338]	input1[338]	58[458]	male[458]	v3le8i0hm1ekj0ps9oou7k56t5[458]	speaker: YOU[578]	*->121-2	IndefNP[121]	_	_	_	
+178-3	4151-4156	katze	GWithout[30]	adoptieren\_set1\_13[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-adoptieren\_set1\_13[30]	*[88]	*[88]	Subj[88]	*[88]	*[88]	false[218]	NA[218]	*[338]	*[338]	*[338]	*[338]	*[338]	input1[338]	58[458]	male[458]	v3le8i0hm1ekj0ps9oou7k56t5[458]	speaker: YOU[578]	*->121-2	IndefNP[121]	_	_	_	
+
+#Text=nun sind wir 4
+179-1	4158-4161	nun	GWithout[30]	adoptieren\_set1\_13[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-adoptieren\_set1\_13[30]	_	_	_	_	_	false[219]	Decl[219]	*[339]	*[339]	*[339]	*[339]	*[339]	input2[339]	58[459]	male[459]	v3le8i0hm1ekj0ps9oou7k56t5[459]	speaker: YOU[579]	_	_	_	_	_	
+179-2	4162-4166	sind	GWithout[30]	adoptieren\_set1\_13[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-adoptieren\_set1\_13[30]	_	_	_	_	_	false[219]	Decl[219]	*[339]	*[339]	*[339]	*[339]	*[339]	input2[339]	58[459]	male[459]	v3le8i0hm1ekj0ps9oou7k56t5[459]	speaker: YOU[579]	_	_	_	_	_	
+179-3	4167-4170	wir	GWithout[30]	adoptieren\_set1\_13[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-adoptieren\_set1\_13[30]	1	*	Subj	*	plural	false[219]	Decl[219]	*[339]	*[339]	*[339]	*[339]	*[339]	input2[339]	58[459]	male[459]	v3le8i0hm1ekj0ps9oou7k56t5[459]	speaker: YOU[579]	*->46-1	PerPron[46]	_	_	_	
+179-4	4171-4172	4	GWithout[30]	adoptieren\_set1\_13[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-adoptieren\_set1\_13[30]	_	_	_	_	_	false[219]	Decl[219]	*[339]	*[339]	*[339]	*[339]	*[339]	input2[339]	58[459]	male[459]	v3le8i0hm1ekj0ps9oou7k56t5[459]	speaker: YOU[579]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+180-1	4174-4189	END_OF_DOCUMENT	GWithout[30]	adoptieren\_set1\_13[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-adoptieren\_set1\_13[30]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	

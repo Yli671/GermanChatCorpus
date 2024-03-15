@@ -1,0 +1,1028 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Error|Error
+#T_SP=webanno.custom.Item_info|condition|item_id|latinsqr_list|unique_id
+#T_SP=webanno.custom.Ref_info|PersonalPronouns_detailed|ref_def|ref_function|ref_gender|ref_num
+#T_SP=webanno.custom.Segment|complex|segment_type
+#T_SP=webanno.custom.Sent_layer|feedback_id|item0_verb|item0_verbtype|openq_id|openq_type|sent_type
+#T_SP=webanno.custom.Speaker_meta|age|gender|speaker_id
+#T_SP=webanno.custom.Speaker_name|speaker_name
+#T_CH=de.tudarmstadt.ukp.dkpro.core.api.coref.type.CoreferenceLink|referenceRelation|referenceType
+#T_RL=webanno.custom.Relations|discourse_rel|speechAct_rel|BT_webanno.custom.Segment
+
+
+#Text=Hallo, wie geht's?
+1-1	0-6	Hallo,	_	GFailure[3]	aufnehmen\_set1\_22[3]	latin2[3]	2em9nj6n4c2pjudl6n6hfpjc30-aufnehmen\_set1\_22[3]	_	_	_	_	_	false[91]	Int[91]	*[216]	*[216]	*[216]	wh\_2[216]	wh\_question[216]	openq[216]	*[336]	female[336]	*[336]	speaker:Fiona[456]	_	_	QAP	*	2-1[92_91]	
+1-2	7-10	wie	_	GFailure[3]	aufnehmen\_set1\_22[3]	latin2[3]	2em9nj6n4c2pjudl6n6hfpjc30-aufnehmen\_set1\_22[3]	_	_	_	_	_	false[91]	Int[91]	*[216]	*[216]	*[216]	wh\_2[216]	wh\_question[216]	openq[216]	*[336]	female[336]	*[336]	speaker:Fiona[456]	_	_	_	_	_	
+1-3	11-18	geht's?	_	GFailure[3]	aufnehmen\_set1\_22[3]	latin2[3]	2em9nj6n4c2pjudl6n6hfpjc30-aufnehmen\_set1\_22[3]	_	_	_	_	_	false[91]	Int[91]	*[216]	*[216]	*[216]	wh\_2[216]	wh\_question[216]	openq[216]	*[336]	female[336]	*[336]	speaker:Fiona[456]	_	_	_	_	_	
+
+#Text=Robin hat ein Konzert aufgenommen
+2-1	20-25	Robin	_	GFailure[3]	aufnehmen\_set1\_22[3]	latin2[3]	2em9nj6n4c2pjudl6n6hfpjc30-aufnehmen\_set1\_22[3]	*	*	Subj	*	*	false[92]	Decl[92]	*[217]	aufnehmen[217]	transitive[217]	*[217]	*[217]	item0[217]	32[337]	female[337]	2em9nj6n4c2pjudl6n6hfpjc30[337]	speaker: YOU[457]	*->34-1	PropNm[34]	explanation|CR	*|*	4-1[93_92]|3-1[0_92]	
+2-2	26-29	hat	_	GFailure[3]	aufnehmen\_set1\_22[3]	latin2[3]	2em9nj6n4c2pjudl6n6hfpjc30-aufnehmen\_set1\_22[3]	_	_	_	_	_	false[92]	Decl[92]	*[217]	aufnehmen[217]	transitive[217]	*[217]	*[217]	item0[217]	32[337]	female[337]	2em9nj6n4c2pjudl6n6hfpjc30[337]	speaker: YOU[457]	_	_	_	_	_	
+2-3	30-33	ein	_	GFailure[3]	aufnehmen\_set1\_22[3]	latin2[3]	2em9nj6n4c2pjudl6n6hfpjc30-aufnehmen\_set1\_22[3]	*[33]	*[33]	object[33]	*[33]	*[33]	false[92]	Decl[92]	*[217]	aufnehmen[217]	transitive[217]	*[217]	*[217]	item0[217]	32[337]	female[337]	2em9nj6n4c2pjudl6n6hfpjc30[337]	speaker: YOU[457]	*->106-1	IndefNP[106]	_	_	_	
+2-4	34-41	Konzert	_	GFailure[3]	aufnehmen\_set1\_22[3]	latin2[3]	2em9nj6n4c2pjudl6n6hfpjc30-aufnehmen\_set1\_22[3]	*[33]	*[33]	object[33]	*[33]	*[33]	false[92]	Decl[92]	*[217]	aufnehmen[217]	transitive[217]	*[217]	*[217]	item0[217]	32[337]	female[337]	2em9nj6n4c2pjudl6n6hfpjc30[337]	speaker: YOU[457]	*->106-1	IndefNP[106]	_	_	_	
+2-5	42-53	aufgenommen	_	GFailure[3]	aufnehmen\_set1\_22[3]	latin2[3]	2em9nj6n4c2pjudl6n6hfpjc30-aufnehmen\_set1\_22[3]	_	_	_	_	_	false[92]	Decl[92]	*[217]	aufnehmen[217]	transitive[217]	*[217]	*[217]	item0[217]	32[337]	female[337]	2em9nj6n4c2pjudl6n6hfpjc30[337]	speaker: YOU[457]	_	_	_	_	_	
+
+#Text=Ähm?
+3-1	55-59	Ähm?	_	GFailure[3]	aufnehmen\_set1\_22[3]	latin2[3]	2em9nj6n4c2pjudl6n6hfpjc30-aufnehmen\_set1\_22[3]	_	_	_	_	_	false	NA	aehm\_question\_5	*	*	*	*	feedback	*	female	*	speaker:Fiona	_	_	_	_	_	
+
+#Text=Er redet von nichts anderem <BR> 
+4-1	61-63	Er	_	GFailure[3]	aufnehmen\_set1\_22[3]	latin2[3]	2em9nj6n4c2pjudl6n6hfpjc30-aufnehmen\_set1\_22[3]	3	*	Subj	m	singular	false[93]	Decl[93]	*[218]	*[218]	*[218]	*[218]	*[218]	input1[218]	32[338]	female[338]	2em9nj6n4c2pjudl6n6hfpjc30[338]	speaker: YOU[458]	*->34-2	PerPron[34]	elaboration	*	5-1[94_93]	
+4-2	64-69	redet	_	GFailure[3]	aufnehmen\_set1\_22[3]	latin2[3]	2em9nj6n4c2pjudl6n6hfpjc30-aufnehmen\_set1\_22[3]	_	_	_	_	_	false[93]	Decl[93]	*[218]	*[218]	*[218]	*[218]	*[218]	input1[218]	32[338]	female[338]	2em9nj6n4c2pjudl6n6hfpjc30[338]	speaker: YOU[458]	_	_	_	_	_	
+4-3	70-73	von	_	GFailure[3]	aufnehmen\_set1\_22[3]	latin2[3]	2em9nj6n4c2pjudl6n6hfpjc30-aufnehmen\_set1\_22[3]	_	_	_	_	_	false[93]	Decl[93]	*[218]	*[218]	*[218]	*[218]	*[218]	input1[218]	32[338]	female[338]	2em9nj6n4c2pjudl6n6hfpjc30[338]	speaker: YOU[458]	_	_	_	_	_	
+4-4	74-80	nichts	_	GFailure[3]	aufnehmen\_set1\_22[3]	latin2[3]	2em9nj6n4c2pjudl6n6hfpjc30-aufnehmen\_set1\_22[3]	_	_	_	_	_	false[93]	Decl[93]	*[218]	*[218]	*[218]	*[218]	*[218]	input1[218]	32[338]	female[338]	2em9nj6n4c2pjudl6n6hfpjc30[338]	speaker: YOU[458]	_	_	_	_	_	
+4-5	81-88	anderem	_	GFailure[3]	aufnehmen\_set1\_22[3]	latin2[3]	2em9nj6n4c2pjudl6n6hfpjc30-aufnehmen\_set1\_22[3]	*	*	DirObj	*	*	false[93]	Decl[93]	*[218]	*[218]	*[218]	*[218]	*[218]	input1[218]	32[338]	female[338]	2em9nj6n4c2pjudl6n6hfpjc30[338]	speaker: YOU[458]	_	_	_	_	_	
+4-6	89-93	<BR>	_	GFailure[3]	aufnehmen\_set1\_22[3]	latin2[3]	2em9nj6n4c2pjudl6n6hfpjc30-aufnehmen\_set1\_22[3]	_	_	_	_	_	_	_	*[218]	*[218]	*[218]	*[218]	*[218]	input1[218]	32[338]	female[338]	2em9nj6n4c2pjudl6n6hfpjc30[338]	speaker: YOU[458]	_	_	_	_	_	
+4-7	94-94		_	GFailure[3]	aufnehmen\_set1\_22[3]	latin2[3]	2em9nj6n4c2pjudl6n6hfpjc30-aufnehmen\_set1\_22[3]	_	_	_	_	_	_	_	*[218]	*[218]	*[218]	*[218]	*[218]	input1[218]	32[338]	female[338]	2em9nj6n4c2pjudl6n6hfpjc30[338]	speaker: YOU[458]	_	_	_	_	_	
+
+#Text=Schon seit Tagen...
+5-1	96-101	Schon	_	GFailure[3]	aufnehmen\_set1\_22[3]	latin2[3]	2em9nj6n4c2pjudl6n6hfpjc30-aufnehmen\_set1\_22[3]	_	_	_	_	_	false[94]	NA[94]	*[219]	*[219]	*[219]	*[219]	*[219]	input2[219]	32[339]	female[339]	2em9nj6n4c2pjudl6n6hfpjc30[339]	speaker: YOU[459]	_	_	_	_	_	
+5-2	102-106	seit	_	GFailure[3]	aufnehmen\_set1\_22[3]	latin2[3]	2em9nj6n4c2pjudl6n6hfpjc30-aufnehmen\_set1\_22[3]	_	_	_	_	_	false[94]	NA[94]	*[219]	*[219]	*[219]	*[219]	*[219]	input2[219]	32[339]	female[339]	2em9nj6n4c2pjudl6n6hfpjc30[339]	speaker: YOU[459]	_	_	_	_	_	
+5-3	107-115	Tagen...	_	GFailure[3]	aufnehmen\_set1\_22[3]	latin2[3]	2em9nj6n4c2pjudl6n6hfpjc30-aufnehmen\_set1\_22[3]	_	_	_	_	_	false[94]	NA[94]	*[219]	*[219]	*[219]	*[219]	*[219]	input2[219]	32[339]	female[339]	2em9nj6n4c2pjudl6n6hfpjc30[339]	speaker: YOU[459]	*->115-1	IndefNP[115]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+6-1	117-132	END_OF_DOCUMENT	_	GFailure[3]	aufnehmen\_set1\_22[3]	latin2[3]	2em9nj6n4c2pjudl6n6hfpjc30-aufnehmen\_set1\_22[3]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+7-1	134-140	Hallo,	_	GFailure[4]	aufnehmen\_set1\_22[4]	latin2[4]	2prsavjsjqbmc8hrbo9bovkues-aufnehmen\_set1\_22[4]	_	_	_	_	_	false[95]	Int[95]	*[220]	*[220]	*[220]	wh\_2[220]	wh\_question[220]	openq[220]	*[340]	female[340]	*[340]	speaker:Fiona[460]	_	_	QAP	*	8-1[96_95]	
+7-2	141-144	wie	_	GFailure[4]	aufnehmen\_set1\_22[4]	latin2[4]	2prsavjsjqbmc8hrbo9bovkues-aufnehmen\_set1\_22[4]	_	_	_	_	_	false[95]	Int[95]	*[220]	*[220]	*[220]	wh\_2[220]	wh\_question[220]	openq[220]	*[340]	female[340]	*[340]	speaker:Fiona[460]	_	_	_	_	_	
+7-3	145-152	geht's?	_	GFailure[4]	aufnehmen\_set1\_22[4]	latin2[4]	2prsavjsjqbmc8hrbo9bovkues-aufnehmen\_set1\_22[4]	_	_	_	_	_	false[95]	Int[95]	*[220]	*[220]	*[220]	wh\_2[220]	wh\_question[220]	openq[220]	*[340]	female[340]	*[340]	speaker:Fiona[460]	_	_	_	_	_	
+
+#Text=Robin hat ein Konzert aufgenommen
+8-1	154-159	Robin	_	GFailure[4]	aufnehmen\_set1\_22[4]	latin2[4]	2prsavjsjqbmc8hrbo9bovkues-aufnehmen\_set1\_22[4]	*	*	Subj	*	*	false[96]	Decl[96]	*[221]	aufnehmen[221]	transitive[221]	*[221]	*[221]	item0[221]	41[341]	female[341]	2prsavjsjqbmc8hrbo9bovkues[341]	speaker: YOU[461]	*->69-1	PropNm[69]	result|CR	*|*	10-1[97_96]|9-1[0_96]	
+8-2	160-163	hat	_	GFailure[4]	aufnehmen\_set1\_22[4]	latin2[4]	2prsavjsjqbmc8hrbo9bovkues-aufnehmen\_set1\_22[4]	_	_	_	_	_	false[96]	Decl[96]	*[221]	aufnehmen[221]	transitive[221]	*[221]	*[221]	item0[221]	41[341]	female[341]	2prsavjsjqbmc8hrbo9bovkues[341]	speaker: YOU[461]	_	_	_	_	_	
+8-3	164-167	ein	_	GFailure[4]	aufnehmen\_set1\_22[4]	latin2[4]	2prsavjsjqbmc8hrbo9bovkues-aufnehmen\_set1\_22[4]	*[34]	*[34]	object[34]	*[34]	*[34]	false[96]	Decl[96]	*[221]	aufnehmen[221]	transitive[221]	*[221]	*[221]	item0[221]	41[341]	female[341]	2prsavjsjqbmc8hrbo9bovkues[341]	speaker: YOU[461]	*->85-1	IndefNP[85]	_	_	_	
+8-4	168-175	Konzert	_	GFailure[4]	aufnehmen\_set1\_22[4]	latin2[4]	2prsavjsjqbmc8hrbo9bovkues-aufnehmen\_set1\_22[4]	*[34]	*[34]	object[34]	*[34]	*[34]	false[96]	Decl[96]	*[221]	aufnehmen[221]	transitive[221]	*[221]	*[221]	item0[221]	41[341]	female[341]	2prsavjsjqbmc8hrbo9bovkues[341]	speaker: YOU[461]	*->85-1	IndefNP[85]	_	_	_	
+8-5	176-187	aufgenommen	_	GFailure[4]	aufnehmen\_set1\_22[4]	latin2[4]	2prsavjsjqbmc8hrbo9bovkues-aufnehmen\_set1\_22[4]	_	_	_	_	_	false[96]	Decl[96]	*[221]	aufnehmen[221]	transitive[221]	*[221]	*[221]	item0[221]	41[341]	female[341]	2prsavjsjqbmc8hrbo9bovkues[341]	speaker: YOU[461]	_	_	_	_	_	
+
+#Text=Ähm?
+9-1	189-193	Ähm?	_	GFailure[4]	aufnehmen\_set1\_22[4]	latin2[4]	2prsavjsjqbmc8hrbo9bovkues-aufnehmen\_set1\_22[4]	_	_	_	_	_	false	NA	aehm\_question\_5	*	*	*	*	feedback	*	female	*	speaker:Fiona	_	_	_	_	_	
+
+#Text=Willst du vorbei kommen?
+10-1	195-201	Willst	_	GFailure[4]	aufnehmen\_set1\_22[4]	latin2[4]	2prsavjsjqbmc8hrbo9bovkues-aufnehmen\_set1\_22[4]	_	_	_	_	_	false[97]	Int[97]	*[222]	*[222]	*[222]	*[222]	*[222]	input1[222]	41[342]	female[342]	2prsavjsjqbmc8hrbo9bovkues[342]	speaker: YOU[462]	_	_	explanation	*	11-1[98_97]	
+10-2	202-204	du	_	GFailure[4]	aufnehmen\_set1\_22[4]	latin2[4]	2prsavjsjqbmc8hrbo9bovkues-aufnehmen\_set1\_22[4]	2	*	Subj	*	singular	false[97]	Int[97]	*[222]	*[222]	*[222]	*[222]	*[222]	input1[222]	41[342]	female[342]	2prsavjsjqbmc8hrbo9bovkues[342]	speaker: YOU[462]	*->57-1	PerPron[57]	_	_	_	
+10-3	205-211	vorbei	_	GFailure[4]	aufnehmen\_set1\_22[4]	latin2[4]	2prsavjsjqbmc8hrbo9bovkues-aufnehmen\_set1\_22[4]	_	_	_	_	_	false[97]	Int[97]	*[222]	*[222]	*[222]	*[222]	*[222]	input1[222]	41[342]	female[342]	2prsavjsjqbmc8hrbo9bovkues[342]	speaker: YOU[462]	_	_	_	_	_	
+10-4	212-219	kommen?	_	GFailure[4]	aufnehmen\_set1\_22[4]	latin2[4]	2prsavjsjqbmc8hrbo9bovkues-aufnehmen\_set1\_22[4]	_	_	_	_	_	false[97]	Int[97]	*[222]	*[222]	*[222]	*[222]	*[222]	input1[222]	41[342]	female[342]	2prsavjsjqbmc8hrbo9bovkues[342]	speaker: YOU[462]	_	_	_	_	_	
+
+#Text=Dann können wir es zusammen anschauen.
+11-1	221-225	Dann	_	GFailure[4]	aufnehmen\_set1\_22[4]	latin2[4]	2prsavjsjqbmc8hrbo9bovkues-aufnehmen\_set1\_22[4]	_	_	_	_	_	false[98]	Decl[98]	*[223]	*[223]	*[223]	*[223]	*[223]	input2[223]	41[343]	female[343]	2prsavjsjqbmc8hrbo9bovkues[343]	speaker: YOU[463]	_	_	_	_	_	
+11-2	226-232	können	_	GFailure[4]	aufnehmen\_set1\_22[4]	latin2[4]	2prsavjsjqbmc8hrbo9bovkues-aufnehmen\_set1\_22[4]	_	_	_	_	_	false[98]	Decl[98]	*[223]	*[223]	*[223]	*[223]	*[223]	input2[223]	41[343]	female[343]	2prsavjsjqbmc8hrbo9bovkues[343]	speaker: YOU[463]	_	_	_	_	_	
+11-3	233-236	wir	_	GFailure[4]	aufnehmen\_set1\_22[4]	latin2[4]	2prsavjsjqbmc8hrbo9bovkues-aufnehmen\_set1\_22[4]	1	*	Subj	*	plural	false[98]	Decl[98]	*[223]	*[223]	*[223]	*[223]	*[223]	input2[223]	41[343]	female[343]	2prsavjsjqbmc8hrbo9bovkues[343]	speaker: YOU[463]	*->39-1	PerPron[39]	_	_	_	
+11-4	237-239	es	_	GFailure[4]	aufnehmen\_set1\_22[4]	latin2[4]	2prsavjsjqbmc8hrbo9bovkues-aufnehmen\_set1\_22[4]	3	*	DirObj	*	singular	false[98]	Decl[98]	*[223]	*[223]	*[223]	*[223]	*[223]	input2[223]	41[343]	female[343]	2prsavjsjqbmc8hrbo9bovkues[343]	speaker: YOU[463]	*->85-2	PerPron[85]	_	_	_	
+11-5	240-248	zusammen	_	GFailure[4]	aufnehmen\_set1\_22[4]	latin2[4]	2prsavjsjqbmc8hrbo9bovkues-aufnehmen\_set1\_22[4]	_	_	_	_	_	false[98]	Decl[98]	*[223]	*[223]	*[223]	*[223]	*[223]	input2[223]	41[343]	female[343]	2prsavjsjqbmc8hrbo9bovkues[343]	speaker: YOU[463]	_	_	_	_	_	
+11-6	249-259	anschauen.	_	GFailure[4]	aufnehmen\_set1\_22[4]	latin2[4]	2prsavjsjqbmc8hrbo9bovkues-aufnehmen\_set1\_22[4]	_	_	_	_	_	false[98]	Decl[98]	*[223]	*[223]	*[223]	*[223]	*[223]	input2[223]	41[343]	female[343]	2prsavjsjqbmc8hrbo9bovkues[343]	speaker: YOU[463]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+12-1	261-276	END_OF_DOCUMENT	_	GFailure[4]	aufnehmen\_set1\_22[4]	latin2[4]	2prsavjsjqbmc8hrbo9bovkues-aufnehmen\_set1\_22[4]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+13-1	278-284	Hallo,	_	GFailure[5]	aufnehmen\_set1\_22[5]	latin2[5]	3jjtes457iqluuhfmeiub8g6qd-aufnehmen\_set1\_22[5]	_	_	_	_	_	false[99]	Int[99]	*[224]	*[224]	*[224]	wh\_2[224]	wh\_question[224]	openq[224]	*[344]	female[344]	*[344]	speaker:Fiona[464]	_	_	QAP	*	14-1[100_99]	
+13-2	285-288	wie	_	GFailure[5]	aufnehmen\_set1\_22[5]	latin2[5]	3jjtes457iqluuhfmeiub8g6qd-aufnehmen\_set1\_22[5]	_	_	_	_	_	false[99]	Int[99]	*[224]	*[224]	*[224]	wh\_2[224]	wh\_question[224]	openq[224]	*[344]	female[344]	*[344]	speaker:Fiona[464]	_	_	_	_	_	
+13-3	289-296	geht's?	_	GFailure[5]	aufnehmen\_set1\_22[5]	latin2[5]	3jjtes457iqluuhfmeiub8g6qd-aufnehmen\_set1\_22[5]	_	_	_	_	_	false[99]	Int[99]	*[224]	*[224]	*[224]	wh\_2[224]	wh\_question[224]	openq[224]	*[344]	female[344]	*[344]	speaker:Fiona[464]	_	_	_	_	_	
+
+#Text=Robin hat ein Konzert aufgenommen
+14-1	298-303	Robin	_	GFailure[5]	aufnehmen\_set1\_22[5]	latin2[5]	3jjtes457iqluuhfmeiub8g6qd-aufnehmen\_set1\_22[5]	*	*	Subj	*	*	false[100]	Decl[100]	*[225]	aufnehmen[225]	transitive[225]	*[225]	*[225]	item0[225]	46[345]	male[345]	3jjtes457iqluuhfmeiub8g6qd[345]	speaker: YOU[465]	*->52-1	PropNm[52]	elaboration|elaboration|CR	*|*|*	16-1[101_100]|17-1[102_100]|15-1[0_100]	
+14-2	304-307	hat	_	GFailure[5]	aufnehmen\_set1\_22[5]	latin2[5]	3jjtes457iqluuhfmeiub8g6qd-aufnehmen\_set1\_22[5]	_	_	_	_	_	false[100]	Decl[100]	*[225]	aufnehmen[225]	transitive[225]	*[225]	*[225]	item0[225]	46[345]	male[345]	3jjtes457iqluuhfmeiub8g6qd[345]	speaker: YOU[465]	_	_	_	_	_	
+14-3	308-311	ein	_	GFailure[5]	aufnehmen\_set1\_22[5]	latin2[5]	3jjtes457iqluuhfmeiub8g6qd-aufnehmen\_set1\_22[5]	*[35]	*[35]	object[35]	*[35]	*[35]	false[100]	Decl[100]	*[225]	aufnehmen[225]	transitive[225]	*[225]	*[225]	item0[225]	46[345]	male[345]	3jjtes457iqluuhfmeiub8g6qd[345]	speaker: YOU[465]	*->45-1	IndefNP[45]	_	_	_	
+14-4	312-319	Konzert	_	GFailure[5]	aufnehmen\_set1\_22[5]	latin2[5]	3jjtes457iqluuhfmeiub8g6qd-aufnehmen\_set1\_22[5]	*[35]	*[35]	object[35]	*[35]	*[35]	false[100]	Decl[100]	*[225]	aufnehmen[225]	transitive[225]	*[225]	*[225]	item0[225]	46[345]	male[345]	3jjtes457iqluuhfmeiub8g6qd[345]	speaker: YOU[465]	*->45-1	IndefNP[45]	_	_	_	
+14-5	320-331	aufgenommen	_	GFailure[5]	aufnehmen\_set1\_22[5]	latin2[5]	3jjtes457iqluuhfmeiub8g6qd-aufnehmen\_set1\_22[5]	_	_	_	_	_	false[100]	Decl[100]	*[225]	aufnehmen[225]	transitive[225]	*[225]	*[225]	item0[225]	46[345]	male[345]	3jjtes457iqluuhfmeiub8g6qd[345]	speaker: YOU[465]	_	_	_	_	_	
+
+#Text=Ähm?
+15-1	333-337	Ähm?	_	GFailure[5]	aufnehmen\_set1\_22[5]	latin2[5]	3jjtes457iqluuhfmeiub8g6qd-aufnehmen\_set1\_22[5]	_	_	_	_	_	false	NA	aehm\_question\_5	*	*	*	*	feedback	*	female	*	speaker:Fiona	_	_	_	_	_	
+
+#Text=Das war so ein alternatives Event mit Bands die ich gar nicht kannte.
+16-1	339-342	Das	_	GFailure[5]	aufnehmen\_set1\_22[5]	latin2[5]	3jjtes457iqluuhfmeiub8g6qd-aufnehmen\_set1\_22[5]	*	*	Subj	*	*	false[101]	Decl[101]	*[226]	*[226]	*[226]	*[226]	*[226]	input1[226]	46[346]	male[346]	3jjtes457iqluuhfmeiub8g6qd[346]	speaker: YOU[466]	*->45-2	D-Pron[45]	_	_	_	
+16-2	343-346	war	_	GFailure[5]	aufnehmen\_set1\_22[5]	latin2[5]	3jjtes457iqluuhfmeiub8g6qd-aufnehmen\_set1\_22[5]	_	_	_	_	_	false[101]	Decl[101]	*[226]	*[226]	*[226]	*[226]	*[226]	input1[226]	46[346]	male[346]	3jjtes457iqluuhfmeiub8g6qd[346]	speaker: YOU[466]	_	_	_	_	_	
+16-3	347-349	so	_	GFailure[5]	aufnehmen\_set1\_22[5]	latin2[5]	3jjtes457iqluuhfmeiub8g6qd-aufnehmen\_set1\_22[5]	_	_	_	_	_	false[101]	Decl[101]	*[226]	*[226]	*[226]	*[226]	*[226]	input1[226]	46[346]	male[346]	3jjtes457iqluuhfmeiub8g6qd[346]	speaker: YOU[466]	_	_	_	_	_	
+16-4	350-353	ein	_	GFailure[5]	aufnehmen\_set1\_22[5]	latin2[5]	3jjtes457iqluuhfmeiub8g6qd-aufnehmen\_set1\_22[5]	*[36]	*[36]	Subj[36]	*[36]	*[36]	false[101]	Decl[101]	*[226]	*[226]	*[226]	*[226]	*[226]	input1[226]	46[346]	male[346]	3jjtes457iqluuhfmeiub8g6qd[346]	speaker: YOU[466]	_	_	_	_	_	
+16-5	354-366	alternatives	_	GFailure[5]	aufnehmen\_set1\_22[5]	latin2[5]	3jjtes457iqluuhfmeiub8g6qd-aufnehmen\_set1\_22[5]	*[36]	*[36]	Subj[36]	*[36]	*[36]	false[101]	Decl[101]	*[226]	*[226]	*[226]	*[226]	*[226]	input1[226]	46[346]	male[346]	3jjtes457iqluuhfmeiub8g6qd[346]	speaker: YOU[466]	_	_	_	_	_	
+16-6	367-372	Event	_	GFailure[5]	aufnehmen\_set1\_22[5]	latin2[5]	3jjtes457iqluuhfmeiub8g6qd-aufnehmen\_set1\_22[5]	*[36]	*[36]	Subj[36]	*[36]	*[36]	false[101]	Decl[101]	*[226]	*[226]	*[226]	*[226]	*[226]	input1[226]	46[346]	male[346]	3jjtes457iqluuhfmeiub8g6qd[346]	speaker: YOU[466]	_	_	_	_	_	
+16-7	373-376	mit	_	GFailure[5]	aufnehmen\_set1\_22[5]	latin2[5]	3jjtes457iqluuhfmeiub8g6qd-aufnehmen\_set1\_22[5]	*[36]|*[37]	*[36]|*[37]	Subj[36]|Embedded[37]	*[36]|*[37]	*[36]|*[37]	false[101]	Decl[101]	*[226]	*[226]	*[226]	*[226]	*[226]	input1[226]	46[346]	male[346]	3jjtes457iqluuhfmeiub8g6qd[346]	speaker: YOU[466]	_	_	_	_	_	
+16-8	377-382	Bands	_	GFailure[5]	aufnehmen\_set1\_22[5]	latin2[5]	3jjtes457iqluuhfmeiub8g6qd-aufnehmen\_set1\_22[5]	*[36]|*[37]	*[36]|*[37]	Subj[36]|Embedded[37]	*[36]|*[37]	*[36]|*[37]	false[101]	Decl[101]	*[226]	*[226]	*[226]	*[226]	*[226]	input1[226]	46[346]	male[346]	3jjtes457iqluuhfmeiub8g6qd[346]	speaker: YOU[466]	*->49-1	IndefNP[49]	_	_	_	
+16-9	383-386	die	_	GFailure[5]	aufnehmen\_set1\_22[5]	latin2[5]	3jjtes457iqluuhfmeiub8g6qd-aufnehmen\_set1\_22[5]	*[36]|*[37]	*[36]|*[37]	Subj[36]|Embedded[37]	*[36]|*[37]	*[36]|*[37]	false[101]	Decl[101]	*[226]	*[226]	*[226]	*[226]	*[226]	input1[226]	46[346]	male[346]	3jjtes457iqluuhfmeiub8g6qd[346]	speaker: YOU[466]	*->49-1	IndefNP[49]	_	_	_	
+16-10	387-390	ich	_	GFailure[5]	aufnehmen\_set1\_22[5]	latin2[5]	3jjtes457iqluuhfmeiub8g6qd-aufnehmen\_set1\_22[5]	*[36]|*[37]|1[38]	*[36]|*[37]|*[38]	Subj[36]|Embedded[37]|*[38]	*[36]|*[37]|*[38]	*[36]|*[37]|singular[38]	false[101]	Decl[101]	*[226]	*[226]	*[226]	*[226]	*[226]	input1[226]	46[346]	male[346]	3jjtes457iqluuhfmeiub8g6qd[346]	speaker: YOU[466]	*->49-1|*->32-1	IndefNP[49]|PerPron[32]	_	_	_	
+16-11	391-394	gar	_	GFailure[5]	aufnehmen\_set1\_22[5]	latin2[5]	3jjtes457iqluuhfmeiub8g6qd-aufnehmen\_set1\_22[5]	*[36]|*[37]	*[36]|*[37]	Subj[36]|Embedded[37]	*[36]|*[37]	*[36]|*[37]	false[101]	Decl[101]	*[226]	*[226]	*[226]	*[226]	*[226]	input1[226]	46[346]	male[346]	3jjtes457iqluuhfmeiub8g6qd[346]	speaker: YOU[466]	*->49-1	IndefNP[49]	_	_	_	
+16-12	395-400	nicht	_	GFailure[5]	aufnehmen\_set1\_22[5]	latin2[5]	3jjtes457iqluuhfmeiub8g6qd-aufnehmen\_set1\_22[5]	*[36]|*[37]	*[36]|*[37]	Subj[36]|Embedded[37]	*[36]|*[37]	*[36]|*[37]	false[101]	Decl[101]	*[226]	*[226]	*[226]	*[226]	*[226]	input1[226]	46[346]	male[346]	3jjtes457iqluuhfmeiub8g6qd[346]	speaker: YOU[466]	*->49-1	IndefNP[49]	_	_	_	
+16-13	401-408	kannte.	_	GFailure[5]	aufnehmen\_set1\_22[5]	latin2[5]	3jjtes457iqluuhfmeiub8g6qd-aufnehmen\_set1\_22[5]	*[36]|*[37]	*[36]|*[37]	Subj[36]|Embedded[37]	*[36]|*[37]	*[36]|*[37]	false[101]	Decl[101]	*[226]	*[226]	*[226]	*[226]	*[226]	input1[226]	46[346]	male[346]	3jjtes457iqluuhfmeiub8g6qd[346]	speaker: YOU[466]	*->49-1	IndefNP[49]	_	_	_	
+
+#Text=Er hats aufgenommen und ich hab mir ein wenig davon angehört <BR> ist aber nicht mein Fall gewesen.
+17-1	410-412	Er	_	GFailure[5]	aufnehmen\_set1\_22[5]	latin2[5]	3jjtes457iqluuhfmeiub8g6qd-aufnehmen\_set1\_22[5]	3	*	Subj	*	singular	false[102]	Decl[102]	*[227]	*[227]	*[227]	*[227]	*[227]	input2[227]	46[347]	male[347]	3jjtes457iqluuhfmeiub8g6qd[347]	speaker: YOU[467]	*->52-2	PerPron[52]	narration	*	17-4[103_102]	
+17-2	413-417	hats	_	GFailure[5]	aufnehmen\_set1\_22[5]	latin2[5]	3jjtes457iqluuhfmeiub8g6qd-aufnehmen\_set1\_22[5]	3	*	*	*	singular	false[102]	Decl[102]	*[227]	*[227]	*[227]	*[227]	*[227]	input2[227]	46[347]	male[347]	3jjtes457iqluuhfmeiub8g6qd[347]	speaker: YOU[467]	*->45-3	PerPron[45]	_	_	_	
+17-3	418-429	aufgenommen	_	GFailure[5]	aufnehmen\_set1\_22[5]	latin2[5]	3jjtes457iqluuhfmeiub8g6qd-aufnehmen\_set1\_22[5]	_	_	_	_	_	false[102]	Decl[102]	*[227]	*[227]	*[227]	*[227]	*[227]	input2[227]	46[347]	male[347]	3jjtes457iqluuhfmeiub8g6qd[347]	speaker: YOU[467]	_	_	_	_	_	
+17-4	430-433	und	_	GFailure[5]	aufnehmen\_set1\_22[5]	latin2[5]	3jjtes457iqluuhfmeiub8g6qd-aufnehmen\_set1\_22[5]	_	_	_	_	_	false[103]	Decl[103]	*[227]	*[227]	*[227]	*[227]	*[227]	input2[227]	46[347]	male[347]	3jjtes457iqluuhfmeiub8g6qd[347]	speaker: YOU[467]	_	_	elaboration	*	17-13[104_103]	
+17-5	434-437	ich	_	GFailure[5]	aufnehmen\_set1\_22[5]	latin2[5]	3jjtes457iqluuhfmeiub8g6qd-aufnehmen\_set1\_22[5]	1	*	Subj	*	singular	false[103]	Decl[103]	*[227]	*[227]	*[227]	*[227]	*[227]	input2[227]	46[347]	male[347]	3jjtes457iqluuhfmeiub8g6qd[347]	speaker: YOU[467]	*->32-2	PerPron[32]	_	_	_	
+17-6	438-441	hab	_	GFailure[5]	aufnehmen\_set1\_22[5]	latin2[5]	3jjtes457iqluuhfmeiub8g6qd-aufnehmen\_set1\_22[5]	_	_	_	_	_	false[103]	Decl[103]	*[227]	*[227]	*[227]	*[227]	*[227]	input2[227]	46[347]	male[347]	3jjtes457iqluuhfmeiub8g6qd[347]	speaker: YOU[467]	_	_	_	_	_	
+17-7	442-445	mir	_	GFailure[5]	aufnehmen\_set1\_22[5]	latin2[5]	3jjtes457iqluuhfmeiub8g6qd-aufnehmen\_set1\_22[5]	_	_	_	_	_	false[103]	Decl[103]	*[227]	*[227]	*[227]	*[227]	*[227]	input2[227]	46[347]	male[347]	3jjtes457iqluuhfmeiub8g6qd[347]	speaker: YOU[467]	_	_	_	_	_	
+17-8	446-449	ein	_	GFailure[5]	aufnehmen\_set1\_22[5]	latin2[5]	3jjtes457iqluuhfmeiub8g6qd-aufnehmen\_set1\_22[5]	_	_	_	_	_	false[103]	Decl[103]	*[227]	*[227]	*[227]	*[227]	*[227]	input2[227]	46[347]	male[347]	3jjtes457iqluuhfmeiub8g6qd[347]	speaker: YOU[467]	_	_	_	_	_	
+17-9	450-455	wenig	_	GFailure[5]	aufnehmen\_set1\_22[5]	latin2[5]	3jjtes457iqluuhfmeiub8g6qd-aufnehmen\_set1\_22[5]	_	_	_	_	_	false[103]	Decl[103]	*[227]	*[227]	*[227]	*[227]	*[227]	input2[227]	46[347]	male[347]	3jjtes457iqluuhfmeiub8g6qd[347]	speaker: YOU[467]	_	_	_	_	_	
+17-10	456-461	davon	_	GFailure[5]	aufnehmen\_set1\_22[5]	latin2[5]	3jjtes457iqluuhfmeiub8g6qd-aufnehmen\_set1\_22[5]	_	_	_	_	_	false[103]	Decl[103]	*[227]	*[227]	*[227]	*[227]	*[227]	input2[227]	46[347]	male[347]	3jjtes457iqluuhfmeiub8g6qd[347]	speaker: YOU[467]	*->45-4	DemPron[45]	_	_	_	
+17-11	462-470	angehört	_	GFailure[5]	aufnehmen\_set1\_22[5]	latin2[5]	3jjtes457iqluuhfmeiub8g6qd-aufnehmen\_set1\_22[5]	_	_	_	_	_	false[103]	Decl[103]	*[227]	*[227]	*[227]	*[227]	*[227]	input2[227]	46[347]	male[347]	3jjtes457iqluuhfmeiub8g6qd[347]	speaker: YOU[467]	_	_	_	_	_	
+17-12	471-475	<BR>	_	GFailure[5]	aufnehmen\_set1\_22[5]	latin2[5]	3jjtes457iqluuhfmeiub8g6qd-aufnehmen\_set1\_22[5]	_	_	_	_	_	_	_	*[227]	*[227]	*[227]	*[227]	*[227]	input2[227]	46[347]	male[347]	3jjtes457iqluuhfmeiub8g6qd[347]	speaker: YOU[467]	_	_	_	_	_	
+17-13	476-479	ist	_	GFailure[5]	aufnehmen\_set1\_22[5]	latin2[5]	3jjtes457iqluuhfmeiub8g6qd-aufnehmen\_set1\_22[5]	3	*	*	*	singular	false[104]	Decl[104]	*[227]	*[227]	*[227]	*[227]	*[227]	input2[227]	46[347]	male[347]	3jjtes457iqluuhfmeiub8g6qd[347]	speaker: YOU[467]	*->45-5	zero[45]	_	_	_	
+17-14	480-484	aber	_	GFailure[5]	aufnehmen\_set1\_22[5]	latin2[5]	3jjtes457iqluuhfmeiub8g6qd-aufnehmen\_set1\_22[5]	_	_	_	_	_	false[104]	Decl[104]	*[227]	*[227]	*[227]	*[227]	*[227]	input2[227]	46[347]	male[347]	3jjtes457iqluuhfmeiub8g6qd[347]	speaker: YOU[467]	_	_	_	_	_	
+17-15	485-490	nicht	_	GFailure[5]	aufnehmen\_set1\_22[5]	latin2[5]	3jjtes457iqluuhfmeiub8g6qd-aufnehmen\_set1\_22[5]	_	_	_	_	_	false[104]	Decl[104]	*[227]	*[227]	*[227]	*[227]	*[227]	input2[227]	46[347]	male[347]	3jjtes457iqluuhfmeiub8g6qd[347]	speaker: YOU[467]	_	_	_	_	_	
+17-16	491-495	mein	_	GFailure[5]	aufnehmen\_set1\_22[5]	latin2[5]	3jjtes457iqluuhfmeiub8g6qd-aufnehmen\_set1\_22[5]	1	*	*	*	singular	false[104]	Decl[104]	*[227]	*[227]	*[227]	*[227]	*[227]	input2[227]	46[347]	male[347]	3jjtes457iqluuhfmeiub8g6qd[347]	speaker: YOU[467]	_	_	_	_	_	
+17-17	496-500	Fall	_	GFailure[5]	aufnehmen\_set1\_22[5]	latin2[5]	3jjtes457iqluuhfmeiub8g6qd-aufnehmen\_set1\_22[5]	_	_	_	_	_	false[104]	Decl[104]	*[227]	*[227]	*[227]	*[227]	*[227]	input2[227]	46[347]	male[347]	3jjtes457iqluuhfmeiub8g6qd[347]	speaker: YOU[467]	_	_	_	_	_	
+17-18	501-509	gewesen.	_	GFailure[5]	aufnehmen\_set1\_22[5]	latin2[5]	3jjtes457iqluuhfmeiub8g6qd-aufnehmen\_set1\_22[5]	_	_	_	_	_	false[104]	Decl[104]	*[227]	*[227]	*[227]	*[227]	*[227]	input2[227]	46[347]	male[347]	3jjtes457iqluuhfmeiub8g6qd[347]	speaker: YOU[467]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+18-1	511-526	END_OF_DOCUMENT	_	GFailure[5]	aufnehmen\_set1\_22[5]	latin2[5]	3jjtes457iqluuhfmeiub8g6qd-aufnehmen\_set1\_22[5]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+19-1	528-534	Hallo,	_	GFailure[6]	aufnehmen\_set1\_22[6]	latin2[6]	65p8m4ujg4fi983365pclnac28-aufnehmen\_set1\_22[6]	_	_	_	_	_	false[105]	Int[105]	*[228]	*[228]	*[228]	wh\_2[228]	wh\_question[228]	openq[228]	*[348]	female[348]	*[348]	speaker:Fiona[468]	_	_	QAP	*	20-1[106_105]	
+19-2	535-538	wie	_	GFailure[6]	aufnehmen\_set1\_22[6]	latin2[6]	65p8m4ujg4fi983365pclnac28-aufnehmen\_set1\_22[6]	_	_	_	_	_	false[105]	Int[105]	*[228]	*[228]	*[228]	wh\_2[228]	wh\_question[228]	openq[228]	*[348]	female[348]	*[348]	speaker:Fiona[468]	_	_	_	_	_	
+19-3	539-546	geht's?	_	GFailure[6]	aufnehmen\_set1\_22[6]	latin2[6]	65p8m4ujg4fi983365pclnac28-aufnehmen\_set1\_22[6]	_	_	_	_	_	false[105]	Int[105]	*[228]	*[228]	*[228]	wh\_2[228]	wh\_question[228]	openq[228]	*[348]	female[348]	*[348]	speaker:Fiona[468]	_	_	_	_	_	
+
+#Text=Robin hat ein Konzert aufgenommen
+20-1	548-553	Robin	_	GFailure[6]	aufnehmen\_set1\_22[6]	latin2[6]	65p8m4ujg4fi983365pclnac28-aufnehmen\_set1\_22[6]	*	*	Subj	*	*	false[106]	Decl[106]	*[229]	aufnehmen[229]	transitive[229]	*[229]	*[229]	item0[229]	27[349]	female[349]	65p8m4ujg4fi983365pclnac28[349]	speaker: YOU[469]	*->47-1	PropNm[47]	explanation|result|CR	*|*|*	22-1[107_106]|23-1[108_106]|21-1[0_106]	
+20-2	554-557	hat	_	GFailure[6]	aufnehmen\_set1\_22[6]	latin2[6]	65p8m4ujg4fi983365pclnac28-aufnehmen\_set1\_22[6]	_	_	_	_	_	false[106]	Decl[106]	*[229]	aufnehmen[229]	transitive[229]	*[229]	*[229]	item0[229]	27[349]	female[349]	65p8m4ujg4fi983365pclnac28[349]	speaker: YOU[469]	_	_	_	_	_	
+20-3	558-561	ein	_	GFailure[6]	aufnehmen\_set1\_22[6]	latin2[6]	65p8m4ujg4fi983365pclnac28-aufnehmen\_set1\_22[6]	*[39]	*[39]	object[39]	*[39]	*[39]	false[106]	Decl[106]	*[229]	aufnehmen[229]	transitive[229]	*[229]	*[229]	item0[229]	27[349]	female[349]	65p8m4ujg4fi983365pclnac28[349]	speaker: YOU[469]	*->48-1	IndefNP[48]	_	_	_	
+20-4	562-569	Konzert	_	GFailure[6]	aufnehmen\_set1\_22[6]	latin2[6]	65p8m4ujg4fi983365pclnac28-aufnehmen\_set1\_22[6]	*[39]	*[39]	object[39]	*[39]	*[39]	false[106]	Decl[106]	*[229]	aufnehmen[229]	transitive[229]	*[229]	*[229]	item0[229]	27[349]	female[349]	65p8m4ujg4fi983365pclnac28[349]	speaker: YOU[469]	*->48-1	IndefNP[48]	_	_	_	
+20-5	570-581	aufgenommen	_	GFailure[6]	aufnehmen\_set1\_22[6]	latin2[6]	65p8m4ujg4fi983365pclnac28-aufnehmen\_set1\_22[6]	_	_	_	_	_	false[106]	Decl[106]	*[229]	aufnehmen[229]	transitive[229]	*[229]	*[229]	item0[229]	27[349]	female[349]	65p8m4ujg4fi983365pclnac28[349]	speaker: YOU[469]	_	_	_	_	_	
+
+#Text=Ähm?
+21-1	583-587	Ähm?	_	GFailure[6]	aufnehmen\_set1\_22[6]	latin2[6]	65p8m4ujg4fi983365pclnac28-aufnehmen\_set1\_22[6]	_	_	_	_	_	false	NA	aehm\_question\_5	*	*	*	*	feedback	*	female	*	speaker:Fiona	_	_	_	_	_	
+
+#Text=ja er wollte es unbedingt noch einmal hören
+22-1	589-591	ja	_	GFailure[6]	aufnehmen\_set1\_22[6]	latin2[6]	65p8m4ujg4fi983365pclnac28-aufnehmen\_set1\_22[6]	_	_	_	_	_	false[107]	Decl[107]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	27[350]	female[350]	65p8m4ujg4fi983365pclnac28[350]	speaker: YOU[470]	_	_	_	_	_	
+22-2	592-594	er	_	GFailure[6]	aufnehmen\_set1\_22[6]	latin2[6]	65p8m4ujg4fi983365pclnac28-aufnehmen\_set1\_22[6]	3	*	Subj	m	singular	false[107]	Decl[107]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	27[350]	female[350]	65p8m4ujg4fi983365pclnac28[350]	speaker: YOU[470]	*->47-2	PerPron[47]	_	_	_	
+22-3	595-601	wollte	_	GFailure[6]	aufnehmen\_set1\_22[6]	latin2[6]	65p8m4ujg4fi983365pclnac28-aufnehmen\_set1\_22[6]	_	_	_	_	_	false[107]	Decl[107]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	27[350]	female[350]	65p8m4ujg4fi983365pclnac28[350]	speaker: YOU[470]	_	_	_	_	_	
+22-4	602-604	es	_	GFailure[6]	aufnehmen\_set1\_22[6]	latin2[6]	65p8m4ujg4fi983365pclnac28-aufnehmen\_set1\_22[6]	3	*	DirObj	*	singular	false[107]	Decl[107]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	27[350]	female[350]	65p8m4ujg4fi983365pclnac28[350]	speaker: YOU[470]	*->48-2	PerPron[48]	_	_	_	
+22-5	605-614	unbedingt	_	GFailure[6]	aufnehmen\_set1\_22[6]	latin2[6]	65p8m4ujg4fi983365pclnac28-aufnehmen\_set1\_22[6]	_	_	_	_	_	false[107]	Decl[107]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	27[350]	female[350]	65p8m4ujg4fi983365pclnac28[350]	speaker: YOU[470]	_	_	_	_	_	
+22-6	615-619	noch	_	GFailure[6]	aufnehmen\_set1\_22[6]	latin2[6]	65p8m4ujg4fi983365pclnac28-aufnehmen\_set1\_22[6]	_	_	_	_	_	false[107]	Decl[107]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	27[350]	female[350]	65p8m4ujg4fi983365pclnac28[350]	speaker: YOU[470]	_	_	_	_	_	
+22-7	620-626	einmal	_	GFailure[6]	aufnehmen\_set1\_22[6]	latin2[6]	65p8m4ujg4fi983365pclnac28-aufnehmen\_set1\_22[6]	_	_	_	_	_	false[107]	Decl[107]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	27[350]	female[350]	65p8m4ujg4fi983365pclnac28[350]	speaker: YOU[470]	_	_	_	_	_	
+22-8	627-632	hören	_	GFailure[6]	aufnehmen\_set1\_22[6]	latin2[6]	65p8m4ujg4fi983365pclnac28-aufnehmen\_set1\_22[6]	_	_	_	_	_	false[107]	Decl[107]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	27[350]	female[350]	65p8m4ujg4fi983365pclnac28[350]	speaker: YOU[470]	_	_	_	_	_	
+
+#Text=jezt hat er es in video
+23-1	634-638	jezt	_	GFailure[6]	aufnehmen\_set1\_22[6]	latin2[6]	65p8m4ujg4fi983365pclnac28-aufnehmen\_set1\_22[6]	_	_	_	_	_	false[108]	Decl[108]	*[231]	*[231]	*[231]	*[231]	*[231]	input2[231]	27[351]	female[351]	65p8m4ujg4fi983365pclnac28[351]	speaker: YOU[471]	_	_	_	_	_	
+23-2	639-642	hat	_	GFailure[6]	aufnehmen\_set1\_22[6]	latin2[6]	65p8m4ujg4fi983365pclnac28-aufnehmen\_set1\_22[6]	_	_	_	_	_	false[108]	Decl[108]	*[231]	*[231]	*[231]	*[231]	*[231]	input2[231]	27[351]	female[351]	65p8m4ujg4fi983365pclnac28[351]	speaker: YOU[471]	_	_	_	_	_	
+23-3	643-645	er	_	GFailure[6]	aufnehmen\_set1\_22[6]	latin2[6]	65p8m4ujg4fi983365pclnac28-aufnehmen\_set1\_22[6]	3	*	Subj	m	singular	false[108]	Decl[108]	*[231]	*[231]	*[231]	*[231]	*[231]	input2[231]	27[351]	female[351]	65p8m4ujg4fi983365pclnac28[351]	speaker: YOU[471]	*->47-3	PerPron[47]	_	_	_	
+23-4	646-648	es	_	GFailure[6]	aufnehmen\_set1\_22[6]	latin2[6]	65p8m4ujg4fi983365pclnac28-aufnehmen\_set1\_22[6]	3	*	DirObj	*	singular	false[108]	Decl[108]	*[231]	*[231]	*[231]	*[231]	*[231]	input2[231]	27[351]	female[351]	65p8m4ujg4fi983365pclnac28[351]	speaker: YOU[471]	*->48-3	PerPron[48]	_	_	_	
+23-5	649-651	in	_	GFailure[6]	aufnehmen\_set1\_22[6]	latin2[6]	65p8m4ujg4fi983365pclnac28-aufnehmen\_set1\_22[6]	_	_	_	_	_	false[108]	Decl[108]	*[231]	*[231]	*[231]	*[231]	*[231]	input2[231]	27[351]	female[351]	65p8m4ujg4fi983365pclnac28[351]	speaker: YOU[471]	_	_	_	_	_	
+23-6	652-657	video	_	GFailure[6]	aufnehmen\_set1\_22[6]	latin2[6]	65p8m4ujg4fi983365pclnac28-aufnehmen\_set1\_22[6]	*	*	PrepObj	*	*	false[108]	Decl[108]	*[231]	*[231]	*[231]	*[231]	*[231]	input2[231]	27[351]	female[351]	65p8m4ujg4fi983365pclnac28[351]	speaker: YOU[471]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+24-1	659-674	END_OF_DOCUMENT	_	GFailure[6]	aufnehmen\_set1\_22[6]	latin2[6]	65p8m4ujg4fi983365pclnac28-aufnehmen\_set1\_22[6]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+25-1	676-682	Hallo,	_	GFailure[7]	aufnehmen\_set1\_22[7]	latin2[7]	ad2p95q44evasm6vmbol4cikit-aufnehmen\_set1\_22[7]	_	_	_	_	_	false[109]	Int[109]	*[232]	*[232]	*[232]	wh\_2[232]	wh\_question[232]	openq[232]	*[352]	female[352]	*[352]	speaker:Fiona[472]	_	_	QAP|QAP	*|*	29-1[112_109]|26-1[110_109]	
+25-2	683-686	wie	_	GFailure[7]	aufnehmen\_set1\_22[7]	latin2[7]	ad2p95q44evasm6vmbol4cikit-aufnehmen\_set1\_22[7]	_	_	_	_	_	false[109]	Int[109]	*[232]	*[232]	*[232]	wh\_2[232]	wh\_question[232]	openq[232]	*[352]	female[352]	*[352]	speaker:Fiona[472]	_	_	_	_	_	
+25-3	687-694	geht's?	_	GFailure[7]	aufnehmen\_set1\_22[7]	latin2[7]	ad2p95q44evasm6vmbol4cikit-aufnehmen\_set1\_22[7]	_	_	_	_	_	false[109]	Int[109]	*[232]	*[232]	*[232]	wh\_2[232]	wh\_question[232]	openq[232]	*[352]	female[352]	*[352]	speaker:Fiona[472]	_	_	_	_	_	
+
+#Text=Robin hat ein Konzert aufgenommen
+26-1	696-701	Robin	_	GFailure[7]	aufnehmen\_set1\_22[7]	latin2[7]	ad2p95q44evasm6vmbol4cikit-aufnehmen\_set1\_22[7]	*	*	Subj	*	*	false[110]	Decl[110]	*[233]	aufnehmen[233]	transitive[233]	*[233]	*[233]	item0[233]	22[353]	female[353]	ad2p95q44evasm6vmbol4cikit[353]	speaker: YOU[473]	*->84-1	PropNm[84]	result|CR	*|*	28-1[111_110]|27-1[0_110]	
+26-2	702-705	hat	_	GFailure[7]	aufnehmen\_set1\_22[7]	latin2[7]	ad2p95q44evasm6vmbol4cikit-aufnehmen\_set1\_22[7]	_	_	_	_	_	false[110]	Decl[110]	*[233]	aufnehmen[233]	transitive[233]	*[233]	*[233]	item0[233]	22[353]	female[353]	ad2p95q44evasm6vmbol4cikit[353]	speaker: YOU[473]	_	_	_	_	_	
+26-3	706-709	ein	_	GFailure[7]	aufnehmen\_set1\_22[7]	latin2[7]	ad2p95q44evasm6vmbol4cikit-aufnehmen\_set1\_22[7]	*[40]	*[40]	object[40]	*[40]	*[40]	false[110]	Decl[110]	*[233]	aufnehmen[233]	transitive[233]	*[233]	*[233]	item0[233]	22[353]	female[353]	ad2p95q44evasm6vmbol4cikit[353]	speaker: YOU[473]	*->86-1	IndefNP[86]	_	_	_	
+26-4	710-717	Konzert	_	GFailure[7]	aufnehmen\_set1\_22[7]	latin2[7]	ad2p95q44evasm6vmbol4cikit-aufnehmen\_set1\_22[7]	*[40]	*[40]	object[40]	*[40]	*[40]	false[110]	Decl[110]	*[233]	aufnehmen[233]	transitive[233]	*[233]	*[233]	item0[233]	22[353]	female[353]	ad2p95q44evasm6vmbol4cikit[353]	speaker: YOU[473]	*->86-1	IndefNP[86]	_	_	_	
+26-5	718-729	aufgenommen	_	GFailure[7]	aufnehmen\_set1\_22[7]	latin2[7]	ad2p95q44evasm6vmbol4cikit-aufnehmen\_set1\_22[7]	_	_	_	_	_	false[110]	Decl[110]	*[233]	aufnehmen[233]	transitive[233]	*[233]	*[233]	item0[233]	22[353]	female[353]	ad2p95q44evasm6vmbol4cikit[353]	speaker: YOU[473]	_	_	_	_	_	
+
+#Text=Ähm?
+27-1	731-735	Ähm?	_	GFailure[7]	aufnehmen\_set1\_22[7]	latin2[7]	ad2p95q44evasm6vmbol4cikit-aufnehmen\_set1\_22[7]	_	_	_	_	_	false	NA	aehm\_question\_5	*	*	*	*	feedback	*	female	*	speaker:Fiona	_	_	_	_	_	
+
+#Text=Wenn du willst kann ich dir die Aufnahmen zusenden
+28-1	737-741	Wenn	_	GFailure[7]	aufnehmen\_set1\_22[7]	latin2[7]	ad2p95q44evasm6vmbol4cikit-aufnehmen\_set1\_22[7]	_	_	_	_	_	false[111]	Decl[111]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	22[354]	female[354]	ad2p95q44evasm6vmbol4cikit[354]	speaker: YOU[474]	_	_	_	_	_	
+28-2	742-744	du	_	GFailure[7]	aufnehmen\_set1\_22[7]	latin2[7]	ad2p95q44evasm6vmbol4cikit-aufnehmen\_set1\_22[7]	2	*	Subj	*	singular	false[111]	Decl[111]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	22[354]	female[354]	ad2p95q44evasm6vmbol4cikit[354]	speaker: YOU[474]	*->11-1	PerPron[11]	_	_	_	
+28-3	745-751	willst	_	GFailure[7]	aufnehmen\_set1\_22[7]	latin2[7]	ad2p95q44evasm6vmbol4cikit-aufnehmen\_set1\_22[7]	_	_	_	_	_	false[111]	Decl[111]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	22[354]	female[354]	ad2p95q44evasm6vmbol4cikit[354]	speaker: YOU[474]	_	_	_	_	_	
+28-4	752-756	kann	_	GFailure[7]	aufnehmen\_set1\_22[7]	latin2[7]	ad2p95q44evasm6vmbol4cikit-aufnehmen\_set1\_22[7]	_	_	_	_	_	false[111]	Decl[111]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	22[354]	female[354]	ad2p95q44evasm6vmbol4cikit[354]	speaker: YOU[474]	_	_	_	_	_	
+28-5	757-760	ich	_	GFailure[7]	aufnehmen\_set1\_22[7]	latin2[7]	ad2p95q44evasm6vmbol4cikit-aufnehmen\_set1\_22[7]	1	*	Subj	*	singular	false[111]	Decl[111]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	22[354]	female[354]	ad2p95q44evasm6vmbol4cikit[354]	speaker: YOU[474]	*->114-1	PerPron[114]	_	_	_	
+28-6	761-764	dir	_	GFailure[7]	aufnehmen\_set1\_22[7]	latin2[7]	ad2p95q44evasm6vmbol4cikit-aufnehmen\_set1\_22[7]	2	*	IndirObj	*	singular	false[111]	Decl[111]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	22[354]	female[354]	ad2p95q44evasm6vmbol4cikit[354]	speaker: YOU[474]	*->11-2	PerPron[11]	_	_	_	
+28-7	765-768	die	_	GFailure[7]	aufnehmen\_set1\_22[7]	latin2[7]	ad2p95q44evasm6vmbol4cikit-aufnehmen\_set1\_22[7]	*[41]	*[41]	DirObj[41]	*[41]	*[41]	false[111]	Decl[111]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	22[354]	female[354]	ad2p95q44evasm6vmbol4cikit[354]	speaker: YOU[474]	*->2-1	DefNP[2]	_	_	_	
+28-8	769-778	Aufnahmen	_	GFailure[7]	aufnehmen\_set1\_22[7]	latin2[7]	ad2p95q44evasm6vmbol4cikit-aufnehmen\_set1\_22[7]	*[41]	*[41]	DirObj[41]	*[41]	*[41]	false[111]	Decl[111]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	22[354]	female[354]	ad2p95q44evasm6vmbol4cikit[354]	speaker: YOU[474]	*->2-1	DefNP[2]	_	_	_	
+28-9	779-787	zusenden	_	GFailure[7]	aufnehmen\_set1\_22[7]	latin2[7]	ad2p95q44evasm6vmbol4cikit-aufnehmen\_set1\_22[7]	_	_	_	_	_	false[111]	Decl[111]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	22[354]	female[354]	ad2p95q44evasm6vmbol4cikit[354]	speaker: YOU[474]	_	_	_	_	_	
+
+#Text=Mir geht es gut und dir?
+29-1	789-792	Mir	_	GFailure[7]	aufnehmen\_set1\_22[7]	latin2[7]	ad2p95q44evasm6vmbol4cikit-aufnehmen\_set1\_22[7]	1	*	*	*	singular	false[112]	Decl[112]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	22[355]	female[355]	ad2p95q44evasm6vmbol4cikit[355]	speaker: YOU[475]	*->114-2	PerPron[114]	parallel	*	29-5[113_112]	
+29-2	793-797	geht	_	GFailure[7]	aufnehmen\_set1\_22[7]	latin2[7]	ad2p95q44evasm6vmbol4cikit-aufnehmen\_set1\_22[7]	_	_	_	_	_	false[112]	Decl[112]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	22[355]	female[355]	ad2p95q44evasm6vmbol4cikit[355]	speaker: YOU[475]	_	_	_	_	_	
+29-3	798-800	es	_	GFailure[7]	aufnehmen\_set1\_22[7]	latin2[7]	ad2p95q44evasm6vmbol4cikit-aufnehmen\_set1\_22[7]	_	_	_	_	_	false[112]	Decl[112]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	22[355]	female[355]	ad2p95q44evasm6vmbol4cikit[355]	speaker: YOU[475]	_	_	_	_	_	
+29-4	801-804	gut	_	GFailure[7]	aufnehmen\_set1\_22[7]	latin2[7]	ad2p95q44evasm6vmbol4cikit-aufnehmen\_set1\_22[7]	_	_	_	_	_	false[112]	Decl[112]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	22[355]	female[355]	ad2p95q44evasm6vmbol4cikit[355]	speaker: YOU[475]	_	_	_	_	_	
+29-5	805-808	und	_	GFailure[7]	aufnehmen\_set1\_22[7]	latin2[7]	ad2p95q44evasm6vmbol4cikit-aufnehmen\_set1\_22[7]	_	_	_	_	_	false[113]	NA[113]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	22[355]	female[355]	ad2p95q44evasm6vmbol4cikit[355]	speaker: YOU[475]	_	_	_	_	_	
+29-6	809-813	dir?	_	GFailure[7]	aufnehmen\_set1\_22[7]	latin2[7]	ad2p95q44evasm6vmbol4cikit-aufnehmen\_set1\_22[7]	2	*	*	*	singular	false[113]	NA[113]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	22[355]	female[355]	ad2p95q44evasm6vmbol4cikit[355]	speaker: YOU[475]	*->11-3	PerPron[11]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+30-1	815-830	END_OF_DOCUMENT	_	GFailure[7]	aufnehmen\_set1\_22[7]	latin2[7]	ad2p95q44evasm6vmbol4cikit-aufnehmen\_set1\_22[7]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+31-1	832-838	Hallo,	_	GFailure[8]	aufnehmen\_set1\_22[8]	latin2[8]	aoum613lougtk5ql841j63bjo9-aufnehmen\_set1\_22[8]	_	_	_	_	_	false[114]	Int[114]	*[236]	*[236]	*[236]	wh\_2[236]	wh\_question[236]	openq[236]	*[356]	female[356]	*[356]	speaker:Fiona[476]	_	_	QAP	*	32-1[115_114]	
+31-2	839-842	wie	_	GFailure[8]	aufnehmen\_set1\_22[8]	latin2[8]	aoum613lougtk5ql841j63bjo9-aufnehmen\_set1\_22[8]	_	_	_	_	_	false[114]	Int[114]	*[236]	*[236]	*[236]	wh\_2[236]	wh\_question[236]	openq[236]	*[356]	female[356]	*[356]	speaker:Fiona[476]	_	_	_	_	_	
+31-3	843-850	geht's?	_	GFailure[8]	aufnehmen\_set1\_22[8]	latin2[8]	aoum613lougtk5ql841j63bjo9-aufnehmen\_set1\_22[8]	_	_	_	_	_	false[114]	Int[114]	*[236]	*[236]	*[236]	wh\_2[236]	wh\_question[236]	openq[236]	*[356]	female[356]	*[356]	speaker:Fiona[476]	_	_	_	_	_	
+
+#Text=Robin hat ein Konzert aufgenommen
+32-1	852-857	Robin	_	GFailure[8]	aufnehmen\_set1\_22[8]	latin2[8]	aoum613lougtk5ql841j63bjo9-aufnehmen\_set1\_22[8]	*	*	Subj	*	*	false[115]	Decl[115]	*[237]	aufnehmen[237]	transitive[237]	*[237]	*[237]	item0[237]	36[357]	female[357]	aoum613lougtk5ql841j63bjo9[357]	speaker: YOU[477]	*->17-1	PropNm[17]	elaboration|elaboration|CR	*|*|*	35-1[118_115]|34-4[117_115]|33-1[0_115]	
+32-2	858-861	hat	_	GFailure[8]	aufnehmen\_set1\_22[8]	latin2[8]	aoum613lougtk5ql841j63bjo9-aufnehmen\_set1\_22[8]	_	_	_	_	_	false[115]	Decl[115]	*[237]	aufnehmen[237]	transitive[237]	*[237]	*[237]	item0[237]	36[357]	female[357]	aoum613lougtk5ql841j63bjo9[357]	speaker: YOU[477]	_	_	_	_	_	
+32-3	862-865	ein	_	GFailure[8]	aufnehmen\_set1\_22[8]	latin2[8]	aoum613lougtk5ql841j63bjo9-aufnehmen\_set1\_22[8]	*[42]	*[42]	object[42]	*[42]	*[42]	false[115]	Decl[115]	*[237]	aufnehmen[237]	transitive[237]	*[237]	*[237]	item0[237]	36[357]	female[357]	aoum613lougtk5ql841j63bjo9[357]	speaker: YOU[477]	*->29-1	IndefNP[29]	_	_	_	
+32-4	866-873	Konzert	_	GFailure[8]	aufnehmen\_set1\_22[8]	latin2[8]	aoum613lougtk5ql841j63bjo9-aufnehmen\_set1\_22[8]	*[42]	*[42]	object[42]	*[42]	*[42]	false[115]	Decl[115]	*[237]	aufnehmen[237]	transitive[237]	*[237]	*[237]	item0[237]	36[357]	female[357]	aoum613lougtk5ql841j63bjo9[357]	speaker: YOU[477]	*->29-1	IndefNP[29]	_	_	_	
+32-5	874-885	aufgenommen	_	GFailure[8]	aufnehmen\_set1\_22[8]	latin2[8]	aoum613lougtk5ql841j63bjo9-aufnehmen\_set1\_22[8]	_	_	_	_	_	false[115]	Decl[115]	*[237]	aufnehmen[237]	transitive[237]	*[237]	*[237]	item0[237]	36[357]	female[357]	aoum613lougtk5ql841j63bjo9[357]	speaker: YOU[477]	_	_	_	_	_	
+
+#Text=Ähm?
+33-1	887-891	Ähm?	_	GFailure[8]	aufnehmen\_set1\_22[8]	latin2[8]	aoum613lougtk5ql841j63bjo9-aufnehmen\_set1\_22[8]	_	_	_	_	_	false	NA	aehm\_question\_5	*	*	*	*	feedback	*	female	*	speaker:Fiona	_	_	acknowledgement	*	34-1[116_0]	
+
+#Text=Ach so <BR> kennst du Robin überhaupt?
+34-1	893-896	Ach	_	GFailure[8]	aufnehmen\_set1\_22[8]	latin2[8]	aoum613lougtk5ql841j63bjo9-aufnehmen\_set1\_22[8]	_	_	_	_	_	false[116]	NA[116]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	36[358]	female[358]	aoum613lougtk5ql841j63bjo9[358]	speaker: YOU[478]	_	_	_	_	_	
+34-2	897-899	so	_	GFailure[8]	aufnehmen\_set1\_22[8]	latin2[8]	aoum613lougtk5ql841j63bjo9-aufnehmen\_set1\_22[8]	_	_	_	_	_	false[116]	NA[116]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	36[358]	female[358]	aoum613lougtk5ql841j63bjo9[358]	speaker: YOU[478]	_	_	_	_	_	
+34-3	900-904	<BR>	_	GFailure[8]	aufnehmen\_set1\_22[8]	latin2[8]	aoum613lougtk5ql841j63bjo9-aufnehmen\_set1\_22[8]	_	_	_	_	_	_	_	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	36[358]	female[358]	aoum613lougtk5ql841j63bjo9[358]	speaker: YOU[478]	_	_	_	_	_	
+34-4	905-911	kennst	_	GFailure[8]	aufnehmen\_set1\_22[8]	latin2[8]	aoum613lougtk5ql841j63bjo9-aufnehmen\_set1\_22[8]	_	_	_	_	_	false[117]	Int[117]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	36[358]	female[358]	aoum613lougtk5ql841j63bjo9[358]	speaker: YOU[478]	_	_	_	_	_	
+34-5	912-914	du	_	GFailure[8]	aufnehmen\_set1\_22[8]	latin2[8]	aoum613lougtk5ql841j63bjo9-aufnehmen\_set1\_22[8]	2	*	Subj	*	singular	false[117]	Int[117]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	36[358]	female[358]	aoum613lougtk5ql841j63bjo9[358]	speaker: YOU[478]	*->92-1	PerPron[92]	_	_	_	
+34-6	915-920	Robin	_	GFailure[8]	aufnehmen\_set1\_22[8]	latin2[8]	aoum613lougtk5ql841j63bjo9-aufnehmen\_set1\_22[8]	*	*	DirObj	*	*	false[117]	Int[117]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	36[358]	female[358]	aoum613lougtk5ql841j63bjo9[358]	speaker: YOU[478]	*->17-2	PropNm[17]	_	_	_	
+34-7	921-931	überhaupt?	_	GFailure[8]	aufnehmen\_set1\_22[8]	latin2[8]	aoum613lougtk5ql841j63bjo9-aufnehmen\_set1\_22[8]	_	_	_	_	_	false[117]	Int[117]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	36[358]	female[358]	aoum613lougtk5ql841j63bjo9[358]	speaker: YOU[478]	_	_	_	_	_	
+
+#Text=Er war auf Ninas Party letzten Monat.
+35-1	933-935	Er	_	GFailure[8]	aufnehmen\_set1\_22[8]	latin2[8]	aoum613lougtk5ql841j63bjo9-aufnehmen\_set1\_22[8]	3	*	Subj	m	singular	false[118]	Decl[118]	*[239]	*[239]	*[239]	*[239]	*[239]	input2[239]	36[359]	female[359]	aoum613lougtk5ql841j63bjo9[359]	speaker: YOU[479]	*->17-3	PerPron[17]	_	_	_	
+35-2	936-939	war	_	GFailure[8]	aufnehmen\_set1\_22[8]	latin2[8]	aoum613lougtk5ql841j63bjo9-aufnehmen\_set1\_22[8]	_	_	_	_	_	false[118]	Decl[118]	*[239]	*[239]	*[239]	*[239]	*[239]	input2[239]	36[359]	female[359]	aoum613lougtk5ql841j63bjo9[359]	speaker: YOU[479]	_	_	_	_	_	
+35-3	940-943	auf	_	GFailure[8]	aufnehmen\_set1\_22[8]	latin2[8]	aoum613lougtk5ql841j63bjo9-aufnehmen\_set1\_22[8]	_	_	_	_	_	false[118]	Decl[118]	*[239]	*[239]	*[239]	*[239]	*[239]	input2[239]	36[359]	female[359]	aoum613lougtk5ql841j63bjo9[359]	speaker: YOU[479]	_	_	_	_	_	
+35-4	944-949	Ninas	_	GFailure[8]	aufnehmen\_set1\_22[8]	latin2[8]	aoum613lougtk5ql841j63bjo9-aufnehmen\_set1\_22[8]	*[43]	*[43]	PrepObj[43]	*[43]	*[43]	false[118]	Decl[118]	*[239]	*[239]	*[239]	*[239]	*[239]	input2[239]	36[359]	female[359]	aoum613lougtk5ql841j63bjo9[359]	speaker: YOU[479]	*->55-1|*->6-1	DefNP[55]|PropNm[6]	_	_	_	
+35-5	950-955	Party	_	GFailure[8]	aufnehmen\_set1\_22[8]	latin2[8]	aoum613lougtk5ql841j63bjo9-aufnehmen\_set1\_22[8]	*[43]	*[43]	PrepObj[43]	*[43]	*[43]	false[118]	Decl[118]	*[239]	*[239]	*[239]	*[239]	*[239]	input2[239]	36[359]	female[359]	aoum613lougtk5ql841j63bjo9[359]	speaker: YOU[479]	*->55-1	DefNP[55]	_	_	_	
+35-6	956-963	letzten	_	GFailure[8]	aufnehmen\_set1\_22[8]	latin2[8]	aoum613lougtk5ql841j63bjo9-aufnehmen\_set1\_22[8]	_	_	_	_	_	false[118]	Decl[118]	*[239]	*[239]	*[239]	*[239]	*[239]	input2[239]	36[359]	female[359]	aoum613lougtk5ql841j63bjo9[359]	speaker: YOU[479]	*->26-1	DefNP[26]	_	_	_	
+35-7	964-970	Monat.	_	GFailure[8]	aufnehmen\_set1\_22[8]	latin2[8]	aoum613lougtk5ql841j63bjo9-aufnehmen\_set1\_22[8]	_	_	_	_	_	false[118]	Decl[118]	*[239]	*[239]	*[239]	*[239]	*[239]	input2[239]	36[359]	female[359]	aoum613lougtk5ql841j63bjo9[359]	speaker: YOU[479]	*->26-1	DefNP[26]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+36-1	972-987	END_OF_DOCUMENT	_	GFailure[8]	aufnehmen\_set1\_22[8]	latin2[8]	aoum613lougtk5ql841j63bjo9-aufnehmen\_set1\_22[8]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+37-1	989-995	Hallo,	_	GFailure[9]	aufnehmen\_set1\_22[9]	latin2[9]	c48fsj7kc4kiuorutkbb4be30b-aufnehmen\_set1\_22[9]	_	_	_	_	_	false[119]	Int[119]	*[240]	*[240]	*[240]	wh\_2[240]	wh\_question[240]	openq[240]	*[360]	female[360]	*[360]	speaker:Fiona[480]	_	_	QAP	*	38-1[120_119]	
+37-2	996-999	wie	_	GFailure[9]	aufnehmen\_set1\_22[9]	latin2[9]	c48fsj7kc4kiuorutkbb4be30b-aufnehmen\_set1\_22[9]	_	_	_	_	_	false[119]	Int[119]	*[240]	*[240]	*[240]	wh\_2[240]	wh\_question[240]	openq[240]	*[360]	female[360]	*[360]	speaker:Fiona[480]	_	_	_	_	_	
+37-3	1000-1007	geht's?	_	GFailure[9]	aufnehmen\_set1\_22[9]	latin2[9]	c48fsj7kc4kiuorutkbb4be30b-aufnehmen\_set1\_22[9]	_	_	_	_	_	false[119]	Int[119]	*[240]	*[240]	*[240]	wh\_2[240]	wh\_question[240]	openq[240]	*[360]	female[360]	*[360]	speaker:Fiona[480]	_	_	_	_	_	
+
+#Text=Robin hat ein Konzert aufgenommen
+38-1	1009-1014	Robin	_	GFailure[9]	aufnehmen\_set1\_22[9]	latin2[9]	c48fsj7kc4kiuorutkbb4be30b-aufnehmen\_set1\_22[9]	*	*	Subj	*	*	false[120]	Decl[120]	*[241]	aufnehmen[241]	transitive[241]	*[241]	*[241]	item0[241]	26[361]	male[361]	c48fsj7kc4kiuorutkbb4be30b[361]	speaker: YOU[481]	*->27-1	PropNm[27]	elaboration|explanation|CR	*|*|*	40-1[121_120]|41-1[122_120]|39-1[0_120]	
+38-2	1015-1018	hat	_	GFailure[9]	aufnehmen\_set1\_22[9]	latin2[9]	c48fsj7kc4kiuorutkbb4be30b-aufnehmen\_set1\_22[9]	_	_	_	_	_	false[120]	Decl[120]	*[241]	aufnehmen[241]	transitive[241]	*[241]	*[241]	item0[241]	26[361]	male[361]	c48fsj7kc4kiuorutkbb4be30b[361]	speaker: YOU[481]	_	_	_	_	_	
+38-3	1019-1022	ein	_	GFailure[9]	aufnehmen\_set1\_22[9]	latin2[9]	c48fsj7kc4kiuorutkbb4be30b-aufnehmen\_set1\_22[9]	*[44]	*[44]	object[44]	*[44]	*[44]	false[120]	Decl[120]	*[241]	aufnehmen[241]	transitive[241]	*[241]	*[241]	item0[241]	26[361]	male[361]	c48fsj7kc4kiuorutkbb4be30b[361]	speaker: YOU[481]	*->102-1	IndefNP[102]	_	_	_	
+38-4	1023-1030	Konzert	_	GFailure[9]	aufnehmen\_set1\_22[9]	latin2[9]	c48fsj7kc4kiuorutkbb4be30b-aufnehmen\_set1\_22[9]	*[44]	*[44]	object[44]	*[44]	*[44]	false[120]	Decl[120]	*[241]	aufnehmen[241]	transitive[241]	*[241]	*[241]	item0[241]	26[361]	male[361]	c48fsj7kc4kiuorutkbb4be30b[361]	speaker: YOU[481]	*->102-1	IndefNP[102]	_	_	_	
+38-5	1031-1042	aufgenommen	_	GFailure[9]	aufnehmen\_set1\_22[9]	latin2[9]	c48fsj7kc4kiuorutkbb4be30b-aufnehmen\_set1\_22[9]	_	_	_	_	_	false[120]	Decl[120]	*[241]	aufnehmen[241]	transitive[241]	*[241]	*[241]	item0[241]	26[361]	male[361]	c48fsj7kc4kiuorutkbb4be30b[361]	speaker: YOU[481]	_	_	_	_	_	
+
+#Text=Ähm?
+39-1	1044-1048	Ähm?	_	GFailure[9]	aufnehmen\_set1\_22[9]	latin2[9]	c48fsj7kc4kiuorutkbb4be30b-aufnehmen\_set1\_22[9]	_	_	_	_	_	false	NA	aehm\_question\_5	*	*	*	*	feedback	*	female	*	speaker:Fiona	_	_	_	_	_	
+
+#Text=Achso du wusstest davon gar nichts?
+40-1	1050-1055	Achso	_	GFailure[9]	aufnehmen\_set1\_22[9]	latin2[9]	c48fsj7kc4kiuorutkbb4be30b-aufnehmen\_set1\_22[9]	_	_	_	_	_	false[121]	Int[121]	*[242]	*[242]	*[242]	*[242]	*[242]	input1[242]	26[362]	male[362]	c48fsj7kc4kiuorutkbb4be30b[362]	speaker: YOU[482]	_	_	_	_	_	
+40-2	1056-1058	du	_	GFailure[9]	aufnehmen\_set1\_22[9]	latin2[9]	c48fsj7kc4kiuorutkbb4be30b-aufnehmen\_set1\_22[9]	2	*	Subj	*	singular	false[121]	Int[121]	*[242]	*[242]	*[242]	*[242]	*[242]	input1[242]	26[362]	male[362]	c48fsj7kc4kiuorutkbb4be30b[362]	speaker: YOU[482]	*->60-1	PerPron[60]	_	_	_	
+40-3	1059-1067	wusstest	_	GFailure[9]	aufnehmen\_set1\_22[9]	latin2[9]	c48fsj7kc4kiuorutkbb4be30b-aufnehmen\_set1\_22[9]	_	_	_	_	_	false[121]	Int[121]	*[242]	*[242]	*[242]	*[242]	*[242]	input1[242]	26[362]	male[362]	c48fsj7kc4kiuorutkbb4be30b[362]	speaker: YOU[482]	_	_	_	_	_	
+40-4	1068-1073	davon	_	GFailure[9]	aufnehmen\_set1\_22[9]	latin2[9]	c48fsj7kc4kiuorutkbb4be30b-aufnehmen\_set1\_22[9]	_	_	_	_	_	false[121]	Int[121]	*[242]	*[242]	*[242]	*[242]	*[242]	input1[242]	26[362]	male[362]	c48fsj7kc4kiuorutkbb4be30b[362]	speaker: YOU[482]	*->102-2	D-Pron[102]	_	_	_	
+40-5	1074-1077	gar	_	GFailure[9]	aufnehmen\_set1\_22[9]	latin2[9]	c48fsj7kc4kiuorutkbb4be30b-aufnehmen\_set1\_22[9]	_	_	_	_	_	false[121]	Int[121]	*[242]	*[242]	*[242]	*[242]	*[242]	input1[242]	26[362]	male[362]	c48fsj7kc4kiuorutkbb4be30b[362]	speaker: YOU[482]	_	_	_	_	_	
+40-6	1078-1085	nichts?	_	GFailure[9]	aufnehmen\_set1\_22[9]	latin2[9]	c48fsj7kc4kiuorutkbb4be30b-aufnehmen\_set1\_22[9]	_	_	_	_	_	false[121]	Int[121]	*[242]	*[242]	*[242]	*[242]	*[242]	input1[242]	26[362]	male[362]	c48fsj7kc4kiuorutkbb4be30b[362]	speaker: YOU[482]	_	_	_	_	_	
+
+#Text=Er hatte Tickets für Sabaton am Mittwoch.
+41-1	1087-1089	Er	_	GFailure[9]	aufnehmen\_set1\_22[9]	latin2[9]	c48fsj7kc4kiuorutkbb4be30b-aufnehmen\_set1\_22[9]	3	*	Subj	*	singular	false[122]	Decl[122]	*[243]	*[243]	*[243]	*[243]	*[243]	input2[243]	26[363]	male[363]	c48fsj7kc4kiuorutkbb4be30b[363]	speaker: YOU[483]	*->27-2	PerPron[27]	_	_	_	
+41-2	1090-1095	hatte	_	GFailure[9]	aufnehmen\_set1\_22[9]	latin2[9]	c48fsj7kc4kiuorutkbb4be30b-aufnehmen\_set1\_22[9]	_	_	_	_	_	false[122]	Decl[122]	*[243]	*[243]	*[243]	*[243]	*[243]	input2[243]	26[363]	male[363]	c48fsj7kc4kiuorutkbb4be30b[363]	speaker: YOU[483]	_	_	_	_	_	
+41-3	1096-1103	Tickets	_	GFailure[9]	aufnehmen\_set1\_22[9]	latin2[9]	c48fsj7kc4kiuorutkbb4be30b-aufnehmen\_set1\_22[9]	_	_	_	_	_	false[122]	Decl[122]	*[243]	*[243]	*[243]	*[243]	*[243]	input2[243]	26[363]	male[363]	c48fsj7kc4kiuorutkbb4be30b[363]	speaker: YOU[483]	*->77-1	IndefNP[77]	_	_	_	
+41-4	1104-1107	für	_	GFailure[9]	aufnehmen\_set1\_22[9]	latin2[9]	c48fsj7kc4kiuorutkbb4be30b-aufnehmen\_set1\_22[9]	_	_	_	_	_	false[122]	Decl[122]	*[243]	*[243]	*[243]	*[243]	*[243]	input2[243]	26[363]	male[363]	c48fsj7kc4kiuorutkbb4be30b[363]	speaker: YOU[483]	_	_	_	_	_	
+41-5	1108-1115	Sabaton	_	GFailure[9]	aufnehmen\_set1\_22[9]	latin2[9]	c48fsj7kc4kiuorutkbb4be30b-aufnehmen\_set1\_22[9]	*[45]	*[45]	DirObj[45]	*[45]	*[45]	false[122]	Decl[122]	*[243]	*[243]	*[243]	*[243]	*[243]	input2[243]	26[363]	male[363]	c48fsj7kc4kiuorutkbb4be30b[363]	speaker: YOU[483]	*->37-1	PropNm[37]	_	_	_	
+41-6	1116-1118	am	_	GFailure[9]	aufnehmen\_set1\_22[9]	latin2[9]	c48fsj7kc4kiuorutkbb4be30b-aufnehmen\_set1\_22[9]	*[45]	*[45]	DirObj[45]	*[45]	*[45]	false[122]	Decl[122]	*[243]	*[243]	*[243]	*[243]	*[243]	input2[243]	26[363]	male[363]	c48fsj7kc4kiuorutkbb4be30b[363]	speaker: YOU[483]	*->9-1	DefNP[9]	_	_	_	
+41-7	1119-1128	Mittwoch.	_	GFailure[9]	aufnehmen\_set1\_22[9]	latin2[9]	c48fsj7kc4kiuorutkbb4be30b-aufnehmen\_set1\_22[9]	*[45]	*[45]	DirObj[45]	*[45]	*[45]	false[122]	Decl[122]	*[243]	*[243]	*[243]	*[243]	*[243]	input2[243]	26[363]	male[363]	c48fsj7kc4kiuorutkbb4be30b[363]	speaker: YOU[483]	*->9-1	DefNP[9]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+42-1	1130-1145	END_OF_DOCUMENT	_	GFailure[9]	aufnehmen\_set1\_22[9]	latin2[9]	c48fsj7kc4kiuorutkbb4be30b-aufnehmen\_set1\_22[9]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+43-1	1147-1153	Hallo,	_	GFailure[10]	aufnehmen\_set1\_22[10]	latin2[10]	k0vnav0sqhr0fo3b0jpuaak9s4-aufnehmen\_set1\_22[10]	_	_	_	_	_	false[123]	Int[123]	*[244]	*[244]	*[244]	wh\_2[244]	wh\_question[244]	openq[244]	*[364]	female[364]	*[364]	speaker:Fiona[484]	_	_	QAP	*	44-1[124_123]	
+43-2	1154-1157	wie	_	GFailure[10]	aufnehmen\_set1\_22[10]	latin2[10]	k0vnav0sqhr0fo3b0jpuaak9s4-aufnehmen\_set1\_22[10]	_	_	_	_	_	false[123]	Int[123]	*[244]	*[244]	*[244]	wh\_2[244]	wh\_question[244]	openq[244]	*[364]	female[364]	*[364]	speaker:Fiona[484]	_	_	_	_	_	
+43-3	1158-1165	geht's?	_	GFailure[10]	aufnehmen\_set1\_22[10]	latin2[10]	k0vnav0sqhr0fo3b0jpuaak9s4-aufnehmen\_set1\_22[10]	_	_	_	_	_	false[123]	Int[123]	*[244]	*[244]	*[244]	wh\_2[244]	wh\_question[244]	openq[244]	*[364]	female[364]	*[364]	speaker:Fiona[484]	_	_	_	_	_	
+
+#Text=Robin hat ein Konzert aufgenommen
+44-1	1167-1172	Robin	_	GFailure[10]	aufnehmen\_set1\_22[10]	latin2[10]	k0vnav0sqhr0fo3b0jpuaak9s4-aufnehmen\_set1\_22[10]	*	*	Subj	*	*	false[124]	Decl[124]	*[245]	aufnehmen[245]	transitive[245]	*[245]	*[245]	item0[245]	57[365]	female[365]	k0vnav0sqhr0fo3b0jpuaak9s4[365]	speaker: YOU[485]	*->93-1	PropNm[93]	elaboration|elaboration|CR	*|*|*	46-1[0_124]|47-1[126_124]|45-1[0_124]	
+44-2	1173-1176	hat	_	GFailure[10]	aufnehmen\_set1\_22[10]	latin2[10]	k0vnav0sqhr0fo3b0jpuaak9s4-aufnehmen\_set1\_22[10]	_	_	_	_	_	false[124]	Decl[124]	*[245]	aufnehmen[245]	transitive[245]	*[245]	*[245]	item0[245]	57[365]	female[365]	k0vnav0sqhr0fo3b0jpuaak9s4[365]	speaker: YOU[485]	_	_	_	_	_	
+44-3	1177-1180	ein	_	GFailure[10]	aufnehmen\_set1\_22[10]	latin2[10]	k0vnav0sqhr0fo3b0jpuaak9s4-aufnehmen\_set1\_22[10]	*[46]	*[46]	object[46]	*[46]	*[46]	false[124]	Decl[124]	*[245]	aufnehmen[245]	transitive[245]	*[245]	*[245]	item0[245]	57[365]	female[365]	k0vnav0sqhr0fo3b0jpuaak9s4[365]	speaker: YOU[485]	*->83-1	IndefNP[83]	_	_	_	
+44-4	1181-1188	Konzert	_	GFailure[10]	aufnehmen\_set1\_22[10]	latin2[10]	k0vnav0sqhr0fo3b0jpuaak9s4-aufnehmen\_set1\_22[10]	*[46]	*[46]	object[46]	*[46]	*[46]	false[124]	Decl[124]	*[245]	aufnehmen[245]	transitive[245]	*[245]	*[245]	item0[245]	57[365]	female[365]	k0vnav0sqhr0fo3b0jpuaak9s4[365]	speaker: YOU[485]	*->83-1	IndefNP[83]	_	_	_	
+44-5	1189-1200	aufgenommen	_	GFailure[10]	aufnehmen\_set1\_22[10]	latin2[10]	k0vnav0sqhr0fo3b0jpuaak9s4-aufnehmen\_set1\_22[10]	_	_	_	_	_	false[124]	Decl[124]	*[245]	aufnehmen[245]	transitive[245]	*[245]	*[245]	item0[245]	57[365]	female[365]	k0vnav0sqhr0fo3b0jpuaak9s4[365]	speaker: YOU[485]	_	_	_	_	_	
+
+#Text=Ähm?
+45-1	1202-1206	Ähm?	_	GFailure[10]	aufnehmen\_set1\_22[10]	latin2[10]	k0vnav0sqhr0fo3b0jpuaak9s4-aufnehmen\_set1\_22[10]	_	_	_	_	_	false	NA	aehm\_question\_5	*	*	*	*	feedback	*	female	*	speaker:Fiona	_	_	_	_	_	
+
+#Text=Ja <BR> er ist einer von denen die die ganze Zeit ihr Handy hochhalten.
+46-1	1208-1210	Ja	_	GFailure[10]	aufnehmen\_set1\_22[10]	latin2[10]	k0vnav0sqhr0fo3b0jpuaak9s4-aufnehmen\_set1\_22[10]	_	_	_	_	_	false	NA	*[246]	*[246]	*[246]	*[246]	*[246]	input1[246]	57[366]	female[366]	k0vnav0sqhr0fo3b0jpuaak9s4[366]	speaker: YOU[486]	_	_	explanation	*	46-3[125_0]	
+46-2	1211-1215	<BR>	_	GFailure[10]	aufnehmen\_set1\_22[10]	latin2[10]	k0vnav0sqhr0fo3b0jpuaak9s4-aufnehmen\_set1\_22[10]	_	_	_	_	_	_	_	*[246]	*[246]	*[246]	*[246]	*[246]	input1[246]	57[366]	female[366]	k0vnav0sqhr0fo3b0jpuaak9s4[366]	speaker: YOU[486]	_	_	_	_	_	
+46-3	1216-1218	er	_	GFailure[10]	aufnehmen\_set1\_22[10]	latin2[10]	k0vnav0sqhr0fo3b0jpuaak9s4-aufnehmen\_set1\_22[10]	3	*	Subj	*	singular	false[125]	Decl[125]	*[246]	*[246]	*[246]	*[246]	*[246]	input1[246]	57[366]	female[366]	k0vnav0sqhr0fo3b0jpuaak9s4[366]	speaker: YOU[486]	*->93-2	PerPron[93]	_	_	_	
+46-4	1219-1222	ist	_	GFailure[10]	aufnehmen\_set1\_22[10]	latin2[10]	k0vnav0sqhr0fo3b0jpuaak9s4-aufnehmen\_set1\_22[10]	_	_	_	_	_	false[125]	Decl[125]	*[246]	*[246]	*[246]	*[246]	*[246]	input1[246]	57[366]	female[366]	k0vnav0sqhr0fo3b0jpuaak9s4[366]	speaker: YOU[486]	_	_	_	_	_	
+46-5	1223-1228	einer	_	GFailure[10]	aufnehmen\_set1\_22[10]	latin2[10]	k0vnav0sqhr0fo3b0jpuaak9s4-aufnehmen\_set1\_22[10]	*[47]	*[47]	Subj[47]	*[47]	*[47]	false[125]	Decl[125]	*[246]	*[246]	*[246]	*[246]	*[246]	input1[246]	57[366]	female[366]	k0vnav0sqhr0fo3b0jpuaak9s4[366]	speaker: YOU[486]	_	_	_	_	_	
+46-6	1229-1232	von	_	GFailure[10]	aufnehmen\_set1\_22[10]	latin2[10]	k0vnav0sqhr0fo3b0jpuaak9s4-aufnehmen\_set1\_22[10]	*[47]	*[47]	Subj[47]	*[47]	*[47]	false[125]	Decl[125]	*[246]	*[246]	*[246]	*[246]	*[246]	input1[246]	57[366]	female[366]	k0vnav0sqhr0fo3b0jpuaak9s4[366]	speaker: YOU[486]	_	_	_	_	_	
+46-7	1233-1238	denen	_	GFailure[10]	aufnehmen\_set1\_22[10]	latin2[10]	k0vnav0sqhr0fo3b0jpuaak9s4-aufnehmen\_set1\_22[10]	*[47]	*[47]	Subj[47]	*[47]	*[47]	false[125]	Decl[125]	*[246]	*[246]	*[246]	*[246]	*[246]	input1[246]	57[366]	female[366]	k0vnav0sqhr0fo3b0jpuaak9s4[366]	speaker: YOU[486]	*->112-1	DefNP[112]	_	_	_	
+46-8	1239-1242	die	_	GFailure[10]	aufnehmen\_set1\_22[10]	latin2[10]	k0vnav0sqhr0fo3b0jpuaak9s4-aufnehmen\_set1\_22[10]	*[47]	*[47]	Subj[47]	*[47]	*[47]	false[125]	Decl[125]	*[246]	*[246]	*[246]	*[246]	*[246]	input1[246]	57[366]	female[366]	k0vnav0sqhr0fo3b0jpuaak9s4[366]	speaker: YOU[486]	*->112-1	DefNP[112]	_	_	_	
+46-9	1243-1246	die	_	GFailure[10]	aufnehmen\_set1\_22[10]	latin2[10]	k0vnav0sqhr0fo3b0jpuaak9s4-aufnehmen\_set1\_22[10]	*[47]	*[47]	Subj[47]	*[47]	*[47]	false[125]	Decl[125]	*[246]	*[246]	*[246]	*[246]	*[246]	input1[246]	57[366]	female[366]	k0vnav0sqhr0fo3b0jpuaak9s4[366]	speaker: YOU[486]	*->112-1	DefNP[112]	_	_	_	
+46-10	1247-1252	ganze	_	GFailure[10]	aufnehmen\_set1\_22[10]	latin2[10]	k0vnav0sqhr0fo3b0jpuaak9s4-aufnehmen\_set1\_22[10]	*[47]	*[47]	Subj[47]	*[47]	*[47]	false[125]	Decl[125]	*[246]	*[246]	*[246]	*[246]	*[246]	input1[246]	57[366]	female[366]	k0vnav0sqhr0fo3b0jpuaak9s4[366]	speaker: YOU[486]	*->112-1	DefNP[112]	_	_	_	
+46-11	1253-1257	Zeit	_	GFailure[10]	aufnehmen\_set1\_22[10]	latin2[10]	k0vnav0sqhr0fo3b0jpuaak9s4-aufnehmen\_set1\_22[10]	*[47]	*[47]	Subj[47]	*[47]	*[47]	false[125]	Decl[125]	*[246]	*[246]	*[246]	*[246]	*[246]	input1[246]	57[366]	female[366]	k0vnav0sqhr0fo3b0jpuaak9s4[366]	speaker: YOU[486]	*->112-1	DefNP[112]	_	_	_	
+46-12	1258-1261	ihr	_	GFailure[10]	aufnehmen\_set1\_22[10]	latin2[10]	k0vnav0sqhr0fo3b0jpuaak9s4-aufnehmen\_set1\_22[10]	*[47]|3[48]	*[47]|*[48]	Subj[47]|*[48]	*[47]|*[48]	*[47]|plural[48]	false[125]	Decl[125]	*[246]	*[246]	*[246]	*[246]	*[246]	input1[246]	57[366]	female[366]	k0vnav0sqhr0fo3b0jpuaak9s4[366]	speaker: YOU[486]	*->112-1	DefNP[112]	_	_	_	
+46-13	1262-1267	Handy	_	GFailure[10]	aufnehmen\_set1\_22[10]	latin2[10]	k0vnav0sqhr0fo3b0jpuaak9s4-aufnehmen\_set1\_22[10]	*[47]	*[47]	Subj[47]	*[47]	*[47]	false[125]	Decl[125]	*[246]	*[246]	*[246]	*[246]	*[246]	input1[246]	57[366]	female[366]	k0vnav0sqhr0fo3b0jpuaak9s4[366]	speaker: YOU[486]	*->112-1	DefNP[112]	_	_	_	
+46-14	1268-1279	hochhalten.	_	GFailure[10]	aufnehmen\_set1\_22[10]	latin2[10]	k0vnav0sqhr0fo3b0jpuaak9s4-aufnehmen\_set1\_22[10]	*[47]	*[47]	Subj[47]	*[47]	*[47]	false[125]	Decl[125]	*[246]	*[246]	*[246]	*[246]	*[246]	input1[246]	57[366]	female[366]	k0vnav0sqhr0fo3b0jpuaak9s4[366]	speaker: YOU[486]	*->112-1	DefNP[112]	_	_	_	
+
+#Text=Schreckliche Aufnahmen.
+47-1	1281-1293	Schreckliche	_	GFailure[10]	aufnehmen\_set1\_22[10]	latin2[10]	k0vnav0sqhr0fo3b0jpuaak9s4-aufnehmen\_set1\_22[10]	_	_	_	_	_	false[126]	NA[126]	*[247]	*[247]	*[247]	*[247]	*[247]	input2[247]	57[367]	female[367]	k0vnav0sqhr0fo3b0jpuaak9s4[367]	speaker: YOU[487]	*->111-1	IndefNP[111]	_	_	_	
+47-2	1294-1304	Aufnahmen.	_	GFailure[10]	aufnehmen\_set1\_22[10]	latin2[10]	k0vnav0sqhr0fo3b0jpuaak9s4-aufnehmen\_set1\_22[10]	_	_	_	_	_	false[126]	NA[126]	*[247]	*[247]	*[247]	*[247]	*[247]	input2[247]	57[367]	female[367]	k0vnav0sqhr0fo3b0jpuaak9s4[367]	speaker: YOU[487]	*->111-1	IndefNP[111]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+48-1	1306-1321	END_OF_DOCUMENT	_	GFailure[10]	aufnehmen\_set1\_22[10]	latin2[10]	k0vnav0sqhr0fo3b0jpuaak9s4-aufnehmen\_set1\_22[10]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+49-1	1323-1329	Hallo,	_	GFailure[11]	aufnehmen\_set1\_22[11]	latin2[11]	qjdpg51abd5auurj3bduisfb43-aufnehmen\_set1\_22[11]	_	_	_	_	_	false[127]	Int[127]	*[248]	*[248]	*[248]	wh\_2[248]	wh\_question[248]	openq[248]	*[368]	female[368]	*[368]	speaker:Fiona[488]	_	_	QAP	*	50-1[128_127]	
+49-2	1330-1333	wie	_	GFailure[11]	aufnehmen\_set1\_22[11]	latin2[11]	qjdpg51abd5auurj3bduisfb43-aufnehmen\_set1\_22[11]	_	_	_	_	_	false[127]	Int[127]	*[248]	*[248]	*[248]	wh\_2[248]	wh\_question[248]	openq[248]	*[368]	female[368]	*[368]	speaker:Fiona[488]	_	_	_	_	_	
+49-3	1334-1341	geht's?	_	GFailure[11]	aufnehmen\_set1\_22[11]	latin2[11]	qjdpg51abd5auurj3bduisfb43-aufnehmen\_set1\_22[11]	_	_	_	_	_	false[127]	Int[127]	*[248]	*[248]	*[248]	wh\_2[248]	wh\_question[248]	openq[248]	*[368]	female[368]	*[368]	speaker:Fiona[488]	_	_	_	_	_	
+
+#Text=Robin hat ein Konzert aufgenommen
+50-1	1343-1348	Robin	_	GFailure[11]	aufnehmen\_set1\_22[11]	latin2[11]	qjdpg51abd5auurj3bduisfb43-aufnehmen\_set1\_22[11]	*	*	Subj	*	*	false[128]	Decl[128]	*[249]	aufnehmen[249]	transitive[249]	*[249]	*[249]	item0[249]	26[369]	female[369]	qjdpg51abd5auurj3bduisfb43[369]	speaker: YOU[489]	*->98-1	PropNm[98]	elaboration|elaboration|CR	*|*|*	52-1[129_128]|53-1[130_128]|51-1[0_128]	
+50-2	1349-1352	hat	_	GFailure[11]	aufnehmen\_set1\_22[11]	latin2[11]	qjdpg51abd5auurj3bduisfb43-aufnehmen\_set1\_22[11]	_	_	_	_	_	false[128]	Decl[128]	*[249]	aufnehmen[249]	transitive[249]	*[249]	*[249]	item0[249]	26[369]	female[369]	qjdpg51abd5auurj3bduisfb43[369]	speaker: YOU[489]	_	_	_	_	_	
+50-3	1353-1356	ein	_	GFailure[11]	aufnehmen\_set1\_22[11]	latin2[11]	qjdpg51abd5auurj3bduisfb43-aufnehmen\_set1\_22[11]	*[49]	*[49]	object[49]	*[49]	*[49]	false[128]	Decl[128]	*[249]	aufnehmen[249]	transitive[249]	*[249]	*[249]	item0[249]	26[369]	female[369]	qjdpg51abd5auurj3bduisfb43[369]	speaker: YOU[489]	*->8-1	IndefNP[8]	_	_	_	
+50-4	1357-1364	Konzert	_	GFailure[11]	aufnehmen\_set1\_22[11]	latin2[11]	qjdpg51abd5auurj3bduisfb43-aufnehmen\_set1\_22[11]	*[49]	*[49]	object[49]	*[49]	*[49]	false[128]	Decl[128]	*[249]	aufnehmen[249]	transitive[249]	*[249]	*[249]	item0[249]	26[369]	female[369]	qjdpg51abd5auurj3bduisfb43[369]	speaker: YOU[489]	*->8-1	IndefNP[8]	_	_	_	
+50-5	1365-1376	aufgenommen	_	GFailure[11]	aufnehmen\_set1\_22[11]	latin2[11]	qjdpg51abd5auurj3bduisfb43-aufnehmen\_set1\_22[11]	_	_	_	_	_	false[128]	Decl[128]	*[249]	aufnehmen[249]	transitive[249]	*[249]	*[249]	item0[249]	26[369]	female[369]	qjdpg51abd5auurj3bduisfb43[369]	speaker: YOU[489]	_	_	_	_	_	
+
+#Text=Ähm?
+51-1	1378-1382	Ähm?	_	GFailure[11]	aufnehmen\_set1\_22[11]	latin2[11]	qjdpg51abd5auurj3bduisfb43-aufnehmen\_set1\_22[11]	_	_	_	_	_	false	NA	aehm\_question\_5	*	*	*	*	feedback	*	female	*	speaker:Fiona	_	_	_	_	_	
+
+#Text=Von Britney Spears.
+52-1	1384-1387	Von	_	GFailure[11]	aufnehmen\_set1\_22[11]	latin2[11]	qjdpg51abd5auurj3bduisfb43-aufnehmen\_set1\_22[11]	_	_	_	_	_	false[129]	NA[129]	*[250]	*[250]	*[250]	*[250]	*[250]	input1[250]	26[370]	female[370]	qjdpg51abd5auurj3bduisfb43[370]	speaker: YOU[490]	_	_	_	_	_	
+52-2	1388-1395	Britney	_	GFailure[11]	aufnehmen\_set1\_22[11]	latin2[11]	qjdpg51abd5auurj3bduisfb43-aufnehmen\_set1\_22[11]	*[50]	*[50]	PrepObj[50]	*[50]	*[50]	false[129]	NA[129]	*[250]	*[250]	*[250]	*[250]	*[250]	input1[250]	26[370]	female[370]	qjdpg51abd5auurj3bduisfb43[370]	speaker: YOU[490]	*->43-1	PropNm[43]	_	_	_	
+52-3	1396-1403	Spears.	_	GFailure[11]	aufnehmen\_set1\_22[11]	latin2[11]	qjdpg51abd5auurj3bduisfb43-aufnehmen\_set1\_22[11]	*[50]	*[50]	PrepObj[50]	*[50]	*[50]	false[129]	NA[129]	*[250]	*[250]	*[250]	*[250]	*[250]	input1[250]	26[370]	female[370]	qjdpg51abd5auurj3bduisfb43[370]	speaker: YOU[490]	*->43-1	PropNm[43]	_	_	_	
+
+#Text=Ich bin begeistert.
+53-1	1405-1408	Ich	_	GFailure[11]	aufnehmen\_set1\_22[11]	latin2[11]	qjdpg51abd5auurj3bduisfb43-aufnehmen\_set1\_22[11]	1	*	Subj	*	singular	false[130]	Decl[130]	*[251]	*[251]	*[251]	*[251]	*[251]	input2[251]	26[371]	female[371]	qjdpg51abd5auurj3bduisfb43[371]	speaker: YOU[491]	*->7-1	PerPron[7]	_	_	_	
+53-2	1409-1412	bin	_	GFailure[11]	aufnehmen\_set1\_22[11]	latin2[11]	qjdpg51abd5auurj3bduisfb43-aufnehmen\_set1\_22[11]	_	_	_	_	_	false[130]	Decl[130]	*[251]	*[251]	*[251]	*[251]	*[251]	input2[251]	26[371]	female[371]	qjdpg51abd5auurj3bduisfb43[371]	speaker: YOU[491]	_	_	_	_	_	
+53-3	1413-1424	begeistert.	_	GFailure[11]	aufnehmen\_set1\_22[11]	latin2[11]	qjdpg51abd5auurj3bduisfb43-aufnehmen\_set1\_22[11]	_	_	_	_	_	false[130]	Decl[130]	*[251]	*[251]	*[251]	*[251]	*[251]	input2[251]	26[371]	female[371]	qjdpg51abd5auurj3bduisfb43[371]	speaker: YOU[491]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+54-1	1426-1441	END_OF_DOCUMENT	_	GFailure[11]	aufnehmen\_set1\_22[11]	latin2[11]	qjdpg51abd5auurj3bduisfb43-aufnehmen\_set1\_22[11]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+55-1	1443-1449	Hallo,	_	GFailure[12]	aufnehmen\_set1\_22[12]	latin2[12]	rhiec6c6hfje484c5bsbj040l0-aufnehmen\_set1\_22[12]	_	_	_	_	_	false[131]	Int[131]	*[252]	*[252]	*[252]	wh\_2[252]	wh\_question[252]	openq[252]	*[372]	female[372]	*[372]	speaker:Fiona[492]	_	_	QAP	*	56-1[132_131]	
+55-2	1450-1453	wie	_	GFailure[12]	aufnehmen\_set1\_22[12]	latin2[12]	rhiec6c6hfje484c5bsbj040l0-aufnehmen\_set1\_22[12]	_	_	_	_	_	false[131]	Int[131]	*[252]	*[252]	*[252]	wh\_2[252]	wh\_question[252]	openq[252]	*[372]	female[372]	*[372]	speaker:Fiona[492]	_	_	_	_	_	
+55-3	1454-1461	geht's?	_	GFailure[12]	aufnehmen\_set1\_22[12]	latin2[12]	rhiec6c6hfje484c5bsbj040l0-aufnehmen\_set1\_22[12]	_	_	_	_	_	false[131]	Int[131]	*[252]	*[252]	*[252]	wh\_2[252]	wh\_question[252]	openq[252]	*[372]	female[372]	*[372]	speaker:Fiona[492]	_	_	_	_	_	
+
+#Text=Robin hat ein Konzert aufgenommen
+56-1	1463-1468	Robin	_	GFailure[12]	aufnehmen\_set1\_22[12]	latin2[12]	rhiec6c6hfje484c5bsbj040l0-aufnehmen\_set1\_22[12]	*	*	Subj	*	*	false[132]	Decl[132]	*[253]	aufnehmen[253]	transitive[253]	*[253]	*[253]	item0[253]	72[373]	male[373]	rhiec6c6hfje484c5bsbj040l0[373]	speaker: YOU[493]	*->78-1	PropNm[78]	elaboration|CR	*|*	58-1[133_132]|57-1[0_132]	
+56-2	1469-1472	hat	_	GFailure[12]	aufnehmen\_set1\_22[12]	latin2[12]	rhiec6c6hfje484c5bsbj040l0-aufnehmen\_set1\_22[12]	_	_	_	_	_	false[132]	Decl[132]	*[253]	aufnehmen[253]	transitive[253]	*[253]	*[253]	item0[253]	72[373]	male[373]	rhiec6c6hfje484c5bsbj040l0[373]	speaker: YOU[493]	_	_	_	_	_	
+56-3	1473-1476	ein	_	GFailure[12]	aufnehmen\_set1\_22[12]	latin2[12]	rhiec6c6hfje484c5bsbj040l0-aufnehmen\_set1\_22[12]	*[51]	*[51]	object[51]	*[51]	*[51]	false[132]	Decl[132]	*[253]	aufnehmen[253]	transitive[253]	*[253]	*[253]	item0[253]	72[373]	male[373]	rhiec6c6hfje484c5bsbj040l0[373]	speaker: YOU[493]	*->51-1	IndefNP[51]	_	_	_	
+56-4	1477-1484	Konzert	_	GFailure[12]	aufnehmen\_set1\_22[12]	latin2[12]	rhiec6c6hfje484c5bsbj040l0-aufnehmen\_set1\_22[12]	*[51]	*[51]	object[51]	*[51]	*[51]	false[132]	Decl[132]	*[253]	aufnehmen[253]	transitive[253]	*[253]	*[253]	item0[253]	72[373]	male[373]	rhiec6c6hfje484c5bsbj040l0[373]	speaker: YOU[493]	*->51-1	IndefNP[51]	_	_	_	
+56-5	1485-1496	aufgenommen	_	GFailure[12]	aufnehmen\_set1\_22[12]	latin2[12]	rhiec6c6hfje484c5bsbj040l0-aufnehmen\_set1\_22[12]	_	_	_	_	_	false[132]	Decl[132]	*[253]	aufnehmen[253]	transitive[253]	*[253]	*[253]	item0[253]	72[373]	male[373]	rhiec6c6hfje484c5bsbj040l0[373]	speaker: YOU[493]	_	_	_	_	_	
+
+#Text=Ähm?
+57-1	1498-1502	Ähm?	_	GFailure[12]	aufnehmen\_set1\_22[12]	latin2[12]	rhiec6c6hfje484c5bsbj040l0-aufnehmen\_set1\_22[12]	_	_	_	_	_	false	NA	aehm\_question\_5	*	*	*	*	feedback	*	female	*	speaker:Fiona	_	_	_	_	_	
+
+#Text=Also live...
+58-1	1504-1508	Also	_	GFailure[12]	aufnehmen\_set1\_22[12]	latin2[12]	rhiec6c6hfje484c5bsbj040l0-aufnehmen\_set1\_22[12]	_	_	_	_	_	false[133]	NA[133]	*[254]	*[254]	*[254]	*[254]	*[254]	input1[254]	72[374]	male[374]	rhiec6c6hfje484c5bsbj040l0[374]	speaker: YOU[494]	_	_	explanation	*	59-1[134_133]	
+58-2	1509-1516	live...	_	GFailure[12]	aufnehmen\_set1\_22[12]	latin2[12]	rhiec6c6hfje484c5bsbj040l0-aufnehmen\_set1\_22[12]	_	_	_	_	_	false[133]	NA[133]	*[254]	*[254]	*[254]	*[254]	*[254]	input1[254]	72[374]	male[374]	rhiec6c6hfje484c5bsbj040l0[374]	speaker: YOU[494]	_	_	_	_	_	
+
+#Text=Er war am Festival
+59-1	1518-1520	Er	_	GFailure[12]	aufnehmen\_set1\_22[12]	latin2[12]	rhiec6c6hfje484c5bsbj040l0-aufnehmen\_set1\_22[12]	3	*	Subj	*	singular	false[134]	Decl[134]	*[255]	*[255]	*[255]	*[255]	*[255]	input2[255]	72[375]	male[375]	rhiec6c6hfje484c5bsbj040l0[375]	speaker: YOU[495]	*->78-2	PerPron[78]	_	_	_	
+59-2	1521-1524	war	_	GFailure[12]	aufnehmen\_set1\_22[12]	latin2[12]	rhiec6c6hfje484c5bsbj040l0-aufnehmen\_set1\_22[12]	_	_	_	_	_	false[134]	Decl[134]	*[255]	*[255]	*[255]	*[255]	*[255]	input2[255]	72[375]	male[375]	rhiec6c6hfje484c5bsbj040l0[375]	speaker: YOU[495]	_	_	_	_	_	
+59-3	1525-1527	am	_	GFailure[12]	aufnehmen\_set1\_22[12]	latin2[12]	rhiec6c6hfje484c5bsbj040l0-aufnehmen\_set1\_22[12]	_	_	_	_	_	false[134]	Decl[134]	*[255]	*[255]	*[255]	*[255]	*[255]	input2[255]	72[375]	male[375]	rhiec6c6hfje484c5bsbj040l0[375]	speaker: YOU[495]	*->10-1	DefNP[10]	_	_	_	
+59-4	1528-1536	Festival	_	GFailure[12]	aufnehmen\_set1\_22[12]	latin2[12]	rhiec6c6hfje484c5bsbj040l0-aufnehmen\_set1\_22[12]	*	*	PrepObj	*	*	false[134]	Decl[134]	*[255]	*[255]	*[255]	*[255]	*[255]	input2[255]	72[375]	male[375]	rhiec6c6hfje484c5bsbj040l0[375]	speaker: YOU[495]	*->10-1	DefNP[10]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+60-1	1538-1553	END_OF_DOCUMENT	_	GFailure[12]	aufnehmen\_set1\_22[12]	latin2[12]	rhiec6c6hfje484c5bsbj040l0-aufnehmen\_set1\_22[12]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+61-1	1555-1561	Hallo,	_	GSuccess[13]	aufnehmen\_set1\_22[13]	latin3[13]	0ncaea7aqlpc7oe43khd21qn11-aufnehmen\_set1\_22[13]	_	_	_	_	_	false[135]	Int[135]	*[256]	*[256]	*[256]	wh\_2[256]	wh\_question[256]	openq[256]	*[376]	female[376]	*[376]	speaker:Fiona[496]	_	_	QAP	*	62-1[136_135]	
+61-2	1562-1565	wie	_	GSuccess[13]	aufnehmen\_set1\_22[13]	latin3[13]	0ncaea7aqlpc7oe43khd21qn11-aufnehmen\_set1\_22[13]	_	_	_	_	_	false[135]	Int[135]	*[256]	*[256]	*[256]	wh\_2[256]	wh\_question[256]	openq[256]	*[376]	female[376]	*[376]	speaker:Fiona[496]	_	_	_	_	_	
+61-3	1566-1573	geht's?	_	GSuccess[13]	aufnehmen\_set1\_22[13]	latin3[13]	0ncaea7aqlpc7oe43khd21qn11-aufnehmen\_set1\_22[13]	_	_	_	_	_	false[135]	Int[135]	*[256]	*[256]	*[256]	wh\_2[256]	wh\_question[256]	openq[256]	*[376]	female[376]	*[376]	speaker:Fiona[496]	_	_	_	_	_	
+
+#Text=Robin hat ein Konzert aufgenommen
+62-1	1575-1580	Robin	_	GSuccess[13]	aufnehmen\_set1\_22[13]	latin3[13]	0ncaea7aqlpc7oe43khd21qn11-aufnehmen\_set1\_22[13]	*	*	Subj	*	*	false[136]	Decl[136]	*[257]	aufnehmen[257]	transitive[257]	*[257]	*[257]	item0[257]	18[377]	female[377]	0ncaea7aqlpc7oe43khd21qn11[377]	speaker: YOU[497]	*->21-1	PropNm[21]	elaboration|result|acknowledgement	*|*|*	64-1[137_136]|65-1[138_136]|63-1[0_136]	
+62-2	1581-1584	hat	_	GSuccess[13]	aufnehmen\_set1\_22[13]	latin3[13]	0ncaea7aqlpc7oe43khd21qn11-aufnehmen\_set1\_22[13]	_	_	_	_	_	false[136]	Decl[136]	*[257]	aufnehmen[257]	transitive[257]	*[257]	*[257]	item0[257]	18[377]	female[377]	0ncaea7aqlpc7oe43khd21qn11[377]	speaker: YOU[497]	_	_	_	_	_	
+62-3	1585-1588	ein	_	GSuccess[13]	aufnehmen\_set1\_22[13]	latin3[13]	0ncaea7aqlpc7oe43khd21qn11-aufnehmen\_set1\_22[13]	*[52]	*[52]	object[52]	*[52]	*[52]	false[136]	Decl[136]	*[257]	aufnehmen[257]	transitive[257]	*[257]	*[257]	item0[257]	18[377]	female[377]	0ncaea7aqlpc7oe43khd21qn11[377]	speaker: YOU[497]	*->66-1	IndefNP[66]	_	_	_	
+62-4	1589-1596	Konzert	_	GSuccess[13]	aufnehmen\_set1\_22[13]	latin3[13]	0ncaea7aqlpc7oe43khd21qn11-aufnehmen\_set1\_22[13]	*[52]	*[52]	object[52]	*[52]	*[52]	false[136]	Decl[136]	*[257]	aufnehmen[257]	transitive[257]	*[257]	*[257]	item0[257]	18[377]	female[377]	0ncaea7aqlpc7oe43khd21qn11[377]	speaker: YOU[497]	*->66-1	IndefNP[66]	_	_	_	
+62-5	1597-1608	aufgenommen	_	GSuccess[13]	aufnehmen\_set1\_22[13]	latin3[13]	0ncaea7aqlpc7oe43khd21qn11-aufnehmen\_set1\_22[13]	_	_	_	_	_	false[136]	Decl[136]	*[257]	aufnehmen[257]	transitive[257]	*[257]	*[257]	item0[257]	18[377]	female[377]	0ncaea7aqlpc7oe43khd21qn11[377]	speaker: YOU[497]	_	_	_	_	_	
+
+#Text=Okay
+63-1	1610-1614	Okay	_	GSuccess[13]	aufnehmen\_set1\_22[13]	latin3[13]	0ncaea7aqlpc7oe43khd21qn11-aufnehmen\_set1\_22[13]	_	_	_	_	_	false	NA	okay\_22	*	*	*	*	feedback	*	female	*	speaker:Fiona	_	_	_	_	_	
+
+#Text=Er hat echt eine gute Arbeit geleistet.
+64-1	1616-1618	Er	_	GSuccess[13]	aufnehmen\_set1\_22[13]	latin3[13]	0ncaea7aqlpc7oe43khd21qn11-aufnehmen\_set1\_22[13]	3	*	Subj	*	singular	false[137]	Decl[137]	*[258]	*[258]	*[258]	*[258]	*[258]	input1[258]	18[378]	female[378]	0ncaea7aqlpc7oe43khd21qn11[378]	speaker: YOU[498]	*->21-2	PerPron[21]	_	_	_	
+64-2	1619-1622	hat	_	GSuccess[13]	aufnehmen\_set1\_22[13]	latin3[13]	0ncaea7aqlpc7oe43khd21qn11-aufnehmen\_set1\_22[13]	_	_	_	_	_	false[137]	Decl[137]	*[258]	*[258]	*[258]	*[258]	*[258]	input1[258]	18[378]	female[378]	0ncaea7aqlpc7oe43khd21qn11[378]	speaker: YOU[498]	_	_	_	_	_	
+64-3	1623-1627	echt	_	GSuccess[13]	aufnehmen\_set1\_22[13]	latin3[13]	0ncaea7aqlpc7oe43khd21qn11-aufnehmen\_set1\_22[13]	_	_	_	_	_	false[137]	Decl[137]	*[258]	*[258]	*[258]	*[258]	*[258]	input1[258]	18[378]	female[378]	0ncaea7aqlpc7oe43khd21qn11[378]	speaker: YOU[498]	_	_	_	_	_	
+64-4	1628-1632	eine	_	GSuccess[13]	aufnehmen\_set1\_22[13]	latin3[13]	0ncaea7aqlpc7oe43khd21qn11-aufnehmen\_set1\_22[13]	*[53]	*[53]	DirObj[53]	*[53]	*[53]	false[137]	Decl[137]	*[258]	*[258]	*[258]	*[258]	*[258]	input1[258]	18[378]	female[378]	0ncaea7aqlpc7oe43khd21qn11[378]	speaker: YOU[498]	*->107-1	IndefNP[107]	_	_	_	
+64-5	1633-1637	gute	_	GSuccess[13]	aufnehmen\_set1\_22[13]	latin3[13]	0ncaea7aqlpc7oe43khd21qn11-aufnehmen\_set1\_22[13]	*[53]	*[53]	DirObj[53]	*[53]	*[53]	false[137]	Decl[137]	*[258]	*[258]	*[258]	*[258]	*[258]	input1[258]	18[378]	female[378]	0ncaea7aqlpc7oe43khd21qn11[378]	speaker: YOU[498]	*->107-1	IndefNP[107]	_	_	_	
+64-6	1638-1644	Arbeit	_	GSuccess[13]	aufnehmen\_set1\_22[13]	latin3[13]	0ncaea7aqlpc7oe43khd21qn11-aufnehmen\_set1\_22[13]	*[53]	*[53]	DirObj[53]	*[53]	*[53]	false[137]	Decl[137]	*[258]	*[258]	*[258]	*[258]	*[258]	input1[258]	18[378]	female[378]	0ncaea7aqlpc7oe43khd21qn11[378]	speaker: YOU[498]	*->107-1	IndefNP[107]	_	_	_	
+64-7	1645-1655	geleistet.	_	GSuccess[13]	aufnehmen\_set1\_22[13]	latin3[13]	0ncaea7aqlpc7oe43khd21qn11-aufnehmen\_set1\_22[13]	_	_	_	_	_	false[137]	Decl[137]	*[258]	*[258]	*[258]	*[258]	*[258]	input1[258]	18[378]	female[378]	0ncaea7aqlpc7oe43khd21qn11[378]	speaker: YOU[498]	_	_	_	_	_	
+
+#Text=Wenn du willst <BR> kann er dir die Aufnahme schicken.
+65-1	1657-1661	Wenn	_	GSuccess[13]	aufnehmen\_set1\_22[13]	latin3[13]	0ncaea7aqlpc7oe43khd21qn11-aufnehmen\_set1\_22[13]	_	_	_	_	_	false[138]	Decl[138]	*[259]	*[259]	*[259]	*[259]	*[259]	input2[259]	18[379]	female[379]	0ncaea7aqlpc7oe43khd21qn11[379]	speaker: YOU[499]	_	_	_	_	_	
+65-2	1662-1664	du	_	GSuccess[13]	aufnehmen\_set1\_22[13]	latin3[13]	0ncaea7aqlpc7oe43khd21qn11-aufnehmen\_set1\_22[13]	2	*	Subj	*	singular	false[138]	Decl[138]	*[259]	*[259]	*[259]	*[259]	*[259]	input2[259]	18[379]	female[379]	0ncaea7aqlpc7oe43khd21qn11[379]	speaker: YOU[499]	*->13-1	PerPron[13]	_	_	_	
+65-3	1665-1671	willst	_	GSuccess[13]	aufnehmen\_set1\_22[13]	latin3[13]	0ncaea7aqlpc7oe43khd21qn11-aufnehmen\_set1\_22[13]	_	_	_	_	_	false[138]	Decl[138]	*[259]	*[259]	*[259]	*[259]	*[259]	input2[259]	18[379]	female[379]	0ncaea7aqlpc7oe43khd21qn11[379]	speaker: YOU[499]	_	_	_	_	_	
+65-4	1672-1676	<BR>	_	GSuccess[13]	aufnehmen\_set1\_22[13]	latin3[13]	0ncaea7aqlpc7oe43khd21qn11-aufnehmen\_set1\_22[13]	_	_	_	_	_	false[138]	Decl[138]	*[259]	*[259]	*[259]	*[259]	*[259]	input2[259]	18[379]	female[379]	0ncaea7aqlpc7oe43khd21qn11[379]	speaker: YOU[499]	_	_	_	_	_	
+65-5	1677-1681	kann	_	GSuccess[13]	aufnehmen\_set1\_22[13]	latin3[13]	0ncaea7aqlpc7oe43khd21qn11-aufnehmen\_set1\_22[13]	_	_	_	_	_	false[138]	Decl[138]	*[259]	*[259]	*[259]	*[259]	*[259]	input2[259]	18[379]	female[379]	0ncaea7aqlpc7oe43khd21qn11[379]	speaker: YOU[499]	_	_	_	_	_	
+65-6	1682-1684	er	_	GSuccess[13]	aufnehmen\_set1\_22[13]	latin3[13]	0ncaea7aqlpc7oe43khd21qn11-aufnehmen\_set1\_22[13]	3	*	Subj	*	singular	false[138]	Decl[138]	*[259]	*[259]	*[259]	*[259]	*[259]	input2[259]	18[379]	female[379]	0ncaea7aqlpc7oe43khd21qn11[379]	speaker: YOU[499]	*->21-3	PerPron[21]	_	_	_	
+65-7	1685-1688	dir	_	GSuccess[13]	aufnehmen\_set1\_22[13]	latin3[13]	0ncaea7aqlpc7oe43khd21qn11-aufnehmen\_set1\_22[13]	2	*	IndirObj	*	singular	false[138]	Decl[138]	*[259]	*[259]	*[259]	*[259]	*[259]	input2[259]	18[379]	female[379]	0ncaea7aqlpc7oe43khd21qn11[379]	speaker: YOU[499]	*->13-2	PerPron[13]	_	_	_	
+65-8	1689-1692	die	_	GSuccess[13]	aufnehmen\_set1\_22[13]	latin3[13]	0ncaea7aqlpc7oe43khd21qn11-aufnehmen\_set1\_22[13]	*[54]	*[54]	DirObj[54]	*[54]	*[54]	false[138]	Decl[138]	*[259]	*[259]	*[259]	*[259]	*[259]	input2[259]	18[379]	female[379]	0ncaea7aqlpc7oe43khd21qn11[379]	speaker: YOU[499]	*->28-1	DefNP[28]	_	_	_	
+65-9	1693-1701	Aufnahme	_	GSuccess[13]	aufnehmen\_set1\_22[13]	latin3[13]	0ncaea7aqlpc7oe43khd21qn11-aufnehmen\_set1\_22[13]	*[54]	*[54]	DirObj[54]	*[54]	*[54]	false[138]	Decl[138]	*[259]	*[259]	*[259]	*[259]	*[259]	input2[259]	18[379]	female[379]	0ncaea7aqlpc7oe43khd21qn11[379]	speaker: YOU[499]	*->28-1	DefNP[28]	_	_	_	
+65-10	1702-1711	schicken.	_	GSuccess[13]	aufnehmen\_set1\_22[13]	latin3[13]	0ncaea7aqlpc7oe43khd21qn11-aufnehmen\_set1\_22[13]	_	_	_	_	_	false[138]	Decl[138]	*[259]	*[259]	*[259]	*[259]	*[259]	input2[259]	18[379]	female[379]	0ncaea7aqlpc7oe43khd21qn11[379]	speaker: YOU[499]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+66-1	1713-1728	END_OF_DOCUMENT	_	GSuccess[13]	aufnehmen\_set1\_22[13]	latin3[13]	0ncaea7aqlpc7oe43khd21qn11-aufnehmen\_set1\_22[13]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+67-1	1730-1736	Hallo,	_	GSuccess[14]	aufnehmen\_set1\_22[14]	latin3[14]	19gm0uv9ca6mcngf99lirno94a-aufnehmen\_set1\_22[14]	_	_	_	_	_	false[139]	Int[139]	*[260]	*[260]	*[260]	wh\_2[260]	wh\_question[260]	openq[260]	*[380]	female[380]	*[380]	speaker:Fiona[500]	_	_	QAP	*	68-1[140_139]	
+67-2	1737-1740	wie	_	GSuccess[14]	aufnehmen\_set1\_22[14]	latin3[14]	19gm0uv9ca6mcngf99lirno94a-aufnehmen\_set1\_22[14]	_	_	_	_	_	false[139]	Int[139]	*[260]	*[260]	*[260]	wh\_2[260]	wh\_question[260]	openq[260]	*[380]	female[380]	*[380]	speaker:Fiona[500]	_	_	_	_	_	
+67-3	1741-1748	geht's?	_	GSuccess[14]	aufnehmen\_set1\_22[14]	latin3[14]	19gm0uv9ca6mcngf99lirno94a-aufnehmen\_set1\_22[14]	_	_	_	_	_	false[139]	Int[139]	*[260]	*[260]	*[260]	wh\_2[260]	wh\_question[260]	openq[260]	*[380]	female[380]	*[380]	speaker:Fiona[500]	_	_	_	_	_	
+
+#Text=Robin hat ein Konzert aufgenommen
+68-1	1750-1755	Robin	_	GSuccess[14]	aufnehmen\_set1\_22[14]	latin3[14]	19gm0uv9ca6mcngf99lirno94a-aufnehmen\_set1\_22[14]	*	*	Subj	*	*	false[140]	Decl[140]	*[261]	aufnehmen[261]	transitive[261]	*[261]	*[261]	item0[261]	36[381]	male[381]	19gm0uv9ca6mcngf99lirno94a[381]	speaker: YOU[501]	*->108-1	PropNm[108]	narration|acknowledgement	*|*	70-1[141_140]|69-1[0_140]	
+68-2	1756-1759	hat	_	GSuccess[14]	aufnehmen\_set1\_22[14]	latin3[14]	19gm0uv9ca6mcngf99lirno94a-aufnehmen\_set1\_22[14]	_	_	_	_	_	false[140]	Decl[140]	*[261]	aufnehmen[261]	transitive[261]	*[261]	*[261]	item0[261]	36[381]	male[381]	19gm0uv9ca6mcngf99lirno94a[381]	speaker: YOU[501]	_	_	_	_	_	
+68-3	1760-1763	ein	_	GSuccess[14]	aufnehmen\_set1\_22[14]	latin3[14]	19gm0uv9ca6mcngf99lirno94a-aufnehmen\_set1\_22[14]	*[55]	*[55]	object[55]	*[55]	*[55]	false[140]	Decl[140]	*[261]	aufnehmen[261]	transitive[261]	*[261]	*[261]	item0[261]	36[381]	male[381]	19gm0uv9ca6mcngf99lirno94a[381]	speaker: YOU[501]	*->103-1	IndefNP[103]	_	_	_	
+68-4	1764-1771	Konzert	_	GSuccess[14]	aufnehmen\_set1\_22[14]	latin3[14]	19gm0uv9ca6mcngf99lirno94a-aufnehmen\_set1\_22[14]	*[55]	*[55]	object[55]	*[55]	*[55]	false[140]	Decl[140]	*[261]	aufnehmen[261]	transitive[261]	*[261]	*[261]	item0[261]	36[381]	male[381]	19gm0uv9ca6mcngf99lirno94a[381]	speaker: YOU[501]	*->103-1	IndefNP[103]	_	_	_	
+68-5	1772-1783	aufgenommen	_	GSuccess[14]	aufnehmen\_set1\_22[14]	latin3[14]	19gm0uv9ca6mcngf99lirno94a-aufnehmen\_set1\_22[14]	_	_	_	_	_	false[140]	Decl[140]	*[261]	aufnehmen[261]	transitive[261]	*[261]	*[261]	item0[261]	36[381]	male[381]	19gm0uv9ca6mcngf99lirno94a[381]	speaker: YOU[501]	_	_	_	_	_	
+
+#Text=Okay
+69-1	1785-1789	Okay	_	GSuccess[14]	aufnehmen\_set1\_22[14]	latin3[14]	19gm0uv9ca6mcngf99lirno94a-aufnehmen\_set1\_22[14]	_	_	_	_	_	false	NA	okay\_22	*	*	*	*	feedback	*	female	*	speaker:Fiona	_	_	_	_	_	
+
+#Text=Er arbeitet jetzt am Edit und dann geht es auf Youtube
+70-1	1791-1793	Er	_	GSuccess[14]	aufnehmen\_set1\_22[14]	latin3[14]	19gm0uv9ca6mcngf99lirno94a-aufnehmen\_set1\_22[14]	3	*	Subj	*	singular	false[141]	Decl[141]	*[262]	*[262]	*[262]	*[262]	*[262]	input1[262]	36[382]	male[382]	19gm0uv9ca6mcngf99lirno94a[382]	speaker: YOU[502]	*->108-2	PerPron[108]	narration	*	70-6[142_141]	
+70-2	1794-1802	arbeitet	_	GSuccess[14]	aufnehmen\_set1\_22[14]	latin3[14]	19gm0uv9ca6mcngf99lirno94a-aufnehmen\_set1\_22[14]	_	_	_	_	_	false[141]	Decl[141]	*[262]	*[262]	*[262]	*[262]	*[262]	input1[262]	36[382]	male[382]	19gm0uv9ca6mcngf99lirno94a[382]	speaker: YOU[502]	_	_	_	_	_	
+70-3	1803-1808	jetzt	_	GSuccess[14]	aufnehmen\_set1\_22[14]	latin3[14]	19gm0uv9ca6mcngf99lirno94a-aufnehmen\_set1\_22[14]	_	_	_	_	_	false[141]	Decl[141]	*[262]	*[262]	*[262]	*[262]	*[262]	input1[262]	36[382]	male[382]	19gm0uv9ca6mcngf99lirno94a[382]	speaker: YOU[502]	_	_	_	_	_	
+70-4	1809-1811	am	_	GSuccess[14]	aufnehmen\_set1\_22[14]	latin3[14]	19gm0uv9ca6mcngf99lirno94a-aufnehmen\_set1\_22[14]	*[56]	*[56]	PrepObj[56]	*[56]	*[56]	false[141]	Decl[141]	*[262]	*[262]	*[262]	*[262]	*[262]	input1[262]	36[382]	male[382]	19gm0uv9ca6mcngf99lirno94a[382]	speaker: YOU[502]	*->70-1	DefNP[70]	_	_	_	
+70-5	1812-1816	Edit	_	GSuccess[14]	aufnehmen\_set1\_22[14]	latin3[14]	19gm0uv9ca6mcngf99lirno94a-aufnehmen\_set1\_22[14]	*[56]	*[56]	PrepObj[56]	*[56]	*[56]	false[141]	Decl[141]	*[262]	*[262]	*[262]	*[262]	*[262]	input1[262]	36[382]	male[382]	19gm0uv9ca6mcngf99lirno94a[382]	speaker: YOU[502]	*->70-1	DefNP[70]	_	_	_	
+70-6	1817-1820	und	_	GSuccess[14]	aufnehmen\_set1\_22[14]	latin3[14]	19gm0uv9ca6mcngf99lirno94a-aufnehmen\_set1\_22[14]	_	_	_	_	_	false[142]	Decl[142]	*[262]	*[262]	*[262]	*[262]	*[262]	input1[262]	36[382]	male[382]	19gm0uv9ca6mcngf99lirno94a[382]	speaker: YOU[502]	_	_	narration	*	71-1[143_142]	
+70-7	1821-1825	dann	_	GSuccess[14]	aufnehmen\_set1\_22[14]	latin3[14]	19gm0uv9ca6mcngf99lirno94a-aufnehmen\_set1\_22[14]	_	_	_	_	_	false[142]	Decl[142]	*[262]	*[262]	*[262]	*[262]	*[262]	input1[262]	36[382]	male[382]	19gm0uv9ca6mcngf99lirno94a[382]	speaker: YOU[502]	_	_	_	_	_	
+70-8	1826-1830	geht	_	GSuccess[14]	aufnehmen\_set1\_22[14]	latin3[14]	19gm0uv9ca6mcngf99lirno94a-aufnehmen\_set1\_22[14]	_	_	_	_	_	false[142]	Decl[142]	*[262]	*[262]	*[262]	*[262]	*[262]	input1[262]	36[382]	male[382]	19gm0uv9ca6mcngf99lirno94a[382]	speaker: YOU[502]	_	_	_	_	_	
+70-9	1831-1833	es	_	GSuccess[14]	aufnehmen\_set1\_22[14]	latin3[14]	19gm0uv9ca6mcngf99lirno94a-aufnehmen\_set1\_22[14]	3	*	Subj	*	singular	false[142]	Decl[142]	*[262]	*[262]	*[262]	*[262]	*[262]	input1[262]	36[382]	male[382]	19gm0uv9ca6mcngf99lirno94a[382]	speaker: YOU[502]	*->70-2	PerPron[70]	_	_	_	
+70-10	1834-1837	auf	_	GSuccess[14]	aufnehmen\_set1\_22[14]	latin3[14]	19gm0uv9ca6mcngf99lirno94a-aufnehmen\_set1\_22[14]	_	_	_	_	_	false[142]	Decl[142]	*[262]	*[262]	*[262]	*[262]	*[262]	input1[262]	36[382]	male[382]	19gm0uv9ca6mcngf99lirno94a[382]	speaker: YOU[502]	_	_	_	_	_	
+70-11	1838-1845	Youtube	_	GSuccess[14]	aufnehmen\_set1\_22[14]	latin3[14]	19gm0uv9ca6mcngf99lirno94a-aufnehmen\_set1\_22[14]	*	*	PrepObj	*	*	false[142]	Decl[142]	*[262]	*[262]	*[262]	*[262]	*[262]	input1[262]	36[382]	male[382]	19gm0uv9ca6mcngf99lirno94a[382]	speaker: YOU[502]	*->63-1	PropNm[63]	_	_	_	
+
+#Text=Mal sehen wie viele Views es kriegt
+71-1	1847-1850	Mal	_	GSuccess[14]	aufnehmen\_set1\_22[14]	latin3[14]	19gm0uv9ca6mcngf99lirno94a-aufnehmen\_set1\_22[14]	_	_	_	_	_	false[143]	Decl[143]	*[263]	*[263]	*[263]	*[263]	*[263]	input2[263]	36[383]	male[383]	19gm0uv9ca6mcngf99lirno94a[383]	speaker: YOU[503]	_	_	_	_	_	
+71-2	1851-1856	sehen	_	GSuccess[14]	aufnehmen\_set1\_22[14]	latin3[14]	19gm0uv9ca6mcngf99lirno94a-aufnehmen\_set1\_22[14]	_	_	_	_	_	false[143]	Decl[143]	*[263]	*[263]	*[263]	*[263]	*[263]	input2[263]	36[383]	male[383]	19gm0uv9ca6mcngf99lirno94a[383]	speaker: YOU[503]	_	_	_	_	_	
+71-3	1857-1860	wie	_	GSuccess[14]	aufnehmen\_set1\_22[14]	latin3[14]	19gm0uv9ca6mcngf99lirno94a-aufnehmen\_set1\_22[14]	_	_	_	_	_	false[143]	Decl[143]	*[263]	*[263]	*[263]	*[263]	*[263]	input2[263]	36[383]	male[383]	19gm0uv9ca6mcngf99lirno94a[383]	speaker: YOU[503]	_	_	_	_	_	
+71-4	1861-1866	viele	_	GSuccess[14]	aufnehmen\_set1\_22[14]	latin3[14]	19gm0uv9ca6mcngf99lirno94a-aufnehmen\_set1\_22[14]	_	_	_	_	_	false[143]	Decl[143]	*[263]	*[263]	*[263]	*[263]	*[263]	input2[263]	36[383]	male[383]	19gm0uv9ca6mcngf99lirno94a[383]	speaker: YOU[503]	_	_	_	_	_	
+71-5	1867-1872	Views	_	GSuccess[14]	aufnehmen\_set1\_22[14]	latin3[14]	19gm0uv9ca6mcngf99lirno94a-aufnehmen\_set1\_22[14]	_	_	_	_	_	false[143]	Decl[143]	*[263]	*[263]	*[263]	*[263]	*[263]	input2[263]	36[383]	male[383]	19gm0uv9ca6mcngf99lirno94a[383]	speaker: YOU[503]	_	_	_	_	_	
+71-6	1873-1875	es	_	GSuccess[14]	aufnehmen\_set1\_22[14]	latin3[14]	19gm0uv9ca6mcngf99lirno94a-aufnehmen\_set1\_22[14]	3	*	Embedded	*	singular	false[143]	Decl[143]	*[263]	*[263]	*[263]	*[263]	*[263]	input2[263]	36[383]	male[383]	19gm0uv9ca6mcngf99lirno94a[383]	speaker: YOU[503]	*->70-3	PerPron[70]	_	_	_	
+71-7	1876-1882	kriegt	_	GSuccess[14]	aufnehmen\_set1\_22[14]	latin3[14]	19gm0uv9ca6mcngf99lirno94a-aufnehmen\_set1\_22[14]	_	_	_	_	_	false[143]	Decl[143]	*[263]	*[263]	*[263]	*[263]	*[263]	input2[263]	36[383]	male[383]	19gm0uv9ca6mcngf99lirno94a[383]	speaker: YOU[503]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+72-1	1884-1899	END_OF_DOCUMENT	_	GSuccess[14]	aufnehmen\_set1\_22[14]	latin3[14]	19gm0uv9ca6mcngf99lirno94a-aufnehmen\_set1\_22[14]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+73-1	1901-1907	Hallo,	_	GSuccess[15]	aufnehmen\_set1\_22[15]	latin3[15]	4qae3ph27q5gbjcsrgnltv8qld-aufnehmen\_set1\_22[15]	_	_	_	_	_	false[144]	Int[144]	*[264]	*[264]	*[264]	wh\_2[264]	wh\_question[264]	openq[264]	*[384]	female[384]	*[384]	speaker:Fiona[504]	_	_	QAP	*	74-1[145_144]	
+73-2	1908-1911	wie	_	GSuccess[15]	aufnehmen\_set1\_22[15]	latin3[15]	4qae3ph27q5gbjcsrgnltv8qld-aufnehmen\_set1\_22[15]	_	_	_	_	_	false[144]	Int[144]	*[264]	*[264]	*[264]	wh\_2[264]	wh\_question[264]	openq[264]	*[384]	female[384]	*[384]	speaker:Fiona[504]	_	_	_	_	_	
+73-3	1912-1919	geht's?	_	GSuccess[15]	aufnehmen\_set1\_22[15]	latin3[15]	4qae3ph27q5gbjcsrgnltv8qld-aufnehmen\_set1\_22[15]	_	_	_	_	_	false[144]	Int[144]	*[264]	*[264]	*[264]	wh\_2[264]	wh\_question[264]	openq[264]	*[384]	female[384]	*[384]	speaker:Fiona[504]	_	_	_	_	_	
+
+#Text=Robin hat ein Konzert aufgenommen
+74-1	1921-1926	Robin	_	GSuccess[15]	aufnehmen\_set1\_22[15]	latin3[15]	4qae3ph27q5gbjcsrgnltv8qld-aufnehmen\_set1\_22[15]	*	*	Subj	*	*	false[145]	Decl[145]	*[265]	aufnehmen[265]	transitive[265]	*[265]	*[265]	item0[265]	18[385]	female[385]	4qae3ph27q5gbjcsrgnltv8qld[385]	speaker: YOU[505]	*->42-1	PropNm[42]	elaboration|result|acknowledgement	*|*|*	76-1[146_145]|77-1[147_145]|75-1[0_145]	
+74-2	1927-1930	hat	_	GSuccess[15]	aufnehmen\_set1\_22[15]	latin3[15]	4qae3ph27q5gbjcsrgnltv8qld-aufnehmen\_set1\_22[15]	_	_	_	_	_	false[145]	Decl[145]	*[265]	aufnehmen[265]	transitive[265]	*[265]	*[265]	item0[265]	18[385]	female[385]	4qae3ph27q5gbjcsrgnltv8qld[385]	speaker: YOU[505]	_	_	_	_	_	
+74-3	1931-1934	ein	_	GSuccess[15]	aufnehmen\_set1\_22[15]	latin3[15]	4qae3ph27q5gbjcsrgnltv8qld-aufnehmen\_set1\_22[15]	*[57]	*[57]	object[57]	*[57]	*[57]	false[145]	Decl[145]	*[265]	aufnehmen[265]	transitive[265]	*[265]	*[265]	item0[265]	18[385]	female[385]	4qae3ph27q5gbjcsrgnltv8qld[385]	speaker: YOU[505]	*->31-1	IndefNP[31]	_	_	_	
+74-4	1935-1942	Konzert	_	GSuccess[15]	aufnehmen\_set1\_22[15]	latin3[15]	4qae3ph27q5gbjcsrgnltv8qld-aufnehmen\_set1\_22[15]	*[57]	*[57]	object[57]	*[57]	*[57]	false[145]	Decl[145]	*[265]	aufnehmen[265]	transitive[265]	*[265]	*[265]	item0[265]	18[385]	female[385]	4qae3ph27q5gbjcsrgnltv8qld[385]	speaker: YOU[505]	*->31-1	IndefNP[31]	_	_	_	
+74-5	1943-1954	aufgenommen	_	GSuccess[15]	aufnehmen\_set1\_22[15]	latin3[15]	4qae3ph27q5gbjcsrgnltv8qld-aufnehmen\_set1\_22[15]	_	_	_	_	_	false[145]	Decl[145]	*[265]	aufnehmen[265]	transitive[265]	*[265]	*[265]	item0[265]	18[385]	female[385]	4qae3ph27q5gbjcsrgnltv8qld[385]	speaker: YOU[505]	_	_	_	_	_	
+
+#Text=Okay
+75-1	1956-1960	Okay	_	GSuccess[15]	aufnehmen\_set1\_22[15]	latin3[15]	4qae3ph27q5gbjcsrgnltv8qld-aufnehmen\_set1\_22[15]	_	_	_	_	_	false	NA	okay\_22	*	*	*	*	feedback	*	female	*	speaker:Fiona	_	_	_	_	_	
+
+#Text=von gestern
+76-1	1962-1965	von	_	GSuccess[15]	aufnehmen\_set1\_22[15]	latin3[15]	4qae3ph27q5gbjcsrgnltv8qld-aufnehmen\_set1\_22[15]	_	_	_	_	_	false[146]	NA[146]	*[266]	*[266]	*[266]	*[266]	*[266]	input1[266]	18[386]	female[386]	4qae3ph27q5gbjcsrgnltv8qld[386]	speaker: YOU[506]	_	_	_	_	_	
+76-2	1966-1973	gestern	_	GSuccess[15]	aufnehmen\_set1\_22[15]	latin3[15]	4qae3ph27q5gbjcsrgnltv8qld-aufnehmen\_set1\_22[15]	_	_	_	_	_	false[146]	NA[146]	*[266]	*[266]	*[266]	*[266]	*[266]	input1[266]	18[386]	female[386]	4qae3ph27q5gbjcsrgnltv8qld[386]	speaker: YOU[506]	_	_	_	_	_	
+
+#Text=willst du es sehen?
+77-1	1975-1981	willst	_	GSuccess[15]	aufnehmen\_set1\_22[15]	latin3[15]	4qae3ph27q5gbjcsrgnltv8qld-aufnehmen\_set1\_22[15]	_	_	_	_	_	false[147]	Int[147]	*[267]	*[267]	*[267]	*[267]	*[267]	input2[267]	18[387]	female[387]	4qae3ph27q5gbjcsrgnltv8qld[387]	speaker: YOU[507]	_	_	_	_	_	
+77-2	1982-1984	du	_	GSuccess[15]	aufnehmen\_set1\_22[15]	latin3[15]	4qae3ph27q5gbjcsrgnltv8qld-aufnehmen\_set1\_22[15]	2	*	Subj	*	singular	false[147]	Int[147]	*[267]	*[267]	*[267]	*[267]	*[267]	input2[267]	18[387]	female[387]	4qae3ph27q5gbjcsrgnltv8qld[387]	speaker: YOU[507]	*->61-1	PerPron[61]	_	_	_	
+77-3	1985-1987	es	_	GSuccess[15]	aufnehmen\_set1\_22[15]	latin3[15]	4qae3ph27q5gbjcsrgnltv8qld-aufnehmen\_set1\_22[15]	3	*	DirObj	*	singular	false[147]	Int[147]	*[267]	*[267]	*[267]	*[267]	*[267]	input2[267]	18[387]	female[387]	4qae3ph27q5gbjcsrgnltv8qld[387]	speaker: YOU[507]	*->31-2	PerPron[31]	_	_	_	
+77-4	1988-1994	sehen?	_	GSuccess[15]	aufnehmen\_set1\_22[15]	latin3[15]	4qae3ph27q5gbjcsrgnltv8qld-aufnehmen\_set1\_22[15]	_	_	_	_	_	false[147]	Int[147]	*[267]	*[267]	*[267]	*[267]	*[267]	input2[267]	18[387]	female[387]	4qae3ph27q5gbjcsrgnltv8qld[387]	speaker: YOU[507]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+78-1	1996-2011	END_OF_DOCUMENT	_	GSuccess[15]	aufnehmen\_set1\_22[15]	latin3[15]	4qae3ph27q5gbjcsrgnltv8qld-aufnehmen\_set1\_22[15]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+79-1	2013-2019	Hallo,	_	GSuccess[16]	aufnehmen\_set1\_22[16]	latin3[16]	f28ipql67ma8cbjqke6k374ach-aufnehmen\_set1\_22[16]	_	_	_	_	_	false[148]	Int[148]	*[268]	*[268]	*[268]	wh\_2[268]	wh\_question[268]	openq[268]	*[388]	female[388]	*[388]	speaker:Fiona[508]	_	_	QAP	*	80-1[149_148]	
+79-2	2020-2023	wie	_	GSuccess[16]	aufnehmen\_set1\_22[16]	latin3[16]	f28ipql67ma8cbjqke6k374ach-aufnehmen\_set1\_22[16]	_	_	_	_	_	false[148]	Int[148]	*[268]	*[268]	*[268]	wh\_2[268]	wh\_question[268]	openq[268]	*[388]	female[388]	*[388]	speaker:Fiona[508]	_	_	_	_	_	
+79-3	2024-2031	geht's?	_	GSuccess[16]	aufnehmen\_set1\_22[16]	latin3[16]	f28ipql67ma8cbjqke6k374ach-aufnehmen\_set1\_22[16]	_	_	_	_	_	false[148]	Int[148]	*[268]	*[268]	*[268]	wh\_2[268]	wh\_question[268]	openq[268]	*[388]	female[388]	*[388]	speaker:Fiona[508]	_	_	_	_	_	
+
+#Text=Robin hat ein Konzert aufgenommen
+80-1	2033-2038	Robin	_	GSuccess[16]	aufnehmen\_set1\_22[16]	latin3[16]	f28ipql67ma8cbjqke6k374ach-aufnehmen\_set1\_22[16]	*	*	Subj	*	*	false[149]	Decl[149]	*[269]	aufnehmen[269]	transitive[269]	*[269]	*[269]	item0[269]	19[389]	male[389]	f28ipql67ma8cbjqke6k374ach[389]	speaker: YOU[509]	*->64-1	PropNm[64]	elaboration|elaboration|acknowledgement	*|*|*	82-1[150_149]|83-1[151_149]|81-1[0_149]	
+80-2	2039-2042	hat	_	GSuccess[16]	aufnehmen\_set1\_22[16]	latin3[16]	f28ipql67ma8cbjqke6k374ach-aufnehmen\_set1\_22[16]	_	_	_	_	_	false[149]	Decl[149]	*[269]	aufnehmen[269]	transitive[269]	*[269]	*[269]	item0[269]	19[389]	male[389]	f28ipql67ma8cbjqke6k374ach[389]	speaker: YOU[509]	_	_	_	_	_	
+80-3	2043-2046	ein	_	GSuccess[16]	aufnehmen\_set1\_22[16]	latin3[16]	f28ipql67ma8cbjqke6k374ach-aufnehmen\_set1\_22[16]	*[58]	*[58]	object[58]	*[58]	*[58]	false[149]	Decl[149]	*[269]	aufnehmen[269]	transitive[269]	*[269]	*[269]	item0[269]	19[389]	male[389]	f28ipql67ma8cbjqke6k374ach[389]	speaker: YOU[509]	*->18-1	IndefNP[18]	_	_	_	
+80-4	2047-2054	Konzert	_	GSuccess[16]	aufnehmen\_set1\_22[16]	latin3[16]	f28ipql67ma8cbjqke6k374ach-aufnehmen\_set1\_22[16]	*[58]	*[58]	object[58]	*[58]	*[58]	false[149]	Decl[149]	*[269]	aufnehmen[269]	transitive[269]	*[269]	*[269]	item0[269]	19[389]	male[389]	f28ipql67ma8cbjqke6k374ach[389]	speaker: YOU[509]	*->18-1	IndefNP[18]	_	_	_	
+80-5	2055-2066	aufgenommen	_	GSuccess[16]	aufnehmen\_set1\_22[16]	latin3[16]	f28ipql67ma8cbjqke6k374ach-aufnehmen\_set1\_22[16]	_	_	_	_	_	false[149]	Decl[149]	*[269]	aufnehmen[269]	transitive[269]	*[269]	*[269]	item0[269]	19[389]	male[389]	f28ipql67ma8cbjqke6k374ach[389]	speaker: YOU[509]	_	_	_	_	_	
+
+#Text=Okay
+81-1	2068-2072	Okay	_	GSuccess[16]	aufnehmen\_set1\_22[16]	latin3[16]	f28ipql67ma8cbjqke6k374ach-aufnehmen\_set1\_22[16]	_	_	_	_	_	false	NA	okay\_22	*	*	*	*	feedback	*	female	*	speaker:Fiona	_	_	_	_	_	
+
+#Text=Cool oder.
+82-1	2074-2078	Cool	_	GSuccess[16]	aufnehmen\_set1\_22[16]	latin3[16]	f28ipql67ma8cbjqke6k374ach-aufnehmen\_set1\_22[16]	_	_	_	_	_	false[150]	NA[150]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	19[390]	male[390]	f28ipql67ma8cbjqke6k374ach[390]	speaker: YOU[510]	_	_	_	_	_	
+82-2	2079-2084	oder.	_	GSuccess[16]	aufnehmen\_set1\_22[16]	latin3[16]	f28ipql67ma8cbjqke6k374ach-aufnehmen\_set1\_22[16]	_	_	_	_	_	false[150]	NA[150]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	19[390]	male[390]	f28ipql67ma8cbjqke6k374ach[390]	speaker: YOU[510]	_	_	_	_	_	
+
+#Text=Es war sein erstes.
+83-1	2086-2088	Es	_	GSuccess[16]	aufnehmen\_set1\_22[16]	latin3[16]	f28ipql67ma8cbjqke6k374ach-aufnehmen\_set1\_22[16]	3	*	Subj	*	singular	false[151]	Decl[151]	*[271]	*[271]	*[271]	*[271]	*[271]	input2[271]	19[391]	male[391]	f28ipql67ma8cbjqke6k374ach[391]	speaker: YOU[511]	*->22-1	PerPron[22]	_	_	_	
+83-2	2089-2092	war	_	GSuccess[16]	aufnehmen\_set1\_22[16]	latin3[16]	f28ipql67ma8cbjqke6k374ach-aufnehmen\_set1\_22[16]	_	_	_	_	_	false[151]	Decl[151]	*[271]	*[271]	*[271]	*[271]	*[271]	input2[271]	19[391]	male[391]	f28ipql67ma8cbjqke6k374ach[391]	speaker: YOU[511]	_	_	_	_	_	
+83-3	2093-2097	sein	_	GSuccess[16]	aufnehmen\_set1\_22[16]	latin3[16]	f28ipql67ma8cbjqke6k374ach-aufnehmen\_set1\_22[16]	3	*	Embedded	*	singular	false[151]	Decl[151]	*[271]	*[271]	*[271]	*[271]	*[271]	input2[271]	19[391]	male[391]	f28ipql67ma8cbjqke6k374ach[391]	speaker: YOU[511]	*->64-2	PossePron[64]	_	_	_	
+83-4	2098-2105	erstes.	_	GSuccess[16]	aufnehmen\_set1\_22[16]	latin3[16]	f28ipql67ma8cbjqke6k374ach-aufnehmen\_set1\_22[16]	_	_	_	_	_	false[151]	Decl[151]	*[271]	*[271]	*[271]	*[271]	*[271]	input2[271]	19[391]	male[391]	f28ipql67ma8cbjqke6k374ach[391]	speaker: YOU[511]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+84-1	2107-2122	END_OF_DOCUMENT	_	GSuccess[16]	aufnehmen\_set1\_22[16]	latin3[16]	f28ipql67ma8cbjqke6k374ach-aufnehmen\_set1\_22[16]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+85-1	2124-2130	Hallo,	_	GSuccess[17]	aufnehmen\_set1\_22[17]	latin3[17]	ifdbjqro2nfkup12rv8t6k0eu9-aufnehmen\_set1\_22[17]	_	_	_	_	_	false[152]	Int[152]	*[272]	*[272]	*[272]	wh\_2[272]	wh\_question[272]	openq[272]	*[392]	female[392]	*[392]	speaker:Fiona[512]	_	_	QAP	*	86-1[153_152]	
+85-2	2131-2134	wie	_	GSuccess[17]	aufnehmen\_set1\_22[17]	latin3[17]	ifdbjqro2nfkup12rv8t6k0eu9-aufnehmen\_set1\_22[17]	_	_	_	_	_	false[152]	Int[152]	*[272]	*[272]	*[272]	wh\_2[272]	wh\_question[272]	openq[272]	*[392]	female[392]	*[392]	speaker:Fiona[512]	_	_	_	_	_	
+85-3	2135-2142	geht's?	_	GSuccess[17]	aufnehmen\_set1\_22[17]	latin3[17]	ifdbjqro2nfkup12rv8t6k0eu9-aufnehmen\_set1\_22[17]	_	_	_	_	_	false[152]	Int[152]	*[272]	*[272]	*[272]	wh\_2[272]	wh\_question[272]	openq[272]	*[392]	female[392]	*[392]	speaker:Fiona[512]	_	_	_	_	_	
+
+#Text=Robin hat ein Konzert aufgenommen
+86-1	2144-2149	Robin	_	GSuccess[17]	aufnehmen\_set1\_22[17]	latin3[17]	ifdbjqro2nfkup12rv8t6k0eu9-aufnehmen\_set1\_22[17]	*	*	Subj	*	*	false[153]	Decl[153]	*[273]	aufnehmen[273]	transitive[273]	*[273]	*[273]	item0[273]	36[393]	male[393]	ifdbjqro2nfkup12rv8t6k0eu9[393]	speaker: YOU[513]	*->44-1	PropNm[44]	result|elaboration|acknowledgement	*|*|*	88-1[154_153]|89-1[155_153]|87-1[0_153]	
+86-2	2150-2153	hat	_	GSuccess[17]	aufnehmen\_set1\_22[17]	latin3[17]	ifdbjqro2nfkup12rv8t6k0eu9-aufnehmen\_set1\_22[17]	_	_	_	_	_	false[153]	Decl[153]	*[273]	aufnehmen[273]	transitive[273]	*[273]	*[273]	item0[273]	36[393]	male[393]	ifdbjqro2nfkup12rv8t6k0eu9[393]	speaker: YOU[513]	_	_	_	_	_	
+86-3	2154-2157	ein	_	GSuccess[17]	aufnehmen\_set1\_22[17]	latin3[17]	ifdbjqro2nfkup12rv8t6k0eu9-aufnehmen\_set1\_22[17]	*[59]	*[59]	object[59]	*[59]	*[59]	false[153]	Decl[153]	*[273]	aufnehmen[273]	transitive[273]	*[273]	*[273]	item0[273]	36[393]	male[393]	ifdbjqro2nfkup12rv8t6k0eu9[393]	speaker: YOU[513]	*->99-1	IndefNP[99]	_	_	_	
+86-4	2158-2165	Konzert	_	GSuccess[17]	aufnehmen\_set1\_22[17]	latin3[17]	ifdbjqro2nfkup12rv8t6k0eu9-aufnehmen\_set1\_22[17]	*[59]	*[59]	object[59]	*[59]	*[59]	false[153]	Decl[153]	*[273]	aufnehmen[273]	transitive[273]	*[273]	*[273]	item0[273]	36[393]	male[393]	ifdbjqro2nfkup12rv8t6k0eu9[393]	speaker: YOU[513]	*->99-1	IndefNP[99]	_	_	_	
+86-5	2166-2177	aufgenommen	_	GSuccess[17]	aufnehmen\_set1\_22[17]	latin3[17]	ifdbjqro2nfkup12rv8t6k0eu9-aufnehmen\_set1\_22[17]	_	_	_	_	_	false[153]	Decl[153]	*[273]	aufnehmen[273]	transitive[273]	*[273]	*[273]	item0[273]	36[393]	male[393]	ifdbjqro2nfkup12rv8t6k0eu9[393]	speaker: YOU[513]	_	_	_	_	_	
+
+#Text=Okay
+87-1	2179-2183	Okay	_	GSuccess[17]	aufnehmen\_set1\_22[17]	latin3[17]	ifdbjqro2nfkup12rv8t6k0eu9-aufnehmen\_set1\_22[17]	_	_	_	_	_	false	NA	okay\_22	*	*	*	*	feedback	*	female	*	speaker:Fiona	_	_	_	_	_	
+
+#Text=gucken wir uns Freitag an
+88-1	2185-2191	gucken	_	GSuccess[17]	aufnehmen\_set1\_22[17]	latin3[17]	ifdbjqro2nfkup12rv8t6k0eu9-aufnehmen\_set1\_22[17]	3	*	*	*	singular	false[154]	Decl[154]	*[274]	*[274]	*[274]	*[274]	*[274]	input1[274]	36[394]	male[394]	ifdbjqro2nfkup12rv8t6k0eu9[394]	speaker: YOU[514]	*->99-2	zero[99]	_	_	_	
+88-2	2192-2195	wir	_	GSuccess[17]	aufnehmen\_set1\_22[17]	latin3[17]	ifdbjqro2nfkup12rv8t6k0eu9-aufnehmen\_set1\_22[17]	1	*	Subj	*	plural	false[154]	Decl[154]	*[274]	*[274]	*[274]	*[274]	*[274]	input1[274]	36[394]	male[394]	ifdbjqro2nfkup12rv8t6k0eu9[394]	speaker: YOU[514]	*->89-1	PerPron[89]	_	_	_	
+88-3	2196-2199	uns	_	GSuccess[17]	aufnehmen\_set1\_22[17]	latin3[17]	ifdbjqro2nfkup12rv8t6k0eu9-aufnehmen\_set1\_22[17]	_	_	_	_	_	false[154]	Decl[154]	*[274]	*[274]	*[274]	*[274]	*[274]	input1[274]	36[394]	male[394]	ifdbjqro2nfkup12rv8t6k0eu9[394]	speaker: YOU[514]	_	_	_	_	_	
+88-4	2200-2207	Freitag	_	GSuccess[17]	aufnehmen\_set1\_22[17]	latin3[17]	ifdbjqro2nfkup12rv8t6k0eu9-aufnehmen\_set1\_22[17]	_	_	_	_	_	false[154]	Decl[154]	*[274]	*[274]	*[274]	*[274]	*[274]	input1[274]	36[394]	male[394]	ifdbjqro2nfkup12rv8t6k0eu9[394]	speaker: YOU[514]	*->5-1	DefNP[5]	_	_	_	
+88-5	2208-2210	an	_	GSuccess[17]	aufnehmen\_set1\_22[17]	latin3[17]	ifdbjqro2nfkup12rv8t6k0eu9-aufnehmen\_set1\_22[17]	_	_	_	_	_	false[154]	Decl[154]	*[274]	*[274]	*[274]	*[274]	*[274]	input1[274]	36[394]	male[394]	ifdbjqro2nfkup12rv8t6k0eu9[394]	speaker: YOU[514]	_	_	_	_	_	
+
+#Text=War cool
+89-1	2212-2215	War	_	GSuccess[17]	aufnehmen\_set1\_22[17]	latin3[17]	ifdbjqro2nfkup12rv8t6k0eu9-aufnehmen\_set1\_22[17]	3	*	*	*	singular	false[155]	Decl[155]	*[275]	*[275]	*[275]	*[275]	*[275]	input2[275]	36[395]	male[395]	ifdbjqro2nfkup12rv8t6k0eu9[395]	speaker: YOU[515]	*->99-3	zero[99]	_	_	_	
+89-2	2216-2220	cool	_	GSuccess[17]	aufnehmen\_set1\_22[17]	latin3[17]	ifdbjqro2nfkup12rv8t6k0eu9-aufnehmen\_set1\_22[17]	_	_	_	_	_	false[155]	Decl[155]	*[275]	*[275]	*[275]	*[275]	*[275]	input2[275]	36[395]	male[395]	ifdbjqro2nfkup12rv8t6k0eu9[395]	speaker: YOU[515]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+90-1	2222-2237	END_OF_DOCUMENT	_	GSuccess[17]	aufnehmen\_set1\_22[17]	latin3[17]	ifdbjqro2nfkup12rv8t6k0eu9-aufnehmen\_set1\_22[17]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+91-1	2239-2245	Hallo,	_	GSuccess[18]	aufnehmen\_set1\_22[18]	latin3[18]	nn1fs9jkn62eo9089lo89usbkb-aufnehmen\_set1\_22[18]	_	_	_	_	_	false[156]	Int[156]	*[276]	*[276]	*[276]	wh\_2[276]	wh\_question[276]	openq[276]	*[396]	female[396]	*[396]	speaker:Fiona[516]	_	_	QAP	*	92-1[157_156]	
+91-2	2246-2249	wie	_	GSuccess[18]	aufnehmen\_set1\_22[18]	latin3[18]	nn1fs9jkn62eo9089lo89usbkb-aufnehmen\_set1\_22[18]	_	_	_	_	_	false[156]	Int[156]	*[276]	*[276]	*[276]	wh\_2[276]	wh\_question[276]	openq[276]	*[396]	female[396]	*[396]	speaker:Fiona[516]	_	_	_	_	_	
+91-3	2250-2257	geht's?	_	GSuccess[18]	aufnehmen\_set1\_22[18]	latin3[18]	nn1fs9jkn62eo9089lo89usbkb-aufnehmen\_set1\_22[18]	_	_	_	_	_	false[156]	Int[156]	*[276]	*[276]	*[276]	wh\_2[276]	wh\_question[276]	openq[276]	*[396]	female[396]	*[396]	speaker:Fiona[516]	_	_	_	_	_	
+
+#Text=Robin hat ein Konzert aufgenommen
+92-1	2259-2264	Robin	_	GSuccess[18]	aufnehmen\_set1\_22[18]	latin3[18]	nn1fs9jkn62eo9089lo89usbkb-aufnehmen\_set1\_22[18]	*	*	Subj	*	*	false[157]	Decl[157]	*[277]	aufnehmen[277]	transitive[277]	*[277]	*[277]	item0[277]	27[397]	female[397]	nn1fs9jkn62eo9089lo89usbkb[397]	speaker: YOU[517]	*->58-1	PropNm[58]	result|acknowledgement	*|*	94-1[158_157]|93-1[0_157]	
+92-2	2265-2268	hat	_	GSuccess[18]	aufnehmen\_set1\_22[18]	latin3[18]	nn1fs9jkn62eo9089lo89usbkb-aufnehmen\_set1\_22[18]	_	_	_	_	_	false[157]	Decl[157]	*[277]	aufnehmen[277]	transitive[277]	*[277]	*[277]	item0[277]	27[397]	female[397]	nn1fs9jkn62eo9089lo89usbkb[397]	speaker: YOU[517]	_	_	_	_	_	
+92-3	2269-2272	ein	_	GSuccess[18]	aufnehmen\_set1\_22[18]	latin3[18]	nn1fs9jkn62eo9089lo89usbkb-aufnehmen\_set1\_22[18]	*[60]	*[60]	object[60]	*[60]	*[60]	false[157]	Decl[157]	*[277]	aufnehmen[277]	transitive[277]	*[277]	*[277]	item0[277]	27[397]	female[397]	nn1fs9jkn62eo9089lo89usbkb[397]	speaker: YOU[517]	*->91-1	IndefNP[91]	_	_	_	
+92-4	2273-2280	Konzert	_	GSuccess[18]	aufnehmen\_set1\_22[18]	latin3[18]	nn1fs9jkn62eo9089lo89usbkb-aufnehmen\_set1\_22[18]	*[60]	*[60]	object[60]	*[60]	*[60]	false[157]	Decl[157]	*[277]	aufnehmen[277]	transitive[277]	*[277]	*[277]	item0[277]	27[397]	female[397]	nn1fs9jkn62eo9089lo89usbkb[397]	speaker: YOU[517]	*->91-1	IndefNP[91]	_	_	_	
+92-5	2281-2292	aufgenommen	_	GSuccess[18]	aufnehmen\_set1\_22[18]	latin3[18]	nn1fs9jkn62eo9089lo89usbkb-aufnehmen\_set1\_22[18]	_	_	_	_	_	false[157]	Decl[157]	*[277]	aufnehmen[277]	transitive[277]	*[277]	*[277]	item0[277]	27[397]	female[397]	nn1fs9jkn62eo9089lo89usbkb[397]	speaker: YOU[517]	_	_	_	_	_	
+
+#Text=Okay
+93-1	2294-2298	Okay	_	GSuccess[18]	aufnehmen\_set1\_22[18]	latin3[18]	nn1fs9jkn62eo9089lo89usbkb-aufnehmen\_set1\_22[18]	_	_	_	_	_	false	NA	okay\_22	*	*	*	*	feedback	*	female	*	speaker:Fiona	_	_	_	_	_	
+
+#Text=Ich bin schon gespannt.
+94-1	2300-2303	Ich	_	GSuccess[18]	aufnehmen\_set1\_22[18]	latin3[18]	nn1fs9jkn62eo9089lo89usbkb-aufnehmen\_set1\_22[18]	1	*	Subj	*	singular	true[158]|false[159]	*[158]|Decl[159]	*[278]	*[278]	*[278]	*[278]	*[278]	input1[278]	27[398]	female[398]	nn1fs9jkn62eo9089lo89usbkb[398]	speaker: YOU[518]	*->71-1	PerPron[71]	explanation	*	95-1[160_159]	
+94-2	2304-2307	bin	_	GSuccess[18]	aufnehmen\_set1\_22[18]	latin3[18]	nn1fs9jkn62eo9089lo89usbkb-aufnehmen\_set1\_22[18]	_	_	_	_	_	true[158]|false[159]	*[158]|Decl[159]	*[278]	*[278]	*[278]	*[278]	*[278]	input1[278]	27[398]	female[398]	nn1fs9jkn62eo9089lo89usbkb[398]	speaker: YOU[518]	_	_	_	_	_	
+94-3	2308-2313	schon	_	GSuccess[18]	aufnehmen\_set1\_22[18]	latin3[18]	nn1fs9jkn62eo9089lo89usbkb-aufnehmen\_set1\_22[18]	_	_	_	_	_	true[158]|false[159]	*[158]|Decl[159]	*[278]	*[278]	*[278]	*[278]	*[278]	input1[278]	27[398]	female[398]	nn1fs9jkn62eo9089lo89usbkb[398]	speaker: YOU[518]	_	_	_	_	_	
+94-4	2314-2323	gespannt.	_	GSuccess[18]	aufnehmen\_set1\_22[18]	latin3[18]	nn1fs9jkn62eo9089lo89usbkb-aufnehmen\_set1\_22[18]	_	_	_	_	_	true[158]|false[159]	*[158]|Decl[159]	*[278]	*[278]	*[278]	*[278]	*[278]	input1[278]	27[398]	female[398]	nn1fs9jkn62eo9089lo89usbkb[398]	speaker: YOU[518]	_	_	_	_	_	
+
+#Text=Morgen sehen wir uns es an.
+95-1	2325-2331	Morgen	_	GSuccess[18]	aufnehmen\_set1\_22[18]	latin3[18]	nn1fs9jkn62eo9089lo89usbkb-aufnehmen\_set1\_22[18]	_	_	_	_	_	true[158]|false[160]	*[158]|Decl[160]	*[279]	*[279]	*[279]	*[279]	*[279]	input2[279]	27[399]	female[399]	nn1fs9jkn62eo9089lo89usbkb[399]	speaker: YOU[519]	_	_	_	_	_	
+95-2	2332-2337	sehen	_	GSuccess[18]	aufnehmen\_set1\_22[18]	latin3[18]	nn1fs9jkn62eo9089lo89usbkb-aufnehmen\_set1\_22[18]	_	_	_	_	_	true[158]|false[160]	*[158]|Decl[160]	*[279]	*[279]	*[279]	*[279]	*[279]	input2[279]	27[399]	female[399]	nn1fs9jkn62eo9089lo89usbkb[399]	speaker: YOU[519]	_	_	_	_	_	
+95-3	2338-2341	wir	_	GSuccess[18]	aufnehmen\_set1\_22[18]	latin3[18]	nn1fs9jkn62eo9089lo89usbkb-aufnehmen\_set1\_22[18]	1	*	Subj	*	plural	true[158]|false[160]	*[158]|Decl[160]	*[279]	*[279]	*[279]	*[279]	*[279]	input2[279]	27[399]	female[399]	nn1fs9jkn62eo9089lo89usbkb[399]	speaker: YOU[519]	*->38-1	PerPron[38]	_	_	_	
+95-4	2342-2345	uns	_	GSuccess[18]	aufnehmen\_set1\_22[18]	latin3[18]	nn1fs9jkn62eo9089lo89usbkb-aufnehmen\_set1\_22[18]	_	_	_	_	_	true[158]|false[160]	*[158]|Decl[160]	*[279]	*[279]	*[279]	*[279]	*[279]	input2[279]	27[399]	female[399]	nn1fs9jkn62eo9089lo89usbkb[399]	speaker: YOU[519]	_	_	_	_	_	
+95-5	2346-2348	es	_	GSuccess[18]	aufnehmen\_set1\_22[18]	latin3[18]	nn1fs9jkn62eo9089lo89usbkb-aufnehmen\_set1\_22[18]	3	*	*	*	singular	true[158]|false[160]	*[158]|Decl[160]	*[279]	*[279]	*[279]	*[279]	*[279]	input2[279]	27[399]	female[399]	nn1fs9jkn62eo9089lo89usbkb[399]	speaker: YOU[519]	*->91-2	PerPron[91]	_	_	_	
+95-6	2349-2352	an.	_	GSuccess[18]	aufnehmen\_set1\_22[18]	latin3[18]	nn1fs9jkn62eo9089lo89usbkb-aufnehmen\_set1\_22[18]	_	_	_	_	_	true[158]|false[160]	*[158]|Decl[160]	*[279]	*[279]	*[279]	*[279]	*[279]	input2[279]	27[399]	female[399]	nn1fs9jkn62eo9089lo89usbkb[399]	speaker: YOU[519]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+96-1	2354-2369	END_OF_DOCUMENT	_	GSuccess[18]	aufnehmen\_set1\_22[18]	latin3[18]	nn1fs9jkn62eo9089lo89usbkb-aufnehmen\_set1\_22[18]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+97-1	2371-2377	Hallo,	_	GSuccess[19]	aufnehmen\_set1\_22[19]	latin3[19]	qaaqp55l485lvs9rdvpvbtmqal-aufnehmen\_set1\_22[19]	_	_	_	_	_	false[161]	Int[161]	*[280]	*[280]	*[280]	wh\_2[280]	wh\_question[280]	openq[280]	*[400]	female[400]	*[400]	speaker:Fiona[520]	_	_	QAP	*	98-1[162_161]	
+97-2	2378-2381	wie	_	GSuccess[19]	aufnehmen\_set1\_22[19]	latin3[19]	qaaqp55l485lvs9rdvpvbtmqal-aufnehmen\_set1\_22[19]	_	_	_	_	_	false[161]	Int[161]	*[280]	*[280]	*[280]	wh\_2[280]	wh\_question[280]	openq[280]	*[400]	female[400]	*[400]	speaker:Fiona[520]	_	_	_	_	_	
+97-3	2382-2389	geht's?	_	GSuccess[19]	aufnehmen\_set1\_22[19]	latin3[19]	qaaqp55l485lvs9rdvpvbtmqal-aufnehmen\_set1\_22[19]	_	_	_	_	_	false[161]	Int[161]	*[280]	*[280]	*[280]	wh\_2[280]	wh\_question[280]	openq[280]	*[400]	female[400]	*[400]	speaker:Fiona[520]	_	_	_	_	_	
+
+#Text=Robin hat ein Konzert aufgenommen
+98-1	2391-2396	Robin	_	GSuccess[19]	aufnehmen\_set1\_22[19]	latin3[19]	qaaqp55l485lvs9rdvpvbtmqal-aufnehmen\_set1\_22[19]	*	*	Subj	*	*	false[162]	Decl[162]	*[281]	aufnehmen[281]	transitive[281]	*[281]	*[281]	item0[281]	24[401]	male[401]	qaaqp55l485lvs9rdvpvbtmqal[401]	speaker: YOU[521]	*->19-1	PropNm[19]	explanation|acknowledgement	*|*	100-1[163_162]|99-1[0_162]	
+98-2	2397-2400	hat	_	GSuccess[19]	aufnehmen\_set1\_22[19]	latin3[19]	qaaqp55l485lvs9rdvpvbtmqal-aufnehmen\_set1\_22[19]	_	_	_	_	_	false[162]	Decl[162]	*[281]	aufnehmen[281]	transitive[281]	*[281]	*[281]	item0[281]	24[401]	male[401]	qaaqp55l485lvs9rdvpvbtmqal[401]	speaker: YOU[521]	_	_	_	_	_	
+98-3	2401-2404	ein	_	GSuccess[19]	aufnehmen\_set1\_22[19]	latin3[19]	qaaqp55l485lvs9rdvpvbtmqal-aufnehmen\_set1\_22[19]	*[61]	*[61]	object[61]	*[61]	*[61]	false[162]	Decl[162]	*[281]	aufnehmen[281]	transitive[281]	*[281]	*[281]	item0[281]	24[401]	male[401]	qaaqp55l485lvs9rdvpvbtmqal[401]	speaker: YOU[521]	*->104-1	IndefNP[104]	_	_	_	
+98-4	2405-2412	Konzert	_	GSuccess[19]	aufnehmen\_set1\_22[19]	latin3[19]	qaaqp55l485lvs9rdvpvbtmqal-aufnehmen\_set1\_22[19]	*[61]	*[61]	object[61]	*[61]	*[61]	false[162]	Decl[162]	*[281]	aufnehmen[281]	transitive[281]	*[281]	*[281]	item0[281]	24[401]	male[401]	qaaqp55l485lvs9rdvpvbtmqal[401]	speaker: YOU[521]	*->104-1	IndefNP[104]	_	_	_	
+98-5	2413-2424	aufgenommen	_	GSuccess[19]	aufnehmen\_set1\_22[19]	latin3[19]	qaaqp55l485lvs9rdvpvbtmqal-aufnehmen\_set1\_22[19]	_	_	_	_	_	false[162]	Decl[162]	*[281]	aufnehmen[281]	transitive[281]	*[281]	*[281]	item0[281]	24[401]	male[401]	qaaqp55l485lvs9rdvpvbtmqal[401]	speaker: YOU[521]	_	_	_	_	_	
+
+#Text=Okay
+99-1	2426-2430	Okay	_	GSuccess[19]	aufnehmen\_set1\_22[19]	latin3[19]	qaaqp55l485lvs9rdvpvbtmqal-aufnehmen\_set1\_22[19]	_	_	_	_	_	false	NA	okay\_22	*	*	*	*	feedback	*	female	*	speaker:Fiona	_	_	_	_	_	
+
+#Text=Er war letzte Woche auf dem großen Rockkonzert in der Stadt
+100-1	2432-2434	Er	_	GSuccess[19]	aufnehmen\_set1\_22[19]	latin3[19]	qaaqp55l485lvs9rdvpvbtmqal-aufnehmen\_set1\_22[19]	3	*	Subj	*	singular	false[163]	Decl[163]	*[282]	*[282]	*[282]	*[282]	*[282]	input1[282]	24[402]	male[402]	qaaqp55l485lvs9rdvpvbtmqal[402]	speaker: YOU[522]	*->3-1|*->19-2	clause[3]|PerPron[19]	result	*	101-1[164_163]	
+100-2	2435-2438	war	_	GSuccess[19]	aufnehmen\_set1\_22[19]	latin3[19]	qaaqp55l485lvs9rdvpvbtmqal-aufnehmen\_set1\_22[19]	_	_	_	_	_	false[163]	Decl[163]	*[282]	*[282]	*[282]	*[282]	*[282]	input1[282]	24[402]	male[402]	qaaqp55l485lvs9rdvpvbtmqal[402]	speaker: YOU[522]	*->3-1	clause[3]	_	_	_	
+100-3	2439-2445	letzte	_	GSuccess[19]	aufnehmen\_set1\_22[19]	latin3[19]	qaaqp55l485lvs9rdvpvbtmqal-aufnehmen\_set1\_22[19]	_	_	_	_	_	false[163]	Decl[163]	*[282]	*[282]	*[282]	*[282]	*[282]	input1[282]	24[402]	male[402]	qaaqp55l485lvs9rdvpvbtmqal[402]	speaker: YOU[522]	*->3-1|*->94-1	clause[3]|DefNP[94]	_	_	_	
+100-4	2446-2451	Woche	_	GSuccess[19]	aufnehmen\_set1\_22[19]	latin3[19]	qaaqp55l485lvs9rdvpvbtmqal-aufnehmen\_set1\_22[19]	_	_	_	_	_	false[163]	Decl[163]	*[282]	*[282]	*[282]	*[282]	*[282]	input1[282]	24[402]	male[402]	qaaqp55l485lvs9rdvpvbtmqal[402]	speaker: YOU[522]	*->3-1|*->94-1	clause[3]|DefNP[94]	_	_	_	
+100-5	2452-2455	auf	_	GSuccess[19]	aufnehmen\_set1\_22[19]	latin3[19]	qaaqp55l485lvs9rdvpvbtmqal-aufnehmen\_set1\_22[19]	_	_	_	_	_	false[163]	Decl[163]	*[282]	*[282]	*[282]	*[282]	*[282]	input1[282]	24[402]	male[402]	qaaqp55l485lvs9rdvpvbtmqal[402]	speaker: YOU[522]	*->3-1	clause[3]	_	_	_	
+100-6	2456-2459	dem	_	GSuccess[19]	aufnehmen\_set1\_22[19]	latin3[19]	qaaqp55l485lvs9rdvpvbtmqal-aufnehmen\_set1\_22[19]	*[62]	*[62]	PrepObj[62]	*[62]	*[62]	false[163]	Decl[163]	*[282]	*[282]	*[282]	*[282]	*[282]	input1[282]	24[402]	male[402]	qaaqp55l485lvs9rdvpvbtmqal[402]	speaker: YOU[522]	*->3-1|*->104-2	clause[3]|DefNP[104]	_	_	_	
+100-7	2460-2466	großen	_	GSuccess[19]	aufnehmen\_set1\_22[19]	latin3[19]	qaaqp55l485lvs9rdvpvbtmqal-aufnehmen\_set1\_22[19]	*[62]	*[62]	PrepObj[62]	*[62]	*[62]	false[163]	Decl[163]	*[282]	*[282]	*[282]	*[282]	*[282]	input1[282]	24[402]	male[402]	qaaqp55l485lvs9rdvpvbtmqal[402]	speaker: YOU[522]	*->3-1|*->104-2	clause[3]|DefNP[104]	_	_	_	
+100-8	2467-2478	Rockkonzert	_	GSuccess[19]	aufnehmen\_set1\_22[19]	latin3[19]	qaaqp55l485lvs9rdvpvbtmqal-aufnehmen\_set1\_22[19]	*[62]	*[62]	PrepObj[62]	*[62]	*[62]	false[163]	Decl[163]	*[282]	*[282]	*[282]	*[282]	*[282]	input1[282]	24[402]	male[402]	qaaqp55l485lvs9rdvpvbtmqal[402]	speaker: YOU[522]	*->3-1|*->104-2	clause[3]|DefNP[104]	_	_	_	
+100-9	2479-2481	in	_	GSuccess[19]	aufnehmen\_set1\_22[19]	latin3[19]	qaaqp55l485lvs9rdvpvbtmqal-aufnehmen\_set1\_22[19]	_	_	_	_	_	false[163]	Decl[163]	*[282]	*[282]	*[282]	*[282]	*[282]	input1[282]	24[402]	male[402]	qaaqp55l485lvs9rdvpvbtmqal[402]	speaker: YOU[522]	*->3-1	clause[3]	_	_	_	
+100-10	2482-2485	der	_	GSuccess[19]	aufnehmen\_set1\_22[19]	latin3[19]	qaaqp55l485lvs9rdvpvbtmqal-aufnehmen\_set1\_22[19]	*[63]	*[63]	PrepObj[63]	*[63]	*[63]	false[163]	Decl[163]	*[282]	*[282]	*[282]	*[282]	*[282]	input1[282]	24[402]	male[402]	qaaqp55l485lvs9rdvpvbtmqal[402]	speaker: YOU[522]	*->3-1|*->117-1	clause[3]|DefNP[117]	_	_	_	
+100-11	2486-2491	Stadt	_	GSuccess[19]	aufnehmen\_set1\_22[19]	latin3[19]	qaaqp55l485lvs9rdvpvbtmqal-aufnehmen\_set1\_22[19]	*[63]	*[63]	PrepObj[63]	*[63]	*[63]	false[163]	Decl[163]	*[282]	*[282]	*[282]	*[282]	*[282]	input1[282]	24[402]	male[402]	qaaqp55l485lvs9rdvpvbtmqal[402]	speaker: YOU[522]	*->3-1|*->117-1	clause[3]|DefNP[117]	_	_	_	
+
+#Text=Deshalb konnte er auch nicht auf die Familienfeier kommen
+101-1	2493-2500	Deshalb	_	GSuccess[19]	aufnehmen\_set1\_22[19]	latin3[19]	qaaqp55l485lvs9rdvpvbtmqal-aufnehmen\_set1\_22[19]	_	_	_	_	_	false[164]	Decl[164]	*[283]	*[283]	*[283]	*[283]	*[283]	input2[283]	24[403]	male[403]	qaaqp55l485lvs9rdvpvbtmqal[403]	speaker: YOU[523]	*->3-2	DemPron[3]	_	_	_	
+101-2	2501-2507	konnte	_	GSuccess[19]	aufnehmen\_set1\_22[19]	latin3[19]	qaaqp55l485lvs9rdvpvbtmqal-aufnehmen\_set1\_22[19]	_	_	_	_	_	false[164]	Decl[164]	*[283]	*[283]	*[283]	*[283]	*[283]	input2[283]	24[403]	male[403]	qaaqp55l485lvs9rdvpvbtmqal[403]	speaker: YOU[523]	_	_	_	_	_	
+101-3	2508-2510	er	_	GSuccess[19]	aufnehmen\_set1\_22[19]	latin3[19]	qaaqp55l485lvs9rdvpvbtmqal-aufnehmen\_set1\_22[19]	3	*	Subj	*	singular	false[164]	Decl[164]	*[283]	*[283]	*[283]	*[283]	*[283]	input2[283]	24[403]	male[403]	qaaqp55l485lvs9rdvpvbtmqal[403]	speaker: YOU[523]	*->19-3	PerPron[19]	_	_	_	
+101-4	2511-2515	auch	_	GSuccess[19]	aufnehmen\_set1\_22[19]	latin3[19]	qaaqp55l485lvs9rdvpvbtmqal-aufnehmen\_set1\_22[19]	_	_	_	_	_	false[164]	Decl[164]	*[283]	*[283]	*[283]	*[283]	*[283]	input2[283]	24[403]	male[403]	qaaqp55l485lvs9rdvpvbtmqal[403]	speaker: YOU[523]	_	_	_	_	_	
+101-5	2516-2521	nicht	_	GSuccess[19]	aufnehmen\_set1\_22[19]	latin3[19]	qaaqp55l485lvs9rdvpvbtmqal-aufnehmen\_set1\_22[19]	_	_	_	_	_	false[164]	Decl[164]	*[283]	*[283]	*[283]	*[283]	*[283]	input2[283]	24[403]	male[403]	qaaqp55l485lvs9rdvpvbtmqal[403]	speaker: YOU[523]	_	_	_	_	_	
+101-6	2522-2525	auf	_	GSuccess[19]	aufnehmen\_set1\_22[19]	latin3[19]	qaaqp55l485lvs9rdvpvbtmqal-aufnehmen\_set1\_22[19]	_	_	_	_	_	false[164]	Decl[164]	*[283]	*[283]	*[283]	*[283]	*[283]	input2[283]	24[403]	male[403]	qaaqp55l485lvs9rdvpvbtmqal[403]	speaker: YOU[523]	_	_	_	_	_	
+101-7	2526-2529	die	_	GSuccess[19]	aufnehmen\_set1\_22[19]	latin3[19]	qaaqp55l485lvs9rdvpvbtmqal-aufnehmen\_set1\_22[19]	*[64]	*[64]	PrepObj[64]	*[64]	*[64]	false[164]	Decl[164]	*[283]	*[283]	*[283]	*[283]	*[283]	input2[283]	24[403]	male[403]	qaaqp55l485lvs9rdvpvbtmqal[403]	speaker: YOU[523]	*->88-1	DefNP[88]	_	_	_	
+101-8	2530-2543	Familienfeier	_	GSuccess[19]	aufnehmen\_set1\_22[19]	latin3[19]	qaaqp55l485lvs9rdvpvbtmqal-aufnehmen\_set1\_22[19]	*[64]	*[64]	PrepObj[64]	*[64]	*[64]	false[164]	Decl[164]	*[283]	*[283]	*[283]	*[283]	*[283]	input2[283]	24[403]	male[403]	qaaqp55l485lvs9rdvpvbtmqal[403]	speaker: YOU[523]	*->88-1	DefNP[88]	_	_	_	
+101-9	2544-2550	kommen	_	GSuccess[19]	aufnehmen\_set1\_22[19]	latin3[19]	qaaqp55l485lvs9rdvpvbtmqal-aufnehmen\_set1\_22[19]	_	_	_	_	_	false[164]	Decl[164]	*[283]	*[283]	*[283]	*[283]	*[283]	input2[283]	24[403]	male[403]	qaaqp55l485lvs9rdvpvbtmqal[403]	speaker: YOU[523]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+102-1	2552-2567	END_OF_DOCUMENT	_	GSuccess[19]	aufnehmen\_set1\_22[19]	latin3[19]	qaaqp55l485lvs9rdvpvbtmqal-aufnehmen\_set1\_22[19]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+103-1	2569-2575	Hallo,	_	GSuccess[20]	aufnehmen\_set1\_22[20]	latin3[20]	t6ah1r7hfmcncb44kgnh0sjmv6-aufnehmen\_set1\_22[20]	_	_	_	_	_	false[165]	Int[165]	*[284]	*[284]	*[284]	wh\_2[284]	wh\_question[284]	openq[284]	*[404]	female[404]	*[404]	speaker:Fiona[524]	_	_	QAP	*	104-1[166_165]	
+103-2	2576-2579	wie	_	GSuccess[20]	aufnehmen\_set1\_22[20]	latin3[20]	t6ah1r7hfmcncb44kgnh0sjmv6-aufnehmen\_set1\_22[20]	_	_	_	_	_	false[165]	Int[165]	*[284]	*[284]	*[284]	wh\_2[284]	wh\_question[284]	openq[284]	*[404]	female[404]	*[404]	speaker:Fiona[524]	_	_	_	_	_	
+103-3	2580-2587	geht's?	_	GSuccess[20]	aufnehmen\_set1\_22[20]	latin3[20]	t6ah1r7hfmcncb44kgnh0sjmv6-aufnehmen\_set1\_22[20]	_	_	_	_	_	false[165]	Int[165]	*[284]	*[284]	*[284]	wh\_2[284]	wh\_question[284]	openq[284]	*[404]	female[404]	*[404]	speaker:Fiona[524]	_	_	_	_	_	
+
+#Text=Robin hat ein Konzert aufgenommen
+104-1	2589-2594	Robin	_	GSuccess[20]	aufnehmen\_set1\_22[20]	latin3[20]	t6ah1r7hfmcncb44kgnh0sjmv6-aufnehmen\_set1\_22[20]	*	*	Subj	*	*	false[166]	Decl[166]	*[285]	aufnehmen[285]	transitive[285]	*[285]	*[285]	item0[285]	25[405]	female[405]	t6ah1r7hfmcncb44kgnh0sjmv6[405]	speaker: YOU[525]	*->67-1	PropNm[67]	result|acknowledgement	*|*	106-1[167_166]|105-1[0_166]	
+104-2	2595-2598	hat	_	GSuccess[20]	aufnehmen\_set1\_22[20]	latin3[20]	t6ah1r7hfmcncb44kgnh0sjmv6-aufnehmen\_set1\_22[20]	_	_	_	_	_	false[166]	Decl[166]	*[285]	aufnehmen[285]	transitive[285]	*[285]	*[285]	item0[285]	25[405]	female[405]	t6ah1r7hfmcncb44kgnh0sjmv6[405]	speaker: YOU[525]	_	_	_	_	_	
+104-3	2599-2602	ein	_	GSuccess[20]	aufnehmen\_set1\_22[20]	latin3[20]	t6ah1r7hfmcncb44kgnh0sjmv6-aufnehmen\_set1\_22[20]	*[65]	*[65]	object[65]	*[65]	*[65]	false[166]	Decl[166]	*[285]	aufnehmen[285]	transitive[285]	*[285]	*[285]	item0[285]	25[405]	female[405]	t6ah1r7hfmcncb44kgnh0sjmv6[405]	speaker: YOU[525]	*->76-1	IndefNP[76]	_	_	_	
+104-4	2603-2610	Konzert	_	GSuccess[20]	aufnehmen\_set1\_22[20]	latin3[20]	t6ah1r7hfmcncb44kgnh0sjmv6-aufnehmen\_set1\_22[20]	*[65]	*[65]	object[65]	*[65]	*[65]	false[166]	Decl[166]	*[285]	aufnehmen[285]	transitive[285]	*[285]	*[285]	item0[285]	25[405]	female[405]	t6ah1r7hfmcncb44kgnh0sjmv6[405]	speaker: YOU[525]	*->76-1	IndefNP[76]	_	_	_	
+104-5	2611-2622	aufgenommen	_	GSuccess[20]	aufnehmen\_set1\_22[20]	latin3[20]	t6ah1r7hfmcncb44kgnh0sjmv6-aufnehmen\_set1\_22[20]	_	_	_	_	_	false[166]	Decl[166]	*[285]	aufnehmen[285]	transitive[285]	*[285]	*[285]	item0[285]	25[405]	female[405]	t6ah1r7hfmcncb44kgnh0sjmv6[405]	speaker: YOU[525]	_	_	_	_	_	
+
+#Text=Okay
+105-1	2624-2628	Okay	_	GSuccess[20]	aufnehmen\_set1\_22[20]	latin3[20]	t6ah1r7hfmcncb44kgnh0sjmv6-aufnehmen\_set1\_22[20]	_	_	_	_	_	false	NA	okay\_22	*	*	*	*	feedback	*	female	*	speaker:Fiona	_	_	_	_	_	
+
+#Text=Möchtest du es hören?
+106-1	2630-2638	Möchtest	_	GSuccess[20]	aufnehmen\_set1\_22[20]	latin3[20]	t6ah1r7hfmcncb44kgnh0sjmv6-aufnehmen\_set1\_22[20]	_	_	_	_	_	false[167]	Int[167]	*[286]	*[286]	*[286]	*[286]	*[286]	input1[286]	25[406]	female[406]	t6ah1r7hfmcncb44kgnh0sjmv6[406]	speaker: YOU[526]	_	_	explanation	*	107-1[168_167]	
+106-2	2639-2641	du	_	GSuccess[20]	aufnehmen\_set1\_22[20]	latin3[20]	t6ah1r7hfmcncb44kgnh0sjmv6-aufnehmen\_set1\_22[20]	2	*	Subj	*	singular	false[167]	Int[167]	*[286]	*[286]	*[286]	*[286]	*[286]	input1[286]	25[406]	female[406]	t6ah1r7hfmcncb44kgnh0sjmv6[406]	speaker: YOU[526]	*->101-1	PerPron[101]	_	_	_	
+106-3	2642-2644	es	_	GSuccess[20]	aufnehmen\_set1\_22[20]	latin3[20]	t6ah1r7hfmcncb44kgnh0sjmv6-aufnehmen\_set1\_22[20]	3	*	DirObj	*	singular	false[167]	Int[167]	*[286]	*[286]	*[286]	*[286]	*[286]	input1[286]	25[406]	female[406]	t6ah1r7hfmcncb44kgnh0sjmv6[406]	speaker: YOU[526]	*->76-2	PerPron[76]	_	_	_	
+106-4	2645-2651	hören?	_	GSuccess[20]	aufnehmen\_set1\_22[20]	latin3[20]	t6ah1r7hfmcncb44kgnh0sjmv6-aufnehmen\_set1\_22[20]	_	_	_	_	_	false[167]	Int[167]	*[286]	*[286]	*[286]	*[286]	*[286]	input1[286]	25[406]	female[406]	t6ah1r7hfmcncb44kgnh0sjmv6[406]	speaker: YOU[526]	_	_	_	_	_	
+
+#Text=Ein paar Songs sind echt gut!
+107-1	2653-2656	Ein	_	GSuccess[20]	aufnehmen\_set1\_22[20]	latin3[20]	t6ah1r7hfmcncb44kgnh0sjmv6-aufnehmen\_set1\_22[20]	*[66]	*[66]	Subj[66]	*[66]	*[66]	false[168]	Decl[168]	*[287]	*[287]	*[287]	*[287]	*[287]	input2[287]	25[407]	female[407]	t6ah1r7hfmcncb44kgnh0sjmv6[407]	speaker: YOU[527]	*->72-1	IndefNP[72]	_	_	_	
+107-2	2657-2661	paar	_	GSuccess[20]	aufnehmen\_set1\_22[20]	latin3[20]	t6ah1r7hfmcncb44kgnh0sjmv6-aufnehmen\_set1\_22[20]	*[66]	*[66]	Subj[66]	*[66]	*[66]	false[168]	Decl[168]	*[287]	*[287]	*[287]	*[287]	*[287]	input2[287]	25[407]	female[407]	t6ah1r7hfmcncb44kgnh0sjmv6[407]	speaker: YOU[527]	*->72-1	IndefNP[72]	_	_	_	
+107-3	2662-2667	Songs	_	GSuccess[20]	aufnehmen\_set1\_22[20]	latin3[20]	t6ah1r7hfmcncb44kgnh0sjmv6-aufnehmen\_set1\_22[20]	*[66]	*[66]	Subj[66]	*[66]	*[66]	false[168]	Decl[168]	*[287]	*[287]	*[287]	*[287]	*[287]	input2[287]	25[407]	female[407]	t6ah1r7hfmcncb44kgnh0sjmv6[407]	speaker: YOU[527]	*->72-1	IndefNP[72]	_	_	_	
+107-4	2668-2672	sind	_	GSuccess[20]	aufnehmen\_set1\_22[20]	latin3[20]	t6ah1r7hfmcncb44kgnh0sjmv6-aufnehmen\_set1\_22[20]	_	_	_	_	_	false[168]	Decl[168]	*[287]	*[287]	*[287]	*[287]	*[287]	input2[287]	25[407]	female[407]	t6ah1r7hfmcncb44kgnh0sjmv6[407]	speaker: YOU[527]	_	_	_	_	_	
+107-5	2673-2677	echt	_	GSuccess[20]	aufnehmen\_set1\_22[20]	latin3[20]	t6ah1r7hfmcncb44kgnh0sjmv6-aufnehmen\_set1\_22[20]	_	_	_	_	_	false[168]	Decl[168]	*[287]	*[287]	*[287]	*[287]	*[287]	input2[287]	25[407]	female[407]	t6ah1r7hfmcncb44kgnh0sjmv6[407]	speaker: YOU[527]	_	_	_	_	_	
+107-6	2678-2682	gut!	_	GSuccess[20]	aufnehmen\_set1\_22[20]	latin3[20]	t6ah1r7hfmcncb44kgnh0sjmv6-aufnehmen\_set1\_22[20]	_	_	_	_	_	false[168]	Decl[168]	*[287]	*[287]	*[287]	*[287]	*[287]	input2[287]	25[407]	female[407]	t6ah1r7hfmcncb44kgnh0sjmv6[407]	speaker: YOU[527]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+108-1	2684-2699	END_OF_DOCUMENT	_	GSuccess[20]	aufnehmen\_set1\_22[20]	latin3[20]	t6ah1r7hfmcncb44kgnh0sjmv6-aufnehmen\_set1\_22[20]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+109-1	2701-2707	Hallo,	_	GSuccess[21]	aufnehmen\_set1\_22[21]	latin3[21]	ue2vk0ts1hkpki58vsa3j8t39j-aufnehmen\_set1\_22[21]	_	_	_	_	_	false[169]	Int[169]	*[288]	*[288]	*[288]	wh\_2[288]	wh\_question[288]	openq[288]	*[408]	female[408]	*[408]	speaker:Fiona[528]	_	_	parallel|QAP	*|*	112-1[171_169]|110-1[170_169]	
+109-2	2708-2711	wie	_	GSuccess[21]	aufnehmen\_set1\_22[21]	latin3[21]	ue2vk0ts1hkpki58vsa3j8t39j-aufnehmen\_set1\_22[21]	_	_	_	_	_	false[169]	Int[169]	*[288]	*[288]	*[288]	wh\_2[288]	wh\_question[288]	openq[288]	*[408]	female[408]	*[408]	speaker:Fiona[528]	_	_	_	_	_	
+109-3	2712-2719	geht's?	_	GSuccess[21]	aufnehmen\_set1\_22[21]	latin3[21]	ue2vk0ts1hkpki58vsa3j8t39j-aufnehmen\_set1\_22[21]	_	_	_	_	_	false[169]	Int[169]	*[288]	*[288]	*[288]	wh\_2[288]	wh\_question[288]	openq[288]	*[408]	female[408]	*[408]	speaker:Fiona[528]	_	_	_	_	_	
+
+#Text=Robin hat ein Konzert aufgenommen
+110-1	2721-2726	Robin	_	GSuccess[21]	aufnehmen\_set1\_22[21]	latin3[21]	ue2vk0ts1hkpki58vsa3j8t39j-aufnehmen\_set1\_22[21]	*	*	Subj	*	*	false[170]	Decl[170]	*[289]	aufnehmen[289]	transitive[289]	*[289]	*[289]	item0[289]	29[409]	female[409]	ue2vk0ts1hkpki58vsa3j8t39j[409]	speaker: YOU[529]	*->100-1	PropNm[100]	acknowledgement	*	111-1[0_170]	
+110-2	2727-2730	hat	_	GSuccess[21]	aufnehmen\_set1\_22[21]	latin3[21]	ue2vk0ts1hkpki58vsa3j8t39j-aufnehmen\_set1\_22[21]	_	_	_	_	_	false[170]	Decl[170]	*[289]	aufnehmen[289]	transitive[289]	*[289]	*[289]	item0[289]	29[409]	female[409]	ue2vk0ts1hkpki58vsa3j8t39j[409]	speaker: YOU[529]	_	_	_	_	_	
+110-3	2731-2734	ein	_	GSuccess[21]	aufnehmen\_set1\_22[21]	latin3[21]	ue2vk0ts1hkpki58vsa3j8t39j-aufnehmen\_set1\_22[21]	*[67]	*[67]	object[67]	*[67]	*[67]	false[170]	Decl[170]	*[289]	aufnehmen[289]	transitive[289]	*[289]	*[289]	item0[289]	29[409]	female[409]	ue2vk0ts1hkpki58vsa3j8t39j[409]	speaker: YOU[529]	*->87-1	IndefNP[87]	_	_	_	
+110-4	2735-2742	Konzert	_	GSuccess[21]	aufnehmen\_set1\_22[21]	latin3[21]	ue2vk0ts1hkpki58vsa3j8t39j-aufnehmen\_set1\_22[21]	*[67]	*[67]	object[67]	*[67]	*[67]	false[170]	Decl[170]	*[289]	aufnehmen[289]	transitive[289]	*[289]	*[289]	item0[289]	29[409]	female[409]	ue2vk0ts1hkpki58vsa3j8t39j[409]	speaker: YOU[529]	*->87-1	IndefNP[87]	_	_	_	
+110-5	2743-2754	aufgenommen	_	GSuccess[21]	aufnehmen\_set1\_22[21]	latin3[21]	ue2vk0ts1hkpki58vsa3j8t39j-aufnehmen\_set1\_22[21]	_	_	_	_	_	false[170]	Decl[170]	*[289]	aufnehmen[289]	transitive[289]	*[289]	*[289]	item0[289]	29[409]	female[409]	ue2vk0ts1hkpki58vsa3j8t39j[409]	speaker: YOU[529]	_	_	_	_	_	
+
+#Text=Okay
+111-1	2756-2760	Okay	_	GSuccess[21]	aufnehmen\_set1\_22[21]	latin3[21]	ue2vk0ts1hkpki58vsa3j8t39j-aufnehmen\_set1\_22[21]	_	_	_	_	_	false	NA	okay\_22	*	*	*	*	feedback	*	female	*	speaker:Fiona	_	_	_	_	_	
+
+#Text=Wie geht's dir?
+112-1	2762-2765	Wie	_	GSuccess[21]	aufnehmen\_set1\_22[21]	latin3[21]	ue2vk0ts1hkpki58vsa3j8t39j-aufnehmen\_set1\_22[21]	_	_	_	_	_	false[171]	Int[171]	*[290]	*[290]	*[290]	*[290]	*[290]	input1[290]	29[410]	female[410]	ue2vk0ts1hkpki58vsa3j8t39j[410]	speaker: YOU[530]	_	_	elaboration	*	113-1[172_171]	
+112-2	2766-2772	geht's	_	GSuccess[21]	aufnehmen\_set1\_22[21]	latin3[21]	ue2vk0ts1hkpki58vsa3j8t39j-aufnehmen\_set1\_22[21]	_	_	_	_	_	false[171]	Int[171]	*[290]	*[290]	*[290]	*[290]	*[290]	input1[290]	29[410]	female[410]	ue2vk0ts1hkpki58vsa3j8t39j[410]	speaker: YOU[530]	_	_	_	_	_	
+112-3	2773-2777	dir?	_	GSuccess[21]	aufnehmen\_set1\_22[21]	latin3[21]	ue2vk0ts1hkpki58vsa3j8t39j-aufnehmen\_set1\_22[21]	2	*	IndirObj	*	singular	false[171]	Int[171]	*[290]	*[290]	*[290]	*[290]	*[290]	input1[290]	29[410]	female[410]	ue2vk0ts1hkpki58vsa3j8t39j[410]	speaker: YOU[530]	*->110-1	PerPron[110]	_	_	_	
+
+#Text=Alles fit?
+113-1	2779-2784	Alles	_	GSuccess[21]	aufnehmen\_set1\_22[21]	latin3[21]	ue2vk0ts1hkpki58vsa3j8t39j-aufnehmen\_set1\_22[21]	_	_	_	_	_	false[172]	NA[172]	*[291]	*[291]	*[291]	*[291]	*[291]	input2[291]	29[411]	female[411]	ue2vk0ts1hkpki58vsa3j8t39j[411]	speaker: YOU[531]	*->65-1	Allquantor[65]	_	_	_	
+113-2	2785-2789	fit?	_	GSuccess[21]	aufnehmen\_set1\_22[21]	latin3[21]	ue2vk0ts1hkpki58vsa3j8t39j-aufnehmen\_set1\_22[21]	_	_	_	_	_	false[172]	NA[172]	*[291]	*[291]	*[291]	*[291]	*[291]	input2[291]	29[411]	female[411]	ue2vk0ts1hkpki58vsa3j8t39j[411]	speaker: YOU[531]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+114-1	2791-2806	END_OF_DOCUMENT	_	GSuccess[21]	aufnehmen\_set1\_22[21]	latin3[21]	ue2vk0ts1hkpki58vsa3j8t39j-aufnehmen\_set1\_22[21]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+115-1	2808-2814	Hallo,	_	GSuccess[22]	aufnehmen\_set1\_22[22]	latin3[22]	v3le8i0hm1ekj0ps9oou7k56t5-aufnehmen\_set1\_22[22]	_	_	_	_	_	false[173]	Int[173]	*[292]	*[292]	*[292]	wh\_2[292]	wh\_question[292]	openq[292]	*[412]	female[412]	*[412]	speaker:Fiona[532]	_	_	QAP	*	116-1[174_173]	
+115-2	2815-2818	wie	_	GSuccess[22]	aufnehmen\_set1\_22[22]	latin3[22]	v3le8i0hm1ekj0ps9oou7k56t5-aufnehmen\_set1\_22[22]	_	_	_	_	_	false[173]	Int[173]	*[292]	*[292]	*[292]	wh\_2[292]	wh\_question[292]	openq[292]	*[412]	female[412]	*[412]	speaker:Fiona[532]	_	_	_	_	_	
+115-3	2819-2826	geht's?	_	GSuccess[22]	aufnehmen\_set1\_22[22]	latin3[22]	v3le8i0hm1ekj0ps9oou7k56t5-aufnehmen\_set1\_22[22]	_	_	_	_	_	false[173]	Int[173]	*[292]	*[292]	*[292]	wh\_2[292]	wh\_question[292]	openq[292]	*[412]	female[412]	*[412]	speaker:Fiona[532]	_	_	_	_	_	
+
+#Text=Robin hat ein Konzert aufgenommen
+116-1	2828-2833	Robin	_	GSuccess[22]	aufnehmen\_set1\_22[22]	latin3[22]	v3le8i0hm1ekj0ps9oou7k56t5-aufnehmen\_set1\_22[22]	*	*	Subj	*	*	false[174]	Decl[174]	*[293]	aufnehmen[293]	transitive[293]	*[293]	*[293]	item0[293]	58[413]	male[413]	v3le8i0hm1ekj0ps9oou7k56t5[413]	speaker: YOU[533]	*->12-1	PropNm[12]	result|acknowledgement	*|*	118-1[175_174]|117-1[0_174]	
+116-2	2834-2837	hat	_	GSuccess[22]	aufnehmen\_set1\_22[22]	latin3[22]	v3le8i0hm1ekj0ps9oou7k56t5-aufnehmen\_set1\_22[22]	_	_	_	_	_	false[174]	Decl[174]	*[293]	aufnehmen[293]	transitive[293]	*[293]	*[293]	item0[293]	58[413]	male[413]	v3le8i0hm1ekj0ps9oou7k56t5[413]	speaker: YOU[533]	_	_	_	_	_	
+116-3	2838-2841	ein	_	GSuccess[22]	aufnehmen\_set1\_22[22]	latin3[22]	v3le8i0hm1ekj0ps9oou7k56t5-aufnehmen\_set1\_22[22]	*[68]	*[68]	object[68]	*[68]	*[68]	false[174]	Decl[174]	*[293]	aufnehmen[293]	transitive[293]	*[293]	*[293]	item0[293]	58[413]	male[413]	v3le8i0hm1ekj0ps9oou7k56t5[413]	speaker: YOU[533]	*->81-1	IndefNP[81]	_	_	_	
+116-4	2842-2849	Konzert	_	GSuccess[22]	aufnehmen\_set1\_22[22]	latin3[22]	v3le8i0hm1ekj0ps9oou7k56t5-aufnehmen\_set1\_22[22]	*[68]	*[68]	object[68]	*[68]	*[68]	false[174]	Decl[174]	*[293]	aufnehmen[293]	transitive[293]	*[293]	*[293]	item0[293]	58[413]	male[413]	v3le8i0hm1ekj0ps9oou7k56t5[413]	speaker: YOU[533]	*->81-1	IndefNP[81]	_	_	_	
+116-5	2850-2861	aufgenommen	_	GSuccess[22]	aufnehmen\_set1\_22[22]	latin3[22]	v3le8i0hm1ekj0ps9oou7k56t5-aufnehmen\_set1\_22[22]	_	_	_	_	_	false[174]	Decl[174]	*[293]	aufnehmen[293]	transitive[293]	*[293]	*[293]	item0[293]	58[413]	male[413]	v3le8i0hm1ekj0ps9oou7k56t5[413]	speaker: YOU[533]	_	_	_	_	_	
+
+#Text=Okay
+117-1	2863-2867	Okay	_	GSuccess[22]	aufnehmen\_set1\_22[22]	latin3[22]	v3le8i0hm1ekj0ps9oou7k56t5-aufnehmen\_set1\_22[22]	_	_	_	_	_	false	NA	okay\_22	*	*	*	*	feedback	*	female	*	speaker:Fiona	_	_	_	_	_	
+
+#Text=willst du auch eine kopie ?
+118-1	2869-2875	willst	_	GSuccess[22]	aufnehmen\_set1\_22[22]	latin3[22]	v3le8i0hm1ekj0ps9oou7k56t5-aufnehmen\_set1\_22[22]	_	_	_	_	_	false[175]	Int[175]	*[294]	*[294]	*[294]	*[294]	*[294]	input1[294]	58[414]	male[414]	v3le8i0hm1ekj0ps9oou7k56t5[414]	speaker: YOU[534]	_	_	elaboration	*	119-1[176_175]	
+118-2	2876-2878	du	_	GSuccess[22]	aufnehmen\_set1\_22[22]	latin3[22]	v3le8i0hm1ekj0ps9oou7k56t5-aufnehmen\_set1\_22[22]	2	*	Subj	*	singular	false[175]	Int[175]	*[294]	*[294]	*[294]	*[294]	*[294]	input1[294]	58[414]	male[414]	v3le8i0hm1ekj0ps9oou7k56t5[414]	speaker: YOU[534]	*->50-1	PerPron[50]	_	_	_	
+118-3	2879-2883	auch	_	GSuccess[22]	aufnehmen\_set1\_22[22]	latin3[22]	v3le8i0hm1ekj0ps9oou7k56t5-aufnehmen\_set1\_22[22]	_	_	_	_	_	false[175]	Int[175]	*[294]	*[294]	*[294]	*[294]	*[294]	input1[294]	58[414]	male[414]	v3le8i0hm1ekj0ps9oou7k56t5[414]	speaker: YOU[534]	_	_	_	_	_	
+118-4	2884-2888	eine	_	GSuccess[22]	aufnehmen\_set1\_22[22]	latin3[22]	v3le8i0hm1ekj0ps9oou7k56t5-aufnehmen\_set1\_22[22]	*[69]	*[69]	DirObj[69]	*[69]	*[69]	false[175]	Int[175]	*[294]	*[294]	*[294]	*[294]	*[294]	input1[294]	58[414]	male[414]	v3le8i0hm1ekj0ps9oou7k56t5[414]	speaker: YOU[534]	*->95-1	IndefNP[95]	_	_	_	
+118-5	2889-2894	kopie	_	GSuccess[22]	aufnehmen\_set1\_22[22]	latin3[22]	v3le8i0hm1ekj0ps9oou7k56t5-aufnehmen\_set1\_22[22]	*[69]	*[69]	DirObj[69]	*[69]	*[69]	false[175]	Int[175]	*[294]	*[294]	*[294]	*[294]	*[294]	input1[294]	58[414]	male[414]	v3le8i0hm1ekj0ps9oou7k56t5[414]	speaker: YOU[534]	*->95-1	IndefNP[95]	_	_	_	
+118-6	2895-2896	?	_	GSuccess[22]	aufnehmen\_set1\_22[22]	latin3[22]	v3le8i0hm1ekj0ps9oou7k56t5-aufnehmen\_set1\_22[22]	_	_	_	_	_	false[175]	Int[175]	*[294]	*[294]	*[294]	*[294]	*[294]	input1[294]	58[414]	male[414]	v3le8i0hm1ekj0ps9oou7k56t5[414]	speaker: YOU[534]	_	_	_	_	_	
+
+#Text=welches format?
+119-1	2898-2905	welches	_	GSuccess[22]	aufnehmen\_set1\_22[22]	latin3[22]	v3le8i0hm1ekj0ps9oou7k56t5-aufnehmen\_set1\_22[22]	_	_	_	_	_	false[176]	NA[176]	*[295]	*[295]	*[295]	*[295]	*[295]	input2[295]	58[415]	male[415]	v3le8i0hm1ekj0ps9oou7k56t5[415]	speaker: YOU[535]	_	_	_	_	_	
+119-2	2906-2913	format?	_	GSuccess[22]	aufnehmen\_set1\_22[22]	latin3[22]	v3le8i0hm1ekj0ps9oou7k56t5-aufnehmen\_set1\_22[22]	*	*	DirObj	*	*	false[176]	NA[176]	*[295]	*[295]	*[295]	*[295]	*[295]	input2[295]	58[415]	male[415]	v3le8i0hm1ekj0ps9oou7k56t5[415]	speaker: YOU[535]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+120-1	2915-2930	END_OF_DOCUMENT	_	GSuccess[22]	aufnehmen\_set1\_22[22]	latin3[22]	v3le8i0hm1ekj0ps9oou7k56t5-aufnehmen\_set1\_22[22]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+121-1	2932-2938	Hallo,	_	GWithout[23]	aufnehmen\_set1\_22[23]	latin1[23]	2k56uavscuainedj0q9i1sb693-aufnehmen\_set1\_22[23]	_	_	_	_	_	false[177]	Int[177]	*[296]	*[296]	*[296]	wh\_2[296]	wh\_question[296]	openq[296]	*[416]	female[416]	*[416]	speaker:Fiona[536]	_	_	QAP	*	122-1[178_177]	
+121-2	2939-2942	wie	_	GWithout[23]	aufnehmen\_set1\_22[23]	latin1[23]	2k56uavscuainedj0q9i1sb693-aufnehmen\_set1\_22[23]	_	_	_	_	_	false[177]	Int[177]	*[296]	*[296]	*[296]	wh\_2[296]	wh\_question[296]	openq[296]	*[416]	female[416]	*[416]	speaker:Fiona[536]	_	_	_	_	_	
+121-3	2943-2950	geht's?	_	GWithout[23]	aufnehmen\_set1\_22[23]	latin1[23]	2k56uavscuainedj0q9i1sb693-aufnehmen\_set1\_22[23]	_	_	_	_	_	false[177]	Int[177]	*[296]	*[296]	*[296]	wh\_2[296]	wh\_question[296]	openq[296]	*[416]	female[416]	*[416]	speaker:Fiona[536]	_	_	_	_	_	
+
+#Text=Robin hat ein Konzert aufgenommen
+122-1	2952-2957	Robin	_	GWithout[23]	aufnehmen\_set1\_22[23]	latin1[23]	2k56uavscuainedj0q9i1sb693-aufnehmen\_set1\_22[23]	*	*	Subj	*	*	false[178]	Decl[178]	*[297]	aufnehmen[297]	transitive[297]	*[297]	*[297]	item0[297]	35[417]	female[417]	2k56uavscuainedj0q9i1sb693[417]	speaker: YOU[537]	*->96-1	PropNm[96]	result	*	124-1[179_178]	
+122-2	2958-2961	hat	_	GWithout[23]	aufnehmen\_set1\_22[23]	latin1[23]	2k56uavscuainedj0q9i1sb693-aufnehmen\_set1\_22[23]	_	_	_	_	_	false[178]	Decl[178]	*[297]	aufnehmen[297]	transitive[297]	*[297]	*[297]	item0[297]	35[417]	female[417]	2k56uavscuainedj0q9i1sb693[417]	speaker: YOU[537]	_	_	_	_	_	
+122-3	2962-2965	ein	_	GWithout[23]	aufnehmen\_set1\_22[23]	latin1[23]	2k56uavscuainedj0q9i1sb693-aufnehmen\_set1\_22[23]	*[70]	*[70]	object[70]	*[70]	*[70]	false[178]	Decl[178]	*[297]	aufnehmen[297]	transitive[297]	*[297]	*[297]	item0[297]	35[417]	female[417]	2k56uavscuainedj0q9i1sb693[417]	speaker: YOU[537]	*->30-1	IndefNP[30]	_	_	_	
+122-4	2966-2973	Konzert	_	GWithout[23]	aufnehmen\_set1\_22[23]	latin1[23]	2k56uavscuainedj0q9i1sb693-aufnehmen\_set1\_22[23]	*[70]	*[70]	object[70]	*[70]	*[70]	false[178]	Decl[178]	*[297]	aufnehmen[297]	transitive[297]	*[297]	*[297]	item0[297]	35[417]	female[417]	2k56uavscuainedj0q9i1sb693[417]	speaker: YOU[537]	*->30-1	IndefNP[30]	_	_	_	
+122-5	2974-2985	aufgenommen	_	GWithout[23]	aufnehmen\_set1\_22[23]	latin1[23]	2k56uavscuainedj0q9i1sb693-aufnehmen\_set1\_22[23]	_	_	_	_	_	false[178]	Decl[178]	*[297]	aufnehmen[297]	transitive[297]	*[297]	*[297]	item0[297]	35[417]	female[417]	2k56uavscuainedj0q9i1sb693[417]	speaker: YOU[537]	_	_	_	_	_	
+
+#Text=-
+123-1	2987-2988	-	_	GWithout[23]	aufnehmen\_set1\_22[23]	latin1[23]	2k56uavscuainedj0q9i1sb693-aufnehmen\_set1\_22[23]	_	_	_	_	_	false	NA	GWithout	*	*	*	*	feedback	*	female	*	speaker:Fiona	_	_	_	_	_	
+
+#Text=Wir gucken es uns gerade an.
+124-1	2990-2993	Wir	_	GWithout[23]	aufnehmen\_set1\_22[23]	latin1[23]	2k56uavscuainedj0q9i1sb693-aufnehmen\_set1\_22[23]	1	*	Subj	*	plural	false[179]	Decl[179]	*[298]	*[298]	*[298]	*[298]	*[298]	input1[298]	35[418]	female[418]	2k56uavscuainedj0q9i1sb693[418]	speaker: YOU[538]	*->109-1	PerPron[109]	elaboration	*	125-1[180_179]	
+124-2	2994-3000	gucken	_	GWithout[23]	aufnehmen\_set1\_22[23]	latin1[23]	2k56uavscuainedj0q9i1sb693-aufnehmen\_set1\_22[23]	_	_	_	_	_	false[179]	Decl[179]	*[298]	*[298]	*[298]	*[298]	*[298]	input1[298]	35[418]	female[418]	2k56uavscuainedj0q9i1sb693[418]	speaker: YOU[538]	_	_	_	_	_	
+124-3	3001-3003	es	_	GWithout[23]	aufnehmen\_set1\_22[23]	latin1[23]	2k56uavscuainedj0q9i1sb693-aufnehmen\_set1\_22[23]	3	*	DirObj	*	singular	false[179]	Decl[179]	*[298]	*[298]	*[298]	*[298]	*[298]	input1[298]	35[418]	female[418]	2k56uavscuainedj0q9i1sb693[418]	speaker: YOU[538]	*->30-2	PerPron[30]	_	_	_	
+124-4	3004-3007	uns	_	GWithout[23]	aufnehmen\_set1\_22[23]	latin1[23]	2k56uavscuainedj0q9i1sb693-aufnehmen\_set1\_22[23]	_	_	_	_	_	false[179]	Decl[179]	*[298]	*[298]	*[298]	*[298]	*[298]	input1[298]	35[418]	female[418]	2k56uavscuainedj0q9i1sb693[418]	speaker: YOU[538]	_	_	_	_	_	
+124-5	3008-3014	gerade	_	GWithout[23]	aufnehmen\_set1\_22[23]	latin1[23]	2k56uavscuainedj0q9i1sb693-aufnehmen\_set1\_22[23]	_	_	_	_	_	false[179]	Decl[179]	*[298]	*[298]	*[298]	*[298]	*[298]	input1[298]	35[418]	female[418]	2k56uavscuainedj0q9i1sb693[418]	speaker: YOU[538]	_	_	_	_	_	
+124-6	3015-3018	an.	_	GWithout[23]	aufnehmen\_set1\_22[23]	latin1[23]	2k56uavscuainedj0q9i1sb693-aufnehmen\_set1\_22[23]	_	_	_	_	_	false[179]	Decl[179]	*[298]	*[298]	*[298]	*[298]	*[298]	input1[298]	35[418]	female[418]	2k56uavscuainedj0q9i1sb693[418]	speaker: YOU[538]	_	_	_	_	_	
+
+#Text=Total wackelig <BR> aber er freut sich drüber.
+125-1	3020-3025	Total	_	GWithout[23]	aufnehmen\_set1\_22[23]	latin1[23]	2k56uavscuainedj0q9i1sb693-aufnehmen\_set1\_22[23]	_	_	_	_	_	false[180]	NA[180]	*[299]	*[299]	*[299]	*[299]	*[299]	input2[299]	35[419]	female[419]	2k56uavscuainedj0q9i1sb693[419]	speaker: YOU[539]	_	_	contrast	*	125-4[181_180]	
+125-2	3026-3034	wackelig	_	GWithout[23]	aufnehmen\_set1\_22[23]	latin1[23]	2k56uavscuainedj0q9i1sb693-aufnehmen\_set1\_22[23]	_	_	_	_	_	false[180]	NA[180]	*[299]	*[299]	*[299]	*[299]	*[299]	input2[299]	35[419]	female[419]	2k56uavscuainedj0q9i1sb693[419]	speaker: YOU[539]	_	_	_	_	_	
+125-3	3035-3039	<BR>	_	GWithout[23]	aufnehmen\_set1\_22[23]	latin1[23]	2k56uavscuainedj0q9i1sb693-aufnehmen\_set1\_22[23]	_	_	_	_	_	_	_	*[299]	*[299]	*[299]	*[299]	*[299]	input2[299]	35[419]	female[419]	2k56uavscuainedj0q9i1sb693[419]	speaker: YOU[539]	_	_	_	_	_	
+125-4	3040-3044	aber	_	GWithout[23]	aufnehmen\_set1\_22[23]	latin1[23]	2k56uavscuainedj0q9i1sb693-aufnehmen\_set1\_22[23]	_	_	_	_	_	false[181]	Decl[181]	*[299]	*[299]	*[299]	*[299]	*[299]	input2[299]	35[419]	female[419]	2k56uavscuainedj0q9i1sb693[419]	speaker: YOU[539]	_	_	_	_	_	
+125-5	3045-3047	er	_	GWithout[23]	aufnehmen\_set1\_22[23]	latin1[23]	2k56uavscuainedj0q9i1sb693-aufnehmen\_set1\_22[23]	3	*	Subj	*	singular	false[181]	Decl[181]	*[299]	*[299]	*[299]	*[299]	*[299]	input2[299]	35[419]	female[419]	2k56uavscuainedj0q9i1sb693[419]	speaker: YOU[539]	*->96-2	PerPron[96]	_	_	_	
+125-6	3048-3053	freut	_	GWithout[23]	aufnehmen\_set1\_22[23]	latin1[23]	2k56uavscuainedj0q9i1sb693-aufnehmen\_set1\_22[23]	_	_	_	_	_	false[181]	Decl[181]	*[299]	*[299]	*[299]	*[299]	*[299]	input2[299]	35[419]	female[419]	2k56uavscuainedj0q9i1sb693[419]	speaker: YOU[539]	_	_	_	_	_	
+125-7	3054-3058	sich	_	GWithout[23]	aufnehmen\_set1\_22[23]	latin1[23]	2k56uavscuainedj0q9i1sb693-aufnehmen\_set1\_22[23]	_	_	_	_	_	false[181]	Decl[181]	*[299]	*[299]	*[299]	*[299]	*[299]	input2[299]	35[419]	female[419]	2k56uavscuainedj0q9i1sb693[419]	speaker: YOU[539]	_	_	_	_	_	
+125-8	3059-3066	drüber.	_	GWithout[23]	aufnehmen\_set1\_22[23]	latin1[23]	2k56uavscuainedj0q9i1sb693-aufnehmen\_set1\_22[23]	_	_	_	_	_	false[181]	Decl[181]	*[299]	*[299]	*[299]	*[299]	*[299]	input2[299]	35[419]	female[419]	2k56uavscuainedj0q9i1sb693[419]	speaker: YOU[539]	*->30-3	DemPron[30]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+126-1	3068-3083	END_OF_DOCUMENT	_	GWithout[23]	aufnehmen\_set1\_22[23]	latin1[23]	2k56uavscuainedj0q9i1sb693-aufnehmen\_set1\_22[23]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+127-1	3085-3091	Hallo,	_	GWithout[24]	aufnehmen\_set1\_22[24]	latin1[24]	7bq5ecc5fndmatjvd44havavdp-aufnehmen\_set1\_22[24]	_	_	_	_	_	false[182]	Int[182]	*[300]	*[300]	*[300]	wh\_2[300]	wh\_question[300]	openq[300]	*[420]	female[420]	*[420]	speaker:Fiona[540]	_	_	QAP	*	128-1[183_182]	
+127-2	3092-3095	wie	_	GWithout[24]	aufnehmen\_set1\_22[24]	latin1[24]	7bq5ecc5fndmatjvd44havavdp-aufnehmen\_set1\_22[24]	_	_	_	_	_	false[182]	Int[182]	*[300]	*[300]	*[300]	wh\_2[300]	wh\_question[300]	openq[300]	*[420]	female[420]	*[420]	speaker:Fiona[540]	_	_	_	_	_	
+127-3	3096-3103	geht's?	_	GWithout[24]	aufnehmen\_set1\_22[24]	latin1[24]	7bq5ecc5fndmatjvd44havavdp-aufnehmen\_set1\_22[24]	_	_	_	_	_	false[182]	Int[182]	*[300]	*[300]	*[300]	wh\_2[300]	wh\_question[300]	openq[300]	*[420]	female[420]	*[420]	speaker:Fiona[540]	_	_	_	_	_	
+
+#Text=Robin hat ein Konzert aufgenommen
+128-1	3105-3110	Robin	_	GWithout[24]	aufnehmen\_set1\_22[24]	latin1[24]	7bq5ecc5fndmatjvd44havavdp-aufnehmen\_set1\_22[24]	*	*	Subj	*	*	false[183]	Decl[183]	*[301]	aufnehmen[301]	transitive[301]	*[301]	*[301]	item0[301]	46[421]	male[421]	7bq5ecc5fndmatjvd44havavdp[421]	speaker: YOU[541]	*->14-1	PropNm[14]	_	_	_	
+128-2	3111-3114	hat	_	GWithout[24]	aufnehmen\_set1\_22[24]	latin1[24]	7bq5ecc5fndmatjvd44havavdp-aufnehmen\_set1\_22[24]	_	_	_	_	_	false[183]	Decl[183]	*[301]	aufnehmen[301]	transitive[301]	*[301]	*[301]	item0[301]	46[421]	male[421]	7bq5ecc5fndmatjvd44havavdp[421]	speaker: YOU[541]	_	_	_	_	_	
+128-3	3115-3118	ein	_	GWithout[24]	aufnehmen\_set1\_22[24]	latin1[24]	7bq5ecc5fndmatjvd44havavdp-aufnehmen\_set1\_22[24]	*[71]	*[71]	object[71]	*[71]	*[71]	false[183]	Decl[183]	*[301]	aufnehmen[301]	transitive[301]	*[301]	*[301]	item0[301]	46[421]	male[421]	7bq5ecc5fndmatjvd44havavdp[421]	speaker: YOU[541]	*->74-1	IndefNP[74]	_	_	_	
+128-4	3119-3126	Konzert	_	GWithout[24]	aufnehmen\_set1\_22[24]	latin1[24]	7bq5ecc5fndmatjvd44havavdp-aufnehmen\_set1\_22[24]	*[71]	*[71]	object[71]	*[71]	*[71]	false[183]	Decl[183]	*[301]	aufnehmen[301]	transitive[301]	*[301]	*[301]	item0[301]	46[421]	male[421]	7bq5ecc5fndmatjvd44havavdp[421]	speaker: YOU[541]	*->74-1	IndefNP[74]	_	_	_	
+128-5	3127-3138	aufgenommen	_	GWithout[24]	aufnehmen\_set1\_22[24]	latin1[24]	7bq5ecc5fndmatjvd44havavdp-aufnehmen\_set1\_22[24]	_	_	_	_	_	false[183]	Decl[183]	*[301]	aufnehmen[301]	transitive[301]	*[301]	*[301]	item0[301]	46[421]	male[421]	7bq5ecc5fndmatjvd44havavdp[421]	speaker: YOU[541]	_	_	_	_	_	
+
+#Text=-
+129-1	3140-3141	-	_	GWithout[24]	aufnehmen\_set1\_22[24]	latin1[24]	7bq5ecc5fndmatjvd44havavdp-aufnehmen\_set1\_22[24]	_	_	_	_	_	false	NA	GWithout	*	*	*	*	feedback	*	female	*	speaker:Fiona	_	_	_	_	_	
+
+#Text=von Wem?
+130-1	3143-3146	von	TurnTakingError[1]	GWithout[24]	aufnehmen\_set1\_22[24]	latin1[24]	7bq5ecc5fndmatjvd44havavdp-aufnehmen\_set1\_22[24]	_	_	_	_	_	_	_	*[302]	*[302]	*[302]	*[302]	*[302]	input1[302]	46[422]	male[422]	7bq5ecc5fndmatjvd44havavdp[422]	speaker: YOU[542]	_	_	_	_	_	
+130-2	3147-3151	Wem?	TurnTakingError[1]	GWithout[24]	aufnehmen\_set1\_22[24]	latin1[24]	7bq5ecc5fndmatjvd44havavdp-aufnehmen\_set1\_22[24]	_	_	_	_	_	_	_	*[302]	*[302]	*[302]	*[302]	*[302]	input1[302]	46[422]	male[422]	7bq5ecc5fndmatjvd44havavdp[422]	speaker: YOU[542]	_	_	_	_	_	
+
+#Text=Roy Black? LOL
+131-1	3153-3156	Roy	TurnTakingError[2]	GWithout[24]	aufnehmen\_set1\_22[24]	latin1[24]	7bq5ecc5fndmatjvd44havavdp-aufnehmen\_set1\_22[24]	*[72]	*[72]	PrepObj[72]	*[72]	*[72]	_	_	*[303]	*[303]	*[303]	*[303]	*[303]	input2[303]	46[423]	male[423]	7bq5ecc5fndmatjvd44havavdp[423]	speaker: YOU[543]	_	_	_	_	_	
+131-2	3157-3163	Black?	TurnTakingError[2]	GWithout[24]	aufnehmen\_set1\_22[24]	latin1[24]	7bq5ecc5fndmatjvd44havavdp-aufnehmen\_set1\_22[24]	*[72]	*[72]	PrepObj[72]	*[72]	*[72]	_	_	*[303]	*[303]	*[303]	*[303]	*[303]	input2[303]	46[423]	male[423]	7bq5ecc5fndmatjvd44havavdp[423]	speaker: YOU[543]	_	_	_	_	_	
+131-3	3164-3167	LOL	TurnTakingError[2]	GWithout[24]	aufnehmen\_set1\_22[24]	latin1[24]	7bq5ecc5fndmatjvd44havavdp-aufnehmen\_set1\_22[24]	_	_	_	_	_	_	_	*[303]	*[303]	*[303]	*[303]	*[303]	input2[303]	46[423]	male[423]	7bq5ecc5fndmatjvd44havavdp[423]	speaker: YOU[543]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+132-1	3169-3184	END_OF_DOCUMENT	_	GWithout[24]	aufnehmen\_set1\_22[24]	latin1[24]	7bq5ecc5fndmatjvd44havavdp-aufnehmen\_set1\_22[24]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+133-1	3186-3192	Hallo,	_	GWithout[25]	aufnehmen\_set1\_22[25]	latin1[25]	9bb79dhfhst017575orahklqol-aufnehmen\_set1\_22[25]	_	_	_	_	_	false[184]	Int[184]	*[304]	*[304]	*[304]	wh\_2[304]	wh\_question[304]	openq[304]	*[424]	female[424]	*[424]	speaker:Fiona[544]	_	_	QAP	*	134-1[185_184]	
+133-2	3193-3196	wie	_	GWithout[25]	aufnehmen\_set1\_22[25]	latin1[25]	9bb79dhfhst017575orahklqol-aufnehmen\_set1\_22[25]	_	_	_	_	_	false[184]	Int[184]	*[304]	*[304]	*[304]	wh\_2[304]	wh\_question[304]	openq[304]	*[424]	female[424]	*[424]	speaker:Fiona[544]	_	_	_	_	_	
+133-3	3197-3204	geht's?	_	GWithout[25]	aufnehmen\_set1\_22[25]	latin1[25]	9bb79dhfhst017575orahklqol-aufnehmen\_set1\_22[25]	_	_	_	_	_	false[184]	Int[184]	*[304]	*[304]	*[304]	wh\_2[304]	wh\_question[304]	openq[304]	*[424]	female[424]	*[424]	speaker:Fiona[544]	_	_	_	_	_	
+
+#Text=Robin hat ein Konzert aufgenommen
+134-1	3206-3211	Robin	_	GWithout[25]	aufnehmen\_set1\_22[25]	latin1[25]	9bb79dhfhst017575orahklqol-aufnehmen\_set1\_22[25]	*	*	Subj	*	*	false[185]	Decl[185]	*[305]	aufnehmen[305]	transitive[305]	*[305]	*[305]	item0[305]	37[425]	female[425]	9bb79dhfhst017575orahklqol[425]	speaker: YOU[545]	*->23-1	PropNm[23]	elaboration	*	136-1[186_185]	
+134-2	3212-3215	hat	_	GWithout[25]	aufnehmen\_set1\_22[25]	latin1[25]	9bb79dhfhst017575orahklqol-aufnehmen\_set1\_22[25]	_	_	_	_	_	false[185]	Decl[185]	*[305]	aufnehmen[305]	transitive[305]	*[305]	*[305]	item0[305]	37[425]	female[425]	9bb79dhfhst017575orahklqol[425]	speaker: YOU[545]	_	_	_	_	_	
+134-3	3216-3219	ein	_	GWithout[25]	aufnehmen\_set1\_22[25]	latin1[25]	9bb79dhfhst017575orahklqol-aufnehmen\_set1\_22[25]	*[73]	*[73]	object[73]	*[73]	*[73]	false[185]	Decl[185]	*[305]	aufnehmen[305]	transitive[305]	*[305]	*[305]	item0[305]	37[425]	female[425]	9bb79dhfhst017575orahklqol[425]	speaker: YOU[545]	*->4-1	IndefNP[4]	_	_	_	
+134-4	3220-3227	Konzert	_	GWithout[25]	aufnehmen\_set1\_22[25]	latin1[25]	9bb79dhfhst017575orahklqol-aufnehmen\_set1\_22[25]	*[73]	*[73]	object[73]	*[73]	*[73]	false[185]	Decl[185]	*[305]	aufnehmen[305]	transitive[305]	*[305]	*[305]	item0[305]	37[425]	female[425]	9bb79dhfhst017575orahklqol[425]	speaker: YOU[545]	*->4-1	IndefNP[4]	_	_	_	
+134-5	3228-3239	aufgenommen	_	GWithout[25]	aufnehmen\_set1\_22[25]	latin1[25]	9bb79dhfhst017575orahklqol-aufnehmen\_set1\_22[25]	_	_	_	_	_	false[185]	Decl[185]	*[305]	aufnehmen[305]	transitive[305]	*[305]	*[305]	item0[305]	37[425]	female[425]	9bb79dhfhst017575orahklqol[425]	speaker: YOU[545]	_	_	_	_	_	
+
+#Text=-
+135-1	3241-3242	-	_	GWithout[25]	aufnehmen\_set1\_22[25]	latin1[25]	9bb79dhfhst017575orahklqol-aufnehmen\_set1\_22[25]	_	_	_	_	_	false	NA	GWithout	*	*	*	*	feedback	*	female	*	speaker:Fiona	_	_	_	_	_	
+
+#Text=kannst kaum erwarten es zu sehen
+136-1	3244-3250	kannst	_	GWithout[25]	aufnehmen\_set1\_22[25]	latin1[25]	9bb79dhfhst017575orahklqol-aufnehmen\_set1\_22[25]	2	*	*	*	singular	false[186]	Decl[186]	*[306]	*[306]	*[306]	*[306]	*[306]	input1[306]	37[426]	female[426]	9bb79dhfhst017575orahklqol[426]	speaker: YOU[546]	*->54-1	zero[54]	result	*	137-1[187_186]	
+136-2	3251-3255	kaum	_	GWithout[25]	aufnehmen\_set1\_22[25]	latin1[25]	9bb79dhfhst017575orahklqol-aufnehmen\_set1\_22[25]	_	_	_	_	_	false[186]	Decl[186]	*[306]	*[306]	*[306]	*[306]	*[306]	input1[306]	37[426]	female[426]	9bb79dhfhst017575orahklqol[426]	speaker: YOU[546]	_	_	_	_	_	
+136-3	3256-3264	erwarten	_	GWithout[25]	aufnehmen\_set1\_22[25]	latin1[25]	9bb79dhfhst017575orahklqol-aufnehmen\_set1\_22[25]	_	_	_	_	_	false[186]	Decl[186]	*[306]	*[306]	*[306]	*[306]	*[306]	input1[306]	37[426]	female[426]	9bb79dhfhst017575orahklqol[426]	speaker: YOU[546]	_	_	_	_	_	
+136-4	3265-3267	es	_	GWithout[25]	aufnehmen\_set1\_22[25]	latin1[25]	9bb79dhfhst017575orahklqol-aufnehmen\_set1\_22[25]	3	*	DirObj	*	singular	false[186]	Decl[186]	*[306]	*[306]	*[306]	*[306]	*[306]	input1[306]	37[426]	female[426]	9bb79dhfhst017575orahklqol[426]	speaker: YOU[546]	*->4-2	PerPron[4]	_	_	_	
+136-5	3268-3270	zu	_	GWithout[25]	aufnehmen\_set1\_22[25]	latin1[25]	9bb79dhfhst017575orahklqol-aufnehmen\_set1\_22[25]	_	_	_	_	_	false[186]	Decl[186]	*[306]	*[306]	*[306]	*[306]	*[306]	input1[306]	37[426]	female[426]	9bb79dhfhst017575orahklqol[426]	speaker: YOU[546]	_	_	_	_	_	
+136-6	3271-3276	sehen	_	GWithout[25]	aufnehmen\_set1\_22[25]	latin1[25]	9bb79dhfhst017575orahklqol-aufnehmen\_set1\_22[25]	_	_	_	_	_	false[186]	Decl[186]	*[306]	*[306]	*[306]	*[306]	*[306]	input1[306]	37[426]	female[426]	9bb79dhfhst017575orahklqol[426]	speaker: YOU[546]	_	_	_	_	_	
+
+#Text=kommste rueber zum anschauen?
+137-1	3278-3285	kommste	_	GWithout[25]	aufnehmen\_set1\_22[25]	latin1[25]	9bb79dhfhst017575orahklqol-aufnehmen\_set1\_22[25]	2	*	Subj	*	singular	false[187]	Int[187]	*[307]	*[307]	*[307]	*[307]	*[307]	input2[307]	37[427]	female[427]	9bb79dhfhst017575orahklqol[427]	speaker: YOU[547]	*->54-2	zero[54]	_	_	_	
+137-2	3286-3292	rueber	_	GWithout[25]	aufnehmen\_set1\_22[25]	latin1[25]	9bb79dhfhst017575orahklqol-aufnehmen\_set1\_22[25]	_	_	_	_	_	false[187]	Int[187]	*[307]	*[307]	*[307]	*[307]	*[307]	input2[307]	37[427]	female[427]	9bb79dhfhst017575orahklqol[427]	speaker: YOU[547]	_	_	_	_	_	
+137-3	3293-3296	zum	_	GWithout[25]	aufnehmen\_set1\_22[25]	latin1[25]	9bb79dhfhst017575orahklqol-aufnehmen\_set1\_22[25]	_	_	_	_	_	false[187]	Int[187]	*[307]	*[307]	*[307]	*[307]	*[307]	input2[307]	37[427]	female[427]	9bb79dhfhst017575orahklqol[427]	speaker: YOU[547]	*->15-1	DefNP[15]	_	_	_	
+137-4	3297-3307	anschauen?	_	GWithout[25]	aufnehmen\_set1\_22[25]	latin1[25]	9bb79dhfhst017575orahklqol-aufnehmen\_set1\_22[25]	_	_	_	_	_	false[187]	Int[187]	*[307]	*[307]	*[307]	*[307]	*[307]	input2[307]	37[427]	female[427]	9bb79dhfhst017575orahklqol[427]	speaker: YOU[547]	*->15-1	DefNP[15]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+138-1	3309-3324	END_OF_DOCUMENT	_	GWithout[25]	aufnehmen\_set1\_22[25]	latin1[25]	9bb79dhfhst017575orahklqol-aufnehmen\_set1\_22[25]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+139-1	3326-3332	Hallo,	_	GWithout[26]	aufnehmen\_set1\_22[26]	latin1[26]	afpst3sherp4732c4se5ajftkq-aufnehmen\_set1\_22[26]	_	_	_	_	_	false[188]	Int[188]	*[308]	*[308]	*[308]	wh\_2[308]	wh\_question[308]	openq[308]	*[428]	female[428]	*[428]	speaker:Fiona[548]	_	_	QAP	*	140-1[189_188]	
+139-2	3333-3336	wie	_	GWithout[26]	aufnehmen\_set1\_22[26]	latin1[26]	afpst3sherp4732c4se5ajftkq-aufnehmen\_set1\_22[26]	_	_	_	_	_	false[188]	Int[188]	*[308]	*[308]	*[308]	wh\_2[308]	wh\_question[308]	openq[308]	*[428]	female[428]	*[428]	speaker:Fiona[548]	_	_	_	_	_	
+139-3	3337-3344	geht's?	_	GWithout[26]	aufnehmen\_set1\_22[26]	latin1[26]	afpst3sherp4732c4se5ajftkq-aufnehmen\_set1\_22[26]	_	_	_	_	_	false[188]	Int[188]	*[308]	*[308]	*[308]	wh\_2[308]	wh\_question[308]	openq[308]	*[428]	female[428]	*[428]	speaker:Fiona[548]	_	_	_	_	_	
+
+#Text=Robin hat ein Konzert aufgenommen
+140-1	3346-3351	Robin	_	GWithout[26]	aufnehmen\_set1\_22[26]	latin1[26]	afpst3sherp4732c4se5ajftkq-aufnehmen\_set1\_22[26]	*	*	Subj	*	*	false[189]	Decl[189]	*[309]	aufnehmen[309]	transitive[309]	*[309]	*[309]	item0[309]	21[429]	male[429]	afpst3sherp4732c4se5ajftkq[429]	speaker: YOU[549]	*->25-1	PropNm[25]	elaboration	*	142-1[190_189]	
+140-2	3352-3355	hat	_	GWithout[26]	aufnehmen\_set1\_22[26]	latin1[26]	afpst3sherp4732c4se5ajftkq-aufnehmen\_set1\_22[26]	_	_	_	_	_	false[189]	Decl[189]	*[309]	aufnehmen[309]	transitive[309]	*[309]	*[309]	item0[309]	21[429]	male[429]	afpst3sherp4732c4se5ajftkq[429]	speaker: YOU[549]	_	_	_	_	_	
+140-3	3356-3359	ein	_	GWithout[26]	aufnehmen\_set1\_22[26]	latin1[26]	afpst3sherp4732c4se5ajftkq-aufnehmen\_set1\_22[26]	*[74]	*[74]	object[74]	*[74]	*[74]	false[189]	Decl[189]	*[309]	aufnehmen[309]	transitive[309]	*[309]	*[309]	item0[309]	21[429]	male[429]	afpst3sherp4732c4se5ajftkq[429]	speaker: YOU[549]	*->68-1	IndefNP[68]	_	_	_	
+140-4	3360-3367	Konzert	_	GWithout[26]	aufnehmen\_set1\_22[26]	latin1[26]	afpst3sherp4732c4se5ajftkq-aufnehmen\_set1\_22[26]	*[74]	*[74]	object[74]	*[74]	*[74]	false[189]	Decl[189]	*[309]	aufnehmen[309]	transitive[309]	*[309]	*[309]	item0[309]	21[429]	male[429]	afpst3sherp4732c4se5ajftkq[429]	speaker: YOU[549]	*->68-1	IndefNP[68]	_	_	_	
+140-5	3368-3379	aufgenommen	_	GWithout[26]	aufnehmen\_set1\_22[26]	latin1[26]	afpst3sherp4732c4se5ajftkq-aufnehmen\_set1\_22[26]	_	_	_	_	_	false[189]	Decl[189]	*[309]	aufnehmen[309]	transitive[309]	*[309]	*[309]	item0[309]	21[429]	male[429]	afpst3sherp4732c4se5ajftkq[429]	speaker: YOU[549]	_	_	_	_	_	
+
+#Text=-
+141-1	3381-3382	-	_	GWithout[26]	aufnehmen\_set1\_22[26]	latin1[26]	afpst3sherp4732c4se5ajftkq-aufnehmen\_set1\_22[26]	_	_	_	_	_	false	NA	GWithout	*	*	*	*	feedback	*	female	*	speaker:Fiona	_	_	_	_	_	
+
+#Text=Scheint ja einiges abgegangen zu sein.
+142-1	3384-3391	Scheint	_	GWithout[26]	aufnehmen\_set1\_22[26]	latin1[26]	afpst3sherp4732c4se5ajftkq-aufnehmen\_set1\_22[26]	_	_	_	_	_	false[190]	Decl[190]	*[310]	*[310]	*[310]	*[310]	*[310]	input1[310]	21[430]	male[430]	afpst3sherp4732c4se5ajftkq[430]	speaker: YOU[550]	_	_	result	*	143-1[191_190]	
+142-2	3392-3394	ja	_	GWithout[26]	aufnehmen\_set1\_22[26]	latin1[26]	afpst3sherp4732c4se5ajftkq-aufnehmen\_set1\_22[26]	_	_	_	_	_	false[190]	Decl[190]	*[310]	*[310]	*[310]	*[310]	*[310]	input1[310]	21[430]	male[430]	afpst3sherp4732c4se5ajftkq[430]	speaker: YOU[550]	_	_	_	_	_	
+142-3	3395-3402	einiges	_	GWithout[26]	aufnehmen\_set1\_22[26]	latin1[26]	afpst3sherp4732c4se5ajftkq-aufnehmen\_set1\_22[26]	*	*	Subj	*	*	false[190]	Decl[190]	*[310]	*[310]	*[310]	*[310]	*[310]	input1[310]	21[430]	male[430]	afpst3sherp4732c4se5ajftkq[430]	speaker: YOU[550]	_	_	_	_	_	
+142-4	3403-3413	abgegangen	_	GWithout[26]	aufnehmen\_set1\_22[26]	latin1[26]	afpst3sherp4732c4se5ajftkq-aufnehmen\_set1\_22[26]	_	_	_	_	_	false[190]	Decl[190]	*[310]	*[310]	*[310]	*[310]	*[310]	input1[310]	21[430]	male[430]	afpst3sherp4732c4se5ajftkq[430]	speaker: YOU[550]	_	_	_	_	_	
+142-5	3414-3416	zu	_	GWithout[26]	aufnehmen\_set1\_22[26]	latin1[26]	afpst3sherp4732c4se5ajftkq-aufnehmen\_set1\_22[26]	_	_	_	_	_	false[190]	Decl[190]	*[310]	*[310]	*[310]	*[310]	*[310]	input1[310]	21[430]	male[430]	afpst3sherp4732c4se5ajftkq[430]	speaker: YOU[550]	_	_	_	_	_	
+142-6	3417-3422	sein.	_	GWithout[26]	aufnehmen\_set1\_22[26]	latin1[26]	afpst3sherp4732c4se5ajftkq-aufnehmen\_set1\_22[26]	_	_	_	_	_	false[190]	Decl[190]	*[310]	*[310]	*[310]	*[310]	*[310]	input1[310]	21[430]	male[430]	afpst3sherp4732c4se5ajftkq[430]	speaker: YOU[550]	_	_	_	_	_	
+
+#Text=Schade <BR> dass er mich nicht gefragt hat<BR>ob ich dabei sein will.
+143-1	3424-3430	Schade	_	GWithout[26]	aufnehmen\_set1\_22[26]	latin1[26]	afpst3sherp4732c4se5ajftkq-aufnehmen\_set1\_22[26]	_	_	_	_	_	false[191]	NA[191]	*[311]	*[311]	*[311]	*[311]	*[311]	input2[311]	21[431]	male[431]	afpst3sherp4732c4se5ajftkq[431]	speaker: YOU[551]	_	_	_	_	_	
+143-2	3431-3435	<BR>	_	GWithout[26]	aufnehmen\_set1\_22[26]	latin1[26]	afpst3sherp4732c4se5ajftkq-aufnehmen\_set1\_22[26]	_	_	_	_	_	false[191]	NA[191]	*[311]	*[311]	*[311]	*[311]	*[311]	input2[311]	21[431]	male[431]	afpst3sherp4732c4se5ajftkq[431]	speaker: YOU[551]	_	_	_	_	_	
+143-3	3436-3440	dass	_	GWithout[26]	aufnehmen\_set1\_22[26]	latin1[26]	afpst3sherp4732c4se5ajftkq-aufnehmen\_set1\_22[26]	*[75]	*[75]	Embedded[75]	*[75]	*[75]	false[191]	NA[191]	*[311]	*[311]	*[311]	*[311]	*[311]	input2[311]	21[431]	male[431]	afpst3sherp4732c4se5ajftkq[431]	speaker: YOU[551]	_	_	_	_	_	
+143-4	3441-3443	er	_	GWithout[26]	aufnehmen\_set1\_22[26]	latin1[26]	afpst3sherp4732c4se5ajftkq-aufnehmen\_set1\_22[26]	*[75]|3[76]	*[75]|*[76]	Embedded[75]|*[76]	*[75]|*[76]	*[75]|singular[76]	false[191]	NA[191]	*[311]	*[311]	*[311]	*[311]	*[311]	input2[311]	21[431]	male[431]	afpst3sherp4732c4se5ajftkq[431]	speaker: YOU[551]	*->25-2	PerPron[25]	_	_	_	
+143-5	3444-3448	mich	_	GWithout[26]	aufnehmen\_set1\_22[26]	latin1[26]	afpst3sherp4732c4se5ajftkq-aufnehmen\_set1\_22[26]	*[75]|1[77]	*[75]|*[77]	Embedded[75]|*[77]	*[75]|*[77]	*[75]|singular[77]	false[191]	NA[191]	*[311]	*[311]	*[311]	*[311]	*[311]	input2[311]	21[431]	male[431]	afpst3sherp4732c4se5ajftkq[431]	speaker: YOU[551]	*->33-1	PerPron[33]	_	_	_	
+143-6	3449-3454	nicht	_	GWithout[26]	aufnehmen\_set1\_22[26]	latin1[26]	afpst3sherp4732c4se5ajftkq-aufnehmen\_set1\_22[26]	*[75]	*[75]	Embedded[75]	*[75]	*[75]	false[191]	NA[191]	*[311]	*[311]	*[311]	*[311]	*[311]	input2[311]	21[431]	male[431]	afpst3sherp4732c4se5ajftkq[431]	speaker: YOU[551]	_	_	_	_	_	
+143-7	3455-3462	gefragt	_	GWithout[26]	aufnehmen\_set1\_22[26]	latin1[26]	afpst3sherp4732c4se5ajftkq-aufnehmen\_set1\_22[26]	*[75]	*[75]	Embedded[75]	*[75]	*[75]	false[191]	NA[191]	*[311]	*[311]	*[311]	*[311]	*[311]	input2[311]	21[431]	male[431]	afpst3sherp4732c4se5ajftkq[431]	speaker: YOU[551]	_	_	_	_	_	
+143-8	3463-3472	hat<BR>ob	_	GWithout[26]	aufnehmen\_set1\_22[26]	latin1[26]	afpst3sherp4732c4se5ajftkq-aufnehmen\_set1\_22[26]	*[75]	*[75]	Embedded[75]	*[75]	*[75]	false[191]	NA[191]	*[311]	*[311]	*[311]	*[311]	*[311]	input2[311]	21[431]	male[431]	afpst3sherp4732c4se5ajftkq[431]	speaker: YOU[551]	_	_	_	_	_	
+143-9	3473-3476	ich	_	GWithout[26]	aufnehmen\_set1\_22[26]	latin1[26]	afpst3sherp4732c4se5ajftkq-aufnehmen\_set1\_22[26]	1	*	*	*	singular	false[191]	NA[191]	*[311]	*[311]	*[311]	*[311]	*[311]	input2[311]	21[431]	male[431]	afpst3sherp4732c4se5ajftkq[431]	speaker: YOU[551]	*->33-2	PerPron[33]	_	_	_	
+143-10	3477-3482	dabei	_	GWithout[26]	aufnehmen\_set1\_22[26]	latin1[26]	afpst3sherp4732c4se5ajftkq-aufnehmen\_set1\_22[26]	_	_	_	_	_	false[191]	NA[191]	*[311]	*[311]	*[311]	*[311]	*[311]	input2[311]	21[431]	male[431]	afpst3sherp4732c4se5ajftkq[431]	speaker: YOU[551]	*->68-2	DemPron[68]	_	_	_	
+143-11	3483-3487	sein	_	GWithout[26]	aufnehmen\_set1\_22[26]	latin1[26]	afpst3sherp4732c4se5ajftkq-aufnehmen\_set1\_22[26]	_	_	_	_	_	false[191]	NA[191]	*[311]	*[311]	*[311]	*[311]	*[311]	input2[311]	21[431]	male[431]	afpst3sherp4732c4se5ajftkq[431]	speaker: YOU[551]	_	_	_	_	_	
+143-12	3488-3493	will.	_	GWithout[26]	aufnehmen\_set1\_22[26]	latin1[26]	afpst3sherp4732c4se5ajftkq-aufnehmen\_set1\_22[26]	_	_	_	_	_	false[191]	NA[191]	*[311]	*[311]	*[311]	*[311]	*[311]	input2[311]	21[431]	male[431]	afpst3sherp4732c4se5ajftkq[431]	speaker: YOU[551]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+144-1	3495-3510	END_OF_DOCUMENT	_	GWithout[26]	aufnehmen\_set1\_22[26]	latin1[26]	afpst3sherp4732c4se5ajftkq-aufnehmen\_set1\_22[26]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+145-1	3512-3518	Hallo,	_	GWithout[27]	aufnehmen\_set1\_22[27]	latin1[27]	blj8i1h4sc8jti0m6gcav1c9ek-aufnehmen\_set1\_22[27]	_	_	_	_	_	false[192]	Int[192]	*[312]	*[312]	*[312]	wh\_2[312]	wh\_question[312]	openq[312]	*[432]	female[432]	*[432]	speaker:Fiona[552]	_	_	QAP|QAP	*|*	148-3[194_192]|146-1[193_192]	
+145-2	3519-3522	wie	_	GWithout[27]	aufnehmen\_set1\_22[27]	latin1[27]	blj8i1h4sc8jti0m6gcav1c9ek-aufnehmen\_set1\_22[27]	_	_	_	_	_	false[192]	Int[192]	*[312]	*[312]	*[312]	wh\_2[312]	wh\_question[312]	openq[312]	*[432]	female[432]	*[432]	speaker:Fiona[552]	_	_	_	_	_	
+145-3	3523-3530	geht's?	_	GWithout[27]	aufnehmen\_set1\_22[27]	latin1[27]	blj8i1h4sc8jti0m6gcav1c9ek-aufnehmen\_set1\_22[27]	_	_	_	_	_	false[192]	Int[192]	*[312]	*[312]	*[312]	wh\_2[312]	wh\_question[312]	openq[312]	*[432]	female[432]	*[432]	speaker:Fiona[552]	_	_	_	_	_	
+
+#Text=Robin hat ein Konzert aufgenommen
+146-1	3532-3537	Robin	_	GWithout[27]	aufnehmen\_set1\_22[27]	latin1[27]	blj8i1h4sc8jti0m6gcav1c9ek-aufnehmen\_set1\_22[27]	*	*	Subj	*	*	false[193]	Decl[193]	*[313]	aufnehmen[313]	transitive[313]	*[313]	*[313]	item0[313]	42[433]	female[433]	blj8i1h4sc8jti0m6gcav1c9ek[433]	speaker: YOU[553]	*->116-1	PropNm[116]	_	_	_	
+146-2	3538-3541	hat	_	GWithout[27]	aufnehmen\_set1\_22[27]	latin1[27]	blj8i1h4sc8jti0m6gcav1c9ek-aufnehmen\_set1\_22[27]	_	_	_	_	_	false[193]	Decl[193]	*[313]	aufnehmen[313]	transitive[313]	*[313]	*[313]	item0[313]	42[433]	female[433]	blj8i1h4sc8jti0m6gcav1c9ek[433]	speaker: YOU[553]	_	_	_	_	_	
+146-3	3542-3545	ein	_	GWithout[27]	aufnehmen\_set1\_22[27]	latin1[27]	blj8i1h4sc8jti0m6gcav1c9ek-aufnehmen\_set1\_22[27]	*[78]	*[78]	object[78]	*[78]	*[78]	false[193]	Decl[193]	*[313]	aufnehmen[313]	transitive[313]	*[313]	*[313]	item0[313]	42[433]	female[433]	blj8i1h4sc8jti0m6gcav1c9ek[433]	speaker: YOU[553]	*->53-1	IndefNP[53]	_	_	_	
+146-4	3546-3553	Konzert	_	GWithout[27]	aufnehmen\_set1\_22[27]	latin1[27]	blj8i1h4sc8jti0m6gcav1c9ek-aufnehmen\_set1\_22[27]	*[78]	*[78]	object[78]	*[78]	*[78]	false[193]	Decl[193]	*[313]	aufnehmen[313]	transitive[313]	*[313]	*[313]	item0[313]	42[433]	female[433]	blj8i1h4sc8jti0m6gcav1c9ek[433]	speaker: YOU[553]	*->53-1	IndefNP[53]	_	_	_	
+146-5	3554-3565	aufgenommen	_	GWithout[27]	aufnehmen\_set1\_22[27]	latin1[27]	blj8i1h4sc8jti0m6gcav1c9ek-aufnehmen\_set1\_22[27]	_	_	_	_	_	false[193]	Decl[193]	*[313]	aufnehmen[313]	transitive[313]	*[313]	*[313]	item0[313]	42[433]	female[433]	blj8i1h4sc8jti0m6gcav1c9ek[433]	speaker: YOU[553]	_	_	_	_	_	
+
+#Text=-
+147-1	3567-3568	-	_	GWithout[27]	aufnehmen\_set1\_22[27]	latin1[27]	blj8i1h4sc8jti0m6gcav1c9ek-aufnehmen\_set1\_22[27]	_	_	_	_	_	false	NA	GWithout	*	*	*	*	feedback	*	female	*	speaker:Fiona	_	_	_	_	_	
+
+#Text=Danke <BR> mir geht es gut.
+148-1	3570-3575	Danke	_	GWithout[27]	aufnehmen\_set1\_22[27]	latin1[27]	blj8i1h4sc8jti0m6gcav1c9ek-aufnehmen\_set1\_22[27]	_	_	_	_	_	false	Decl	*[314]	*[314]	*[314]	*[314]	*[314]	input1[314]	42[434]	female[434]	blj8i1h4sc8jti0m6gcav1c9ek[434]	speaker: YOU[554]	_	_	_	_	_	
+148-2	3576-3580	<BR>	_	GWithout[27]	aufnehmen\_set1\_22[27]	latin1[27]	blj8i1h4sc8jti0m6gcav1c9ek-aufnehmen\_set1\_22[27]	_	_	_	_	_	_	_	*[314]	*[314]	*[314]	*[314]	*[314]	input1[314]	42[434]	female[434]	blj8i1h4sc8jti0m6gcav1c9ek[434]	speaker: YOU[554]	_	_	_	_	_	
+148-3	3581-3584	mir	_	GWithout[27]	aufnehmen\_set1\_22[27]	latin1[27]	blj8i1h4sc8jti0m6gcav1c9ek-aufnehmen\_set1\_22[27]	1	*	IndirObj	*	singular	false[194]	Decl[194]	*[314]	*[314]	*[314]	*[314]	*[314]	input1[314]	42[434]	female[434]	blj8i1h4sc8jti0m6gcav1c9ek[434]	speaker: YOU[554]	*->16-1	PerPron[16]	_	_	_	
+148-4	3585-3589	geht	_	GWithout[27]	aufnehmen\_set1\_22[27]	latin1[27]	blj8i1h4sc8jti0m6gcav1c9ek-aufnehmen\_set1\_22[27]	_	_	_	_	_	false[194]	Decl[194]	*[314]	*[314]	*[314]	*[314]	*[314]	input1[314]	42[434]	female[434]	blj8i1h4sc8jti0m6gcav1c9ek[434]	speaker: YOU[554]	_	_	_	_	_	
+148-5	3590-3592	es	_	GWithout[27]	aufnehmen\_set1\_22[27]	latin1[27]	blj8i1h4sc8jti0m6gcav1c9ek-aufnehmen\_set1\_22[27]	_	_	_	_	_	false[194]	Decl[194]	*[314]	*[314]	*[314]	*[314]	*[314]	input1[314]	42[434]	female[434]	blj8i1h4sc8jti0m6gcav1c9ek[434]	speaker: YOU[554]	_	_	_	_	_	
+148-6	3593-3597	gut.	_	GWithout[27]	aufnehmen\_set1\_22[27]	latin1[27]	blj8i1h4sc8jti0m6gcav1c9ek-aufnehmen\_set1\_22[27]	_	_	_	_	_	false[194]	Decl[194]	*[314]	*[314]	*[314]	*[314]	*[314]	input1[314]	42[434]	female[434]	blj8i1h4sc8jti0m6gcav1c9ek[434]	speaker: YOU[554]	_	_	_	_	_	
+
+#Text=Hast Du heute schon was vor?
+149-1	3599-3603	Hast	_	GWithout[27]	aufnehmen\_set1\_22[27]	latin1[27]	blj8i1h4sc8jti0m6gcav1c9ek-aufnehmen\_set1\_22[27]	_	_	_	_	_	false[195]	Int[195]	*[315]	*[315]	*[315]	*[315]	*[315]	input2[315]	42[435]	female[435]	blj8i1h4sc8jti0m6gcav1c9ek[435]	speaker: YOU[555]	_	_	_	_	_	
+149-2	3604-3606	Du	_	GWithout[27]	aufnehmen\_set1\_22[27]	latin1[27]	blj8i1h4sc8jti0m6gcav1c9ek-aufnehmen\_set1\_22[27]	2	*	Subj	*	singular	false[195]	Int[195]	*[315]	*[315]	*[315]	*[315]	*[315]	input2[315]	42[435]	female[435]	blj8i1h4sc8jti0m6gcav1c9ek[435]	speaker: YOU[555]	*->75-1	PerPron[75]	_	_	_	
+149-3	3607-3612	heute	_	GWithout[27]	aufnehmen\_set1\_22[27]	latin1[27]	blj8i1h4sc8jti0m6gcav1c9ek-aufnehmen\_set1\_22[27]	_	_	_	_	_	false[195]	Int[195]	*[315]	*[315]	*[315]	*[315]	*[315]	input2[315]	42[435]	female[435]	blj8i1h4sc8jti0m6gcav1c9ek[435]	speaker: YOU[555]	_	_	_	_	_	
+149-4	3613-3618	schon	_	GWithout[27]	aufnehmen\_set1\_22[27]	latin1[27]	blj8i1h4sc8jti0m6gcav1c9ek-aufnehmen\_set1\_22[27]	_	_	_	_	_	false[195]	Int[195]	*[315]	*[315]	*[315]	*[315]	*[315]	input2[315]	42[435]	female[435]	blj8i1h4sc8jti0m6gcav1c9ek[435]	speaker: YOU[555]	_	_	_	_	_	
+149-5	3619-3622	was	_	GWithout[27]	aufnehmen\_set1\_22[27]	latin1[27]	blj8i1h4sc8jti0m6gcav1c9ek-aufnehmen\_set1\_22[27]	_	_	_	_	_	false[195]	Int[195]	*[315]	*[315]	*[315]	*[315]	*[315]	input2[315]	42[435]	female[435]	blj8i1h4sc8jti0m6gcav1c9ek[435]	speaker: YOU[555]	*->1-1	IndefNP[1]	_	_	_	
+149-6	3623-3627	vor?	_	GWithout[27]	aufnehmen\_set1\_22[27]	latin1[27]	blj8i1h4sc8jti0m6gcav1c9ek-aufnehmen\_set1\_22[27]	_	_	_	_	_	false[195]	Int[195]	*[315]	*[315]	*[315]	*[315]	*[315]	input2[315]	42[435]	female[435]	blj8i1h4sc8jti0m6gcav1c9ek[435]	speaker: YOU[555]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+150-1	3629-3644	END_OF_DOCUMENT	_	GWithout[27]	aufnehmen\_set1\_22[27]	latin1[27]	blj8i1h4sc8jti0m6gcav1c9ek-aufnehmen\_set1\_22[27]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+151-1	3646-3652	Hallo,	_	GWithout[28]	aufnehmen\_set1\_22[28]	latin1[28]	h05ingrcngdnasp07727nvoq59-aufnehmen\_set1\_22[28]	_	_	_	_	_	false[196]	Int[196]	*[316]	*[316]	*[316]	wh\_2[316]	wh\_question[316]	openq[316]	*[436]	female[436]	*[436]	speaker:Fiona[556]	_	_	QAP	*	152-1[197_196]	
+151-2	3653-3656	wie	_	GWithout[28]	aufnehmen\_set1\_22[28]	latin1[28]	h05ingrcngdnasp07727nvoq59-aufnehmen\_set1\_22[28]	_	_	_	_	_	false[196]	Int[196]	*[316]	*[316]	*[316]	wh\_2[316]	wh\_question[316]	openq[316]	*[436]	female[436]	*[436]	speaker:Fiona[556]	_	_	_	_	_	
+151-3	3657-3664	geht's?	_	GWithout[28]	aufnehmen\_set1\_22[28]	latin1[28]	h05ingrcngdnasp07727nvoq59-aufnehmen\_set1\_22[28]	_	_	_	_	_	false[196]	Int[196]	*[316]	*[316]	*[316]	wh\_2[316]	wh\_question[316]	openq[316]	*[436]	female[436]	*[436]	speaker:Fiona[556]	_	_	_	_	_	
+
+#Text=Robin hat ein Konzert aufgenommen
+152-1	3666-3671	Robin	_	GWithout[28]	aufnehmen\_set1\_22[28]	latin1[28]	h05ingrcngdnasp07727nvoq59-aufnehmen\_set1\_22[28]	*	*	Subj	*	*	false[197]	Decl[197]	*[317]	aufnehmen[317]	transitive[317]	*[317]	*[317]	item0[317]	42[437]	female[437]	h05ingrcngdnasp07727nvoq59[437]	speaker: YOU[557]	*->82-1	PropNm[82]	result	*	154-1[198_197]	
+152-2	3672-3675	hat	_	GWithout[28]	aufnehmen\_set1\_22[28]	latin1[28]	h05ingrcngdnasp07727nvoq59-aufnehmen\_set1\_22[28]	_	_	_	_	_	false[197]	Decl[197]	*[317]	aufnehmen[317]	transitive[317]	*[317]	*[317]	item0[317]	42[437]	female[437]	h05ingrcngdnasp07727nvoq59[437]	speaker: YOU[557]	_	_	_	_	_	
+152-3	3676-3679	ein	_	GWithout[28]	aufnehmen\_set1\_22[28]	latin1[28]	h05ingrcngdnasp07727nvoq59-aufnehmen\_set1\_22[28]	*[79]	*[79]	object[79]	*[79]	*[79]	false[197]	Decl[197]	*[317]	aufnehmen[317]	transitive[317]	*[317]	*[317]	item0[317]	42[437]	female[437]	h05ingrcngdnasp07727nvoq59[437]	speaker: YOU[557]	*->73-1	IndefNP[73]	_	_	_	
+152-4	3680-3687	Konzert	_	GWithout[28]	aufnehmen\_set1\_22[28]	latin1[28]	h05ingrcngdnasp07727nvoq59-aufnehmen\_set1\_22[28]	*[79]	*[79]	object[79]	*[79]	*[79]	false[197]	Decl[197]	*[317]	aufnehmen[317]	transitive[317]	*[317]	*[317]	item0[317]	42[437]	female[437]	h05ingrcngdnasp07727nvoq59[437]	speaker: YOU[557]	*->73-1	IndefNP[73]	_	_	_	
+152-5	3688-3699	aufgenommen	_	GWithout[28]	aufnehmen\_set1\_22[28]	latin1[28]	h05ingrcngdnasp07727nvoq59-aufnehmen\_set1\_22[28]	_	_	_	_	_	false[197]	Decl[197]	*[317]	aufnehmen[317]	transitive[317]	*[317]	*[317]	item0[317]	42[437]	female[437]	h05ingrcngdnasp07727nvoq59[437]	speaker: YOU[557]	_	_	_	_	_	
+
+#Text=-
+153-1	3701-3702	-	_	GWithout[28]	aufnehmen\_set1\_22[28]	latin1[28]	h05ingrcngdnasp07727nvoq59-aufnehmen\_set1\_22[28]	_	_	_	_	_	false	NA	GWithout	*	*	*	*	feedback	*	female	*	speaker:Fiona	_	_	_	_	_	
+
+#Text=Wir schauen es gerade an.
+154-1	3704-3707	Wir	_	GWithout[28]	aufnehmen\_set1\_22[28]	latin1[28]	h05ingrcngdnasp07727nvoq59-aufnehmen\_set1\_22[28]	1	*	Subj	*	plural	false[198]	Decl[198]	*[318]	*[318]	*[318]	*[318]	*[318]	input1[318]	42[438]	female[438]	h05ingrcngdnasp07727nvoq59[438]	speaker: YOU[558]	*->20-1	PerPron[20]	result	*	155-1[199_198]	
+154-2	3708-3715	schauen	_	GWithout[28]	aufnehmen\_set1\_22[28]	latin1[28]	h05ingrcngdnasp07727nvoq59-aufnehmen\_set1\_22[28]	_	_	_	_	_	false[198]	Decl[198]	*[318]	*[318]	*[318]	*[318]	*[318]	input1[318]	42[438]	female[438]	h05ingrcngdnasp07727nvoq59[438]	speaker: YOU[558]	_	_	_	_	_	
+154-3	3716-3718	es	_	GWithout[28]	aufnehmen\_set1\_22[28]	latin1[28]	h05ingrcngdnasp07727nvoq59-aufnehmen\_set1\_22[28]	3	*	DirObj	*	singular	false[198]	Decl[198]	*[318]	*[318]	*[318]	*[318]	*[318]	input1[318]	42[438]	female[438]	h05ingrcngdnasp07727nvoq59[438]	speaker: YOU[558]	*->73-2	PerPron[73]	_	_	_	
+154-4	3719-3725	gerade	_	GWithout[28]	aufnehmen\_set1\_22[28]	latin1[28]	h05ingrcngdnasp07727nvoq59-aufnehmen\_set1\_22[28]	_	_	_	_	_	false[198]	Decl[198]	*[318]	*[318]	*[318]	*[318]	*[318]	input1[318]	42[438]	female[438]	h05ingrcngdnasp07727nvoq59[438]	speaker: YOU[558]	_	_	_	_	_	
+154-5	3726-3729	an.	_	GWithout[28]	aufnehmen\_set1\_22[28]	latin1[28]	h05ingrcngdnasp07727nvoq59-aufnehmen\_set1\_22[28]	_	_	_	_	_	false[198]	Decl[198]	*[318]	*[318]	*[318]	*[318]	*[318]	input1[318]	42[438]	female[438]	h05ingrcngdnasp07727nvoq59[438]	speaker: YOU[558]	_	_	_	_	_	
+
+#Text=Magst du vorbei kommen?
+155-1	3731-3736	Magst	_	GWithout[28]	aufnehmen\_set1\_22[28]	latin1[28]	h05ingrcngdnasp07727nvoq59-aufnehmen\_set1\_22[28]	_	_	_	_	_	false[199]	Int[199]	*[319]	*[319]	*[319]	*[319]	*[319]	input2[319]	42[439]	female[439]	h05ingrcngdnasp07727nvoq59[439]	speaker: YOU[559]	_	_	_	_	_	
+155-2	3737-3739	du	_	GWithout[28]	aufnehmen\_set1\_22[28]	latin1[28]	h05ingrcngdnasp07727nvoq59-aufnehmen\_set1\_22[28]	2	*	Subj	*	singular	false[199]	Int[199]	*[319]	*[319]	*[319]	*[319]	*[319]	input2[319]	42[439]	female[439]	h05ingrcngdnasp07727nvoq59[439]	speaker: YOU[559]	*->79-1	PerPron[79]	_	_	_	
+155-3	3740-3746	vorbei	_	GWithout[28]	aufnehmen\_set1\_22[28]	latin1[28]	h05ingrcngdnasp07727nvoq59-aufnehmen\_set1\_22[28]	_	_	_	_	_	false[199]	Int[199]	*[319]	*[319]	*[319]	*[319]	*[319]	input2[319]	42[439]	female[439]	h05ingrcngdnasp07727nvoq59[439]	speaker: YOU[559]	_	_	_	_	_	
+155-4	3747-3754	kommen?	_	GWithout[28]	aufnehmen\_set1\_22[28]	latin1[28]	h05ingrcngdnasp07727nvoq59-aufnehmen\_set1\_22[28]	_	_	_	_	_	false[199]	Int[199]	*[319]	*[319]	*[319]	*[319]	*[319]	input2[319]	42[439]	female[439]	h05ingrcngdnasp07727nvoq59[439]	speaker: YOU[559]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+156-1	3756-3771	END_OF_DOCUMENT	_	GWithout[28]	aufnehmen\_set1\_22[28]	latin1[28]	h05ingrcngdnasp07727nvoq59-aufnehmen\_set1\_22[28]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+157-1	3773-3779	Hallo,	_	GWithout[29]	aufnehmen\_set1\_22[29]	latin1[29]	jkqc35grurqg6r29efakrmibd9-aufnehmen\_set1\_22[29]	_	_	_	_	_	false[200]	Int[200]	*[320]	*[320]	*[320]	wh\_2[320]	wh\_question[320]	openq[320]	*[440]	female[440]	*[440]	speaker:Fiona[560]	_	_	QAP	*	158-1[201_200]	
+157-2	3780-3783	wie	_	GWithout[29]	aufnehmen\_set1\_22[29]	latin1[29]	jkqc35grurqg6r29efakrmibd9-aufnehmen\_set1\_22[29]	_	_	_	_	_	false[200]	Int[200]	*[320]	*[320]	*[320]	wh\_2[320]	wh\_question[320]	openq[320]	*[440]	female[440]	*[440]	speaker:Fiona[560]	_	_	_	_	_	
+157-3	3784-3791	geht's?	_	GWithout[29]	aufnehmen\_set1\_22[29]	latin1[29]	jkqc35grurqg6r29efakrmibd9-aufnehmen\_set1\_22[29]	_	_	_	_	_	false[200]	Int[200]	*[320]	*[320]	*[320]	wh\_2[320]	wh\_question[320]	openq[320]	*[440]	female[440]	*[440]	speaker:Fiona[560]	_	_	_	_	_	
+
+#Text=Robin hat ein Konzert aufgenommen
+158-1	3793-3798	Robin	_	GWithout[29]	aufnehmen\_set1\_22[29]	latin1[29]	jkqc35grurqg6r29efakrmibd9-aufnehmen\_set1\_22[29]	*	*	Subj	*	*	false[201]	Decl[201]	*[321]	aufnehmen[321]	transitive[321]	*[321]	*[321]	item0[321]	42[441]	male[441]	jkqc35grurqg6r29efakrmibd9[441]	speaker: YOU[561]	*->24-1	PropNm[24]	narration|narration	*|*	160-1[202_201]|161-1[203_201]	
+158-2	3799-3802	hat	_	GWithout[29]	aufnehmen\_set1\_22[29]	latin1[29]	jkqc35grurqg6r29efakrmibd9-aufnehmen\_set1\_22[29]	_	_	_	_	_	false[201]	Decl[201]	*[321]	aufnehmen[321]	transitive[321]	*[321]	*[321]	item0[321]	42[441]	male[441]	jkqc35grurqg6r29efakrmibd9[441]	speaker: YOU[561]	_	_	_	_	_	
+158-3	3803-3806	ein	_	GWithout[29]	aufnehmen\_set1\_22[29]	latin1[29]	jkqc35grurqg6r29efakrmibd9-aufnehmen\_set1\_22[29]	*[80]	*[80]	object[80]	*[80]	*[80]	false[201]	Decl[201]	*[321]	aufnehmen[321]	transitive[321]	*[321]	*[321]	item0[321]	42[441]	male[441]	jkqc35grurqg6r29efakrmibd9[441]	speaker: YOU[561]	*->35-1	IndefNP[35]	_	_	_	
+158-4	3807-3814	Konzert	_	GWithout[29]	aufnehmen\_set1\_22[29]	latin1[29]	jkqc35grurqg6r29efakrmibd9-aufnehmen\_set1\_22[29]	*[80]	*[80]	object[80]	*[80]	*[80]	false[201]	Decl[201]	*[321]	aufnehmen[321]	transitive[321]	*[321]	*[321]	item0[321]	42[441]	male[441]	jkqc35grurqg6r29efakrmibd9[441]	speaker: YOU[561]	*->35-1	IndefNP[35]	_	_	_	
+158-5	3815-3826	aufgenommen	_	GWithout[29]	aufnehmen\_set1\_22[29]	latin1[29]	jkqc35grurqg6r29efakrmibd9-aufnehmen\_set1\_22[29]	_	_	_	_	_	false[201]	Decl[201]	*[321]	aufnehmen[321]	transitive[321]	*[321]	*[321]	item0[321]	42[441]	male[441]	jkqc35grurqg6r29efakrmibd9[441]	speaker: YOU[561]	_	_	_	_	_	
+
+#Text=-
+159-1	3828-3829	-	_	GWithout[29]	aufnehmen\_set1\_22[29]	latin1[29]	jkqc35grurqg6r29efakrmibd9-aufnehmen\_set1\_22[29]	_	_	_	_	_	false	NA	GWithout	*	*	*	*	feedback	*	female	*	speaker:Fiona	_	_	_	_	_	
+
+#Text=jetzt ist das Gerät kaputt
+160-1	3831-3836	jetzt	_	GWithout[29]	aufnehmen\_set1\_22[29]	latin1[29]	jkqc35grurqg6r29efakrmibd9-aufnehmen\_set1\_22[29]	_	_	_	_	_	false[202]	Decl[202]	*[322]	*[322]	*[322]	*[322]	*[322]	input1[322]	42[442]	male[442]	jkqc35grurqg6r29efakrmibd9[442]	speaker: YOU[562]	_	_	_	_	_	
+160-2	3837-3840	ist	_	GWithout[29]	aufnehmen\_set1\_22[29]	latin1[29]	jkqc35grurqg6r29efakrmibd9-aufnehmen\_set1\_22[29]	_	_	_	_	_	false[202]	Decl[202]	*[322]	*[322]	*[322]	*[322]	*[322]	input1[322]	42[442]	male[442]	jkqc35grurqg6r29efakrmibd9[442]	speaker: YOU[562]	_	_	_	_	_	
+160-3	3841-3844	das	_	GWithout[29]	aufnehmen\_set1\_22[29]	latin1[29]	jkqc35grurqg6r29efakrmibd9-aufnehmen\_set1\_22[29]	*[81]	*[81]	Subj[81]	*[81]	*[81]	false[202]	Decl[202]	*[322]	*[322]	*[322]	*[322]	*[322]	input1[322]	42[442]	male[442]	jkqc35grurqg6r29efakrmibd9[442]	speaker: YOU[562]	*->62-1	DefNP[62]	_	_	_	
+160-4	3845-3850	Gerät	_	GWithout[29]	aufnehmen\_set1\_22[29]	latin1[29]	jkqc35grurqg6r29efakrmibd9-aufnehmen\_set1\_22[29]	*[81]	*[81]	Subj[81]	*[81]	*[81]	false[202]	Decl[202]	*[322]	*[322]	*[322]	*[322]	*[322]	input1[322]	42[442]	male[442]	jkqc35grurqg6r29efakrmibd9[442]	speaker: YOU[562]	*->62-1	DefNP[62]	_	_	_	
+160-5	3851-3857	kaputt	_	GWithout[29]	aufnehmen\_set1\_22[29]	latin1[29]	jkqc35grurqg6r29efakrmibd9-aufnehmen\_set1\_22[29]	_	_	_	_	_	false[202]	Decl[202]	*[322]	*[322]	*[322]	*[322]	*[322]	input1[322]	42[442]	male[442]	jkqc35grurqg6r29efakrmibd9[442]	speaker: YOU[562]	_	_	_	_	_	
+
+#Text=Hoffentlich konnte er es vorher in die Cloud laden
+161-1	3859-3870	Hoffentlich	_	GWithout[29]	aufnehmen\_set1\_22[29]	latin1[29]	jkqc35grurqg6r29efakrmibd9-aufnehmen\_set1\_22[29]	_	_	_	_	_	false[203]	Decl[203]	*[323]	*[323]	*[323]	*[323]	*[323]	input2[323]	42[443]	male[443]	jkqc35grurqg6r29efakrmibd9[443]	speaker: YOU[563]	_	_	_	_	_	
+161-2	3871-3877	konnte	_	GWithout[29]	aufnehmen\_set1\_22[29]	latin1[29]	jkqc35grurqg6r29efakrmibd9-aufnehmen\_set1\_22[29]	_	_	_	_	_	false[203]	Decl[203]	*[323]	*[323]	*[323]	*[323]	*[323]	input2[323]	42[443]	male[443]	jkqc35grurqg6r29efakrmibd9[443]	speaker: YOU[563]	_	_	_	_	_	
+161-3	3878-3880	er	_	GWithout[29]	aufnehmen\_set1\_22[29]	latin1[29]	jkqc35grurqg6r29efakrmibd9-aufnehmen\_set1\_22[29]	3	*	Subj	*	singular	false[203]	Decl[203]	*[323]	*[323]	*[323]	*[323]	*[323]	input2[323]	42[443]	male[443]	jkqc35grurqg6r29efakrmibd9[443]	speaker: YOU[563]	*->24-2	PerPron[24]	_	_	_	
+161-4	3881-3883	es	_	GWithout[29]	aufnehmen\_set1\_22[29]	latin1[29]	jkqc35grurqg6r29efakrmibd9-aufnehmen\_set1\_22[29]	3	*	DirObj	*	singular	false[203]	Decl[203]	*[323]	*[323]	*[323]	*[323]	*[323]	input2[323]	42[443]	male[443]	jkqc35grurqg6r29efakrmibd9[443]	speaker: YOU[563]	*->35-2	PerPron[35]	_	_	_	
+161-5	3884-3890	vorher	_	GWithout[29]	aufnehmen\_set1\_22[29]	latin1[29]	jkqc35grurqg6r29efakrmibd9-aufnehmen\_set1\_22[29]	_	_	_	_	_	false[203]	Decl[203]	*[323]	*[323]	*[323]	*[323]	*[323]	input2[323]	42[443]	male[443]	jkqc35grurqg6r29efakrmibd9[443]	speaker: YOU[563]	_	_	_	_	_	
+161-6	3891-3893	in	_	GWithout[29]	aufnehmen\_set1\_22[29]	latin1[29]	jkqc35grurqg6r29efakrmibd9-aufnehmen\_set1\_22[29]	_	_	_	_	_	false[203]	Decl[203]	*[323]	*[323]	*[323]	*[323]	*[323]	input2[323]	42[443]	male[443]	jkqc35grurqg6r29efakrmibd9[443]	speaker: YOU[563]	_	_	_	_	_	
+161-7	3894-3897	die	_	GWithout[29]	aufnehmen\_set1\_22[29]	latin1[29]	jkqc35grurqg6r29efakrmibd9-aufnehmen\_set1\_22[29]	*[82]	*[82]	PrepObj[82]	*[82]	*[82]	false[203]	Decl[203]	*[323]	*[323]	*[323]	*[323]	*[323]	input2[323]	42[443]	male[443]	jkqc35grurqg6r29efakrmibd9[443]	speaker: YOU[563]	*->36-1	DefNP[36]	_	_	_	
+161-8	3898-3903	Cloud	_	GWithout[29]	aufnehmen\_set1\_22[29]	latin1[29]	jkqc35grurqg6r29efakrmibd9-aufnehmen\_set1\_22[29]	*[82]	*[82]	PrepObj[82]	*[82]	*[82]	false[203]	Decl[203]	*[323]	*[323]	*[323]	*[323]	*[323]	input2[323]	42[443]	male[443]	jkqc35grurqg6r29efakrmibd9[443]	speaker: YOU[563]	*->36-1	DefNP[36]	_	_	_	
+161-9	3904-3909	laden	_	GWithout[29]	aufnehmen\_set1\_22[29]	latin1[29]	jkqc35grurqg6r29efakrmibd9-aufnehmen\_set1\_22[29]	_	_	_	_	_	false[203]	Decl[203]	*[323]	*[323]	*[323]	*[323]	*[323]	input2[323]	42[443]	male[443]	jkqc35grurqg6r29efakrmibd9[443]	speaker: YOU[563]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+162-1	3911-3926	END_OF_DOCUMENT	_	GWithout[29]	aufnehmen\_set1\_22[29]	latin1[29]	jkqc35grurqg6r29efakrmibd9-aufnehmen\_set1\_22[29]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+163-1	3928-3934	Hallo,	_	GWithout[30]	aufnehmen\_set1\_22[30]	latin1[30]	lhu26mh95feeqso1qtacqboi3v-aufnehmen\_set1\_22[30]	_	_	_	_	_	false[204]	Int[204]	*[324]	*[324]	*[324]	wh\_2[324]	wh\_question[324]	openq[324]	*[444]	female[444]	*[444]	speaker:Fiona[564]	_	_	QAP	*	164-1[205_204]	
+163-2	3935-3938	wie	_	GWithout[30]	aufnehmen\_set1\_22[30]	latin1[30]	lhu26mh95feeqso1qtacqboi3v-aufnehmen\_set1\_22[30]	_	_	_	_	_	false[204]	Int[204]	*[324]	*[324]	*[324]	wh\_2[324]	wh\_question[324]	openq[324]	*[444]	female[444]	*[444]	speaker:Fiona[564]	_	_	_	_	_	
+163-3	3939-3946	geht's?	_	GWithout[30]	aufnehmen\_set1\_22[30]	latin1[30]	lhu26mh95feeqso1qtacqboi3v-aufnehmen\_set1\_22[30]	_	_	_	_	_	false[204]	Int[204]	*[324]	*[324]	*[324]	wh\_2[324]	wh\_question[324]	openq[324]	*[444]	female[444]	*[444]	speaker:Fiona[564]	_	_	_	_	_	
+
+#Text=Robin hat ein Konzert aufgenommen
+164-1	3948-3953	Robin	_	GWithout[30]	aufnehmen\_set1\_22[30]	latin1[30]	lhu26mh95feeqso1qtacqboi3v-aufnehmen\_set1\_22[30]	*	*	Subj	*	*	false[205]	Decl[205]	*[325]	aufnehmen[325]	transitive[325]	*[325]	*[325]	item0[325]	20[445]	male[445]	lhu26mh95feeqso1qtacqboi3v[445]	speaker: YOU[565]	*->105-1	PropNm[105]	elaboration	*	166-1[206_205]	
+164-2	3954-3957	hat	_	GWithout[30]	aufnehmen\_set1\_22[30]	latin1[30]	lhu26mh95feeqso1qtacqboi3v-aufnehmen\_set1\_22[30]	_	_	_	_	_	false[205]	Decl[205]	*[325]	aufnehmen[325]	transitive[325]	*[325]	*[325]	item0[325]	20[445]	male[445]	lhu26mh95feeqso1qtacqboi3v[445]	speaker: YOU[565]	_	_	_	_	_	
+164-3	3958-3961	ein	_	GWithout[30]	aufnehmen\_set1\_22[30]	latin1[30]	lhu26mh95feeqso1qtacqboi3v-aufnehmen\_set1\_22[30]	*[83]	*[83]	object[83]	*[83]	*[83]	false[205]	Decl[205]	*[325]	aufnehmen[325]	transitive[325]	*[325]	*[325]	item0[325]	20[445]	male[445]	lhu26mh95feeqso1qtacqboi3v[445]	speaker: YOU[565]	*->97-1	IndefNP[97]	_	_	_	
+164-4	3962-3969	Konzert	_	GWithout[30]	aufnehmen\_set1\_22[30]	latin1[30]	lhu26mh95feeqso1qtacqboi3v-aufnehmen\_set1\_22[30]	*[83]	*[83]	object[83]	*[83]	*[83]	false[205]	Decl[205]	*[325]	aufnehmen[325]	transitive[325]	*[325]	*[325]	item0[325]	20[445]	male[445]	lhu26mh95feeqso1qtacqboi3v[445]	speaker: YOU[565]	*->97-1	IndefNP[97]	_	_	_	
+164-5	3970-3981	aufgenommen	_	GWithout[30]	aufnehmen\_set1\_22[30]	latin1[30]	lhu26mh95feeqso1qtacqboi3v-aufnehmen\_set1\_22[30]	_	_	_	_	_	false[205]	Decl[205]	*[325]	aufnehmen[325]	transitive[325]	*[325]	*[325]	item0[325]	20[445]	male[445]	lhu26mh95feeqso1qtacqboi3v[445]	speaker: YOU[565]	_	_	_	_	_	
+
+#Text=-
+165-1	3983-3984	-	_	GWithout[30]	aufnehmen\_set1\_22[30]	latin1[30]	lhu26mh95feeqso1qtacqboi3v-aufnehmen\_set1\_22[30]	_	_	_	_	_	false	NA	GWithout	*	*	*	*	feedback	*	female	*	speaker:Fiona	_	_	_	_	_	
+
+#Text=Es ist echt gut geworden.
+166-1	3986-3988	Es	_	GWithout[30]	aufnehmen\_set1\_22[30]	latin1[30]	lhu26mh95feeqso1qtacqboi3v-aufnehmen\_set1\_22[30]	3	*	Subj	*	singular	false[206]	Decl[206]	*[326]	*[326]	*[326]	*[326]	*[326]	input1[326]	20[446]	male[446]	lhu26mh95feeqso1qtacqboi3v[446]	speaker: YOU[566]	*->97-2	PerPron[97]	result	*	167-1[207_206]	
+166-2	3989-3992	ist	_	GWithout[30]	aufnehmen\_set1\_22[30]	latin1[30]	lhu26mh95feeqso1qtacqboi3v-aufnehmen\_set1\_22[30]	_	_	_	_	_	false[206]	Decl[206]	*[326]	*[326]	*[326]	*[326]	*[326]	input1[326]	20[446]	male[446]	lhu26mh95feeqso1qtacqboi3v[446]	speaker: YOU[566]	_	_	_	_	_	
+166-3	3993-3997	echt	_	GWithout[30]	aufnehmen\_set1\_22[30]	latin1[30]	lhu26mh95feeqso1qtacqboi3v-aufnehmen\_set1\_22[30]	_	_	_	_	_	false[206]	Decl[206]	*[326]	*[326]	*[326]	*[326]	*[326]	input1[326]	20[446]	male[446]	lhu26mh95feeqso1qtacqboi3v[446]	speaker: YOU[566]	_	_	_	_	_	
+166-4	3998-4001	gut	_	GWithout[30]	aufnehmen\_set1\_22[30]	latin1[30]	lhu26mh95feeqso1qtacqboi3v-aufnehmen\_set1\_22[30]	_	_	_	_	_	false[206]	Decl[206]	*[326]	*[326]	*[326]	*[326]	*[326]	input1[326]	20[446]	male[446]	lhu26mh95feeqso1qtacqboi3v[446]	speaker: YOU[566]	_	_	_	_	_	
+166-5	4002-4011	geworden.	_	GWithout[30]	aufnehmen\_set1\_22[30]	latin1[30]	lhu26mh95feeqso1qtacqboi3v-aufnehmen\_set1\_22[30]	_	_	_	_	_	false[206]	Decl[206]	*[326]	*[326]	*[326]	*[326]	*[326]	input1[326]	20[446]	male[446]	lhu26mh95feeqso1qtacqboi3v[446]	speaker: YOU[566]	_	_	_	_	_	
+
+#Text=Vielleicht geht seine Karriere endlich durch die Decke.
+167-1	4013-4023	Vielleicht	_	GWithout[30]	aufnehmen\_set1\_22[30]	latin1[30]	lhu26mh95feeqso1qtacqboi3v-aufnehmen\_set1\_22[30]	_	_	_	_	_	false[207]	Decl[207]	*[327]	*[327]	*[327]	*[327]	*[327]	input2[327]	20[447]	male[447]	lhu26mh95feeqso1qtacqboi3v[447]	speaker: YOU[567]	_	_	_	_	_	
+167-2	4024-4028	geht	_	GWithout[30]	aufnehmen\_set1\_22[30]	latin1[30]	lhu26mh95feeqso1qtacqboi3v-aufnehmen\_set1\_22[30]	_	_	_	_	_	false[207]	Decl[207]	*[327]	*[327]	*[327]	*[327]	*[327]	input2[327]	20[447]	male[447]	lhu26mh95feeqso1qtacqboi3v[447]	speaker: YOU[567]	_	_	_	_	_	
+167-3	4029-4034	seine	_	GWithout[30]	aufnehmen\_set1\_22[30]	latin1[30]	lhu26mh95feeqso1qtacqboi3v-aufnehmen\_set1\_22[30]	*[84]|3[85]	*[84]|*[85]	Subj[84]|*[85]	*[84]|*[85]	*[84]|singular[85]	false[207]	Decl[207]	*[327]	*[327]	*[327]	*[327]	*[327]	input2[327]	20[447]	male[447]	lhu26mh95feeqso1qtacqboi3v[447]	speaker: YOU[567]	*->59-1|*->105-2	DefNP[59]|PossePron[105]	_	_	_	
+167-4	4035-4043	Karriere	_	GWithout[30]	aufnehmen\_set1\_22[30]	latin1[30]	lhu26mh95feeqso1qtacqboi3v-aufnehmen\_set1\_22[30]	*[84]	*[84]	Subj[84]	*[84]	*[84]	false[207]	Decl[207]	*[327]	*[327]	*[327]	*[327]	*[327]	input2[327]	20[447]	male[447]	lhu26mh95feeqso1qtacqboi3v[447]	speaker: YOU[567]	*->59-1	DefNP[59]	_	_	_	
+167-5	4044-4051	endlich	_	GWithout[30]	aufnehmen\_set1\_22[30]	latin1[30]	lhu26mh95feeqso1qtacqboi3v-aufnehmen\_set1\_22[30]	_	_	_	_	_	false[207]	Decl[207]	*[327]	*[327]	*[327]	*[327]	*[327]	input2[327]	20[447]	male[447]	lhu26mh95feeqso1qtacqboi3v[447]	speaker: YOU[567]	_	_	_	_	_	
+167-6	4052-4057	durch	_	GWithout[30]	aufnehmen\_set1\_22[30]	latin1[30]	lhu26mh95feeqso1qtacqboi3v-aufnehmen\_set1\_22[30]	_	_	_	_	_	false[207]	Decl[207]	*[327]	*[327]	*[327]	*[327]	*[327]	input2[327]	20[447]	male[447]	lhu26mh95feeqso1qtacqboi3v[447]	speaker: YOU[567]	_	_	_	_	_	
+167-7	4058-4061	die	_	GWithout[30]	aufnehmen\_set1\_22[30]	latin1[30]	lhu26mh95feeqso1qtacqboi3v-aufnehmen\_set1\_22[30]	*[86]	*[86]	PrepObj[86]	*[86]	*[86]	false[207]	Decl[207]	*[327]	*[327]	*[327]	*[327]	*[327]	input2[327]	20[447]	male[447]	lhu26mh95feeqso1qtacqboi3v[447]	speaker: YOU[567]	*->41-1	DefNP[41]	_	_	_	
+167-8	4062-4068	Decke.	_	GWithout[30]	aufnehmen\_set1\_22[30]	latin1[30]	lhu26mh95feeqso1qtacqboi3v-aufnehmen\_set1\_22[30]	*[86]	*[86]	PrepObj[86]	*[86]	*[86]	false[207]	Decl[207]	*[327]	*[327]	*[327]	*[327]	*[327]	input2[327]	20[447]	male[447]	lhu26mh95feeqso1qtacqboi3v[447]	speaker: YOU[567]	*->41-1	DefNP[41]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+168-1	4070-4085	END_OF_DOCUMENT	_	GWithout[30]	aufnehmen\_set1\_22[30]	latin1[30]	lhu26mh95feeqso1qtacqboi3v-aufnehmen\_set1\_22[30]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+169-1	4087-4093	Hallo,	_	GWithout[31]	aufnehmen\_set1\_22[31]	latin1[31]	tc4i3rsgsa9bl8tesf4679lok2-aufnehmen\_set1\_22[31]	_	_	_	_	_	false[208]	Int[208]	*[328]	*[328]	*[328]	wh\_2[328]	wh\_question[328]	openq[328]	*[448]	female[448]	*[448]	speaker:Fiona[568]	_	_	QAP	*	170-1[209_208]	
+169-2	4094-4097	wie	_	GWithout[31]	aufnehmen\_set1\_22[31]	latin1[31]	tc4i3rsgsa9bl8tesf4679lok2-aufnehmen\_set1\_22[31]	_	_	_	_	_	false[208]	Int[208]	*[328]	*[328]	*[328]	wh\_2[328]	wh\_question[328]	openq[328]	*[448]	female[448]	*[448]	speaker:Fiona[568]	_	_	_	_	_	
+169-3	4098-4105	geht's?	_	GWithout[31]	aufnehmen\_set1\_22[31]	latin1[31]	tc4i3rsgsa9bl8tesf4679lok2-aufnehmen\_set1\_22[31]	_	_	_	_	_	false[208]	Int[208]	*[328]	*[328]	*[328]	wh\_2[328]	wh\_question[328]	openq[328]	*[448]	female[448]	*[448]	speaker:Fiona[568]	_	_	_	_	_	
+
+#Text=Robin hat ein Konzert aufgenommen
+170-1	4107-4112	Robin	_	GWithout[31]	aufnehmen\_set1\_22[31]	latin1[31]	tc4i3rsgsa9bl8tesf4679lok2-aufnehmen\_set1\_22[31]	*	*	Subj	*	*	false[209]	Decl[209]	*[329]	aufnehmen[329]	transitive[329]	*[329]	*[329]	item0[329]	21[449]	male[449]	tc4i3rsgsa9bl8tesf4679lok2[449]	speaker: YOU[569]	*->113-1	PropNm[113]	explanation|elaboration	*|*	172-1[210_209]|173-1[211_209]	
+170-2	4113-4116	hat	_	GWithout[31]	aufnehmen\_set1\_22[31]	latin1[31]	tc4i3rsgsa9bl8tesf4679lok2-aufnehmen\_set1\_22[31]	_	_	_	_	_	false[209]	Decl[209]	*[329]	aufnehmen[329]	transitive[329]	*[329]	*[329]	item0[329]	21[449]	male[449]	tc4i3rsgsa9bl8tesf4679lok2[449]	speaker: YOU[569]	_	_	_	_	_	
+170-3	4117-4120	ein	_	GWithout[31]	aufnehmen\_set1\_22[31]	latin1[31]	tc4i3rsgsa9bl8tesf4679lok2-aufnehmen\_set1\_22[31]	*[87]	*[87]	object[87]	*[87]	*[87]	false[209]	Decl[209]	*[329]	aufnehmen[329]	transitive[329]	*[329]	*[329]	item0[329]	21[449]	male[449]	tc4i3rsgsa9bl8tesf4679lok2[449]	speaker: YOU[569]	*->40-1	IndefNP[40]	_	_	_	
+170-4	4121-4128	Konzert	_	GWithout[31]	aufnehmen\_set1\_22[31]	latin1[31]	tc4i3rsgsa9bl8tesf4679lok2-aufnehmen\_set1\_22[31]	*[87]	*[87]	object[87]	*[87]	*[87]	false[209]	Decl[209]	*[329]	aufnehmen[329]	transitive[329]	*[329]	*[329]	item0[329]	21[449]	male[449]	tc4i3rsgsa9bl8tesf4679lok2[449]	speaker: YOU[569]	*->40-1	IndefNP[40]	_	_	_	
+170-5	4129-4140	aufgenommen	_	GWithout[31]	aufnehmen\_set1\_22[31]	latin1[31]	tc4i3rsgsa9bl8tesf4679lok2-aufnehmen\_set1\_22[31]	_	_	_	_	_	false[209]	Decl[209]	*[329]	aufnehmen[329]	transitive[329]	*[329]	*[329]	item0[329]	21[449]	male[449]	tc4i3rsgsa9bl8tesf4679lok2[449]	speaker: YOU[569]	_	_	_	_	_	
+
+#Text=-
+171-1	4142-4143	-	_	GWithout[31]	aufnehmen\_set1\_22[31]	latin1[31]	tc4i3rsgsa9bl8tesf4679lok2-aufnehmen\_set1\_22[31]	_	_	_	_	_	false	NA	GWithout	*	*	*	*	feedback	*	female	*	speaker:Fiona	_	_	_	_	_	
+
+#Text=Er war gestern auf dem MGK Konzert
+172-1	4145-4147	Er	_	GWithout[31]	aufnehmen\_set1\_22[31]	latin1[31]	tc4i3rsgsa9bl8tesf4679lok2-aufnehmen\_set1\_22[31]	3	*	Subj	*	singular	false[210]	Decl[210]	*[330]	*[330]	*[330]	*[330]	*[330]	input1[330]	21[450]	male[450]	tc4i3rsgsa9bl8tesf4679lok2[450]	speaker: YOU[570]	*->113-2	PerPron[113]	_	_	_	
+172-2	4148-4151	war	_	GWithout[31]	aufnehmen\_set1\_22[31]	latin1[31]	tc4i3rsgsa9bl8tesf4679lok2-aufnehmen\_set1\_22[31]	_	_	_	_	_	false[210]	Decl[210]	*[330]	*[330]	*[330]	*[330]	*[330]	input1[330]	21[450]	male[450]	tc4i3rsgsa9bl8tesf4679lok2[450]	speaker: YOU[570]	_	_	_	_	_	
+172-3	4152-4159	gestern	_	GWithout[31]	aufnehmen\_set1\_22[31]	latin1[31]	tc4i3rsgsa9bl8tesf4679lok2-aufnehmen\_set1\_22[31]	_	_	_	_	_	false[210]	Decl[210]	*[330]	*[330]	*[330]	*[330]	*[330]	input1[330]	21[450]	male[450]	tc4i3rsgsa9bl8tesf4679lok2[450]	speaker: YOU[570]	_	_	_	_	_	
+172-4	4160-4163	auf	_	GWithout[31]	aufnehmen\_set1\_22[31]	latin1[31]	tc4i3rsgsa9bl8tesf4679lok2-aufnehmen\_set1\_22[31]	_	_	_	_	_	false[210]	Decl[210]	*[330]	*[330]	*[330]	*[330]	*[330]	input1[330]	21[450]	male[450]	tc4i3rsgsa9bl8tesf4679lok2[450]	speaker: YOU[570]	_	_	_	_	_	
+172-5	4164-4167	dem	_	GWithout[31]	aufnehmen\_set1\_22[31]	latin1[31]	tc4i3rsgsa9bl8tesf4679lok2-aufnehmen\_set1\_22[31]	*[88]	*[88]	PrepObj[88]	*[88]	*[88]	false[210]	Decl[210]	*[330]	*[330]	*[330]	*[330]	*[330]	input1[330]	21[450]	male[450]	tc4i3rsgsa9bl8tesf4679lok2[450]	speaker: YOU[570]	*->40-2	DefNP[40]	_	_	_	
+172-6	4168-4171	MGK	_	GWithout[31]	aufnehmen\_set1\_22[31]	latin1[31]	tc4i3rsgsa9bl8tesf4679lok2-aufnehmen\_set1\_22[31]	*[88]	*[88]	PrepObj[88]	*[88]	*[88]	false[210]	Decl[210]	*[330]	*[330]	*[330]	*[330]	*[330]	input1[330]	21[450]	male[450]	tc4i3rsgsa9bl8tesf4679lok2[450]	speaker: YOU[570]	*->40-2	DefNP[40]	_	_	_	
+172-7	4172-4179	Konzert	_	GWithout[31]	aufnehmen\_set1\_22[31]	latin1[31]	tc4i3rsgsa9bl8tesf4679lok2-aufnehmen\_set1\_22[31]	*[88]	*[88]	PrepObj[88]	*[88]	*[88]	false[210]	Decl[210]	*[330]	*[330]	*[330]	*[330]	*[330]	input1[330]	21[450]	male[450]	tc4i3rsgsa9bl8tesf4679lok2[450]	speaker: YOU[570]	*->40-2	DefNP[40]	_	_	_	
+
+#Text=Und die Videos sehen wirklich hammer aus
+173-1	4181-4184	Und	_	GWithout[31]	aufnehmen\_set1\_22[31]	latin1[31]	tc4i3rsgsa9bl8tesf4679lok2-aufnehmen\_set1\_22[31]	_	_	_	_	_	false[211]	Decl[211]	*[331]	*[331]	*[331]	*[331]	*[331]	input2[331]	21[451]	male[451]	tc4i3rsgsa9bl8tesf4679lok2[451]	speaker: YOU[571]	_	_	_	_	_	
+173-2	4185-4188	die	_	GWithout[31]	aufnehmen\_set1\_22[31]	latin1[31]	tc4i3rsgsa9bl8tesf4679lok2-aufnehmen\_set1\_22[31]	*[89]	*[89]	Subj[89]	*[89]	*[89]	false[211]	Decl[211]	*[331]	*[331]	*[331]	*[331]	*[331]	input2[331]	21[451]	male[451]	tc4i3rsgsa9bl8tesf4679lok2[451]	speaker: YOU[571]	*->80-1	DefNP[80]	_	_	_	
+173-3	4189-4195	Videos	_	GWithout[31]	aufnehmen\_set1\_22[31]	latin1[31]	tc4i3rsgsa9bl8tesf4679lok2-aufnehmen\_set1\_22[31]	*[89]	*[89]	Subj[89]	*[89]	*[89]	false[211]	Decl[211]	*[331]	*[331]	*[331]	*[331]	*[331]	input2[331]	21[451]	male[451]	tc4i3rsgsa9bl8tesf4679lok2[451]	speaker: YOU[571]	*->80-1	DefNP[80]	_	_	_	
+173-4	4196-4201	sehen	_	GWithout[31]	aufnehmen\_set1\_22[31]	latin1[31]	tc4i3rsgsa9bl8tesf4679lok2-aufnehmen\_set1\_22[31]	_	_	_	_	_	false[211]	Decl[211]	*[331]	*[331]	*[331]	*[331]	*[331]	input2[331]	21[451]	male[451]	tc4i3rsgsa9bl8tesf4679lok2[451]	speaker: YOU[571]	_	_	_	_	_	
+173-5	4202-4210	wirklich	_	GWithout[31]	aufnehmen\_set1\_22[31]	latin1[31]	tc4i3rsgsa9bl8tesf4679lok2-aufnehmen\_set1\_22[31]	_	_	_	_	_	false[211]	Decl[211]	*[331]	*[331]	*[331]	*[331]	*[331]	input2[331]	21[451]	male[451]	tc4i3rsgsa9bl8tesf4679lok2[451]	speaker: YOU[571]	_	_	_	_	_	
+173-6	4211-4217	hammer	_	GWithout[31]	aufnehmen\_set1\_22[31]	latin1[31]	tc4i3rsgsa9bl8tesf4679lok2-aufnehmen\_set1\_22[31]	_	_	_	_	_	false[211]	Decl[211]	*[331]	*[331]	*[331]	*[331]	*[331]	input2[331]	21[451]	male[451]	tc4i3rsgsa9bl8tesf4679lok2[451]	speaker: YOU[571]	_	_	_	_	_	
+173-7	4218-4221	aus	_	GWithout[31]	aufnehmen\_set1\_22[31]	latin1[31]	tc4i3rsgsa9bl8tesf4679lok2-aufnehmen\_set1\_22[31]	_	_	_	_	_	false[211]	Decl[211]	*[331]	*[331]	*[331]	*[331]	*[331]	input2[331]	21[451]	male[451]	tc4i3rsgsa9bl8tesf4679lok2[451]	speaker: YOU[571]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+174-1	4223-4238	END_OF_DOCUMENT	_	GWithout[31]	aufnehmen\_set1\_22[31]	latin1[31]	tc4i3rsgsa9bl8tesf4679lok2-aufnehmen\_set1\_22[31]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+175-1	4240-4246	Hallo,	_	GWithout[32]	aufnehmen\_set1\_22[32]	latin1[32]	us0adlivem61c2bj5776kudbot-aufnehmen\_set1\_22[32]	_	_	_	_	_	false[212]	Int[212]	*[332]	*[332]	*[332]	wh\_2[332]	wh\_question[332]	openq[332]	*[452]	female[452]	*[452]	speaker:Fiona[572]	_	_	QAP	*	176-1[213_212]	
+175-2	4247-4250	wie	_	GWithout[32]	aufnehmen\_set1\_22[32]	latin1[32]	us0adlivem61c2bj5776kudbot-aufnehmen\_set1\_22[32]	_	_	_	_	_	false[212]	Int[212]	*[332]	*[332]	*[332]	wh\_2[332]	wh\_question[332]	openq[332]	*[452]	female[452]	*[452]	speaker:Fiona[572]	_	_	_	_	_	
+175-3	4251-4258	geht's?	_	GWithout[32]	aufnehmen\_set1\_22[32]	latin1[32]	us0adlivem61c2bj5776kudbot-aufnehmen\_set1\_22[32]	_	_	_	_	_	false[212]	Int[212]	*[332]	*[332]	*[332]	wh\_2[332]	wh\_question[332]	openq[332]	*[452]	female[452]	*[452]	speaker:Fiona[572]	_	_	_	_	_	
+
+#Text=Robin hat ein Konzert aufgenommen
+176-1	4260-4265	Robin	_	GWithout[32]	aufnehmen\_set1\_22[32]	latin1[32]	us0adlivem61c2bj5776kudbot-aufnehmen\_set1\_22[32]	*	*	Subj	*	*	false[213]	Decl[213]	*[333]	aufnehmen[333]	transitive[333]	*[333]	*[333]	item0[333]	66[453]	male[453]	us0adlivem61c2bj5776kudbot[453]	speaker: YOU[573]	*->90-1	PropNm[90]	_	_	_	
+176-2	4266-4269	hat	_	GWithout[32]	aufnehmen\_set1\_22[32]	latin1[32]	us0adlivem61c2bj5776kudbot-aufnehmen\_set1\_22[32]	_	_	_	_	_	false[213]	Decl[213]	*[333]	aufnehmen[333]	transitive[333]	*[333]	*[333]	item0[333]	66[453]	male[453]	us0adlivem61c2bj5776kudbot[453]	speaker: YOU[573]	_	_	_	_	_	
+176-3	4270-4273	ein	_	GWithout[32]	aufnehmen\_set1\_22[32]	latin1[32]	us0adlivem61c2bj5776kudbot-aufnehmen\_set1\_22[32]	*[90]	*[90]	object[90]	*[90]	*[90]	false[213]	Decl[213]	*[333]	aufnehmen[333]	transitive[333]	*[333]	*[333]	item0[333]	66[453]	male[453]	us0adlivem61c2bj5776kudbot[453]	speaker: YOU[573]	*->46-1	IndefNP[46]	_	_	_	
+176-4	4274-4281	Konzert	_	GWithout[32]	aufnehmen\_set1\_22[32]	latin1[32]	us0adlivem61c2bj5776kudbot-aufnehmen\_set1\_22[32]	*[90]	*[90]	object[90]	*[90]	*[90]	false[213]	Decl[213]	*[333]	aufnehmen[333]	transitive[333]	*[333]	*[333]	item0[333]	66[453]	male[453]	us0adlivem61c2bj5776kudbot[453]	speaker: YOU[573]	*->46-1	IndefNP[46]	_	_	_	
+176-5	4282-4293	aufgenommen	_	GWithout[32]	aufnehmen\_set1\_22[32]	latin1[32]	us0adlivem61c2bj5776kudbot-aufnehmen\_set1\_22[32]	_	_	_	_	_	false[213]	Decl[213]	*[333]	aufnehmen[333]	transitive[333]	*[333]	*[333]	item0[333]	66[453]	male[453]	us0adlivem61c2bj5776kudbot[453]	speaker: YOU[573]	_	_	_	_	_	
+
+#Text=-
+177-1	4295-4296	-	_	GWithout[32]	aufnehmen\_set1\_22[32]	latin1[32]	us0adlivem61c2bj5776kudbot-aufnehmen\_set1\_22[32]	_	_	_	_	_	false	NA	GWithout	*	*	*	*	feedback	*	female	*	speaker:Fiona	_	_	_	_	_	
+
+#Text=musste alles still sein
+178-1	4298-4304	musste	_	GWithout[32]	aufnehmen\_set1\_22[32]	latin1[32]	us0adlivem61c2bj5776kudbot-aufnehmen\_set1\_22[32]	_	_	_	_	_	false[214]	Decl[214]	*[334]	*[334]	*[334]	*[334]	*[334]	input1[334]	66[454]	male[454]	us0adlivem61c2bj5776kudbot[454]	speaker: YOU[574]	_	_	_	_	_	
+178-2	4305-4310	alles	_	GWithout[32]	aufnehmen\_set1\_22[32]	latin1[32]	us0adlivem61c2bj5776kudbot-aufnehmen\_set1\_22[32]	_	_	_	_	_	false[214]	Decl[214]	*[334]	*[334]	*[334]	*[334]	*[334]	input1[334]	66[454]	male[454]	us0adlivem61c2bj5776kudbot[454]	speaker: YOU[574]	*->56-1	Allquantor[56]	_	_	_	
+178-3	4311-4316	still	_	GWithout[32]	aufnehmen\_set1\_22[32]	latin1[32]	us0adlivem61c2bj5776kudbot-aufnehmen\_set1\_22[32]	_	_	_	_	_	false[214]	Decl[214]	*[334]	*[334]	*[334]	*[334]	*[334]	input1[334]	66[454]	male[454]	us0adlivem61c2bj5776kudbot[454]	speaker: YOU[574]	_	_	_	_	_	
+178-4	4317-4321	sein	_	GWithout[32]	aufnehmen\_set1\_22[32]	latin1[32]	us0adlivem61c2bj5776kudbot-aufnehmen\_set1\_22[32]	_	_	_	_	_	false[214]	Decl[214]	*[334]	*[334]	*[334]	*[334]	*[334]	input1[334]	66[454]	male[454]	us0adlivem61c2bj5776kudbot[454]	speaker: YOU[574]	_	_	_	_	_	
+
+#Text=jetzt fertig
+179-1	4323-4328	jetzt	_	GWithout[32]	aufnehmen\_set1\_22[32]	latin1[32]	us0adlivem61c2bj5776kudbot-aufnehmen\_set1\_22[32]	_	_	_	_	_	false[215]	NA[215]	*[335]	*[335]	*[335]	*[335]	*[335]	input2[335]	66[455]	male[455]	us0adlivem61c2bj5776kudbot[455]	speaker: YOU[575]	_	_	_	_	_	
+179-2	4329-4335	fertig	_	GWithout[32]	aufnehmen\_set1\_22[32]	latin1[32]	us0adlivem61c2bj5776kudbot-aufnehmen\_set1\_22[32]	_	_	_	_	_	false[215]	NA[215]	*[335]	*[335]	*[335]	*[335]	*[335]	input2[335]	66[455]	male[455]	us0adlivem61c2bj5776kudbot[455]	speaker: YOU[575]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+180-1	4337-4352	END_OF_DOCUMENT	_	GWithout[32]	aufnehmen\_set1\_22[32]	latin1[32]	us0adlivem61c2bj5776kudbot-aufnehmen\_set1\_22[32]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	

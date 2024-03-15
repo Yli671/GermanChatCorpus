@@ -1,0 +1,1067 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Item_info|condition|item_id|latinsqr_list|unique_id
+#T_SP=webanno.custom.Ref_info|PersonalPronouns_detailed|ref_def|ref_function|ref_gender|ref_num
+#T_SP=webanno.custom.Segment|complex|segment_type
+#T_SP=webanno.custom.Sent_layer|feedback_id|item0_verb|item0_verbtype|openq_id|openq_type|sent_type
+#T_SP=webanno.custom.Speaker_meta|age|gender|speaker_id
+#T_SP=webanno.custom.Speaker_name|speaker_name
+#T_CH=de.tudarmstadt.ukp.dkpro.core.api.coref.type.CoreferenceLink|referenceRelation|referenceType
+#T_RL=webanno.custom.Relations|discourse_rel|speechAct_rel|BT_webanno.custom.Segment
+
+
+#Text=Hey, was gibts Neues?
+1-1	0-4	Hey,	GFailure[1]	fallen\_set1\_30[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-fallen\_set1\_30[1]	_	_	_	_	_	false[53]	Int[53]	*[187]	*[187]	*[187]	wh\_6[187]	wh\_question[187]	openq[187]	*[315]	male[315]	*[315]	speaker:Noah[443]	_	_	QAP	*	2-1[54_53]	
+1-2	5-8	was	GFailure[1]	fallen\_set1\_30[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-fallen\_set1\_30[1]	_	_	_	_	_	false[53]	Int[53]	*[187]	*[187]	*[187]	wh\_6[187]	wh\_question[187]	openq[187]	*[315]	male[315]	*[315]	speaker:Noah[443]	_	_	_	_	_	
+1-3	9-14	gibts	GFailure[1]	fallen\_set1\_30[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-fallen\_set1\_30[1]	_	_	_	_	_	false[53]	Int[53]	*[187]	*[187]	*[187]	wh\_6[187]	wh\_question[187]	openq[187]	*[315]	male[315]	*[315]	speaker:Noah[443]	_	_	_	_	_	
+1-4	15-21	Neues?	GFailure[1]	fallen\_set1\_30[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-fallen\_set1\_30[1]	_	_	_	_	_	false[53]	Int[53]	*[187]	*[187]	*[187]	wh\_6[187]	wh\_question[187]	openq[187]	*[315]	male[315]	*[315]	speaker:Noah[443]	_	_	_	_	_	
+
+#Text=John ist zu Boden gefallen
+2-1	23-27	John	GFailure[1]	fallen\_set1\_30[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-fallen\_set1\_30[1]	*	*	Subj	*	*	false[54]	Decl[54]	*[188]	fallen[188]	intransitive[188]	*[188]	*[188]	item0[188]	32[316]	female[316]	2em9nj6n4c2pjudl6n6hfpjc30[316]	speaker: YOU[444]	*->82-1	PropNm[82]	elaboration|CR	*|*	4-1[55_54]|3-1[0_54]	
+2-2	28-31	ist	GFailure[1]	fallen\_set1\_30[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-fallen\_set1\_30[1]	_	_	_	_	_	false[54]	Decl[54]	*[188]	fallen[188]	intransitive[188]	*[188]	*[188]	item0[188]	32[316]	female[316]	2em9nj6n4c2pjudl6n6hfpjc30[316]	speaker: YOU[444]	_	_	_	_	_	
+2-3	32-34	zu	GFailure[1]	fallen\_set1\_30[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-fallen\_set1\_30[1]	_	_	_	_	_	false[54]	Decl[54]	*[188]	fallen[188]	intransitive[188]	*[188]	*[188]	item0[188]	32[316]	female[316]	2em9nj6n4c2pjudl6n6hfpjc30[316]	speaker: YOU[444]	_	_	_	_	_	
+2-4	35-40	Boden	GFailure[1]	fallen\_set1\_30[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-fallen\_set1\_30[1]	*	*	modifier	*	*	false[54]	Decl[54]	*[188]	fallen[188]	intransitive[188]	*[188]	*[188]	item0[188]	32[316]	female[316]	2em9nj6n4c2pjudl6n6hfpjc30[316]	speaker: YOU[444]	*->1-1	IndefNP[1]	_	_	_	
+2-5	41-49	gefallen	GFailure[1]	fallen\_set1\_30[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-fallen\_set1\_30[1]	_	_	_	_	_	false[54]	Decl[54]	*[188]	fallen[188]	intransitive[188]	*[188]	*[188]	item0[188]	32[316]	female[316]	2em9nj6n4c2pjudl6n6hfpjc30[316]	speaker: YOU[444]	_	_	_	_	_	
+
+#Text=Hm?
+3-1	51-54	Hm?	GFailure[1]	fallen\_set1\_30[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-fallen\_set1\_30[1]	_	_	_	_	_	false	NA	hm\_question\_4	*	*	*	*	feedback	*	male	*	speaker:Noah	_	_	_	_	_	
+
+#Text=Er ist plötzlich zusammengeklappt.
+4-1	56-58	Er	GFailure[1]	fallen\_set1\_30[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-fallen\_set1\_30[1]	3	*	Subj	*	singular	false[55]	Decl[55]	*[189]	*[189]	*[189]	*[189]	*[189]	input1[189]	32[317]	female[317]	2em9nj6n4c2pjudl6n6hfpjc30[317]	speaker: YOU[445]	*->82-2	PerPron[82]	explanation	*	5-1[56_55]	
+4-2	59-62	ist	GFailure[1]	fallen\_set1\_30[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-fallen\_set1\_30[1]	_	_	_	_	_	false[55]	Decl[55]	*[189]	*[189]	*[189]	*[189]	*[189]	input1[189]	32[317]	female[317]	2em9nj6n4c2pjudl6n6hfpjc30[317]	speaker: YOU[445]	_	_	_	_	_	
+4-3	63-72	plötzlich	GFailure[1]	fallen\_set1\_30[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-fallen\_set1\_30[1]	_	_	_	_	_	false[55]	Decl[55]	*[189]	*[189]	*[189]	*[189]	*[189]	input1[189]	32[317]	female[317]	2em9nj6n4c2pjudl6n6hfpjc30[317]	speaker: YOU[445]	_	_	_	_	_	
+4-4	73-90	zusammengeklappt.	GFailure[1]	fallen\_set1\_30[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-fallen\_set1\_30[1]	_	_	_	_	_	false[55]	Decl[55]	*[189]	*[189]	*[189]	*[189]	*[189]	input1[189]	32[317]	female[317]	2em9nj6n4c2pjudl6n6hfpjc30[317]	speaker: YOU[445]	_	_	_	_	_	
+
+#Text=Kreislauf kollabiert. Einfach so.
+5-1	92-101	Kreislauf	GFailure[1]	fallen\_set1\_30[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-fallen\_set1\_30[1]	_	_	_	_	_	false[56]	NA[56]	*[190]	*[190]	*[190]	*[190]	*[190]	input2[190]	32[318]	female[318]	2em9nj6n4c2pjudl6n6hfpjc30[318]	speaker: YOU[446]	*->90-1	IndefNP[90]	elaboration	*	5-3[57_56]	
+5-2	102-113	kollabiert.	GFailure[1]	fallen\_set1\_30[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-fallen\_set1\_30[1]	_	_	_	_	_	false[56]	NA[56]	*[190]	*[190]	*[190]	*[190]	*[190]	input2[190]	32[318]	female[318]	2em9nj6n4c2pjudl6n6hfpjc30[318]	speaker: YOU[446]	_	_	_	_	_	
+5-3	114-121	Einfach	GFailure[1]	fallen\_set1\_30[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-fallen\_set1\_30[1]	_	_	_	_	_	false[57]	NA[57]	*[190]	*[190]	*[190]	*[190]	*[190]	input2[190]	32[318]	female[318]	2em9nj6n4c2pjudl6n6hfpjc30[318]	speaker: YOU[446]	_	_	_	_	_	
+5-4	122-125	so.	GFailure[1]	fallen\_set1\_30[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-fallen\_set1\_30[1]	_	_	_	_	_	false[57]	NA[57]	*[190]	*[190]	*[190]	*[190]	*[190]	input2[190]	32[318]	female[318]	2em9nj6n4c2pjudl6n6hfpjc30[318]	speaker: YOU[446]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+6-1	127-142	END_OF_DOCUMENT	GFailure[1]	fallen\_set1\_30[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-fallen\_set1\_30[1]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+7-1	144-148	Hey,	GFailure[2]	fallen\_set1\_30[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-fallen\_set1\_30[2]	_	_	_	_	_	false[58]	Int[58]	*[191]	*[191]	*[191]	wh\_6[191]	wh\_question[191]	openq[191]	*[319]	male[319]	*[319]	speaker:Noah[447]	_	_	QAP	*	8-1[59_58]	
+7-2	149-152	was	GFailure[2]	fallen\_set1\_30[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-fallen\_set1\_30[2]	_	_	_	_	_	false[58]	Int[58]	*[191]	*[191]	*[191]	wh\_6[191]	wh\_question[191]	openq[191]	*[319]	male[319]	*[319]	speaker:Noah[447]	_	_	_	_	_	
+7-3	153-158	gibts	GFailure[2]	fallen\_set1\_30[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-fallen\_set1\_30[2]	_	_	_	_	_	false[58]	Int[58]	*[191]	*[191]	*[191]	wh\_6[191]	wh\_question[191]	openq[191]	*[319]	male[319]	*[319]	speaker:Noah[447]	_	_	_	_	_	
+7-4	159-165	Neues?	GFailure[2]	fallen\_set1\_30[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-fallen\_set1\_30[2]	_	_	_	_	_	false[58]	Int[58]	*[191]	*[191]	*[191]	wh\_6[191]	wh\_question[191]	openq[191]	*[319]	male[319]	*[319]	speaker:Noah[447]	_	_	_	_	_	
+
+#Text=John ist zu Boden gefallen
+8-1	167-171	John	GFailure[2]	fallen\_set1\_30[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-fallen\_set1\_30[2]	*	*	Subj	*	*	false[59]	Decl[59]	*[192]	fallen[192]	intransitive[192]	*[192]	*[192]	item0[192]	41[320]	female[320]	2prsavjsjqbmc8hrbo9bovkues[320]	speaker: YOU[448]	*->106-1	PropNm[106]	correction|correction|CR	*|*|*	10-1[0_59]|11-1[60_59]|9-1[0_59]	
+8-2	172-175	ist	GFailure[2]	fallen\_set1\_30[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-fallen\_set1\_30[2]	_	_	_	_	_	false[59]	Decl[59]	*[192]	fallen[192]	intransitive[192]	*[192]	*[192]	item0[192]	41[320]	female[320]	2prsavjsjqbmc8hrbo9bovkues[320]	speaker: YOU[448]	_	_	_	_	_	
+8-3	176-178	zu	GFailure[2]	fallen\_set1\_30[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-fallen\_set1\_30[2]	_	_	_	_	_	false[59]	Decl[59]	*[192]	fallen[192]	intransitive[192]	*[192]	*[192]	item0[192]	41[320]	female[320]	2prsavjsjqbmc8hrbo9bovkues[320]	speaker: YOU[448]	_	_	_	_	_	
+8-4	179-184	Boden	GFailure[2]	fallen\_set1\_30[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-fallen\_set1\_30[2]	*	*	modifier	*	*	false[59]	Decl[59]	*[192]	fallen[192]	intransitive[192]	*[192]	*[192]	item0[192]	41[320]	female[320]	2prsavjsjqbmc8hrbo9bovkues[320]	speaker: YOU[448]	*->109-1	IndefNP[109]	_	_	_	
+8-5	185-193	gefallen	GFailure[2]	fallen\_set1\_30[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-fallen\_set1\_30[2]	_	_	_	_	_	false[59]	Decl[59]	*[192]	fallen[192]	intransitive[192]	*[192]	*[192]	item0[192]	41[320]	female[320]	2prsavjsjqbmc8hrbo9bovkues[320]	speaker: YOU[448]	_	_	_	_	_	
+
+#Text=Hm?
+9-1	195-198	Hm?	GFailure[2]	fallen\_set1\_30[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-fallen\_set1\_30[2]	_	_	_	_	_	false	NA	hm\_question\_4	*	*	*	*	feedback	*	male	*	speaker:Noah	_	_	_	_	_	
+
+#Text=Äh.
+10-1	200-203	Äh.	GFailure[2]	fallen\_set1\_30[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-fallen\_set1\_30[2]	_	_	_	_	_	false	NA	*	*	*	*	*	input1	41	female	2prsavjsjqbmc8hrbo9bovkues	speaker: YOU	_	_	_	_	_	
+
+#Text=John ist zum Baden gefahren.
+11-1	205-209	John	GFailure[2]	fallen\_set1\_30[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-fallen\_set1\_30[2]	*	*	Subj	*	*	false[60]	Decl[60]	*[193]	*[193]	*[193]	*[193]	*[193]	input2[193]	41[321]	female[321]	2prsavjsjqbmc8hrbo9bovkues[321]	speaker: YOU[449]	*->106-2	PropNm[106]	_	_	_	
+11-2	210-213	ist	GFailure[2]	fallen\_set1\_30[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-fallen\_set1\_30[2]	_	_	_	_	_	false[60]	Decl[60]	*[193]	*[193]	*[193]	*[193]	*[193]	input2[193]	41[321]	female[321]	2prsavjsjqbmc8hrbo9bovkues[321]	speaker: YOU[449]	_	_	_	_	_	
+11-3	214-217	zum	GFailure[2]	fallen\_set1\_30[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-fallen\_set1\_30[2]	_	_	_	_	_	false[60]	Decl[60]	*[193]	*[193]	*[193]	*[193]	*[193]	input2[193]	41[321]	female[321]	2prsavjsjqbmc8hrbo9bovkues[321]	speaker: YOU[449]	*->9-1	DefNP[9]	_	_	_	
+11-4	218-223	Baden	GFailure[2]	fallen\_set1\_30[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-fallen\_set1\_30[2]	*	*	PrepObj	*	*	false[60]	Decl[60]	*[193]	*[193]	*[193]	*[193]	*[193]	input2[193]	41[321]	female[321]	2prsavjsjqbmc8hrbo9bovkues[321]	speaker: YOU[449]	*->9-1	DefNP[9]	_	_	_	
+11-5	224-233	gefahren.	GFailure[2]	fallen\_set1\_30[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-fallen\_set1\_30[2]	_	_	_	_	_	false[60]	Decl[60]	*[193]	*[193]	*[193]	*[193]	*[193]	input2[193]	41[321]	female[321]	2prsavjsjqbmc8hrbo9bovkues[321]	speaker: YOU[449]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+12-1	235-250	END_OF_DOCUMENT	GFailure[2]	fallen\_set1\_30[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-fallen\_set1\_30[2]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+13-1	252-256	Hey,	GFailure[3]	fallen\_set1\_30[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-fallen\_set1\_30[3]	_	_	_	_	_	false[61]	Int[61]	*[194]	*[194]	*[194]	wh\_6[194]	wh\_question[194]	openq[194]	*[322]	male[322]	*[322]	speaker:Noah[450]	_	_	QAP	*	14-1[62_61]	
+13-2	257-260	was	GFailure[3]	fallen\_set1\_30[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-fallen\_set1\_30[3]	_	_	_	_	_	false[61]	Int[61]	*[194]	*[194]	*[194]	wh\_6[194]	wh\_question[194]	openq[194]	*[322]	male[322]	*[322]	speaker:Noah[450]	_	_	_	_	_	
+13-3	261-266	gibts	GFailure[3]	fallen\_set1\_30[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-fallen\_set1\_30[3]	_	_	_	_	_	false[61]	Int[61]	*[194]	*[194]	*[194]	wh\_6[194]	wh\_question[194]	openq[194]	*[322]	male[322]	*[322]	speaker:Noah[450]	_	_	_	_	_	
+13-4	267-273	Neues?	GFailure[3]	fallen\_set1\_30[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-fallen\_set1\_30[3]	_	_	_	_	_	false[61]	Int[61]	*[194]	*[194]	*[194]	wh\_6[194]	wh\_question[194]	openq[194]	*[322]	male[322]	*[322]	speaker:Noah[450]	_	_	_	_	_	
+
+#Text=John ist zu Boden gefallen
+14-1	275-279	John	GFailure[3]	fallen\_set1\_30[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-fallen\_set1\_30[3]	*	*	Subj	*	*	false[62]	Decl[62]	*[195]	fallen[195]	intransitive[195]	*[195]	*[195]	item0[195]	46[323]	male[323]	3jjtes457iqluuhfmeiub8g6qd[323]	speaker: YOU[451]	*->54-1	PropNm[54]	explanation|result|CR	*|*|*	16-1[63_62]|17-1[64_62]|15-1[0_62]	
+14-2	280-283	ist	GFailure[3]	fallen\_set1\_30[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-fallen\_set1\_30[3]	_	_	_	_	_	false[62]	Decl[62]	*[195]	fallen[195]	intransitive[195]	*[195]	*[195]	item0[195]	46[323]	male[323]	3jjtes457iqluuhfmeiub8g6qd[323]	speaker: YOU[451]	_	_	_	_	_	
+14-3	284-286	zu	GFailure[3]	fallen\_set1\_30[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-fallen\_set1\_30[3]	_	_	_	_	_	false[62]	Decl[62]	*[195]	fallen[195]	intransitive[195]	*[195]	*[195]	item0[195]	46[323]	male[323]	3jjtes457iqluuhfmeiub8g6qd[323]	speaker: YOU[451]	_	_	_	_	_	
+14-4	287-292	Boden	GFailure[3]	fallen\_set1\_30[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-fallen\_set1\_30[3]	*	*	modifier	*	*	false[62]	Decl[62]	*[195]	fallen[195]	intransitive[195]	*[195]	*[195]	item0[195]	46[323]	male[323]	3jjtes457iqluuhfmeiub8g6qd[323]	speaker: YOU[451]	*->51-1	IndefNP[51]	_	_	_	
+14-5	293-301	gefallen	GFailure[3]	fallen\_set1\_30[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-fallen\_set1\_30[3]	_	_	_	_	_	false[62]	Decl[62]	*[195]	fallen[195]	intransitive[195]	*[195]	*[195]	item0[195]	46[323]	male[323]	3jjtes457iqluuhfmeiub8g6qd[323]	speaker: YOU[451]	_	_	_	_	_	
+
+#Text=Hm?
+15-1	303-306	Hm?	GFailure[3]	fallen\_set1\_30[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-fallen\_set1\_30[3]	_	_	_	_	_	false	NA	hm\_question\_4	*	*	*	*	feedback	*	male	*	speaker:Noah	_	_	_	_	_	
+
+#Text=Ja er ist über einen Sessel gestolpert
+16-1	308-310	Ja	GFailure[3]	fallen\_set1\_30[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-fallen\_set1\_30[3]	_	_	_	_	_	false[63]	Decl[63]	*[196]	*[196]	*[196]	*[196]	*[196]	input1[196]	46[324]	male[324]	3jjtes457iqluuhfmeiub8g6qd[324]	speaker: YOU[452]	_	_	_	_	_	
+16-2	311-313	er	GFailure[3]	fallen\_set1\_30[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-fallen\_set1\_30[3]	3	*	Subj	*	singular	false[63]	Decl[63]	*[196]	*[196]	*[196]	*[196]	*[196]	input1[196]	46[324]	male[324]	3jjtes457iqluuhfmeiub8g6qd[324]	speaker: YOU[452]	*->54-2	PerPron[54]	_	_	_	
+16-3	314-317	ist	GFailure[3]	fallen\_set1\_30[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-fallen\_set1\_30[3]	_	_	_	_	_	false[63]	Decl[63]	*[196]	*[196]	*[196]	*[196]	*[196]	input1[196]	46[324]	male[324]	3jjtes457iqluuhfmeiub8g6qd[324]	speaker: YOU[452]	_	_	_	_	_	
+16-4	318-322	über	GFailure[3]	fallen\_set1\_30[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-fallen\_set1\_30[3]	_	_	_	_	_	false[63]	Decl[63]	*[196]	*[196]	*[196]	*[196]	*[196]	input1[196]	46[324]	male[324]	3jjtes457iqluuhfmeiub8g6qd[324]	speaker: YOU[452]	_	_	_	_	_	
+16-5	323-328	einen	GFailure[3]	fallen\_set1\_30[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-fallen\_set1\_30[3]	*[31]	*[31]	PrepObj[31]	*[31]	*[31]	false[63]	Decl[63]	*[196]	*[196]	*[196]	*[196]	*[196]	input1[196]	46[324]	male[324]	3jjtes457iqluuhfmeiub8g6qd[324]	speaker: YOU[452]	*->11-1	IndefNP[11]	_	_	_	
+16-6	329-335	Sessel	GFailure[3]	fallen\_set1\_30[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-fallen\_set1\_30[3]	*[31]	*[31]	PrepObj[31]	*[31]	*[31]	false[63]	Decl[63]	*[196]	*[196]	*[196]	*[196]	*[196]	input1[196]	46[324]	male[324]	3jjtes457iqluuhfmeiub8g6qd[324]	speaker: YOU[452]	*->11-1	IndefNP[11]	_	_	_	
+16-7	336-346	gestolpert	GFailure[3]	fallen\_set1\_30[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-fallen\_set1\_30[3]	_	_	_	_	_	false[63]	Decl[63]	*[196]	*[196]	*[196]	*[196]	*[196]	input1[196]	46[324]	male[324]	3jjtes457iqluuhfmeiub8g6qd[324]	speaker: YOU[452]	_	_	_	_	_	
+
+#Text=Hat sich am Knie verletzt und geblutet.
+17-1	348-351	Hat	GFailure[3]	fallen\_set1\_30[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-fallen\_set1\_30[3]	3	*	*	*	singular	false[64]	Decl[64]	*[197]	*[197]	*[197]	*[197]	*[197]	input2[197]	46[325]	male[325]	3jjtes457iqluuhfmeiub8g6qd[325]	speaker: YOU[453]	*->54-3	zero[54]	_	_	_	
+17-2	352-356	sich	GFailure[3]	fallen\_set1\_30[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-fallen\_set1\_30[3]	_	_	_	_	_	false[64]	Decl[64]	*[197]	*[197]	*[197]	*[197]	*[197]	input2[197]	46[325]	male[325]	3jjtes457iqluuhfmeiub8g6qd[325]	speaker: YOU[453]	_	_	_	_	_	
+17-3	357-359	am	GFailure[3]	fallen\_set1\_30[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-fallen\_set1\_30[3]	_	_	_	_	_	false[64]	Decl[64]	*[197]	*[197]	*[197]	*[197]	*[197]	input2[197]	46[325]	male[325]	3jjtes457iqluuhfmeiub8g6qd[325]	speaker: YOU[453]	*->83-1	DefNP[83]	_	_	_	
+17-4	360-364	Knie	GFailure[3]	fallen\_set1\_30[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-fallen\_set1\_30[3]	*	*	PrepObj	*	*	false[64]	Decl[64]	*[197]	*[197]	*[197]	*[197]	*[197]	input2[197]	46[325]	male[325]	3jjtes457iqluuhfmeiub8g6qd[325]	speaker: YOU[453]	*->83-1	DefNP[83]	_	_	_	
+17-5	365-373	verletzt	GFailure[3]	fallen\_set1\_30[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-fallen\_set1\_30[3]	_	_	_	_	_	false[64]	Decl[64]	*[197]	*[197]	*[197]	*[197]	*[197]	input2[197]	46[325]	male[325]	3jjtes457iqluuhfmeiub8g6qd[325]	speaker: YOU[453]	_	_	_	_	_	
+17-6	374-377	und	GFailure[3]	fallen\_set1\_30[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-fallen\_set1\_30[3]	_	_	_	_	_	false[64]	Decl[64]	*[197]	*[197]	*[197]	*[197]	*[197]	input2[197]	46[325]	male[325]	3jjtes457iqluuhfmeiub8g6qd[325]	speaker: YOU[453]	_	_	_	_	_	
+17-7	378-387	geblutet.	GFailure[3]	fallen\_set1\_30[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-fallen\_set1\_30[3]	_	_	_	_	_	false[64]	Decl[64]	*[197]	*[197]	*[197]	*[197]	*[197]	input2[197]	46[325]	male[325]	3jjtes457iqluuhfmeiub8g6qd[325]	speaker: YOU[453]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+18-1	389-404	END_OF_DOCUMENT	GFailure[3]	fallen\_set1\_30[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-fallen\_set1\_30[3]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+19-1	406-410	Hey,	GFailure[4]	fallen\_set1\_30[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-fallen\_set1\_30[4]	_	_	_	_	_	false[65]	Int[65]	*[198]	*[198]	*[198]	wh\_6[198]	wh\_question[198]	openq[198]	*[326]	male[326]	*[326]	speaker:Noah[454]	_	_	QAP	*	20-1[66_65]	
+19-2	411-414	was	GFailure[4]	fallen\_set1\_30[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-fallen\_set1\_30[4]	_	_	_	_	_	false[65]	Int[65]	*[198]	*[198]	*[198]	wh\_6[198]	wh\_question[198]	openq[198]	*[326]	male[326]	*[326]	speaker:Noah[454]	_	_	_	_	_	
+19-3	415-420	gibts	GFailure[4]	fallen\_set1\_30[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-fallen\_set1\_30[4]	_	_	_	_	_	false[65]	Int[65]	*[198]	*[198]	*[198]	wh\_6[198]	wh\_question[198]	openq[198]	*[326]	male[326]	*[326]	speaker:Noah[454]	_	_	_	_	_	
+19-4	421-427	Neues?	GFailure[4]	fallen\_set1\_30[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-fallen\_set1\_30[4]	_	_	_	_	_	false[65]	Int[65]	*[198]	*[198]	*[198]	wh\_6[198]	wh\_question[198]	openq[198]	*[326]	male[326]	*[326]	speaker:Noah[454]	_	_	_	_	_	
+
+#Text=John ist zu Boden gefallen
+20-1	429-433	John	GFailure[4]	fallen\_set1\_30[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-fallen\_set1\_30[4]	*	*	Subj	*	*	false[66]	Decl[66]	*[199]	fallen[199]	intransitive[199]	*[199]	*[199]	item0[199]	27[327]	female[327]	65p8m4ujg4fi983365pclnac28[327]	speaker: YOU[455]	*->81-1	PropNm[81]	result|CR	*|*	22-1[67_66]|21-1[0_66]	
+20-2	434-437	ist	GFailure[4]	fallen\_set1\_30[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-fallen\_set1\_30[4]	_	_	_	_	_	false[66]	Decl[66]	*[199]	fallen[199]	intransitive[199]	*[199]	*[199]	item0[199]	27[327]	female[327]	65p8m4ujg4fi983365pclnac28[327]	speaker: YOU[455]	_	_	_	_	_	
+20-3	438-440	zu	GFailure[4]	fallen\_set1\_30[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-fallen\_set1\_30[4]	_	_	_	_	_	false[66]	Decl[66]	*[199]	fallen[199]	intransitive[199]	*[199]	*[199]	item0[199]	27[327]	female[327]	65p8m4ujg4fi983365pclnac28[327]	speaker: YOU[455]	_	_	_	_	_	
+20-4	441-446	Boden	GFailure[4]	fallen\_set1\_30[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-fallen\_set1\_30[4]	*	*	modifier	*	*	false[66]	Decl[66]	*[199]	fallen[199]	intransitive[199]	*[199]	*[199]	item0[199]	27[327]	female[327]	65p8m4ujg4fi983365pclnac28[327]	speaker: YOU[455]	*->35-1	IndefNP[35]	_	_	_	
+20-5	447-455	gefallen	GFailure[4]	fallen\_set1\_30[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-fallen\_set1\_30[4]	_	_	_	_	_	false[66]	Decl[66]	*[199]	fallen[199]	intransitive[199]	*[199]	*[199]	item0[199]	27[327]	female[327]	65p8m4ujg4fi983365pclnac28[327]	speaker: YOU[455]	_	_	_	_	_	
+
+#Text=Hm?
+21-1	457-460	Hm?	GFailure[4]	fallen\_set1\_30[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-fallen\_set1\_30[4]	_	_	_	_	_	false	NA	hm\_question\_4	*	*	*	*	feedback	*	male	*	speaker:Noah	_	_	_	_	_	
+
+#Text=und hat sich weh getan
+22-1	462-465	und	GFailure[4]	fallen\_set1\_30[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-fallen\_set1\_30[4]	_	_	_	_	_	false[67]	Decl[67]	*[200]	*[200]	*[200]	*[200]	*[200]	input1[200]	27[328]	female[328]	65p8m4ujg4fi983365pclnac28[328]	speaker: YOU[456]	_	_	contrast	*	23-1[68_67]	
+22-2	466-469	hat	GFailure[4]	fallen\_set1\_30[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-fallen\_set1\_30[4]	3	*	*	*	singular	false[67]	Decl[67]	*[200]	*[200]	*[200]	*[200]	*[200]	input1[200]	27[328]	female[328]	65p8m4ujg4fi983365pclnac28[328]	speaker: YOU[456]	*->81-2	zero[81]	_	_	_	
+22-3	470-474	sich	GFailure[4]	fallen\_set1\_30[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-fallen\_set1\_30[4]	_	_	_	_	_	false[67]	Decl[67]	*[200]	*[200]	*[200]	*[200]	*[200]	input1[200]	27[328]	female[328]	65p8m4ujg4fi983365pclnac28[328]	speaker: YOU[456]	_	_	_	_	_	
+22-4	475-478	weh	GFailure[4]	fallen\_set1\_30[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-fallen\_set1\_30[4]	_	_	_	_	_	false[67]	Decl[67]	*[200]	*[200]	*[200]	*[200]	*[200]	input1[200]	27[328]	female[328]	65p8m4ujg4fi983365pclnac28[328]	speaker: YOU[456]	_	_	_	_	_	
+22-5	479-484	getan	GFailure[4]	fallen\_set1\_30[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-fallen\_set1\_30[4]	_	_	_	_	_	false[67]	Decl[67]	*[200]	*[200]	*[200]	*[200]	*[200]	input1[200]	27[328]	female[328]	65p8m4ujg4fi983365pclnac28[328]	speaker: YOU[456]	_	_	_	_	_	
+
+#Text=ich hoffe <BR> es geht ihm gut
+23-1	486-489	ich	GFailure[4]	fallen\_set1\_30[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-fallen\_set1\_30[4]	1	*	Subj	*	singular	false[68]	Decl[68]	*[201]	*[201]	*[201]	*[201]	*[201]	input2[201]	27[329]	female[329]	65p8m4ujg4fi983365pclnac28[329]	speaker: YOU[457]	*->45-1	PerPron[45]	_	_	_	
+23-2	490-495	hoffe	GFailure[4]	fallen\_set1\_30[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-fallen\_set1\_30[4]	_	_	_	_	_	false[68]	Decl[68]	*[201]	*[201]	*[201]	*[201]	*[201]	input2[201]	27[329]	female[329]	65p8m4ujg4fi983365pclnac28[329]	speaker: YOU[457]	_	_	_	_	_	
+23-3	496-500	<BR>	GFailure[4]	fallen\_set1\_30[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-fallen\_set1\_30[4]	_	_	_	_	_	false[68]	Decl[68]	*[201]	*[201]	*[201]	*[201]	*[201]	input2[201]	27[329]	female[329]	65p8m4ujg4fi983365pclnac28[329]	speaker: YOU[457]	_	_	_	_	_	
+23-4	501-503	es	GFailure[4]	fallen\_set1\_30[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-fallen\_set1\_30[4]	*	*	Subj	*	*	false[68]	Decl[68]	*[201]	*[201]	*[201]	*[201]	*[201]	input2[201]	27[329]	female[329]	65p8m4ujg4fi983365pclnac28[329]	speaker: YOU[457]	_	_	_	_	_	
+23-5	504-508	geht	GFailure[4]	fallen\_set1\_30[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-fallen\_set1\_30[4]	_	_	_	_	_	false[68]	Decl[68]	*[201]	*[201]	*[201]	*[201]	*[201]	input2[201]	27[329]	female[329]	65p8m4ujg4fi983365pclnac28[329]	speaker: YOU[457]	_	_	_	_	_	
+23-6	509-512	ihm	GFailure[4]	fallen\_set1\_30[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-fallen\_set1\_30[4]	3	*	IndirObj	*	singular	false[68]	Decl[68]	*[201]	*[201]	*[201]	*[201]	*[201]	input2[201]	27[329]	female[329]	65p8m4ujg4fi983365pclnac28[329]	speaker: YOU[457]	*->81-3	PerPron[81]	_	_	_	
+23-7	513-516	gut	GFailure[4]	fallen\_set1\_30[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-fallen\_set1\_30[4]	_	_	_	_	_	false[68]	Decl[68]	*[201]	*[201]	*[201]	*[201]	*[201]	input2[201]	27[329]	female[329]	65p8m4ujg4fi983365pclnac28[329]	speaker: YOU[457]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+24-1	518-533	END_OF_DOCUMENT	GFailure[4]	fallen\_set1\_30[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-fallen\_set1\_30[4]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+25-1	535-539	Hey,	GFailure[5]	fallen\_set1\_30[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-fallen\_set1\_30[5]	_	_	_	_	_	false[69]	Int[69]	*[202]	*[202]	*[202]	wh\_6[202]	wh\_question[202]	openq[202]	*[330]	male[330]	*[330]	speaker:Noah[458]	_	_	parallel|QAP	*|*	29-1[72_69]|26-1[70_69]	
+25-2	540-543	was	GFailure[5]	fallen\_set1\_30[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-fallen\_set1\_30[5]	_	_	_	_	_	false[69]	Int[69]	*[202]	*[202]	*[202]	wh\_6[202]	wh\_question[202]	openq[202]	*[330]	male[330]	*[330]	speaker:Noah[458]	_	_	_	_	_	
+25-3	544-549	gibts	GFailure[5]	fallen\_set1\_30[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-fallen\_set1\_30[5]	_	_	_	_	_	false[69]	Int[69]	*[202]	*[202]	*[202]	wh\_6[202]	wh\_question[202]	openq[202]	*[330]	male[330]	*[330]	speaker:Noah[458]	_	_	_	_	_	
+25-4	550-556	Neues?	GFailure[5]	fallen\_set1\_30[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-fallen\_set1\_30[5]	_	_	_	_	_	false[69]	Int[69]	*[202]	*[202]	*[202]	wh\_6[202]	wh\_question[202]	openq[202]	*[330]	male[330]	*[330]	speaker:Noah[458]	_	_	_	_	_	
+
+#Text=John ist zu Boden gefallen
+26-1	558-562	John	GFailure[5]	fallen\_set1\_30[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-fallen\_set1\_30[5]	*	*	Subj	*	*	false[70]	Decl[70]	*[203]	fallen[203]	intransitive[203]	*[203]	*[203]	item0[203]	22[331]	female[331]	ad2p95q44evasm6vmbol4cikit[331]	speaker: YOU[459]	*->60-1	PropNm[60]	contrast|CR	*|*	28-1[71_70]|27-1[0_70]	
+26-2	563-566	ist	GFailure[5]	fallen\_set1\_30[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-fallen\_set1\_30[5]	_	_	_	_	_	false[70]	Decl[70]	*[203]	fallen[203]	intransitive[203]	*[203]	*[203]	item0[203]	22[331]	female[331]	ad2p95q44evasm6vmbol4cikit[331]	speaker: YOU[459]	_	_	_	_	_	
+26-3	567-569	zu	GFailure[5]	fallen\_set1\_30[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-fallen\_set1\_30[5]	_	_	_	_	_	false[70]	Decl[70]	*[203]	fallen[203]	intransitive[203]	*[203]	*[203]	item0[203]	22[331]	female[331]	ad2p95q44evasm6vmbol4cikit[331]	speaker: YOU[459]	_	_	_	_	_	
+26-4	570-575	Boden	GFailure[5]	fallen\_set1\_30[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-fallen\_set1\_30[5]	*	*	modifier	*	*	false[70]	Decl[70]	*[203]	fallen[203]	intransitive[203]	*[203]	*[203]	item0[203]	22[331]	female[331]	ad2p95q44evasm6vmbol4cikit[331]	speaker: YOU[459]	*->98-1	IndefNP[98]	_	_	_	
+26-5	576-584	gefallen	GFailure[5]	fallen\_set1\_30[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-fallen\_set1\_30[5]	_	_	_	_	_	false[70]	Decl[70]	*[203]	fallen[203]	intransitive[203]	*[203]	*[203]	item0[203]	22[331]	female[331]	ad2p95q44evasm6vmbol4cikit[331]	speaker: YOU[459]	_	_	_	_	_	
+
+#Text=Hm?
+27-1	586-589	Hm?	GFailure[5]	fallen\_set1\_30[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-fallen\_set1\_30[5]	_	_	_	_	_	false	NA	hm\_question\_4	*	*	*	*	feedback	*	male	*	speaker:Noah	_	_	_	_	_	
+
+#Text=Er hat sich nicht verletzt
+28-1	591-593	Er	GFailure[5]	fallen\_set1\_30[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-fallen\_set1\_30[5]	3	*	Subj	*	singular	false[71]	Decl[71]	*[204]	*[204]	*[204]	*[204]	*[204]	input1[204]	22[332]	female[332]	ad2p95q44evasm6vmbol4cikit[332]	speaker: YOU[460]	*->60-2	PerPron[60]	_	_	_	
+28-2	594-597	hat	GFailure[5]	fallen\_set1\_30[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-fallen\_set1\_30[5]	_	_	_	_	_	false[71]	Decl[71]	*[204]	*[204]	*[204]	*[204]	*[204]	input1[204]	22[332]	female[332]	ad2p95q44evasm6vmbol4cikit[332]	speaker: YOU[460]	_	_	_	_	_	
+28-3	598-602	sich	GFailure[5]	fallen\_set1\_30[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-fallen\_set1\_30[5]	_	_	_	_	_	false[71]	Decl[71]	*[204]	*[204]	*[204]	*[204]	*[204]	input1[204]	22[332]	female[332]	ad2p95q44evasm6vmbol4cikit[332]	speaker: YOU[460]	_	_	_	_	_	
+28-4	603-608	nicht	GFailure[5]	fallen\_set1\_30[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-fallen\_set1\_30[5]	_	_	_	_	_	false[71]	Decl[71]	*[204]	*[204]	*[204]	*[204]	*[204]	input1[204]	22[332]	female[332]	ad2p95q44evasm6vmbol4cikit[332]	speaker: YOU[460]	_	_	_	_	_	
+28-5	609-617	verletzt	GFailure[5]	fallen\_set1\_30[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-fallen\_set1\_30[5]	_	_	_	_	_	false[71]	Decl[71]	*[204]	*[204]	*[204]	*[204]	*[204]	input1[204]	22[332]	female[332]	ad2p95q44evasm6vmbol4cikit[332]	speaker: YOU[460]	_	_	_	_	_	
+
+#Text=Gibt es was neues bei dir?
+29-1	619-623	Gibt	GFailure[5]	fallen\_set1\_30[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-fallen\_set1\_30[5]	_	_	_	_	_	false[72]	Int[72]	*[205]	*[205]	*[205]	*[205]	*[205]	input2[205]	22[333]	female[333]	ad2p95q44evasm6vmbol4cikit[333]	speaker: YOU[461]	_	_	_	_	_	
+29-2	624-626	es	GFailure[5]	fallen\_set1\_30[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-fallen\_set1\_30[5]	*	*	Subj	*	*	false[72]	Int[72]	*[205]	*[205]	*[205]	*[205]	*[205]	input2[205]	22[333]	female[333]	ad2p95q44evasm6vmbol4cikit[333]	speaker: YOU[461]	_	_	_	_	_	
+29-3	627-630	was	GFailure[5]	fallen\_set1\_30[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-fallen\_set1\_30[5]	_	_	_	_	_	false[72]	Int[72]	*[205]	*[205]	*[205]	*[205]	*[205]	input2[205]	22[333]	female[333]	ad2p95q44evasm6vmbol4cikit[333]	speaker: YOU[461]	_	_	_	_	_	
+29-4	631-636	neues	GFailure[5]	fallen\_set1\_30[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-fallen\_set1\_30[5]	_	_	_	_	_	false[72]	Int[72]	*[205]	*[205]	*[205]	*[205]	*[205]	input2[205]	22[333]	female[333]	ad2p95q44evasm6vmbol4cikit[333]	speaker: YOU[461]	_	_	_	_	_	
+29-5	637-640	bei	GFailure[5]	fallen\_set1\_30[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-fallen\_set1\_30[5]	_	_	_	_	_	false[72]	Int[72]	*[205]	*[205]	*[205]	*[205]	*[205]	input2[205]	22[333]	female[333]	ad2p95q44evasm6vmbol4cikit[333]	speaker: YOU[461]	_	_	_	_	_	
+29-6	641-645	dir?	GFailure[5]	fallen\_set1\_30[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-fallen\_set1\_30[5]	2	*	PrepObj	*	singular	false[72]	Int[72]	*[205]	*[205]	*[205]	*[205]	*[205]	input2[205]	22[333]	female[333]	ad2p95q44evasm6vmbol4cikit[333]	speaker: YOU[461]	*->57-1	PerPron[57]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+30-1	647-662	END_OF_DOCUMENT	GFailure[5]	fallen\_set1\_30[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-fallen\_set1\_30[5]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+31-1	664-668	Hey,	GFailure[6]	fallen\_set1\_30[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-fallen\_set1\_30[6]	_	_	_	_	_	false[73]	Int[73]	*[206]	*[206]	*[206]	wh\_6[206]	wh\_question[206]	openq[206]	*[334]	male[334]	*[334]	speaker:Noah[462]	_	_	QAP	*	32-1[74_73]	
+31-2	669-672	was	GFailure[6]	fallen\_set1\_30[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-fallen\_set1\_30[6]	_	_	_	_	_	false[73]	Int[73]	*[206]	*[206]	*[206]	wh\_6[206]	wh\_question[206]	openq[206]	*[334]	male[334]	*[334]	speaker:Noah[462]	_	_	_	_	_	
+31-3	673-678	gibts	GFailure[6]	fallen\_set1\_30[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-fallen\_set1\_30[6]	_	_	_	_	_	false[73]	Int[73]	*[206]	*[206]	*[206]	wh\_6[206]	wh\_question[206]	openq[206]	*[334]	male[334]	*[334]	speaker:Noah[462]	_	_	_	_	_	
+31-4	679-685	Neues?	GFailure[6]	fallen\_set1\_30[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-fallen\_set1\_30[6]	_	_	_	_	_	false[73]	Int[73]	*[206]	*[206]	*[206]	wh\_6[206]	wh\_question[206]	openq[206]	*[334]	male[334]	*[334]	speaker:Noah[462]	_	_	_	_	_	
+
+#Text=John ist zu Boden gefallen
+32-1	687-691	John	GFailure[6]	fallen\_set1\_30[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-fallen\_set1\_30[6]	*	*	Subj	*	*	false[74]	Decl[74]	*[207]	fallen[207]	intransitive[207]	*[207]	*[207]	item0[207]	36[335]	female[335]	aoum613lougtk5ql841j63bjo9[335]	speaker: YOU[463]	*->84-1	PropNm[84]	explanation|CR	*|*	34-1[75_74]|33-1[0_74]	
+32-2	692-695	ist	GFailure[6]	fallen\_set1\_30[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-fallen\_set1\_30[6]	_	_	_	_	_	false[74]	Decl[74]	*[207]	fallen[207]	intransitive[207]	*[207]	*[207]	item0[207]	36[335]	female[335]	aoum613lougtk5ql841j63bjo9[335]	speaker: YOU[463]	_	_	_	_	_	
+32-3	696-698	zu	GFailure[6]	fallen\_set1\_30[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-fallen\_set1\_30[6]	_	_	_	_	_	false[74]	Decl[74]	*[207]	fallen[207]	intransitive[207]	*[207]	*[207]	item0[207]	36[335]	female[335]	aoum613lougtk5ql841j63bjo9[335]	speaker: YOU[463]	_	_	_	_	_	
+32-4	699-704	Boden	GFailure[6]	fallen\_set1\_30[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-fallen\_set1\_30[6]	*	*	modifier	*	*	false[74]	Decl[74]	*[207]	fallen[207]	intransitive[207]	*[207]	*[207]	item0[207]	36[335]	female[335]	aoum613lougtk5ql841j63bjo9[335]	speaker: YOU[463]	*->32-1	IndefNP[32]	_	_	_	
+32-5	705-713	gefallen	GFailure[6]	fallen\_set1\_30[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-fallen\_set1\_30[6]	_	_	_	_	_	false[74]	Decl[74]	*[207]	fallen[207]	intransitive[207]	*[207]	*[207]	item0[207]	36[335]	female[335]	aoum613lougtk5ql841j63bjo9[335]	speaker: YOU[463]	_	_	_	_	_	
+
+#Text=Hm?
+33-1	715-718	Hm?	GFailure[6]	fallen\_set1\_30[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-fallen\_set1\_30[6]	_	_	_	_	_	false	NA	hm\_question\_4	*	*	*	*	feedback	*	male	*	speaker:Noah	_	_	_	_	_	
+
+#Text=Ich weiß auch nicht genau <BR> was da los war.
+34-1	720-723	Ich	GFailure[6]	fallen\_set1\_30[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-fallen\_set1\_30[6]	1	*	Subj	*	singular	false[75]	Decl[75]	*[208]	*[208]	*[208]	*[208]	*[208]	input1[208]	36[336]	female[336]	aoum613lougtk5ql841j63bjo9[336]	speaker: YOU[464]	*->16-1	PerPron[16]	elaboration	*	34-7[76_75]	
+34-2	724-728	weiß	GFailure[6]	fallen\_set1\_30[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-fallen\_set1\_30[6]	_	_	_	_	_	false[75]	Decl[75]	*[208]	*[208]	*[208]	*[208]	*[208]	input1[208]	36[336]	female[336]	aoum613lougtk5ql841j63bjo9[336]	speaker: YOU[464]	_	_	_	_	_	
+34-3	729-733	auch	GFailure[6]	fallen\_set1\_30[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-fallen\_set1\_30[6]	_	_	_	_	_	false[75]	Decl[75]	*[208]	*[208]	*[208]	*[208]	*[208]	input1[208]	36[336]	female[336]	aoum613lougtk5ql841j63bjo9[336]	speaker: YOU[464]	_	_	_	_	_	
+34-4	734-739	nicht	GFailure[6]	fallen\_set1\_30[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-fallen\_set1\_30[6]	_	_	_	_	_	false[75]	Decl[75]	*[208]	*[208]	*[208]	*[208]	*[208]	input1[208]	36[336]	female[336]	aoum613lougtk5ql841j63bjo9[336]	speaker: YOU[464]	_	_	_	_	_	
+34-5	740-745	genau	GFailure[6]	fallen\_set1\_30[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-fallen\_set1\_30[6]	_	_	_	_	_	false[75]	Decl[75]	*[208]	*[208]	*[208]	*[208]	*[208]	input1[208]	36[336]	female[336]	aoum613lougtk5ql841j63bjo9[336]	speaker: YOU[464]	_	_	_	_	_	
+34-6	746-750	<BR>	GFailure[6]	fallen\_set1\_30[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-fallen\_set1\_30[6]	_	_	_	_	_	_	_	*[208]	*[208]	*[208]	*[208]	*[208]	input1[208]	36[336]	female[336]	aoum613lougtk5ql841j63bjo9[336]	speaker: YOU[464]	_	_	_	_	_	
+34-7	751-754	was	GFailure[6]	fallen\_set1\_30[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-fallen\_set1\_30[6]	_	_	_	_	_	false[76]	NA[76]	*[208]	*[208]	*[208]	*[208]	*[208]	input1[208]	36[336]	female[336]	aoum613lougtk5ql841j63bjo9[336]	speaker: YOU[464]	_	_	_	_	_	
+34-8	755-757	da	GFailure[6]	fallen\_set1\_30[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-fallen\_set1\_30[6]	_	_	_	_	_	false[76]	NA[76]	*[208]	*[208]	*[208]	*[208]	*[208]	input1[208]	36[336]	female[336]	aoum613lougtk5ql841j63bjo9[336]	speaker: YOU[464]	_	_	_	_	_	
+34-9	758-761	los	GFailure[6]	fallen\_set1\_30[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-fallen\_set1\_30[6]	_	_	_	_	_	false[76]	NA[76]	*[208]	*[208]	*[208]	*[208]	*[208]	input1[208]	36[336]	female[336]	aoum613lougtk5ql841j63bjo9[336]	speaker: YOU[464]	_	_	_	_	_	
+34-10	762-766	war.	GFailure[6]	fallen\_set1\_30[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-fallen\_set1\_30[6]	_	_	_	_	_	false[76]	NA[76]	*[208]	*[208]	*[208]	*[208]	*[208]	input1[208]	36[336]	female[336]	aoum613lougtk5ql841j63bjo9[336]	speaker: YOU[464]	_	_	_	_	_	
+
+#Text=Anscheinend ist ihm wohl schwarz vor Augen geworden.
+35-1	768-779	Anscheinend	GFailure[6]	fallen\_set1\_30[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-fallen\_set1\_30[6]	_	_	_	_	_	false[77]	Decl[77]	*[209]	*[209]	*[209]	*[209]	*[209]	input2[209]	36[337]	female[337]	aoum613lougtk5ql841j63bjo9[337]	speaker: YOU[465]	_	_	_	_	_	
+35-2	780-783	ist	GFailure[6]	fallen\_set1\_30[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-fallen\_set1\_30[6]	_	_	_	_	_	false[77]	Decl[77]	*[209]	*[209]	*[209]	*[209]	*[209]	input2[209]	36[337]	female[337]	aoum613lougtk5ql841j63bjo9[337]	speaker: YOU[465]	_	_	_	_	_	
+35-3	784-787	ihm	GFailure[6]	fallen\_set1\_30[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-fallen\_set1\_30[6]	3	*	Subj	*	singular	false[77]	Decl[77]	*[209]	*[209]	*[209]	*[209]	*[209]	input2[209]	36[337]	female[337]	aoum613lougtk5ql841j63bjo9[337]	speaker: YOU[465]	*->84-2	PerPron[84]	_	_	_	
+35-4	788-792	wohl	GFailure[6]	fallen\_set1\_30[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-fallen\_set1\_30[6]	_	_	_	_	_	false[77]	Decl[77]	*[209]	*[209]	*[209]	*[209]	*[209]	input2[209]	36[337]	female[337]	aoum613lougtk5ql841j63bjo9[337]	speaker: YOU[465]	_	_	_	_	_	
+35-5	793-800	schwarz	GFailure[6]	fallen\_set1\_30[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-fallen\_set1\_30[6]	_	_	_	_	_	false[77]	Decl[77]	*[209]	*[209]	*[209]	*[209]	*[209]	input2[209]	36[337]	female[337]	aoum613lougtk5ql841j63bjo9[337]	speaker: YOU[465]	_	_	_	_	_	
+35-6	801-804	vor	GFailure[6]	fallen\_set1\_30[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-fallen\_set1\_30[6]	_	_	_	_	_	false[77]	Decl[77]	*[209]	*[209]	*[209]	*[209]	*[209]	input2[209]	36[337]	female[337]	aoum613lougtk5ql841j63bjo9[337]	speaker: YOU[465]	_	_	_	_	_	
+35-7	805-810	Augen	GFailure[6]	fallen\_set1\_30[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-fallen\_set1\_30[6]	*	*	PrepObj	*	*	false[77]	Decl[77]	*[209]	*[209]	*[209]	*[209]	*[209]	input2[209]	36[337]	female[337]	aoum613lougtk5ql841j63bjo9[337]	speaker: YOU[465]	_	_	_	_	_	
+35-8	811-820	geworden.	GFailure[6]	fallen\_set1\_30[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-fallen\_set1\_30[6]	_	_	_	_	_	false[77]	Decl[77]	*[209]	*[209]	*[209]	*[209]	*[209]	input2[209]	36[337]	female[337]	aoum613lougtk5ql841j63bjo9[337]	speaker: YOU[465]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+36-1	822-837	END_OF_DOCUMENT	GFailure[6]	fallen\_set1\_30[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-fallen\_set1\_30[6]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+37-1	839-843	Hey,	GFailure[7]	fallen\_set1\_30[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-fallen\_set1\_30[7]	_	_	_	_	_	false[78]	Int[78]	*[210]	*[210]	*[210]	wh\_6[210]	wh\_question[210]	openq[210]	*[338]	male[338]	*[338]	speaker:Noah[466]	_	_	QAP	*	38-1[79_78]	
+37-2	844-847	was	GFailure[7]	fallen\_set1\_30[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-fallen\_set1\_30[7]	_	_	_	_	_	false[78]	Int[78]	*[210]	*[210]	*[210]	wh\_6[210]	wh\_question[210]	openq[210]	*[338]	male[338]	*[338]	speaker:Noah[466]	_	_	_	_	_	
+37-3	848-853	gibts	GFailure[7]	fallen\_set1\_30[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-fallen\_set1\_30[7]	_	_	_	_	_	false[78]	Int[78]	*[210]	*[210]	*[210]	wh\_6[210]	wh\_question[210]	openq[210]	*[338]	male[338]	*[338]	speaker:Noah[466]	_	_	_	_	_	
+37-4	854-860	Neues?	GFailure[7]	fallen\_set1\_30[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-fallen\_set1\_30[7]	_	_	_	_	_	false[78]	Int[78]	*[210]	*[210]	*[210]	wh\_6[210]	wh\_question[210]	openq[210]	*[338]	male[338]	*[338]	speaker:Noah[466]	_	_	_	_	_	
+
+#Text=John ist zu Boden gefallen
+38-1	862-866	John	GFailure[7]	fallen\_set1\_30[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-fallen\_set1\_30[7]	*	*	Subj	*	*	false[79]	Decl[79]	*[211]	fallen[211]	intransitive[211]	*[211]	*[211]	item0[211]	26[339]	male[339]	c48fsj7kc4kiuorutkbb4be30b[339]	speaker: YOU[467]	*->39-1	PropNm[39]	elaboration|CR	*|*	40-1[0_79]|39-1[0_79]	
+38-2	867-870	ist	GFailure[7]	fallen\_set1\_30[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-fallen\_set1\_30[7]	_	_	_	_	_	false[79]	Decl[79]	*[211]	fallen[211]	intransitive[211]	*[211]	*[211]	item0[211]	26[339]	male[339]	c48fsj7kc4kiuorutkbb4be30b[339]	speaker: YOU[467]	_	_	_	_	_	
+38-3	871-873	zu	GFailure[7]	fallen\_set1\_30[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-fallen\_set1\_30[7]	_	_	_	_	_	false[79]	Decl[79]	*[211]	fallen[211]	intransitive[211]	*[211]	*[211]	item0[211]	26[339]	male[339]	c48fsj7kc4kiuorutkbb4be30b[339]	speaker: YOU[467]	_	_	_	_	_	
+38-4	874-879	Boden	GFailure[7]	fallen\_set1\_30[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-fallen\_set1\_30[7]	*	*	modifier	*	*	false[79]	Decl[79]	*[211]	fallen[211]	intransitive[211]	*[211]	*[211]	item0[211]	26[339]	male[339]	c48fsj7kc4kiuorutkbb4be30b[339]	speaker: YOU[467]	*->22-1	IndefNP[22]	_	_	_	
+38-5	880-888	gefallen	GFailure[7]	fallen\_set1\_30[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-fallen\_set1\_30[7]	_	_	_	_	_	false[79]	Decl[79]	*[211]	fallen[211]	intransitive[211]	*[211]	*[211]	item0[211]	26[339]	male[339]	c48fsj7kc4kiuorutkbb4be30b[339]	speaker: YOU[467]	_	_	_	_	_	
+
+#Text=Hm?
+39-1	890-893	Hm?	GFailure[7]	fallen\_set1\_30[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-fallen\_set1\_30[7]	_	_	_	_	_	false	NA	hm\_question\_4	*	*	*	*	feedback	*	male	*	speaker:Noah	_	_	_	_	_	
+
+#Text=Ja <BR> er ist auf einem Bauklotz ausgerutscht.
+40-1	895-897	Ja	GFailure[7]	fallen\_set1\_30[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-fallen\_set1\_30[7]	_	_	_	_	_	false	NA	*[212]	*[212]	*[212]	*[212]	*[212]	input1[212]	26[340]	male[340]	c48fsj7kc4kiuorutkbb4be30b[340]	speaker: YOU[468]	_	_	elaboration|contrast	*|*	40-3[80_0]|41-1[81_0]	
+40-2	898-902	<BR>	GFailure[7]	fallen\_set1\_30[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-fallen\_set1\_30[7]	_	_	_	_	_	_	_	*[212]	*[212]	*[212]	*[212]	*[212]	input1[212]	26[340]	male[340]	c48fsj7kc4kiuorutkbb4be30b[340]	speaker: YOU[468]	_	_	_	_	_	
+40-3	903-905	er	GFailure[7]	fallen\_set1\_30[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-fallen\_set1\_30[7]	3	*	Subj	*	singular	false[80]	Decl[80]	*[212]	*[212]	*[212]	*[212]	*[212]	input1[212]	26[340]	male[340]	c48fsj7kc4kiuorutkbb4be30b[340]	speaker: YOU[468]	*->39-2	PerPron[39]	_	_	_	
+40-4	906-909	ist	GFailure[7]	fallen\_set1\_30[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-fallen\_set1\_30[7]	_	_	_	_	_	false[80]	Decl[80]	*[212]	*[212]	*[212]	*[212]	*[212]	input1[212]	26[340]	male[340]	c48fsj7kc4kiuorutkbb4be30b[340]	speaker: YOU[468]	_	_	_	_	_	
+40-5	910-913	auf	GFailure[7]	fallen\_set1\_30[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-fallen\_set1\_30[7]	_	_	_	_	_	false[80]	Decl[80]	*[212]	*[212]	*[212]	*[212]	*[212]	input1[212]	26[340]	male[340]	c48fsj7kc4kiuorutkbb4be30b[340]	speaker: YOU[468]	_	_	_	_	_	
+40-6	914-919	einem	GFailure[7]	fallen\_set1\_30[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-fallen\_set1\_30[7]	*[32]	*[32]	PrepObj[32]	*[32]	*[32]	false[80]	Decl[80]	*[212]	*[212]	*[212]	*[212]	*[212]	input1[212]	26[340]	male[340]	c48fsj7kc4kiuorutkbb4be30b[340]	speaker: YOU[468]	*->3-1	IndefNP[3]	_	_	_	
+40-7	920-928	Bauklotz	GFailure[7]	fallen\_set1\_30[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-fallen\_set1\_30[7]	*[32]	*[32]	PrepObj[32]	*[32]	*[32]	false[80]	Decl[80]	*[212]	*[212]	*[212]	*[212]	*[212]	input1[212]	26[340]	male[340]	c48fsj7kc4kiuorutkbb4be30b[340]	speaker: YOU[468]	*->3-1	IndefNP[3]	_	_	_	
+40-8	929-942	ausgerutscht.	GFailure[7]	fallen\_set1\_30[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-fallen\_set1\_30[7]	_	_	_	_	_	false[80]	Decl[80]	*[212]	*[212]	*[212]	*[212]	*[212]	input1[212]	26[340]	male[340]	c48fsj7kc4kiuorutkbb4be30b[340]	speaker: YOU[468]	_	_	_	_	_	
+
+#Text=Zum Glück ist ihm nichts passiert.
+41-1	944-947	Zum	GFailure[7]	fallen\_set1\_30[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-fallen\_set1\_30[7]	_	_	_	_	_	false[81]	Decl[81]	*[213]	*[213]	*[213]	*[213]	*[213]	input2[213]	26[341]	male[341]	c48fsj7kc4kiuorutkbb4be30b[341]	speaker: YOU[469]	_	_	_	_	_	
+41-2	948-953	Glück	GFailure[7]	fallen\_set1\_30[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-fallen\_set1\_30[7]	_	_	_	_	_	false[81]	Decl[81]	*[213]	*[213]	*[213]	*[213]	*[213]	input2[213]	26[341]	male[341]	c48fsj7kc4kiuorutkbb4be30b[341]	speaker: YOU[469]	_	_	_	_	_	
+41-3	954-957	ist	GFailure[7]	fallen\_set1\_30[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-fallen\_set1\_30[7]	_	_	_	_	_	false[81]	Decl[81]	*[213]	*[213]	*[213]	*[213]	*[213]	input2[213]	26[341]	male[341]	c48fsj7kc4kiuorutkbb4be30b[341]	speaker: YOU[469]	_	_	_	_	_	
+41-4	958-961	ihm	GFailure[7]	fallen\_set1\_30[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-fallen\_set1\_30[7]	3	*	Subj	*	singular	false[81]	Decl[81]	*[213]	*[213]	*[213]	*[213]	*[213]	input2[213]	26[341]	male[341]	c48fsj7kc4kiuorutkbb4be30b[341]	speaker: YOU[469]	*->39-3	PerPron[39]	_	_	_	
+41-5	962-968	nichts	GFailure[7]	fallen\_set1\_30[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-fallen\_set1\_30[7]	_	_	_	_	_	false[81]	Decl[81]	*[213]	*[213]	*[213]	*[213]	*[213]	input2[213]	26[341]	male[341]	c48fsj7kc4kiuorutkbb4be30b[341]	speaker: YOU[469]	_	_	_	_	_	
+41-6	969-978	passiert.	GFailure[7]	fallen\_set1\_30[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-fallen\_set1\_30[7]	_	_	_	_	_	false[81]	Decl[81]	*[213]	*[213]	*[213]	*[213]	*[213]	input2[213]	26[341]	male[341]	c48fsj7kc4kiuorutkbb4be30b[341]	speaker: YOU[469]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+42-1	980-995	END_OF_DOCUMENT	GFailure[7]	fallen\_set1\_30[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-fallen\_set1\_30[7]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+43-1	997-1001	Hey,	GFailure[8]	fallen\_set1\_30[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-fallen\_set1\_30[8]	_	_	_	_	_	false[82]	Int[82]	*[214]	*[214]	*[214]	wh\_6[214]	wh\_question[214]	openq[214]	*[342]	male[342]	*[342]	speaker:Noah[470]	_	_	QAP	*	44-1[83_82]	
+43-2	1002-1005	was	GFailure[8]	fallen\_set1\_30[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-fallen\_set1\_30[8]	_	_	_	_	_	false[82]	Int[82]	*[214]	*[214]	*[214]	wh\_6[214]	wh\_question[214]	openq[214]	*[342]	male[342]	*[342]	speaker:Noah[470]	_	_	_	_	_	
+43-3	1006-1011	gibts	GFailure[8]	fallen\_set1\_30[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-fallen\_set1\_30[8]	_	_	_	_	_	false[82]	Int[82]	*[214]	*[214]	*[214]	wh\_6[214]	wh\_question[214]	openq[214]	*[342]	male[342]	*[342]	speaker:Noah[470]	_	_	_	_	_	
+43-4	1012-1018	Neues?	GFailure[8]	fallen\_set1\_30[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-fallen\_set1\_30[8]	_	_	_	_	_	false[82]	Int[82]	*[214]	*[214]	*[214]	wh\_6[214]	wh\_question[214]	openq[214]	*[342]	male[342]	*[342]	speaker:Noah[470]	_	_	_	_	_	
+
+#Text=John ist zu Boden gefallen
+44-1	1020-1024	John	GFailure[8]	fallen\_set1\_30[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-fallen\_set1\_30[8]	*	*	Subj	*	*	false[83]	Decl[83]	*[215]	fallen[215]	intransitive[215]	*[215]	*[215]	item0[215]	57[343]	female[343]	k0vnav0sqhr0fo3b0jpuaak9s4[343]	speaker: YOU[471]	*->66-1	PropNm[66]	result|CR	*|*	46-1[84_83]|45-1[0_83]	
+44-2	1025-1028	ist	GFailure[8]	fallen\_set1\_30[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-fallen\_set1\_30[8]	_	_	_	_	_	false[83]	Decl[83]	*[215]	fallen[215]	intransitive[215]	*[215]	*[215]	item0[215]	57[343]	female[343]	k0vnav0sqhr0fo3b0jpuaak9s4[343]	speaker: YOU[471]	_	_	_	_	_	
+44-3	1029-1031	zu	GFailure[8]	fallen\_set1\_30[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-fallen\_set1\_30[8]	_	_	_	_	_	false[83]	Decl[83]	*[215]	fallen[215]	intransitive[215]	*[215]	*[215]	item0[215]	57[343]	female[343]	k0vnav0sqhr0fo3b0jpuaak9s4[343]	speaker: YOU[471]	_	_	_	_	_	
+44-4	1032-1037	Boden	GFailure[8]	fallen\_set1\_30[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-fallen\_set1\_30[8]	*	*	modifier	*	*	false[83]	Decl[83]	*[215]	fallen[215]	intransitive[215]	*[215]	*[215]	item0[215]	57[343]	female[343]	k0vnav0sqhr0fo3b0jpuaak9s4[343]	speaker: YOU[471]	*->28-1	IndefNP[28]	_	_	_	
+44-5	1038-1046	gefallen	GFailure[8]	fallen\_set1\_30[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-fallen\_set1\_30[8]	_	_	_	_	_	false[83]	Decl[83]	*[215]	fallen[215]	intransitive[215]	*[215]	*[215]	item0[215]	57[343]	female[343]	k0vnav0sqhr0fo3b0jpuaak9s4[343]	speaker: YOU[471]	_	_	_	_	_	
+
+#Text=Hm?
+45-1	1048-1051	Hm?	GFailure[8]	fallen\_set1\_30[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-fallen\_set1\_30[8]	_	_	_	_	_	false	NA	hm\_question\_4	*	*	*	*	feedback	*	male	*	speaker:Noah	_	_	_	_	_	
+
+#Text=Hat eine schöne Bierflechte auf der Stirn.
+46-1	1053-1056	Hat	GFailure[8]	fallen\_set1\_30[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-fallen\_set1\_30[8]	3	*	*	*	singular	false[84]	Decl[84]	*[216]	*[216]	*[216]	*[216]	*[216]	input1[216]	57[344]	female[344]	k0vnav0sqhr0fo3b0jpuaak9s4[344]	speaker: YOU[472]	*->66-2	zero[66]	result	*	47-1[85_84]	
+46-2	1057-1061	eine	GFailure[8]	fallen\_set1\_30[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-fallen\_set1\_30[8]	*[33]	*[33]	DirObj[33]	*[33]	*[33]	false[84]	Decl[84]	*[216]	*[216]	*[216]	*[216]	*[216]	input1[216]	57[344]	female[344]	k0vnav0sqhr0fo3b0jpuaak9s4[344]	speaker: YOU[472]	*->75-1	IndefNP[75]	_	_	_	
+46-3	1062-1068	schöne	GFailure[8]	fallen\_set1\_30[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-fallen\_set1\_30[8]	*[33]	*[33]	DirObj[33]	*[33]	*[33]	false[84]	Decl[84]	*[216]	*[216]	*[216]	*[216]	*[216]	input1[216]	57[344]	female[344]	k0vnav0sqhr0fo3b0jpuaak9s4[344]	speaker: YOU[472]	*->75-1	IndefNP[75]	_	_	_	
+46-4	1069-1080	Bierflechte	GFailure[8]	fallen\_set1\_30[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-fallen\_set1\_30[8]	*[33]	*[33]	DirObj[33]	*[33]	*[33]	false[84]	Decl[84]	*[216]	*[216]	*[216]	*[216]	*[216]	input1[216]	57[344]	female[344]	k0vnav0sqhr0fo3b0jpuaak9s4[344]	speaker: YOU[472]	*->75-1	IndefNP[75]	_	_	_	
+46-5	1081-1084	auf	GFailure[8]	fallen\_set1\_30[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-fallen\_set1\_30[8]	_	_	_	_	_	false[84]	Decl[84]	*[216]	*[216]	*[216]	*[216]	*[216]	input1[216]	57[344]	female[344]	k0vnav0sqhr0fo3b0jpuaak9s4[344]	speaker: YOU[472]	_	_	_	_	_	
+46-6	1085-1088	der	GFailure[8]	fallen\_set1\_30[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-fallen\_set1\_30[8]	*[34]	*[34]	PrepObj[34]	*[34]	*[34]	false[84]	Decl[84]	*[216]	*[216]	*[216]	*[216]	*[216]	input1[216]	57[344]	female[344]	k0vnav0sqhr0fo3b0jpuaak9s4[344]	speaker: YOU[472]	*->110-1	DefNP[110]	_	_	_	
+46-7	1089-1095	Stirn.	GFailure[8]	fallen\_set1\_30[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-fallen\_set1\_30[8]	*[34]	*[34]	PrepObj[34]	*[34]	*[34]	false[84]	Decl[84]	*[216]	*[216]	*[216]	*[216]	*[216]	input1[216]	57[344]	female[344]	k0vnav0sqhr0fo3b0jpuaak9s4[344]	speaker: YOU[472]	*->110-1	DefNP[110]	_	_	_	
+
+#Text=Der Mann trinkt zu viel.
+47-1	1097-1100	Der	GFailure[8]	fallen\_set1\_30[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-fallen\_set1\_30[8]	*[35]	*[35]	Subj[35]	*[35]	*[35]	false[85]	Decl[85]	*[217]	*[217]	*[217]	*[217]	*[217]	input2[217]	57[345]	female[345]	k0vnav0sqhr0fo3b0jpuaak9s4[345]	speaker: YOU[473]	*->66-3	DefNP[66]	_	_	_	
+47-2	1101-1105	Mann	GFailure[8]	fallen\_set1\_30[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-fallen\_set1\_30[8]	*[35]	*[35]	Subj[35]	*[35]	*[35]	false[85]	Decl[85]	*[217]	*[217]	*[217]	*[217]	*[217]	input2[217]	57[345]	female[345]	k0vnav0sqhr0fo3b0jpuaak9s4[345]	speaker: YOU[473]	*->66-3	DefNP[66]	_	_	_	
+47-3	1106-1112	trinkt	GFailure[8]	fallen\_set1\_30[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-fallen\_set1\_30[8]	_	_	_	_	_	false[85]	Decl[85]	*[217]	*[217]	*[217]	*[217]	*[217]	input2[217]	57[345]	female[345]	k0vnav0sqhr0fo3b0jpuaak9s4[345]	speaker: YOU[473]	_	_	_	_	_	
+47-4	1113-1115	zu	GFailure[8]	fallen\_set1\_30[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-fallen\_set1\_30[8]	_	_	_	_	_	false[85]	Decl[85]	*[217]	*[217]	*[217]	*[217]	*[217]	input2[217]	57[345]	female[345]	k0vnav0sqhr0fo3b0jpuaak9s4[345]	speaker: YOU[473]	_	_	_	_	_	
+47-5	1116-1121	viel.	GFailure[8]	fallen\_set1\_30[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-fallen\_set1\_30[8]	_	_	_	_	_	false[85]	Decl[85]	*[217]	*[217]	*[217]	*[217]	*[217]	input2[217]	57[345]	female[345]	k0vnav0sqhr0fo3b0jpuaak9s4[345]	speaker: YOU[473]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+48-1	1123-1138	END_OF_DOCUMENT	GFailure[8]	fallen\_set1\_30[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-fallen\_set1\_30[8]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+49-1	1140-1144	Hey,	GFailure[9]	fallen\_set1\_30[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-fallen\_set1\_30[9]	_	_	_	_	_	false[86]	Int[86]	*[218]	*[218]	*[218]	wh\_6[218]	wh\_question[218]	openq[218]	*[346]	male[346]	*[346]	speaker:Noah[474]	_	_	parallel|QAP	*|*	53-1[89_86]|50-1[87_86]	
+49-2	1145-1148	was	GFailure[9]	fallen\_set1\_30[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-fallen\_set1\_30[9]	_	_	_	_	_	false[86]	Int[86]	*[218]	*[218]	*[218]	wh\_6[218]	wh\_question[218]	openq[218]	*[346]	male[346]	*[346]	speaker:Noah[474]	_	_	_	_	_	
+49-3	1149-1154	gibts	GFailure[9]	fallen\_set1\_30[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-fallen\_set1\_30[9]	_	_	_	_	_	false[86]	Int[86]	*[218]	*[218]	*[218]	wh\_6[218]	wh\_question[218]	openq[218]	*[346]	male[346]	*[346]	speaker:Noah[474]	_	_	_	_	_	
+49-4	1155-1161	Neues?	GFailure[9]	fallen\_set1\_30[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-fallen\_set1\_30[9]	_	_	_	_	_	false[86]	Int[86]	*[218]	*[218]	*[218]	wh\_6[218]	wh\_question[218]	openq[218]	*[346]	male[346]	*[346]	speaker:Noah[474]	_	_	_	_	_	
+
+#Text=John ist zu Boden gefallen
+50-1	1163-1167	John	GFailure[9]	fallen\_set1\_30[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-fallen\_set1\_30[9]	*	*	Subj	*	*	false[87]	Decl[87]	*[219]	fallen[219]	intransitive[219]	*[219]	*[219]	item0[219]	26[347]	female[347]	qjdpg51abd5auurj3bduisfb43[347]	speaker: YOU[475]	*->15-1	PropNm[15]	contrast|CR	*|*	52-1[88_87]|51-1[0_87]	
+50-2	1168-1171	ist	GFailure[9]	fallen\_set1\_30[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-fallen\_set1\_30[9]	_	_	_	_	_	false[87]	Decl[87]	*[219]	fallen[219]	intransitive[219]	*[219]	*[219]	item0[219]	26[347]	female[347]	qjdpg51abd5auurj3bduisfb43[347]	speaker: YOU[475]	_	_	_	_	_	
+50-3	1172-1174	zu	GFailure[9]	fallen\_set1\_30[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-fallen\_set1\_30[9]	_	_	_	_	_	false[87]	Decl[87]	*[219]	fallen[219]	intransitive[219]	*[219]	*[219]	item0[219]	26[347]	female[347]	qjdpg51abd5auurj3bduisfb43[347]	speaker: YOU[475]	_	_	_	_	_	
+50-4	1175-1180	Boden	GFailure[9]	fallen\_set1\_30[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-fallen\_set1\_30[9]	*	*	modifier	*	*	false[87]	Decl[87]	*[219]	fallen[219]	intransitive[219]	*[219]	*[219]	item0[219]	26[347]	female[347]	qjdpg51abd5auurj3bduisfb43[347]	speaker: YOU[475]	*->6-1	IndefNP[6]	_	_	_	
+50-5	1181-1189	gefallen	GFailure[9]	fallen\_set1\_30[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-fallen\_set1\_30[9]	_	_	_	_	_	false[87]	Decl[87]	*[219]	fallen[219]	intransitive[219]	*[219]	*[219]	item0[219]	26[347]	female[347]	qjdpg51abd5auurj3bduisfb43[347]	speaker: YOU[475]	_	_	_	_	_	
+
+#Text=Hm?
+51-1	1191-1194	Hm?	GFailure[9]	fallen\_set1\_30[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-fallen\_set1\_30[9]	_	_	_	_	_	false	NA	hm\_question\_4	*	*	*	*	feedback	*	male	*	speaker:Noah	_	_	_	_	_	
+
+#Text=Ihm geht es gut.
+52-1	1196-1199	Ihm	GFailure[9]	fallen\_set1\_30[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-fallen\_set1\_30[9]	3	*	IndirObj	*	singular	false[88]	Decl[88]	*[220]	*[220]	*[220]	*[220]	*[220]	input1[220]	26[348]	female[348]	qjdpg51abd5auurj3bduisfb43[348]	speaker: YOU[476]	*->15-2	PerPron[15]	_	_	_	
+52-2	1200-1204	geht	GFailure[9]	fallen\_set1\_30[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-fallen\_set1\_30[9]	_	_	_	_	_	false[88]	Decl[88]	*[220]	*[220]	*[220]	*[220]	*[220]	input1[220]	26[348]	female[348]	qjdpg51abd5auurj3bduisfb43[348]	speaker: YOU[476]	_	_	_	_	_	
+52-3	1205-1207	es	GFailure[9]	fallen\_set1\_30[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-fallen\_set1\_30[9]	*	*	Subj	*	*	false[88]	Decl[88]	*[220]	*[220]	*[220]	*[220]	*[220]	input1[220]	26[348]	female[348]	qjdpg51abd5auurj3bduisfb43[348]	speaker: YOU[476]	_	_	_	_	_	
+52-4	1208-1212	gut.	GFailure[9]	fallen\_set1\_30[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-fallen\_set1\_30[9]	_	_	_	_	_	false[88]	Decl[88]	*[220]	*[220]	*[220]	*[220]	*[220]	input1[220]	26[348]	female[348]	qjdpg51abd5auurj3bduisfb43[348]	speaker: YOU[476]	_	_	_	_	_	
+
+#Text=Und bei dir so?
+53-1	1214-1217	Und	GFailure[9]	fallen\_set1\_30[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-fallen\_set1\_30[9]	_	_	_	_	_	false[89]	NA[89]	*[221]	*[221]	*[221]	*[221]	*[221]	input2[221]	26[349]	female[349]	qjdpg51abd5auurj3bduisfb43[349]	speaker: YOU[477]	_	_	_	_	_	
+53-2	1218-1221	bei	GFailure[9]	fallen\_set1\_30[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-fallen\_set1\_30[9]	_	_	_	_	_	false[89]	NA[89]	*[221]	*[221]	*[221]	*[221]	*[221]	input2[221]	26[349]	female[349]	qjdpg51abd5auurj3bduisfb43[349]	speaker: YOU[477]	_	_	_	_	_	
+53-3	1222-1225	dir	GFailure[9]	fallen\_set1\_30[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-fallen\_set1\_30[9]	2	*	PrepObj	*	singular	false[89]	NA[89]	*[221]	*[221]	*[221]	*[221]	*[221]	input2[221]	26[349]	female[349]	qjdpg51abd5auurj3bduisfb43[349]	speaker: YOU[477]	*->72-1	PerPron[72]	_	_	_	
+53-4	1226-1229	so?	GFailure[9]	fallen\_set1\_30[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-fallen\_set1\_30[9]	_	_	_	_	_	false[89]	NA[89]	*[221]	*[221]	*[221]	*[221]	*[221]	input2[221]	26[349]	female[349]	qjdpg51abd5auurj3bduisfb43[349]	speaker: YOU[477]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+54-1	1231-1246	END_OF_DOCUMENT	GFailure[9]	fallen\_set1\_30[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-fallen\_set1\_30[9]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+55-1	1248-1252	Hey,	GFailure[10]	fallen\_set1\_30[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-fallen\_set1\_30[10]	_	_	_	_	_	false[90]	Int[90]	*[222]	*[222]	*[222]	wh\_6[222]	wh\_question[222]	openq[222]	*[350]	male[350]	*[350]	speaker:Noah[478]	_	_	QAP	*	56-1[91_90]	
+55-2	1253-1256	was	GFailure[10]	fallen\_set1\_30[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-fallen\_set1\_30[10]	_	_	_	_	_	false[90]	Int[90]	*[222]	*[222]	*[222]	wh\_6[222]	wh\_question[222]	openq[222]	*[350]	male[350]	*[350]	speaker:Noah[478]	_	_	_	_	_	
+55-3	1257-1262	gibts	GFailure[10]	fallen\_set1\_30[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-fallen\_set1\_30[10]	_	_	_	_	_	false[90]	Int[90]	*[222]	*[222]	*[222]	wh\_6[222]	wh\_question[222]	openq[222]	*[350]	male[350]	*[350]	speaker:Noah[478]	_	_	_	_	_	
+55-4	1263-1269	Neues?	GFailure[10]	fallen\_set1\_30[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-fallen\_set1\_30[10]	_	_	_	_	_	false[90]	Int[90]	*[222]	*[222]	*[222]	wh\_6[222]	wh\_question[222]	openq[222]	*[350]	male[350]	*[350]	speaker:Noah[478]	_	_	_	_	_	
+
+#Text=John ist zu Boden gefallen
+56-1	1271-1275	John	GFailure[10]	fallen\_set1\_30[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-fallen\_set1\_30[10]	*	*	Subj	*	*	false[91]	Decl[91]	*[223]	fallen[223]	intransitive[223]	*[223]	*[223]	item0[223]	72[351]	male[351]	rhiec6c6hfje484c5bsbj040l0[351]	speaker: YOU[479]	*->43-1	PropNm[43]	explanation|CR	*|*	58-1[92_91]|57-1[0_91]	
+56-2	1276-1279	ist	GFailure[10]	fallen\_set1\_30[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-fallen\_set1\_30[10]	_	_	_	_	_	false[91]	Decl[91]	*[223]	fallen[223]	intransitive[223]	*[223]	*[223]	item0[223]	72[351]	male[351]	rhiec6c6hfje484c5bsbj040l0[351]	speaker: YOU[479]	_	_	_	_	_	
+56-3	1280-1282	zu	GFailure[10]	fallen\_set1\_30[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-fallen\_set1\_30[10]	_	_	_	_	_	false[91]	Decl[91]	*[223]	fallen[223]	intransitive[223]	*[223]	*[223]	item0[223]	72[351]	male[351]	rhiec6c6hfje484c5bsbj040l0[351]	speaker: YOU[479]	_	_	_	_	_	
+56-4	1283-1288	Boden	GFailure[10]	fallen\_set1\_30[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-fallen\_set1\_30[10]	*	*	modifier	*	*	false[91]	Decl[91]	*[223]	fallen[223]	intransitive[223]	*[223]	*[223]	item0[223]	72[351]	male[351]	rhiec6c6hfje484c5bsbj040l0[351]	speaker: YOU[479]	*->107-1	IndefNP[107]	_	_	_	
+56-5	1289-1297	gefallen	GFailure[10]	fallen\_set1\_30[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-fallen\_set1\_30[10]	_	_	_	_	_	false[91]	Decl[91]	*[223]	fallen[223]	intransitive[223]	*[223]	*[223]	item0[223]	72[351]	male[351]	rhiec6c6hfje484c5bsbj040l0[351]	speaker: YOU[479]	_	_	_	_	_	
+
+#Text=Hm?
+57-1	1299-1302	Hm?	GFailure[10]	fallen\_set1\_30[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-fallen\_set1\_30[10]	_	_	_	_	_	false	NA	hm\_question\_4	*	*	*	*	feedback	*	male	*	speaker:Noah	_	_	_	_	_	
+
+#Text=Er ist über die Schwelle gestolpert
+58-1	1304-1306	Er	GFailure[10]	fallen\_set1\_30[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-fallen\_set1\_30[10]	3	*	Subj	*	singular	false[92]	Decl[92]	*[224]	*[224]	*[224]	*[224]	*[224]	input1[224]	72[352]	male[352]	rhiec6c6hfje484c5bsbj040l0[352]	speaker: YOU[480]	*->43-2	PerPron[43]	result	*	59-1[93_92]	
+58-2	1307-1310	ist	GFailure[10]	fallen\_set1\_30[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-fallen\_set1\_30[10]	_	_	_	_	_	false[92]	Decl[92]	*[224]	*[224]	*[224]	*[224]	*[224]	input1[224]	72[352]	male[352]	rhiec6c6hfje484c5bsbj040l0[352]	speaker: YOU[480]	_	_	_	_	_	
+58-3	1311-1315	über	GFailure[10]	fallen\_set1\_30[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-fallen\_set1\_30[10]	_	_	_	_	_	false[92]	Decl[92]	*[224]	*[224]	*[224]	*[224]	*[224]	input1[224]	72[352]	male[352]	rhiec6c6hfje484c5bsbj040l0[352]	speaker: YOU[480]	_	_	_	_	_	
+58-4	1316-1319	die	GFailure[10]	fallen\_set1\_30[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-fallen\_set1\_30[10]	*[36]	*[36]	Subj[36]	*[36]	*[36]	false[92]	Decl[92]	*[224]	*[224]	*[224]	*[224]	*[224]	input1[224]	72[352]	male[352]	rhiec6c6hfje484c5bsbj040l0[352]	speaker: YOU[480]	*->44-1	DefNP[44]	_	_	_	
+58-5	1320-1328	Schwelle	GFailure[10]	fallen\_set1\_30[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-fallen\_set1\_30[10]	*[36]	*[36]	Subj[36]	*[36]	*[36]	false[92]	Decl[92]	*[224]	*[224]	*[224]	*[224]	*[224]	input1[224]	72[352]	male[352]	rhiec6c6hfje484c5bsbj040l0[352]	speaker: YOU[480]	*->44-1	DefNP[44]	_	_	_	
+58-6	1329-1339	gestolpert	GFailure[10]	fallen\_set1\_30[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-fallen\_set1\_30[10]	_	_	_	_	_	false[92]	Decl[92]	*[224]	*[224]	*[224]	*[224]	*[224]	input1[224]	72[352]	male[352]	rhiec6c6hfje484c5bsbj040l0[352]	speaker: YOU[480]	_	_	_	_	_	
+
+#Text=und dann voll auf die Front gestürzt
+59-1	1341-1344	und	GFailure[10]	fallen\_set1\_30[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-fallen\_set1\_30[10]	_	_	_	_	_	false[93]	NA[93]	*[225]	*[225]	*[225]	*[225]	*[225]	input2[225]	72[353]	male[353]	rhiec6c6hfje484c5bsbj040l0[353]	speaker: YOU[481]	_	_	_	_	_	
+59-2	1345-1349	dann	GFailure[10]	fallen\_set1\_30[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-fallen\_set1\_30[10]	_	_	_	_	_	false[93]	NA[93]	*[225]	*[225]	*[225]	*[225]	*[225]	input2[225]	72[353]	male[353]	rhiec6c6hfje484c5bsbj040l0[353]	speaker: YOU[481]	_	_	_	_	_	
+59-3	1350-1354	voll	GFailure[10]	fallen\_set1\_30[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-fallen\_set1\_30[10]	_	_	_	_	_	false[93]	NA[93]	*[225]	*[225]	*[225]	*[225]	*[225]	input2[225]	72[353]	male[353]	rhiec6c6hfje484c5bsbj040l0[353]	speaker: YOU[481]	_	_	_	_	_	
+59-4	1355-1358	auf	GFailure[10]	fallen\_set1\_30[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-fallen\_set1\_30[10]	_	_	_	_	_	false[93]	NA[93]	*[225]	*[225]	*[225]	*[225]	*[225]	input2[225]	72[353]	male[353]	rhiec6c6hfje484c5bsbj040l0[353]	speaker: YOU[481]	_	_	_	_	_	
+59-5	1359-1362	die	GFailure[10]	fallen\_set1\_30[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-fallen\_set1\_30[10]	*[37]	*[37]	Subj[37]	*[37]	*[37]	false[93]	NA[93]	*[225]	*[225]	*[225]	*[225]	*[225]	input2[225]	72[353]	male[353]	rhiec6c6hfje484c5bsbj040l0[353]	speaker: YOU[481]	*->40-1	DefNP[40]	_	_	_	
+59-6	1363-1368	Front	GFailure[10]	fallen\_set1\_30[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-fallen\_set1\_30[10]	*[37]	*[37]	Subj[37]	*[37]	*[37]	false[93]	NA[93]	*[225]	*[225]	*[225]	*[225]	*[225]	input2[225]	72[353]	male[353]	rhiec6c6hfje484c5bsbj040l0[353]	speaker: YOU[481]	*->40-1	DefNP[40]	_	_	_	
+59-7	1369-1377	gestürzt	GFailure[10]	fallen\_set1\_30[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-fallen\_set1\_30[10]	_	_	_	_	_	false[93]	NA[93]	*[225]	*[225]	*[225]	*[225]	*[225]	input2[225]	72[353]	male[353]	rhiec6c6hfje484c5bsbj040l0[353]	speaker: YOU[481]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+60-1	1379-1394	END_OF_DOCUMENT	GFailure[10]	fallen\_set1\_30[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-fallen\_set1\_30[10]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+61-1	1396-1400	Hey,	GSuccess[11]	fallen\_set1\_30[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-fallen\_set1\_30[11]	_	_	_	_	_	false[94]	Int[94]	*[226]	*[226]	*[226]	wh\_6[226]	wh\_question[226]	openq[226]	*[354]	male[354]	*[354]	speaker:Noah[482]	_	_	QAP	*	62-1[95_94]	
+61-2	1401-1404	was	GSuccess[11]	fallen\_set1\_30[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-fallen\_set1\_30[11]	_	_	_	_	_	false[94]	Int[94]	*[226]	*[226]	*[226]	wh\_6[226]	wh\_question[226]	openq[226]	*[354]	male[354]	*[354]	speaker:Noah[482]	_	_	_	_	_	
+61-3	1405-1410	gibts	GSuccess[11]	fallen\_set1\_30[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-fallen\_set1\_30[11]	_	_	_	_	_	false[94]	Int[94]	*[226]	*[226]	*[226]	wh\_6[226]	wh\_question[226]	openq[226]	*[354]	male[354]	*[354]	speaker:Noah[482]	_	_	_	_	_	
+61-4	1411-1417	Neues?	GSuccess[11]	fallen\_set1\_30[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-fallen\_set1\_30[11]	_	_	_	_	_	false[94]	Int[94]	*[226]	*[226]	*[226]	wh\_6[226]	wh\_question[226]	openq[226]	*[354]	male[354]	*[354]	speaker:Noah[482]	_	_	_	_	_	
+
+#Text=John ist zu Boden gefallen
+62-1	1419-1423	John	GSuccess[11]	fallen\_set1\_30[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-fallen\_set1\_30[11]	*	*	Subj	*	*	false[95]	Decl[95]	*[227]	fallen[227]	intransitive[227]	*[227]	*[227]	item0[227]	18[355]	female[355]	0ncaea7aqlpc7oe43khd21qn11[355]	speaker: YOU[483]	*->96-1|*->63-1	clause[96]|PropNm[63]	contrast|elaboration|acknowledgement	*|*|*	64-1[97_95]|65-1[99_95]|63-1[96_95]	
+62-2	1424-1427	ist	GSuccess[11]	fallen\_set1\_30[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-fallen\_set1\_30[11]	_	_	_	_	_	false[95]	Decl[95]	*[227]	fallen[227]	intransitive[227]	*[227]	*[227]	item0[227]	18[355]	female[355]	0ncaea7aqlpc7oe43khd21qn11[355]	speaker: YOU[483]	*->96-1	clause[96]	_	_	_	
+62-3	1428-1430	zu	GSuccess[11]	fallen\_set1\_30[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-fallen\_set1\_30[11]	_	_	_	_	_	false[95]	Decl[95]	*[227]	fallen[227]	intransitive[227]	*[227]	*[227]	item0[227]	18[355]	female[355]	0ncaea7aqlpc7oe43khd21qn11[355]	speaker: YOU[483]	*->96-1	clause[96]	_	_	_	
+62-4	1431-1436	Boden	GSuccess[11]	fallen\_set1\_30[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-fallen\_set1\_30[11]	*	*	modifier	*	*	false[95]	Decl[95]	*[227]	fallen[227]	intransitive[227]	*[227]	*[227]	item0[227]	18[355]	female[355]	0ncaea7aqlpc7oe43khd21qn11[355]	speaker: YOU[483]	*->96-1|*->65-1	clause[96]|IndefNP[65]	_	_	_	
+62-5	1437-1445	gefallen	GSuccess[11]	fallen\_set1\_30[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-fallen\_set1\_30[11]	_	_	_	_	_	false[95]	Decl[95]	*[227]	fallen[227]	intransitive[227]	*[227]	*[227]	item0[227]	18[355]	female[355]	0ncaea7aqlpc7oe43khd21qn11[355]	speaker: YOU[483]	*->96-1	clause[96]	_	_	_	
+
+#Text=Oh nein
+63-1	1447-1449	Oh	GSuccess[11]	fallen\_set1\_30[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-fallen\_set1\_30[11]	_	_	_	_	_	false[96]	NA[96]	oh-nein\_25[228]	*[228]	*[228]	*[228]	*[228]	feedback[228]	*[356]	male[356]	*[356]	speaker:Noah[484]	_	_	_	_	_	
+63-2	1450-1454	nein	GSuccess[11]	fallen\_set1\_30[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-fallen\_set1\_30[11]	_	_	_	_	_	false[96]	NA[96]	oh-nein\_25[228]	*[228]	*[228]	*[228]	*[228]	feedback[228]	*[356]	male[356]	*[356]	speaker:Noah[484]	_	_	_	_	_	
+
+#Text=Ihm gehts gut <BR> keine Sorge.
+64-1	1456-1459	Ihm	GSuccess[11]	fallen\_set1\_30[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-fallen\_set1\_30[11]	3	*	Subj	*	singular	false[97]	Decl[97]	*[229]	*[229]	*[229]	*[229]	*[229]	input1[229]	18[357]	female[357]	0ncaea7aqlpc7oe43khd21qn11[357]	speaker: YOU[485]	*->63-2	PerPron[63]	_	_	_	
+64-2	1460-1465	gehts	GSuccess[11]	fallen\_set1\_30[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-fallen\_set1\_30[11]	_	_	_	_	_	false[97]	Decl[97]	*[229]	*[229]	*[229]	*[229]	*[229]	input1[229]	18[357]	female[357]	0ncaea7aqlpc7oe43khd21qn11[357]	speaker: YOU[485]	_	_	_	_	_	
+64-3	1466-1469	gut	GSuccess[11]	fallen\_set1\_30[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-fallen\_set1\_30[11]	_	_	_	_	_	false[97]	Decl[97]	*[229]	*[229]	*[229]	*[229]	*[229]	input1[229]	18[357]	female[357]	0ncaea7aqlpc7oe43khd21qn11[357]	speaker: YOU[485]	_	_	_	_	_	
+64-4	1470-1474	<BR>	GSuccess[11]	fallen\_set1\_30[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-fallen\_set1\_30[11]	_	_	_	_	_	_	_	*[229]	*[229]	*[229]	*[229]	*[229]	input1[229]	18[357]	female[357]	0ncaea7aqlpc7oe43khd21qn11[357]	speaker: YOU[485]	_	_	_	_	_	
+64-5	1475-1480	keine	GSuccess[11]	fallen\_set1\_30[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-fallen\_set1\_30[11]	_	_	_	_	_	false[98]	NA[98]	*[229]	*[229]	*[229]	*[229]	*[229]	input1[229]	18[357]	female[357]	0ncaea7aqlpc7oe43khd21qn11[357]	speaker: YOU[485]	_	_	_	_	_	
+64-6	1481-1487	Sorge.	GSuccess[11]	fallen\_set1\_30[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-fallen\_set1\_30[11]	_	_	_	_	_	false[98]	NA[98]	*[229]	*[229]	*[229]	*[229]	*[229]	input1[229]	18[357]	female[357]	0ncaea7aqlpc7oe43khd21qn11[357]	speaker: YOU[485]	_	_	_	_	_	
+
+#Text=Es war nur extrem lustig <BR> wünschte du wärst dabei gewesen.
+65-1	1489-1491	Es	GSuccess[11]	fallen\_set1\_30[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-fallen\_set1\_30[11]	3	*	Subj	*	singular	false[99]	Decl[99]	*[230]	*[230]	*[230]	*[230]	*[230]	input2[230]	18[358]	female[358]	0ncaea7aqlpc7oe43khd21qn11[358]	speaker: YOU[486]	*->96-2	PerPron[96]	result	*	65-7[100_99]	
+65-2	1492-1495	war	GSuccess[11]	fallen\_set1\_30[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-fallen\_set1\_30[11]	_	_	_	_	_	false[99]	Decl[99]	*[230]	*[230]	*[230]	*[230]	*[230]	input2[230]	18[358]	female[358]	0ncaea7aqlpc7oe43khd21qn11[358]	speaker: YOU[486]	_	_	_	_	_	
+65-3	1496-1499	nur	GSuccess[11]	fallen\_set1\_30[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-fallen\_set1\_30[11]	_	_	_	_	_	false[99]	Decl[99]	*[230]	*[230]	*[230]	*[230]	*[230]	input2[230]	18[358]	female[358]	0ncaea7aqlpc7oe43khd21qn11[358]	speaker: YOU[486]	_	_	_	_	_	
+65-4	1500-1506	extrem	GSuccess[11]	fallen\_set1\_30[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-fallen\_set1\_30[11]	_	_	_	_	_	false[99]	Decl[99]	*[230]	*[230]	*[230]	*[230]	*[230]	input2[230]	18[358]	female[358]	0ncaea7aqlpc7oe43khd21qn11[358]	speaker: YOU[486]	_	_	_	_	_	
+65-5	1507-1513	lustig	GSuccess[11]	fallen\_set1\_30[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-fallen\_set1\_30[11]	_	_	_	_	_	false[99]	Decl[99]	*[230]	*[230]	*[230]	*[230]	*[230]	input2[230]	18[358]	female[358]	0ncaea7aqlpc7oe43khd21qn11[358]	speaker: YOU[486]	_	_	_	_	_	
+65-6	1514-1518	<BR>	GSuccess[11]	fallen\_set1\_30[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-fallen\_set1\_30[11]	_	_	_	_	_	_	_	*[230]	*[230]	*[230]	*[230]	*[230]	input2[230]	18[358]	female[358]	0ncaea7aqlpc7oe43khd21qn11[358]	speaker: YOU[486]	_	_	_	_	_	
+65-7	1519-1527	wünschte	GSuccess[11]	fallen\_set1\_30[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-fallen\_set1\_30[11]	1	*	*	*	singular	false[100]	Decl[100]	*[230]	*[230]	*[230]	*[230]	*[230]	input2[230]	18[358]	female[358]	0ncaea7aqlpc7oe43khd21qn11[358]	speaker: YOU[486]	*->97-1	zero[97]	_	_	_	
+65-8	1528-1530	du	GSuccess[11]	fallen\_set1\_30[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-fallen\_set1\_30[11]	*	*	Subj	*	*	false[100]	Decl[100]	*[230]	*[230]	*[230]	*[230]	*[230]	input2[230]	18[358]	female[358]	0ncaea7aqlpc7oe43khd21qn11[358]	speaker: YOU[486]	*->19-1	PerPron[19]	_	_	_	
+65-9	1531-1536	wärst	GSuccess[11]	fallen\_set1\_30[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-fallen\_set1\_30[11]	_	_	_	_	_	false[100]	Decl[100]	*[230]	*[230]	*[230]	*[230]	*[230]	input2[230]	18[358]	female[358]	0ncaea7aqlpc7oe43khd21qn11[358]	speaker: YOU[486]	_	_	_	_	_	
+65-10	1537-1542	dabei	GSuccess[11]	fallen\_set1\_30[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-fallen\_set1\_30[11]	_	_	_	_	_	false[100]	Decl[100]	*[230]	*[230]	*[230]	*[230]	*[230]	input2[230]	18[358]	female[358]	0ncaea7aqlpc7oe43khd21qn11[358]	speaker: YOU[486]	*->96-3	DemPron[96]	_	_	_	
+65-11	1543-1551	gewesen.	GSuccess[11]	fallen\_set1\_30[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-fallen\_set1\_30[11]	_	_	_	_	_	false[100]	Decl[100]	*[230]	*[230]	*[230]	*[230]	*[230]	input2[230]	18[358]	female[358]	0ncaea7aqlpc7oe43khd21qn11[358]	speaker: YOU[486]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+66-1	1553-1568	END_OF_DOCUMENT	GSuccess[11]	fallen\_set1\_30[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-fallen\_set1\_30[11]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+67-1	1570-1574	Hey,	GSuccess[12]	fallen\_set1\_30[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-fallen\_set1\_30[12]	_	_	_	_	_	false[101]	Int[101]	*[231]	*[231]	*[231]	wh\_6[231]	wh\_question[231]	openq[231]	*[359]	male[359]	*[359]	speaker:Noah[487]	_	_	QAP	*	68-1[102_101]	
+67-2	1575-1578	was	GSuccess[12]	fallen\_set1\_30[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-fallen\_set1\_30[12]	_	_	_	_	_	false[101]	Int[101]	*[231]	*[231]	*[231]	wh\_6[231]	wh\_question[231]	openq[231]	*[359]	male[359]	*[359]	speaker:Noah[487]	_	_	_	_	_	
+67-3	1579-1584	gibts	GSuccess[12]	fallen\_set1\_30[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-fallen\_set1\_30[12]	_	_	_	_	_	false[101]	Int[101]	*[231]	*[231]	*[231]	wh\_6[231]	wh\_question[231]	openq[231]	*[359]	male[359]	*[359]	speaker:Noah[487]	_	_	_	_	_	
+67-4	1585-1591	Neues?	GSuccess[12]	fallen\_set1\_30[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-fallen\_set1\_30[12]	_	_	_	_	_	false[101]	Int[101]	*[231]	*[231]	*[231]	wh\_6[231]	wh\_question[231]	openq[231]	*[359]	male[359]	*[359]	speaker:Noah[487]	_	_	_	_	_	
+
+#Text=John ist zu Boden gefallen
+68-1	1593-1597	John	GSuccess[12]	fallen\_set1\_30[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-fallen\_set1\_30[12]	*	*	Subj	*	*	false[102]	Decl[102]	*[232]	fallen[232]	intransitive[232]	*[232]	*[232]	item0[232]	36[360]	male[360]	19gm0uv9ca6mcngf99lirno94a[360]	speaker: YOU[488]	*->71-1	PropNm[71]	result|acknowledgement	*|*	70-1[104_102]|69-1[103_102]	
+68-2	1598-1601	ist	GSuccess[12]	fallen\_set1\_30[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-fallen\_set1\_30[12]	_	_	_	_	_	false[102]	Decl[102]	*[232]	fallen[232]	intransitive[232]	*[232]	*[232]	item0[232]	36[360]	male[360]	19gm0uv9ca6mcngf99lirno94a[360]	speaker: YOU[488]	_	_	_	_	_	
+68-3	1602-1604	zu	GSuccess[12]	fallen\_set1\_30[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-fallen\_set1\_30[12]	_	_	_	_	_	false[102]	Decl[102]	*[232]	fallen[232]	intransitive[232]	*[232]	*[232]	item0[232]	36[360]	male[360]	19gm0uv9ca6mcngf99lirno94a[360]	speaker: YOU[488]	_	_	_	_	_	
+68-4	1605-1610	Boden	GSuccess[12]	fallen\_set1\_30[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-fallen\_set1\_30[12]	*	*	modifier	*	*	false[102]	Decl[102]	*[232]	fallen[232]	intransitive[232]	*[232]	*[232]	item0[232]	36[360]	male[360]	19gm0uv9ca6mcngf99lirno94a[360]	speaker: YOU[488]	*->47-1	IndefNP[47]	_	_	_	
+68-5	1611-1619	gefallen	GSuccess[12]	fallen\_set1\_30[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-fallen\_set1\_30[12]	_	_	_	_	_	false[102]	Decl[102]	*[232]	fallen[232]	intransitive[232]	*[232]	*[232]	item0[232]	36[360]	male[360]	19gm0uv9ca6mcngf99lirno94a[360]	speaker: YOU[488]	_	_	_	_	_	
+
+#Text=Oh nein
+69-1	1621-1623	Oh	GSuccess[12]	fallen\_set1\_30[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-fallen\_set1\_30[12]	_	_	_	_	_	false[103]	NA[103]	oh-nein\_25[233]	*[233]	*[233]	*[233]	*[233]	feedback[233]	*[361]	male[361]	*[361]	speaker:Noah[489]	_	_	_	_	_	
+69-2	1624-1628	nein	GSuccess[12]	fallen\_set1\_30[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-fallen\_set1\_30[12]	_	_	_	_	_	false[103]	NA[103]	oh-nein\_25[233]	*[233]	*[233]	*[233]	*[233]	feedback[233]	*[361]	male[361]	*[361]	speaker:Noah[489]	_	_	_	_	_	
+
+#Text=Wir haben uns alle total erschreckt
+70-1	1630-1633	Wir	GSuccess[12]	fallen\_set1\_30[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-fallen\_set1\_30[12]	1	*	Subj	*	plural	false[104]	Decl[104]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	36[362]	male[362]	19gm0uv9ca6mcngf99lirno94a[362]	speaker: YOU[490]	*->105-1	PerPron[105]	narration	*	71-1[105_104]	
+70-2	1634-1639	haben	GSuccess[12]	fallen\_set1\_30[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-fallen\_set1\_30[12]	_	_	_	_	_	false[104]	Decl[104]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	36[362]	male[362]	19gm0uv9ca6mcngf99lirno94a[362]	speaker: YOU[490]	_	_	_	_	_	
+70-3	1640-1643	uns	GSuccess[12]	fallen\_set1\_30[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-fallen\_set1\_30[12]	*	*	DirObj	*	*	false[104]	Decl[104]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	36[362]	male[362]	19gm0uv9ca6mcngf99lirno94a[362]	speaker: YOU[490]	_	_	_	_	_	
+70-4	1644-1648	alle	GSuccess[12]	fallen\_set1\_30[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-fallen\_set1\_30[12]	_	_	_	_	_	false[104]	Decl[104]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	36[362]	male[362]	19gm0uv9ca6mcngf99lirno94a[362]	speaker: YOU[490]	_	_	_	_	_	
+70-5	1649-1654	total	GSuccess[12]	fallen\_set1\_30[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-fallen\_set1\_30[12]	_	_	_	_	_	false[104]	Decl[104]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	36[362]	male[362]	19gm0uv9ca6mcngf99lirno94a[362]	speaker: YOU[490]	_	_	_	_	_	
+70-6	1655-1665	erschreckt	GSuccess[12]	fallen\_set1\_30[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-fallen\_set1\_30[12]	_	_	_	_	_	false[104]	Decl[104]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	36[362]	male[362]	19gm0uv9ca6mcngf99lirno94a[362]	speaker: YOU[490]	_	_	_	_	_	
+
+#Text=Tania hat direkt den Krankenwagen gerufen
+71-1	1667-1672	Tania	GSuccess[12]	fallen\_set1\_30[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-fallen\_set1\_30[12]	*	*	Subj	*	*	false[105]	Decl[105]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	36[363]	male[363]	19gm0uv9ca6mcngf99lirno94a[363]	speaker: YOU[491]	*->56-1	PropNm[56]	_	_	_	
+71-2	1673-1676	hat	GSuccess[12]	fallen\_set1\_30[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-fallen\_set1\_30[12]	_	_	_	_	_	false[105]	Decl[105]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	36[363]	male[363]	19gm0uv9ca6mcngf99lirno94a[363]	speaker: YOU[491]	_	_	_	_	_	
+71-3	1677-1683	direkt	GSuccess[12]	fallen\_set1\_30[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-fallen\_set1\_30[12]	_	_	_	_	_	false[105]	Decl[105]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	36[363]	male[363]	19gm0uv9ca6mcngf99lirno94a[363]	speaker: YOU[491]	_	_	_	_	_	
+71-4	1684-1687	den	GSuccess[12]	fallen\_set1\_30[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-fallen\_set1\_30[12]	*[38]	*[38]	DirObj[38]	*[38]	*[38]	false[105]	Decl[105]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	36[363]	male[363]	19gm0uv9ca6mcngf99lirno94a[363]	speaker: YOU[491]	*->36-1	DefNP[36]	_	_	_	
+71-5	1688-1700	Krankenwagen	GSuccess[12]	fallen\_set1\_30[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-fallen\_set1\_30[12]	*[38]	*[38]	DirObj[38]	*[38]	*[38]	false[105]	Decl[105]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	36[363]	male[363]	19gm0uv9ca6mcngf99lirno94a[363]	speaker: YOU[491]	*->36-1	DefNP[36]	_	_	_	
+71-6	1701-1708	gerufen	GSuccess[12]	fallen\_set1\_30[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-fallen\_set1\_30[12]	_	_	_	_	_	false[105]	Decl[105]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	36[363]	male[363]	19gm0uv9ca6mcngf99lirno94a[363]	speaker: YOU[491]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+72-1	1710-1725	END_OF_DOCUMENT	GSuccess[12]	fallen\_set1\_30[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-fallen\_set1\_30[12]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+73-1	1727-1731	Hey,	GSuccess[13]	fallen\_set1\_30[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-fallen\_set1\_30[13]	_	_	_	_	_	false[106]	Int[106]	*[236]	*[236]	*[236]	wh\_6[236]	wh\_question[236]	openq[236]	*[364]	male[364]	*[364]	speaker:Noah[492]	_	_	QAP	*	74-1[107_106]	
+73-2	1732-1735	was	GSuccess[13]	fallen\_set1\_30[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-fallen\_set1\_30[13]	_	_	_	_	_	false[106]	Int[106]	*[236]	*[236]	*[236]	wh\_6[236]	wh\_question[236]	openq[236]	*[364]	male[364]	*[364]	speaker:Noah[492]	_	_	_	_	_	
+73-3	1736-1741	gibts	GSuccess[13]	fallen\_set1\_30[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-fallen\_set1\_30[13]	_	_	_	_	_	false[106]	Int[106]	*[236]	*[236]	*[236]	wh\_6[236]	wh\_question[236]	openq[236]	*[364]	male[364]	*[364]	speaker:Noah[492]	_	_	_	_	_	
+73-4	1742-1748	Neues?	GSuccess[13]	fallen\_set1\_30[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-fallen\_set1\_30[13]	_	_	_	_	_	false[106]	Int[106]	*[236]	*[236]	*[236]	wh\_6[236]	wh\_question[236]	openq[236]	*[364]	male[364]	*[364]	speaker:Noah[492]	_	_	_	_	_	
+
+#Text=John ist zu Boden gefallen
+74-1	1750-1754	John	GSuccess[13]	fallen\_set1\_30[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-fallen\_set1\_30[13]	*	*	Subj	*	*	false[107]	Decl[107]	*[237]	fallen[237]	intransitive[237]	*[237]	*[237]	item0[237]	18[365]	female[365]	4qae3ph27q5gbjcsrgnltv8qld[365]	speaker: YOU[493]	*->50-1	PropNm[50]	explanation|acknowledgement	*|*	76-1[109_107]|75-1[108_107]	
+74-2	1755-1758	ist	GSuccess[13]	fallen\_set1\_30[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-fallen\_set1\_30[13]	_	_	_	_	_	false[107]	Decl[107]	*[237]	fallen[237]	intransitive[237]	*[237]	*[237]	item0[237]	18[365]	female[365]	4qae3ph27q5gbjcsrgnltv8qld[365]	speaker: YOU[493]	_	_	_	_	_	
+74-3	1759-1761	zu	GSuccess[13]	fallen\_set1\_30[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-fallen\_set1\_30[13]	_	_	_	_	_	false[107]	Decl[107]	*[237]	fallen[237]	intransitive[237]	*[237]	*[237]	item0[237]	18[365]	female[365]	4qae3ph27q5gbjcsrgnltv8qld[365]	speaker: YOU[493]	_	_	_	_	_	
+74-4	1762-1767	Boden	GSuccess[13]	fallen\_set1\_30[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-fallen\_set1\_30[13]	*	*	modifier	*	*	false[107]	Decl[107]	*[237]	fallen[237]	intransitive[237]	*[237]	*[237]	item0[237]	18[365]	female[365]	4qae3ph27q5gbjcsrgnltv8qld[365]	speaker: YOU[493]	*->103-1	IndefNP[103]	_	_	_	
+74-5	1768-1776	gefallen	GSuccess[13]	fallen\_set1\_30[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-fallen\_set1\_30[13]	_	_	_	_	_	false[107]	Decl[107]	*[237]	fallen[237]	intransitive[237]	*[237]	*[237]	item0[237]	18[365]	female[365]	4qae3ph27q5gbjcsrgnltv8qld[365]	speaker: YOU[493]	_	_	_	_	_	
+
+#Text=Oh nein
+75-1	1778-1780	Oh	GSuccess[13]	fallen\_set1\_30[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-fallen\_set1\_30[13]	_	_	_	_	_	false[108]	NA[108]	oh-nein\_25[238]	*[238]	*[238]	*[238]	*[238]	feedback[238]	*[366]	male[366]	*[366]	speaker:Noah[494]	_	_	_	_	_	
+75-2	1781-1785	nein	GSuccess[13]	fallen\_set1\_30[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-fallen\_set1\_30[13]	_	_	_	_	_	false[108]	NA[108]	oh-nein\_25[238]	*[238]	*[238]	*[238]	*[238]	feedback[238]	*[366]	male[366]	*[366]	speaker:Noah[494]	_	_	_	_	_	
+
+#Text=Ich glaube weil er zu wenig getrunken hat
+76-1	1787-1790	Ich	GSuccess[13]	fallen\_set1\_30[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-fallen\_set1\_30[13]	1	*	Subj	*	singular	false[109]	Decl[109]	*[239]	*[239]	*[239]	*[239]	*[239]	input1[239]	18[367]	female[367]	4qae3ph27q5gbjcsrgnltv8qld[367]	speaker: YOU[495]	*->76-1	PerPron[76]	contrast	*	77-1[110_109]	
+76-2	1791-1797	glaube	GSuccess[13]	fallen\_set1\_30[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-fallen\_set1\_30[13]	_	_	_	_	_	false[109]	Decl[109]	*[239]	*[239]	*[239]	*[239]	*[239]	input1[239]	18[367]	female[367]	4qae3ph27q5gbjcsrgnltv8qld[367]	speaker: YOU[495]	_	_	_	_	_	
+76-3	1798-1802	weil	GSuccess[13]	fallen\_set1\_30[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-fallen\_set1\_30[13]	_	_	_	_	_	false[109]	Decl[109]	*[239]	*[239]	*[239]	*[239]	*[239]	input1[239]	18[367]	female[367]	4qae3ph27q5gbjcsrgnltv8qld[367]	speaker: YOU[495]	_	_	_	_	_	
+76-4	1803-1805	er	GSuccess[13]	fallen\_set1\_30[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-fallen\_set1\_30[13]	3	*	Subj	*	singular	false[109]	Decl[109]	*[239]	*[239]	*[239]	*[239]	*[239]	input1[239]	18[367]	female[367]	4qae3ph27q5gbjcsrgnltv8qld[367]	speaker: YOU[495]	*->50-2	PerPron[50]	_	_	_	
+76-5	1806-1808	zu	GSuccess[13]	fallen\_set1\_30[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-fallen\_set1\_30[13]	_	_	_	_	_	false[109]	Decl[109]	*[239]	*[239]	*[239]	*[239]	*[239]	input1[239]	18[367]	female[367]	4qae3ph27q5gbjcsrgnltv8qld[367]	speaker: YOU[495]	_	_	_	_	_	
+76-6	1809-1814	wenig	GSuccess[13]	fallen\_set1\_30[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-fallen\_set1\_30[13]	_	_	_	_	_	false[109]	Decl[109]	*[239]	*[239]	*[239]	*[239]	*[239]	input1[239]	18[367]	female[367]	4qae3ph27q5gbjcsrgnltv8qld[367]	speaker: YOU[495]	_	_	_	_	_	
+76-7	1815-1824	getrunken	GSuccess[13]	fallen\_set1\_30[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-fallen\_set1\_30[13]	_	_	_	_	_	false[109]	Decl[109]	*[239]	*[239]	*[239]	*[239]	*[239]	input1[239]	18[367]	female[367]	4qae3ph27q5gbjcsrgnltv8qld[367]	speaker: YOU[495]	_	_	_	_	_	
+76-8	1825-1828	hat	GSuccess[13]	fallen\_set1\_30[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-fallen\_set1\_30[13]	_	_	_	_	_	false[109]	Decl[109]	*[239]	*[239]	*[239]	*[239]	*[239]	input1[239]	18[367]	female[367]	4qae3ph27q5gbjcsrgnltv8qld[367]	speaker: YOU[495]	_	_	_	_	_	
+
+#Text=aber jetzt geht es ihm wieder besser
+77-1	1830-1834	aber	GSuccess[13]	fallen\_set1\_30[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-fallen\_set1\_30[13]	_	_	_	_	_	false[110]	Decl[110]	*[240]	*[240]	*[240]	*[240]	*[240]	input2[240]	18[368]	female[368]	4qae3ph27q5gbjcsrgnltv8qld[368]	speaker: YOU[496]	_	_	_	_	_	
+77-2	1835-1840	jetzt	GSuccess[13]	fallen\_set1\_30[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-fallen\_set1\_30[13]	_	_	_	_	_	false[110]	Decl[110]	*[240]	*[240]	*[240]	*[240]	*[240]	input2[240]	18[368]	female[368]	4qae3ph27q5gbjcsrgnltv8qld[368]	speaker: YOU[496]	_	_	_	_	_	
+77-3	1841-1845	geht	GSuccess[13]	fallen\_set1\_30[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-fallen\_set1\_30[13]	_	_	_	_	_	false[110]	Decl[110]	*[240]	*[240]	*[240]	*[240]	*[240]	input2[240]	18[368]	female[368]	4qae3ph27q5gbjcsrgnltv8qld[368]	speaker: YOU[496]	_	_	_	_	_	
+77-4	1846-1848	es	GSuccess[13]	fallen\_set1\_30[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-fallen\_set1\_30[13]	*	*	Subj	*	*	false[110]	Decl[110]	*[240]	*[240]	*[240]	*[240]	*[240]	input2[240]	18[368]	female[368]	4qae3ph27q5gbjcsrgnltv8qld[368]	speaker: YOU[496]	_	_	_	_	_	
+77-5	1849-1852	ihm	GSuccess[13]	fallen\_set1\_30[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-fallen\_set1\_30[13]	3	*	IndirObj	*	singular	false[110]	Decl[110]	*[240]	*[240]	*[240]	*[240]	*[240]	input2[240]	18[368]	female[368]	4qae3ph27q5gbjcsrgnltv8qld[368]	speaker: YOU[496]	*->50-3	PerPron[50]	_	_	_	
+77-6	1853-1859	wieder	GSuccess[13]	fallen\_set1\_30[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-fallen\_set1\_30[13]	_	_	_	_	_	false[110]	Decl[110]	*[240]	*[240]	*[240]	*[240]	*[240]	input2[240]	18[368]	female[368]	4qae3ph27q5gbjcsrgnltv8qld[368]	speaker: YOU[496]	_	_	_	_	_	
+77-7	1860-1866	besser	GSuccess[13]	fallen\_set1\_30[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-fallen\_set1\_30[13]	_	_	_	_	_	false[110]	Decl[110]	*[240]	*[240]	*[240]	*[240]	*[240]	input2[240]	18[368]	female[368]	4qae3ph27q5gbjcsrgnltv8qld[368]	speaker: YOU[496]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+78-1	1868-1883	END_OF_DOCUMENT	GSuccess[13]	fallen\_set1\_30[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-fallen\_set1\_30[13]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+79-1	1885-1889	Hey,	GSuccess[14]	fallen\_set1\_30[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-fallen\_set1\_30[14]	_	_	_	_	_	false[111]	Int[111]	*[241]	*[241]	*[241]	wh\_6[241]	wh\_question[241]	openq[241]	*[369]	male[369]	*[369]	speaker:Noah[497]	_	_	QAP	*	80-1[112_111]	
+79-2	1890-1893	was	GSuccess[14]	fallen\_set1\_30[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-fallen\_set1\_30[14]	_	_	_	_	_	false[111]	Int[111]	*[241]	*[241]	*[241]	wh\_6[241]	wh\_question[241]	openq[241]	*[369]	male[369]	*[369]	speaker:Noah[497]	_	_	_	_	_	
+79-3	1894-1899	gibts	GSuccess[14]	fallen\_set1\_30[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-fallen\_set1\_30[14]	_	_	_	_	_	false[111]	Int[111]	*[241]	*[241]	*[241]	wh\_6[241]	wh\_question[241]	openq[241]	*[369]	male[369]	*[369]	speaker:Noah[497]	_	_	_	_	_	
+79-4	1900-1906	Neues?	GSuccess[14]	fallen\_set1\_30[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-fallen\_set1\_30[14]	_	_	_	_	_	false[111]	Int[111]	*[241]	*[241]	*[241]	wh\_6[241]	wh\_question[241]	openq[241]	*[369]	male[369]	*[369]	speaker:Noah[497]	_	_	_	_	_	
+
+#Text=John ist zu Boden gefallen
+80-1	1908-1912	John	GSuccess[14]	fallen\_set1\_30[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-fallen\_set1\_30[14]	*	*	Subj	*	*	false[112]	Decl[112]	*[242]	fallen[242]	intransitive[242]	*[242]	*[242]	item0[242]	19[370]	male[370]	f28ipql67ma8cbjqke6k374ach[370]	speaker: YOU[498]	*->78-1	PropNm[78]	explanation|acknowledgement	*|*	82-1[114_112]|81-1[113_112]	
+80-2	1913-1916	ist	GSuccess[14]	fallen\_set1\_30[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-fallen\_set1\_30[14]	_	_	_	_	_	false[112]	Decl[112]	*[242]	fallen[242]	intransitive[242]	*[242]	*[242]	item0[242]	19[370]	male[370]	f28ipql67ma8cbjqke6k374ach[370]	speaker: YOU[498]	_	_	_	_	_	
+80-3	1917-1919	zu	GSuccess[14]	fallen\_set1\_30[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-fallen\_set1\_30[14]	_	_	_	_	_	false[112]	Decl[112]	*[242]	fallen[242]	intransitive[242]	*[242]	*[242]	item0[242]	19[370]	male[370]	f28ipql67ma8cbjqke6k374ach[370]	speaker: YOU[498]	_	_	_	_	_	
+80-4	1920-1925	Boden	GSuccess[14]	fallen\_set1\_30[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-fallen\_set1\_30[14]	*	*	modifier	*	*	false[112]	Decl[112]	*[242]	fallen[242]	intransitive[242]	*[242]	*[242]	item0[242]	19[370]	male[370]	f28ipql67ma8cbjqke6k374ach[370]	speaker: YOU[498]	*->26-1	IndefNP[26]	_	_	_	
+80-5	1926-1934	gefallen	GSuccess[14]	fallen\_set1\_30[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-fallen\_set1\_30[14]	_	_	_	_	_	false[112]	Decl[112]	*[242]	fallen[242]	intransitive[242]	*[242]	*[242]	item0[242]	19[370]	male[370]	f28ipql67ma8cbjqke6k374ach[370]	speaker: YOU[498]	_	_	_	_	_	
+
+#Text=Oh nein
+81-1	1936-1938	Oh	GSuccess[14]	fallen\_set1\_30[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-fallen\_set1\_30[14]	_	_	_	_	_	false[113]	NA[113]	oh-nein\_25[243]	*[243]	*[243]	*[243]	*[243]	feedback[243]	*[371]	male[371]	*[371]	speaker:Noah[499]	_	_	_	_	_	
+81-2	1939-1943	nein	GSuccess[14]	fallen\_set1\_30[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-fallen\_set1\_30[14]	_	_	_	_	_	false[113]	NA[113]	oh-nein\_25[243]	*[243]	*[243]	*[243]	*[243]	feedback[243]	*[371]	male[371]	*[371]	speaker:Noah[499]	_	_	_	_	_	
+
+#Text=Nur weil ihn Lisa geschupts hat.
+82-1	1945-1948	Nur	GSuccess[14]	fallen\_set1\_30[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-fallen\_set1\_30[14]	_	_	_	_	_	false[114]	NA[114]	*[244]	*[244]	*[244]	*[244]	*[244]	input1[244]	19[372]	male[372]	f28ipql67ma8cbjqke6k374ach[372]	speaker: YOU[500]	_	_	result	*	83-1[115_114]	
+82-2	1949-1953	weil	GSuccess[14]	fallen\_set1\_30[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-fallen\_set1\_30[14]	_	_	_	_	_	false[114]	NA[114]	*[244]	*[244]	*[244]	*[244]	*[244]	input1[244]	19[372]	male[372]	f28ipql67ma8cbjqke6k374ach[372]	speaker: YOU[500]	_	_	_	_	_	
+82-3	1954-1957	ihn	GSuccess[14]	fallen\_set1\_30[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-fallen\_set1\_30[14]	3	*	DirObj	*	singular	false[114]	NA[114]	*[244]	*[244]	*[244]	*[244]	*[244]	input1[244]	19[372]	male[372]	f28ipql67ma8cbjqke6k374ach[372]	speaker: YOU[500]	*->78-2	PerPron[78]	_	_	_	
+82-4	1958-1962	Lisa	GSuccess[14]	fallen\_set1\_30[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-fallen\_set1\_30[14]	*	*	Subj	*	*	false[114]	NA[114]	*[244]	*[244]	*[244]	*[244]	*[244]	input1[244]	19[372]	male[372]	f28ipql67ma8cbjqke6k374ach[372]	speaker: YOU[500]	*->27-1	PropNm[27]	_	_	_	
+82-5	1963-1972	geschupts	GSuccess[14]	fallen\_set1\_30[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-fallen\_set1\_30[14]	_	_	_	_	_	false[114]	NA[114]	*[244]	*[244]	*[244]	*[244]	*[244]	input1[244]	19[372]	male[372]	f28ipql67ma8cbjqke6k374ach[372]	speaker: YOU[500]	_	_	_	_	_	
+82-6	1973-1977	hat.	GSuccess[14]	fallen\_set1\_30[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-fallen\_set1\_30[14]	_	_	_	_	_	false[114]	NA[114]	*[244]	*[244]	*[244]	*[244]	*[244]	input1[244]	19[372]	male[372]	f28ipql67ma8cbjqke6k374ach[372]	speaker: YOU[500]	_	_	_	_	_	
+
+#Text=Sie ist so Frech.
+83-1	1979-1982	Sie	GSuccess[14]	fallen\_set1\_30[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-fallen\_set1\_30[14]	3	*	Subj	*	singular	false[115]	Decl[115]	*[245]	*[245]	*[245]	*[245]	*[245]	input2[245]	19[373]	male[373]	f28ipql67ma8cbjqke6k374ach[373]	speaker: YOU[501]	*->27-2	PerPron[27]	_	_	_	
+83-2	1983-1986	ist	GSuccess[14]	fallen\_set1\_30[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-fallen\_set1\_30[14]	_	_	_	_	_	false[115]	Decl[115]	*[245]	*[245]	*[245]	*[245]	*[245]	input2[245]	19[373]	male[373]	f28ipql67ma8cbjqke6k374ach[373]	speaker: YOU[501]	_	_	_	_	_	
+83-3	1987-1989	so	GSuccess[14]	fallen\_set1\_30[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-fallen\_set1\_30[14]	_	_	_	_	_	false[115]	Decl[115]	*[245]	*[245]	*[245]	*[245]	*[245]	input2[245]	19[373]	male[373]	f28ipql67ma8cbjqke6k374ach[373]	speaker: YOU[501]	_	_	_	_	_	
+83-4	1990-1996	Frech.	GSuccess[14]	fallen\_set1\_30[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-fallen\_set1\_30[14]	_	_	_	_	_	false[115]	Decl[115]	*[245]	*[245]	*[245]	*[245]	*[245]	input2[245]	19[373]	male[373]	f28ipql67ma8cbjqke6k374ach[373]	speaker: YOU[501]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+84-1	1998-2013	END_OF_DOCUMENT	GSuccess[14]	fallen\_set1\_30[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-fallen\_set1\_30[14]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+85-1	2015-2019	Hey,	GSuccess[15]	fallen\_set1\_30[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-fallen\_set1\_30[15]	_	_	_	_	_	false[116]	Int[116]	*[246]	*[246]	*[246]	wh\_6[246]	wh\_question[246]	openq[246]	*[374]	male[374]	*[374]	speaker:Noah[502]	_	_	QAP	*	86-1[117_116]	
+85-2	2020-2023	was	GSuccess[15]	fallen\_set1\_30[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-fallen\_set1\_30[15]	_	_	_	_	_	false[116]	Int[116]	*[246]	*[246]	*[246]	wh\_6[246]	wh\_question[246]	openq[246]	*[374]	male[374]	*[374]	speaker:Noah[502]	_	_	_	_	_	
+85-3	2024-2029	gibts	GSuccess[15]	fallen\_set1\_30[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-fallen\_set1\_30[15]	_	_	_	_	_	false[116]	Int[116]	*[246]	*[246]	*[246]	wh\_6[246]	wh\_question[246]	openq[246]	*[374]	male[374]	*[374]	speaker:Noah[502]	_	_	_	_	_	
+85-4	2030-2036	Neues?	GSuccess[15]	fallen\_set1\_30[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-fallen\_set1\_30[15]	_	_	_	_	_	false[116]	Int[116]	*[246]	*[246]	*[246]	wh\_6[246]	wh\_question[246]	openq[246]	*[374]	male[374]	*[374]	speaker:Noah[502]	_	_	_	_	_	
+
+#Text=John ist zu Boden gefallen
+86-1	2038-2042	John	GSuccess[15]	fallen\_set1\_30[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-fallen\_set1\_30[15]	*	*	Subj	*	*	false[117]	Decl[117]	*[247]	fallen[247]	intransitive[247]	*[247]	*[247]	item0[247]	36[375]	male[375]	ifdbjqro2nfkup12rv8t6k0eu9[375]	speaker: YOU[503]	*->55-1	PropNm[55]	narration|acknowledgement	*|*	88-1[119_117]|87-1[118_117]	
+86-2	2043-2046	ist	GSuccess[15]	fallen\_set1\_30[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-fallen\_set1\_30[15]	_	_	_	_	_	false[117]	Decl[117]	*[247]	fallen[247]	intransitive[247]	*[247]	*[247]	item0[247]	36[375]	male[375]	ifdbjqro2nfkup12rv8t6k0eu9[375]	speaker: YOU[503]	_	_	_	_	_	
+86-3	2047-2049	zu	GSuccess[15]	fallen\_set1\_30[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-fallen\_set1\_30[15]	_	_	_	_	_	false[117]	Decl[117]	*[247]	fallen[247]	intransitive[247]	*[247]	*[247]	item0[247]	36[375]	male[375]	ifdbjqro2nfkup12rv8t6k0eu9[375]	speaker: YOU[503]	_	_	_	_	_	
+86-4	2050-2055	Boden	GSuccess[15]	fallen\_set1\_30[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-fallen\_set1\_30[15]	*	*	modifier	*	*	false[117]	Decl[117]	*[247]	fallen[247]	intransitive[247]	*[247]	*[247]	item0[247]	36[375]	male[375]	ifdbjqro2nfkup12rv8t6k0eu9[375]	speaker: YOU[503]	*->70-1	IndefNP[70]	_	_	_	
+86-5	2056-2064	gefallen	GSuccess[15]	fallen\_set1\_30[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-fallen\_set1\_30[15]	_	_	_	_	_	false[117]	Decl[117]	*[247]	fallen[247]	intransitive[247]	*[247]	*[247]	item0[247]	36[375]	male[375]	ifdbjqro2nfkup12rv8t6k0eu9[375]	speaker: YOU[503]	_	_	_	_	_	
+
+#Text=Oh nein
+87-1	2066-2068	Oh	GSuccess[15]	fallen\_set1\_30[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-fallen\_set1\_30[15]	_	_	_	_	_	false[118]	NA[118]	oh-nein\_25[248]	*[248]	*[248]	*[248]	*[248]	feedback[248]	*[376]	male[376]	*[376]	speaker:Noah[504]	_	_	_	_	_	
+87-2	2069-2073	nein	GSuccess[15]	fallen\_set1\_30[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-fallen\_set1\_30[15]	_	_	_	_	_	false[118]	NA[118]	oh-nein\_25[248]	*[248]	*[248]	*[248]	*[248]	feedback[248]	*[376]	male[376]	*[376]	speaker:Noah[504]	_	_	_	_	_	
+
+#Text=er schläft jetzt.
+88-1	2075-2077	er	GSuccess[15]	fallen\_set1\_30[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-fallen\_set1\_30[15]	3	*	Subj	*	singular	false[119]	Decl[119]	*[249]	*[249]	*[249]	*[249]	*[249]	input1[249]	36[377]	male[377]	ifdbjqro2nfkup12rv8t6k0eu9[377]	speaker: YOU[505]	*->55-2	PerPron[55]	explanation	*	89-1[120_119]	
+88-2	2078-2085	schläft	GSuccess[15]	fallen\_set1\_30[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-fallen\_set1\_30[15]	_	_	_	_	_	false[119]	Decl[119]	*[249]	*[249]	*[249]	*[249]	*[249]	input1[249]	36[377]	male[377]	ifdbjqro2nfkup12rv8t6k0eu9[377]	speaker: YOU[505]	_	_	_	_	_	
+88-3	2086-2092	jetzt.	GSuccess[15]	fallen\_set1\_30[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-fallen\_set1\_30[15]	_	_	_	_	_	false[119]	Decl[119]	*[249]	*[249]	*[249]	*[249]	*[249]	input1[249]	36[377]	male[377]	ifdbjqro2nfkup12rv8t6k0eu9[377]	speaker: YOU[505]	_	_	_	_	_	
+
+#Text=reicht ihm für heute
+89-1	2094-2100	reicht	GSuccess[15]	fallen\_set1\_30[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-fallen\_set1\_30[15]	3	*	*	*	singular	false[120]	Decl[120]	*[250]	*[250]	*[250]	*[250]	*[250]	input2[250]	36[378]	male[378]	ifdbjqro2nfkup12rv8t6k0eu9[378]	speaker: YOU[506]	*->24-1	zero[24]	_	_	_	
+89-2	2101-2104	ihm	GSuccess[15]	fallen\_set1\_30[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-fallen\_set1\_30[15]	3	*	IndirObj	*	singular	false[120]	Decl[120]	*[250]	*[250]	*[250]	*[250]	*[250]	input2[250]	36[378]	male[378]	ifdbjqro2nfkup12rv8t6k0eu9[378]	speaker: YOU[506]	*->55-3	PerPron[55]	_	_	_	
+89-3	2105-2108	für	GSuccess[15]	fallen\_set1\_30[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-fallen\_set1\_30[15]	_	_	_	_	_	false[120]	Decl[120]	*[250]	*[250]	*[250]	*[250]	*[250]	input2[250]	36[378]	male[378]	ifdbjqro2nfkup12rv8t6k0eu9[378]	speaker: YOU[506]	_	_	_	_	_	
+89-4	2109-2114	heute	GSuccess[15]	fallen\_set1\_30[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-fallen\_set1\_30[15]	_	_	_	_	_	false[120]	Decl[120]	*[250]	*[250]	*[250]	*[250]	*[250]	input2[250]	36[378]	male[378]	ifdbjqro2nfkup12rv8t6k0eu9[378]	speaker: YOU[506]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+90-1	2116-2131	END_OF_DOCUMENT	GSuccess[15]	fallen\_set1\_30[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-fallen\_set1\_30[15]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+91-1	2133-2137	Hey,	GSuccess[16]	fallen\_set1\_30[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-fallen\_set1\_30[16]	_	_	_	_	_	false[121]	Int[121]	*[251]	*[251]	*[251]	wh\_6[251]	wh\_question[251]	openq[251]	*[379]	male[379]	*[379]	speaker:Noah[507]	_	_	QAP	*	92-1[122_121]	
+91-2	2138-2141	was	GSuccess[16]	fallen\_set1\_30[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-fallen\_set1\_30[16]	_	_	_	_	_	false[121]	Int[121]	*[251]	*[251]	*[251]	wh\_6[251]	wh\_question[251]	openq[251]	*[379]	male[379]	*[379]	speaker:Noah[507]	_	_	_	_	_	
+91-3	2142-2147	gibts	GSuccess[16]	fallen\_set1\_30[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-fallen\_set1\_30[16]	_	_	_	_	_	false[121]	Int[121]	*[251]	*[251]	*[251]	wh\_6[251]	wh\_question[251]	openq[251]	*[379]	male[379]	*[379]	speaker:Noah[507]	_	_	_	_	_	
+91-4	2148-2154	Neues?	GSuccess[16]	fallen\_set1\_30[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-fallen\_set1\_30[16]	_	_	_	_	_	false[121]	Int[121]	*[251]	*[251]	*[251]	wh\_6[251]	wh\_question[251]	openq[251]	*[379]	male[379]	*[379]	speaker:Noah[507]	_	_	_	_	_	
+
+#Text=John ist zu Boden gefallen
+92-1	2156-2160	John	GSuccess[16]	fallen\_set1\_30[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-fallen\_set1\_30[16]	*	*	Subj	*	*	false[122]	Decl[122]	*[252]	fallen[252]	intransitive[252]	*[252]	*[252]	item0[252]	27[380]	female[380]	nn1fs9jkn62eo9089lo89usbkb[380]	speaker: YOU[508]	*->4-1	PropNm[4]	contrast|explanation|acknowledgement	*|*|*	94-1[124_122]|95-1[125_122]|93-1[123_122]	
+92-2	2161-2164	ist	GSuccess[16]	fallen\_set1\_30[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-fallen\_set1\_30[16]	_	_	_	_	_	false[122]	Decl[122]	*[252]	fallen[252]	intransitive[252]	*[252]	*[252]	item0[252]	27[380]	female[380]	nn1fs9jkn62eo9089lo89usbkb[380]	speaker: YOU[508]	_	_	_	_	_	
+92-3	2165-2167	zu	GSuccess[16]	fallen\_set1\_30[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-fallen\_set1\_30[16]	_	_	_	_	_	false[122]	Decl[122]	*[252]	fallen[252]	intransitive[252]	*[252]	*[252]	item0[252]	27[380]	female[380]	nn1fs9jkn62eo9089lo89usbkb[380]	speaker: YOU[508]	_	_	_	_	_	
+92-4	2168-2173	Boden	GSuccess[16]	fallen\_set1\_30[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-fallen\_set1\_30[16]	*	*	modifier	*	*	false[122]	Decl[122]	*[252]	fallen[252]	intransitive[252]	*[252]	*[252]	item0[252]	27[380]	female[380]	nn1fs9jkn62eo9089lo89usbkb[380]	speaker: YOU[508]	*->111-1	IndefNP[111]	_	_	_	
+92-5	2174-2182	gefallen	GSuccess[16]	fallen\_set1\_30[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-fallen\_set1\_30[16]	_	_	_	_	_	false[122]	Decl[122]	*[252]	fallen[252]	intransitive[252]	*[252]	*[252]	item0[252]	27[380]	female[380]	nn1fs9jkn62eo9089lo89usbkb[380]	speaker: YOU[508]	_	_	_	_	_	
+
+#Text=Oh nein
+93-1	2184-2186	Oh	GSuccess[16]	fallen\_set1\_30[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-fallen\_set1\_30[16]	_	_	_	_	_	false[123]	NA[123]	oh-nein\_25[253]	*[253]	*[253]	*[253]	*[253]	feedback[253]	*[381]	male[381]	*[381]	speaker:Noah[509]	_	_	_	_	_	
+93-2	2187-2191	nein	GSuccess[16]	fallen\_set1\_30[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-fallen\_set1\_30[16]	_	_	_	_	_	false[123]	NA[123]	oh-nein\_25[253]	*[253]	*[253]	*[253]	*[253]	feedback[253]	*[381]	male[381]	*[381]	speaker:Noah[509]	_	_	_	_	_	
+
+#Text=Es geht ihm aber gut soweit.
+94-1	2193-2195	Es	GSuccess[16]	fallen\_set1\_30[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-fallen\_set1\_30[16]	*	*	Subj	*	*	false[124]	Decl[124]	*[254]	*[254]	*[254]	*[254]	*[254]	input1[254]	27[382]	female[382]	nn1fs9jkn62eo9089lo89usbkb[382]	speaker: YOU[510]	_	_	_	_	_	
+94-2	2196-2200	geht	GSuccess[16]	fallen\_set1\_30[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-fallen\_set1\_30[16]	_	_	_	_	_	false[124]	Decl[124]	*[254]	*[254]	*[254]	*[254]	*[254]	input1[254]	27[382]	female[382]	nn1fs9jkn62eo9089lo89usbkb[382]	speaker: YOU[510]	_	_	_	_	_	
+94-3	2201-2204	ihm	GSuccess[16]	fallen\_set1\_30[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-fallen\_set1\_30[16]	3	*	IndirObj	*	singular	false[124]	Decl[124]	*[254]	*[254]	*[254]	*[254]	*[254]	input1[254]	27[382]	female[382]	nn1fs9jkn62eo9089lo89usbkb[382]	speaker: YOU[510]	*->4-2	PerPron[4]	_	_	_	
+94-4	2205-2209	aber	GSuccess[16]	fallen\_set1\_30[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-fallen\_set1\_30[16]	_	_	_	_	_	false[124]	Decl[124]	*[254]	*[254]	*[254]	*[254]	*[254]	input1[254]	27[382]	female[382]	nn1fs9jkn62eo9089lo89usbkb[382]	speaker: YOU[510]	_	_	_	_	_	
+94-5	2210-2213	gut	GSuccess[16]	fallen\_set1\_30[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-fallen\_set1\_30[16]	_	_	_	_	_	false[124]	Decl[124]	*[254]	*[254]	*[254]	*[254]	*[254]	input1[254]	27[382]	female[382]	nn1fs9jkn62eo9089lo89usbkb[382]	speaker: YOU[510]	_	_	_	_	_	
+94-6	2214-2221	soweit.	GSuccess[16]	fallen\_set1\_30[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-fallen\_set1\_30[16]	_	_	_	_	_	false[124]	Decl[124]	*[254]	*[254]	*[254]	*[254]	*[254]	input1[254]	27[382]	female[382]	nn1fs9jkn62eo9089lo89usbkb[382]	speaker: YOU[510]	_	_	_	_	_	
+
+#Text=Er läuft einfach viel zu schnell durchs Haus.
+95-1	2223-2225	Er	GSuccess[16]	fallen\_set1\_30[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-fallen\_set1\_30[16]	3	*	Subj	*	singular	false[125]	Decl[125]	*[255]	*[255]	*[255]	*[255]	*[255]	input2[255]	27[383]	female[383]	nn1fs9jkn62eo9089lo89usbkb[383]	speaker: YOU[511]	*->4-3	PerPron[4]	_	_	_	
+95-2	2226-2231	läuft	GSuccess[16]	fallen\_set1\_30[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-fallen\_set1\_30[16]	_	_	_	_	_	false[125]	Decl[125]	*[255]	*[255]	*[255]	*[255]	*[255]	input2[255]	27[383]	female[383]	nn1fs9jkn62eo9089lo89usbkb[383]	speaker: YOU[511]	_	_	_	_	_	
+95-3	2232-2239	einfach	GSuccess[16]	fallen\_set1\_30[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-fallen\_set1\_30[16]	_	_	_	_	_	false[125]	Decl[125]	*[255]	*[255]	*[255]	*[255]	*[255]	input2[255]	27[383]	female[383]	nn1fs9jkn62eo9089lo89usbkb[383]	speaker: YOU[511]	_	_	_	_	_	
+95-4	2240-2244	viel	GSuccess[16]	fallen\_set1\_30[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-fallen\_set1\_30[16]	_	_	_	_	_	false[125]	Decl[125]	*[255]	*[255]	*[255]	*[255]	*[255]	input2[255]	27[383]	female[383]	nn1fs9jkn62eo9089lo89usbkb[383]	speaker: YOU[511]	_	_	_	_	_	
+95-5	2245-2247	zu	GSuccess[16]	fallen\_set1\_30[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-fallen\_set1\_30[16]	_	_	_	_	_	false[125]	Decl[125]	*[255]	*[255]	*[255]	*[255]	*[255]	input2[255]	27[383]	female[383]	nn1fs9jkn62eo9089lo89usbkb[383]	speaker: YOU[511]	_	_	_	_	_	
+95-6	2248-2255	schnell	GSuccess[16]	fallen\_set1\_30[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-fallen\_set1\_30[16]	_	_	_	_	_	false[125]	Decl[125]	*[255]	*[255]	*[255]	*[255]	*[255]	input2[255]	27[383]	female[383]	nn1fs9jkn62eo9089lo89usbkb[383]	speaker: YOU[511]	_	_	_	_	_	
+95-7	2256-2262	durchs	GSuccess[16]	fallen\_set1\_30[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-fallen\_set1\_30[16]	_	_	_	_	_	false[125]	Decl[125]	*[255]	*[255]	*[255]	*[255]	*[255]	input2[255]	27[383]	female[383]	nn1fs9jkn62eo9089lo89usbkb[383]	speaker: YOU[511]	*->99-1	DefNP[99]	_	_	_	
+95-8	2263-2268	Haus.	GSuccess[16]	fallen\_set1\_30[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-fallen\_set1\_30[16]	_	_	_	_	_	false[125]	Decl[125]	*[255]	*[255]	*[255]	*[255]	*[255]	input2[255]	27[383]	female[383]	nn1fs9jkn62eo9089lo89usbkb[383]	speaker: YOU[511]	*->99-1	DefNP[99]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+96-1	2270-2285	END_OF_DOCUMENT	GSuccess[16]	fallen\_set1\_30[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-fallen\_set1\_30[16]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+97-1	2287-2291	Hey,	GSuccess[17]	fallen\_set1\_30[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-fallen\_set1\_30[17]	_	_	_	_	_	false[126]	Int[126]	*[256]	*[256]	*[256]	wh\_6[256]	wh\_question[256]	openq[256]	*[384]	male[384]	*[384]	speaker:Noah[512]	_	_	QAP	*	98-1[127_126]	
+97-2	2292-2295	was	GSuccess[17]	fallen\_set1\_30[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-fallen\_set1\_30[17]	_	_	_	_	_	false[126]	Int[126]	*[256]	*[256]	*[256]	wh\_6[256]	wh\_question[256]	openq[256]	*[384]	male[384]	*[384]	speaker:Noah[512]	_	_	_	_	_	
+97-3	2296-2301	gibts	GSuccess[17]	fallen\_set1\_30[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-fallen\_set1\_30[17]	_	_	_	_	_	false[126]	Int[126]	*[256]	*[256]	*[256]	wh\_6[256]	wh\_question[256]	openq[256]	*[384]	male[384]	*[384]	speaker:Noah[512]	_	_	_	_	_	
+97-4	2302-2308	Neues?	GSuccess[17]	fallen\_set1\_30[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-fallen\_set1\_30[17]	_	_	_	_	_	false[126]	Int[126]	*[256]	*[256]	*[256]	wh\_6[256]	wh\_question[256]	openq[256]	*[384]	male[384]	*[384]	speaker:Noah[512]	_	_	_	_	_	
+
+#Text=John ist zu Boden gefallen
+98-1	2310-2314	John	GSuccess[17]	fallen\_set1\_30[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-fallen\_set1\_30[17]	*	*	Subj	*	*	false[127]	Decl[127]	*[257]	fallen[257]	intransitive[257]	*[257]	*[257]	item0[257]	24[385]	male[385]	qaaqp55l485lvs9rdvpvbtmqal[385]	speaker: YOU[513]	*->34-1	PropNm[34]	elaboration|acknowledgement	*|*	100-1[129_127]|99-1[128_127]	
+98-2	2315-2318	ist	GSuccess[17]	fallen\_set1\_30[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-fallen\_set1\_30[17]	_	_	_	_	_	false[127]	Decl[127]	*[257]	fallen[257]	intransitive[257]	*[257]	*[257]	item0[257]	24[385]	male[385]	qaaqp55l485lvs9rdvpvbtmqal[385]	speaker: YOU[513]	_	_	_	_	_	
+98-3	2319-2321	zu	GSuccess[17]	fallen\_set1\_30[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-fallen\_set1\_30[17]	_	_	_	_	_	false[127]	Decl[127]	*[257]	fallen[257]	intransitive[257]	*[257]	*[257]	item0[257]	24[385]	male[385]	qaaqp55l485lvs9rdvpvbtmqal[385]	speaker: YOU[513]	_	_	_	_	_	
+98-4	2322-2327	Boden	GSuccess[17]	fallen\_set1\_30[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-fallen\_set1\_30[17]	*	*	modifier	*	*	false[127]	Decl[127]	*[257]	fallen[257]	intransitive[257]	*[257]	*[257]	item0[257]	24[385]	male[385]	qaaqp55l485lvs9rdvpvbtmqal[385]	speaker: YOU[513]	*->21-1	IndefNP[21]	_	_	_	
+98-5	2328-2336	gefallen	GSuccess[17]	fallen\_set1\_30[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-fallen\_set1\_30[17]	_	_	_	_	_	false[127]	Decl[127]	*[257]	fallen[257]	intransitive[257]	*[257]	*[257]	item0[257]	24[385]	male[385]	qaaqp55l485lvs9rdvpvbtmqal[385]	speaker: YOU[513]	_	_	_	_	_	
+
+#Text=Oh nein
+99-1	2338-2340	Oh	GSuccess[17]	fallen\_set1\_30[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-fallen\_set1\_30[17]	_	_	_	_	_	false[128]	NA[128]	oh-nein\_25[258]	*[258]	*[258]	*[258]	*[258]	feedback[258]	*[386]	male[386]	*[386]	speaker:Noah[514]	_	_	_	_	_	
+99-2	2341-2345	nein	GSuccess[17]	fallen\_set1\_30[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-fallen\_set1\_30[17]	_	_	_	_	_	false[128]	NA[128]	oh-nein\_25[258]	*[258]	*[258]	*[258]	*[258]	feedback[258]	*[386]	male[386]	*[386]	speaker:Noah[514]	_	_	_	_	_	
+
+#Text=Er hat sich beim Versuch vom Rad zu steigen das Bein verstaucht
+100-1	2347-2349	Er	GSuccess[17]	fallen\_set1\_30[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-fallen\_set1\_30[17]	3	*	Subj	*	singular	false[129]	Decl[129]	*[259]	*[259]	*[259]	*[259]	*[259]	input1[259]	24[387]	male[387]	qaaqp55l485lvs9rdvpvbtmqal[387]	speaker: YOU[515]	*->34-2	PerPron[34]	narration	*	101-1[130_129]	
+100-2	2350-2353	hat	GSuccess[17]	fallen\_set1\_30[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-fallen\_set1\_30[17]	_	_	_	_	_	false[129]	Decl[129]	*[259]	*[259]	*[259]	*[259]	*[259]	input1[259]	24[387]	male[387]	qaaqp55l485lvs9rdvpvbtmqal[387]	speaker: YOU[515]	_	_	_	_	_	
+100-3	2354-2358	sich	GSuccess[17]	fallen\_set1\_30[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-fallen\_set1\_30[17]	_	_	_	_	_	false[129]	Decl[129]	*[259]	*[259]	*[259]	*[259]	*[259]	input1[259]	24[387]	male[387]	qaaqp55l485lvs9rdvpvbtmqal[387]	speaker: YOU[515]	_	_	_	_	_	
+100-4	2359-2363	beim	GSuccess[17]	fallen\_set1\_30[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-fallen\_set1\_30[17]	_	_	_	_	_	false[129]	Decl[129]	*[259]	*[259]	*[259]	*[259]	*[259]	input1[259]	24[387]	male[387]	qaaqp55l485lvs9rdvpvbtmqal[387]	speaker: YOU[515]	*->91-1	DefNP[91]	_	_	_	
+100-5	2364-2371	Versuch	GSuccess[17]	fallen\_set1\_30[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-fallen\_set1\_30[17]	*	*	PrepObj	*	*	false[129]	Decl[129]	*[259]	*[259]	*[259]	*[259]	*[259]	input1[259]	24[387]	male[387]	qaaqp55l485lvs9rdvpvbtmqal[387]	speaker: YOU[515]	*->91-1	DefNP[91]	_	_	_	
+100-6	2372-2375	vom	GSuccess[17]	fallen\_set1\_30[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-fallen\_set1\_30[17]	_	_	_	_	_	false[129]	Decl[129]	*[259]	*[259]	*[259]	*[259]	*[259]	input1[259]	24[387]	male[387]	qaaqp55l485lvs9rdvpvbtmqal[387]	speaker: YOU[515]	*->91-1|*->46-1	DefNP[91]|DefNP[46]	_	_	_	
+100-7	2376-2379	Rad	GSuccess[17]	fallen\_set1\_30[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-fallen\_set1\_30[17]	*	*	PrepObj	*	*	false[129]	Decl[129]	*[259]	*[259]	*[259]	*[259]	*[259]	input1[259]	24[387]	male[387]	qaaqp55l485lvs9rdvpvbtmqal[387]	speaker: YOU[515]	*->91-1|*->46-1	DefNP[91]|DefNP[46]	_	_	_	
+100-8	2380-2382	zu	GSuccess[17]	fallen\_set1\_30[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-fallen\_set1\_30[17]	_	_	_	_	_	false[129]	Decl[129]	*[259]	*[259]	*[259]	*[259]	*[259]	input1[259]	24[387]	male[387]	qaaqp55l485lvs9rdvpvbtmqal[387]	speaker: YOU[515]	*->91-1	DefNP[91]	_	_	_	
+100-9	2383-2390	steigen	GSuccess[17]	fallen\_set1\_30[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-fallen\_set1\_30[17]	_	_	_	_	_	false[129]	Decl[129]	*[259]	*[259]	*[259]	*[259]	*[259]	input1[259]	24[387]	male[387]	qaaqp55l485lvs9rdvpvbtmqal[387]	speaker: YOU[515]	*->91-1	DefNP[91]	_	_	_	
+100-10	2391-2394	das	GSuccess[17]	fallen\_set1\_30[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-fallen\_set1\_30[17]	*[39]	*[39]	DirObj[39]	*[39]	*[39]	false[129]	Decl[129]	*[259]	*[259]	*[259]	*[259]	*[259]	input1[259]	24[387]	male[387]	qaaqp55l485lvs9rdvpvbtmqal[387]	speaker: YOU[515]	*->85-1	DefNP[85]	_	_	_	
+100-11	2395-2399	Bein	GSuccess[17]	fallen\_set1\_30[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-fallen\_set1\_30[17]	*[39]	*[39]	DirObj[39]	*[39]	*[39]	false[129]	Decl[129]	*[259]	*[259]	*[259]	*[259]	*[259]	input1[259]	24[387]	male[387]	qaaqp55l485lvs9rdvpvbtmqal[387]	speaker: YOU[515]	*->85-1	DefNP[85]	_	_	_	
+100-12	2400-2410	verstaucht	GSuccess[17]	fallen\_set1\_30[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-fallen\_set1\_30[17]	_	_	_	_	_	false[129]	Decl[129]	*[259]	*[259]	*[259]	*[259]	*[259]	input1[259]	24[387]	male[387]	qaaqp55l485lvs9rdvpvbtmqal[387]	speaker: YOU[515]	_	_	_	_	_	
+
+#Text=Die Ärzte im Krankenhaus konnten ihm sehr helfen
+101-1	2412-2415	Die	GSuccess[17]	fallen\_set1\_30[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-fallen\_set1\_30[17]	_	_	_	_	_	false[130]	Decl[130]	*[260]	*[260]	*[260]	*[260]	*[260]	input2[260]	24[388]	male[388]	qaaqp55l485lvs9rdvpvbtmqal[388]	speaker: YOU[516]	*->2-1	DefNP[2]	_	_	_	
+101-2	2416-2421	Ärzte	GSuccess[17]	fallen\_set1\_30[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-fallen\_set1\_30[17]	_	_	_	_	_	false[130]	Decl[130]	*[260]	*[260]	*[260]	*[260]	*[260]	input2[260]	24[388]	male[388]	qaaqp55l485lvs9rdvpvbtmqal[388]	speaker: YOU[516]	*->2-1	DefNP[2]	_	_	_	
+101-3	2422-2424	im	GSuccess[17]	fallen\_set1\_30[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-fallen\_set1\_30[17]	_	_	_	_	_	false[130]	Decl[130]	*[260]	*[260]	*[260]	*[260]	*[260]	input2[260]	24[388]	male[388]	qaaqp55l485lvs9rdvpvbtmqal[388]	speaker: YOU[516]	*->2-1|*->23-1	DefNP[2]|DefNP[23]	_	_	_	
+101-4	2425-2436	Krankenhaus	GSuccess[17]	fallen\_set1\_30[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-fallen\_set1\_30[17]	_	_	_	_	_	false[130]	Decl[130]	*[260]	*[260]	*[260]	*[260]	*[260]	input2[260]	24[388]	male[388]	qaaqp55l485lvs9rdvpvbtmqal[388]	speaker: YOU[516]	*->2-1|*->23-1	DefNP[2]|DefNP[23]	_	_	_	
+101-5	2437-2444	konnten	GSuccess[17]	fallen\_set1\_30[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-fallen\_set1\_30[17]	_	_	_	_	_	false[130]	Decl[130]	*[260]	*[260]	*[260]	*[260]	*[260]	input2[260]	24[388]	male[388]	qaaqp55l485lvs9rdvpvbtmqal[388]	speaker: YOU[516]	_	_	_	_	_	
+101-6	2445-2448	ihm	GSuccess[17]	fallen\_set1\_30[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-fallen\_set1\_30[17]	3	*	*	*	singular	false[130]	Decl[130]	*[260]	*[260]	*[260]	*[260]	*[260]	input2[260]	24[388]	male[388]	qaaqp55l485lvs9rdvpvbtmqal[388]	speaker: YOU[516]	*->34-3	PerPron[34]	_	_	_	
+101-7	2449-2453	sehr	GSuccess[17]	fallen\_set1\_30[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-fallen\_set1\_30[17]	_	_	_	_	_	false[130]	Decl[130]	*[260]	*[260]	*[260]	*[260]	*[260]	input2[260]	24[388]	male[388]	qaaqp55l485lvs9rdvpvbtmqal[388]	speaker: YOU[516]	_	_	_	_	_	
+101-8	2454-2460	helfen	GSuccess[17]	fallen\_set1\_30[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-fallen\_set1\_30[17]	_	_	_	_	_	false[130]	Decl[130]	*[260]	*[260]	*[260]	*[260]	*[260]	input2[260]	24[388]	male[388]	qaaqp55l485lvs9rdvpvbtmqal[388]	speaker: YOU[516]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+102-1	2462-2477	END_OF_DOCUMENT	GSuccess[17]	fallen\_set1\_30[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-fallen\_set1\_30[17]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+103-1	2479-2483	Hey,	GSuccess[18]	fallen\_set1\_30[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-fallen\_set1\_30[18]	_	_	_	_	_	false[131]	Int[131]	*[261]	*[261]	*[261]	wh\_6[261]	wh\_question[261]	openq[261]	*[389]	male[389]	*[389]	speaker:Noah[517]	_	_	QAP	*	104-1[132_131]	
+103-2	2484-2487	was	GSuccess[18]	fallen\_set1\_30[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-fallen\_set1\_30[18]	_	_	_	_	_	false[131]	Int[131]	*[261]	*[261]	*[261]	wh\_6[261]	wh\_question[261]	openq[261]	*[389]	male[389]	*[389]	speaker:Noah[517]	_	_	_	_	_	
+103-3	2488-2493	gibts	GSuccess[18]	fallen\_set1\_30[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-fallen\_set1\_30[18]	_	_	_	_	_	false[131]	Int[131]	*[261]	*[261]	*[261]	wh\_6[261]	wh\_question[261]	openq[261]	*[389]	male[389]	*[389]	speaker:Noah[517]	_	_	_	_	_	
+103-4	2494-2500	Neues?	GSuccess[18]	fallen\_set1\_30[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-fallen\_set1\_30[18]	_	_	_	_	_	false[131]	Int[131]	*[261]	*[261]	*[261]	wh\_6[261]	wh\_question[261]	openq[261]	*[389]	male[389]	*[389]	speaker:Noah[517]	_	_	_	_	_	
+
+#Text=John ist zu Boden gefallen
+104-1	2502-2506	John	GSuccess[18]	fallen\_set1\_30[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-fallen\_set1\_30[18]	*	*	Subj	*	*	false[132]	Decl[132]	*[262]	fallen[262]	intransitive[262]	*[262]	*[262]	item0[262]	25[390]	female[390]	t6ah1r7hfmcncb44kgnh0sjmv6[390]	speaker: YOU[518]	*->61-1	PropNm[61]	result|acknowledgement	*|*	106-1[134_132]|105-1[133_132]	
+104-2	2507-2510	ist	GSuccess[18]	fallen\_set1\_30[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-fallen\_set1\_30[18]	_	_	_	_	_	false[132]	Decl[132]	*[262]	fallen[262]	intransitive[262]	*[262]	*[262]	item0[262]	25[390]	female[390]	t6ah1r7hfmcncb44kgnh0sjmv6[390]	speaker: YOU[518]	_	_	_	_	_	
+104-3	2511-2513	zu	GSuccess[18]	fallen\_set1\_30[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-fallen\_set1\_30[18]	_	_	_	_	_	false[132]	Decl[132]	*[262]	fallen[262]	intransitive[262]	*[262]	*[262]	item0[262]	25[390]	female[390]	t6ah1r7hfmcncb44kgnh0sjmv6[390]	speaker: YOU[518]	_	_	_	_	_	
+104-4	2514-2519	Boden	GSuccess[18]	fallen\_set1\_30[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-fallen\_set1\_30[18]	*	*	modifier	*	*	false[132]	Decl[132]	*[262]	fallen[262]	intransitive[262]	*[262]	*[262]	item0[262]	25[390]	female[390]	t6ah1r7hfmcncb44kgnh0sjmv6[390]	speaker: YOU[518]	*->25-1	IndefNP[25]	_	_	_	
+104-5	2520-2528	gefallen	GSuccess[18]	fallen\_set1\_30[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-fallen\_set1\_30[18]	_	_	_	_	_	false[132]	Decl[132]	*[262]	fallen[262]	intransitive[262]	*[262]	*[262]	item0[262]	25[390]	female[390]	t6ah1r7hfmcncb44kgnh0sjmv6[390]	speaker: YOU[518]	_	_	_	_	_	
+
+#Text=Oh nein
+105-1	2530-2532	Oh	GSuccess[18]	fallen\_set1\_30[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-fallen\_set1\_30[18]	_	_	_	_	_	false[133]	NA[133]	oh-nein\_25[263]	*[263]	*[263]	*[263]	*[263]	feedback[263]	*[391]	male[391]	*[391]	speaker:Noah[519]	_	_	_	_	_	
+105-2	2533-2537	nein	GSuccess[18]	fallen\_set1\_30[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-fallen\_set1\_30[18]	_	_	_	_	_	false[133]	NA[133]	oh-nein\_25[263]	*[263]	*[263]	*[263]	*[263]	feedback[263]	*[391]	male[391]	*[391]	speaker:Noah[519]	_	_	_	_	_	
+
+#Text=Er weint schon seit 15 Minuten...
+106-1	2539-2541	Er	GSuccess[18]	fallen\_set1\_30[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-fallen\_set1\_30[18]	3	*	Subj	*	singular	false[134]	Decl[134]	*[264]	*[264]	*[264]	*[264]	*[264]	input1[264]	25[392]	female[392]	t6ah1r7hfmcncb44kgnh0sjmv6[392]	speaker: YOU[520]	*->61-2	PerPron[61]	contrast	*	107-1[135_134]	
+106-2	2542-2547	weint	GSuccess[18]	fallen\_set1\_30[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-fallen\_set1\_30[18]	_	_	_	_	_	false[134]	Decl[134]	*[264]	*[264]	*[264]	*[264]	*[264]	input1[264]	25[392]	female[392]	t6ah1r7hfmcncb44kgnh0sjmv6[392]	speaker: YOU[520]	_	_	_	_	_	
+106-3	2548-2553	schon	GSuccess[18]	fallen\_set1\_30[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-fallen\_set1\_30[18]	_	_	_	_	_	false[134]	Decl[134]	*[264]	*[264]	*[264]	*[264]	*[264]	input1[264]	25[392]	female[392]	t6ah1r7hfmcncb44kgnh0sjmv6[392]	speaker: YOU[520]	_	_	_	_	_	
+106-4	2554-2558	seit	GSuccess[18]	fallen\_set1\_30[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-fallen\_set1\_30[18]	_	_	_	_	_	false[134]	Decl[134]	*[264]	*[264]	*[264]	*[264]	*[264]	input1[264]	25[392]	female[392]	t6ah1r7hfmcncb44kgnh0sjmv6[392]	speaker: YOU[520]	_	_	_	_	_	
+106-5	2559-2561	15	GSuccess[18]	fallen\_set1\_30[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-fallen\_set1\_30[18]	_	_	_	_	_	false[134]	Decl[134]	*[264]	*[264]	*[264]	*[264]	*[264]	input1[264]	25[392]	female[392]	t6ah1r7hfmcncb44kgnh0sjmv6[392]	speaker: YOU[520]	*->20-1	IndefNP[20]	_	_	_	
+106-6	2562-2572	Minuten...	GSuccess[18]	fallen\_set1\_30[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-fallen\_set1\_30[18]	_	_	_	_	_	false[134]	Decl[134]	*[264]	*[264]	*[264]	*[264]	*[264]	input1[264]	25[392]	female[392]	t6ah1r7hfmcncb44kgnh0sjmv6[392]	speaker: YOU[520]	*->20-1	IndefNP[20]	_	_	_	
+
+#Text=aber ich denke nicht <BR> dass er sich etwas gebrochen hat
+107-1	2574-2578	aber	GSuccess[18]	fallen\_set1\_30[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-fallen\_set1\_30[18]	_	_	_	_	_	false[135]	Decl[135]	*[265]	*[265]	*[265]	*[265]	*[265]	input2[265]	25[393]	female[393]	t6ah1r7hfmcncb44kgnh0sjmv6[393]	speaker: YOU[521]	_	_	_	_	_	
+107-2	2579-2582	ich	GSuccess[18]	fallen\_set1\_30[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-fallen\_set1\_30[18]	1	*	Subj	*	singular	false[135]	Decl[135]	*[265]	*[265]	*[265]	*[265]	*[265]	input2[265]	25[393]	female[393]	t6ah1r7hfmcncb44kgnh0sjmv6[393]	speaker: YOU[521]	*->48-1	PerPron[48]	_	_	_	
+107-3	2583-2588	denke	GSuccess[18]	fallen\_set1\_30[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-fallen\_set1\_30[18]	_	_	_	_	_	false[135]	Decl[135]	*[265]	*[265]	*[265]	*[265]	*[265]	input2[265]	25[393]	female[393]	t6ah1r7hfmcncb44kgnh0sjmv6[393]	speaker: YOU[521]	_	_	_	_	_	
+107-4	2589-2594	nicht	GSuccess[18]	fallen\_set1\_30[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-fallen\_set1\_30[18]	_	_	_	_	_	false[135]	Decl[135]	*[265]	*[265]	*[265]	*[265]	*[265]	input2[265]	25[393]	female[393]	t6ah1r7hfmcncb44kgnh0sjmv6[393]	speaker: YOU[521]	_	_	_	_	_	
+107-5	2595-2599	<BR>	GSuccess[18]	fallen\_set1\_30[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-fallen\_set1\_30[18]	_	_	_	_	_	false[135]	Decl[135]	*[265]	*[265]	*[265]	*[265]	*[265]	input2[265]	25[393]	female[393]	t6ah1r7hfmcncb44kgnh0sjmv6[393]	speaker: YOU[521]	_	_	_	_	_	
+107-6	2600-2604	dass	GSuccess[18]	fallen\_set1\_30[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-fallen\_set1\_30[18]	_	_	_	_	_	false[135]	Decl[135]	*[265]	*[265]	*[265]	*[265]	*[265]	input2[265]	25[393]	female[393]	t6ah1r7hfmcncb44kgnh0sjmv6[393]	speaker: YOU[521]	_	_	_	_	_	
+107-7	2605-2607	er	GSuccess[18]	fallen\_set1\_30[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-fallen\_set1\_30[18]	3	*	Embedded	*	singular	false[135]	Decl[135]	*[265]	*[265]	*[265]	*[265]	*[265]	input2[265]	25[393]	female[393]	t6ah1r7hfmcncb44kgnh0sjmv6[393]	speaker: YOU[521]	*->61-3	PerPron[61]	_	_	_	
+107-8	2608-2612	sich	GSuccess[18]	fallen\_set1\_30[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-fallen\_set1\_30[18]	_	_	_	_	_	false[135]	Decl[135]	*[265]	*[265]	*[265]	*[265]	*[265]	input2[265]	25[393]	female[393]	t6ah1r7hfmcncb44kgnh0sjmv6[393]	speaker: YOU[521]	_	_	_	_	_	
+107-9	2613-2618	etwas	GSuccess[18]	fallen\_set1\_30[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-fallen\_set1\_30[18]	*	*	Embedded	*	*	false[135]	Decl[135]	*[265]	*[265]	*[265]	*[265]	*[265]	input2[265]	25[393]	female[393]	t6ah1r7hfmcncb44kgnh0sjmv6[393]	speaker: YOU[521]	_	_	_	_	_	
+107-10	2619-2628	gebrochen	GSuccess[18]	fallen\_set1\_30[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-fallen\_set1\_30[18]	_	_	_	_	_	false[135]	Decl[135]	*[265]	*[265]	*[265]	*[265]	*[265]	input2[265]	25[393]	female[393]	t6ah1r7hfmcncb44kgnh0sjmv6[393]	speaker: YOU[521]	_	_	_	_	_	
+107-11	2629-2632	hat	GSuccess[18]	fallen\_set1\_30[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-fallen\_set1\_30[18]	_	_	_	_	_	false[135]	Decl[135]	*[265]	*[265]	*[265]	*[265]	*[265]	input2[265]	25[393]	female[393]	t6ah1r7hfmcncb44kgnh0sjmv6[393]	speaker: YOU[521]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+108-1	2634-2649	END_OF_DOCUMENT	GSuccess[18]	fallen\_set1\_30[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-fallen\_set1\_30[18]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+109-1	2651-2655	Hey,	GSuccess[19]	fallen\_set1\_30[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-fallen\_set1\_30[19]	_	_	_	_	_	false[136]	Int[136]	*[266]	*[266]	*[266]	wh\_6[266]	wh\_question[266]	openq[266]	*[394]	male[394]	*[394]	speaker:Noah[522]	_	_	QAP	*	110-1[137_136]	
+109-2	2656-2659	was	GSuccess[19]	fallen\_set1\_30[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-fallen\_set1\_30[19]	_	_	_	_	_	false[136]	Int[136]	*[266]	*[266]	*[266]	wh\_6[266]	wh\_question[266]	openq[266]	*[394]	male[394]	*[394]	speaker:Noah[522]	_	_	_	_	_	
+109-3	2660-2665	gibts	GSuccess[19]	fallen\_set1\_30[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-fallen\_set1\_30[19]	_	_	_	_	_	false[136]	Int[136]	*[266]	*[266]	*[266]	wh\_6[266]	wh\_question[266]	openq[266]	*[394]	male[394]	*[394]	speaker:Noah[522]	_	_	_	_	_	
+109-4	2666-2672	Neues?	GSuccess[19]	fallen\_set1\_30[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-fallen\_set1\_30[19]	_	_	_	_	_	false[136]	Int[136]	*[266]	*[266]	*[266]	wh\_6[266]	wh\_question[266]	openq[266]	*[394]	male[394]	*[394]	speaker:Noah[522]	_	_	_	_	_	
+
+#Text=John ist zu Boden gefallen
+110-1	2674-2678	John	GSuccess[19]	fallen\_set1\_30[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-fallen\_set1\_30[19]	*	*	Subj	*	*	false[137]	Decl[137]	*[267]	fallen[267]	intransitive[267]	*[267]	*[267]	item0[267]	29[395]	female[395]	ue2vk0ts1hkpki58vsa3j8t39j[395]	speaker: YOU[523]	*->13-1	PropNm[13]	contrast|acknowledgement	*|*	112-1[139_137]|111-1[138_137]	
+110-2	2679-2682	ist	GSuccess[19]	fallen\_set1\_30[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-fallen\_set1\_30[19]	_	_	_	_	_	false[137]	Decl[137]	*[267]	fallen[267]	intransitive[267]	*[267]	*[267]	item0[267]	29[395]	female[395]	ue2vk0ts1hkpki58vsa3j8t39j[395]	speaker: YOU[523]	_	_	_	_	_	
+110-3	2683-2685	zu	GSuccess[19]	fallen\_set1\_30[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-fallen\_set1\_30[19]	_	_	_	_	_	false[137]	Decl[137]	*[267]	fallen[267]	intransitive[267]	*[267]	*[267]	item0[267]	29[395]	female[395]	ue2vk0ts1hkpki58vsa3j8t39j[395]	speaker: YOU[523]	_	_	_	_	_	
+110-4	2686-2691	Boden	GSuccess[19]	fallen\_set1\_30[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-fallen\_set1\_30[19]	*	*	modifier	*	*	false[137]	Decl[137]	*[267]	fallen[267]	intransitive[267]	*[267]	*[267]	item0[267]	29[395]	female[395]	ue2vk0ts1hkpki58vsa3j8t39j[395]	speaker: YOU[523]	*->69-1	IndefNP[69]	_	_	_	
+110-5	2692-2700	gefallen	GSuccess[19]	fallen\_set1\_30[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-fallen\_set1\_30[19]	_	_	_	_	_	false[137]	Decl[137]	*[267]	fallen[267]	intransitive[267]	*[267]	*[267]	item0[267]	29[395]	female[395]	ue2vk0ts1hkpki58vsa3j8t39j[395]	speaker: YOU[523]	_	_	_	_	_	
+
+#Text=Oh nein
+111-1	2702-2704	Oh	GSuccess[19]	fallen\_set1\_30[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-fallen\_set1\_30[19]	_	_	_	_	_	false[138]	NA[138]	oh-nein\_25[268]	*[268]	*[268]	*[268]	*[268]	feedback[268]	*[396]	male[396]	*[396]	speaker:Noah[524]	_	_	_	_	_	
+111-2	2705-2709	nein	GSuccess[19]	fallen\_set1\_30[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-fallen\_set1\_30[19]	_	_	_	_	_	false[138]	NA[138]	oh-nein\_25[268]	*[268]	*[268]	*[268]	*[268]	feedback[268]	*[396]	male[396]	*[396]	speaker:Noah[524]	_	_	_	_	_	
+
+#Text=Aber nichts schlimmes ist passiert.
+112-1	2711-2715	Aber	GSuccess[19]	fallen\_set1\_30[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-fallen\_set1\_30[19]	_	_	_	_	_	false[139]	Decl[139]	*[269]	*[269]	*[269]	*[269]	*[269]	input1[269]	29[397]	female[397]	ue2vk0ts1hkpki58vsa3j8t39j[397]	speaker: YOU[525]	_	_	elaboration	*	113-1[140_139]	
+112-2	2716-2722	nichts	GSuccess[19]	fallen\_set1\_30[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-fallen\_set1\_30[19]	_	_	_	_	_	false[139]	Decl[139]	*[269]	*[269]	*[269]	*[269]	*[269]	input1[269]	29[397]	female[397]	ue2vk0ts1hkpki58vsa3j8t39j[397]	speaker: YOU[525]	_	_	_	_	_	
+112-3	2723-2732	schlimmes	GSuccess[19]	fallen\_set1\_30[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-fallen\_set1\_30[19]	_	_	_	_	_	false[139]	Decl[139]	*[269]	*[269]	*[269]	*[269]	*[269]	input1[269]	29[397]	female[397]	ue2vk0ts1hkpki58vsa3j8t39j[397]	speaker: YOU[525]	_	_	_	_	_	
+112-4	2733-2736	ist	GSuccess[19]	fallen\_set1\_30[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-fallen\_set1\_30[19]	_	_	_	_	_	false[139]	Decl[139]	*[269]	*[269]	*[269]	*[269]	*[269]	input1[269]	29[397]	female[397]	ue2vk0ts1hkpki58vsa3j8t39j[397]	speaker: YOU[525]	_	_	_	_	_	
+112-5	2737-2746	passiert.	GSuccess[19]	fallen\_set1\_30[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-fallen\_set1\_30[19]	_	_	_	_	_	false[139]	Decl[139]	*[269]	*[269]	*[269]	*[269]	*[269]	input1[269]	29[397]	female[397]	ue2vk0ts1hkpki58vsa3j8t39j[397]	speaker: YOU[525]	_	_	_	_	_	
+
+#Text=Er hat sich nur leicht am Knie verletzt.
+113-1	2748-2750	Er	GSuccess[19]	fallen\_set1\_30[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-fallen\_set1\_30[19]	3	*	Subj	*	singular	false[140]	Decl[140]	*[270]	*[270]	*[270]	*[270]	*[270]	input2[270]	29[398]	female[398]	ue2vk0ts1hkpki58vsa3j8t39j[398]	speaker: YOU[526]	*->13-2	PerPron[13]	_	_	_	
+113-2	2751-2754	hat	GSuccess[19]	fallen\_set1\_30[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-fallen\_set1\_30[19]	_	_	_	_	_	false[140]	Decl[140]	*[270]	*[270]	*[270]	*[270]	*[270]	input2[270]	29[398]	female[398]	ue2vk0ts1hkpki58vsa3j8t39j[398]	speaker: YOU[526]	_	_	_	_	_	
+113-3	2755-2759	sich	GSuccess[19]	fallen\_set1\_30[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-fallen\_set1\_30[19]	_	_	_	_	_	false[140]	Decl[140]	*[270]	*[270]	*[270]	*[270]	*[270]	input2[270]	29[398]	female[398]	ue2vk0ts1hkpki58vsa3j8t39j[398]	speaker: YOU[526]	_	_	_	_	_	
+113-4	2760-2763	nur	GSuccess[19]	fallen\_set1\_30[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-fallen\_set1\_30[19]	_	_	_	_	_	false[140]	Decl[140]	*[270]	*[270]	*[270]	*[270]	*[270]	input2[270]	29[398]	female[398]	ue2vk0ts1hkpki58vsa3j8t39j[398]	speaker: YOU[526]	_	_	_	_	_	
+113-5	2764-2770	leicht	GSuccess[19]	fallen\_set1\_30[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-fallen\_set1\_30[19]	_	_	_	_	_	false[140]	Decl[140]	*[270]	*[270]	*[270]	*[270]	*[270]	input2[270]	29[398]	female[398]	ue2vk0ts1hkpki58vsa3j8t39j[398]	speaker: YOU[526]	_	_	_	_	_	
+113-6	2771-2773	am	GSuccess[19]	fallen\_set1\_30[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-fallen\_set1\_30[19]	_	_	_	_	_	false[140]	Decl[140]	*[270]	*[270]	*[270]	*[270]	*[270]	input2[270]	29[398]	female[398]	ue2vk0ts1hkpki58vsa3j8t39j[398]	speaker: YOU[526]	*->29-1	DefNP[29]	_	_	_	
+113-7	2774-2778	Knie	GSuccess[19]	fallen\_set1\_30[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-fallen\_set1\_30[19]	*	*	PrepObj	*	*	false[140]	Decl[140]	*[270]	*[270]	*[270]	*[270]	*[270]	input2[270]	29[398]	female[398]	ue2vk0ts1hkpki58vsa3j8t39j[398]	speaker: YOU[526]	*->29-1	DefNP[29]	_	_	_	
+113-8	2779-2788	verletzt.	GSuccess[19]	fallen\_set1\_30[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-fallen\_set1\_30[19]	_	_	_	_	_	false[140]	Decl[140]	*[270]	*[270]	*[270]	*[270]	*[270]	input2[270]	29[398]	female[398]	ue2vk0ts1hkpki58vsa3j8t39j[398]	speaker: YOU[526]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+114-1	2790-2805	END_OF_DOCUMENT	GSuccess[19]	fallen\_set1\_30[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-fallen\_set1\_30[19]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+115-1	2807-2811	Hey,	GSuccess[20]	fallen\_set1\_30[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-fallen\_set1\_30[20]	_	_	_	_	_	false[141]	Int[141]	*[271]	*[271]	*[271]	wh\_6[271]	wh\_question[271]	openq[271]	*[399]	male[399]	*[399]	speaker:Noah[527]	_	_	QAP	*	116-1[142_141]	
+115-2	2812-2815	was	GSuccess[20]	fallen\_set1\_30[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-fallen\_set1\_30[20]	_	_	_	_	_	false[141]	Int[141]	*[271]	*[271]	*[271]	wh\_6[271]	wh\_question[271]	openq[271]	*[399]	male[399]	*[399]	speaker:Noah[527]	_	_	_	_	_	
+115-3	2816-2821	gibts	GSuccess[20]	fallen\_set1\_30[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-fallen\_set1\_30[20]	_	_	_	_	_	false[141]	Int[141]	*[271]	*[271]	*[271]	wh\_6[271]	wh\_question[271]	openq[271]	*[399]	male[399]	*[399]	speaker:Noah[527]	_	_	_	_	_	
+115-4	2822-2828	Neues?	GSuccess[20]	fallen\_set1\_30[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-fallen\_set1\_30[20]	_	_	_	_	_	false[141]	Int[141]	*[271]	*[271]	*[271]	wh\_6[271]	wh\_question[271]	openq[271]	*[399]	male[399]	*[399]	speaker:Noah[527]	_	_	_	_	_	
+
+#Text=John ist zu Boden gefallen
+116-1	2830-2834	John	GSuccess[20]	fallen\_set1\_30[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-fallen\_set1\_30[20]	*	*	Subj	*	*	false[142]	Decl[142]	*[272]	fallen[272]	intransitive[272]	*[272]	*[272]	item0[272]	58[400]	male[400]	v3le8i0hm1ekj0ps9oou7k56t5[400]	speaker: YOU[528]	*->14-1	PropNm[14]	acknowledgement	*	117-1[143_142]	
+116-2	2835-2838	ist	GSuccess[20]	fallen\_set1\_30[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-fallen\_set1\_30[20]	_	_	_	_	_	false[142]	Decl[142]	*[272]	fallen[272]	intransitive[272]	*[272]	*[272]	item0[272]	58[400]	male[400]	v3le8i0hm1ekj0ps9oou7k56t5[400]	speaker: YOU[528]	_	_	_	_	_	
+116-3	2839-2841	zu	GSuccess[20]	fallen\_set1\_30[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-fallen\_set1\_30[20]	_	_	_	_	_	false[142]	Decl[142]	*[272]	fallen[272]	intransitive[272]	*[272]	*[272]	item0[272]	58[400]	male[400]	v3le8i0hm1ekj0ps9oou7k56t5[400]	speaker: YOU[528]	_	_	_	_	_	
+116-4	2842-2847	Boden	GSuccess[20]	fallen\_set1\_30[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-fallen\_set1\_30[20]	*	*	modifier	*	*	false[142]	Decl[142]	*[272]	fallen[272]	intransitive[272]	*[272]	*[272]	item0[272]	58[400]	male[400]	v3le8i0hm1ekj0ps9oou7k56t5[400]	speaker: YOU[528]	*->94-1	IndefNP[94]	_	_	_	
+116-5	2848-2856	gefallen	GSuccess[20]	fallen\_set1\_30[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-fallen\_set1\_30[20]	_	_	_	_	_	false[142]	Decl[142]	*[272]	fallen[272]	intransitive[272]	*[272]	*[272]	item0[272]	58[400]	male[400]	v3le8i0hm1ekj0ps9oou7k56t5[400]	speaker: YOU[528]	_	_	_	_	_	
+
+#Text=Oh nein
+117-1	2858-2860	Oh	GSuccess[20]	fallen\_set1\_30[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-fallen\_set1\_30[20]	_	_	_	_	_	false[143]	NA[143]	oh-nein\_25[273]	*[273]	*[273]	*[273]	*[273]	feedback[273]	*[401]	male[401]	*[401]	speaker:Noah[529]	_	_	_	_	_	
+117-2	2861-2865	nein	GSuccess[20]	fallen\_set1\_30[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-fallen\_set1\_30[20]	_	_	_	_	_	false[143]	NA[143]	oh-nein\_25[273]	*[273]	*[273]	*[273]	*[273]	feedback[273]	*[401]	male[401]	*[401]	speaker:Noah[529]	_	_	_	_	_	
+
+#Text=keine sorge <BR> dem boden ist nichts passiert.
+118-1	2867-2872	keine	GSuccess[20]	fallen\_set1\_30[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-fallen\_set1\_30[20]	_	_	_	_	_	false[144]	NA[144]	*[274]	*[274]	*[274]	*[274]	*[274]	input1[274]	58[402]	male[402]	v3le8i0hm1ekj0ps9oou7k56t5[402]	speaker: YOU[530]	_	_	_	_	_	
+118-2	2873-2878	sorge	GSuccess[20]	fallen\_set1\_30[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-fallen\_set1\_30[20]	_	_	_	_	_	false[144]	NA[144]	*[274]	*[274]	*[274]	*[274]	*[274]	input1[274]	58[402]	male[402]	v3le8i0hm1ekj0ps9oou7k56t5[402]	speaker: YOU[530]	_	_	_	_	_	
+118-3	2879-2883	<BR>	GSuccess[20]	fallen\_set1\_30[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-fallen\_set1\_30[20]	_	_	_	_	_	_	_	*[274]	*[274]	*[274]	*[274]	*[274]	input1[274]	58[402]	male[402]	v3le8i0hm1ekj0ps9oou7k56t5[402]	speaker: YOU[530]	_	_	_	_	_	
+118-4	2884-2887	dem	GSuccess[20]	fallen\_set1\_30[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-fallen\_set1\_30[20]	*[40]	*[40]	IndirObj[40]	*[40]	*[40]	false[145]	Decl[145]	*[274]	*[274]	*[274]	*[274]	*[274]	input1[274]	58[402]	male[402]	v3le8i0hm1ekj0ps9oou7k56t5[402]	speaker: YOU[530]	*->94-2	DefNP[94]	parallel	*	119-1[146_145]	
+118-5	2888-2893	boden	GSuccess[20]	fallen\_set1\_30[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-fallen\_set1\_30[20]	*[40]	*[40]	IndirObj[40]	*[40]	*[40]	false[145]	Decl[145]	*[274]	*[274]	*[274]	*[274]	*[274]	input1[274]	58[402]	male[402]	v3le8i0hm1ekj0ps9oou7k56t5[402]	speaker: YOU[530]	*->94-2	DefNP[94]	_	_	_	
+118-6	2894-2897	ist	GSuccess[20]	fallen\_set1\_30[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-fallen\_set1\_30[20]	_	_	_	_	_	false[145]	Decl[145]	*[274]	*[274]	*[274]	*[274]	*[274]	input1[274]	58[402]	male[402]	v3le8i0hm1ekj0ps9oou7k56t5[402]	speaker: YOU[530]	_	_	_	_	_	
+118-7	2898-2904	nichts	GSuccess[20]	fallen\_set1\_30[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-fallen\_set1\_30[20]	*	*	Subj	*	*	false[145]	Decl[145]	*[274]	*[274]	*[274]	*[274]	*[274]	input1[274]	58[402]	male[402]	v3le8i0hm1ekj0ps9oou7k56t5[402]	speaker: YOU[530]	_	_	_	_	_	
+118-8	2905-2914	passiert.	GSuccess[20]	fallen\_set1\_30[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-fallen\_set1\_30[20]	_	_	_	_	_	false[145]	Decl[145]	*[274]	*[274]	*[274]	*[274]	*[274]	input1[274]	58[402]	male[402]	v3le8i0hm1ekj0ps9oou7k56t5[402]	speaker: YOU[530]	_	_	_	_	_	
+
+#Text=john ist auch ok
+119-1	2916-2920	john	GSuccess[20]	fallen\_set1\_30[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-fallen\_set1\_30[20]	*	*	Subj	*	*	false[146]	Decl[146]	*[275]	*[275]	*[275]	*[275]	*[275]	input2[275]	58[403]	male[403]	v3le8i0hm1ekj0ps9oou7k56t5[403]	speaker: YOU[531]	*->14-2	PropNm[14]	_	_	_	
+119-2	2921-2924	ist	GSuccess[20]	fallen\_set1\_30[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-fallen\_set1\_30[20]	_	_	_	_	_	false[146]	Decl[146]	*[275]	*[275]	*[275]	*[275]	*[275]	input2[275]	58[403]	male[403]	v3le8i0hm1ekj0ps9oou7k56t5[403]	speaker: YOU[531]	_	_	_	_	_	
+119-3	2925-2929	auch	GSuccess[20]	fallen\_set1\_30[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-fallen\_set1\_30[20]	_	_	_	_	_	false[146]	Decl[146]	*[275]	*[275]	*[275]	*[275]	*[275]	input2[275]	58[403]	male[403]	v3le8i0hm1ekj0ps9oou7k56t5[403]	speaker: YOU[531]	_	_	_	_	_	
+119-4	2930-2932	ok	GSuccess[20]	fallen\_set1\_30[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-fallen\_set1\_30[20]	_	_	_	_	_	false[146]	Decl[146]	*[275]	*[275]	*[275]	*[275]	*[275]	input2[275]	58[403]	male[403]	v3le8i0hm1ekj0ps9oou7k56t5[403]	speaker: YOU[531]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+120-1	2934-2949	END_OF_DOCUMENT	GSuccess[20]	fallen\_set1\_30[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-fallen\_set1\_30[20]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+121-1	2951-2955	Hey,	GWithout[21]	fallen\_set1\_30[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-fallen\_set1\_30[21]	_	_	_	_	_	false[147]	Int[147]	*[276]	*[276]	*[276]	wh\_6[276]	wh\_question[276]	openq[276]	*[404]	male[404]	*[404]	speaker:Noah[532]	_	_	QAP	*	122-1[148_147]	
+121-2	2956-2959	was	GWithout[21]	fallen\_set1\_30[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-fallen\_set1\_30[21]	_	_	_	_	_	false[147]	Int[147]	*[276]	*[276]	*[276]	wh\_6[276]	wh\_question[276]	openq[276]	*[404]	male[404]	*[404]	speaker:Noah[532]	_	_	_	_	_	
+121-3	2960-2965	gibts	GWithout[21]	fallen\_set1\_30[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-fallen\_set1\_30[21]	_	_	_	_	_	false[147]	Int[147]	*[276]	*[276]	*[276]	wh\_6[276]	wh\_question[276]	openq[276]	*[404]	male[404]	*[404]	speaker:Noah[532]	_	_	_	_	_	
+121-4	2966-2972	Neues?	GWithout[21]	fallen\_set1\_30[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-fallen\_set1\_30[21]	_	_	_	_	_	false[147]	Int[147]	*[276]	*[276]	*[276]	wh\_6[276]	wh\_question[276]	openq[276]	*[404]	male[404]	*[404]	speaker:Noah[532]	_	_	_	_	_	
+
+#Text=John ist zu Boden gefallen
+122-1	2974-2978	John	GWithout[21]	fallen\_set1\_30[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-fallen\_set1\_30[21]	*	*	Subj	*	*	false[148]	Decl[148]	*[277]	fallen[277]	intransitive[277]	*[277]	*[277]	item0[277]	35[405]	female[405]	2k56uavscuainedj0q9i1sb693[405]	speaker: YOU[533]	*->30-1	PropNm[30]	result	*	124-1[149_148]	
+122-2	2979-2982	ist	GWithout[21]	fallen\_set1\_30[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-fallen\_set1\_30[21]	_	_	_	_	_	false[148]	Decl[148]	*[277]	fallen[277]	intransitive[277]	*[277]	*[277]	item0[277]	35[405]	female[405]	2k56uavscuainedj0q9i1sb693[405]	speaker: YOU[533]	_	_	_	_	_	
+122-3	2983-2985	zu	GWithout[21]	fallen\_set1\_30[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-fallen\_set1\_30[21]	_	_	_	_	_	false[148]	Decl[148]	*[277]	fallen[277]	intransitive[277]	*[277]	*[277]	item0[277]	35[405]	female[405]	2k56uavscuainedj0q9i1sb693[405]	speaker: YOU[533]	_	_	_	_	_	
+122-4	2986-2991	Boden	GWithout[21]	fallen\_set1\_30[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-fallen\_set1\_30[21]	*	*	modifier	*	*	false[148]	Decl[148]	*[277]	fallen[277]	intransitive[277]	*[277]	*[277]	item0[277]	35[405]	female[405]	2k56uavscuainedj0q9i1sb693[405]	speaker: YOU[533]	*->93-1	IndefNP[93]	_	_	_	
+122-5	2992-3000	gefallen	GWithout[21]	fallen\_set1\_30[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-fallen\_set1\_30[21]	_	_	_	_	_	false[148]	Decl[148]	*[277]	fallen[277]	intransitive[277]	*[277]	*[277]	item0[277]	35[405]	female[405]	2k56uavscuainedj0q9i1sb693[405]	speaker: YOU[533]	_	_	_	_	_	
+
+#Text=-
+123-1	3002-3003	-	GWithout[21]	fallen\_set1\_30[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-fallen\_set1\_30[21]	_	_	_	_	_	false	NA	GWithout	*	*	*	*	feedback	*	male	*	speaker:Noah	_	_	_	_	_	
+
+#Text=Hat sich die Schulter geprellt.
+124-1	3005-3008	Hat	GWithout[21]	fallen\_set1\_30[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-fallen\_set1\_30[21]	3	*	*	*	singular	false[149]	Decl[149]	*[278]	*[278]	*[278]	*[278]	*[278]	input1[278]	35[406]	female[406]	2k56uavscuainedj0q9i1sb693[406]	speaker: YOU[534]	*->30-2	zero[30]	result	*	125-1[150_149]	
+124-2	3009-3013	sich	GWithout[21]	fallen\_set1\_30[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-fallen\_set1\_30[21]	_	_	_	_	_	false[149]	Decl[149]	*[278]	*[278]	*[278]	*[278]	*[278]	input1[278]	35[406]	female[406]	2k56uavscuainedj0q9i1sb693[406]	speaker: YOU[534]	_	_	_	_	_	
+124-3	3014-3017	die	GWithout[21]	fallen\_set1\_30[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-fallen\_set1\_30[21]	*[41]	*[41]	DirObj[41]	*[41]	*[41]	false[149]	Decl[149]	*[278]	*[278]	*[278]	*[278]	*[278]	input1[278]	35[406]	female[406]	2k56uavscuainedj0q9i1sb693[406]	speaker: YOU[534]	*->12-1	DefNP[12]	_	_	_	
+124-4	3018-3026	Schulter	GWithout[21]	fallen\_set1\_30[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-fallen\_set1\_30[21]	*[41]	*[41]	DirObj[41]	*[41]	*[41]	false[149]	Decl[149]	*[278]	*[278]	*[278]	*[278]	*[278]	input1[278]	35[406]	female[406]	2k56uavscuainedj0q9i1sb693[406]	speaker: YOU[534]	*->12-1	DefNP[12]	_	_	_	
+124-5	3027-3036	geprellt.	GWithout[21]	fallen\_set1\_30[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-fallen\_set1\_30[21]	_	_	_	_	_	false[149]	Decl[149]	*[278]	*[278]	*[278]	*[278]	*[278]	input1[278]	35[406]	female[406]	2k56uavscuainedj0q9i1sb693[406]	speaker: YOU[534]	_	_	_	_	_	
+
+#Text=Müssen erstmal zum Arzt.
+125-1	3038-3044	Müssen	GWithout[21]	fallen\_set1\_30[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-fallen\_set1\_30[21]	1	*	*	*	plural	false[150]	Decl[150]	*[279]	*[279]	*[279]	*[279]	*[279]	input2[279]	35[407]	female[407]	2k56uavscuainedj0q9i1sb693[407]	speaker: YOU[535]	*->8-1	zero[8]	_	_	_	
+125-2	3045-3052	erstmal	GWithout[21]	fallen\_set1\_30[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-fallen\_set1\_30[21]	_	_	_	_	_	false[150]	Decl[150]	*[279]	*[279]	*[279]	*[279]	*[279]	input2[279]	35[407]	female[407]	2k56uavscuainedj0q9i1sb693[407]	speaker: YOU[535]	_	_	_	_	_	
+125-3	3053-3056	zum	GWithout[21]	fallen\_set1\_30[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-fallen\_set1\_30[21]	_	_	_	_	_	false[150]	Decl[150]	*[279]	*[279]	*[279]	*[279]	*[279]	input2[279]	35[407]	female[407]	2k56uavscuainedj0q9i1sb693[407]	speaker: YOU[535]	*->10-1	DefNP[10]	_	_	_	
+125-4	3057-3062	Arzt.	GWithout[21]	fallen\_set1\_30[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-fallen\_set1\_30[21]	*	*	PrepObj	*	*	false[150]	Decl[150]	*[279]	*[279]	*[279]	*[279]	*[279]	input2[279]	35[407]	female[407]	2k56uavscuainedj0q9i1sb693[407]	speaker: YOU[535]	*->10-1	DefNP[10]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+126-1	3064-3079	END_OF_DOCUMENT	GWithout[21]	fallen\_set1\_30[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-fallen\_set1\_30[21]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+127-1	3081-3085	Hey,	GWithout[22]	fallen\_set1\_30[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-fallen\_set1\_30[22]	_	_	_	_	_	false[151]	Int[151]	*[280]	*[280]	*[280]	wh\_6[280]	wh\_question[280]	openq[280]	*[408]	male[408]	*[408]	speaker:Noah[536]	_	_	QAP	*	128-1[152_151]	
+127-2	3086-3089	was	GWithout[22]	fallen\_set1\_30[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-fallen\_set1\_30[22]	_	_	_	_	_	false[151]	Int[151]	*[280]	*[280]	*[280]	wh\_6[280]	wh\_question[280]	openq[280]	*[408]	male[408]	*[408]	speaker:Noah[536]	_	_	_	_	_	
+127-3	3090-3095	gibts	GWithout[22]	fallen\_set1\_30[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-fallen\_set1\_30[22]	_	_	_	_	_	false[151]	Int[151]	*[280]	*[280]	*[280]	wh\_6[280]	wh\_question[280]	openq[280]	*[408]	male[408]	*[408]	speaker:Noah[536]	_	_	_	_	_	
+127-4	3096-3102	Neues?	GWithout[22]	fallen\_set1\_30[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-fallen\_set1\_30[22]	_	_	_	_	_	false[151]	Int[151]	*[280]	*[280]	*[280]	wh\_6[280]	wh\_question[280]	openq[280]	*[408]	male[408]	*[408]	speaker:Noah[536]	_	_	_	_	_	
+
+#Text=John ist zu Boden gefallen
+128-1	3104-3108	John	GWithout[22]	fallen\_set1\_30[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-fallen\_set1\_30[22]	*	*	Subj	*	*	false[152]	Decl[152]	*[281]	fallen[281]	intransitive[281]	*[281]	*[281]	item0[281]	46[409]	male[409]	7bq5ecc5fndmatjvd44havavdp[409]	speaker: YOU[537]	*->87-1	PropNm[87]	narration	*	130-1[153_152]	
+128-2	3109-3112	ist	GWithout[22]	fallen\_set1\_30[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-fallen\_set1\_30[22]	_	_	_	_	_	false[152]	Decl[152]	*[281]	fallen[281]	intransitive[281]	*[281]	*[281]	item0[281]	46[409]	male[409]	7bq5ecc5fndmatjvd44havavdp[409]	speaker: YOU[537]	_	_	_	_	_	
+128-3	3113-3115	zu	GWithout[22]	fallen\_set1\_30[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-fallen\_set1\_30[22]	_	_	_	_	_	false[152]	Decl[152]	*[281]	fallen[281]	intransitive[281]	*[281]	*[281]	item0[281]	46[409]	male[409]	7bq5ecc5fndmatjvd44havavdp[409]	speaker: YOU[537]	_	_	_	_	_	
+128-4	3116-3121	Boden	GWithout[22]	fallen\_set1\_30[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-fallen\_set1\_30[22]	*	*	modifier	*	*	false[152]	Decl[152]	*[281]	fallen[281]	intransitive[281]	*[281]	*[281]	item0[281]	46[409]	male[409]	7bq5ecc5fndmatjvd44havavdp[409]	speaker: YOU[537]	*->18-1	IndefNP[18]	_	_	_	
+128-5	3122-3130	gefallen	GWithout[22]	fallen\_set1\_30[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-fallen\_set1\_30[22]	_	_	_	_	_	false[152]	Decl[152]	*[281]	fallen[281]	intransitive[281]	*[281]	*[281]	item0[281]	46[409]	male[409]	7bq5ecc5fndmatjvd44havavdp[409]	speaker: YOU[537]	_	_	_	_	_	
+
+#Text=-
+129-1	3132-3133	-	GWithout[22]	fallen\_set1\_30[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-fallen\_set1\_30[22]	_	_	_	_	_	false	NA	GWithout	*	*	*	*	feedback	*	male	*	speaker:Noah	_	_	_	_	_	
+
+#Text=und kommt nicht mehr hoch
+130-1	3135-3138	und	GWithout[22]	fallen\_set1\_30[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-fallen\_set1\_30[22]	_	_	_	_	_	false[153]	Decl[153]	*[282]	*[282]	*[282]	*[282]	*[282]	input1[282]	46[410]	male[410]	7bq5ecc5fndmatjvd44havavdp[410]	speaker: YOU[538]	_	_	result	*	131-1[154_153]	
+130-2	3139-3144	kommt	GWithout[22]	fallen\_set1\_30[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-fallen\_set1\_30[22]	3	*	*	*	singular	false[153]	Decl[153]	*[282]	*[282]	*[282]	*[282]	*[282]	input1[282]	46[410]	male[410]	7bq5ecc5fndmatjvd44havavdp[410]	speaker: YOU[538]	*->87-2	zero[87]	_	_	_	
+130-3	3145-3150	nicht	GWithout[22]	fallen\_set1\_30[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-fallen\_set1\_30[22]	_	_	_	_	_	false[153]	Decl[153]	*[282]	*[282]	*[282]	*[282]	*[282]	input1[282]	46[410]	male[410]	7bq5ecc5fndmatjvd44havavdp[410]	speaker: YOU[538]	_	_	_	_	_	
+130-4	3151-3155	mehr	GWithout[22]	fallen\_set1\_30[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-fallen\_set1\_30[22]	_	_	_	_	_	false[153]	Decl[153]	*[282]	*[282]	*[282]	*[282]	*[282]	input1[282]	46[410]	male[410]	7bq5ecc5fndmatjvd44havavdp[410]	speaker: YOU[538]	_	_	_	_	_	
+130-5	3156-3160	hoch	GWithout[22]	fallen\_set1\_30[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-fallen\_set1\_30[22]	_	_	_	_	_	false[153]	Decl[153]	*[282]	*[282]	*[282]	*[282]	*[282]	input1[282]	46[410]	male[410]	7bq5ecc5fndmatjvd44havavdp[410]	speaker: YOU[538]	_	_	_	_	_	
+
+#Text=habe den Krankenwagen gerufen
+131-1	3162-3166	habe	GWithout[22]	fallen\_set1\_30[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-fallen\_set1\_30[22]	1	*	*	*	singular	false[154]	Decl[154]	*[283]	*[283]	*[283]	*[283]	*[283]	input2[283]	46[411]	male[411]	7bq5ecc5fndmatjvd44havavdp[411]	speaker: YOU[539]	*->73-1	zero[73]	_	_	_	
+131-2	3167-3170	den	GWithout[22]	fallen\_set1\_30[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-fallen\_set1\_30[22]	*[42]	*[42]	DirObj[42]	*[42]	*[42]	false[154]	Decl[154]	*[283]	*[283]	*[283]	*[283]	*[283]	input2[283]	46[411]	male[411]	7bq5ecc5fndmatjvd44havavdp[411]	speaker: YOU[539]	*->5-1	DefNP[5]	_	_	_	
+131-3	3171-3183	Krankenwagen	GWithout[22]	fallen\_set1\_30[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-fallen\_set1\_30[22]	*[42]	*[42]	DirObj[42]	*[42]	*[42]	false[154]	Decl[154]	*[283]	*[283]	*[283]	*[283]	*[283]	input2[283]	46[411]	male[411]	7bq5ecc5fndmatjvd44havavdp[411]	speaker: YOU[539]	*->5-1	DefNP[5]	_	_	_	
+131-4	3184-3191	gerufen	GWithout[22]	fallen\_set1\_30[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-fallen\_set1\_30[22]	_	_	_	_	_	false[154]	Decl[154]	*[283]	*[283]	*[283]	*[283]	*[283]	input2[283]	46[411]	male[411]	7bq5ecc5fndmatjvd44havavdp[411]	speaker: YOU[539]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+132-1	3193-3208	END_OF_DOCUMENT	GWithout[22]	fallen\_set1\_30[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-fallen\_set1\_30[22]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+133-1	3210-3214	Hey,	GWithout[23]	fallen\_set1\_30[23]	latin1[23]	9bb79dhfhst017575orahklqol-fallen\_set1\_30[23]	_	_	_	_	_	false[155]	Int[155]	*[284]	*[284]	*[284]	wh\_6[284]	wh\_question[284]	openq[284]	*[412]	male[412]	*[412]	speaker:Noah[540]	_	_	QAP	*	134-1[156_155]	
+133-2	3215-3218	was	GWithout[23]	fallen\_set1\_30[23]	latin1[23]	9bb79dhfhst017575orahklqol-fallen\_set1\_30[23]	_	_	_	_	_	false[155]	Int[155]	*[284]	*[284]	*[284]	wh\_6[284]	wh\_question[284]	openq[284]	*[412]	male[412]	*[412]	speaker:Noah[540]	_	_	_	_	_	
+133-3	3219-3224	gibts	GWithout[23]	fallen\_set1\_30[23]	latin1[23]	9bb79dhfhst017575orahklqol-fallen\_set1\_30[23]	_	_	_	_	_	false[155]	Int[155]	*[284]	*[284]	*[284]	wh\_6[284]	wh\_question[284]	openq[284]	*[412]	male[412]	*[412]	speaker:Noah[540]	_	_	_	_	_	
+133-4	3225-3231	Neues?	GWithout[23]	fallen\_set1\_30[23]	latin1[23]	9bb79dhfhst017575orahklqol-fallen\_set1\_30[23]	_	_	_	_	_	false[155]	Int[155]	*[284]	*[284]	*[284]	wh\_6[284]	wh\_question[284]	openq[284]	*[412]	male[412]	*[412]	speaker:Noah[540]	_	_	_	_	_	
+
+#Text=John ist zu Boden gefallen
+134-1	3233-3237	John	GWithout[23]	fallen\_set1\_30[23]	latin1[23]	9bb79dhfhst017575orahklqol-fallen\_set1\_30[23]	*	*	Subj	*	*	false[156]	Decl[156]	*[285]	fallen[285]	intransitive[285]	*[285]	*[285]	item0[285]	37[413]	female[413]	9bb79dhfhst017575orahklqol[413]	speaker: YOU[541]	*->101-1	PropNm[101]	elaboration|explanation	*|*	136-1[157_156]|137-1[158_156]	
+134-2	3238-3241	ist	GWithout[23]	fallen\_set1\_30[23]	latin1[23]	9bb79dhfhst017575orahklqol-fallen\_set1\_30[23]	_	_	_	_	_	false[156]	Decl[156]	*[285]	fallen[285]	intransitive[285]	*[285]	*[285]	item0[285]	37[413]	female[413]	9bb79dhfhst017575orahklqol[413]	speaker: YOU[541]	_	_	_	_	_	
+134-3	3242-3244	zu	GWithout[23]	fallen\_set1\_30[23]	latin1[23]	9bb79dhfhst017575orahklqol-fallen\_set1\_30[23]	_	_	_	_	_	false[156]	Decl[156]	*[285]	fallen[285]	intransitive[285]	*[285]	*[285]	item0[285]	37[413]	female[413]	9bb79dhfhst017575orahklqol[413]	speaker: YOU[541]	_	_	_	_	_	
+134-4	3245-3250	Boden	GWithout[23]	fallen\_set1\_30[23]	latin1[23]	9bb79dhfhst017575orahklqol-fallen\_set1\_30[23]	*	*	modifier	*	*	false[156]	Decl[156]	*[285]	fallen[285]	intransitive[285]	*[285]	*[285]	item0[285]	37[413]	female[413]	9bb79dhfhst017575orahklqol[413]	speaker: YOU[541]	*->102-1	IndefNP[102]	_	_	_	
+134-5	3251-3259	gefallen	GWithout[23]	fallen\_set1\_30[23]	latin1[23]	9bb79dhfhst017575orahklqol-fallen\_set1\_30[23]	_	_	_	_	_	false[156]	Decl[156]	*[285]	fallen[285]	intransitive[285]	*[285]	*[285]	item0[285]	37[413]	female[413]	9bb79dhfhst017575orahklqol[413]	speaker: YOU[541]	_	_	_	_	_	
+
+#Text=-
+135-1	3261-3262	-	GWithout[23]	fallen\_set1\_30[23]	latin1[23]	9bb79dhfhst017575orahklqol-fallen\_set1\_30[23]	_	_	_	_	_	false	NA	GWithout	*	*	*	*	feedback	*	male	*	speaker:Noah	_	_	_	_	_	
+
+#Text=beim aufstehen vom stuhl
+136-1	3264-3268	beim	GWithout[23]	fallen\_set1\_30[23]	latin1[23]	9bb79dhfhst017575orahklqol-fallen\_set1\_30[23]	_	_	_	_	_	false[157]	NA[157]	*[286]	*[286]	*[286]	*[286]	*[286]	input1[286]	37[414]	female[414]	9bb79dhfhst017575orahklqol[414]	speaker: YOU[542]	*->64-1	DefNP[64]	_	_	_	
+136-2	3269-3278	aufstehen	GWithout[23]	fallen\_set1\_30[23]	latin1[23]	9bb79dhfhst017575orahklqol-fallen\_set1\_30[23]	_	_	_	_	_	false[157]	NA[157]	*[286]	*[286]	*[286]	*[286]	*[286]	input1[286]	37[414]	female[414]	9bb79dhfhst017575orahklqol[414]	speaker: YOU[542]	*->64-1	DefNP[64]	_	_	_	
+136-3	3279-3282	vom	GWithout[23]	fallen\_set1\_30[23]	latin1[23]	9bb79dhfhst017575orahklqol-fallen\_set1\_30[23]	_	_	_	_	_	false[157]	NA[157]	*[286]	*[286]	*[286]	*[286]	*[286]	input1[286]	37[414]	female[414]	9bb79dhfhst017575orahklqol[414]	speaker: YOU[542]	*->64-1|*->95-1	DefNP[64]|DefNP[95]	_	_	_	
+136-4	3283-3288	stuhl	GWithout[23]	fallen\_set1\_30[23]	latin1[23]	9bb79dhfhst017575orahklqol-fallen\_set1\_30[23]	*	*	PrepObj	*	*	false[157]	NA[157]	*[286]	*[286]	*[286]	*[286]	*[286]	input1[286]	37[414]	female[414]	9bb79dhfhst017575orahklqol[414]	speaker: YOU[542]	*->64-1|*->95-1	DefNP[64]|DefNP[95]	_	_	_	
+
+#Text=hat glaube zu wenig gegessen
+137-1	3290-3293	hat	GWithout[23]	fallen\_set1\_30[23]	latin1[23]	9bb79dhfhst017575orahklqol-fallen\_set1\_30[23]	3	*	*	*	singular	false[158]	Decl[158]	*[287]	*[287]	*[287]	*[287]	*[287]	input2[287]	37[415]	female[415]	9bb79dhfhst017575orahklqol[415]	speaker: YOU[543]	*->101-2	zero[101]	_	_	_	
+137-2	3294-3300	glaube	GWithout[23]	fallen\_set1\_30[23]	latin1[23]	9bb79dhfhst017575orahklqol-fallen\_set1\_30[23]	1	*	*	*	singular	false[158]	Decl[158]	*[287]	*[287]	*[287]	*[287]	*[287]	input2[287]	37[415]	female[415]	9bb79dhfhst017575orahklqol[415]	speaker: YOU[543]	*->108-1	zero[108]	_	_	_	
+137-3	3301-3303	zu	GWithout[23]	fallen\_set1\_30[23]	latin1[23]	9bb79dhfhst017575orahklqol-fallen\_set1\_30[23]	_	_	_	_	_	false[158]	Decl[158]	*[287]	*[287]	*[287]	*[287]	*[287]	input2[287]	37[415]	female[415]	9bb79dhfhst017575orahklqol[415]	speaker: YOU[543]	_	_	_	_	_	
+137-4	3304-3309	wenig	GWithout[23]	fallen\_set1\_30[23]	latin1[23]	9bb79dhfhst017575orahklqol-fallen\_set1\_30[23]	_	_	_	_	_	false[158]	Decl[158]	*[287]	*[287]	*[287]	*[287]	*[287]	input2[287]	37[415]	female[415]	9bb79dhfhst017575orahklqol[415]	speaker: YOU[543]	_	_	_	_	_	
+137-5	3310-3318	gegessen	GWithout[23]	fallen\_set1\_30[23]	latin1[23]	9bb79dhfhst017575orahklqol-fallen\_set1\_30[23]	_	_	_	_	_	false[158]	Decl[158]	*[287]	*[287]	*[287]	*[287]	*[287]	input2[287]	37[415]	female[415]	9bb79dhfhst017575orahklqol[415]	speaker: YOU[543]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+138-1	3320-3335	END_OF_DOCUMENT	GWithout[23]	fallen\_set1\_30[23]	latin1[23]	9bb79dhfhst017575orahklqol-fallen\_set1\_30[23]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+139-1	3337-3341	Hey,	GWithout[24]	fallen\_set1\_30[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-fallen\_set1\_30[24]	_	_	_	_	_	false[159]	Int[159]	*[288]	*[288]	*[288]	wh\_6[288]	wh\_question[288]	openq[288]	*[416]	male[416]	*[416]	speaker:Noah[544]	_	_	QAP	*	140-1[160_159]	
+139-2	3342-3345	was	GWithout[24]	fallen\_set1\_30[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-fallen\_set1\_30[24]	_	_	_	_	_	false[159]	Int[159]	*[288]	*[288]	*[288]	wh\_6[288]	wh\_question[288]	openq[288]	*[416]	male[416]	*[416]	speaker:Noah[544]	_	_	_	_	_	
+139-3	3346-3351	gibts	GWithout[24]	fallen\_set1\_30[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-fallen\_set1\_30[24]	_	_	_	_	_	false[159]	Int[159]	*[288]	*[288]	*[288]	wh\_6[288]	wh\_question[288]	openq[288]	*[416]	male[416]	*[416]	speaker:Noah[544]	_	_	_	_	_	
+139-4	3352-3358	Neues?	GWithout[24]	fallen\_set1\_30[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-fallen\_set1\_30[24]	_	_	_	_	_	false[159]	Int[159]	*[288]	*[288]	*[288]	wh\_6[288]	wh\_question[288]	openq[288]	*[416]	male[416]	*[416]	speaker:Noah[544]	_	_	_	_	_	
+
+#Text=John ist zu Boden gefallen
+140-1	3360-3364	John	GWithout[24]	fallen\_set1\_30[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-fallen\_set1\_30[24]	*	*	Subj	*	*	false[160]	Decl[160]	*[289]	fallen[289]	intransitive[289]	*[289]	*[289]	item0[289]	21[417]	male[417]	afpst3sherp4732c4se5ajftkq[417]	speaker: YOU[545]	*->80-1	PropNm[80]	explanation|elaboration	*|*	142-1[161_160]|143-1[162_160]	
+140-2	3365-3368	ist	GWithout[24]	fallen\_set1\_30[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-fallen\_set1\_30[24]	_	_	_	_	_	false[160]	Decl[160]	*[289]	fallen[289]	intransitive[289]	*[289]	*[289]	item0[289]	21[417]	male[417]	afpst3sherp4732c4se5ajftkq[417]	speaker: YOU[545]	_	_	_	_	_	
+140-3	3369-3371	zu	GWithout[24]	fallen\_set1\_30[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-fallen\_set1\_30[24]	_	_	_	_	_	false[160]	Decl[160]	*[289]	fallen[289]	intransitive[289]	*[289]	*[289]	item0[289]	21[417]	male[417]	afpst3sherp4732c4se5ajftkq[417]	speaker: YOU[545]	_	_	_	_	_	
+140-4	3372-3377	Boden	GWithout[24]	fallen\_set1\_30[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-fallen\_set1\_30[24]	*	*	modifier	*	*	false[160]	Decl[160]	*[289]	fallen[289]	intransitive[289]	*[289]	*[289]	item0[289]	21[417]	male[417]	afpst3sherp4732c4se5ajftkq[417]	speaker: YOU[545]	*->104-1	IndefNP[104]	_	_	_	
+140-5	3378-3386	gefallen	GWithout[24]	fallen\_set1\_30[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-fallen\_set1\_30[24]	_	_	_	_	_	false[160]	Decl[160]	*[289]	fallen[289]	intransitive[289]	*[289]	*[289]	item0[289]	21[417]	male[417]	afpst3sherp4732c4se5ajftkq[417]	speaker: YOU[545]	_	_	_	_	_	
+
+#Text=-
+141-1	3388-3389	-	GWithout[24]	fallen\_set1\_30[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-fallen\_set1\_30[24]	_	_	_	_	_	false	NA	GWithout	*	*	*	*	feedback	*	male	*	speaker:Noah	_	_	_	_	_	
+
+#Text=Er wurde von seinem Gegner heftig auseinander genommen.
+142-1	3391-3393	Er	GWithout[24]	fallen\_set1\_30[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-fallen\_set1\_30[24]	3	*	Subj	*	singular	false[161]	Decl[161]	*[290]	*[290]	*[290]	*[290]	*[290]	input1[290]	21[418]	male[418]	afpst3sherp4732c4se5ajftkq[418]	speaker: YOU[546]	*->80-2	PerPron[80]	_	_	_	
+142-2	3394-3399	wurde	GWithout[24]	fallen\_set1\_30[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-fallen\_set1\_30[24]	_	_	_	_	_	false[161]	Decl[161]	*[290]	*[290]	*[290]	*[290]	*[290]	input1[290]	21[418]	male[418]	afpst3sherp4732c4se5ajftkq[418]	speaker: YOU[546]	_	_	_	_	_	
+142-3	3400-3403	von	GWithout[24]	fallen\_set1\_30[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-fallen\_set1\_30[24]	_	_	_	_	_	false[161]	Decl[161]	*[290]	*[290]	*[290]	*[290]	*[290]	input1[290]	21[418]	male[418]	afpst3sherp4732c4se5ajftkq[418]	speaker: YOU[546]	_	_	_	_	_	
+142-4	3404-3410	seinem	GWithout[24]	fallen\_set1\_30[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-fallen\_set1\_30[24]	*[43]|3[44]	*[43]|*[44]	PrepObj[43]|*[44]	*[43]|*[44]	*[43]|singular[44]	false[161]	Decl[161]	*[290]	*[290]	*[290]	*[290]	*[290]	input1[290]	21[418]	male[418]	afpst3sherp4732c4se5ajftkq[418]	speaker: YOU[546]	*->7-1|*->80-3	DefNP[7]|PossePron[80]	_	_	_	
+142-5	3411-3417	Gegner	GWithout[24]	fallen\_set1\_30[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-fallen\_set1\_30[24]	*[43]	*[43]	PrepObj[43]	*[43]	*[43]	false[161]	Decl[161]	*[290]	*[290]	*[290]	*[290]	*[290]	input1[290]	21[418]	male[418]	afpst3sherp4732c4se5ajftkq[418]	speaker: YOU[546]	*->7-1	DefNP[7]	_	_	_	
+142-6	3418-3424	heftig	GWithout[24]	fallen\_set1\_30[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-fallen\_set1\_30[24]	_	_	_	_	_	false[161]	Decl[161]	*[290]	*[290]	*[290]	*[290]	*[290]	input1[290]	21[418]	male[418]	afpst3sherp4732c4se5ajftkq[418]	speaker: YOU[546]	_	_	_	_	_	
+142-7	3425-3436	auseinander	GWithout[24]	fallen\_set1\_30[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-fallen\_set1\_30[24]	_	_	_	_	_	false[161]	Decl[161]	*[290]	*[290]	*[290]	*[290]	*[290]	input1[290]	21[418]	male[418]	afpst3sherp4732c4se5ajftkq[418]	speaker: YOU[546]	_	_	_	_	_	
+142-8	3437-3446	genommen.	GWithout[24]	fallen\_set1\_30[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-fallen\_set1\_30[24]	_	_	_	_	_	false[161]	Decl[161]	*[290]	*[290]	*[290]	*[290]	*[290]	input1[290]	21[418]	male[418]	afpst3sherp4732c4se5ajftkq[418]	speaker: YOU[546]	_	_	_	_	_	
+
+#Text=Er ist in der zweiten Runde gefallen.
+143-1	3448-3450	Er	GWithout[24]	fallen\_set1\_30[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-fallen\_set1\_30[24]	3	*	Subj	*	singular	false[162]	Decl[162]	*[291]	*[291]	*[291]	*[291]	*[291]	input2[291]	21[419]	male[419]	afpst3sherp4732c4se5ajftkq[419]	speaker: YOU[547]	*->80-4	PerPron[80]	_	_	_	
+143-2	3451-3454	ist	GWithout[24]	fallen\_set1\_30[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-fallen\_set1\_30[24]	_	_	_	_	_	false[162]	Decl[162]	*[291]	*[291]	*[291]	*[291]	*[291]	input2[291]	21[419]	male[419]	afpst3sherp4732c4se5ajftkq[419]	speaker: YOU[547]	_	_	_	_	_	
+143-3	3455-3457	in	GWithout[24]	fallen\_set1\_30[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-fallen\_set1\_30[24]	_	_	_	_	_	false[162]	Decl[162]	*[291]	*[291]	*[291]	*[291]	*[291]	input2[291]	21[419]	male[419]	afpst3sherp4732c4se5ajftkq[419]	speaker: YOU[547]	_	_	_	_	_	
+143-4	3458-3461	der	GWithout[24]	fallen\_set1\_30[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-fallen\_set1\_30[24]	*[45]	*[45]	PrepObj[45]	*[45]	*[45]	false[162]	Decl[162]	*[291]	*[291]	*[291]	*[291]	*[291]	input2[291]	21[419]	male[419]	afpst3sherp4732c4se5ajftkq[419]	speaker: YOU[547]	*->59-1	DefNP[59]	_	_	_	
+143-5	3462-3469	zweiten	GWithout[24]	fallen\_set1\_30[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-fallen\_set1\_30[24]	*[45]	*[45]	PrepObj[45]	*[45]	*[45]	false[162]	Decl[162]	*[291]	*[291]	*[291]	*[291]	*[291]	input2[291]	21[419]	male[419]	afpst3sherp4732c4se5ajftkq[419]	speaker: YOU[547]	*->59-1	DefNP[59]	_	_	_	
+143-6	3470-3475	Runde	GWithout[24]	fallen\_set1\_30[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-fallen\_set1\_30[24]	*[45]	*[45]	PrepObj[45]	*[45]	*[45]	false[162]	Decl[162]	*[291]	*[291]	*[291]	*[291]	*[291]	input2[291]	21[419]	male[419]	afpst3sherp4732c4se5ajftkq[419]	speaker: YOU[547]	*->59-1	DefNP[59]	_	_	_	
+143-7	3476-3485	gefallen.	GWithout[24]	fallen\_set1\_30[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-fallen\_set1\_30[24]	_	_	_	_	_	false[162]	Decl[162]	*[291]	*[291]	*[291]	*[291]	*[291]	input2[291]	21[419]	male[419]	afpst3sherp4732c4se5ajftkq[419]	speaker: YOU[547]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+144-1	3487-3502	END_OF_DOCUMENT	GWithout[24]	fallen\_set1\_30[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-fallen\_set1\_30[24]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+145-1	3504-3508	Hey,	GWithout[25]	fallen\_set1\_30[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-fallen\_set1\_30[25]	_	_	_	_	_	false[163]	Int[163]	*[292]	*[292]	*[292]	wh\_6[292]	wh\_question[292]	openq[292]	*[420]	male[420]	*[420]	speaker:Noah[548]	_	_	parallel|QAP	*|*	149-1[166_163]|146-1[164_163]	
+145-2	3509-3512	was	GWithout[25]	fallen\_set1\_30[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-fallen\_set1\_30[25]	_	_	_	_	_	false[163]	Int[163]	*[292]	*[292]	*[292]	wh\_6[292]	wh\_question[292]	openq[292]	*[420]	male[420]	*[420]	speaker:Noah[548]	_	_	_	_	_	
+145-3	3513-3518	gibts	GWithout[25]	fallen\_set1\_30[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-fallen\_set1\_30[25]	_	_	_	_	_	false[163]	Int[163]	*[292]	*[292]	*[292]	wh\_6[292]	wh\_question[292]	openq[292]	*[420]	male[420]	*[420]	speaker:Noah[548]	_	_	_	_	_	
+145-4	3519-3525	Neues?	GWithout[25]	fallen\_set1\_30[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-fallen\_set1\_30[25]	_	_	_	_	_	false[163]	Int[163]	*[292]	*[292]	*[292]	wh\_6[292]	wh\_question[292]	openq[292]	*[420]	male[420]	*[420]	speaker:Noah[548]	_	_	_	_	_	
+
+#Text=John ist zu Boden gefallen
+146-1	3527-3531	John	GWithout[25]	fallen\_set1\_30[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-fallen\_set1\_30[25]	*	*	Subj	*	*	false[164]	Decl[164]	*[293]	fallen[293]	intransitive[293]	*[293]	*[293]	item0[293]	42[421]	female[421]	blj8i1h4sc8jti0m6gcav1c9ek[421]	speaker: YOU[549]	*->33-1	PropNm[33]	result	*	148-1[165_164]	
+146-2	3532-3535	ist	GWithout[25]	fallen\_set1\_30[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-fallen\_set1\_30[25]	_	_	_	_	_	false[164]	Decl[164]	*[293]	fallen[293]	intransitive[293]	*[293]	*[293]	item0[293]	42[421]	female[421]	blj8i1h4sc8jti0m6gcav1c9ek[421]	speaker: YOU[549]	_	_	_	_	_	
+146-3	3536-3538	zu	GWithout[25]	fallen\_set1\_30[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-fallen\_set1\_30[25]	_	_	_	_	_	false[164]	Decl[164]	*[293]	fallen[293]	intransitive[293]	*[293]	*[293]	item0[293]	42[421]	female[421]	blj8i1h4sc8jti0m6gcav1c9ek[421]	speaker: YOU[549]	_	_	_	_	_	
+146-4	3539-3544	Boden	GWithout[25]	fallen\_set1\_30[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-fallen\_set1\_30[25]	*	*	modifier	*	*	false[164]	Decl[164]	*[293]	fallen[293]	intransitive[293]	*[293]	*[293]	item0[293]	42[421]	female[421]	blj8i1h4sc8jti0m6gcav1c9ek[421]	speaker: YOU[549]	*->74-1	IndefNP[74]	_	_	_	
+146-5	3545-3553	gefallen	GWithout[25]	fallen\_set1\_30[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-fallen\_set1\_30[25]	_	_	_	_	_	false[164]	Decl[164]	*[293]	fallen[293]	intransitive[293]	*[293]	*[293]	item0[293]	42[421]	female[421]	blj8i1h4sc8jti0m6gcav1c9ek[421]	speaker: YOU[549]	_	_	_	_	_	
+
+#Text=-
+147-1	3555-3556	-	GWithout[25]	fallen\_set1\_30[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-fallen\_set1\_30[25]	_	_	_	_	_	false	NA	GWithout	*	*	*	*	feedback	*	male	*	speaker:Noah	_	_	_	_	_	
+
+#Text=Ich kann ihn daher nicht alleine lassen.
+148-1	3558-3561	Ich	GWithout[25]	fallen\_set1\_30[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-fallen\_set1\_30[25]	1	*	Subj	*	singular	false[165]	Decl[165]	*[294]	*[294]	*[294]	*[294]	*[294]	input1[294]	42[422]	female[422]	blj8i1h4sc8jti0m6gcav1c9ek[422]	speaker: YOU[550]	*->42-1	PerPron[42]	_	_	_	
+148-2	3562-3566	kann	GWithout[25]	fallen\_set1\_30[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-fallen\_set1\_30[25]	_	_	_	_	_	false[165]	Decl[165]	*[294]	*[294]	*[294]	*[294]	*[294]	input1[294]	42[422]	female[422]	blj8i1h4sc8jti0m6gcav1c9ek[422]	speaker: YOU[550]	_	_	_	_	_	
+148-3	3567-3570	ihn	GWithout[25]	fallen\_set1\_30[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-fallen\_set1\_30[25]	3	*	IndirObj	*	singular	false[165]	Decl[165]	*[294]	*[294]	*[294]	*[294]	*[294]	input1[294]	42[422]	female[422]	blj8i1h4sc8jti0m6gcav1c9ek[422]	speaker: YOU[550]	*->33-2	PerPron[33]	_	_	_	
+148-4	3571-3576	daher	GWithout[25]	fallen\_set1\_30[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-fallen\_set1\_30[25]	_	_	_	_	_	false[165]	Decl[165]	*[294]	*[294]	*[294]	*[294]	*[294]	input1[294]	42[422]	female[422]	blj8i1h4sc8jti0m6gcav1c9ek[422]	speaker: YOU[550]	_	_	_	_	_	
+148-5	3577-3582	nicht	GWithout[25]	fallen\_set1\_30[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-fallen\_set1\_30[25]	_	_	_	_	_	false[165]	Decl[165]	*[294]	*[294]	*[294]	*[294]	*[294]	input1[294]	42[422]	female[422]	blj8i1h4sc8jti0m6gcav1c9ek[422]	speaker: YOU[550]	_	_	_	_	_	
+148-6	3583-3590	alleine	GWithout[25]	fallen\_set1\_30[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-fallen\_set1\_30[25]	_	_	_	_	_	false[165]	Decl[165]	*[294]	*[294]	*[294]	*[294]	*[294]	input1[294]	42[422]	female[422]	blj8i1h4sc8jti0m6gcav1c9ek[422]	speaker: YOU[550]	_	_	_	_	_	
+148-7	3591-3598	lassen.	GWithout[25]	fallen\_set1\_30[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-fallen\_set1\_30[25]	_	_	_	_	_	false[165]	Decl[165]	*[294]	*[294]	*[294]	*[294]	*[294]	input1[294]	42[422]	female[422]	blj8i1h4sc8jti0m6gcav1c9ek[422]	speaker: YOU[550]	_	_	_	_	_	
+
+#Text=Und bei Euch?
+149-1	3600-3603	Und	GWithout[25]	fallen\_set1\_30[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-fallen\_set1\_30[25]	_	_	_	_	_	false[166]	NA[166]	*[295]	*[295]	*[295]	*[295]	*[295]	input2[295]	42[423]	female[423]	blj8i1h4sc8jti0m6gcav1c9ek[423]	speaker: YOU[551]	_	_	_	_	_	
+149-2	3604-3607	bei	GWithout[25]	fallen\_set1\_30[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-fallen\_set1\_30[25]	_	_	_	_	_	false[166]	NA[166]	*[295]	*[295]	*[295]	*[295]	*[295]	input2[295]	42[423]	female[423]	blj8i1h4sc8jti0m6gcav1c9ek[423]	speaker: YOU[551]	_	_	_	_	_	
+149-3	3608-3613	Euch?	GWithout[25]	fallen\_set1\_30[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-fallen\_set1\_30[25]	2	*	PrepObj	*	plural	false[166]	NA[166]	*[295]	*[295]	*[295]	*[295]	*[295]	input2[295]	42[423]	female[423]	blj8i1h4sc8jti0m6gcav1c9ek[423]	speaker: YOU[551]	*->53-1	PerPron[53]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+150-1	3615-3630	END_OF_DOCUMENT	GWithout[25]	fallen\_set1\_30[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-fallen\_set1\_30[25]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+151-1	3632-3636	Hey,	GWithout[26]	fallen\_set1\_30[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-fallen\_set1\_30[26]	_	_	_	_	_	false[167]	Int[167]	*[296]	*[296]	*[296]	wh\_6[296]	wh\_question[296]	openq[296]	*[424]	male[424]	*[424]	speaker:Noah[552]	_	_	QAP	*	152-1[168_167]	
+151-2	3637-3640	was	GWithout[26]	fallen\_set1\_30[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-fallen\_set1\_30[26]	_	_	_	_	_	false[167]	Int[167]	*[296]	*[296]	*[296]	wh\_6[296]	wh\_question[296]	openq[296]	*[424]	male[424]	*[424]	speaker:Noah[552]	_	_	_	_	_	
+151-3	3641-3646	gibts	GWithout[26]	fallen\_set1\_30[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-fallen\_set1\_30[26]	_	_	_	_	_	false[167]	Int[167]	*[296]	*[296]	*[296]	wh\_6[296]	wh\_question[296]	openq[296]	*[424]	male[424]	*[424]	speaker:Noah[552]	_	_	_	_	_	
+151-4	3647-3653	Neues?	GWithout[26]	fallen\_set1\_30[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-fallen\_set1\_30[26]	_	_	_	_	_	false[167]	Int[167]	*[296]	*[296]	*[296]	wh\_6[296]	wh\_question[296]	openq[296]	*[424]	male[424]	*[424]	speaker:Noah[552]	_	_	_	_	_	
+
+#Text=John ist zu Boden gefallen
+152-1	3655-3659	John	GWithout[26]	fallen\_set1\_30[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-fallen\_set1\_30[26]	*	*	Subj	*	*	false[168]	Decl[168]	*[297]	fallen[297]	intransitive[297]	*[297]	*[297]	item0[297]	42[425]	female[425]	h05ingrcngdnasp07727nvoq59[425]	speaker: YOU[553]	*->31-1	PropNm[31]	result	*	154-1[169_168]	
+152-2	3660-3663	ist	GWithout[26]	fallen\_set1\_30[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-fallen\_set1\_30[26]	_	_	_	_	_	false[168]	Decl[168]	*[297]	fallen[297]	intransitive[297]	*[297]	*[297]	item0[297]	42[425]	female[425]	h05ingrcngdnasp07727nvoq59[425]	speaker: YOU[553]	_	_	_	_	_	
+152-3	3664-3666	zu	GWithout[26]	fallen\_set1\_30[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-fallen\_set1\_30[26]	_	_	_	_	_	false[168]	Decl[168]	*[297]	fallen[297]	intransitive[297]	*[297]	*[297]	item0[297]	42[425]	female[425]	h05ingrcngdnasp07727nvoq59[425]	speaker: YOU[553]	_	_	_	_	_	
+152-4	3667-3672	Boden	GWithout[26]	fallen\_set1\_30[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-fallen\_set1\_30[26]	*	*	modifier	*	*	false[168]	Decl[168]	*[297]	fallen[297]	intransitive[297]	*[297]	*[297]	item0[297]	42[425]	female[425]	h05ingrcngdnasp07727nvoq59[425]	speaker: YOU[553]	*->79-1	IndefNP[79]	_	_	_	
+152-5	3673-3681	gefallen	GWithout[26]	fallen\_set1\_30[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-fallen\_set1\_30[26]	_	_	_	_	_	false[168]	Decl[168]	*[297]	fallen[297]	intransitive[297]	*[297]	*[297]	item0[297]	42[425]	female[425]	h05ingrcngdnasp07727nvoq59[425]	speaker: YOU[553]	_	_	_	_	_	
+
+#Text=-
+153-1	3683-3684	-	GWithout[26]	fallen\_set1\_30[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-fallen\_set1\_30[26]	_	_	_	_	_	false	NA	GWithout	*	*	*	*	feedback	*	male	*	speaker:Noah	_	_	_	_	_	
+
+#Text=Vielleicht hat er sich was gebrochen.
+154-1	3686-3696	Vielleicht	GWithout[26]	fallen\_set1\_30[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-fallen\_set1\_30[26]	_	_	_	_	_	false[169]	Decl[169]	*[298]	*[298]	*[298]	*[298]	*[298]	input1[298]	42[426]	female[426]	h05ingrcngdnasp07727nvoq59[426]	speaker: YOU[554]	_	_	result	*	155-1[170_169]	
+154-2	3697-3700	hat	GWithout[26]	fallen\_set1\_30[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-fallen\_set1\_30[26]	_	_	_	_	_	false[169]	Decl[169]	*[298]	*[298]	*[298]	*[298]	*[298]	input1[298]	42[426]	female[426]	h05ingrcngdnasp07727nvoq59[426]	speaker: YOU[554]	_	_	_	_	_	
+154-3	3701-3703	er	GWithout[26]	fallen\_set1\_30[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-fallen\_set1\_30[26]	3	*	Subj	*	singular	false[169]	Decl[169]	*[298]	*[298]	*[298]	*[298]	*[298]	input1[298]	42[426]	female[426]	h05ingrcngdnasp07727nvoq59[426]	speaker: YOU[554]	*->31-2	PerPron[31]	_	_	_	
+154-4	3704-3708	sich	GWithout[26]	fallen\_set1\_30[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-fallen\_set1\_30[26]	_	_	_	_	_	false[169]	Decl[169]	*[298]	*[298]	*[298]	*[298]	*[298]	input1[298]	42[426]	female[426]	h05ingrcngdnasp07727nvoq59[426]	speaker: YOU[554]	_	_	_	_	_	
+154-5	3709-3712	was	GWithout[26]	fallen\_set1\_30[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-fallen\_set1\_30[26]	_	_	_	_	_	false[169]	Decl[169]	*[298]	*[298]	*[298]	*[298]	*[298]	input1[298]	42[426]	female[426]	h05ingrcngdnasp07727nvoq59[426]	speaker: YOU[554]	*->49-1	IndefNP[49]	_	_	_	
+154-6	3713-3723	gebrochen.	GWithout[26]	fallen\_set1\_30[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-fallen\_set1\_30[26]	_	_	_	_	_	false[169]	Decl[169]	*[298]	*[298]	*[298]	*[298]	*[298]	input1[298]	42[426]	female[426]	h05ingrcngdnasp07727nvoq59[426]	speaker: YOU[554]	_	_	_	_	_	
+
+#Text=Fahren gerade ins KKH
+155-1	3725-3731	Fahren	GWithout[26]	fallen\_set1\_30[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-fallen\_set1\_30[26]	1	*	*	*	plural	false[170]	Decl[170]	*[299]	*[299]	*[299]	*[299]	*[299]	input2[299]	42[427]	female[427]	h05ingrcngdnasp07727nvoq59[427]	speaker: YOU[555]	*->67-1	zero[67]	_	_	_	
+155-2	3732-3738	gerade	GWithout[26]	fallen\_set1\_30[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-fallen\_set1\_30[26]	_	_	_	_	_	false[170]	Decl[170]	*[299]	*[299]	*[299]	*[299]	*[299]	input2[299]	42[427]	female[427]	h05ingrcngdnasp07727nvoq59[427]	speaker: YOU[555]	_	_	_	_	_	
+155-3	3739-3742	ins	GWithout[26]	fallen\_set1\_30[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-fallen\_set1\_30[26]	_	_	_	_	_	false[170]	Decl[170]	*[299]	*[299]	*[299]	*[299]	*[299]	input2[299]	42[427]	female[427]	h05ingrcngdnasp07727nvoq59[427]	speaker: YOU[555]	*->41-1	DefNP[41]	_	_	_	
+155-4	3743-3746	KKH	GWithout[26]	fallen\_set1\_30[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-fallen\_set1\_30[26]	*	*	PrepObj	*	*	false[170]	Decl[170]	*[299]	*[299]	*[299]	*[299]	*[299]	input2[299]	42[427]	female[427]	h05ingrcngdnasp07727nvoq59[427]	speaker: YOU[555]	*->41-1	DefNP[41]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+156-1	3748-3763	END_OF_DOCUMENT	GWithout[26]	fallen\_set1\_30[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-fallen\_set1\_30[26]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+157-1	3765-3769	Hey,	GWithout[27]	fallen\_set1\_30[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-fallen\_set1\_30[27]	_	_	_	_	_	false[171]	Int[171]	*[300]	*[300]	*[300]	wh\_6[300]	wh\_question[300]	openq[300]	*[428]	male[428]	*[428]	speaker:Noah[556]	_	_	QAP	*	158-1[172_171]	
+157-2	3770-3773	was	GWithout[27]	fallen\_set1\_30[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-fallen\_set1\_30[27]	_	_	_	_	_	false[171]	Int[171]	*[300]	*[300]	*[300]	wh\_6[300]	wh\_question[300]	openq[300]	*[428]	male[428]	*[428]	speaker:Noah[556]	_	_	_	_	_	
+157-3	3774-3779	gibts	GWithout[27]	fallen\_set1\_30[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-fallen\_set1\_30[27]	_	_	_	_	_	false[171]	Int[171]	*[300]	*[300]	*[300]	wh\_6[300]	wh\_question[300]	openq[300]	*[428]	male[428]	*[428]	speaker:Noah[556]	_	_	_	_	_	
+157-4	3780-3786	Neues?	GWithout[27]	fallen\_set1\_30[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-fallen\_set1\_30[27]	_	_	_	_	_	false[171]	Int[171]	*[300]	*[300]	*[300]	wh\_6[300]	wh\_question[300]	openq[300]	*[428]	male[428]	*[428]	speaker:Noah[556]	_	_	_	_	_	
+
+#Text=John ist zu Boden gefallen
+158-1	3788-3792	John	GWithout[27]	fallen\_set1\_30[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-fallen\_set1\_30[27]	*	*	Subj	*	*	false[172]	Decl[172]	*[301]	fallen[301]	intransitive[301]	*[301]	*[301]	item0[301]	42[429]	male[429]	jkqc35grurqg6r29efakrmibd9[429]	speaker: YOU[557]	*->100-1	PropNm[100]	elaboration|contrast	*|*	160-1[173_172]|161-5[175_172]	
+158-2	3793-3796	ist	GWithout[27]	fallen\_set1\_30[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-fallen\_set1\_30[27]	_	_	_	_	_	false[172]	Decl[172]	*[301]	fallen[301]	intransitive[301]	*[301]	*[301]	item0[301]	42[429]	male[429]	jkqc35grurqg6r29efakrmibd9[429]	speaker: YOU[557]	_	_	_	_	_	
+158-3	3797-3799	zu	GWithout[27]	fallen\_set1\_30[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-fallen\_set1\_30[27]	_	_	_	_	_	false[172]	Decl[172]	*[301]	fallen[301]	intransitive[301]	*[301]	*[301]	item0[301]	42[429]	male[429]	jkqc35grurqg6r29efakrmibd9[429]	speaker: YOU[557]	_	_	_	_	_	
+158-4	3800-3805	Boden	GWithout[27]	fallen\_set1\_30[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-fallen\_set1\_30[27]	*	*	modifier	*	*	false[172]	Decl[172]	*[301]	fallen[301]	intransitive[301]	*[301]	*[301]	item0[301]	42[429]	male[429]	jkqc35grurqg6r29efakrmibd9[429]	speaker: YOU[557]	*->86-1	IndefNP[86]	_	_	_	
+158-5	3806-3814	gefallen	GWithout[27]	fallen\_set1\_30[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-fallen\_set1\_30[27]	_	_	_	_	_	false[172]	Decl[172]	*[301]	fallen[301]	intransitive[301]	*[301]	*[301]	item0[301]	42[429]	male[429]	jkqc35grurqg6r29efakrmibd9[429]	speaker: YOU[557]	_	_	_	_	_	
+
+#Text=-
+159-1	3816-3817	-	GWithout[27]	fallen\_set1\_30[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-fallen\_set1\_30[27]	_	_	_	_	_	false	NA	GWithout	*	*	*	*	feedback	*	male	*	speaker:Noah	_	_	_	_	_	
+
+#Text=gestern auf dem Parkplatz
+160-1	3819-3826	gestern	GWithout[27]	fallen\_set1\_30[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-fallen\_set1\_30[27]	_	_	_	_	_	false[173]	NA[173]	*[302]	*[302]	*[302]	*[302]	*[302]	input1[302]	42[430]	male[430]	jkqc35grurqg6r29efakrmibd9[430]	speaker: YOU[558]	_	_	elaboration	*	161-1[174_173]	
+160-2	3827-3830	auf	GWithout[27]	fallen\_set1\_30[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-fallen\_set1\_30[27]	_	_	_	_	_	false[173]	NA[173]	*[302]	*[302]	*[302]	*[302]	*[302]	input1[302]	42[430]	male[430]	jkqc35grurqg6r29efakrmibd9[430]	speaker: YOU[558]	_	_	_	_	_	
+160-3	3831-3834	dem	GWithout[27]	fallen\_set1\_30[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-fallen\_set1\_30[27]	*[46]	*[46]	PrepObj[46]	*[46]	*[46]	false[173]	NA[173]	*[302]	*[302]	*[302]	*[302]	*[302]	input1[302]	42[430]	male[430]	jkqc35grurqg6r29efakrmibd9[430]	speaker: YOU[558]	*->68-1	DefNP[68]	_	_	_	
+160-4	3835-3844	Parkplatz	GWithout[27]	fallen\_set1\_30[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-fallen\_set1\_30[27]	*[46]	*[46]	PrepObj[46]	*[46]	*[46]	false[173]	NA[173]	*[302]	*[302]	*[302]	*[302]	*[302]	input1[302]	42[430]	male[430]	jkqc35grurqg6r29efakrmibd9[430]	speaker: YOU[558]	*->68-1	DefNP[68]	_	_	_	
+
+#Text=es war eisig <BR> aber es ist nichts passiert
+161-1	3846-3848	es	GWithout[27]	fallen\_set1\_30[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-fallen\_set1\_30[27]	*	*	Subj	*	*	false[174]	Decl[174]	*[303]	*[303]	*[303]	*[303]	*[303]	input2[303]	42[431]	male[431]	jkqc35grurqg6r29efakrmibd9[431]	speaker: YOU[559]	_	_	_	_	_	
+161-2	3849-3852	war	GWithout[27]	fallen\_set1\_30[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-fallen\_set1\_30[27]	_	_	_	_	_	false[174]	Decl[174]	*[303]	*[303]	*[303]	*[303]	*[303]	input2[303]	42[431]	male[431]	jkqc35grurqg6r29efakrmibd9[431]	speaker: YOU[559]	_	_	_	_	_	
+161-3	3853-3858	eisig	GWithout[27]	fallen\_set1\_30[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-fallen\_set1\_30[27]	_	_	_	_	_	false[174]	Decl[174]	*[303]	*[303]	*[303]	*[303]	*[303]	input2[303]	42[431]	male[431]	jkqc35grurqg6r29efakrmibd9[431]	speaker: YOU[559]	_	_	_	_	_	
+161-4	3859-3863	<BR>	GWithout[27]	fallen\_set1\_30[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-fallen\_set1\_30[27]	_	_	_	_	_	_	_	*[303]	*[303]	*[303]	*[303]	*[303]	input2[303]	42[431]	male[431]	jkqc35grurqg6r29efakrmibd9[431]	speaker: YOU[559]	_	_	_	_	_	
+161-5	3864-3868	aber	GWithout[27]	fallen\_set1\_30[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-fallen\_set1\_30[27]	_	_	_	_	_	false[175]	Decl[175]	*[303]	*[303]	*[303]	*[303]	*[303]	input2[303]	42[431]	male[431]	jkqc35grurqg6r29efakrmibd9[431]	speaker: YOU[559]	_	_	_	_	_	
+161-6	3869-3871	es	GWithout[27]	fallen\_set1\_30[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-fallen\_set1\_30[27]	*	*	Subj	*	*	false[175]	Decl[175]	*[303]	*[303]	*[303]	*[303]	*[303]	input2[303]	42[431]	male[431]	jkqc35grurqg6r29efakrmibd9[431]	speaker: YOU[559]	_	_	_	_	_	
+161-7	3872-3875	ist	GWithout[27]	fallen\_set1\_30[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-fallen\_set1\_30[27]	_	_	_	_	_	false[175]	Decl[175]	*[303]	*[303]	*[303]	*[303]	*[303]	input2[303]	42[431]	male[431]	jkqc35grurqg6r29efakrmibd9[431]	speaker: YOU[559]	_	_	_	_	_	
+161-8	3876-3882	nichts	GWithout[27]	fallen\_set1\_30[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-fallen\_set1\_30[27]	_	_	_	_	_	false[175]	Decl[175]	*[303]	*[303]	*[303]	*[303]	*[303]	input2[303]	42[431]	male[431]	jkqc35grurqg6r29efakrmibd9[431]	speaker: YOU[559]	_	_	_	_	_	
+161-9	3883-3891	passiert	GWithout[27]	fallen\_set1\_30[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-fallen\_set1\_30[27]	_	_	_	_	_	false[175]	Decl[175]	*[303]	*[303]	*[303]	*[303]	*[303]	input2[303]	42[431]	male[431]	jkqc35grurqg6r29efakrmibd9[431]	speaker: YOU[559]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+162-1	3893-3908	END_OF_DOCUMENT	GWithout[27]	fallen\_set1\_30[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-fallen\_set1\_30[27]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+163-1	3910-3914	Hey,	GWithout[28]	fallen\_set1\_30[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-fallen\_set1\_30[28]	_	_	_	_	_	false[176]	Int[176]	*[304]	*[304]	*[304]	wh\_6[304]	wh\_question[304]	openq[304]	*[432]	male[432]	*[432]	speaker:Noah[560]	_	_	QAP	*	164-1[177_176]	
+163-2	3915-3918	was	GWithout[28]	fallen\_set1\_30[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-fallen\_set1\_30[28]	_	_	_	_	_	false[176]	Int[176]	*[304]	*[304]	*[304]	wh\_6[304]	wh\_question[304]	openq[304]	*[432]	male[432]	*[432]	speaker:Noah[560]	_	_	_	_	_	
+163-3	3919-3924	gibts	GWithout[28]	fallen\_set1\_30[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-fallen\_set1\_30[28]	_	_	_	_	_	false[176]	Int[176]	*[304]	*[304]	*[304]	wh\_6[304]	wh\_question[304]	openq[304]	*[432]	male[432]	*[432]	speaker:Noah[560]	_	_	_	_	_	
+163-4	3925-3931	Neues?	GWithout[28]	fallen\_set1\_30[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-fallen\_set1\_30[28]	_	_	_	_	_	false[176]	Int[176]	*[304]	*[304]	*[304]	wh\_6[304]	wh\_question[304]	openq[304]	*[432]	male[432]	*[432]	speaker:Noah[560]	_	_	_	_	_	
+
+#Text=John ist zu Boden gefallen
+164-1	3933-3937	John	GWithout[28]	fallen\_set1\_30[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-fallen\_set1\_30[28]	*	*	Subj	*	*	false[177]	Decl[177]	*[305]	fallen[305]	intransitive[305]	*[305]	*[305]	item0[305]	20[433]	male[433]	lhu26mh95feeqso1qtacqboi3v[433]	speaker: YOU[561]	*->58-1	PropNm[58]	explanation|contrast	*|*	166-1[178_177]|167-1[179_177]	
+164-2	3938-3941	ist	GWithout[28]	fallen\_set1\_30[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-fallen\_set1\_30[28]	_	_	_	_	_	false[177]	Decl[177]	*[305]	fallen[305]	intransitive[305]	*[305]	*[305]	item0[305]	20[433]	male[433]	lhu26mh95feeqso1qtacqboi3v[433]	speaker: YOU[561]	_	_	_	_	_	
+164-3	3942-3944	zu	GWithout[28]	fallen\_set1\_30[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-fallen\_set1\_30[28]	_	_	_	_	_	false[177]	Decl[177]	*[305]	fallen[305]	intransitive[305]	*[305]	*[305]	item0[305]	20[433]	male[433]	lhu26mh95feeqso1qtacqboi3v[433]	speaker: YOU[561]	_	_	_	_	_	
+164-4	3945-3950	Boden	GWithout[28]	fallen\_set1\_30[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-fallen\_set1\_30[28]	*	*	modifier	*	*	false[177]	Decl[177]	*[305]	fallen[305]	intransitive[305]	*[305]	*[305]	item0[305]	20[433]	male[433]	lhu26mh95feeqso1qtacqboi3v[433]	speaker: YOU[561]	*->62-1	IndefNP[62]	_	_	_	
+164-5	3951-3959	gefallen	GWithout[28]	fallen\_set1\_30[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-fallen\_set1\_30[28]	_	_	_	_	_	false[177]	Decl[177]	*[305]	fallen[305]	intransitive[305]	*[305]	*[305]	item0[305]	20[433]	male[433]	lhu26mh95feeqso1qtacqboi3v[433]	speaker: YOU[561]	_	_	_	_	_	
+
+#Text=-
+165-1	3961-3962	-	GWithout[28]	fallen\_set1\_30[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-fallen\_set1\_30[28]	_	_	_	_	_	false	NA	GWithout	*	*	*	*	feedback	*	male	*	speaker:Noah	_	_	_	_	_	
+
+#Text=Er ist etwas tollpatschig.
+166-1	3964-3966	Er	GWithout[28]	fallen\_set1\_30[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-fallen\_set1\_30[28]	3	*	Subj	*	singular	false[178]	Decl[178]	*[306]	*[306]	*[306]	*[306]	*[306]	input1[306]	20[434]	male[434]	lhu26mh95feeqso1qtacqboi3v[434]	speaker: YOU[562]	*->58-2	PerPron[58]	_	_	_	
+166-2	3967-3970	ist	GWithout[28]	fallen\_set1\_30[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-fallen\_set1\_30[28]	_	_	_	_	_	false[178]	Decl[178]	*[306]	*[306]	*[306]	*[306]	*[306]	input1[306]	20[434]	male[434]	lhu26mh95feeqso1qtacqboi3v[434]	speaker: YOU[562]	_	_	_	_	_	
+166-3	3971-3976	etwas	GWithout[28]	fallen\_set1\_30[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-fallen\_set1\_30[28]	_	_	_	_	_	false[178]	Decl[178]	*[306]	*[306]	*[306]	*[306]	*[306]	input1[306]	20[434]	male[434]	lhu26mh95feeqso1qtacqboi3v[434]	speaker: YOU[562]	_	_	_	_	_	
+166-4	3977-3990	tollpatschig.	GWithout[28]	fallen\_set1\_30[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-fallen\_set1\_30[28]	_	_	_	_	_	false[178]	Decl[178]	*[306]	*[306]	*[306]	*[306]	*[306]	input1[306]	20[434]	male[434]	lhu26mh95feeqso1qtacqboi3v[434]	speaker: YOU[562]	_	_	_	_	_	
+
+#Text=Hat sich aber nicht verletzt.
+167-1	3992-3995	Hat	GWithout[28]	fallen\_set1\_30[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-fallen\_set1\_30[28]	3	*	*	*	singular	false[179]	Decl[179]	*[307]	*[307]	*[307]	*[307]	*[307]	input2[307]	20[435]	male[435]	lhu26mh95feeqso1qtacqboi3v[435]	speaker: YOU[563]	*->58-3	zero[58]	_	_	_	
+167-2	3996-4000	sich	GWithout[28]	fallen\_set1\_30[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-fallen\_set1\_30[28]	_	_	_	_	_	false[179]	Decl[179]	*[307]	*[307]	*[307]	*[307]	*[307]	input2[307]	20[435]	male[435]	lhu26mh95feeqso1qtacqboi3v[435]	speaker: YOU[563]	_	_	_	_	_	
+167-3	4001-4005	aber	GWithout[28]	fallen\_set1\_30[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-fallen\_set1\_30[28]	_	_	_	_	_	false[179]	Decl[179]	*[307]	*[307]	*[307]	*[307]	*[307]	input2[307]	20[435]	male[435]	lhu26mh95feeqso1qtacqboi3v[435]	speaker: YOU[563]	_	_	_	_	_	
+167-4	4006-4011	nicht	GWithout[28]	fallen\_set1\_30[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-fallen\_set1\_30[28]	_	_	_	_	_	false[179]	Decl[179]	*[307]	*[307]	*[307]	*[307]	*[307]	input2[307]	20[435]	male[435]	lhu26mh95feeqso1qtacqboi3v[435]	speaker: YOU[563]	_	_	_	_	_	
+167-5	4012-4021	verletzt.	GWithout[28]	fallen\_set1\_30[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-fallen\_set1\_30[28]	_	_	_	_	_	false[179]	Decl[179]	*[307]	*[307]	*[307]	*[307]	*[307]	input2[307]	20[435]	male[435]	lhu26mh95feeqso1qtacqboi3v[435]	speaker: YOU[563]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+168-1	4023-4038	END_OF_DOCUMENT	GWithout[28]	fallen\_set1\_30[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-fallen\_set1\_30[28]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+169-1	4040-4044	Hey,	GWithout[29]	fallen\_set1\_30[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-fallen\_set1\_30[29]	_	_	_	_	_	false[180]	Int[180]	*[308]	*[308]	*[308]	wh\_6[308]	wh\_question[308]	openq[308]	*[436]	male[436]	*[436]	speaker:Noah[564]	_	_	QAP	*	170-1[181_180]	
+169-2	4045-4048	was	GWithout[29]	fallen\_set1\_30[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-fallen\_set1\_30[29]	_	_	_	_	_	false[180]	Int[180]	*[308]	*[308]	*[308]	wh\_6[308]	wh\_question[308]	openq[308]	*[436]	male[436]	*[436]	speaker:Noah[564]	_	_	_	_	_	
+169-3	4049-4054	gibts	GWithout[29]	fallen\_set1\_30[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-fallen\_set1\_30[29]	_	_	_	_	_	false[180]	Int[180]	*[308]	*[308]	*[308]	wh\_6[308]	wh\_question[308]	openq[308]	*[436]	male[436]	*[436]	speaker:Noah[564]	_	_	_	_	_	
+169-4	4055-4061	Neues?	GWithout[29]	fallen\_set1\_30[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-fallen\_set1\_30[29]	_	_	_	_	_	false[180]	Int[180]	*[308]	*[308]	*[308]	wh\_6[308]	wh\_question[308]	openq[308]	*[436]	male[436]	*[436]	speaker:Noah[564]	_	_	_	_	_	
+
+#Text=John ist zu Boden gefallen
+170-1	4063-4067	John	GWithout[29]	fallen\_set1\_30[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-fallen\_set1\_30[29]	*	*	Subj	*	*	false[181]	Decl[181]	*[309]	fallen[309]	intransitive[309]	*[309]	*[309]	item0[309]	21[437]	male[437]	tc4i3rsgsa9bl8tesf4679lok2[437]	speaker: YOU[565]	*->37-1	PropNm[37]	result	*	172-1[182_181]	
+170-2	4068-4071	ist	GWithout[29]	fallen\_set1\_30[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-fallen\_set1\_30[29]	_	_	_	_	_	false[181]	Decl[181]	*[309]	fallen[309]	intransitive[309]	*[309]	*[309]	item0[309]	21[437]	male[437]	tc4i3rsgsa9bl8tesf4679lok2[437]	speaker: YOU[565]	_	_	_	_	_	
+170-3	4072-4074	zu	GWithout[29]	fallen\_set1\_30[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-fallen\_set1\_30[29]	_	_	_	_	_	false[181]	Decl[181]	*[309]	fallen[309]	intransitive[309]	*[309]	*[309]	item0[309]	21[437]	male[437]	tc4i3rsgsa9bl8tesf4679lok2[437]	speaker: YOU[565]	_	_	_	_	_	
+170-4	4075-4080	Boden	GWithout[29]	fallen\_set1\_30[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-fallen\_set1\_30[29]	*	*	modifier	*	*	false[181]	Decl[181]	*[309]	fallen[309]	intransitive[309]	*[309]	*[309]	item0[309]	21[437]	male[437]	tc4i3rsgsa9bl8tesf4679lok2[437]	speaker: YOU[565]	*->77-1	IndefNP[77]	_	_	_	
+170-5	4081-4089	gefallen	GWithout[29]	fallen\_set1\_30[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-fallen\_set1\_30[29]	_	_	_	_	_	false[181]	Decl[181]	*[309]	fallen[309]	intransitive[309]	*[309]	*[309]	item0[309]	21[437]	male[437]	tc4i3rsgsa9bl8tesf4679lok2[437]	speaker: YOU[565]	_	_	_	_	_	
+
+#Text=-
+171-1	4091-4092	-	GWithout[29]	fallen\_set1\_30[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-fallen\_set1\_30[29]	_	_	_	_	_	false	NA	GWithout	*	*	*	*	feedback	*	male	*	speaker:Noah	_	_	_	_	_	
+
+#Text=Und er hat jetzt starke Schmerzen in der Hüfte
+172-1	4094-4097	Und	GWithout[29]	fallen\_set1\_30[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-fallen\_set1\_30[29]	_	_	_	_	_	false[182]	Decl[182]	*[310]	*[310]	*[310]	*[310]	*[310]	input1[310]	21[438]	male[438]	tc4i3rsgsa9bl8tesf4679lok2[438]	speaker: YOU[566]	_	_	result	*	173-1[183_182]	
+172-2	4098-4100	er	GWithout[29]	fallen\_set1\_30[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-fallen\_set1\_30[29]	3	*	Subj	*	singular	false[182]	Decl[182]	*[310]	*[310]	*[310]	*[310]	*[310]	input1[310]	21[438]	male[438]	tc4i3rsgsa9bl8tesf4679lok2[438]	speaker: YOU[566]	*->37-2	PerPron[37]	_	_	_	
+172-3	4101-4104	hat	GWithout[29]	fallen\_set1\_30[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-fallen\_set1\_30[29]	_	_	_	_	_	false[182]	Decl[182]	*[310]	*[310]	*[310]	*[310]	*[310]	input1[310]	21[438]	male[438]	tc4i3rsgsa9bl8tesf4679lok2[438]	speaker: YOU[566]	_	_	_	_	_	
+172-4	4105-4110	jetzt	GWithout[29]	fallen\_set1\_30[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-fallen\_set1\_30[29]	_	_	_	_	_	false[182]	Decl[182]	*[310]	*[310]	*[310]	*[310]	*[310]	input1[310]	21[438]	male[438]	tc4i3rsgsa9bl8tesf4679lok2[438]	speaker: YOU[566]	_	_	_	_	_	
+172-5	4111-4117	starke	GWithout[29]	fallen\_set1\_30[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-fallen\_set1\_30[29]	*[47]	*[47]	DirObj[47]	*[47]	*[47]	false[182]	Decl[182]	*[310]	*[310]	*[310]	*[310]	*[310]	input1[310]	21[438]	male[438]	tc4i3rsgsa9bl8tesf4679lok2[438]	speaker: YOU[566]	*->52-1	DefNP[52]	_	_	_	
+172-6	4118-4127	Schmerzen	GWithout[29]	fallen\_set1\_30[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-fallen\_set1\_30[29]	*[47]	*[47]	DirObj[47]	*[47]	*[47]	false[182]	Decl[182]	*[310]	*[310]	*[310]	*[310]	*[310]	input1[310]	21[438]	male[438]	tc4i3rsgsa9bl8tesf4679lok2[438]	speaker: YOU[566]	*->52-1	DefNP[52]	_	_	_	
+172-7	4128-4130	in	GWithout[29]	fallen\_set1\_30[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-fallen\_set1\_30[29]	_	_	_	_	_	false[182]	Decl[182]	*[310]	*[310]	*[310]	*[310]	*[310]	input1[310]	21[438]	male[438]	tc4i3rsgsa9bl8tesf4679lok2[438]	speaker: YOU[566]	_	_	_	_	_	
+172-8	4131-4134	der	GWithout[29]	fallen\_set1\_30[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-fallen\_set1\_30[29]	*[48]	*[48]	PrepObj[48]	*[48]	*[48]	false[182]	Decl[182]	*[310]	*[310]	*[310]	*[310]	*[310]	input1[310]	21[438]	male[438]	tc4i3rsgsa9bl8tesf4679lok2[438]	speaker: YOU[566]	*->38-1	DefNP[38]	_	_	_	
+172-9	4135-4140	Hüfte	GWithout[29]	fallen\_set1\_30[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-fallen\_set1\_30[29]	*[48]	*[48]	PrepObj[48]	*[48]	*[48]	false[182]	Decl[182]	*[310]	*[310]	*[310]	*[310]	*[310]	input1[310]	21[438]	male[438]	tc4i3rsgsa9bl8tesf4679lok2[438]	speaker: YOU[566]	*->38-1	DefNP[38]	_	_	_	
+
+#Text=Ich denke ich bringe ihn ins Krankenhaus
+173-1	4142-4145	Ich	GWithout[29]	fallen\_set1\_30[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-fallen\_set1\_30[29]	1	*	Subj	*	singular	false[183]	Decl[183]	*[311]	*[311]	*[311]	*[311]	*[311]	input2[311]	21[439]	male[439]	tc4i3rsgsa9bl8tesf4679lok2[439]	speaker: YOU[567]	*->17-1	PerPron[17]	_	_	_	
+173-2	4146-4151	denke	GWithout[29]	fallen\_set1\_30[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-fallen\_set1\_30[29]	_	_	_	_	_	false[183]	Decl[183]	*[311]	*[311]	*[311]	*[311]	*[311]	input2[311]	21[439]	male[439]	tc4i3rsgsa9bl8tesf4679lok2[439]	speaker: YOU[567]	_	_	_	_	_	
+173-3	4152-4155	ich	GWithout[29]	fallen\_set1\_30[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-fallen\_set1\_30[29]	1	*	Subj	*	singular	false[183]	Decl[183]	*[311]	*[311]	*[311]	*[311]	*[311]	input2[311]	21[439]	male[439]	tc4i3rsgsa9bl8tesf4679lok2[439]	speaker: YOU[567]	*->17-2	PerPron[17]	_	_	_	
+173-4	4156-4162	bringe	GWithout[29]	fallen\_set1\_30[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-fallen\_set1\_30[29]	_	_	_	_	_	false[183]	Decl[183]	*[311]	*[311]	*[311]	*[311]	*[311]	input2[311]	21[439]	male[439]	tc4i3rsgsa9bl8tesf4679lok2[439]	speaker: YOU[567]	_	_	_	_	_	
+173-5	4163-4166	ihn	GWithout[29]	fallen\_set1\_30[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-fallen\_set1\_30[29]	3	*	DirObj	*	singular	false[183]	Decl[183]	*[311]	*[311]	*[311]	*[311]	*[311]	input2[311]	21[439]	male[439]	tc4i3rsgsa9bl8tesf4679lok2[439]	speaker: YOU[567]	*->37-3	PerPron[37]	_	_	_	
+173-6	4167-4170	ins	GWithout[29]	fallen\_set1\_30[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-fallen\_set1\_30[29]	_	_	_	_	_	false[183]	Decl[183]	*[311]	*[311]	*[311]	*[311]	*[311]	input2[311]	21[439]	male[439]	tc4i3rsgsa9bl8tesf4679lok2[439]	speaker: YOU[567]	*->88-1	DefNP[88]	_	_	_	
+173-7	4171-4182	Krankenhaus	GWithout[29]	fallen\_set1\_30[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-fallen\_set1\_30[29]	*	*	PrepObj	*	*	false[183]	Decl[183]	*[311]	*[311]	*[311]	*[311]	*[311]	input2[311]	21[439]	male[439]	tc4i3rsgsa9bl8tesf4679lok2[439]	speaker: YOU[567]	*->88-1	DefNP[88]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+174-1	4184-4199	END_OF_DOCUMENT	GWithout[29]	fallen\_set1\_30[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-fallen\_set1\_30[29]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+175-1	4201-4205	Hey,	GWithout[30]	fallen\_set1\_30[30]	latin1[30]	us0adlivem61c2bj5776kudbot-fallen\_set1\_30[30]	*[49]	*[49]	*[49]	*[49]	*[49]	false[184]	Int[184]	*[312]	*[312]	*[312]	wh\_6[312]	wh\_question[312]	openq[312]	*[440]	male[440]	*[440]	speaker:Noah[568]	_	_	QAP	*	176-1[185_184]	
+175-2	4206-4209	was	GWithout[30]	fallen\_set1\_30[30]	latin1[30]	us0adlivem61c2bj5776kudbot-fallen\_set1\_30[30]	*[49]	*[49]	*[49]	*[49]	*[49]	false[184]	Int[184]	*[312]	*[312]	*[312]	wh\_6[312]	wh\_question[312]	openq[312]	*[440]	male[440]	*[440]	speaker:Noah[568]	_	_	_	_	_	
+175-3	4210-4215	gibts	GWithout[30]	fallen\_set1\_30[30]	latin1[30]	us0adlivem61c2bj5776kudbot-fallen\_set1\_30[30]	*[49]	*[49]	*[49]	*[49]	*[49]	false[184]	Int[184]	*[312]	*[312]	*[312]	wh\_6[312]	wh\_question[312]	openq[312]	*[440]	male[440]	*[440]	speaker:Noah[568]	_	_	_	_	_	
+175-4	4216-4222	Neues?	GWithout[30]	fallen\_set1\_30[30]	latin1[30]	us0adlivem61c2bj5776kudbot-fallen\_set1\_30[30]	*[49]	*[49]	*[49]	*[49]	*[49]	false[184]	Int[184]	*[312]	*[312]	*[312]	wh\_6[312]	wh\_question[312]	openq[312]	*[440]	male[440]	*[440]	speaker:Noah[568]	_	_	_	_	_	
+
+#Text=John ist zu Boden gefallen
+176-1	4224-4228	John	GWithout[30]	fallen\_set1\_30[30]	latin1[30]	us0adlivem61c2bj5776kudbot-fallen\_set1\_30[30]	*[49]|*[50]	*[49]|*[50]	*[49]|Subj[50]	*[49]|*[50]	*[49]|*[50]	false[185]	Decl[185]	*[313]	fallen[313]	intransitive[313]	*[313]	*[313]	item0[313]	66[441]	male[441]	us0adlivem61c2bj5776kudbot[441]	speaker: YOU[569]	*->89-1	PropNm[89]	explanation|result	*|*	178-1[0_185]|179-1[186_185]	
+176-2	4229-4232	ist	GWithout[30]	fallen\_set1\_30[30]	latin1[30]	us0adlivem61c2bj5776kudbot-fallen\_set1\_30[30]	*[49]	*[49]	*[49]	*[49]	*[49]	false[185]	Decl[185]	*[313]	fallen[313]	intransitive[313]	*[313]	*[313]	item0[313]	66[441]	male[441]	us0adlivem61c2bj5776kudbot[441]	speaker: YOU[569]	_	_	_	_	_	
+176-3	4233-4235	zu	GWithout[30]	fallen\_set1\_30[30]	latin1[30]	us0adlivem61c2bj5776kudbot-fallen\_set1\_30[30]	*[49]	*[49]	*[49]	*[49]	*[49]	false[185]	Decl[185]	*[313]	fallen[313]	intransitive[313]	*[313]	*[313]	item0[313]	66[441]	male[441]	us0adlivem61c2bj5776kudbot[441]	speaker: YOU[569]	_	_	_	_	_	
+176-4	4236-4241	Boden	GWithout[30]	fallen\_set1\_30[30]	latin1[30]	us0adlivem61c2bj5776kudbot-fallen\_set1\_30[30]	*[49]|*[51]	*[49]|*[51]	*[49]|modifier[51]	*[49]|*[51]	*[49]|*[51]	false[185]	Decl[185]	*[313]	fallen[313]	intransitive[313]	*[313]	*[313]	item0[313]	66[441]	male[441]	us0adlivem61c2bj5776kudbot[441]	speaker: YOU[569]	*->112-1	IndefNP[112]	_	_	_	
+176-5	4242-4250	gefallen	GWithout[30]	fallen\_set1\_30[30]	latin1[30]	us0adlivem61c2bj5776kudbot-fallen\_set1\_30[30]	*[49]	*[49]	*[49]	*[49]	*[49]	false[185]	Decl[185]	*[313]	fallen[313]	intransitive[313]	*[313]	*[313]	item0[313]	66[441]	male[441]	us0adlivem61c2bj5776kudbot[441]	speaker: YOU[569]	_	_	_	_	_	
+
+#Text=-
+177-1	4252-4253	-	GWithout[30]	fallen\_set1\_30[30]	latin1[30]	us0adlivem61c2bj5776kudbot-fallen\_set1\_30[30]	*[49]	*[49]	*[49]	*[49]	*[49]	false	NA	GWithout	*	*	*	*	feedback	*	male	*	speaker:Noah	_	_	_	_	_	
+
+#Text=gestolpert
+178-1	4255-4265	gestolpert	GWithout[30]	fallen\_set1\_30[30]	latin1[30]	us0adlivem61c2bj5776kudbot-fallen\_set1\_30[30]	*[49]	*[49]	*[49]	*[49]	*[49]	false	NA	*	*	*	*	*	input1	66	male	us0adlivem61c2bj5776kudbot	speaker: YOU	_	_	_	_	_	
+
+#Text=leicht Knie verletzt
+179-1	4267-4273	leicht	GWithout[30]	fallen\_set1\_30[30]	latin1[30]	us0adlivem61c2bj5776kudbot-fallen\_set1\_30[30]	*[49]	*[49]	*[49]	*[49]	*[49]	false[186]	NA[186]	*[314]	*[314]	*[314]	*[314]	*[314]	input2[314]	66[442]	male[442]	us0adlivem61c2bj5776kudbot[442]	speaker: YOU[570]	_	_	_	_	_	
+179-2	4274-4278	Knie	GWithout[30]	fallen\_set1\_30[30]	latin1[30]	us0adlivem61c2bj5776kudbot-fallen\_set1\_30[30]	*[49]|*[52]	*[49]|*[52]	*[49]|DirObj[52]	*[49]|*[52]	*[49]|*[52]	false[186]	NA[186]	*[314]	*[314]	*[314]	*[314]	*[314]	input2[314]	66[442]	male[442]	us0adlivem61c2bj5776kudbot[442]	speaker: YOU[570]	*->92-1	IndefNP[92]	_	_	_	
+179-3	4279-4287	verletzt	GWithout[30]	fallen\_set1\_30[30]	latin1[30]	us0adlivem61c2bj5776kudbot-fallen\_set1\_30[30]	*[49]	*[49]	*[49]	*[49]	*[49]	false[186]	NA[186]	*[314]	*[314]	*[314]	*[314]	*[314]	input2[314]	66[442]	male[442]	us0adlivem61c2bj5776kudbot[442]	speaker: YOU[570]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+180-1	4289-4304	END_OF_DOCUMENT	GWithout[30]	fallen\_set1\_30[30]	latin1[30]	us0adlivem61c2bj5776kudbot-fallen\_set1\_30[30]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	

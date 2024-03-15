@@ -1,0 +1,1061 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Item_info|condition|item_id|latinsqr_list|unique_id
+#T_SP=webanno.custom.Ref_info|PersonalPronouns_detailed|ref_def|ref_function|ref_gender|ref_num
+#T_SP=webanno.custom.Segment|complex|segment_type
+#T_SP=webanno.custom.Sent_layer|feedback_id|item0_verb|item0_verbtype|openq_id|openq_type|sent_type
+#T_SP=webanno.custom.Speaker_meta|age|gender|speaker_id
+#T_SP=webanno.custom.Speaker_name|speaker_name
+#T_CH=de.tudarmstadt.ukp.dkpro.core.api.coref.type.CoreferenceLink|referenceRelation|referenceType
+#T_RL=webanno.custom.Relations|discourse_rel|speechAct_rel|BT_webanno.custom.Segment
+
+
+#Text=Alles klar bei dir?
+1-1	0-5	Alles	GFailure[1]	essen\_set1\_23[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-essen\_set1\_23[1]	*[31]	*[31]	*[31]	*[31]	*[31]	false[78]	Int[78]	*[208]	*[208]	*[208]	yn\_1[208]	yesno\_question[208]	openq[208]	*[326]	female[326]	*[326]	speaker:Franziska[444]	_	_	QAP	*	2-1[79_78]	
+1-2	6-10	klar	GFailure[1]	essen\_set1\_23[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-essen\_set1\_23[1]	*[31]	*[31]	*[31]	*[31]	*[31]	false[78]	Int[78]	*[208]	*[208]	*[208]	yn\_1[208]	yesno\_question[208]	openq[208]	*[326]	female[326]	*[326]	speaker:Franziska[444]	_	_	_	_	_	
+1-3	11-14	bei	GFailure[1]	essen\_set1\_23[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-essen\_set1\_23[1]	*[31]	*[31]	*[31]	*[31]	*[31]	false[78]	Int[78]	*[208]	*[208]	*[208]	yn\_1[208]	yesno\_question[208]	openq[208]	*[326]	female[326]	*[326]	speaker:Franziska[444]	_	_	_	_	_	
+1-4	15-19	dir?	GFailure[1]	essen\_set1\_23[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-essen\_set1\_23[1]	*[31]|2[32]	*[31]|*[32]	*[31]|*[32]	*[31]|*[32]	*[31]|singular[32]	false[78]	Int[78]	*[208]	*[208]	*[208]	yn\_1[208]	yesno\_question[208]	openq[208]	*[326]	female[326]	*[326]	speaker:Franziska[444]	*->91-1	PerPron[91]	_	_	_	
+
+#Text=Richard hat kalte Spaghetti gegessen
+2-1	21-28	Richard	GFailure[1]	essen\_set1\_23[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-essen\_set1\_23[1]	*[31]|*[33]	*[31]|*[33]	*[31]|Subj[33]	*[31]|*[33]	*[31]|*[33]	false[79]	Decl[79]	*[209]	essen[209]	transitive[209]	*[209]	*[209]	item0[209]	32[327]	female[327]	2em9nj6n4c2pjudl6n6hfpjc30[327]	speaker: YOU[445]	*->109-1	PropNm[109]	elaboration|elaboration|CR	*|*|*	4-1[80_79]|5-1[81_79]|3-1[0_79]	
+2-2	29-32	hat	GFailure[1]	essen\_set1\_23[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-essen\_set1\_23[1]	*[31]	*[31]	*[31]	*[31]	*[31]	false[79]	Decl[79]	*[209]	essen[209]	transitive[209]	*[209]	*[209]	item0[209]	32[327]	female[327]	2em9nj6n4c2pjudl6n6hfpjc30[327]	speaker: YOU[445]	_	_	_	_	_	
+2-3	33-38	kalte	GFailure[1]	essen\_set1\_23[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-essen\_set1\_23[1]	*[31]|*[34]	*[31]|*[34]	*[31]|object[34]	*[31]|*[34]	*[31]|*[34]	false[79]	Decl[79]	*[209]	essen[209]	transitive[209]	*[209]	*[209]	item0[209]	32[327]	female[327]	2em9nj6n4c2pjudl6n6hfpjc30[327]	speaker: YOU[445]	*->5-1	IndefNP[5]	_	_	_	
+2-4	39-48	Spaghetti	GFailure[1]	essen\_set1\_23[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-essen\_set1\_23[1]	*[31]|*[34]	*[31]|*[34]	*[31]|object[34]	*[31]|*[34]	*[31]|*[34]	false[79]	Decl[79]	*[209]	essen[209]	transitive[209]	*[209]	*[209]	item0[209]	32[327]	female[327]	2em9nj6n4c2pjudl6n6hfpjc30[327]	speaker: YOU[445]	*->5-1	IndefNP[5]	_	_	_	
+2-5	49-57	gegessen	GFailure[1]	essen\_set1\_23[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-essen\_set1\_23[1]	*[31]	*[31]	*[31]	*[31]	*[31]	false[79]	Decl[79]	*[209]	essen[209]	transitive[209]	*[209]	*[209]	item0[209]	32[327]	female[327]	2em9nj6n4c2pjudl6n6hfpjc30[327]	speaker: YOU[445]	_	_	_	_	_	
+
+#Text=Häh?
+3-1	59-63	Häh?	GFailure[1]	essen\_set1\_23[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-essen\_set1\_23[1]	*[31]	*[31]	*[31]	*[31]	*[31]	false	NA	haeh\_question\_1	*	*	*	*	feedback	*	female	*	speaker:Franziska	_	_	_	_	_	
+
+#Text=Nur die Spaghetti.
+4-1	65-68	Nur	GFailure[1]	essen\_set1\_23[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-essen\_set1\_23[1]	*[31]	*[31]	*[31]	*[31]	*[31]	false[80]	NA[80]	*[210]	*[210]	*[210]	*[210]	*[210]	input1[210]	32[328]	female[328]	2em9nj6n4c2pjudl6n6hfpjc30[328]	speaker: YOU[446]	_	_	_	_	_	
+4-2	69-72	die	GFailure[1]	essen\_set1\_23[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-essen\_set1\_23[1]	*[31]|*[35]	*[31]|*[35]	*[31]|DirObj[35]	*[31]|*[35]	*[31]|*[35]	false[80]	NA[80]	*[210]	*[210]	*[210]	*[210]	*[210]	input1[210]	32[328]	female[328]	2em9nj6n4c2pjudl6n6hfpjc30[328]	speaker: YOU[446]	*->5-2	DefNP[5]	_	_	_	
+4-3	73-83	Spaghetti.	GFailure[1]	essen\_set1\_23[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-essen\_set1\_23[1]	*[31]|*[35]	*[31]|*[35]	*[31]|DirObj[35]	*[31]|*[35]	*[31]|*[35]	false[80]	NA[80]	*[210]	*[210]	*[210]	*[210]	*[210]	input1[210]	32[328]	female[328]	2em9nj6n4c2pjudl6n6hfpjc30[328]	speaker: YOU[446]	*->5-2	DefNP[5]	_	_	_	
+
+#Text=Nicht mal aufgewärmt oder so...
+5-1	85-90	Nicht	GFailure[1]	essen\_set1\_23[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-essen\_set1\_23[1]	*[31]	*[31]	*[31]	*[31]	*[31]	false[81]	NA[81]	*[211]	*[211]	*[211]	*[211]	*[211]	input2[211]	32[329]	female[329]	2em9nj6n4c2pjudl6n6hfpjc30[329]	speaker: YOU[447]	_	_	_	_	_	
+5-2	91-94	mal	GFailure[1]	essen\_set1\_23[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-essen\_set1\_23[1]	*[31]	*[31]	*[31]	*[31]	*[31]	false[81]	NA[81]	*[211]	*[211]	*[211]	*[211]	*[211]	input2[211]	32[329]	female[329]	2em9nj6n4c2pjudl6n6hfpjc30[329]	speaker: YOU[447]	_	_	_	_	_	
+5-3	95-105	aufgewärmt	GFailure[1]	essen\_set1\_23[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-essen\_set1\_23[1]	*[31]	*[31]	*[31]	*[31]	*[31]	false[81]	NA[81]	*[211]	*[211]	*[211]	*[211]	*[211]	input2[211]	32[329]	female[329]	2em9nj6n4c2pjudl6n6hfpjc30[329]	speaker: YOU[447]	_	_	_	_	_	
+5-4	106-110	oder	GFailure[1]	essen\_set1\_23[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-essen\_set1\_23[1]	*[31]	*[31]	*[31]	*[31]	*[31]	false[81]	NA[81]	*[211]	*[211]	*[211]	*[211]	*[211]	input2[211]	32[329]	female[329]	2em9nj6n4c2pjudl6n6hfpjc30[329]	speaker: YOU[447]	_	_	_	_	_	
+5-5	111-116	so...	GFailure[1]	essen\_set1\_23[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-essen\_set1\_23[1]	*[31]	*[31]	*[31]	*[31]	*[31]	false[81]	NA[81]	*[211]	*[211]	*[211]	*[211]	*[211]	input2[211]	32[329]	female[329]	2em9nj6n4c2pjudl6n6hfpjc30[329]	speaker: YOU[447]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+6-1	118-133	END_OF_DOCUMENT	GFailure[1]	essen\_set1\_23[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-essen\_set1\_23[1]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+7-1	135-140	Alles	GFailure[2]	essen\_set1\_23[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-essen\_set1\_23[2]	_	_	_	_	_	false[82]	Int[82]	*[212]	*[212]	*[212]	yn\_1[212]	yesno\_question[212]	openq[212]	*[330]	female[330]	*[330]	speaker:Franziska[448]	_	_	QAP	*	8-1[83_82]	
+7-2	141-145	klar	GFailure[2]	essen\_set1\_23[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-essen\_set1\_23[2]	_	_	_	_	_	false[82]	Int[82]	*[212]	*[212]	*[212]	yn\_1[212]	yesno\_question[212]	openq[212]	*[330]	female[330]	*[330]	speaker:Franziska[448]	_	_	_	_	_	
+7-3	146-149	bei	GFailure[2]	essen\_set1\_23[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-essen\_set1\_23[2]	_	_	_	_	_	false[82]	Int[82]	*[212]	*[212]	*[212]	yn\_1[212]	yesno\_question[212]	openq[212]	*[330]	female[330]	*[330]	speaker:Franziska[448]	_	_	_	_	_	
+7-4	150-154	dir?	GFailure[2]	essen\_set1\_23[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-essen\_set1\_23[2]	2	*	*	*	singular	false[82]	Int[82]	*[212]	*[212]	*[212]	yn\_1[212]	yesno\_question[212]	openq[212]	*[330]	female[330]	*[330]	speaker:Franziska[448]	*->128-1	PerPron[128]	_	_	_	
+
+#Text=Richard hat kalte Spaghetti gegessen
+8-1	156-163	Richard	GFailure[2]	essen\_set1\_23[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-essen\_set1\_23[2]	*	*	Subj	*	*	false[83]	Decl[83]	*[213]	essen[213]	transitive[213]	*[213]	*[213]	item0[213]	41[331]	female[331]	2prsavjsjqbmc8hrbo9bovkues[331]	speaker: YOU[449]	*->81-1	PropNm[81]	CR	*	9-1[0_83]	
+8-2	164-167	hat	GFailure[2]	essen\_set1\_23[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-essen\_set1\_23[2]	_	_	_	_	_	false[83]	Decl[83]	*[213]	essen[213]	transitive[213]	*[213]	*[213]	item0[213]	41[331]	female[331]	2prsavjsjqbmc8hrbo9bovkues[331]	speaker: YOU[449]	_	_	_	_	_	
+8-3	168-173	kalte	GFailure[2]	essen\_set1\_23[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-essen\_set1\_23[2]	*[36]	*[36]	object[36]	*[36]	*[36]	false[83]	Decl[83]	*[213]	essen[213]	transitive[213]	*[213]	*[213]	item0[213]	41[331]	female[331]	2prsavjsjqbmc8hrbo9bovkues[331]	speaker: YOU[449]	*->108-1	IndefNP[108]	_	_	_	
+8-4	174-183	Spaghetti	GFailure[2]	essen\_set1\_23[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-essen\_set1\_23[2]	*[36]	*[36]	object[36]	*[36]	*[36]	false[83]	Decl[83]	*[213]	essen[213]	transitive[213]	*[213]	*[213]	item0[213]	41[331]	female[331]	2prsavjsjqbmc8hrbo9bovkues[331]	speaker: YOU[449]	*->108-1	IndefNP[108]	_	_	_	
+8-5	184-192	gegessen	GFailure[2]	essen\_set1\_23[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-essen\_set1\_23[2]	_	_	_	_	_	false[83]	Decl[83]	*[213]	essen[213]	transitive[213]	*[213]	*[213]	item0[213]	41[331]	female[331]	2prsavjsjqbmc8hrbo9bovkues[331]	speaker: YOU[449]	_	_	_	_	_	
+
+#Text=Häh?
+9-1	194-198	Häh?	GFailure[2]	essen\_set1\_23[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-essen\_set1\_23[2]	_	_	_	_	_	false	NA	haeh\_question\_1	*	*	*	*	feedback	*	female	*	speaker:Franziska	_	_	parallel	*	10-1[84_0]	
+
+#Text=Ich weiß auch nicht.
+10-1	200-203	Ich	GFailure[2]	essen\_set1\_23[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-essen\_set1\_23[2]	1	*	Subj	*	singular	false[84]	Decl[84]	*[214]	*[214]	*[214]	*[214]	*[214]	input1[214]	41[332]	female[332]	2prsavjsjqbmc8hrbo9bovkues[332]	speaker: YOU[450]	*->128-2	PerPron[128]	elaboration	*	11-1[85_84]	
+10-2	204-208	weiß	GFailure[2]	essen\_set1\_23[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-essen\_set1\_23[2]	_	_	_	_	_	false[84]	Decl[84]	*[214]	*[214]	*[214]	*[214]	*[214]	input1[214]	41[332]	female[332]	2prsavjsjqbmc8hrbo9bovkues[332]	speaker: YOU[450]	_	_	_	_	_	
+10-3	209-213	auch	GFailure[2]	essen\_set1\_23[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-essen\_set1\_23[2]	_	_	_	_	_	false[84]	Decl[84]	*[214]	*[214]	*[214]	*[214]	*[214]	input1[214]	41[332]	female[332]	2prsavjsjqbmc8hrbo9bovkues[332]	speaker: YOU[450]	_	_	_	_	_	
+10-4	214-220	nicht.	GFailure[2]	essen\_set1\_23[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-essen\_set1\_23[2]	_	_	_	_	_	false[84]	Decl[84]	*[214]	*[214]	*[214]	*[214]	*[214]	input1[214]	41[332]	female[332]	2prsavjsjqbmc8hrbo9bovkues[332]	speaker: YOU[450]	_	_	_	_	_	
+
+#Text=Vielleicht ist die Mikrowelle zu kompliziert.
+11-1	222-232	Vielleicht	GFailure[2]	essen\_set1\_23[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-essen\_set1\_23[2]	_	_	_	_	_	false[85]	Decl[85]	*[215]	*[215]	*[215]	*[215]	*[215]	input2[215]	41[333]	female[333]	2prsavjsjqbmc8hrbo9bovkues[333]	speaker: YOU[451]	_	_	_	_	_	
+11-2	233-236	ist	GFailure[2]	essen\_set1\_23[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-essen\_set1\_23[2]	_	_	_	_	_	false[85]	Decl[85]	*[215]	*[215]	*[215]	*[215]	*[215]	input2[215]	41[333]	female[333]	2prsavjsjqbmc8hrbo9bovkues[333]	speaker: YOU[451]	_	_	_	_	_	
+11-3	237-240	die	GFailure[2]	essen\_set1\_23[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-essen\_set1\_23[2]	*[37]	*[37]	Subj[37]	*[37]	*[37]	false[85]	Decl[85]	*[215]	*[215]	*[215]	*[215]	*[215]	input2[215]	41[333]	female[333]	2prsavjsjqbmc8hrbo9bovkues[333]	speaker: YOU[451]	*->44-1	DefNP[44]	_	_	_	
+11-4	241-251	Mikrowelle	GFailure[2]	essen\_set1\_23[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-essen\_set1\_23[2]	*[37]	*[37]	Subj[37]	*[37]	*[37]	false[85]	Decl[85]	*[215]	*[215]	*[215]	*[215]	*[215]	input2[215]	41[333]	female[333]	2prsavjsjqbmc8hrbo9bovkues[333]	speaker: YOU[451]	*->44-1	DefNP[44]	_	_	_	
+11-5	252-254	zu	GFailure[2]	essen\_set1\_23[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-essen\_set1\_23[2]	_	_	_	_	_	false[85]	Decl[85]	*[215]	*[215]	*[215]	*[215]	*[215]	input2[215]	41[333]	female[333]	2prsavjsjqbmc8hrbo9bovkues[333]	speaker: YOU[451]	_	_	_	_	_	
+11-6	255-267	kompliziert.	GFailure[2]	essen\_set1\_23[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-essen\_set1\_23[2]	_	_	_	_	_	false[85]	Decl[85]	*[215]	*[215]	*[215]	*[215]	*[215]	input2[215]	41[333]	female[333]	2prsavjsjqbmc8hrbo9bovkues[333]	speaker: YOU[451]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+12-1	269-284	END_OF_DOCUMENT	GFailure[2]	essen\_set1\_23[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-essen\_set1\_23[2]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+13-1	286-291	Alles	GFailure[3]	essen\_set1\_23[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-essen\_set1\_23[3]	_	_	_	_	_	false[86]	Int[86]	*[216]	*[216]	*[216]	yn\_1[216]	yesno\_question[216]	openq[216]	*[334]	female[334]	*[334]	speaker:Franziska[452]	_	_	QAP	*	14-1[87_86]	
+13-2	292-296	klar	GFailure[3]	essen\_set1\_23[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-essen\_set1\_23[3]	_	_	_	_	_	false[86]	Int[86]	*[216]	*[216]	*[216]	yn\_1[216]	yesno\_question[216]	openq[216]	*[334]	female[334]	*[334]	speaker:Franziska[452]	_	_	_	_	_	
+13-3	297-300	bei	GFailure[3]	essen\_set1\_23[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-essen\_set1\_23[3]	_	_	_	_	_	false[86]	Int[86]	*[216]	*[216]	*[216]	yn\_1[216]	yesno\_question[216]	openq[216]	*[334]	female[334]	*[334]	speaker:Franziska[452]	_	_	_	_	_	
+13-4	301-305	dir?	GFailure[3]	essen\_set1\_23[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-essen\_set1\_23[3]	2	*	*	*	singular	false[86]	Int[86]	*[216]	*[216]	*[216]	yn\_1[216]	yesno\_question[216]	openq[216]	*[334]	female[334]	*[334]	speaker:Franziska[452]	*->26-1	PerPron[26]	_	_	_	
+
+#Text=Richard hat kalte Spaghetti gegessen
+14-1	307-314	Richard	GFailure[3]	essen\_set1\_23[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-essen\_set1\_23[3]	*	*	Subj	*	*	false[87]	Decl[87]	*[217]	essen[217]	transitive[217]	*[217]	*[217]	item0[217]	46[335]	male[335]	3jjtes457iqluuhfmeiub8g6qd[335]	speaker: YOU[453]	*->80-1	PropNm[80]	explanation|elaboration|CR	*|*|*	16-1[88_87]|17-1[89_87]|15-1[0_87]	
+14-2	315-318	hat	GFailure[3]	essen\_set1\_23[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-essen\_set1\_23[3]	_	_	_	_	_	false[87]	Decl[87]	*[217]	essen[217]	transitive[217]	*[217]	*[217]	item0[217]	46[335]	male[335]	3jjtes457iqluuhfmeiub8g6qd[335]	speaker: YOU[453]	_	_	_	_	_	
+14-3	319-324	kalte	GFailure[3]	essen\_set1\_23[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-essen\_set1\_23[3]	*[38]	*[38]	object[38]	*[38]	*[38]	false[87]	Decl[87]	*[217]	essen[217]	transitive[217]	*[217]	*[217]	item0[217]	46[335]	male[335]	3jjtes457iqluuhfmeiub8g6qd[335]	speaker: YOU[453]	*->15-1	IndefNP[15]	_	_	_	
+14-4	325-334	Spaghetti	GFailure[3]	essen\_set1\_23[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-essen\_set1\_23[3]	*[38]	*[38]	object[38]	*[38]	*[38]	false[87]	Decl[87]	*[217]	essen[217]	transitive[217]	*[217]	*[217]	item0[217]	46[335]	male[335]	3jjtes457iqluuhfmeiub8g6qd[335]	speaker: YOU[453]	*->15-1	IndefNP[15]	_	_	_	
+14-5	335-343	gegessen	GFailure[3]	essen\_set1\_23[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-essen\_set1\_23[3]	_	_	_	_	_	false[87]	Decl[87]	*[217]	essen[217]	transitive[217]	*[217]	*[217]	item0[217]	46[335]	male[335]	3jjtes457iqluuhfmeiub8g6qd[335]	speaker: YOU[453]	_	_	_	_	_	
+
+#Text=Häh?
+15-1	345-349	Häh?	GFailure[3]	essen\_set1\_23[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-essen\_set1\_23[3]	_	_	_	_	_	false	NA	haeh\_question\_1	*	*	*	*	feedback	*	female	*	speaker:Franziska	_	_	_	_	_	
+
+#Text=Ich hab heute Mittag welche gemacht.
+16-1	351-354	Ich	GFailure[3]	essen\_set1\_23[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-essen\_set1\_23[3]	1	*	Subj	*	singular	false[88]	Decl[88]	*[218]	*[218]	*[218]	*[218]	*[218]	input1[218]	46[336]	male[336]	3jjtes457iqluuhfmeiub8g6qd[336]	speaker: YOU[454]	*->26-2	PerPron[26]	narration	*	17-1[89_88]	
+16-2	355-358	hab	GFailure[3]	essen\_set1\_23[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-essen\_set1\_23[3]	_	_	_	_	_	false[88]	Decl[88]	*[218]	*[218]	*[218]	*[218]	*[218]	input1[218]	46[336]	male[336]	3jjtes457iqluuhfmeiub8g6qd[336]	speaker: YOU[454]	_	_	_	_	_	
+16-3	359-364	heute	GFailure[3]	essen\_set1\_23[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-essen\_set1\_23[3]	_	_	_	_	_	false[88]	Decl[88]	*[218]	*[218]	*[218]	*[218]	*[218]	input1[218]	46[336]	male[336]	3jjtes457iqluuhfmeiub8g6qd[336]	speaker: YOU[454]	*->53-1	DefNP[53]	_	_	_	
+16-4	365-371	Mittag	GFailure[3]	essen\_set1\_23[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-essen\_set1\_23[3]	_	_	_	_	_	false[88]	Decl[88]	*[218]	*[218]	*[218]	*[218]	*[218]	input1[218]	46[336]	male[336]	3jjtes457iqluuhfmeiub8g6qd[336]	speaker: YOU[454]	*->53-1	DefNP[53]	_	_	_	
+16-5	372-378	welche	GFailure[3]	essen\_set1\_23[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-essen\_set1\_23[3]	_	_	_	_	_	false[88]	Decl[88]	*[218]	*[218]	*[218]	*[218]	*[218]	input1[218]	46[336]	male[336]	3jjtes457iqluuhfmeiub8g6qd[336]	speaker: YOU[454]	*->78-1	IndefNP[78]	_	_	_	
+16-6	379-387	gemacht.	GFailure[3]	essen\_set1\_23[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-essen\_set1\_23[3]	_	_	_	_	_	false[88]	Decl[88]	*[218]	*[218]	*[218]	*[218]	*[218]	input1[218]	46[336]	male[336]	3jjtes457iqluuhfmeiub8g6qd[336]	speaker: YOU[454]	_	_	_	_	_	
+
+#Text=Und er hat sie einfach am Abend ohne aufwärmen kalt gegessen. Urgs.
+17-1	389-392	Und	GFailure[3]	essen\_set1\_23[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-essen\_set1\_23[3]	_	_	_	_	_	false[89]	Decl[89]	*[219]	*[219]	*[219]	*[219]	*[219]	input2[219]	46[337]	male[337]	3jjtes457iqluuhfmeiub8g6qd[337]	speaker: YOU[455]	_	_	elaboration	*	17-12[0_89]	
+17-2	393-395	er	GFailure[3]	essen\_set1\_23[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-essen\_set1\_23[3]	3	*	Subj	*	singular	false[89]	Decl[89]	*[219]	*[219]	*[219]	*[219]	*[219]	input2[219]	46[337]	male[337]	3jjtes457iqluuhfmeiub8g6qd[337]	speaker: YOU[455]	*->80-2	PerPron[80]	_	_	_	
+17-3	396-399	hat	GFailure[3]	essen\_set1\_23[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-essen\_set1\_23[3]	_	_	_	_	_	false[89]	Decl[89]	*[219]	*[219]	*[219]	*[219]	*[219]	input2[219]	46[337]	male[337]	3jjtes457iqluuhfmeiub8g6qd[337]	speaker: YOU[455]	_	_	_	_	_	
+17-4	400-403	sie	GFailure[3]	essen\_set1\_23[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-essen\_set1\_23[3]	3	*	DirObj	*	singular	false[89]	Decl[89]	*[219]	*[219]	*[219]	*[219]	*[219]	input2[219]	46[337]	male[337]	3jjtes457iqluuhfmeiub8g6qd[337]	speaker: YOU[455]	*->15-2	PerPron[15]	_	_	_	
+17-5	404-411	einfach	GFailure[3]	essen\_set1\_23[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-essen\_set1\_23[3]	_	_	_	_	_	false[89]	Decl[89]	*[219]	*[219]	*[219]	*[219]	*[219]	input2[219]	46[337]	male[337]	3jjtes457iqluuhfmeiub8g6qd[337]	speaker: YOU[455]	_	_	_	_	_	
+17-6	412-414	am	GFailure[3]	essen\_set1\_23[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-essen\_set1\_23[3]	_	_	_	_	_	false[89]	Decl[89]	*[219]	*[219]	*[219]	*[219]	*[219]	input2[219]	46[337]	male[337]	3jjtes457iqluuhfmeiub8g6qd[337]	speaker: YOU[455]	*->6-1	DefNP[6]	_	_	_	
+17-7	415-420	Abend	GFailure[3]	essen\_set1\_23[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-essen\_set1\_23[3]	_	_	_	_	_	false[89]	Decl[89]	*[219]	*[219]	*[219]	*[219]	*[219]	input2[219]	46[337]	male[337]	3jjtes457iqluuhfmeiub8g6qd[337]	speaker: YOU[455]	*->6-1	DefNP[6]	_	_	_	
+17-8	421-425	ohne	GFailure[3]	essen\_set1\_23[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-essen\_set1\_23[3]	_	_	_	_	_	false[89]	Decl[89]	*[219]	*[219]	*[219]	*[219]	*[219]	input2[219]	46[337]	male[337]	3jjtes457iqluuhfmeiub8g6qd[337]	speaker: YOU[455]	_	_	_	_	_	
+17-9	426-435	aufwärmen	GFailure[3]	essen\_set1\_23[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-essen\_set1\_23[3]	_	_	_	_	_	false[89]	Decl[89]	*[219]	*[219]	*[219]	*[219]	*[219]	input2[219]	46[337]	male[337]	3jjtes457iqluuhfmeiub8g6qd[337]	speaker: YOU[455]	_	_	_	_	_	
+17-10	436-440	kalt	GFailure[3]	essen\_set1\_23[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-essen\_set1\_23[3]	_	_	_	_	_	false[89]	Decl[89]	*[219]	*[219]	*[219]	*[219]	*[219]	input2[219]	46[337]	male[337]	3jjtes457iqluuhfmeiub8g6qd[337]	speaker: YOU[455]	_	_	_	_	_	
+17-11	441-450	gegessen.	GFailure[3]	essen\_set1\_23[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-essen\_set1\_23[3]	_	_	_	_	_	false[89]	Decl[89]	*[219]	*[219]	*[219]	*[219]	*[219]	input2[219]	46[337]	male[337]	3jjtes457iqluuhfmeiub8g6qd[337]	speaker: YOU[455]	_	_	_	_	_	
+17-12	451-456	Urgs.	GFailure[3]	essen\_set1\_23[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-essen\_set1\_23[3]	_	_	_	_	_	false	NA	*[219]	*[219]	*[219]	*[219]	*[219]	input2[219]	46[337]	male[337]	3jjtes457iqluuhfmeiub8g6qd[337]	speaker: YOU[455]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+18-1	458-473	END_OF_DOCUMENT	GFailure[3]	essen\_set1\_23[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-essen\_set1\_23[3]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+19-1	475-480	Alles	GFailure[4]	essen\_set1\_23[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-essen\_set1\_23[4]	_	_	_	_	_	false[90]	Int[90]	*[220]	*[220]	*[220]	yn\_1[220]	yesno\_question[220]	openq[220]	*[338]	female[338]	*[338]	speaker:Franziska[456]	_	_	QAP	*	20-1[91_90]	
+19-2	481-485	klar	GFailure[4]	essen\_set1\_23[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-essen\_set1\_23[4]	_	_	_	_	_	false[90]	Int[90]	*[220]	*[220]	*[220]	yn\_1[220]	yesno\_question[220]	openq[220]	*[338]	female[338]	*[338]	speaker:Franziska[456]	_	_	_	_	_	
+19-3	486-489	bei	GFailure[4]	essen\_set1\_23[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-essen\_set1\_23[4]	_	_	_	_	_	false[90]	Int[90]	*[220]	*[220]	*[220]	yn\_1[220]	yesno\_question[220]	openq[220]	*[338]	female[338]	*[338]	speaker:Franziska[456]	_	_	_	_	_	
+19-4	490-494	dir?	GFailure[4]	essen\_set1\_23[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-essen\_set1\_23[4]	2	*	*	*	singular	false[90]	Int[90]	*[220]	*[220]	*[220]	yn\_1[220]	yesno\_question[220]	openq[220]	*[338]	female[338]	*[338]	speaker:Franziska[456]	*->102-1	PerPron[102]	_	_	_	
+
+#Text=Richard hat kalte Spaghetti gegessen
+20-1	496-503	Richard	GFailure[4]	essen\_set1\_23[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-essen\_set1\_23[4]	*	*	Subj	*	*	false[91]	Decl[91]	*[221]	essen[221]	transitive[221]	*[221]	*[221]	item0[221]	27[339]	female[339]	65p8m4ujg4fi983365pclnac28[339]	speaker: YOU[457]	*->94-1	PropNm[94]	explanation|explanation|CR	*|*|*	22-1[92_91]|23-1[93_91]|21-1[0_91]	
+20-2	504-507	hat	GFailure[4]	essen\_set1\_23[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-essen\_set1\_23[4]	_	_	_	_	_	false[91]	Decl[91]	*[221]	essen[221]	transitive[221]	*[221]	*[221]	item0[221]	27[339]	female[339]	65p8m4ujg4fi983365pclnac28[339]	speaker: YOU[457]	_	_	_	_	_	
+20-3	508-513	kalte	GFailure[4]	essen\_set1\_23[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-essen\_set1\_23[4]	*[39]	*[39]	object[39]	*[39]	*[39]	false[91]	Decl[91]	*[221]	essen[221]	transitive[221]	*[221]	*[221]	item0[221]	27[339]	female[339]	65p8m4ujg4fi983365pclnac28[339]	speaker: YOU[457]	*->103-1	IndefNP[103]	_	_	_	
+20-4	514-523	Spaghetti	GFailure[4]	essen\_set1\_23[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-essen\_set1\_23[4]	*[39]	*[39]	object[39]	*[39]	*[39]	false[91]	Decl[91]	*[221]	essen[221]	transitive[221]	*[221]	*[221]	item0[221]	27[339]	female[339]	65p8m4ujg4fi983365pclnac28[339]	speaker: YOU[457]	*->103-1	IndefNP[103]	_	_	_	
+20-5	524-532	gegessen	GFailure[4]	essen\_set1\_23[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-essen\_set1\_23[4]	_	_	_	_	_	false[91]	Decl[91]	*[221]	essen[221]	transitive[221]	*[221]	*[221]	item0[221]	27[339]	female[339]	65p8m4ujg4fi983365pclnac28[339]	speaker: YOU[457]	_	_	_	_	_	
+
+#Text=Häh?
+21-1	534-538	Häh?	GFailure[4]	essen\_set1\_23[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-essen\_set1\_23[4]	_	_	_	_	_	false	NA	haeh\_question\_1	*	*	*	*	feedback	*	female	*	speaker:Franziska	_	_	_	_	_	
+
+#Text=Er wollte nicht kochen
+22-1	540-542	Er	GFailure[4]	essen\_set1\_23[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-essen\_set1\_23[4]	3	*	Subj	*	singular	false[92]	Decl[92]	*[222]	*[222]	*[222]	*[222]	*[222]	input1[222]	27[340]	female[340]	65p8m4ujg4fi983365pclnac28[340]	speaker: YOU[458]	*->94-2	PerPron[94]	_	_	_	
+22-2	543-549	wollte	GFailure[4]	essen\_set1\_23[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-essen\_set1\_23[4]	_	_	_	_	_	false[92]	Decl[92]	*[222]	*[222]	*[222]	*[222]	*[222]	input1[222]	27[340]	female[340]	65p8m4ujg4fi983365pclnac28[340]	speaker: YOU[458]	_	_	_	_	_	
+22-3	550-555	nicht	GFailure[4]	essen\_set1\_23[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-essen\_set1\_23[4]	_	_	_	_	_	false[92]	Decl[92]	*[222]	*[222]	*[222]	*[222]	*[222]	input1[222]	27[340]	female[340]	65p8m4ujg4fi983365pclnac28[340]	speaker: YOU[458]	_	_	_	_	_	
+22-4	556-562	kochen	GFailure[4]	essen\_set1\_23[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-essen\_set1\_23[4]	_	_	_	_	_	false[92]	Decl[92]	*[222]	*[222]	*[222]	*[222]	*[222]	input1[222]	27[340]	female[340]	65p8m4ujg4fi983365pclnac28[340]	speaker: YOU[458]	_	_	_	_	_	
+
+#Text=Und dann hatte er nur noch die Spaghetti
+23-1	564-567	Und	GFailure[4]	essen\_set1\_23[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-essen\_set1\_23[4]	_	_	_	_	_	false[93]	Decl[93]	*[223]	*[223]	*[223]	*[223]	*[223]	input2[223]	27[341]	female[341]	65p8m4ujg4fi983365pclnac28[341]	speaker: YOU[459]	_	_	_	_	_	
+23-2	568-572	dann	GFailure[4]	essen\_set1\_23[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-essen\_set1\_23[4]	_	_	_	_	_	false[93]	Decl[93]	*[223]	*[223]	*[223]	*[223]	*[223]	input2[223]	27[341]	female[341]	65p8m4ujg4fi983365pclnac28[341]	speaker: YOU[459]	_	_	_	_	_	
+23-3	573-578	hatte	GFailure[4]	essen\_set1\_23[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-essen\_set1\_23[4]	_	_	_	_	_	false[93]	Decl[93]	*[223]	*[223]	*[223]	*[223]	*[223]	input2[223]	27[341]	female[341]	65p8m4ujg4fi983365pclnac28[341]	speaker: YOU[459]	_	_	_	_	_	
+23-4	579-581	er	GFailure[4]	essen\_set1\_23[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-essen\_set1\_23[4]	3	*	Subj	*	singular	false[93]	Decl[93]	*[223]	*[223]	*[223]	*[223]	*[223]	input2[223]	27[341]	female[341]	65p8m4ujg4fi983365pclnac28[341]	speaker: YOU[459]	*->94-3	PerPron[94]	_	_	_	
+23-5	582-585	nur	GFailure[4]	essen\_set1\_23[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-essen\_set1\_23[4]	_	_	_	_	_	false[93]	Decl[93]	*[223]	*[223]	*[223]	*[223]	*[223]	input2[223]	27[341]	female[341]	65p8m4ujg4fi983365pclnac28[341]	speaker: YOU[459]	_	_	_	_	_	
+23-6	586-590	noch	GFailure[4]	essen\_set1\_23[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-essen\_set1\_23[4]	_	_	_	_	_	false[93]	Decl[93]	*[223]	*[223]	*[223]	*[223]	*[223]	input2[223]	27[341]	female[341]	65p8m4ujg4fi983365pclnac28[341]	speaker: YOU[459]	_	_	_	_	_	
+23-7	591-594	die	GFailure[4]	essen\_set1\_23[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-essen\_set1\_23[4]	*[40]	*[40]	DirObj[40]	*[40]	*[40]	false[93]	Decl[93]	*[223]	*[223]	*[223]	*[223]	*[223]	input2[223]	27[341]	female[341]	65p8m4ujg4fi983365pclnac28[341]	speaker: YOU[459]	*->103-2	DefNP[103]	_	_	_	
+23-8	595-604	Spaghetti	GFailure[4]	essen\_set1\_23[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-essen\_set1\_23[4]	*[40]	*[40]	DirObj[40]	*[40]	*[40]	false[93]	Decl[93]	*[223]	*[223]	*[223]	*[223]	*[223]	input2[223]	27[341]	female[341]	65p8m4ujg4fi983365pclnac28[341]	speaker: YOU[459]	*->103-2	DefNP[103]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+24-1	606-621	END_OF_DOCUMENT	GFailure[4]	essen\_set1\_23[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-essen\_set1\_23[4]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+25-1	623-628	Alles	GFailure[5]	essen\_set1\_23[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-essen\_set1\_23[5]	_	_	_	_	_	false[94]	Int[94]	*[224]	*[224]	*[224]	yn\_1[224]	yesno\_question[224]	openq[224]	*[342]	female[342]	*[342]	speaker:Franziska[460]	_	_	QAP	*	26-1[95_94]	
+25-2	629-633	klar	GFailure[5]	essen\_set1\_23[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-essen\_set1\_23[5]	_	_	_	_	_	false[94]	Int[94]	*[224]	*[224]	*[224]	yn\_1[224]	yesno\_question[224]	openq[224]	*[342]	female[342]	*[342]	speaker:Franziska[460]	_	_	_	_	_	
+25-3	634-637	bei	GFailure[5]	essen\_set1\_23[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-essen\_set1\_23[5]	_	_	_	_	_	false[94]	Int[94]	*[224]	*[224]	*[224]	yn\_1[224]	yesno\_question[224]	openq[224]	*[342]	female[342]	*[342]	speaker:Franziska[460]	_	_	_	_	_	
+25-4	638-642	dir?	GFailure[5]	essen\_set1\_23[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-essen\_set1\_23[5]	_	_	_	_	_	false[94]	Int[94]	*[224]	*[224]	*[224]	yn\_1[224]	yesno\_question[224]	openq[224]	*[342]	female[342]	*[342]	speaker:Franziska[460]	*->49-1	PerPron[49]	_	_	_	
+
+#Text=Richard hat kalte Spaghetti gegessen
+26-1	644-651	Richard	GFailure[5]	essen\_set1\_23[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-essen\_set1\_23[5]	*	*	Subj	*	*	false[95]	Decl[95]	*[225]	essen[225]	transitive[225]	*[225]	*[225]	item0[225]	22[343]	female[343]	ad2p95q44evasm6vmbol4cikit[343]	speaker: YOU[461]	*->28-1|*->31-1	clause[28]|PropNm[31]	explanation|CR	*|*	28-1[96_95]|27-1[0_95]	
+26-2	652-655	hat	GFailure[5]	essen\_set1\_23[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-essen\_set1\_23[5]	_	_	_	_	_	false[95]	Decl[95]	*[225]	essen[225]	transitive[225]	*[225]	*[225]	item0[225]	22[343]	female[343]	ad2p95q44evasm6vmbol4cikit[343]	speaker: YOU[461]	*->28-1	clause[28]	_	_	_	
+26-3	656-661	kalte	GFailure[5]	essen\_set1\_23[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-essen\_set1\_23[5]	*[41]	*[41]	object[41]	*[41]	*[41]	false[95]	Decl[95]	*[225]	essen[225]	transitive[225]	*[225]	*[225]	item0[225]	22[343]	female[343]	ad2p95q44evasm6vmbol4cikit[343]	speaker: YOU[461]	*->28-1|*->8-1	clause[28]|IndefNP[8]	_	_	_	
+26-4	662-671	Spaghetti	GFailure[5]	essen\_set1\_23[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-essen\_set1\_23[5]	*[41]	*[41]	object[41]	*[41]	*[41]	false[95]	Decl[95]	*[225]	essen[225]	transitive[225]	*[225]	*[225]	item0[225]	22[343]	female[343]	ad2p95q44evasm6vmbol4cikit[343]	speaker: YOU[461]	*->28-1|*->8-1	clause[28]|IndefNP[8]	_	_	_	
+26-5	672-680	gegessen	GFailure[5]	essen\_set1\_23[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-essen\_set1\_23[5]	_	_	_	_	_	false[95]	Decl[95]	*[225]	essen[225]	transitive[225]	*[225]	*[225]	item0[225]	22[343]	female[343]	ad2p95q44evasm6vmbol4cikit[343]	speaker: YOU[461]	*->28-1	clause[28]	_	_	_	
+
+#Text=Häh?
+27-1	682-686	Häh?	GFailure[5]	essen\_set1\_23[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-essen\_set1\_23[5]	_	_	_	_	_	false	NA	haeh\_question\_1	*	*	*	*	feedback	*	female	*	speaker:Franziska	_	_	_	_	_	
+
+#Text=Sie hatte keine Lust sich was neues zu kochen
+28-1	688-691	Sie	GFailure[5]	essen\_set1\_23[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-essen\_set1\_23[5]	3	*	Subj	*	singular	false[96]	Decl[96]	*[226]	*[226]	*[226]	*[226]	*[226]	input1[226]	22[344]	female[344]	ad2p95q44evasm6vmbol4cikit[344]	speaker: YOU[462]	*->31-2	PerPron[31]	_	_	_	
+28-2	692-697	hatte	GFailure[5]	essen\_set1\_23[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-essen\_set1\_23[5]	_	_	_	_	_	false[96]	Decl[96]	*[226]	*[226]	*[226]	*[226]	*[226]	input1[226]	22[344]	female[344]	ad2p95q44evasm6vmbol4cikit[344]	speaker: YOU[462]	_	_	_	_	_	
+28-3	698-703	keine	GFailure[5]	essen\_set1\_23[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-essen\_set1\_23[5]	_	_	_	_	_	false[96]	Decl[96]	*[226]	*[226]	*[226]	*[226]	*[226]	input1[226]	22[344]	female[344]	ad2p95q44evasm6vmbol4cikit[344]	speaker: YOU[462]	_	_	_	_	_	
+28-4	704-708	Lust	GFailure[5]	essen\_set1\_23[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-essen\_set1\_23[5]	*	*	DirObj	*	*	false[96]	Decl[96]	*[226]	*[226]	*[226]	*[226]	*[226]	input1[226]	22[344]	female[344]	ad2p95q44evasm6vmbol4cikit[344]	speaker: YOU[462]	_	_	_	_	_	
+28-5	709-713	sich	GFailure[5]	essen\_set1\_23[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-essen\_set1\_23[5]	_	_	_	_	_	false[96]	Decl[96]	*[226]	*[226]	*[226]	*[226]	*[226]	input1[226]	22[344]	female[344]	ad2p95q44evasm6vmbol4cikit[344]	speaker: YOU[462]	_	_	_	_	_	
+28-6	714-717	was	GFailure[5]	essen\_set1\_23[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-essen\_set1\_23[5]	_	_	_	_	_	false[96]	Decl[96]	*[226]	*[226]	*[226]	*[226]	*[226]	input1[226]	22[344]	female[344]	ad2p95q44evasm6vmbol4cikit[344]	speaker: YOU[462]	*->34-1	IndefNP[34]	_	_	_	
+28-7	718-723	neues	GFailure[5]	essen\_set1\_23[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-essen\_set1\_23[5]	_	_	_	_	_	false[96]	Decl[96]	*[226]	*[226]	*[226]	*[226]	*[226]	input1[226]	22[344]	female[344]	ad2p95q44evasm6vmbol4cikit[344]	speaker: YOU[462]	*->34-1	IndefNP[34]	_	_	_	
+28-8	724-726	zu	GFailure[5]	essen\_set1\_23[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-essen\_set1\_23[5]	_	_	_	_	_	false[96]	Decl[96]	*[226]	*[226]	*[226]	*[226]	*[226]	input1[226]	22[344]	female[344]	ad2p95q44evasm6vmbol4cikit[344]	speaker: YOU[462]	_	_	_	_	_	
+28-9	727-733	kochen	GFailure[5]	essen\_set1\_23[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-essen\_set1\_23[5]	_	_	_	_	_	false[96]	Decl[96]	*[226]	*[226]	*[226]	*[226]	*[226]	input1[226]	22[344]	female[344]	ad2p95q44evasm6vmbol4cikit[344]	speaker: YOU[462]	_	_	_	_	_	
+
+#Text=Das macht sie öfter
+29-1	735-738	Das	GFailure[5]	essen\_set1\_23[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-essen\_set1\_23[5]	_	_	_	_	_	false[97]	Decl[97]	*[227]	*[227]	*[227]	*[227]	*[227]	input2[227]	22[345]	female[345]	ad2p95q44evasm6vmbol4cikit[345]	speaker: YOU[463]	*->28-2	D-Pron[28]	_	_	_	
+29-2	739-744	macht	GFailure[5]	essen\_set1\_23[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-essen\_set1\_23[5]	_	_	_	_	_	false[97]	Decl[97]	*[227]	*[227]	*[227]	*[227]	*[227]	input2[227]	22[345]	female[345]	ad2p95q44evasm6vmbol4cikit[345]	speaker: YOU[463]	_	_	_	_	_	
+29-3	745-748	sie	GFailure[5]	essen\_set1\_23[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-essen\_set1\_23[5]	3	*	Subj	*	singular	false[97]	Decl[97]	*[227]	*[227]	*[227]	*[227]	*[227]	input2[227]	22[345]	female[345]	ad2p95q44evasm6vmbol4cikit[345]	speaker: YOU[463]	*->31-3	PerPron[31]	_	_	_	
+29-4	749-754	öfter	GFailure[5]	essen\_set1\_23[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-essen\_set1\_23[5]	_	_	_	_	_	false[97]	Decl[97]	*[227]	*[227]	*[227]	*[227]	*[227]	input2[227]	22[345]	female[345]	ad2p95q44evasm6vmbol4cikit[345]	speaker: YOU[463]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+30-1	756-771	END_OF_DOCUMENT	GFailure[5]	essen\_set1\_23[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-essen\_set1\_23[5]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+31-1	773-778	Alles	GFailure[6]	essen\_set1\_23[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-essen\_set1\_23[6]	_	_	_	_	_	false[98]	Int[98]	*[228]	*[228]	*[228]	yn\_1[228]	yesno\_question[228]	openq[228]	*[346]	female[346]	*[346]	speaker:Franziska[464]	_	_	QAP	*	32-1[99_98]	
+31-2	779-783	klar	GFailure[6]	essen\_set1\_23[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-essen\_set1\_23[6]	_	_	_	_	_	false[98]	Int[98]	*[228]	*[228]	*[228]	yn\_1[228]	yesno\_question[228]	openq[228]	*[346]	female[346]	*[346]	speaker:Franziska[464]	_	_	_	_	_	
+31-3	784-787	bei	GFailure[6]	essen\_set1\_23[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-essen\_set1\_23[6]	_	_	_	_	_	false[98]	Int[98]	*[228]	*[228]	*[228]	yn\_1[228]	yesno\_question[228]	openq[228]	*[346]	female[346]	*[346]	speaker:Franziska[464]	_	_	_	_	_	
+31-4	788-792	dir?	GFailure[6]	essen\_set1\_23[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-essen\_set1\_23[6]	2	*	*	*	singular	false[98]	Int[98]	*[228]	*[228]	*[228]	yn\_1[228]	yesno\_question[228]	openq[228]	*[346]	female[346]	*[346]	speaker:Franziska[464]	*->88-1	PerPron[88]	_	_	_	
+
+#Text=Richard hat kalte Spaghetti gegessen
+32-1	794-801	Richard	GFailure[6]	essen\_set1\_23[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-essen\_set1\_23[6]	*	*	Subj	*	*	false[99]	Decl[99]	*[229]	essen[229]	transitive[229]	*[229]	*[229]	item0[229]	36[347]	female[347]	aoum613lougtk5ql841j63bjo9[347]	speaker: YOU[465]	*->27-1	PropNm[27]	elaboration|CR	*|*	34-1[100_99]|33-1[0_99]	
+32-2	802-805	hat	GFailure[6]	essen\_set1\_23[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-essen\_set1\_23[6]	_	_	_	_	_	false[99]	Decl[99]	*[229]	essen[229]	transitive[229]	*[229]	*[229]	item0[229]	36[347]	female[347]	aoum613lougtk5ql841j63bjo9[347]	speaker: YOU[465]	_	_	_	_	_	
+32-3	806-811	kalte	GFailure[6]	essen\_set1\_23[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-essen\_set1\_23[6]	*[42]	*[42]	object[42]	*[42]	*[42]	false[99]	Decl[99]	*[229]	essen[229]	transitive[229]	*[229]	*[229]	item0[229]	36[347]	female[347]	aoum613lougtk5ql841j63bjo9[347]	speaker: YOU[465]	*->35-1	IndefNP[35]	_	_	_	
+32-4	812-821	Spaghetti	GFailure[6]	essen\_set1\_23[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-essen\_set1\_23[6]	*[42]	*[42]	object[42]	*[42]	*[42]	false[99]	Decl[99]	*[229]	essen[229]	transitive[229]	*[229]	*[229]	item0[229]	36[347]	female[347]	aoum613lougtk5ql841j63bjo9[347]	speaker: YOU[465]	*->35-1	IndefNP[35]	_	_	_	
+32-5	822-830	gegessen	GFailure[6]	essen\_set1\_23[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-essen\_set1\_23[6]	_	_	_	_	_	false[99]	Decl[99]	*[229]	essen[229]	transitive[229]	*[229]	*[229]	item0[229]	36[347]	female[347]	aoum613lougtk5ql841j63bjo9[347]	speaker: YOU[465]	_	_	_	_	_	
+
+#Text=Häh?
+33-1	832-836	Häh?	GFailure[6]	essen\_set1\_23[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-essen\_set1\_23[6]	_	_	_	_	_	false	NA	haeh\_question\_1	*	*	*	*	feedback	*	female	*	speaker:Franziska	_	_	_	_	_	
+
+#Text=Ich habe ihm gesagt <BR> er soll sie sich aufwärmen<BR>hat er aber nicht gemacht.
+34-1	838-841	Ich	GFailure[6]	essen\_set1\_23[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-essen\_set1\_23[6]	1	*	Subj	*	singular	true[100]|false[101]	*[100]|Decl[101]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	36[348]	female[348]	aoum613lougtk5ql841j63bjo9[348]	speaker: YOU[466]	*->88-2	PerPron[88]	result|contrast	*|*	35-1[103_100]|34-10.2[102_101]	
+34-2	842-846	habe	GFailure[6]	essen\_set1\_23[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-essen\_set1\_23[6]	_	_	_	_	_	true[100]|false[101]	*[100]|Decl[101]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	36[348]	female[348]	aoum613lougtk5ql841j63bjo9[348]	speaker: YOU[466]	_	_	_	_	_	
+34-3	847-850	ihm	GFailure[6]	essen\_set1\_23[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-essen\_set1\_23[6]	3	*	IndirObj	*	singular	true[100]|false[101]	*[100]|Decl[101]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	36[348]	female[348]	aoum613lougtk5ql841j63bjo9[348]	speaker: YOU[466]	*->27-2	PerPron[27]	_	_	_	
+34-4	851-857	gesagt	GFailure[6]	essen\_set1\_23[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-essen\_set1\_23[6]	_	_	_	_	_	true[100]|false[101]	*[100]|Decl[101]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	36[348]	female[348]	aoum613lougtk5ql841j63bjo9[348]	speaker: YOU[466]	_	_	_	_	_	
+34-5	858-862	<BR>	GFailure[6]	essen\_set1\_23[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-essen\_set1\_23[6]	_	_	_	_	_	true[100]|false[101]	*[100]|Decl[101]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	36[348]	female[348]	aoum613lougtk5ql841j63bjo9[348]	speaker: YOU[466]	_	_	_	_	_	
+34-6	863-865	er	GFailure[6]	essen\_set1\_23[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-essen\_set1\_23[6]	3	*	Subj	*	singular	true[100]|false[101]	*[100]|Decl[101]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	36[348]	female[348]	aoum613lougtk5ql841j63bjo9[348]	speaker: YOU[466]	*->95-1|*->27-3	clause[95]|PerPron[27]	_	_	_	
+34-7	866-870	soll	GFailure[6]	essen\_set1\_23[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-essen\_set1\_23[6]	_	_	_	_	_	true[100]|false[101]	*[100]|Decl[101]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	36[348]	female[348]	aoum613lougtk5ql841j63bjo9[348]	speaker: YOU[466]	*->95-1	clause[95]	_	_	_	
+34-8	871-874	sie	GFailure[6]	essen\_set1\_23[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-essen\_set1\_23[6]	3	*	DirObj	*	singular	true[100]|false[101]	*[100]|Decl[101]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	36[348]	female[348]	aoum613lougtk5ql841j63bjo9[348]	speaker: YOU[466]	*->95-1|*->35-2	clause[95]|PerPron[35]	_	_	_	
+34-9	875-879	sich	GFailure[6]	essen\_set1\_23[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-essen\_set1\_23[6]	_	_	_	_	_	true[100]|false[101]	*[100]|Decl[101]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	36[348]	female[348]	aoum613lougtk5ql841j63bjo9[348]	speaker: YOU[466]	*->95-1	clause[95]	_	_	_	
+34-10	880-896	aufwärmen<BR>hat	GFailure[6]	essen\_set1\_23[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-essen\_set1\_23[6]	_	_	_	_	_	true[100]	*[100]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	36[348]	female[348]	aoum613lougtk5ql841j63bjo9[348]	speaker: YOU[466]	*->76-1	zero[76]	_	_	_	
+34-10.1	880-889	aufwärmen	_	_	_	_	_	_	_	_	_	false[101]	Decl[101]	_	_	_	_	_	_	_	_	_	_	*->95-1	clause[95]	contrast	*	34-10.2[102_101]	
+34-10.2	893-896	hat	_	_	_	_	_	_	_	_	_	false[102]	Decl[102]	_	_	_	_	_	_	_	_	_	_	*->95-2	zero[95]	_	_	_	
+34-11	897-899	er	GFailure[6]	essen\_set1\_23[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-essen\_set1\_23[6]	3	*	Subj	*	singular	true[100]|false[102]	*[100]|Decl[102]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	36[348]	female[348]	aoum613lougtk5ql841j63bjo9[348]	speaker: YOU[466]	*->27-4	PerPron[27]	_	_	_	
+34-12	900-904	aber	GFailure[6]	essen\_set1\_23[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-essen\_set1\_23[6]	_	_	_	_	_	true[100]|false[102]	*[100]|Decl[102]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	36[348]	female[348]	aoum613lougtk5ql841j63bjo9[348]	speaker: YOU[466]	_	_	_	_	_	
+34-13	905-910	nicht	GFailure[6]	essen\_set1\_23[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-essen\_set1\_23[6]	_	_	_	_	_	true[100]|false[102]	*[100]|Decl[102]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	36[348]	female[348]	aoum613lougtk5ql841j63bjo9[348]	speaker: YOU[466]	_	_	_	_	_	
+34-14	911-919	gemacht.	GFailure[6]	essen\_set1\_23[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-essen\_set1\_23[6]	_	_	_	_	_	true[100]|false[102]	*[100]|Decl[102]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	36[348]	female[348]	aoum613lougtk5ql841j63bjo9[348]	speaker: YOU[466]	_	_	_	_	_	
+
+#Text=Und jetzt hat er natürlich Bauchweh.
+35-1	921-924	Und	GFailure[6]	essen\_set1\_23[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-essen\_set1\_23[6]	_	_	_	_	_	false[103]	Decl[103]	*[231]	*[231]	*[231]	*[231]	*[231]	input2[231]	36[349]	female[349]	aoum613lougtk5ql841j63bjo9[349]	speaker: YOU[467]	_	_	_	_	_	
+35-2	925-930	jetzt	GFailure[6]	essen\_set1\_23[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-essen\_set1\_23[6]	_	_	_	_	_	false[103]	Decl[103]	*[231]	*[231]	*[231]	*[231]	*[231]	input2[231]	36[349]	female[349]	aoum613lougtk5ql841j63bjo9[349]	speaker: YOU[467]	_	_	_	_	_	
+35-3	931-934	hat	GFailure[6]	essen\_set1\_23[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-essen\_set1\_23[6]	_	_	_	_	_	false[103]	Decl[103]	*[231]	*[231]	*[231]	*[231]	*[231]	input2[231]	36[349]	female[349]	aoum613lougtk5ql841j63bjo9[349]	speaker: YOU[467]	_	_	_	_	_	
+35-4	935-937	er	GFailure[6]	essen\_set1\_23[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-essen\_set1\_23[6]	3	*	Subj	*	singular	false[103]	Decl[103]	*[231]	*[231]	*[231]	*[231]	*[231]	input2[231]	36[349]	female[349]	aoum613lougtk5ql841j63bjo9[349]	speaker: YOU[467]	*->27-5	PerPron[27]	_	_	_	
+35-5	938-947	natürlich	GFailure[6]	essen\_set1\_23[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-essen\_set1\_23[6]	_	_	_	_	_	false[103]	Decl[103]	*[231]	*[231]	*[231]	*[231]	*[231]	input2[231]	36[349]	female[349]	aoum613lougtk5ql841j63bjo9[349]	speaker: YOU[467]	_	_	_	_	_	
+35-6	948-957	Bauchweh.	GFailure[6]	essen\_set1\_23[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-essen\_set1\_23[6]	_	_	_	_	_	false[103]	Decl[103]	*[231]	*[231]	*[231]	*[231]	*[231]	input2[231]	36[349]	female[349]	aoum613lougtk5ql841j63bjo9[349]	speaker: YOU[467]	*->42-1	IndefNP[42]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+36-1	959-974	END_OF_DOCUMENT	GFailure[6]	essen\_set1\_23[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-essen\_set1\_23[6]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+37-1	976-981	Alles	GFailure[7]	essen\_set1\_23[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-essen\_set1\_23[7]	_	_	_	_	_	false[104]	Int[104]	*[232]	*[232]	*[232]	yn\_1[232]	yesno\_question[232]	openq[232]	*[350]	female[350]	*[350]	speaker:Franziska[468]	_	_	QAP	*	38-1[105_104]	
+37-2	982-986	klar	GFailure[7]	essen\_set1\_23[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-essen\_set1\_23[7]	_	_	_	_	_	false[104]	Int[104]	*[232]	*[232]	*[232]	yn\_1[232]	yesno\_question[232]	openq[232]	*[350]	female[350]	*[350]	speaker:Franziska[468]	_	_	_	_	_	
+37-3	987-990	bei	GFailure[7]	essen\_set1\_23[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-essen\_set1\_23[7]	_	_	_	_	_	false[104]	Int[104]	*[232]	*[232]	*[232]	yn\_1[232]	yesno\_question[232]	openq[232]	*[350]	female[350]	*[350]	speaker:Franziska[468]	_	_	_	_	_	
+37-4	991-995	dir?	GFailure[7]	essen\_set1\_23[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-essen\_set1\_23[7]	2	*	*	*	singular	false[104]	Int[104]	*[232]	*[232]	*[232]	yn\_1[232]	yesno\_question[232]	openq[232]	*[350]	female[350]	*[350]	speaker:Franziska[468]	*->70-1	PerPron[70]	_	_	_	
+
+#Text=Richard hat kalte Spaghetti gegessen
+38-1	997-1004	Richard	GFailure[7]	essen\_set1\_23[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-essen\_set1\_23[7]	*	*	Subj	*	*	false[105]	Decl[105]	*[233]	essen[233]	transitive[233]	*[233]	*[233]	item0[233]	26[351]	male[351]	c48fsj7kc4kiuorutkbb4be30b[351]	speaker: YOU[469]	*->96-1	PropNm[96]	elaboration|CR	*|*	40-1[0_105]|39-1[0_105]	
+38-2	1005-1008	hat	GFailure[7]	essen\_set1\_23[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-essen\_set1\_23[7]	_	_	_	_	_	false[105]	Decl[105]	*[233]	essen[233]	transitive[233]	*[233]	*[233]	item0[233]	26[351]	male[351]	c48fsj7kc4kiuorutkbb4be30b[351]	speaker: YOU[469]	_	_	_	_	_	
+38-3	1009-1014	kalte	GFailure[7]	essen\_set1\_23[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-essen\_set1\_23[7]	*[43]	*[43]	object[43]	*[43]	*[43]	false[105]	Decl[105]	*[233]	essen[233]	transitive[233]	*[233]	*[233]	item0[233]	26[351]	male[351]	c48fsj7kc4kiuorutkbb4be30b[351]	speaker: YOU[469]	*->20-1	IndefNP[20]	_	_	_	
+38-4	1015-1024	Spaghetti	GFailure[7]	essen\_set1\_23[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-essen\_set1\_23[7]	*[43]	*[43]	object[43]	*[43]	*[43]	false[105]	Decl[105]	*[233]	essen[233]	transitive[233]	*[233]	*[233]	item0[233]	26[351]	male[351]	c48fsj7kc4kiuorutkbb4be30b[351]	speaker: YOU[469]	*->20-1	IndefNP[20]	_	_	_	
+38-5	1025-1033	gegessen	GFailure[7]	essen\_set1\_23[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-essen\_set1\_23[7]	_	_	_	_	_	false[105]	Decl[105]	*[233]	essen[233]	transitive[233]	*[233]	*[233]	item0[233]	26[351]	male[351]	c48fsj7kc4kiuorutkbb4be30b[351]	speaker: YOU[469]	_	_	_	_	_	
+
+#Text=Häh?
+39-1	1035-1039	Häh?	GFailure[7]	essen\_set1\_23[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-essen\_set1\_23[7]	_	_	_	_	_	false	NA	haeh\_question\_1	*	*	*	*	feedback	*	female	*	speaker:Franziska	_	_	_	_	_	
+
+#Text=Ja <BR> unsere Mikrowelle ist kaputt.
+40-1	1041-1043	Ja	GFailure[7]	essen\_set1\_23[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-essen\_set1\_23[7]	_	_	_	_	_	false	NA	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	26[352]	male[352]	c48fsj7kc4kiuorutkbb4be30b[352]	speaker: YOU[470]	_	_	explanation|explanation	*|*	40-3[106_0]|41-1[107_0]	
+40-2	1044-1048	<BR>	GFailure[7]	essen\_set1\_23[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-essen\_set1\_23[7]	_	_	_	_	_	_	_	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	26[352]	male[352]	c48fsj7kc4kiuorutkbb4be30b[352]	speaker: YOU[470]	_	_	_	_	_	
+40-3	1049-1055	unsere	GFailure[7]	essen\_set1\_23[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-essen\_set1\_23[7]	*[44]|1[45]	*[44]|*[45]	Subj[44]|*[45]	*[44]|*[45]	*[44]|plural[45]	false[106]	Decl[106]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	26[352]	male[352]	c48fsj7kc4kiuorutkbb4be30b[352]	speaker: YOU[470]	*->47-1|*->68-1	DefNP[47]|PerPron[68]	_	_	_	
+40-4	1056-1066	Mikrowelle	GFailure[7]	essen\_set1\_23[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-essen\_set1\_23[7]	*[44]	*[44]	Subj[44]	*[44]	*[44]	false[106]	Decl[106]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	26[352]	male[352]	c48fsj7kc4kiuorutkbb4be30b[352]	speaker: YOU[470]	*->47-1	DefNP[47]	_	_	_	
+40-5	1067-1070	ist	GFailure[7]	essen\_set1\_23[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-essen\_set1\_23[7]	_	_	_	_	_	false[106]	Decl[106]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	26[352]	male[352]	c48fsj7kc4kiuorutkbb4be30b[352]	speaker: YOU[470]	_	_	_	_	_	
+40-6	1071-1078	kaputt.	GFailure[7]	essen\_set1\_23[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-essen\_set1\_23[7]	_	_	_	_	_	false[106]	Decl[106]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	26[352]	male[352]	c48fsj7kc4kiuorutkbb4be30b[352]	speaker: YOU[470]	_	_	_	_	_	
+
+#Text=Außerdem behauptet er Spaghetti kann man auch kalt essen.
+41-1	1080-1088	Außerdem	GFailure[7]	essen\_set1\_23[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-essen\_set1\_23[7]	_	_	_	_	_	false[107]	Decl[107]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	26[353]	male[353]	c48fsj7kc4kiuorutkbb4be30b[353]	speaker: YOU[471]	_	_	_	_	_	
+41-2	1089-1098	behauptet	GFailure[7]	essen\_set1\_23[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-essen\_set1\_23[7]	_	_	_	_	_	false[107]	Decl[107]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	26[353]	male[353]	c48fsj7kc4kiuorutkbb4be30b[353]	speaker: YOU[471]	_	_	_	_	_	
+41-3	1099-1101	er	GFailure[7]	essen\_set1\_23[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-essen\_set1\_23[7]	3	*	Subj	*	singular	false[107]	Decl[107]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	26[353]	male[353]	c48fsj7kc4kiuorutkbb4be30b[353]	speaker: YOU[471]	*->96-2	PerPron[96]	_	_	_	
+41-4	1102-1111	Spaghetti	GFailure[7]	essen\_set1\_23[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-essen\_set1\_23[7]	*	*	Embedded	*	*	false[107]	Decl[107]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	26[353]	male[353]	c48fsj7kc4kiuorutkbb4be30b[353]	speaker: YOU[471]	*->89-1	IndefNP[89]	_	_	_	
+41-5	1112-1116	kann	GFailure[7]	essen\_set1\_23[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-essen\_set1\_23[7]	_	_	_	_	_	false[107]	Decl[107]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	26[353]	male[353]	c48fsj7kc4kiuorutkbb4be30b[353]	speaker: YOU[471]	_	_	_	_	_	
+41-6	1117-1120	man	GFailure[7]	essen\_set1\_23[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-essen\_set1\_23[7]	_	_	_	_	_	false[107]	Decl[107]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	26[353]	male[353]	c48fsj7kc4kiuorutkbb4be30b[353]	speaker: YOU[471]	_	_	_	_	_	
+41-7	1121-1125	auch	GFailure[7]	essen\_set1\_23[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-essen\_set1\_23[7]	_	_	_	_	_	false[107]	Decl[107]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	26[353]	male[353]	c48fsj7kc4kiuorutkbb4be30b[353]	speaker: YOU[471]	_	_	_	_	_	
+41-8	1126-1130	kalt	GFailure[7]	essen\_set1\_23[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-essen\_set1\_23[7]	_	_	_	_	_	false[107]	Decl[107]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	26[353]	male[353]	c48fsj7kc4kiuorutkbb4be30b[353]	speaker: YOU[471]	_	_	_	_	_	
+41-9	1131-1137	essen.	GFailure[7]	essen\_set1\_23[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-essen\_set1\_23[7]	_	_	_	_	_	false[107]	Decl[107]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	26[353]	male[353]	c48fsj7kc4kiuorutkbb4be30b[353]	speaker: YOU[471]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+42-1	1139-1154	END_OF_DOCUMENT	GFailure[7]	essen\_set1\_23[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-essen\_set1\_23[7]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+43-1	1156-1161	Alles	GFailure[8]	essen\_set1\_23[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-essen\_set1\_23[8]	_	_	_	_	_	false[108]	Int[108]	*[236]	*[236]	*[236]	yn\_1[236]	yesno\_question[236]	openq[236]	*[354]	female[354]	*[354]	speaker:Franziska[472]	_	_	QAP	*	44-1[109_108]	
+43-2	1162-1166	klar	GFailure[8]	essen\_set1\_23[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-essen\_set1\_23[8]	_	_	_	_	_	false[108]	Int[108]	*[236]	*[236]	*[236]	yn\_1[236]	yesno\_question[236]	openq[236]	*[354]	female[354]	*[354]	speaker:Franziska[472]	_	_	_	_	_	
+43-3	1167-1170	bei	GFailure[8]	essen\_set1\_23[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-essen\_set1\_23[8]	_	_	_	_	_	false[108]	Int[108]	*[236]	*[236]	*[236]	yn\_1[236]	yesno\_question[236]	openq[236]	*[354]	female[354]	*[354]	speaker:Franziska[472]	_	_	_	_	_	
+43-4	1171-1175	dir?	GFailure[8]	essen\_set1\_23[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-essen\_set1\_23[8]	2	*	*	*	singular	false[108]	Int[108]	*[236]	*[236]	*[236]	yn\_1[236]	yesno\_question[236]	openq[236]	*[354]	female[354]	*[354]	speaker:Franziska[472]	*->85-1	PerPron[85]	_	_	_	
+
+#Text=Richard hat kalte Spaghetti gegessen
+44-1	1177-1184	Richard	GFailure[8]	essen\_set1\_23[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-essen\_set1\_23[8]	*	*	Subj	*	*	false[109]	Decl[109]	*[237]	essen[237]	transitive[237]	*[237]	*[237]	item0[237]	57[355]	female[355]	k0vnav0sqhr0fo3b0jpuaak9s4[355]	speaker: YOU[473]	*->59-1	PropNm[59]	explanation|explanation|elaboration|CR	*|*|*|*	46-1[110_109]|46-5[111_109]|47-1[112_109]|45-1[0_109]	
+44-2	1185-1188	hat	GFailure[8]	essen\_set1\_23[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-essen\_set1\_23[8]	_	_	_	_	_	false[109]	Decl[109]	*[237]	essen[237]	transitive[237]	*[237]	*[237]	item0[237]	57[355]	female[355]	k0vnav0sqhr0fo3b0jpuaak9s4[355]	speaker: YOU[473]	_	_	_	_	_	
+44-3	1189-1194	kalte	GFailure[8]	essen\_set1\_23[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-essen\_set1\_23[8]	*[46]	*[46]	object[46]	*[46]	*[46]	false[109]	Decl[109]	*[237]	essen[237]	transitive[237]	*[237]	*[237]	item0[237]	57[355]	female[355]	k0vnav0sqhr0fo3b0jpuaak9s4[355]	speaker: YOU[473]	*->63-1	IndefNP[63]	_	_	_	
+44-4	1195-1204	Spaghetti	GFailure[8]	essen\_set1\_23[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-essen\_set1\_23[8]	*[46]	*[46]	object[46]	*[46]	*[46]	false[109]	Decl[109]	*[237]	essen[237]	transitive[237]	*[237]	*[237]	item0[237]	57[355]	female[355]	k0vnav0sqhr0fo3b0jpuaak9s4[355]	speaker: YOU[473]	*->63-1	IndefNP[63]	_	_	_	
+44-5	1205-1213	gegessen	GFailure[8]	essen\_set1\_23[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-essen\_set1\_23[8]	_	_	_	_	_	false[109]	Decl[109]	*[237]	essen[237]	transitive[237]	*[237]	*[237]	item0[237]	57[355]	female[355]	k0vnav0sqhr0fo3b0jpuaak9s4[355]	speaker: YOU[473]	_	_	_	_	_	
+
+#Text=Häh?
+45-1	1215-1219	Häh?	GFailure[8]	essen\_set1\_23[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-essen\_set1\_23[8]	_	_	_	_	_	false	NA	haeh\_question\_1	*	*	*	*	feedback	*	female	*	speaker:Franziska	_	_	_	_	_	
+
+#Text=Er war so hungrig und wollte nicht warten bis sie aufgewärmt waren.
+46-1	1221-1223	Er	GFailure[8]	essen\_set1\_23[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-essen\_set1\_23[8]	3	*	Subj	*	singular	false[110]	Decl[110]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	57[356]	female[356]	k0vnav0sqhr0fo3b0jpuaak9s4[356]	speaker: YOU[474]	*->59-2	PerPron[59]	_	_	_	
+46-2	1224-1227	war	GFailure[8]	essen\_set1\_23[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-essen\_set1\_23[8]	_	_	_	_	_	false[110]	Decl[110]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	57[356]	female[356]	k0vnav0sqhr0fo3b0jpuaak9s4[356]	speaker: YOU[474]	_	_	_	_	_	
+46-3	1228-1230	so	GFailure[8]	essen\_set1\_23[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-essen\_set1\_23[8]	_	_	_	_	_	false[110]	Decl[110]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	57[356]	female[356]	k0vnav0sqhr0fo3b0jpuaak9s4[356]	speaker: YOU[474]	_	_	_	_	_	
+46-4	1231-1238	hungrig	GFailure[8]	essen\_set1\_23[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-essen\_set1\_23[8]	_	_	_	_	_	false[110]	Decl[110]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	57[356]	female[356]	k0vnav0sqhr0fo3b0jpuaak9s4[356]	speaker: YOU[474]	_	_	_	_	_	
+46-5	1239-1242	und	GFailure[8]	essen\_set1\_23[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-essen\_set1\_23[8]	_	_	_	_	_	false[111]	Decl[111]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	57[356]	female[356]	k0vnav0sqhr0fo3b0jpuaak9s4[356]	speaker: YOU[474]	_	_	_	_	_	
+46-6	1243-1249	wollte	GFailure[8]	essen\_set1\_23[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-essen\_set1\_23[8]	3	*	*	*	singular	false[111]	Decl[111]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	57[356]	female[356]	k0vnav0sqhr0fo3b0jpuaak9s4[356]	speaker: YOU[474]	*->59-3	zero[59]	_	_	_	
+46-7	1250-1255	nicht	GFailure[8]	essen\_set1\_23[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-essen\_set1\_23[8]	_	_	_	_	_	false[111]	Decl[111]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	57[356]	female[356]	k0vnav0sqhr0fo3b0jpuaak9s4[356]	speaker: YOU[474]	_	_	_	_	_	
+46-8	1256-1262	warten	GFailure[8]	essen\_set1\_23[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-essen\_set1\_23[8]	_	_	_	_	_	false[111]	Decl[111]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	57[356]	female[356]	k0vnav0sqhr0fo3b0jpuaak9s4[356]	speaker: YOU[474]	_	_	_	_	_	
+46-9	1263-1266	bis	GFailure[8]	essen\_set1\_23[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-essen\_set1\_23[8]	_	_	_	_	_	false[111]	Decl[111]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	57[356]	female[356]	k0vnav0sqhr0fo3b0jpuaak9s4[356]	speaker: YOU[474]	_	_	_	_	_	
+46-10	1267-1270	sie	GFailure[8]	essen\_set1\_23[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-essen\_set1\_23[8]	3	*	Subj	*	singular	false[111]	Decl[111]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	57[356]	female[356]	k0vnav0sqhr0fo3b0jpuaak9s4[356]	speaker: YOU[474]	*->63-2	PerPron[63]	_	_	_	
+46-11	1271-1281	aufgewärmt	GFailure[8]	essen\_set1\_23[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-essen\_set1\_23[8]	_	_	_	_	_	false[111]	Decl[111]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	57[356]	female[356]	k0vnav0sqhr0fo3b0jpuaak9s4[356]	speaker: YOU[474]	_	_	_	_	_	
+46-12	1282-1288	waren.	GFailure[8]	essen\_set1\_23[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-essen\_set1\_23[8]	_	_	_	_	_	false[111]	Decl[111]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	57[356]	female[356]	k0vnav0sqhr0fo3b0jpuaak9s4[356]	speaker: YOU[474]	_	_	_	_	_	
+
+#Text=Ich finde kalte Spaghetti eklig.
+47-1	1290-1293	Ich	GFailure[8]	essen\_set1\_23[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-essen\_set1\_23[8]	1	*	Subj	*	singular	false[112]	Decl[112]	*[239]	*[239]	*[239]	*[239]	*[239]	input2[239]	57[357]	female[357]	k0vnav0sqhr0fo3b0jpuaak9s4[357]	speaker: YOU[475]	*->85-2	PerPron[85]	_	_	_	
+47-2	1294-1299	finde	GFailure[8]	essen\_set1\_23[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-essen\_set1\_23[8]	_	_	_	_	_	false[112]	Decl[112]	*[239]	*[239]	*[239]	*[239]	*[239]	input2[239]	57[357]	female[357]	k0vnav0sqhr0fo3b0jpuaak9s4[357]	speaker: YOU[475]	_	_	_	_	_	
+47-3	1300-1305	kalte	GFailure[8]	essen\_set1\_23[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-essen\_set1\_23[8]	*[47]	*[47]	DirObj[47]	*[47]	*[47]	false[112]	Decl[112]	*[239]	*[239]	*[239]	*[239]	*[239]	input2[239]	57[357]	female[357]	k0vnav0sqhr0fo3b0jpuaak9s4[357]	speaker: YOU[475]	*->126-1	IndefNP[126]	_	_	_	
+47-4	1306-1315	Spaghetti	GFailure[8]	essen\_set1\_23[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-essen\_set1\_23[8]	*[47]	*[47]	DirObj[47]	*[47]	*[47]	false[112]	Decl[112]	*[239]	*[239]	*[239]	*[239]	*[239]	input2[239]	57[357]	female[357]	k0vnav0sqhr0fo3b0jpuaak9s4[357]	speaker: YOU[475]	*->126-1	IndefNP[126]	_	_	_	
+47-5	1316-1322	eklig.	GFailure[8]	essen\_set1\_23[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-essen\_set1\_23[8]	_	_	_	_	_	false[112]	Decl[112]	*[239]	*[239]	*[239]	*[239]	*[239]	input2[239]	57[357]	female[357]	k0vnav0sqhr0fo3b0jpuaak9s4[357]	speaker: YOU[475]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+48-1	1324-1339	END_OF_DOCUMENT	GFailure[8]	essen\_set1\_23[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-essen\_set1\_23[8]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+49-1	1341-1346	Alles	GFailure[9]	essen\_set1\_23[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-essen\_set1\_23[9]	_	_	_	_	_	false[113]	Int[113]	*[240]	*[240]	*[240]	yn\_1[240]	yesno\_question[240]	openq[240]	*[358]	female[358]	*[358]	speaker:Franziska[476]	_	_	QAP	*	50-1[114_113]	
+49-2	1347-1351	klar	GFailure[9]	essen\_set1\_23[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-essen\_set1\_23[9]	_	_	_	_	_	false[113]	Int[113]	*[240]	*[240]	*[240]	yn\_1[240]	yesno\_question[240]	openq[240]	*[358]	female[358]	*[358]	speaker:Franziska[476]	_	_	_	_	_	
+49-3	1352-1355	bei	GFailure[9]	essen\_set1\_23[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-essen\_set1\_23[9]	_	_	_	_	_	false[113]	Int[113]	*[240]	*[240]	*[240]	yn\_1[240]	yesno\_question[240]	openq[240]	*[358]	female[358]	*[358]	speaker:Franziska[476]	_	_	_	_	_	
+49-4	1356-1360	dir?	GFailure[9]	essen\_set1\_23[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-essen\_set1\_23[9]	2	*	*	*	singular	false[113]	Int[113]	*[240]	*[240]	*[240]	yn\_1[240]	yesno\_question[240]	openq[240]	*[358]	female[358]	*[358]	speaker:Franziska[476]	*->43-1	PerPron[43]	_	_	_	
+
+#Text=Richard hat kalte Spaghetti gegessen
+50-1	1362-1369	Richard	GFailure[9]	essen\_set1\_23[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-essen\_set1\_23[9]	*	*	Subj	*	*	false[114]	Decl[114]	*[241]	essen[241]	transitive[241]	*[241]	*[241]	item0[241]	26[359]	female[359]	qjdpg51abd5auurj3bduisfb43[359]	speaker: YOU[477]	*->1-1	PropNm[1]	elaboration|elaboration|CR	*|*|*	52-1[115_114]|53-1[116_114]|51-1[0_114]	
+50-2	1370-1373	hat	GFailure[9]	essen\_set1\_23[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-essen\_set1\_23[9]	_	_	_	_	_	false[114]	Decl[114]	*[241]	essen[241]	transitive[241]	*[241]	*[241]	item0[241]	26[359]	female[359]	qjdpg51abd5auurj3bduisfb43[359]	speaker: YOU[477]	_	_	_	_	_	
+50-3	1374-1379	kalte	GFailure[9]	essen\_set1\_23[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-essen\_set1\_23[9]	*[48]	*[48]	object[48]	*[48]	*[48]	false[114]	Decl[114]	*[241]	essen[241]	transitive[241]	*[241]	*[241]	item0[241]	26[359]	female[359]	qjdpg51abd5auurj3bduisfb43[359]	speaker: YOU[477]	*->113-1	IndefNP[113]	_	_	_	
+50-4	1380-1389	Spaghetti	GFailure[9]	essen\_set1\_23[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-essen\_set1\_23[9]	*[48]	*[48]	object[48]	*[48]	*[48]	false[114]	Decl[114]	*[241]	essen[241]	transitive[241]	*[241]	*[241]	item0[241]	26[359]	female[359]	qjdpg51abd5auurj3bduisfb43[359]	speaker: YOU[477]	*->113-1	IndefNP[113]	_	_	_	
+50-5	1390-1398	gegessen	GFailure[9]	essen\_set1\_23[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-essen\_set1\_23[9]	_	_	_	_	_	false[114]	Decl[114]	*[241]	essen[241]	transitive[241]	*[241]	*[241]	item0[241]	26[359]	female[359]	qjdpg51abd5auurj3bduisfb43[359]	speaker: YOU[477]	_	_	_	_	_	
+
+#Text=Häh?
+51-1	1400-1404	Häh?	GFailure[9]	essen\_set1\_23[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-essen\_set1\_23[9]	_	_	_	_	_	false	NA	haeh\_question\_1	*	*	*	*	feedback	*	female	*	speaker:Franziska	_	_	_	_	_	
+
+#Text=Mit Erdbeeren.
+52-1	1406-1409	Mit	GFailure[9]	essen\_set1\_23[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-essen\_set1\_23[9]	_	_	_	_	_	false[115]	NA[115]	*[242]	*[242]	*[242]	*[242]	*[242]	input1[242]	26[360]	female[360]	qjdpg51abd5auurj3bduisfb43[360]	speaker: YOU[478]	_	_	_	_	_	
+52-2	1410-1420	Erdbeeren.	GFailure[9]	essen\_set1\_23[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-essen\_set1\_23[9]	*	*	PrepObj	*	*	false[115]	NA[115]	*[242]	*[242]	*[242]	*[242]	*[242]	input1[242]	26[360]	female[360]	qjdpg51abd5auurj3bduisfb43[360]	speaker: YOU[478]	*->18-1	IndefNP[18]	_	_	_	
+
+#Text=Es war super lecker.
+53-1	1422-1424	Es	GFailure[9]	essen\_set1\_23[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-essen\_set1\_23[9]	3	*	Subj	*	singular	false[116]	Decl[116]	*[243]	*[243]	*[243]	*[243]	*[243]	input2[243]	26[361]	female[361]	qjdpg51abd5auurj3bduisfb43[361]	speaker: YOU[479]	*->113-2	PerPron[113]	_	_	_	
+53-2	1425-1428	war	GFailure[9]	essen\_set1\_23[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-essen\_set1\_23[9]	_	_	_	_	_	false[116]	Decl[116]	*[243]	*[243]	*[243]	*[243]	*[243]	input2[243]	26[361]	female[361]	qjdpg51abd5auurj3bduisfb43[361]	speaker: YOU[479]	_	_	_	_	_	
+53-3	1429-1434	super	GFailure[9]	essen\_set1\_23[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-essen\_set1\_23[9]	_	_	_	_	_	false[116]	Decl[116]	*[243]	*[243]	*[243]	*[243]	*[243]	input2[243]	26[361]	female[361]	qjdpg51abd5auurj3bduisfb43[361]	speaker: YOU[479]	_	_	_	_	_	
+53-4	1435-1442	lecker.	GFailure[9]	essen\_set1\_23[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-essen\_set1\_23[9]	_	_	_	_	_	false[116]	Decl[116]	*[243]	*[243]	*[243]	*[243]	*[243]	input2[243]	26[361]	female[361]	qjdpg51abd5auurj3bduisfb43[361]	speaker: YOU[479]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+54-1	1444-1459	END_OF_DOCUMENT	GFailure[9]	essen\_set1\_23[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-essen\_set1\_23[9]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+55-1	1461-1466	Alles	GFailure[10]	essen\_set1\_23[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-essen\_set1\_23[10]	_	_	_	_	_	false[117]	Int[117]	*[244]	*[244]	*[244]	yn\_1[244]	yesno\_question[244]	openq[244]	*[362]	female[362]	*[362]	speaker:Franziska[480]	_	_	QAP	*	56-1[118_117]	
+55-2	1467-1471	klar	GFailure[10]	essen\_set1\_23[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-essen\_set1\_23[10]	_	_	_	_	_	false[117]	Int[117]	*[244]	*[244]	*[244]	yn\_1[244]	yesno\_question[244]	openq[244]	*[362]	female[362]	*[362]	speaker:Franziska[480]	_	_	_	_	_	
+55-3	1472-1475	bei	GFailure[10]	essen\_set1\_23[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-essen\_set1\_23[10]	_	_	_	_	_	false[117]	Int[117]	*[244]	*[244]	*[244]	yn\_1[244]	yesno\_question[244]	openq[244]	*[362]	female[362]	*[362]	speaker:Franziska[480]	_	_	_	_	_	
+55-4	1476-1480	dir?	GFailure[10]	essen\_set1\_23[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-essen\_set1\_23[10]	2	*	*	*	singular	false[117]	Int[117]	*[244]	*[244]	*[244]	yn\_1[244]	yesno\_question[244]	openq[244]	*[362]	female[362]	*[362]	speaker:Franziska[480]	*->55-1	PerPron[55]	_	_	_	
+
+#Text=Richard hat kalte Spaghetti gegessen
+56-1	1482-1489	Richard	GFailure[10]	essen\_set1\_23[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-essen\_set1\_23[10]	*	*	Subj	*	*	false[118]	Decl[118]	*[245]	essen[245]	transitive[245]	*[245]	*[245]	item0[245]	72[363]	male[363]	rhiec6c6hfje484c5bsbj040l0[363]	speaker: YOU[481]	*->112-1	PropNm[112]	explanation|CR	*|*	58-1[119_118]|57-1[0_118]	
+56-2	1490-1493	hat	GFailure[10]	essen\_set1\_23[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-essen\_set1\_23[10]	_	_	_	_	_	false[118]	Decl[118]	*[245]	essen[245]	transitive[245]	*[245]	*[245]	item0[245]	72[363]	male[363]	rhiec6c6hfje484c5bsbj040l0[363]	speaker: YOU[481]	_	_	_	_	_	
+56-3	1494-1499	kalte	GFailure[10]	essen\_set1\_23[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-essen\_set1\_23[10]	*[49]	*[49]	object[49]	*[49]	*[49]	false[118]	Decl[118]	*[245]	essen[245]	transitive[245]	*[245]	*[245]	item0[245]	72[363]	male[363]	rhiec6c6hfje484c5bsbj040l0[363]	speaker: YOU[481]	*->39-1	IndefNP[39]	_	_	_	
+56-4	1500-1509	Spaghetti	GFailure[10]	essen\_set1\_23[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-essen\_set1\_23[10]	*[49]	*[49]	object[49]	*[49]	*[49]	false[118]	Decl[118]	*[245]	essen[245]	transitive[245]	*[245]	*[245]	item0[245]	72[363]	male[363]	rhiec6c6hfje484c5bsbj040l0[363]	speaker: YOU[481]	*->39-1	IndefNP[39]	_	_	_	
+56-5	1510-1518	gegessen	GFailure[10]	essen\_set1\_23[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-essen\_set1\_23[10]	_	_	_	_	_	false[118]	Decl[118]	*[245]	essen[245]	transitive[245]	*[245]	*[245]	item0[245]	72[363]	male[363]	rhiec6c6hfje484c5bsbj040l0[363]	speaker: YOU[481]	_	_	_	_	_	
+
+#Text=Häh?
+57-1	1520-1524	Häh?	GFailure[10]	essen\_set1\_23[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-essen\_set1\_23[10]	_	_	_	_	_	false	NA	haeh\_question\_1	*	*	*	*	feedback	*	female	*	speaker:Franziska	_	_	_	_	_	
+
+#Text=Er hatte so Hunger
+58-1	1526-1528	Er	GFailure[10]	essen\_set1\_23[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-essen\_set1\_23[10]	3	*	Subj	*	singular	false[119]	Excl[119]	*[246]	*[246]	*[246]	*[246]	*[246]	input1[246]	72[364]	male[364]	rhiec6c6hfje484c5bsbj040l0[364]	speaker: YOU[482]	*->112-2	PerPron[112]	_	_	_	
+58-2	1529-1534	hatte	GFailure[10]	essen\_set1\_23[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-essen\_set1\_23[10]	_	_	_	_	_	false[119]	Excl[119]	*[246]	*[246]	*[246]	*[246]	*[246]	input1[246]	72[364]	male[364]	rhiec6c6hfje484c5bsbj040l0[364]	speaker: YOU[482]	_	_	_	_	_	
+58-3	1535-1537	so	GFailure[10]	essen\_set1\_23[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-essen\_set1\_23[10]	_	_	_	_	_	false[119]	Excl[119]	*[246]	*[246]	*[246]	*[246]	*[246]	input1[246]	72[364]	male[364]	rhiec6c6hfje484c5bsbj040l0[364]	speaker: YOU[482]	_	_	_	_	_	
+58-4	1538-1544	Hunger	GFailure[10]	essen\_set1\_23[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-essen\_set1\_23[10]	_	_	_	_	_	false[119]	Excl[119]	*[246]	*[246]	*[246]	*[246]	*[246]	input1[246]	72[364]	male[364]	rhiec6c6hfje484c5bsbj040l0[364]	speaker: YOU[482]	*->90-1	IndefNP[90]	_	_	_	
+
+#Text=Ich wollte sie ihm wärmen <BR> aber da waren sie schon weg
+59-1	1546-1549	Ich	GFailure[10]	essen\_set1\_23[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-essen\_set1\_23[10]	1	*	Subj	*	singular	false[120]	Decl[120]	*[247]	*[247]	*[247]	*[247]	*[247]	input2[247]	72[365]	male[365]	rhiec6c6hfje484c5bsbj040l0[365]	speaker: YOU[483]	*->55-2	PerPron[55]	contrast	*	59-7[121_120]	
+59-2	1550-1556	wollte	GFailure[10]	essen\_set1\_23[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-essen\_set1\_23[10]	_	_	_	_	_	false[120]	Decl[120]	*[247]	*[247]	*[247]	*[247]	*[247]	input2[247]	72[365]	male[365]	rhiec6c6hfje484c5bsbj040l0[365]	speaker: YOU[483]	_	_	_	_	_	
+59-3	1557-1560	sie	GFailure[10]	essen\_set1\_23[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-essen\_set1\_23[10]	3	*	DirObj	*	plural	false[120]	Decl[120]	*[247]	*[247]	*[247]	*[247]	*[247]	input2[247]	72[365]	male[365]	rhiec6c6hfje484c5bsbj040l0[365]	speaker: YOU[483]	*->39-2	PerPron[39]	_	_	_	
+59-4	1561-1564	ihm	GFailure[10]	essen\_set1\_23[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-essen\_set1\_23[10]	3	*	IndirObj	*	singular	false[120]	Decl[120]	*[247]	*[247]	*[247]	*[247]	*[247]	input2[247]	72[365]	male[365]	rhiec6c6hfje484c5bsbj040l0[365]	speaker: YOU[483]	*->112-3	PerPron[112]	_	_	_	
+59-5	1565-1571	wärmen	GFailure[10]	essen\_set1\_23[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-essen\_set1\_23[10]	_	_	_	_	_	false[120]	Decl[120]	*[247]	*[247]	*[247]	*[247]	*[247]	input2[247]	72[365]	male[365]	rhiec6c6hfje484c5bsbj040l0[365]	speaker: YOU[483]	_	_	_	_	_	
+59-6	1572-1576	<BR>	GFailure[10]	essen\_set1\_23[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-essen\_set1\_23[10]	_	_	_	_	_	_	_	*[247]	*[247]	*[247]	*[247]	*[247]	input2[247]	72[365]	male[365]	rhiec6c6hfje484c5bsbj040l0[365]	speaker: YOU[483]	_	_	_	_	_	
+59-7	1577-1581	aber	GFailure[10]	essen\_set1\_23[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-essen\_set1\_23[10]	_	_	_	_	_	false[121]	Decl[121]	*[247]	*[247]	*[247]	*[247]	*[247]	input2[247]	72[365]	male[365]	rhiec6c6hfje484c5bsbj040l0[365]	speaker: YOU[483]	_	_	_	_	_	
+59-8	1582-1584	da	GFailure[10]	essen\_set1\_23[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-essen\_set1\_23[10]	_	_	_	_	_	false[121]	Decl[121]	*[247]	*[247]	*[247]	*[247]	*[247]	input2[247]	72[365]	male[365]	rhiec6c6hfje484c5bsbj040l0[365]	speaker: YOU[483]	_	_	_	_	_	
+59-9	1585-1590	waren	GFailure[10]	essen\_set1\_23[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-essen\_set1\_23[10]	_	_	_	_	_	false[121]	Decl[121]	*[247]	*[247]	*[247]	*[247]	*[247]	input2[247]	72[365]	male[365]	rhiec6c6hfje484c5bsbj040l0[365]	speaker: YOU[483]	_	_	_	_	_	
+59-10	1591-1594	sie	GFailure[10]	essen\_set1\_23[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-essen\_set1\_23[10]	3	*	Subj	*	plural	false[121]	Decl[121]	*[247]	*[247]	*[247]	*[247]	*[247]	input2[247]	72[365]	male[365]	rhiec6c6hfje484c5bsbj040l0[365]	speaker: YOU[483]	*->39-3	PerPron[39]	_	_	_	
+59-11	1595-1600	schon	GFailure[10]	essen\_set1\_23[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-essen\_set1\_23[10]	_	_	_	_	_	false[121]	Decl[121]	*[247]	*[247]	*[247]	*[247]	*[247]	input2[247]	72[365]	male[365]	rhiec6c6hfje484c5bsbj040l0[365]	speaker: YOU[483]	_	_	_	_	_	
+59-12	1601-1604	weg	GFailure[10]	essen\_set1\_23[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-essen\_set1\_23[10]	_	_	_	_	_	false[121]	Decl[121]	*[247]	*[247]	*[247]	*[247]	*[247]	input2[247]	72[365]	male[365]	rhiec6c6hfje484c5bsbj040l0[365]	speaker: YOU[483]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+60-1	1606-1621	END_OF_DOCUMENT	GFailure[10]	essen\_set1\_23[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-essen\_set1\_23[10]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+61-1	1623-1628	Alles	GSuccess[11]	essen\_set1\_23[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-essen\_set1\_23[11]	_	_	_	_	_	false[122]	Int[122]	*[248]	*[248]	*[248]	yn\_1[248]	yesno\_question[248]	openq[248]	*[366]	female[366]	*[366]	speaker:Franziska[484]	_	_	parallel|QAP	*|*	65-1[126_122]|62-1[123_122]	
+61-2	1629-1633	klar	GSuccess[11]	essen\_set1\_23[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-essen\_set1\_23[11]	_	_	_	_	_	false[122]	Int[122]	*[248]	*[248]	*[248]	yn\_1[248]	yesno\_question[248]	openq[248]	*[366]	female[366]	*[366]	speaker:Franziska[484]	_	_	_	_	_	
+61-3	1634-1637	bei	GSuccess[11]	essen\_set1\_23[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-essen\_set1\_23[11]	_	_	_	_	_	false[122]	Int[122]	*[248]	*[248]	*[248]	yn\_1[248]	yesno\_question[248]	openq[248]	*[366]	female[366]	*[366]	speaker:Franziska[484]	_	_	_	_	_	
+61-4	1638-1642	dir?	GSuccess[11]	essen\_set1\_23[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-essen\_set1\_23[11]	2	*	*	*	singular	false[122]	Int[122]	*[248]	*[248]	*[248]	yn\_1[248]	yesno\_question[248]	openq[248]	*[366]	female[366]	*[366]	speaker:Franziska[484]	*->79-1	PerPron[79]	_	_	_	
+
+#Text=Richard hat kalte Spaghetti gegessen
+62-1	1644-1651	Richard	GSuccess[11]	essen\_set1\_23[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-essen\_set1\_23[11]	*	*	Subj	*	*	false[123]	Decl[123]	*[249]	essen[249]	transitive[249]	*[249]	*[249]	item0[249]	18[367]	female[367]	0ncaea7aqlpc7oe43khd21qn11[367]	speaker: YOU[485]	*->87-1	PropNm[87]	elaboration|acknowledgement	*|*	64-1[124_123]|63-1[0_123]	
+62-2	1652-1655	hat	GSuccess[11]	essen\_set1\_23[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-essen\_set1\_23[11]	_	_	_	_	_	false[123]	Decl[123]	*[249]	essen[249]	transitive[249]	*[249]	*[249]	item0[249]	18[367]	female[367]	0ncaea7aqlpc7oe43khd21qn11[367]	speaker: YOU[485]	_	_	_	_	_	
+62-3	1656-1661	kalte	GSuccess[11]	essen\_set1\_23[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-essen\_set1\_23[11]	*[50]	*[50]	object[50]	*[50]	*[50]	false[123]	Decl[123]	*[249]	essen[249]	transitive[249]	*[249]	*[249]	item0[249]	18[367]	female[367]	0ncaea7aqlpc7oe43khd21qn11[367]	speaker: YOU[485]	*->16-1	IndefNP[16]	_	_	_	
+62-4	1662-1671	Spaghetti	GSuccess[11]	essen\_set1\_23[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-essen\_set1\_23[11]	*[50]	*[50]	object[50]	*[50]	*[50]	false[123]	Decl[123]	*[249]	essen[249]	transitive[249]	*[249]	*[249]	item0[249]	18[367]	female[367]	0ncaea7aqlpc7oe43khd21qn11[367]	speaker: YOU[485]	*->16-1	IndefNP[16]	_	_	_	
+62-5	1672-1680	gegessen	GSuccess[11]	essen\_set1\_23[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-essen\_set1\_23[11]	_	_	_	_	_	false[123]	Decl[123]	*[249]	essen[249]	transitive[249]	*[249]	*[249]	item0[249]	18[367]	female[367]	0ncaea7aqlpc7oe43khd21qn11[367]	speaker: YOU[485]	_	_	_	_	_	
+
+#Text=Ohje
+63-1	1682-1686	Ohje	GSuccess[11]	essen\_set1\_23[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-essen\_set1\_23[11]	_	_	_	_	_	false	NA	ohje\_27	*	*	*	*	feedback	*	female	*	speaker:Franziska	_	_	_	_	_	
+
+#Text=Nicht schlimm <BR> stell ich mir nur sehr grindig vor.
+64-1	1688-1693	Nicht	GSuccess[11]	essen\_set1\_23[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-essen\_set1\_23[11]	_	_	_	_	_	false[124]	NA[124]	*[250]	*[250]	*[250]	*[250]	*[250]	input1[250]	18[368]	female[368]	0ncaea7aqlpc7oe43khd21qn11[368]	speaker: YOU[486]	_	_	elaboration	*	64-4[125_124]	
+64-2	1694-1701	schlimm	GSuccess[11]	essen\_set1\_23[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-essen\_set1\_23[11]	_	_	_	_	_	false[124]	NA[124]	*[250]	*[250]	*[250]	*[250]	*[250]	input1[250]	18[368]	female[368]	0ncaea7aqlpc7oe43khd21qn11[368]	speaker: YOU[486]	_	_	_	_	_	
+64-3	1702-1706	<BR>	GSuccess[11]	essen\_set1\_23[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-essen\_set1\_23[11]	_	_	_	_	_	_	_	*[250]	*[250]	*[250]	*[250]	*[250]	input1[250]	18[368]	female[368]	0ncaea7aqlpc7oe43khd21qn11[368]	speaker: YOU[486]	_	_	_	_	_	
+64-4	1707-1712	stell	GSuccess[11]	essen\_set1\_23[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-essen\_set1\_23[11]	3	*	*	*	singular	false[125]	Decl[125]	*[250]	*[250]	*[250]	*[250]	*[250]	input1[250]	18[368]	female[368]	0ncaea7aqlpc7oe43khd21qn11[368]	speaker: YOU[486]	*->16-2	zero[16]	_	_	_	
+64-5	1713-1716	ich	GSuccess[11]	essen\_set1\_23[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-essen\_set1\_23[11]	1	*	Subj	*	singular	false[125]	Decl[125]	*[250]	*[250]	*[250]	*[250]	*[250]	input1[250]	18[368]	female[368]	0ncaea7aqlpc7oe43khd21qn11[368]	speaker: YOU[486]	*->79-2	PerPron[79]	_	_	_	
+64-6	1717-1720	mir	GSuccess[11]	essen\_set1\_23[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-essen\_set1\_23[11]	_	_	_	_	_	false[125]	Decl[125]	*[250]	*[250]	*[250]	*[250]	*[250]	input1[250]	18[368]	female[368]	0ncaea7aqlpc7oe43khd21qn11[368]	speaker: YOU[486]	_	_	_	_	_	
+64-7	1721-1724	nur	GSuccess[11]	essen\_set1\_23[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-essen\_set1\_23[11]	_	_	_	_	_	false[125]	Decl[125]	*[250]	*[250]	*[250]	*[250]	*[250]	input1[250]	18[368]	female[368]	0ncaea7aqlpc7oe43khd21qn11[368]	speaker: YOU[486]	_	_	_	_	_	
+64-8	1725-1729	sehr	GSuccess[11]	essen\_set1\_23[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-essen\_set1\_23[11]	_	_	_	_	_	false[125]	Decl[125]	*[250]	*[250]	*[250]	*[250]	*[250]	input1[250]	18[368]	female[368]	0ncaea7aqlpc7oe43khd21qn11[368]	speaker: YOU[486]	_	_	_	_	_	
+64-9	1730-1737	grindig	GSuccess[11]	essen\_set1\_23[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-essen\_set1\_23[11]	_	_	_	_	_	false[125]	Decl[125]	*[250]	*[250]	*[250]	*[250]	*[250]	input1[250]	18[368]	female[368]	0ncaea7aqlpc7oe43khd21qn11[368]	speaker: YOU[486]	_	_	_	_	_	
+64-10	1738-1742	vor.	GSuccess[11]	essen\_set1\_23[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-essen\_set1\_23[11]	_	_	_	_	_	false[125]	Decl[125]	*[250]	*[250]	*[250]	*[250]	*[250]	input1[250]	18[368]	female[368]	0ncaea7aqlpc7oe43khd21qn11[368]	speaker: YOU[486]	_	_	_	_	_	
+
+#Text=Was geht bei dir so?
+65-1	1744-1747	Was	GSuccess[11]	essen\_set1\_23[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-essen\_set1\_23[11]	_	_	_	_	_	false[126]	Int[126]	*[251]	*[251]	*[251]	*[251]	*[251]	input2[251]	18[369]	female[369]	0ncaea7aqlpc7oe43khd21qn11[369]	speaker: YOU[487]	_	_	_	_	_	
+65-2	1748-1752	geht	GSuccess[11]	essen\_set1\_23[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-essen\_set1\_23[11]	_	_	_	_	_	false[126]	Int[126]	*[251]	*[251]	*[251]	*[251]	*[251]	input2[251]	18[369]	female[369]	0ncaea7aqlpc7oe43khd21qn11[369]	speaker: YOU[487]	_	_	_	_	_	
+65-3	1753-1756	bei	GSuccess[11]	essen\_set1\_23[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-essen\_set1\_23[11]	_	_	_	_	_	false[126]	Int[126]	*[251]	*[251]	*[251]	*[251]	*[251]	input2[251]	18[369]	female[369]	0ncaea7aqlpc7oe43khd21qn11[369]	speaker: YOU[487]	_	_	_	_	_	
+65-4	1757-1760	dir	GSuccess[11]	essen\_set1\_23[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-essen\_set1\_23[11]	2	*	*	*	singular	false[126]	Int[126]	*[251]	*[251]	*[251]	*[251]	*[251]	input2[251]	18[369]	female[369]	0ncaea7aqlpc7oe43khd21qn11[369]	speaker: YOU[487]	*->36-1	PerPron[36]	_	_	_	
+65-5	1761-1764	so?	GSuccess[11]	essen\_set1\_23[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-essen\_set1\_23[11]	_	_	_	_	_	false[126]	Int[126]	*[251]	*[251]	*[251]	*[251]	*[251]	input2[251]	18[369]	female[369]	0ncaea7aqlpc7oe43khd21qn11[369]	speaker: YOU[487]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+66-1	1766-1781	END_OF_DOCUMENT	GSuccess[11]	essen\_set1\_23[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-essen\_set1\_23[11]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+67-1	1783-1788	Alles	GSuccess[12]	essen\_set1\_23[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-essen\_set1\_23[12]	_	_	_	_	_	false[127]	Int[127]	*[252]	*[252]	*[252]	yn\_1[252]	yesno\_question[252]	openq[252]	*[370]	female[370]	*[370]	speaker:Franziska[488]	_	_	QAP	*	68-1[128_127]	
+67-2	1789-1793	klar	GSuccess[12]	essen\_set1\_23[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-essen\_set1\_23[12]	_	_	_	_	_	false[127]	Int[127]	*[252]	*[252]	*[252]	yn\_1[252]	yesno\_question[252]	openq[252]	*[370]	female[370]	*[370]	speaker:Franziska[488]	_	_	_	_	_	
+67-3	1794-1797	bei	GSuccess[12]	essen\_set1\_23[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-essen\_set1\_23[12]	_	_	_	_	_	false[127]	Int[127]	*[252]	*[252]	*[252]	yn\_1[252]	yesno\_question[252]	openq[252]	*[370]	female[370]	*[370]	speaker:Franziska[488]	_	_	_	_	_	
+67-4	1798-1802	dir?	GSuccess[12]	essen\_set1\_23[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-essen\_set1\_23[12]	2	*	*	*	singular	false[127]	Int[127]	*[252]	*[252]	*[252]	yn\_1[252]	yesno\_question[252]	openq[252]	*[370]	female[370]	*[370]	speaker:Franziska[488]	*->61-1	PerPron[61]	_	_	_	
+
+#Text=Richard hat kalte Spaghetti gegessen
+68-1	1804-1811	Richard	GSuccess[12]	essen\_set1\_23[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-essen\_set1\_23[12]	*	*	Subj	*	*	false[128]	Decl[128]	*[253]	essen[253]	transitive[253]	*[253]	*[253]	item0[253]	36[371]	male[371]	19gm0uv9ca6mcngf99lirno94a[371]	speaker: YOU[489]	*->46-1	PropNm[46]	contrast|acknowledgement	*|*	70-1[129_128]|69-1[0_128]	
+68-2	1812-1815	hat	GSuccess[12]	essen\_set1\_23[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-essen\_set1\_23[12]	_	_	_	_	_	false[128]	Decl[128]	*[253]	essen[253]	transitive[253]	*[253]	*[253]	item0[253]	36[371]	male[371]	19gm0uv9ca6mcngf99lirno94a[371]	speaker: YOU[489]	_	_	_	_	_	
+68-3	1816-1821	kalte	GSuccess[12]	essen\_set1\_23[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-essen\_set1\_23[12]	*[51]	*[51]	object[51]	*[51]	*[51]	false[128]	Decl[128]	*[253]	essen[253]	transitive[253]	*[253]	*[253]	item0[253]	36[371]	male[371]	19gm0uv9ca6mcngf99lirno94a[371]	speaker: YOU[489]	*->9-1	IndefNP[9]	_	_	_	
+68-4	1822-1831	Spaghetti	GSuccess[12]	essen\_set1\_23[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-essen\_set1\_23[12]	*[51]	*[51]	object[51]	*[51]	*[51]	false[128]	Decl[128]	*[253]	essen[253]	transitive[253]	*[253]	*[253]	item0[253]	36[371]	male[371]	19gm0uv9ca6mcngf99lirno94a[371]	speaker: YOU[489]	*->9-1	IndefNP[9]	_	_	_	
+68-5	1832-1840	gegessen	GSuccess[12]	essen\_set1\_23[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-essen\_set1\_23[12]	_	_	_	_	_	false[128]	Decl[128]	*[253]	essen[253]	transitive[253]	*[253]	*[253]	item0[253]	36[371]	male[371]	19gm0uv9ca6mcngf99lirno94a[371]	speaker: YOU[489]	_	_	_	_	_	
+
+#Text=Ohje
+69-1	1842-1846	Ohje	GSuccess[12]	essen\_set1\_23[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-essen\_set1\_23[12]	_	_	_	_	_	false	NA	ohje\_27	*	*	*	*	feedback	*	female	*	speaker:Franziska	_	_	_	_	_	
+
+#Text=Dabei haben wir eine Mikrowelle!
+70-1	1848-1853	Dabei	GSuccess[12]	essen\_set1\_23[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-essen\_set1\_23[12]	_	_	_	_	_	false[129]	Decl[129]	*[254]	*[254]	*[254]	*[254]	*[254]	input1[254]	36[372]	male[372]	19gm0uv9ca6mcngf99lirno94a[372]	speaker: YOU[490]	*->3-1	clause[3]	contrast	*	71-1[130_129]	
+70-2	1854-1859	haben	GSuccess[12]	essen\_set1\_23[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-essen\_set1\_23[12]	_	_	_	_	_	false[129]	Decl[129]	*[254]	*[254]	*[254]	*[254]	*[254]	input1[254]	36[372]	male[372]	19gm0uv9ca6mcngf99lirno94a[372]	speaker: YOU[490]	*->3-1	clause[3]	_	_	_	
+70-3	1860-1863	wir	GSuccess[12]	essen\_set1\_23[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-essen\_set1\_23[12]	1	*	Subj	*	plural	false[129]	Decl[129]	*[254]	*[254]	*[254]	*[254]	*[254]	input1[254]	36[372]	male[372]	19gm0uv9ca6mcngf99lirno94a[372]	speaker: YOU[490]	*->3-1|*->19-1	clause[3]|PerPron[19]	_	_	_	
+70-4	1864-1868	eine	GSuccess[12]	essen\_set1\_23[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-essen\_set1\_23[12]	*[52]	*[52]	DirObj[52]	*[52]	*[52]	false[129]	Decl[129]	*[254]	*[254]	*[254]	*[254]	*[254]	input1[254]	36[372]	male[372]	19gm0uv9ca6mcngf99lirno94a[372]	speaker: YOU[490]	*->3-1|*->64-1	clause[3]|IndefNP[64]	_	_	_	
+70-5	1869-1880	Mikrowelle!	GSuccess[12]	essen\_set1\_23[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-essen\_set1\_23[12]	*[52]	*[52]	DirObj[52]	*[52]	*[52]	false[129]	Decl[129]	*[254]	*[254]	*[254]	*[254]	*[254]	input1[254]	36[372]	male[372]	19gm0uv9ca6mcngf99lirno94a[372]	speaker: YOU[490]	*->3-1|*->64-1	clause[3]|IndefNP[64]	_	_	_	
+
+#Text=Aber machste nix...
+71-1	1882-1886	Aber	GSuccess[12]	essen\_set1\_23[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-essen\_set1\_23[12]	_	_	_	_	_	false[130]	Decl[130]	*[255]	*[255]	*[255]	*[255]	*[255]	input2[255]	36[373]	male[373]	19gm0uv9ca6mcngf99lirno94a[373]	speaker: YOU[491]	_	_	_	_	_	
+71-2	1887-1894	machste	GSuccess[12]	essen\_set1\_23[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-essen\_set1\_23[12]	3	*	*	*	singular	false[130]	Decl[130]	*[255]	*[255]	*[255]	*[255]	*[255]	input2[255]	36[373]	male[373]	19gm0uv9ca6mcngf99lirno94a[373]	speaker: YOU[491]	*->3-2	zero[3]	_	_	_	
+71-3	1895-1901	nix...	GSuccess[12]	essen\_set1\_23[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-essen\_set1\_23[12]	_	_	_	_	_	false[130]	Decl[130]	*[255]	*[255]	*[255]	*[255]	*[255]	input2[255]	36[373]	male[373]	19gm0uv9ca6mcngf99lirno94a[373]	speaker: YOU[491]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+72-1	1903-1918	END_OF_DOCUMENT	GSuccess[12]	essen\_set1\_23[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-essen\_set1\_23[12]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+73-1	1920-1925	Alles	GSuccess[13]	essen\_set1\_23[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-essen\_set1\_23[13]	_	_	_	_	_	false[131]	Int[131]	*[256]	*[256]	*[256]	yn\_1[256]	yesno\_question[256]	openq[256]	*[374]	female[374]	*[374]	speaker:Franziska[492]	_	_	QAP	*	74-1[132_131]	
+73-2	1926-1930	klar	GSuccess[13]	essen\_set1\_23[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-essen\_set1\_23[13]	_	_	_	_	_	false[131]	Int[131]	*[256]	*[256]	*[256]	yn\_1[256]	yesno\_question[256]	openq[256]	*[374]	female[374]	*[374]	speaker:Franziska[492]	_	_	_	_	_	
+73-3	1931-1934	bei	GSuccess[13]	essen\_set1\_23[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-essen\_set1\_23[13]	_	_	_	_	_	false[131]	Int[131]	*[256]	*[256]	*[256]	yn\_1[256]	yesno\_question[256]	openq[256]	*[374]	female[374]	*[374]	speaker:Franziska[492]	_	_	_	_	_	
+73-4	1935-1939	dir?	GSuccess[13]	essen\_set1\_23[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-essen\_set1\_23[13]	2	*	*	*	singular	false[131]	Int[131]	*[256]	*[256]	*[256]	yn\_1[256]	yesno\_question[256]	openq[256]	*[374]	female[374]	*[374]	speaker:Franziska[492]	*->67-1	PerPron[67]	_	_	_	
+
+#Text=Richard hat kalte Spaghetti gegessen
+74-1	1941-1948	Richard	GSuccess[13]	essen\_set1\_23[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-essen\_set1\_23[13]	*	*	Subj	*	*	false[132]	Decl[132]	*[257]	essen[257]	transitive[257]	*[257]	*[257]	item0[257]	18[375]	female[375]	4qae3ph27q5gbjcsrgnltv8qld[375]	speaker: YOU[493]	*->25-1	PropNm[25]	explanation|acknowledgement	*|*	76-1[133_132]|75-1[0_132]	
+74-2	1949-1952	hat	GSuccess[13]	essen\_set1\_23[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-essen\_set1\_23[13]	_	_	_	_	_	false[132]	Decl[132]	*[257]	essen[257]	transitive[257]	*[257]	*[257]	item0[257]	18[375]	female[375]	4qae3ph27q5gbjcsrgnltv8qld[375]	speaker: YOU[493]	_	_	_	_	_	
+74-3	1953-1958	kalte	GSuccess[13]	essen\_set1\_23[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-essen\_set1\_23[13]	*[53]	*[53]	object[53]	*[53]	*[53]	false[132]	Decl[132]	*[257]	essen[257]	transitive[257]	*[257]	*[257]	item0[257]	18[375]	female[375]	4qae3ph27q5gbjcsrgnltv8qld[375]	speaker: YOU[493]	*->111-1	IndefNP[111]	_	_	_	
+74-4	1959-1968	Spaghetti	GSuccess[13]	essen\_set1\_23[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-essen\_set1\_23[13]	*[53]	*[53]	object[53]	*[53]	*[53]	false[132]	Decl[132]	*[257]	essen[257]	transitive[257]	*[257]	*[257]	item0[257]	18[375]	female[375]	4qae3ph27q5gbjcsrgnltv8qld[375]	speaker: YOU[493]	*->111-1	IndefNP[111]	_	_	_	
+74-5	1969-1977	gegessen	GSuccess[13]	essen\_set1\_23[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-essen\_set1\_23[13]	_	_	_	_	_	false[132]	Decl[132]	*[257]	essen[257]	transitive[257]	*[257]	*[257]	item0[257]	18[375]	female[375]	4qae3ph27q5gbjcsrgnltv8qld[375]	speaker: YOU[493]	_	_	_	_	_	
+
+#Text=Ohje
+75-1	1979-1983	Ohje	GSuccess[13]	essen\_set1\_23[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-essen\_set1\_23[13]	_	_	_	_	_	false	NA	ohje\_27	*	*	*	*	feedback	*	female	*	speaker:Franziska	_	_	_	_	_	
+
+#Text=nur weil er sie nicht aufwärmen wollte
+76-1	1985-1988	nur	GSuccess[13]	essen\_set1\_23[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-essen\_set1\_23[13]	_	_	_	_	_	false[133]	NA[133]	*[258]	*[258]	*[258]	*[258]	*[258]	input1[258]	18[376]	female[376]	4qae3ph27q5gbjcsrgnltv8qld[376]	speaker: YOU[494]	_	_	contrast	*	77-1[134_133]	
+76-2	1989-1993	weil	GSuccess[13]	essen\_set1\_23[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-essen\_set1\_23[13]	_	_	_	_	_	false[133]	NA[133]	*[258]	*[258]	*[258]	*[258]	*[258]	input1[258]	18[376]	female[376]	4qae3ph27q5gbjcsrgnltv8qld[376]	speaker: YOU[494]	_	_	_	_	_	
+76-3	1994-1996	er	GSuccess[13]	essen\_set1\_23[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-essen\_set1\_23[13]	3	*	Subj	*	singular	false[133]	NA[133]	*[258]	*[258]	*[258]	*[258]	*[258]	input1[258]	18[376]	female[376]	4qae3ph27q5gbjcsrgnltv8qld[376]	speaker: YOU[494]	*->25-2	PerPron[25]	_	_	_	
+76-4	1997-2000	sie	GSuccess[13]	essen\_set1\_23[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-essen\_set1\_23[13]	3	*	DirObj	*	plural	false[133]	NA[133]	*[258]	*[258]	*[258]	*[258]	*[258]	input1[258]	18[376]	female[376]	4qae3ph27q5gbjcsrgnltv8qld[376]	speaker: YOU[494]	*->111-2	PerPron[111]	_	_	_	
+76-5	2001-2006	nicht	GSuccess[13]	essen\_set1\_23[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-essen\_set1\_23[13]	_	_	_	_	_	false[133]	NA[133]	*[258]	*[258]	*[258]	*[258]	*[258]	input1[258]	18[376]	female[376]	4qae3ph27q5gbjcsrgnltv8qld[376]	speaker: YOU[494]	_	_	_	_	_	
+76-6	2007-2016	aufwärmen	GSuccess[13]	essen\_set1\_23[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-essen\_set1\_23[13]	_	_	_	_	_	false[133]	NA[133]	*[258]	*[258]	*[258]	*[258]	*[258]	input1[258]	18[376]	female[376]	4qae3ph27q5gbjcsrgnltv8qld[376]	speaker: YOU[494]	_	_	_	_	_	
+76-7	2017-2023	wollte	GSuccess[13]	essen\_set1\_23[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-essen\_set1\_23[13]	_	_	_	_	_	false[133]	NA[133]	*[258]	*[258]	*[258]	*[258]	*[258]	input1[258]	18[376]	female[376]	4qae3ph27q5gbjcsrgnltv8qld[376]	speaker: YOU[494]	_	_	_	_	_	
+
+#Text=jetzt ist er sie doch aufwärmen gegangen
+77-1	2025-2030	jetzt	GSuccess[13]	essen\_set1\_23[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-essen\_set1\_23[13]	_	_	_	_	_	false[134]	Decl[134]	*[259]	*[259]	*[259]	*[259]	*[259]	input2[259]	18[377]	female[377]	4qae3ph27q5gbjcsrgnltv8qld[377]	speaker: YOU[495]	_	_	_	_	_	
+77-2	2031-2034	ist	GSuccess[13]	essen\_set1\_23[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-essen\_set1\_23[13]	_	_	_	_	_	false[134]	Decl[134]	*[259]	*[259]	*[259]	*[259]	*[259]	input2[259]	18[377]	female[377]	4qae3ph27q5gbjcsrgnltv8qld[377]	speaker: YOU[495]	_	_	_	_	_	
+77-3	2035-2037	er	GSuccess[13]	essen\_set1\_23[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-essen\_set1\_23[13]	3	*	Subj	*	singular	false[134]	Decl[134]	*[259]	*[259]	*[259]	*[259]	*[259]	input2[259]	18[377]	female[377]	4qae3ph27q5gbjcsrgnltv8qld[377]	speaker: YOU[495]	*->25-3	PerPron[25]	_	_	_	
+77-4	2038-2041	sie	GSuccess[13]	essen\_set1\_23[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-essen\_set1\_23[13]	3	*	DirObj	*	plural	false[134]	Decl[134]	*[259]	*[259]	*[259]	*[259]	*[259]	input2[259]	18[377]	female[377]	4qae3ph27q5gbjcsrgnltv8qld[377]	speaker: YOU[495]	*->111-3	PerPron[111]	_	_	_	
+77-5	2042-2046	doch	GSuccess[13]	essen\_set1\_23[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-essen\_set1\_23[13]	_	_	_	_	_	false[134]	Decl[134]	*[259]	*[259]	*[259]	*[259]	*[259]	input2[259]	18[377]	female[377]	4qae3ph27q5gbjcsrgnltv8qld[377]	speaker: YOU[495]	_	_	_	_	_	
+77-6	2047-2056	aufwärmen	GSuccess[13]	essen\_set1\_23[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-essen\_set1\_23[13]	_	_	_	_	_	false[134]	Decl[134]	*[259]	*[259]	*[259]	*[259]	*[259]	input2[259]	18[377]	female[377]	4qae3ph27q5gbjcsrgnltv8qld[377]	speaker: YOU[495]	_	_	_	_	_	
+77-7	2057-2065	gegangen	GSuccess[13]	essen\_set1\_23[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-essen\_set1\_23[13]	_	_	_	_	_	false[134]	Decl[134]	*[259]	*[259]	*[259]	*[259]	*[259]	input2[259]	18[377]	female[377]	4qae3ph27q5gbjcsrgnltv8qld[377]	speaker: YOU[495]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+78-1	2067-2082	END_OF_DOCUMENT	GSuccess[13]	essen\_set1\_23[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-essen\_set1\_23[13]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+79-1	2084-2089	Alles	GSuccess[14]	essen\_set1\_23[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-essen\_set1\_23[14]	_	_	_	_	_	false[135]	Int[135]	*[260]	*[260]	*[260]	yn\_1[260]	yesno\_question[260]	openq[260]	*[378]	female[378]	*[378]	speaker:Franziska[496]	_	_	parallel|QAP	*|*	83-1[138_135]|80-1[136_135]	
+79-2	2090-2094	klar	GSuccess[14]	essen\_set1\_23[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-essen\_set1\_23[14]	_	_	_	_	_	false[135]	Int[135]	*[260]	*[260]	*[260]	yn\_1[260]	yesno\_question[260]	openq[260]	*[378]	female[378]	*[378]	speaker:Franziska[496]	_	_	_	_	_	
+79-3	2095-2098	bei	GSuccess[14]	essen\_set1\_23[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-essen\_set1\_23[14]	_	_	_	_	_	false[135]	Int[135]	*[260]	*[260]	*[260]	yn\_1[260]	yesno\_question[260]	openq[260]	*[378]	female[378]	*[378]	speaker:Franziska[496]	_	_	_	_	_	
+79-4	2099-2103	dir?	GSuccess[14]	essen\_set1\_23[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-essen\_set1\_23[14]	2	*	*	*	singular	false[135]	Int[135]	*[260]	*[260]	*[260]	yn\_1[260]	yesno\_question[260]	openq[260]	*[378]	female[378]	*[378]	speaker:Franziska[496]	*->110-1	PerPron[110]	_	_	_	
+
+#Text=Richard hat kalte Spaghetti gegessen
+80-1	2105-2112	Richard	GSuccess[14]	essen\_set1\_23[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-essen\_set1\_23[14]	*	*	Subj	*	*	false[136]	Decl[136]	*[261]	essen[261]	transitive[261]	*[261]	*[261]	item0[261]	19[379]	male[379]	f28ipql67ma8cbjqke6k374ach[379]	speaker: YOU[497]	*->17-1	PropNm[17]	explanation|acknowledgement	*|*	82-1[137_136]|81-1[0_136]	
+80-2	2113-2116	hat	GSuccess[14]	essen\_set1\_23[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-essen\_set1\_23[14]	_	_	_	_	_	false[136]	Decl[136]	*[261]	essen[261]	transitive[261]	*[261]	*[261]	item0[261]	19[379]	male[379]	f28ipql67ma8cbjqke6k374ach[379]	speaker: YOU[497]	_	_	_	_	_	
+80-3	2117-2122	kalte	GSuccess[14]	essen\_set1\_23[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-essen\_set1\_23[14]	*[54]	*[54]	object[54]	*[54]	*[54]	false[136]	Decl[136]	*[261]	essen[261]	transitive[261]	*[261]	*[261]	item0[261]	19[379]	male[379]	f28ipql67ma8cbjqke6k374ach[379]	speaker: YOU[497]	*->119-1	IndefNP[119]	_	_	_	
+80-4	2123-2132	Spaghetti	GSuccess[14]	essen\_set1\_23[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-essen\_set1\_23[14]	*[54]	*[54]	object[54]	*[54]	*[54]	false[136]	Decl[136]	*[261]	essen[261]	transitive[261]	*[261]	*[261]	item0[261]	19[379]	male[379]	f28ipql67ma8cbjqke6k374ach[379]	speaker: YOU[497]	*->119-1	IndefNP[119]	_	_	_	
+80-5	2133-2141	gegessen	GSuccess[14]	essen\_set1\_23[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-essen\_set1\_23[14]	_	_	_	_	_	false[136]	Decl[136]	*[261]	essen[261]	transitive[261]	*[261]	*[261]	item0[261]	19[379]	male[379]	f28ipql67ma8cbjqke6k374ach[379]	speaker: YOU[497]	_	_	_	_	_	
+
+#Text=Ohje
+81-1	2143-2147	Ohje	GSuccess[14]	essen\_set1\_23[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-essen\_set1\_23[14]	_	_	_	_	_	false	NA	ohje\_27	*	*	*	*	feedback	*	female	*	speaker:Franziska	_	_	_	_	_	
+
+#Text=Selber schuld wenn er zu spät kommt.
+82-1	2149-2155	Selber	GSuccess[14]	essen\_set1\_23[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-essen\_set1\_23[14]	_	_	_	_	_	false[137]	NA[137]	*[262]	*[262]	*[262]	*[262]	*[262]	input1[262]	19[380]	male[380]	f28ipql67ma8cbjqke6k374ach[380]	speaker: YOU[498]	_	_	_	_	_	
+82-2	2156-2162	schuld	GSuccess[14]	essen\_set1\_23[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-essen\_set1\_23[14]	_	_	_	_	_	false[137]	NA[137]	*[262]	*[262]	*[262]	*[262]	*[262]	input1[262]	19[380]	male[380]	f28ipql67ma8cbjqke6k374ach[380]	speaker: YOU[498]	_	_	_	_	_	
+82-3	2163-2167	wenn	GSuccess[14]	essen\_set1\_23[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-essen\_set1\_23[14]	_	_	_	_	_	false[137]	NA[137]	*[262]	*[262]	*[262]	*[262]	*[262]	input1[262]	19[380]	male[380]	f28ipql67ma8cbjqke6k374ach[380]	speaker: YOU[498]	_	_	_	_	_	
+82-4	2168-2170	er	GSuccess[14]	essen\_set1\_23[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-essen\_set1\_23[14]	3	*	Subj	*	singular	false[137]	NA[137]	*[262]	*[262]	*[262]	*[262]	*[262]	input1[262]	19[380]	male[380]	f28ipql67ma8cbjqke6k374ach[380]	speaker: YOU[498]	*->17-2	PerPron[17]	_	_	_	
+82-5	2171-2173	zu	GSuccess[14]	essen\_set1\_23[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-essen\_set1\_23[14]	_	_	_	_	_	false[137]	NA[137]	*[262]	*[262]	*[262]	*[262]	*[262]	input1[262]	19[380]	male[380]	f28ipql67ma8cbjqke6k374ach[380]	speaker: YOU[498]	_	_	_	_	_	
+82-6	2174-2178	spät	GSuccess[14]	essen\_set1\_23[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-essen\_set1\_23[14]	_	_	_	_	_	false[137]	NA[137]	*[262]	*[262]	*[262]	*[262]	*[262]	input1[262]	19[380]	male[380]	f28ipql67ma8cbjqke6k374ach[380]	speaker: YOU[498]	_	_	_	_	_	
+82-7	2179-2185	kommt.	GSuccess[14]	essen\_set1\_23[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-essen\_set1\_23[14]	_	_	_	_	_	false[137]	NA[137]	*[262]	*[262]	*[262]	*[262]	*[262]	input1[262]	19[380]	male[380]	f28ipql67ma8cbjqke6k374ach[380]	speaker: YOU[498]	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+83-1	2187-2190	Wie	GSuccess[14]	essen\_set1\_23[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-essen\_set1\_23[14]	_	_	_	_	_	false[138]	Int[138]	*[263]	*[263]	*[263]	*[263]	*[263]	input2[263]	19[381]	male[381]	f28ipql67ma8cbjqke6k374ach[381]	speaker: YOU[499]	_	_	_	_	_	
+83-2	2191-2196	gehts	GSuccess[14]	essen\_set1\_23[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-essen\_set1\_23[14]	_	_	_	_	_	false[138]	Int[138]	*[263]	*[263]	*[263]	*[263]	*[263]	input2[263]	19[381]	male[381]	f28ipql67ma8cbjqke6k374ach[381]	speaker: YOU[499]	_	_	_	_	_	
+83-3	2197-2201	dir?	GSuccess[14]	essen\_set1\_23[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-essen\_set1\_23[14]	2	*	Subj	*	singular	false[138]	Int[138]	*[263]	*[263]	*[263]	*[263]	*[263]	input2[263]	19[381]	male[381]	f28ipql67ma8cbjqke6k374ach[381]	speaker: YOU[499]	*->48-1	PerPron[48]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+84-1	2203-2218	END_OF_DOCUMENT	GSuccess[14]	essen\_set1\_23[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-essen\_set1\_23[14]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+85-1	2220-2225	Alles	GSuccess[15]	essen\_set1\_23[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-essen\_set1\_23[15]	_	_	_	_	_	false[139]	Int[139]	*[264]	*[264]	*[264]	yn\_1[264]	yesno\_question[264]	openq[264]	*[382]	female[382]	*[382]	speaker:Franziska[500]	_	_	QAP	*	86-1[140_139]	
+85-2	2226-2230	klar	GSuccess[15]	essen\_set1\_23[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-essen\_set1\_23[15]	_	_	_	_	_	false[139]	Int[139]	*[264]	*[264]	*[264]	yn\_1[264]	yesno\_question[264]	openq[264]	*[382]	female[382]	*[382]	speaker:Franziska[500]	_	_	_	_	_	
+85-3	2231-2234	bei	GSuccess[15]	essen\_set1\_23[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-essen\_set1\_23[15]	_	_	_	_	_	false[139]	Int[139]	*[264]	*[264]	*[264]	yn\_1[264]	yesno\_question[264]	openq[264]	*[382]	female[382]	*[382]	speaker:Franziska[500]	_	_	_	_	_	
+85-4	2235-2239	dir?	GSuccess[15]	essen\_set1\_23[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-essen\_set1\_23[15]	2	*	*	*	singular	false[139]	Int[139]	*[264]	*[264]	*[264]	yn\_1[264]	yesno\_question[264]	openq[264]	*[382]	female[382]	*[382]	speaker:Franziska[500]	*->11-1	PerPron[11]	_	_	_	
+
+#Text=Richard hat kalte Spaghetti gegessen
+86-1	2241-2248	Richard	GSuccess[15]	essen\_set1\_23[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-essen\_set1\_23[15]	*	*	Subj	*	*	false[140]	Decl[140]	*[265]	essen[265]	transitive[265]	*[265]	*[265]	item0[265]	36[383]	male[383]	ifdbjqro2nfkup12rv8t6k0eu9[383]	speaker: YOU[501]	*->114-1	PropNm[114]	contrast|narration|acknowledgement	*|*|*	88-1[141_140]|89-1[142_140]|87-1[0_140]	
+86-2	2249-2252	hat	GSuccess[15]	essen\_set1\_23[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-essen\_set1\_23[15]	_	_	_	_	_	false[140]	Decl[140]	*[265]	essen[265]	transitive[265]	*[265]	*[265]	item0[265]	36[383]	male[383]	ifdbjqro2nfkup12rv8t6k0eu9[383]	speaker: YOU[501]	_	_	_	_	_	
+86-3	2253-2258	kalte	GSuccess[15]	essen\_set1\_23[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-essen\_set1\_23[15]	*[55]	*[55]	object[55]	*[55]	*[55]	false[140]	Decl[140]	*[265]	essen[265]	transitive[265]	*[265]	*[265]	item0[265]	36[383]	male[383]	ifdbjqro2nfkup12rv8t6k0eu9[383]	speaker: YOU[501]	*->82-1	IndefNP[82]	_	_	_	
+86-4	2259-2268	Spaghetti	GSuccess[15]	essen\_set1\_23[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-essen\_set1\_23[15]	*[55]	*[55]	object[55]	*[55]	*[55]	false[140]	Decl[140]	*[265]	essen[265]	transitive[265]	*[265]	*[265]	item0[265]	36[383]	male[383]	ifdbjqro2nfkup12rv8t6k0eu9[383]	speaker: YOU[501]	*->82-1	IndefNP[82]	_	_	_	
+86-5	2269-2277	gegessen	GSuccess[15]	essen\_set1\_23[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-essen\_set1\_23[15]	_	_	_	_	_	false[140]	Decl[140]	*[265]	essen[265]	transitive[265]	*[265]	*[265]	item0[265]	36[383]	male[383]	ifdbjqro2nfkup12rv8t6k0eu9[383]	speaker: YOU[501]	_	_	_	_	_	
+
+#Text=Ohje
+87-1	2279-2283	Ohje	GSuccess[15]	essen\_set1\_23[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-essen\_set1\_23[15]	_	_	_	_	_	false	NA	ohje\_27	*	*	*	*	feedback	*	female	*	speaker:Franziska	_	_	_	_	_	
+
+#Text=Hat trotzdem geschmeckt
+88-1	2285-2288	Hat	GSuccess[15]	essen\_set1\_23[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-essen\_set1\_23[15]	3	*	*	*	singular	false[141]	Decl[141]	*[266]	*[266]	*[266]	*[266]	*[266]	input1[266]	36[384]	male[384]	ifdbjqro2nfkup12rv8t6k0eu9[384]	speaker: YOU[502]	*->82-2	zero[82]	_	_	_	
+88-2	2289-2297	trotzdem	GSuccess[15]	essen\_set1\_23[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-essen\_set1\_23[15]	_	_	_	_	_	false[141]	Decl[141]	*[266]	*[266]	*[266]	*[266]	*[266]	input1[266]	36[384]	male[384]	ifdbjqro2nfkup12rv8t6k0eu9[384]	speaker: YOU[502]	_	_	_	_	_	
+88-3	2298-2308	geschmeckt	GSuccess[15]	essen\_set1\_23[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-essen\_set1\_23[15]	_	_	_	_	_	false[141]	Decl[141]	*[266]	*[266]	*[266]	*[266]	*[266]	input1[266]	36[384]	male[384]	ifdbjqro2nfkup12rv8t6k0eu9[384]	speaker: YOU[502]	_	_	_	_	_	
+
+#Text=jetzt ist er eingeschlafen
+89-1	2310-2315	jetzt	GSuccess[15]	essen\_set1\_23[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-essen\_set1\_23[15]	_	_	_	_	_	false[142]	Decl[142]	*[267]	*[267]	*[267]	*[267]	*[267]	input2[267]	36[385]	male[385]	ifdbjqro2nfkup12rv8t6k0eu9[385]	speaker: YOU[503]	_	_	_	_	_	
+89-2	2316-2319	ist	GSuccess[15]	essen\_set1\_23[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-essen\_set1\_23[15]	_	_	_	_	_	false[142]	Decl[142]	*[267]	*[267]	*[267]	*[267]	*[267]	input2[267]	36[385]	male[385]	ifdbjqro2nfkup12rv8t6k0eu9[385]	speaker: YOU[503]	_	_	_	_	_	
+89-3	2320-2322	er	GSuccess[15]	essen\_set1\_23[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-essen\_set1\_23[15]	3	*	Subj	*	singular	false[142]	Decl[142]	*[267]	*[267]	*[267]	*[267]	*[267]	input2[267]	36[385]	male[385]	ifdbjqro2nfkup12rv8t6k0eu9[385]	speaker: YOU[503]	*->114-2	PerPron[114]	_	_	_	
+89-4	2323-2336	eingeschlafen	GSuccess[15]	essen\_set1\_23[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-essen\_set1\_23[15]	_	_	_	_	_	false[142]	Decl[142]	*[267]	*[267]	*[267]	*[267]	*[267]	input2[267]	36[385]	male[385]	ifdbjqro2nfkup12rv8t6k0eu9[385]	speaker: YOU[503]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+90-1	2338-2353	END_OF_DOCUMENT	GSuccess[15]	essen\_set1\_23[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-essen\_set1\_23[15]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+91-1	2355-2360	Alles	GSuccess[16]	essen\_set1\_23[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-essen\_set1\_23[16]	_	_	_	_	_	false[143]	Int[143]	*[268]	*[268]	*[268]	yn\_1[268]	yesno\_question[268]	openq[268]	*[386]	female[386]	*[386]	speaker:Franziska[504]	_	_	QAP	*	92-1[144_143]	
+91-2	2361-2365	klar	GSuccess[16]	essen\_set1\_23[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-essen\_set1\_23[16]	_	_	_	_	_	false[143]	Int[143]	*[268]	*[268]	*[268]	yn\_1[268]	yesno\_question[268]	openq[268]	*[386]	female[386]	*[386]	speaker:Franziska[504]	_	_	_	_	_	
+91-3	2366-2369	bei	GSuccess[16]	essen\_set1\_23[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-essen\_set1\_23[16]	_	_	_	_	_	false[143]	Int[143]	*[268]	*[268]	*[268]	yn\_1[268]	yesno\_question[268]	openq[268]	*[386]	female[386]	*[386]	speaker:Franziska[504]	_	_	_	_	_	
+91-4	2370-2374	dir?	GSuccess[16]	essen\_set1\_23[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-essen\_set1\_23[16]	2	*	*	*	singular	false[143]	Int[143]	*[268]	*[268]	*[268]	yn\_1[268]	yesno\_question[268]	openq[268]	*[386]	female[386]	*[386]	speaker:Franziska[504]	*->122-1	PerPron[122]	_	_	_	
+
+#Text=Richard hat kalte Spaghetti gegessen
+92-1	2376-2383	Richard	GSuccess[16]	essen\_set1\_23[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-essen\_set1\_23[16]	*	*	Subj	*	*	false[144]	Decl[144]	*[269]	essen[269]	transitive[269]	*[269]	*[269]	item0[269]	27[387]	female[387]	nn1fs9jkn62eo9089lo89usbkb[387]	speaker: YOU[505]	*->86-1	PropNm[86]	explanation|acknowledgement	*|*	94-1[145_144]|93-1[0_144]	
+92-2	2384-2387	hat	GSuccess[16]	essen\_set1\_23[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-essen\_set1\_23[16]	_	_	_	_	_	false[144]	Decl[144]	*[269]	essen[269]	transitive[269]	*[269]	*[269]	item0[269]	27[387]	female[387]	nn1fs9jkn62eo9089lo89usbkb[387]	speaker: YOU[505]	_	_	_	_	_	
+92-3	2388-2393	kalte	GSuccess[16]	essen\_set1\_23[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-essen\_set1\_23[16]	*[56]	*[56]	object[56]	*[56]	*[56]	false[144]	Decl[144]	*[269]	essen[269]	transitive[269]	*[269]	*[269]	item0[269]	27[387]	female[387]	nn1fs9jkn62eo9089lo89usbkb[387]	speaker: YOU[505]	*->58-1	IndefNP[58]	_	_	_	
+92-4	2394-2403	Spaghetti	GSuccess[16]	essen\_set1\_23[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-essen\_set1\_23[16]	*[56]	*[56]	object[56]	*[56]	*[56]	false[144]	Decl[144]	*[269]	essen[269]	transitive[269]	*[269]	*[269]	item0[269]	27[387]	female[387]	nn1fs9jkn62eo9089lo89usbkb[387]	speaker: YOU[505]	*->58-1	IndefNP[58]	_	_	_	
+92-5	2404-2412	gegessen	GSuccess[16]	essen\_set1\_23[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-essen\_set1\_23[16]	_	_	_	_	_	false[144]	Decl[144]	*[269]	essen[269]	transitive[269]	*[269]	*[269]	item0[269]	27[387]	female[387]	nn1fs9jkn62eo9089lo89usbkb[387]	speaker: YOU[505]	_	_	_	_	_	
+
+#Text=Ohje
+93-1	2414-2418	Ohje	GSuccess[16]	essen\_set1\_23[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-essen\_set1\_23[16]	_	_	_	_	_	false	NA	ohje\_27	*	*	*	*	feedback	*	female	*	speaker:Franziska	_	_	_	_	_	
+
+#Text=Ich weiß nicht <BR> warum er sie nicht einfach aufwärmt.
+94-1	2420-2423	Ich	GSuccess[16]	essen\_set1\_23[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-essen\_set1\_23[16]	1	*	Subj	*	singular	false[145]	Decl[145]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	27[388]	female[388]	nn1fs9jkn62eo9089lo89usbkb[388]	speaker: YOU[506]	*->122-2	PerPron[122]	elaboration	*	95-1[146_145]	
+94-2	2424-2428	weiß	GSuccess[16]	essen\_set1\_23[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-essen\_set1\_23[16]	_	_	_	_	_	false[145]	Decl[145]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	27[388]	female[388]	nn1fs9jkn62eo9089lo89usbkb[388]	speaker: YOU[506]	_	_	_	_	_	
+94-3	2429-2434	nicht	GSuccess[16]	essen\_set1\_23[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-essen\_set1\_23[16]	_	_	_	_	_	false[145]	Decl[145]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	27[388]	female[388]	nn1fs9jkn62eo9089lo89usbkb[388]	speaker: YOU[506]	_	_	_	_	_	
+94-4	2435-2439	<BR>	GSuccess[16]	essen\_set1\_23[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-essen\_set1\_23[16]	_	_	_	_	_	false[145]	Decl[145]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	27[388]	female[388]	nn1fs9jkn62eo9089lo89usbkb[388]	speaker: YOU[506]	_	_	_	_	_	
+94-5	2440-2445	warum	GSuccess[16]	essen\_set1\_23[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-essen\_set1\_23[16]	_	_	_	_	_	false[145]	Decl[145]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	27[388]	female[388]	nn1fs9jkn62eo9089lo89usbkb[388]	speaker: YOU[506]	_	_	_	_	_	
+94-6	2446-2448	er	GSuccess[16]	essen\_set1\_23[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-essen\_set1\_23[16]	3	*	Subj	*	singular	false[145]	Decl[145]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	27[388]	female[388]	nn1fs9jkn62eo9089lo89usbkb[388]	speaker: YOU[506]	*->86-2	PerPron[86]	_	_	_	
+94-7	2449-2452	sie	GSuccess[16]	essen\_set1\_23[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-essen\_set1\_23[16]	3	*	DirObj	*	plural	false[145]	Decl[145]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	27[388]	female[388]	nn1fs9jkn62eo9089lo89usbkb[388]	speaker: YOU[506]	*->58-2	PerPron[58]	_	_	_	
+94-8	2453-2458	nicht	GSuccess[16]	essen\_set1\_23[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-essen\_set1\_23[16]	_	_	_	_	_	false[145]	Decl[145]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	27[388]	female[388]	nn1fs9jkn62eo9089lo89usbkb[388]	speaker: YOU[506]	_	_	_	_	_	
+94-9	2459-2466	einfach	GSuccess[16]	essen\_set1\_23[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-essen\_set1\_23[16]	_	_	_	_	_	false[145]	Decl[145]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	27[388]	female[388]	nn1fs9jkn62eo9089lo89usbkb[388]	speaker: YOU[506]	_	_	_	_	_	
+94-10	2467-2476	aufwärmt.	GSuccess[16]	essen\_set1\_23[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-essen\_set1\_23[16]	_	_	_	_	_	false[145]	Decl[145]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	27[388]	female[388]	nn1fs9jkn62eo9089lo89usbkb[388]	speaker: YOU[506]	_	_	_	_	_	
+
+#Text=Er ist so faul geworden.
+95-1	2478-2480	Er	GSuccess[16]	essen\_set1\_23[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-essen\_set1\_23[16]	3	*	Subj	*	singular	false[146]	Decl[146]	*[271]	*[271]	*[271]	*[271]	*[271]	input2[271]	27[389]	female[389]	nn1fs9jkn62eo9089lo89usbkb[389]	speaker: YOU[507]	*->86-3	PerPron[86]	_	_	_	
+95-2	2481-2484	ist	GSuccess[16]	essen\_set1\_23[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-essen\_set1\_23[16]	_	_	_	_	_	false[146]	Decl[146]	*[271]	*[271]	*[271]	*[271]	*[271]	input2[271]	27[389]	female[389]	nn1fs9jkn62eo9089lo89usbkb[389]	speaker: YOU[507]	_	_	_	_	_	
+95-3	2485-2487	so	GSuccess[16]	essen\_set1\_23[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-essen\_set1\_23[16]	_	_	_	_	_	false[146]	Decl[146]	*[271]	*[271]	*[271]	*[271]	*[271]	input2[271]	27[389]	female[389]	nn1fs9jkn62eo9089lo89usbkb[389]	speaker: YOU[507]	_	_	_	_	_	
+95-4	2488-2492	faul	GSuccess[16]	essen\_set1\_23[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-essen\_set1\_23[16]	_	_	_	_	_	false[146]	Decl[146]	*[271]	*[271]	*[271]	*[271]	*[271]	input2[271]	27[389]	female[389]	nn1fs9jkn62eo9089lo89usbkb[389]	speaker: YOU[507]	_	_	_	_	_	
+95-5	2493-2502	geworden.	GSuccess[16]	essen\_set1\_23[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-essen\_set1\_23[16]	_	_	_	_	_	false[146]	Decl[146]	*[271]	*[271]	*[271]	*[271]	*[271]	input2[271]	27[389]	female[389]	nn1fs9jkn62eo9089lo89usbkb[389]	speaker: YOU[507]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+96-1	2504-2519	END_OF_DOCUMENT	GSuccess[16]	essen\_set1\_23[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-essen\_set1\_23[16]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+97-1	2521-2526	Alles	GSuccess[17]	essen\_set1\_23[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-essen\_set1\_23[17]	_	_	_	_	_	false[147]	Int[147]	*[272]	*[272]	*[272]	yn\_1[272]	yesno\_question[272]	openq[272]	*[390]	female[390]	*[390]	speaker:Franziska[508]	_	_	QAP	*	98-1[148_147]	
+97-2	2527-2531	klar	GSuccess[17]	essen\_set1\_23[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-essen\_set1\_23[17]	_	_	_	_	_	false[147]	Int[147]	*[272]	*[272]	*[272]	yn\_1[272]	yesno\_question[272]	openq[272]	*[390]	female[390]	*[390]	speaker:Franziska[508]	_	_	_	_	_	
+97-3	2532-2535	bei	GSuccess[17]	essen\_set1\_23[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-essen\_set1\_23[17]	_	_	_	_	_	false[147]	Int[147]	*[272]	*[272]	*[272]	yn\_1[272]	yesno\_question[272]	openq[272]	*[390]	female[390]	*[390]	speaker:Franziska[508]	_	_	_	_	_	
+97-4	2536-2540	dir?	GSuccess[17]	essen\_set1\_23[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-essen\_set1\_23[17]	3	*	*	*	singular	false[147]	Int[147]	*[272]	*[272]	*[272]	yn\_1[272]	yesno\_question[272]	openq[272]	*[390]	female[390]	*[390]	speaker:Franziska[508]	*->30-1	PerPron[30]	_	_	_	
+
+#Text=Richard hat kalte Spaghetti gegessen
+98-1	2542-2549	Richard	GSuccess[17]	essen\_set1\_23[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-essen\_set1\_23[17]	*	*	Subj	*	*	false[148]	Decl[148]	*[273]	essen[273]	transitive[273]	*[273]	*[273]	item0[273]	24[391]	male[391]	qaaqp55l485lvs9rdvpvbtmqal[391]	speaker: YOU[509]	*->129-1	PropNm[129]	explanation|acknowledgement	*|*	100-1[149_148]|99-1[0_148]	
+98-2	2550-2553	hat	GSuccess[17]	essen\_set1\_23[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-essen\_set1\_23[17]	_	_	_	_	_	false[148]	Decl[148]	*[273]	essen[273]	transitive[273]	*[273]	*[273]	item0[273]	24[391]	male[391]	qaaqp55l485lvs9rdvpvbtmqal[391]	speaker: YOU[509]	_	_	_	_	_	
+98-3	2554-2559	kalte	GSuccess[17]	essen\_set1\_23[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-essen\_set1\_23[17]	*[57]	*[57]	object[57]	*[57]	*[57]	false[148]	Decl[148]	*[273]	essen[273]	transitive[273]	*[273]	*[273]	item0[273]	24[391]	male[391]	qaaqp55l485lvs9rdvpvbtmqal[391]	speaker: YOU[509]	*->29-1	IndefNP[29]	_	_	_	
+98-4	2560-2569	Spaghetti	GSuccess[17]	essen\_set1\_23[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-essen\_set1\_23[17]	*[57]	*[57]	object[57]	*[57]	*[57]	false[148]	Decl[148]	*[273]	essen[273]	transitive[273]	*[273]	*[273]	item0[273]	24[391]	male[391]	qaaqp55l485lvs9rdvpvbtmqal[391]	speaker: YOU[509]	*->29-1	IndefNP[29]	_	_	_	
+98-5	2570-2578	gegessen	GSuccess[17]	essen\_set1\_23[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-essen\_set1\_23[17]	_	_	_	_	_	false[148]	Decl[148]	*[273]	essen[273]	transitive[273]	*[273]	*[273]	item0[273]	24[391]	male[391]	qaaqp55l485lvs9rdvpvbtmqal[391]	speaker: YOU[509]	_	_	_	_	_	
+
+#Text=Ohje
+99-1	2580-2584	Ohje	GSuccess[17]	essen\_set1\_23[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-essen\_set1\_23[17]	_	_	_	_	_	false	NA	ohje\_27	*	*	*	*	feedback	*	female	*	speaker:Franziska	_	_	_	_	_	
+
+#Text=Er sagt <BR> kalte Spaghetti seien gesünder für ihn
+100-1	2586-2588	Er	GSuccess[17]	essen\_set1\_23[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-essen\_set1\_23[17]	3	*	Subj	*	singular	false[149]	Decl[149]	*[274]	*[274]	*[274]	*[274]	*[274]	input1[274]	24[392]	male[392]	qaaqp55l485lvs9rdvpvbtmqal[392]	speaker: YOU[510]	*->129-2	PerPron[129]	contrast	*	101-1[150_149]	
+100-2	2589-2593	sagt	GSuccess[17]	essen\_set1\_23[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-essen\_set1\_23[17]	_	_	_	_	_	false[149]	Decl[149]	*[274]	*[274]	*[274]	*[274]	*[274]	input1[274]	24[392]	male[392]	qaaqp55l485lvs9rdvpvbtmqal[392]	speaker: YOU[510]	_	_	_	_	_	
+100-3	2594-2598	<BR>	GSuccess[17]	essen\_set1\_23[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-essen\_set1\_23[17]	_	_	_	_	_	false[149]	Decl[149]	*[274]	*[274]	*[274]	*[274]	*[274]	input1[274]	24[392]	male[392]	qaaqp55l485lvs9rdvpvbtmqal[392]	speaker: YOU[510]	_	_	_	_	_	
+100-4	2599-2604	kalte	GSuccess[17]	essen\_set1\_23[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-essen\_set1\_23[17]	*[58]	*[58]	Subj[58]	*[58]	*[58]	false[149]	Decl[149]	*[274]	*[274]	*[274]	*[274]	*[274]	input1[274]	24[392]	male[392]	qaaqp55l485lvs9rdvpvbtmqal[392]	speaker: YOU[510]	*->54-1	IndefNP[54]	_	_	_	
+100-5	2605-2614	Spaghetti	GSuccess[17]	essen\_set1\_23[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-essen\_set1\_23[17]	*[58]	*[58]	Subj[58]	*[58]	*[58]	false[149]	Decl[149]	*[274]	*[274]	*[274]	*[274]	*[274]	input1[274]	24[392]	male[392]	qaaqp55l485lvs9rdvpvbtmqal[392]	speaker: YOU[510]	*->54-1	IndefNP[54]	_	_	_	
+100-6	2615-2620	seien	GSuccess[17]	essen\_set1\_23[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-essen\_set1\_23[17]	_	_	_	_	_	false[149]	Decl[149]	*[274]	*[274]	*[274]	*[274]	*[274]	input1[274]	24[392]	male[392]	qaaqp55l485lvs9rdvpvbtmqal[392]	speaker: YOU[510]	_	_	_	_	_	
+100-7	2621-2629	gesünder	GSuccess[17]	essen\_set1\_23[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-essen\_set1\_23[17]	_	_	_	_	_	false[149]	Decl[149]	*[274]	*[274]	*[274]	*[274]	*[274]	input1[274]	24[392]	male[392]	qaaqp55l485lvs9rdvpvbtmqal[392]	speaker: YOU[510]	_	_	_	_	_	
+100-8	2630-2633	für	GSuccess[17]	essen\_set1\_23[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-essen\_set1\_23[17]	_	_	_	_	_	false[149]	Decl[149]	*[274]	*[274]	*[274]	*[274]	*[274]	input1[274]	24[392]	male[392]	qaaqp55l485lvs9rdvpvbtmqal[392]	speaker: YOU[510]	_	_	_	_	_	
+100-9	2634-2637	ihn	GSuccess[17]	essen\_set1\_23[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-essen\_set1\_23[17]	3	*	PrepObj	*	singular	false[149]	Decl[149]	*[274]	*[274]	*[274]	*[274]	*[274]	input1[274]	24[392]	male[392]	qaaqp55l485lvs9rdvpvbtmqal[392]	speaker: YOU[510]	*->129-3	PerPron[129]	_	_	_	
+
+#Text=Ich glaube <BR> dass er nur zu faul ist sie aufzuwärmen
+101-1	2639-2642	Ich	GSuccess[17]	essen\_set1\_23[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-essen\_set1\_23[17]	1	*	Subj	*	singular	false[150]	Decl[150]	*[275]	*[275]	*[275]	*[275]	*[275]	input2[275]	24[393]	male[393]	qaaqp55l485lvs9rdvpvbtmqal[393]	speaker: YOU[511]	*->30-2	PerPron[30]	_	_	_	
+101-2	2643-2649	glaube	GSuccess[17]	essen\_set1\_23[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-essen\_set1\_23[17]	_	_	_	_	_	false[150]	Decl[150]	*[275]	*[275]	*[275]	*[275]	*[275]	input2[275]	24[393]	male[393]	qaaqp55l485lvs9rdvpvbtmqal[393]	speaker: YOU[511]	_	_	_	_	_	
+101-3	2650-2654	<BR>	GSuccess[17]	essen\_set1\_23[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-essen\_set1\_23[17]	_	_	_	_	_	false[150]	Decl[150]	*[275]	*[275]	*[275]	*[275]	*[275]	input2[275]	24[393]	male[393]	qaaqp55l485lvs9rdvpvbtmqal[393]	speaker: YOU[511]	_	_	_	_	_	
+101-4	2655-2659	dass	GSuccess[17]	essen\_set1\_23[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-essen\_set1\_23[17]	_	_	_	_	_	false[150]	Decl[150]	*[275]	*[275]	*[275]	*[275]	*[275]	input2[275]	24[393]	male[393]	qaaqp55l485lvs9rdvpvbtmqal[393]	speaker: YOU[511]	_	_	_	_	_	
+101-5	2660-2662	er	GSuccess[17]	essen\_set1\_23[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-essen\_set1\_23[17]	3	*	Embedded	*	singular	false[150]	Decl[150]	*[275]	*[275]	*[275]	*[275]	*[275]	input2[275]	24[393]	male[393]	qaaqp55l485lvs9rdvpvbtmqal[393]	speaker: YOU[511]	*->129-4	PerPron[129]	_	_	_	
+101-6	2663-2666	nur	GSuccess[17]	essen\_set1\_23[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-essen\_set1\_23[17]	_	_	_	_	_	false[150]	Decl[150]	*[275]	*[275]	*[275]	*[275]	*[275]	input2[275]	24[393]	male[393]	qaaqp55l485lvs9rdvpvbtmqal[393]	speaker: YOU[511]	_	_	_	_	_	
+101-7	2667-2669	zu	GSuccess[17]	essen\_set1\_23[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-essen\_set1\_23[17]	_	_	_	_	_	false[150]	Decl[150]	*[275]	*[275]	*[275]	*[275]	*[275]	input2[275]	24[393]	male[393]	qaaqp55l485lvs9rdvpvbtmqal[393]	speaker: YOU[511]	_	_	_	_	_	
+101-8	2670-2674	faul	GSuccess[17]	essen\_set1\_23[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-essen\_set1\_23[17]	_	_	_	_	_	false[150]	Decl[150]	*[275]	*[275]	*[275]	*[275]	*[275]	input2[275]	24[393]	male[393]	qaaqp55l485lvs9rdvpvbtmqal[393]	speaker: YOU[511]	_	_	_	_	_	
+101-9	2675-2678	ist	GSuccess[17]	essen\_set1\_23[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-essen\_set1\_23[17]	_	_	_	_	_	false[150]	Decl[150]	*[275]	*[275]	*[275]	*[275]	*[275]	input2[275]	24[393]	male[393]	qaaqp55l485lvs9rdvpvbtmqal[393]	speaker: YOU[511]	_	_	_	_	_	
+101-10	2679-2682	sie	GSuccess[17]	essen\_set1\_23[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-essen\_set1\_23[17]	3	*	Embedded	*	plural	false[150]	Decl[150]	*[275]	*[275]	*[275]	*[275]	*[275]	input2[275]	24[393]	male[393]	qaaqp55l485lvs9rdvpvbtmqal[393]	speaker: YOU[511]	*->29-2	PerPron[29]	_	_	_	
+101-11	2683-2694	aufzuwärmen	GSuccess[17]	essen\_set1\_23[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-essen\_set1\_23[17]	_	_	_	_	_	false[150]	Decl[150]	*[275]	*[275]	*[275]	*[275]	*[275]	input2[275]	24[393]	male[393]	qaaqp55l485lvs9rdvpvbtmqal[393]	speaker: YOU[511]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+102-1	2696-2711	END_OF_DOCUMENT	GSuccess[17]	essen\_set1\_23[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-essen\_set1\_23[17]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+103-1	2713-2718	Alles	GSuccess[18]	essen\_set1\_23[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-essen\_set1\_23[18]	_	_	_	_	_	false[151]	Int[151]	*[276]	*[276]	*[276]	yn\_1[276]	yesno\_question[276]	openq[276]	*[394]	female[394]	*[394]	speaker:Franziska[512]	_	_	QAP	*	104-1[152_151]	
+103-2	2719-2723	klar	GSuccess[18]	essen\_set1\_23[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-essen\_set1\_23[18]	_	_	_	_	_	false[151]	Int[151]	*[276]	*[276]	*[276]	yn\_1[276]	yesno\_question[276]	openq[276]	*[394]	female[394]	*[394]	speaker:Franziska[512]	_	_	_	_	_	
+103-3	2724-2727	bei	GSuccess[18]	essen\_set1\_23[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-essen\_set1\_23[18]	_	_	_	_	_	false[151]	Int[151]	*[276]	*[276]	*[276]	yn\_1[276]	yesno\_question[276]	openq[276]	*[394]	female[394]	*[394]	speaker:Franziska[512]	_	_	_	_	_	
+103-4	2728-2732	dir?	GSuccess[18]	essen\_set1\_23[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-essen\_set1\_23[18]	2	*	*	*	singular	false[151]	Int[151]	*[276]	*[276]	*[276]	yn\_1[276]	yesno\_question[276]	openq[276]	*[394]	female[394]	*[394]	speaker:Franziska[512]	*->74-1	PerPron[74]	_	_	_	
+
+#Text=Richard hat kalte Spaghetti gegessen
+104-1	2734-2741	Richard	GSuccess[18]	essen\_set1\_23[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-essen\_set1\_23[18]	*	*	Subj	*	*	false[152]	Decl[152]	*[277]	essen[277]	transitive[277]	*[277]	*[277]	item0[277]	25[395]	female[395]	t6ah1r7hfmcncb44kgnh0sjmv6[395]	speaker: YOU[513]	*->118-1	PropNm[118]	elaboration|acknowledgement	*|*	106-1[153_152]|105-1[0_152]	
+104-2	2742-2745	hat	GSuccess[18]	essen\_set1\_23[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-essen\_set1\_23[18]	_	_	_	_	_	false[152]	Decl[152]	*[277]	essen[277]	transitive[277]	*[277]	*[277]	item0[277]	25[395]	female[395]	t6ah1r7hfmcncb44kgnh0sjmv6[395]	speaker: YOU[513]	_	_	_	_	_	
+104-3	2746-2751	kalte	GSuccess[18]	essen\_set1\_23[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-essen\_set1\_23[18]	*[59]	*[59]	object[59]	*[59]	*[59]	false[152]	Decl[152]	*[277]	essen[277]	transitive[277]	*[277]	*[277]	item0[277]	25[395]	female[395]	t6ah1r7hfmcncb44kgnh0sjmv6[395]	speaker: YOU[513]	*->100-1	IndefNP[100]	_	_	_	
+104-4	2752-2761	Spaghetti	GSuccess[18]	essen\_set1\_23[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-essen\_set1\_23[18]	*[59]	*[59]	object[59]	*[59]	*[59]	false[152]	Decl[152]	*[277]	essen[277]	transitive[277]	*[277]	*[277]	item0[277]	25[395]	female[395]	t6ah1r7hfmcncb44kgnh0sjmv6[395]	speaker: YOU[513]	*->100-1	IndefNP[100]	_	_	_	
+104-5	2762-2770	gegessen	GSuccess[18]	essen\_set1\_23[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-essen\_set1\_23[18]	_	_	_	_	_	false[152]	Decl[152]	*[277]	essen[277]	transitive[277]	*[277]	*[277]	item0[277]	25[395]	female[395]	t6ah1r7hfmcncb44kgnh0sjmv6[395]	speaker: YOU[513]	_	_	_	_	_	
+
+#Text=Ohje
+105-1	2772-2776	Ohje	GSuccess[18]	essen\_set1\_23[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-essen\_set1\_23[18]	_	_	_	_	_	false	NA	ohje\_27	*	*	*	*	feedback	*	female	*	speaker:Franziska	_	_	_	_	_	
+
+#Text=Selbst schuld wenn er zu faul ist sie aufzuwärmen
+106-1	2778-2784	Selbst	GSuccess[18]	essen\_set1\_23[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-essen\_set1\_23[18]	_	_	_	_	_	false[153]	NA[153]	*[278]	*[278]	*[278]	*[278]	*[278]	input1[278]	25[396]	female[396]	t6ah1r7hfmcncb44kgnh0sjmv6[396]	speaker: YOU[514]	_	_	explanation	*	107-1[154_153]	
+106-2	2785-2791	schuld	GSuccess[18]	essen\_set1\_23[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-essen\_set1\_23[18]	_	_	_	_	_	false[153]	NA[153]	*[278]	*[278]	*[278]	*[278]	*[278]	input1[278]	25[396]	female[396]	t6ah1r7hfmcncb44kgnh0sjmv6[396]	speaker: YOU[514]	_	_	_	_	_	
+106-3	2792-2796	wenn	GSuccess[18]	essen\_set1\_23[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-essen\_set1\_23[18]	_	_	_	_	_	false[153]	NA[153]	*[278]	*[278]	*[278]	*[278]	*[278]	input1[278]	25[396]	female[396]	t6ah1r7hfmcncb44kgnh0sjmv6[396]	speaker: YOU[514]	_	_	_	_	_	
+106-4	2797-2799	er	GSuccess[18]	essen\_set1\_23[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-essen\_set1\_23[18]	3	*	Subj	*	singular	false[153]	NA[153]	*[278]	*[278]	*[278]	*[278]	*[278]	input1[278]	25[396]	female[396]	t6ah1r7hfmcncb44kgnh0sjmv6[396]	speaker: YOU[514]	*->118-2	PerPron[118]	_	_	_	
+106-5	2800-2802	zu	GSuccess[18]	essen\_set1\_23[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-essen\_set1\_23[18]	_	_	_	_	_	false[153]	NA[153]	*[278]	*[278]	*[278]	*[278]	*[278]	input1[278]	25[396]	female[396]	t6ah1r7hfmcncb44kgnh0sjmv6[396]	speaker: YOU[514]	_	_	_	_	_	
+106-6	2803-2807	faul	GSuccess[18]	essen\_set1\_23[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-essen\_set1\_23[18]	_	_	_	_	_	false[153]	NA[153]	*[278]	*[278]	*[278]	*[278]	*[278]	input1[278]	25[396]	female[396]	t6ah1r7hfmcncb44kgnh0sjmv6[396]	speaker: YOU[514]	_	_	_	_	_	
+106-7	2808-2811	ist	GSuccess[18]	essen\_set1\_23[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-essen\_set1\_23[18]	_	_	_	_	_	false[153]	NA[153]	*[278]	*[278]	*[278]	*[278]	*[278]	input1[278]	25[396]	female[396]	t6ah1r7hfmcncb44kgnh0sjmv6[396]	speaker: YOU[514]	_	_	_	_	_	
+106-8	2812-2815	sie	GSuccess[18]	essen\_set1\_23[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-essen\_set1\_23[18]	3	*	DirObj	*	plural	false[153]	NA[153]	*[278]	*[278]	*[278]	*[278]	*[278]	input1[278]	25[396]	female[396]	t6ah1r7hfmcncb44kgnh0sjmv6[396]	speaker: YOU[514]	*->100-2	PerPron[100]	_	_	_	
+106-9	2816-2827	aufzuwärmen	GSuccess[18]	essen\_set1\_23[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-essen\_set1\_23[18]	_	_	_	_	_	false[153]	NA[153]	*[278]	*[278]	*[278]	*[278]	*[278]	input1[278]	25[396]	female[396]	t6ah1r7hfmcncb44kgnh0sjmv6[396]	speaker: YOU[514]	_	_	_	_	_	
+
+#Text=Ich bin ja nicht seine Mutter
+107-1	2829-2832	Ich	GSuccess[18]	essen\_set1\_23[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-essen\_set1\_23[18]	1	*	Subj	*	singular	false[154]	Decl[154]	*[279]	*[279]	*[279]	*[279]	*[279]	input2[279]	25[397]	female[397]	t6ah1r7hfmcncb44kgnh0sjmv6[397]	speaker: YOU[515]	*->74-2	PerPron[74]	_	_	_	
+107-2	2833-2836	bin	GSuccess[18]	essen\_set1\_23[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-essen\_set1\_23[18]	_	_	_	_	_	false[154]	Decl[154]	*[279]	*[279]	*[279]	*[279]	*[279]	input2[279]	25[397]	female[397]	t6ah1r7hfmcncb44kgnh0sjmv6[397]	speaker: YOU[515]	_	_	_	_	_	
+107-3	2837-2839	ja	GSuccess[18]	essen\_set1\_23[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-essen\_set1\_23[18]	_	_	_	_	_	false[154]	Decl[154]	*[279]	*[279]	*[279]	*[279]	*[279]	input2[279]	25[397]	female[397]	t6ah1r7hfmcncb44kgnh0sjmv6[397]	speaker: YOU[515]	_	_	_	_	_	
+107-4	2840-2845	nicht	GSuccess[18]	essen\_set1\_23[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-essen\_set1\_23[18]	_	_	_	_	_	false[154]	Decl[154]	*[279]	*[279]	*[279]	*[279]	*[279]	input2[279]	25[397]	female[397]	t6ah1r7hfmcncb44kgnh0sjmv6[397]	speaker: YOU[515]	_	_	_	_	_	
+107-5	2846-2851	seine	GSuccess[18]	essen\_set1\_23[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-essen\_set1\_23[18]	3	*	*	*	singular	false[154]	Decl[154]	*[279]	*[279]	*[279]	*[279]	*[279]	input2[279]	25[397]	female[397]	t6ah1r7hfmcncb44kgnh0sjmv6[397]	speaker: YOU[515]	_	_	_	_	_	
+107-6	2852-2858	Mutter	GSuccess[18]	essen\_set1\_23[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-essen\_set1\_23[18]	_	_	_	_	_	false[154]	Decl[154]	*[279]	*[279]	*[279]	*[279]	*[279]	input2[279]	25[397]	female[397]	t6ah1r7hfmcncb44kgnh0sjmv6[397]	speaker: YOU[515]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+108-1	2860-2875	END_OF_DOCUMENT	GSuccess[18]	essen\_set1\_23[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-essen\_set1\_23[18]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+109-1	2877-2882	Alles	GSuccess[19]	essen\_set1\_23[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-essen\_set1\_23[19]	_	_	_	_	_	false[155]	Int[155]	*[280]	*[280]	*[280]	yn\_1[280]	yesno\_question[280]	openq[280]	*[398]	female[398]	*[398]	speaker:Franziska[516]	_	_	QAP	*	110-1[156_155]	
+109-2	2883-2887	klar	GSuccess[19]	essen\_set1\_23[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-essen\_set1\_23[19]	_	_	_	_	_	false[155]	Int[155]	*[280]	*[280]	*[280]	yn\_1[280]	yesno\_question[280]	openq[280]	*[398]	female[398]	*[398]	speaker:Franziska[516]	_	_	_	_	_	
+109-3	2888-2891	bei	GSuccess[19]	essen\_set1\_23[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-essen\_set1\_23[19]	_	_	_	_	_	false[155]	Int[155]	*[280]	*[280]	*[280]	yn\_1[280]	yesno\_question[280]	openq[280]	*[398]	female[398]	*[398]	speaker:Franziska[516]	_	_	_	_	_	
+109-4	2892-2896	dir?	GSuccess[19]	essen\_set1\_23[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-essen\_set1\_23[19]	2	*	*	*	singular	false[155]	Int[155]	*[280]	*[280]	*[280]	yn\_1[280]	yesno\_question[280]	openq[280]	*[398]	female[398]	*[398]	speaker:Franziska[516]	*->38-1	PerPron[38]	_	_	_	
+
+#Text=Richard hat kalte Spaghetti gegessen
+110-1	2898-2905	Richard	GSuccess[19]	essen\_set1\_23[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-essen\_set1\_23[19]	*	*	Subj	*	*	false[156]	Decl[156]	*[281]	essen[281]	transitive[281]	*[281]	*[281]	item0[281]	29[399]	female[399]	ue2vk0ts1hkpki58vsa3j8t39j[399]	speaker: YOU[517]	*->75-1	PropNm[75]	explanation|acknowledgement	*|*	112-1[157_156]|111-1[0_156]	
+110-2	2906-2909	hat	GSuccess[19]	essen\_set1\_23[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-essen\_set1\_23[19]	_	_	_	_	_	false[156]	Decl[156]	*[281]	essen[281]	transitive[281]	*[281]	*[281]	item0[281]	29[399]	female[399]	ue2vk0ts1hkpki58vsa3j8t39j[399]	speaker: YOU[517]	_	_	_	_	_	
+110-3	2910-2915	kalte	GSuccess[19]	essen\_set1\_23[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-essen\_set1\_23[19]	*[60]	*[60]	object[60]	*[60]	*[60]	false[156]	Decl[156]	*[281]	essen[281]	transitive[281]	*[281]	*[281]	item0[281]	29[399]	female[399]	ue2vk0ts1hkpki58vsa3j8t39j[399]	speaker: YOU[517]	*->71-1	IndefNP[71]	_	_	_	
+110-4	2916-2925	Spaghetti	GSuccess[19]	essen\_set1\_23[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-essen\_set1\_23[19]	*[60]	*[60]	object[60]	*[60]	*[60]	false[156]	Decl[156]	*[281]	essen[281]	transitive[281]	*[281]	*[281]	item0[281]	29[399]	female[399]	ue2vk0ts1hkpki58vsa3j8t39j[399]	speaker: YOU[517]	*->71-1	IndefNP[71]	_	_	_	
+110-5	2926-2934	gegessen	GSuccess[19]	essen\_set1\_23[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-essen\_set1\_23[19]	_	_	_	_	_	false[156]	Decl[156]	*[281]	essen[281]	transitive[281]	*[281]	*[281]	item0[281]	29[399]	female[399]	ue2vk0ts1hkpki58vsa3j8t39j[399]	speaker: YOU[517]	_	_	_	_	_	
+
+#Text=Ohje
+111-1	2936-2940	Ohje	GSuccess[19]	essen\_set1\_23[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-essen\_set1\_23[19]	_	_	_	_	_	false	NA	ohje\_27	*	*	*	*	feedback	*	female	*	speaker:Franziska	_	_	_	_	_	
+
+#Text=Angeblich schmeckt es ihm besser so.
+112-1	2942-2951	Angeblich	GSuccess[19]	essen\_set1\_23[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-essen\_set1\_23[19]	_	_	_	_	_	false[157]	Decl[157]	*[282]	*[282]	*[282]	*[282]	*[282]	input1[282]	29[400]	female[400]	ue2vk0ts1hkpki58vsa3j8t39j[400]	speaker: YOU[518]	_	_	contrast	*	113-1[158_157]	
+112-2	2952-2960	schmeckt	GSuccess[19]	essen\_set1\_23[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-essen\_set1\_23[19]	_	_	_	_	_	false[157]	Decl[157]	*[282]	*[282]	*[282]	*[282]	*[282]	input1[282]	29[400]	female[400]	ue2vk0ts1hkpki58vsa3j8t39j[400]	speaker: YOU[518]	_	_	_	_	_	
+112-3	2961-2963	es	GSuccess[19]	essen\_set1\_23[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-essen\_set1\_23[19]	3	*	Subj	*	singular	false[157]	Decl[157]	*[282]	*[282]	*[282]	*[282]	*[282]	input1[282]	29[400]	female[400]	ue2vk0ts1hkpki58vsa3j8t39j[400]	speaker: YOU[518]	*->107-1	PerPron[107]	_	_	_	
+112-4	2964-2967	ihm	GSuccess[19]	essen\_set1\_23[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-essen\_set1\_23[19]	3	*	IndirObj	*	singular	false[157]	Decl[157]	*[282]	*[282]	*[282]	*[282]	*[282]	input1[282]	29[400]	female[400]	ue2vk0ts1hkpki58vsa3j8t39j[400]	speaker: YOU[518]	*->75-2	PerPron[75]	_	_	_	
+112-5	2968-2974	besser	GSuccess[19]	essen\_set1\_23[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-essen\_set1\_23[19]	_	_	_	_	_	false[157]	Decl[157]	*[282]	*[282]	*[282]	*[282]	*[282]	input1[282]	29[400]	female[400]	ue2vk0ts1hkpki58vsa3j8t39j[400]	speaker: YOU[518]	_	_	_	_	_	
+112-6	2975-2978	so.	GSuccess[19]	essen\_set1\_23[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-essen\_set1\_23[19]	_	_	_	_	_	false[157]	Decl[157]	*[282]	*[282]	*[282]	*[282]	*[282]	input1[282]	29[400]	female[400]	ue2vk0ts1hkpki58vsa3j8t39j[400]	speaker: YOU[518]	_	_	_	_	_	
+
+#Text=Ich könnte nie kalte Spaghetti essen.
+113-1	2980-2983	Ich	GSuccess[19]	essen\_set1\_23[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-essen\_set1\_23[19]	1	*	Subj	*	singular	false[158]	Decl[158]	*[283]	*[283]	*[283]	*[283]	*[283]	input2[283]	29[401]	female[401]	ue2vk0ts1hkpki58vsa3j8t39j[401]	speaker: YOU[519]	*->38-2	PerPron[38]	_	_	_	
+113-2	2984-2990	könnte	GSuccess[19]	essen\_set1\_23[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-essen\_set1\_23[19]	_	_	_	_	_	false[158]	Decl[158]	*[283]	*[283]	*[283]	*[283]	*[283]	input2[283]	29[401]	female[401]	ue2vk0ts1hkpki58vsa3j8t39j[401]	speaker: YOU[519]	_	_	_	_	_	
+113-3	2991-2994	nie	GSuccess[19]	essen\_set1\_23[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-essen\_set1\_23[19]	_	_	_	_	_	false[158]	Decl[158]	*[283]	*[283]	*[283]	*[283]	*[283]	input2[283]	29[401]	female[401]	ue2vk0ts1hkpki58vsa3j8t39j[401]	speaker: YOU[519]	_	_	_	_	_	
+113-4	2995-3000	kalte	GSuccess[19]	essen\_set1\_23[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-essen\_set1\_23[19]	*[61]	*[61]	DirObj[61]	*[61]	*[61]	false[158]	Decl[158]	*[283]	*[283]	*[283]	*[283]	*[283]	input2[283]	29[401]	female[401]	ue2vk0ts1hkpki58vsa3j8t39j[401]	speaker: YOU[519]	_	_	_	_	_	
+113-5	3001-3010	Spaghetti	GSuccess[19]	essen\_set1\_23[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-essen\_set1\_23[19]	*[61]	*[61]	DirObj[61]	*[61]	*[61]	false[158]	Decl[158]	*[283]	*[283]	*[283]	*[283]	*[283]	input2[283]	29[401]	female[401]	ue2vk0ts1hkpki58vsa3j8t39j[401]	speaker: YOU[519]	_	_	_	_	_	
+113-6	3011-3017	essen.	GSuccess[19]	essen\_set1\_23[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-essen\_set1\_23[19]	_	_	_	_	_	false[158]	Decl[158]	*[283]	*[283]	*[283]	*[283]	*[283]	input2[283]	29[401]	female[401]	ue2vk0ts1hkpki58vsa3j8t39j[401]	speaker: YOU[519]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+114-1	3019-3034	END_OF_DOCUMENT	GSuccess[19]	essen\_set1\_23[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-essen\_set1\_23[19]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+115-1	3036-3041	Alles	GSuccess[20]	essen\_set1\_23[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-essen\_set1\_23[20]	_	_	_	_	_	false[159]	Int[159]	*[284]	*[284]	*[284]	yn\_1[284]	yesno\_question[284]	openq[284]	*[402]	female[402]	*[402]	speaker:Franziska[520]	_	_	QAP	*	116-1[160_159]	
+115-2	3042-3046	klar	GSuccess[20]	essen\_set1\_23[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-essen\_set1\_23[20]	_	_	_	_	_	false[159]	Int[159]	*[284]	*[284]	*[284]	yn\_1[284]	yesno\_question[284]	openq[284]	*[402]	female[402]	*[402]	speaker:Franziska[520]	_	_	_	_	_	
+115-3	3047-3050	bei	GSuccess[20]	essen\_set1\_23[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-essen\_set1\_23[20]	_	_	_	_	_	false[159]	Int[159]	*[284]	*[284]	*[284]	yn\_1[284]	yesno\_question[284]	openq[284]	*[402]	female[402]	*[402]	speaker:Franziska[520]	_	_	_	_	_	
+115-4	3051-3055	dir?	GSuccess[20]	essen\_set1\_23[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-essen\_set1\_23[20]	2	*	*	*	singular	false[159]	Int[159]	*[284]	*[284]	*[284]	yn\_1[284]	yesno\_question[284]	openq[284]	*[402]	female[402]	*[402]	speaker:Franziska[520]	*->7-1	PerPron[7]	_	_	_	
+
+#Text=Richard hat kalte Spaghetti gegessen
+116-1	3057-3064	Richard	GSuccess[20]	essen\_set1\_23[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-essen\_set1\_23[20]	*	*	Subj	*	*	false[160]	Decl[160]	*[285]	essen[285]	transitive[285]	*[285]	*[285]	item0[285]	58[403]	male[403]	v3le8i0hm1ekj0ps9oou7k56t5[403]	speaker: YOU[521]	*->21-1	PropNm[21]	explanation|acknowledgement	*|*	118-1[161_160]|117-1[0_160]	
+116-2	3065-3068	hat	GSuccess[20]	essen\_set1\_23[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-essen\_set1\_23[20]	_	_	_	_	_	false[160]	Decl[160]	*[285]	essen[285]	transitive[285]	*[285]	*[285]	item0[285]	58[403]	male[403]	v3le8i0hm1ekj0ps9oou7k56t5[403]	speaker: YOU[521]	*->10-1	clause[10]	_	_	_	
+116-3	3069-3074	kalte	GSuccess[20]	essen\_set1\_23[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-essen\_set1\_23[20]	*[62]	*[62]	object[62]	*[62]	*[62]	false[160]	Decl[160]	*[285]	essen[285]	transitive[285]	*[285]	*[285]	item0[285]	58[403]	male[403]	v3le8i0hm1ekj0ps9oou7k56t5[403]	speaker: YOU[521]	*->10-1|*->60-1	clause[10]|IndefNP[60]	_	_	_	
+116-4	3075-3084	Spaghetti	GSuccess[20]	essen\_set1\_23[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-essen\_set1\_23[20]	*[62]	*[62]	object[62]	*[62]	*[62]	false[160]	Decl[160]	*[285]	essen[285]	transitive[285]	*[285]	*[285]	item0[285]	58[403]	male[403]	v3le8i0hm1ekj0ps9oou7k56t5[403]	speaker: YOU[521]	*->10-1|*->60-1	clause[10]|IndefNP[60]	_	_	_	
+116-5	3085-3093	gegessen	GSuccess[20]	essen\_set1\_23[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-essen\_set1\_23[20]	_	_	_	_	_	false[160]	Decl[160]	*[285]	essen[285]	transitive[285]	*[285]	*[285]	item0[285]	58[403]	male[403]	v3le8i0hm1ekj0ps9oou7k56t5[403]	speaker: YOU[521]	*->10-1	clause[10]	_	_	_	
+
+#Text=Ohje
+117-1	3095-3099	Ohje	GSuccess[20]	essen\_set1\_23[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-essen\_set1\_23[20]	_	_	_	_	_	false	NA	ohje\_27	*	*	*	*	feedback	*	female	*	speaker:Franziska	_	_	_	_	_	
+
+#Text=er mag das
+118-1	3101-3103	er	GSuccess[20]	essen\_set1\_23[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-essen\_set1\_23[20]	3	*	Subj	*	singular	false[161]	Decl[161]	*[286]	*[286]	*[286]	*[286]	*[286]	input1[286]	58[404]	male[404]	v3le8i0hm1ekj0ps9oou7k56t5[404]	speaker: YOU[522]	*->21-2	PerPron[21]	elaboration	*	119-1[0_161]	
+118-2	3104-3107	mag	GSuccess[20]	essen\_set1\_23[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-essen\_set1\_23[20]	_	_	_	_	_	false[161]	Decl[161]	*[286]	*[286]	*[286]	*[286]	*[286]	input1[286]	58[404]	male[404]	v3le8i0hm1ekj0ps9oou7k56t5[404]	speaker: YOU[522]	_	_	_	_	_	
+118-3	3108-3111	das	GSuccess[20]	essen\_set1\_23[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-essen\_set1\_23[20]	*	*	DirObj	*	*	false[161]	Decl[161]	*[286]	*[286]	*[286]	*[286]	*[286]	input1[286]	58[404]	male[404]	v3le8i0hm1ekj0ps9oou7k56t5[404]	speaker: YOU[522]	*->10-2	D-Pron[10]	_	_	_	
+
+#Text=erstaunlich <BR> nicht.
+119-1	3113-3124	erstaunlich	GSuccess[20]	essen\_set1\_23[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-essen\_set1\_23[20]	_	_	_	_	_	false	NA	*[287]	*[287]	*[287]	*[287]	*[287]	input2[287]	58[405]	male[405]	v3le8i0hm1ekj0ps9oou7k56t5[405]	speaker: YOU[523]	_	_	correction	*	119-3	
+119-2	3125-3129	<BR>	GSuccess[20]	essen\_set1\_23[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-essen\_set1\_23[20]	_	_	_	_	_	_	_	*[287]	*[287]	*[287]	*[287]	*[287]	input2[287]	58[405]	male[405]	v3le8i0hm1ekj0ps9oou7k56t5[405]	speaker: YOU[523]	_	_	_	_	_	
+119-3	3130-3136	nicht.	GSuccess[20]	essen\_set1\_23[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-essen\_set1\_23[20]	_	_	_	_	_	false	NA	*[287]	*[287]	*[287]	*[287]	*[287]	input2[287]	58[405]	male[405]	v3le8i0hm1ekj0ps9oou7k56t5[405]	speaker: YOU[523]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+120-1	3138-3153	END_OF_DOCUMENT	GSuccess[20]	essen\_set1\_23[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-essen\_set1\_23[20]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+121-1	3155-3160	Alles	GWithout[21]	essen\_set1\_23[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-essen\_set1\_23[21]	_	_	_	_	_	false[162]	Int[162]	*[288]	*[288]	*[288]	yn\_1[288]	yesno\_question[288]	openq[288]	*[406]	female[406]	*[406]	speaker:Franziska[524]	_	_	QAP	*	122-1[163_162]	
+121-2	3161-3165	klar	GWithout[21]	essen\_set1\_23[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-essen\_set1\_23[21]	_	_	_	_	_	false[162]	Int[162]	*[288]	*[288]	*[288]	yn\_1[288]	yesno\_question[288]	openq[288]	*[406]	female[406]	*[406]	speaker:Franziska[524]	_	_	_	_	_	
+121-3	3166-3169	bei	GWithout[21]	essen\_set1\_23[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-essen\_set1\_23[21]	_	_	_	_	_	false[162]	Int[162]	*[288]	*[288]	*[288]	yn\_1[288]	yesno\_question[288]	openq[288]	*[406]	female[406]	*[406]	speaker:Franziska[524]	_	_	_	_	_	
+121-4	3170-3174	dir?	GWithout[21]	essen\_set1\_23[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-essen\_set1\_23[21]	2	*	*	*	singular	false[162]	Int[162]	*[288]	*[288]	*[288]	yn\_1[288]	yesno\_question[288]	openq[288]	*[406]	female[406]	*[406]	speaker:Franziska[524]	*->23-1	PerPron[23]	_	_	_	
+
+#Text=Richard hat kalte Spaghetti gegessen
+122-1	3176-3183	Richard	GWithout[21]	essen\_set1\_23[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-essen\_set1\_23[21]	*	*	Subj	*	*	false[163]	Decl[163]	*[289]	essen[289]	transitive[289]	*[289]	*[289]	item0[289]	35[407]	female[407]	2k56uavscuainedj0q9i1sb693[407]	speaker: YOU[525]	*->72-1	PropNm[72]	explanation|elaboration	*|*	124-1[164_163]|125-1[166_163]	
+122-2	3184-3187	hat	GWithout[21]	essen\_set1\_23[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-essen\_set1\_23[21]	_	_	_	_	_	false[163]	Decl[163]	*[289]	essen[289]	transitive[289]	*[289]	*[289]	item0[289]	35[407]	female[407]	2k56uavscuainedj0q9i1sb693[407]	speaker: YOU[525]	_	_	_	_	_	
+122-3	3188-3193	kalte	GWithout[21]	essen\_set1\_23[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-essen\_set1\_23[21]	*[63]	*[63]	object[63]	*[63]	*[63]	false[163]	Decl[163]	*[289]	essen[289]	transitive[289]	*[289]	*[289]	item0[289]	35[407]	female[407]	2k56uavscuainedj0q9i1sb693[407]	speaker: YOU[525]	*->101-1	IndefNP[101]	_	_	_	
+122-4	3194-3203	Spaghetti	GWithout[21]	essen\_set1\_23[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-essen\_set1\_23[21]	*[63]	*[63]	object[63]	*[63]	*[63]	false[163]	Decl[163]	*[289]	essen[289]	transitive[289]	*[289]	*[289]	item0[289]	35[407]	female[407]	2k56uavscuainedj0q9i1sb693[407]	speaker: YOU[525]	*->101-1	IndefNP[101]	_	_	_	
+122-5	3204-3212	gegessen	GWithout[21]	essen\_set1\_23[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-essen\_set1\_23[21]	_	_	_	_	_	false[163]	Decl[163]	*[289]	essen[289]	transitive[289]	*[289]	*[289]	item0[289]	35[407]	female[407]	2k56uavscuainedj0q9i1sb693[407]	speaker: YOU[525]	_	_	_	_	_	
+
+#Text=-
+123-1	3214-3215	-	GWithout[21]	essen\_set1\_23[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-essen\_set1\_23[21]	_	_	_	_	_	false	NA	GWithout	*	*	*	*	feedback	*	female	*	speaker:Franziska	_	_	_	_	_	
+
+#Text=War zu faul <BR> sie zu erwärmen.
+124-1	3217-3220	War	GWithout[21]	essen\_set1\_23[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-essen\_set1\_23[21]	3	*	*	*	singular	false[164]	Decl[164]	*[290]	*[290]	*[290]	*[290]	*[290]	input1[290]	35[408]	female[408]	2k56uavscuainedj0q9i1sb693[408]	speaker: YOU[526]	*->72-2	zero[72]	elaboration	*	124-5[165_164]	
+124-2	3221-3223	zu	GWithout[21]	essen\_set1\_23[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-essen\_set1\_23[21]	_	_	_	_	_	false[164]	Decl[164]	*[290]	*[290]	*[290]	*[290]	*[290]	input1[290]	35[408]	female[408]	2k56uavscuainedj0q9i1sb693[408]	speaker: YOU[526]	_	_	_	_	_	
+124-3	3224-3228	faul	GWithout[21]	essen\_set1\_23[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-essen\_set1\_23[21]	_	_	_	_	_	false[164]	Decl[164]	*[290]	*[290]	*[290]	*[290]	*[290]	input1[290]	35[408]	female[408]	2k56uavscuainedj0q9i1sb693[408]	speaker: YOU[526]	_	_	_	_	_	
+124-4	3229-3233	<BR>	GWithout[21]	essen\_set1\_23[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-essen\_set1\_23[21]	_	_	_	_	_	_	_	*[290]	*[290]	*[290]	*[290]	*[290]	input1[290]	35[408]	female[408]	2k56uavscuainedj0q9i1sb693[408]	speaker: YOU[526]	_	_	_	_	_	
+124-5	3234-3237	sie	GWithout[21]	essen\_set1\_23[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-essen\_set1\_23[21]	3	*	DirObj	*	plural	false[165]	NA[165]	*[290]	*[290]	*[290]	*[290]	*[290]	input1[290]	35[408]	female[408]	2k56uavscuainedj0q9i1sb693[408]	speaker: YOU[526]	*->101-2	PerPron[101]	_	_	_	
+124-6	3238-3240	zu	GWithout[21]	essen\_set1\_23[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-essen\_set1\_23[21]	_	_	_	_	_	false[165]	NA[165]	*[290]	*[290]	*[290]	*[290]	*[290]	input1[290]	35[408]	female[408]	2k56uavscuainedj0q9i1sb693[408]	speaker: YOU[526]	_	_	_	_	_	
+124-7	3241-3250	erwärmen.	GWithout[21]	essen\_set1\_23[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-essen\_set1\_23[21]	_	_	_	_	_	false[165]	NA[165]	*[290]	*[290]	*[290]	*[290]	*[290]	input1[290]	35[408]	female[408]	2k56uavscuainedj0q9i1sb693[408]	speaker: YOU[526]	_	_	_	_	_	
+
+#Text=Also manchmal...
+125-1	3252-3256	Also	GWithout[21]	essen\_set1\_23[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-essen\_set1\_23[21]	_	_	_	_	_	false[166]	NA[166]	*[291]	*[291]	*[291]	*[291]	*[291]	input2[291]	35[409]	female[409]	2k56uavscuainedj0q9i1sb693[409]	speaker: YOU[527]	_	_	_	_	_	
+125-2	3257-3268	manchmal...	GWithout[21]	essen\_set1\_23[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-essen\_set1\_23[21]	_	_	_	_	_	false[166]	NA[166]	*[291]	*[291]	*[291]	*[291]	*[291]	input2[291]	35[409]	female[409]	2k56uavscuainedj0q9i1sb693[409]	speaker: YOU[527]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+126-1	3270-3285	END_OF_DOCUMENT	GWithout[21]	essen\_set1\_23[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-essen\_set1\_23[21]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+127-1	3287-3292	Alles	GWithout[22]	essen\_set1\_23[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-essen\_set1\_23[22]	_	_	_	_	_	false[167]	Int[167]	*[292]	*[292]	*[292]	yn\_1[292]	yesno\_question[292]	openq[292]	*[410]	female[410]	*[410]	speaker:Franziska[528]	_	_	QAP	*	128-1[168_167]	
+127-2	3293-3297	klar	GWithout[22]	essen\_set1\_23[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-essen\_set1\_23[22]	_	_	_	_	_	false[167]	Int[167]	*[292]	*[292]	*[292]	yn\_1[292]	yesno\_question[292]	openq[292]	*[410]	female[410]	*[410]	speaker:Franziska[528]	_	_	_	_	_	
+127-3	3298-3301	bei	GWithout[22]	essen\_set1\_23[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-essen\_set1\_23[22]	_	_	_	_	_	false[167]	Int[167]	*[292]	*[292]	*[292]	yn\_1[292]	yesno\_question[292]	openq[292]	*[410]	female[410]	*[410]	speaker:Franziska[528]	_	_	_	_	_	
+127-4	3302-3306	dir?	GWithout[22]	essen\_set1\_23[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-essen\_set1\_23[22]	2	*	*	*	singular	false[167]	Int[167]	*[292]	*[292]	*[292]	yn\_1[292]	yesno\_question[292]	openq[292]	*[410]	female[410]	*[410]	speaker:Franziska[528]	*->12-1	PerPron[12]	_	_	_	
+
+#Text=Richard hat kalte Spaghetti gegessen
+128-1	3308-3315	Richard	GWithout[22]	essen\_set1\_23[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-essen\_set1\_23[22]	*	*	Subj	*	*	false[168]	Decl[168]	*[293]	essen[293]	transitive[293]	*[293]	*[293]	item0[293]	46[411]	male[411]	7bq5ecc5fndmatjvd44havavdp[411]	speaker: YOU[529]	*->83-1	PropNm[83]	elaboration	*	130-1[0_168]	
+128-2	3316-3319	hat	GWithout[22]	essen\_set1\_23[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-essen\_set1\_23[22]	_	_	_	_	_	false[168]	Decl[168]	*[293]	essen[293]	transitive[293]	*[293]	*[293]	item0[293]	46[411]	male[411]	7bq5ecc5fndmatjvd44havavdp[411]	speaker: YOU[529]	_	_	_	_	_	
+128-3	3320-3325	kalte	GWithout[22]	essen\_set1\_23[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-essen\_set1\_23[22]	*[64]	*[64]	object[64]	*[64]	*[64]	false[168]	Decl[168]	*[293]	essen[293]	transitive[293]	*[293]	*[293]	item0[293]	46[411]	male[411]	7bq5ecc5fndmatjvd44havavdp[411]	speaker: YOU[529]	*->106-1	IndefNP[106]	_	_	_	
+128-4	3326-3335	Spaghetti	GWithout[22]	essen\_set1\_23[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-essen\_set1\_23[22]	*[64]	*[64]	object[64]	*[64]	*[64]	false[168]	Decl[168]	*[293]	essen[293]	transitive[293]	*[293]	*[293]	item0[293]	46[411]	male[411]	7bq5ecc5fndmatjvd44havavdp[411]	speaker: YOU[529]	*->106-1	IndefNP[106]	_	_	_	
+128-5	3336-3344	gegessen	GWithout[22]	essen\_set1\_23[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-essen\_set1\_23[22]	_	_	_	_	_	false[168]	Decl[168]	*[293]	essen[293]	transitive[293]	*[293]	*[293]	item0[293]	46[411]	male[411]	7bq5ecc5fndmatjvd44havavdp[411]	speaker: YOU[529]	_	_	_	_	_	
+
+#Text=-
+129-1	3346-3347	-	GWithout[22]	essen\_set1\_23[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-essen\_set1\_23[22]	_	_	_	_	_	false	NA	GWithout	*	*	*	*	feedback	*	female	*	speaker:Franziska	_	_	_	_	_	
+
+#Text=wäää
+130-1	3349-3353	wäää	GWithout[22]	essen\_set1\_23[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-essen\_set1\_23[22]	_	_	_	_	_	false	NA	*	*	*	*	*	input1	46	male	7bq5ecc5fndmatjvd44havavdp	speaker: YOU	_	_	elaboration	*	131-1[169_0]	
+
+#Text=muss nicht sein aber wems schmeckt
+131-1	3355-3359	muss	GWithout[22]	essen\_set1\_23[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-essen\_set1\_23[22]	3	*	*	*	singular	false[169]	Decl[169]	*[294]	*[294]	*[294]	*[294]	*[294]	input2[294]	46[412]	male[412]	7bq5ecc5fndmatjvd44havavdp[412]	speaker: YOU[530]	*->106-2	zero[106]	contrast	*	131-4[170_169]	
+131-2	3360-3365	nicht	GWithout[22]	essen\_set1\_23[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-essen\_set1\_23[22]	_	_	_	_	_	false[169]	Decl[169]	*[294]	*[294]	*[294]	*[294]	*[294]	input2[294]	46[412]	male[412]	7bq5ecc5fndmatjvd44havavdp[412]	speaker: YOU[530]	_	_	_	_	_	
+131-3	3366-3370	sein	GWithout[22]	essen\_set1\_23[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-essen\_set1\_23[22]	_	_	_	_	_	false[169]	Decl[169]	*[294]	*[294]	*[294]	*[294]	*[294]	input2[294]	46[412]	male[412]	7bq5ecc5fndmatjvd44havavdp[412]	speaker: YOU[530]	_	_	_	_	_	
+131-4	3371-3375	aber	GWithout[22]	essen\_set1\_23[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-essen\_set1\_23[22]	_	_	_	_	_	false[170]	NA[170]	*[294]	*[294]	*[294]	*[294]	*[294]	input2[294]	46[412]	male[412]	7bq5ecc5fndmatjvd44havavdp[412]	speaker: YOU[530]	_	_	_	_	_	
+131-5	3376-3380	wems	GWithout[22]	essen\_set1\_23[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-essen\_set1\_23[22]	_	_	_	_	_	false[170]	NA[170]	*[294]	*[294]	*[294]	*[294]	*[294]	input2[294]	46[412]	male[412]	7bq5ecc5fndmatjvd44havavdp[412]	speaker: YOU[530]	*->106-3	R-Pron[106]	_	_	_	
+131-6	3381-3389	schmeckt	GWithout[22]	essen\_set1\_23[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-essen\_set1\_23[22]	_	_	_	_	_	false[170]	NA[170]	*[294]	*[294]	*[294]	*[294]	*[294]	input2[294]	46[412]	male[412]	7bq5ecc5fndmatjvd44havavdp[412]	speaker: YOU[530]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+132-1	3391-3406	END_OF_DOCUMENT	GWithout[22]	essen\_set1\_23[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-essen\_set1\_23[22]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+133-1	3408-3413	Alles	GWithout[23]	essen\_set1\_23[23]	latin1[23]	9bb79dhfhst017575orahklqol-essen\_set1\_23[23]	_	_	_	_	_	false[171]	Int[171]	*[295]	*[295]	*[295]	yn\_1[295]	yesno\_question[295]	openq[295]	*[413]	female[413]	*[413]	speaker:Franziska[531]	_	_	QAP	*	134-1[172_171]	
+133-2	3414-3418	klar	GWithout[23]	essen\_set1\_23[23]	latin1[23]	9bb79dhfhst017575orahklqol-essen\_set1\_23[23]	_	_	_	_	_	false[171]	Int[171]	*[295]	*[295]	*[295]	yn\_1[295]	yesno\_question[295]	openq[295]	*[413]	female[413]	*[413]	speaker:Franziska[531]	_	_	_	_	_	
+133-3	3419-3422	bei	GWithout[23]	essen\_set1\_23[23]	latin1[23]	9bb79dhfhst017575orahklqol-essen\_set1\_23[23]	_	_	_	_	_	false[171]	Int[171]	*[295]	*[295]	*[295]	yn\_1[295]	yesno\_question[295]	openq[295]	*[413]	female[413]	*[413]	speaker:Franziska[531]	_	_	_	_	_	
+133-4	3423-3427	dir?	GWithout[23]	essen\_set1\_23[23]	latin1[23]	9bb79dhfhst017575orahklqol-essen\_set1\_23[23]	2	*	*	*	singular	false[171]	Int[171]	*[295]	*[295]	*[295]	yn\_1[295]	yesno\_question[295]	openq[295]	*[413]	female[413]	*[413]	speaker:Franziska[531]	*->62-1	PerPron[62]	_	_	_	
+
+#Text=Richard hat kalte Spaghetti gegessen
+134-1	3429-3436	Richard	GWithout[23]	essen\_set1\_23[23]	latin1[23]	9bb79dhfhst017575orahklqol-essen\_set1\_23[23]	*	*	Subj	*	*	false[172]	Decl[172]	*[296]	essen[296]	transitive[296]	*[296]	*[296]	item0[296]	37[414]	female[414]	9bb79dhfhst017575orahklqol[414]	speaker: YOU[532]	*->93-1	PropNm[93]	explanation	*	136-1[173_172]	
+134-2	3437-3440	hat	GWithout[23]	essen\_set1\_23[23]	latin1[23]	9bb79dhfhst017575orahklqol-essen\_set1\_23[23]	_	_	_	_	_	false[172]	Decl[172]	*[296]	essen[296]	transitive[296]	*[296]	*[296]	item0[296]	37[414]	female[414]	9bb79dhfhst017575orahklqol[414]	speaker: YOU[532]	_	_	_	_	_	
+134-3	3441-3446	kalte	GWithout[23]	essen\_set1\_23[23]	latin1[23]	9bb79dhfhst017575orahklqol-essen\_set1\_23[23]	*[65]	*[65]	object[65]	*[65]	*[65]	false[172]	Decl[172]	*[296]	essen[296]	transitive[296]	*[296]	*[296]	item0[296]	37[414]	female[414]	9bb79dhfhst017575orahklqol[414]	speaker: YOU[532]	*->40-1	IndefNP[40]	_	_	_	
+134-4	3447-3456	Spaghetti	GWithout[23]	essen\_set1\_23[23]	latin1[23]	9bb79dhfhst017575orahklqol-essen\_set1\_23[23]	*[65]	*[65]	object[65]	*[65]	*[65]	false[172]	Decl[172]	*[296]	essen[296]	transitive[296]	*[296]	*[296]	item0[296]	37[414]	female[414]	9bb79dhfhst017575orahklqol[414]	speaker: YOU[532]	*->40-1	IndefNP[40]	_	_	_	
+134-5	3457-3465	gegessen	GWithout[23]	essen\_set1\_23[23]	latin1[23]	9bb79dhfhst017575orahklqol-essen\_set1\_23[23]	_	_	_	_	_	false[172]	Decl[172]	*[296]	essen[296]	transitive[296]	*[296]	*[296]	item0[296]	37[414]	female[414]	9bb79dhfhst017575orahklqol[414]	speaker: YOU[532]	_	_	_	_	_	
+
+#Text=-
+135-1	3467-3468	-	GWithout[23]	essen\_set1\_23[23]	latin1[23]	9bb79dhfhst017575orahklqol-essen\_set1\_23[23]	_	_	_	_	_	false	NA	GWithout	*	*	*	*	feedback	*	female	*	speaker:Franziska	_	_	_	_	_	
+
+#Text=ich hatte ihm angeboten die aufzuwaermen
+136-1	3470-3473	ich	GWithout[23]	essen\_set1\_23[23]	latin1[23]	9bb79dhfhst017575orahklqol-essen\_set1\_23[23]	1	*	Subj	*	singular	true[173]|false[174]	*[173]|Decl[174]	*[297]	*[297]	*[297]	*[297]	*[297]	input1[297]	37[415]	female[415]	9bb79dhfhst017575orahklqol[415]	speaker: YOU[533]	*->62-2	PerPron[62]	contrast	*	137-1[175_174]	
+136-2	3474-3479	hatte	GWithout[23]	essen\_set1\_23[23]	latin1[23]	9bb79dhfhst017575orahklqol-essen\_set1\_23[23]	_	_	_	_	_	true[173]|false[174]	*[173]|Decl[174]	*[297]	*[297]	*[297]	*[297]	*[297]	input1[297]	37[415]	female[415]	9bb79dhfhst017575orahklqol[415]	speaker: YOU[533]	_	_	_	_	_	
+136-3	3480-3483	ihm	GWithout[23]	essen\_set1\_23[23]	latin1[23]	9bb79dhfhst017575orahklqol-essen\_set1\_23[23]	3	*	IndirObj	*	singular	true[173]|false[174]	*[173]|Decl[174]	*[297]	*[297]	*[297]	*[297]	*[297]	input1[297]	37[415]	female[415]	9bb79dhfhst017575orahklqol[415]	speaker: YOU[533]	*->93-2	PerPron[93]	_	_	_	
+136-4	3484-3493	angeboten	GWithout[23]	essen\_set1\_23[23]	latin1[23]	9bb79dhfhst017575orahklqol-essen\_set1\_23[23]	_	_	_	_	_	true[173]|false[174]	*[173]|Decl[174]	*[297]	*[297]	*[297]	*[297]	*[297]	input1[297]	37[415]	female[415]	9bb79dhfhst017575orahklqol[415]	speaker: YOU[533]	_	_	_	_	_	
+136-5	3494-3497	die	GWithout[23]	essen\_set1\_23[23]	latin1[23]	9bb79dhfhst017575orahklqol-essen\_set1\_23[23]	*	*	DirObj	*	*	true[173]|false[174]	*[173]|Decl[174]	*[297]	*[297]	*[297]	*[297]	*[297]	input1[297]	37[415]	female[415]	9bb79dhfhst017575orahklqol[415]	speaker: YOU[533]	*->51-1|*->40-2	clause[51]|D-Pron[40]	_	_	_	
+136-6	3498-3510	aufzuwaermen	GWithout[23]	essen\_set1\_23[23]	latin1[23]	9bb79dhfhst017575orahklqol-essen\_set1\_23[23]	_	_	_	_	_	true[173]|false[174]	*[173]|Decl[174]	*[297]	*[297]	*[297]	*[297]	*[297]	input1[297]	37[415]	female[415]	9bb79dhfhst017575orahklqol[415]	speaker: YOU[533]	*->51-1	clause[51]	_	_	_	
+
+#Text=hat er verweigert
+137-1	3512-3515	hat	GWithout[23]	essen\_set1\_23[23]	latin1[23]	9bb79dhfhst017575orahklqol-essen\_set1\_23[23]	3	*	*	*	singular	true[173]|false[175]	*[173]|Decl[175]	*[298]	*[298]	*[298]	*[298]	*[298]	input2[298]	37[416]	female[416]	9bb79dhfhst017575orahklqol[416]	speaker: YOU[534]	*->51-2	zero[51]	_	_	_	
+137-2	3516-3518	er	GWithout[23]	essen\_set1\_23[23]	latin1[23]	9bb79dhfhst017575orahklqol-essen\_set1\_23[23]	3	*	Subj	*	singular	true[173]|false[175]	*[173]|Decl[175]	*[298]	*[298]	*[298]	*[298]	*[298]	input2[298]	37[416]	female[416]	9bb79dhfhst017575orahklqol[416]	speaker: YOU[534]	*->93-3	PerPron[93]	_	_	_	
+137-3	3519-3529	verweigert	GWithout[23]	essen\_set1\_23[23]	latin1[23]	9bb79dhfhst017575orahklqol-essen\_set1\_23[23]	_	_	_	_	_	true[173]|false[175]	*[173]|Decl[175]	*[298]	*[298]	*[298]	*[298]	*[298]	input2[298]	37[416]	female[416]	9bb79dhfhst017575orahklqol[416]	speaker: YOU[534]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+138-1	3531-3546	END_OF_DOCUMENT	GWithout[23]	essen\_set1\_23[23]	latin1[23]	9bb79dhfhst017575orahklqol-essen\_set1\_23[23]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+139-1	3548-3553	Alles	GWithout[24]	essen\_set1\_23[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-essen\_set1\_23[24]	_	_	_	_	_	false[176]	Int[176]	*[299]	*[299]	*[299]	yn\_1[299]	yesno\_question[299]	openq[299]	*[417]	female[417]	*[417]	speaker:Franziska[535]	_	_	QAP	*	140-1[177_176]	
+139-2	3554-3558	klar	GWithout[24]	essen\_set1\_23[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-essen\_set1\_23[24]	_	_	_	_	_	false[176]	Int[176]	*[299]	*[299]	*[299]	yn\_1[299]	yesno\_question[299]	openq[299]	*[417]	female[417]	*[417]	speaker:Franziska[535]	_	_	_	_	_	
+139-3	3559-3562	bei	GWithout[24]	essen\_set1\_23[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-essen\_set1\_23[24]	_	_	_	_	_	false[176]	Int[176]	*[299]	*[299]	*[299]	yn\_1[299]	yesno\_question[299]	openq[299]	*[417]	female[417]	*[417]	speaker:Franziska[535]	_	_	_	_	_	
+139-4	3563-3567	dir?	GWithout[24]	essen\_set1\_23[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-essen\_set1\_23[24]	2	*	*	*	singular	false[176]	Int[176]	*[299]	*[299]	*[299]	yn\_1[299]	yesno\_question[299]	openq[299]	*[417]	female[417]	*[417]	speaker:Franziska[535]	*->45-1	PerPron[45]	_	_	_	
+
+#Text=Richard hat kalte Spaghetti gegessen
+140-1	3569-3576	Richard	GWithout[24]	essen\_set1\_23[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-essen\_set1\_23[24]	*	*	Subj	*	*	false[177]	Decl[177]	*[300]	essen[300]	transitive[300]	*[300]	*[300]	item0[300]	21[418]	male[418]	afpst3sherp4732c4se5ajftkq[418]	speaker: YOU[536]	*->104-1	PropNm[104]	elaboration|explanation	*|*	143-1[181_177]|142-1[178_177]	
+140-2	3577-3580	hat	GWithout[24]	essen\_set1\_23[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-essen\_set1\_23[24]	_	_	_	_	_	false[177]	Decl[177]	*[300]	essen[300]	transitive[300]	*[300]	*[300]	item0[300]	21[418]	male[418]	afpst3sherp4732c4se5ajftkq[418]	speaker: YOU[536]	_	_	_	_	_	
+140-3	3581-3586	kalte	GWithout[24]	essen\_set1\_23[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-essen\_set1\_23[24]	*[66]	*[66]	object[66]	*[66]	*[66]	false[177]	Decl[177]	*[300]	essen[300]	transitive[300]	*[300]	*[300]	item0[300]	21[418]	male[418]	afpst3sherp4732c4se5ajftkq[418]	speaker: YOU[536]	*->56-1	IndefNP[56]	_	_	_	
+140-4	3587-3596	Spaghetti	GWithout[24]	essen\_set1\_23[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-essen\_set1\_23[24]	*[66]	*[66]	object[66]	*[66]	*[66]	false[177]	Decl[177]	*[300]	essen[300]	transitive[300]	*[300]	*[300]	item0[300]	21[418]	male[418]	afpst3sherp4732c4se5ajftkq[418]	speaker: YOU[536]	*->56-1	IndefNP[56]	_	_	_	
+140-5	3597-3605	gegessen	GWithout[24]	essen\_set1\_23[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-essen\_set1\_23[24]	_	_	_	_	_	false[177]	Decl[177]	*[300]	essen[300]	transitive[300]	*[300]	*[300]	item0[300]	21[418]	male[418]	afpst3sherp4732c4se5ajftkq[418]	speaker: YOU[536]	_	_	_	_	_	
+
+#Text=-
+141-1	3607-3608	-	GWithout[24]	essen\_set1\_23[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-essen\_set1\_23[24]	_	_	_	_	_	false	NA	GWithout	*	*	*	*	feedback	*	female	*	speaker:Franziska	_	_	_	_	_	
+
+#Text=Die Mikrowelle ist kaputt <BR> deshalb konnten wir diese nicht erwärmen.
+142-1	3610-3613	Die	GWithout[24]	essen\_set1\_23[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-essen\_set1\_23[24]	*[67]	*[67]	Subj[67]	*[67]	*[67]	true[178]|false[179]	*[178]|Decl[179]	*[301]	*[301]	*[301]	*[301]	*[301]	input1[301]	21[419]	male[419]	afpst3sherp4732c4se5ajftkq[419]	speaker: YOU[537]	*->124-1|*->41-1	clause[124]|DefNP[41]	result	*	142-6[180_179]	
+142-2	3614-3624	Mikrowelle	GWithout[24]	essen\_set1\_23[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-essen\_set1\_23[24]	*[67]	*[67]	Subj[67]	*[67]	*[67]	true[178]|false[179]	*[178]|Decl[179]	*[301]	*[301]	*[301]	*[301]	*[301]	input1[301]	21[419]	male[419]	afpst3sherp4732c4se5ajftkq[419]	speaker: YOU[537]	*->124-1|*->41-1	clause[124]|DefNP[41]	_	_	_	
+142-3	3625-3628	ist	GWithout[24]	essen\_set1\_23[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-essen\_set1\_23[24]	_	_	_	_	_	true[178]|false[179]	*[178]|Decl[179]	*[301]	*[301]	*[301]	*[301]	*[301]	input1[301]	21[419]	male[419]	afpst3sherp4732c4se5ajftkq[419]	speaker: YOU[537]	*->124-1	clause[124]	_	_	_	
+142-4	3629-3635	kaputt	GWithout[24]	essen\_set1\_23[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-essen\_set1\_23[24]	_	_	_	_	_	true[178]|false[179]	*[178]|Decl[179]	*[301]	*[301]	*[301]	*[301]	*[301]	input1[301]	21[419]	male[419]	afpst3sherp4732c4se5ajftkq[419]	speaker: YOU[537]	*->124-1	clause[124]	_	_	_	
+142-5	3636-3640	<BR>	GWithout[24]	essen\_set1\_23[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-essen\_set1\_23[24]	_	_	_	_	_	true[178]	*[178]	*[301]	*[301]	*[301]	*[301]	*[301]	input1[301]	21[419]	male[419]	afpst3sherp4732c4se5ajftkq[419]	speaker: YOU[537]	_	_	_	_	_	
+142-6	3641-3648	deshalb	GWithout[24]	essen\_set1\_23[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-essen\_set1\_23[24]	_	_	_	_	_	true[178]|false[180]	*[178]|Decl[180]	*[301]	*[301]	*[301]	*[301]	*[301]	input1[301]	21[419]	male[419]	afpst3sherp4732c4se5ajftkq[419]	speaker: YOU[537]	*->124-2	DemPron[124]	_	_	_	
+142-7	3649-3656	konnten	GWithout[24]	essen\_set1\_23[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-essen\_set1\_23[24]	_	_	_	_	_	true[178]|false[180]	*[178]|Decl[180]	*[301]	*[301]	*[301]	*[301]	*[301]	input1[301]	21[419]	male[419]	afpst3sherp4732c4se5ajftkq[419]	speaker: YOU[537]	_	_	_	_	_	
+142-8	3657-3660	wir	GWithout[24]	essen\_set1\_23[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-essen\_set1\_23[24]	1	*	Subj	*	plural	true[178]|false[180]	*[178]|Decl[180]	*[301]	*[301]	*[301]	*[301]	*[301]	input1[301]	21[419]	male[419]	afpst3sherp4732c4se5ajftkq[419]	speaker: YOU[537]	*->2-1	PerPron[2]	_	_	_	
+142-9	3661-3666	diese	GWithout[24]	essen\_set1\_23[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-essen\_set1\_23[24]	*	*	DirObj	*	*	true[178]|false[180]	*[178]|Decl[180]	*[301]	*[301]	*[301]	*[301]	*[301]	input1[301]	21[419]	male[419]	afpst3sherp4732c4se5ajftkq[419]	speaker: YOU[537]	*->56-2	DemPron[56]	_	_	_	
+142-10	3667-3672	nicht	GWithout[24]	essen\_set1\_23[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-essen\_set1\_23[24]	_	_	_	_	_	true[178]|false[180]	*[178]|Decl[180]	*[301]	*[301]	*[301]	*[301]	*[301]	input1[301]	21[419]	male[419]	afpst3sherp4732c4se5ajftkq[419]	speaker: YOU[537]	_	_	_	_	_	
+142-11	3673-3682	erwärmen.	GWithout[24]	essen\_set1\_23[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-essen\_set1\_23[24]	_	_	_	_	_	true[178]|false[180]	*[178]|Decl[180]	*[301]	*[301]	*[301]	*[301]	*[301]	input1[301]	21[419]	male[419]	afpst3sherp4732c4se5ajftkq[419]	speaker: YOU[537]	_	_	_	_	_	
+
+#Text=Krank sowas.
+143-1	3684-3689	Krank	GWithout[24]	essen\_set1\_23[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-essen\_set1\_23[24]	_	_	_	_	_	false[181]	NA[181]	*[302]	*[302]	*[302]	*[302]	*[302]	input2[302]	21[420]	male[420]	afpst3sherp4732c4se5ajftkq[420]	speaker: YOU[538]	_	_	_	_	_	
+143-2	3690-3696	sowas.	GWithout[24]	essen\_set1\_23[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-essen\_set1\_23[24]	_	_	_	_	_	false[181]	NA[181]	*[302]	*[302]	*[302]	*[302]	*[302]	input2[302]	21[420]	male[420]	afpst3sherp4732c4se5ajftkq[420]	speaker: YOU[538]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+144-1	3698-3713	END_OF_DOCUMENT	GWithout[24]	essen\_set1\_23[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-essen\_set1\_23[24]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+145-1	3715-3720	Alles	GWithout[25]	essen\_set1\_23[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-essen\_set1\_23[25]	_	_	_	_	_	false[182]	Int[182]	*[303]	*[303]	*[303]	yn\_1[303]	yesno\_question[303]	openq[303]	*[421]	female[421]	*[421]	speaker:Franziska[539]	_	_	QAP|QAP	*|*	148-1[184_182]|146-1[183_182]	
+145-2	3721-3725	klar	GWithout[25]	essen\_set1\_23[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-essen\_set1\_23[25]	_	_	_	_	_	false[182]	Int[182]	*[303]	*[303]	*[303]	yn\_1[303]	yesno\_question[303]	openq[303]	*[421]	female[421]	*[421]	speaker:Franziska[539]	_	_	_	_	_	
+145-3	3726-3729	bei	GWithout[25]	essen\_set1\_23[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-essen\_set1\_23[25]	_	_	_	_	_	false[182]	Int[182]	*[303]	*[303]	*[303]	yn\_1[303]	yesno\_question[303]	openq[303]	*[421]	female[421]	*[421]	speaker:Franziska[539]	_	_	_	_	_	
+145-4	3730-3734	dir?	GWithout[25]	essen\_set1\_23[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-essen\_set1\_23[25]	2	*	*	*	singular	false[182]	Int[182]	*[303]	*[303]	*[303]	yn\_1[303]	yesno\_question[303]	openq[303]	*[421]	female[421]	*[421]	speaker:Franziska[539]	*->97-1	PerPron[97]	_	_	_	
+
+#Text=Richard hat kalte Spaghetti gegessen
+146-1	3736-3743	Richard	GWithout[25]	essen\_set1\_23[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-essen\_set1\_23[25]	*	*	Subj	*	*	false[183]	Decl[183]	*[304]	essen[304]	transitive[304]	*[304]	*[304]	item0[304]	42[422]	female[422]	blj8i1h4sc8jti0m6gcav1c9ek[422]	speaker: YOU[540]	*->92-1	PropNm[92]	_	_	_	
+146-2	3744-3747	hat	GWithout[25]	essen\_set1\_23[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-essen\_set1\_23[25]	_	_	_	_	_	false[183]	Decl[183]	*[304]	essen[304]	transitive[304]	*[304]	*[304]	item0[304]	42[422]	female[422]	blj8i1h4sc8jti0m6gcav1c9ek[422]	speaker: YOU[540]	_	_	_	_	_	
+146-3	3748-3753	kalte	GWithout[25]	essen\_set1\_23[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-essen\_set1\_23[25]	*[68]	*[68]	object[68]	*[68]	*[68]	false[183]	Decl[183]	*[304]	essen[304]	transitive[304]	*[304]	*[304]	item0[304]	42[422]	female[422]	blj8i1h4sc8jti0m6gcav1c9ek[422]	speaker: YOU[540]	*->125-1	IndefNP[125]	_	_	_	
+146-4	3754-3763	Spaghetti	GWithout[25]	essen\_set1\_23[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-essen\_set1\_23[25]	*[68]	*[68]	object[68]	*[68]	*[68]	false[183]	Decl[183]	*[304]	essen[304]	transitive[304]	*[304]	*[304]	item0[304]	42[422]	female[422]	blj8i1h4sc8jti0m6gcav1c9ek[422]	speaker: YOU[540]	*->125-1	IndefNP[125]	_	_	_	
+146-5	3764-3772	gegessen	GWithout[25]	essen\_set1\_23[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-essen\_set1\_23[25]	_	_	_	_	_	false[183]	Decl[183]	*[304]	essen[304]	transitive[304]	*[304]	*[304]	item0[304]	42[422]	female[422]	blj8i1h4sc8jti0m6gcav1c9ek[422]	speaker: YOU[540]	_	_	_	_	_	
+
+#Text=-
+147-1	3774-3775	-	GWithout[25]	essen\_set1\_23[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-essen\_set1\_23[25]	_	_	_	_	_	false	NA	GWithout	*	*	*	*	feedback	*	female	*	speaker:Franziska	_	_	_	_	_	
+
+#Text=Sonst alles klar bei mir.
+148-1	3777-3782	Sonst	GWithout[25]	essen\_set1\_23[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-essen\_set1\_23[25]	_	_	_	_	_	false[184]	NA[184]	*[305]	*[305]	*[305]	*[305]	*[305]	input1[305]	42[423]	female[423]	blj8i1h4sc8jti0m6gcav1c9ek[423]	speaker: YOU[541]	_	_	parallel	*	149-1[185_184]	
+148-2	3783-3788	alles	GWithout[25]	essen\_set1\_23[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-essen\_set1\_23[25]	_	_	_	_	_	false[184]	NA[184]	*[305]	*[305]	*[305]	*[305]	*[305]	input1[305]	42[423]	female[423]	blj8i1h4sc8jti0m6gcav1c9ek[423]	speaker: YOU[541]	*->50-1	Allquantor[50]	_	_	_	
+148-3	3789-3793	klar	GWithout[25]	essen\_set1\_23[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-essen\_set1\_23[25]	_	_	_	_	_	false[184]	NA[184]	*[305]	*[305]	*[305]	*[305]	*[305]	input1[305]	42[423]	female[423]	blj8i1h4sc8jti0m6gcav1c9ek[423]	speaker: YOU[541]	_	_	_	_	_	
+148-4	3794-3797	bei	GWithout[25]	essen\_set1\_23[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-essen\_set1\_23[25]	_	_	_	_	_	false[184]	NA[184]	*[305]	*[305]	*[305]	*[305]	*[305]	input1[305]	42[423]	female[423]	blj8i1h4sc8jti0m6gcav1c9ek[423]	speaker: YOU[541]	_	_	_	_	_	
+148-5	3798-3802	mir.	GWithout[25]	essen\_set1\_23[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-essen\_set1\_23[25]	1	*	PrepObj	*	singular	false[184]	NA[184]	*[305]	*[305]	*[305]	*[305]	*[305]	input1[305]	42[423]	female[423]	blj8i1h4sc8jti0m6gcav1c9ek[423]	speaker: YOU[541]	*->97-2	PerPron[97]	_	_	_	
+
+#Text=Und selbst?
+149-1	3804-3807	Und	GWithout[25]	essen\_set1\_23[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-essen\_set1\_23[25]	_	_	_	_	_	false[185]	NA[185]	*[306]	*[306]	*[306]	*[306]	*[306]	input2[306]	42[424]	female[424]	blj8i1h4sc8jti0m6gcav1c9ek[424]	speaker: YOU[542]	_	_	_	_	_	
+149-2	3808-3815	selbst?	GWithout[25]	essen\_set1\_23[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-essen\_set1\_23[25]	_	_	_	_	_	false[185]	NA[185]	*[306]	*[306]	*[306]	*[306]	*[306]	input2[306]	42[424]	female[424]	blj8i1h4sc8jti0m6gcav1c9ek[424]	speaker: YOU[542]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+150-1	3817-3832	END_OF_DOCUMENT	GWithout[25]	essen\_set1\_23[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-essen\_set1\_23[25]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+151-1	3834-3839	Alles	GWithout[26]	essen\_set1\_23[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-essen\_set1\_23[26]	_	_	_	_	_	false[186]	Int[186]	*[307]	*[307]	*[307]	yn\_1[307]	yesno\_question[307]	openq[307]	*[425]	female[425]	*[425]	speaker:Franziska[543]	_	_	QAP	*	152-1[187_186]	
+151-2	3840-3844	klar	GWithout[26]	essen\_set1\_23[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-essen\_set1\_23[26]	_	_	_	_	_	false[186]	Int[186]	*[307]	*[307]	*[307]	yn\_1[307]	yesno\_question[307]	openq[307]	*[425]	female[425]	*[425]	speaker:Franziska[543]	_	_	_	_	_	
+151-3	3845-3848	bei	GWithout[26]	essen\_set1\_23[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-essen\_set1\_23[26]	_	_	_	_	_	false[186]	Int[186]	*[307]	*[307]	*[307]	yn\_1[307]	yesno\_question[307]	openq[307]	*[425]	female[425]	*[425]	speaker:Franziska[543]	_	_	_	_	_	
+151-4	3849-3853	dir?	GWithout[26]	essen\_set1\_23[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-essen\_set1\_23[26]	2	*	*	*	singular	false[186]	Int[186]	*[307]	*[307]	*[307]	yn\_1[307]	yesno\_question[307]	openq[307]	*[425]	female[425]	*[425]	speaker:Franziska[543]	*->65-1	PerPron[65]	_	_	_	
+
+#Text=Richard hat kalte Spaghetti gegessen
+152-1	3855-3862	Richard	GWithout[26]	essen\_set1\_23[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-essen\_set1\_23[26]	*	*	Subj	*	*	false[187]	Decl[187]	*[308]	essen[308]	transitive[308]	*[308]	*[308]	item0[308]	42[426]	female[426]	h05ingrcngdnasp07727nvoq59[426]	speaker: YOU[544]	*->127-1	PropNm[127]	explanation	*	154-1[188_187]	
+152-2	3863-3866	hat	GWithout[26]	essen\_set1\_23[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-essen\_set1\_23[26]	_	_	_	_	_	false[187]	Decl[187]	*[308]	essen[308]	transitive[308]	*[308]	*[308]	item0[308]	42[426]	female[426]	h05ingrcngdnasp07727nvoq59[426]	speaker: YOU[544]	_	_	_	_	_	
+152-3	3867-3872	kalte	GWithout[26]	essen\_set1\_23[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-essen\_set1\_23[26]	*[69]	*[69]	object[69]	*[69]	*[69]	false[187]	Decl[187]	*[308]	essen[308]	transitive[308]	*[308]	*[308]	item0[308]	42[426]	female[426]	h05ingrcngdnasp07727nvoq59[426]	speaker: YOU[544]	*->22-1	IndefNP[22]	_	_	_	
+152-4	3873-3882	Spaghetti	GWithout[26]	essen\_set1\_23[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-essen\_set1\_23[26]	*[69]	*[69]	object[69]	*[69]	*[69]	false[187]	Decl[187]	*[308]	essen[308]	transitive[308]	*[308]	*[308]	item0[308]	42[426]	female[426]	h05ingrcngdnasp07727nvoq59[426]	speaker: YOU[544]	*->22-1	IndefNP[22]	_	_	_	
+152-5	3883-3891	gegessen	GWithout[26]	essen\_set1\_23[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-essen\_set1\_23[26]	_	_	_	_	_	false[187]	Decl[187]	*[308]	essen[308]	transitive[308]	*[308]	*[308]	item0[308]	42[426]	female[426]	h05ingrcngdnasp07727nvoq59[426]	speaker: YOU[544]	_	_	_	_	_	
+
+#Text=-
+153-1	3893-3894	-	GWithout[26]	essen\_set1\_23[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-essen\_set1\_23[26]	_	_	_	_	_	false	NA	GWithout	*	*	*	*	feedback	*	female	*	speaker:Franziska	_	_	_	_	_	
+
+#Text=Es gibt Leute die essen alles lieber kalt.
+154-1	3896-3898	Es	GWithout[26]	essen\_set1\_23[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-essen\_set1\_23[26]	_	_	_	_	_	false[188]	Decl[188]	*[309]	*[309]	*[309]	*[309]	*[309]	input1[309]	42[427]	female[427]	h05ingrcngdnasp07727nvoq59[427]	speaker: YOU[545]	_	_	elaboration	*	155-1[189_188]	
+154-2	3899-3903	gibt	GWithout[26]	essen\_set1\_23[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-essen\_set1\_23[26]	_	_	_	_	_	false[188]	Decl[188]	*[309]	*[309]	*[309]	*[309]	*[309]	input1[309]	42[427]	female[427]	h05ingrcngdnasp07727nvoq59[427]	speaker: YOU[545]	_	_	_	_	_	
+154-3	3904-3909	Leute	GWithout[26]	essen\_set1\_23[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-essen\_set1\_23[26]	_	_	_	_	_	false[188]	Decl[188]	*[309]	*[309]	*[309]	*[309]	*[309]	input1[309]	42[427]	female[427]	h05ingrcngdnasp07727nvoq59[427]	speaker: YOU[545]	*->120-1	IndefNP[120]	_	_	_	
+154-4	3910-3913	die	GWithout[26]	essen\_set1\_23[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-essen\_set1\_23[26]	_	_	_	_	_	false[188]	Decl[188]	*[309]	*[309]	*[309]	*[309]	*[309]	input1[309]	42[427]	female[427]	h05ingrcngdnasp07727nvoq59[427]	speaker: YOU[545]	*->120-2	D-Pron[120]	_	_	_	
+154-5	3914-3919	essen	GWithout[26]	essen\_set1\_23[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-essen\_set1\_23[26]	_	_	_	_	_	false[188]	Decl[188]	*[309]	*[309]	*[309]	*[309]	*[309]	input1[309]	42[427]	female[427]	h05ingrcngdnasp07727nvoq59[427]	speaker: YOU[545]	_	_	_	_	_	
+154-6	3920-3925	alles	GWithout[26]	essen\_set1\_23[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-essen\_set1\_23[26]	_	_	_	_	_	false[188]	Decl[188]	*[309]	*[309]	*[309]	*[309]	*[309]	input1[309]	42[427]	female[427]	h05ingrcngdnasp07727nvoq59[427]	speaker: YOU[545]	*->69-1	Allquantor[69]	_	_	_	
+154-7	3926-3932	lieber	GWithout[26]	essen\_set1\_23[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-essen\_set1\_23[26]	_	_	_	_	_	false[188]	Decl[188]	*[309]	*[309]	*[309]	*[309]	*[309]	input1[309]	42[427]	female[427]	h05ingrcngdnasp07727nvoq59[427]	speaker: YOU[545]	_	_	_	_	_	
+154-8	3933-3938	kalt.	GWithout[26]	essen\_set1\_23[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-essen\_set1\_23[26]	_	_	_	_	_	false[188]	Decl[188]	*[309]	*[309]	*[309]	*[309]	*[309]	input1[309]	42[427]	female[427]	h05ingrcngdnasp07727nvoq59[427]	speaker: YOU[545]	_	_	_	_	_	
+
+#Text=Pizza <BR> Nudeln<BR>Döner<BR>Hamburger... brrr
+155-1	3940-3945	Pizza	GWithout[26]	essen\_set1\_23[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-essen\_set1\_23[26]	_	_	_	_	_	true[189]|false[190]	*[189]|*[190]	*[310]	*[310]	*[310]	*[310]	*[310]	input2[310]	42[428]	female[428]	h05ingrcngdnasp07727nvoq59[428]	speaker: YOU[546]	*->37-1	IndefNP[37]	elaboration|parallel	*|*	155-4[0_189]|155-3.1[0_190]	
+155-2	3946-3950	<BR>	GWithout[26]	essen\_set1\_23[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-essen\_set1\_23[26]	_	_	_	_	_	true[189]	*[189]	*[310]	*[310]	*[310]	*[310]	*[310]	input2[310]	42[428]	female[428]	h05ingrcngdnasp07727nvoq59[428]	speaker: YOU[546]	_	_	_	_	_	
+155-3	3951-3982	Nudeln<BR>Döner<BR>Hamburger...	GWithout[26]	essen\_set1\_23[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-essen\_set1\_23[26]	_	_	_	_	_	true[189]	*[189]	*[310]	*[310]	*[310]	*[310]	*[310]	input2[310]	42[428]	female[428]	h05ingrcngdnasp07727nvoq59[428]	speaker: YOU[546]	_	_	_	_	_	
+155-3.1	3951-3957	Nudeln	_	_	_	_	_	_	_	_	_	false	*	_	_	_	_	_	_	_	_	_	_	*->84-1	IndefNP[84]	parallel	*	155-3.2	
+155-3.2	3961-3966	Döner	_	_	_	_	_	_	_	_	_	false	*	_	_	_	_	_	_	_	_	_	_	*->115-1	IndefNP[115]	parallel	*	155-3.3	
+155-3.3	3970-3982	Hamburger...	_	_	_	_	_	_	_	_	_	false	*	_	_	_	_	_	_	_	_	_	_	*->52-1	IndefNP[52]	_	_	_	
+155-4	3983-3987	brrr	GWithout[26]	essen\_set1\_23[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-essen\_set1\_23[26]	_	_	_	_	_	false	*	*[310]	*[310]	*[310]	*[310]	*[310]	input2[310]	42[428]	female[428]	h05ingrcngdnasp07727nvoq59[428]	speaker: YOU[546]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+156-1	3989-4004	END_OF_DOCUMENT	GWithout[26]	essen\_set1\_23[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-essen\_set1\_23[26]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+157-1	4006-4011	Alles	GWithout[27]	essen\_set1\_23[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-essen\_set1\_23[27]	_	_	_	_	_	false[191]	Int[191]	*[311]	*[311]	*[311]	yn\_1[311]	yesno\_question[311]	openq[311]	*[429]	female[429]	*[429]	speaker:Franziska[547]	_	_	QAP	*	158-1[192_191]	
+157-2	4012-4016	klar	GWithout[27]	essen\_set1\_23[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-essen\_set1\_23[27]	_	_	_	_	_	false[191]	Int[191]	*[311]	*[311]	*[311]	yn\_1[311]	yesno\_question[311]	openq[311]	*[429]	female[429]	*[429]	speaker:Franziska[547]	_	_	_	_	_	
+157-3	4017-4020	bei	GWithout[27]	essen\_set1\_23[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-essen\_set1\_23[27]	_	_	_	_	_	false[191]	Int[191]	*[311]	*[311]	*[311]	yn\_1[311]	yesno\_question[311]	openq[311]	*[429]	female[429]	*[429]	speaker:Franziska[547]	_	_	_	_	_	
+157-4	4021-4025	dir?	GWithout[27]	essen\_set1\_23[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-essen\_set1\_23[27]	2	*	*	*	singular	false[191]	Int[191]	*[311]	*[311]	*[311]	yn\_1[311]	yesno\_question[311]	openq[311]	*[429]	female[429]	*[429]	speaker:Franziska[547]	*->99-1	PerPron[99]	_	_	_	
+
+#Text=Richard hat kalte Spaghetti gegessen
+158-1	4027-4034	Richard	GWithout[27]	essen\_set1\_23[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-essen\_set1\_23[27]	*	*	Subj	*	*	false[192]	Decl[192]	*[312]	essen[312]	transitive[312]	*[312]	*[312]	item0[312]	42[430]	male[430]	jkqc35grurqg6r29efakrmibd9[430]	speaker: YOU[548]	*->123-1	PropNm[123]	explanation|result	*|*	160-1[193_192]|161-1[194_192]	
+158-2	4035-4038	hat	GWithout[27]	essen\_set1\_23[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-essen\_set1\_23[27]	_	_	_	_	_	false[192]	Decl[192]	*[312]	essen[312]	transitive[312]	*[312]	*[312]	item0[312]	42[430]	male[430]	jkqc35grurqg6r29efakrmibd9[430]	speaker: YOU[548]	_	_	_	_	_	
+158-3	4039-4044	kalte	GWithout[27]	essen\_set1\_23[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-essen\_set1\_23[27]	*[70]	*[70]	object[70]	*[70]	*[70]	false[192]	Decl[192]	*[312]	essen[312]	transitive[312]	*[312]	*[312]	item0[312]	42[430]	male[430]	jkqc35grurqg6r29efakrmibd9[430]	speaker: YOU[548]	*->105-1	IndefNP[105]	_	_	_	
+158-4	4045-4054	Spaghetti	GWithout[27]	essen\_set1\_23[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-essen\_set1\_23[27]	*[70]	*[70]	object[70]	*[70]	*[70]	false[192]	Decl[192]	*[312]	essen[312]	transitive[312]	*[312]	*[312]	item0[312]	42[430]	male[430]	jkqc35grurqg6r29efakrmibd9[430]	speaker: YOU[548]	*->105-1	IndefNP[105]	_	_	_	
+158-5	4055-4063	gegessen	GWithout[27]	essen\_set1\_23[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-essen\_set1\_23[27]	_	_	_	_	_	false[192]	Decl[192]	*[312]	essen[312]	transitive[312]	*[312]	*[312]	item0[312]	42[430]	male[430]	jkqc35grurqg6r29efakrmibd9[430]	speaker: YOU[548]	_	_	_	_	_	
+
+#Text=-
+159-1	4065-4066	-	GWithout[27]	essen\_set1\_23[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-essen\_set1\_23[27]	_	_	_	_	_	false	NA	GWithout	*	*	*	*	feedback	*	female	*	speaker:Franziska	_	_	_	_	_	
+
+#Text=Er wollte sie pas tout nicht wärmen
+160-1	4068-4070	Er	GWithout[27]	essen\_set1\_23[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-essen\_set1\_23[27]	3	*	Subj	*	singular	false[193]	Decl[193]	*[313]	*[313]	*[313]	*[313]	*[313]	input1[313]	42[431]	male[431]	jkqc35grurqg6r29efakrmibd9[431]	speaker: YOU[549]	*->123-2	PerPron[123]	_	_	_	
+160-2	4071-4077	wollte	GWithout[27]	essen\_set1\_23[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-essen\_set1\_23[27]	_	_	_	_	_	false[193]	Decl[193]	*[313]	*[313]	*[313]	*[313]	*[313]	input1[313]	42[431]	male[431]	jkqc35grurqg6r29efakrmibd9[431]	speaker: YOU[549]	_	_	_	_	_	
+160-3	4078-4081	sie	GWithout[27]	essen\_set1\_23[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-essen\_set1\_23[27]	3	*	DirObj	*	plural	false[193]	Decl[193]	*[313]	*[313]	*[313]	*[313]	*[313]	input1[313]	42[431]	male[431]	jkqc35grurqg6r29efakrmibd9[431]	speaker: YOU[549]	*->105-2	PerPron[105]	_	_	_	
+160-4	4082-4085	pas	GWithout[27]	essen\_set1\_23[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-essen\_set1\_23[27]	_	_	_	_	_	false[193]	Decl[193]	*[313]	*[313]	*[313]	*[313]	*[313]	input1[313]	42[431]	male[431]	jkqc35grurqg6r29efakrmibd9[431]	speaker: YOU[549]	_	_	_	_	_	
+160-5	4086-4090	tout	GWithout[27]	essen\_set1\_23[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-essen\_set1\_23[27]	_	_	_	_	_	false[193]	Decl[193]	*[313]	*[313]	*[313]	*[313]	*[313]	input1[313]	42[431]	male[431]	jkqc35grurqg6r29efakrmibd9[431]	speaker: YOU[549]	_	_	_	_	_	
+160-6	4091-4096	nicht	GWithout[27]	essen\_set1\_23[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-essen\_set1\_23[27]	_	_	_	_	_	false[193]	Decl[193]	*[313]	*[313]	*[313]	*[313]	*[313]	input1[313]	42[431]	male[431]	jkqc35grurqg6r29efakrmibd9[431]	speaker: YOU[549]	_	_	_	_	_	
+160-7	4097-4103	wärmen	GWithout[27]	essen\_set1\_23[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-essen\_set1\_23[27]	_	_	_	_	_	false[193]	Decl[193]	*[313]	*[313]	*[313]	*[313]	*[313]	input1[313]	42[431]	male[431]	jkqc35grurqg6r29efakrmibd9[431]	speaker: YOU[549]	_	_	_	_	_	
+
+#Text=Und jetzt hat er Bauchweh
+161-1	4105-4108	Und	GWithout[27]	essen\_set1\_23[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-essen\_set1\_23[27]	_	_	_	_	_	false[194]	Decl[194]	*[314]	*[314]	*[314]	*[314]	*[314]	input2[314]	42[432]	male[432]	jkqc35grurqg6r29efakrmibd9[432]	speaker: YOU[550]	_	_	_	_	_	
+161-2	4109-4114	jetzt	GWithout[27]	essen\_set1\_23[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-essen\_set1\_23[27]	_	_	_	_	_	false[194]	Decl[194]	*[314]	*[314]	*[314]	*[314]	*[314]	input2[314]	42[432]	male[432]	jkqc35grurqg6r29efakrmibd9[432]	speaker: YOU[550]	_	_	_	_	_	
+161-3	4115-4118	hat	GWithout[27]	essen\_set1\_23[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-essen\_set1\_23[27]	_	_	_	_	_	false[194]	Decl[194]	*[314]	*[314]	*[314]	*[314]	*[314]	input2[314]	42[432]	male[432]	jkqc35grurqg6r29efakrmibd9[432]	speaker: YOU[550]	_	_	_	_	_	
+161-4	4119-4121	er	GWithout[27]	essen\_set1\_23[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-essen\_set1\_23[27]	3	*	Subj	*	singular	false[194]	Decl[194]	*[314]	*[314]	*[314]	*[314]	*[314]	input2[314]	42[432]	male[432]	jkqc35grurqg6r29efakrmibd9[432]	speaker: YOU[550]	*->123-3	PerPron[123]	_	_	_	
+161-5	4122-4130	Bauchweh	GWithout[27]	essen\_set1\_23[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-essen\_set1\_23[27]	*	*	DirObj	*	*	false[194]	Decl[194]	*[314]	*[314]	*[314]	*[314]	*[314]	input2[314]	42[432]	male[432]	jkqc35grurqg6r29efakrmibd9[432]	speaker: YOU[550]	*->73-1	IndefNP[73]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+162-1	4132-4147	END_OF_DOCUMENT	GWithout[27]	essen\_set1\_23[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-essen\_set1\_23[27]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+163-1	4149-4154	Alles	GWithout[28]	essen\_set1\_23[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-essen\_set1\_23[28]	_	_	_	_	_	false[195]	Int[195]	*[315]	*[315]	*[315]	yn\_1[315]	yesno\_question[315]	openq[315]	*[433]	female[433]	*[433]	speaker:Franziska[551]	_	_	QAP|QAP	*|*	166-1[197_195]|164-1[196_195]	
+163-2	4155-4159	klar	GWithout[28]	essen\_set1\_23[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-essen\_set1\_23[28]	_	_	_	_	_	false[195]	Int[195]	*[315]	*[315]	*[315]	yn\_1[315]	yesno\_question[315]	openq[315]	*[433]	female[433]	*[433]	speaker:Franziska[551]	_	_	_	_	_	
+163-3	4160-4163	bei	GWithout[28]	essen\_set1\_23[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-essen\_set1\_23[28]	_	_	_	_	_	false[195]	Int[195]	*[315]	*[315]	*[315]	yn\_1[315]	yesno\_question[315]	openq[315]	*[433]	female[433]	*[433]	speaker:Franziska[551]	_	_	_	_	_	
+163-4	4164-4168	dir?	GWithout[28]	essen\_set1\_23[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-essen\_set1\_23[28]	2	*	*	*	singular	false[195]	Int[195]	*[315]	*[315]	*[315]	yn\_1[315]	yesno\_question[315]	openq[315]	*[433]	female[433]	*[433]	speaker:Franziska[551]	*->33-1	PerPron[33]	_	_	_	
+
+#Text=Richard hat kalte Spaghetti gegessen
+164-1	4170-4177	Richard	GWithout[28]	essen\_set1\_23[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-essen\_set1\_23[28]	*	*	Subj	*	*	false[196]	Decl[196]	*[316]	essen[316]	transitive[316]	*[316]	*[316]	item0[316]	20[434]	male[434]	lhu26mh95feeqso1qtacqboi3v[434]	speaker: YOU[552]	*->14-1	PropNm[14]	_	_	_	
+164-2	4178-4181	hat	GWithout[28]	essen\_set1\_23[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-essen\_set1\_23[28]	_	_	_	_	_	false[196]	Decl[196]	*[316]	essen[316]	transitive[316]	*[316]	*[316]	item0[316]	20[434]	male[434]	lhu26mh95feeqso1qtacqboi3v[434]	speaker: YOU[552]	_	_	_	_	_	
+164-3	4182-4187	kalte	GWithout[28]	essen\_set1\_23[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-essen\_set1\_23[28]	*[71]	*[71]	object[71]	*[71]	*[71]	false[196]	Decl[196]	*[316]	essen[316]	transitive[316]	*[316]	*[316]	item0[316]	20[434]	male[434]	lhu26mh95feeqso1qtacqboi3v[434]	speaker: YOU[552]	*->117-1	IndefNP[117]	_	_	_	
+164-4	4188-4197	Spaghetti	GWithout[28]	essen\_set1\_23[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-essen\_set1\_23[28]	*[71]	*[71]	object[71]	*[71]	*[71]	false[196]	Decl[196]	*[316]	essen[316]	transitive[316]	*[316]	*[316]	item0[316]	20[434]	male[434]	lhu26mh95feeqso1qtacqboi3v[434]	speaker: YOU[552]	*->117-1	IndefNP[117]	_	_	_	
+164-5	4198-4206	gegessen	GWithout[28]	essen\_set1\_23[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-essen\_set1\_23[28]	_	_	_	_	_	false[196]	Decl[196]	*[316]	essen[316]	transitive[316]	*[316]	*[316]	item0[316]	20[434]	male[434]	lhu26mh95feeqso1qtacqboi3v[434]	speaker: YOU[552]	_	_	_	_	_	
+
+#Text=-
+165-1	4208-4209	-	GWithout[28]	essen\_set1\_23[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-essen\_set1\_23[28]	_	_	_	_	_	false	NA	GWithout	*	*	*	*	feedback	*	female	*	speaker:Franziska	_	_	_	_	_	
+
+#Text=Mir geht es gut soweit.
+166-1	4211-4214	Mir	GWithout[28]	essen\_set1\_23[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-essen\_set1\_23[28]	1	*	IndirObj	*	singular	false[197]	Decl[197]	*[317]	*[317]	*[317]	*[317]	*[317]	input1[317]	20[435]	male[435]	lhu26mh95feeqso1qtacqboi3v[435]	speaker: YOU[553]	*->33-2	PerPron[33]	contrast	*	167-1[198_197]	
+166-2	4215-4219	geht	GWithout[28]	essen\_set1\_23[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-essen\_set1\_23[28]	_	_	_	_	_	false[197]	Decl[197]	*[317]	*[317]	*[317]	*[317]	*[317]	input1[317]	20[435]	male[435]	lhu26mh95feeqso1qtacqboi3v[435]	speaker: YOU[553]	_	_	_	_	_	
+166-3	4220-4222	es	GWithout[28]	essen\_set1\_23[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-essen\_set1\_23[28]	*	*	Subj	*	*	false[197]	Decl[197]	*[317]	*[317]	*[317]	*[317]	*[317]	input1[317]	20[435]	male[435]	lhu26mh95feeqso1qtacqboi3v[435]	speaker: YOU[553]	_	_	_	_	_	
+166-4	4223-4226	gut	GWithout[28]	essen\_set1\_23[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-essen\_set1\_23[28]	_	_	_	_	_	false[197]	Decl[197]	*[317]	*[317]	*[317]	*[317]	*[317]	input1[317]	20[435]	male[435]	lhu26mh95feeqso1qtacqboi3v[435]	speaker: YOU[553]	_	_	_	_	_	
+166-5	4227-4234	soweit.	GWithout[28]	essen\_set1\_23[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-essen\_set1\_23[28]	_	_	_	_	_	false[197]	Decl[197]	*[317]	*[317]	*[317]	*[317]	*[317]	input1[317]	20[435]	male[435]	lhu26mh95feeqso1qtacqboi3v[435]	speaker: YOU[553]	_	_	_	_	_	
+
+#Text=Er hat aber anscheinend seinen Geschmackssinn verloren.
+167-1	4236-4238	Er	GWithout[28]	essen\_set1\_23[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-essen\_set1\_23[28]	3	*	Subj	*	singular	false[198]	Decl[198]	*[318]	*[318]	*[318]	*[318]	*[318]	input2[318]	20[436]	male[436]	lhu26mh95feeqso1qtacqboi3v[436]	speaker: YOU[554]	*->14-2	PerPron[14]	_	_	_	
+167-2	4239-4242	hat	GWithout[28]	essen\_set1\_23[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-essen\_set1\_23[28]	_	_	_	_	_	false[198]	Decl[198]	*[318]	*[318]	*[318]	*[318]	*[318]	input2[318]	20[436]	male[436]	lhu26mh95feeqso1qtacqboi3v[436]	speaker: YOU[554]	_	_	_	_	_	
+167-3	4243-4247	aber	GWithout[28]	essen\_set1\_23[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-essen\_set1\_23[28]	_	_	_	_	_	false[198]	Decl[198]	*[318]	*[318]	*[318]	*[318]	*[318]	input2[318]	20[436]	male[436]	lhu26mh95feeqso1qtacqboi3v[436]	speaker: YOU[554]	_	_	_	_	_	
+167-4	4248-4259	anscheinend	GWithout[28]	essen\_set1\_23[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-essen\_set1\_23[28]	_	_	_	_	_	false[198]	Decl[198]	*[318]	*[318]	*[318]	*[318]	*[318]	input2[318]	20[436]	male[436]	lhu26mh95feeqso1qtacqboi3v[436]	speaker: YOU[554]	_	_	_	_	_	
+167-5	4260-4266	seinen	GWithout[28]	essen\_set1\_23[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-essen\_set1\_23[28]	*[72]|3[73]	*[72]|*[73]	DirObj[72]|*[73]	*[72]|*[73]	*[72]|singular[73]	false[198]	Decl[198]	*[318]	*[318]	*[318]	*[318]	*[318]	input2[318]	20[436]	male[436]	lhu26mh95feeqso1qtacqboi3v[436]	speaker: YOU[554]	*->77-1|*->14-3	DefNP[77]|PossePron[14]	_	_	_	
+167-6	4267-4281	Geschmackssinn	GWithout[28]	essen\_set1\_23[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-essen\_set1\_23[28]	*[72]	*[72]	DirObj[72]	*[72]	*[72]	false[198]	Decl[198]	*[318]	*[318]	*[318]	*[318]	*[318]	input2[318]	20[436]	male[436]	lhu26mh95feeqso1qtacqboi3v[436]	speaker: YOU[554]	*->77-1	DefNP[77]	_	_	_	
+167-7	4282-4291	verloren.	GWithout[28]	essen\_set1\_23[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-essen\_set1\_23[28]	_	_	_	_	_	false[198]	Decl[198]	*[318]	*[318]	*[318]	*[318]	*[318]	input2[318]	20[436]	male[436]	lhu26mh95feeqso1qtacqboi3v[436]	speaker: YOU[554]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+168-1	4293-4308	END_OF_DOCUMENT	GWithout[28]	essen\_set1\_23[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-essen\_set1\_23[28]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+169-1	4310-4315	Alles	GWithout[29]	essen\_set1\_23[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-essen\_set1\_23[29]	_	_	_	_	_	false[199]	Int[199]	*[319]	*[319]	*[319]	yn\_1[319]	yesno\_question[319]	openq[319]	*[437]	female[437]	*[437]	speaker:Franziska[555]	_	_	QAP	*	170-1[200_199]	
+169-2	4316-4320	klar	GWithout[29]	essen\_set1\_23[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-essen\_set1\_23[29]	_	_	_	_	_	false[199]	Int[199]	*[319]	*[319]	*[319]	yn\_1[319]	yesno\_question[319]	openq[319]	*[437]	female[437]	*[437]	speaker:Franziska[555]	_	_	_	_	_	
+169-3	4321-4324	bei	GWithout[29]	essen\_set1\_23[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-essen\_set1\_23[29]	_	_	_	_	_	false[199]	Int[199]	*[319]	*[319]	*[319]	yn\_1[319]	yesno\_question[319]	openq[319]	*[437]	female[437]	*[437]	speaker:Franziska[555]	_	_	_	_	_	
+169-4	4325-4329	dir?	GWithout[29]	essen\_set1\_23[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-essen\_set1\_23[29]	2	*	*	*	singular	false[199]	Int[199]	*[319]	*[319]	*[319]	yn\_1[319]	yesno\_question[319]	openq[319]	*[437]	female[437]	*[437]	speaker:Franziska[555]	*->32-1	PerPron[32]	_	_	_	
+
+#Text=Richard hat kalte Spaghetti gegessen
+170-1	4331-4338	Richard	GWithout[29]	essen\_set1\_23[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-essen\_set1\_23[29]	*	*	Subj	*	*	false[200]	Decl[200]	*[320]	essen[320]	transitive[320]	*[320]	*[320]	item0[320]	21[438]	male[438]	tc4i3rsgsa9bl8tesf4679lok2[438]	speaker: YOU[556]	*->24-1	PropNm[24]	elaboration	*	172-1[201_200]	
+170-2	4339-4342	hat	GWithout[29]	essen\_set1\_23[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-essen\_set1\_23[29]	_	_	_	_	_	false[200]	Decl[200]	*[320]	essen[320]	transitive[320]	*[320]	*[320]	item0[320]	21[438]	male[438]	tc4i3rsgsa9bl8tesf4679lok2[438]	speaker: YOU[556]	_	_	_	_	_	
+170-3	4343-4348	kalte	GWithout[29]	essen\_set1\_23[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-essen\_set1\_23[29]	*[74]	*[74]	object[74]	*[74]	*[74]	false[200]	Decl[200]	*[320]	essen[320]	transitive[320]	*[320]	*[320]	item0[320]	21[438]	male[438]	tc4i3rsgsa9bl8tesf4679lok2[438]	speaker: YOU[556]	*->4-1	IndefNP[4]	_	_	_	
+170-4	4349-4358	Spaghetti	GWithout[29]	essen\_set1\_23[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-essen\_set1\_23[29]	*[74]	*[74]	object[74]	*[74]	*[74]	false[200]	Decl[200]	*[320]	essen[320]	transitive[320]	*[320]	*[320]	item0[320]	21[438]	male[438]	tc4i3rsgsa9bl8tesf4679lok2[438]	speaker: YOU[556]	*->4-1	IndefNP[4]	_	_	_	
+170-5	4359-4367	gegessen	GWithout[29]	essen\_set1\_23[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-essen\_set1\_23[29]	_	_	_	_	_	false[200]	Decl[200]	*[320]	essen[320]	transitive[320]	*[320]	*[320]	item0[320]	21[438]	male[438]	tc4i3rsgsa9bl8tesf4679lok2[438]	speaker: YOU[556]	_	_	_	_	_	
+
+#Text=-
+171-1	4369-4370	-	GWithout[29]	essen\_set1\_23[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-essen\_set1\_23[29]	_	_	_	_	_	false	NA	GWithout	*	*	*	*	feedback	*	female	*	speaker:Franziska	_	_	_	_	_	
+
+#Text=Also kalte Pizza kann ich noch verstehen
+172-1	4372-4376	Also	GWithout[29]	essen\_set1\_23[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-essen\_set1\_23[29]	_	_	_	_	_	true[201]|false[202]	*[201]|Decl[202]	*[321]	*[321]	*[321]	*[321]	*[321]	input1[321]	21[439]	male[439]	tc4i3rsgsa9bl8tesf4679lok2[439]	speaker: YOU[557]	_	_	contrast	*	173-1[203_202]	
+172-2	4377-4382	kalte	GWithout[29]	essen\_set1\_23[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-essen\_set1\_23[29]	*[75]	*[75]	DirObj[75]	*[75]	*[75]	true[201]|false[202]	*[201]|Decl[202]	*[321]	*[321]	*[321]	*[321]	*[321]	input1[321]	21[439]	male[439]	tc4i3rsgsa9bl8tesf4679lok2[439]	speaker: YOU[557]	*->13-1	IndefNP[13]	_	_	_	
+172-3	4383-4388	Pizza	GWithout[29]	essen\_set1\_23[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-essen\_set1\_23[29]	*[75]	*[75]	DirObj[75]	*[75]	*[75]	true[201]|false[202]	*[201]|Decl[202]	*[321]	*[321]	*[321]	*[321]	*[321]	input1[321]	21[439]	male[439]	tc4i3rsgsa9bl8tesf4679lok2[439]	speaker: YOU[557]	*->13-1	IndefNP[13]	_	_	_	
+172-4	4389-4393	kann	GWithout[29]	essen\_set1\_23[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-essen\_set1\_23[29]	_	_	_	_	_	true[201]|false[202]	*[201]|Decl[202]	*[321]	*[321]	*[321]	*[321]	*[321]	input1[321]	21[439]	male[439]	tc4i3rsgsa9bl8tesf4679lok2[439]	speaker: YOU[557]	_	_	_	_	_	
+172-5	4394-4397	ich	GWithout[29]	essen\_set1\_23[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-essen\_set1\_23[29]	1	*	Subj	*	singular	true[201]|false[202]	*[201]|Decl[202]	*[321]	*[321]	*[321]	*[321]	*[321]	input1[321]	21[439]	male[439]	tc4i3rsgsa9bl8tesf4679lok2[439]	speaker: YOU[557]	*->32-2	PerPron[32]	_	_	_	
+172-6	4398-4402	noch	GWithout[29]	essen\_set1\_23[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-essen\_set1\_23[29]	_	_	_	_	_	true[201]|false[202]	*[201]|Decl[202]	*[321]	*[321]	*[321]	*[321]	*[321]	input1[321]	21[439]	male[439]	tc4i3rsgsa9bl8tesf4679lok2[439]	speaker: YOU[557]	_	_	_	_	_	
+172-7	4403-4412	verstehen	GWithout[29]	essen\_set1\_23[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-essen\_set1\_23[29]	_	_	_	_	_	true[201]|false[202]	*[201]|Decl[202]	*[321]	*[321]	*[321]	*[321]	*[321]	input1[321]	21[439]	male[439]	tc4i3rsgsa9bl8tesf4679lok2[439]	speaker: YOU[557]	_	_	_	_	_	
+
+#Text=aber kalte Spaghetti? Na ich weiß nicht
+173-1	4414-4418	aber	GWithout[29]	essen\_set1\_23[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-essen\_set1\_23[29]	_	_	_	_	_	true[201]|false[203]	*[201]|NA[203]	*[322]	*[322]	*[322]	*[322]	*[322]	input2[322]	21[440]	male[440]	tc4i3rsgsa9bl8tesf4679lok2[440]	speaker: YOU[558]	_	_	elaboration	*	173-4[204_203]	
+173-2	4419-4424	kalte	GWithout[29]	essen\_set1\_23[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-essen\_set1\_23[29]	*[76]	*[76]	DirObj[76]	*[76]	*[76]	true[201]|false[203]	*[201]|NA[203]	*[322]	*[322]	*[322]	*[322]	*[322]	input2[322]	21[440]	male[440]	tc4i3rsgsa9bl8tesf4679lok2[440]	speaker: YOU[558]	*->57-1	IndefNP[57]	_	_	_	
+173-3	4425-4435	Spaghetti?	GWithout[29]	essen\_set1\_23[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-essen\_set1\_23[29]	*[76]	*[76]	DirObj[76]	*[76]	*[76]	true[201]|false[203]	*[201]|NA[203]	*[322]	*[322]	*[322]	*[322]	*[322]	input2[322]	21[440]	male[440]	tc4i3rsgsa9bl8tesf4679lok2[440]	speaker: YOU[558]	*->57-1	IndefNP[57]	_	_	_	
+173-4	4436-4438	Na	GWithout[29]	essen\_set1\_23[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-essen\_set1\_23[29]	_	_	_	_	_	true[201]|false[204]	*[201]|Decl[204]	*[322]	*[322]	*[322]	*[322]	*[322]	input2[322]	21[440]	male[440]	tc4i3rsgsa9bl8tesf4679lok2[440]	speaker: YOU[558]	_	_	_	_	_	
+173-5	4439-4442	ich	GWithout[29]	essen\_set1\_23[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-essen\_set1\_23[29]	1	*	Subj	*	singular	true[201]|false[204]	*[201]|Decl[204]	*[322]	*[322]	*[322]	*[322]	*[322]	input2[322]	21[440]	male[440]	tc4i3rsgsa9bl8tesf4679lok2[440]	speaker: YOU[558]	*->32-3	PerPron[32]	_	_	_	
+173-6	4443-4447	weiß	GWithout[29]	essen\_set1\_23[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-essen\_set1\_23[29]	_	_	_	_	_	true[201]|false[204]	*[201]|Decl[204]	*[322]	*[322]	*[322]	*[322]	*[322]	input2[322]	21[440]	male[440]	tc4i3rsgsa9bl8tesf4679lok2[440]	speaker: YOU[558]	_	_	_	_	_	
+173-7	4448-4453	nicht	GWithout[29]	essen\_set1\_23[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-essen\_set1\_23[29]	_	_	_	_	_	true[201]|false[204]	*[201]|Decl[204]	*[322]	*[322]	*[322]	*[322]	*[322]	input2[322]	21[440]	male[440]	tc4i3rsgsa9bl8tesf4679lok2[440]	speaker: YOU[558]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+174-1	4455-4470	END_OF_DOCUMENT	GWithout[29]	essen\_set1\_23[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-essen\_set1\_23[29]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+175-1	4472-4477	Alles	GWithout[30]	essen\_set1\_23[30]	latin1[30]	us0adlivem61c2bj5776kudbot-essen\_set1\_23[30]	_	_	_	_	_	false[205]	Int[205]	*[323]	*[323]	*[323]	yn\_1[323]	yesno\_question[323]	openq[323]	*[441]	female[441]	*[441]	speaker:Franziska[559]	_	_	QAP	*	176-1[206_205]	
+175-2	4478-4482	klar	GWithout[30]	essen\_set1\_23[30]	latin1[30]	us0adlivem61c2bj5776kudbot-essen\_set1\_23[30]	_	_	_	_	_	false[205]	Int[205]	*[323]	*[323]	*[323]	yn\_1[323]	yesno\_question[323]	openq[323]	*[441]	female[441]	*[441]	speaker:Franziska[559]	_	_	_	_	_	
+175-3	4483-4486	bei	GWithout[30]	essen\_set1\_23[30]	latin1[30]	us0adlivem61c2bj5776kudbot-essen\_set1\_23[30]	_	_	_	_	_	false[205]	Int[205]	*[323]	*[323]	*[323]	yn\_1[323]	yesno\_question[323]	openq[323]	*[441]	female[441]	*[441]	speaker:Franziska[559]	_	_	_	_	_	
+175-4	4487-4491	dir?	GWithout[30]	essen\_set1\_23[30]	latin1[30]	us0adlivem61c2bj5776kudbot-essen\_set1\_23[30]	2	*	*	*	singular	false[205]	Int[205]	*[323]	*[323]	*[323]	yn\_1[323]	yesno\_question[323]	openq[323]	*[441]	female[441]	*[441]	speaker:Franziska[559]	*->116-1	PerPron[116]	_	_	_	
+
+#Text=Richard hat kalte Spaghetti gegessen
+176-1	4493-4500	Richard	GWithout[30]	essen\_set1\_23[30]	latin1[30]	us0adlivem61c2bj5776kudbot-essen\_set1\_23[30]	*	*	Subj	*	*	false[206]	Decl[206]	*[324]	essen[324]	transitive[324]	*[324]	*[324]	item0[324]	66[442]	male[442]	us0adlivem61c2bj5776kudbot[442]	speaker: YOU[560]	*->121-1	PropNm[121]	elaboration	*	178-1[0_206]	
+176-2	4501-4504	hat	GWithout[30]	essen\_set1\_23[30]	latin1[30]	us0adlivem61c2bj5776kudbot-essen\_set1\_23[30]	_	_	_	_	_	false[206]	Decl[206]	*[324]	essen[324]	transitive[324]	*[324]	*[324]	item0[324]	66[442]	male[442]	us0adlivem61c2bj5776kudbot[442]	speaker: YOU[560]	_	_	_	_	_	
+176-3	4505-4510	kalte	GWithout[30]	essen\_set1\_23[30]	latin1[30]	us0adlivem61c2bj5776kudbot-essen\_set1\_23[30]	*[77]	*[77]	object[77]	*[77]	*[77]	false[206]	Decl[206]	*[324]	essen[324]	transitive[324]	*[324]	*[324]	item0[324]	66[442]	male[442]	us0adlivem61c2bj5776kudbot[442]	speaker: YOU[560]	*->98-1	IndefNP[98]	_	_	_	
+176-4	4511-4520	Spaghetti	GWithout[30]	essen\_set1\_23[30]	latin1[30]	us0adlivem61c2bj5776kudbot-essen\_set1\_23[30]	*[77]	*[77]	object[77]	*[77]	*[77]	false[206]	Decl[206]	*[324]	essen[324]	transitive[324]	*[324]	*[324]	item0[324]	66[442]	male[442]	us0adlivem61c2bj5776kudbot[442]	speaker: YOU[560]	*->98-1	IndefNP[98]	_	_	_	
+176-5	4521-4529	gegessen	GWithout[30]	essen\_set1\_23[30]	latin1[30]	us0adlivem61c2bj5776kudbot-essen\_set1\_23[30]	_	_	_	_	_	false[206]	Decl[206]	*[324]	essen[324]	transitive[324]	*[324]	*[324]	item0[324]	66[442]	male[442]	us0adlivem61c2bj5776kudbot[442]	speaker: YOU[560]	_	_	_	_	_	
+
+#Text=-
+177-1	4531-4532	-	GWithout[30]	essen\_set1\_23[30]	latin1[30]	us0adlivem61c2bj5776kudbot-essen\_set1\_23[30]	_	_	_	_	_	false	NA	GWithout	*	*	*	*	feedback	*	female	*	speaker:Franziska	_	_	_	_	_	
+
+#Text=Oje
+178-1	4534-4537	Oje	GWithout[30]	essen\_set1\_23[30]	latin1[30]	us0adlivem61c2bj5776kudbot-essen\_set1\_23[30]	_	_	_	_	_	false	NA	*	*	*	*	*	input1	66	male	us0adlivem61c2bj5776kudbot	speaker: YOU	_	_	elaboration	*	179-1[207_0]	
+
+#Text=der arme Magen
+179-1	4539-4542	der	GWithout[30]	essen\_set1\_23[30]	latin1[30]	us0adlivem61c2bj5776kudbot-essen\_set1\_23[30]	_	_	_	_	_	false[207]	NA[207]	*[325]	*[325]	*[325]	*[325]	*[325]	input2[325]	66[443]	male[443]	us0adlivem61c2bj5776kudbot[443]	speaker: YOU[561]	*->66-1	DefNP[66]	_	_	_	
+179-2	4543-4547	arme	GWithout[30]	essen\_set1\_23[30]	latin1[30]	us0adlivem61c2bj5776kudbot-essen\_set1\_23[30]	_	_	_	_	_	false[207]	NA[207]	*[325]	*[325]	*[325]	*[325]	*[325]	input2[325]	66[443]	male[443]	us0adlivem61c2bj5776kudbot[443]	speaker: YOU[561]	*->66-1	DefNP[66]	_	_	_	
+179-3	4548-4553	Magen	GWithout[30]	essen\_set1\_23[30]	latin1[30]	us0adlivem61c2bj5776kudbot-essen\_set1\_23[30]	_	_	_	_	_	false[207]	NA[207]	*[325]	*[325]	*[325]	*[325]	*[325]	input2[325]	66[443]	male[443]	us0adlivem61c2bj5776kudbot[443]	speaker: YOU[561]	*->66-1	DefNP[66]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+180-1	4555-4570	END_OF_DOCUMENT	GWithout[30]	essen\_set1\_23[30]	latin1[30]	us0adlivem61c2bj5776kudbot-essen\_set1\_23[30]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	

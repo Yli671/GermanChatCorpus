@@ -1,0 +1,1035 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Item_info|condition|item_id|latinsqr_list|unique_id
+#T_SP=webanno.custom.Ref_info|PersonalPronouns_detailed|ref_def|ref_function|ref_gender|ref_num
+#T_SP=webanno.custom.Segment|complex|segment_type
+#T_SP=webanno.custom.Sent_layer|feedback_id|item0_verb|item0_verbtype|openq_id|openq_type|sent_type
+#T_SP=webanno.custom.Speaker_meta|age|gender|speaker_id
+#T_SP=webanno.custom.Speaker_name|speaker_name
+#T_CH=de.tudarmstadt.ukp.dkpro.core.api.coref.type.CoreferenceLink|referenceRelation|referenceType
+#T_RL=webanno.custom.Relations|discourse_rel|speechAct_rel|BT_webanno.custom.Segment
+
+
+#Text=Alles gut?
+1-1	0-5	Alles	GFailure[1]	kuendigen\_set1\_6[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-kuendigen\_set1\_6[1]	_	_	_	_	_	false[93]	Int[93]	*[228]	*[228]	*[228]	yn\_4[228]	yesno\_question[228]	openq[228]	*[355]	female[355]	*[355]	speaker:Anna[482]	_	_	QAP	*	2-1[94_93]	
+1-2	6-10	gut?	GFailure[1]	kuendigen\_set1\_6[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-kuendigen\_set1\_6[1]	_	_	_	_	_	false[93]	Int[93]	*[228]	*[228]	*[228]	yn\_4[228]	yesno\_question[228]	openq[228]	*[355]	female[355]	*[355]	speaker:Anna[482]	_	_	_	_	_	
+
+#Text=Livia hat das Spiegel-Abo gekündigt
+2-1	12-17	Livia	GFailure[1]	kuendigen\_set1\_6[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-kuendigen\_set1\_6[1]	*	*	Subj	*	*	false[94]	Decl[94]	*[229]	kündigen[229]	transitive[229]	*[229]	*[229]	item0[229]	18[356]	female[356]	0ncaea7aqlpc7oe43khd21qn11[356]	speaker: YOU[483]	*->87-1	PropNm[87]	elaboration|CR	*|*	4-1[96_94]|3-1[95_94]	
+2-2	18-21	hat	GFailure[1]	kuendigen\_set1\_6[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-kuendigen\_set1\_6[1]	_	_	_	_	_	false[94]	Decl[94]	*[229]	kündigen[229]	transitive[229]	*[229]	*[229]	item0[229]	18[356]	female[356]	0ncaea7aqlpc7oe43khd21qn11[356]	speaker: YOU[483]	_	_	_	_	_	
+2-3	22-25	das	GFailure[1]	kuendigen\_set1\_6[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-kuendigen\_set1\_6[1]	*[31]	*[31]	object[31]	*[31]	*[31]	false[94]	Decl[94]	*[229]	kündigen[229]	transitive[229]	*[229]	*[229]	item0[229]	18[356]	female[356]	0ncaea7aqlpc7oe43khd21qn11[356]	speaker: YOU[483]	*->64-1	DefNP[64]	_	_	_	
+2-4	26-37	Spiegel-Abo	GFailure[1]	kuendigen\_set1\_6[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-kuendigen\_set1\_6[1]	*[31]	*[31]	object[31]	*[31]	*[31]	false[94]	Decl[94]	*[229]	kündigen[229]	transitive[229]	*[229]	*[229]	item0[229]	18[356]	female[356]	0ncaea7aqlpc7oe43khd21qn11[356]	speaker: YOU[483]	*->64-1	DefNP[64]	_	_	_	
+2-5	38-47	gekündigt	GFailure[1]	kuendigen\_set1\_6[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-kuendigen\_set1\_6[1]	_	_	_	_	_	false[94]	Decl[94]	*[229]	kündigen[229]	transitive[229]	*[229]	*[229]	item0[229]	18[356]	female[356]	0ncaea7aqlpc7oe43khd21qn11[356]	speaker: YOU[483]	_	_	_	_	_	
+
+#Text=Wie bitte?
+3-1	49-52	Wie	GFailure[1]	kuendigen\_set1\_6[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-kuendigen\_set1\_6[1]	_	_	_	_	_	false[95]	NA[95]	wie-bitte\_question\_2[230]	*[230]	*[230]	*[230]	*[230]	feedback[230]	*[357]	female[357]	*[357]	speaker:Anna[484]	_	_	_	_	_	
+3-2	53-59	bitte?	GFailure[1]	kuendigen\_set1\_6[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-kuendigen\_set1\_6[1]	_	_	_	_	_	false[95]	NA[95]	wie-bitte\_question\_2[230]	*[230]	*[230]	*[230]	*[230]	feedback[230]	*[357]	female[357]	*[357]	speaker:Anna[484]	_	_	_	_	_	
+
+#Text=Ich weiß auch nicht was ihr einfällt.
+4-1	61-64	Ich	GFailure[1]	kuendigen\_set1\_6[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-kuendigen\_set1\_6[1]	1	*	Subj	*	singular	false[96]	Decl[96]	*[231]	*[231]	*[231]	*[231]	*[231]	input1[231]	18[358]	female[358]	0ncaea7aqlpc7oe43khd21qn11[358]	speaker: YOU[485]	*->37-1	PerPron[37]	result	*	5-1[97_96]	
+4-2	65-69	weiß	GFailure[1]	kuendigen\_set1\_6[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-kuendigen\_set1\_6[1]	_	_	_	_	_	false[96]	Decl[96]	*[231]	*[231]	*[231]	*[231]	*[231]	input1[231]	18[358]	female[358]	0ncaea7aqlpc7oe43khd21qn11[358]	speaker: YOU[485]	_	_	_	_	_	
+4-3	70-74	auch	GFailure[1]	kuendigen\_set1\_6[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-kuendigen\_set1\_6[1]	_	_	_	_	_	false[96]	Decl[96]	*[231]	*[231]	*[231]	*[231]	*[231]	input1[231]	18[358]	female[358]	0ncaea7aqlpc7oe43khd21qn11[358]	speaker: YOU[485]	_	_	_	_	_	
+4-4	75-80	nicht	GFailure[1]	kuendigen\_set1\_6[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-kuendigen\_set1\_6[1]	_	_	_	_	_	false[96]	Decl[96]	*[231]	*[231]	*[231]	*[231]	*[231]	input1[231]	18[358]	female[358]	0ncaea7aqlpc7oe43khd21qn11[358]	speaker: YOU[485]	_	_	_	_	_	
+4-5	81-84	was	GFailure[1]	kuendigen\_set1\_6[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-kuendigen\_set1\_6[1]	_	_	_	_	_	false[96]	Decl[96]	*[231]	*[231]	*[231]	*[231]	*[231]	input1[231]	18[358]	female[358]	0ncaea7aqlpc7oe43khd21qn11[358]	speaker: YOU[485]	_	_	_	_	_	
+4-6	85-88	ihr	GFailure[1]	kuendigen\_set1\_6[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-kuendigen\_set1\_6[1]	3	*	IndirObj	*	singular	false[96]	Decl[96]	*[231]	*[231]	*[231]	*[231]	*[231]	input1[231]	18[358]	female[358]	0ncaea7aqlpc7oe43khd21qn11[358]	speaker: YOU[485]	*->87-2	PerPron[87]	_	_	_	
+4-7	89-98	einfällt.	GFailure[1]	kuendigen\_set1\_6[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-kuendigen\_set1\_6[1]	_	_	_	_	_	false[96]	Decl[96]	*[231]	*[231]	*[231]	*[231]	*[231]	input1[231]	18[358]	female[358]	0ncaea7aqlpc7oe43khd21qn11[358]	speaker: YOU[485]	_	_	_	_	_	
+
+#Text=Was soll ich jetzt machen?
+5-1	100-103	Was	GFailure[1]	kuendigen\_set1\_6[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-kuendigen\_set1\_6[1]	_	_	_	_	_	false[97]	Int[97]	*[232]	*[232]	*[232]	*[232]	*[232]	input2[232]	18[359]	female[359]	0ncaea7aqlpc7oe43khd21qn11[359]	speaker: YOU[486]	_	_	_	_	_	
+5-2	104-108	soll	GFailure[1]	kuendigen\_set1\_6[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-kuendigen\_set1\_6[1]	_	_	_	_	_	false[97]	Int[97]	*[232]	*[232]	*[232]	*[232]	*[232]	input2[232]	18[359]	female[359]	0ncaea7aqlpc7oe43khd21qn11[359]	speaker: YOU[486]	_	_	_	_	_	
+5-3	109-112	ich	GFailure[1]	kuendigen\_set1\_6[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-kuendigen\_set1\_6[1]	1	*	Subj	*	singular	false[97]	Int[97]	*[232]	*[232]	*[232]	*[232]	*[232]	input2[232]	18[359]	female[359]	0ncaea7aqlpc7oe43khd21qn11[359]	speaker: YOU[486]	*->37-2	PerPron[37]	_	_	_	
+5-4	113-118	jetzt	GFailure[1]	kuendigen\_set1\_6[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-kuendigen\_set1\_6[1]	_	_	_	_	_	false[97]	Int[97]	*[232]	*[232]	*[232]	*[232]	*[232]	input2[232]	18[359]	female[359]	0ncaea7aqlpc7oe43khd21qn11[359]	speaker: YOU[486]	_	_	_	_	_	
+5-5	119-126	machen?	GFailure[1]	kuendigen\_set1\_6[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-kuendigen\_set1\_6[1]	_	_	_	_	_	false[97]	Int[97]	*[232]	*[232]	*[232]	*[232]	*[232]	input2[232]	18[359]	female[359]	0ncaea7aqlpc7oe43khd21qn11[359]	speaker: YOU[486]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+6-1	128-143	END_OF_DOCUMENT	GFailure[1]	kuendigen\_set1\_6[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-kuendigen\_set1\_6[1]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+7-1	145-150	Alles	GFailure[2]	kuendigen\_set1\_6[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kuendigen\_set1\_6[2]	_	_	_	_	_	false[98]	Int[98]	*[233]	*[233]	*[233]	yn\_4[233]	yesno\_question[233]	openq[233]	*[360]	female[360]	*[360]	speaker:Anna[487]	_	_	QAP	*	8-1[99_98]	
+7-2	151-155	gut?	GFailure[2]	kuendigen\_set1\_6[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kuendigen\_set1\_6[2]	_	_	_	_	_	false[98]	Int[98]	*[233]	*[233]	*[233]	yn\_4[233]	yesno\_question[233]	openq[233]	*[360]	female[360]	*[360]	speaker:Anna[487]	_	_	_	_	_	
+
+#Text=Livia hat das Spiegel-Abo gekündigt
+8-1	157-162	Livia	GFailure[2]	kuendigen\_set1\_6[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kuendigen\_set1\_6[2]	*	*	Subj	*	*	false[99]	Decl[99]	*[234]	kündigen[234]	transitive[234]	*[234]	*[234]	item0[234]	36[361]	male[361]	19gm0uv9ca6mcngf99lirno94a[361]	speaker: YOU[488]	*->17-1	PropNm[17]	explanation|parallel|CR	*|*|*	10-1[101_99]|11-1[102_99]|9-1[100_99]	
+8-2	163-166	hat	GFailure[2]	kuendigen\_set1\_6[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kuendigen\_set1\_6[2]	_	_	_	_	_	false[99]	Decl[99]	*[234]	kündigen[234]	transitive[234]	*[234]	*[234]	item0[234]	36[361]	male[361]	19gm0uv9ca6mcngf99lirno94a[361]	speaker: YOU[488]	_	_	_	_	_	
+8-3	167-170	das	GFailure[2]	kuendigen\_set1\_6[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kuendigen\_set1\_6[2]	3[32]|*[33]	*[32]|*[33]	*[32]|object[33]	n[32]|*[33]	singular[32]|*[33]	false[99]	Decl[99]	*[234]	kündigen[234]	transitive[234]	*[234]	*[234]	item0[234]	36[361]	male[361]	19gm0uv9ca6mcngf99lirno94a[361]	speaker: YOU[488]	*->103-1	DefNP[103]	_	_	_	
+8-4	171-182	Spiegel-Abo	GFailure[2]	kuendigen\_set1\_6[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kuendigen\_set1\_6[2]	3[32]|*[33]	*[32]|*[33]	*[32]|object[33]	n[32]|*[33]	singular[32]|*[33]	false[99]	Decl[99]	*[234]	kündigen[234]	transitive[234]	*[234]	*[234]	item0[234]	36[361]	male[361]	19gm0uv9ca6mcngf99lirno94a[361]	speaker: YOU[488]	*->103-1	DefNP[103]	_	_	_	
+8-5	183-192	gekündigt	GFailure[2]	kuendigen\_set1\_6[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kuendigen\_set1\_6[2]	_	_	_	_	_	false[99]	Decl[99]	*[234]	kündigen[234]	transitive[234]	*[234]	*[234]	item0[234]	36[361]	male[361]	19gm0uv9ca6mcngf99lirno94a[361]	speaker: YOU[488]	_	_	_	_	_	
+
+#Text=Wie bitte?
+9-1	194-197	Wie	GFailure[2]	kuendigen\_set1\_6[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kuendigen\_set1\_6[2]	_	_	_	_	_	false[100]	NA[100]	wie-bitte\_question\_2[235]	*[235]	*[235]	*[235]	*[235]	feedback[235]	*[362]	female[362]	*[362]	speaker:Anna[489]	_	_	_	_	_	
+9-2	198-204	bitte?	GFailure[2]	kuendigen\_set1\_6[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kuendigen\_set1\_6[2]	_	_	_	_	_	false[100]	NA[100]	wie-bitte\_question\_2[235]	*[235]	*[235]	*[235]	*[235]	feedback[235]	*[362]	female[362]	*[362]	speaker:Anna[489]	_	_	_	_	_	
+
+#Text=Sie ist gerade auf einem Spartrip.
+10-1	206-209	Sie	GFailure[2]	kuendigen\_set1\_6[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kuendigen\_set1\_6[2]	3	*	Subj	*	singular	false[101]	Decl[101]	*[236]	*[236]	*[236]	*[236]	*[236]	input1[236]	36[363]	male[363]	19gm0uv9ca6mcngf99lirno94a[363]	speaker: YOU[490]	*->17-2	PerPron[17]	_	_	_	
+10-2	210-213	ist	GFailure[2]	kuendigen\_set1\_6[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kuendigen\_set1\_6[2]	_	_	_	_	_	false[101]	Decl[101]	*[236]	*[236]	*[236]	*[236]	*[236]	input1[236]	36[363]	male[363]	19gm0uv9ca6mcngf99lirno94a[363]	speaker: YOU[490]	_	_	_	_	_	
+10-3	214-220	gerade	GFailure[2]	kuendigen\_set1\_6[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kuendigen\_set1\_6[2]	_	_	_	_	_	false[101]	Decl[101]	*[236]	*[236]	*[236]	*[236]	*[236]	input1[236]	36[363]	male[363]	19gm0uv9ca6mcngf99lirno94a[363]	speaker: YOU[490]	_	_	_	_	_	
+10-4	221-224	auf	GFailure[2]	kuendigen\_set1\_6[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kuendigen\_set1\_6[2]	_	_	_	_	_	false[101]	Decl[101]	*[236]	*[236]	*[236]	*[236]	*[236]	input1[236]	36[363]	male[363]	19gm0uv9ca6mcngf99lirno94a[363]	speaker: YOU[490]	_	_	_	_	_	
+10-5	225-230	einem	GFailure[2]	kuendigen\_set1\_6[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kuendigen\_set1\_6[2]	*[34]	*[34]	PrepObj[34]	*[34]	*[34]	false[101]	Decl[101]	*[236]	*[236]	*[236]	*[236]	*[236]	input1[236]	36[363]	male[363]	19gm0uv9ca6mcngf99lirno94a[363]	speaker: YOU[490]	*->2-1	IndefNP[2]	_	_	_	
+10-6	231-240	Spartrip.	GFailure[2]	kuendigen\_set1\_6[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kuendigen\_set1\_6[2]	*[34]	*[34]	PrepObj[34]	*[34]	*[34]	false[101]	Decl[101]	*[236]	*[236]	*[236]	*[236]	*[236]	input1[236]	36[363]	male[363]	19gm0uv9ca6mcngf99lirno94a[363]	speaker: YOU[490]	*->2-1	IndefNP[2]	_	_	_	
+
+#Text=Netflix hat sie auch gekündigt.
+11-1	242-249	Netflix	GFailure[2]	kuendigen\_set1\_6[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kuendigen\_set1\_6[2]	*	*	DirObj	*	*	false[102]	Decl[102]	*[237]	*[237]	*[237]	*[237]	*[237]	input2[237]	36[364]	male[364]	19gm0uv9ca6mcngf99lirno94a[364]	speaker: YOU[491]	*->90-1	PropNm[90]	_	_	_	
+11-2	250-253	hat	GFailure[2]	kuendigen\_set1\_6[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kuendigen\_set1\_6[2]	_	_	_	_	_	false[102]	Decl[102]	*[237]	*[237]	*[237]	*[237]	*[237]	input2[237]	36[364]	male[364]	19gm0uv9ca6mcngf99lirno94a[364]	speaker: YOU[491]	_	_	_	_	_	
+11-3	254-257	sie	GFailure[2]	kuendigen\_set1\_6[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kuendigen\_set1\_6[2]	3	*	Subj	*	singular	false[102]	Decl[102]	*[237]	*[237]	*[237]	*[237]	*[237]	input2[237]	36[364]	male[364]	19gm0uv9ca6mcngf99lirno94a[364]	speaker: YOU[491]	*->17-3	PerPron[17]	_	_	_	
+11-4	258-262	auch	GFailure[2]	kuendigen\_set1\_6[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kuendigen\_set1\_6[2]	_	_	_	_	_	false[102]	Decl[102]	*[237]	*[237]	*[237]	*[237]	*[237]	input2[237]	36[364]	male[364]	19gm0uv9ca6mcngf99lirno94a[364]	speaker: YOU[491]	_	_	_	_	_	
+11-5	263-273	gekündigt.	GFailure[2]	kuendigen\_set1\_6[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kuendigen\_set1\_6[2]	_	_	_	_	_	false[102]	Decl[102]	*[237]	*[237]	*[237]	*[237]	*[237]	input2[237]	36[364]	male[364]	19gm0uv9ca6mcngf99lirno94a[364]	speaker: YOU[491]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+12-1	275-290	END_OF_DOCUMENT	GFailure[2]	kuendigen\_set1\_6[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kuendigen\_set1\_6[2]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+13-1	292-297	Alles	GFailure[3]	kuendigen\_set1\_6[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-kuendigen\_set1\_6[3]	_	_	_	_	_	false[103]	Int[103]	*[238]	*[238]	*[238]	yn\_4[238]	yesno\_question[238]	openq[238]	*[365]	female[365]	*[365]	speaker:Anna[492]	_	_	QAP	*	14-1[104_103]	
+13-2	298-302	gut?	GFailure[3]	kuendigen\_set1\_6[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-kuendigen\_set1\_6[3]	_	_	_	_	_	false[103]	Int[103]	*[238]	*[238]	*[238]	yn\_4[238]	yesno\_question[238]	openq[238]	*[365]	female[365]	*[365]	speaker:Anna[492]	_	_	_	_	_	
+
+#Text=Livia hat das Spiegel-Abo gekündigt
+14-1	304-309	Livia	GFailure[3]	kuendigen\_set1\_6[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-kuendigen\_set1\_6[3]	*	*	Subj	*	*	false[104]	Decl[104]	*[239]	kündigen[239]	transitive[239]	*[239]	*[239]	item0[239]	18[366]	female[366]	4qae3ph27q5gbjcsrgnltv8qld[366]	speaker: YOU[493]	*->115-1	PropNm[115]	explanation|elaboration|CR	*|*|*	17-1[106_104]|16-1[0_104]|15-1[105_104]	
+14-2	310-313	hat	GFailure[3]	kuendigen\_set1\_6[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-kuendigen\_set1\_6[3]	_	_	_	_	_	false[104]	Decl[104]	*[239]	kündigen[239]	transitive[239]	*[239]	*[239]	item0[239]	18[366]	female[366]	4qae3ph27q5gbjcsrgnltv8qld[366]	speaker: YOU[493]	_	_	_	_	_	
+14-3	314-317	das	GFailure[3]	kuendigen\_set1\_6[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-kuendigen\_set1\_6[3]	*[35]	*[35]	object[35]	*[35]	*[35]	false[104]	Decl[104]	*[239]	kündigen[239]	transitive[239]	*[239]	*[239]	item0[239]	18[366]	female[366]	4qae3ph27q5gbjcsrgnltv8qld[366]	speaker: YOU[493]	*->84-1	DefNP[84]	_	_	_	
+14-4	318-329	Spiegel-Abo	GFailure[3]	kuendigen\_set1\_6[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-kuendigen\_set1\_6[3]	*[35]	*[35]	object[35]	*[35]	*[35]	false[104]	Decl[104]	*[239]	kündigen[239]	transitive[239]	*[239]	*[239]	item0[239]	18[366]	female[366]	4qae3ph27q5gbjcsrgnltv8qld[366]	speaker: YOU[493]	*->84-1	DefNP[84]	_	_	_	
+14-5	330-339	gekündigt	GFailure[3]	kuendigen\_set1\_6[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-kuendigen\_set1\_6[3]	_	_	_	_	_	false[104]	Decl[104]	*[239]	kündigen[239]	transitive[239]	*[239]	*[239]	item0[239]	18[366]	female[366]	4qae3ph27q5gbjcsrgnltv8qld[366]	speaker: YOU[493]	_	_	_	_	_	
+
+#Text=Wie bitte?
+15-1	341-344	Wie	GFailure[3]	kuendigen\_set1\_6[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-kuendigen\_set1\_6[3]	_	_	_	_	_	false[105]	NA[105]	wie-bitte\_question\_2[240]	*[240]	*[240]	*[240]	*[240]	feedback[240]	*[367]	female[367]	*[367]	speaker:Anna[494]	_	_	_	_	_	
+15-2	345-351	bitte?	GFailure[3]	kuendigen\_set1\_6[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-kuendigen\_set1\_6[3]	_	_	_	_	_	false[105]	NA[105]	wie-bitte\_question\_2[240]	*[240]	*[240]	*[240]	*[240]	feedback[240]	*[367]	female[367]	*[367]	speaker:Anna[494]	_	_	_	_	_	
+
+#Text=ja
+16-1	353-355	ja	GFailure[3]	kuendigen\_set1\_6[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-kuendigen\_set1\_6[3]	_	_	_	_	_	false	NA	*	*	*	*	*	input1	18	female	4qae3ph27q5gbjcsrgnltv8qld	speaker: YOU	_	_	_	_	_	
+
+#Text=es war ihr zu teuer
+17-1	357-359	es	GFailure[3]	kuendigen\_set1\_6[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-kuendigen\_set1\_6[3]	3	*	Subj	*	singular	false[106]	Decl[106]	*[241]	*[241]	*[241]	*[241]	*[241]	input2[241]	18[368]	female[368]	4qae3ph27q5gbjcsrgnltv8qld[368]	speaker: YOU[495]	*->84-2	PerPron[84]	_	_	_	
+17-2	360-363	war	GFailure[3]	kuendigen\_set1\_6[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-kuendigen\_set1\_6[3]	_	_	_	_	_	false[106]	Decl[106]	*[241]	*[241]	*[241]	*[241]	*[241]	input2[241]	18[368]	female[368]	4qae3ph27q5gbjcsrgnltv8qld[368]	speaker: YOU[495]	_	_	_	_	_	
+17-3	364-367	ihr	GFailure[3]	kuendigen\_set1\_6[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-kuendigen\_set1\_6[3]	3	*	IndirObj	*	singular	false[106]	Decl[106]	*[241]	*[241]	*[241]	*[241]	*[241]	input2[241]	18[368]	female[368]	4qae3ph27q5gbjcsrgnltv8qld[368]	speaker: YOU[495]	*->115-2	PerPron[115]	_	_	_	
+17-4	368-370	zu	GFailure[3]	kuendigen\_set1\_6[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-kuendigen\_set1\_6[3]	_	_	_	_	_	false[106]	Decl[106]	*[241]	*[241]	*[241]	*[241]	*[241]	input2[241]	18[368]	female[368]	4qae3ph27q5gbjcsrgnltv8qld[368]	speaker: YOU[495]	_	_	_	_	_	
+17-5	371-376	teuer	GFailure[3]	kuendigen\_set1\_6[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-kuendigen\_set1\_6[3]	_	_	_	_	_	false[106]	Decl[106]	*[241]	*[241]	*[241]	*[241]	*[241]	input2[241]	18[368]	female[368]	4qae3ph27q5gbjcsrgnltv8qld[368]	speaker: YOU[495]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+18-1	378-393	END_OF_DOCUMENT	GFailure[3]	kuendigen\_set1\_6[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-kuendigen\_set1\_6[3]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+19-1	395-400	Alles	GFailure[4]	kuendigen\_set1\_6[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-kuendigen\_set1\_6[4]	_	_	_	_	_	false[107]	Int[107]	*[242]	*[242]	*[242]	yn\_4[242]	yesno\_question[242]	openq[242]	*[369]	female[369]	*[369]	speaker:Anna[496]	_	_	QAP	*	20-1[108_107]	
+19-2	401-405	gut?	GFailure[4]	kuendigen\_set1\_6[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-kuendigen\_set1\_6[4]	_	_	_	_	_	false[107]	Int[107]	*[242]	*[242]	*[242]	yn\_4[242]	yesno\_question[242]	openq[242]	*[369]	female[369]	*[369]	speaker:Anna[496]	_	_	_	_	_	
+
+#Text=Livia hat das Spiegel-Abo gekündigt
+20-1	407-412	Livia	GFailure[4]	kuendigen\_set1\_6[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-kuendigen\_set1\_6[4]	*	*	Subj	*	*	false[108]	Decl[108]	*[243]	kündigen[243]	transitive[243]	*[243]	*[243]	item0[243]	19[370]	male[370]	f28ipql67ma8cbjqke6k374ach[370]	speaker: YOU[497]	*->61-1	PropNm[61]	elaboration|CR	*|*	22-1[0_108]|21-1[109_108]	
+20-2	413-416	hat	GFailure[4]	kuendigen\_set1\_6[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-kuendigen\_set1\_6[4]	_	_	_	_	_	false[108]	Decl[108]	*[243]	kündigen[243]	transitive[243]	*[243]	*[243]	item0[243]	19[370]	male[370]	f28ipql67ma8cbjqke6k374ach[370]	speaker: YOU[497]	_	_	_	_	_	
+20-3	417-420	das	GFailure[4]	kuendigen\_set1\_6[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-kuendigen\_set1\_6[4]	*[36]	*[36]	object[36]	*[36]	*[36]	false[108]	Decl[108]	*[243]	kündigen[243]	transitive[243]	*[243]	*[243]	item0[243]	19[370]	male[370]	f28ipql67ma8cbjqke6k374ach[370]	speaker: YOU[497]	*->71-1	DefNP[71]	_	_	_	
+20-4	421-432	Spiegel-Abo	GFailure[4]	kuendigen\_set1\_6[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-kuendigen\_set1\_6[4]	*[36]	*[36]	object[36]	*[36]	*[36]	false[108]	Decl[108]	*[243]	kündigen[243]	transitive[243]	*[243]	*[243]	item0[243]	19[370]	male[370]	f28ipql67ma8cbjqke6k374ach[370]	speaker: YOU[497]	*->71-1	DefNP[71]	_	_	_	
+20-5	433-442	gekündigt	GFailure[4]	kuendigen\_set1\_6[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-kuendigen\_set1\_6[4]	_	_	_	_	_	false[108]	Decl[108]	*[243]	kündigen[243]	transitive[243]	*[243]	*[243]	item0[243]	19[370]	male[370]	f28ipql67ma8cbjqke6k374ach[370]	speaker: YOU[497]	_	_	_	_	_	
+
+#Text=Wie bitte?
+21-1	444-447	Wie	GFailure[4]	kuendigen\_set1\_6[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-kuendigen\_set1\_6[4]	_	_	_	_	_	false[109]	NA[109]	wie-bitte\_question\_2[244]	*[244]	*[244]	*[244]	*[244]	feedback[244]	*[371]	female[371]	*[371]	speaker:Anna[498]	_	_	explanation	*	23-1[111_109]	
+21-2	448-454	bitte?	GFailure[4]	kuendigen\_set1\_6[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-kuendigen\_set1\_6[4]	_	_	_	_	_	false[109]	NA[109]	wie-bitte\_question\_2[244]	*[244]	*[244]	*[244]	*[244]	feedback[244]	*[371]	female[371]	*[371]	speaker:Anna[498]	_	_	_	_	_	
+
+#Text=Ja <BR> endlich ist sie zu Sinnen gekommen.
+22-1	456-458	Ja	GFailure[4]	kuendigen\_set1\_6[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-kuendigen\_set1\_6[4]	_	_	_	_	_	false	NA	*[245]	*[245]	*[245]	*[245]	*[245]	input1[245]	19[372]	male[372]	f28ipql67ma8cbjqke6k374ach[372]	speaker: YOU[499]	_	_	elaboration	*	22-3[110_0]	
+22-2	459-463	<BR>	GFailure[4]	kuendigen\_set1\_6[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-kuendigen\_set1\_6[4]	_	_	_	_	_	_	_	*[245]	*[245]	*[245]	*[245]	*[245]	input1[245]	19[372]	male[372]	f28ipql67ma8cbjqke6k374ach[372]	speaker: YOU[499]	_	_	_	_	_	
+22-3	464-471	endlich	GFailure[4]	kuendigen\_set1\_6[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-kuendigen\_set1\_6[4]	_	_	_	_	_	false[110]	Decl[110]	*[245]	*[245]	*[245]	*[245]	*[245]	input1[245]	19[372]	male[372]	f28ipql67ma8cbjqke6k374ach[372]	speaker: YOU[499]	_	_	_	_	_	
+22-4	472-475	ist	GFailure[4]	kuendigen\_set1\_6[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-kuendigen\_set1\_6[4]	_	_	_	_	_	false[110]	Decl[110]	*[245]	*[245]	*[245]	*[245]	*[245]	input1[245]	19[372]	male[372]	f28ipql67ma8cbjqke6k374ach[372]	speaker: YOU[499]	_	_	_	_	_	
+22-5	476-479	sie	GFailure[4]	kuendigen\_set1\_6[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-kuendigen\_set1\_6[4]	3	*	Subj	*	singular	false[110]	Decl[110]	*[245]	*[245]	*[245]	*[245]	*[245]	input1[245]	19[372]	male[372]	f28ipql67ma8cbjqke6k374ach[372]	speaker: YOU[499]	*->61-2	PerPron[61]	_	_	_	
+22-6	480-482	zu	GFailure[4]	kuendigen\_set1\_6[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-kuendigen\_set1\_6[4]	_	_	_	_	_	false[110]	Decl[110]	*[245]	*[245]	*[245]	*[245]	*[245]	input1[245]	19[372]	male[372]	f28ipql67ma8cbjqke6k374ach[372]	speaker: YOU[499]	_	_	_	_	_	
+22-7	483-489	Sinnen	GFailure[4]	kuendigen\_set1\_6[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-kuendigen\_set1\_6[4]	*	*	PrepObj	*	*	false[110]	Decl[110]	*[245]	*[245]	*[245]	*[245]	*[245]	input1[245]	19[372]	male[372]	f28ipql67ma8cbjqke6k374ach[372]	speaker: YOU[499]	_	_	_	_	_	
+22-8	490-499	gekommen.	GFailure[4]	kuendigen\_set1\_6[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-kuendigen\_set1\_6[4]	_	_	_	_	_	false[110]	Decl[110]	*[245]	*[245]	*[245]	*[245]	*[245]	input1[245]	19[372]	male[372]	f28ipql67ma8cbjqke6k374ach[372]	speaker: YOU[499]	_	_	_	_	_	
+
+#Text=Findest du den Spiegel etwar gut??
+23-1	501-508	Findest	GFailure[4]	kuendigen\_set1\_6[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-kuendigen\_set1\_6[4]	_	_	_	_	_	false[111]	Int[111]	*[246]	*[246]	*[246]	*[246]	*[246]	input2[246]	19[373]	male[373]	f28ipql67ma8cbjqke6k374ach[373]	speaker: YOU[500]	_	_	_	_	_	
+23-2	509-511	du	GFailure[4]	kuendigen\_set1\_6[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-kuendigen\_set1\_6[4]	2	*	Subj	*	singular	false[111]	Int[111]	*[246]	*[246]	*[246]	*[246]	*[246]	input2[246]	19[373]	male[373]	f28ipql67ma8cbjqke6k374ach[373]	speaker: YOU[500]	*->100-1	PerPron[100]	_	_	_	
+23-3	512-515	den	GFailure[4]	kuendigen\_set1\_6[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-kuendigen\_set1\_6[4]	*[37]	*[37]	DirObj[37]	*[37]	*[37]	false[111]	Int[111]	*[246]	*[246]	*[246]	*[246]	*[246]	input2[246]	19[373]	male[373]	f28ipql67ma8cbjqke6k374ach[373]	speaker: YOU[500]	*->65-1	DefNP[65]	_	_	_	
+23-4	516-523	Spiegel	GFailure[4]	kuendigen\_set1\_6[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-kuendigen\_set1\_6[4]	*[37]	*[37]	DirObj[37]	*[37]	*[37]	false[111]	Int[111]	*[246]	*[246]	*[246]	*[246]	*[246]	input2[246]	19[373]	male[373]	f28ipql67ma8cbjqke6k374ach[373]	speaker: YOU[500]	*->65-1	DefNP[65]	_	_	_	
+23-5	524-529	etwar	GFailure[4]	kuendigen\_set1\_6[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-kuendigen\_set1\_6[4]	_	_	_	_	_	false[111]	Int[111]	*[246]	*[246]	*[246]	*[246]	*[246]	input2[246]	19[373]	male[373]	f28ipql67ma8cbjqke6k374ach[373]	speaker: YOU[500]	_	_	_	_	_	
+23-6	530-535	gut??	GFailure[4]	kuendigen\_set1\_6[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-kuendigen\_set1\_6[4]	_	_	_	_	_	false[111]	Int[111]	*[246]	*[246]	*[246]	*[246]	*[246]	input2[246]	19[373]	male[373]	f28ipql67ma8cbjqke6k374ach[373]	speaker: YOU[500]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+24-1	537-552	END_OF_DOCUMENT	GFailure[4]	kuendigen\_set1\_6[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-kuendigen\_set1\_6[4]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+25-1	554-559	Alles	GFailure[5]	kuendigen\_set1\_6[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-kuendigen\_set1\_6[5]	_	_	_	_	_	false[112]	Int[112]	*[247]	*[247]	*[247]	yn\_4[247]	yesno\_question[247]	openq[247]	*[374]	female[374]	*[374]	speaker:Anna[501]	_	_	QAP	*	26-1[113_112]	
+25-2	560-564	gut?	GFailure[5]	kuendigen\_set1\_6[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-kuendigen\_set1\_6[5]	_	_	_	_	_	false[112]	Int[112]	*[247]	*[247]	*[247]	yn\_4[247]	yesno\_question[247]	openq[247]	*[374]	female[374]	*[374]	speaker:Anna[501]	_	_	_	_	_	
+
+#Text=Livia hat das Spiegel-Abo gekündigt
+26-1	566-571	Livia	GFailure[5]	kuendigen\_set1\_6[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-kuendigen\_set1\_6[5]	*	*	Subj	*	*	false[113]	Decl[113]	*[248]	kündigen[248]	transitive[248]	*[248]	*[248]	item0[248]	36[375]	male[375]	ifdbjqro2nfkup12rv8t6k0eu9[375]	speaker: YOU[502]	*->97-1	PropNm[97]	explanation|explanation|CR	*|*|*	28-1[115_113]|29-1[116_113]|27-1[114_113]	
+26-2	572-575	hat	GFailure[5]	kuendigen\_set1\_6[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-kuendigen\_set1\_6[5]	_	_	_	_	_	false[113]	Decl[113]	*[248]	kündigen[248]	transitive[248]	*[248]	*[248]	item0[248]	36[375]	male[375]	ifdbjqro2nfkup12rv8t6k0eu9[375]	speaker: YOU[502]	_	_	_	_	_	
+26-3	576-579	das	GFailure[5]	kuendigen\_set1\_6[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-kuendigen\_set1\_6[5]	*[38]	*[38]	object[38]	*[38]	*[38]	false[113]	Decl[113]	*[248]	kündigen[248]	transitive[248]	*[248]	*[248]	item0[248]	36[375]	male[375]	ifdbjqro2nfkup12rv8t6k0eu9[375]	speaker: YOU[502]	*->81-1	DefNP[81]	_	_	_	
+26-4	580-591	Spiegel-Abo	GFailure[5]	kuendigen\_set1\_6[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-kuendigen\_set1\_6[5]	*[38]	*[38]	object[38]	*[38]	*[38]	false[113]	Decl[113]	*[248]	kündigen[248]	transitive[248]	*[248]	*[248]	item0[248]	36[375]	male[375]	ifdbjqro2nfkup12rv8t6k0eu9[375]	speaker: YOU[502]	*->81-1	DefNP[81]	_	_	_	
+26-5	592-601	gekündigt	GFailure[5]	kuendigen\_set1\_6[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-kuendigen\_set1\_6[5]	_	_	_	_	_	false[113]	Decl[113]	*[248]	kündigen[248]	transitive[248]	*[248]	*[248]	item0[248]	36[375]	male[375]	ifdbjqro2nfkup12rv8t6k0eu9[375]	speaker: YOU[502]	_	_	_	_	_	
+
+#Text=Wie bitte?
+27-1	603-606	Wie	GFailure[5]	kuendigen\_set1\_6[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-kuendigen\_set1\_6[5]	_	_	_	_	_	false[114]	NA[114]	wie-bitte\_question\_2[249]	*[249]	*[249]	*[249]	*[249]	feedback[249]	*[376]	female[376]	*[376]	speaker:Anna[503]	_	_	_	_	_	
+27-2	607-613	bitte?	GFailure[5]	kuendigen\_set1\_6[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-kuendigen\_set1\_6[5]	_	_	_	_	_	false[114]	NA[114]	wie-bitte\_question\_2[249]	*[249]	*[249]	*[249]	*[249]	feedback[249]	*[376]	female[376]	*[376]	speaker:Anna[503]	_	_	_	_	_	
+
+#Text=Möchte sie nicht mehr
+28-1	615-621	Möchte	GFailure[5]	kuendigen\_set1\_6[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-kuendigen\_set1\_6[5]	3	*	*	*	singular	false[115]	Decl[115]	*[250]	*[250]	*[250]	*[250]	*[250]	input1[250]	36[377]	male[377]	ifdbjqro2nfkup12rv8t6k0eu9[377]	speaker: YOU[504]	*->81-2	zero[81]	_	_	_	
+28-2	622-625	sie	GFailure[5]	kuendigen\_set1\_6[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-kuendigen\_set1\_6[5]	3	*	Subj	*	singular	false[115]	Decl[115]	*[250]	*[250]	*[250]	*[250]	*[250]	input1[250]	36[377]	male[377]	ifdbjqro2nfkup12rv8t6k0eu9[377]	speaker: YOU[504]	*->97-2	PerPron[97]	_	_	_	
+28-3	626-631	nicht	GFailure[5]	kuendigen\_set1\_6[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-kuendigen\_set1\_6[5]	_	_	_	_	_	false[115]	Decl[115]	*[250]	*[250]	*[250]	*[250]	*[250]	input1[250]	36[377]	male[377]	ifdbjqro2nfkup12rv8t6k0eu9[377]	speaker: YOU[504]	_	_	_	_	_	
+28-4	632-636	mehr	GFailure[5]	kuendigen\_set1\_6[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-kuendigen\_set1\_6[5]	_	_	_	_	_	false[115]	Decl[115]	*[250]	*[250]	*[250]	*[250]	*[250]	input1[250]	36[377]	male[377]	ifdbjqro2nfkup12rv8t6k0eu9[377]	speaker: YOU[504]	_	_	_	_	_	
+
+#Text=Liest sie eh nicht
+29-1	638-643	Liest	GFailure[5]	kuendigen\_set1\_6[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-kuendigen\_set1\_6[5]	3	*	*	*	singular	false[116]	Decl[116]	*[251]	*[251]	*[251]	*[251]	*[251]	input2[251]	36[378]	male[378]	ifdbjqro2nfkup12rv8t6k0eu9[378]	speaker: YOU[505]	*->81-3	zero[81]	_	_	_	
+29-2	644-647	sie	GFailure[5]	kuendigen\_set1\_6[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-kuendigen\_set1\_6[5]	3	*	Subj	*	singular	false[116]	Decl[116]	*[251]	*[251]	*[251]	*[251]	*[251]	input2[251]	36[378]	male[378]	ifdbjqro2nfkup12rv8t6k0eu9[378]	speaker: YOU[505]	*->97-3	PerPron[97]	_	_	_	
+29-3	648-650	eh	GFailure[5]	kuendigen\_set1\_6[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-kuendigen\_set1\_6[5]	_	_	_	_	_	false[116]	Decl[116]	*[251]	*[251]	*[251]	*[251]	*[251]	input2[251]	36[378]	male[378]	ifdbjqro2nfkup12rv8t6k0eu9[378]	speaker: YOU[505]	_	_	_	_	_	
+29-4	651-656	nicht	GFailure[5]	kuendigen\_set1\_6[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-kuendigen\_set1\_6[5]	_	_	_	_	_	false[116]	Decl[116]	*[251]	*[251]	*[251]	*[251]	*[251]	input2[251]	36[378]	male[378]	ifdbjqro2nfkup12rv8t6k0eu9[378]	speaker: YOU[505]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+30-1	658-673	END_OF_DOCUMENT	GFailure[5]	kuendigen\_set1\_6[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-kuendigen\_set1\_6[5]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+31-1	675-680	Alles	GFailure[6]	kuendigen\_set1\_6[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-kuendigen\_set1\_6[6]	_	_	_	_	_	false[117]	Int[117]	*[252]	*[252]	*[252]	yn\_4[252]	yesno\_question[252]	openq[252]	*[379]	female[379]	*[379]	speaker:Anna[506]	_	_	QAP	*	32-1[118_117]	
+31-2	681-685	gut?	GFailure[6]	kuendigen\_set1\_6[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-kuendigen\_set1\_6[6]	_	_	_	_	_	false[117]	Int[117]	*[252]	*[252]	*[252]	yn\_4[252]	yesno\_question[252]	openq[252]	*[379]	female[379]	*[379]	speaker:Anna[506]	_	_	_	_	_	
+
+#Text=Livia hat das Spiegel-Abo gekündigt
+32-1	687-692	Livia	GFailure[6]	kuendigen\_set1\_6[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-kuendigen\_set1\_6[6]	*	*	Subj	*	*	false[118]	Decl[118]	*[253]	kündigen[253]	transitive[253]	*[253]	*[253]	item0[253]	27[380]	female[380]	nn1fs9jkn62eo9089lo89usbkb[380]	speaker: YOU[507]	*->109-1	PropNm[109]	elaboration|CR	*|*	34-1[0_118]|33-1[119_118]	
+32-2	693-696	hat	GFailure[6]	kuendigen\_set1\_6[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-kuendigen\_set1\_6[6]	_	_	_	_	_	false[118]	Decl[118]	*[253]	kündigen[253]	transitive[253]	*[253]	*[253]	item0[253]	27[380]	female[380]	nn1fs9jkn62eo9089lo89usbkb[380]	speaker: YOU[507]	_	_	_	_	_	
+32-3	697-700	das	GFailure[6]	kuendigen\_set1\_6[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-kuendigen\_set1\_6[6]	*[39]	*[39]	object[39]	*[39]	*[39]	false[118]	Decl[118]	*[253]	kündigen[253]	transitive[253]	*[253]	*[253]	item0[253]	27[380]	female[380]	nn1fs9jkn62eo9089lo89usbkb[380]	speaker: YOU[507]	*->57-1	DefNP[57]	_	_	_	
+32-4	701-712	Spiegel-Abo	GFailure[6]	kuendigen\_set1\_6[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-kuendigen\_set1\_6[6]	*[39]	*[39]	object[39]	*[39]	*[39]	false[118]	Decl[118]	*[253]	kündigen[253]	transitive[253]	*[253]	*[253]	item0[253]	27[380]	female[380]	nn1fs9jkn62eo9089lo89usbkb[380]	speaker: YOU[507]	*->57-1	DefNP[57]	_	_	_	
+32-5	713-722	gekündigt	GFailure[6]	kuendigen\_set1\_6[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-kuendigen\_set1\_6[6]	_	_	_	_	_	false[118]	Decl[118]	*[253]	kündigen[253]	transitive[253]	*[253]	*[253]	item0[253]	27[380]	female[380]	nn1fs9jkn62eo9089lo89usbkb[380]	speaker: YOU[507]	_	_	_	_	_	
+
+#Text=Wie bitte?
+33-1	724-727	Wie	GFailure[6]	kuendigen\_set1\_6[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-kuendigen\_set1\_6[6]	_	_	_	_	_	false[119]	NA[119]	wie-bitte\_question\_2[254]	*[254]	*[254]	*[254]	*[254]	feedback[254]	*[381]	female[381]	*[381]	speaker:Anna[508]	_	_	_	_	_	
+33-2	728-734	bitte?	GFailure[6]	kuendigen\_set1\_6[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-kuendigen\_set1\_6[6]	_	_	_	_	_	false[119]	NA[119]	wie-bitte\_question\_2[254]	*[254]	*[254]	*[254]	*[254]	feedback[254]	*[381]	female[381]	*[381]	speaker:Anna[508]	_	_	_	_	_	
+
+#Text=Ja <BR> sie hat es einfach gekündigt
+34-1	736-738	Ja	GFailure[6]	kuendigen\_set1\_6[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-kuendigen\_set1\_6[6]	_	_	_	_	_	false	NA	*[255]	*[255]	*[255]	*[255]	*[255]	input1[255]	27[382]	female[382]	nn1fs9jkn62eo9089lo89usbkb[382]	speaker: YOU[509]	_	_	elaboration	*	34-3[120_0]	
+34-2	739-743	<BR>	GFailure[6]	kuendigen\_set1\_6[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-kuendigen\_set1\_6[6]	_	_	_	_	_	_	_	*[255]	*[255]	*[255]	*[255]	*[255]	input1[255]	27[382]	female[382]	nn1fs9jkn62eo9089lo89usbkb[382]	speaker: YOU[509]	_	_	_	_	_	
+34-3	744-747	sie	GFailure[6]	kuendigen\_set1\_6[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-kuendigen\_set1\_6[6]	3	*	Subj	*	singular	false[120]	Decl[120]	*[255]	*[255]	*[255]	*[255]	*[255]	input1[255]	27[382]	female[382]	nn1fs9jkn62eo9089lo89usbkb[382]	speaker: YOU[509]	*->109-2	PerPron[109]	result	*	35-1[121_120]	
+34-4	748-751	hat	GFailure[6]	kuendigen\_set1\_6[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-kuendigen\_set1\_6[6]	_	_	_	_	_	false[120]	Decl[120]	*[255]	*[255]	*[255]	*[255]	*[255]	input1[255]	27[382]	female[382]	nn1fs9jkn62eo9089lo89usbkb[382]	speaker: YOU[509]	_	_	_	_	_	
+34-5	752-754	es	GFailure[6]	kuendigen\_set1\_6[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-kuendigen\_set1\_6[6]	3	*	DirObj	*	singular	false[120]	Decl[120]	*[255]	*[255]	*[255]	*[255]	*[255]	input1[255]	27[382]	female[382]	nn1fs9jkn62eo9089lo89usbkb[382]	speaker: YOU[509]	*->57-2	PerPron[57]	_	_	_	
+34-6	755-762	einfach	GFailure[6]	kuendigen\_set1\_6[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-kuendigen\_set1\_6[6]	_	_	_	_	_	false[120]	Decl[120]	*[255]	*[255]	*[255]	*[255]	*[255]	input1[255]	27[382]	female[382]	nn1fs9jkn62eo9089lo89usbkb[382]	speaker: YOU[509]	_	_	_	_	_	
+34-7	763-772	gekündigt	GFailure[6]	kuendigen\_set1\_6[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-kuendigen\_set1\_6[6]	_	_	_	_	_	false[120]	Decl[120]	*[255]	*[255]	*[255]	*[255]	*[255]	input1[255]	27[382]	female[382]	nn1fs9jkn62eo9089lo89usbkb[382]	speaker: YOU[509]	_	_	_	_	_	
+
+#Text=Brauche jetzt ein neues
+35-1	774-781	Brauche	GFailure[6]	kuendigen\_set1\_6[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-kuendigen\_set1\_6[6]	1	*	*	*	singular	false[121]	Decl[121]	*[256]	*[256]	*[256]	*[256]	*[256]	input2[256]	27[383]	female[383]	nn1fs9jkn62eo9089lo89usbkb[383]	speaker: YOU[510]	*->12-1	zero[12]	_	_	_	
+35-2	782-787	jetzt	GFailure[6]	kuendigen\_set1\_6[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-kuendigen\_set1\_6[6]	_	_	_	_	_	false[121]	Decl[121]	*[256]	*[256]	*[256]	*[256]	*[256]	input2[256]	27[383]	female[383]	nn1fs9jkn62eo9089lo89usbkb[383]	speaker: YOU[510]	_	_	_	_	_	
+35-3	788-791	ein	GFailure[6]	kuendigen\_set1\_6[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-kuendigen\_set1\_6[6]	*[40]	*[40]	DirObj[40]	*[40]	*[40]	false[121]	Decl[121]	*[256]	*[256]	*[256]	*[256]	*[256]	input2[256]	27[383]	female[383]	nn1fs9jkn62eo9089lo89usbkb[383]	speaker: YOU[510]	*->77-1	IndefNP[77]	_	_	_	
+35-4	792-797	neues	GFailure[6]	kuendigen\_set1\_6[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-kuendigen\_set1\_6[6]	*[40]	*[40]	DirObj[40]	*[40]	*[40]	false[121]	Decl[121]	*[256]	*[256]	*[256]	*[256]	*[256]	input2[256]	27[383]	female[383]	nn1fs9jkn62eo9089lo89usbkb[383]	speaker: YOU[510]	*->77-1	IndefNP[77]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+36-1	799-814	END_OF_DOCUMENT	GFailure[6]	kuendigen\_set1\_6[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-kuendigen\_set1\_6[6]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+37-1	816-821	Alles	GFailure[7]	kuendigen\_set1\_6[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kuendigen\_set1\_6[7]	_	_	_	_	_	false[122]	Int[122]	*[257]	*[257]	*[257]	yn\_4[257]	yesno\_question[257]	openq[257]	*[384]	female[384]	*[384]	speaker:Anna[511]	_	_	QAP	*	38-1[123_122]	
+37-2	822-826	gut?	GFailure[7]	kuendigen\_set1\_6[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kuendigen\_set1\_6[7]	_	_	_	_	_	false[122]	Int[122]	*[257]	*[257]	*[257]	yn\_4[257]	yesno\_question[257]	openq[257]	*[384]	female[384]	*[384]	speaker:Anna[511]	_	_	_	_	_	
+
+#Text=Livia hat das Spiegel-Abo gekündigt
+38-1	828-833	Livia	GFailure[7]	kuendigen\_set1\_6[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kuendigen\_set1\_6[7]	*	*	Subj	*	*	false[123]	Decl[123]	*[258]	kündigen[258]	transitive[258]	*[258]	*[258]	item0[258]	24[385]	male[385]	qaaqp55l485lvs9rdvpvbtmqal[385]	speaker: YOU[512]	*->47-1	PropNm[47]	elaboration|CR	*|*	40-1[125_123]|39-1[124_123]	
+38-2	834-837	hat	GFailure[7]	kuendigen\_set1\_6[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kuendigen\_set1\_6[7]	_	_	_	_	_	false[123]	Decl[123]	*[258]	kündigen[258]	transitive[258]	*[258]	*[258]	item0[258]	24[385]	male[385]	qaaqp55l485lvs9rdvpvbtmqal[385]	speaker: YOU[512]	_	_	_	_	_	
+38-3	838-841	das	GFailure[7]	kuendigen\_set1\_6[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kuendigen\_set1\_6[7]	*[41]	*[41]	object[41]	*[41]	*[41]	false[123]	Decl[123]	*[258]	kündigen[258]	transitive[258]	*[258]	*[258]	item0[258]	24[385]	male[385]	qaaqp55l485lvs9rdvpvbtmqal[385]	speaker: YOU[512]	*->91-1	DefNP[91]	_	_	_	
+38-4	842-853	Spiegel-Abo	GFailure[7]	kuendigen\_set1\_6[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kuendigen\_set1\_6[7]	*[41]	*[41]	object[41]	*[41]	*[41]	false[123]	Decl[123]	*[258]	kündigen[258]	transitive[258]	*[258]	*[258]	item0[258]	24[385]	male[385]	qaaqp55l485lvs9rdvpvbtmqal[385]	speaker: YOU[512]	*->91-1	DefNP[91]	_	_	_	
+38-5	854-863	gekündigt	GFailure[7]	kuendigen\_set1\_6[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kuendigen\_set1\_6[7]	_	_	_	_	_	false[123]	Decl[123]	*[258]	kündigen[258]	transitive[258]	*[258]	*[258]	item0[258]	24[385]	male[385]	qaaqp55l485lvs9rdvpvbtmqal[385]	speaker: YOU[512]	_	_	_	_	_	
+
+#Text=Wie bitte?
+39-1	865-868	Wie	GFailure[7]	kuendigen\_set1\_6[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kuendigen\_set1\_6[7]	_	_	_	_	_	false[124]	NA[124]	wie-bitte\_question\_2[259]	*[259]	*[259]	*[259]	*[259]	feedback[259]	*[386]	female[386]	*[386]	speaker:Anna[513]	_	_	_	_	_	
+39-2	869-875	bitte?	GFailure[7]	kuendigen\_set1\_6[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kuendigen\_set1\_6[7]	_	_	_	_	_	false[124]	NA[124]	wie-bitte\_question\_2[259]	*[259]	*[259]	*[259]	*[259]	feedback[259]	*[386]	female[386]	*[386]	speaker:Anna[513]	_	_	_	_	_	
+
+#Text=Meine Cousine Livia hat ihr Spiegel-Abo gekündigt.
+40-1	877-882	Meine	GFailure[7]	kuendigen\_set1\_6[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kuendigen\_set1\_6[7]	*[42]|3[43]|*[44]	*[42]|*[43]|*[44]	Subj[42]|*[43]|Embedded[44]	*[42]|*[43]|*[44]	*[42]|singular[43]|*[44]	false[125]	Decl[125]	*[260]	*[260]	*[260]	*[260]	*[260]	input1[260]	24[387]	male[387]	qaaqp55l485lvs9rdvpvbtmqal[387]	speaker: YOU[514]	*->92-1|*->47-2|*->30-1	clause[92]|PropNm[47]|PossePron[30]	contrast	*	41-1[126_125]	
+40-2	883-890	Cousine	GFailure[7]	kuendigen\_set1\_6[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kuendigen\_set1\_6[7]	*[42]	*[42]	Subj[42]	*[42]	*[42]	false[125]	Decl[125]	*[260]	*[260]	*[260]	*[260]	*[260]	input1[260]	24[387]	male[387]	qaaqp55l485lvs9rdvpvbtmqal[387]	speaker: YOU[514]	*->92-1|*->47-2	clause[92]|PropNm[47]	_	_	_	
+40-3	891-896	Livia	GFailure[7]	kuendigen\_set1\_6[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kuendigen\_set1\_6[7]	*[42]	*[42]	Subj[42]	*[42]	*[42]	false[125]	Decl[125]	*[260]	*[260]	*[260]	*[260]	*[260]	input1[260]	24[387]	male[387]	qaaqp55l485lvs9rdvpvbtmqal[387]	speaker: YOU[514]	*->92-1|*->47-2	clause[92]|PropNm[47]	_	_	_	
+40-4	897-900	hat	GFailure[7]	kuendigen\_set1\_6[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kuendigen\_set1\_6[7]	_	_	_	_	_	false[125]	Decl[125]	*[260]	*[260]	*[260]	*[260]	*[260]	input1[260]	24[387]	male[387]	qaaqp55l485lvs9rdvpvbtmqal[387]	speaker: YOU[514]	*->92-1	clause[92]	_	_	_	
+40-5	901-904	ihr	GFailure[7]	kuendigen\_set1\_6[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kuendigen\_set1\_6[7]	*[45]|3[46]	*[45]|*[46]	DirObj[45]|*[46]	*[45]|*[46]	*[45]|singular[46]	false[125]	Decl[125]	*[260]	*[260]	*[260]	*[260]	*[260]	input1[260]	24[387]	male[387]	qaaqp55l485lvs9rdvpvbtmqal[387]	speaker: YOU[514]	*->92-1|*->91-2|*->47-3	clause[92]|DefNP[91]|PossePron[47]	_	_	_	
+40-6	905-916	Spiegel-Abo	GFailure[7]	kuendigen\_set1\_6[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kuendigen\_set1\_6[7]	*[45]	*[45]	DirObj[45]	*[45]	*[45]	false[125]	Decl[125]	*[260]	*[260]	*[260]	*[260]	*[260]	input1[260]	24[387]	male[387]	qaaqp55l485lvs9rdvpvbtmqal[387]	speaker: YOU[514]	*->92-1|*->91-2	clause[92]|DefNP[91]	_	_	_	
+40-7	917-927	gekündigt.	GFailure[7]	kuendigen\_set1\_6[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kuendigen\_set1\_6[7]	_	_	_	_	_	false[125]	Decl[125]	*[260]	*[260]	*[260]	*[260]	*[260]	input1[260]	24[387]	male[387]	qaaqp55l485lvs9rdvpvbtmqal[387]	speaker: YOU[514]	*->92-1	clause[92]	_	_	_	
+
+#Text=Und mir nichts davon gesagt
+41-1	929-932	Und	GFailure[7]	kuendigen\_set1\_6[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kuendigen\_set1\_6[7]	_	_	_	_	_	false[126]	Decl[126]	*[261]	*[261]	*[261]	*[261]	*[261]	input2[261]	24[388]	male[388]	qaaqp55l485lvs9rdvpvbtmqal[388]	speaker: YOU[515]	_	_	_	_	_	
+41-2	933-936	mir	GFailure[7]	kuendigen\_set1\_6[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kuendigen\_set1\_6[7]	1	*	IndirObj	*	singular	false[126]	Decl[126]	*[261]	*[261]	*[261]	*[261]	*[261]	input2[261]	24[388]	male[388]	qaaqp55l485lvs9rdvpvbtmqal[388]	speaker: YOU[515]	*->30-2	PerPron[30]	_	_	_	
+41-3	937-943	nichts	GFailure[7]	kuendigen\_set1\_6[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kuendigen\_set1\_6[7]	_	_	_	_	_	false[126]	Decl[126]	*[261]	*[261]	*[261]	*[261]	*[261]	input2[261]	24[388]	male[388]	qaaqp55l485lvs9rdvpvbtmqal[388]	speaker: YOU[515]	_	_	_	_	_	
+41-4	944-949	davon	GFailure[7]	kuendigen\_set1\_6[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kuendigen\_set1\_6[7]	_	_	_	_	_	false[126]	Decl[126]	*[261]	*[261]	*[261]	*[261]	*[261]	input2[261]	24[388]	male[388]	qaaqp55l485lvs9rdvpvbtmqal[388]	speaker: YOU[515]	*->92-2	D-Pron[92]	_	_	_	
+41-5	950-956	gesagt	GFailure[7]	kuendigen\_set1\_6[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kuendigen\_set1\_6[7]	3	*	*	*	singular	false[126]	Decl[126]	*[261]	*[261]	*[261]	*[261]	*[261]	input2[261]	24[388]	male[388]	qaaqp55l485lvs9rdvpvbtmqal[388]	speaker: YOU[515]	*->47-4	zero[47]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+42-1	958-973	END_OF_DOCUMENT	GFailure[7]	kuendigen\_set1\_6[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kuendigen\_set1\_6[7]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+43-1	975-980	Alles	GFailure[8]	kuendigen\_set1\_6[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kuendigen\_set1\_6[8]	_	_	_	_	_	false[127]	Int[127]	*[262]	*[262]	*[262]	yn\_4[262]	yesno\_question[262]	openq[262]	*[389]	female[389]	*[389]	speaker:Anna[516]	_	_	QAP	*	44-1[128_127]	
+43-2	981-985	gut?	GFailure[8]	kuendigen\_set1\_6[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kuendigen\_set1\_6[8]	_	_	_	_	_	false[127]	Int[127]	*[262]	*[262]	*[262]	yn\_4[262]	yesno\_question[262]	openq[262]	*[389]	female[389]	*[389]	speaker:Anna[516]	_	_	_	_	_	
+
+#Text=Livia hat das Spiegel-Abo gekündigt
+44-1	987-992	Livia	GFailure[8]	kuendigen\_set1\_6[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kuendigen\_set1\_6[8]	*	*	Subj	*	*	false[128]	Decl[128]	*[263]	kündigen[263]	transitive[263]	*[263]	*[263]	item0[263]	25[390]	female[390]	t6ah1r7hfmcncb44kgnh0sjmv6[390]	speaker: YOU[517]	*->108-1	PropNm[108]	explanation|elaboration|CR	*|*|*	46-3[130_128]|46-1[0_128]|45-1[129_128]	
+44-2	993-996	hat	GFailure[8]	kuendigen\_set1\_6[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kuendigen\_set1\_6[8]	_	_	_	_	_	false[128]	Decl[128]	*[263]	kündigen[263]	transitive[263]	*[263]	*[263]	item0[263]	25[390]	female[390]	t6ah1r7hfmcncb44kgnh0sjmv6[390]	speaker: YOU[517]	_	_	_	_	_	
+44-3	997-1000	das	GFailure[8]	kuendigen\_set1\_6[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kuendigen\_set1\_6[8]	*[47]	*[47]	object[47]	*[47]	*[47]	false[128]	Decl[128]	*[263]	kündigen[263]	transitive[263]	*[263]	*[263]	item0[263]	25[390]	female[390]	t6ah1r7hfmcncb44kgnh0sjmv6[390]	speaker: YOU[517]	*->10-1	DefNP[10]	_	_	_	
+44-4	1001-1012	Spiegel-Abo	GFailure[8]	kuendigen\_set1\_6[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kuendigen\_set1\_6[8]	*[47]	*[47]	object[47]	*[47]	*[47]	false[128]	Decl[128]	*[263]	kündigen[263]	transitive[263]	*[263]	*[263]	item0[263]	25[390]	female[390]	t6ah1r7hfmcncb44kgnh0sjmv6[390]	speaker: YOU[517]	*->10-1	DefNP[10]	_	_	_	
+44-5	1013-1022	gekündigt	GFailure[8]	kuendigen\_set1\_6[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kuendigen\_set1\_6[8]	_	_	_	_	_	false[128]	Decl[128]	*[263]	kündigen[263]	transitive[263]	*[263]	*[263]	item0[263]	25[390]	female[390]	t6ah1r7hfmcncb44kgnh0sjmv6[390]	speaker: YOU[517]	_	_	_	_	_	
+
+#Text=Wie bitte?
+45-1	1024-1027	Wie	GFailure[8]	kuendigen\_set1\_6[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kuendigen\_set1\_6[8]	_	_	_	_	_	false[129]	NA[129]	wie-bitte\_question\_2[264]	*[264]	*[264]	*[264]	*[264]	feedback[264]	*[391]	female[391]	*[391]	speaker:Anna[518]	_	_	_	_	_	
+45-2	1028-1034	bitte?	GFailure[8]	kuendigen\_set1\_6[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kuendigen\_set1\_6[8]	_	_	_	_	_	false[129]	NA[129]	wie-bitte\_question\_2[264]	*[264]	*[264]	*[264]	*[264]	feedback[264]	*[391]	female[391]	*[391]	speaker:Anna[518]	_	_	_	_	_	
+
+#Text=Ja <BR> ich glaube ihre finanziellen Probleme sind doch größer als gedacht
+46-1	1036-1038	Ja	GFailure[8]	kuendigen\_set1\_6[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kuendigen\_set1\_6[8]	_	_	_	_	_	false	NA	*[265]	*[265]	*[265]	*[265]	*[265]	input1[265]	25[392]	female[392]	t6ah1r7hfmcncb44kgnh0sjmv6[392]	speaker: YOU[519]	_	_	_	_	_	
+46-2	1039-1043	<BR>	GFailure[8]	kuendigen\_set1\_6[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kuendigen\_set1\_6[8]	_	_	_	_	_	_	_	*[265]	*[265]	*[265]	*[265]	*[265]	input1[265]	25[392]	female[392]	t6ah1r7hfmcncb44kgnh0sjmv6[392]	speaker: YOU[519]	_	_	_	_	_	
+46-3	1044-1047	ich	GFailure[8]	kuendigen\_set1\_6[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kuendigen\_set1\_6[8]	1	*	Subj	*	singular	false[130]	Decl[130]	*[265]	*[265]	*[265]	*[265]	*[265]	input1[265]	25[392]	female[392]	t6ah1r7hfmcncb44kgnh0sjmv6[392]	speaker: YOU[519]	*->67-1	PerPron[67]	explanation	*	47-1[131_130]	
+46-4	1048-1054	glaube	GFailure[8]	kuendigen\_set1\_6[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kuendigen\_set1\_6[8]	_	_	_	_	_	false[130]	Decl[130]	*[265]	*[265]	*[265]	*[265]	*[265]	input1[265]	25[392]	female[392]	t6ah1r7hfmcncb44kgnh0sjmv6[392]	speaker: YOU[519]	_	_	_	_	_	
+46-5	1055-1059	ihre	GFailure[8]	kuendigen\_set1\_6[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kuendigen\_set1\_6[8]	*[48]|3[49]	*[48]|*[49]	Embedded[48]|*[49]	*[48]|*[49]	*[48]|singular[49]	false[130]	Decl[130]	*[265]	*[265]	*[265]	*[265]	*[265]	input1[265]	25[392]	female[392]	t6ah1r7hfmcncb44kgnh0sjmv6[392]	speaker: YOU[519]	*->21-1|*->108-2	DefNP[21]|PossePron[108]	_	_	_	
+46-6	1060-1072	finanziellen	GFailure[8]	kuendigen\_set1\_6[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kuendigen\_set1\_6[8]	*[48]	*[48]	Embedded[48]	*[48]	*[48]	false[130]	Decl[130]	*[265]	*[265]	*[265]	*[265]	*[265]	input1[265]	25[392]	female[392]	t6ah1r7hfmcncb44kgnh0sjmv6[392]	speaker: YOU[519]	*->21-1	DefNP[21]	_	_	_	
+46-7	1073-1081	Probleme	GFailure[8]	kuendigen\_set1\_6[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kuendigen\_set1\_6[8]	*[48]	*[48]	Embedded[48]	*[48]	*[48]	false[130]	Decl[130]	*[265]	*[265]	*[265]	*[265]	*[265]	input1[265]	25[392]	female[392]	t6ah1r7hfmcncb44kgnh0sjmv6[392]	speaker: YOU[519]	*->21-1	DefNP[21]	_	_	_	
+46-8	1082-1086	sind	GFailure[8]	kuendigen\_set1\_6[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kuendigen\_set1\_6[8]	_	_	_	_	_	false[130]	Decl[130]	*[265]	*[265]	*[265]	*[265]	*[265]	input1[265]	25[392]	female[392]	t6ah1r7hfmcncb44kgnh0sjmv6[392]	speaker: YOU[519]	_	_	_	_	_	
+46-9	1087-1091	doch	GFailure[8]	kuendigen\_set1\_6[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kuendigen\_set1\_6[8]	_	_	_	_	_	false[130]	Decl[130]	*[265]	*[265]	*[265]	*[265]	*[265]	input1[265]	25[392]	female[392]	t6ah1r7hfmcncb44kgnh0sjmv6[392]	speaker: YOU[519]	_	_	_	_	_	
+46-10	1092-1098	größer	GFailure[8]	kuendigen\_set1\_6[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kuendigen\_set1\_6[8]	_	_	_	_	_	false[130]	Decl[130]	*[265]	*[265]	*[265]	*[265]	*[265]	input1[265]	25[392]	female[392]	t6ah1r7hfmcncb44kgnh0sjmv6[392]	speaker: YOU[519]	_	_	_	_	_	
+46-11	1099-1102	als	GFailure[8]	kuendigen\_set1\_6[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kuendigen\_set1\_6[8]	_	_	_	_	_	false[130]	Decl[130]	*[265]	*[265]	*[265]	*[265]	*[265]	input1[265]	25[392]	female[392]	t6ah1r7hfmcncb44kgnh0sjmv6[392]	speaker: YOU[519]	_	_	_	_	_	
+46-12	1103-1110	gedacht	GFailure[8]	kuendigen\_set1\_6[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kuendigen\_set1\_6[8]	_	_	_	_	_	false[130]	Decl[130]	*[265]	*[265]	*[265]	*[265]	*[265]	input1[265]	25[392]	female[392]	t6ah1r7hfmcncb44kgnh0sjmv6[392]	speaker: YOU[519]	_	_	_	_	_	
+
+#Text=Das war ja ihre Lieblingszeitung
+47-1	1112-1115	Das	GFailure[8]	kuendigen\_set1\_6[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kuendigen\_set1\_6[8]	*	*	Subj	*	*	false[131]	Decl[131]	*[266]	*[266]	*[266]	*[266]	*[266]	input2[266]	25[393]	female[393]	t6ah1r7hfmcncb44kgnh0sjmv6[393]	speaker: YOU[520]	*->10-2	D-Pron[10]	_	_	_	
+47-2	1116-1119	war	GFailure[8]	kuendigen\_set1\_6[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kuendigen\_set1\_6[8]	_	_	_	_	_	false[131]	Decl[131]	*[266]	*[266]	*[266]	*[266]	*[266]	input2[266]	25[393]	female[393]	t6ah1r7hfmcncb44kgnh0sjmv6[393]	speaker: YOU[520]	_	_	_	_	_	
+47-3	1120-1122	ja	GFailure[8]	kuendigen\_set1\_6[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kuendigen\_set1\_6[8]	_	_	_	_	_	false[131]	Decl[131]	*[266]	*[266]	*[266]	*[266]	*[266]	input2[266]	25[393]	female[393]	t6ah1r7hfmcncb44kgnh0sjmv6[393]	speaker: YOU[520]	_	_	_	_	_	
+47-4	1123-1127	ihre	GFailure[8]	kuendigen\_set1\_6[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kuendigen\_set1\_6[8]	*[50]|3[51]	*[50]|*[51]	DirObj[50]|*[51]	*[50]|*[51]	*[50]|singular[51]	false[131]	Decl[131]	*[266]	*[266]	*[266]	*[266]	*[266]	input2[266]	25[393]	female[393]	t6ah1r7hfmcncb44kgnh0sjmv6[393]	speaker: YOU[520]	*->108-3	PossePron[108]	_	_	_	
+47-5	1128-1144	Lieblingszeitung	GFailure[8]	kuendigen\_set1\_6[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kuendigen\_set1\_6[8]	*[50]	*[50]	DirObj[50]	*[50]	*[50]	false[131]	Decl[131]	*[266]	*[266]	*[266]	*[266]	*[266]	input2[266]	25[393]	female[393]	t6ah1r7hfmcncb44kgnh0sjmv6[393]	speaker: YOU[520]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+48-1	1146-1161	END_OF_DOCUMENT	GFailure[8]	kuendigen\_set1\_6[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kuendigen\_set1\_6[8]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+49-1	1163-1168	Alles	GFailure[9]	kuendigen\_set1\_6[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-kuendigen\_set1\_6[9]	_	_	_	_	_	false[132]	Int[132]	*[267]	*[267]	*[267]	yn\_4[267]	yesno\_question[267]	openq[267]	*[394]	female[394]	*[394]	speaker:Anna[521]	_	_	QAP	*	50-1[133_132]	
+49-2	1169-1173	gut?	GFailure[9]	kuendigen\_set1\_6[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-kuendigen\_set1\_6[9]	_	_	_	_	_	false[132]	Int[132]	*[267]	*[267]	*[267]	yn\_4[267]	yesno\_question[267]	openq[267]	*[394]	female[394]	*[394]	speaker:Anna[521]	_	_	_	_	_	
+
+#Text=Livia hat das Spiegel-Abo gekündigt
+50-1	1175-1180	Livia	GFailure[9]	kuendigen\_set1\_6[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-kuendigen\_set1\_6[9]	*	*	Subj	*	*	false[133]	Decl[133]	*[268]	kündigen[268]	transitive[268]	*[268]	*[268]	item0[268]	29[395]	female[395]	ue2vk0ts1hkpki58vsa3j8t39j[395]	speaker: YOU[522]	*->3-1	PropNm[3]	elaboration|CR	*|*	52-1[135_133]|51-1[134_133]	
+50-2	1181-1184	hat	GFailure[9]	kuendigen\_set1\_6[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-kuendigen\_set1\_6[9]	_	_	_	_	_	false[133]	Decl[133]	*[268]	kündigen[268]	transitive[268]	*[268]	*[268]	item0[268]	29[395]	female[395]	ue2vk0ts1hkpki58vsa3j8t39j[395]	speaker: YOU[522]	_	_	_	_	_	
+50-3	1185-1188	das	GFailure[9]	kuendigen\_set1\_6[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-kuendigen\_set1\_6[9]	*[52]	*[52]	object[52]	*[52]	*[52]	false[133]	Decl[133]	*[268]	kündigen[268]	transitive[268]	*[268]	*[268]	item0[268]	29[395]	female[395]	ue2vk0ts1hkpki58vsa3j8t39j[395]	speaker: YOU[522]	*->51-1	DefNP[51]	_	_	_	
+50-4	1189-1200	Spiegel-Abo	GFailure[9]	kuendigen\_set1\_6[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-kuendigen\_set1\_6[9]	*[52]	*[52]	object[52]	*[52]	*[52]	false[133]	Decl[133]	*[268]	kündigen[268]	transitive[268]	*[268]	*[268]	item0[268]	29[395]	female[395]	ue2vk0ts1hkpki58vsa3j8t39j[395]	speaker: YOU[522]	*->51-1	DefNP[51]	_	_	_	
+50-5	1201-1210	gekündigt	GFailure[9]	kuendigen\_set1\_6[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-kuendigen\_set1\_6[9]	_	_	_	_	_	false[133]	Decl[133]	*[268]	kündigen[268]	transitive[268]	*[268]	*[268]	item0[268]	29[395]	female[395]	ue2vk0ts1hkpki58vsa3j8t39j[395]	speaker: YOU[522]	_	_	_	_	_	
+
+#Text=Wie bitte?
+51-1	1212-1215	Wie	GFailure[9]	kuendigen\_set1\_6[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-kuendigen\_set1\_6[9]	_	_	_	_	_	false[134]	NA[134]	wie-bitte\_question\_2[269]	*[269]	*[269]	*[269]	*[269]	feedback[269]	*[396]	female[396]	*[396]	speaker:Anna[523]	_	_	_	_	_	
+51-2	1216-1222	bitte?	GFailure[9]	kuendigen\_set1\_6[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-kuendigen\_set1\_6[9]	_	_	_	_	_	false[134]	NA[134]	wie-bitte\_question\_2[269]	*[269]	*[269]	*[269]	*[269]	feedback[269]	*[396]	female[396]	*[396]	speaker:Anna[523]	_	_	_	_	_	
+
+#Text=Ohne mich zu fragen!
+52-1	1224-1228	Ohne	GFailure[9]	kuendigen\_set1\_6[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-kuendigen\_set1\_6[9]	_	_	_	_	_	false[135]	NA[135]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	29[397]	female[397]	ue2vk0ts1hkpki58vsa3j8t39j[397]	speaker: YOU[524]	_	_	explanation	*	53-1[136_135]	
+52-2	1229-1233	mich	GFailure[9]	kuendigen\_set1\_6[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-kuendigen\_set1\_6[9]	1	*	*	*	singular	false[135]	NA[135]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	29[397]	female[397]	ue2vk0ts1hkpki58vsa3j8t39j[397]	speaker: YOU[524]	*->13-1	PerPron[13]	_	_	_	
+52-3	1234-1236	zu	GFailure[9]	kuendigen\_set1\_6[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-kuendigen\_set1\_6[9]	_	_	_	_	_	false[135]	NA[135]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	29[397]	female[397]	ue2vk0ts1hkpki58vsa3j8t39j[397]	speaker: YOU[524]	_	_	_	_	_	
+52-4	1237-1244	fragen!	GFailure[9]	kuendigen\_set1\_6[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-kuendigen\_set1\_6[9]	_	_	_	_	_	false[135]	NA[135]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	29[397]	female[397]	ue2vk0ts1hkpki58vsa3j8t39j[397]	speaker: YOU[524]	_	_	_	_	_	
+
+#Text=Was ist bloss los mit ihr?
+53-1	1246-1249	Was	GFailure[9]	kuendigen\_set1\_6[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-kuendigen\_set1\_6[9]	_	_	_	_	_	false[136]	Int[136]	*[271]	*[271]	*[271]	*[271]	*[271]	input2[271]	29[398]	female[398]	ue2vk0ts1hkpki58vsa3j8t39j[398]	speaker: YOU[525]	_	_	_	_	_	
+53-2	1250-1253	ist	GFailure[9]	kuendigen\_set1\_6[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-kuendigen\_set1\_6[9]	_	_	_	_	_	false[136]	Int[136]	*[271]	*[271]	*[271]	*[271]	*[271]	input2[271]	29[398]	female[398]	ue2vk0ts1hkpki58vsa3j8t39j[398]	speaker: YOU[525]	_	_	_	_	_	
+53-3	1254-1259	bloss	GFailure[9]	kuendigen\_set1\_6[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-kuendigen\_set1\_6[9]	_	_	_	_	_	false[136]	Int[136]	*[271]	*[271]	*[271]	*[271]	*[271]	input2[271]	29[398]	female[398]	ue2vk0ts1hkpki58vsa3j8t39j[398]	speaker: YOU[525]	_	_	_	_	_	
+53-4	1260-1263	los	GFailure[9]	kuendigen\_set1\_6[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-kuendigen\_set1\_6[9]	_	_	_	_	_	false[136]	Int[136]	*[271]	*[271]	*[271]	*[271]	*[271]	input2[271]	29[398]	female[398]	ue2vk0ts1hkpki58vsa3j8t39j[398]	speaker: YOU[525]	_	_	_	_	_	
+53-5	1264-1267	mit	GFailure[9]	kuendigen\_set1\_6[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-kuendigen\_set1\_6[9]	_	_	_	_	_	false[136]	Int[136]	*[271]	*[271]	*[271]	*[271]	*[271]	input2[271]	29[398]	female[398]	ue2vk0ts1hkpki58vsa3j8t39j[398]	speaker: YOU[525]	_	_	_	_	_	
+53-6	1268-1272	ihr?	GFailure[9]	kuendigen\_set1\_6[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-kuendigen\_set1\_6[9]	3	*	PrepObj	*	singular	false[136]	Int[136]	*[271]	*[271]	*[271]	*[271]	*[271]	input2[271]	29[398]	female[398]	ue2vk0ts1hkpki58vsa3j8t39j[398]	speaker: YOU[525]	*->3-2	PerPron[3]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+54-1	1274-1289	END_OF_DOCUMENT	GFailure[9]	kuendigen\_set1\_6[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-kuendigen\_set1\_6[9]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+55-1	1291-1296	Alles	GFailure[10]	kuendigen\_set1\_6[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-kuendigen\_set1\_6[10]	_	_	_	_	_	false[137]	Int[137]	*[272]	*[272]	*[272]	yn\_4[272]	yesno\_question[272]	openq[272]	*[399]	female[399]	*[399]	speaker:Anna[526]	_	_	QAP	*	56-1[138_137]	
+55-2	1297-1301	gut?	GFailure[10]	kuendigen\_set1\_6[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-kuendigen\_set1\_6[10]	_	_	_	_	_	false[137]	Int[137]	*[272]	*[272]	*[272]	yn\_4[272]	yesno\_question[272]	openq[272]	*[399]	female[399]	*[399]	speaker:Anna[526]	_	_	_	_	_	
+
+#Text=Livia hat das Spiegel-Abo gekündigt
+56-1	1303-1308	Livia	GFailure[10]	kuendigen\_set1\_6[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-kuendigen\_set1\_6[10]	*	*	Subj	*	*	false[138]	Decl[138]	*[273]	kündigen[273]	transitive[273]	*[273]	*[273]	item0[273]	58[400]	male[400]	v3le8i0hm1ekj0ps9oou7k56t5[400]	speaker: YOU[527]	*->23-1	PropNm[23]	contrast|CR	*|*	59-1[141_138]|57-1[139_138]	
+56-2	1309-1312	hat	GFailure[10]	kuendigen\_set1\_6[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-kuendigen\_set1\_6[10]	_	_	_	_	_	false[138]	Decl[138]	*[273]	kündigen[273]	transitive[273]	*[273]	*[273]	item0[273]	58[400]	male[400]	v3le8i0hm1ekj0ps9oou7k56t5[400]	speaker: YOU[527]	_	_	_	_	_	
+56-3	1313-1316	das	GFailure[10]	kuendigen\_set1\_6[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-kuendigen\_set1\_6[10]	*[53]	*[53]	object[53]	*[53]	*[53]	false[138]	Decl[138]	*[273]	kündigen[273]	transitive[273]	*[273]	*[273]	item0[273]	58[400]	male[400]	v3le8i0hm1ekj0ps9oou7k56t5[400]	speaker: YOU[527]	*->62-1	DefNP[62]	_	_	_	
+56-4	1317-1328	Spiegel-Abo	GFailure[10]	kuendigen\_set1\_6[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-kuendigen\_set1\_6[10]	*[53]	*[53]	object[53]	*[53]	*[53]	false[138]	Decl[138]	*[273]	kündigen[273]	transitive[273]	*[273]	*[273]	item0[273]	58[400]	male[400]	v3le8i0hm1ekj0ps9oou7k56t5[400]	speaker: YOU[527]	*->62-1	DefNP[62]	_	_	_	
+56-5	1329-1338	gekündigt	GFailure[10]	kuendigen\_set1\_6[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-kuendigen\_set1\_6[10]	_	_	_	_	_	false[138]	Decl[138]	*[273]	kündigen[273]	transitive[273]	*[273]	*[273]	item0[273]	58[400]	male[400]	v3le8i0hm1ekj0ps9oou7k56t5[400]	speaker: YOU[527]	_	_	_	_	_	
+
+#Text=Wie bitte?
+57-1	1340-1343	Wie	GFailure[10]	kuendigen\_set1\_6[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-kuendigen\_set1\_6[10]	_	_	_	_	_	false[139]	NA[139]	wie-bitte\_question\_2[274]	*[274]	*[274]	*[274]	*[274]	feedback[274]	*[401]	female[401]	*[401]	speaker:Anna[528]	_	_	acknowledgement	*	58-1[140_139]	
+57-2	1344-1350	bitte?	GFailure[10]	kuendigen\_set1\_6[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-kuendigen\_set1\_6[10]	_	_	_	_	_	false[139]	NA[139]	wie-bitte\_question\_2[274]	*[274]	*[274]	*[274]	*[274]	feedback[274]	*[401]	female[401]	*[401]	speaker:Anna[528]	_	_	_	_	_	
+
+#Text=ja wirklich
+58-1	1352-1354	ja	GFailure[10]	kuendigen\_set1\_6[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-kuendigen\_set1\_6[10]	_	_	_	_	_	false[140]	NA[140]	*[275]	*[275]	*[275]	*[275]	*[275]	input1[275]	58[402]	male[402]	v3le8i0hm1ekj0ps9oou7k56t5[402]	speaker: YOU[529]	_	_	_	_	_	
+58-2	1355-1363	wirklich	GFailure[10]	kuendigen\_set1\_6[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-kuendigen\_set1\_6[10]	_	_	_	_	_	false[140]	NA[140]	*[275]	*[275]	*[275]	*[275]	*[275]	input1[275]	58[402]	male[402]	v3le8i0hm1ekj0ps9oou7k56t5[402]	speaker: YOU[529]	_	_	_	_	_	
+
+#Text=sie hat jetzt netflix
+59-1	1365-1368	sie	GFailure[10]	kuendigen\_set1\_6[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-kuendigen\_set1\_6[10]	3	*	Subj	*	singular	false[141]	Decl[141]	*[276]	*[276]	*[276]	*[276]	*[276]	input2[276]	58[403]	male[403]	v3le8i0hm1ekj0ps9oou7k56t5[403]	speaker: YOU[530]	*->23-2	PerPron[23]	_	_	_	
+59-2	1369-1372	hat	GFailure[10]	kuendigen\_set1\_6[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-kuendigen\_set1\_6[10]	_	_	_	_	_	false[141]	Decl[141]	*[276]	*[276]	*[276]	*[276]	*[276]	input2[276]	58[403]	male[403]	v3le8i0hm1ekj0ps9oou7k56t5[403]	speaker: YOU[530]	_	_	_	_	_	
+59-3	1373-1378	jetzt	GFailure[10]	kuendigen\_set1\_6[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-kuendigen\_set1\_6[10]	_	_	_	_	_	false[141]	Decl[141]	*[276]	*[276]	*[276]	*[276]	*[276]	input2[276]	58[403]	male[403]	v3le8i0hm1ekj0ps9oou7k56t5[403]	speaker: YOU[530]	_	_	_	_	_	
+59-4	1379-1386	netflix	GFailure[10]	kuendigen\_set1\_6[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-kuendigen\_set1\_6[10]	*	*	DirObj	*	*	false[141]	Decl[141]	*[276]	*[276]	*[276]	*[276]	*[276]	input2[276]	58[403]	male[403]	v3le8i0hm1ekj0ps9oou7k56t5[403]	speaker: YOU[530]	*->33-1	PropNm[33]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+60-1	1388-1403	END_OF_DOCUMENT	GFailure[10]	kuendigen\_set1\_6[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-kuendigen\_set1\_6[10]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+61-1	1405-1410	Alles	GSuccess[11]	kuendigen\_set1\_6[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-kuendigen\_set1\_6[11]	_	_	_	_	_	false[142]	Int[142]	*[277]	*[277]	*[277]	yn\_4[277]	yesno\_question[277]	openq[277]	*[404]	female[404]	*[404]	speaker:Anna[531]	_	_	QAP	*	62-1[143_142]	
+61-2	1411-1415	gut?	GSuccess[11]	kuendigen\_set1\_6[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-kuendigen\_set1\_6[11]	_	_	_	_	_	false[142]	Int[142]	*[277]	*[277]	*[277]	yn\_4[277]	yesno\_question[277]	openq[277]	*[404]	female[404]	*[404]	speaker:Anna[531]	_	_	_	_	_	
+
+#Text=Livia hat das Spiegel-Abo gekündigt
+62-1	1417-1422	Livia	GSuccess[11]	kuendigen\_set1\_6[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-kuendigen\_set1\_6[11]	*	*	Subj	*	*	false[143]	Decl[143]	*[278]	kündigen[278]	transitive[278]	*[278]	*[278]	item0[278]	35[405]	female[405]	2k56uavscuainedj0q9i1sb693[405]	speaker: YOU[532]	*->113-1	PropNm[113]	elaboration|acknowledgement	*|*	64-1[0_143]|63-1[0_143]	
+62-2	1423-1426	hat	GSuccess[11]	kuendigen\_set1\_6[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-kuendigen\_set1\_6[11]	_	_	_	_	_	false[143]	Decl[143]	*[278]	kündigen[278]	transitive[278]	*[278]	*[278]	item0[278]	35[405]	female[405]	2k56uavscuainedj0q9i1sb693[405]	speaker: YOU[532]	_	_	_	_	_	
+62-3	1427-1430	das	GSuccess[11]	kuendigen\_set1\_6[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-kuendigen\_set1\_6[11]	*[54]	*[54]	object[54]	*[54]	*[54]	false[143]	Decl[143]	*[278]	kündigen[278]	transitive[278]	*[278]	*[278]	item0[278]	35[405]	female[405]	2k56uavscuainedj0q9i1sb693[405]	speaker: YOU[532]	*->49-1	DefNP[49]	_	_	_	
+62-4	1431-1442	Spiegel-Abo	GSuccess[11]	kuendigen\_set1\_6[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-kuendigen\_set1\_6[11]	*[54]	*[54]	object[54]	*[54]	*[54]	false[143]	Decl[143]	*[278]	kündigen[278]	transitive[278]	*[278]	*[278]	item0[278]	35[405]	female[405]	2k56uavscuainedj0q9i1sb693[405]	speaker: YOU[532]	*->49-1	DefNP[49]	_	_	_	
+62-5	1443-1452	gekündigt	GSuccess[11]	kuendigen\_set1\_6[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-kuendigen\_set1\_6[11]	_	_	_	_	_	false[143]	Decl[143]	*[278]	kündigen[278]	transitive[278]	*[278]	*[278]	item0[278]	35[405]	female[405]	2k56uavscuainedj0q9i1sb693[405]	speaker: YOU[532]	_	_	_	_	_	
+
+#Text=Oh!
+63-1	1454-1457	Oh!	GSuccess[11]	kuendigen\_set1\_6[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-kuendigen\_set1\_6[11]	_	_	_	_	_	false	NA	oh\_exclamation\_17	*	*	*	*	feedback	*	female	*	speaker:Anna	_	_	_	_	_	
+
+#Text=Schade.
+64-1	1459-1466	Schade.	GSuccess[11]	kuendigen\_set1\_6[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-kuendigen\_set1\_6[11]	_	_	_	_	_	false	NA	*	*	*	*	*	input1	35	female	2k56uavscuainedj0q9i1sb693	speaker: YOU	_	_	explanation	*	65-1[144_0]	
+
+#Text=Hatte ja immer mitgelesen.
+65-1	1468-1473	Hatte	GSuccess[11]	kuendigen\_set1\_6[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-kuendigen\_set1\_6[11]	1	*	*	*	singular	false[144]	Decl[144]	*[279]	*[279]	*[279]	*[279]	*[279]	input2[279]	35[406]	female[406]	2k56uavscuainedj0q9i1sb693[406]	speaker: YOU[533]	*->14-1	zero[14]	_	_	_	
+65-2	1474-1476	ja	GSuccess[11]	kuendigen\_set1\_6[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-kuendigen\_set1\_6[11]	_	_	_	_	_	false[144]	Decl[144]	*[279]	*[279]	*[279]	*[279]	*[279]	input2[279]	35[406]	female[406]	2k56uavscuainedj0q9i1sb693[406]	speaker: YOU[533]	_	_	_	_	_	
+65-3	1477-1482	immer	GSuccess[11]	kuendigen\_set1\_6[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-kuendigen\_set1\_6[11]	_	_	_	_	_	false[144]	Decl[144]	*[279]	*[279]	*[279]	*[279]	*[279]	input2[279]	35[406]	female[406]	2k56uavscuainedj0q9i1sb693[406]	speaker: YOU[533]	_	_	_	_	_	
+65-4	1483-1494	mitgelesen.	GSuccess[11]	kuendigen\_set1\_6[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-kuendigen\_set1\_6[11]	_	_	_	_	_	false[144]	Decl[144]	*[279]	*[279]	*[279]	*[279]	*[279]	input2[279]	35[406]	female[406]	2k56uavscuainedj0q9i1sb693[406]	speaker: YOU[533]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+66-1	1496-1511	END_OF_DOCUMENT	GSuccess[11]	kuendigen\_set1\_6[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-kuendigen\_set1\_6[11]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+67-1	1513-1518	Alles	GSuccess[12]	kuendigen\_set1\_6[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-kuendigen\_set1\_6[12]	_	_	_	_	_	false[145]	Int[145]	*[280]	*[280]	*[280]	yn\_4[280]	yesno\_question[280]	openq[280]	*[407]	female[407]	*[407]	speaker:Anna[534]	_	_	QAP	*	68-1[146_145]	
+67-2	1519-1523	gut?	GSuccess[12]	kuendigen\_set1\_6[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-kuendigen\_set1\_6[12]	_	_	_	_	_	false[145]	Int[145]	*[280]	*[280]	*[280]	yn\_4[280]	yesno\_question[280]	openq[280]	*[407]	female[407]	*[407]	speaker:Anna[534]	_	_	_	_	_	
+
+#Text=Livia hat das Spiegel-Abo gekündigt
+68-1	1525-1530	Livia	GSuccess[12]	kuendigen\_set1\_6[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-kuendigen\_set1\_6[12]	*	*	Subj	*	*	false[146]	Decl[146]	*[281]	kündigen[281]	transitive[281]	*[281]	*[281]	item0[281]	46[408]	male[408]	7bq5ecc5fndmatjvd44havavdp[408]	speaker: YOU[535]	*->70-1|*->1-1	clause[70]|PropNm[1]	contrast|acknowledgement	*|*	70-1[147_146]|69-1[0_146]	
+68-2	1531-1534	hat	GSuccess[12]	kuendigen\_set1\_6[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-kuendigen\_set1\_6[12]	_	_	_	_	_	false[146]	Decl[146]	*[281]	kündigen[281]	transitive[281]	*[281]	*[281]	item0[281]	46[408]	male[408]	7bq5ecc5fndmatjvd44havavdp[408]	speaker: YOU[535]	*->70-1	clause[70]	_	_	_	
+68-3	1535-1538	das	GSuccess[12]	kuendigen\_set1\_6[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-kuendigen\_set1\_6[12]	*[55]	*[55]	object[55]	*[55]	*[55]	false[146]	Decl[146]	*[281]	kündigen[281]	transitive[281]	*[281]	*[281]	item0[281]	46[408]	male[408]	7bq5ecc5fndmatjvd44havavdp[408]	speaker: YOU[535]	*->70-1|*->79-1	clause[70]|DefNP[79]	_	_	_	
+68-4	1539-1550	Spiegel-Abo	GSuccess[12]	kuendigen\_set1\_6[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-kuendigen\_set1\_6[12]	*[55]	*[55]	object[55]	*[55]	*[55]	false[146]	Decl[146]	*[281]	kündigen[281]	transitive[281]	*[281]	*[281]	item0[281]	46[408]	male[408]	7bq5ecc5fndmatjvd44havavdp[408]	speaker: YOU[535]	*->70-1|*->79-1	clause[70]|DefNP[79]	_	_	_	
+68-5	1551-1560	gekündigt	GSuccess[12]	kuendigen\_set1\_6[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-kuendigen\_set1\_6[12]	_	_	_	_	_	false[146]	Decl[146]	*[281]	kündigen[281]	transitive[281]	*[281]	*[281]	item0[281]	46[408]	male[408]	7bq5ecc5fndmatjvd44havavdp[408]	speaker: YOU[535]	*->70-1	clause[70]	_	_	_	
+
+#Text=Oh!
+69-1	1562-1565	Oh!	GSuccess[12]	kuendigen\_set1\_6[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-kuendigen\_set1\_6[12]	_	_	_	_	_	false	NA	oh\_exclamation\_17	*	*	*	*	feedback	*	female	*	speaker:Anna	_	_	_	_	_	
+
+#Text=hat neu das Bild abo
+70-1	1567-1570	hat	GSuccess[12]	kuendigen\_set1\_6[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-kuendigen\_set1\_6[12]	3	*	*	*	singular	false[147]	Decl[147]	*[282]	*[282]	*[282]	*[282]	*[282]	input1[282]	46[409]	male[409]	7bq5ecc5fndmatjvd44havavdp[409]	speaker: YOU[536]	*->1-2	zero[1]	elaboration|elaboration	*|*	71-1[148_147]|71-5[149_147]	
+70-2	1571-1574	neu	GSuccess[12]	kuendigen\_set1\_6[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-kuendigen\_set1\_6[12]	*[56]	*[56]	DirObj[56]	*[56]	*[56]	false[147]	Decl[147]	*[282]	*[282]	*[282]	*[282]	*[282]	input1[282]	46[409]	male[409]	7bq5ecc5fndmatjvd44havavdp[409]	speaker: YOU[536]	_	_	_	_	_	
+70-3	1575-1578	das	GSuccess[12]	kuendigen\_set1\_6[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-kuendigen\_set1\_6[12]	*[56]	*[56]	DirObj[56]	*[56]	*[56]	false[147]	Decl[147]	*[282]	*[282]	*[282]	*[282]	*[282]	input1[282]	46[409]	male[409]	7bq5ecc5fndmatjvd44havavdp[409]	speaker: YOU[536]	*->63-1	DefNP[63]	_	_	_	
+70-4	1579-1583	Bild	GSuccess[12]	kuendigen\_set1\_6[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-kuendigen\_set1\_6[12]	*[56]	*[56]	DirObj[56]	*[56]	*[56]	false[147]	Decl[147]	*[282]	*[282]	*[282]	*[282]	*[282]	input1[282]	46[409]	male[409]	7bq5ecc5fndmatjvd44havavdp[409]	speaker: YOU[536]	*->63-1	DefNP[63]	_	_	_	
+70-5	1584-1587	abo	GSuccess[12]	kuendigen\_set1\_6[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-kuendigen\_set1\_6[12]	*[56]	*[56]	DirObj[56]	*[56]	*[56]	false[147]	Decl[147]	*[282]	*[282]	*[282]	*[282]	*[282]	input1[282]	46[409]	male[409]	7bq5ecc5fndmatjvd44havavdp[409]	speaker: YOU[536]	*->63-1	DefNP[63]	_	_	_	
+
+#Text=glaubs fast nicht <BR> wie kann man nur
+71-1	1589-1595	glaubs	GSuccess[12]	kuendigen\_set1\_6[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-kuendigen\_set1\_6[12]	3[57]|1[58]	*[57]|*[58]	*[57]|*[58]	*[57]|*[58]	singular[57]|singular[58]	false[148]	Decl[148]	*[283]	*[283]	*[283]	*[283]	*[283]	input2[283]	46[410]	male[410]	7bq5ecc5fndmatjvd44havavdp[410]	speaker: YOU[537]	*->70-2|*->18-1	zero[70]|zero[18]	_	_	_	
+71-2	1596-1600	fast	GSuccess[12]	kuendigen\_set1\_6[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-kuendigen\_set1\_6[12]	_	_	_	_	_	false[148]	Decl[148]	*[283]	*[283]	*[283]	*[283]	*[283]	input2[283]	46[410]	male[410]	7bq5ecc5fndmatjvd44havavdp[410]	speaker: YOU[537]	_	_	_	_	_	
+71-3	1601-1606	nicht	GSuccess[12]	kuendigen\_set1\_6[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-kuendigen\_set1\_6[12]	_	_	_	_	_	false[148]	Decl[148]	*[283]	*[283]	*[283]	*[283]	*[283]	input2[283]	46[410]	male[410]	7bq5ecc5fndmatjvd44havavdp[410]	speaker: YOU[537]	_	_	_	_	_	
+71-4	1607-1611	<BR>	GSuccess[12]	kuendigen\_set1\_6[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-kuendigen\_set1\_6[12]	_	_	_	_	_	_	_	*[283]	*[283]	*[283]	*[283]	*[283]	input2[283]	46[410]	male[410]	7bq5ecc5fndmatjvd44havavdp[410]	speaker: YOU[537]	_	_	_	_	_	
+71-5	1612-1615	wie	GSuccess[12]	kuendigen\_set1\_6[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-kuendigen\_set1\_6[12]	_	_	_	_	_	false[149]	Excl[149]	*[283]	*[283]	*[283]	*[283]	*[283]	input2[283]	46[410]	male[410]	7bq5ecc5fndmatjvd44havavdp[410]	speaker: YOU[537]	_	_	_	_	_	
+71-6	1616-1620	kann	GSuccess[12]	kuendigen\_set1\_6[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-kuendigen\_set1\_6[12]	_	_	_	_	_	false[149]	Excl[149]	*[283]	*[283]	*[283]	*[283]	*[283]	input2[283]	46[410]	male[410]	7bq5ecc5fndmatjvd44havavdp[410]	speaker: YOU[537]	_	_	_	_	_	
+71-7	1621-1624	man	GSuccess[12]	kuendigen\_set1\_6[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-kuendigen\_set1\_6[12]	_	_	_	_	_	false[149]	Excl[149]	*[283]	*[283]	*[283]	*[283]	*[283]	input2[283]	46[410]	male[410]	7bq5ecc5fndmatjvd44havavdp[410]	speaker: YOU[537]	_	_	_	_	_	
+71-8	1625-1628	nur	GSuccess[12]	kuendigen\_set1\_6[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-kuendigen\_set1\_6[12]	_	_	_	_	_	false[149]	Excl[149]	*[283]	*[283]	*[283]	*[283]	*[283]	input2[283]	46[410]	male[410]	7bq5ecc5fndmatjvd44havavdp[410]	speaker: YOU[537]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+72-1	1630-1645	END_OF_DOCUMENT	GSuccess[12]	kuendigen\_set1\_6[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-kuendigen\_set1\_6[12]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+73-1	1647-1652	Alles	GSuccess[13]	kuendigen\_set1\_6[13]	latin1[13]	9bb79dhfhst017575orahklqol-kuendigen\_set1\_6[13]	_	_	_	_	_	false[150]	Int[150]	*[284]	*[284]	*[284]	yn\_4[284]	yesno\_question[284]	openq[284]	*[411]	female[411]	*[411]	speaker:Anna[538]	_	_	QAP	*	74-1[151_150]	
+73-2	1653-1657	gut?	GSuccess[13]	kuendigen\_set1\_6[13]	latin1[13]	9bb79dhfhst017575orahklqol-kuendigen\_set1\_6[13]	_	_	_	_	_	false[150]	Int[150]	*[284]	*[284]	*[284]	yn\_4[284]	yesno\_question[284]	openq[284]	*[411]	female[411]	*[411]	speaker:Anna[538]	_	_	_	_	_	
+
+#Text=Livia hat das Spiegel-Abo gekündigt
+74-1	1659-1664	Livia	GSuccess[13]	kuendigen\_set1\_6[13]	latin1[13]	9bb79dhfhst017575orahklqol-kuendigen\_set1\_6[13]	*	*	Subj	*	*	false[151]	Decl[151]	*[285]	kündigen[285]	transitive[285]	*[285]	*[285]	item0[285]	37[412]	female[412]	9bb79dhfhst017575orahklqol[412]	speaker: YOU[539]	*->74-1|*->22-1	clause[74]|PropNm[22]	elaboration|acknowledgement	*|*	76-1[152_151]|75-1[0_151]	
+74-2	1665-1668	hat	GSuccess[13]	kuendigen\_set1\_6[13]	latin1[13]	9bb79dhfhst017575orahklqol-kuendigen\_set1\_6[13]	_	_	_	_	_	false[151]	Decl[151]	*[285]	kündigen[285]	transitive[285]	*[285]	*[285]	item0[285]	37[412]	female[412]	9bb79dhfhst017575orahklqol[412]	speaker: YOU[539]	*->74-1	clause[74]	_	_	_	
+74-3	1669-1672	das	GSuccess[13]	kuendigen\_set1\_6[13]	latin1[13]	9bb79dhfhst017575orahklqol-kuendigen\_set1\_6[13]	*[59]	*[59]	object[59]	*[59]	*[59]	false[151]	Decl[151]	*[285]	kündigen[285]	transitive[285]	*[285]	*[285]	item0[285]	37[412]	female[412]	9bb79dhfhst017575orahklqol[412]	speaker: YOU[539]	*->74-1|*->34-1	clause[74]|DefNP[34]	_	_	_	
+74-4	1673-1684	Spiegel-Abo	GSuccess[13]	kuendigen\_set1\_6[13]	latin1[13]	9bb79dhfhst017575orahklqol-kuendigen\_set1\_6[13]	*[59]	*[59]	object[59]	*[59]	*[59]	false[151]	Decl[151]	*[285]	kündigen[285]	transitive[285]	*[285]	*[285]	item0[285]	37[412]	female[412]	9bb79dhfhst017575orahklqol[412]	speaker: YOU[539]	*->74-1|*->34-1	clause[74]|DefNP[34]	_	_	_	
+74-5	1685-1694	gekündigt	GSuccess[13]	kuendigen\_set1\_6[13]	latin1[13]	9bb79dhfhst017575orahklqol-kuendigen\_set1\_6[13]	_	_	_	_	_	false[151]	Decl[151]	*[285]	kündigen[285]	transitive[285]	*[285]	*[285]	item0[285]	37[412]	female[412]	9bb79dhfhst017575orahklqol[412]	speaker: YOU[539]	*->74-1	clause[74]	_	_	_	
+
+#Text=Oh!
+75-1	1696-1699	Oh!	GSuccess[13]	kuendigen\_set1\_6[13]	latin1[13]	9bb79dhfhst017575orahklqol-kuendigen\_set1\_6[13]	_	_	_	_	_	false	NA	oh\_exclamation\_17	*	*	*	*	feedback	*	female	*	speaker:Anna	_	_	_	_	_	
+
+#Text=tut mir leid
+76-1	1701-1704	tut	GSuccess[13]	kuendigen\_set1\_6[13]	latin1[13]	9bb79dhfhst017575orahklqol-kuendigen\_set1\_6[13]	3	*	*	*	singular	false[152]	Decl[152]	*[286]	*[286]	*[286]	*[286]	*[286]	input1[286]	37[413]	female[413]	9bb79dhfhst017575orahklqol[413]	speaker: YOU[540]	*->74-2	zero[74]	explanation	*	77-1[153_152]	
+76-2	1705-1708	mir	GSuccess[13]	kuendigen\_set1\_6[13]	latin1[13]	9bb79dhfhst017575orahklqol-kuendigen\_set1\_6[13]	1	*	IndirObj	*	singular	false[152]	Decl[152]	*[286]	*[286]	*[286]	*[286]	*[286]	input1[286]	37[413]	female[413]	9bb79dhfhst017575orahklqol[413]	speaker: YOU[540]	*->56-1	PerPron[56]	_	_	_	
+76-3	1709-1713	leid	GSuccess[13]	kuendigen\_set1\_6[13]	latin1[13]	9bb79dhfhst017575orahklqol-kuendigen\_set1\_6[13]	_	_	_	_	_	false[152]	Decl[152]	*[286]	*[286]	*[286]	*[286]	*[286]	input1[286]	37[413]	female[413]	9bb79dhfhst017575orahklqol[413]	speaker: YOU[540]	_	_	_	_	_	
+
+#Text=kann dir die ausgaben leider nicht mehr zum lesen ausleihen
+77-1	1715-1719	kann	GSuccess[13]	kuendigen\_set1\_6[13]	latin1[13]	9bb79dhfhst017575orahklqol-kuendigen\_set1\_6[13]	_	_	_	_	_	false[153]	Decl[153]	*[287]	*[287]	*[287]	*[287]	*[287]	input2[287]	37[414]	female[414]	9bb79dhfhst017575orahklqol[414]	speaker: YOU[541]	*->56-2	zero[56]	_	_	_	
+77-2	1720-1723	dir	GSuccess[13]	kuendigen\_set1\_6[13]	latin1[13]	9bb79dhfhst017575orahklqol-kuendigen\_set1\_6[13]	*	*	IndirObj	*	*	false[153]	Decl[153]	*[287]	*[287]	*[287]	*[287]	*[287]	input2[287]	37[414]	female[414]	9bb79dhfhst017575orahklqol[414]	speaker: YOU[541]	*->36-1	PerPron[36]	_	_	_	
+77-3	1724-1727	die	GSuccess[13]	kuendigen\_set1\_6[13]	latin1[13]	9bb79dhfhst017575orahklqol-kuendigen\_set1\_6[13]	*[60]	*[60]	DirObj[60]	*[60]	*[60]	false[153]	Decl[153]	*[287]	*[287]	*[287]	*[287]	*[287]	input2[287]	37[414]	female[414]	9bb79dhfhst017575orahklqol[414]	speaker: YOU[541]	*->104-1	DefNP[104]	_	_	_	
+77-4	1728-1736	ausgaben	GSuccess[13]	kuendigen\_set1\_6[13]	latin1[13]	9bb79dhfhst017575orahklqol-kuendigen\_set1\_6[13]	*[60]	*[60]	DirObj[60]	*[60]	*[60]	false[153]	Decl[153]	*[287]	*[287]	*[287]	*[287]	*[287]	input2[287]	37[414]	female[414]	9bb79dhfhst017575orahklqol[414]	speaker: YOU[541]	*->104-1	DefNP[104]	_	_	_	
+77-5	1737-1743	leider	GSuccess[13]	kuendigen\_set1\_6[13]	latin1[13]	9bb79dhfhst017575orahklqol-kuendigen\_set1\_6[13]	_	_	_	_	_	false[153]	Decl[153]	*[287]	*[287]	*[287]	*[287]	*[287]	input2[287]	37[414]	female[414]	9bb79dhfhst017575orahklqol[414]	speaker: YOU[541]	_	_	_	_	_	
+77-6	1744-1749	nicht	GSuccess[13]	kuendigen\_set1\_6[13]	latin1[13]	9bb79dhfhst017575orahklqol-kuendigen\_set1\_6[13]	_	_	_	_	_	false[153]	Decl[153]	*[287]	*[287]	*[287]	*[287]	*[287]	input2[287]	37[414]	female[414]	9bb79dhfhst017575orahklqol[414]	speaker: YOU[541]	_	_	_	_	_	
+77-7	1750-1754	mehr	GSuccess[13]	kuendigen\_set1\_6[13]	latin1[13]	9bb79dhfhst017575orahklqol-kuendigen\_set1\_6[13]	_	_	_	_	_	false[153]	Decl[153]	*[287]	*[287]	*[287]	*[287]	*[287]	input2[287]	37[414]	female[414]	9bb79dhfhst017575orahklqol[414]	speaker: YOU[541]	_	_	_	_	_	
+77-8	1755-1758	zum	GSuccess[13]	kuendigen\_set1\_6[13]	latin1[13]	9bb79dhfhst017575orahklqol-kuendigen\_set1\_6[13]	_	_	_	_	_	false[153]	Decl[153]	*[287]	*[287]	*[287]	*[287]	*[287]	input2[287]	37[414]	female[414]	9bb79dhfhst017575orahklqol[414]	speaker: YOU[541]	_	_	_	_	_	
+77-9	1759-1764	lesen	GSuccess[13]	kuendigen\_set1\_6[13]	latin1[13]	9bb79dhfhst017575orahklqol-kuendigen\_set1\_6[13]	_	_	_	_	_	false[153]	Decl[153]	*[287]	*[287]	*[287]	*[287]	*[287]	input2[287]	37[414]	female[414]	9bb79dhfhst017575orahklqol[414]	speaker: YOU[541]	_	_	_	_	_	
+77-10	1765-1774	ausleihen	GSuccess[13]	kuendigen\_set1\_6[13]	latin1[13]	9bb79dhfhst017575orahklqol-kuendigen\_set1\_6[13]	_	_	_	_	_	false[153]	Decl[153]	*[287]	*[287]	*[287]	*[287]	*[287]	input2[287]	37[414]	female[414]	9bb79dhfhst017575orahklqol[414]	speaker: YOU[541]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+78-1	1776-1791	END_OF_DOCUMENT	GSuccess[13]	kuendigen\_set1\_6[13]	latin1[13]	9bb79dhfhst017575orahklqol-kuendigen\_set1\_6[13]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+79-1	1793-1798	Alles	GSuccess[14]	kuendigen\_set1\_6[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-kuendigen\_set1\_6[14]	_	_	_	_	_	false[154]	Int[154]	*[288]	*[288]	*[288]	yn\_4[288]	yesno\_question[288]	openq[288]	*[415]	female[415]	*[415]	speaker:Anna[542]	_	_	QAP	*	80-1[155_154]	
+79-2	1799-1803	gut?	GSuccess[14]	kuendigen\_set1\_6[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-kuendigen\_set1\_6[14]	_	_	_	_	_	false[154]	Int[154]	*[288]	*[288]	*[288]	yn\_4[288]	yesno\_question[288]	openq[288]	*[415]	female[415]	*[415]	speaker:Anna[542]	_	_	_	_	_	
+
+#Text=Livia hat das Spiegel-Abo gekündigt
+80-1	1805-1810	Livia	GSuccess[14]	kuendigen\_set1\_6[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-kuendigen\_set1\_6[14]	*	*	Subj	*	*	false[155]	Decl[155]	*[289]	kündigen[289]	transitive[289]	*[289]	*[289]	item0[289]	21[416]	male[416]	afpst3sherp4732c4se5ajftkq[416]	speaker: YOU[543]	*->93-1	PropNm[93]	explanation|explanation|acknowledgement	*|*|*	82-1[156_155]|83-1[157_155]|81-1[0_155]	
+80-2	1811-1814	hat	GSuccess[14]	kuendigen\_set1\_6[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-kuendigen\_set1\_6[14]	_	_	_	_	_	false[155]	Decl[155]	*[289]	kündigen[289]	transitive[289]	*[289]	*[289]	item0[289]	21[416]	male[416]	afpst3sherp4732c4se5ajftkq[416]	speaker: YOU[543]	_	_	_	_	_	
+80-3	1815-1818	das	GSuccess[14]	kuendigen\_set1\_6[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-kuendigen\_set1\_6[14]	*[61]	*[61]	object[61]	*[61]	*[61]	false[155]	Decl[155]	*[289]	kündigen[289]	transitive[289]	*[289]	*[289]	item0[289]	21[416]	male[416]	afpst3sherp4732c4se5ajftkq[416]	speaker: YOU[543]	*->55-1	DefNP[55]	_	_	_	
+80-4	1819-1830	Spiegel-Abo	GSuccess[14]	kuendigen\_set1\_6[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-kuendigen\_set1\_6[14]	*[61]	*[61]	object[61]	*[61]	*[61]	false[155]	Decl[155]	*[289]	kündigen[289]	transitive[289]	*[289]	*[289]	item0[289]	21[416]	male[416]	afpst3sherp4732c4se5ajftkq[416]	speaker: YOU[543]	*->55-1	DefNP[55]	_	_	_	
+80-5	1831-1840	gekündigt	GSuccess[14]	kuendigen\_set1\_6[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-kuendigen\_set1\_6[14]	_	_	_	_	_	false[155]	Decl[155]	*[289]	kündigen[289]	transitive[289]	*[289]	*[289]	item0[289]	21[416]	male[416]	afpst3sherp4732c4se5ajftkq[416]	speaker: YOU[543]	_	_	_	_	_	
+
+#Text=Oh!
+81-1	1842-1845	Oh!	GSuccess[14]	kuendigen\_set1\_6[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-kuendigen\_set1\_6[14]	_	_	_	_	_	false	NA	oh\_exclamation\_17	*	*	*	*	feedback	*	female	*	speaker:Anna	_	_	_	_	_	
+
+#Text=Sie haben die Gebühren erhöht.
+82-1	1847-1850	Sie	GSuccess[14]	kuendigen\_set1\_6[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-kuendigen\_set1\_6[14]	3	*	Subj	*	plural	false[156]	Decl[156]	*[290]	*[290]	*[290]	*[290]	*[290]	input1[290]	21[417]	male[417]	afpst3sherp4732c4se5ajftkq[417]	speaker: YOU[544]	*->42-1	PerPron[42]	parallel	*	83-1[157_156]	
+82-2	1851-1856	haben	GSuccess[14]	kuendigen\_set1\_6[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-kuendigen\_set1\_6[14]	_	_	_	_	_	false[156]	Decl[156]	*[290]	*[290]	*[290]	*[290]	*[290]	input1[290]	21[417]	male[417]	afpst3sherp4732c4se5ajftkq[417]	speaker: YOU[544]	_	_	_	_	_	
+82-3	1857-1860	die	GSuccess[14]	kuendigen\_set1\_6[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-kuendigen\_set1\_6[14]	*[62]	*[62]	DirObj[62]	*[62]	*[62]	false[156]	Decl[156]	*[290]	*[290]	*[290]	*[290]	*[290]	input1[290]	21[417]	male[417]	afpst3sherp4732c4se5ajftkq[417]	speaker: YOU[544]	*->110-1	DefNP[110]	_	_	_	
+82-4	1861-1869	Gebühren	GSuccess[14]	kuendigen\_set1\_6[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-kuendigen\_set1\_6[14]	*[62]	*[62]	DirObj[62]	*[62]	*[62]	false[156]	Decl[156]	*[290]	*[290]	*[290]	*[290]	*[290]	input1[290]	21[417]	male[417]	afpst3sherp4732c4se5ajftkq[417]	speaker: YOU[544]	*->110-1	DefNP[110]	_	_	_	
+82-5	1870-1877	erhöht.	GSuccess[14]	kuendigen\_set1\_6[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-kuendigen\_set1\_6[14]	_	_	_	_	_	false[156]	Decl[156]	*[290]	*[290]	*[290]	*[290]	*[290]	input1[290]	21[417]	male[417]	afpst3sherp4732c4se5ajftkq[417]	speaker: YOU[544]	_	_	_	_	_	
+
+#Text=Außerdem waren die Berichte in letzter Zeit eh nicht mehr so gut.
+83-1	1879-1887	Außerdem	GSuccess[14]	kuendigen\_set1\_6[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-kuendigen\_set1\_6[14]	_	_	_	_	_	false[157]	Decl[157]	*[291]	*[291]	*[291]	*[291]	*[291]	input2[291]	21[418]	male[418]	afpst3sherp4732c4se5ajftkq[418]	speaker: YOU[545]	_	_	_	_	_	
+83-2	1888-1893	waren	GSuccess[14]	kuendigen\_set1\_6[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-kuendigen\_set1\_6[14]	_	_	_	_	_	false[157]	Decl[157]	*[291]	*[291]	*[291]	*[291]	*[291]	input2[291]	21[418]	male[418]	afpst3sherp4732c4se5ajftkq[418]	speaker: YOU[545]	_	_	_	_	_	
+83-3	1894-1897	die	GSuccess[14]	kuendigen\_set1\_6[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-kuendigen\_set1\_6[14]	*[63]	*[63]	Subj[63]	*[63]	*[63]	false[157]	Decl[157]	*[291]	*[291]	*[291]	*[291]	*[291]	input2[291]	21[418]	male[418]	afpst3sherp4732c4se5ajftkq[418]	speaker: YOU[545]	*->40-1	DefNP[40]	_	_	_	
+83-4	1898-1906	Berichte	GSuccess[14]	kuendigen\_set1\_6[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-kuendigen\_set1\_6[14]	*[63]	*[63]	Subj[63]	*[63]	*[63]	false[157]	Decl[157]	*[291]	*[291]	*[291]	*[291]	*[291]	input2[291]	21[418]	male[418]	afpst3sherp4732c4se5ajftkq[418]	speaker: YOU[545]	*->40-1	DefNP[40]	_	_	_	
+83-5	1907-1909	in	GSuccess[14]	kuendigen\_set1\_6[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-kuendigen\_set1\_6[14]	_	_	_	_	_	false[157]	Decl[157]	*[291]	*[291]	*[291]	*[291]	*[291]	input2[291]	21[418]	male[418]	afpst3sherp4732c4se5ajftkq[418]	speaker: YOU[545]	_	_	_	_	_	
+83-6	1910-1917	letzter	GSuccess[14]	kuendigen\_set1\_6[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-kuendigen\_set1\_6[14]	_	_	_	_	_	false[157]	Decl[157]	*[291]	*[291]	*[291]	*[291]	*[291]	input2[291]	21[418]	male[418]	afpst3sherp4732c4se5ajftkq[418]	speaker: YOU[545]	*->75-1	DefNP[75]	_	_	_	
+83-7	1918-1922	Zeit	GSuccess[14]	kuendigen\_set1\_6[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-kuendigen\_set1\_6[14]	_	_	_	_	_	false[157]	Decl[157]	*[291]	*[291]	*[291]	*[291]	*[291]	input2[291]	21[418]	male[418]	afpst3sherp4732c4se5ajftkq[418]	speaker: YOU[545]	*->75-1	DefNP[75]	_	_	_	
+83-8	1923-1925	eh	GSuccess[14]	kuendigen\_set1\_6[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-kuendigen\_set1\_6[14]	_	_	_	_	_	false[157]	Decl[157]	*[291]	*[291]	*[291]	*[291]	*[291]	input2[291]	21[418]	male[418]	afpst3sherp4732c4se5ajftkq[418]	speaker: YOU[545]	_	_	_	_	_	
+83-9	1926-1931	nicht	GSuccess[14]	kuendigen\_set1\_6[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-kuendigen\_set1\_6[14]	_	_	_	_	_	false[157]	Decl[157]	*[291]	*[291]	*[291]	*[291]	*[291]	input2[291]	21[418]	male[418]	afpst3sherp4732c4se5ajftkq[418]	speaker: YOU[545]	_	_	_	_	_	
+83-10	1932-1936	mehr	GSuccess[14]	kuendigen\_set1\_6[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-kuendigen\_set1\_6[14]	_	_	_	_	_	false[157]	Decl[157]	*[291]	*[291]	*[291]	*[291]	*[291]	input2[291]	21[418]	male[418]	afpst3sherp4732c4se5ajftkq[418]	speaker: YOU[545]	_	_	_	_	_	
+83-11	1937-1939	so	GSuccess[14]	kuendigen\_set1\_6[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-kuendigen\_set1\_6[14]	_	_	_	_	_	false[157]	Decl[157]	*[291]	*[291]	*[291]	*[291]	*[291]	input2[291]	21[418]	male[418]	afpst3sherp4732c4se5ajftkq[418]	speaker: YOU[545]	_	_	_	_	_	
+83-12	1940-1944	gut.	GSuccess[14]	kuendigen\_set1\_6[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-kuendigen\_set1\_6[14]	_	_	_	_	_	false[157]	Decl[157]	*[291]	*[291]	*[291]	*[291]	*[291]	input2[291]	21[418]	male[418]	afpst3sherp4732c4se5ajftkq[418]	speaker: YOU[545]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+84-1	1946-1961	END_OF_DOCUMENT	GSuccess[14]	kuendigen\_set1\_6[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-kuendigen\_set1\_6[14]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+85-1	1963-1968	Alles	GSuccess[15]	kuendigen\_set1\_6[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kuendigen\_set1\_6[15]	_	_	_	_	_	false[158]	Int[158]	*[292]	*[292]	*[292]	yn\_4[292]	yesno\_question[292]	openq[292]	*[419]	female[419]	*[419]	speaker:Anna[546]	_	_	parallel|QAP	*|*	89-1[162_158]|86-1[159_158]	
+85-2	1969-1973	gut?	GSuccess[15]	kuendigen\_set1\_6[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kuendigen\_set1\_6[15]	_	_	_	_	_	false[158]	Int[158]	*[292]	*[292]	*[292]	yn\_4[292]	yesno\_question[292]	openq[292]	*[419]	female[419]	*[419]	speaker:Anna[546]	_	_	_	_	_	
+
+#Text=Livia hat das Spiegel-Abo gekündigt
+86-1	1975-1980	Livia	GSuccess[15]	kuendigen\_set1\_6[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kuendigen\_set1\_6[15]	*	*	Subj	*	*	false[159]	Decl[159]	*[293]	kündigen[293]	transitive[293]	*[293]	*[293]	item0[293]	42[420]	female[420]	blj8i1h4sc8jti0m6gcav1c9ek[420]	speaker: YOU[547]	*->86-1	PropNm[86]	explanation|acknowledgement	*|*	88-1[160_159]|87-1[0_159]	
+86-2	1981-1984	hat	GSuccess[15]	kuendigen\_set1\_6[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kuendigen\_set1\_6[15]	_	_	_	_	_	false[159]	Decl[159]	*[293]	kündigen[293]	transitive[293]	*[293]	*[293]	item0[293]	42[420]	female[420]	blj8i1h4sc8jti0m6gcav1c9ek[420]	speaker: YOU[547]	_	_	_	_	_	
+86-3	1985-1988	das	GSuccess[15]	kuendigen\_set1\_6[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kuendigen\_set1\_6[15]	*[64]	*[64]	object[64]	*[64]	*[64]	false[159]	Decl[159]	*[293]	kündigen[293]	transitive[293]	*[293]	*[293]	item0[293]	42[420]	female[420]	blj8i1h4sc8jti0m6gcav1c9ek[420]	speaker: YOU[547]	*->44-1	DefNP[44]	_	_	_	
+86-4	1989-2000	Spiegel-Abo	GSuccess[15]	kuendigen\_set1\_6[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kuendigen\_set1\_6[15]	*[64]	*[64]	object[64]	*[64]	*[64]	false[159]	Decl[159]	*[293]	kündigen[293]	transitive[293]	*[293]	*[293]	item0[293]	42[420]	female[420]	blj8i1h4sc8jti0m6gcav1c9ek[420]	speaker: YOU[547]	*->44-1	DefNP[44]	_	_	_	
+86-5	2001-2010	gekündigt	GSuccess[15]	kuendigen\_set1\_6[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kuendigen\_set1\_6[15]	_	_	_	_	_	false[159]	Decl[159]	*[293]	kündigen[293]	transitive[293]	*[293]	*[293]	item0[293]	42[420]	female[420]	blj8i1h4sc8jti0m6gcav1c9ek[420]	speaker: YOU[547]	_	_	_	_	_	
+
+#Text=Oh!
+87-1	2012-2015	Oh!	GSuccess[15]	kuendigen\_set1\_6[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kuendigen\_set1\_6[15]	_	_	_	_	_	false	NA	oh\_exclamation\_17	*	*	*	*	feedback	*	female	*	speaker:Anna	_	_	_	_	_	
+
+#Text=Bringt ja nix <BR> wenn sie nie Zeit zum Lesen findet.
+88-1	2017-2023	Bringt	GSuccess[15]	kuendigen\_set1\_6[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kuendigen\_set1\_6[15]	3	*	*	*	singular	false[160]	Decl[160]	*[294]	*[294]	*[294]	*[294]	*[294]	input1[294]	42[421]	female[421]	blj8i1h4sc8jti0m6gcav1c9ek[421]	speaker: YOU[548]	*->44-2	zero[44]	explanation	*	88-5[161_160]	
+88-2	2024-2026	ja	GSuccess[15]	kuendigen\_set1\_6[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kuendigen\_set1\_6[15]	_	_	_	_	_	false[160]	Decl[160]	*[294]	*[294]	*[294]	*[294]	*[294]	input1[294]	42[421]	female[421]	blj8i1h4sc8jti0m6gcav1c9ek[421]	speaker: YOU[548]	_	_	_	_	_	
+88-3	2027-2030	nix	GSuccess[15]	kuendigen\_set1\_6[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kuendigen\_set1\_6[15]	_	_	_	_	_	false[160]	Decl[160]	*[294]	*[294]	*[294]	*[294]	*[294]	input1[294]	42[421]	female[421]	blj8i1h4sc8jti0m6gcav1c9ek[421]	speaker: YOU[548]	_	_	_	_	_	
+88-4	2031-2035	<BR>	GSuccess[15]	kuendigen\_set1\_6[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kuendigen\_set1\_6[15]	_	_	_	_	_	_	_	*[294]	*[294]	*[294]	*[294]	*[294]	input1[294]	42[421]	female[421]	blj8i1h4sc8jti0m6gcav1c9ek[421]	speaker: YOU[548]	_	_	_	_	_	
+88-5	2036-2040	wenn	GSuccess[15]	kuendigen\_set1\_6[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kuendigen\_set1\_6[15]	_	_	_	_	_	false[161]	NA[161]	*[294]	*[294]	*[294]	*[294]	*[294]	input1[294]	42[421]	female[421]	blj8i1h4sc8jti0m6gcav1c9ek[421]	speaker: YOU[548]	_	_	_	_	_	
+88-6	2041-2044	sie	GSuccess[15]	kuendigen\_set1\_6[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kuendigen\_set1\_6[15]	3	*	Subj	*	singular	false[161]	NA[161]	*[294]	*[294]	*[294]	*[294]	*[294]	input1[294]	42[421]	female[421]	blj8i1h4sc8jti0m6gcav1c9ek[421]	speaker: YOU[548]	*->86-2	PerPron[86]	_	_	_	
+88-7	2045-2048	nie	GSuccess[15]	kuendigen\_set1\_6[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kuendigen\_set1\_6[15]	_	_	_	_	_	false[161]	NA[161]	*[294]	*[294]	*[294]	*[294]	*[294]	input1[294]	42[421]	female[421]	blj8i1h4sc8jti0m6gcav1c9ek[421]	speaker: YOU[548]	_	_	_	_	_	
+88-8	2049-2053	Zeit	GSuccess[15]	kuendigen\_set1\_6[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kuendigen\_set1\_6[15]	_	_	_	_	_	false[161]	NA[161]	*[294]	*[294]	*[294]	*[294]	*[294]	input1[294]	42[421]	female[421]	blj8i1h4sc8jti0m6gcav1c9ek[421]	speaker: YOU[548]	_	_	_	_	_	
+88-9	2054-2057	zum	GSuccess[15]	kuendigen\_set1\_6[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kuendigen\_set1\_6[15]	_	_	_	_	_	false[161]	NA[161]	*[294]	*[294]	*[294]	*[294]	*[294]	input1[294]	42[421]	female[421]	blj8i1h4sc8jti0m6gcav1c9ek[421]	speaker: YOU[548]	_	_	_	_	_	
+88-10	2058-2063	Lesen	GSuccess[15]	kuendigen\_set1\_6[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kuendigen\_set1\_6[15]	_	_	_	_	_	false[161]	NA[161]	*[294]	*[294]	*[294]	*[294]	*[294]	input1[294]	42[421]	female[421]	blj8i1h4sc8jti0m6gcav1c9ek[421]	speaker: YOU[548]	_	_	_	_	_	
+88-11	2064-2071	findet.	GSuccess[15]	kuendigen\_set1\_6[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kuendigen\_set1\_6[15]	_	_	_	_	_	false[161]	NA[161]	*[294]	*[294]	*[294]	*[294]	*[294]	input1[294]	42[421]	female[421]	blj8i1h4sc8jti0m6gcav1c9ek[421]	speaker: YOU[548]	_	_	_	_	_	
+
+#Text=Was gibt es bei Dir Neues?
+89-1	2073-2076	Was	GSuccess[15]	kuendigen\_set1\_6[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kuendigen\_set1\_6[15]	_	_	_	_	_	false[162]	Int[162]	*[295]	*[295]	*[295]	*[295]	*[295]	input2[295]	42[422]	female[422]	blj8i1h4sc8jti0m6gcav1c9ek[422]	speaker: YOU[549]	_	_	_	_	_	
+89-2	2077-2081	gibt	GSuccess[15]	kuendigen\_set1\_6[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kuendigen\_set1\_6[15]	_	_	_	_	_	false[162]	Int[162]	*[295]	*[295]	*[295]	*[295]	*[295]	input2[295]	42[422]	female[422]	blj8i1h4sc8jti0m6gcav1c9ek[422]	speaker: YOU[549]	_	_	_	_	_	
+89-3	2082-2084	es	GSuccess[15]	kuendigen\_set1\_6[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kuendigen\_set1\_6[15]	_	_	_	_	_	false[162]	Int[162]	*[295]	*[295]	*[295]	*[295]	*[295]	input2[295]	42[422]	female[422]	blj8i1h4sc8jti0m6gcav1c9ek[422]	speaker: YOU[549]	_	_	_	_	_	
+89-4	2085-2088	bei	GSuccess[15]	kuendigen\_set1\_6[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kuendigen\_set1\_6[15]	_	_	_	_	_	false[162]	Int[162]	*[295]	*[295]	*[295]	*[295]	*[295]	input2[295]	42[422]	female[422]	blj8i1h4sc8jti0m6gcav1c9ek[422]	speaker: YOU[549]	_	_	_	_	_	
+89-5	2089-2092	Dir	GSuccess[15]	kuendigen\_set1\_6[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kuendigen\_set1\_6[15]	2	*	PrepObj	*	singular	false[162]	Int[162]	*[295]	*[295]	*[295]	*[295]	*[295]	input2[295]	42[422]	female[422]	blj8i1h4sc8jti0m6gcav1c9ek[422]	speaker: YOU[549]	*->52-1	PerPron[52]	_	_	_	
+89-6	2093-2099	Neues?	GSuccess[15]	kuendigen\_set1\_6[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kuendigen\_set1\_6[15]	_	_	_	_	_	false[162]	Int[162]	*[295]	*[295]	*[295]	*[295]	*[295]	input2[295]	42[422]	female[422]	blj8i1h4sc8jti0m6gcav1c9ek[422]	speaker: YOU[549]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+90-1	2101-2116	END_OF_DOCUMENT	GSuccess[15]	kuendigen\_set1\_6[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kuendigen\_set1\_6[15]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+91-1	2118-2123	Alles	GSuccess[16]	kuendigen\_set1\_6[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-kuendigen\_set1\_6[16]	_	_	_	_	_	false[163]	Int[163]	*[296]	*[296]	*[296]	yn\_4[296]	yesno\_question[296]	openq[296]	*[423]	female[423]	*[423]	speaker:Anna[550]	_	_	QAP	*	92-1[164_163]	
+91-2	2124-2128	gut?	GSuccess[16]	kuendigen\_set1\_6[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-kuendigen\_set1\_6[16]	_	_	_	_	_	false[163]	Int[163]	*[296]	*[296]	*[296]	yn\_4[296]	yesno\_question[296]	openq[296]	*[423]	female[423]	*[423]	speaker:Anna[550]	_	_	_	_	_	
+
+#Text=Livia hat das Spiegel-Abo gekündigt
+92-1	2130-2135	Livia	GSuccess[16]	kuendigen\_set1\_6[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-kuendigen\_set1\_6[16]	*	*	Subj	*	*	false[164]	Decl[164]	*[297]	kündigen[297]	transitive[297]	*[297]	*[297]	item0[297]	42[424]	female[424]	h05ingrcngdnasp07727nvoq59[424]	speaker: YOU[551]	*->73-1	PropNm[73]	explanation|acknowledgement	*|*	94-1[165_164]|93-1[0_164]	
+92-2	2136-2139	hat	GSuccess[16]	kuendigen\_set1\_6[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-kuendigen\_set1\_6[16]	_	_	_	_	_	false[164]	Decl[164]	*[297]	kündigen[297]	transitive[297]	*[297]	*[297]	item0[297]	42[424]	female[424]	h05ingrcngdnasp07727nvoq59[424]	speaker: YOU[551]	_	_	_	_	_	
+92-3	2140-2143	das	GSuccess[16]	kuendigen\_set1\_6[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-kuendigen\_set1\_6[16]	*[65]	*[65]	object[65]	*[65]	*[65]	false[164]	Decl[164]	*[297]	kündigen[297]	transitive[297]	*[297]	*[297]	item0[297]	42[424]	female[424]	h05ingrcngdnasp07727nvoq59[424]	speaker: YOU[551]	*->11-1	DefNP[11]	_	_	_	
+92-4	2144-2155	Spiegel-Abo	GSuccess[16]	kuendigen\_set1\_6[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-kuendigen\_set1\_6[16]	*[65]	*[65]	object[65]	*[65]	*[65]	false[164]	Decl[164]	*[297]	kündigen[297]	transitive[297]	*[297]	*[297]	item0[297]	42[424]	female[424]	h05ingrcngdnasp07727nvoq59[424]	speaker: YOU[551]	*->11-1	DefNP[11]	_	_	_	
+92-5	2156-2165	gekündigt	GSuccess[16]	kuendigen\_set1\_6[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-kuendigen\_set1\_6[16]	_	_	_	_	_	false[164]	Decl[164]	*[297]	kündigen[297]	transitive[297]	*[297]	*[297]	item0[297]	42[424]	female[424]	h05ingrcngdnasp07727nvoq59[424]	speaker: YOU[551]	_	_	_	_	_	
+
+#Text=Oh!
+93-1	2167-2170	Oh!	GSuccess[16]	kuendigen\_set1\_6[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-kuendigen\_set1\_6[16]	_	_	_	_	_	false	NA	oh\_exclamation\_17	*	*	*	*	feedback	*	female	*	speaker:Anna	_	_	_	_	_	
+
+#Text=War wohl doch nicht so ihr Genre
+94-1	2172-2175	War	GSuccess[16]	kuendigen\_set1\_6[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-kuendigen\_set1\_6[16]	3	*	*	*	singular	false[165]	Decl[165]	*[298]	*[298]	*[298]	*[298]	*[298]	input1[298]	42[425]	female[425]	h05ingrcngdnasp07727nvoq59[425]	speaker: YOU[552]	*->11-2	zero[11]	result	*	95-1[166_165]	
+94-2	2176-2180	wohl	GSuccess[16]	kuendigen\_set1\_6[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-kuendigen\_set1\_6[16]	_	_	_	_	_	false[165]	Decl[165]	*[298]	*[298]	*[298]	*[298]	*[298]	input1[298]	42[425]	female[425]	h05ingrcngdnasp07727nvoq59[425]	speaker: YOU[552]	_	_	_	_	_	
+94-3	2181-2185	doch	GSuccess[16]	kuendigen\_set1\_6[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-kuendigen\_set1\_6[16]	_	_	_	_	_	false[165]	Decl[165]	*[298]	*[298]	*[298]	*[298]	*[298]	input1[298]	42[425]	female[425]	h05ingrcngdnasp07727nvoq59[425]	speaker: YOU[552]	_	_	_	_	_	
+94-4	2186-2191	nicht	GSuccess[16]	kuendigen\_set1\_6[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-kuendigen\_set1\_6[16]	_	_	_	_	_	false[165]	Decl[165]	*[298]	*[298]	*[298]	*[298]	*[298]	input1[298]	42[425]	female[425]	h05ingrcngdnasp07727nvoq59[425]	speaker: YOU[552]	_	_	_	_	_	
+94-5	2192-2194	so	GSuccess[16]	kuendigen\_set1\_6[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-kuendigen\_set1\_6[16]	_	_	_	_	_	false[165]	Decl[165]	*[298]	*[298]	*[298]	*[298]	*[298]	input1[298]	42[425]	female[425]	h05ingrcngdnasp07727nvoq59[425]	speaker: YOU[552]	_	_	_	_	_	
+94-6	2195-2198	ihr	GSuccess[16]	kuendigen\_set1\_6[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-kuendigen\_set1\_6[16]	3	*	IndirObj	*	singular	false[165]	Decl[165]	*[298]	*[298]	*[298]	*[298]	*[298]	input1[298]	42[425]	female[425]	h05ingrcngdnasp07727nvoq59[425]	speaker: YOU[552]	*->107-1|*->73-2	DefNP[107]|PossePron[73]	_	_	_	
+94-7	2199-2204	Genre	GSuccess[16]	kuendigen\_set1\_6[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-kuendigen\_set1\_6[16]	_	_	_	_	_	false[165]	Decl[165]	*[298]	*[298]	*[298]	*[298]	*[298]	input1[298]	42[425]	female[425]	h05ingrcngdnasp07727nvoq59[425]	speaker: YOU[552]	*->107-1	DefNP[107]	_	_	_	
+
+#Text=Sie will wieder Fit for fun abonnieren
+95-1	2206-2209	Sie	GSuccess[16]	kuendigen\_set1\_6[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-kuendigen\_set1\_6[16]	3	*	Subj	*	singular	false[166]	Decl[166]	*[299]	*[299]	*[299]	*[299]	*[299]	input2[299]	42[426]	female[426]	h05ingrcngdnasp07727nvoq59[426]	speaker: YOU[553]	*->73-3	PerPron[73]	_	_	_	
+95-2	2210-2214	will	GSuccess[16]	kuendigen\_set1\_6[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-kuendigen\_set1\_6[16]	_	_	_	_	_	false[166]	Decl[166]	*[299]	*[299]	*[299]	*[299]	*[299]	input2[299]	42[426]	female[426]	h05ingrcngdnasp07727nvoq59[426]	speaker: YOU[553]	_	_	_	_	_	
+95-3	2215-2221	wieder	GSuccess[16]	kuendigen\_set1\_6[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-kuendigen\_set1\_6[16]	_	_	_	_	_	false[166]	Decl[166]	*[299]	*[299]	*[299]	*[299]	*[299]	input2[299]	42[426]	female[426]	h05ingrcngdnasp07727nvoq59[426]	speaker: YOU[553]	_	_	_	_	_	
+95-4	2222-2225	Fit	GSuccess[16]	kuendigen\_set1\_6[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-kuendigen\_set1\_6[16]	_	_	_	_	_	false[166]	Decl[166]	*[299]	*[299]	*[299]	*[299]	*[299]	input2[299]	42[426]	female[426]	h05ingrcngdnasp07727nvoq59[426]	speaker: YOU[553]	*->29-1	PropNm[29]	_	_	_	
+95-5	2226-2229	for	GSuccess[16]	kuendigen\_set1\_6[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-kuendigen\_set1\_6[16]	_	_	_	_	_	false[166]	Decl[166]	*[299]	*[299]	*[299]	*[299]	*[299]	input2[299]	42[426]	female[426]	h05ingrcngdnasp07727nvoq59[426]	speaker: YOU[553]	*->29-1	PropNm[29]	_	_	_	
+95-6	2230-2233	fun	GSuccess[16]	kuendigen\_set1\_6[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-kuendigen\_set1\_6[16]	_	_	_	_	_	false[166]	Decl[166]	*[299]	*[299]	*[299]	*[299]	*[299]	input2[299]	42[426]	female[426]	h05ingrcngdnasp07727nvoq59[426]	speaker: YOU[553]	*->29-1	PropNm[29]	_	_	_	
+95-7	2234-2244	abonnieren	GSuccess[16]	kuendigen\_set1\_6[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-kuendigen\_set1\_6[16]	_	_	_	_	_	false[166]	Decl[166]	*[299]	*[299]	*[299]	*[299]	*[299]	input2[299]	42[426]	female[426]	h05ingrcngdnasp07727nvoq59[426]	speaker: YOU[553]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+96-1	2246-2261	END_OF_DOCUMENT	GSuccess[16]	kuendigen\_set1\_6[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-kuendigen\_set1\_6[16]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+97-1	2263-2268	Alles	GSuccess[17]	kuendigen\_set1\_6[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kuendigen\_set1\_6[17]	_	_	_	_	_	false[167]	Int[167]	*[300]	*[300]	*[300]	yn\_4[300]	yesno\_question[300]	openq[300]	*[427]	female[427]	*[427]	speaker:Anna[554]	_	_	QAP	*	98-1[168_167]	
+97-2	2269-2273	gut?	GSuccess[17]	kuendigen\_set1\_6[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kuendigen\_set1\_6[17]	_	_	_	_	_	false[167]	Int[167]	*[300]	*[300]	*[300]	yn\_4[300]	yesno\_question[300]	openq[300]	*[427]	female[427]	*[427]	speaker:Anna[554]	_	_	_	_	_	
+
+#Text=Livia hat das Spiegel-Abo gekündigt
+98-1	2275-2280	Livia	GSuccess[17]	kuendigen\_set1\_6[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kuendigen\_set1\_6[17]	*	*	Subj	*	*	false[168]	Decl[168]	*[301]	kündigen[301]	transitive[301]	*[301]	*[301]	item0[301]	42[428]	male[428]	jkqc35grurqg6r29efakrmibd9[428]	speaker: YOU[555]	*->68-1|*->99-1	clause[68]|PropNm[99]	explanation|explanation|elaboration|acknowledgement	*|*|*|*	101-1[170_168]|101-6[171_168]|100-3[169_168]|99-1[0_168]	
+98-2	2281-2284	hat	GSuccess[17]	kuendigen\_set1\_6[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kuendigen\_set1\_6[17]	_	_	_	_	_	false[168]	Decl[168]	*[301]	kündigen[301]	transitive[301]	*[301]	*[301]	item0[301]	42[428]	male[428]	jkqc35grurqg6r29efakrmibd9[428]	speaker: YOU[555]	*->68-1	clause[68]	_	_	_	
+98-3	2285-2288	das	GSuccess[17]	kuendigen\_set1\_6[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kuendigen\_set1\_6[17]	*[66]	*[66]	object[66]	*[66]	*[66]	false[168]	Decl[168]	*[301]	kündigen[301]	transitive[301]	*[301]	*[301]	item0[301]	42[428]	male[428]	jkqc35grurqg6r29efakrmibd9[428]	speaker: YOU[555]	*->68-1|*->50-1	clause[68]|DefNP[50]	_	_	_	
+98-4	2289-2300	Spiegel-Abo	GSuccess[17]	kuendigen\_set1\_6[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kuendigen\_set1\_6[17]	*[66]	*[66]	object[66]	*[66]	*[66]	false[168]	Decl[168]	*[301]	kündigen[301]	transitive[301]	*[301]	*[301]	item0[301]	42[428]	male[428]	jkqc35grurqg6r29efakrmibd9[428]	speaker: YOU[555]	*->68-1|*->50-1	clause[68]|DefNP[50]	_	_	_	
+98-5	2301-2310	gekündigt	GSuccess[17]	kuendigen\_set1\_6[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kuendigen\_set1\_6[17]	_	_	_	_	_	false[168]	Decl[168]	*[301]	kündigen[301]	transitive[301]	*[301]	*[301]	item0[301]	42[428]	male[428]	jkqc35grurqg6r29efakrmibd9[428]	speaker: YOU[555]	*->68-1	clause[68]	_	_	_	
+
+#Text=Oh!
+99-1	2312-2315	Oh!	GSuccess[17]	kuendigen\_set1\_6[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kuendigen\_set1\_6[17]	_	_	_	_	_	false	NA	oh\_exclamation\_17	*	*	*	*	feedback	*	female	*	speaker:Anna	_	_	parallel|acknowledgement	*|*	100-3[169_0]|100-1	
+
+#Text=Ja <BR> ich finde es auch schade
+100-1	2317-2319	Ja	GSuccess[17]	kuendigen\_set1\_6[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kuendigen\_set1\_6[17]	_	_	_	_	_	false	NA	*[302]	*[302]	*[302]	*[302]	*[302]	input1[302]	42[429]	male[429]	jkqc35grurqg6r29efakrmibd9[429]	speaker: YOU[556]	_	_	_	_	_	
+100-2	2320-2324	<BR>	GSuccess[17]	kuendigen\_set1\_6[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kuendigen\_set1\_6[17]	_	_	_	_	_	_	_	*[302]	*[302]	*[302]	*[302]	*[302]	input1[302]	42[429]	male[429]	jkqc35grurqg6r29efakrmibd9[429]	speaker: YOU[556]	_	_	_	_	_	
+100-3	2325-2328	ich	GSuccess[17]	kuendigen\_set1\_6[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kuendigen\_set1\_6[17]	1	*	Subj	*	singular	false[169]	Decl[169]	*[302]	*[302]	*[302]	*[302]	*[302]	input1[302]	42[429]	male[429]	jkqc35grurqg6r29efakrmibd9[429]	speaker: YOU[556]	*->54-1	PerPron[54]	contrast	*	101-1[170_169]	
+100-4	2329-2334	finde	GSuccess[17]	kuendigen\_set1\_6[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kuendigen\_set1\_6[17]	_	_	_	_	_	false[169]	Decl[169]	*[302]	*[302]	*[302]	*[302]	*[302]	input1[302]	42[429]	male[429]	jkqc35grurqg6r29efakrmibd9[429]	speaker: YOU[556]	_	_	_	_	_	
+100-5	2335-2337	es	GSuccess[17]	kuendigen\_set1\_6[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kuendigen\_set1\_6[17]	3	*	DirObj	*	singular	false[169]	Decl[169]	*[302]	*[302]	*[302]	*[302]	*[302]	input1[302]	42[429]	male[429]	jkqc35grurqg6r29efakrmibd9[429]	speaker: YOU[556]	*->68-2	PerPron[68]	_	_	_	
+100-6	2338-2342	auch	GSuccess[17]	kuendigen\_set1\_6[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kuendigen\_set1\_6[17]	_	_	_	_	_	false[169]	Decl[169]	*[302]	*[302]	*[302]	*[302]	*[302]	input1[302]	42[429]	male[429]	jkqc35grurqg6r29efakrmibd9[429]	speaker: YOU[556]	_	_	_	_	_	
+100-7	2343-2349	schade	GSuccess[17]	kuendigen\_set1\_6[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kuendigen\_set1\_6[17]	_	_	_	_	_	false[169]	Decl[169]	*[302]	*[302]	*[302]	*[302]	*[302]	input1[302]	42[429]	male[429]	jkqc35grurqg6r29efakrmibd9[429]	speaker: YOU[556]	_	_	_	_	_	
+
+#Text=Aber es war doch teuer und wir sind nicht immer zum Lesen gekommen
+101-1	2351-2355	Aber	GSuccess[17]	kuendigen\_set1\_6[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kuendigen\_set1\_6[17]	_	_	_	_	_	false[170]	Decl[170]	*[303]	*[303]	*[303]	*[303]	*[303]	input2[303]	42[430]	male[430]	jkqc35grurqg6r29efakrmibd9[430]	speaker: YOU[557]	_	_	parallel	*	101-6[171_170]	
+101-2	2356-2358	es	GSuccess[17]	kuendigen\_set1\_6[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kuendigen\_set1\_6[17]	3	*	Subj	*	singular	false[170]	Decl[170]	*[303]	*[303]	*[303]	*[303]	*[303]	input2[303]	42[430]	male[430]	jkqc35grurqg6r29efakrmibd9[430]	speaker: YOU[557]	*->50-2	PerPron[50]	_	_	_	
+101-3	2359-2362	war	GSuccess[17]	kuendigen\_set1\_6[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kuendigen\_set1\_6[17]	_	_	_	_	_	false[170]	Decl[170]	*[303]	*[303]	*[303]	*[303]	*[303]	input2[303]	42[430]	male[430]	jkqc35grurqg6r29efakrmibd9[430]	speaker: YOU[557]	_	_	_	_	_	
+101-4	2363-2367	doch	GSuccess[17]	kuendigen\_set1\_6[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kuendigen\_set1\_6[17]	_	_	_	_	_	false[170]	Decl[170]	*[303]	*[303]	*[303]	*[303]	*[303]	input2[303]	42[430]	male[430]	jkqc35grurqg6r29efakrmibd9[430]	speaker: YOU[557]	_	_	_	_	_	
+101-5	2368-2373	teuer	GSuccess[17]	kuendigen\_set1\_6[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kuendigen\_set1\_6[17]	_	_	_	_	_	false[170]	Decl[170]	*[303]	*[303]	*[303]	*[303]	*[303]	input2[303]	42[430]	male[430]	jkqc35grurqg6r29efakrmibd9[430]	speaker: YOU[557]	_	_	_	_	_	
+101-6	2374-2377	und	GSuccess[17]	kuendigen\_set1\_6[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kuendigen\_set1\_6[17]	_	_	_	_	_	false[171]	Decl[171]	*[303]	*[303]	*[303]	*[303]	*[303]	input2[303]	42[430]	male[430]	jkqc35grurqg6r29efakrmibd9[430]	speaker: YOU[557]	_	_	_	_	_	
+101-7	2378-2381	wir	GSuccess[17]	kuendigen\_set1\_6[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kuendigen\_set1\_6[17]	1	*	Subj	*	plural	false[171]	Decl[171]	*[303]	*[303]	*[303]	*[303]	*[303]	input2[303]	42[430]	male[430]	jkqc35grurqg6r29efakrmibd9[430]	speaker: YOU[557]	*->9-1	PerPron[9]	_	_	_	
+101-8	2382-2386	sind	GSuccess[17]	kuendigen\_set1\_6[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kuendigen\_set1\_6[17]	_	_	_	_	_	false[171]	Decl[171]	*[303]	*[303]	*[303]	*[303]	*[303]	input2[303]	42[430]	male[430]	jkqc35grurqg6r29efakrmibd9[430]	speaker: YOU[557]	_	_	_	_	_	
+101-9	2387-2392	nicht	GSuccess[17]	kuendigen\_set1\_6[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kuendigen\_set1\_6[17]	_	_	_	_	_	false[171]	Decl[171]	*[303]	*[303]	*[303]	*[303]	*[303]	input2[303]	42[430]	male[430]	jkqc35grurqg6r29efakrmibd9[430]	speaker: YOU[557]	_	_	_	_	_	
+101-10	2393-2398	immer	GSuccess[17]	kuendigen\_set1\_6[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kuendigen\_set1\_6[17]	_	_	_	_	_	false[171]	Decl[171]	*[303]	*[303]	*[303]	*[303]	*[303]	input2[303]	42[430]	male[430]	jkqc35grurqg6r29efakrmibd9[430]	speaker: YOU[557]	_	_	_	_	_	
+101-11	2399-2402	zum	GSuccess[17]	kuendigen\_set1\_6[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kuendigen\_set1\_6[17]	_	_	_	_	_	false[171]	Decl[171]	*[303]	*[303]	*[303]	*[303]	*[303]	input2[303]	42[430]	male[430]	jkqc35grurqg6r29efakrmibd9[430]	speaker: YOU[557]	*->25-1	DefNP[25]	_	_	_	
+101-12	2403-2408	Lesen	GSuccess[17]	kuendigen\_set1\_6[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kuendigen\_set1\_6[17]	_	_	_	_	_	false[171]	Decl[171]	*[303]	*[303]	*[303]	*[303]	*[303]	input2[303]	42[430]	male[430]	jkqc35grurqg6r29efakrmibd9[430]	speaker: YOU[557]	*->25-1	DefNP[25]	_	_	_	
+101-13	2409-2417	gekommen	GSuccess[17]	kuendigen\_set1\_6[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kuendigen\_set1\_6[17]	_	_	_	_	_	false[171]	Decl[171]	*[303]	*[303]	*[303]	*[303]	*[303]	input2[303]	42[430]	male[430]	jkqc35grurqg6r29efakrmibd9[430]	speaker: YOU[557]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+102-1	2419-2434	END_OF_DOCUMENT	GSuccess[17]	kuendigen\_set1\_6[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kuendigen\_set1\_6[17]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+103-1	2436-2441	Alles	GSuccess[18]	kuendigen\_set1\_6[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-kuendigen\_set1\_6[18]	_	_	_	_	_	false[172]	Int[172]	*[304]	*[304]	*[304]	yn\_4[304]	yesno\_question[304]	openq[304]	*[431]	female[431]	*[431]	speaker:Anna[558]	_	_	parallel|QAP	*|*	107-1[175_172]|104-1[173_172]	
+103-2	2442-2446	gut?	GSuccess[18]	kuendigen\_set1\_6[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-kuendigen\_set1\_6[18]	_	_	_	_	_	false[172]	Int[172]	*[304]	*[304]	*[304]	yn\_4[304]	yesno\_question[304]	openq[304]	*[431]	female[431]	*[431]	speaker:Anna[558]	_	_	_	_	_	
+
+#Text=Livia hat das Spiegel-Abo gekündigt
+104-1	2448-2453	Livia	GSuccess[18]	kuendigen\_set1\_6[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-kuendigen\_set1\_6[18]	*	*	Subj	*	*	false[173]	Decl[173]	*[305]	kündigen[305]	transitive[305]	*[305]	*[305]	item0[305]	20[432]	male[432]	lhu26mh95feeqso1qtacqboi3v[432]	speaker: YOU[559]	*->82-1	PropNm[82]	elaboration|acknowledgement	*|*	106-1[174_173]|105-1[0_173]	
+104-2	2454-2457	hat	GSuccess[18]	kuendigen\_set1\_6[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-kuendigen\_set1\_6[18]	_	_	_	_	_	false[173]	Decl[173]	*[305]	kündigen[305]	transitive[305]	*[305]	*[305]	item0[305]	20[432]	male[432]	lhu26mh95feeqso1qtacqboi3v[432]	speaker: YOU[559]	_	_	_	_	_	
+104-3	2458-2461	das	GSuccess[18]	kuendigen\_set1\_6[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-kuendigen\_set1\_6[18]	*[67]	*[67]	object[67]	*[67]	*[67]	false[173]	Decl[173]	*[305]	kündigen[305]	transitive[305]	*[305]	*[305]	item0[305]	20[432]	male[432]	lhu26mh95feeqso1qtacqboi3v[432]	speaker: YOU[559]	*->106-1	DefNP[106]	_	_	_	
+104-4	2462-2473	Spiegel-Abo	GSuccess[18]	kuendigen\_set1\_6[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-kuendigen\_set1\_6[18]	*[67]	*[67]	object[67]	*[67]	*[67]	false[173]	Decl[173]	*[305]	kündigen[305]	transitive[305]	*[305]	*[305]	item0[305]	20[432]	male[432]	lhu26mh95feeqso1qtacqboi3v[432]	speaker: YOU[559]	*->106-1	DefNP[106]	_	_	_	
+104-5	2474-2483	gekündigt	GSuccess[18]	kuendigen\_set1\_6[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-kuendigen\_set1\_6[18]	_	_	_	_	_	false[173]	Decl[173]	*[305]	kündigen[305]	transitive[305]	*[305]	*[305]	item0[305]	20[432]	male[432]	lhu26mh95feeqso1qtacqboi3v[432]	speaker: YOU[559]	_	_	_	_	_	
+
+#Text=Oh!
+105-1	2485-2488	Oh!	GSuccess[18]	kuendigen\_set1\_6[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-kuendigen\_set1\_6[18]	_	_	_	_	_	false	NA	oh\_exclamation\_17	*	*	*	*	feedback	*	female	*	speaker:Anna	_	_	_	_	_	
+
+#Text=Ja endlich.
+106-1	2490-2492	Ja	GSuccess[18]	kuendigen\_set1\_6[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-kuendigen\_set1\_6[18]	_	_	_	_	_	false[174]	NA[174]	*[306]	*[306]	*[306]	*[306]	*[306]	input1[306]	20[433]	male[433]	lhu26mh95feeqso1qtacqboi3v[433]	speaker: YOU[560]	_	_	_	_	_	
+106-2	2493-2501	endlich.	GSuccess[18]	kuendigen\_set1\_6[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-kuendigen\_set1\_6[18]	_	_	_	_	_	false[174]	NA[174]	*[306]	*[306]	*[306]	*[306]	*[306]	input1[306]	20[433]	male[433]	lhu26mh95feeqso1qtacqboi3v[433]	speaker: YOU[560]	_	_	_	_	_	
+
+#Text=Bei dir auch alles gut?
+107-1	2503-2506	Bei	GSuccess[18]	kuendigen\_set1\_6[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-kuendigen\_set1\_6[18]	_	_	_	_	_	false[175]	Decl[175]	*[307]	*[307]	*[307]	*[307]	*[307]	input2[307]	20[434]	male[434]	lhu26mh95feeqso1qtacqboi3v[434]	speaker: YOU[561]	_	_	_	_	_	
+107-2	2507-2510	dir	GSuccess[18]	kuendigen\_set1\_6[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-kuendigen\_set1\_6[18]	2	*	PrepObj	*	singular	false[175]	Decl[175]	*[307]	*[307]	*[307]	*[307]	*[307]	input2[307]	20[434]	male[434]	lhu26mh95feeqso1qtacqboi3v[434]	speaker: YOU[561]	*->58-1	PerPron[58]	_	_	_	
+107-3	2511-2515	auch	GSuccess[18]	kuendigen\_set1\_6[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-kuendigen\_set1\_6[18]	_	_	_	_	_	false[175]	Decl[175]	*[307]	*[307]	*[307]	*[307]	*[307]	input2[307]	20[434]	male[434]	lhu26mh95feeqso1qtacqboi3v[434]	speaker: YOU[561]	_	_	_	_	_	
+107-4	2516-2521	alles	GSuccess[18]	kuendigen\_set1\_6[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-kuendigen\_set1\_6[18]	_	_	_	_	_	false[175]	Decl[175]	*[307]	*[307]	*[307]	*[307]	*[307]	input2[307]	20[434]	male[434]	lhu26mh95feeqso1qtacqboi3v[434]	speaker: YOU[561]	_	_	_	_	_	
+107-5	2522-2526	gut?	GSuccess[18]	kuendigen\_set1\_6[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-kuendigen\_set1\_6[18]	_	_	_	_	_	false[175]	Decl[175]	*[307]	*[307]	*[307]	*[307]	*[307]	input2[307]	20[434]	male[434]	lhu26mh95feeqso1qtacqboi3v[434]	speaker: YOU[561]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+108-1	2528-2543	END_OF_DOCUMENT	GSuccess[18]	kuendigen\_set1\_6[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-kuendigen\_set1\_6[18]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+109-1	2545-2550	Alles	GSuccess[19]	kuendigen\_set1\_6[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kuendigen\_set1\_6[19]	_	_	_	_	_	false[176]	Int[176]	*[308]	*[308]	*[308]	yn\_4[308]	yesno\_question[308]	openq[308]	*[435]	female[435]	*[435]	speaker:Anna[562]	_	_	QAP	*	110-1[177_176]	
+109-2	2551-2555	gut?	GSuccess[19]	kuendigen\_set1\_6[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kuendigen\_set1\_6[19]	_	_	_	_	_	false[176]	Int[176]	*[308]	*[308]	*[308]	yn\_4[308]	yesno\_question[308]	openq[308]	*[435]	female[435]	*[435]	speaker:Anna[562]	_	_	_	_	_	
+
+#Text=Livia hat das Spiegel-Abo gekündigt
+110-1	2557-2562	Livia	GSuccess[19]	kuendigen\_set1\_6[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kuendigen\_set1\_6[19]	*	*	Subj	*	*	false[177]	Decl[177]	*[309]	kündigen[309]	transitive[309]	*[309]	*[309]	item0[309]	21[436]	male[436]	tc4i3rsgsa9bl8tesf4679lok2[436]	speaker: YOU[563]	*->114-1|*->94-1	clause[114]|PropNm[94]	elaboration|elaboration|acknowledgement	*|*|*	112-1[178_177]|113-8[180_177]|111-1[0_177]	
+110-2	2563-2566	hat	GSuccess[19]	kuendigen\_set1\_6[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kuendigen\_set1\_6[19]	_	_	_	_	_	false[177]	Decl[177]	*[309]	kündigen[309]	transitive[309]	*[309]	*[309]	item0[309]	21[436]	male[436]	tc4i3rsgsa9bl8tesf4679lok2[436]	speaker: YOU[563]	*->114-1	clause[114]	_	_	_	
+110-3	2567-2570	das	GSuccess[19]	kuendigen\_set1\_6[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kuendigen\_set1\_6[19]	*[68]	*[68]	object[68]	*[68]	*[68]	false[177]	Decl[177]	*[309]	kündigen[309]	transitive[309]	*[309]	*[309]	item0[309]	21[436]	male[436]	tc4i3rsgsa9bl8tesf4679lok2[436]	speaker: YOU[563]	*->114-1|*->98-1	clause[114]|DefNP[98]	_	_	_	
+110-4	2571-2582	Spiegel-Abo	GSuccess[19]	kuendigen\_set1\_6[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kuendigen\_set1\_6[19]	*[68]	*[68]	object[68]	*[68]	*[68]	false[177]	Decl[177]	*[309]	kündigen[309]	transitive[309]	*[309]	*[309]	item0[309]	21[436]	male[436]	tc4i3rsgsa9bl8tesf4679lok2[436]	speaker: YOU[563]	*->114-1|*->98-1	clause[114]|DefNP[98]	_	_	_	
+110-5	2583-2592	gekündigt	GSuccess[19]	kuendigen\_set1\_6[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kuendigen\_set1\_6[19]	_	_	_	_	_	false[177]	Decl[177]	*[309]	kündigen[309]	transitive[309]	*[309]	*[309]	item0[309]	21[436]	male[436]	tc4i3rsgsa9bl8tesf4679lok2[436]	speaker: YOU[563]	*->114-1	clause[114]	_	_	_	
+
+#Text=Oh!
+111-1	2594-2597	Oh!	GSuccess[19]	kuendigen\_set1\_6[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kuendigen\_set1\_6[19]	_	_	_	_	_	false	NA	oh\_exclamation\_17	*	*	*	*	feedback	*	female	*	speaker:Anna	_	_	_	_	_	
+
+#Text=Ja es ist etwas ärgerlich für mich.
+112-1	2599-2601	Ja	GSuccess[19]	kuendigen\_set1\_6[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kuendigen\_set1\_6[19]	_	_	_	_	_	false[178]	Decl[178]	*[310]	*[310]	*[310]	*[310]	*[310]	input1[310]	21[437]	male[437]	tc4i3rsgsa9bl8tesf4679lok2[437]	speaker: YOU[564]	_	_	contrast	*	113-1[179_178]	
+112-2	2602-2604	es	GSuccess[19]	kuendigen\_set1\_6[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kuendigen\_set1\_6[19]	3	*	Subj	*	singular	false[178]	Decl[178]	*[310]	*[310]	*[310]	*[310]	*[310]	input1[310]	21[437]	male[437]	tc4i3rsgsa9bl8tesf4679lok2[437]	speaker: YOU[564]	*->114-2	PerPron[114]	_	_	_	
+112-3	2605-2608	ist	GSuccess[19]	kuendigen\_set1\_6[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kuendigen\_set1\_6[19]	_	_	_	_	_	false[178]	Decl[178]	*[310]	*[310]	*[310]	*[310]	*[310]	input1[310]	21[437]	male[437]	tc4i3rsgsa9bl8tesf4679lok2[437]	speaker: YOU[564]	_	_	_	_	_	
+112-4	2609-2614	etwas	GSuccess[19]	kuendigen\_set1\_6[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kuendigen\_set1\_6[19]	_	_	_	_	_	false[178]	Decl[178]	*[310]	*[310]	*[310]	*[310]	*[310]	input1[310]	21[437]	male[437]	tc4i3rsgsa9bl8tesf4679lok2[437]	speaker: YOU[564]	_	_	_	_	_	
+112-5	2615-2624	ärgerlich	GSuccess[19]	kuendigen\_set1\_6[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kuendigen\_set1\_6[19]	_	_	_	_	_	false[178]	Decl[178]	*[310]	*[310]	*[310]	*[310]	*[310]	input1[310]	21[437]	male[437]	tc4i3rsgsa9bl8tesf4679lok2[437]	speaker: YOU[564]	_	_	_	_	_	
+112-6	2625-2628	für	GSuccess[19]	kuendigen\_set1\_6[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kuendigen\_set1\_6[19]	_	_	_	_	_	false[178]	Decl[178]	*[310]	*[310]	*[310]	*[310]	*[310]	input1[310]	21[437]	male[437]	tc4i3rsgsa9bl8tesf4679lok2[437]	speaker: YOU[564]	_	_	_	_	_	
+112-7	2629-2634	mich.	GSuccess[19]	kuendigen\_set1\_6[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kuendigen\_set1\_6[19]	1	*	PrepObj	*	singular	false[178]	Decl[178]	*[310]	*[310]	*[310]	*[310]	*[310]	input1[310]	21[437]	male[437]	tc4i3rsgsa9bl8tesf4679lok2[437]	speaker: YOU[564]	*->6-1	PerPron[6]	_	_	_	
+
+#Text=Aber sie hat es nicht wirklich genutzt also kann ichs verstehen
+113-1	2636-2640	Aber	GSuccess[19]	kuendigen\_set1\_6[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kuendigen\_set1\_6[19]	_	_	_	_	_	false[179]	Decl[179]	*[311]	*[311]	*[311]	*[311]	*[311]	input2[311]	21[438]	male[438]	tc4i3rsgsa9bl8tesf4679lok2[438]	speaker: YOU[565]	_	_	result	*	113-8[180_179]	
+113-2	2641-2644	sie	GSuccess[19]	kuendigen\_set1\_6[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kuendigen\_set1\_6[19]	3	*	Subj	*	singular	false[179]	Decl[179]	*[311]	*[311]	*[311]	*[311]	*[311]	input2[311]	21[438]	male[438]	tc4i3rsgsa9bl8tesf4679lok2[438]	speaker: YOU[565]	*->94-2	PerPron[94]	_	_	_	
+113-3	2645-2648	hat	GSuccess[19]	kuendigen\_set1\_6[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kuendigen\_set1\_6[19]	_	_	_	_	_	false[179]	Decl[179]	*[311]	*[311]	*[311]	*[311]	*[311]	input2[311]	21[438]	male[438]	tc4i3rsgsa9bl8tesf4679lok2[438]	speaker: YOU[565]	_	_	_	_	_	
+113-4	2649-2651	es	GSuccess[19]	kuendigen\_set1\_6[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kuendigen\_set1\_6[19]	3	*	DirObj	*	singular	false[179]	Decl[179]	*[311]	*[311]	*[311]	*[311]	*[311]	input2[311]	21[438]	male[438]	tc4i3rsgsa9bl8tesf4679lok2[438]	speaker: YOU[565]	*->98-2	PerPron[98]	_	_	_	
+113-5	2652-2657	nicht	GSuccess[19]	kuendigen\_set1\_6[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kuendigen\_set1\_6[19]	_	_	_	_	_	false[179]	Decl[179]	*[311]	*[311]	*[311]	*[311]	*[311]	input2[311]	21[438]	male[438]	tc4i3rsgsa9bl8tesf4679lok2[438]	speaker: YOU[565]	_	_	_	_	_	
+113-6	2658-2666	wirklich	GSuccess[19]	kuendigen\_set1\_6[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kuendigen\_set1\_6[19]	_	_	_	_	_	false[179]	Decl[179]	*[311]	*[311]	*[311]	*[311]	*[311]	input2[311]	21[438]	male[438]	tc4i3rsgsa9bl8tesf4679lok2[438]	speaker: YOU[565]	_	_	_	_	_	
+113-7	2667-2674	genutzt	GSuccess[19]	kuendigen\_set1\_6[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kuendigen\_set1\_6[19]	_	_	_	_	_	false[179]	Decl[179]	*[311]	*[311]	*[311]	*[311]	*[311]	input2[311]	21[438]	male[438]	tc4i3rsgsa9bl8tesf4679lok2[438]	speaker: YOU[565]	_	_	_	_	_	
+113-8	2675-2679	also	GSuccess[19]	kuendigen\_set1\_6[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kuendigen\_set1\_6[19]	_	_	_	_	_	false[180]	Decl[180]	*[311]	*[311]	*[311]	*[311]	*[311]	input2[311]	21[438]	male[438]	tc4i3rsgsa9bl8tesf4679lok2[438]	speaker: YOU[565]	_	_	_	_	_	
+113-9	2680-2684	kann	GSuccess[19]	kuendigen\_set1\_6[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kuendigen\_set1\_6[19]	_	_	_	_	_	false[180]	Decl[180]	*[311]	*[311]	*[311]	*[311]	*[311]	input2[311]	21[438]	male[438]	tc4i3rsgsa9bl8tesf4679lok2[438]	speaker: YOU[565]	_	_	_	_	_	
+113-10	2685-2689	ichs	GSuccess[19]	kuendigen\_set1\_6[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kuendigen\_set1\_6[19]	1[69]|3[70]	*[69]|*[70]	Subj[69]|*[70]	*[69]|*[70]	singular[69]|singular[70]	false[180]	Decl[180]	*[311]	*[311]	*[311]	*[311]	*[311]	input2[311]	21[438]	male[438]	tc4i3rsgsa9bl8tesf4679lok2[438]	speaker: YOU[565]	*->6-2|*->114-3	PerPron[6]|zero[114]	_	_	_	
+113-11	2690-2699	verstehen	GSuccess[19]	kuendigen\_set1\_6[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kuendigen\_set1\_6[19]	_	_	_	_	_	false[180]	Decl[180]	*[311]	*[311]	*[311]	*[311]	*[311]	input2[311]	21[438]	male[438]	tc4i3rsgsa9bl8tesf4679lok2[438]	speaker: YOU[565]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+114-1	2701-2716	END_OF_DOCUMENT	GSuccess[19]	kuendigen\_set1\_6[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kuendigen\_set1\_6[19]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+115-1	2718-2723	Alles	GSuccess[20]	kuendigen\_set1\_6[20]	latin1[20]	us0adlivem61c2bj5776kudbot-kuendigen\_set1\_6[20]	_	_	_	_	_	false[181]	NA[181]	*[312]	*[312]	*[312]	yn\_4[312]	yesno\_question[312]	openq[312]	*[439]	female[439]	*[439]	speaker:Anna[566]	_	_	QAP	*	116-1[182_181]	
+115-2	2724-2728	gut?	GSuccess[20]	kuendigen\_set1\_6[20]	latin1[20]	us0adlivem61c2bj5776kudbot-kuendigen\_set1\_6[20]	_	_	_	_	_	false[181]	NA[181]	*[312]	*[312]	*[312]	yn\_4[312]	yesno\_question[312]	openq[312]	*[439]	female[439]	*[439]	speaker:Anna[566]	_	_	_	_	_	
+
+#Text=Livia hat das Spiegel-Abo gekündigt
+116-1	2730-2735	Livia	GSuccess[20]	kuendigen\_set1\_6[20]	latin1[20]	us0adlivem61c2bj5776kudbot-kuendigen\_set1\_6[20]	*	*	Subj	*	*	false[182]	Decl[182]	*[313]	kündigen[313]	transitive[313]	*[313]	*[313]	item0[313]	66[440]	male[440]	us0adlivem61c2bj5776kudbot[440]	speaker: YOU[567]	*->105-1	PropNm[105]	explanation|explanation|acknowledgement	*|*|*	118-1[183_182]|119-1[184_182]|117-1[0_182]	
+116-2	2736-2739	hat	GSuccess[20]	kuendigen\_set1\_6[20]	latin1[20]	us0adlivem61c2bj5776kudbot-kuendigen\_set1\_6[20]	_	_	_	_	_	false[182]	Decl[182]	*[313]	kündigen[313]	transitive[313]	*[313]	*[313]	item0[313]	66[440]	male[440]	us0adlivem61c2bj5776kudbot[440]	speaker: YOU[567]	_	_	_	_	_	
+116-3	2740-2743	das	GSuccess[20]	kuendigen\_set1\_6[20]	latin1[20]	us0adlivem61c2bj5776kudbot-kuendigen\_set1\_6[20]	*[71]	*[71]	object[71]	*[71]	*[71]	false[182]	Decl[182]	*[313]	kündigen[313]	transitive[313]	*[313]	*[313]	item0[313]	66[440]	male[440]	us0adlivem61c2bj5776kudbot[440]	speaker: YOU[567]	*->7-1	DefNP[7]	_	_	_	
+116-4	2744-2755	Spiegel-Abo	GSuccess[20]	kuendigen\_set1\_6[20]	latin1[20]	us0adlivem61c2bj5776kudbot-kuendigen\_set1\_6[20]	*[71]	*[71]	object[71]	*[71]	*[71]	false[182]	Decl[182]	*[313]	kündigen[313]	transitive[313]	*[313]	*[313]	item0[313]	66[440]	male[440]	us0adlivem61c2bj5776kudbot[440]	speaker: YOU[567]	*->7-1	DefNP[7]	_	_	_	
+116-5	2756-2765	gekündigt	GSuccess[20]	kuendigen\_set1\_6[20]	latin1[20]	us0adlivem61c2bj5776kudbot-kuendigen\_set1\_6[20]	_	_	_	_	_	false[182]	Decl[182]	*[313]	kündigen[313]	transitive[313]	*[313]	*[313]	item0[313]	66[440]	male[440]	us0adlivem61c2bj5776kudbot[440]	speaker: YOU[567]	_	_	_	_	_	
+
+#Text=Oh!
+117-1	2767-2770	Oh!	GSuccess[20]	kuendigen\_set1\_6[20]	latin1[20]	us0adlivem61c2bj5776kudbot-kuendigen\_set1\_6[20]	_	_	_	_	_	false	NA	oh\_exclamation\_17	*	*	*	*	feedback	*	female	*	speaker:Anna	_	_	_	_	_	
+
+#Text=ja zu teuer
+118-1	2772-2774	ja	GSuccess[20]	kuendigen\_set1\_6[20]	latin1[20]	us0adlivem61c2bj5776kudbot-kuendigen\_set1\_6[20]	_	_	_	_	_	false[183]	NA[183]	*[314]	*[314]	*[314]	*[314]	*[314]	input1[314]	66[441]	male[441]	us0adlivem61c2bj5776kudbot[441]	speaker: YOU[568]	_	_	_	_	_	
+118-2	2775-2777	zu	GSuccess[20]	kuendigen\_set1\_6[20]	latin1[20]	us0adlivem61c2bj5776kudbot-kuendigen\_set1\_6[20]	_	_	_	_	_	false[183]	NA[183]	*[314]	*[314]	*[314]	*[314]	*[314]	input1[314]	66[441]	male[441]	us0adlivem61c2bj5776kudbot[441]	speaker: YOU[568]	_	_	_	_	_	
+118-3	2778-2783	teuer	GSuccess[20]	kuendigen\_set1\_6[20]	latin1[20]	us0adlivem61c2bj5776kudbot-kuendigen\_set1\_6[20]	_	_	_	_	_	false[183]	NA[183]	*[314]	*[314]	*[314]	*[314]	*[314]	input1[314]	66[441]	male[441]	us0adlivem61c2bj5776kudbot[441]	speaker: YOU[568]	_	_	_	_	_	
+
+#Text=braucht man heute nicht meht gibt ja Internet
+119-1	2785-2792	braucht	GSuccess[20]	kuendigen\_set1\_6[20]	latin1[20]	us0adlivem61c2bj5776kudbot-kuendigen\_set1\_6[20]	3	*	*	*	singular	false[184]	Decl[184]	*[315]	*[315]	*[315]	*[315]	*[315]	input2[315]	66[442]	male[442]	us0adlivem61c2bj5776kudbot[442]	speaker: YOU[569]	*->7-2	zero[7]	explanation	*	119-6[185_184]	
+119-2	2793-2796	man	GSuccess[20]	kuendigen\_set1\_6[20]	latin1[20]	us0adlivem61c2bj5776kudbot-kuendigen\_set1\_6[20]	*	*	Subj	*	*	false[184]	Decl[184]	*[315]	*[315]	*[315]	*[315]	*[315]	input2[315]	66[442]	male[442]	us0adlivem61c2bj5776kudbot[442]	speaker: YOU[569]	_	_	_	_	_	
+119-3	2797-2802	heute	GSuccess[20]	kuendigen\_set1\_6[20]	latin1[20]	us0adlivem61c2bj5776kudbot-kuendigen\_set1\_6[20]	_	_	_	_	_	false[184]	Decl[184]	*[315]	*[315]	*[315]	*[315]	*[315]	input2[315]	66[442]	male[442]	us0adlivem61c2bj5776kudbot[442]	speaker: YOU[569]	_	_	_	_	_	
+119-4	2803-2808	nicht	GSuccess[20]	kuendigen\_set1\_6[20]	latin1[20]	us0adlivem61c2bj5776kudbot-kuendigen\_set1\_6[20]	_	_	_	_	_	false[184]	Decl[184]	*[315]	*[315]	*[315]	*[315]	*[315]	input2[315]	66[442]	male[442]	us0adlivem61c2bj5776kudbot[442]	speaker: YOU[569]	_	_	_	_	_	
+119-5	2809-2813	meht	GSuccess[20]	kuendigen\_set1\_6[20]	latin1[20]	us0adlivem61c2bj5776kudbot-kuendigen\_set1\_6[20]	_	_	_	_	_	false[184]	Decl[184]	*[315]	*[315]	*[315]	*[315]	*[315]	input2[315]	66[442]	male[442]	us0adlivem61c2bj5776kudbot[442]	speaker: YOU[569]	_	_	_	_	_	
+119-6	2814-2818	gibt	GSuccess[20]	kuendigen\_set1\_6[20]	latin1[20]	us0adlivem61c2bj5776kudbot-kuendigen\_set1\_6[20]	_	_	_	_	_	false[185]	Decl[185]	*[315]	*[315]	*[315]	*[315]	*[315]	input2[315]	66[442]	male[442]	us0adlivem61c2bj5776kudbot[442]	speaker: YOU[569]	_	_	_	_	_	
+119-7	2819-2821	ja	GSuccess[20]	kuendigen\_set1\_6[20]	latin1[20]	us0adlivem61c2bj5776kudbot-kuendigen\_set1\_6[20]	_	_	_	_	_	false[185]	Decl[185]	*[315]	*[315]	*[315]	*[315]	*[315]	input2[315]	66[442]	male[442]	us0adlivem61c2bj5776kudbot[442]	speaker: YOU[569]	_	_	_	_	_	
+119-8	2822-2830	Internet	GSuccess[20]	kuendigen\_set1\_6[20]	latin1[20]	us0adlivem61c2bj5776kudbot-kuendigen\_set1\_6[20]	_	_	_	_	_	false[185]	Decl[185]	*[315]	*[315]	*[315]	*[315]	*[315]	input2[315]	66[442]	male[442]	us0adlivem61c2bj5776kudbot[442]	speaker: YOU[569]	*->112-1	IndefNP[112]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+120-1	2832-2847	END_OF_DOCUMENT	GSuccess[20]	kuendigen\_set1\_6[20]	latin1[20]	us0adlivem61c2bj5776kudbot-kuendigen\_set1\_6[20]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+121-1	2849-2854	Alles	GWithout[21]	kuendigen\_set1\_6[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-kuendigen\_set1\_6[21]	_	_	_	_	_	false[186]	Int[186]	*[316]	*[316]	*[316]	yn\_4[316]	yesno\_question[316]	openq[316]	*[443]	female[443]	*[443]	speaker:Anna[570]	_	_	QAP	*	122-1[187_186]	
+121-2	2855-2859	gut?	GWithout[21]	kuendigen\_set1\_6[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-kuendigen\_set1\_6[21]	_	_	_	_	_	false[186]	Int[186]	*[316]	*[316]	*[316]	yn\_4[316]	yesno\_question[316]	openq[316]	*[443]	female[443]	*[443]	speaker:Anna[570]	_	_	_	_	_	
+
+#Text=Livia hat das Spiegel-Abo gekündigt
+122-1	2861-2866	Livia	GWithout[21]	kuendigen\_set1\_6[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-kuendigen\_set1\_6[21]	*	*	Subj	*	*	false[187]	Decl[187]	*[317]	kündigen[317]	transitive[317]	*[317]	*[317]	item0[317]	32[444]	female[444]	2em9nj6n4c2pjudl6n6hfpjc30[444]	speaker: YOU[571]	*->4-1	PropNm[4]	elaboration	*	124-1[188_187]	
+122-2	2867-2870	hat	GWithout[21]	kuendigen\_set1\_6[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-kuendigen\_set1\_6[21]	_	_	_	_	_	false[187]	Decl[187]	*[317]	kündigen[317]	transitive[317]	*[317]	*[317]	item0[317]	32[444]	female[444]	2em9nj6n4c2pjudl6n6hfpjc30[444]	speaker: YOU[571]	_	_	_	_	_	
+122-3	2871-2874	das	GWithout[21]	kuendigen\_set1\_6[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-kuendigen\_set1\_6[21]	*[72]	*[72]	object[72]	*[72]	*[72]	false[187]	Decl[187]	*[317]	kündigen[317]	transitive[317]	*[317]	*[317]	item0[317]	32[444]	female[444]	2em9nj6n4c2pjudl6n6hfpjc30[444]	speaker: YOU[571]	*->31-1	DefNP[31]	_	_	_	
+122-4	2875-2886	Spiegel-Abo	GWithout[21]	kuendigen\_set1\_6[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-kuendigen\_set1\_6[21]	*[72]	*[72]	object[72]	*[72]	*[72]	false[187]	Decl[187]	*[317]	kündigen[317]	transitive[317]	*[317]	*[317]	item0[317]	32[444]	female[444]	2em9nj6n4c2pjudl6n6hfpjc30[444]	speaker: YOU[571]	*->31-1	DefNP[31]	_	_	_	
+122-5	2887-2896	gekündigt	GWithout[21]	kuendigen\_set1\_6[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-kuendigen\_set1\_6[21]	_	_	_	_	_	false[187]	Decl[187]	*[317]	kündigen[317]	transitive[317]	*[317]	*[317]	item0[317]	32[444]	female[444]	2em9nj6n4c2pjudl6n6hfpjc30[444]	speaker: YOU[571]	_	_	_	_	_	
+
+#Text=-
+123-1	2898-2899	-	GWithout[21]	kuendigen\_set1\_6[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-kuendigen\_set1\_6[21]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Anna	_	_	_	_	_	
+
+#Text=Sie hat ne Stunde in der Warteschleife gehangen.
+124-1	2901-2904	Sie	GWithout[21]	kuendigen\_set1\_6[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-kuendigen\_set1\_6[21]	3	*	Subj	*	singular	false[188]	Decl[188]	*[318]	*[318]	*[318]	*[318]	*[318]	input1[318]	32[445]	female[445]	2em9nj6n4c2pjudl6n6hfpjc30[445]	speaker: YOU[572]	*->4-2	PerPron[4]	contrast	*	125-1[189_188]	
+124-2	2905-2908	hat	GWithout[21]	kuendigen\_set1\_6[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-kuendigen\_set1\_6[21]	_	_	_	_	_	false[188]	Decl[188]	*[318]	*[318]	*[318]	*[318]	*[318]	input1[318]	32[445]	female[445]	2em9nj6n4c2pjudl6n6hfpjc30[445]	speaker: YOU[572]	_	_	_	_	_	
+124-3	2909-2911	ne	GWithout[21]	kuendigen\_set1\_6[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-kuendigen\_set1\_6[21]	*[73]	*[73]	DirObj[73]	*[73]	*[73]	false[188]	Decl[188]	*[318]	*[318]	*[318]	*[318]	*[318]	input1[318]	32[445]	female[445]	2em9nj6n4c2pjudl6n6hfpjc30[445]	speaker: YOU[572]	*->38-1	IndefNP[38]	_	_	_	
+124-4	2912-2918	Stunde	GWithout[21]	kuendigen\_set1\_6[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-kuendigen\_set1\_6[21]	*[73]	*[73]	DirObj[73]	*[73]	*[73]	false[188]	Decl[188]	*[318]	*[318]	*[318]	*[318]	*[318]	input1[318]	32[445]	female[445]	2em9nj6n4c2pjudl6n6hfpjc30[445]	speaker: YOU[572]	*->38-1	IndefNP[38]	_	_	_	
+124-5	2919-2921	in	GWithout[21]	kuendigen\_set1\_6[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-kuendigen\_set1\_6[21]	_	_	_	_	_	false[188]	Decl[188]	*[318]	*[318]	*[318]	*[318]	*[318]	input1[318]	32[445]	female[445]	2em9nj6n4c2pjudl6n6hfpjc30[445]	speaker: YOU[572]	_	_	_	_	_	
+124-6	2922-2925	der	GWithout[21]	kuendigen\_set1\_6[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-kuendigen\_set1\_6[21]	*[74]	*[74]	PrepObj[74]	*[74]	*[74]	false[188]	Decl[188]	*[318]	*[318]	*[318]	*[318]	*[318]	input1[318]	32[445]	female[445]	2em9nj6n4c2pjudl6n6hfpjc30[445]	speaker: YOU[572]	*->72-1	DefNP[72]	_	_	_	
+124-7	2926-2939	Warteschleife	GWithout[21]	kuendigen\_set1\_6[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-kuendigen\_set1\_6[21]	*[74]	*[74]	PrepObj[74]	*[74]	*[74]	false[188]	Decl[188]	*[318]	*[318]	*[318]	*[318]	*[318]	input1[318]	32[445]	female[445]	2em9nj6n4c2pjudl6n6hfpjc30[445]	speaker: YOU[572]	*->72-1	DefNP[72]	_	_	_	
+124-8	2940-2949	gehangen.	GWithout[21]	kuendigen\_set1\_6[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-kuendigen\_set1\_6[21]	_	_	_	_	_	false[188]	Decl[188]	*[318]	*[318]	*[318]	*[318]	*[318]	input1[318]	32[445]	female[445]	2em9nj6n4c2pjudl6n6hfpjc30[445]	speaker: YOU[572]	_	_	_	_	_	
+
+#Text=Aber jetzt ist es aus.
+125-1	2951-2955	Aber	GWithout[21]	kuendigen\_set1\_6[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-kuendigen\_set1\_6[21]	_	_	_	_	_	false[189]	Decl[189]	*[319]	*[319]	*[319]	*[319]	*[319]	input2[319]	32[446]	female[446]	2em9nj6n4c2pjudl6n6hfpjc30[446]	speaker: YOU[573]	_	_	_	_	_	
+125-2	2956-2961	jetzt	GWithout[21]	kuendigen\_set1\_6[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-kuendigen\_set1\_6[21]	_	_	_	_	_	false[189]	Decl[189]	*[319]	*[319]	*[319]	*[319]	*[319]	input2[319]	32[446]	female[446]	2em9nj6n4c2pjudl6n6hfpjc30[446]	speaker: YOU[573]	_	_	_	_	_	
+125-3	2962-2965	ist	GWithout[21]	kuendigen\_set1\_6[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-kuendigen\_set1\_6[21]	_	_	_	_	_	false[189]	Decl[189]	*[319]	*[319]	*[319]	*[319]	*[319]	input2[319]	32[446]	female[446]	2em9nj6n4c2pjudl6n6hfpjc30[446]	speaker: YOU[573]	_	_	_	_	_	
+125-4	2966-2968	es	GWithout[21]	kuendigen\_set1\_6[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-kuendigen\_set1\_6[21]	3	*	DirObj	*	singular	false[189]	Decl[189]	*[319]	*[319]	*[319]	*[319]	*[319]	input2[319]	32[446]	female[446]	2em9nj6n4c2pjudl6n6hfpjc30[446]	speaker: YOU[573]	*->85-1	PerPron[85]	_	_	_	
+125-5	2969-2973	aus.	GWithout[21]	kuendigen\_set1\_6[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-kuendigen\_set1\_6[21]	_	_	_	_	_	false[189]	Decl[189]	*[319]	*[319]	*[319]	*[319]	*[319]	input2[319]	32[446]	female[446]	2em9nj6n4c2pjudl6n6hfpjc30[446]	speaker: YOU[573]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+126-1	2975-2990	END_OF_DOCUMENT	GWithout[21]	kuendigen\_set1\_6[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-kuendigen\_set1\_6[21]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+127-1	2992-2997	Alles	GWithout[22]	kuendigen\_set1\_6[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-kuendigen\_set1\_6[22]	_	_	_	_	_	false[190]	Int[190]	*[320]	*[320]	*[320]	yn\_4[320]	yesno\_question[320]	openq[320]	*[447]	female[447]	*[447]	speaker:Anna[574]	_	_	QAP|QAP	*|*	131-1[193_190]|128-1[191_190]	
+127-2	2998-3002	gut?	GWithout[22]	kuendigen\_set1\_6[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-kuendigen\_set1\_6[22]	_	_	_	_	_	false[190]	Int[190]	*[320]	*[320]	*[320]	yn\_4[320]	yesno\_question[320]	openq[320]	*[447]	female[447]	*[447]	speaker:Anna[574]	_	_	_	_	_	
+
+#Text=Livia hat das Spiegel-Abo gekündigt
+128-1	3004-3009	Livia	GWithout[22]	kuendigen\_set1\_6[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-kuendigen\_set1\_6[22]	*	*	Subj	*	*	false[191]	Decl[191]	*[321]	kündigen[321]	transitive[321]	*[321]	*[321]	item0[321]	41[448]	female[448]	2prsavjsjqbmc8hrbo9bovkues[448]	speaker: YOU[575]	*->32-1	PropNm[32]	explanation	*	130-1[192_191]	
+128-2	3010-3013	hat	GWithout[22]	kuendigen\_set1\_6[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-kuendigen\_set1\_6[22]	_	_	_	_	_	false[191]	Decl[191]	*[321]	kündigen[321]	transitive[321]	*[321]	*[321]	item0[321]	41[448]	female[448]	2prsavjsjqbmc8hrbo9bovkues[448]	speaker: YOU[575]	_	_	_	_	_	
+128-3	3014-3017	das	GWithout[22]	kuendigen\_set1\_6[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-kuendigen\_set1\_6[22]	*[75]	*[75]	object[75]	*[75]	*[75]	false[191]	Decl[191]	*[321]	kündigen[321]	transitive[321]	*[321]	*[321]	item0[321]	41[448]	female[448]	2prsavjsjqbmc8hrbo9bovkues[448]	speaker: YOU[575]	*->101-1	DefNP[101]	_	_	_	
+128-4	3018-3029	Spiegel-Abo	GWithout[22]	kuendigen\_set1\_6[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-kuendigen\_set1\_6[22]	*[75]	*[75]	object[75]	*[75]	*[75]	false[191]	Decl[191]	*[321]	kündigen[321]	transitive[321]	*[321]	*[321]	item0[321]	41[448]	female[448]	2prsavjsjqbmc8hrbo9bovkues[448]	speaker: YOU[575]	*->101-1	DefNP[101]	_	_	_	
+128-5	3030-3039	gekündigt	GWithout[22]	kuendigen\_set1\_6[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-kuendigen\_set1\_6[22]	_	_	_	_	_	false[191]	Decl[191]	*[321]	kündigen[321]	transitive[321]	*[321]	*[321]	item0[321]	41[448]	female[448]	2prsavjsjqbmc8hrbo9bovkues[448]	speaker: YOU[575]	_	_	_	_	_	
+
+#Text=-
+129-1	3041-3042	-	GWithout[22]	kuendigen\_set1\_6[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-kuendigen\_set1\_6[22]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Anna	_	_	_	_	_	
+
+#Text=Wir haben den sowieso nicht gelesen.
+130-1	3044-3047	Wir	GWithout[22]	kuendigen\_set1\_6[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-kuendigen\_set1\_6[22]	1	*	Subj	*	plural	false[192]	Decl[192]	*[322]	*[322]	*[322]	*[322]	*[322]	input1[322]	41[449]	female[449]	2prsavjsjqbmc8hrbo9bovkues[449]	speaker: YOU[576]	*->53-1	PerPron[53]	_	_	_	
+130-2	3048-3053	haben	GWithout[22]	kuendigen\_set1\_6[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-kuendigen\_set1\_6[22]	_	_	_	_	_	false[192]	Decl[192]	*[322]	*[322]	*[322]	*[322]	*[322]	input1[322]	41[449]	female[449]	2prsavjsjqbmc8hrbo9bovkues[449]	speaker: YOU[576]	_	_	_	_	_	
+130-3	3054-3057	den	GWithout[22]	kuendigen\_set1\_6[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-kuendigen\_set1\_6[22]	*	*	DirObj	*	*	false[192]	Decl[192]	*[322]	*[322]	*[322]	*[322]	*[322]	input1[322]	41[449]	female[449]	2prsavjsjqbmc8hrbo9bovkues[449]	speaker: YOU[576]	*->27-1	D-Pron[27]	_	_	_	
+130-4	3058-3065	sowieso	GWithout[22]	kuendigen\_set1\_6[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-kuendigen\_set1\_6[22]	_	_	_	_	_	false[192]	Decl[192]	*[322]	*[322]	*[322]	*[322]	*[322]	input1[322]	41[449]	female[449]	2prsavjsjqbmc8hrbo9bovkues[449]	speaker: YOU[576]	_	_	_	_	_	
+130-5	3066-3071	nicht	GWithout[22]	kuendigen\_set1\_6[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-kuendigen\_set1\_6[22]	_	_	_	_	_	false[192]	Decl[192]	*[322]	*[322]	*[322]	*[322]	*[322]	input1[322]	41[449]	female[449]	2prsavjsjqbmc8hrbo9bovkues[449]	speaker: YOU[576]	_	_	_	_	_	
+130-6	3072-3080	gelesen.	GWithout[22]	kuendigen\_set1\_6[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-kuendigen\_set1\_6[22]	_	_	_	_	_	false[192]	Decl[192]	*[322]	*[322]	*[322]	*[322]	*[322]	input1[322]	41[449]	female[449]	2prsavjsjqbmc8hrbo9bovkues[449]	speaker: YOU[576]	_	_	_	_	_	
+
+#Text=Ansonsten geht's uns gut.
+131-1	3082-3091	Ansonsten	GWithout[22]	kuendigen\_set1\_6[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-kuendigen\_set1\_6[22]	_	_	_	_	_	false[193]	Decl[193]	*[323]	*[323]	*[323]	*[323]	*[323]	input2[323]	41[450]	female[450]	2prsavjsjqbmc8hrbo9bovkues[450]	speaker: YOU[577]	_	_	_	_	_	
+131-2	3092-3098	geht's	GWithout[22]	kuendigen\_set1\_6[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-kuendigen\_set1\_6[22]	_	_	_	_	_	false[193]	Decl[193]	*[323]	*[323]	*[323]	*[323]	*[323]	input2[323]	41[450]	female[450]	2prsavjsjqbmc8hrbo9bovkues[450]	speaker: YOU[577]	_	_	_	_	_	
+131-3	3099-3102	uns	GWithout[22]	kuendigen\_set1\_6[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-kuendigen\_set1\_6[22]	1	*	IndirObj	*	plural	false[193]	Decl[193]	*[323]	*[323]	*[323]	*[323]	*[323]	input2[323]	41[450]	female[450]	2prsavjsjqbmc8hrbo9bovkues[450]	speaker: YOU[577]	*->53-2	PerPron[53]	_	_	_	
+131-4	3103-3107	gut.	GWithout[22]	kuendigen\_set1\_6[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-kuendigen\_set1\_6[22]	_	_	_	_	_	false[193]	Decl[193]	*[323]	*[323]	*[323]	*[323]	*[323]	input2[323]	41[450]	female[450]	2prsavjsjqbmc8hrbo9bovkues[450]	speaker: YOU[577]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+132-1	3109-3124	END_OF_DOCUMENT	GWithout[22]	kuendigen\_set1\_6[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-kuendigen\_set1\_6[22]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+133-1	3126-3131	Alles	GWithout[23]	kuendigen\_set1\_6[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kuendigen\_set1\_6[23]	_	_	_	_	_	false[194]	Int[194]	*[324]	*[324]	*[324]	yn\_4[324]	yesno\_question[324]	openq[324]	*[451]	female[451]	*[451]	speaker:Anna[578]	_	_	QAP	*	134-1[195_194]	
+133-2	3132-3136	gut?	GWithout[23]	kuendigen\_set1\_6[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kuendigen\_set1\_6[23]	_	_	_	_	_	false[194]	Int[194]	*[324]	*[324]	*[324]	yn\_4[324]	yesno\_question[324]	openq[324]	*[451]	female[451]	*[451]	speaker:Anna[578]	_	_	_	_	_	
+
+#Text=Livia hat das Spiegel-Abo gekündigt
+134-1	3138-3143	Livia	GWithout[23]	kuendigen\_set1\_6[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kuendigen\_set1\_6[23]	*	*	Subj	*	*	false[195]	Decl[195]	*[325]	kündigen[325]	transitive[325]	*[325]	*[325]	item0[325]	46[452]	male[452]	3jjtes457iqluuhfmeiub8g6qd[452]	speaker: YOU[579]	*->45-1	PropNm[45]	elaboration	*	136-1[196_195]	
+134-2	3144-3147	hat	GWithout[23]	kuendigen\_set1\_6[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kuendigen\_set1\_6[23]	_	_	_	_	_	false[195]	Decl[195]	*[325]	kündigen[325]	transitive[325]	*[325]	*[325]	item0[325]	46[452]	male[452]	3jjtes457iqluuhfmeiub8g6qd[452]	speaker: YOU[579]	_	_	_	_	_	
+134-3	3148-3151	das	GWithout[23]	kuendigen\_set1\_6[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kuendigen\_set1\_6[23]	*[76]	*[76]	object[76]	*[76]	*[76]	false[195]	Decl[195]	*[325]	kündigen[325]	transitive[325]	*[325]	*[325]	item0[325]	46[452]	male[452]	3jjtes457iqluuhfmeiub8g6qd[452]	speaker: YOU[579]	*->59-1	DefNP[59]	_	_	_	
+134-4	3152-3163	Spiegel-Abo	GWithout[23]	kuendigen\_set1\_6[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kuendigen\_set1\_6[23]	*[76]	*[76]	object[76]	*[76]	*[76]	false[195]	Decl[195]	*[325]	kündigen[325]	transitive[325]	*[325]	*[325]	item0[325]	46[452]	male[452]	3jjtes457iqluuhfmeiub8g6qd[452]	speaker: YOU[579]	*->59-1	DefNP[59]	_	_	_	
+134-5	3164-3173	gekündigt	GWithout[23]	kuendigen\_set1\_6[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kuendigen\_set1\_6[23]	_	_	_	_	_	false[195]	Decl[195]	*[325]	kündigen[325]	transitive[325]	*[325]	*[325]	item0[325]	46[452]	male[452]	3jjtes457iqluuhfmeiub8g6qd[452]	speaker: YOU[579]	_	_	_	_	_	
+
+#Text=-
+135-1	3175-3176	-	GWithout[23]	kuendigen\_set1\_6[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kuendigen\_set1\_6[23]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Anna	_	_	_	_	_	
+
+#Text=Ich hab sowieso nie verstanden weshalb sie da ein Abo hatte.
+136-1	3178-3181	Ich	GWithout[23]	kuendigen\_set1\_6[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kuendigen\_set1\_6[23]	1	*	Subj	*	singular	false[196]	Decl[196]	*[326]	*[326]	*[326]	*[326]	*[326]	input1[326]	46[453]	male[453]	3jjtes457iqluuhfmeiub8g6qd[453]	speaker: YOU[580]	*->15-1	PerPron[15]	explanation	*	137-1[197_196]	
+136-2	3182-3185	hab	GWithout[23]	kuendigen\_set1\_6[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kuendigen\_set1\_6[23]	_	_	_	_	_	false[196]	Decl[196]	*[326]	*[326]	*[326]	*[326]	*[326]	input1[326]	46[453]	male[453]	3jjtes457iqluuhfmeiub8g6qd[453]	speaker: YOU[580]	_	_	_	_	_	
+136-3	3186-3193	sowieso	GWithout[23]	kuendigen\_set1\_6[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kuendigen\_set1\_6[23]	_	_	_	_	_	false[196]	Decl[196]	*[326]	*[326]	*[326]	*[326]	*[326]	input1[326]	46[453]	male[453]	3jjtes457iqluuhfmeiub8g6qd[453]	speaker: YOU[580]	_	_	_	_	_	
+136-4	3194-3197	nie	GWithout[23]	kuendigen\_set1\_6[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kuendigen\_set1\_6[23]	_	_	_	_	_	false[196]	Decl[196]	*[326]	*[326]	*[326]	*[326]	*[326]	input1[326]	46[453]	male[453]	3jjtes457iqluuhfmeiub8g6qd[453]	speaker: YOU[580]	_	_	_	_	_	
+136-5	3198-3208	verstanden	GWithout[23]	kuendigen\_set1\_6[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kuendigen\_set1\_6[23]	_	_	_	_	_	false[196]	Decl[196]	*[326]	*[326]	*[326]	*[326]	*[326]	input1[326]	46[453]	male[453]	3jjtes457iqluuhfmeiub8g6qd[453]	speaker: YOU[580]	_	_	_	_	_	
+136-6	3209-3216	weshalb	GWithout[23]	kuendigen\_set1\_6[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kuendigen\_set1\_6[23]	_	_	_	_	_	false[196]	Decl[196]	*[326]	*[326]	*[326]	*[326]	*[326]	input1[326]	46[453]	male[453]	3jjtes457iqluuhfmeiub8g6qd[453]	speaker: YOU[580]	_	_	_	_	_	
+136-7	3217-3220	sie	GWithout[23]	kuendigen\_set1\_6[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kuendigen\_set1\_6[23]	3	*	Subj	*	singular	false[196]	Decl[196]	*[326]	*[326]	*[326]	*[326]	*[326]	input1[326]	46[453]	male[453]	3jjtes457iqluuhfmeiub8g6qd[453]	speaker: YOU[580]	*->45-2	PerPron[45]	_	_	_	
+136-8	3221-3223	da	GWithout[23]	kuendigen\_set1\_6[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kuendigen\_set1\_6[23]	_	_	_	_	_	false[196]	Decl[196]	*[326]	*[326]	*[326]	*[326]	*[326]	input1[326]	46[453]	male[453]	3jjtes457iqluuhfmeiub8g6qd[453]	speaker: YOU[580]	_	_	_	_	_	
+136-9	3224-3227	ein	GWithout[23]	kuendigen\_set1\_6[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kuendigen\_set1\_6[23]	*[77]	*[77]	DirObj[77]	*[77]	*[77]	false[196]	Decl[196]	*[326]	*[326]	*[326]	*[326]	*[326]	input1[326]	46[453]	male[453]	3jjtes457iqluuhfmeiub8g6qd[453]	speaker: YOU[580]	*->59-2	IndefNP[59]	_	_	_	
+136-10	3228-3231	Abo	GWithout[23]	kuendigen\_set1\_6[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kuendigen\_set1\_6[23]	*[77]	*[77]	DirObj[77]	*[77]	*[77]	false[196]	Decl[196]	*[326]	*[326]	*[326]	*[326]	*[326]	input1[326]	46[453]	male[453]	3jjtes457iqluuhfmeiub8g6qd[453]	speaker: YOU[580]	*->59-2	IndefNP[59]	_	_	_	
+136-11	3232-3238	hatte.	GWithout[23]	kuendigen\_set1\_6[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kuendigen\_set1\_6[23]	_	_	_	_	_	false[196]	Decl[196]	*[326]	*[326]	*[326]	*[326]	*[326]	input1[326]	46[453]	male[453]	3jjtes457iqluuhfmeiub8g6qd[453]	speaker: YOU[580]	_	_	_	_	_	
+
+#Text=Ist doch heute eh alles gratis online.
+137-1	3240-3243	Ist	GWithout[23]	kuendigen\_set1\_6[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kuendigen\_set1\_6[23]	_	_	_	_	_	false[197]	Decl[197]	*[327]	*[327]	*[327]	*[327]	*[327]	input2[327]	46[454]	male[454]	3jjtes457iqluuhfmeiub8g6qd[454]	speaker: YOU[581]	_	_	_	_	_	
+137-2	3244-3248	doch	GWithout[23]	kuendigen\_set1\_6[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kuendigen\_set1\_6[23]	_	_	_	_	_	false[197]	Decl[197]	*[327]	*[327]	*[327]	*[327]	*[327]	input2[327]	46[454]	male[454]	3jjtes457iqluuhfmeiub8g6qd[454]	speaker: YOU[581]	_	_	_	_	_	
+137-3	3249-3254	heute	GWithout[23]	kuendigen\_set1\_6[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kuendigen\_set1\_6[23]	_	_	_	_	_	false[197]	Decl[197]	*[327]	*[327]	*[327]	*[327]	*[327]	input2[327]	46[454]	male[454]	3jjtes457iqluuhfmeiub8g6qd[454]	speaker: YOU[581]	_	_	_	_	_	
+137-4	3255-3257	eh	GWithout[23]	kuendigen\_set1\_6[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kuendigen\_set1\_6[23]	_	_	_	_	_	false[197]	Decl[197]	*[327]	*[327]	*[327]	*[327]	*[327]	input2[327]	46[454]	male[454]	3jjtes457iqluuhfmeiub8g6qd[454]	speaker: YOU[581]	_	_	_	_	_	
+137-5	3258-3263	alles	GWithout[23]	kuendigen\_set1\_6[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kuendigen\_set1\_6[23]	_	_	_	_	_	false[197]	Decl[197]	*[327]	*[327]	*[327]	*[327]	*[327]	input2[327]	46[454]	male[454]	3jjtes457iqluuhfmeiub8g6qd[454]	speaker: YOU[581]	*->96-1	Allquantor[96]	_	_	_	
+137-6	3264-3270	gratis	GWithout[23]	kuendigen\_set1\_6[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kuendigen\_set1\_6[23]	_	_	_	_	_	false[197]	Decl[197]	*[327]	*[327]	*[327]	*[327]	*[327]	input2[327]	46[454]	male[454]	3jjtes457iqluuhfmeiub8g6qd[454]	speaker: YOU[581]	_	_	_	_	_	
+137-7	3271-3278	online.	GWithout[23]	kuendigen\_set1\_6[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kuendigen\_set1\_6[23]	_	_	_	_	_	false[197]	Decl[197]	*[327]	*[327]	*[327]	*[327]	*[327]	input2[327]	46[454]	male[454]	3jjtes457iqluuhfmeiub8g6qd[454]	speaker: YOU[581]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+138-1	3280-3295	END_OF_DOCUMENT	GWithout[23]	kuendigen\_set1\_6[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kuendigen\_set1\_6[23]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+139-1	3297-3302	Alles	GWithout[24]	kuendigen\_set1\_6[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-kuendigen\_set1\_6[24]	_	_	_	_	_	false[198]	Int[198]	*[328]	*[328]	*[328]	yn\_4[328]	yesno\_question[328]	openq[328]	*[455]	female[455]	*[455]	speaker:Anna[582]	_	_	QAP	*	140-1[199_198]	
+139-2	3303-3307	gut?	GWithout[24]	kuendigen\_set1\_6[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-kuendigen\_set1\_6[24]	_	_	_	_	_	false[198]	Int[198]	*[328]	*[328]	*[328]	yn\_4[328]	yesno\_question[328]	openq[328]	*[455]	female[455]	*[455]	speaker:Anna[582]	_	_	_	_	_	
+
+#Text=Livia hat das Spiegel-Abo gekündigt
+140-1	3309-3314	Livia	GWithout[24]	kuendigen\_set1\_6[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-kuendigen\_set1\_6[24]	*	*	Subj	*	*	false[199]	Decl[199]	*[329]	kündigen[329]	transitive[329]	*[329]	*[329]	item0[329]	27[456]	female[456]	65p8m4ujg4fi983365pclnac28[456]	speaker: YOU[583]	*->20-1|*->26-1	clause[20]|PropNm[26]	elaboration|elaboration	*|*	142-1[0_199]|143-1[200_199]	
+140-2	3315-3318	hat	GWithout[24]	kuendigen\_set1\_6[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-kuendigen\_set1\_6[24]	_	_	_	_	_	false[199]	Decl[199]	*[329]	kündigen[329]	transitive[329]	*[329]	*[329]	item0[329]	27[456]	female[456]	65p8m4ujg4fi983365pclnac28[456]	speaker: YOU[583]	*->20-1	clause[20]	_	_	_	
+140-3	3319-3322	das	GWithout[24]	kuendigen\_set1\_6[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-kuendigen\_set1\_6[24]	*[78]	*[78]	object[78]	*[78]	*[78]	false[199]	Decl[199]	*[329]	kündigen[329]	transitive[329]	*[329]	*[329]	item0[329]	27[456]	female[456]	65p8m4ujg4fi983365pclnac28[456]	speaker: YOU[583]	*->20-1|*->66-1	clause[20]|DefNP[66]	_	_	_	
+140-4	3323-3334	Spiegel-Abo	GWithout[24]	kuendigen\_set1\_6[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-kuendigen\_set1\_6[24]	*[78]	*[78]	object[78]	*[78]	*[78]	false[199]	Decl[199]	*[329]	kündigen[329]	transitive[329]	*[329]	*[329]	item0[329]	27[456]	female[456]	65p8m4ujg4fi983365pclnac28[456]	speaker: YOU[583]	*->20-1|*->66-1	clause[20]|DefNP[66]	_	_	_	
+140-5	3335-3344	gekündigt	GWithout[24]	kuendigen\_set1\_6[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-kuendigen\_set1\_6[24]	_	_	_	_	_	false[199]	Decl[199]	*[329]	kündigen[329]	transitive[329]	*[329]	*[329]	item0[329]	27[456]	female[456]	65p8m4ujg4fi983365pclnac28[456]	speaker: YOU[583]	*->20-1	clause[20]	_	_	_	
+
+#Text=-
+141-1	3346-3347	-	GWithout[24]	kuendigen\_set1\_6[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-kuendigen\_set1\_6[24]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Anna	_	_	_	_	_	
+
+#Text=Endlich
+142-1	3349-3356	Endlich	GWithout[24]	kuendigen\_set1\_6[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-kuendigen\_set1\_6[24]	_	_	_	_	_	false	NA	*	*	*	*	*	input1	27	female	65p8m4ujg4fi983365pclnac28	speaker: YOU	_	_	_	_	_	
+
+#Text=hat echt lange gedauert
+143-1	3358-3361	hat	GWithout[24]	kuendigen\_set1\_6[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-kuendigen\_set1\_6[24]	3	*	*	*	singular	false[200]	Decl[200]	*[330]	*[330]	*[330]	*[330]	*[330]	input2[330]	27[457]	female[457]	65p8m4ujg4fi983365pclnac28[457]	speaker: YOU[584]	*->20-2	zero[20]	_	_	_	
+143-2	3362-3366	echt	GWithout[24]	kuendigen\_set1\_6[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-kuendigen\_set1\_6[24]	_	_	_	_	_	false[200]	Decl[200]	*[330]	*[330]	*[330]	*[330]	*[330]	input2[330]	27[457]	female[457]	65p8m4ujg4fi983365pclnac28[457]	speaker: YOU[584]	_	_	_	_	_	
+143-3	3367-3372	lange	GWithout[24]	kuendigen\_set1\_6[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-kuendigen\_set1\_6[24]	_	_	_	_	_	false[200]	Decl[200]	*[330]	*[330]	*[330]	*[330]	*[330]	input2[330]	27[457]	female[457]	65p8m4ujg4fi983365pclnac28[457]	speaker: YOU[584]	_	_	_	_	_	
+143-4	3373-3381	gedauert	GWithout[24]	kuendigen\_set1\_6[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-kuendigen\_set1\_6[24]	_	_	_	_	_	false[200]	Decl[200]	*[330]	*[330]	*[330]	*[330]	*[330]	input2[330]	27[457]	female[457]	65p8m4ujg4fi983365pclnac28[457]	speaker: YOU[584]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+144-1	3383-3398	END_OF_DOCUMENT	GWithout[24]	kuendigen\_set1\_6[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-kuendigen\_set1\_6[24]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+145-1	3400-3405	Alles	GWithout[25]	kuendigen\_set1\_6[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kuendigen\_set1\_6[25]	_	_	_	_	_	false[201]	Int[201]	*[331]	*[331]	*[331]	yn\_4[331]	yesno\_question[331]	openq[331]	*[458]	female[458]	*[458]	speaker:Anna[585]	_	_	QAP	*	146-1[202_201]	
+145-2	3406-3410	gut?	GWithout[25]	kuendigen\_set1\_6[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kuendigen\_set1\_6[25]	_	_	_	_	_	false[201]	Int[201]	*[331]	*[331]	*[331]	yn\_4[331]	yesno\_question[331]	openq[331]	*[458]	female[458]	*[458]	speaker:Anna[585]	_	_	_	_	_	
+
+#Text=Livia hat das Spiegel-Abo gekündigt
+146-1	3412-3417	Livia	GWithout[25]	kuendigen\_set1\_6[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kuendigen\_set1\_6[25]	*	*	Subj	*	*	false[202]	Decl[202]	*[332]	kündigen[332]	transitive[332]	*[332]	*[332]	item0[332]	22[459]	female[459]	ad2p95q44evasm6vmbol4cikit[459]	speaker: YOU[586]	*->111-1	PropNm[111]	elaboration|contrast	*|*	148-1[203_202]|149-1[205_202]	
+146-2	3418-3421	hat	GWithout[25]	kuendigen\_set1\_6[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kuendigen\_set1\_6[25]	_	_	_	_	_	false[202]	Decl[202]	*[332]	kündigen[332]	transitive[332]	*[332]	*[332]	item0[332]	22[459]	female[459]	ad2p95q44evasm6vmbol4cikit[459]	speaker: YOU[586]	_	_	_	_	_	
+146-3	3422-3425	das	GWithout[25]	kuendigen\_set1\_6[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kuendigen\_set1\_6[25]	*[79]	*[79]	object[79]	*[79]	*[79]	false[202]	Decl[202]	*[332]	kündigen[332]	transitive[332]	*[332]	*[332]	item0[332]	22[459]	female[459]	ad2p95q44evasm6vmbol4cikit[459]	speaker: YOU[586]	*->41-1	DefNP[41]	_	_	_	
+146-4	3426-3437	Spiegel-Abo	GWithout[25]	kuendigen\_set1\_6[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kuendigen\_set1\_6[25]	*[79]	*[79]	object[79]	*[79]	*[79]	false[202]	Decl[202]	*[332]	kündigen[332]	transitive[332]	*[332]	*[332]	item0[332]	22[459]	female[459]	ad2p95q44evasm6vmbol4cikit[459]	speaker: YOU[586]	*->41-1	DefNP[41]	_	_	_	
+146-5	3438-3447	gekündigt	GWithout[25]	kuendigen\_set1\_6[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kuendigen\_set1\_6[25]	_	_	_	_	_	false[202]	Decl[202]	*[332]	kündigen[332]	transitive[332]	*[332]	*[332]	item0[332]	22[459]	female[459]	ad2p95q44evasm6vmbol4cikit[459]	speaker: YOU[586]	_	_	_	_	_	
+
+#Text=-
+147-1	3449-3450	-	GWithout[25]	kuendigen\_set1\_6[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kuendigen\_set1\_6[25]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Anna	_	_	_	_	_	
+
+#Text=Sie hat es gekündigt <BR> weil Ihr die Artikel nicht gefallen haben
+148-1	3452-3455	Sie	GWithout[25]	kuendigen\_set1\_6[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kuendigen\_set1\_6[25]	3	*	Subj	*	singular	false[203]	Decl[203]	*[333]	*[333]	*[333]	*[333]	*[333]	input1[333]	22[460]	female[460]	ad2p95q44evasm6vmbol4cikit[460]	speaker: YOU[587]	*->111-2	PerPron[111]	explanation	*	148-6[204_203]	
+148-2	3456-3459	hat	GWithout[25]	kuendigen\_set1\_6[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kuendigen\_set1\_6[25]	_	_	_	_	_	false[203]	Decl[203]	*[333]	*[333]	*[333]	*[333]	*[333]	input1[333]	22[460]	female[460]	ad2p95q44evasm6vmbol4cikit[460]	speaker: YOU[587]	_	_	_	_	_	
+148-3	3460-3462	es	GWithout[25]	kuendigen\_set1\_6[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kuendigen\_set1\_6[25]	3	*	DirObj	*	singular	false[203]	Decl[203]	*[333]	*[333]	*[333]	*[333]	*[333]	input1[333]	22[460]	female[460]	ad2p95q44evasm6vmbol4cikit[460]	speaker: YOU[587]	*->41-2	PerPron[41]	_	_	_	
+148-4	3463-3472	gekündigt	GWithout[25]	kuendigen\_set1\_6[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kuendigen\_set1\_6[25]	_	_	_	_	_	false[203]	Decl[203]	*[333]	*[333]	*[333]	*[333]	*[333]	input1[333]	22[460]	female[460]	ad2p95q44evasm6vmbol4cikit[460]	speaker: YOU[587]	_	_	_	_	_	
+148-5	3473-3477	<BR>	GWithout[25]	kuendigen\_set1\_6[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kuendigen\_set1\_6[25]	_	_	_	_	_	_	_	*[333]	*[333]	*[333]	*[333]	*[333]	input1[333]	22[460]	female[460]	ad2p95q44evasm6vmbol4cikit[460]	speaker: YOU[587]	_	_	_	_	_	
+148-6	3478-3482	weil	GWithout[25]	kuendigen\_set1\_6[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kuendigen\_set1\_6[25]	_	_	_	_	_	false[204]	NA[204]	*[333]	*[333]	*[333]	*[333]	*[333]	input1[333]	22[460]	female[460]	ad2p95q44evasm6vmbol4cikit[460]	speaker: YOU[587]	_	_	_	_	_	
+148-7	3483-3486	Ihr	GWithout[25]	kuendigen\_set1\_6[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kuendigen\_set1\_6[25]	3	*	IndirObj	*	singular	false[204]	NA[204]	*[333]	*[333]	*[333]	*[333]	*[333]	input1[333]	22[460]	female[460]	ad2p95q44evasm6vmbol4cikit[460]	speaker: YOU[587]	*->111-3	PerPron[111]	_	_	_	
+148-8	3487-3490	die	GWithout[25]	kuendigen\_set1\_6[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kuendigen\_set1\_6[25]	_	_	_	_	_	false[204]	NA[204]	*[333]	*[333]	*[333]	*[333]	*[333]	input1[333]	22[460]	female[460]	ad2p95q44evasm6vmbol4cikit[460]	speaker: YOU[587]	*->116-1	DefNP[116]	_	_	_	
+148-9	3491-3498	Artikel	GWithout[25]	kuendigen\_set1\_6[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kuendigen\_set1\_6[25]	_	_	_	_	_	false[204]	NA[204]	*[333]	*[333]	*[333]	*[333]	*[333]	input1[333]	22[460]	female[460]	ad2p95q44evasm6vmbol4cikit[460]	speaker: YOU[587]	*->116-1	DefNP[116]	_	_	_	
+148-10	3499-3504	nicht	GWithout[25]	kuendigen\_set1\_6[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kuendigen\_set1\_6[25]	_	_	_	_	_	false[204]	NA[204]	*[333]	*[333]	*[333]	*[333]	*[333]	input1[333]	22[460]	female[460]	ad2p95q44evasm6vmbol4cikit[460]	speaker: YOU[587]	_	_	_	_	_	
+148-11	3505-3513	gefallen	GWithout[25]	kuendigen\_set1\_6[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kuendigen\_set1\_6[25]	_	_	_	_	_	false[204]	NA[204]	*[333]	*[333]	*[333]	*[333]	*[333]	input1[333]	22[460]	female[460]	ad2p95q44evasm6vmbol4cikit[460]	speaker: YOU[587]	_	_	_	_	_	
+148-12	3514-3519	haben	GWithout[25]	kuendigen\_set1\_6[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kuendigen\_set1\_6[25]	_	_	_	_	_	false[204]	NA[204]	*[333]	*[333]	*[333]	*[333]	*[333]	input1[333]	22[460]	female[460]	ad2p95q44evasm6vmbol4cikit[460]	speaker: YOU[587]	_	_	_	_	_	
+
+#Text=Sie wird einen anderen Anbieter abbonieren
+149-1	3521-3524	Sie	GWithout[25]	kuendigen\_set1\_6[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kuendigen\_set1\_6[25]	3	*	Subj	*	singular	false[205]	Decl[205]	*[334]	*[334]	*[334]	*[334]	*[334]	input2[334]	22[461]	female[461]	ad2p95q44evasm6vmbol4cikit[461]	speaker: YOU[588]	*->111-4	PerPron[111]	_	_	_	
+149-2	3525-3529	wird	GWithout[25]	kuendigen\_set1\_6[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kuendigen\_set1\_6[25]	_	_	_	_	_	false[205]	Decl[205]	*[334]	*[334]	*[334]	*[334]	*[334]	input2[334]	22[461]	female[461]	ad2p95q44evasm6vmbol4cikit[461]	speaker: YOU[588]	_	_	_	_	_	
+149-3	3530-3535	einen	GWithout[25]	kuendigen\_set1\_6[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kuendigen\_set1\_6[25]	*[80]	*[80]	DirObj[80]	*[80]	*[80]	false[205]	Decl[205]	*[334]	*[334]	*[334]	*[334]	*[334]	input2[334]	22[461]	female[461]	ad2p95q44evasm6vmbol4cikit[461]	speaker: YOU[588]	*->88-1	IndefNP[88]	_	_	_	
+149-4	3536-3543	anderen	GWithout[25]	kuendigen\_set1\_6[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kuendigen\_set1\_6[25]	*[80]	*[80]	DirObj[80]	*[80]	*[80]	false[205]	Decl[205]	*[334]	*[334]	*[334]	*[334]	*[334]	input2[334]	22[461]	female[461]	ad2p95q44evasm6vmbol4cikit[461]	speaker: YOU[588]	*->88-1	IndefNP[88]	_	_	_	
+149-5	3544-3552	Anbieter	GWithout[25]	kuendigen\_set1\_6[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kuendigen\_set1\_6[25]	*[80]	*[80]	DirObj[80]	*[80]	*[80]	false[205]	Decl[205]	*[334]	*[334]	*[334]	*[334]	*[334]	input2[334]	22[461]	female[461]	ad2p95q44evasm6vmbol4cikit[461]	speaker: YOU[588]	*->88-1	IndefNP[88]	_	_	_	
+149-6	3553-3563	abbonieren	GWithout[25]	kuendigen\_set1\_6[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kuendigen\_set1\_6[25]	_	_	_	_	_	false[205]	Decl[205]	*[334]	*[334]	*[334]	*[334]	*[334]	input2[334]	22[461]	female[461]	ad2p95q44evasm6vmbol4cikit[461]	speaker: YOU[588]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+150-1	3565-3580	END_OF_DOCUMENT	GWithout[25]	kuendigen\_set1\_6[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kuendigen\_set1\_6[25]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+151-1	3582-3587	Alles	GWithout[26]	kuendigen\_set1\_6[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-kuendigen\_set1\_6[26]	_	_	_	_	_	false[206]	Int[206]	*[335]	*[335]	*[335]	yn\_4[335]	yesno\_question[335]	openq[335]	*[462]	female[462]	*[462]	speaker:Anna[589]	_	_	QAP	*	152-1[207_206]	
+151-2	3588-3592	gut?	GWithout[26]	kuendigen\_set1\_6[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-kuendigen\_set1\_6[26]	_	_	_	_	_	false[206]	Int[206]	*[335]	*[335]	*[335]	yn\_4[335]	yesno\_question[335]	openq[335]	*[462]	female[462]	*[462]	speaker:Anna[589]	_	_	_	_	_	
+
+#Text=Livia hat das Spiegel-Abo gekündigt
+152-1	3594-3599	Livia	GWithout[26]	kuendigen\_set1\_6[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-kuendigen\_set1\_6[26]	*	*	Subj	*	*	false[207]	Decl[207]	*[336]	kündigen[336]	transitive[336]	*[336]	*[336]	item0[336]	36[463]	female[463]	aoum613lougtk5ql841j63bjo9[463]	speaker: YOU[590]	*->95-1	PropNm[95]	explanation|explanation	*|*	155-1[210_207]|154-1[208_207]	
+152-2	3600-3603	hat	GWithout[26]	kuendigen\_set1\_6[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-kuendigen\_set1\_6[26]	_	_	_	_	_	false[207]	Decl[207]	*[336]	kündigen[336]	transitive[336]	*[336]	*[336]	item0[336]	36[463]	female[463]	aoum613lougtk5ql841j63bjo9[463]	speaker: YOU[590]	_	_	_	_	_	
+152-3	3604-3607	das	GWithout[26]	kuendigen\_set1\_6[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-kuendigen\_set1\_6[26]	*[81]	*[81]	object[81]	*[81]	*[81]	false[207]	Decl[207]	*[336]	kündigen[336]	transitive[336]	*[336]	*[336]	item0[336]	36[463]	female[463]	aoum613lougtk5ql841j63bjo9[463]	speaker: YOU[590]	*->83-1	DefNP[83]	_	_	_	
+152-4	3608-3619	Spiegel-Abo	GWithout[26]	kuendigen\_set1\_6[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-kuendigen\_set1\_6[26]	*[81]	*[81]	object[81]	*[81]	*[81]	false[207]	Decl[207]	*[336]	kündigen[336]	transitive[336]	*[336]	*[336]	item0[336]	36[463]	female[463]	aoum613lougtk5ql841j63bjo9[463]	speaker: YOU[590]	*->83-1	DefNP[83]	_	_	_	
+152-5	3620-3629	gekündigt	GWithout[26]	kuendigen\_set1\_6[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-kuendigen\_set1\_6[26]	_	_	_	_	_	false[207]	Decl[207]	*[336]	kündigen[336]	transitive[336]	*[336]	*[336]	item0[336]	36[463]	female[463]	aoum613lougtk5ql841j63bjo9[463]	speaker: YOU[590]	_	_	_	_	_	
+
+#Text=-
+153-1	3631-3632	-	GWithout[26]	kuendigen\_set1\_6[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-kuendigen\_set1\_6[26]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Anna	_	_	_	_	_	
+
+#Text=Sie hat einfach nicht mehr genug Zeit <BR> um zu lesen.
+154-1	3634-3637	Sie	GWithout[26]	kuendigen\_set1\_6[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-kuendigen\_set1\_6[26]	3	*	Subj	*	singular	false[208]	Decl[208]	*[337]	*[337]	*[337]	*[337]	*[337]	input1[337]	36[464]	female[464]	aoum613lougtk5ql841j63bjo9[464]	speaker: YOU[591]	*->95-2	PerPron[95]	elaboration	*	154-9[209_208]	
+154-2	3638-3641	hat	GWithout[26]	kuendigen\_set1\_6[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-kuendigen\_set1\_6[26]	_	_	_	_	_	false[208]	Decl[208]	*[337]	*[337]	*[337]	*[337]	*[337]	input1[337]	36[464]	female[464]	aoum613lougtk5ql841j63bjo9[464]	speaker: YOU[591]	_	_	_	_	_	
+154-3	3642-3649	einfach	GWithout[26]	kuendigen\_set1\_6[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-kuendigen\_set1\_6[26]	_	_	_	_	_	false[208]	Decl[208]	*[337]	*[337]	*[337]	*[337]	*[337]	input1[337]	36[464]	female[464]	aoum613lougtk5ql841j63bjo9[464]	speaker: YOU[591]	_	_	_	_	_	
+154-4	3650-3655	nicht	GWithout[26]	kuendigen\_set1\_6[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-kuendigen\_set1\_6[26]	_	_	_	_	_	false[208]	Decl[208]	*[337]	*[337]	*[337]	*[337]	*[337]	input1[337]	36[464]	female[464]	aoum613lougtk5ql841j63bjo9[464]	speaker: YOU[591]	_	_	_	_	_	
+154-5	3656-3660	mehr	GWithout[26]	kuendigen\_set1\_6[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-kuendigen\_set1\_6[26]	_	_	_	_	_	false[208]	Decl[208]	*[337]	*[337]	*[337]	*[337]	*[337]	input1[337]	36[464]	female[464]	aoum613lougtk5ql841j63bjo9[464]	speaker: YOU[591]	_	_	_	_	_	
+154-6	3661-3666	genug	GWithout[26]	kuendigen\_set1\_6[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-kuendigen\_set1\_6[26]	_	_	_	_	_	false[208]	Decl[208]	*[337]	*[337]	*[337]	*[337]	*[337]	input1[337]	36[464]	female[464]	aoum613lougtk5ql841j63bjo9[464]	speaker: YOU[591]	_	_	_	_	_	
+154-7	3667-3671	Zeit	GWithout[26]	kuendigen\_set1\_6[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-kuendigen\_set1\_6[26]	_	_	_	_	_	false[208]	Decl[208]	*[337]	*[337]	*[337]	*[337]	*[337]	input1[337]	36[464]	female[464]	aoum613lougtk5ql841j63bjo9[464]	speaker: YOU[591]	*->43-1	IndefNP[43]	_	_	_	
+154-8	3672-3676	<BR>	GWithout[26]	kuendigen\_set1\_6[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-kuendigen\_set1\_6[26]	_	_	_	_	_	_	_	*[337]	*[337]	*[337]	*[337]	*[337]	input1[337]	36[464]	female[464]	aoum613lougtk5ql841j63bjo9[464]	speaker: YOU[591]	_	_	_	_	_	
+154-9	3677-3679	um	GWithout[26]	kuendigen\_set1\_6[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-kuendigen\_set1\_6[26]	_	_	_	_	_	false[209]	NA[209]	*[337]	*[337]	*[337]	*[337]	*[337]	input1[337]	36[464]	female[464]	aoum613lougtk5ql841j63bjo9[464]	speaker: YOU[591]	_	_	_	_	_	
+154-10	3680-3682	zu	GWithout[26]	kuendigen\_set1\_6[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-kuendigen\_set1\_6[26]	_	_	_	_	_	false[209]	NA[209]	*[337]	*[337]	*[337]	*[337]	*[337]	input1[337]	36[464]	female[464]	aoum613lougtk5ql841j63bjo9[464]	speaker: YOU[591]	_	_	_	_	_	
+154-11	3683-3689	lesen.	GWithout[26]	kuendigen\_set1\_6[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-kuendigen\_set1\_6[26]	_	_	_	_	_	false[209]	NA[209]	*[337]	*[337]	*[337]	*[337]	*[337]	input1[337]	36[464]	female[464]	aoum613lougtk5ql841j63bjo9[464]	speaker: YOU[591]	_	_	_	_	_	
+
+#Text=Außerdem werden diese Abos auch immer teurer.
+155-1	3691-3699	Außerdem	GWithout[26]	kuendigen\_set1\_6[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-kuendigen\_set1\_6[26]	_	_	_	_	_	false[210]	Decl[210]	*[338]	*[338]	*[338]	*[338]	*[338]	input2[338]	36[465]	female[465]	aoum613lougtk5ql841j63bjo9[465]	speaker: YOU[592]	_	_	_	_	_	
+155-2	3700-3706	werden	GWithout[26]	kuendigen\_set1\_6[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-kuendigen\_set1\_6[26]	_	_	_	_	_	false[210]	Decl[210]	*[338]	*[338]	*[338]	*[338]	*[338]	input2[338]	36[465]	female[465]	aoum613lougtk5ql841j63bjo9[465]	speaker: YOU[592]	_	_	_	_	_	
+155-3	3707-3712	diese	GWithout[26]	kuendigen\_set1\_6[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-kuendigen\_set1\_6[26]	*[82]	*[82]	Subj[82]	*[82]	*[82]	false[210]	Decl[210]	*[338]	*[338]	*[338]	*[338]	*[338]	input2[338]	36[465]	female[465]	aoum613lougtk5ql841j63bjo9[465]	speaker: YOU[592]	*->5-1	DefNP[5]	_	_	_	
+155-4	3713-3717	Abos	GWithout[26]	kuendigen\_set1\_6[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-kuendigen\_set1\_6[26]	*[82]	*[82]	Subj[82]	*[82]	*[82]	false[210]	Decl[210]	*[338]	*[338]	*[338]	*[338]	*[338]	input2[338]	36[465]	female[465]	aoum613lougtk5ql841j63bjo9[465]	speaker: YOU[592]	*->5-1	DefNP[5]	_	_	_	
+155-5	3718-3722	auch	GWithout[26]	kuendigen\_set1\_6[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-kuendigen\_set1\_6[26]	_	_	_	_	_	false[210]	Decl[210]	*[338]	*[338]	*[338]	*[338]	*[338]	input2[338]	36[465]	female[465]	aoum613lougtk5ql841j63bjo9[465]	speaker: YOU[592]	_	_	_	_	_	
+155-6	3723-3728	immer	GWithout[26]	kuendigen\_set1\_6[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-kuendigen\_set1\_6[26]	_	_	_	_	_	false[210]	Decl[210]	*[338]	*[338]	*[338]	*[338]	*[338]	input2[338]	36[465]	female[465]	aoum613lougtk5ql841j63bjo9[465]	speaker: YOU[592]	_	_	_	_	_	
+155-7	3729-3736	teurer.	GWithout[26]	kuendigen\_set1\_6[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-kuendigen\_set1\_6[26]	_	_	_	_	_	false[210]	Decl[210]	*[338]	*[338]	*[338]	*[338]	*[338]	input2[338]	36[465]	female[465]	aoum613lougtk5ql841j63bjo9[465]	speaker: YOU[592]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+156-1	3738-3753	END_OF_DOCUMENT	GWithout[26]	kuendigen\_set1\_6[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-kuendigen\_set1\_6[26]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+157-1	3755-3760	Alles	GWithout[27]	kuendigen\_set1\_6[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kuendigen\_set1\_6[27]	_	_	_	_	_	false[211]	Int[211]	*[339]	*[339]	*[339]	yn\_4[339]	yesno\_question[339]	openq[339]	*[466]	female[466]	*[466]	speaker:Anna[593]	_	_	QAP	*	158-1[212_211]	
+157-2	3761-3765	gut?	GWithout[27]	kuendigen\_set1\_6[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kuendigen\_set1\_6[27]	_	_	_	_	_	false[211]	Int[211]	*[339]	*[339]	*[339]	yn\_4[339]	yesno\_question[339]	openq[339]	*[466]	female[466]	*[466]	speaker:Anna[593]	_	_	_	_	_	
+
+#Text=Livia hat das Spiegel-Abo gekündigt
+158-1	3767-3772	Livia	GWithout[27]	kuendigen\_set1\_6[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kuendigen\_set1\_6[27]	*	*	Subj	*	*	false[212]	Decl[212]	*[340]	kündigen[340]	transitive[340]	*[340]	*[340]	item0[340]	26[467]	male[467]	c48fsj7kc4kiuorutkbb4be30b[467]	speaker: YOU[594]	*->19-1	PropNm[19]	explanation|result	*|*	160-1[213_212]|161-1[214_212]	
+158-2	3773-3776	hat	GWithout[27]	kuendigen\_set1\_6[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kuendigen\_set1\_6[27]	_	_	_	_	_	false[212]	Decl[212]	*[340]	kündigen[340]	transitive[340]	*[340]	*[340]	item0[340]	26[467]	male[467]	c48fsj7kc4kiuorutkbb4be30b[467]	speaker: YOU[594]	_	_	_	_	_	
+158-3	3777-3780	das	GWithout[27]	kuendigen\_set1\_6[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kuendigen\_set1\_6[27]	*[83]	*[83]	object[83]	*[83]	*[83]	false[212]	Decl[212]	*[340]	kündigen[340]	transitive[340]	*[340]	*[340]	item0[340]	26[467]	male[467]	c48fsj7kc4kiuorutkbb4be30b[467]	speaker: YOU[594]	*->78-1	DefNP[78]	_	_	_	
+158-4	3781-3792	Spiegel-Abo	GWithout[27]	kuendigen\_set1\_6[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kuendigen\_set1\_6[27]	*[83]	*[83]	object[83]	*[83]	*[83]	false[212]	Decl[212]	*[340]	kündigen[340]	transitive[340]	*[340]	*[340]	item0[340]	26[467]	male[467]	c48fsj7kc4kiuorutkbb4be30b[467]	speaker: YOU[594]	*->78-1	DefNP[78]	_	_	_	
+158-5	3793-3802	gekündigt	GWithout[27]	kuendigen\_set1\_6[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kuendigen\_set1\_6[27]	_	_	_	_	_	false[212]	Decl[212]	*[340]	kündigen[340]	transitive[340]	*[340]	*[340]	item0[340]	26[467]	male[467]	c48fsj7kc4kiuorutkbb4be30b[467]	speaker: YOU[594]	_	_	_	_	_	
+
+#Text=-
+159-1	3804-3805	-	GWithout[27]	kuendigen\_set1\_6[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kuendigen\_set1\_6[27]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Anna	_	_	_	_	_	
+
+#Text=Die letzten Ausgaben gab es einfach keine spannenden Artikel mehr.
+160-1	3807-3810	Die	GWithout[27]	kuendigen\_set1\_6[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kuendigen\_set1\_6[27]	*[84]	*[84]	IndirObj[84]	*[84]	*[84]	false[213]	Decl[213]	*[341]	*[341]	*[341]	*[341]	*[341]	input1[341]	26[468]	male[468]	c48fsj7kc4kiuorutkbb4be30b[468]	speaker: YOU[595]	*->80-1	DefNP[80]	_	_	_	
+160-2	3811-3818	letzten	GWithout[27]	kuendigen\_set1\_6[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kuendigen\_set1\_6[27]	*[84]	*[84]	IndirObj[84]	*[84]	*[84]	false[213]	Decl[213]	*[341]	*[341]	*[341]	*[341]	*[341]	input1[341]	26[468]	male[468]	c48fsj7kc4kiuorutkbb4be30b[468]	speaker: YOU[595]	*->80-1	DefNP[80]	_	_	_	
+160-3	3819-3827	Ausgaben	GWithout[27]	kuendigen\_set1\_6[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kuendigen\_set1\_6[27]	*[84]	*[84]	IndirObj[84]	*[84]	*[84]	false[213]	Decl[213]	*[341]	*[341]	*[341]	*[341]	*[341]	input1[341]	26[468]	male[468]	c48fsj7kc4kiuorutkbb4be30b[468]	speaker: YOU[595]	*->80-1	DefNP[80]	_	_	_	
+160-4	3828-3831	gab	GWithout[27]	kuendigen\_set1\_6[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kuendigen\_set1\_6[27]	_	_	_	_	_	false[213]	Decl[213]	*[341]	*[341]	*[341]	*[341]	*[341]	input1[341]	26[468]	male[468]	c48fsj7kc4kiuorutkbb4be30b[468]	speaker: YOU[595]	_	_	_	_	_	
+160-5	3832-3834	es	GWithout[27]	kuendigen\_set1\_6[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kuendigen\_set1\_6[27]	*	*	Subj	*	*	false[213]	Decl[213]	*[341]	*[341]	*[341]	*[341]	*[341]	input1[341]	26[468]	male[468]	c48fsj7kc4kiuorutkbb4be30b[468]	speaker: YOU[595]	_	_	_	_	_	
+160-6	3835-3842	einfach	GWithout[27]	kuendigen\_set1\_6[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kuendigen\_set1\_6[27]	_	_	_	_	_	false[213]	Decl[213]	*[341]	*[341]	*[341]	*[341]	*[341]	input1[341]	26[468]	male[468]	c48fsj7kc4kiuorutkbb4be30b[468]	speaker: YOU[595]	_	_	_	_	_	
+160-7	3843-3848	keine	GWithout[27]	kuendigen\_set1\_6[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kuendigen\_set1\_6[27]	*[85]	*[85]	DirObj[85]	*[85]	*[85]	false[213]	Decl[213]	*[341]	*[341]	*[341]	*[341]	*[341]	input1[341]	26[468]	male[468]	c48fsj7kc4kiuorutkbb4be30b[468]	speaker: YOU[595]	_	_	_	_	_	
+160-8	3849-3859	spannenden	GWithout[27]	kuendigen\_set1\_6[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kuendigen\_set1\_6[27]	*[85]	*[85]	DirObj[85]	*[85]	*[85]	false[213]	Decl[213]	*[341]	*[341]	*[341]	*[341]	*[341]	input1[341]	26[468]	male[468]	c48fsj7kc4kiuorutkbb4be30b[468]	speaker: YOU[595]	_	_	_	_	_	
+160-9	3860-3867	Artikel	GWithout[27]	kuendigen\_set1\_6[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kuendigen\_set1\_6[27]	*[85]	*[85]	DirObj[85]	*[85]	*[85]	false[213]	Decl[213]	*[341]	*[341]	*[341]	*[341]	*[341]	input1[341]	26[468]	male[468]	c48fsj7kc4kiuorutkbb4be30b[468]	speaker: YOU[595]	_	_	_	_	_	
+160-10	3868-3873	mehr.	GWithout[27]	kuendigen\_set1\_6[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kuendigen\_set1\_6[27]	_	_	_	_	_	false[213]	Decl[213]	*[341]	*[341]	*[341]	*[341]	*[341]	input1[341]	26[468]	male[468]	c48fsj7kc4kiuorutkbb4be30b[468]	speaker: YOU[595]	_	_	_	_	_	
+
+#Text=Wir schauen uns jetzt nach einer anderen Zeitschrift um.
+161-1	3875-3878	Wir	GWithout[27]	kuendigen\_set1\_6[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kuendigen\_set1\_6[27]	1	*	Subj	*	plural	false[214]	Decl[214]	*[342]	*[342]	*[342]	*[342]	*[342]	input2[342]	26[469]	male[469]	c48fsj7kc4kiuorutkbb4be30b[469]	speaker: YOU[596]	*->76-1	PerPron[76]	_	_	_	
+161-2	3879-3886	schauen	GWithout[27]	kuendigen\_set1\_6[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kuendigen\_set1\_6[27]	_	_	_	_	_	false[214]	Decl[214]	*[342]	*[342]	*[342]	*[342]	*[342]	input2[342]	26[469]	male[469]	c48fsj7kc4kiuorutkbb4be30b[469]	speaker: YOU[596]	_	_	_	_	_	
+161-3	3887-3890	uns	GWithout[27]	kuendigen\_set1\_6[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kuendigen\_set1\_6[27]	*	*	IndirObj	*	*	false[214]	Decl[214]	*[342]	*[342]	*[342]	*[342]	*[342]	input2[342]	26[469]	male[469]	c48fsj7kc4kiuorutkbb4be30b[469]	speaker: YOU[596]	_	_	_	_	_	
+161-4	3891-3896	jetzt	GWithout[27]	kuendigen\_set1\_6[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kuendigen\_set1\_6[27]	_	_	_	_	_	false[214]	Decl[214]	*[342]	*[342]	*[342]	*[342]	*[342]	input2[342]	26[469]	male[469]	c48fsj7kc4kiuorutkbb4be30b[469]	speaker: YOU[596]	_	_	_	_	_	
+161-5	3897-3901	nach	GWithout[27]	kuendigen\_set1\_6[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kuendigen\_set1\_6[27]	_	_	_	_	_	false[214]	Decl[214]	*[342]	*[342]	*[342]	*[342]	*[342]	input2[342]	26[469]	male[469]	c48fsj7kc4kiuorutkbb4be30b[469]	speaker: YOU[596]	_	_	_	_	_	
+161-6	3902-3907	einer	GWithout[27]	kuendigen\_set1\_6[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kuendigen\_set1\_6[27]	*[86]	*[86]	PrepObj[86]	*[86]	*[86]	false[214]	Decl[214]	*[342]	*[342]	*[342]	*[342]	*[342]	input2[342]	26[469]	male[469]	c48fsj7kc4kiuorutkbb4be30b[469]	speaker: YOU[596]	*->28-1	IndefNP[28]	_	_	_	
+161-7	3908-3915	anderen	GWithout[27]	kuendigen\_set1\_6[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kuendigen\_set1\_6[27]	*[86]	*[86]	PrepObj[86]	*[86]	*[86]	false[214]	Decl[214]	*[342]	*[342]	*[342]	*[342]	*[342]	input2[342]	26[469]	male[469]	c48fsj7kc4kiuorutkbb4be30b[469]	speaker: YOU[596]	*->28-1	IndefNP[28]	_	_	_	
+161-8	3916-3927	Zeitschrift	GWithout[27]	kuendigen\_set1\_6[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kuendigen\_set1\_6[27]	*[86]	*[86]	PrepObj[86]	*[86]	*[86]	false[214]	Decl[214]	*[342]	*[342]	*[342]	*[342]	*[342]	input2[342]	26[469]	male[469]	c48fsj7kc4kiuorutkbb4be30b[469]	speaker: YOU[596]	*->28-1	IndefNP[28]	_	_	_	
+161-9	3928-3931	um.	GWithout[27]	kuendigen\_set1\_6[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kuendigen\_set1\_6[27]	_	_	_	_	_	false[214]	Decl[214]	*[342]	*[342]	*[342]	*[342]	*[342]	input2[342]	26[469]	male[469]	c48fsj7kc4kiuorutkbb4be30b[469]	speaker: YOU[596]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+162-1	3933-3948	END_OF_DOCUMENT	GWithout[27]	kuendigen\_set1\_6[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kuendigen\_set1\_6[27]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+163-1	3950-3955	Alles	GWithout[28]	kuendigen\_set1\_6[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kuendigen\_set1\_6[28]	_	_	_	_	_	false[215]	Int[215]	*[343]	*[343]	*[343]	yn\_4[343]	yesno\_question[343]	openq[343]	*[470]	female[470]	*[470]	speaker:Anna[597]	_	_	QAP	*	164-1[216_215]	
+163-2	3956-3960	gut?	GWithout[28]	kuendigen\_set1\_6[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kuendigen\_set1\_6[28]	_	_	_	_	_	false[215]	Int[215]	*[343]	*[343]	*[343]	yn\_4[343]	yesno\_question[343]	openq[343]	*[470]	female[470]	*[470]	speaker:Anna[597]	_	_	_	_	_	
+
+#Text=Livia hat das Spiegel-Abo gekündigt
+164-1	3962-3967	Livia	GWithout[28]	kuendigen\_set1\_6[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kuendigen\_set1\_6[28]	*	*	Subj	*	*	false[216]	Decl[216]	*[344]	kündigen[344]	transitive[344]	*[344]	*[344]	item0[344]	57[471]	female[471]	k0vnav0sqhr0fo3b0jpuaak9s4[471]	speaker: YOU[598]	*->8-1	PropNm[8]	explanation	*	166-1[217_216]	
+164-2	3968-3971	hat	GWithout[28]	kuendigen\_set1\_6[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kuendigen\_set1\_6[28]	_	_	_	_	_	false[216]	Decl[216]	*[344]	kündigen[344]	transitive[344]	*[344]	*[344]	item0[344]	57[471]	female[471]	k0vnav0sqhr0fo3b0jpuaak9s4[471]	speaker: YOU[598]	_	_	_	_	_	
+164-3	3972-3975	das	GWithout[28]	kuendigen\_set1\_6[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kuendigen\_set1\_6[28]	*[87]	*[87]	object[87]	*[87]	*[87]	false[216]	Decl[216]	*[344]	kündigen[344]	transitive[344]	*[344]	*[344]	item0[344]	57[471]	female[471]	k0vnav0sqhr0fo3b0jpuaak9s4[471]	speaker: YOU[598]	*->46-1	DefNP[46]	_	_	_	
+164-4	3976-3987	Spiegel-Abo	GWithout[28]	kuendigen\_set1\_6[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kuendigen\_set1\_6[28]	*[87]	*[87]	object[87]	*[87]	*[87]	false[216]	Decl[216]	*[344]	kündigen[344]	transitive[344]	*[344]	*[344]	item0[344]	57[471]	female[471]	k0vnav0sqhr0fo3b0jpuaak9s4[471]	speaker: YOU[598]	*->46-1	DefNP[46]	_	_	_	
+164-5	3988-3997	gekündigt	GWithout[28]	kuendigen\_set1\_6[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kuendigen\_set1\_6[28]	_	_	_	_	_	false[216]	Decl[216]	*[344]	kündigen[344]	transitive[344]	*[344]	*[344]	item0[344]	57[471]	female[471]	k0vnav0sqhr0fo3b0jpuaak9s4[471]	speaker: YOU[598]	_	_	_	_	_	
+
+#Text=-
+165-1	3999-4000	-	GWithout[28]	kuendigen\_set1\_6[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kuendigen\_set1\_6[28]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Anna	_	_	_	_	_	
+
+#Text=Sie sagt <BR> daß der Spiegel ein rotes Wurstblatt ist das nur noch die Wahrheit verdrehen würde.
+166-1	4002-4005	Sie	GWithout[28]	kuendigen\_set1\_6[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kuendigen\_set1\_6[28]	3	*	Subj	*	singular	false[217]	Decl[217]	*[345]	*[345]	*[345]	*[345]	*[345]	input1[345]	57[472]	female[472]	k0vnav0sqhr0fo3b0jpuaak9s4[472]	speaker: YOU[599]	*->8-2	PerPron[8]	elaboration	*	167-1[218_217]	
+166-2	4006-4010	sagt	GWithout[28]	kuendigen\_set1\_6[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kuendigen\_set1\_6[28]	_	_	_	_	_	false[217]	Decl[217]	*[345]	*[345]	*[345]	*[345]	*[345]	input1[345]	57[472]	female[472]	k0vnav0sqhr0fo3b0jpuaak9s4[472]	speaker: YOU[599]	_	_	_	_	_	
+166-3	4011-4015	<BR>	GWithout[28]	kuendigen\_set1\_6[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kuendigen\_set1\_6[28]	_	_	_	_	_	false[217]	Decl[217]	*[345]	*[345]	*[345]	*[345]	*[345]	input1[345]	57[472]	female[472]	k0vnav0sqhr0fo3b0jpuaak9s4[472]	speaker: YOU[599]	_	_	_	_	_	
+166-4	4016-4019	daß	GWithout[28]	kuendigen\_set1\_6[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kuendigen\_set1\_6[28]	_	_	_	_	_	false[217]	Decl[217]	*[345]	*[345]	*[345]	*[345]	*[345]	input1[345]	57[472]	female[472]	k0vnav0sqhr0fo3b0jpuaak9s4[472]	speaker: YOU[599]	_	_	_	_	_	
+166-5	4020-4023	der	GWithout[28]	kuendigen\_set1\_6[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kuendigen\_set1\_6[28]	*[88]	*[88]	Embedded[88]	*[88]	*[88]	false[217]	Decl[217]	*[345]	*[345]	*[345]	*[345]	*[345]	input1[345]	57[472]	female[472]	k0vnav0sqhr0fo3b0jpuaak9s4[472]	speaker: YOU[599]	*->60-1	DefNP[60]	_	_	_	
+166-6	4024-4031	Spiegel	GWithout[28]	kuendigen\_set1\_6[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kuendigen\_set1\_6[28]	*[88]	*[88]	Embedded[88]	*[88]	*[88]	false[217]	Decl[217]	*[345]	*[345]	*[345]	*[345]	*[345]	input1[345]	57[472]	female[472]	k0vnav0sqhr0fo3b0jpuaak9s4[472]	speaker: YOU[599]	*->60-1	DefNP[60]	_	_	_	
+166-7	4032-4035	ein	GWithout[28]	kuendigen\_set1\_6[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kuendigen\_set1\_6[28]	*[89]	*[89]	Embedded[89]	*[89]	*[89]	false[217]	Decl[217]	*[345]	*[345]	*[345]	*[345]	*[345]	input1[345]	57[472]	female[472]	k0vnav0sqhr0fo3b0jpuaak9s4[472]	speaker: YOU[599]	_	_	_	_	_	
+166-8	4036-4041	rotes	GWithout[28]	kuendigen\_set1\_6[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kuendigen\_set1\_6[28]	*[89]	*[89]	Embedded[89]	*[89]	*[89]	false[217]	Decl[217]	*[345]	*[345]	*[345]	*[345]	*[345]	input1[345]	57[472]	female[472]	k0vnav0sqhr0fo3b0jpuaak9s4[472]	speaker: YOU[599]	_	_	_	_	_	
+166-9	4042-4052	Wurstblatt	GWithout[28]	kuendigen\_set1\_6[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kuendigen\_set1\_6[28]	*[89]	*[89]	Embedded[89]	*[89]	*[89]	false[217]	Decl[217]	*[345]	*[345]	*[345]	*[345]	*[345]	input1[345]	57[472]	female[472]	k0vnav0sqhr0fo3b0jpuaak9s4[472]	speaker: YOU[599]	_	_	_	_	_	
+166-10	4053-4056	ist	GWithout[28]	kuendigen\_set1\_6[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kuendigen\_set1\_6[28]	_	_	_	_	_	false[217]	Decl[217]	*[345]	*[345]	*[345]	*[345]	*[345]	input1[345]	57[472]	female[472]	k0vnav0sqhr0fo3b0jpuaak9s4[472]	speaker: YOU[599]	_	_	_	_	_	
+166-11	4057-4060	das	GWithout[28]	kuendigen\_set1\_6[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kuendigen\_set1\_6[28]	_	_	_	_	_	false[217]	Decl[217]	*[345]	*[345]	*[345]	*[345]	*[345]	input1[345]	57[472]	female[472]	k0vnav0sqhr0fo3b0jpuaak9s4[472]	speaker: YOU[599]	_	_	_	_	_	
+166-12	4061-4064	nur	GWithout[28]	kuendigen\_set1\_6[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kuendigen\_set1\_6[28]	_	_	_	_	_	false[217]	Decl[217]	*[345]	*[345]	*[345]	*[345]	*[345]	input1[345]	57[472]	female[472]	k0vnav0sqhr0fo3b0jpuaak9s4[472]	speaker: YOU[599]	_	_	_	_	_	
+166-13	4065-4069	noch	GWithout[28]	kuendigen\_set1\_6[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kuendigen\_set1\_6[28]	_	_	_	_	_	false[217]	Decl[217]	*[345]	*[345]	*[345]	*[345]	*[345]	input1[345]	57[472]	female[472]	k0vnav0sqhr0fo3b0jpuaak9s4[472]	speaker: YOU[599]	_	_	_	_	_	
+166-14	4070-4073	die	GWithout[28]	kuendigen\_set1\_6[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kuendigen\_set1\_6[28]	*[90]	*[90]	Embedded[90]	*[90]	*[90]	false[217]	Decl[217]	*[345]	*[345]	*[345]	*[345]	*[345]	input1[345]	57[472]	female[472]	k0vnav0sqhr0fo3b0jpuaak9s4[472]	speaker: YOU[599]	*->69-1	DefNP[69]	_	_	_	
+166-15	4074-4082	Wahrheit	GWithout[28]	kuendigen\_set1\_6[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kuendigen\_set1\_6[28]	*[90]	*[90]	Embedded[90]	*[90]	*[90]	false[217]	Decl[217]	*[345]	*[345]	*[345]	*[345]	*[345]	input1[345]	57[472]	female[472]	k0vnav0sqhr0fo3b0jpuaak9s4[472]	speaker: YOU[599]	*->69-1	DefNP[69]	_	_	_	
+166-16	4083-4092	verdrehen	GWithout[28]	kuendigen\_set1\_6[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kuendigen\_set1\_6[28]	_	_	_	_	_	false[217]	Decl[217]	*[345]	*[345]	*[345]	*[345]	*[345]	input1[345]	57[472]	female[472]	k0vnav0sqhr0fo3b0jpuaak9s4[472]	speaker: YOU[599]	_	_	_	_	_	
+166-17	4093-4099	würde.	GWithout[28]	kuendigen\_set1\_6[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kuendigen\_set1\_6[28]	_	_	_	_	_	false[217]	Decl[217]	*[345]	*[345]	*[345]	*[345]	*[345]	input1[345]	57[472]	female[472]	k0vnav0sqhr0fo3b0jpuaak9s4[472]	speaker: YOU[599]	_	_	_	_	_	
+
+#Text=Klang ein wenig bitter <BR> die Gute.
+167-1	4101-4106	Klang	GWithout[28]	kuendigen\_set1\_6[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kuendigen\_set1\_6[28]	3	*	*	*	singular	false[218]	Decl[218]	*[346]	*[346]	*[346]	*[346]	*[346]	input2[346]	57[473]	female[473]	k0vnav0sqhr0fo3b0jpuaak9s4[473]	speaker: YOU[600]	*->8-3	zero[8]	elaboration	*	167-6[219_218]	
+167-2	4107-4110	ein	GWithout[28]	kuendigen\_set1\_6[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kuendigen\_set1\_6[28]	_	_	_	_	_	false[218]	Decl[218]	*[346]	*[346]	*[346]	*[346]	*[346]	input2[346]	57[473]	female[473]	k0vnav0sqhr0fo3b0jpuaak9s4[473]	speaker: YOU[600]	_	_	_	_	_	
+167-3	4111-4116	wenig	GWithout[28]	kuendigen\_set1\_6[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kuendigen\_set1\_6[28]	_	_	_	_	_	false[218]	Decl[218]	*[346]	*[346]	*[346]	*[346]	*[346]	input2[346]	57[473]	female[473]	k0vnav0sqhr0fo3b0jpuaak9s4[473]	speaker: YOU[600]	_	_	_	_	_	
+167-4	4117-4123	bitter	GWithout[28]	kuendigen\_set1\_6[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kuendigen\_set1\_6[28]	_	_	_	_	_	false[218]	Decl[218]	*[346]	*[346]	*[346]	*[346]	*[346]	input2[346]	57[473]	female[473]	k0vnav0sqhr0fo3b0jpuaak9s4[473]	speaker: YOU[600]	_	_	_	_	_	
+167-5	4124-4128	<BR>	GWithout[28]	kuendigen\_set1\_6[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kuendigen\_set1\_6[28]	_	_	_	_	_	_	_	*[346]	*[346]	*[346]	*[346]	*[346]	input2[346]	57[473]	female[473]	k0vnav0sqhr0fo3b0jpuaak9s4[473]	speaker: YOU[600]	_	_	_	_	_	
+167-6	4129-4132	die	GWithout[28]	kuendigen\_set1\_6[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kuendigen\_set1\_6[28]	_	_	_	_	_	false[219]	NA[219]	*[346]	*[346]	*[346]	*[346]	*[346]	input2[346]	57[473]	female[473]	k0vnav0sqhr0fo3b0jpuaak9s4[473]	speaker: YOU[600]	*->8-4	DefNP[8]	_	_	_	
+167-7	4133-4138	Gute.	GWithout[28]	kuendigen\_set1\_6[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kuendigen\_set1\_6[28]	_	_	_	_	_	false[219]	NA[219]	*[346]	*[346]	*[346]	*[346]	*[346]	input2[346]	57[473]	female[473]	k0vnav0sqhr0fo3b0jpuaak9s4[473]	speaker: YOU[600]	*->8-4	DefNP[8]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+168-1	4140-4155	END_OF_DOCUMENT	GWithout[28]	kuendigen\_set1\_6[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kuendigen\_set1\_6[28]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+169-1	4157-4162	Alles	GWithout[29]	kuendigen\_set1\_6[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-kuendigen\_set1\_6[29]	_	_	_	_	_	false[220]	Int[220]	*[347]	*[347]	*[347]	yn\_4[347]	yesno\_question[347]	openq[347]	*[474]	female[474]	*[474]	speaker:Anna[601]	_	_	QAP	*	170-1[221_220]	
+169-2	4163-4167	gut?	GWithout[29]	kuendigen\_set1\_6[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-kuendigen\_set1\_6[29]	_	_	_	_	_	false[220]	Int[220]	*[347]	*[347]	*[347]	yn\_4[347]	yesno\_question[347]	openq[347]	*[474]	female[474]	*[474]	speaker:Anna[601]	_	_	_	_	_	
+
+#Text=Livia hat das Spiegel-Abo gekündigt
+170-1	4169-4174	Livia	GWithout[29]	kuendigen\_set1\_6[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-kuendigen\_set1\_6[29]	*	*	Subj	*	*	false[221]	Decl[221]	*[348]	kündigen[348]	transitive[348]	*[348]	*[348]	item0[348]	26[475]	female[475]	qjdpg51abd5auurj3bduisfb43[475]	speaker: YOU[602]	*->48-1	PropNm[48]	elaboration|result	*|*	172-1[222_221]|173-1[223_221]	
+170-2	4175-4178	hat	GWithout[29]	kuendigen\_set1\_6[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-kuendigen\_set1\_6[29]	_	_	_	_	_	false[221]	Decl[221]	*[348]	kündigen[348]	transitive[348]	*[348]	*[348]	item0[348]	26[475]	female[475]	qjdpg51abd5auurj3bduisfb43[475]	speaker: YOU[602]	_	_	_	_	_	
+170-3	4179-4182	das	GWithout[29]	kuendigen\_set1\_6[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-kuendigen\_set1\_6[29]	*[91]	*[91]	object[91]	*[91]	*[91]	false[221]	Decl[221]	*[348]	kündigen[348]	transitive[348]	*[348]	*[348]	item0[348]	26[475]	female[475]	qjdpg51abd5auurj3bduisfb43[475]	speaker: YOU[602]	*->16-1	DefNP[16]	_	_	_	
+170-4	4183-4194	Spiegel-Abo	GWithout[29]	kuendigen\_set1\_6[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-kuendigen\_set1\_6[29]	*[91]	*[91]	object[91]	*[91]	*[91]	false[221]	Decl[221]	*[348]	kündigen[348]	transitive[348]	*[348]	*[348]	item0[348]	26[475]	female[475]	qjdpg51abd5auurj3bduisfb43[475]	speaker: YOU[602]	*->16-1	DefNP[16]	_	_	_	
+170-5	4195-4204	gekündigt	GWithout[29]	kuendigen\_set1\_6[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-kuendigen\_set1\_6[29]	_	_	_	_	_	false[221]	Decl[221]	*[348]	kündigen[348]	transitive[348]	*[348]	*[348]	item0[348]	26[475]	female[475]	qjdpg51abd5auurj3bduisfb43[475]	speaker: YOU[602]	_	_	_	_	_	
+
+#Text=-
+171-1	4206-4207	-	GWithout[29]	kuendigen\_set1\_6[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-kuendigen\_set1\_6[29]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Anna	_	_	_	_	_	
+
+#Text=Richtig frech.
+172-1	4209-4216	Richtig	GWithout[29]	kuendigen\_set1\_6[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-kuendigen\_set1\_6[29]	_	_	_	_	_	false[222]	NA[222]	*[349]	*[349]	*[349]	*[349]	*[349]	input1[349]	26[476]	female[476]	qjdpg51abd5auurj3bduisfb43[476]	speaker: YOU[603]	_	_	_	_	_	
+172-2	4217-4223	frech.	GWithout[29]	kuendigen\_set1\_6[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-kuendigen\_set1\_6[29]	_	_	_	_	_	false[222]	NA[222]	*[349]	*[349]	*[349]	*[349]	*[349]	input1[349]	26[476]	female[476]	qjdpg51abd5auurj3bduisfb43[476]	speaker: YOU[603]	_	_	_	_	_	
+
+#Text=Was soll ich denn jetzt machen?
+173-1	4225-4228	Was	GWithout[29]	kuendigen\_set1\_6[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-kuendigen\_set1\_6[29]	_	_	_	_	_	false[223]	Int[223]	*[350]	*[350]	*[350]	*[350]	*[350]	input2[350]	26[477]	female[477]	qjdpg51abd5auurj3bduisfb43[477]	speaker: YOU[604]	_	_	_	_	_	
+173-2	4229-4233	soll	GWithout[29]	kuendigen\_set1\_6[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-kuendigen\_set1\_6[29]	_	_	_	_	_	false[223]	Int[223]	*[350]	*[350]	*[350]	*[350]	*[350]	input2[350]	26[477]	female[477]	qjdpg51abd5auurj3bduisfb43[477]	speaker: YOU[604]	_	_	_	_	_	
+173-3	4234-4237	ich	GWithout[29]	kuendigen\_set1\_6[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-kuendigen\_set1\_6[29]	1	*	Subj	*	singular	false[223]	Int[223]	*[350]	*[350]	*[350]	*[350]	*[350]	input2[350]	26[477]	female[477]	qjdpg51abd5auurj3bduisfb43[477]	speaker: YOU[604]	*->39-1	PerPron[39]	_	_	_	
+173-4	4238-4242	denn	GWithout[29]	kuendigen\_set1\_6[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-kuendigen\_set1\_6[29]	_	_	_	_	_	false[223]	Int[223]	*[350]	*[350]	*[350]	*[350]	*[350]	input2[350]	26[477]	female[477]	qjdpg51abd5auurj3bduisfb43[477]	speaker: YOU[604]	_	_	_	_	_	
+173-5	4243-4248	jetzt	GWithout[29]	kuendigen\_set1\_6[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-kuendigen\_set1\_6[29]	_	_	_	_	_	false[223]	Int[223]	*[350]	*[350]	*[350]	*[350]	*[350]	input2[350]	26[477]	female[477]	qjdpg51abd5auurj3bduisfb43[477]	speaker: YOU[604]	_	_	_	_	_	
+173-6	4249-4256	machen?	GWithout[29]	kuendigen\_set1\_6[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-kuendigen\_set1\_6[29]	_	_	_	_	_	false[223]	Int[223]	*[350]	*[350]	*[350]	*[350]	*[350]	input2[350]	26[477]	female[477]	qjdpg51abd5auurj3bduisfb43[477]	speaker: YOU[604]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+174-1	4258-4273	END_OF_DOCUMENT	GWithout[29]	kuendigen\_set1\_6[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-kuendigen\_set1\_6[29]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+175-1	4275-4280	Alles	GWithout[30]	kuendigen\_set1\_6[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-kuendigen\_set1\_6[30]	_	_	_	_	_	false[224]	Int[224]	*[351]	*[351]	*[351]	yn\_4[351]	yesno\_question[351]	openq[351]	*[478]	female[478]	*[478]	speaker:Anna[605]	_	_	QAP	*	176-1[225_224]	
+175-2	4281-4285	gut?	GWithout[30]	kuendigen\_set1\_6[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-kuendigen\_set1\_6[30]	_	_	_	_	_	false[224]	Int[224]	*[351]	*[351]	*[351]	yn\_4[351]	yesno\_question[351]	openq[351]	*[478]	female[478]	*[478]	speaker:Anna[605]	_	_	_	_	_	
+
+#Text=Livia hat das Spiegel-Abo gekündigt
+176-1	4287-4292	Livia	GWithout[30]	kuendigen\_set1\_6[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-kuendigen\_set1\_6[30]	*	*	Subj	*	*	false[225]	Decl[225]	*[352]	kündigen[352]	transitive[352]	*[352]	*[352]	item0[352]	72[479]	male[479]	rhiec6c6hfje484c5bsbj040l0[479]	speaker: YOU[606]	*->24-1|*->89-1	clause[24]|PropNm[89]	elaboration	*	178-1[226_225]	
+176-2	4293-4296	hat	GWithout[30]	kuendigen\_set1\_6[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-kuendigen\_set1\_6[30]	_	_	_	_	_	false[225]	Decl[225]	*[352]	kündigen[352]	transitive[352]	*[352]	*[352]	item0[352]	72[479]	male[479]	rhiec6c6hfje484c5bsbj040l0[479]	speaker: YOU[606]	*->24-1	clause[24]	_	_	_	
+176-3	4297-4300	das	GWithout[30]	kuendigen\_set1\_6[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-kuendigen\_set1\_6[30]	*[92]	*[92]	object[92]	*[92]	*[92]	false[225]	Decl[225]	*[352]	kündigen[352]	transitive[352]	*[352]	*[352]	item0[352]	72[479]	male[479]	rhiec6c6hfje484c5bsbj040l0[479]	speaker: YOU[606]	*->24-1|*->35-1	clause[24]|DefNP[35]	_	_	_	
+176-4	4301-4312	Spiegel-Abo	GWithout[30]	kuendigen\_set1\_6[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-kuendigen\_set1\_6[30]	*[92]	*[92]	object[92]	*[92]	*[92]	false[225]	Decl[225]	*[352]	kündigen[352]	transitive[352]	*[352]	*[352]	item0[352]	72[479]	male[479]	rhiec6c6hfje484c5bsbj040l0[479]	speaker: YOU[606]	*->24-1|*->35-1	clause[24]|DefNP[35]	_	_	_	
+176-5	4313-4322	gekündigt	GWithout[30]	kuendigen\_set1\_6[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-kuendigen\_set1\_6[30]	_	_	_	_	_	false[225]	Decl[225]	*[352]	kündigen[352]	transitive[352]	*[352]	*[352]	item0[352]	72[479]	male[479]	rhiec6c6hfje484c5bsbj040l0[479]	speaker: YOU[606]	*->24-1	clause[24]	_	_	_	
+
+#Text=-
+177-1	4324-4325	-	GWithout[30]	kuendigen\_set1\_6[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-kuendigen\_set1\_6[30]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Anna	_	_	_	_	_	
+
+#Text=Wurde auch Zeit
+178-1	4327-4332	Wurde	GWithout[30]	kuendigen\_set1\_6[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-kuendigen\_set1\_6[30]	3	*	*	*	singular	false[226]	Decl[226]	*[353]	*[353]	*[353]	*[353]	*[353]	input1[353]	72[480]	male[480]	rhiec6c6hfje484c5bsbj040l0[480]	speaker: YOU[607]	*->24-2	zero[24]	explanation	*	179-1[227_226]	
+178-2	4333-4337	auch	GWithout[30]	kuendigen\_set1\_6[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-kuendigen\_set1\_6[30]	_	_	_	_	_	false[226]	Decl[226]	*[353]	*[353]	*[353]	*[353]	*[353]	input1[353]	72[480]	male[480]	rhiec6c6hfje484c5bsbj040l0[480]	speaker: YOU[607]	_	_	_	_	_	
+178-3	4338-4342	Zeit	GWithout[30]	kuendigen\_set1\_6[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-kuendigen\_set1\_6[30]	_	_	_	_	_	false[226]	Decl[226]	*[353]	*[353]	*[353]	*[353]	*[353]	input1[353]	72[480]	male[480]	rhiec6c6hfje484c5bsbj040l0[480]	speaker: YOU[607]	_	_	_	_	_	
+
+#Text=das habe ich ihr schon lange empfohlen
+179-1	4344-4347	das	GWithout[30]	kuendigen\_set1\_6[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-kuendigen\_set1\_6[30]	*	*	DirObj	*	*	false[227]	Decl[227]	*[354]	*[354]	*[354]	*[354]	*[354]	input2[354]	72[481]	male[481]	rhiec6c6hfje484c5bsbj040l0[481]	speaker: YOU[608]	*->24-3	D-Pron[24]	_	_	_	
+179-2	4348-4352	habe	GWithout[30]	kuendigen\_set1\_6[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-kuendigen\_set1\_6[30]	_	_	_	_	_	false[227]	Decl[227]	*[354]	*[354]	*[354]	*[354]	*[354]	input2[354]	72[481]	male[481]	rhiec6c6hfje484c5bsbj040l0[481]	speaker: YOU[608]	_	_	_	_	_	
+179-3	4353-4356	ich	GWithout[30]	kuendigen\_set1\_6[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-kuendigen\_set1\_6[30]	1	*	Subj	*	singular	false[227]	Decl[227]	*[354]	*[354]	*[354]	*[354]	*[354]	input2[354]	72[481]	male[481]	rhiec6c6hfje484c5bsbj040l0[481]	speaker: YOU[608]	*->102-1	PerPron[102]	_	_	_	
+179-4	4357-4360	ihr	GWithout[30]	kuendigen\_set1\_6[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-kuendigen\_set1\_6[30]	3	*	IndirObj	*	singular	false[227]	Decl[227]	*[354]	*[354]	*[354]	*[354]	*[354]	input2[354]	72[481]	male[481]	rhiec6c6hfje484c5bsbj040l0[481]	speaker: YOU[608]	*->89-2	PerPron[89]	_	_	_	
+179-5	4361-4366	schon	GWithout[30]	kuendigen\_set1\_6[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-kuendigen\_set1\_6[30]	_	_	_	_	_	false[227]	Decl[227]	*[354]	*[354]	*[354]	*[354]	*[354]	input2[354]	72[481]	male[481]	rhiec6c6hfje484c5bsbj040l0[481]	speaker: YOU[608]	_	_	_	_	_	
+179-6	4367-4372	lange	GWithout[30]	kuendigen\_set1\_6[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-kuendigen\_set1\_6[30]	_	_	_	_	_	false[227]	Decl[227]	*[354]	*[354]	*[354]	*[354]	*[354]	input2[354]	72[481]	male[481]	rhiec6c6hfje484c5bsbj040l0[481]	speaker: YOU[608]	_	_	_	_	_	
+179-7	4373-4382	empfohlen	GWithout[30]	kuendigen\_set1\_6[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-kuendigen\_set1\_6[30]	_	_	_	_	_	false[227]	Decl[227]	*[354]	*[354]	*[354]	*[354]	*[354]	input2[354]	72[481]	male[481]	rhiec6c6hfje484c5bsbj040l0[481]	speaker: YOU[608]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+180-1	4384-4399	END_OF_DOCUMENT	GWithout[30]	kuendigen\_set1\_6[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-kuendigen\_set1\_6[30]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	

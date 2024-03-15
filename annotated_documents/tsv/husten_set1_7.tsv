@@ -1,0 +1,975 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Item_info|condition|item_id|latinsqr_list|unique_id
+#T_SP=webanno.custom.Ref_info|PersonalPronouns_detailed|ref_def|ref_function|ref_gender|ref_num
+#T_SP=webanno.custom.Segment|complex|segment_type
+#T_SP=webanno.custom.Sent_layer|feedback_id|item0_verb|item0_verbtype|openq_id|openq_type|sent_type
+#T_SP=webanno.custom.Speaker_meta|age|gender|speaker_id
+#T_SP=webanno.custom.Speaker_name|speaker_name
+#T_CH=de.tudarmstadt.ukp.dkpro.core.api.coref.type.CoreferenceLink|referenceRelation|referenceType
+#T_RL=webanno.custom.Relations|discourse_rel|speechAct_rel|BT_webanno.custom.Segment
+
+
+#Text=Wie gehts dir?
+1-1	0-3	Wie	GFailure[1]	husten\_set1\_7[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-husten\_set1\_7[1]	_	_	_	_	_	false[47]	Int[47]	*[170]	*[170]	*[170]	wh\_3[170]	wh\_question[170]	openq[170]	*[289]	female[289]	*[289]	speaker:Annabelle[408]	_	_	QAP	*	2-1[48_47]	
+1-2	4-9	gehts	GFailure[1]	husten\_set1\_7[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-husten\_set1\_7[1]	_	_	_	_	_	false[47]	Int[47]	*[170]	*[170]	*[170]	wh\_3[170]	wh\_question[170]	openq[170]	*[289]	female[289]	*[289]	speaker:Annabelle[408]	_	_	_	_	_	
+1-3	10-14	dir?	GFailure[1]	husten\_set1\_7[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-husten\_set1\_7[1]	2	*	*	*	singular	false[47]	Int[47]	*[170]	*[170]	*[170]	wh\_3[170]	wh\_question[170]	openq[170]	*[289]	female[289]	*[289]	speaker:Annabelle[408]	*->88-1	PerPron[88]	_	_	_	
+
+#Text=Lotte hat laut gehustet
+2-1	16-21	Lotte	GFailure[1]	husten\_set1\_7[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-husten\_set1\_7[1]	*	*	Subj	*	*	false[48]	Decl[48]	*[171]	husten[171]	intransitive[171]	*[171]	*[171]	item0[171]	18[290]	female[290]	0ncaea7aqlpc7oe43khd21qn11[290]	speaker: YOU[409]	*->7-1|*->95-1	clause[7]|PropNm[95]	explanation|CR	*|*	4-3[49_48]|3-1[0_48]	
+2-2	22-25	hat	GFailure[1]	husten\_set1\_7[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-husten\_set1\_7[1]	_	_	_	_	_	false[48]	Decl[48]	*[171]	husten[171]	intransitive[171]	*[171]	*[171]	item0[171]	18[290]	female[290]	0ncaea7aqlpc7oe43khd21qn11[290]	speaker: YOU[409]	*->7-1	clause[7]	_	_	_	
+2-3	26-30	laut	GFailure[1]	husten\_set1\_7[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-husten\_set1\_7[1]	_	_	_	_	_	false[48]	Decl[48]	*[171]	husten[171]	intransitive[171]	*[171]	*[171]	item0[171]	18[290]	female[290]	0ncaea7aqlpc7oe43khd21qn11[290]	speaker: YOU[409]	*->7-1	clause[7]	_	_	_	
+2-4	31-39	gehustet	GFailure[1]	husten\_set1\_7[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-husten\_set1\_7[1]	_	_	_	_	_	false[48]	Decl[48]	*[171]	husten[171]	intransitive[171]	*[171]	*[171]	item0[171]	18[290]	female[290]	0ncaea7aqlpc7oe43khd21qn11[290]	speaker: YOU[409]	*->7-1	clause[7]	_	_	_	
+
+#Text=Was?
+3-1	41-45	Was?	GFailure[1]	husten\_set1\_7[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-husten\_set1\_7[1]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	female	*	speaker:Annabelle	_	_	_	_	_	
+
+#Text=Sorry <BR> meine kleine Schwester hat das geschrieben.
+4-1	47-52	Sorry	GFailure[1]	husten\_set1\_7[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-husten\_set1\_7[1]	_	_	_	_	_	false	NA	*[172]	*[172]	*[172]	*[172]	*[172]	input1[172]	18[291]	female[291]	0ncaea7aqlpc7oe43khd21qn11[291]	speaker: YOU[410]	_	_	_	_	_	
+4-2	53-57	<BR>	GFailure[1]	husten\_set1\_7[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-husten\_set1\_7[1]	_	_	_	_	_	_	_	*[172]	*[172]	*[172]	*[172]	*[172]	input1[172]	18[291]	female[291]	0ncaea7aqlpc7oe43khd21qn11[291]	speaker: YOU[410]	_	_	_	_	_	
+4-3	58-63	meine	GFailure[1]	husten\_set1\_7[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-husten\_set1\_7[1]	*[31]|1[32]	*[31]|*[32]	Subj[31]|*[32]	*[31]|*[32]	*[31]|singular[32]	false[49]	Decl[49]	*[172]	*[172]	*[172]	*[172]	*[172]	input1[172]	18[291]	female[291]	0ncaea7aqlpc7oe43khd21qn11[291]	speaker: YOU[410]	*->92-1|*->88-2	DefNP[92]|PossePron[88]	_	_	_	
+4-4	64-70	kleine	GFailure[1]	husten\_set1\_7[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-husten\_set1\_7[1]	*[31]	*[31]	Subj[31]	*[31]	*[31]	false[49]	Decl[49]	*[172]	*[172]	*[172]	*[172]	*[172]	input1[172]	18[291]	female[291]	0ncaea7aqlpc7oe43khd21qn11[291]	speaker: YOU[410]	*->92-1	DefNP[92]	_	_	_	
+4-5	71-80	Schwester	GFailure[1]	husten\_set1\_7[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-husten\_set1\_7[1]	*[31]	*[31]	Subj[31]	*[31]	*[31]	false[49]	Decl[49]	*[172]	*[172]	*[172]	*[172]	*[172]	input1[172]	18[291]	female[291]	0ncaea7aqlpc7oe43khd21qn11[291]	speaker: YOU[410]	*->92-1	DefNP[92]	_	_	_	
+4-6	81-84	hat	GFailure[1]	husten\_set1\_7[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-husten\_set1\_7[1]	_	_	_	_	_	false[49]	Decl[49]	*[172]	*[172]	*[172]	*[172]	*[172]	input1[172]	18[291]	female[291]	0ncaea7aqlpc7oe43khd21qn11[291]	speaker: YOU[410]	_	_	_	_	_	
+4-7	85-88	das	GFailure[1]	husten\_set1\_7[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-husten\_set1\_7[1]	*	*	DirObj	*	*	false[49]	Decl[49]	*[172]	*[172]	*[172]	*[172]	*[172]	input1[172]	18[291]	female[291]	0ncaea7aqlpc7oe43khd21qn11[291]	speaker: YOU[410]	*->7-2	D-Pron[7]	_	_	_	
+4-8	89-101	geschrieben.	GFailure[1]	husten\_set1\_7[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-husten\_set1\_7[1]	_	_	_	_	_	false[49]	Decl[49]	*[172]	*[172]	*[172]	*[172]	*[172]	input1[172]	18[291]	female[291]	0ncaea7aqlpc7oe43khd21qn11[291]	speaker: YOU[410]	_	_	_	_	_	
+
+#Text=Mir gehts gut und dir?
+5-1	103-106	Mir	GFailure[1]	husten\_set1\_7[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-husten\_set1\_7[1]	1	*	IndirObj	*	singular	false[50]	Int[50]	*[173]	*[173]	*[173]	*[173]	*[173]	input2[173]	18[292]	female[292]	0ncaea7aqlpc7oe43khd21qn11[292]	speaker: YOU[411]	*->88-3	PerPron[88]	_	_	_	
+5-2	107-112	gehts	GFailure[1]	husten\_set1\_7[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-husten\_set1\_7[1]	_	_	_	_	_	false[50]	Int[50]	*[173]	*[173]	*[173]	*[173]	*[173]	input2[173]	18[292]	female[292]	0ncaea7aqlpc7oe43khd21qn11[292]	speaker: YOU[411]	_	_	_	_	_	
+5-3	113-116	gut	GFailure[1]	husten\_set1\_7[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-husten\_set1\_7[1]	_	_	_	_	_	false[50]	Int[50]	*[173]	*[173]	*[173]	*[173]	*[173]	input2[173]	18[292]	female[292]	0ncaea7aqlpc7oe43khd21qn11[292]	speaker: YOU[411]	_	_	_	_	_	
+5-4	117-120	und	GFailure[1]	husten\_set1\_7[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-husten\_set1\_7[1]	_	_	_	_	_	false[50]	Int[50]	*[173]	*[173]	*[173]	*[173]	*[173]	input2[173]	18[292]	female[292]	0ncaea7aqlpc7oe43khd21qn11[292]	speaker: YOU[411]	_	_	_	_	_	
+5-5	121-125	dir?	GFailure[1]	husten\_set1\_7[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-husten\_set1\_7[1]	2	*	PrepObj	*	singular	false[50]	Int[50]	*[173]	*[173]	*[173]	*[173]	*[173]	input2[173]	18[292]	female[292]	0ncaea7aqlpc7oe43khd21qn11[292]	speaker: YOU[411]	*->74-1	PerPron[74]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+6-1	127-142	END_OF_DOCUMENT	GFailure[1]	husten\_set1\_7[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-husten\_set1\_7[1]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+7-1	144-147	Wie	GFailure[2]	husten\_set1\_7[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-husten\_set1\_7[2]	_	_	_	_	_	false[51]	Int[51]	*[174]	*[174]	*[174]	wh\_3[174]	wh\_question[174]	openq[174]	*[293]	female[293]	*[293]	speaker:Annabelle[412]	_	_	QAP	*	8-1[52_51]	
+7-2	148-153	gehts	GFailure[2]	husten\_set1\_7[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-husten\_set1\_7[2]	_	_	_	_	_	false[51]	Int[51]	*[174]	*[174]	*[174]	wh\_3[174]	wh\_question[174]	openq[174]	*[293]	female[293]	*[293]	speaker:Annabelle[412]	_	_	_	_	_	
+7-3	154-158	dir?	GFailure[2]	husten\_set1\_7[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-husten\_set1\_7[2]	2	*	*	*	singular	false[51]	Int[51]	*[174]	*[174]	*[174]	wh\_3[174]	wh\_question[174]	openq[174]	*[293]	female[293]	*[293]	speaker:Annabelle[412]	*->42-1	PerPron[42]	_	_	_	
+
+#Text=Lotte hat laut gehustet
+8-1	160-165	Lotte	GFailure[2]	husten\_set1\_7[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-husten\_set1\_7[2]	*	*	Subj	*	*	false[52]	Decl[52]	*[175]	husten[175]	intransitive[175]	*[175]	*[175]	item0[175]	36[294]	male[294]	19gm0uv9ca6mcngf99lirno94a[294]	speaker: YOU[413]	*->39-1	PropNm[39]	elaboration|explanation|CR	*|*|*	10-1[0_52]|10-3[53_52]|9-1[0_52]	
+8-2	166-169	hat	GFailure[2]	husten\_set1\_7[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-husten\_set1\_7[2]	_	_	_	_	_	false[52]	Decl[52]	*[175]	husten[175]	intransitive[175]	*[175]	*[175]	item0[175]	36[294]	male[294]	19gm0uv9ca6mcngf99lirno94a[294]	speaker: YOU[413]	_	_	_	_	_	
+8-3	170-174	laut	GFailure[2]	husten\_set1\_7[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-husten\_set1\_7[2]	_	_	_	_	_	false[52]	Decl[52]	*[175]	husten[175]	intransitive[175]	*[175]	*[175]	item0[175]	36[294]	male[294]	19gm0uv9ca6mcngf99lirno94a[294]	speaker: YOU[413]	_	_	_	_	_	
+8-4	175-183	gehustet	GFailure[2]	husten\_set1\_7[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-husten\_set1\_7[2]	_	_	_	_	_	false[52]	Decl[52]	*[175]	husten[175]	intransitive[175]	*[175]	*[175]	item0[175]	36[294]	male[294]	19gm0uv9ca6mcngf99lirno94a[294]	speaker: YOU[413]	_	_	_	_	_	
+
+#Text=Was?
+9-1	185-189	Was?	GFailure[2]	husten\_set1\_7[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-husten\_set1\_7[2]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	female	*	speaker:Annabelle	_	_	_	_	_	
+
+#Text=Ja <BR> sie ist wohl erkältet...
+10-1	191-193	Ja	GFailure[2]	husten\_set1\_7[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-husten\_set1\_7[2]	_	_	_	_	_	false	NA	*[176]	*[176]	*[176]	*[176]	*[176]	input1[176]	36[295]	male[295]	19gm0uv9ca6mcngf99lirno94a[295]	speaker: YOU[414]	_	_	_	_	_	
+10-2	194-198	<BR>	GFailure[2]	husten\_set1\_7[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-husten\_set1\_7[2]	_	_	_	_	_	_	_	*[176]	*[176]	*[176]	*[176]	*[176]	input1[176]	36[295]	male[295]	19gm0uv9ca6mcngf99lirno94a[295]	speaker: YOU[414]	_	_	_	_	_	
+10-3	199-202	sie	GFailure[2]	husten\_set1\_7[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-husten\_set1\_7[2]	3	*	Subj	*	singular	false[53]	Decl[53]	*[176]	*[176]	*[176]	*[176]	*[176]	input1[176]	36[295]	male[295]	19gm0uv9ca6mcngf99lirno94a[295]	speaker: YOU[414]	*->39-2	PerPron[39]	result	*	11-1[54_53]	
+10-4	203-206	ist	GFailure[2]	husten\_set1\_7[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-husten\_set1\_7[2]	_	_	_	_	_	false[53]	Decl[53]	*[176]	*[176]	*[176]	*[176]	*[176]	input1[176]	36[295]	male[295]	19gm0uv9ca6mcngf99lirno94a[295]	speaker: YOU[414]	_	_	_	_	_	
+10-5	207-211	wohl	GFailure[2]	husten\_set1\_7[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-husten\_set1\_7[2]	_	_	_	_	_	false[53]	Decl[53]	*[176]	*[176]	*[176]	*[176]	*[176]	input1[176]	36[295]	male[295]	19gm0uv9ca6mcngf99lirno94a[295]	speaker: YOU[414]	_	_	_	_	_	
+10-6	212-223	erkältet...	GFailure[2]	husten\_set1\_7[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-husten\_set1\_7[2]	_	_	_	_	_	false[53]	Decl[53]	*[176]	*[176]	*[176]	*[176]	*[176]	input1[176]	36[295]	male[295]	19gm0uv9ca6mcngf99lirno94a[295]	speaker: YOU[414]	_	_	_	_	_	
+
+#Text=Aber da sollte sie besser einfach zuhause bleiben
+11-1	225-229	Aber	GFailure[2]	husten\_set1\_7[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-husten\_set1\_7[2]	_	_	_	_	_	false[54]	Decl[54]	*[177]	*[177]	*[177]	*[177]	*[177]	input2[177]	36[296]	male[296]	19gm0uv9ca6mcngf99lirno94a[296]	speaker: YOU[415]	_	_	_	_	_	
+11-2	230-232	da	GFailure[2]	husten\_set1\_7[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-husten\_set1\_7[2]	_	_	_	_	_	false[54]	Decl[54]	*[177]	*[177]	*[177]	*[177]	*[177]	input2[177]	36[296]	male[296]	19gm0uv9ca6mcngf99lirno94a[296]	speaker: YOU[415]	_	_	_	_	_	
+11-3	233-239	sollte	GFailure[2]	husten\_set1\_7[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-husten\_set1\_7[2]	_	_	_	_	_	false[54]	Decl[54]	*[177]	*[177]	*[177]	*[177]	*[177]	input2[177]	36[296]	male[296]	19gm0uv9ca6mcngf99lirno94a[296]	speaker: YOU[415]	_	_	_	_	_	
+11-4	240-243	sie	GFailure[2]	husten\_set1\_7[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-husten\_set1\_7[2]	3	*	Subj	*	singular	false[54]	Decl[54]	*[177]	*[177]	*[177]	*[177]	*[177]	input2[177]	36[296]	male[296]	19gm0uv9ca6mcngf99lirno94a[296]	speaker: YOU[415]	*->39-3	PerPron[39]	_	_	_	
+11-5	244-250	besser	GFailure[2]	husten\_set1\_7[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-husten\_set1\_7[2]	_	_	_	_	_	false[54]	Decl[54]	*[177]	*[177]	*[177]	*[177]	*[177]	input2[177]	36[296]	male[296]	19gm0uv9ca6mcngf99lirno94a[296]	speaker: YOU[415]	_	_	_	_	_	
+11-6	251-258	einfach	GFailure[2]	husten\_set1\_7[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-husten\_set1\_7[2]	_	_	_	_	_	false[54]	Decl[54]	*[177]	*[177]	*[177]	*[177]	*[177]	input2[177]	36[296]	male[296]	19gm0uv9ca6mcngf99lirno94a[296]	speaker: YOU[415]	_	_	_	_	_	
+11-7	259-266	zuhause	GFailure[2]	husten\_set1\_7[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-husten\_set1\_7[2]	_	_	_	_	_	false[54]	Decl[54]	*[177]	*[177]	*[177]	*[177]	*[177]	input2[177]	36[296]	male[296]	19gm0uv9ca6mcngf99lirno94a[296]	speaker: YOU[415]	_	_	_	_	_	
+11-8	267-274	bleiben	GFailure[2]	husten\_set1\_7[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-husten\_set1\_7[2]	_	_	_	_	_	false[54]	Decl[54]	*[177]	*[177]	*[177]	*[177]	*[177]	input2[177]	36[296]	male[296]	19gm0uv9ca6mcngf99lirno94a[296]	speaker: YOU[415]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+12-1	276-291	END_OF_DOCUMENT	GFailure[2]	husten\_set1\_7[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-husten\_set1\_7[2]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+13-1	293-296	Wie	GFailure[3]	husten\_set1\_7[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-husten\_set1\_7[3]	_	_	_	_	_	false[55]	Int[55]	*[178]	*[178]	*[178]	wh\_3[178]	wh\_question[178]	openq[178]	*[297]	female[297]	*[297]	speaker:Annabelle[416]	_	_	QAP	*	14-1[56_55]	
+13-2	297-302	gehts	GFailure[3]	husten\_set1\_7[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-husten\_set1\_7[3]	_	_	_	_	_	false[55]	Int[55]	*[178]	*[178]	*[178]	wh\_3[178]	wh\_question[178]	openq[178]	*[297]	female[297]	*[297]	speaker:Annabelle[416]	_	_	_	_	_	
+13-3	303-307	dir?	GFailure[3]	husten\_set1\_7[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-husten\_set1\_7[3]	2	*	*	*	singular	false[55]	Int[55]	*[178]	*[178]	*[178]	wh\_3[178]	wh\_question[178]	openq[178]	*[297]	female[297]	*[297]	speaker:Annabelle[416]	*->12-1	PerPron[12]	_	_	_	
+
+#Text=Lotte hat laut gehustet
+14-1	309-314	Lotte	GFailure[3]	husten\_set1\_7[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-husten\_set1\_7[3]	*	*	Subj	*	*	false[56]	Decl[56]	*[179]	husten[179]	intransitive[179]	*[179]	*[179]	item0[179]	18[298]	female[298]	4qae3ph27q5gbjcsrgnltv8qld[298]	speaker: YOU[417]	*->40-1	PropNm[40]	elaboration|CR	*|*	16-1[57_56]|15-1[0_56]	
+14-2	315-318	hat	GFailure[3]	husten\_set1\_7[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-husten\_set1\_7[3]	_	_	_	_	_	false[56]	Decl[56]	*[179]	husten[179]	intransitive[179]	*[179]	*[179]	item0[179]	18[298]	female[298]	4qae3ph27q5gbjcsrgnltv8qld[298]	speaker: YOU[417]	_	_	_	_	_	
+14-3	319-323	laut	GFailure[3]	husten\_set1\_7[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-husten\_set1\_7[3]	_	_	_	_	_	false[56]	Decl[56]	*[179]	husten[179]	intransitive[179]	*[179]	*[179]	item0[179]	18[298]	female[298]	4qae3ph27q5gbjcsrgnltv8qld[298]	speaker: YOU[417]	_	_	_	_	_	
+14-4	324-332	gehustet	GFailure[3]	husten\_set1\_7[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-husten\_set1\_7[3]	_	_	_	_	_	false[56]	Decl[56]	*[179]	husten[179]	intransitive[179]	*[179]	*[179]	item0[179]	18[298]	female[298]	4qae3ph27q5gbjcsrgnltv8qld[298]	speaker: YOU[417]	_	_	_	_	_	
+
+#Text=Was?
+15-1	334-338	Was?	GFailure[3]	husten\_set1\_7[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-husten\_set1\_7[3]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	female	*	speaker:Annabelle	_	_	_	_	_	
+
+#Text=Lotte hat laut gehustet
+16-1	340-345	Lotte	GFailure[3]	husten\_set1\_7[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-husten\_set1\_7[3]	*	*	Subj	*	*	false[57]	Decl[57]	*[180]	*[180]	*[180]	*[180]	*[180]	input1[180]	18[299]	female[299]	4qae3ph27q5gbjcsrgnltv8qld[299]	speaker: YOU[418]	*->40-2	PropNm[40]	elaboration	*	17-1[58_57]	
+16-2	346-349	hat	GFailure[3]	husten\_set1\_7[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-husten\_set1\_7[3]	_	_	_	_	_	false[57]	Decl[57]	*[180]	*[180]	*[180]	*[180]	*[180]	input1[180]	18[299]	female[299]	4qae3ph27q5gbjcsrgnltv8qld[299]	speaker: YOU[418]	_	_	_	_	_	
+16-3	350-354	laut	GFailure[3]	husten\_set1\_7[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-husten\_set1\_7[3]	_	_	_	_	_	false[57]	Decl[57]	*[180]	*[180]	*[180]	*[180]	*[180]	input1[180]	18[299]	female[299]	4qae3ph27q5gbjcsrgnltv8qld[299]	speaker: YOU[418]	_	_	_	_	_	
+16-4	355-363	gehustet	GFailure[3]	husten\_set1\_7[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-husten\_set1\_7[3]	_	_	_	_	_	false[57]	Decl[57]	*[180]	*[180]	*[180]	*[180]	*[180]	input1[180]	18[299]	female[299]	4qae3ph27q5gbjcsrgnltv8qld[299]	speaker: YOU[418]	_	_	_	_	_	
+
+#Text=während der Schularbeit
+17-1	365-372	während	GFailure[3]	husten\_set1\_7[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-husten\_set1\_7[3]	_	_	_	_	_	false[58]	NA[58]	*[181]	*[181]	*[181]	*[181]	*[181]	input2[181]	18[300]	female[300]	4qae3ph27q5gbjcsrgnltv8qld[300]	speaker: YOU[419]	_	_	_	_	_	
+17-2	373-376	der	GFailure[3]	husten\_set1\_7[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-husten\_set1\_7[3]	*[33]	*[33]	PrepObj[33]	*[33]	*[33]	false[58]	NA[58]	*[181]	*[181]	*[181]	*[181]	*[181]	input2[181]	18[300]	female[300]	4qae3ph27q5gbjcsrgnltv8qld[300]	speaker: YOU[419]	*->29-1	DefNP[29]	_	_	_	
+17-3	377-388	Schularbeit	GFailure[3]	husten\_set1\_7[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-husten\_set1\_7[3]	*[33]	*[33]	PrepObj[33]	*[33]	*[33]	false[58]	NA[58]	*[181]	*[181]	*[181]	*[181]	*[181]	input2[181]	18[300]	female[300]	4qae3ph27q5gbjcsrgnltv8qld[300]	speaker: YOU[419]	*->29-1	DefNP[29]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+18-1	390-405	END_OF_DOCUMENT	GFailure[3]	husten\_set1\_7[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-husten\_set1\_7[3]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+19-1	407-410	Wie	GFailure[4]	husten\_set1\_7[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-husten\_set1\_7[4]	_	_	_	_	_	false[59]	Int[59]	*[182]	*[182]	*[182]	wh\_3[182]	wh\_question[182]	openq[182]	*[301]	female[301]	*[301]	speaker:Annabelle[420]	_	_	QAP	*	20-1[60_59]	
+19-2	411-416	gehts	GFailure[4]	husten\_set1\_7[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-husten\_set1\_7[4]	_	_	_	_	_	false[59]	Int[59]	*[182]	*[182]	*[182]	wh\_3[182]	wh\_question[182]	openq[182]	*[301]	female[301]	*[301]	speaker:Annabelle[420]	_	_	_	_	_	
+19-3	417-421	dir?	GFailure[4]	husten\_set1\_7[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-husten\_set1\_7[4]	2	*	*	*	singular	false[59]	Int[59]	*[182]	*[182]	*[182]	wh\_3[182]	wh\_question[182]	openq[182]	*[301]	female[301]	*[301]	speaker:Annabelle[420]	*->53-1	PerPron[53]	_	_	_	
+
+#Text=Lotte hat laut gehustet
+20-1	423-428	Lotte	GFailure[4]	husten\_set1\_7[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-husten\_set1\_7[4]	*	*	Subj	*	*	false[60]	Decl[60]	*[183]	husten[183]	intransitive[183]	*[183]	*[183]	item0[183]	19[302]	male[302]	f28ipql67ma8cbjqke6k374ach[302]	speaker: YOU[421]	*->99-1	PropNm[99]	explanation|explanation|CR	*|*|*	22-1[61_60]|23-1[62_60]|21-1[0_60]	
+20-2	429-432	hat	GFailure[4]	husten\_set1\_7[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-husten\_set1\_7[4]	_	_	_	_	_	false[60]	Decl[60]	*[183]	husten[183]	intransitive[183]	*[183]	*[183]	item0[183]	19[302]	male[302]	f28ipql67ma8cbjqke6k374ach[302]	speaker: YOU[421]	_	_	_	_	_	
+20-3	433-437	laut	GFailure[4]	husten\_set1\_7[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-husten\_set1\_7[4]	_	_	_	_	_	false[60]	Decl[60]	*[183]	husten[183]	intransitive[183]	*[183]	*[183]	item0[183]	19[302]	male[302]	f28ipql67ma8cbjqke6k374ach[302]	speaker: YOU[421]	_	_	_	_	_	
+20-4	438-446	gehustet	GFailure[4]	husten\_set1\_7[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-husten\_set1\_7[4]	_	_	_	_	_	false[60]	Decl[60]	*[183]	husten[183]	intransitive[183]	*[183]	*[183]	item0[183]	19[302]	male[302]	f28ipql67ma8cbjqke6k374ach[302]	speaker: YOU[421]	_	_	_	_	_	
+
+#Text=Was?
+21-1	448-452	Was?	GFailure[4]	husten\_set1\_7[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-husten\_set1\_7[4]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	female	*	speaker:Annabelle	_	_	_	_	_	
+
+#Text=Ja ich glaube sie hat Corona.
+22-1	454-456	Ja	GFailure[4]	husten\_set1\_7[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-husten\_set1\_7[4]	_	_	_	_	_	false[61]	Decl[61]	*[184]	*[184]	*[184]	*[184]	*[184]	input1[184]	19[303]	male[303]	f28ipql67ma8cbjqke6k374ach[303]	speaker: YOU[422]	_	_	_	_	_	
+22-2	457-460	ich	GFailure[4]	husten\_set1\_7[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-husten\_set1\_7[4]	1	*	Subj	*	singular	false[61]	Decl[61]	*[184]	*[184]	*[184]	*[184]	*[184]	input1[184]	19[303]	male[303]	f28ipql67ma8cbjqke6k374ach[303]	speaker: YOU[422]	*->53-2	PerPron[53]	_	_	_	
+22-3	461-467	glaube	GFailure[4]	husten\_set1\_7[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-husten\_set1\_7[4]	_	_	_	_	_	false[61]	Decl[61]	*[184]	*[184]	*[184]	*[184]	*[184]	input1[184]	19[303]	male[303]	f28ipql67ma8cbjqke6k374ach[303]	speaker: YOU[422]	_	_	_	_	_	
+22-4	468-471	sie	GFailure[4]	husten\_set1\_7[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-husten\_set1\_7[4]	3	*	Subj	*	singular	false[61]	Decl[61]	*[184]	*[184]	*[184]	*[184]	*[184]	input1[184]	19[303]	male[303]	f28ipql67ma8cbjqke6k374ach[303]	speaker: YOU[422]	*->99-2	PerPron[99]	_	_	_	
+22-5	472-475	hat	GFailure[4]	husten\_set1\_7[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-husten\_set1\_7[4]	_	_	_	_	_	false[61]	Decl[61]	*[184]	*[184]	*[184]	*[184]	*[184]	input1[184]	19[303]	male[303]	f28ipql67ma8cbjqke6k374ach[303]	speaker: YOU[422]	_	_	_	_	_	
+22-6	476-483	Corona.	GFailure[4]	husten\_set1\_7[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-husten\_set1\_7[4]	_	_	_	_	_	false[61]	Decl[61]	*[184]	*[184]	*[184]	*[184]	*[184]	input1[184]	19[303]	male[303]	f28ipql67ma8cbjqke6k374ach[303]	speaker: YOU[422]	_	_	_	_	_	
+
+#Text=Oder sie wollte nur aufmerksamkeit
+23-1	485-489	Oder	GFailure[4]	husten\_set1\_7[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-husten\_set1\_7[4]	_	_	_	_	_	false[62]	Decl[62]	*[185]	*[185]	*[185]	*[185]	*[185]	input2[185]	19[304]	male[304]	f28ipql67ma8cbjqke6k374ach[304]	speaker: YOU[423]	_	_	_	_	_	
+23-2	490-493	sie	GFailure[4]	husten\_set1\_7[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-husten\_set1\_7[4]	3	*	Subj	*	singular	false[62]	Decl[62]	*[185]	*[185]	*[185]	*[185]	*[185]	input2[185]	19[304]	male[304]	f28ipql67ma8cbjqke6k374ach[304]	speaker: YOU[423]	*->99-3	PerPron[99]	_	_	_	
+23-3	494-500	wollte	GFailure[4]	husten\_set1\_7[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-husten\_set1\_7[4]	_	_	_	_	_	false[62]	Decl[62]	*[185]	*[185]	*[185]	*[185]	*[185]	input2[185]	19[304]	male[304]	f28ipql67ma8cbjqke6k374ach[304]	speaker: YOU[423]	_	_	_	_	_	
+23-4	501-504	nur	GFailure[4]	husten\_set1\_7[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-husten\_set1\_7[4]	_	_	_	_	_	false[62]	Decl[62]	*[185]	*[185]	*[185]	*[185]	*[185]	input2[185]	19[304]	male[304]	f28ipql67ma8cbjqke6k374ach[304]	speaker: YOU[423]	_	_	_	_	_	
+23-5	505-519	aufmerksamkeit	GFailure[4]	husten\_set1\_7[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-husten\_set1\_7[4]	_	_	_	_	_	false[62]	Decl[62]	*[185]	*[185]	*[185]	*[185]	*[185]	input2[185]	19[304]	male[304]	f28ipql67ma8cbjqke6k374ach[304]	speaker: YOU[423]	*->84-1	IndefNP[84]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+24-1	521-536	END_OF_DOCUMENT	GFailure[4]	husten\_set1\_7[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-husten\_set1\_7[4]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+25-1	538-541	Wie	GFailure[5]	husten\_set1\_7[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-husten\_set1\_7[5]	_	_	_	_	_	false[63]	Int[63]	*[186]	*[186]	*[186]	wh\_3[186]	wh\_question[186]	openq[186]	*[305]	female[305]	*[305]	speaker:Annabelle[424]	_	_	QAP	*	26-1[64_63]	
+25-2	542-547	gehts	GFailure[5]	husten\_set1\_7[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-husten\_set1\_7[5]	_	_	_	_	_	false[63]	Int[63]	*[186]	*[186]	*[186]	wh\_3[186]	wh\_question[186]	openq[186]	*[305]	female[305]	*[305]	speaker:Annabelle[424]	_	_	_	_	_	
+25-3	548-552	dir?	GFailure[5]	husten\_set1\_7[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-husten\_set1\_7[5]	2	*	*	*	singular	false[63]	Int[63]	*[186]	*[186]	*[186]	wh\_3[186]	wh\_question[186]	openq[186]	*[305]	female[305]	*[305]	speaker:Annabelle[424]	*->43-1	PerPron[43]	_	_	_	
+
+#Text=Lotte hat laut gehustet
+26-1	554-559	Lotte	GFailure[5]	husten\_set1\_7[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-husten\_set1\_7[5]	*	*	Subj	*	*	false[64]	Decl[64]	*[187]	husten[187]	intransitive[187]	*[187]	*[187]	item0[187]	36[306]	male[306]	ifdbjqro2nfkup12rv8t6k0eu9[306]	speaker: YOU[425]	*->46-1	PropNm[46]	explanation|CR	*|*	28-1[65_64]|27-1[0_64]	
+26-2	560-563	hat	GFailure[5]	husten\_set1\_7[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-husten\_set1\_7[5]	_	_	_	_	_	false[64]	Decl[64]	*[187]	husten[187]	intransitive[187]	*[187]	*[187]	item0[187]	36[306]	male[306]	ifdbjqro2nfkup12rv8t6k0eu9[306]	speaker: YOU[425]	_	_	_	_	_	
+26-3	564-568	laut	GFailure[5]	husten\_set1\_7[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-husten\_set1\_7[5]	_	_	_	_	_	false[64]	Decl[64]	*[187]	husten[187]	intransitive[187]	*[187]	*[187]	item0[187]	36[306]	male[306]	ifdbjqro2nfkup12rv8t6k0eu9[306]	speaker: YOU[425]	_	_	_	_	_	
+26-4	569-577	gehustet	GFailure[5]	husten\_set1\_7[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-husten\_set1\_7[5]	_	_	_	_	_	false[64]	Decl[64]	*[187]	husten[187]	intransitive[187]	*[187]	*[187]	item0[187]	36[306]	male[306]	ifdbjqro2nfkup12rv8t6k0eu9[306]	speaker: YOU[425]	_	_	_	_	_	
+
+#Text=Was?
+27-1	579-583	Was?	GFailure[5]	husten\_set1\_7[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-husten\_set1\_7[5]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	female	*	speaker:Annabelle	_	_	_	_	_	
+
+#Text=sie ist krank
+28-1	585-588	sie	GFailure[5]	husten\_set1\_7[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-husten\_set1\_7[5]	3	*	Subj	*	singular	false[65]	Decl[65]	*[188]	*[188]	*[188]	*[188]	*[188]	input1[188]	36[307]	male[307]	ifdbjqro2nfkup12rv8t6k0eu9[307]	speaker: YOU[426]	*->46-2	PerPron[46]	elaboration	*	29-1[66_65]	
+28-2	589-592	ist	GFailure[5]	husten\_set1\_7[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-husten\_set1\_7[5]	_	_	_	_	_	false[65]	Decl[65]	*[188]	*[188]	*[188]	*[188]	*[188]	input1[188]	36[307]	male[307]	ifdbjqro2nfkup12rv8t6k0eu9[307]	speaker: YOU[426]	_	_	_	_	_	
+28-3	593-598	krank	GFailure[5]	husten\_set1\_7[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-husten\_set1\_7[5]	_	_	_	_	_	false[65]	Decl[65]	*[188]	*[188]	*[188]	*[188]	*[188]	input1[188]	36[307]	male[307]	ifdbjqro2nfkup12rv8t6k0eu9[307]	speaker: YOU[426]	_	_	_	_	_	
+
+#Text=die arme
+29-1	600-603	die	GFailure[5]	husten\_set1\_7[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-husten\_set1\_7[5]	_	_	_	_	_	false[66]	NA[66]	*[189]	*[189]	*[189]	*[189]	*[189]	input2[189]	36[308]	male[308]	ifdbjqro2nfkup12rv8t6k0eu9[308]	speaker: YOU[427]	*->46-3	DefNP[46]	_	_	_	
+29-2	604-608	arme	GFailure[5]	husten\_set1\_7[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-husten\_set1\_7[5]	_	_	_	_	_	false[66]	NA[66]	*[189]	*[189]	*[189]	*[189]	*[189]	input2[189]	36[308]	male[308]	ifdbjqro2nfkup12rv8t6k0eu9[308]	speaker: YOU[427]	*->46-3	DefNP[46]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+30-1	610-625	END_OF_DOCUMENT	GFailure[5]	husten\_set1\_7[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-husten\_set1\_7[5]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+31-1	627-630	Wie	GFailure[6]	husten\_set1\_7[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-husten\_set1\_7[6]	_	_	_	_	_	false[67]	Int[67]	*[190]	*[190]	*[190]	wh\_3[190]	wh\_question[190]	openq[190]	*[309]	female[309]	*[309]	speaker:Annabelle[428]	_	_	QAP	*	32-1[68_67]	
+31-2	631-636	gehts	GFailure[6]	husten\_set1\_7[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-husten\_set1\_7[6]	_	_	_	_	_	false[67]	Int[67]	*[190]	*[190]	*[190]	wh\_3[190]	wh\_question[190]	openq[190]	*[309]	female[309]	*[309]	speaker:Annabelle[428]	_	_	_	_	_	
+31-3	637-641	dir?	GFailure[6]	husten\_set1\_7[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-husten\_set1\_7[6]	2	*	*	*	singular	false[67]	Int[67]	*[190]	*[190]	*[190]	wh\_3[190]	wh\_question[190]	openq[190]	*[309]	female[309]	*[309]	speaker:Annabelle[428]	*->5-1	PerPron[5]	_	_	_	
+
+#Text=Lotte hat laut gehustet
+32-1	643-648	Lotte	GFailure[6]	husten\_set1\_7[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-husten\_set1\_7[6]	*	*	Subj	*	*	false[68]	Decl[68]	*[191]	husten[191]	intransitive[191]	*[191]	*[191]	item0[191]	27[310]	female[310]	nn1fs9jkn62eo9089lo89usbkb[310]	speaker: YOU[429]	*->57-1	PropNm[57]	narration|CR	*|*	34-1[69_68]|33-1[0_68]	
+32-2	649-652	hat	GFailure[6]	husten\_set1\_7[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-husten\_set1\_7[6]	_	_	_	_	_	false[68]	Decl[68]	*[191]	husten[191]	intransitive[191]	*[191]	*[191]	item0[191]	27[310]	female[310]	nn1fs9jkn62eo9089lo89usbkb[310]	speaker: YOU[429]	*->18-1	clause[18]	_	_	_	
+32-3	653-657	laut	GFailure[6]	husten\_set1\_7[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-husten\_set1\_7[6]	_	_	_	_	_	false[68]	Decl[68]	*[191]	husten[191]	intransitive[191]	*[191]	*[191]	item0[191]	27[310]	female[310]	nn1fs9jkn62eo9089lo89usbkb[310]	speaker: YOU[429]	*->18-1	clause[18]	_	_	_	
+32-4	658-666	gehustet	GFailure[6]	husten\_set1\_7[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-husten\_set1\_7[6]	_	_	_	_	_	false[68]	Decl[68]	*[191]	husten[191]	intransitive[191]	*[191]	*[191]	item0[191]	27[310]	female[310]	nn1fs9jkn62eo9089lo89usbkb[310]	speaker: YOU[429]	*->18-1	clause[18]	_	_	_	
+
+#Text=Was?
+33-1	668-672	Was?	GFailure[6]	husten\_set1\_7[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-husten\_set1\_7[6]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	female	*	speaker:Annabelle	_	_	_	_	_	
+
+#Text=Dann wurde es leider immer schlimmer.
+34-1	674-678	Dann	GFailure[6]	husten\_set1\_7[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-husten\_set1\_7[6]	_	_	_	_	_	false[69]	Decl[69]	*[192]	*[192]	*[192]	*[192]	*[192]	input1[192]	27[311]	female[311]	nn1fs9jkn62eo9089lo89usbkb[311]	speaker: YOU[430]	_	_	result	*	35-1[70_69]	
+34-2	679-684	wurde	GFailure[6]	husten\_set1\_7[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-husten\_set1\_7[6]	_	_	_	_	_	false[69]	Decl[69]	*[192]	*[192]	*[192]	*[192]	*[192]	input1[192]	27[311]	female[311]	nn1fs9jkn62eo9089lo89usbkb[311]	speaker: YOU[430]	_	_	_	_	_	
+34-3	685-687	es	GFailure[6]	husten\_set1\_7[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-husten\_set1\_7[6]	3	*	Subj	*	singular	false[69]	Decl[69]	*[192]	*[192]	*[192]	*[192]	*[192]	input1[192]	27[311]	female[311]	nn1fs9jkn62eo9089lo89usbkb[311]	speaker: YOU[430]	*->18-2	PerPron[18]	_	_	_	
+34-4	688-694	leider	GFailure[6]	husten\_set1\_7[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-husten\_set1\_7[6]	_	_	_	_	_	false[69]	Decl[69]	*[192]	*[192]	*[192]	*[192]	*[192]	input1[192]	27[311]	female[311]	nn1fs9jkn62eo9089lo89usbkb[311]	speaker: YOU[430]	_	_	_	_	_	
+34-5	695-700	immer	GFailure[6]	husten\_set1\_7[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-husten\_set1\_7[6]	_	_	_	_	_	false[69]	Decl[69]	*[192]	*[192]	*[192]	*[192]	*[192]	input1[192]	27[311]	female[311]	nn1fs9jkn62eo9089lo89usbkb[311]	speaker: YOU[430]	_	_	_	_	_	
+34-6	701-711	schlimmer.	GFailure[6]	husten\_set1\_7[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-husten\_set1\_7[6]	_	_	_	_	_	false[69]	Decl[69]	*[192]	*[192]	*[192]	*[192]	*[192]	input1[192]	27[311]	female[311]	nn1fs9jkn62eo9089lo89usbkb[311]	speaker: YOU[430]	_	_	_	_	_	
+
+#Text=Ich bin gerade am Weg zum Doktor mit ihr.
+35-1	713-716	Ich	GFailure[6]	husten\_set1\_7[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-husten\_set1\_7[6]	1	*	Subj	*	singular	false[70]	Decl[70]	*[193]	*[193]	*[193]	*[193]	*[193]	input2[193]	27[312]	female[312]	nn1fs9jkn62eo9089lo89usbkb[312]	speaker: YOU[431]	*->5-2	PerPron[5]	_	_	_	
+35-2	717-720	bin	GFailure[6]	husten\_set1\_7[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-husten\_set1\_7[6]	_	_	_	_	_	false[70]	Decl[70]	*[193]	*[193]	*[193]	*[193]	*[193]	input2[193]	27[312]	female[312]	nn1fs9jkn62eo9089lo89usbkb[312]	speaker: YOU[431]	_	_	_	_	_	
+35-3	721-727	gerade	GFailure[6]	husten\_set1\_7[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-husten\_set1\_7[6]	_	_	_	_	_	false[70]	Decl[70]	*[193]	*[193]	*[193]	*[193]	*[193]	input2[193]	27[312]	female[312]	nn1fs9jkn62eo9089lo89usbkb[312]	speaker: YOU[431]	_	_	_	_	_	
+35-4	728-730	am	GFailure[6]	husten\_set1\_7[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-husten\_set1\_7[6]	_	_	_	_	_	false[70]	Decl[70]	*[193]	*[193]	*[193]	*[193]	*[193]	input2[193]	27[312]	female[312]	nn1fs9jkn62eo9089lo89usbkb[312]	speaker: YOU[431]	*->36-1	DefNP[36]	_	_	_	
+35-5	731-734	Weg	GFailure[6]	husten\_set1\_7[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-husten\_set1\_7[6]	*	*	PrepObj	*	*	false[70]	Decl[70]	*[193]	*[193]	*[193]	*[193]	*[193]	input2[193]	27[312]	female[312]	nn1fs9jkn62eo9089lo89usbkb[312]	speaker: YOU[431]	*->36-1	DefNP[36]	_	_	_	
+35-6	735-738	zum	GFailure[6]	husten\_set1\_7[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-husten\_set1\_7[6]	_	_	_	_	_	false[70]	Decl[70]	*[193]	*[193]	*[193]	*[193]	*[193]	input2[193]	27[312]	female[312]	nn1fs9jkn62eo9089lo89usbkb[312]	speaker: YOU[431]	*->36-1|*->87-1	DefNP[36]|DefNP[87]	_	_	_	
+35-7	739-745	Doktor	GFailure[6]	husten\_set1\_7[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-husten\_set1\_7[6]	*	*	PrepObj	*	*	false[70]	Decl[70]	*[193]	*[193]	*[193]	*[193]	*[193]	input2[193]	27[312]	female[312]	nn1fs9jkn62eo9089lo89usbkb[312]	speaker: YOU[431]	*->36-1|*->87-1	DefNP[36]|DefNP[87]	_	_	_	
+35-8	746-749	mit	GFailure[6]	husten\_set1\_7[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-husten\_set1\_7[6]	_	_	_	_	_	false[70]	Decl[70]	*[193]	*[193]	*[193]	*[193]	*[193]	input2[193]	27[312]	female[312]	nn1fs9jkn62eo9089lo89usbkb[312]	speaker: YOU[431]	_	_	_	_	_	
+35-9	750-754	ihr.	GFailure[6]	husten\_set1\_7[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-husten\_set1\_7[6]	3	*	PrepObj	*	singular	false[70]	Decl[70]	*[193]	*[193]	*[193]	*[193]	*[193]	input2[193]	27[312]	female[312]	nn1fs9jkn62eo9089lo89usbkb[312]	speaker: YOU[431]	*->57-2	PerPron[57]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+36-1	756-771	END_OF_DOCUMENT	GFailure[6]	husten\_set1\_7[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-husten\_set1\_7[6]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+37-1	773-776	Wie	GFailure[7]	husten\_set1\_7[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-husten\_set1\_7[7]	_	_	_	_	_	false[71]	Int[71]	*[194]	*[194]	*[194]	wh\_3[194]	wh\_question[194]	openq[194]	*[313]	female[313]	*[313]	speaker:Annabelle[432]	_	_	QAP	*	38-1[72_71]	
+37-2	777-782	gehts	GFailure[7]	husten\_set1\_7[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-husten\_set1\_7[7]	_	_	_	_	_	false[71]	Int[71]	*[194]	*[194]	*[194]	wh\_3[194]	wh\_question[194]	openq[194]	*[313]	female[313]	*[313]	speaker:Annabelle[432]	_	_	_	_	_	
+37-3	783-787	dir?	GFailure[7]	husten\_set1\_7[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-husten\_set1\_7[7]	2	*	*	*	singular	false[71]	Int[71]	*[194]	*[194]	*[194]	wh\_3[194]	wh\_question[194]	openq[194]	*[313]	female[313]	*[313]	speaker:Annabelle[432]	*->77-1	PerPron[77]	_	_	_	
+
+#Text=Lotte hat laut gehustet
+38-1	789-794	Lotte	GFailure[7]	husten\_set1\_7[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-husten\_set1\_7[7]	*	*	Subj	*	*	false[72]	Decl[72]	*[195]	husten[195]	intransitive[195]	*[195]	*[195]	item0[195]	24[314]	male[314]	qaaqp55l485lvs9rdvpvbtmqal[314]	speaker: YOU[433]	*->54-1	PropNm[54]	elaboration|CR	*|*	40-1[73_72]|39-1[0_72]	
+38-2	795-798	hat	GFailure[7]	husten\_set1\_7[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-husten\_set1\_7[7]	_	_	_	_	_	false[72]	Decl[72]	*[195]	husten[195]	intransitive[195]	*[195]	*[195]	item0[195]	24[314]	male[314]	qaaqp55l485lvs9rdvpvbtmqal[314]	speaker: YOU[433]	_	_	_	_	_	
+38-3	799-803	laut	GFailure[7]	husten\_set1\_7[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-husten\_set1\_7[7]	_	_	_	_	_	false[72]	Decl[72]	*[195]	husten[195]	intransitive[195]	*[195]	*[195]	item0[195]	24[314]	male[314]	qaaqp55l485lvs9rdvpvbtmqal[314]	speaker: YOU[433]	_	_	_	_	_	
+38-4	804-812	gehustet	GFailure[7]	husten\_set1\_7[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-husten\_set1\_7[7]	_	_	_	_	_	false[72]	Decl[72]	*[195]	husten[195]	intransitive[195]	*[195]	*[195]	item0[195]	24[314]	male[314]	qaaqp55l485lvs9rdvpvbtmqal[314]	speaker: YOU[433]	_	_	_	_	_	
+
+#Text=Was?
+39-1	814-818	Was?	GFailure[7]	husten\_set1\_7[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-husten\_set1\_7[7]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	female	*	speaker:Annabelle	_	_	_	_	_	
+
+#Text=Lotte hat lauter und öfters als sonst gehustet.
+40-1	820-825	Lotte	GFailure[7]	husten\_set1\_7[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-husten\_set1\_7[7]	*	*	Subj	*	*	false[73]	Decl[73]	*[196]	*[196]	*[196]	*[196]	*[196]	input1[196]	24[315]	male[315]	qaaqp55l485lvs9rdvpvbtmqal[315]	speaker: YOU[434]	*->54-2	PropNm[54]	result	*	41-1[74_73]	
+40-2	826-829	hat	GFailure[7]	husten\_set1\_7[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-husten\_set1\_7[7]	_	_	_	_	_	false[73]	Decl[73]	*[196]	*[196]	*[196]	*[196]	*[196]	input1[196]	24[315]	male[315]	qaaqp55l485lvs9rdvpvbtmqal[315]	speaker: YOU[434]	_	_	_	_	_	
+40-3	830-836	lauter	GFailure[7]	husten\_set1\_7[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-husten\_set1\_7[7]	_	_	_	_	_	false[73]	Decl[73]	*[196]	*[196]	*[196]	*[196]	*[196]	input1[196]	24[315]	male[315]	qaaqp55l485lvs9rdvpvbtmqal[315]	speaker: YOU[434]	_	_	_	_	_	
+40-4	837-840	und	GFailure[7]	husten\_set1\_7[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-husten\_set1\_7[7]	_	_	_	_	_	false[73]	Decl[73]	*[196]	*[196]	*[196]	*[196]	*[196]	input1[196]	24[315]	male[315]	qaaqp55l485lvs9rdvpvbtmqal[315]	speaker: YOU[434]	_	_	_	_	_	
+40-5	841-847	öfters	GFailure[7]	husten\_set1\_7[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-husten\_set1\_7[7]	_	_	_	_	_	false[73]	Decl[73]	*[196]	*[196]	*[196]	*[196]	*[196]	input1[196]	24[315]	male[315]	qaaqp55l485lvs9rdvpvbtmqal[315]	speaker: YOU[434]	_	_	_	_	_	
+40-6	848-851	als	GFailure[7]	husten\_set1\_7[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-husten\_set1\_7[7]	_	_	_	_	_	false[73]	Decl[73]	*[196]	*[196]	*[196]	*[196]	*[196]	input1[196]	24[315]	male[315]	qaaqp55l485lvs9rdvpvbtmqal[315]	speaker: YOU[434]	_	_	_	_	_	
+40-7	852-857	sonst	GFailure[7]	husten\_set1\_7[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-husten\_set1\_7[7]	_	_	_	_	_	false[73]	Decl[73]	*[196]	*[196]	*[196]	*[196]	*[196]	input1[196]	24[315]	male[315]	qaaqp55l485lvs9rdvpvbtmqal[315]	speaker: YOU[434]	_	_	_	_	_	
+40-8	858-867	gehustet.	GFailure[7]	husten\_set1\_7[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-husten\_set1\_7[7]	_	_	_	_	_	false[73]	Decl[73]	*[196]	*[196]	*[196]	*[196]	*[196]	input1[196]	24[315]	male[315]	qaaqp55l485lvs9rdvpvbtmqal[315]	speaker: YOU[434]	_	_	_	_	_	
+
+#Text=Denkst du ich sollte unseren Hausarzte kontaktiern?
+41-1	869-875	Denkst	GFailure[7]	husten\_set1\_7[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-husten\_set1\_7[7]	_	_	_	_	_	false[74]	Int[74]	*[197]	*[197]	*[197]	*[197]	*[197]	input2[197]	24[316]	male[316]	qaaqp55l485lvs9rdvpvbtmqal[316]	speaker: YOU[435]	_	_	_	_	_	
+41-2	876-878	du	GFailure[7]	husten\_set1\_7[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-husten\_set1\_7[7]	2	*	Subj	*	singular	false[74]	Int[74]	*[197]	*[197]	*[197]	*[197]	*[197]	input2[197]	24[316]	male[316]	qaaqp55l485lvs9rdvpvbtmqal[316]	speaker: YOU[435]	*->82-1	PerPron[82]	_	_	_	
+41-3	879-882	ich	GFailure[7]	husten\_set1\_7[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-husten\_set1\_7[7]	1	*	Subj	*	singular	false[74]	Int[74]	*[197]	*[197]	*[197]	*[197]	*[197]	input2[197]	24[316]	male[316]	qaaqp55l485lvs9rdvpvbtmqal[316]	speaker: YOU[435]	*->77-2	PerPron[77]	_	_	_	
+41-4	883-889	sollte	GFailure[7]	husten\_set1\_7[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-husten\_set1\_7[7]	_	_	_	_	_	false[74]	Int[74]	*[197]	*[197]	*[197]	*[197]	*[197]	input2[197]	24[316]	male[316]	qaaqp55l485lvs9rdvpvbtmqal[316]	speaker: YOU[435]	_	_	_	_	_	
+41-5	890-897	unseren	GFailure[7]	husten\_set1\_7[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-husten\_set1\_7[7]	*[34]|1[35]	*[34]|*[35]	DirObj[34]|*[35]	*[34]|*[35]	*[34]|plural[35]	false[74]	Int[74]	*[197]	*[197]	*[197]	*[197]	*[197]	input2[197]	24[316]	male[316]	qaaqp55l485lvs9rdvpvbtmqal[316]	speaker: YOU[435]	*->37-1|*->17-1	DefNP[37]|PossePron[17]	_	_	_	
+41-6	898-907	Hausarzte	GFailure[7]	husten\_set1\_7[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-husten\_set1\_7[7]	*[34]	*[34]	DirObj[34]	*[34]	*[34]	false[74]	Int[74]	*[197]	*[197]	*[197]	*[197]	*[197]	input2[197]	24[316]	male[316]	qaaqp55l485lvs9rdvpvbtmqal[316]	speaker: YOU[435]	*->37-1	DefNP[37]	_	_	_	
+41-7	908-920	kontaktiern?	GFailure[7]	husten\_set1\_7[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-husten\_set1\_7[7]	_	_	_	_	_	false[74]	Int[74]	*[197]	*[197]	*[197]	*[197]	*[197]	input2[197]	24[316]	male[316]	qaaqp55l485lvs9rdvpvbtmqal[316]	speaker: YOU[435]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+42-1	922-937	END_OF_DOCUMENT	GFailure[7]	husten\_set1\_7[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-husten\_set1\_7[7]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+43-1	939-942	Wie	GFailure[8]	husten\_set1\_7[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-husten\_set1\_7[8]	_	_	_	_	_	false[75]	Int[75]	*[198]	*[198]	*[198]	wh\_3[198]	wh\_question[198]	openq[198]	*[317]	female[317]	*[317]	speaker:Annabelle[436]	_	_	QAP	*	44-1[76_75]	
+43-2	943-948	gehts	GFailure[8]	husten\_set1\_7[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-husten\_set1\_7[8]	_	_	_	_	_	false[75]	Int[75]	*[198]	*[198]	*[198]	wh\_3[198]	wh\_question[198]	openq[198]	*[317]	female[317]	*[317]	speaker:Annabelle[436]	_	_	_	_	_	
+43-3	949-953	dir?	GFailure[8]	husten\_set1\_7[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-husten\_set1\_7[8]	2	*	*	*	singular	false[75]	Int[75]	*[198]	*[198]	*[198]	wh\_3[198]	wh\_question[198]	openq[198]	*[317]	female[317]	*[317]	speaker:Annabelle[436]	*->3-1	PerPron[3]	_	_	_	
+
+#Text=Lotte hat laut gehustet
+44-1	955-960	Lotte	GFailure[8]	husten\_set1\_7[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-husten\_set1\_7[8]	*	*	Subj	*	*	false[76]	Decl[76]	*[199]	husten[199]	intransitive[199]	*[199]	*[199]	item0[199]	25[318]	female[318]	t6ah1r7hfmcncb44kgnh0sjmv6[318]	speaker: YOU[437]	*->44-1	PropNm[44]	elaboration|CR	*|*	46-1[77_76]|45-1[0_76]	
+44-2	961-964	hat	GFailure[8]	husten\_set1\_7[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-husten\_set1\_7[8]	_	_	_	_	_	false[76]	Decl[76]	*[199]	husten[199]	intransitive[199]	*[199]	*[199]	item0[199]	25[318]	female[318]	t6ah1r7hfmcncb44kgnh0sjmv6[318]	speaker: YOU[437]	_	_	_	_	_	
+44-3	965-969	laut	GFailure[8]	husten\_set1\_7[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-husten\_set1\_7[8]	_	_	_	_	_	false[76]	Decl[76]	*[199]	husten[199]	intransitive[199]	*[199]	*[199]	item0[199]	25[318]	female[318]	t6ah1r7hfmcncb44kgnh0sjmv6[318]	speaker: YOU[437]	_	_	_	_	_	
+44-4	970-978	gehustet	GFailure[8]	husten\_set1\_7[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-husten\_set1\_7[8]	_	_	_	_	_	false[76]	Decl[76]	*[199]	husten[199]	intransitive[199]	*[199]	*[199]	item0[199]	25[318]	female[318]	t6ah1r7hfmcncb44kgnh0sjmv6[318]	speaker: YOU[437]	_	_	_	_	_	
+
+#Text=Was?
+45-1	980-984	Was?	GFailure[8]	husten\_set1\_7[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-husten\_set1\_7[8]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	female	*	speaker:Annabelle	_	_	_	_	_	
+
+#Text=Ich habe Angst dass sie sich mit Corona angesteckt hat
+46-1	986-989	Ich	GFailure[8]	husten\_set1\_7[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-husten\_set1\_7[8]	1	*	Subj	*	singular	false[77]	Decl[77]	*[200]	*[200]	*[200]	*[200]	*[200]	input1[200]	25[319]	female[319]	t6ah1r7hfmcncb44kgnh0sjmv6[319]	speaker: YOU[438]	*->3-2	PerPron[3]	explanation	*	47-1[78_77]	
+46-2	990-994	habe	GFailure[8]	husten\_set1\_7[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-husten\_set1\_7[8]	_	_	_	_	_	false[77]	Decl[77]	*[200]	*[200]	*[200]	*[200]	*[200]	input1[200]	25[319]	female[319]	t6ah1r7hfmcncb44kgnh0sjmv6[319]	speaker: YOU[438]	_	_	_	_	_	
+46-3	995-1000	Angst	GFailure[8]	husten\_set1\_7[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-husten\_set1\_7[8]	*	*	DirObj	*	*	false[77]	Decl[77]	*[200]	*[200]	*[200]	*[200]	*[200]	input1[200]	25[319]	female[319]	t6ah1r7hfmcncb44kgnh0sjmv6[319]	speaker: YOU[438]	*->89-1	IndefNP[89]	_	_	_	
+46-4	1001-1005	dass	GFailure[8]	husten\_set1\_7[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-husten\_set1\_7[8]	_	_	_	_	_	false[77]	Decl[77]	*[200]	*[200]	*[200]	*[200]	*[200]	input1[200]	25[319]	female[319]	t6ah1r7hfmcncb44kgnh0sjmv6[319]	speaker: YOU[438]	_	_	_	_	_	
+46-5	1006-1009	sie	GFailure[8]	husten\_set1\_7[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-husten\_set1\_7[8]	3	*	Embedded	*	singular	false[77]	Decl[77]	*[200]	*[200]	*[200]	*[200]	*[200]	input1[200]	25[319]	female[319]	t6ah1r7hfmcncb44kgnh0sjmv6[319]	speaker: YOU[438]	*->44-2	PerPron[44]	_	_	_	
+46-6	1010-1014	sich	GFailure[8]	husten\_set1\_7[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-husten\_set1\_7[8]	_	_	_	_	_	false[77]	Decl[77]	*[200]	*[200]	*[200]	*[200]	*[200]	input1[200]	25[319]	female[319]	t6ah1r7hfmcncb44kgnh0sjmv6[319]	speaker: YOU[438]	_	_	_	_	_	
+46-7	1015-1018	mit	GFailure[8]	husten\_set1\_7[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-husten\_set1\_7[8]	_	_	_	_	_	false[77]	Decl[77]	*[200]	*[200]	*[200]	*[200]	*[200]	input1[200]	25[319]	female[319]	t6ah1r7hfmcncb44kgnh0sjmv6[319]	speaker: YOU[438]	_	_	_	_	_	
+46-8	1019-1025	Corona	GFailure[8]	husten\_set1\_7[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-husten\_set1\_7[8]	*	*	Embedded	*	*	false[77]	Decl[77]	*[200]	*[200]	*[200]	*[200]	*[200]	input1[200]	25[319]	female[319]	t6ah1r7hfmcncb44kgnh0sjmv6[319]	speaker: YOU[438]	_	_	_	_	_	
+46-9	1026-1036	angesteckt	GFailure[8]	husten\_set1\_7[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-husten\_set1\_7[8]	_	_	_	_	_	false[77]	Decl[77]	*[200]	*[200]	*[200]	*[200]	*[200]	input1[200]	25[319]	female[319]	t6ah1r7hfmcncb44kgnh0sjmv6[319]	speaker: YOU[438]	_	_	_	_	_	
+46-10	1037-1040	hat	GFailure[8]	husten\_set1\_7[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-husten\_set1\_7[8]	_	_	_	_	_	false[77]	Decl[77]	*[200]	*[200]	*[200]	*[200]	*[200]	input1[200]	25[319]	female[319]	t6ah1r7hfmcncb44kgnh0sjmv6[319]	speaker: YOU[438]	_	_	_	_	_	
+
+#Text=Eine Quarantäne könnte ich jetzt gar nicht gebrauchen
+47-1	1042-1046	Eine	GFailure[8]	husten\_set1\_7[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-husten\_set1\_7[8]	*[36]	*[36]	DirObj[36]	*[36]	*[36]	false[78]	Decl[78]	*[201]	*[201]	*[201]	*[201]	*[201]	input2[201]	25[320]	female[320]	t6ah1r7hfmcncb44kgnh0sjmv6[320]	speaker: YOU[439]	*->76-1	IndefNP[76]	_	_	_	
+47-2	1047-1057	Quarantäne	GFailure[8]	husten\_set1\_7[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-husten\_set1\_7[8]	*[36]	*[36]	DirObj[36]	*[36]	*[36]	false[78]	Decl[78]	*[201]	*[201]	*[201]	*[201]	*[201]	input2[201]	25[320]	female[320]	t6ah1r7hfmcncb44kgnh0sjmv6[320]	speaker: YOU[439]	*->76-1	IndefNP[76]	_	_	_	
+47-3	1058-1064	könnte	GFailure[8]	husten\_set1\_7[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-husten\_set1\_7[8]	_	_	_	_	_	false[78]	Decl[78]	*[201]	*[201]	*[201]	*[201]	*[201]	input2[201]	25[320]	female[320]	t6ah1r7hfmcncb44kgnh0sjmv6[320]	speaker: YOU[439]	_	_	_	_	_	
+47-4	1065-1068	ich	GFailure[8]	husten\_set1\_7[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-husten\_set1\_7[8]	1	*	Subj	*	singular	false[78]	Decl[78]	*[201]	*[201]	*[201]	*[201]	*[201]	input2[201]	25[320]	female[320]	t6ah1r7hfmcncb44kgnh0sjmv6[320]	speaker: YOU[439]	*->3-3	PerPron[3]	_	_	_	
+47-5	1069-1074	jetzt	GFailure[8]	husten\_set1\_7[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-husten\_set1\_7[8]	_	_	_	_	_	false[78]	Decl[78]	*[201]	*[201]	*[201]	*[201]	*[201]	input2[201]	25[320]	female[320]	t6ah1r7hfmcncb44kgnh0sjmv6[320]	speaker: YOU[439]	_	_	_	_	_	
+47-6	1075-1078	gar	GFailure[8]	husten\_set1\_7[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-husten\_set1\_7[8]	_	_	_	_	_	false[78]	Decl[78]	*[201]	*[201]	*[201]	*[201]	*[201]	input2[201]	25[320]	female[320]	t6ah1r7hfmcncb44kgnh0sjmv6[320]	speaker: YOU[439]	_	_	_	_	_	
+47-7	1079-1084	nicht	GFailure[8]	husten\_set1\_7[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-husten\_set1\_7[8]	_	_	_	_	_	false[78]	Decl[78]	*[201]	*[201]	*[201]	*[201]	*[201]	input2[201]	25[320]	female[320]	t6ah1r7hfmcncb44kgnh0sjmv6[320]	speaker: YOU[439]	_	_	_	_	_	
+47-8	1085-1095	gebrauchen	GFailure[8]	husten\_set1\_7[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-husten\_set1\_7[8]	_	_	_	_	_	false[78]	Decl[78]	*[201]	*[201]	*[201]	*[201]	*[201]	input2[201]	25[320]	female[320]	t6ah1r7hfmcncb44kgnh0sjmv6[320]	speaker: YOU[439]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+48-1	1097-1112	END_OF_DOCUMENT	GFailure[8]	husten\_set1\_7[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-husten\_set1\_7[8]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+49-1	1114-1117	Wie	GFailure[9]	husten\_set1\_7[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-husten\_set1\_7[9]	_	_	_	_	_	false[79]	Int[79]	*[202]	*[202]	*[202]	wh\_3[202]	wh\_question[202]	openq[202]	*[321]	female[321]	*[321]	speaker:Annabelle[440]	_	_	QAP	*	50-1[80_79]	
+49-2	1118-1123	gehts	GFailure[9]	husten\_set1\_7[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-husten\_set1\_7[9]	_	_	_	_	_	false[79]	Int[79]	*[202]	*[202]	*[202]	wh\_3[202]	wh\_question[202]	openq[202]	*[321]	female[321]	*[321]	speaker:Annabelle[440]	_	_	_	_	_	
+49-3	1124-1128	dir?	GFailure[9]	husten\_set1\_7[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-husten\_set1\_7[9]	2	*	*	*	singular	false[79]	Int[79]	*[202]	*[202]	*[202]	wh\_3[202]	wh\_question[202]	openq[202]	*[321]	female[321]	*[321]	speaker:Annabelle[440]	*->15-1	PerPron[15]	_	_	_	
+
+#Text=Lotte hat laut gehustet
+50-1	1130-1135	Lotte	GFailure[9]	husten\_set1\_7[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-husten\_set1\_7[9]	*	*	Subj	*	*	false[80]	Decl[80]	*[203]	husten[203]	intransitive[203]	*[203]	*[203]	item0[203]	29[322]	female[322]	ue2vk0ts1hkpki58vsa3j8t39j[322]	speaker: YOU[441]	*->33-1	PropNm[33]	CR	*	51-1[0_80]	
+50-2	1136-1139	hat	GFailure[9]	husten\_set1\_7[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-husten\_set1\_7[9]	_	_	_	_	_	false[80]	Decl[80]	*[203]	husten[203]	intransitive[203]	*[203]	*[203]	item0[203]	29[322]	female[322]	ue2vk0ts1hkpki58vsa3j8t39j[322]	speaker: YOU[441]	_	_	_	_	_	
+50-3	1140-1144	laut	GFailure[9]	husten\_set1\_7[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-husten\_set1\_7[9]	_	_	_	_	_	false[80]	Decl[80]	*[203]	husten[203]	intransitive[203]	*[203]	*[203]	item0[203]	29[322]	female[322]	ue2vk0ts1hkpki58vsa3j8t39j[322]	speaker: YOU[441]	_	_	_	_	_	
+50-4	1145-1153	gehustet	GFailure[9]	husten\_set1\_7[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-husten\_set1\_7[9]	_	_	_	_	_	false[80]	Decl[80]	*[203]	husten[203]	intransitive[203]	*[203]	*[203]	item0[203]	29[322]	female[322]	ue2vk0ts1hkpki58vsa3j8t39j[322]	speaker: YOU[441]	_	_	_	_	_	
+
+#Text=Was?
+51-1	1155-1159	Was?	GFailure[9]	husten\_set1\_7[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-husten\_set1\_7[9]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	female	*	speaker:Annabelle	_	_	_	_	_	
+
+#Text=Ja! Voll lustig.
+52-1	1161-1164	Ja!	GFailure[9]	husten\_set1\_7[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-husten\_set1\_7[9]	_	_	_	_	_	false[81]	NA[81]	*[204]	*[204]	*[204]	*[204]	*[204]	input1[204]	29[323]	female[323]	ue2vk0ts1hkpki58vsa3j8t39j[323]	speaker: YOU[442]	_	_	_	_	_	
+52-2	1165-1169	Voll	GFailure[9]	husten\_set1\_7[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-husten\_set1\_7[9]	_	_	_	_	_	false[81]	NA[81]	*[204]	*[204]	*[204]	*[204]	*[204]	input1[204]	29[323]	female[323]	ue2vk0ts1hkpki58vsa3j8t39j[323]	speaker: YOU[442]	_	_	_	_	_	
+52-3	1170-1177	lustig.	GFailure[9]	husten\_set1\_7[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-husten\_set1\_7[9]	_	_	_	_	_	false[81]	NA[81]	*[204]	*[204]	*[204]	*[204]	*[204]	input1[204]	29[323]	female[323]	ue2vk0ts1hkpki58vsa3j8t39j[323]	speaker: YOU[442]	_	_	_	_	_	
+
+#Text=Sie hatte zu viel Pfeffer in ihrem Essen.
+53-1	1179-1182	Sie	GFailure[9]	husten\_set1\_7[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-husten\_set1\_7[9]	3	*	Subj	*	singular	false[82]	Decl[82]	*[205]	*[205]	*[205]	*[205]	*[205]	input2[205]	29[324]	female[324]	ue2vk0ts1hkpki58vsa3j8t39j[324]	speaker: YOU[443]	*->33-2	PerPron[33]	_	_	_	
+53-2	1183-1188	hatte	GFailure[9]	husten\_set1\_7[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-husten\_set1\_7[9]	_	_	_	_	_	false[82]	Decl[82]	*[205]	*[205]	*[205]	*[205]	*[205]	input2[205]	29[324]	female[324]	ue2vk0ts1hkpki58vsa3j8t39j[324]	speaker: YOU[443]	_	_	_	_	_	
+53-3	1189-1191	zu	GFailure[9]	husten\_set1\_7[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-husten\_set1\_7[9]	*[37]	*[37]	DirObj[37]	*[37]	*[37]	false[82]	Decl[82]	*[205]	*[205]	*[205]	*[205]	*[205]	input2[205]	29[324]	female[324]	ue2vk0ts1hkpki58vsa3j8t39j[324]	speaker: YOU[443]	*->28-1	IndefNP[28]	_	_	_	
+53-4	1192-1196	viel	GFailure[9]	husten\_set1\_7[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-husten\_set1\_7[9]	*[37]	*[37]	DirObj[37]	*[37]	*[37]	false[82]	Decl[82]	*[205]	*[205]	*[205]	*[205]	*[205]	input2[205]	29[324]	female[324]	ue2vk0ts1hkpki58vsa3j8t39j[324]	speaker: YOU[443]	*->28-1	IndefNP[28]	_	_	_	
+53-5	1197-1204	Pfeffer	GFailure[9]	husten\_set1\_7[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-husten\_set1\_7[9]	*[37]	*[37]	DirObj[37]	*[37]	*[37]	false[82]	Decl[82]	*[205]	*[205]	*[205]	*[205]	*[205]	input2[205]	29[324]	female[324]	ue2vk0ts1hkpki58vsa3j8t39j[324]	speaker: YOU[443]	*->28-1	IndefNP[28]	_	_	_	
+53-6	1205-1207	in	GFailure[9]	husten\_set1\_7[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-husten\_set1\_7[9]	_	_	_	_	_	false[82]	Decl[82]	*[205]	*[205]	*[205]	*[205]	*[205]	input2[205]	29[324]	female[324]	ue2vk0ts1hkpki58vsa3j8t39j[324]	speaker: YOU[443]	_	_	_	_	_	
+53-7	1208-1213	ihrem	GFailure[9]	husten\_set1\_7[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-husten\_set1\_7[9]	*[38]|3[39]	*[38]|*[39]	PrepObj[38]|*[39]	*[38]|*[39]	*[38]|singular[39]	false[82]	Decl[82]	*[205]	*[205]	*[205]	*[205]	*[205]	input2[205]	29[324]	female[324]	ue2vk0ts1hkpki58vsa3j8t39j[324]	speaker: YOU[443]	*->8-1|*->33-3	DefNP[8]|PossePron[33]	_	_	_	
+53-8	1214-1220	Essen.	GFailure[9]	husten\_set1\_7[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-husten\_set1\_7[9]	*[38]	*[38]	PrepObj[38]	*[38]	*[38]	false[82]	Decl[82]	*[205]	*[205]	*[205]	*[205]	*[205]	input2[205]	29[324]	female[324]	ue2vk0ts1hkpki58vsa3j8t39j[324]	speaker: YOU[443]	*->8-1	DefNP[8]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+54-1	1222-1237	END_OF_DOCUMENT	GFailure[9]	husten\_set1\_7[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-husten\_set1\_7[9]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+55-1	1239-1242	Wie	GFailure[10]	husten\_set1\_7[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-husten\_set1\_7[10]	_	_	_	_	_	false[83]	Int[83]	*[206]	*[206]	*[206]	wh\_3[206]	wh\_question[206]	openq[206]	*[325]	female[325]	*[325]	speaker:Annabelle[444]	_	_	QAP	*	56-1[84_83]	
+55-2	1243-1248	gehts	GFailure[10]	husten\_set1\_7[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-husten\_set1\_7[10]	_	_	_	_	_	false[83]	Int[83]	*[206]	*[206]	*[206]	wh\_3[206]	wh\_question[206]	openq[206]	*[325]	female[325]	*[325]	speaker:Annabelle[444]	_	_	_	_	_	
+55-3	1249-1253	dir?	GFailure[10]	husten\_set1\_7[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-husten\_set1\_7[10]	2	*	*	*	singular	false[83]	Int[83]	*[206]	*[206]	*[206]	wh\_3[206]	wh\_question[206]	openq[206]	*[325]	female[325]	*[325]	speaker:Annabelle[444]	*->93-1	PerPron[93]	_	_	_	
+
+#Text=Lotte hat laut gehustet
+56-1	1255-1260	Lotte	GFailure[10]	husten\_set1\_7[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-husten\_set1\_7[10]	*	*	Subj	*	*	false[84]	Decl[84]	*[207]	husten[207]	intransitive[207]	*[207]	*[207]	item0[207]	58[326]	male[326]	v3le8i0hm1ekj0ps9oou7k56t5[326]	speaker: YOU[445]	*->25-1	PropNm[25]	elaboration|CR	*|*	58-3[85_84]|57-1[0_84]	
+56-2	1261-1264	hat	GFailure[10]	husten\_set1\_7[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-husten\_set1\_7[10]	_	_	_	_	_	false[84]	Decl[84]	*[207]	husten[207]	intransitive[207]	*[207]	*[207]	item0[207]	58[326]	male[326]	v3le8i0hm1ekj0ps9oou7k56t5[326]	speaker: YOU[445]	_	_	_	_	_	
+56-3	1265-1269	laut	GFailure[10]	husten\_set1\_7[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-husten\_set1\_7[10]	_	_	_	_	_	false[84]	Decl[84]	*[207]	husten[207]	intransitive[207]	*[207]	*[207]	item0[207]	58[326]	male[326]	v3le8i0hm1ekj0ps9oou7k56t5[326]	speaker: YOU[445]	_	_	_	_	_	
+56-4	1270-1278	gehustet	GFailure[10]	husten\_set1\_7[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-husten\_set1\_7[10]	_	_	_	_	_	false[84]	Decl[84]	*[207]	husten[207]	intransitive[207]	*[207]	*[207]	item0[207]	58[326]	male[326]	v3le8i0hm1ekj0ps9oou7k56t5[326]	speaker: YOU[445]	_	_	_	_	_	
+
+#Text=Was?
+57-1	1280-1284	Was?	GFailure[10]	husten\_set1\_7[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-husten\_set1\_7[10]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	female	*	speaker:Annabelle	_	_	_	_	_	
+
+#Text=Du <BR> Lotte hat laut gehustet.
+58-1	1286-1288	Du	GFailure[10]	husten\_set1\_7[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-husten\_set1\_7[10]	2	*	*	*	singular	false	NA	*[208]	*[208]	*[208]	*[208]	*[208]	input1[208]	58[327]	male[327]	v3le8i0hm1ekj0ps9oou7k56t5[327]	speaker: YOU[446]	*->97-1	PerPron[97]	_	_	_	
+58-2	1289-1293	<BR>	GFailure[10]	husten\_set1\_7[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-husten\_set1\_7[10]	_	_	_	_	_	_	_	*[208]	*[208]	*[208]	*[208]	*[208]	input1[208]	58[327]	male[327]	v3le8i0hm1ekj0ps9oou7k56t5[327]	speaker: YOU[446]	_	_	_	_	_	
+58-3	1294-1299	Lotte	GFailure[10]	husten\_set1\_7[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-husten\_set1\_7[10]	*	*	Subj	*	*	false[85]	Decl[85]	*[208]	*[208]	*[208]	*[208]	*[208]	input1[208]	58[327]	male[327]	v3le8i0hm1ekj0ps9oou7k56t5[327]	speaker: YOU[446]	*->25-2	PropNm[25]	elaboration	*	59-1[86_85]	
+58-4	1300-1303	hat	GFailure[10]	husten\_set1\_7[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-husten\_set1\_7[10]	_	_	_	_	_	false[85]	Decl[85]	*[208]	*[208]	*[208]	*[208]	*[208]	input1[208]	58[327]	male[327]	v3le8i0hm1ekj0ps9oou7k56t5[327]	speaker: YOU[446]	_	_	_	_	_	
+58-5	1304-1308	laut	GFailure[10]	husten\_set1\_7[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-husten\_set1\_7[10]	_	_	_	_	_	false[85]	Decl[85]	*[208]	*[208]	*[208]	*[208]	*[208]	input1[208]	58[327]	male[327]	v3le8i0hm1ekj0ps9oou7k56t5[327]	speaker: YOU[446]	_	_	_	_	_	
+58-6	1309-1318	gehustet.	GFailure[10]	husten\_set1\_7[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-husten\_set1\_7[10]	_	_	_	_	_	false[85]	Decl[85]	*[208]	*[208]	*[208]	*[208]	*[208]	input1[208]	58[327]	male[327]	v3le8i0hm1ekj0ps9oou7k56t5[327]	speaker: YOU[446]	_	_	_	_	_	
+
+#Text=die habe nacht.
+59-1	1320-1323	die	GFailure[10]	husten\_set1\_7[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-husten\_set1\_7[10]	_	_	_	_	_	false[86]	NA[86]	*[209]	*[209]	*[209]	*[209]	*[209]	input2[209]	58[328]	male[328]	v3le8i0hm1ekj0ps9oou7k56t5[328]	speaker: YOU[447]	*->71-1	DefNP[71]	_	_	_	
+59-2	1324-1328	habe	GFailure[10]	husten\_set1\_7[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-husten\_set1\_7[10]	_	_	_	_	_	false[86]	NA[86]	*[209]	*[209]	*[209]	*[209]	*[209]	input2[209]	58[328]	male[328]	v3le8i0hm1ekj0ps9oou7k56t5[328]	speaker: YOU[447]	*->71-1	DefNP[71]	_	_	_	
+59-3	1329-1335	nacht.	GFailure[10]	husten\_set1\_7[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-husten\_set1\_7[10]	_	_	_	_	_	false[86]	NA[86]	*[209]	*[209]	*[209]	*[209]	*[209]	input2[209]	58[328]	male[328]	v3le8i0hm1ekj0ps9oou7k56t5[328]	speaker: YOU[447]	*->71-1	DefNP[71]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+60-1	1337-1352	END_OF_DOCUMENT	GFailure[10]	husten\_set1\_7[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-husten\_set1\_7[10]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+61-1	1354-1357	Wie	GSuccess[11]	husten\_set1\_7[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-husten\_set1\_7[11]	_	_	_	_	_	false[87]	Int[87]	*[210]	*[210]	*[210]	wh\_3[210]	wh\_question[210]	openq[210]	*[329]	female[329]	*[329]	speaker:Annabelle[448]	_	_	QAP	*	62-1[88_87]	
+61-2	1358-1363	gehts	GSuccess[11]	husten\_set1\_7[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-husten\_set1\_7[11]	_	_	_	_	_	false[87]	Int[87]	*[210]	*[210]	*[210]	wh\_3[210]	wh\_question[210]	openq[210]	*[329]	female[329]	*[329]	speaker:Annabelle[448]	_	_	_	_	_	
+61-3	1364-1368	dir?	GSuccess[11]	husten\_set1\_7[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-husten\_set1\_7[11]	2	*	*	*	singular	false[87]	Int[87]	*[210]	*[210]	*[210]	wh\_3[210]	wh\_question[210]	openq[210]	*[329]	female[329]	*[329]	speaker:Annabelle[448]	*->60-1	PerPron[60]	_	_	_	
+
+#Text=Lotte hat laut gehustet
+62-1	1370-1375	Lotte	GSuccess[11]	husten\_set1\_7[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-husten\_set1\_7[11]	*	*	Subj	*	*	false[88]	Decl[88]	*[211]	husten[211]	intransitive[211]	*[211]	*[211]	item0[211]	35[330]	female[330]	2k56uavscuainedj0q9i1sb693[330]	speaker: YOU[449]	*->90-1	PropNm[90]	result|acknowledgement	*|*	64-1[89_88]|63-1[0_88]	
+62-2	1376-1379	hat	GSuccess[11]	husten\_set1\_7[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-husten\_set1\_7[11]	_	_	_	_	_	false[88]	Decl[88]	*[211]	husten[211]	intransitive[211]	*[211]	*[211]	item0[211]	35[330]	female[330]	2k56uavscuainedj0q9i1sb693[330]	speaker: YOU[449]	_	_	_	_	_	
+62-3	1380-1384	laut	GSuccess[11]	husten\_set1\_7[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-husten\_set1\_7[11]	_	_	_	_	_	false[88]	Decl[88]	*[211]	husten[211]	intransitive[211]	*[211]	*[211]	item0[211]	35[330]	female[330]	2k56uavscuainedj0q9i1sb693[330]	speaker: YOU[449]	_	_	_	_	_	
+62-4	1385-1393	gehustet	GSuccess[11]	husten\_set1\_7[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-husten\_set1\_7[11]	_	_	_	_	_	false[88]	Decl[88]	*[211]	husten[211]	intransitive[211]	*[211]	*[211]	item0[211]	35[330]	female[330]	2k56uavscuainedj0q9i1sb693[330]	speaker: YOU[449]	_	_	_	_	_	
+
+#Text=Ohje
+63-1	1395-1399	Ohje	GSuccess[11]	husten\_set1\_7[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-husten\_set1\_7[11]	_	_	_	_	_	false	NA	ohje\_27	*	*	*	*	feedback	*	female	*	speaker:Annabelle	_	_	_	_	_	
+
+#Text=Mache mir Sorgen.
+64-1	1401-1406	Mache	GSuccess[11]	husten\_set1\_7[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-husten\_set1\_7[11]	1	*	*	*	singular	false[89]	Decl[89]	*[212]	*[212]	*[212]	*[212]	*[212]	input1[212]	35[331]	female[331]	2k56uavscuainedj0q9i1sb693[331]	speaker: YOU[450]	*->60-2	zero[60]	_	_	_	
+64-2	1407-1410	mir	GSuccess[11]	husten\_set1\_7[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-husten\_set1\_7[11]	*	*	IndirObj	*	*	false[89]	Decl[89]	*[212]	*[212]	*[212]	*[212]	*[212]	input1[212]	35[331]	female[331]	2k56uavscuainedj0q9i1sb693[331]	speaker: YOU[450]	_	_	_	_	_	
+64-3	1411-1418	Sorgen.	GSuccess[11]	husten\_set1\_7[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-husten\_set1\_7[11]	_	_	_	_	_	false[89]	Decl[89]	*[212]	*[212]	*[212]	*[212]	*[212]	input1[212]	35[331]	female[331]	2k56uavscuainedj0q9i1sb693[331]	speaker: YOU[450]	*->35-1	IndefNP[35]	_	_	_	
+
+#Text=Dachte sie wäre wieder gesund.
+65-1	1420-1426	Dachte	GSuccess[11]	husten\_set1\_7[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-husten\_set1\_7[11]	1	*	*	*	singular	false[90]	Decl[90]	*[213]	*[213]	*[213]	*[213]	*[213]	input2[213]	35[332]	female[332]	2k56uavscuainedj0q9i1sb693[332]	speaker: YOU[451]	*->60-3	zero[60]	_	_	_	
+65-2	1427-1430	sie	GSuccess[11]	husten\_set1\_7[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-husten\_set1\_7[11]	3	*	DirObj	*	singular	false[90]	Decl[90]	*[213]	*[213]	*[213]	*[213]	*[213]	input2[213]	35[332]	female[332]	2k56uavscuainedj0q9i1sb693[332]	speaker: YOU[451]	*->90-2	PerPron[90]	_	_	_	
+65-3	1431-1435	wäre	GSuccess[11]	husten\_set1\_7[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-husten\_set1\_7[11]	_	_	_	_	_	false[90]	Decl[90]	*[213]	*[213]	*[213]	*[213]	*[213]	input2[213]	35[332]	female[332]	2k56uavscuainedj0q9i1sb693[332]	speaker: YOU[451]	_	_	_	_	_	
+65-4	1436-1442	wieder	GSuccess[11]	husten\_set1\_7[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-husten\_set1\_7[11]	_	_	_	_	_	false[90]	Decl[90]	*[213]	*[213]	*[213]	*[213]	*[213]	input2[213]	35[332]	female[332]	2k56uavscuainedj0q9i1sb693[332]	speaker: YOU[451]	_	_	_	_	_	
+65-5	1443-1450	gesund.	GSuccess[11]	husten\_set1\_7[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-husten\_set1\_7[11]	_	_	_	_	_	false[90]	Decl[90]	*[213]	*[213]	*[213]	*[213]	*[213]	input2[213]	35[332]	female[332]	2k56uavscuainedj0q9i1sb693[332]	speaker: YOU[451]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+66-1	1452-1467	END_OF_DOCUMENT	GSuccess[11]	husten\_set1\_7[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-husten\_set1\_7[11]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+67-1	1469-1472	Wie	GSuccess[12]	husten\_set1\_7[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-husten\_set1\_7[12]	_	_	_	_	_	false[91]	Int[91]	*[214]	*[214]	*[214]	wh\_3[214]	wh\_question[214]	openq[214]	*[333]	female[333]	*[333]	speaker:Annabelle[452]	_	_	QAP	*	68-1[92_91]	
+67-2	1473-1478	gehts	GSuccess[12]	husten\_set1\_7[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-husten\_set1\_7[12]	_	_	_	_	_	false[91]	Int[91]	*[214]	*[214]	*[214]	wh\_3[214]	wh\_question[214]	openq[214]	*[333]	female[333]	*[333]	speaker:Annabelle[452]	_	_	_	_	_	
+67-3	1479-1483	dir?	GSuccess[12]	husten\_set1\_7[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-husten\_set1\_7[12]	2	*	*	*	singular	false[91]	Int[91]	*[214]	*[214]	*[214]	wh\_3[214]	wh\_question[214]	openq[214]	*[333]	female[333]	*[333]	speaker:Annabelle[452]	*->34-1	PerPron[34]	_	_	_	
+
+#Text=Lotte hat laut gehustet
+68-1	1485-1490	Lotte	GSuccess[12]	husten\_set1\_7[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-husten\_set1\_7[12]	*	*	Subj	*	*	false[92]	Decl[92]	*[215]	husten[215]	intransitive[215]	*[215]	*[215]	item0[215]	46[334]	male[334]	7bq5ecc5fndmatjvd44havavdp[334]	speaker: YOU[453]	*->86-1	PropNm[86]	elaboration|acknowledgement	*|*	70-1[93_92]|69-1[0_92]	
+68-2	1491-1494	hat	GSuccess[12]	husten\_set1\_7[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-husten\_set1\_7[12]	_	_	_	_	_	false[92]	Decl[92]	*[215]	husten[215]	intransitive[215]	*[215]	*[215]	item0[215]	46[334]	male[334]	7bq5ecc5fndmatjvd44havavdp[334]	speaker: YOU[453]	_	_	_	_	_	
+68-3	1495-1499	laut	GSuccess[12]	husten\_set1\_7[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-husten\_set1\_7[12]	_	_	_	_	_	false[92]	Decl[92]	*[215]	husten[215]	intransitive[215]	*[215]	*[215]	item0[215]	46[334]	male[334]	7bq5ecc5fndmatjvd44havavdp[334]	speaker: YOU[453]	_	_	_	_	_	
+68-4	1500-1508	gehustet	GSuccess[12]	husten\_set1\_7[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-husten\_set1\_7[12]	_	_	_	_	_	false[92]	Decl[92]	*[215]	husten[215]	intransitive[215]	*[215]	*[215]	item0[215]	46[334]	male[334]	7bq5ecc5fndmatjvd44havavdp[334]	speaker: YOU[453]	_	_	_	_	_	
+
+#Text=Ohje
+69-1	1510-1514	Ohje	GSuccess[12]	husten\_set1\_7[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-husten\_set1\_7[12]	_	_	_	_	_	false	NA	ohje\_27	*	*	*	*	feedback	*	female	*	speaker:Annabelle	_	_	_	_	_	
+
+#Text=Fieber noch keines
+70-1	1516-1522	Fieber	GSuccess[12]	husten\_set1\_7[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-husten\_set1\_7[12]	_	_	_	_	_	false[93]	NA[93]	*[216]	*[216]	*[216]	*[216]	*[216]	input1[216]	46[335]	male[335]	7bq5ecc5fndmatjvd44havavdp[335]	speaker: YOU[454]	*->32-1	clause[32]	elaboration	*	71-1[94_93]	
+70-2	1523-1527	noch	GSuccess[12]	husten\_set1\_7[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-husten\_set1\_7[12]	_	_	_	_	_	false[93]	NA[93]	*[216]	*[216]	*[216]	*[216]	*[216]	input1[216]	46[335]	male[335]	7bq5ecc5fndmatjvd44havavdp[335]	speaker: YOU[454]	*->32-1	clause[32]	_	_	_	
+70-3	1528-1534	keines	GSuccess[12]	husten\_set1\_7[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-husten\_set1\_7[12]	_	_	_	_	_	false[93]	NA[93]	*[216]	*[216]	*[216]	*[216]	*[216]	input1[216]	46[335]	male[335]	7bq5ecc5fndmatjvd44havavdp[335]	speaker: YOU[454]	*->32-1	clause[32]	_	_	_	
+
+#Text=hoffe bleibt so
+71-1	1536-1541	hoffe	GSuccess[12]	husten\_set1\_7[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-husten\_set1\_7[12]	1	*	*	*	singular	false[94]	Decl[94]	*[217]	*[217]	*[217]	*[217]	*[217]	input2[217]	46[336]	male[336]	7bq5ecc5fndmatjvd44havavdp[336]	speaker: YOU[455]	*->34-2	zero[34]	_	_	_	
+71-2	1542-1548	bleibt	GSuccess[12]	husten\_set1\_7[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-husten\_set1\_7[12]	_	_	_	_	_	false[94]	Decl[94]	*[217]	*[217]	*[217]	*[217]	*[217]	input2[217]	46[336]	male[336]	7bq5ecc5fndmatjvd44havavdp[336]	speaker: YOU[455]	*->32-2	zero[32]	_	_	_	
+71-3	1549-1551	so	GSuccess[12]	husten\_set1\_7[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-husten\_set1\_7[12]	_	_	_	_	_	false[94]	Decl[94]	*[217]	*[217]	*[217]	*[217]	*[217]	input2[217]	46[336]	male[336]	7bq5ecc5fndmatjvd44havavdp[336]	speaker: YOU[455]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+72-1	1553-1568	END_OF_DOCUMENT	GSuccess[12]	husten\_set1\_7[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-husten\_set1\_7[12]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+73-1	1570-1573	Wie	GSuccess[13]	husten\_set1\_7[13]	latin1[13]	9bb79dhfhst017575orahklqol-husten\_set1\_7[13]	_	_	_	_	_	false[95]	Int[95]	*[218]	*[218]	*[218]	wh\_3[218]	wh\_question[218]	openq[218]	*[337]	female[337]	*[337]	speaker:Annabelle[456]	_	_	QAP	*	74-1[96_95]	
+73-2	1574-1579	gehts	GSuccess[13]	husten\_set1\_7[13]	latin1[13]	9bb79dhfhst017575orahklqol-husten\_set1\_7[13]	_	_	_	_	_	false[95]	Int[95]	*[218]	*[218]	*[218]	wh\_3[218]	wh\_question[218]	openq[218]	*[337]	female[337]	*[337]	speaker:Annabelle[456]	_	_	_	_	_	
+73-3	1580-1584	dir?	GSuccess[13]	husten\_set1\_7[13]	latin1[13]	9bb79dhfhst017575orahklqol-husten\_set1\_7[13]	2	*	*	*	singular	false[95]	Int[95]	*[218]	*[218]	*[218]	wh\_3[218]	wh\_question[218]	openq[218]	*[337]	female[337]	*[337]	speaker:Annabelle[456]	*->51-1	PerPron[51]	_	_	_	
+
+#Text=Lotte hat laut gehustet
+74-1	1586-1591	Lotte	GSuccess[13]	husten\_set1\_7[13]	latin1[13]	9bb79dhfhst017575orahklqol-husten\_set1\_7[13]	*	*	Subj	*	*	false[96]	Decl[96]	*[219]	husten[219]	intransitive[219]	*[219]	*[219]	item0[219]	37[338]	female[338]	9bb79dhfhst017575orahklqol[338]	speaker: YOU[457]	*->41-1	PropNm[41]	elaboration|acknowledgement	*|*	76-1[97_96]|75-1[0_96]	
+74-2	1592-1595	hat	GSuccess[13]	husten\_set1\_7[13]	latin1[13]	9bb79dhfhst017575orahklqol-husten\_set1\_7[13]	_	_	_	_	_	false[96]	Decl[96]	*[219]	husten[219]	intransitive[219]	*[219]	*[219]	item0[219]	37[338]	female[338]	9bb79dhfhst017575orahklqol[338]	speaker: YOU[457]	_	_	_	_	_	
+74-3	1596-1600	laut	GSuccess[13]	husten\_set1\_7[13]	latin1[13]	9bb79dhfhst017575orahklqol-husten\_set1\_7[13]	_	_	_	_	_	false[96]	Decl[96]	*[219]	husten[219]	intransitive[219]	*[219]	*[219]	item0[219]	37[338]	female[338]	9bb79dhfhst017575orahklqol[338]	speaker: YOU[457]	_	_	_	_	_	
+74-4	1601-1609	gehustet	GSuccess[13]	husten\_set1\_7[13]	latin1[13]	9bb79dhfhst017575orahklqol-husten\_set1\_7[13]	_	_	_	_	_	false[96]	Decl[96]	*[219]	husten[219]	intransitive[219]	*[219]	*[219]	item0[219]	37[338]	female[338]	9bb79dhfhst017575orahklqol[338]	speaker: YOU[457]	_	_	_	_	_	
+
+#Text=Ohje
+75-1	1611-1615	Ohje	GSuccess[13]	husten\_set1\_7[13]	latin1[13]	9bb79dhfhst017575orahklqol-husten\_set1\_7[13]	_	_	_	_	_	false	NA	ohje\_27	*	*	*	*	feedback	*	female	*	speaker:Annabelle	_	_	_	_	_	
+
+#Text=ja und sie hat eine verstopfte nase
+76-1	1617-1619	ja	GSuccess[13]	husten\_set1\_7[13]	latin1[13]	9bb79dhfhst017575orahklqol-husten\_set1\_7[13]	_	_	_	_	_	false[97]	Decl[97]	*[220]	*[220]	*[220]	*[220]	*[220]	input1[220]	37[339]	female[339]	9bb79dhfhst017575orahklqol[339]	speaker: YOU[458]	_	_	_	_	_	
+76-2	1620-1623	und	GSuccess[13]	husten\_set1\_7[13]	latin1[13]	9bb79dhfhst017575orahklqol-husten\_set1\_7[13]	_	_	_	_	_	false[97]	Decl[97]	*[220]	*[220]	*[220]	*[220]	*[220]	input1[220]	37[339]	female[339]	9bb79dhfhst017575orahklqol[339]	speaker: YOU[458]	_	_	_	_	_	
+76-3	1624-1627	sie	GSuccess[13]	husten\_set1\_7[13]	latin1[13]	9bb79dhfhst017575orahklqol-husten\_set1\_7[13]	3	*	Subj	*	singular	false[97]	Decl[97]	*[220]	*[220]	*[220]	*[220]	*[220]	input1[220]	37[339]	female[339]	9bb79dhfhst017575orahklqol[339]	speaker: YOU[458]	*->41-2	PerPron[41]	_	_	_	
+76-4	1628-1631	hat	GSuccess[13]	husten\_set1\_7[13]	latin1[13]	9bb79dhfhst017575orahklqol-husten\_set1\_7[13]	_	_	_	_	_	false[97]	Decl[97]	*[220]	*[220]	*[220]	*[220]	*[220]	input1[220]	37[339]	female[339]	9bb79dhfhst017575orahklqol[339]	speaker: YOU[458]	_	_	_	_	_	
+76-5	1632-1636	eine	GSuccess[13]	husten\_set1\_7[13]	latin1[13]	9bb79dhfhst017575orahklqol-husten\_set1\_7[13]	*[40]	*[40]	DirObj[40]	*[40]	*[40]	false[97]	Decl[97]	*[220]	*[220]	*[220]	*[220]	*[220]	input1[220]	37[339]	female[339]	9bb79dhfhst017575orahklqol[339]	speaker: YOU[458]	*->30-1	IndefNP[30]	_	_	_	
+76-6	1637-1647	verstopfte	GSuccess[13]	husten\_set1\_7[13]	latin1[13]	9bb79dhfhst017575orahklqol-husten\_set1\_7[13]	*[40]	*[40]	DirObj[40]	*[40]	*[40]	false[97]	Decl[97]	*[220]	*[220]	*[220]	*[220]	*[220]	input1[220]	37[339]	female[339]	9bb79dhfhst017575orahklqol[339]	speaker: YOU[458]	*->30-1	IndefNP[30]	_	_	_	
+76-7	1648-1652	nase	GSuccess[13]	husten\_set1\_7[13]	latin1[13]	9bb79dhfhst017575orahklqol-husten\_set1\_7[13]	*[40]	*[40]	DirObj[40]	*[40]	*[40]	false[97]	Decl[97]	*[220]	*[220]	*[220]	*[220]	*[220]	input1[220]	37[339]	female[339]	9bb79dhfhst017575orahklqol[339]	speaker: YOU[458]	*->30-1	IndefNP[30]	_	_	_	
+
+#Text=hoffe ich bekomme das nicht
+77-1	1654-1659	hoffe	GSuccess[13]	husten\_set1\_7[13]	latin1[13]	9bb79dhfhst017575orahklqol-husten\_set1\_7[13]	1	*	*	*	singular	false[98]	Decl[98]	*[221]	*[221]	*[221]	*[221]	*[221]	input2[221]	37[340]	female[340]	9bb79dhfhst017575orahklqol[340]	speaker: YOU[459]	*->51-2	zero[51]	_	_	_	
+77-2	1660-1663	ich	GSuccess[13]	husten\_set1\_7[13]	latin1[13]	9bb79dhfhst017575orahklqol-husten\_set1\_7[13]	1	*	Embedded	*	singular	false[98]	Decl[98]	*[221]	*[221]	*[221]	*[221]	*[221]	input2[221]	37[340]	female[340]	9bb79dhfhst017575orahklqol[340]	speaker: YOU[459]	*->51-3	PerPron[51]	_	_	_	
+77-3	1664-1671	bekomme	GSuccess[13]	husten\_set1\_7[13]	latin1[13]	9bb79dhfhst017575orahklqol-husten\_set1\_7[13]	_	_	_	_	_	false[98]	Decl[98]	*[221]	*[221]	*[221]	*[221]	*[221]	input2[221]	37[340]	female[340]	9bb79dhfhst017575orahklqol[340]	speaker: YOU[459]	_	_	_	_	_	
+77-4	1672-1675	das	GSuccess[13]	husten\_set1\_7[13]	latin1[13]	9bb79dhfhst017575orahklqol-husten\_set1\_7[13]	_	_	_	_	_	false[98]	Decl[98]	*[221]	*[221]	*[221]	*[221]	*[221]	input2[221]	37[340]	female[340]	9bb79dhfhst017575orahklqol[340]	speaker: YOU[459]	*->64-1	D-Pron[64]	_	_	_	
+77-5	1676-1681	nicht	GSuccess[13]	husten\_set1\_7[13]	latin1[13]	9bb79dhfhst017575orahklqol-husten\_set1\_7[13]	_	_	_	_	_	false[98]	Decl[98]	*[221]	*[221]	*[221]	*[221]	*[221]	input2[221]	37[340]	female[340]	9bb79dhfhst017575orahklqol[340]	speaker: YOU[459]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+78-1	1683-1698	END_OF_DOCUMENT	GSuccess[13]	husten\_set1\_7[13]	latin1[13]	9bb79dhfhst017575orahklqol-husten\_set1\_7[13]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+79-1	1700-1703	Wie	GSuccess[14]	husten\_set1\_7[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-husten\_set1\_7[14]	_	_	_	_	_	false[99]	Int[99]	*[222]	*[222]	*[222]	wh\_3[222]	wh\_question[222]	openq[222]	*[341]	female[341]	*[341]	speaker:Annabelle[460]	_	_	QAP	*	80-1[100_99]	
+79-2	1704-1709	gehts	GSuccess[14]	husten\_set1\_7[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-husten\_set1\_7[14]	_	_	_	_	_	false[99]	Int[99]	*[222]	*[222]	*[222]	wh\_3[222]	wh\_question[222]	openq[222]	*[341]	female[341]	*[341]	speaker:Annabelle[460]	_	_	_	_	_	
+79-3	1710-1714	dir?	GSuccess[14]	husten\_set1\_7[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-husten\_set1\_7[14]	2	*	*	*	singular	false[99]	Int[99]	*[222]	*[222]	*[222]	wh\_3[222]	wh\_question[222]	openq[222]	*[341]	female[341]	*[341]	speaker:Annabelle[460]	*->48-1	PerPron[48]	_	_	_	
+
+#Text=Lotte hat laut gehustet
+80-1	1716-1721	Lotte	GSuccess[14]	husten\_set1\_7[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-husten\_set1\_7[14]	*	*	Subj	*	*	false[100]	Decl[100]	*[223]	husten[223]	intransitive[223]	*[223]	*[223]	item0[223]	21[342]	male[342]	afpst3sherp4732c4se5ajftkq[342]	speaker: YOU[461]	*->61-1	PropNm[61]	acknowledgement	*	81-1[0_100]	
+80-2	1722-1725	hat	GSuccess[14]	husten\_set1\_7[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-husten\_set1\_7[14]	_	_	_	_	_	false[100]	Decl[100]	*[223]	husten[223]	intransitive[223]	*[223]	*[223]	item0[223]	21[342]	male[342]	afpst3sherp4732c4se5ajftkq[342]	speaker: YOU[461]	_	_	_	_	_	
+80-3	1726-1730	laut	GSuccess[14]	husten\_set1\_7[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-husten\_set1\_7[14]	_	_	_	_	_	false[100]	Decl[100]	*[223]	husten[223]	intransitive[223]	*[223]	*[223]	item0[223]	21[342]	male[342]	afpst3sherp4732c4se5ajftkq[342]	speaker: YOU[461]	_	_	_	_	_	
+80-4	1731-1739	gehustet	GSuccess[14]	husten\_set1\_7[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-husten\_set1\_7[14]	_	_	_	_	_	false[100]	Decl[100]	*[223]	husten[223]	intransitive[223]	*[223]	*[223]	item0[223]	21[342]	male[342]	afpst3sherp4732c4se5ajftkq[342]	speaker: YOU[461]	_	_	_	_	_	
+
+#Text=Ohje
+81-1	1741-1745	Ohje	GSuccess[14]	husten\_set1\_7[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-husten\_set1\_7[14]	_	_	_	_	_	false	NA	ohje\_27	*	*	*	*	feedback	*	female	*	speaker:Annabelle	_	_	_	_	_	
+
+#Text=Hoffen wir mal <BR> dass sie kein Corona hat.
+82-1	1747-1753	Hoffen	GSuccess[14]	husten\_set1\_7[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-husten\_set1\_7[14]	_	_	_	_	_	false[101]	Imp[101]	*[224]	*[224]	*[224]	*[224]	*[224]	input1[224]	21[343]	male[343]	afpst3sherp4732c4se5ajftkq[343]	speaker: YOU[462]	_	_	_	_	_	
+82-2	1754-1757	wir	GSuccess[14]	husten\_set1\_7[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-husten\_set1\_7[14]	1	*	Subj	*	plural	false[101]	Imp[101]	*[224]	*[224]	*[224]	*[224]	*[224]	input1[224]	21[343]	male[343]	afpst3sherp4732c4se5ajftkq[343]	speaker: YOU[462]	*->19-1	PerPron[19]	_	_	_	
+82-3	1758-1761	mal	GSuccess[14]	husten\_set1\_7[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-husten\_set1\_7[14]	_	_	_	_	_	false[101]	Imp[101]	*[224]	*[224]	*[224]	*[224]	*[224]	input1[224]	21[343]	male[343]	afpst3sherp4732c4se5ajftkq[343]	speaker: YOU[462]	_	_	_	_	_	
+82-4	1762-1766	<BR>	GSuccess[14]	husten\_set1\_7[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-husten\_set1\_7[14]	_	_	_	_	_	_	_	*[224]	*[224]	*[224]	*[224]	*[224]	input1[224]	21[343]	male[343]	afpst3sherp4732c4se5ajftkq[343]	speaker: YOU[462]	_	_	_	_	_	
+82-5	1767-1771	dass	GSuccess[14]	husten\_set1\_7[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-husten\_set1\_7[14]	_	_	_	_	_	false[102]	NA[102]	*[224]	*[224]	*[224]	*[224]	*[224]	input1[224]	21[343]	male[343]	afpst3sherp4732c4se5ajftkq[343]	speaker: YOU[462]	_	_	_	_	_	
+82-6	1772-1775	sie	GSuccess[14]	husten\_set1\_7[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-husten\_set1\_7[14]	3	*	Embedded	*	singular	false[102]	NA[102]	*[224]	*[224]	*[224]	*[224]	*[224]	input1[224]	21[343]	male[343]	afpst3sherp4732c4se5ajftkq[343]	speaker: YOU[462]	*->61-2	PerPron[61]	_	_	_	
+82-7	1776-1780	kein	GSuccess[14]	husten\_set1\_7[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-husten\_set1\_7[14]	_	_	_	_	_	false[102]	NA[102]	*[224]	*[224]	*[224]	*[224]	*[224]	input1[224]	21[343]	male[343]	afpst3sherp4732c4se5ajftkq[343]	speaker: YOU[462]	_	_	_	_	_	
+82-8	1781-1787	Corona	GSuccess[14]	husten\_set1\_7[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-husten\_set1\_7[14]	*	*	Embedded	*	*	false[102]	NA[102]	*[224]	*[224]	*[224]	*[224]	*[224]	input1[224]	21[343]	male[343]	afpst3sherp4732c4se5ajftkq[343]	speaker: YOU[462]	_	_	_	_	_	
+82-9	1788-1792	hat.	GSuccess[14]	husten\_set1\_7[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-husten\_set1\_7[14]	_	_	_	_	_	false[102]	NA[102]	*[224]	*[224]	*[224]	*[224]	*[224]	input1[224]	21[343]	male[343]	afpst3sherp4732c4se5ajftkq[343]	speaker: YOU[462]	_	_	_	_	_	
+
+#Text=Die Klassenkameraden haben sie schon ganz komisch angeguckt.
+83-1	1794-1797	Die	GSuccess[14]	husten\_set1\_7[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-husten\_set1\_7[14]	*[41]	*[41]	Subj[41]	*[41]	*[41]	false[103]	Decl[103]	*[225]	*[225]	*[225]	*[225]	*[225]	input2[225]	21[344]	male[344]	afpst3sherp4732c4se5ajftkq[344]	speaker: YOU[463]	*->66-1	DefNP[66]	_	_	_	
+83-2	1798-1814	Klassenkameraden	GSuccess[14]	husten\_set1\_7[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-husten\_set1\_7[14]	*[41]	*[41]	Subj[41]	*[41]	*[41]	false[103]	Decl[103]	*[225]	*[225]	*[225]	*[225]	*[225]	input2[225]	21[344]	male[344]	afpst3sherp4732c4se5ajftkq[344]	speaker: YOU[463]	*->66-1	DefNP[66]	_	_	_	
+83-3	1815-1820	haben	GSuccess[14]	husten\_set1\_7[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-husten\_set1\_7[14]	_	_	_	_	_	false[103]	Decl[103]	*[225]	*[225]	*[225]	*[225]	*[225]	input2[225]	21[344]	male[344]	afpst3sherp4732c4se5ajftkq[344]	speaker: YOU[463]	_	_	_	_	_	
+83-4	1821-1824	sie	GSuccess[14]	husten\_set1\_7[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-husten\_set1\_7[14]	3	*	DirObj	*	singular	false[103]	Decl[103]	*[225]	*[225]	*[225]	*[225]	*[225]	input2[225]	21[344]	male[344]	afpst3sherp4732c4se5ajftkq[344]	speaker: YOU[463]	*->61-3	PerPron[61]	_	_	_	
+83-5	1825-1830	schon	GSuccess[14]	husten\_set1\_7[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-husten\_set1\_7[14]	_	_	_	_	_	false[103]	Decl[103]	*[225]	*[225]	*[225]	*[225]	*[225]	input2[225]	21[344]	male[344]	afpst3sherp4732c4se5ajftkq[344]	speaker: YOU[463]	_	_	_	_	_	
+83-6	1831-1835	ganz	GSuccess[14]	husten\_set1\_7[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-husten\_set1\_7[14]	_	_	_	_	_	false[103]	Decl[103]	*[225]	*[225]	*[225]	*[225]	*[225]	input2[225]	21[344]	male[344]	afpst3sherp4732c4se5ajftkq[344]	speaker: YOU[463]	_	_	_	_	_	
+83-7	1836-1843	komisch	GSuccess[14]	husten\_set1\_7[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-husten\_set1\_7[14]	_	_	_	_	_	false[103]	Decl[103]	*[225]	*[225]	*[225]	*[225]	*[225]	input2[225]	21[344]	male[344]	afpst3sherp4732c4se5ajftkq[344]	speaker: YOU[463]	_	_	_	_	_	
+83-8	1844-1854	angeguckt.	GSuccess[14]	husten\_set1\_7[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-husten\_set1\_7[14]	_	_	_	_	_	false[103]	Decl[103]	*[225]	*[225]	*[225]	*[225]	*[225]	input2[225]	21[344]	male[344]	afpst3sherp4732c4se5ajftkq[344]	speaker: YOU[463]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+84-1	1856-1871	END_OF_DOCUMENT	GSuccess[14]	husten\_set1\_7[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-husten\_set1\_7[14]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+85-1	1873-1876	Wie	GSuccess[15]	husten\_set1\_7[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-husten\_set1\_7[15]	_	_	_	_	_	false[104]	Int[104]	*[226]	*[226]	*[226]	wh\_3[226]	wh\_question[226]	openq[226]	*[345]	female[345]	*[345]	speaker:Annabelle[464]	_	_	parallel|QAP	*|*	89-1[107_104]|86-1[105_104]	
+85-2	1877-1882	gehts	GSuccess[15]	husten\_set1\_7[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-husten\_set1\_7[15]	_	_	_	_	_	false[104]	Int[104]	*[226]	*[226]	*[226]	wh\_3[226]	wh\_question[226]	openq[226]	*[345]	female[345]	*[345]	speaker:Annabelle[464]	_	_	_	_	_	
+85-3	1883-1887	dir?	GSuccess[15]	husten\_set1\_7[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-husten\_set1\_7[15]	2	*	*	*	singular	false[104]	Int[104]	*[226]	*[226]	*[226]	wh\_3[226]	wh\_question[226]	openq[226]	*[345]	female[345]	*[345]	speaker:Annabelle[464]	*->63-1	PerPron[63]	_	_	_	
+
+#Text=Lotte hat laut gehustet
+86-1	1889-1894	Lotte	GSuccess[15]	husten\_set1\_7[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-husten\_set1\_7[15]	*	*	Subj	*	*	false[105]	Decl[105]	*[227]	husten[227]	intransitive[227]	*[227]	*[227]	item0[227]	42[346]	female[346]	blj8i1h4sc8jti0m6gcav1c9ek[346]	speaker: YOU[465]	*->50-1	PropNm[50]	contrast|acknowledgement	*|*	88-1[106_105]|87-1[0_105]	
+86-2	1895-1898	hat	GSuccess[15]	husten\_set1\_7[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-husten\_set1\_7[15]	_	_	_	_	_	false[105]	Decl[105]	*[227]	husten[227]	intransitive[227]	*[227]	*[227]	item0[227]	42[346]	female[346]	blj8i1h4sc8jti0m6gcav1c9ek[346]	speaker: YOU[465]	_	_	_	_	_	
+86-3	1899-1903	laut	GSuccess[15]	husten\_set1\_7[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-husten\_set1\_7[15]	_	_	_	_	_	false[105]	Decl[105]	*[227]	husten[227]	intransitive[227]	*[227]	*[227]	item0[227]	42[346]	female[346]	blj8i1h4sc8jti0m6gcav1c9ek[346]	speaker: YOU[465]	_	_	_	_	_	
+86-4	1904-1912	gehustet	GSuccess[15]	husten\_set1\_7[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-husten\_set1\_7[15]	_	_	_	_	_	false[105]	Decl[105]	*[227]	husten[227]	intransitive[227]	*[227]	*[227]	item0[227]	42[346]	female[346]	blj8i1h4sc8jti0m6gcav1c9ek[346]	speaker: YOU[465]	_	_	_	_	_	
+
+#Text=Ohje
+87-1	1914-1918	Ohje	GSuccess[15]	husten\_set1\_7[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-husten\_set1\_7[15]	_	_	_	_	_	false	NA	ohje\_27	*	*	*	*	feedback	*	female	*	speaker:Annabelle	_	_	_	_	_	
+
+#Text=Hoffentlich wird sie nicht schon wieder krank.
+88-1	1920-1931	Hoffentlich	GSuccess[15]	husten\_set1\_7[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-husten\_set1\_7[15]	_	_	_	_	_	false[106]	Decl[106]	*[228]	*[228]	*[228]	*[228]	*[228]	input1[228]	42[347]	female[347]	blj8i1h4sc8jti0m6gcav1c9ek[347]	speaker: YOU[466]	_	_	_	_	_	
+88-2	1932-1936	wird	GSuccess[15]	husten\_set1\_7[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-husten\_set1\_7[15]	_	_	_	_	_	false[106]	Decl[106]	*[228]	*[228]	*[228]	*[228]	*[228]	input1[228]	42[347]	female[347]	blj8i1h4sc8jti0m6gcav1c9ek[347]	speaker: YOU[466]	_	_	_	_	_	
+88-3	1937-1940	sie	GSuccess[15]	husten\_set1\_7[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-husten\_set1\_7[15]	3	*	Subj	*	singular	false[106]	Decl[106]	*[228]	*[228]	*[228]	*[228]	*[228]	input1[228]	42[347]	female[347]	blj8i1h4sc8jti0m6gcav1c9ek[347]	speaker: YOU[466]	*->50-2	PerPron[50]	_	_	_	
+88-4	1941-1946	nicht	GSuccess[15]	husten\_set1\_7[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-husten\_set1\_7[15]	_	_	_	_	_	false[106]	Decl[106]	*[228]	*[228]	*[228]	*[228]	*[228]	input1[228]	42[347]	female[347]	blj8i1h4sc8jti0m6gcav1c9ek[347]	speaker: YOU[466]	_	_	_	_	_	
+88-5	1947-1952	schon	GSuccess[15]	husten\_set1\_7[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-husten\_set1\_7[15]	_	_	_	_	_	false[106]	Decl[106]	*[228]	*[228]	*[228]	*[228]	*[228]	input1[228]	42[347]	female[347]	blj8i1h4sc8jti0m6gcav1c9ek[347]	speaker: YOU[466]	_	_	_	_	_	
+88-6	1953-1959	wieder	GSuccess[15]	husten\_set1\_7[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-husten\_set1\_7[15]	_	_	_	_	_	false[106]	Decl[106]	*[228]	*[228]	*[228]	*[228]	*[228]	input1[228]	42[347]	female[347]	blj8i1h4sc8jti0m6gcav1c9ek[347]	speaker: YOU[466]	_	_	_	_	_	
+88-7	1960-1966	krank.	GSuccess[15]	husten\_set1\_7[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-husten\_set1\_7[15]	_	_	_	_	_	false[106]	Decl[106]	*[228]	*[228]	*[228]	*[228]	*[228]	input1[228]	42[347]	female[347]	blj8i1h4sc8jti0m6gcav1c9ek[347]	speaker: YOU[466]	_	_	_	_	_	
+
+#Text=Hoffe Euch geht es besser?
+89-1	1968-1973	Hoffe	GSuccess[15]	husten\_set1\_7[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-husten\_set1\_7[15]	1	*	*	*	singular	false[107]	Int[107]	*[229]	*[229]	*[229]	*[229]	*[229]	input2[229]	42[348]	female[348]	blj8i1h4sc8jti0m6gcav1c9ek[348]	speaker: YOU[467]	*->63-2	zero[63]	_	_	_	
+89-2	1974-1978	Euch	GSuccess[15]	husten\_set1\_7[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-husten\_set1\_7[15]	2	*	IndirObj	*	plural	false[107]	Int[107]	*[229]	*[229]	*[229]	*[229]	*[229]	input2[229]	42[348]	female[348]	blj8i1h4sc8jti0m6gcav1c9ek[348]	speaker: YOU[467]	*->58-1	PerPron[58]	_	_	_	
+89-3	1979-1983	geht	GSuccess[15]	husten\_set1\_7[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-husten\_set1\_7[15]	_	_	_	_	_	false[107]	Int[107]	*[229]	*[229]	*[229]	*[229]	*[229]	input2[229]	42[348]	female[348]	blj8i1h4sc8jti0m6gcav1c9ek[348]	speaker: YOU[467]	_	_	_	_	_	
+89-4	1984-1986	es	GSuccess[15]	husten\_set1\_7[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-husten\_set1\_7[15]	*	*	Subj	*	*	false[107]	Int[107]	*[229]	*[229]	*[229]	*[229]	*[229]	input2[229]	42[348]	female[348]	blj8i1h4sc8jti0m6gcav1c9ek[348]	speaker: YOU[467]	_	_	_	_	_	
+89-5	1987-1994	besser?	GSuccess[15]	husten\_set1\_7[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-husten\_set1\_7[15]	_	_	_	_	_	false[107]	Int[107]	*[229]	*[229]	*[229]	*[229]	*[229]	input2[229]	42[348]	female[348]	blj8i1h4sc8jti0m6gcav1c9ek[348]	speaker: YOU[467]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+90-1	1996-2011	END_OF_DOCUMENT	GSuccess[15]	husten\_set1\_7[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-husten\_set1\_7[15]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+91-1	2013-2016	Wie	GSuccess[16]	husten\_set1\_7[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-husten\_set1\_7[16]	_	_	_	_	_	false[108]	Int[108]	*[230]	*[230]	*[230]	wh\_3[230]	wh\_question[230]	openq[230]	*[349]	female[349]	*[349]	speaker:Annabelle[468]	_	_	QAP	*	92-1[109_108]	
+91-2	2017-2022	gehts	GSuccess[16]	husten\_set1\_7[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-husten\_set1\_7[16]	_	_	_	_	_	false[108]	Int[108]	*[230]	*[230]	*[230]	wh\_3[230]	wh\_question[230]	openq[230]	*[349]	female[349]	*[349]	speaker:Annabelle[468]	_	_	_	_	_	
+91-3	2023-2027	dir?	GSuccess[16]	husten\_set1\_7[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-husten\_set1\_7[16]	2	*	*	*	singular	false[108]	Int[108]	*[230]	*[230]	*[230]	wh\_3[230]	wh\_question[230]	openq[230]	*[349]	female[349]	*[349]	speaker:Annabelle[468]	*->69-1	PerPron[69]	_	_	_	
+
+#Text=Lotte hat laut gehustet
+92-1	2029-2034	Lotte	GSuccess[16]	husten\_set1\_7[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-husten\_set1\_7[16]	*	*	Subj	*	*	false[109]	Decl[109]	*[231]	husten[231]	intransitive[231]	*[231]	*[231]	item0[231]	42[350]	female[350]	h05ingrcngdnasp07727nvoq59[350]	speaker: YOU[469]	*->91-1	PropNm[91]	elaboration|result|acknowledgement	*|*|*	94-1[110_109]|95-1[111_109]|93-1[0_109]	
+92-2	2035-2038	hat	GSuccess[16]	husten\_set1\_7[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-husten\_set1\_7[16]	_	_	_	_	_	false[109]	Decl[109]	*[231]	husten[231]	intransitive[231]	*[231]	*[231]	item0[231]	42[350]	female[350]	h05ingrcngdnasp07727nvoq59[350]	speaker: YOU[469]	_	_	_	_	_	
+92-3	2039-2043	laut	GSuccess[16]	husten\_set1\_7[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-husten\_set1\_7[16]	_	_	_	_	_	false[109]	Decl[109]	*[231]	husten[231]	intransitive[231]	*[231]	*[231]	item0[231]	42[350]	female[350]	h05ingrcngdnasp07727nvoq59[350]	speaker: YOU[469]	_	_	_	_	_	
+92-4	2044-2052	gehustet	GSuccess[16]	husten\_set1\_7[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-husten\_set1\_7[16]	_	_	_	_	_	false[109]	Decl[109]	*[231]	husten[231]	intransitive[231]	*[231]	*[231]	item0[231]	42[350]	female[350]	h05ingrcngdnasp07727nvoq59[350]	speaker: YOU[469]	_	_	_	_	_	
+
+#Text=Ohje
+93-1	2054-2058	Ohje	GSuccess[16]	husten\_set1\_7[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-husten\_set1\_7[16]	_	_	_	_	_	false	NA	ohje\_27	*	*	*	*	feedback	*	female	*	speaker:Annabelle	_	_	_	_	_	
+
+#Text=Ich hoffe kein Corona.
+94-1	2060-2063	Ich	GSuccess[16]	husten\_set1\_7[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-husten\_set1\_7[16]	1	*	Subj	*	singular	false[110]	Decl[110]	*[232]	*[232]	*[232]	*[232]	*[232]	input1[232]	42[351]	female[351]	h05ingrcngdnasp07727nvoq59[351]	speaker: YOU[470]	*->69-2	PerPron[69]	_	_	_	
+94-2	2064-2069	hoffe	GSuccess[16]	husten\_set1\_7[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-husten\_set1\_7[16]	_	_	_	_	_	false[110]	Decl[110]	*[232]	*[232]	*[232]	*[232]	*[232]	input1[232]	42[351]	female[351]	h05ingrcngdnasp07727nvoq59[351]	speaker: YOU[470]	_	_	_	_	_	
+94-3	2070-2074	kein	GSuccess[16]	husten\_set1\_7[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-husten\_set1\_7[16]	_	_	_	_	_	false[110]	Decl[110]	*[232]	*[232]	*[232]	*[232]	*[232]	input1[232]	42[351]	female[351]	h05ingrcngdnasp07727nvoq59[351]	speaker: YOU[470]	_	_	_	_	_	
+94-4	2075-2082	Corona.	GSuccess[16]	husten\_set1\_7[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-husten\_set1\_7[16]	_	_	_	_	_	false[110]	Decl[110]	*[232]	*[232]	*[232]	*[232]	*[232]	input1[232]	42[351]	female[351]	h05ingrcngdnasp07727nvoq59[351]	speaker: YOU[470]	_	_	_	_	_	
+
+#Text=Machen gleich einen Test.
+95-1	2084-2090	Machen	GSuccess[16]	husten\_set1\_7[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-husten\_set1\_7[16]	1	*	*	*	plural	false[111]	Decl[111]	*[233]	*[233]	*[233]	*[233]	*[233]	input2[233]	42[352]	female[352]	h05ingrcngdnasp07727nvoq59[352]	speaker: YOU[471]	*->94-1	zero[94]	_	_	_	
+95-2	2091-2097	gleich	GSuccess[16]	husten\_set1\_7[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-husten\_set1\_7[16]	_	_	_	_	_	false[111]	Decl[111]	*[233]	*[233]	*[233]	*[233]	*[233]	input2[233]	42[352]	female[352]	h05ingrcngdnasp07727nvoq59[352]	speaker: YOU[471]	_	_	_	_	_	
+95-3	2098-2103	einen	GSuccess[16]	husten\_set1\_7[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-husten\_set1\_7[16]	*[42]	*[42]	DirObj[42]	*[42]	*[42]	false[111]	Decl[111]	*[233]	*[233]	*[233]	*[233]	*[233]	input2[233]	42[352]	female[352]	h05ingrcngdnasp07727nvoq59[352]	speaker: YOU[471]	*->24-1	IndefNP[24]	_	_	_	
+95-4	2104-2109	Test.	GSuccess[16]	husten\_set1\_7[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-husten\_set1\_7[16]	*[42]	*[42]	DirObj[42]	*[42]	*[42]	false[111]	Decl[111]	*[233]	*[233]	*[233]	*[233]	*[233]	input2[233]	42[352]	female[352]	h05ingrcngdnasp07727nvoq59[352]	speaker: YOU[471]	*->24-1	IndefNP[24]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+96-1	2111-2126	END_OF_DOCUMENT	GSuccess[16]	husten\_set1\_7[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-husten\_set1\_7[16]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+97-1	2128-2131	Wie	GSuccess[17]	husten\_set1\_7[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-husten\_set1\_7[17]	_	_	_	_	_	false[112]	Int[112]	*[234]	*[234]	*[234]	wh\_3[234]	wh\_question[234]	openq[234]	*[353]	female[353]	*[353]	speaker:Annabelle[472]	_	_	QAP	*	98-1[113_112]	
+97-2	2132-2137	gehts	GSuccess[17]	husten\_set1\_7[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-husten\_set1\_7[17]	_	_	_	_	_	false[112]	Int[112]	*[234]	*[234]	*[234]	wh\_3[234]	wh\_question[234]	openq[234]	*[353]	female[353]	*[353]	speaker:Annabelle[472]	_	_	_	_	_	
+97-3	2138-2142	dir?	GSuccess[17]	husten\_set1\_7[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-husten\_set1\_7[17]	2	*	*	*	singular	false[112]	Int[112]	*[234]	*[234]	*[234]	wh\_3[234]	wh\_question[234]	openq[234]	*[353]	female[353]	*[353]	speaker:Annabelle[472]	*->78-1	PerPron[78]	_	_	_	
+
+#Text=Lotte hat laut gehustet
+98-1	2144-2149	Lotte	GSuccess[17]	husten\_set1\_7[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-husten\_set1\_7[17]	*	*	Subj	*	*	false[113]	Decl[113]	*[235]	husten[235]	intransitive[235]	*[235]	*[235]	item0[235]	42[354]	male[354]	jkqc35grurqg6r29efakrmibd9[354]	speaker: YOU[473]	*->45-1	PropNm[45]	elaboration|acknowledgement	*|*	100-1[0_113]|99-1[0_113]	
+98-2	2150-2153	hat	GSuccess[17]	husten\_set1\_7[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-husten\_set1\_7[17]	_	_	_	_	_	false[113]	Decl[113]	*[235]	husten[235]	intransitive[235]	*[235]	*[235]	item0[235]	42[354]	male[354]	jkqc35grurqg6r29efakrmibd9[354]	speaker: YOU[473]	_	_	_	_	_	
+98-3	2154-2158	laut	GSuccess[17]	husten\_set1\_7[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-husten\_set1\_7[17]	_	_	_	_	_	false[113]	Decl[113]	*[235]	husten[235]	intransitive[235]	*[235]	*[235]	item0[235]	42[354]	male[354]	jkqc35grurqg6r29efakrmibd9[354]	speaker: YOU[473]	_	_	_	_	_	
+98-4	2159-2167	gehustet	GSuccess[17]	husten\_set1\_7[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-husten\_set1\_7[17]	_	_	_	_	_	false[113]	Decl[113]	*[235]	husten[235]	intransitive[235]	*[235]	*[235]	item0[235]	42[354]	male[354]	jkqc35grurqg6r29efakrmibd9[354]	speaker: YOU[473]	_	_	_	_	_	
+
+#Text=Ohje
+99-1	2169-2173	Ohje	GSuccess[17]	husten\_set1\_7[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-husten\_set1\_7[17]	_	_	_	_	_	false	NA	ohje\_27	*	*	*	*	feedback	*	female	*	speaker:Annabelle	_	_	_	_	_	
+
+#Text=ja
+100-1	2175-2177	ja	GSuccess[17]	husten\_set1\_7[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-husten\_set1\_7[17]	_	_	_	_	_	false	NA	*	*	*	*	*	input1	42	male	jkqc35grurqg6r29efakrmibd9	speaker: YOU	_	_	contrast	*	101-1[114_0]	
+
+#Text=ist aber wohl nicht schlimm
+101-1	2179-2182	ist	GSuccess[17]	husten\_set1\_7[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-husten\_set1\_7[17]	3	*	*	*	singular	false[114]	Decl[114]	*[236]	*[236]	*[236]	*[236]	*[236]	input2[236]	42[355]	male[355]	jkqc35grurqg6r29efakrmibd9[355]	speaker: YOU[474]	*->47-1	zero[47]	_	_	_	
+101-2	2183-2187	aber	GSuccess[17]	husten\_set1\_7[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-husten\_set1\_7[17]	_	_	_	_	_	false[114]	Decl[114]	*[236]	*[236]	*[236]	*[236]	*[236]	input2[236]	42[355]	male[355]	jkqc35grurqg6r29efakrmibd9[355]	speaker: YOU[474]	_	_	_	_	_	
+101-3	2188-2192	wohl	GSuccess[17]	husten\_set1\_7[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-husten\_set1\_7[17]	_	_	_	_	_	false[114]	Decl[114]	*[236]	*[236]	*[236]	*[236]	*[236]	input2[236]	42[355]	male[355]	jkqc35grurqg6r29efakrmibd9[355]	speaker: YOU[474]	_	_	_	_	_	
+101-4	2193-2198	nicht	GSuccess[17]	husten\_set1\_7[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-husten\_set1\_7[17]	_	_	_	_	_	false[114]	Decl[114]	*[236]	*[236]	*[236]	*[236]	*[236]	input2[236]	42[355]	male[355]	jkqc35grurqg6r29efakrmibd9[355]	speaker: YOU[474]	_	_	_	_	_	
+101-5	2199-2206	schlimm	GSuccess[17]	husten\_set1\_7[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-husten\_set1\_7[17]	_	_	_	_	_	false[114]	Decl[114]	*[236]	*[236]	*[236]	*[236]	*[236]	input2[236]	42[355]	male[355]	jkqc35grurqg6r29efakrmibd9[355]	speaker: YOU[474]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+102-1	2208-2223	END_OF_DOCUMENT	GSuccess[17]	husten\_set1\_7[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-husten\_set1\_7[17]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+103-1	2225-2228	Wie	GSuccess[18]	husten\_set1\_7[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-husten\_set1\_7[18]	_	_	_	_	_	false[115]	Int[115]	*[237]	*[237]	*[237]	wh\_3[237]	wh\_question[237]	openq[237]	*[356]	female[356]	*[356]	speaker:Annabelle[475]	_	_	QAP|QAP	*|*	107-1[118_115]|104-1[116_115]	
+103-2	2229-2234	gehts	GSuccess[18]	husten\_set1\_7[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-husten\_set1\_7[18]	_	_	_	_	_	false[115]	Int[115]	*[237]	*[237]	*[237]	wh\_3[237]	wh\_question[237]	openq[237]	*[356]	female[356]	*[356]	speaker:Annabelle[475]	_	_	_	_	_	
+103-3	2235-2239	dir?	GSuccess[18]	husten\_set1\_7[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-husten\_set1\_7[18]	2	*	*	*	singular	false[115]	Int[115]	*[237]	*[237]	*[237]	wh\_3[237]	wh\_question[237]	openq[237]	*[356]	female[356]	*[356]	speaker:Annabelle[475]	*->4-1	PerPron[4]	_	_	_	
+
+#Text=Lotte hat laut gehustet
+104-1	2241-2246	Lotte	GSuccess[18]	husten\_set1\_7[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-husten\_set1\_7[18]	*	*	Subj	*	*	false[116]	Decl[116]	*[238]	husten[238]	intransitive[238]	*[238]	*[238]	item0[238]	20[357]	male[357]	lhu26mh95feeqso1qtacqboi3v[357]	speaker: YOU[476]	*->14-1	PropNm[14]	acknowledgement	*	105-1[0_116]	
+104-2	2247-2250	hat	GSuccess[18]	husten\_set1\_7[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-husten\_set1\_7[18]	_	_	_	_	_	false[116]	Decl[116]	*[238]	husten[238]	intransitive[238]	*[238]	*[238]	item0[238]	20[357]	male[357]	lhu26mh95feeqso1qtacqboi3v[357]	speaker: YOU[476]	_	_	_	_	_	
+104-3	2251-2255	laut	GSuccess[18]	husten\_set1\_7[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-husten\_set1\_7[18]	_	_	_	_	_	false[116]	Decl[116]	*[238]	husten[238]	intransitive[238]	*[238]	*[238]	item0[238]	20[357]	male[357]	lhu26mh95feeqso1qtacqboi3v[357]	speaker: YOU[476]	_	_	_	_	_	
+104-4	2256-2264	gehustet	GSuccess[18]	husten\_set1\_7[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-husten\_set1\_7[18]	_	_	_	_	_	false[116]	Decl[116]	*[238]	husten[238]	intransitive[238]	*[238]	*[238]	item0[238]	20[357]	male[357]	lhu26mh95feeqso1qtacqboi3v[357]	speaker: YOU[476]	_	_	_	_	_	
+
+#Text=Ohje
+105-1	2266-2270	Ohje	GSuccess[18]	husten\_set1\_7[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-husten\_set1\_7[18]	_	_	_	_	_	false	NA	ohje\_27	*	*	*	*	feedback	*	female	*	speaker:Annabelle	_	_	acknowledgement	*	106-1	
+
+#Text=Ja <BR> ich hoffe Lotte hat kein Covid.
+106-1	2272-2274	Ja	GSuccess[18]	husten\_set1\_7[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-husten\_set1\_7[18]	_	_	_	_	_	false	NA	*[239]	*[239]	*[239]	*[239]	*[239]	input1[239]	20[358]	male[358]	lhu26mh95feeqso1qtacqboi3v[358]	speaker: YOU[477]	_	_	elaboration	*	106-3[117_0]	
+106-2	2275-2279	<BR>	GSuccess[18]	husten\_set1\_7[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-husten\_set1\_7[18]	_	_	_	_	_	_	_	*[239]	*[239]	*[239]	*[239]	*[239]	input1[239]	20[358]	male[358]	lhu26mh95feeqso1qtacqboi3v[358]	speaker: YOU[477]	_	_	_	_	_	
+106-3	2280-2283	ich	GSuccess[18]	husten\_set1\_7[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-husten\_set1\_7[18]	1	*	Subj	*	singular	false[117]	Decl[117]	*[239]	*[239]	*[239]	*[239]	*[239]	input1[239]	20[358]	male[358]	lhu26mh95feeqso1qtacqboi3v[358]	speaker: YOU[477]	*->4-2	PerPron[4]	contrast	*	107-1[118_117]	
+106-4	2284-2289	hoffe	GSuccess[18]	husten\_set1\_7[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-husten\_set1\_7[18]	_	_	_	_	_	false[117]	Decl[117]	*[239]	*[239]	*[239]	*[239]	*[239]	input1[239]	20[358]	male[358]	lhu26mh95feeqso1qtacqboi3v[358]	speaker: YOU[477]	_	_	_	_	_	
+106-5	2290-2295	Lotte	GSuccess[18]	husten\_set1\_7[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-husten\_set1\_7[18]	*	*	Embedded	*	*	false[117]	Decl[117]	*[239]	*[239]	*[239]	*[239]	*[239]	input1[239]	20[358]	male[358]	lhu26mh95feeqso1qtacqboi3v[358]	speaker: YOU[477]	*->14-2	PropNm[14]	_	_	_	
+106-6	2296-2299	hat	GSuccess[18]	husten\_set1\_7[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-husten\_set1\_7[18]	_	_	_	_	_	false[117]	Decl[117]	*[239]	*[239]	*[239]	*[239]	*[239]	input1[239]	20[358]	male[358]	lhu26mh95feeqso1qtacqboi3v[358]	speaker: YOU[477]	_	_	_	_	_	
+106-7	2300-2304	kein	GSuccess[18]	husten\_set1\_7[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-husten\_set1\_7[18]	_	_	_	_	_	false[117]	Decl[117]	*[239]	*[239]	*[239]	*[239]	*[239]	input1[239]	20[358]	male[358]	lhu26mh95feeqso1qtacqboi3v[358]	speaker: YOU[477]	_	_	_	_	_	
+106-8	2305-2311	Covid.	GSuccess[18]	husten\_set1\_7[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-husten\_set1\_7[18]	*	*	Embedded	*	*	false[117]	Decl[117]	*[239]	*[239]	*[239]	*[239]	*[239]	input1[239]	20[358]	male[358]	lhu26mh95feeqso1qtacqboi3v[358]	speaker: YOU[477]	_	_	_	_	_	
+
+#Text=Mir geht es soweit aber gut.
+107-1	2313-2316	Mir	GSuccess[18]	husten\_set1\_7[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-husten\_set1\_7[18]	1	*	IndirObj	*	singular	false[118]	Decl[118]	*[240]	*[240]	*[240]	*[240]	*[240]	input2[240]	20[359]	male[359]	lhu26mh95feeqso1qtacqboi3v[359]	speaker: YOU[478]	*->4-3	PerPron[4]	_	_	_	
+107-2	2317-2321	geht	GSuccess[18]	husten\_set1\_7[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-husten\_set1\_7[18]	_	_	_	_	_	false[118]	Decl[118]	*[240]	*[240]	*[240]	*[240]	*[240]	input2[240]	20[359]	male[359]	lhu26mh95feeqso1qtacqboi3v[359]	speaker: YOU[478]	_	_	_	_	_	
+107-3	2322-2324	es	GSuccess[18]	husten\_set1\_7[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-husten\_set1\_7[18]	*	*	Subj	*	*	false[118]	Decl[118]	*[240]	*[240]	*[240]	*[240]	*[240]	input2[240]	20[359]	male[359]	lhu26mh95feeqso1qtacqboi3v[359]	speaker: YOU[478]	_	_	_	_	_	
+107-4	2325-2331	soweit	GSuccess[18]	husten\_set1\_7[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-husten\_set1\_7[18]	_	_	_	_	_	false[118]	Decl[118]	*[240]	*[240]	*[240]	*[240]	*[240]	input2[240]	20[359]	male[359]	lhu26mh95feeqso1qtacqboi3v[359]	speaker: YOU[478]	_	_	_	_	_	
+107-5	2332-2336	aber	GSuccess[18]	husten\_set1\_7[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-husten\_set1\_7[18]	_	_	_	_	_	false[118]	Decl[118]	*[240]	*[240]	*[240]	*[240]	*[240]	input2[240]	20[359]	male[359]	lhu26mh95feeqso1qtacqboi3v[359]	speaker: YOU[478]	_	_	_	_	_	
+107-6	2337-2341	gut.	GSuccess[18]	husten\_set1\_7[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-husten\_set1\_7[18]	_	_	_	_	_	false[118]	Decl[118]	*[240]	*[240]	*[240]	*[240]	*[240]	input2[240]	20[359]	male[359]	lhu26mh95feeqso1qtacqboi3v[359]	speaker: YOU[478]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+108-1	2343-2358	END_OF_DOCUMENT	GSuccess[18]	husten\_set1\_7[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-husten\_set1\_7[18]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+109-1	2360-2363	Wie	GSuccess[19]	husten\_set1\_7[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-husten\_set1\_7[19]	_	_	_	_	_	false[119]	Int[119]	*[241]	*[241]	*[241]	wh\_3[241]	wh\_question[241]	openq[241]	*[360]	female[360]	*[360]	speaker:Annabelle[479]	_	_	QAP	*	110-1[120_119]	
+109-2	2364-2369	gehts	GSuccess[19]	husten\_set1\_7[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-husten\_set1\_7[19]	_	_	_	_	_	false[119]	Int[119]	*[241]	*[241]	*[241]	wh\_3[241]	wh\_question[241]	openq[241]	*[360]	female[360]	*[360]	speaker:Annabelle[479]	_	_	_	_	_	
+109-3	2370-2374	dir?	GSuccess[19]	husten\_set1\_7[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-husten\_set1\_7[19]	1	*	*	*	singular	false[119]	Int[119]	*[241]	*[241]	*[241]	wh\_3[241]	wh\_question[241]	openq[241]	*[360]	female[360]	*[360]	speaker:Annabelle[479]	*->70-1	PerPron[70]	_	_	_	
+
+#Text=Lotte hat laut gehustet
+110-1	2376-2381	Lotte	GSuccess[19]	husten\_set1\_7[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-husten\_set1\_7[19]	*	*	Subj	*	*	false[120]	Decl[120]	*[242]	husten[242]	intransitive[242]	*[242]	*[242]	item0[242]	21[361]	male[361]	tc4i3rsgsa9bl8tesf4679lok2[361]	speaker: YOU[480]	*->6-1	PropNm[6]	result|acknowledgement	*|*	112-1[121_120]|111-1[0_120]	
+110-2	2382-2385	hat	GSuccess[19]	husten\_set1\_7[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-husten\_set1\_7[19]	_	_	_	_	_	false[120]	Decl[120]	*[242]	husten[242]	intransitive[242]	*[242]	*[242]	item0[242]	21[361]	male[361]	tc4i3rsgsa9bl8tesf4679lok2[361]	speaker: YOU[480]	_	_	_	_	_	
+110-3	2386-2390	laut	GSuccess[19]	husten\_set1\_7[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-husten\_set1\_7[19]	_	_	_	_	_	false[120]	Decl[120]	*[242]	husten[242]	intransitive[242]	*[242]	*[242]	item0[242]	21[361]	male[361]	tc4i3rsgsa9bl8tesf4679lok2[361]	speaker: YOU[480]	_	_	_	_	_	
+110-4	2391-2399	gehustet	GSuccess[19]	husten\_set1\_7[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-husten\_set1\_7[19]	_	_	_	_	_	false[120]	Decl[120]	*[242]	husten[242]	intransitive[242]	*[242]	*[242]	item0[242]	21[361]	male[361]	tc4i3rsgsa9bl8tesf4679lok2[361]	speaker: YOU[480]	_	_	_	_	_	
+
+#Text=Ohje
+111-1	2401-2405	Ohje	GSuccess[19]	husten\_set1\_7[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-husten\_set1\_7[19]	_	_	_	_	_	false	NA	ohje\_27	*	*	*	*	feedback	*	female	*	speaker:Annabelle	_	_	_	_	_	
+
+#Text=Ja mal schauen
+112-1	2407-2409	Ja	GSuccess[19]	husten\_set1\_7[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-husten\_set1\_7[19]	_	_	_	_	_	false[121]	NA[121]	*[243]	*[243]	*[243]	*[243]	*[243]	input1[243]	21[362]	male[362]	tc4i3rsgsa9bl8tesf4679lok2[362]	speaker: YOU[481]	_	_	elaboration	*	113-1[122_121]	
+112-2	2410-2413	mal	GSuccess[19]	husten\_set1\_7[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-husten\_set1\_7[19]	_	_	_	_	_	false[121]	NA[121]	*[243]	*[243]	*[243]	*[243]	*[243]	input1[243]	21[362]	male[362]	tc4i3rsgsa9bl8tesf4679lok2[362]	speaker: YOU[481]	_	_	_	_	_	
+112-3	2414-2421	schauen	GSuccess[19]	husten\_set1\_7[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-husten\_set1\_7[19]	_	_	_	_	_	false[121]	NA[121]	*[243]	*[243]	*[243]	*[243]	*[243]	input1[243]	21[362]	male[362]	tc4i3rsgsa9bl8tesf4679lok2[362]	speaker: YOU[481]	_	_	_	_	_	
+
+#Text=Ich hoffe mal sie hat kein Corona
+113-1	2423-2426	Ich	GSuccess[19]	husten\_set1\_7[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-husten\_set1\_7[19]	1	*	Subj	*	singular	false[122]	Decl[122]	*[244]	*[244]	*[244]	*[244]	*[244]	input2[244]	21[363]	male[363]	tc4i3rsgsa9bl8tesf4679lok2[363]	speaker: YOU[482]	*->70-2	PerPron[70]	_	_	_	
+113-2	2427-2432	hoffe	GSuccess[19]	husten\_set1\_7[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-husten\_set1\_7[19]	_	_	_	_	_	false[122]	Decl[122]	*[244]	*[244]	*[244]	*[244]	*[244]	input2[244]	21[363]	male[363]	tc4i3rsgsa9bl8tesf4679lok2[363]	speaker: YOU[482]	_	_	_	_	_	
+113-3	2433-2436	mal	GSuccess[19]	husten\_set1\_7[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-husten\_set1\_7[19]	_	_	_	_	_	false[122]	Decl[122]	*[244]	*[244]	*[244]	*[244]	*[244]	input2[244]	21[363]	male[363]	tc4i3rsgsa9bl8tesf4679lok2[363]	speaker: YOU[482]	_	_	_	_	_	
+113-4	2437-2440	sie	GSuccess[19]	husten\_set1\_7[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-husten\_set1\_7[19]	3	*	Embedded	*	singular	false[122]	Decl[122]	*[244]	*[244]	*[244]	*[244]	*[244]	input2[244]	21[363]	male[363]	tc4i3rsgsa9bl8tesf4679lok2[363]	speaker: YOU[482]	*->6-2	PerPron[6]	_	_	_	
+113-5	2441-2444	hat	GSuccess[19]	husten\_set1\_7[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-husten\_set1\_7[19]	_	_	_	_	_	false[122]	Decl[122]	*[244]	*[244]	*[244]	*[244]	*[244]	input2[244]	21[363]	male[363]	tc4i3rsgsa9bl8tesf4679lok2[363]	speaker: YOU[482]	_	_	_	_	_	
+113-6	2445-2449	kein	GSuccess[19]	husten\_set1\_7[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-husten\_set1\_7[19]	_	_	_	_	_	false[122]	Decl[122]	*[244]	*[244]	*[244]	*[244]	*[244]	input2[244]	21[363]	male[363]	tc4i3rsgsa9bl8tesf4679lok2[363]	speaker: YOU[482]	_	_	_	_	_	
+113-7	2450-2456	Corona	GSuccess[19]	husten\_set1\_7[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-husten\_set1\_7[19]	_	_	_	_	_	false[122]	Decl[122]	*[244]	*[244]	*[244]	*[244]	*[244]	input2[244]	21[363]	male[363]	tc4i3rsgsa9bl8tesf4679lok2[363]	speaker: YOU[482]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+114-1	2458-2473	END_OF_DOCUMENT	GSuccess[19]	husten\_set1\_7[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-husten\_set1\_7[19]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+115-1	2475-2478	Wie	GSuccess[20]	husten\_set1\_7[20]	latin1[20]	us0adlivem61c2bj5776kudbot-husten\_set1\_7[20]	_	_	_	_	_	false[123]	Int[123]	*[245]	*[245]	*[245]	wh\_3[245]	wh\_question[245]	openq[245]	*[364]	female[364]	*[364]	speaker:Annabelle[483]	_	_	QAP	*	116-1[124_123]	
+115-2	2479-2484	gehts	GSuccess[20]	husten\_set1\_7[20]	latin1[20]	us0adlivem61c2bj5776kudbot-husten\_set1\_7[20]	_	_	_	_	_	false[123]	Int[123]	*[245]	*[245]	*[245]	wh\_3[245]	wh\_question[245]	openq[245]	*[364]	female[364]	*[364]	speaker:Annabelle[483]	_	_	_	_	_	
+115-3	2485-2489	dir?	GSuccess[20]	husten\_set1\_7[20]	latin1[20]	us0adlivem61c2bj5776kudbot-husten\_set1\_7[20]	2	*	*	*	singular	false[123]	Int[123]	*[245]	*[245]	*[245]	wh\_3[245]	wh\_question[245]	openq[245]	*[364]	female[364]	*[364]	speaker:Annabelle[483]	*->96-1	PerPron[96]	_	_	_	
+
+#Text=Lotte hat laut gehustet
+116-1	2491-2496	Lotte	GSuccess[20]	husten\_set1\_7[20]	latin1[20]	us0adlivem61c2bj5776kudbot-husten\_set1\_7[20]	*	*	Subj	*	*	false[124]	Decl[124]	*[246]	husten[246]	intransitive[246]	*[246]	*[246]	item0[246]	66[365]	male[365]	us0adlivem61c2bj5776kudbot[365]	speaker: YOU[484]	*->85-1	PropNm[85]	explanation|acknowledgement	*|*	118-1[125_124]|117-1[0_124]	
+116-2	2497-2500	hat	GSuccess[20]	husten\_set1\_7[20]	latin1[20]	us0adlivem61c2bj5776kudbot-husten\_set1\_7[20]	_	_	_	_	_	false[124]	Decl[124]	*[246]	husten[246]	intransitive[246]	*[246]	*[246]	item0[246]	66[365]	male[365]	us0adlivem61c2bj5776kudbot[365]	speaker: YOU[484]	_	_	_	_	_	
+116-3	2501-2505	laut	GSuccess[20]	husten\_set1\_7[20]	latin1[20]	us0adlivem61c2bj5776kudbot-husten\_set1\_7[20]	_	_	_	_	_	false[124]	Decl[124]	*[246]	husten[246]	intransitive[246]	*[246]	*[246]	item0[246]	66[365]	male[365]	us0adlivem61c2bj5776kudbot[365]	speaker: YOU[484]	_	_	_	_	_	
+116-4	2506-2514	gehustet	GSuccess[20]	husten\_set1\_7[20]	latin1[20]	us0adlivem61c2bj5776kudbot-husten\_set1\_7[20]	_	_	_	_	_	false[124]	Decl[124]	*[246]	husten[246]	intransitive[246]	*[246]	*[246]	item0[246]	66[365]	male[365]	us0adlivem61c2bj5776kudbot[365]	speaker: YOU[484]	_	_	_	_	_	
+
+#Text=Ohje
+117-1	2516-2520	Ohje	GSuccess[20]	husten\_set1\_7[20]	latin1[20]	us0adlivem61c2bj5776kudbot-husten\_set1\_7[20]	_	_	_	_	_	false	NA	ohje\_27	*	*	*	*	feedback	*	female	*	speaker:Annabelle	_	_	_	_	_	
+
+#Text=sie wird wohl Erkältung haben
+118-1	2522-2525	sie	GSuccess[20]	husten\_set1\_7[20]	latin1[20]	us0adlivem61c2bj5776kudbot-husten\_set1\_7[20]	3	*	Subj	*	singular	false[125]	Decl[125]	*[247]	*[247]	*[247]	*[247]	*[247]	input1[247]	66[366]	male[366]	us0adlivem61c2bj5776kudbot[366]	speaker: YOU[485]	*->85-2	PerPron[85]	elaboration	*	119-1[126_125]	
+118-2	2526-2530	wird	GSuccess[20]	husten\_set1\_7[20]	latin1[20]	us0adlivem61c2bj5776kudbot-husten\_set1\_7[20]	_	_	_	_	_	false[125]	Decl[125]	*[247]	*[247]	*[247]	*[247]	*[247]	input1[247]	66[366]	male[366]	us0adlivem61c2bj5776kudbot[366]	speaker: YOU[485]	_	_	_	_	_	
+118-3	2531-2535	wohl	GSuccess[20]	husten\_set1\_7[20]	latin1[20]	us0adlivem61c2bj5776kudbot-husten\_set1\_7[20]	_	_	_	_	_	false[125]	Decl[125]	*[247]	*[247]	*[247]	*[247]	*[247]	input1[247]	66[366]	male[366]	us0adlivem61c2bj5776kudbot[366]	speaker: YOU[485]	_	_	_	_	_	
+118-4	2536-2545	Erkältung	GSuccess[20]	husten\_set1\_7[20]	latin1[20]	us0adlivem61c2bj5776kudbot-husten\_set1\_7[20]	_	_	_	_	_	false[125]	Decl[125]	*[247]	*[247]	*[247]	*[247]	*[247]	input1[247]	66[366]	male[366]	us0adlivem61c2bj5776kudbot[366]	speaker: YOU[485]	_	_	_	_	_	
+118-5	2546-2551	haben	GSuccess[20]	husten\_set1\_7[20]	latin1[20]	us0adlivem61c2bj5776kudbot-husten\_set1\_7[20]	_	_	_	_	_	false[125]	Decl[125]	*[247]	*[247]	*[247]	*[247]	*[247]	input1[247]	66[366]	male[366]	us0adlivem61c2bj5776kudbot[366]	speaker: YOU[485]	_	_	_	_	_	
+
+#Text=nix ernstes
+119-1	2553-2556	nix	GSuccess[20]	husten\_set1\_7[20]	latin1[20]	us0adlivem61c2bj5776kudbot-husten\_set1\_7[20]	_	_	_	_	_	false[126]	NA[126]	*[248]	*[248]	*[248]	*[248]	*[248]	input2[248]	66[367]	male[367]	us0adlivem61c2bj5776kudbot[367]	speaker: YOU[486]	_	_	_	_	_	
+119-2	2557-2564	ernstes	GSuccess[20]	husten\_set1\_7[20]	latin1[20]	us0adlivem61c2bj5776kudbot-husten\_set1\_7[20]	_	_	_	_	_	false[126]	NA[126]	*[248]	*[248]	*[248]	*[248]	*[248]	input2[248]	66[367]	male[367]	us0adlivem61c2bj5776kudbot[367]	speaker: YOU[486]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+120-1	2566-2581	END_OF_DOCUMENT	GSuccess[20]	husten\_set1\_7[20]	latin1[20]	us0adlivem61c2bj5776kudbot-husten\_set1\_7[20]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+121-1	2583-2586	Wie	GWithout[21]	husten\_set1\_7[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-husten\_set1\_7[21]	_	_	_	_	_	false[127]	Int[127]	*[249]	*[249]	*[249]	wh\_3[249]	wh\_question[249]	openq[249]	*[368]	female[368]	*[368]	speaker:Annabelle[487]	_	_	QAP	*	122-1[128_127]	
+121-2	2587-2592	gehts	GWithout[21]	husten\_set1\_7[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-husten\_set1\_7[21]	_	_	_	_	_	false[127]	Int[127]	*[249]	*[249]	*[249]	wh\_3[249]	wh\_question[249]	openq[249]	*[368]	female[368]	*[368]	speaker:Annabelle[487]	_	_	_	_	_	
+121-3	2593-2597	dir?	GWithout[21]	husten\_set1\_7[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-husten\_set1\_7[21]	2	*	*	*	singular	false[127]	Int[127]	*[249]	*[249]	*[249]	wh\_3[249]	wh\_question[249]	openq[249]	*[368]	female[368]	*[368]	speaker:Annabelle[487]	*->27-1	PerPron[27]	_	_	_	
+
+#Text=Lotte hat laut gehustet
+122-1	2599-2604	Lotte	GWithout[21]	husten\_set1\_7[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-husten\_set1\_7[21]	*	*	Subj	*	*	false[128]	Decl[128]	*[250]	husten[250]	intransitive[250]	*[250]	*[250]	item0[250]	32[369]	female[369]	2em9nj6n4c2pjudl6n6hfpjc30[369]	speaker: YOU[488]	*->26-1	PropNm[26]	result	*	124-1[129_128]	
+122-2	2605-2608	hat	GWithout[21]	husten\_set1\_7[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-husten\_set1\_7[21]	_	_	_	_	_	false[128]	Decl[128]	*[250]	husten[250]	intransitive[250]	*[250]	*[250]	item0[250]	32[369]	female[369]	2em9nj6n4c2pjudl6n6hfpjc30[369]	speaker: YOU[488]	_	_	_	_	_	
+122-3	2609-2613	laut	GWithout[21]	husten\_set1\_7[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-husten\_set1\_7[21]	_	_	_	_	_	false[128]	Decl[128]	*[250]	husten[250]	intransitive[250]	*[250]	*[250]	item0[250]	32[369]	female[369]	2em9nj6n4c2pjudl6n6hfpjc30[369]	speaker: YOU[488]	_	_	_	_	_	
+122-4	2614-2622	gehustet	GWithout[21]	husten\_set1\_7[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-husten\_set1\_7[21]	_	_	_	_	_	false[128]	Decl[128]	*[250]	husten[250]	intransitive[250]	*[250]	*[250]	item0[250]	32[369]	female[369]	2em9nj6n4c2pjudl6n6hfpjc30[369]	speaker: YOU[488]	_	_	_	_	_	
+
+#Text=-
+123-1	2624-2625	-	GWithout[21]	husten\_set1\_7[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-husten\_set1\_7[21]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Annabelle	_	_	_	_	_	
+
+#Text=Jetzt schiebt sie Panik.
+124-1	2627-2632	Jetzt	GWithout[21]	husten\_set1\_7[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-husten\_set1\_7[21]	_	_	_	_	_	false[129]	Decl[129]	*[251]	*[251]	*[251]	*[251]	*[251]	input1[251]	32[370]	female[370]	2em9nj6n4c2pjudl6n6hfpjc30[370]	speaker: YOU[489]	_	_	explanation	*	125-1[130_129]	
+124-2	2633-2640	schiebt	GWithout[21]	husten\_set1\_7[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-husten\_set1\_7[21]	_	_	_	_	_	false[129]	Decl[129]	*[251]	*[251]	*[251]	*[251]	*[251]	input1[251]	32[370]	female[370]	2em9nj6n4c2pjudl6n6hfpjc30[370]	speaker: YOU[489]	_	_	_	_	_	
+124-3	2641-2644	sie	GWithout[21]	husten\_set1\_7[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-husten\_set1\_7[21]	3	*	Subj	*	singular	false[129]	Decl[129]	*[251]	*[251]	*[251]	*[251]	*[251]	input1[251]	32[370]	female[370]	2em9nj6n4c2pjudl6n6hfpjc30[370]	speaker: YOU[489]	*->26-2	PerPron[26]	_	_	_	
+124-4	2645-2651	Panik.	GWithout[21]	husten\_set1\_7[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-husten\_set1\_7[21]	*	*	DirObj	*	*	false[129]	Decl[129]	*[251]	*[251]	*[251]	*[251]	*[251]	input1[251]	32[370]	female[370]	2em9nj6n4c2pjudl6n6hfpjc30[370]	speaker: YOU[489]	_	_	_	_	_	
+
+#Text=Hypochonder halt.
+125-1	2653-2664	Hypochonder	GWithout[21]	husten\_set1\_7[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-husten\_set1\_7[21]	_	_	_	_	_	false[130]	NA[130]	*[252]	*[252]	*[252]	*[252]	*[252]	input2[252]	32[371]	female[371]	2em9nj6n4c2pjudl6n6hfpjc30[371]	speaker: YOU[490]	*->21-1	IndefNP[21]	_	_	_	
+125-2	2665-2670	halt.	GWithout[21]	husten\_set1\_7[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-husten\_set1\_7[21]	_	_	_	_	_	false[130]	NA[130]	*[252]	*[252]	*[252]	*[252]	*[252]	input2[252]	32[371]	female[371]	2em9nj6n4c2pjudl6n6hfpjc30[371]	speaker: YOU[490]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+126-1	2672-2687	END_OF_DOCUMENT	GWithout[21]	husten\_set1\_7[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-husten\_set1\_7[21]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+127-1	2689-2692	Wie	GWithout[22]	husten\_set1\_7[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-husten\_set1\_7[22]	_	_	_	_	_	false[131]	Int[131]	*[253]	*[253]	*[253]	wh\_3[253]	wh\_question[253]	openq[253]	*[372]	female[372]	*[372]	speaker:Annabelle[491]	_	_	QAP	*	128-1[132_131]	
+127-2	2693-2698	gehts	GWithout[22]	husten\_set1\_7[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-husten\_set1\_7[22]	_	_	_	_	_	false[131]	Int[131]	*[253]	*[253]	*[253]	wh\_3[253]	wh\_question[253]	openq[253]	*[372]	female[372]	*[372]	speaker:Annabelle[491]	_	_	_	_	_	
+127-3	2699-2703	dir?	GWithout[22]	husten\_set1\_7[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-husten\_set1\_7[22]	2	*	*	*	singular	false[131]	Int[131]	*[253]	*[253]	*[253]	wh\_3[253]	wh\_question[253]	openq[253]	*[372]	female[372]	*[372]	speaker:Annabelle[491]	*->68-1	PerPron[68]	_	_	_	
+
+#Text=Lotte hat laut gehustet
+128-1	2705-2710	Lotte	GWithout[22]	husten\_set1\_7[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-husten\_set1\_7[22]	*	*	Subj	*	*	false[132]	Decl[132]	*[254]	husten[254]	intransitive[254]	*[254]	*[254]	item0[254]	41[373]	female[373]	2prsavjsjqbmc8hrbo9bovkues[373]	speaker: YOU[492]	*->62-1	PropNm[62]	elaboration	*	130-1[133_132]	
+128-2	2711-2714	hat	GWithout[22]	husten\_set1\_7[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-husten\_set1\_7[22]	_	_	_	_	_	false[132]	Decl[132]	*[254]	husten[254]	intransitive[254]	*[254]	*[254]	item0[254]	41[373]	female[373]	2prsavjsjqbmc8hrbo9bovkues[373]	speaker: YOU[492]	_	_	_	_	_	
+128-3	2715-2719	laut	GWithout[22]	husten\_set1\_7[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-husten\_set1\_7[22]	_	_	_	_	_	false[132]	Decl[132]	*[254]	husten[254]	intransitive[254]	*[254]	*[254]	item0[254]	41[373]	female[373]	2prsavjsjqbmc8hrbo9bovkues[373]	speaker: YOU[492]	_	_	_	_	_	
+128-4	2720-2728	gehustet	GWithout[22]	husten\_set1\_7[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-husten\_set1\_7[22]	_	_	_	_	_	false[132]	Decl[132]	*[254]	husten[254]	intransitive[254]	*[254]	*[254]	item0[254]	41[373]	female[373]	2prsavjsjqbmc8hrbo9bovkues[373]	speaker: YOU[492]	_	_	_	_	_	
+
+#Text=-
+129-1	2730-2731	-	GWithout[22]	husten\_set1\_7[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-husten\_set1\_7[22]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Annabelle	_	_	_	_	_	
+
+#Text=Hoffentlich hat sie kein Corona.
+130-1	2733-2744	Hoffentlich	GWithout[22]	husten\_set1\_7[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-husten\_set1\_7[22]	_	_	_	_	_	false[133]	Decl[133]	*[255]	*[255]	*[255]	*[255]	*[255]	input1[255]	41[374]	female[374]	2prsavjsjqbmc8hrbo9bovkues[374]	speaker: YOU[493]	_	_	result	*	131-1[134_133]	
+130-2	2745-2748	hat	GWithout[22]	husten\_set1\_7[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-husten\_set1\_7[22]	_	_	_	_	_	false[133]	Decl[133]	*[255]	*[255]	*[255]	*[255]	*[255]	input1[255]	41[374]	female[374]	2prsavjsjqbmc8hrbo9bovkues[374]	speaker: YOU[493]	_	_	_	_	_	
+130-3	2749-2752	sie	GWithout[22]	husten\_set1\_7[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-husten\_set1\_7[22]	3	*	Subj	*	singular	false[133]	Decl[133]	*[255]	*[255]	*[255]	*[255]	*[255]	input1[255]	41[374]	female[374]	2prsavjsjqbmc8hrbo9bovkues[374]	speaker: YOU[493]	*->62-2	PerPron[62]	_	_	_	
+130-4	2753-2757	kein	GWithout[22]	husten\_set1\_7[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-husten\_set1\_7[22]	_	_	_	_	_	false[133]	Decl[133]	*[255]	*[255]	*[255]	*[255]	*[255]	input1[255]	41[374]	female[374]	2prsavjsjqbmc8hrbo9bovkues[374]	speaker: YOU[493]	_	_	_	_	_	
+130-5	2758-2765	Corona.	GWithout[22]	husten\_set1\_7[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-husten\_set1\_7[22]	*	*	DirObj	*	*	false[133]	Decl[133]	*[255]	*[255]	*[255]	*[255]	*[255]	input1[255]	41[374]	female[374]	2prsavjsjqbmc8hrbo9bovkues[374]	speaker: YOU[493]	_	_	_	_	_	
+
+#Text=Wir lassen jetzt einen Test machen.
+131-1	2767-2770	Wir	GWithout[22]	husten\_set1\_7[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-husten\_set1\_7[22]	1	*	Subj	*	plural	false[134]	Decl[134]	*[256]	*[256]	*[256]	*[256]	*[256]	input2[256]	41[375]	female[375]	2prsavjsjqbmc8hrbo9bovkues[375]	speaker: YOU[494]	*->9-1	PerPron[9]	_	_	_	
+131-2	2771-2777	lassen	GWithout[22]	husten\_set1\_7[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-husten\_set1\_7[22]	_	_	_	_	_	false[134]	Decl[134]	*[256]	*[256]	*[256]	*[256]	*[256]	input2[256]	41[375]	female[375]	2prsavjsjqbmc8hrbo9bovkues[375]	speaker: YOU[494]	_	_	_	_	_	
+131-3	2778-2783	jetzt	GWithout[22]	husten\_set1\_7[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-husten\_set1\_7[22]	_	_	_	_	_	false[134]	Decl[134]	*[256]	*[256]	*[256]	*[256]	*[256]	input2[256]	41[375]	female[375]	2prsavjsjqbmc8hrbo9bovkues[375]	speaker: YOU[494]	_	_	_	_	_	
+131-4	2784-2789	einen	GWithout[22]	husten\_set1\_7[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-husten\_set1\_7[22]	*[43]	*[43]	IndirObj[43]	*[43]	*[43]	false[134]	Decl[134]	*[256]	*[256]	*[256]	*[256]	*[256]	input2[256]	41[375]	female[375]	2prsavjsjqbmc8hrbo9bovkues[375]	speaker: YOU[494]	*->65-1	IndefNP[65]	_	_	_	
+131-5	2790-2794	Test	GWithout[22]	husten\_set1\_7[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-husten\_set1\_7[22]	*[43]	*[43]	IndirObj[43]	*[43]	*[43]	false[134]	Decl[134]	*[256]	*[256]	*[256]	*[256]	*[256]	input2[256]	41[375]	female[375]	2prsavjsjqbmc8hrbo9bovkues[375]	speaker: YOU[494]	*->65-1	IndefNP[65]	_	_	_	
+131-6	2795-2802	machen.	GWithout[22]	husten\_set1\_7[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-husten\_set1\_7[22]	_	_	_	_	_	false[134]	Decl[134]	*[256]	*[256]	*[256]	*[256]	*[256]	input2[256]	41[375]	female[375]	2prsavjsjqbmc8hrbo9bovkues[375]	speaker: YOU[494]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+132-1	2804-2819	END_OF_DOCUMENT	GWithout[22]	husten\_set1\_7[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-husten\_set1\_7[22]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+133-1	2821-2824	Wie	GWithout[23]	husten\_set1\_7[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-husten\_set1\_7[23]	_	_	_	_	_	false[135]	Int[135]	*[257]	*[257]	*[257]	wh\_3[257]	wh\_question[257]	openq[257]	*[376]	female[376]	*[376]	speaker:Annabelle[495]	_	_	QAP	*	134-1[136_135]	
+133-2	2825-2830	gehts	GWithout[23]	husten\_set1\_7[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-husten\_set1\_7[23]	_	_	_	_	_	false[135]	Int[135]	*[257]	*[257]	*[257]	wh\_3[257]	wh\_question[257]	openq[257]	*[376]	female[376]	*[376]	speaker:Annabelle[495]	_	_	_	_	_	
+133-3	2831-2835	dir?	GWithout[23]	husten\_set1\_7[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-husten\_set1\_7[23]	2	*	*	*	singular	false[135]	Int[135]	*[257]	*[257]	*[257]	wh\_3[257]	wh\_question[257]	openq[257]	*[376]	female[376]	*[376]	speaker:Annabelle[495]	*->80-1	PerPron[80]	_	_	_	
+
+#Text=Lotte hat laut gehustet
+134-1	2837-2842	Lotte	GWithout[23]	husten\_set1\_7[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-husten\_set1\_7[23]	*	*	Subj	*	*	false[136]	Decl[136]	*[258]	husten[258]	intransitive[258]	*[258]	*[258]	item0[258]	46[377]	male[377]	3jjtes457iqluuhfmeiub8g6qd[377]	speaker: YOU[496]	*->100-1|*->10-1	clause[100]|PropNm[10]	narration	*	136-1[137_136]	
+134-2	2843-2846	hat	GWithout[23]	husten\_set1\_7[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-husten\_set1\_7[23]	_	_	_	_	_	false[136]	Decl[136]	*[258]	husten[258]	intransitive[258]	*[258]	*[258]	item0[258]	46[377]	male[377]	3jjtes457iqluuhfmeiub8g6qd[377]	speaker: YOU[496]	*->100-1	clause[100]	_	_	_	
+134-3	2847-2851	laut	GWithout[23]	husten\_set1\_7[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-husten\_set1\_7[23]	_	_	_	_	_	false[136]	Decl[136]	*[258]	husten[258]	intransitive[258]	*[258]	*[258]	item0[258]	46[377]	male[377]	3jjtes457iqluuhfmeiub8g6qd[377]	speaker: YOU[496]	*->100-1	clause[100]	_	_	_	
+134-4	2852-2860	gehustet	GWithout[23]	husten\_set1\_7[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-husten\_set1\_7[23]	_	_	_	_	_	false[136]	Decl[136]	*[258]	husten[258]	intransitive[258]	*[258]	*[258]	item0[258]	46[377]	male[377]	3jjtes457iqluuhfmeiub8g6qd[377]	speaker: YOU[496]	*->100-1	clause[100]	_	_	_	
+
+#Text=-
+135-1	2862-2863	-	GWithout[23]	husten\_set1\_7[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-husten\_set1\_7[23]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Annabelle	_	_	_	_	_	
+
+#Text=Hab im Spaß gemeint das ist sicher Corona.
+136-1	2865-2868	Hab	GWithout[23]	husten\_set1\_7[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-husten\_set1\_7[23]	1	*	*	*	singular	false[137]	Decl[137]	*[259]	*[259]	*[259]	*[259]	*[259]	input1[259]	46[378]	male[378]	3jjtes457iqluuhfmeiub8g6qd[378]	speaker: YOU[497]	*->80-2	zero[80]	result	*	137-1[138_137]	
+136-2	2869-2871	im	GWithout[23]	husten\_set1\_7[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-husten\_set1\_7[23]	_	_	_	_	_	false[137]	Decl[137]	*[259]	*[259]	*[259]	*[259]	*[259]	input1[259]	46[378]	male[378]	3jjtes457iqluuhfmeiub8g6qd[378]	speaker: YOU[497]	_	_	_	_	_	
+136-3	2872-2876	Spaß	GWithout[23]	husten\_set1\_7[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-husten\_set1\_7[23]	_	_	_	_	_	false[137]	Decl[137]	*[259]	*[259]	*[259]	*[259]	*[259]	input1[259]	46[378]	male[378]	3jjtes457iqluuhfmeiub8g6qd[378]	speaker: YOU[497]	_	_	_	_	_	
+136-4	2877-2884	gemeint	GWithout[23]	husten\_set1\_7[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-husten\_set1\_7[23]	_	_	_	_	_	false[137]	Decl[137]	*[259]	*[259]	*[259]	*[259]	*[259]	input1[259]	46[378]	male[378]	3jjtes457iqluuhfmeiub8g6qd[378]	speaker: YOU[497]	_	_	_	_	_	
+136-5	2885-2888	das	GWithout[23]	husten\_set1\_7[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-husten\_set1\_7[23]	*	*	Subj	*	*	false[137]	Decl[137]	*[259]	*[259]	*[259]	*[259]	*[259]	input1[259]	46[378]	male[378]	3jjtes457iqluuhfmeiub8g6qd[378]	speaker: YOU[497]	*->100-2	D-Pron[100]	_	_	_	
+136-6	2889-2892	ist	GWithout[23]	husten\_set1\_7[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-husten\_set1\_7[23]	_	_	_	_	_	false[137]	Decl[137]	*[259]	*[259]	*[259]	*[259]	*[259]	input1[259]	46[378]	male[378]	3jjtes457iqluuhfmeiub8g6qd[378]	speaker: YOU[497]	_	_	_	_	_	
+136-7	2893-2899	sicher	GWithout[23]	husten\_set1\_7[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-husten\_set1\_7[23]	_	_	_	_	_	false[137]	Decl[137]	*[259]	*[259]	*[259]	*[259]	*[259]	input1[259]	46[378]	male[378]	3jjtes457iqluuhfmeiub8g6qd[378]	speaker: YOU[497]	_	_	_	_	_	
+136-8	2900-2907	Corona.	GWithout[23]	husten\_set1\_7[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-husten\_set1\_7[23]	_	_	_	_	_	false[137]	Decl[137]	*[259]	*[259]	*[259]	*[259]	*[259]	input1[259]	46[378]	male[378]	3jjtes457iqluuhfmeiub8g6qd[378]	speaker: YOU[497]	_	_	_	_	_	
+
+#Text=Die war dann ganz sauer.
+137-1	2909-2912	Die	GWithout[23]	husten\_set1\_7[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-husten\_set1\_7[23]	*	*	Subj	*	*	false[138]	Decl[138]	*[260]	*[260]	*[260]	*[260]	*[260]	input2[260]	46[379]	male[379]	3jjtes457iqluuhfmeiub8g6qd[379]	speaker: YOU[498]	*->10-2	D-Pron[10]	_	_	_	
+137-2	2913-2916	war	GWithout[23]	husten\_set1\_7[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-husten\_set1\_7[23]	_	_	_	_	_	false[138]	Decl[138]	*[260]	*[260]	*[260]	*[260]	*[260]	input2[260]	46[379]	male[379]	3jjtes457iqluuhfmeiub8g6qd[379]	speaker: YOU[498]	_	_	_	_	_	
+137-3	2917-2921	dann	GWithout[23]	husten\_set1\_7[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-husten\_set1\_7[23]	_	_	_	_	_	false[138]	Decl[138]	*[260]	*[260]	*[260]	*[260]	*[260]	input2[260]	46[379]	male[379]	3jjtes457iqluuhfmeiub8g6qd[379]	speaker: YOU[498]	_	_	_	_	_	
+137-4	2922-2926	ganz	GWithout[23]	husten\_set1\_7[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-husten\_set1\_7[23]	_	_	_	_	_	false[138]	Decl[138]	*[260]	*[260]	*[260]	*[260]	*[260]	input2[260]	46[379]	male[379]	3jjtes457iqluuhfmeiub8g6qd[379]	speaker: YOU[498]	_	_	_	_	_	
+137-5	2927-2933	sauer.	GWithout[23]	husten\_set1\_7[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-husten\_set1\_7[23]	_	_	_	_	_	false[138]	Decl[138]	*[260]	*[260]	*[260]	*[260]	*[260]	input2[260]	46[379]	male[379]	3jjtes457iqluuhfmeiub8g6qd[379]	speaker: YOU[498]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+138-1	2935-2950	END_OF_DOCUMENT	GWithout[23]	husten\_set1\_7[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-husten\_set1\_7[23]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+139-1	2952-2955	Wie	GWithout[24]	husten\_set1\_7[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-husten\_set1\_7[24]	_	_	_	_	_	false[139]	Int[139]	*[261]	*[261]	*[261]	wh\_3[261]	wh\_question[261]	openq[261]	*[380]	female[380]	*[380]	speaker:Annabelle[499]	_	_	QAP	*	140-1[140_139]	
+139-2	2956-2961	gehts	GWithout[24]	husten\_set1\_7[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-husten\_set1\_7[24]	_	_	_	_	_	false[139]	Int[139]	*[261]	*[261]	*[261]	wh\_3[261]	wh\_question[261]	openq[261]	*[380]	female[380]	*[380]	speaker:Annabelle[499]	_	_	_	_	_	
+139-3	2962-2966	dir?	GWithout[24]	husten\_set1\_7[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-husten\_set1\_7[24]	2	*	*	*	singular	false[139]	Int[139]	*[261]	*[261]	*[261]	wh\_3[261]	wh\_question[261]	openq[261]	*[380]	female[380]	*[380]	speaker:Annabelle[499]	*->72-1	PerPron[72]	_	_	_	
+
+#Text=Lotte hat laut gehustet
+140-1	2968-2973	Lotte	GWithout[24]	husten\_set1\_7[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-husten\_set1\_7[24]	*	*	Subj	*	*	false[140]	Decl[140]	*[262]	husten[262]	intransitive[262]	*[262]	*[262]	item0[262]	27[381]	female[381]	65p8m4ujg4fi983365pclnac28[381]	speaker: YOU[500]	*->23-1	PropNm[23]	elaboration	*	142-1[141_140]	
+140-2	2974-2977	hat	GWithout[24]	husten\_set1\_7[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-husten\_set1\_7[24]	_	_	_	_	_	false[140]	Decl[140]	*[262]	husten[262]	intransitive[262]	*[262]	*[262]	item0[262]	27[381]	female[381]	65p8m4ujg4fi983365pclnac28[381]	speaker: YOU[500]	_	_	_	_	_	
+140-3	2978-2982	laut	GWithout[24]	husten\_set1\_7[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-husten\_set1\_7[24]	_	_	_	_	_	false[140]	Decl[140]	*[262]	husten[262]	intransitive[262]	*[262]	*[262]	item0[262]	27[381]	female[381]	65p8m4ujg4fi983365pclnac28[381]	speaker: YOU[500]	_	_	_	_	_	
+140-4	2983-2991	gehustet	GWithout[24]	husten\_set1\_7[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-husten\_set1\_7[24]	_	_	_	_	_	false[140]	Decl[140]	*[262]	husten[262]	intransitive[262]	*[262]	*[262]	item0[262]	27[381]	female[381]	65p8m4ujg4fi983365pclnac28[381]	speaker: YOU[500]	_	_	_	_	_	
+
+#Text=-
+141-1	2993-2994	-	GWithout[24]	husten\_set1\_7[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-husten\_set1\_7[24]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Annabelle	_	_	_	_	_	
+
+#Text=in einem Vortrag <BR> als alles still war
+142-1	2996-2998	in	GWithout[24]	husten\_set1\_7[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-husten\_set1\_7[24]	_	_	_	_	_	false[141]	NA[141]	*[263]	*[263]	*[263]	*[263]	*[263]	input1[263]	27[382]	female[382]	65p8m4ujg4fi983365pclnac28[382]	speaker: YOU[501]	_	_	elaboration	*	142-5[142_141]	
+142-2	2999-3004	einem	GWithout[24]	husten\_set1\_7[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-husten\_set1\_7[24]	*[44]	*[44]	PrepObj[44]	*[44]	*[44]	false[141]	NA[141]	*[263]	*[263]	*[263]	*[263]	*[263]	input1[263]	27[382]	female[382]	65p8m4ujg4fi983365pclnac28[382]	speaker: YOU[501]	*->59-1	IndefNP[59]	_	_	_	
+142-3	3005-3012	Vortrag	GWithout[24]	husten\_set1\_7[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-husten\_set1\_7[24]	*[44]	*[44]	PrepObj[44]	*[44]	*[44]	false[141]	NA[141]	*[263]	*[263]	*[263]	*[263]	*[263]	input1[263]	27[382]	female[382]	65p8m4ujg4fi983365pclnac28[382]	speaker: YOU[501]	*->59-1	IndefNP[59]	_	_	_	
+142-4	3013-3017	<BR>	GWithout[24]	husten\_set1\_7[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-husten\_set1\_7[24]	_	_	_	_	_	_	_	*[263]	*[263]	*[263]	*[263]	*[263]	input1[263]	27[382]	female[382]	65p8m4ujg4fi983365pclnac28[382]	speaker: YOU[501]	_	_	_	_	_	
+142-5	3018-3021	als	GWithout[24]	husten\_set1\_7[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-husten\_set1\_7[24]	_	_	_	_	_	false[142]	NA[142]	*[263]	*[263]	*[263]	*[263]	*[263]	input1[263]	27[382]	female[382]	65p8m4ujg4fi983365pclnac28[382]	speaker: YOU[501]	_	_	_	_	_	
+142-6	3022-3027	alles	GWithout[24]	husten\_set1\_7[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-husten\_set1\_7[24]	_	_	_	_	_	false[142]	NA[142]	*[263]	*[263]	*[263]	*[263]	*[263]	input1[263]	27[382]	female[382]	65p8m4ujg4fi983365pclnac28[382]	speaker: YOU[501]	*->38-1	Allquantor[38]	_	_	_	
+142-7	3028-3033	still	GWithout[24]	husten\_set1\_7[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-husten\_set1\_7[24]	_	_	_	_	_	false[142]	NA[142]	*[263]	*[263]	*[263]	*[263]	*[263]	input1[263]	27[382]	female[382]	65p8m4ujg4fi983365pclnac28[382]	speaker: YOU[501]	_	_	_	_	_	
+142-8	3034-3037	war	GWithout[24]	husten\_set1\_7[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-husten\_set1\_7[24]	_	_	_	_	_	false[142]	NA[142]	*[263]	*[263]	*[263]	*[263]	*[263]	input1[263]	27[382]	female[382]	65p8m4ujg4fi983365pclnac28[382]	speaker: YOU[501]	_	_	_	_	_	
+
+#Text=alle haben sie angeschaut
+143-1	3039-3043	alle	GWithout[24]	husten\_set1\_7[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-husten\_set1\_7[24]	_	_	_	_	_	false[143]	Decl[143]	*[264]	*[264]	*[264]	*[264]	*[264]	input2[264]	27[383]	female[383]	65p8m4ujg4fi983365pclnac28[383]	speaker: YOU[502]	*->20-1	Allquantor[20]	_	_	_	
+143-2	3044-3049	haben	GWithout[24]	husten\_set1\_7[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-husten\_set1\_7[24]	_	_	_	_	_	false[143]	Decl[143]	*[264]	*[264]	*[264]	*[264]	*[264]	input2[264]	27[383]	female[383]	65p8m4ujg4fi983365pclnac28[383]	speaker: YOU[502]	_	_	_	_	_	
+143-3	3050-3053	sie	GWithout[24]	husten\_set1\_7[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-husten\_set1\_7[24]	3	*	DirObj	*	singular	false[143]	Decl[143]	*[264]	*[264]	*[264]	*[264]	*[264]	input2[264]	27[383]	female[383]	65p8m4ujg4fi983365pclnac28[383]	speaker: YOU[502]	*->23-2	PerPron[23]	_	_	_	
+143-4	3054-3064	angeschaut	GWithout[24]	husten\_set1\_7[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-husten\_set1\_7[24]	_	_	_	_	_	false[143]	Decl[143]	*[264]	*[264]	*[264]	*[264]	*[264]	input2[264]	27[383]	female[383]	65p8m4ujg4fi983365pclnac28[383]	speaker: YOU[502]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+144-1	3066-3081	END_OF_DOCUMENT	GWithout[24]	husten\_set1\_7[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-husten\_set1\_7[24]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+145-1	3083-3086	Wie	GWithout[25]	husten\_set1\_7[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-husten\_set1\_7[25]	_	_	_	_	_	false[144]	Int[144]	*[265]	*[265]	*[265]	wh\_3[265]	wh\_question[265]	openq[265]	*[384]	female[384]	*[384]	speaker:Annabelle[503]	_	_	QAP	*	146-1[145_144]	
+145-2	3087-3092	gehts	GWithout[25]	husten\_set1\_7[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-husten\_set1\_7[25]	_	_	_	_	_	false[144]	Int[144]	*[265]	*[265]	*[265]	wh\_3[265]	wh\_question[265]	openq[265]	*[384]	female[384]	*[384]	speaker:Annabelle[503]	_	_	_	_	_	
+145-3	3093-3097	dir?	GWithout[25]	husten\_set1\_7[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-husten\_set1\_7[25]	2	*	*	*	singular	false[144]	Int[144]	*[265]	*[265]	*[265]	wh\_3[265]	wh\_question[265]	openq[265]	*[384]	female[384]	*[384]	speaker:Annabelle[503]	*->1-1	PerPron[1]	_	_	_	
+
+#Text=Lotte hat laut gehustet
+146-1	3099-3104	Lotte	GWithout[25]	husten\_set1\_7[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-husten\_set1\_7[25]	*	*	Subj	*	*	false[145]	Decl[145]	*[266]	husten[266]	intransitive[266]	*[266]	*[266]	item0[266]	22[385]	female[385]	ad2p95q44evasm6vmbol4cikit[385]	speaker: YOU[504]	*->79-1	PropNm[79]	elaboration	*	148-1[146_145]	
+146-2	3105-3108	hat	GWithout[25]	husten\_set1\_7[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-husten\_set1\_7[25]	_	_	_	_	_	false[145]	Decl[145]	*[266]	husten[266]	intransitive[266]	*[266]	*[266]	item0[266]	22[385]	female[385]	ad2p95q44evasm6vmbol4cikit[385]	speaker: YOU[504]	_	_	_	_	_	
+146-3	3109-3113	laut	GWithout[25]	husten\_set1\_7[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-husten\_set1\_7[25]	_	_	_	_	_	false[145]	Decl[145]	*[266]	husten[266]	intransitive[266]	*[266]	*[266]	item0[266]	22[385]	female[385]	ad2p95q44evasm6vmbol4cikit[385]	speaker: YOU[504]	_	_	_	_	_	
+146-4	3114-3122	gehustet	GWithout[25]	husten\_set1\_7[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-husten\_set1\_7[25]	_	_	_	_	_	false[145]	Decl[145]	*[266]	husten[266]	intransitive[266]	*[266]	*[266]	item0[266]	22[385]	female[385]	ad2p95q44evasm6vmbol4cikit[385]	speaker: YOU[504]	_	_	_	_	_	
+
+#Text=-
+147-1	3124-3125	-	GWithout[25]	husten\_set1\_7[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-husten\_set1\_7[25]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Annabelle	_	_	_	_	_	
+
+#Text=Ich hoffe sie hat sich keine Erkältung eingefangen
+148-1	3127-3130	Ich	GWithout[25]	husten\_set1\_7[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-husten\_set1\_7[25]	1	*	Subj	*	singular	false[146]	Decl[146]	*[267]	*[267]	*[267]	*[267]	*[267]	input1[267]	22[386]	female[386]	ad2p95q44evasm6vmbol4cikit[386]	speaker: YOU[505]	*->1-2	PerPron[1]	result	*	149-1[147_146]	
+148-2	3131-3136	hoffe	GWithout[25]	husten\_set1\_7[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-husten\_set1\_7[25]	_	_	_	_	_	false[146]	Decl[146]	*[267]	*[267]	*[267]	*[267]	*[267]	input1[267]	22[386]	female[386]	ad2p95q44evasm6vmbol4cikit[386]	speaker: YOU[505]	_	_	_	_	_	
+148-3	3137-3140	sie	GWithout[25]	husten\_set1\_7[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-husten\_set1\_7[25]	3	*	Embedded	*	singular	false[146]	Decl[146]	*[267]	*[267]	*[267]	*[267]	*[267]	input1[267]	22[386]	female[386]	ad2p95q44evasm6vmbol4cikit[386]	speaker: YOU[505]	*->79-2	PerPron[79]	_	_	_	
+148-4	3141-3144	hat	GWithout[25]	husten\_set1\_7[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-husten\_set1\_7[25]	_	_	_	_	_	false[146]	Decl[146]	*[267]	*[267]	*[267]	*[267]	*[267]	input1[267]	22[386]	female[386]	ad2p95q44evasm6vmbol4cikit[386]	speaker: YOU[505]	_	_	_	_	_	
+148-5	3145-3149	sich	GWithout[25]	husten\_set1\_7[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-husten\_set1\_7[25]	_	_	_	_	_	false[146]	Decl[146]	*[267]	*[267]	*[267]	*[267]	*[267]	input1[267]	22[386]	female[386]	ad2p95q44evasm6vmbol4cikit[386]	speaker: YOU[505]	_	_	_	_	_	
+148-6	3150-3155	keine	GWithout[25]	husten\_set1\_7[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-husten\_set1\_7[25]	*[45]	*[45]	Embedded[45]	*[45]	*[45]	false[146]	Decl[146]	*[267]	*[267]	*[267]	*[267]	*[267]	input1[267]	22[386]	female[386]	ad2p95q44evasm6vmbol4cikit[386]	speaker: YOU[505]	_	_	_	_	_	
+148-7	3156-3165	Erkältung	GWithout[25]	husten\_set1\_7[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-husten\_set1\_7[25]	*[45]	*[45]	Embedded[45]	*[45]	*[45]	false[146]	Decl[146]	*[267]	*[267]	*[267]	*[267]	*[267]	input1[267]	22[386]	female[386]	ad2p95q44evasm6vmbol4cikit[386]	speaker: YOU[505]	_	_	_	_	_	
+148-8	3166-3177	eingefangen	GWithout[25]	husten\_set1\_7[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-husten\_set1\_7[25]	_	_	_	_	_	false[146]	Decl[146]	*[267]	*[267]	*[267]	*[267]	*[267]	input1[267]	22[386]	female[386]	ad2p95q44evasm6vmbol4cikit[386]	speaker: YOU[505]	_	_	_	_	_	
+
+#Text=Ich habe Medizin besorgt
+149-1	3179-3182	Ich	GWithout[25]	husten\_set1\_7[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-husten\_set1\_7[25]	1	*	Subj	*	singular	false[147]	Decl[147]	*[268]	*[268]	*[268]	*[268]	*[268]	input2[268]	22[387]	female[387]	ad2p95q44evasm6vmbol4cikit[387]	speaker: YOU[506]	*->1-3	PerPron[1]	_	_	_	
+149-2	3183-3187	habe	GWithout[25]	husten\_set1\_7[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-husten\_set1\_7[25]	_	_	_	_	_	false[147]	Decl[147]	*[268]	*[268]	*[268]	*[268]	*[268]	input2[268]	22[387]	female[387]	ad2p95q44evasm6vmbol4cikit[387]	speaker: YOU[506]	_	_	_	_	_	
+149-3	3188-3195	Medizin	GWithout[25]	husten\_set1\_7[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-husten\_set1\_7[25]	*	*	DirObj	*	*	false[147]	Decl[147]	*[268]	*[268]	*[268]	*[268]	*[268]	input2[268]	22[387]	female[387]	ad2p95q44evasm6vmbol4cikit[387]	speaker: YOU[506]	*->83-1	IndefNP[83]	_	_	_	
+149-4	3196-3203	besorgt	GWithout[25]	husten\_set1\_7[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-husten\_set1\_7[25]	_	_	_	_	_	false[147]	Decl[147]	*[268]	*[268]	*[268]	*[268]	*[268]	input2[268]	22[387]	female[387]	ad2p95q44evasm6vmbol4cikit[387]	speaker: YOU[506]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+150-1	3205-3220	END_OF_DOCUMENT	GWithout[25]	husten\_set1\_7[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-husten\_set1\_7[25]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+151-1	3222-3225	Wie	GWithout[26]	husten\_set1\_7[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-husten\_set1\_7[26]	_	_	_	_	_	false[148]	Int[148]	*[269]	*[269]	*[269]	wh\_3[269]	wh\_question[269]	openq[269]	*[388]	female[388]	*[388]	speaker:Annabelle[507]	_	_	QAP	*	152-1[149_148]	
+151-2	3226-3231	gehts	GWithout[26]	husten\_set1\_7[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-husten\_set1\_7[26]	_	_	_	_	_	false[148]	Int[148]	*[269]	*[269]	*[269]	wh\_3[269]	wh\_question[269]	openq[269]	*[388]	female[388]	*[388]	speaker:Annabelle[507]	_	_	_	_	_	
+151-3	3232-3236	dir?	GWithout[26]	husten\_set1\_7[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-husten\_set1\_7[26]	2	*	*	*	singular	false[148]	Int[148]	*[269]	*[269]	*[269]	wh\_3[269]	wh\_question[269]	openq[269]	*[388]	female[388]	*[388]	speaker:Annabelle[507]	*->13-1	PerPron[13]	_	_	_	
+
+#Text=Lotte hat laut gehustet
+152-1	3238-3243	Lotte	GWithout[26]	husten\_set1\_7[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-husten\_set1\_7[26]	*	*	Subj	*	*	false[149]	Decl[149]	*[270]	husten[270]	intransitive[270]	*[270]	*[270]	item0[270]	36[389]	female[389]	aoum613lougtk5ql841j63bjo9[389]	speaker: YOU[508]	*->73-1	PropNm[73]	contrast	*	154-1[150_149]	
+152-2	3244-3247	hat	GWithout[26]	husten\_set1\_7[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-husten\_set1\_7[26]	_	_	_	_	_	false[149]	Decl[149]	*[270]	husten[270]	intransitive[270]	*[270]	*[270]	item0[270]	36[389]	female[389]	aoum613lougtk5ql841j63bjo9[389]	speaker: YOU[508]	_	_	_	_	_	
+152-3	3248-3252	laut	GWithout[26]	husten\_set1\_7[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-husten\_set1\_7[26]	_	_	_	_	_	false[149]	Decl[149]	*[270]	husten[270]	intransitive[270]	*[270]	*[270]	item0[270]	36[389]	female[389]	aoum613lougtk5ql841j63bjo9[389]	speaker: YOU[508]	_	_	_	_	_	
+152-4	3253-3261	gehustet	GWithout[26]	husten\_set1\_7[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-husten\_set1\_7[26]	_	_	_	_	_	false[149]	Decl[149]	*[270]	husten[270]	intransitive[270]	*[270]	*[270]	item0[270]	36[389]	female[389]	aoum613lougtk5ql841j63bjo9[389]	speaker: YOU[508]	_	_	_	_	_	
+
+#Text=-
+153-1	3263-3264	-	GWithout[26]	husten\_set1\_7[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-husten\_set1\_7[26]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Annabelle	_	_	_	_	_	
+
+#Text=Aber sie hat keine Halsschmerzen.
+154-1	3266-3270	Aber	GWithout[26]	husten\_set1\_7[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-husten\_set1\_7[26]	_	_	_	_	_	false[150]	Decl[150]	*[271]	*[271]	*[271]	*[271]	*[271]	input1[271]	36[390]	female[390]	aoum613lougtk5ql841j63bjo9[390]	speaker: YOU[509]	_	_	result	*	155-1[151_150]	
+154-2	3271-3274	sie	GWithout[26]	husten\_set1\_7[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-husten\_set1\_7[26]	3	*	Subj	*	singular	false[150]	Decl[150]	*[271]	*[271]	*[271]	*[271]	*[271]	input1[271]	36[390]	female[390]	aoum613lougtk5ql841j63bjo9[390]	speaker: YOU[509]	*->73-2	PerPron[73]	_	_	_	
+154-3	3275-3278	hat	GWithout[26]	husten\_set1\_7[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-husten\_set1\_7[26]	_	_	_	_	_	false[150]	Decl[150]	*[271]	*[271]	*[271]	*[271]	*[271]	input1[271]	36[390]	female[390]	aoum613lougtk5ql841j63bjo9[390]	speaker: YOU[509]	_	_	_	_	_	
+154-4	3279-3284	keine	GWithout[26]	husten\_set1\_7[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-husten\_set1\_7[26]	_	_	_	_	_	false[150]	Decl[150]	*[271]	*[271]	*[271]	*[271]	*[271]	input1[271]	36[390]	female[390]	aoum613lougtk5ql841j63bjo9[390]	speaker: YOU[509]	_	_	_	_	_	
+154-5	3285-3299	Halsschmerzen.	GWithout[26]	husten\_set1\_7[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-husten\_set1\_7[26]	_	_	_	_	_	false[150]	Decl[150]	*[271]	*[271]	*[271]	*[271]	*[271]	input1[271]	36[390]	female[390]	aoum613lougtk5ql841j63bjo9[390]	speaker: YOU[509]	_	_	_	_	_	
+
+#Text=Also hoffen wir <BR> dass sie nicht krank wird.
+155-1	3301-3305	Also	GWithout[26]	husten\_set1\_7[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-husten\_set1\_7[26]	_	_	_	_	_	false[151]	Decl[151]	*[272]	*[272]	*[272]	*[272]	*[272]	input2[272]	36[391]	female[391]	aoum613lougtk5ql841j63bjo9[391]	speaker: YOU[510]	_	_	_	_	_	
+155-2	3306-3312	hoffen	GWithout[26]	husten\_set1\_7[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-husten\_set1\_7[26]	_	_	_	_	_	false[151]	Decl[151]	*[272]	*[272]	*[272]	*[272]	*[272]	input2[272]	36[391]	female[391]	aoum613lougtk5ql841j63bjo9[391]	speaker: YOU[510]	_	_	_	_	_	
+155-3	3313-3316	wir	GWithout[26]	husten\_set1\_7[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-husten\_set1\_7[26]	1	*	Subj	*	plural	false[151]	Decl[151]	*[272]	*[272]	*[272]	*[272]	*[272]	input2[272]	36[391]	female[391]	aoum613lougtk5ql841j63bjo9[391]	speaker: YOU[510]	*->67-1	PerPron[67]	_	_	_	
+155-4	3317-3321	<BR>	GWithout[26]	husten\_set1\_7[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-husten\_set1\_7[26]	_	_	_	_	_	false[151]	Decl[151]	*[272]	*[272]	*[272]	*[272]	*[272]	input2[272]	36[391]	female[391]	aoum613lougtk5ql841j63bjo9[391]	speaker: YOU[510]	_	_	_	_	_	
+155-5	3322-3326	dass	GWithout[26]	husten\_set1\_7[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-husten\_set1\_7[26]	_	_	_	_	_	false[151]	Decl[151]	*[272]	*[272]	*[272]	*[272]	*[272]	input2[272]	36[391]	female[391]	aoum613lougtk5ql841j63bjo9[391]	speaker: YOU[510]	_	_	_	_	_	
+155-6	3327-3330	sie	GWithout[26]	husten\_set1\_7[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-husten\_set1\_7[26]	3	*	Embedded	*	singular	false[151]	Decl[151]	*[272]	*[272]	*[272]	*[272]	*[272]	input2[272]	36[391]	female[391]	aoum613lougtk5ql841j63bjo9[391]	speaker: YOU[510]	*->73-3	PerPron[73]	_	_	_	
+155-7	3331-3336	nicht	GWithout[26]	husten\_set1\_7[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-husten\_set1\_7[26]	_	_	_	_	_	false[151]	Decl[151]	*[272]	*[272]	*[272]	*[272]	*[272]	input2[272]	36[391]	female[391]	aoum613lougtk5ql841j63bjo9[391]	speaker: YOU[510]	_	_	_	_	_	
+155-8	3337-3342	krank	GWithout[26]	husten\_set1\_7[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-husten\_set1\_7[26]	_	_	_	_	_	false[151]	Decl[151]	*[272]	*[272]	*[272]	*[272]	*[272]	input2[272]	36[391]	female[391]	aoum613lougtk5ql841j63bjo9[391]	speaker: YOU[510]	_	_	_	_	_	
+155-9	3343-3348	wird.	GWithout[26]	husten\_set1\_7[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-husten\_set1\_7[26]	_	_	_	_	_	false[151]	Decl[151]	*[272]	*[272]	*[272]	*[272]	*[272]	input2[272]	36[391]	female[391]	aoum613lougtk5ql841j63bjo9[391]	speaker: YOU[510]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+156-1	3350-3365	END_OF_DOCUMENT	GWithout[26]	husten\_set1\_7[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-husten\_set1\_7[26]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+157-1	3367-3370	Wie	GWithout[27]	husten\_set1\_7[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-husten\_set1\_7[27]	_	_	_	_	_	false[152]	Int[152]	*[273]	*[273]	*[273]	wh\_3[273]	wh\_question[273]	openq[273]	*[392]	female[392]	*[392]	speaker:Annabelle[511]	_	_	parallel|QAP	*|*	161-1[155_152]|158-1[153_152]	
+157-2	3371-3376	gehts	GWithout[27]	husten\_set1\_7[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-husten\_set1\_7[27]	_	_	_	_	_	false[152]	Int[152]	*[273]	*[273]	*[273]	wh\_3[273]	wh\_question[273]	openq[273]	*[392]	female[392]	*[392]	speaker:Annabelle[511]	_	_	_	_	_	
+157-3	3377-3381	dir?	GWithout[27]	husten\_set1\_7[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-husten\_set1\_7[27]	2	*	*	*	singular	false[152]	Int[152]	*[273]	*[273]	*[273]	wh\_3[273]	wh\_question[273]	openq[273]	*[392]	female[392]	*[392]	speaker:Annabelle[511]	*->2-1	PerPron[2]	_	_	_	
+
+#Text=Lotte hat laut gehustet
+158-1	3383-3388	Lotte	GWithout[27]	husten\_set1\_7[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-husten\_set1\_7[27]	*	*	Subj	*	*	false[153]	Decl[153]	*[274]	husten[274]	intransitive[274]	*[274]	*[274]	item0[274]	26[393]	male[393]	c48fsj7kc4kiuorutkbb4be30b[393]	speaker: YOU[512]	*->75-1	PropNm[75]	elaboration	*	160-1[154_153]	
+158-2	3389-3392	hat	GWithout[27]	husten\_set1\_7[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-husten\_set1\_7[27]	_	_	_	_	_	false[153]	Decl[153]	*[274]	husten[274]	intransitive[274]	*[274]	*[274]	item0[274]	26[393]	male[393]	c48fsj7kc4kiuorutkbb4be30b[393]	speaker: YOU[512]	_	_	_	_	_	
+158-3	3393-3397	laut	GWithout[27]	husten\_set1\_7[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-husten\_set1\_7[27]	_	_	_	_	_	false[153]	Decl[153]	*[274]	husten[274]	intransitive[274]	*[274]	*[274]	item0[274]	26[393]	male[393]	c48fsj7kc4kiuorutkbb4be30b[393]	speaker: YOU[512]	_	_	_	_	_	
+158-4	3398-3406	gehustet	GWithout[27]	husten\_set1\_7[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-husten\_set1\_7[27]	_	_	_	_	_	false[153]	Decl[153]	*[274]	husten[274]	intransitive[274]	*[274]	*[274]	item0[274]	26[393]	male[393]	c48fsj7kc4kiuorutkbb4be30b[393]	speaker: YOU[512]	_	_	_	_	_	
+
+#Text=-
+159-1	3408-3409	-	GWithout[27]	husten\_set1\_7[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-husten\_set1\_7[27]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Annabelle	_	_	_	_	_	
+
+#Text=Ich hoffe sie hat kein Corona.
+160-1	3411-3414	Ich	GWithout[27]	husten\_set1\_7[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-husten\_set1\_7[27]	1	*	Subj	*	singular	false[154]	Decl[154]	*[275]	*[275]	*[275]	*[275]	*[275]	input1[275]	26[394]	male[394]	c48fsj7kc4kiuorutkbb4be30b[394]	speaker: YOU[513]	*->2-2	PerPron[2]	_	_	_	
+160-2	3415-3420	hoffe	GWithout[27]	husten\_set1\_7[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-husten\_set1\_7[27]	_	_	_	_	_	false[154]	Decl[154]	*[275]	*[275]	*[275]	*[275]	*[275]	input1[275]	26[394]	male[394]	c48fsj7kc4kiuorutkbb4be30b[394]	speaker: YOU[513]	_	_	_	_	_	
+160-3	3421-3424	sie	GWithout[27]	husten\_set1\_7[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-husten\_set1\_7[27]	3	*	Embedded	*	singular	false[154]	Decl[154]	*[275]	*[275]	*[275]	*[275]	*[275]	input1[275]	26[394]	male[394]	c48fsj7kc4kiuorutkbb4be30b[394]	speaker: YOU[513]	*->75-2	PerPron[75]	_	_	_	
+160-4	3425-3428	hat	GWithout[27]	husten\_set1\_7[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-husten\_set1\_7[27]	_	_	_	_	_	false[154]	Decl[154]	*[275]	*[275]	*[275]	*[275]	*[275]	input1[275]	26[394]	male[394]	c48fsj7kc4kiuorutkbb4be30b[394]	speaker: YOU[513]	_	_	_	_	_	
+160-5	3429-3433	kein	GWithout[27]	husten\_set1\_7[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-husten\_set1\_7[27]	_	_	_	_	_	false[154]	Decl[154]	*[275]	*[275]	*[275]	*[275]	*[275]	input1[275]	26[394]	male[394]	c48fsj7kc4kiuorutkbb4be30b[394]	speaker: YOU[513]	_	_	_	_	_	
+160-6	3434-3441	Corona.	GWithout[27]	husten\_set1\_7[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-husten\_set1\_7[27]	_	_	_	_	_	false[154]	Decl[154]	*[275]	*[275]	*[275]	*[275]	*[275]	input1[275]	26[394]	male[394]	c48fsj7kc4kiuorutkbb4be30b[394]	speaker: YOU[513]	_	_	_	_	_	
+
+#Text=Und bei dir?
+161-1	3443-3446	Und	GWithout[27]	husten\_set1\_7[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-husten\_set1\_7[27]	_	_	_	_	_	false[155]	NA[155]	*[276]	*[276]	*[276]	*[276]	*[276]	input2[276]	26[395]	male[395]	c48fsj7kc4kiuorutkbb4be30b[395]	speaker: YOU[514]	_	_	_	_	_	
+161-2	3447-3450	bei	GWithout[27]	husten\_set1\_7[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-husten\_set1\_7[27]	_	_	_	_	_	false[155]	NA[155]	*[276]	*[276]	*[276]	*[276]	*[276]	input2[276]	26[395]	male[395]	c48fsj7kc4kiuorutkbb4be30b[395]	speaker: YOU[514]	_	_	_	_	_	
+161-3	3451-3455	dir?	GWithout[27]	husten\_set1\_7[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-husten\_set1\_7[27]	2	*	PrepObj	*	singular	false[155]	NA[155]	*[276]	*[276]	*[276]	*[276]	*[276]	input2[276]	26[395]	male[395]	c48fsj7kc4kiuorutkbb4be30b[395]	speaker: YOU[514]	*->81-1	PerPron[81]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+162-1	3457-3472	END_OF_DOCUMENT	GWithout[27]	husten\_set1\_7[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-husten\_set1\_7[27]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+163-1	3474-3477	Wie	GWithout[28]	husten\_set1\_7[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-husten\_set1\_7[28]	_	_	_	_	_	false[156]	Int[156]	*[277]	*[277]	*[277]	wh\_3[277]	wh\_question[277]	openq[277]	*[396]	female[396]	*[396]	speaker:Annabelle[515]	_	_	QAP	*	164-1[157_156]	
+163-2	3478-3483	gehts	GWithout[28]	husten\_set1\_7[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-husten\_set1\_7[28]	_	_	_	_	_	false[156]	Int[156]	*[277]	*[277]	*[277]	wh\_3[277]	wh\_question[277]	openq[277]	*[396]	female[396]	*[396]	speaker:Annabelle[515]	_	_	_	_	_	
+163-3	3484-3488	dir?	GWithout[28]	husten\_set1\_7[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-husten\_set1\_7[28]	2	*	*	*	singular	false[156]	Int[156]	*[277]	*[277]	*[277]	wh\_3[277]	wh\_question[277]	openq[277]	*[396]	female[396]	*[396]	speaker:Annabelle[515]	*->22-1	PerPron[22]	_	_	_	
+
+#Text=Lotte hat laut gehustet
+164-1	3490-3495	Lotte	GWithout[28]	husten\_set1\_7[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-husten\_set1\_7[28]	*	*	Subj	*	*	false[157]	Decl[157]	*[278]	husten[278]	intransitive[278]	*[278]	*[278]	item0[278]	57[397]	female[397]	k0vnav0sqhr0fo3b0jpuaak9s4[397]	speaker: YOU[516]	*->52-1	PropNm[52]	_	_	_	
+164-2	3496-3499	hat	GWithout[28]	husten\_set1\_7[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-husten\_set1\_7[28]	_	_	_	_	_	false[157]	Decl[157]	*[278]	husten[278]	intransitive[278]	*[278]	*[278]	item0[278]	57[397]	female[397]	k0vnav0sqhr0fo3b0jpuaak9s4[397]	speaker: YOU[516]	_	_	_	_	_	
+164-3	3500-3504	laut	GWithout[28]	husten\_set1\_7[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-husten\_set1\_7[28]	_	_	_	_	_	false[157]	Decl[157]	*[278]	husten[278]	intransitive[278]	*[278]	*[278]	item0[278]	57[397]	female[397]	k0vnav0sqhr0fo3b0jpuaak9s4[397]	speaker: YOU[516]	_	_	_	_	_	
+164-4	3505-3513	gehustet	GWithout[28]	husten\_set1\_7[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-husten\_set1\_7[28]	_	_	_	_	_	false[157]	Decl[157]	*[278]	husten[278]	intransitive[278]	*[278]	*[278]	item0[278]	57[397]	female[397]	k0vnav0sqhr0fo3b0jpuaak9s4[397]	speaker: YOU[516]	_	_	_	_	_	
+
+#Text=-
+165-1	3515-3516	-	GWithout[28]	husten\_set1\_7[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-husten\_set1\_7[28]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Annabelle	_	_	_	_	_	
+
+#Text=Wäre sie in einem Film <BR> würde sie als nächste sterben.
+166-1	3518-3522	Wäre	GWithout[28]	husten\_set1\_7[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-husten\_set1\_7[28]	_	_	_	_	_	false[158]	NA[158]	*[279]	*[279]	*[279]	*[279]	*[279]	input1[279]	57[398]	female[398]	k0vnav0sqhr0fo3b0jpuaak9s4[398]	speaker: YOU[517]	_	_	_	_	_	
+166-2	3523-3526	sie	GWithout[28]	husten\_set1\_7[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-husten\_set1\_7[28]	3	*	Subj	*	singular	false[158]	NA[158]	*[279]	*[279]	*[279]	*[279]	*[279]	input1[279]	57[398]	female[398]	k0vnav0sqhr0fo3b0jpuaak9s4[398]	speaker: YOU[517]	*->52-2	PerPron[52]	_	_	_	
+166-3	3527-3529	in	GWithout[28]	husten\_set1\_7[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-husten\_set1\_7[28]	_	_	_	_	_	false[158]	NA[158]	*[279]	*[279]	*[279]	*[279]	*[279]	input1[279]	57[398]	female[398]	k0vnav0sqhr0fo3b0jpuaak9s4[398]	speaker: YOU[517]	_	_	_	_	_	
+166-4	3530-3535	einem	GWithout[28]	husten\_set1\_7[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-husten\_set1\_7[28]	*[46]	*[46]	PrepObj[46]	*[46]	*[46]	false[158]	NA[158]	*[279]	*[279]	*[279]	*[279]	*[279]	input1[279]	57[398]	female[398]	k0vnav0sqhr0fo3b0jpuaak9s4[398]	speaker: YOU[517]	*->16-1	IndefNP[16]	_	_	_	
+166-5	3536-3540	Film	GWithout[28]	husten\_set1\_7[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-husten\_set1\_7[28]	*[46]	*[46]	PrepObj[46]	*[46]	*[46]	false[158]	NA[158]	*[279]	*[279]	*[279]	*[279]	*[279]	input1[279]	57[398]	female[398]	k0vnav0sqhr0fo3b0jpuaak9s4[398]	speaker: YOU[517]	*->16-1	IndefNP[16]	_	_	_	
+166-6	3541-3545	<BR>	GWithout[28]	husten\_set1\_7[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-husten\_set1\_7[28]	_	_	_	_	_	_	_	*[279]	*[279]	*[279]	*[279]	*[279]	input1[279]	57[398]	female[398]	k0vnav0sqhr0fo3b0jpuaak9s4[398]	speaker: YOU[517]	_	_	_	_	_	
+166-7	3546-3551	würde	GWithout[28]	husten\_set1\_7[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-husten\_set1\_7[28]	_	_	_	_	_	false[159]	Decl[159]	*[279]	*[279]	*[279]	*[279]	*[279]	input1[279]	57[398]	female[398]	k0vnav0sqhr0fo3b0jpuaak9s4[398]	speaker: YOU[517]	_	_	_	_	_	
+166-8	3552-3555	sie	GWithout[28]	husten\_set1\_7[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-husten\_set1\_7[28]	3	*	Subj	*	singular	false[159]	Decl[159]	*[279]	*[279]	*[279]	*[279]	*[279]	input1[279]	57[398]	female[398]	k0vnav0sqhr0fo3b0jpuaak9s4[398]	speaker: YOU[517]	*->52-3	PerPron[52]	_	_	_	
+166-9	3556-3559	als	GWithout[28]	husten\_set1\_7[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-husten\_set1\_7[28]	_	_	_	_	_	false[159]	Decl[159]	*[279]	*[279]	*[279]	*[279]	*[279]	input1[279]	57[398]	female[398]	k0vnav0sqhr0fo3b0jpuaak9s4[398]	speaker: YOU[517]	_	_	_	_	_	
+166-10	3560-3567	nächste	GWithout[28]	husten\_set1\_7[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-husten\_set1\_7[28]	_	_	_	_	_	false[159]	Decl[159]	*[279]	*[279]	*[279]	*[279]	*[279]	input1[279]	57[398]	female[398]	k0vnav0sqhr0fo3b0jpuaak9s4[398]	speaker: YOU[517]	_	_	_	_	_	
+166-11	3568-3576	sterben.	GWithout[28]	husten\_set1\_7[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-husten\_set1\_7[28]	_	_	_	_	_	false[159]	Decl[159]	*[279]	*[279]	*[279]	*[279]	*[279]	input1[279]	57[398]	female[398]	k0vnav0sqhr0fo3b0jpuaak9s4[398]	speaker: YOU[517]	_	_	_	_	_	
+
+#Text=Hat aber Hustensaft getrunken <BR> und wirds überleben.
+167-1	3578-3581	Hat	GWithout[28]	husten\_set1\_7[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-husten\_set1\_7[28]	3	*	*	*	singular	false[160]	Decl[160]	*[280]	*[280]	*[280]	*[280]	*[280]	input2[280]	57[399]	female[399]	k0vnav0sqhr0fo3b0jpuaak9s4[399]	speaker: YOU[518]	*->52-4	zero[52]	_	_	_	
+167-2	3582-3586	aber	GWithout[28]	husten\_set1\_7[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-husten\_set1\_7[28]	_	_	_	_	_	false[160]	Decl[160]	*[280]	*[280]	*[280]	*[280]	*[280]	input2[280]	57[399]	female[399]	k0vnav0sqhr0fo3b0jpuaak9s4[399]	speaker: YOU[518]	_	_	_	_	_	
+167-3	3587-3597	Hustensaft	GWithout[28]	husten\_set1\_7[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-husten\_set1\_7[28]	*	*	DirObj	*	*	false[160]	Decl[160]	*[280]	*[280]	*[280]	*[280]	*[280]	input2[280]	57[399]	female[399]	k0vnav0sqhr0fo3b0jpuaak9s4[399]	speaker: YOU[518]	*->56-1	IndefNP[56]	_	_	_	
+167-4	3598-3607	getrunken	GWithout[28]	husten\_set1\_7[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-husten\_set1\_7[28]	_	_	_	_	_	false[160]	Decl[160]	*[280]	*[280]	*[280]	*[280]	*[280]	input2[280]	57[399]	female[399]	k0vnav0sqhr0fo3b0jpuaak9s4[399]	speaker: YOU[518]	_	_	_	_	_	
+167-5	3608-3612	<BR>	GWithout[28]	husten\_set1\_7[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-husten\_set1\_7[28]	_	_	_	_	_	_	_	*[280]	*[280]	*[280]	*[280]	*[280]	input2[280]	57[399]	female[399]	k0vnav0sqhr0fo3b0jpuaak9s4[399]	speaker: YOU[518]	_	_	_	_	_	
+167-6	3613-3616	und	GWithout[28]	husten\_set1\_7[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-husten\_set1\_7[28]	_	_	_	_	_	false[161]	Decl[161]	*[280]	*[280]	*[280]	*[280]	*[280]	input2[280]	57[399]	female[399]	k0vnav0sqhr0fo3b0jpuaak9s4[399]	speaker: YOU[518]	_	_	_	_	_	
+167-7	3617-3622	wirds	GWithout[28]	husten\_set1\_7[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-husten\_set1\_7[28]	3	*	*	*	singular	false[161]	Decl[161]	*[280]	*[280]	*[280]	*[280]	*[280]	input2[280]	57[399]	female[399]	k0vnav0sqhr0fo3b0jpuaak9s4[399]	speaker: YOU[518]	*->52-5|*->101-1	PerPron[52]|zero[101]	_	_	_	
+167-8	3623-3633	überleben.	GWithout[28]	husten\_set1\_7[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-husten\_set1\_7[28]	_	_	_	_	_	false[161]	Decl[161]	*[280]	*[280]	*[280]	*[280]	*[280]	input2[280]	57[399]	female[399]	k0vnav0sqhr0fo3b0jpuaak9s4[399]	speaker: YOU[518]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+168-1	3635-3650	END_OF_DOCUMENT	GWithout[28]	husten\_set1\_7[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-husten\_set1\_7[28]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+169-1	3652-3655	Wie	GWithout[29]	husten\_set1\_7[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-husten\_set1\_7[29]	_	_	_	_	_	false[162]	Int[162]	*[281]	*[281]	*[281]	wh\_3[281]	wh\_question[281]	openq[281]	*[400]	female[400]	*[400]	speaker:Annabelle[519]	_	_	QAP	*	170-1[163_162]	
+169-2	3656-3661	gehts	GWithout[29]	husten\_set1\_7[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-husten\_set1\_7[29]	_	_	_	_	_	false[162]	Int[162]	*[281]	*[281]	*[281]	wh\_3[281]	wh\_question[281]	openq[281]	*[400]	female[400]	*[400]	speaker:Annabelle[519]	_	_	_	_	_	
+169-3	3662-3666	dir?	GWithout[29]	husten\_set1\_7[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-husten\_set1\_7[29]	2	*	*	*	singular	false[162]	Int[162]	*[281]	*[281]	*[281]	wh\_3[281]	wh\_question[281]	openq[281]	*[400]	female[400]	*[400]	speaker:Annabelle[519]	*->11-1	PerPron[11]	_	_	_	
+
+#Text=Lotte hat laut gehustet
+170-1	3668-3673	Lotte	GWithout[29]	husten\_set1\_7[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-husten\_set1\_7[29]	*	*	Subj	*	*	false[163]	Decl[163]	*[282]	husten[282]	intransitive[282]	*[282]	*[282]	item0[282]	26[401]	female[401]	qjdpg51abd5auurj3bduisfb43[401]	speaker: YOU[520]	*->98-1	PropNm[98]	elaboration	*	172-1[164_163]	
+170-2	3674-3677	hat	GWithout[29]	husten\_set1\_7[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-husten\_set1\_7[29]	_	_	_	_	_	false[163]	Decl[163]	*[282]	husten[282]	intransitive[282]	*[282]	*[282]	item0[282]	26[401]	female[401]	qjdpg51abd5auurj3bduisfb43[401]	speaker: YOU[520]	_	_	_	_	_	
+170-3	3678-3682	laut	GWithout[29]	husten\_set1\_7[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-husten\_set1\_7[29]	_	_	_	_	_	false[163]	Decl[163]	*[282]	husten[282]	intransitive[282]	*[282]	*[282]	item0[282]	26[401]	female[401]	qjdpg51abd5auurj3bduisfb43[401]	speaker: YOU[520]	_	_	_	_	_	
+170-4	3683-3691	gehustet	GWithout[29]	husten\_set1\_7[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-husten\_set1\_7[29]	_	_	_	_	_	false[163]	Decl[163]	*[282]	husten[282]	intransitive[282]	*[282]	*[282]	item0[282]	26[401]	female[401]	qjdpg51abd5auurj3bduisfb43[401]	speaker: YOU[520]	_	_	_	_	_	
+
+#Text=-
+171-1	3693-3694	-	GWithout[29]	husten\_set1\_7[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-husten\_set1\_7[29]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Annabelle	_	_	_	_	_	
+
+#Text=Sie hat bestimmt Corona.
+172-1	3696-3699	Sie	GWithout[29]	husten\_set1\_7[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-husten\_set1\_7[29]	3	*	Subj	*	singular	false[164]	Decl[164]	*[283]	*[283]	*[283]	*[283]	*[283]	input1[283]	26[402]	female[402]	qjdpg51abd5auurj3bduisfb43[402]	speaker: YOU[521]	*->98-2	PerPron[98]	result	*	173-1[165_164]	
+172-2	3700-3703	hat	GWithout[29]	husten\_set1\_7[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-husten\_set1\_7[29]	_	_	_	_	_	false[164]	Decl[164]	*[283]	*[283]	*[283]	*[283]	*[283]	input1[283]	26[402]	female[402]	qjdpg51abd5auurj3bduisfb43[402]	speaker: YOU[521]	_	_	_	_	_	
+172-3	3704-3712	bestimmt	GWithout[29]	husten\_set1\_7[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-husten\_set1\_7[29]	_	_	_	_	_	false[164]	Decl[164]	*[283]	*[283]	*[283]	*[283]	*[283]	input1[283]	26[402]	female[402]	qjdpg51abd5auurj3bduisfb43[402]	speaker: YOU[521]	_	_	_	_	_	
+172-4	3713-3720	Corona.	GWithout[29]	husten\_set1\_7[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-husten\_set1\_7[29]	*	*	DirObj	*	*	false[164]	Decl[164]	*[283]	*[283]	*[283]	*[283]	*[283]	input1[283]	26[402]	female[402]	qjdpg51abd5auurj3bduisfb43[402]	speaker: YOU[521]	_	_	_	_	_	
+
+#Text=Vielleicht habe ich jetzt auch Corona?
+173-1	3722-3732	Vielleicht	GWithout[29]	husten\_set1\_7[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-husten\_set1\_7[29]	_	_	_	_	_	false[165]	Int[165]	*[284]	*[284]	*[284]	*[284]	*[284]	input2[284]	26[403]	female[403]	qjdpg51abd5auurj3bduisfb43[403]	speaker: YOU[522]	_	_	_	_	_	
+173-2	3733-3737	habe	GWithout[29]	husten\_set1\_7[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-husten\_set1\_7[29]	_	_	_	_	_	false[165]	Int[165]	*[284]	*[284]	*[284]	*[284]	*[284]	input2[284]	26[403]	female[403]	qjdpg51abd5auurj3bduisfb43[403]	speaker: YOU[522]	_	_	_	_	_	
+173-3	3738-3741	ich	GWithout[29]	husten\_set1\_7[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-husten\_set1\_7[29]	1	*	Subj	*	singular	false[165]	Int[165]	*[284]	*[284]	*[284]	*[284]	*[284]	input2[284]	26[403]	female[403]	qjdpg51abd5auurj3bduisfb43[403]	speaker: YOU[522]	*->11-2	PerPron[11]	_	_	_	
+173-4	3742-3747	jetzt	GWithout[29]	husten\_set1\_7[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-husten\_set1\_7[29]	_	_	_	_	_	false[165]	Int[165]	*[284]	*[284]	*[284]	*[284]	*[284]	input2[284]	26[403]	female[403]	qjdpg51abd5auurj3bduisfb43[403]	speaker: YOU[522]	_	_	_	_	_	
+173-5	3748-3752	auch	GWithout[29]	husten\_set1\_7[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-husten\_set1\_7[29]	_	_	_	_	_	false[165]	Int[165]	*[284]	*[284]	*[284]	*[284]	*[284]	input2[284]	26[403]	female[403]	qjdpg51abd5auurj3bduisfb43[403]	speaker: YOU[522]	_	_	_	_	_	
+173-6	3753-3760	Corona?	GWithout[29]	husten\_set1\_7[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-husten\_set1\_7[29]	*	*	DirObj	*	*	false[165]	Int[165]	*[284]	*[284]	*[284]	*[284]	*[284]	input2[284]	26[403]	female[403]	qjdpg51abd5auurj3bduisfb43[403]	speaker: YOU[522]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+174-1	3762-3777	END_OF_DOCUMENT	GWithout[29]	husten\_set1\_7[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-husten\_set1\_7[29]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+175-1	3779-3782	Wie	GWithout[30]	husten\_set1\_7[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-husten\_set1\_7[30]	_	_	_	_	_	false[166]	Int[166]	*[285]	*[285]	*[285]	wh\_3[285]	wh\_question[285]	openq[285]	*[404]	female[404]	*[404]	speaker:Annabelle[523]	_	_	QAP	*	176-1[167_166]	
+175-2	3783-3788	gehts	GWithout[30]	husten\_set1\_7[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-husten\_set1\_7[30]	_	_	_	_	_	false[166]	Int[166]	*[285]	*[285]	*[285]	wh\_3[285]	wh\_question[285]	openq[285]	*[404]	female[404]	*[404]	speaker:Annabelle[523]	_	_	_	_	_	
+175-3	3789-3793	dir?	GWithout[30]	husten\_set1\_7[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-husten\_set1\_7[30]	2	*	*	*	singular	false[166]	Int[166]	*[285]	*[285]	*[285]	wh\_3[285]	wh\_question[285]	openq[285]	*[404]	female[404]	*[404]	speaker:Annabelle[523]	*->31-1	PerPron[31]	_	_	_	
+
+#Text=Lotte hat laut gehustet
+176-1	3795-3800	Lotte	GWithout[30]	husten\_set1\_7[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-husten\_set1\_7[30]	*	*	Subj	*	*	false[167]	Decl[167]	*[286]	husten[286]	intransitive[286]	*[286]	*[286]	item0[286]	72[405]	male[405]	rhiec6c6hfje484c5bsbj040l0[405]	speaker: YOU[524]	*->55-1	PropNm[55]	explanation	*	178-1[168_167]	
+176-2	3801-3804	hat	GWithout[30]	husten\_set1\_7[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-husten\_set1\_7[30]	_	_	_	_	_	false[167]	Decl[167]	*[286]	husten[286]	intransitive[286]	*[286]	*[286]	item0[286]	72[405]	male[405]	rhiec6c6hfje484c5bsbj040l0[405]	speaker: YOU[524]	_	_	_	_	_	
+176-3	3805-3809	laut	GWithout[30]	husten\_set1\_7[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-husten\_set1\_7[30]	_	_	_	_	_	false[167]	Decl[167]	*[286]	husten[286]	intransitive[286]	*[286]	*[286]	item0[286]	72[405]	male[405]	rhiec6c6hfje484c5bsbj040l0[405]	speaker: YOU[524]	_	_	_	_	_	
+176-4	3810-3818	gehustet	GWithout[30]	husten\_set1\_7[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-husten\_set1\_7[30]	_	_	_	_	_	false[167]	Decl[167]	*[286]	husten[286]	intransitive[286]	*[286]	*[286]	item0[286]	72[405]	male[405]	rhiec6c6hfje484c5bsbj040l0[405]	speaker: YOU[524]	_	_	_	_	_	
+
+#Text=-
+177-1	3820-3821	-	GWithout[30]	husten\_set1\_7[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-husten\_set1\_7[30]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Annabelle	_	_	_	_	_	
+
+#Text=Ich glaube Sie will was von mir
+178-1	3823-3826	Ich	GWithout[30]	husten\_set1\_7[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-husten\_set1\_7[30]	1	*	Subj	*	singular	false[168]	Decl[168]	*[287]	*[287]	*[287]	*[287]	*[287]	input1[287]	72[406]	male[406]	rhiec6c6hfje484c5bsbj040l0[406]	speaker: YOU[525]	*->31-2	PerPron[31]	_	_	_	
+178-2	3827-3833	glaube	GWithout[30]	husten\_set1\_7[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-husten\_set1\_7[30]	_	_	_	_	_	false[168]	Decl[168]	*[287]	*[287]	*[287]	*[287]	*[287]	input1[287]	72[406]	male[406]	rhiec6c6hfje484c5bsbj040l0[406]	speaker: YOU[525]	_	_	_	_	_	
+178-3	3834-3837	Sie	GWithout[30]	husten\_set1\_7[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-husten\_set1\_7[30]	3	*	DirObj	*	singular	false[168]	Decl[168]	*[287]	*[287]	*[287]	*[287]	*[287]	input1[287]	72[406]	male[406]	rhiec6c6hfje484c5bsbj040l0[406]	speaker: YOU[525]	*->55-2	PerPron[55]	_	_	_	
+178-4	3838-3842	will	GWithout[30]	husten\_set1\_7[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-husten\_set1\_7[30]	_	_	_	_	_	false[168]	Decl[168]	*[287]	*[287]	*[287]	*[287]	*[287]	input1[287]	72[406]	male[406]	rhiec6c6hfje484c5bsbj040l0[406]	speaker: YOU[525]	_	_	_	_	_	
+178-5	3843-3846	was	GWithout[30]	husten\_set1\_7[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-husten\_set1\_7[30]	_	_	_	_	_	false[168]	Decl[168]	*[287]	*[287]	*[287]	*[287]	*[287]	input1[287]	72[406]	male[406]	rhiec6c6hfje484c5bsbj040l0[406]	speaker: YOU[525]	_	_	_	_	_	
+178-6	3847-3850	von	GWithout[30]	husten\_set1\_7[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-husten\_set1\_7[30]	_	_	_	_	_	false[168]	Decl[168]	*[287]	*[287]	*[287]	*[287]	*[287]	input1[287]	72[406]	male[406]	rhiec6c6hfje484c5bsbj040l0[406]	speaker: YOU[525]	_	_	_	_	_	
+178-7	3851-3854	mir	GWithout[30]	husten\_set1\_7[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-husten\_set1\_7[30]	1	*	PrepObj	*	singular	false[168]	Decl[168]	*[287]	*[287]	*[287]	*[287]	*[287]	input1[287]	72[406]	male[406]	rhiec6c6hfje484c5bsbj040l0[406]	speaker: YOU[525]	*->31-3	PerPron[31]	_	_	_	
+
+#Text=Du ich muss aufhängen....
+179-1	3856-3858	Du	GWithout[30]	husten\_set1\_7[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-husten\_set1\_7[30]	2	*	*	*	singular	false[169]	Decl[169]	*[288]	*[288]	*[288]	*[288]	*[288]	input2[288]	72[407]	male[407]	rhiec6c6hfje484c5bsbj040l0[407]	speaker: YOU[526]	*->49-1	PerPron[49]	_	_	_	
+179-2	3859-3862	ich	GWithout[30]	husten\_set1\_7[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-husten\_set1\_7[30]	1	*	Subj	*	singular	false[169]	Decl[169]	*[288]	*[288]	*[288]	*[288]	*[288]	input2[288]	72[407]	male[407]	rhiec6c6hfje484c5bsbj040l0[407]	speaker: YOU[526]	*->31-4	PerPron[31]	_	_	_	
+179-3	3863-3867	muss	GWithout[30]	husten\_set1\_7[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-husten\_set1\_7[30]	_	_	_	_	_	false[169]	Decl[169]	*[288]	*[288]	*[288]	*[288]	*[288]	input2[288]	72[407]	male[407]	rhiec6c6hfje484c5bsbj040l0[407]	speaker: YOU[526]	_	_	_	_	_	
+179-4	3868-3881	aufhängen....	GWithout[30]	husten\_set1\_7[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-husten\_set1\_7[30]	_	_	_	_	_	false[169]	Decl[169]	*[288]	*[288]	*[288]	*[288]	*[288]	input2[288]	72[407]	male[407]	rhiec6c6hfje484c5bsbj040l0[407]	speaker: YOU[526]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+180-1	3883-3898	END_OF_DOCUMENT	GWithout[30]	husten\_set1\_7[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-husten\_set1\_7[30]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	

@@ -1,0 +1,950 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Item_info|condition|item_id|latinsqr_list|unique_id
+#T_SP=webanno.custom.Ref_info|PersonalPronouns_detailed|ref_def|ref_function|ref_gender|ref_num
+#T_SP=webanno.custom.Segment|complex|segment_type
+#T_SP=webanno.custom.Sent_layer|feedback_id|item0_verb|item0_verbtype|openq_id|openq_type|sent_type
+#T_SP=webanno.custom.Speaker_meta|age|gender|speaker_id
+#T_SP=webanno.custom.Speaker_name|speaker_name
+#T_CH=de.tudarmstadt.ukp.dkpro.core.api.coref.type.CoreferenceLink|referenceRelation|referenceType
+#T_RL=webanno.custom.Relations|discourse_rel|speechAct_rel|BT_webanno.custom.Segment
+
+
+#Text=Na?
+1-1	0-3	Na?	GFailure[1]	putzen\_set1\_1[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-putzen\_set1\_1[1]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Alexandra	_	_	QAP	*	2-1[81_0]	
+
+#Text=Lena hat die Küche geputzt
+2-1	5-9	Lena	GFailure[1]	putzen\_set1\_1[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-putzen\_set1\_1[1]	*	*	Subj	*	*	false[81]	Decl[81]	*[172]	putzen[172]	transitive[172]	*[172]	*[172]	item0[172]	18[257]	female[257]	0ncaea7aqlpc7oe43khd21qn11[257]	speaker: YOU[342]	*->63-1	PropNm[63]	result|result|CR	*|*|*	4-1[82_81]|5-1[83_81]|3-1[0_81]	
+2-2	10-13	hat	GFailure[1]	putzen\_set1\_1[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-putzen\_set1\_1[1]	_	_	_	_	_	false[81]	Decl[81]	*[172]	putzen[172]	transitive[172]	*[172]	*[172]	item0[172]	18[257]	female[257]	0ncaea7aqlpc7oe43khd21qn11[257]	speaker: YOU[342]	_	_	_	_	_	
+2-3	14-17	die	GFailure[1]	putzen\_set1\_1[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-putzen\_set1\_1[1]	*[31]	*[31]	object[31]	*[31]	*[31]	false[81]	Decl[81]	*[172]	putzen[172]	transitive[172]	*[172]	*[172]	item0[172]	18[257]	female[257]	0ncaea7aqlpc7oe43khd21qn11[257]	speaker: YOU[342]	*->83-1	DefNP[83]	_	_	_	
+2-4	18-23	Küche	GFailure[1]	putzen\_set1\_1[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-putzen\_set1\_1[1]	*[31]	*[31]	object[31]	*[31]	*[31]	false[81]	Decl[81]	*[172]	putzen[172]	transitive[172]	*[172]	*[172]	item0[172]	18[257]	female[257]	0ncaea7aqlpc7oe43khd21qn11[257]	speaker: YOU[342]	*->83-1	DefNP[83]	_	_	_	
+2-5	24-31	geputzt	GFailure[1]	putzen\_set1\_1[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-putzen\_set1\_1[1]	_	_	_	_	_	false[81]	Decl[81]	*[172]	putzen[172]	transitive[172]	*[172]	*[172]	item0[172]	18[257]	female[257]	0ncaea7aqlpc7oe43khd21qn11[257]	speaker: YOU[342]	_	_	_	_	_	
+
+#Text=Hm?
+3-1	33-36	Hm?	GFailure[1]	putzen\_set1\_1[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-putzen\_set1\_1[1]	_	_	_	_	_	false	NA	hm\_question\_4	*	*	*	*	feedback	*	female	*	speaker:Alexandra	_	_	_	_	_	
+
+#Text=Ich musste nichts mehr machen als ich zu Hause ankam.
+4-1	38-41	Ich	GFailure[1]	putzen\_set1\_1[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-putzen\_set1\_1[1]	1	*	Subj	*	singular	false[82]	Decl[82]	*[173]	*[173]	*[173]	*[173]	*[173]	input1[173]	18[258]	female[258]	0ncaea7aqlpc7oe43khd21qn11[258]	speaker: YOU[343]	*->70-1	PerPron[70]	_	_	_	
+4-2	42-48	musste	GFailure[1]	putzen\_set1\_1[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-putzen\_set1\_1[1]	_	_	_	_	_	false[82]	Decl[82]	*[173]	*[173]	*[173]	*[173]	*[173]	input1[173]	18[258]	female[258]	0ncaea7aqlpc7oe43khd21qn11[258]	speaker: YOU[343]	_	_	_	_	_	
+4-3	49-55	nichts	GFailure[1]	putzen\_set1\_1[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-putzen\_set1\_1[1]	_	_	_	_	_	false[82]	Decl[82]	*[173]	*[173]	*[173]	*[173]	*[173]	input1[173]	18[258]	female[258]	0ncaea7aqlpc7oe43khd21qn11[258]	speaker: YOU[343]	_	_	_	_	_	
+4-4	56-60	mehr	GFailure[1]	putzen\_set1\_1[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-putzen\_set1\_1[1]	_	_	_	_	_	false[82]	Decl[82]	*[173]	*[173]	*[173]	*[173]	*[173]	input1[173]	18[258]	female[258]	0ncaea7aqlpc7oe43khd21qn11[258]	speaker: YOU[343]	_	_	_	_	_	
+4-5	61-67	machen	GFailure[1]	putzen\_set1\_1[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-putzen\_set1\_1[1]	_	_	_	_	_	false[82]	Decl[82]	*[173]	*[173]	*[173]	*[173]	*[173]	input1[173]	18[258]	female[258]	0ncaea7aqlpc7oe43khd21qn11[258]	speaker: YOU[343]	_	_	_	_	_	
+4-6	68-71	als	GFailure[1]	putzen\_set1\_1[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-putzen\_set1\_1[1]	_	_	_	_	_	false[82]	Decl[82]	*[173]	*[173]	*[173]	*[173]	*[173]	input1[173]	18[258]	female[258]	0ncaea7aqlpc7oe43khd21qn11[258]	speaker: YOU[343]	_	_	_	_	_	
+4-7	72-75	ich	GFailure[1]	putzen\_set1\_1[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-putzen\_set1\_1[1]	1	*	Subj	*	singular	false[82]	Decl[82]	*[173]	*[173]	*[173]	*[173]	*[173]	input1[173]	18[258]	female[258]	0ncaea7aqlpc7oe43khd21qn11[258]	speaker: YOU[343]	*->70-2	PerPron[70]	_	_	_	
+4-8	76-78	zu	GFailure[1]	putzen\_set1\_1[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-putzen\_set1\_1[1]	_	_	_	_	_	false[82]	Decl[82]	*[173]	*[173]	*[173]	*[173]	*[173]	input1[173]	18[258]	female[258]	0ncaea7aqlpc7oe43khd21qn11[258]	speaker: YOU[343]	_	_	_	_	_	
+4-9	79-84	Hause	GFailure[1]	putzen\_set1\_1[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-putzen\_set1\_1[1]	*	*	PrepObj	*	*	false[82]	Decl[82]	*[173]	*[173]	*[173]	*[173]	*[173]	input1[173]	18[258]	female[258]	0ncaea7aqlpc7oe43khd21qn11[258]	speaker: YOU[343]	*->47-1	IndefNP[47]	_	_	_	
+4-10	85-91	ankam.	GFailure[1]	putzen\_set1\_1[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-putzen\_set1\_1[1]	_	_	_	_	_	false[82]	Decl[82]	*[173]	*[173]	*[173]	*[173]	*[173]	input1[173]	18[258]	female[258]	0ncaea7aqlpc7oe43khd21qn11[258]	speaker: YOU[343]	_	_	_	_	_	
+
+#Text=Willst du vorbei kommen?
+5-1	93-99	Willst	GFailure[1]	putzen\_set1\_1[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-putzen\_set1\_1[1]	_	_	_	_	_	false[83]	Int[83]	*[174]	*[174]	*[174]	*[174]	*[174]	input2[174]	18[259]	female[259]	0ncaea7aqlpc7oe43khd21qn11[259]	speaker: YOU[344]	_	_	_	_	_	
+5-2	100-102	du	GFailure[1]	putzen\_set1\_1[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-putzen\_set1\_1[1]	2	*	Subj	*	singular	false[83]	Int[83]	*[174]	*[174]	*[174]	*[174]	*[174]	input2[174]	18[259]	female[259]	0ncaea7aqlpc7oe43khd21qn11[259]	speaker: YOU[344]	*->13-1	PerPron[13]	_	_	_	
+5-3	103-109	vorbei	GFailure[1]	putzen\_set1\_1[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-putzen\_set1\_1[1]	_	_	_	_	_	false[83]	Int[83]	*[174]	*[174]	*[174]	*[174]	*[174]	input2[174]	18[259]	female[259]	0ncaea7aqlpc7oe43khd21qn11[259]	speaker: YOU[344]	_	_	_	_	_	
+5-4	110-117	kommen?	GFailure[1]	putzen\_set1\_1[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-putzen\_set1\_1[1]	_	_	_	_	_	false[83]	Int[83]	*[174]	*[174]	*[174]	*[174]	*[174]	input2[174]	18[259]	female[259]	0ncaea7aqlpc7oe43khd21qn11[259]	speaker: YOU[344]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+6-1	119-134	END_OF_DOCUMENT	GFailure[1]	putzen\_set1\_1[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-putzen\_set1\_1[1]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+7-1	136-139	Na?	GFailure[2]	putzen\_set1\_1[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-putzen\_set1\_1[2]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Alexandra	_	_	QAP	*	8-1[84_0]	
+
+#Text=Lena hat die Küche geputzt
+8-1	141-145	Lena	GFailure[2]	putzen\_set1\_1[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-putzen\_set1\_1[2]	*	*	Subj	*	*	false[84]	Decl[84]	*[175]	putzen[175]	transitive[175]	*[175]	*[175]	item0[175]	36[260]	male[260]	19gm0uv9ca6mcngf99lirno94a[260]	speaker: YOU[345]	*->112-1	PropNm[112]	explanation|CR	*|*	10-1[85_84]|9-1[0_84]	
+8-2	146-149	hat	GFailure[2]	putzen\_set1\_1[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-putzen\_set1\_1[2]	_	_	_	_	_	false[84]	Decl[84]	*[175]	putzen[175]	transitive[175]	*[175]	*[175]	item0[175]	36[260]	male[260]	19gm0uv9ca6mcngf99lirno94a[260]	speaker: YOU[345]	_	_	_	_	_	
+8-3	150-153	die	GFailure[2]	putzen\_set1\_1[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-putzen\_set1\_1[2]	*[32]	*[32]	object[32]	*[32]	*[32]	false[84]	Decl[84]	*[175]	putzen[175]	transitive[175]	*[175]	*[175]	item0[175]	36[260]	male[260]	19gm0uv9ca6mcngf99lirno94a[260]	speaker: YOU[345]	*->6-1	DefNP[6]	_	_	_	
+8-4	154-159	Küche	GFailure[2]	putzen\_set1\_1[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-putzen\_set1\_1[2]	*[32]	*[32]	object[32]	*[32]	*[32]	false[84]	Decl[84]	*[175]	putzen[175]	transitive[175]	*[175]	*[175]	item0[175]	36[260]	male[260]	19gm0uv9ca6mcngf99lirno94a[260]	speaker: YOU[345]	*->6-1	DefNP[6]	_	_	_	
+8-5	160-167	geputzt	GFailure[2]	putzen\_set1\_1[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-putzen\_set1\_1[2]	_	_	_	_	_	false[84]	Decl[84]	*[175]	putzen[175]	transitive[175]	*[175]	*[175]	item0[175]	36[260]	male[260]	19gm0uv9ca6mcngf99lirno94a[260]	speaker: YOU[345]	_	_	_	_	_	
+
+#Text=Hm?
+9-1	169-172	Hm?	GFailure[2]	putzen\_set1\_1[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-putzen\_set1\_1[2]	_	_	_	_	_	false	NA	hm\_question\_4	*	*	*	*	feedback	*	female	*	speaker:Alexandra	_	_	_	_	_	
+
+#Text=Sie hat versucht einen Kuchen zu backen...
+10-1	174-177	Sie	GFailure[2]	putzen\_set1\_1[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-putzen\_set1\_1[2]	3	*	Subj	*	singular	true[85]|false[86]	Decl[85]|Decl[86]	*[176]	*[176]	*[176]	*[176]	*[176]	input1[176]	36[261]	male[261]	19gm0uv9ca6mcngf99lirno94a[261]	speaker: YOU[346]	*->41-1|*->112-2	clause[41]|PerPron[112]	result	*	11-1[87_86]	
+10-2	178-181	hat	GFailure[2]	putzen\_set1\_1[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-putzen\_set1\_1[2]	_	_	_	_	_	true[85]|false[86]	Decl[85]|Decl[86]	*[176]	*[176]	*[176]	*[176]	*[176]	input1[176]	36[261]	male[261]	19gm0uv9ca6mcngf99lirno94a[261]	speaker: YOU[346]	*->41-1	clause[41]	_	_	_	
+10-3	182-190	versucht	GFailure[2]	putzen\_set1\_1[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-putzen\_set1\_1[2]	_	_	_	_	_	true[85]|false[86]	Decl[85]|Decl[86]	*[176]	*[176]	*[176]	*[176]	*[176]	input1[176]	36[261]	male[261]	19gm0uv9ca6mcngf99lirno94a[261]	speaker: YOU[346]	*->41-1	clause[41]	_	_	_	
+10-4	191-196	einen	GFailure[2]	putzen\_set1\_1[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-putzen\_set1\_1[2]	*[33]	*[33]	*[33]	*[33]	*[33]	true[85]|false[86]	Decl[85]|Decl[86]	*[176]	*[176]	*[176]	*[176]	*[176]	input1[176]	36[261]	male[261]	19gm0uv9ca6mcngf99lirno94a[261]	speaker: YOU[346]	*->41-1	clause[41]	_	_	_	
+10-5	197-203	Kuchen	GFailure[2]	putzen\_set1\_1[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-putzen\_set1\_1[2]	*[33]	*[33]	*[33]	*[33]	*[33]	true[85]|false[86]	Decl[85]|Decl[86]	*[176]	*[176]	*[176]	*[176]	*[176]	input1[176]	36[261]	male[261]	19gm0uv9ca6mcngf99lirno94a[261]	speaker: YOU[346]	*->41-1	clause[41]	_	_	_	
+10-6	204-206	zu	GFailure[2]	putzen\_set1\_1[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-putzen\_set1\_1[2]	_	_	_	_	_	true[85]|false[86]	Decl[85]|Decl[86]	*[176]	*[176]	*[176]	*[176]	*[176]	input1[176]	36[261]	male[261]	19gm0uv9ca6mcngf99lirno94a[261]	speaker: YOU[346]	*->41-1	clause[41]	_	_	_	
+10-7	207-216	backen...	GFailure[2]	putzen\_set1\_1[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-putzen\_set1\_1[2]	_	_	_	_	_	true[85]|false[86]	Decl[85]|Decl[86]	*[176]	*[176]	*[176]	*[176]	*[176]	input1[176]	36[261]	male[261]	19gm0uv9ca6mcngf99lirno94a[261]	speaker: YOU[346]	*->41-1	clause[41]	_	_	_	
+
+#Text=Danach sah die Küche aus wie ein Schlachtfeld
+11-1	218-224	Danach	GFailure[2]	putzen\_set1\_1[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-putzen\_set1\_1[2]	_	_	_	_	_	true[85]|false[87]	Decl[85]|Decl[87]	*[177]	*[177]	*[177]	*[177]	*[177]	input2[177]	36[262]	male[262]	19gm0uv9ca6mcngf99lirno94a[262]	speaker: YOU[347]	*->41-2	D-Pron[41]	_	_	_	
+11-2	225-228	sah	GFailure[2]	putzen\_set1\_1[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-putzen\_set1\_1[2]	_	_	_	_	_	true[85]|false[87]	Decl[85]|Decl[87]	*[177]	*[177]	*[177]	*[177]	*[177]	input2[177]	36[262]	male[262]	19gm0uv9ca6mcngf99lirno94a[262]	speaker: YOU[347]	_	_	_	_	_	
+11-3	229-232	die	GFailure[2]	putzen\_set1\_1[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-putzen\_set1\_1[2]	*[34]	*[34]	Subj[34]	*[34]	*[34]	true[85]|false[87]	Decl[85]|Decl[87]	*[177]	*[177]	*[177]	*[177]	*[177]	input2[177]	36[262]	male[262]	19gm0uv9ca6mcngf99lirno94a[262]	speaker: YOU[347]	*->6-2	DefNP[6]	_	_	_	
+11-4	233-238	Küche	GFailure[2]	putzen\_set1\_1[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-putzen\_set1\_1[2]	*[34]	*[34]	Subj[34]	*[34]	*[34]	true[85]|false[87]	Decl[85]|Decl[87]	*[177]	*[177]	*[177]	*[177]	*[177]	input2[177]	36[262]	male[262]	19gm0uv9ca6mcngf99lirno94a[262]	speaker: YOU[347]	*->6-2	DefNP[6]	_	_	_	
+11-5	239-242	aus	GFailure[2]	putzen\_set1\_1[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-putzen\_set1\_1[2]	_	_	_	_	_	true[85]|false[87]	Decl[85]|Decl[87]	*[177]	*[177]	*[177]	*[177]	*[177]	input2[177]	36[262]	male[262]	19gm0uv9ca6mcngf99lirno94a[262]	speaker: YOU[347]	_	_	_	_	_	
+11-6	243-246	wie	GFailure[2]	putzen\_set1\_1[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-putzen\_set1\_1[2]	_	_	_	_	_	true[85]|false[87]	Decl[85]|Decl[87]	*[177]	*[177]	*[177]	*[177]	*[177]	input2[177]	36[262]	male[262]	19gm0uv9ca6mcngf99lirno94a[262]	speaker: YOU[347]	_	_	_	_	_	
+11-7	247-250	ein	GFailure[2]	putzen\_set1\_1[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-putzen\_set1\_1[2]	*[35]	*[35]	DirObj[35]	*[35]	*[35]	true[85]|false[87]	Decl[85]|Decl[87]	*[177]	*[177]	*[177]	*[177]	*[177]	input2[177]	36[262]	male[262]	19gm0uv9ca6mcngf99lirno94a[262]	speaker: YOU[347]	_	_	_	_	_	
+11-8	251-263	Schlachtfeld	GFailure[2]	putzen\_set1\_1[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-putzen\_set1\_1[2]	*[35]	*[35]	DirObj[35]	*[35]	*[35]	true[85]|false[87]	Decl[85]|Decl[87]	*[177]	*[177]	*[177]	*[177]	*[177]	input2[177]	36[262]	male[262]	19gm0uv9ca6mcngf99lirno94a[262]	speaker: YOU[347]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+12-1	265-280	END_OF_DOCUMENT	GFailure[2]	putzen\_set1\_1[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-putzen\_set1\_1[2]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+13-1	282-285	Na?	GFailure[3]	putzen\_set1\_1[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-putzen\_set1\_1[3]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Alexandra	_	_	QAP	*	14-1[88_0]	
+
+#Text=Lena hat die Küche geputzt
+14-1	287-291	Lena	GFailure[3]	putzen\_set1\_1[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-putzen\_set1\_1[3]	*	*	Subj	*	*	false[88]	Decl[88]	*[178]	putzen[178]	transitive[178]	*[178]	*[178]	item0[178]	18[263]	female[263]	4qae3ph27q5gbjcsrgnltv8qld[263]	speaker: YOU[348]	*->105-1	PropNm[105]	explanation|CR	*|*	16-1[89_88]|15-1[0_88]	
+14-2	292-295	hat	GFailure[3]	putzen\_set1\_1[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-putzen\_set1\_1[3]	_	_	_	_	_	false[88]	Decl[88]	*[178]	putzen[178]	transitive[178]	*[178]	*[178]	item0[178]	18[263]	female[263]	4qae3ph27q5gbjcsrgnltv8qld[263]	speaker: YOU[348]	_	_	_	_	_	
+14-3	296-299	die	GFailure[3]	putzen\_set1\_1[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-putzen\_set1\_1[3]	*[36]	*[36]	object[36]	*[36]	*[36]	false[88]	Decl[88]	*[178]	putzen[178]	transitive[178]	*[178]	*[178]	item0[178]	18[263]	female[263]	4qae3ph27q5gbjcsrgnltv8qld[263]	speaker: YOU[348]	*->30-1	DefNP[30]	_	_	_	
+14-4	300-305	Küche	GFailure[3]	putzen\_set1\_1[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-putzen\_set1\_1[3]	*[36]	*[36]	object[36]	*[36]	*[36]	false[88]	Decl[88]	*[178]	putzen[178]	transitive[178]	*[178]	*[178]	item0[178]	18[263]	female[263]	4qae3ph27q5gbjcsrgnltv8qld[263]	speaker: YOU[348]	*->30-1	DefNP[30]	_	_	_	
+14-5	306-313	geputzt	GFailure[3]	putzen\_set1\_1[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-putzen\_set1\_1[3]	_	_	_	_	_	false[88]	Decl[88]	*[178]	putzen[178]	transitive[178]	*[178]	*[178]	item0[178]	18[263]	female[263]	4qae3ph27q5gbjcsrgnltv8qld[263]	speaker: YOU[348]	_	_	_	_	_	
+
+#Text=Hm?
+15-1	315-318	Hm?	GFailure[3]	putzen\_set1\_1[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-putzen\_set1\_1[3]	_	_	_	_	_	false	NA	hm\_question\_4	*	*	*	*	feedback	*	female	*	speaker:Alexandra	_	_	_	_	_	
+
+#Text=sie war ganz dreckig
+16-1	320-323	sie	GFailure[3]	putzen\_set1\_1[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-putzen\_set1\_1[3]	3	*	Subj	*	singular	false[89]	Decl[89]	*[179]	*[179]	*[179]	*[179]	*[179]	input1[179]	18[264]	female[264]	4qae3ph27q5gbjcsrgnltv8qld[264]	speaker: YOU[349]	*->30-2	PerPron[30]	explanation	*	17-1[90_89]	
+16-2	324-327	war	GFailure[3]	putzen\_set1\_1[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-putzen\_set1\_1[3]	_	_	_	_	_	false[89]	Decl[89]	*[179]	*[179]	*[179]	*[179]	*[179]	input1[179]	18[264]	female[264]	4qae3ph27q5gbjcsrgnltv8qld[264]	speaker: YOU[349]	_	_	_	_	_	
+16-3	328-332	ganz	GFailure[3]	putzen\_set1\_1[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-putzen\_set1\_1[3]	_	_	_	_	_	false[89]	Decl[89]	*[179]	*[179]	*[179]	*[179]	*[179]	input1[179]	18[264]	female[264]	4qae3ph27q5gbjcsrgnltv8qld[264]	speaker: YOU[349]	_	_	_	_	_	
+16-4	333-340	dreckig	GFailure[3]	putzen\_set1\_1[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-putzen\_set1\_1[3]	_	_	_	_	_	false[89]	Decl[89]	*[179]	*[179]	*[179]	*[179]	*[179]	input1[179]	18[264]	female[264]	4qae3ph27q5gbjcsrgnltv8qld[264]	speaker: YOU[349]	_	_	_	_	_	
+
+#Text=nachdem sie focaccia gemacht hat
+17-1	342-349	nachdem	GFailure[3]	putzen\_set1\_1[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-putzen\_set1\_1[3]	_	_	_	_	_	false[90]	NA[90]	*[180]	*[180]	*[180]	*[180]	*[180]	input2[180]	18[265]	female[265]	4qae3ph27q5gbjcsrgnltv8qld[265]	speaker: YOU[350]	_	_	_	_	_	
+17-2	350-353	sie	GFailure[3]	putzen\_set1\_1[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-putzen\_set1\_1[3]	3	*	Subj	*	singular	false[90]	NA[90]	*[180]	*[180]	*[180]	*[180]	*[180]	input2[180]	18[265]	female[265]	4qae3ph27q5gbjcsrgnltv8qld[265]	speaker: YOU[350]	*->105-2	PerPron[105]	_	_	_	
+17-3	354-362	focaccia	GFailure[3]	putzen\_set1\_1[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-putzen\_set1\_1[3]	*	*	DirObj	*	*	false[90]	NA[90]	*[180]	*[180]	*[180]	*[180]	*[180]	input2[180]	18[265]	female[265]	4qae3ph27q5gbjcsrgnltv8qld[265]	speaker: YOU[350]	*->19-1	IndefNP[19]	_	_	_	
+17-4	363-370	gemacht	GFailure[3]	putzen\_set1\_1[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-putzen\_set1\_1[3]	_	_	_	_	_	false[90]	NA[90]	*[180]	*[180]	*[180]	*[180]	*[180]	input2[180]	18[265]	female[265]	4qae3ph27q5gbjcsrgnltv8qld[265]	speaker: YOU[350]	_	_	_	_	_	
+17-5	371-374	hat	GFailure[3]	putzen\_set1\_1[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-putzen\_set1\_1[3]	_	_	_	_	_	false[90]	NA[90]	*[180]	*[180]	*[180]	*[180]	*[180]	input2[180]	18[265]	female[265]	4qae3ph27q5gbjcsrgnltv8qld[265]	speaker: YOU[350]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+18-1	376-391	END_OF_DOCUMENT	GFailure[3]	putzen\_set1\_1[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-putzen\_set1\_1[3]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+19-1	393-396	Na?	GFailure[4]	putzen\_set1\_1[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-putzen\_set1\_1[4]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Alexandra	_	_	QAP	*	20-1[91_0]	
+
+#Text=Lena hat die Küche geputzt
+20-1	398-402	Lena	GFailure[4]	putzen\_set1\_1[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-putzen\_set1\_1[4]	*	*	Subj	*	*	false[91]	Decl[91]	*[181]	putzen[181]	transitive[181]	*[181]	*[181]	item0[181]	19[266]	male[266]	f28ipql67ma8cbjqke6k374ach[266]	speaker: YOU[351]	*->58-1	PropNm[58]	elaboration|CR	*|*	22-1[0_91]|21-1[0_91]	
+20-2	403-406	hat	GFailure[4]	putzen\_set1\_1[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-putzen\_set1\_1[4]	_	_	_	_	_	false[91]	Decl[91]	*[181]	putzen[181]	transitive[181]	*[181]	*[181]	item0[181]	19[266]	male[266]	f28ipql67ma8cbjqke6k374ach[266]	speaker: YOU[351]	*->114-1	clause[114]	_	_	_	
+20-3	407-410	die	GFailure[4]	putzen\_set1\_1[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-putzen\_set1\_1[4]	*[37]	*[37]	object[37]	*[37]	*[37]	false[91]	Decl[91]	*[181]	putzen[181]	transitive[181]	*[181]	*[181]	item0[181]	19[266]	male[266]	f28ipql67ma8cbjqke6k374ach[266]	speaker: YOU[351]	*->114-1|*->29-1	clause[114]|DefNP[29]	_	_	_	
+20-4	411-416	Küche	GFailure[4]	putzen\_set1\_1[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-putzen\_set1\_1[4]	*[37]	*[37]	object[37]	*[37]	*[37]	false[91]	Decl[91]	*[181]	putzen[181]	transitive[181]	*[181]	*[181]	item0[181]	19[266]	male[266]	f28ipql67ma8cbjqke6k374ach[266]	speaker: YOU[351]	*->114-1|*->29-1	clause[114]|DefNP[29]	_	_	_	
+20-5	417-424	geputzt	GFailure[4]	putzen\_set1\_1[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-putzen\_set1\_1[4]	_	_	_	_	_	false[91]	Decl[91]	*[181]	putzen[181]	transitive[181]	*[181]	*[181]	item0[181]	19[266]	male[266]	f28ipql67ma8cbjqke6k374ach[266]	speaker: YOU[351]	*->114-1	clause[114]	_	_	_	
+
+#Text=Hm?
+21-1	426-429	Hm?	GFailure[4]	putzen\_set1\_1[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-putzen\_set1\_1[4]	_	_	_	_	_	false	NA	hm\_question\_4	*	*	*	*	feedback	*	female	*	speaker:Alexandra	_	_	_	_	_	
+
+#Text=Ja <BR> kaum zu glauben oder!?!
+22-1	431-433	Ja	GFailure[4]	putzen\_set1\_1[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-putzen\_set1\_1[4]	_	_	_	_	_	false	NA	*[182]	*[182]	*[182]	*[182]	*[182]	input1[182]	19[267]	male[267]	f28ipql67ma8cbjqke6k374ach[267]	speaker: YOU[352]	_	_	elaboration	*	22-3[92_0]	
+22-2	434-438	<BR>	GFailure[4]	putzen\_set1\_1[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-putzen\_set1\_1[4]	_	_	_	_	_	_	_	*[182]	*[182]	*[182]	*[182]	*[182]	input1[182]	19[267]	male[267]	f28ipql67ma8cbjqke6k374ach[267]	speaker: YOU[352]	_	_	_	_	_	
+22-3	439-443	kaum	GFailure[4]	putzen\_set1\_1[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-putzen\_set1\_1[4]	_	_	_	_	_	false[92]	NA[92]	*[182]	*[182]	*[182]	*[182]	*[182]	input1[182]	19[267]	male[267]	f28ipql67ma8cbjqke6k374ach[267]	speaker: YOU[352]	_	_	explanation	*	23-1[93_92]	
+22-4	444-446	zu	GFailure[4]	putzen\_set1\_1[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-putzen\_set1\_1[4]	_	_	_	_	_	false[92]	NA[92]	*[182]	*[182]	*[182]	*[182]	*[182]	input1[182]	19[267]	male[267]	f28ipql67ma8cbjqke6k374ach[267]	speaker: YOU[352]	_	_	_	_	_	
+22-5	447-454	glauben	GFailure[4]	putzen\_set1\_1[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-putzen\_set1\_1[4]	_	_	_	_	_	false[92]	NA[92]	*[182]	*[182]	*[182]	*[182]	*[182]	input1[182]	19[267]	male[267]	f28ipql67ma8cbjqke6k374ach[267]	speaker: YOU[352]	_	_	_	_	_	
+22-6	455-462	oder!?!	GFailure[4]	putzen\_set1\_1[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-putzen\_set1\_1[4]	_	_	_	_	_	false[92]	NA[92]	*[182]	*[182]	*[182]	*[182]	*[182]	input1[182]	19[267]	male[267]	f28ipql67ma8cbjqke6k374ach[267]	speaker: YOU[352]	_	_	_	_	_	
+
+#Text=Normal macht sie das nie.
+23-1	464-470	Normal	GFailure[4]	putzen\_set1\_1[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-putzen\_set1\_1[4]	_	_	_	_	_	false[93]	Decl[93]	*[183]	*[183]	*[183]	*[183]	*[183]	input2[183]	19[268]	male[268]	f28ipql67ma8cbjqke6k374ach[268]	speaker: YOU[353]	_	_	_	_	_	
+23-2	471-476	macht	GFailure[4]	putzen\_set1\_1[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-putzen\_set1\_1[4]	_	_	_	_	_	false[93]	Decl[93]	*[183]	*[183]	*[183]	*[183]	*[183]	input2[183]	19[268]	male[268]	f28ipql67ma8cbjqke6k374ach[268]	speaker: YOU[353]	_	_	_	_	_	
+23-3	477-480	sie	GFailure[4]	putzen\_set1\_1[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-putzen\_set1\_1[4]	3	*	Subj	*	singular	false[93]	Decl[93]	*[183]	*[183]	*[183]	*[183]	*[183]	input2[183]	19[268]	male[268]	f28ipql67ma8cbjqke6k374ach[268]	speaker: YOU[353]	*->58-2	PerPron[58]	_	_	_	
+23-4	481-484	das	GFailure[4]	putzen\_set1\_1[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-putzen\_set1\_1[4]	*	*	DirObj	*	*	false[93]	Decl[93]	*[183]	*[183]	*[183]	*[183]	*[183]	input2[183]	19[268]	male[268]	f28ipql67ma8cbjqke6k374ach[268]	speaker: YOU[353]	*->114-2	D-Pron[114]	_	_	_	
+23-5	485-489	nie.	GFailure[4]	putzen\_set1\_1[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-putzen\_set1\_1[4]	_	_	_	_	_	false[93]	Decl[93]	*[183]	*[183]	*[183]	*[183]	*[183]	input2[183]	19[268]	male[268]	f28ipql67ma8cbjqke6k374ach[268]	speaker: YOU[353]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+24-1	491-506	END_OF_DOCUMENT	GFailure[4]	putzen\_set1\_1[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-putzen\_set1\_1[4]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+25-1	508-511	Na?	GFailure[5]	putzen\_set1\_1[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-putzen\_set1\_1[5]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Alexandra	_	_	QAP	*	26-1[94_0]	
+
+#Text=Lena hat die Küche geputzt
+26-1	513-517	Lena	GFailure[5]	putzen\_set1\_1[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-putzen\_set1\_1[5]	*	*	Subj	*	*	false[94]	Decl[94]	*[184]	putzen[184]	transitive[184]	*[184]	*[184]	item0[184]	36[269]	male[269]	ifdbjqro2nfkup12rv8t6k0eu9[269]	speaker: YOU[354]	*->50-1	PropNm[50]	contrast|elaboration|CR	*|*|*	28-1[95_94]|29-1[96_94]|27-1[0_94]	
+26-2	518-521	hat	GFailure[5]	putzen\_set1\_1[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-putzen\_set1\_1[5]	_	_	_	_	_	false[94]	Decl[94]	*[184]	putzen[184]	transitive[184]	*[184]	*[184]	item0[184]	36[269]	male[269]	ifdbjqro2nfkup12rv8t6k0eu9[269]	speaker: YOU[354]	*->81-1	clause[81]	_	_	_	
+26-3	522-525	die	GFailure[5]	putzen\_set1\_1[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-putzen\_set1\_1[5]	*[38]	*[38]	object[38]	*[38]	*[38]	false[94]	Decl[94]	*[184]	putzen[184]	transitive[184]	*[184]	*[184]	item0[184]	36[269]	male[269]	ifdbjqro2nfkup12rv8t6k0eu9[269]	speaker: YOU[354]	*->81-1|*->26-1	clause[81]|DefNP[26]	_	_	_	
+26-4	526-531	Küche	GFailure[5]	putzen\_set1\_1[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-putzen\_set1\_1[5]	*[38]	*[38]	object[38]	*[38]	*[38]	false[94]	Decl[94]	*[184]	putzen[184]	transitive[184]	*[184]	*[184]	item0[184]	36[269]	male[269]	ifdbjqro2nfkup12rv8t6k0eu9[269]	speaker: YOU[354]	*->81-1|*->26-1	clause[81]|DefNP[26]	_	_	_	
+26-5	532-539	geputzt	GFailure[5]	putzen\_set1\_1[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-putzen\_set1\_1[5]	_	_	_	_	_	false[94]	Decl[94]	*[184]	putzen[184]	transitive[184]	*[184]	*[184]	item0[184]	36[269]	male[269]	ifdbjqro2nfkup12rv8t6k0eu9[269]	speaker: YOU[354]	*->81-1	clause[81]	_	_	_	
+
+#Text=Hm?
+27-1	541-544	Hm?	GFailure[5]	putzen\_set1\_1[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-putzen\_set1\_1[5]	_	_	_	_	_	false	NA	hm\_question\_4	*	*	*	*	feedback	*	female	*	speaker:Alexandra	_	_	_	_	_	
+
+#Text=macht sie sonst nicht
+28-1	546-551	macht	GFailure[5]	putzen\_set1\_1[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-putzen\_set1\_1[5]	3	*	*	*	singular	false[95]	Decl[95]	*[185]	*[185]	*[185]	*[185]	*[185]	input1[185]	36[270]	male[270]	ifdbjqro2nfkup12rv8t6k0eu9[270]	speaker: YOU[355]	*->81-2	zero[81]	_	_	_	
+28-2	552-555	sie	GFailure[5]	putzen\_set1\_1[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-putzen\_set1\_1[5]	3	*	Subj	*	singular	false[95]	Decl[95]	*[185]	*[185]	*[185]	*[185]	*[185]	input1[185]	36[270]	male[270]	ifdbjqro2nfkup12rv8t6k0eu9[270]	speaker: YOU[355]	*->50-2	PerPron[50]	_	_	_	
+28-3	556-561	sonst	GFailure[5]	putzen\_set1\_1[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-putzen\_set1\_1[5]	_	_	_	_	_	false[95]	Decl[95]	*[185]	*[185]	*[185]	*[185]	*[185]	input1[185]	36[270]	male[270]	ifdbjqro2nfkup12rv8t6k0eu9[270]	speaker: YOU[355]	_	_	_	_	_	
+28-4	562-567	nicht	GFailure[5]	putzen\_set1\_1[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-putzen\_set1\_1[5]	_	_	_	_	_	false[95]	Decl[95]	*[185]	*[185]	*[185]	*[185]	*[185]	input1[185]	36[270]	male[270]	ifdbjqro2nfkup12rv8t6k0eu9[270]	speaker: YOU[355]	_	_	_	_	_	
+
+#Text=ich freu mich
+29-1	569-572	ich	GFailure[5]	putzen\_set1\_1[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-putzen\_set1\_1[5]	1	*	Subj	*	singular	false[96]	Decl[96]	*[186]	*[186]	*[186]	*[186]	*[186]	input2[186]	36[271]	male[271]	ifdbjqro2nfkup12rv8t6k0eu9[271]	speaker: YOU[356]	*->51-1	PerPron[51]	_	_	_	
+29-2	573-577	freu	GFailure[5]	putzen\_set1\_1[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-putzen\_set1\_1[5]	_	_	_	_	_	false[96]	Decl[96]	*[186]	*[186]	*[186]	*[186]	*[186]	input2[186]	36[271]	male[271]	ifdbjqro2nfkup12rv8t6k0eu9[271]	speaker: YOU[356]	_	_	_	_	_	
+29-3	578-582	mich	GFailure[5]	putzen\_set1\_1[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-putzen\_set1\_1[5]	_	_	_	_	_	false[96]	Decl[96]	*[186]	*[186]	*[186]	*[186]	*[186]	input2[186]	36[271]	male[271]	ifdbjqro2nfkup12rv8t6k0eu9[271]	speaker: YOU[356]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+30-1	584-599	END_OF_DOCUMENT	GFailure[5]	putzen\_set1\_1[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-putzen\_set1\_1[5]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+31-1	601-604	Na?	GFailure[6]	putzen\_set1\_1[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-putzen\_set1\_1[6]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Alexandra	_	_	QAP	*	32-1[97_0]	
+
+#Text=Lena hat die Küche geputzt
+32-1	606-610	Lena	GFailure[6]	putzen\_set1\_1[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-putzen\_set1\_1[6]	*	*	Subj	*	*	false[97]	Decl[97]	*[187]	putzen[187]	transitive[187]	*[187]	*[187]	item0[187]	27[272]	female[272]	nn1fs9jkn62eo9089lo89usbkb[272]	speaker: YOU[357]	*->117-1|*->1-1	D-Pron[117]|PropNm[1]	elaboration|elaboration|CR	*|*|*	34-1[98_97]|35-1[99_97]|33-1[0_97]	
+32-2	611-614	hat	GFailure[6]	putzen\_set1\_1[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-putzen\_set1\_1[6]	_	_	_	_	_	false[97]	Decl[97]	*[187]	putzen[187]	transitive[187]	*[187]	*[187]	item0[187]	27[272]	female[272]	nn1fs9jkn62eo9089lo89usbkb[272]	speaker: YOU[357]	*->117-1	D-Pron[117]	_	_	_	
+32-3	615-618	die	GFailure[6]	putzen\_set1\_1[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-putzen\_set1\_1[6]	*[39]	*[39]	object[39]	*[39]	*[39]	false[97]	Decl[97]	*[187]	putzen[187]	transitive[187]	*[187]	*[187]	item0[187]	27[272]	female[272]	nn1fs9jkn62eo9089lo89usbkb[272]	speaker: YOU[357]	*->117-1|*->84-1	D-Pron[117]|DefNP[84]	_	_	_	
+32-4	619-624	Küche	GFailure[6]	putzen\_set1\_1[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-putzen\_set1\_1[6]	*[39]	*[39]	object[39]	*[39]	*[39]	false[97]	Decl[97]	*[187]	putzen[187]	transitive[187]	*[187]	*[187]	item0[187]	27[272]	female[272]	nn1fs9jkn62eo9089lo89usbkb[272]	speaker: YOU[357]	*->117-1|*->84-1	D-Pron[117]|DefNP[84]	_	_	_	
+32-5	625-632	geputzt	GFailure[6]	putzen\_set1\_1[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-putzen\_set1\_1[6]	_	_	_	_	_	false[97]	Decl[97]	*[187]	putzen[187]	transitive[187]	*[187]	*[187]	item0[187]	27[272]	female[272]	nn1fs9jkn62eo9089lo89usbkb[272]	speaker: YOU[357]	*->117-1	D-Pron[117]	_	_	_	
+
+#Text=Hm?
+33-1	634-637	Hm?	GFailure[6]	putzen\_set1\_1[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-putzen\_set1\_1[6]	_	_	_	_	_	false	NA	hm\_question\_4	*	*	*	*	feedback	*	female	*	speaker:Alexandra	_	_	_	_	_	
+
+#Text=Das kommt sehr selten vor.
+34-1	639-642	Das	GFailure[6]	putzen\_set1\_1[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-putzen\_set1\_1[6]	*	*	Subj	*	*	false[98]	Decl[98]	*[188]	*[188]	*[188]	*[188]	*[188]	input1[188]	27[273]	female[273]	nn1fs9jkn62eo9089lo89usbkb[273]	speaker: YOU[358]	*->117-2	D-Pron[117]	_	_	_	
+34-2	643-648	kommt	GFailure[6]	putzen\_set1\_1[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-putzen\_set1\_1[6]	_	_	_	_	_	false[98]	Decl[98]	*[188]	*[188]	*[188]	*[188]	*[188]	input1[188]	27[273]	female[273]	nn1fs9jkn62eo9089lo89usbkb[273]	speaker: YOU[358]	_	_	_	_	_	
+34-3	649-653	sehr	GFailure[6]	putzen\_set1\_1[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-putzen\_set1\_1[6]	_	_	_	_	_	false[98]	Decl[98]	*[188]	*[188]	*[188]	*[188]	*[188]	input1[188]	27[273]	female[273]	nn1fs9jkn62eo9089lo89usbkb[273]	speaker: YOU[358]	_	_	_	_	_	
+34-4	654-660	selten	GFailure[6]	putzen\_set1\_1[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-putzen\_set1\_1[6]	_	_	_	_	_	false[98]	Decl[98]	*[188]	*[188]	*[188]	*[188]	*[188]	input1[188]	27[273]	female[273]	nn1fs9jkn62eo9089lo89usbkb[273]	speaker: YOU[358]	_	_	_	_	_	
+34-5	661-665	vor.	GFailure[6]	putzen\_set1\_1[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-putzen\_set1\_1[6]	_	_	_	_	_	false[98]	Decl[98]	*[188]	*[188]	*[188]	*[188]	*[188]	input1[188]	27[273]	female[273]	nn1fs9jkn62eo9089lo89usbkb[273]	speaker: YOU[358]	_	_	_	_	_	
+
+#Text=Ich hoffe sie macht es weiterhin.
+35-1	667-670	Ich	GFailure[6]	putzen\_set1\_1[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-putzen\_set1\_1[6]	1	*	Subj	*	singular	false[99]	Decl[99]	*[189]	*[189]	*[189]	*[189]	*[189]	input2[189]	27[274]	female[274]	nn1fs9jkn62eo9089lo89usbkb[274]	speaker: YOU[359]	*->98-1	PerPron[98]	_	_	_	
+35-2	671-676	hoffe	GFailure[6]	putzen\_set1\_1[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-putzen\_set1\_1[6]	_	_	_	_	_	false[99]	Decl[99]	*[189]	*[189]	*[189]	*[189]	*[189]	input2[189]	27[274]	female[274]	nn1fs9jkn62eo9089lo89usbkb[274]	speaker: YOU[359]	_	_	_	_	_	
+35-3	677-680	sie	GFailure[6]	putzen\_set1\_1[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-putzen\_set1\_1[6]	3	*	Embedded	*	singular	false[99]	Decl[99]	*[189]	*[189]	*[189]	*[189]	*[189]	input2[189]	27[274]	female[274]	nn1fs9jkn62eo9089lo89usbkb[274]	speaker: YOU[359]	*->1-2	PerPron[1]	_	_	_	
+35-4	681-686	macht	GFailure[6]	putzen\_set1\_1[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-putzen\_set1\_1[6]	_	_	_	_	_	false[99]	Decl[99]	*[189]	*[189]	*[189]	*[189]	*[189]	input2[189]	27[274]	female[274]	nn1fs9jkn62eo9089lo89usbkb[274]	speaker: YOU[359]	_	_	_	_	_	
+35-5	687-689	es	GFailure[6]	putzen\_set1\_1[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-putzen\_set1\_1[6]	3	*	Embedded	*	singular	false[99]	Decl[99]	*[189]	*[189]	*[189]	*[189]	*[189]	input2[189]	27[274]	female[274]	nn1fs9jkn62eo9089lo89usbkb[274]	speaker: YOU[359]	*->117-3	PerPron[117]	_	_	_	
+35-6	690-700	weiterhin.	GFailure[6]	putzen\_set1\_1[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-putzen\_set1\_1[6]	_	_	_	_	_	false[99]	Decl[99]	*[189]	*[189]	*[189]	*[189]	*[189]	input2[189]	27[274]	female[274]	nn1fs9jkn62eo9089lo89usbkb[274]	speaker: YOU[359]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+36-1	702-717	END_OF_DOCUMENT	GFailure[6]	putzen\_set1\_1[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-putzen\_set1\_1[6]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+37-1	719-722	Na?	GFailure[7]	putzen\_set1\_1[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-putzen\_set1\_1[7]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Alexandra	_	_	QAP	*	38-1[100_0]	
+
+#Text=Lena hat die Küche geputzt
+38-1	724-728	Lena	GFailure[7]	putzen\_set1\_1[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-putzen\_set1\_1[7]	*	*	Subj	*	*	false[100]	Decl[100]	*[190]	putzen[190]	transitive[190]	*[190]	*[190]	item0[190]	24[275]	male[275]	qaaqp55l485lvs9rdvpvbtmqal[275]	speaker: YOU[360]	*->73-1	PropNm[73]	elaboration|CR	*|*	40-1[101_100]|39-1[0_100]	
+38-2	729-732	hat	GFailure[7]	putzen\_set1\_1[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-putzen\_set1\_1[7]	_	_	_	_	_	false[100]	Decl[100]	*[190]	putzen[190]	transitive[190]	*[190]	*[190]	item0[190]	24[275]	male[275]	qaaqp55l485lvs9rdvpvbtmqal[275]	speaker: YOU[360]	_	_	_	_	_	
+38-3	733-736	die	GFailure[7]	putzen\_set1\_1[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-putzen\_set1\_1[7]	*[40]	*[40]	object[40]	*[40]	*[40]	false[100]	Decl[100]	*[190]	putzen[190]	transitive[190]	*[190]	*[190]	item0[190]	24[275]	male[275]	qaaqp55l485lvs9rdvpvbtmqal[275]	speaker: YOU[360]	*->99-1	DefNP[99]	_	_	_	
+38-4	737-742	Küche	GFailure[7]	putzen\_set1\_1[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-putzen\_set1\_1[7]	*[40]	*[40]	object[40]	*[40]	*[40]	false[100]	Decl[100]	*[190]	putzen[190]	transitive[190]	*[190]	*[190]	item0[190]	24[275]	male[275]	qaaqp55l485lvs9rdvpvbtmqal[275]	speaker: YOU[360]	*->99-1	DefNP[99]	_	_	_	
+38-5	743-750	geputzt	GFailure[7]	putzen\_set1\_1[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-putzen\_set1\_1[7]	_	_	_	_	_	false[100]	Decl[100]	*[190]	putzen[190]	transitive[190]	*[190]	*[190]	item0[190]	24[275]	male[275]	qaaqp55l485lvs9rdvpvbtmqal[275]	speaker: YOU[360]	_	_	_	_	_	
+
+#Text=Hm?
+39-1	752-755	Hm?	GFailure[7]	putzen\_set1\_1[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-putzen\_set1\_1[7]	_	_	_	_	_	false	NA	hm\_question\_4	*	*	*	*	feedback	*	female	*	speaker:Alexandra	_	_	_	_	_	
+
+#Text=Lena hat heute nach dem mittagessen den Küchendienst übernommen
+40-1	757-761	Lena	GFailure[7]	putzen\_set1\_1[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-putzen\_set1\_1[7]	*	*	Subj	*	*	false[101]	Decl[101]	*[191]	*[191]	*[191]	*[191]	*[191]	input1[191]	24[276]	male[276]	qaaqp55l485lvs9rdvpvbtmqal[276]	speaker: YOU[361]	*->73-2	PropNm[73]	elaboration	*	41-1[102_101]	
+40-2	762-765	hat	GFailure[7]	putzen\_set1\_1[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-putzen\_set1\_1[7]	_	_	_	_	_	false[101]	Decl[101]	*[191]	*[191]	*[191]	*[191]	*[191]	input1[191]	24[276]	male[276]	qaaqp55l485lvs9rdvpvbtmqal[276]	speaker: YOU[361]	_	_	_	_	_	
+40-3	766-771	heute	GFailure[7]	putzen\_set1\_1[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-putzen\_set1\_1[7]	_	_	_	_	_	false[101]	Decl[101]	*[191]	*[191]	*[191]	*[191]	*[191]	input1[191]	24[276]	male[276]	qaaqp55l485lvs9rdvpvbtmqal[276]	speaker: YOU[361]	_	_	_	_	_	
+40-4	772-776	nach	GFailure[7]	putzen\_set1\_1[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-putzen\_set1\_1[7]	_	_	_	_	_	false[101]	Decl[101]	*[191]	*[191]	*[191]	*[191]	*[191]	input1[191]	24[276]	male[276]	qaaqp55l485lvs9rdvpvbtmqal[276]	speaker: YOU[361]	_	_	_	_	_	
+40-5	777-780	dem	GFailure[7]	putzen\_set1\_1[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-putzen\_set1\_1[7]	*[41]	*[41]	PrepObj[41]	*[41]	*[41]	false[101]	Decl[101]	*[191]	*[191]	*[191]	*[191]	*[191]	input1[191]	24[276]	male[276]	qaaqp55l485lvs9rdvpvbtmqal[276]	speaker: YOU[361]	*->3-1	DefNP[3]	_	_	_	
+40-6	781-792	mittagessen	GFailure[7]	putzen\_set1\_1[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-putzen\_set1\_1[7]	*[41]	*[41]	PrepObj[41]	*[41]	*[41]	false[101]	Decl[101]	*[191]	*[191]	*[191]	*[191]	*[191]	input1[191]	24[276]	male[276]	qaaqp55l485lvs9rdvpvbtmqal[276]	speaker: YOU[361]	*->3-1	DefNP[3]	_	_	_	
+40-7	793-796	den	GFailure[7]	putzen\_set1\_1[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-putzen\_set1\_1[7]	*[42]	*[42]	DirObj[42]	*[42]	*[42]	false[101]	Decl[101]	*[191]	*[191]	*[191]	*[191]	*[191]	input1[191]	24[276]	male[276]	qaaqp55l485lvs9rdvpvbtmqal[276]	speaker: YOU[361]	*->89-1	DefNP[89]	_	_	_	
+40-8	797-809	Küchendienst	GFailure[7]	putzen\_set1\_1[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-putzen\_set1\_1[7]	*[42]	*[42]	DirObj[42]	*[42]	*[42]	false[101]	Decl[101]	*[191]	*[191]	*[191]	*[191]	*[191]	input1[191]	24[276]	male[276]	qaaqp55l485lvs9rdvpvbtmqal[276]	speaker: YOU[361]	*->89-1	DefNP[89]	_	_	_	
+40-9	810-820	übernommen	GFailure[7]	putzen\_set1\_1[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-putzen\_set1\_1[7]	_	_	_	_	_	false[101]	Decl[101]	*[191]	*[191]	*[191]	*[191]	*[191]	input1[191]	24[276]	male[276]	qaaqp55l485lvs9rdvpvbtmqal[276]	speaker: YOU[361]	_	_	_	_	_	
+
+#Text=Ich traute meinen Augen kaum
+41-1	822-825	Ich	GFailure[7]	putzen\_set1\_1[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-putzen\_set1\_1[7]	1	*	Subj	*	singular	false[102]	Decl[102]	*[192]	*[192]	*[192]	*[192]	*[192]	input2[192]	24[277]	male[277]	qaaqp55l485lvs9rdvpvbtmqal[277]	speaker: YOU[362]	*->7-1	PerPron[7]	_	_	_	
+41-2	826-832	traute	GFailure[7]	putzen\_set1\_1[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-putzen\_set1\_1[7]	_	_	_	_	_	false[102]	Decl[102]	*[192]	*[192]	*[192]	*[192]	*[192]	input2[192]	24[277]	male[277]	qaaqp55l485lvs9rdvpvbtmqal[277]	speaker: YOU[362]	_	_	_	_	_	
+41-3	833-839	meinen	GFailure[7]	putzen\_set1\_1[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-putzen\_set1\_1[7]	*[43]|1[44]	*[43]|*[44]	DirObj[43]|*[44]	*[43]|*[44]	*[43]|singular[44]	false[102]	Decl[102]	*[192]	*[192]	*[192]	*[192]	*[192]	input2[192]	24[277]	male[277]	qaaqp55l485lvs9rdvpvbtmqal[277]	speaker: YOU[362]	*->39-1|*->7-2	DefNP[39]|PossePron[7]	_	_	_	
+41-4	840-845	Augen	GFailure[7]	putzen\_set1\_1[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-putzen\_set1\_1[7]	*[43]	*[43]	DirObj[43]	*[43]	*[43]	false[102]	Decl[102]	*[192]	*[192]	*[192]	*[192]	*[192]	input2[192]	24[277]	male[277]	qaaqp55l485lvs9rdvpvbtmqal[277]	speaker: YOU[362]	*->39-1	DefNP[39]	_	_	_	
+41-5	846-850	kaum	GFailure[7]	putzen\_set1\_1[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-putzen\_set1\_1[7]	_	_	_	_	_	false[102]	Decl[102]	*[192]	*[192]	*[192]	*[192]	*[192]	input2[192]	24[277]	male[277]	qaaqp55l485lvs9rdvpvbtmqal[277]	speaker: YOU[362]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+42-1	852-867	END_OF_DOCUMENT	GFailure[7]	putzen\_set1\_1[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-putzen\_set1\_1[7]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+43-1	869-872	Na?	GFailure[8]	putzen\_set1\_1[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-putzen\_set1\_1[8]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Alexandra	_	_	QAP	*	44-1[103_0]	
+
+#Text=Lena hat die Küche geputzt
+44-1	874-878	Lena	GFailure[8]	putzen\_set1\_1[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-putzen\_set1\_1[8]	*	*	Subj	*	*	false[103]	Decl[103]	*[193]	putzen[193]	transitive[193]	*[193]	*[193]	item0[193]	25[278]	female[278]	t6ah1r7hfmcncb44kgnh0sjmv6[278]	speaker: YOU[363]	*->69-1|*->35-1	clause[69]|PropNm[35]	elaboration|CR	*|*	46-1[104_103]|45-1[0_103]	
+44-2	879-882	hat	GFailure[8]	putzen\_set1\_1[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-putzen\_set1\_1[8]	_	_	_	_	_	false[103]	Decl[103]	*[193]	putzen[193]	transitive[193]	*[193]	*[193]	item0[193]	25[278]	female[278]	t6ah1r7hfmcncb44kgnh0sjmv6[278]	speaker: YOU[363]	*->69-1	clause[69]	_	_	_	
+44-3	883-886	die	GFailure[8]	putzen\_set1\_1[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-putzen\_set1\_1[8]	*[45]	*[45]	object[45]	*[45]	*[45]	false[103]	Decl[103]	*[193]	putzen[193]	transitive[193]	*[193]	*[193]	item0[193]	25[278]	female[278]	t6ah1r7hfmcncb44kgnh0sjmv6[278]	speaker: YOU[363]	*->69-1|*->78-1	clause[69]|DefNP[78]	_	_	_	
+44-4	887-892	Küche	GFailure[8]	putzen\_set1\_1[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-putzen\_set1\_1[8]	*[45]	*[45]	object[45]	*[45]	*[45]	false[103]	Decl[103]	*[193]	putzen[193]	transitive[193]	*[193]	*[193]	item0[193]	25[278]	female[278]	t6ah1r7hfmcncb44kgnh0sjmv6[278]	speaker: YOU[363]	*->69-1|*->78-1	clause[69]|DefNP[78]	_	_	_	
+44-5	893-900	geputzt	GFailure[8]	putzen\_set1\_1[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-putzen\_set1\_1[8]	_	_	_	_	_	false[103]	Decl[103]	*[193]	putzen[193]	transitive[193]	*[193]	*[193]	item0[193]	25[278]	female[278]	t6ah1r7hfmcncb44kgnh0sjmv6[278]	speaker: YOU[363]	*->69-1	clause[69]	_	_	_	
+
+#Text=Hm?
+45-1	902-905	Hm?	GFailure[8]	putzen\_set1\_1[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-putzen\_set1\_1[8]	_	_	_	_	_	false	NA	hm\_question\_4	*	*	*	*	feedback	*	female	*	speaker:Alexandra	_	_	_	_	_	
+
+#Text=Das ist doch was Besonderes!
+46-1	907-910	Das	GFailure[8]	putzen\_set1\_1[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-putzen\_set1\_1[8]	*	*	Subj	*	*	false[104]	Decl[104]	*[194]	*[194]	*[194]	*[194]	*[194]	input1[194]	25[279]	female[279]	t6ah1r7hfmcncb44kgnh0sjmv6[279]	speaker: YOU[364]	*->69-2	D-Pron[69]	explanation	*	47-1[105_104]	
+46-2	911-914	ist	GFailure[8]	putzen\_set1\_1[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-putzen\_set1\_1[8]	_	_	_	_	_	false[104]	Decl[104]	*[194]	*[194]	*[194]	*[194]	*[194]	input1[194]	25[279]	female[279]	t6ah1r7hfmcncb44kgnh0sjmv6[279]	speaker: YOU[364]	_	_	_	_	_	
+46-3	915-919	doch	GFailure[8]	putzen\_set1\_1[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-putzen\_set1\_1[8]	_	_	_	_	_	false[104]	Decl[104]	*[194]	*[194]	*[194]	*[194]	*[194]	input1[194]	25[279]	female[279]	t6ah1r7hfmcncb44kgnh0sjmv6[279]	speaker: YOU[364]	_	_	_	_	_	
+46-4	920-923	was	GFailure[8]	putzen\_set1\_1[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-putzen\_set1\_1[8]	_	_	_	_	_	false[104]	Decl[104]	*[194]	*[194]	*[194]	*[194]	*[194]	input1[194]	25[279]	female[279]	t6ah1r7hfmcncb44kgnh0sjmv6[279]	speaker: YOU[364]	_	_	_	_	_	
+46-5	924-935	Besonderes!	GFailure[8]	putzen\_set1\_1[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-putzen\_set1\_1[8]	_	_	_	_	_	false[104]	Decl[104]	*[194]	*[194]	*[194]	*[194]	*[194]	input1[194]	25[279]	female[279]	t6ah1r7hfmcncb44kgnh0sjmv6[279]	speaker: YOU[364]	_	_	_	_	_	
+
+#Text=Sonst macht sie nie irgendwas im Haushalt
+47-1	937-942	Sonst	GFailure[8]	putzen\_set1\_1[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-putzen\_set1\_1[8]	_	_	_	_	_	false[105]	Decl[105]	*[195]	*[195]	*[195]	*[195]	*[195]	input2[195]	25[280]	female[280]	t6ah1r7hfmcncb44kgnh0sjmv6[280]	speaker: YOU[365]	_	_	_	_	_	
+47-2	943-948	macht	GFailure[8]	putzen\_set1\_1[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-putzen\_set1\_1[8]	_	_	_	_	_	false[105]	Decl[105]	*[195]	*[195]	*[195]	*[195]	*[195]	input2[195]	25[280]	female[280]	t6ah1r7hfmcncb44kgnh0sjmv6[280]	speaker: YOU[365]	_	_	_	_	_	
+47-3	949-952	sie	GFailure[8]	putzen\_set1\_1[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-putzen\_set1\_1[8]	3	*	Subj	*	singular	false[105]	Decl[105]	*[195]	*[195]	*[195]	*[195]	*[195]	input2[195]	25[280]	female[280]	t6ah1r7hfmcncb44kgnh0sjmv6[280]	speaker: YOU[365]	*->35-2	PerPron[35]	_	_	_	
+47-4	953-956	nie	GFailure[8]	putzen\_set1\_1[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-putzen\_set1\_1[8]	_	_	_	_	_	false[105]	Decl[105]	*[195]	*[195]	*[195]	*[195]	*[195]	input2[195]	25[280]	female[280]	t6ah1r7hfmcncb44kgnh0sjmv6[280]	speaker: YOU[365]	_	_	_	_	_	
+47-5	957-966	irgendwas	GFailure[8]	putzen\_set1\_1[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-putzen\_set1\_1[8]	_	_	_	_	_	false[105]	Decl[105]	*[195]	*[195]	*[195]	*[195]	*[195]	input2[195]	25[280]	female[280]	t6ah1r7hfmcncb44kgnh0sjmv6[280]	speaker: YOU[365]	_	_	_	_	_	
+47-6	967-969	im	GFailure[8]	putzen\_set1\_1[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-putzen\_set1\_1[8]	_	_	_	_	_	false[105]	Decl[105]	*[195]	*[195]	*[195]	*[195]	*[195]	input2[195]	25[280]	female[280]	t6ah1r7hfmcncb44kgnh0sjmv6[280]	speaker: YOU[365]	*->96-1	DefNP[96]	_	_	_	
+47-7	970-978	Haushalt	GFailure[8]	putzen\_set1\_1[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-putzen\_set1\_1[8]	*	*	PrepObj	*	*	false[105]	Decl[105]	*[195]	*[195]	*[195]	*[195]	*[195]	input2[195]	25[280]	female[280]	t6ah1r7hfmcncb44kgnh0sjmv6[280]	speaker: YOU[365]	*->96-1	DefNP[96]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+48-1	980-995	END_OF_DOCUMENT	GFailure[8]	putzen\_set1\_1[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-putzen\_set1\_1[8]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+49-1	997-1000	Na?	GFailure[9]	putzen\_set1\_1[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-putzen\_set1\_1[9]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Alexandra	_	_	QAP	*	50-1[106_0]	
+
+#Text=Lena hat die Küche geputzt
+50-1	1002-1006	Lena	GFailure[9]	putzen\_set1\_1[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-putzen\_set1\_1[9]	*	*	Subj	*	*	false[106]	Decl[106]	*[196]	putzen[196]	transitive[196]	*[196]	*[196]	item0[196]	29[281]	female[281]	ue2vk0ts1hkpki58vsa3j8t39j[281]	speaker: YOU[366]	*->106-1	PropNm[106]	explanation|CR	*|*	52-1[107_106]|51-1[0_106]	
+50-2	1007-1010	hat	GFailure[9]	putzen\_set1\_1[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-putzen\_set1\_1[9]	_	_	_	_	_	false[106]	Decl[106]	*[196]	putzen[196]	transitive[196]	*[196]	*[196]	item0[196]	29[281]	female[281]	ue2vk0ts1hkpki58vsa3j8t39j[281]	speaker: YOU[366]	_	_	_	_	_	
+50-3	1011-1014	die	GFailure[9]	putzen\_set1\_1[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-putzen\_set1\_1[9]	*[46]	*[46]	object[46]	*[46]	*[46]	false[106]	Decl[106]	*[196]	putzen[196]	transitive[196]	*[196]	*[196]	item0[196]	29[281]	female[281]	ue2vk0ts1hkpki58vsa3j8t39j[281]	speaker: YOU[366]	*->17-1	DefNP[17]	_	_	_	
+50-4	1015-1020	Küche	GFailure[9]	putzen\_set1\_1[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-putzen\_set1\_1[9]	*[46]	*[46]	object[46]	*[46]	*[46]	false[106]	Decl[106]	*[196]	putzen[196]	transitive[196]	*[196]	*[196]	item0[196]	29[281]	female[281]	ue2vk0ts1hkpki58vsa3j8t39j[281]	speaker: YOU[366]	*->17-1	DefNP[17]	_	_	_	
+50-5	1021-1028	geputzt	GFailure[9]	putzen\_set1\_1[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-putzen\_set1\_1[9]	_	_	_	_	_	false[106]	Decl[106]	*[196]	putzen[196]	transitive[196]	*[196]	*[196]	item0[196]	29[281]	female[281]	ue2vk0ts1hkpki58vsa3j8t39j[281]	speaker: YOU[366]	_	_	_	_	_	
+
+#Text=Hm?
+51-1	1030-1033	Hm?	GFailure[9]	putzen\_set1\_1[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-putzen\_set1\_1[9]	_	_	_	_	_	false	NA	hm\_question\_4	*	*	*	*	feedback	*	female	*	speaker:Alexandra	_	_	_	_	_	
+
+#Text=Ihr Freund kommt sie später besuchen.
+52-1	1035-1038	Ihr	GFailure[9]	putzen\_set1\_1[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-putzen\_set1\_1[9]	*[47]|3[48]	*[47]|*[48]	Subj[47]|*[48]	*[47]|*[48]	*[47]|singular[48]	false[107]	Decl[107]	*[197]	*[197]	*[197]	*[197]	*[197]	input1[197]	29[282]	female[282]	ue2vk0ts1hkpki58vsa3j8t39j[282]	speaker: YOU[367]	*->108-1|*->106-2	DefNP[108]|PossePron[106]	result	*	53-1[108_107]	
+52-2	1039-1045	Freund	GFailure[9]	putzen\_set1\_1[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-putzen\_set1\_1[9]	*[47]	*[47]	Subj[47]	*[47]	*[47]	false[107]	Decl[107]	*[197]	*[197]	*[197]	*[197]	*[197]	input1[197]	29[282]	female[282]	ue2vk0ts1hkpki58vsa3j8t39j[282]	speaker: YOU[367]	*->108-1	DefNP[108]	_	_	_	
+52-3	1046-1051	kommt	GFailure[9]	putzen\_set1\_1[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-putzen\_set1\_1[9]	_	_	_	_	_	false[107]	Decl[107]	*[197]	*[197]	*[197]	*[197]	*[197]	input1[197]	29[282]	female[282]	ue2vk0ts1hkpki58vsa3j8t39j[282]	speaker: YOU[367]	_	_	_	_	_	
+52-4	1052-1055	sie	GFailure[9]	putzen\_set1\_1[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-putzen\_set1\_1[9]	3	*	DirObj	*	singular	false[107]	Decl[107]	*[197]	*[197]	*[197]	*[197]	*[197]	input1[197]	29[282]	female[282]	ue2vk0ts1hkpki58vsa3j8t39j[282]	speaker: YOU[367]	*->106-3	PerPron[106]	_	_	_	
+52-5	1056-1062	später	GFailure[9]	putzen\_set1\_1[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-putzen\_set1\_1[9]	_	_	_	_	_	false[107]	Decl[107]	*[197]	*[197]	*[197]	*[197]	*[197]	input1[197]	29[282]	female[282]	ue2vk0ts1hkpki58vsa3j8t39j[282]	speaker: YOU[367]	_	_	_	_	_	
+52-6	1063-1072	besuchen.	GFailure[9]	putzen\_set1\_1[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-putzen\_set1\_1[9]	_	_	_	_	_	false[107]	Decl[107]	*[197]	*[197]	*[197]	*[197]	*[197]	input1[197]	29[282]	female[282]	ue2vk0ts1hkpki58vsa3j8t39j[282]	speaker: YOU[367]	_	_	_	_	_	
+
+#Text=Sie hat vor Aufregung angefangen zu putzen.
+53-1	1074-1077	Sie	GFailure[9]	putzen\_set1\_1[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-putzen\_set1\_1[9]	3	*	Subj	*	singular	false[108]	Decl[108]	*[198]	*[198]	*[198]	*[198]	*[198]	input2[198]	29[283]	female[283]	ue2vk0ts1hkpki58vsa3j8t39j[283]	speaker: YOU[368]	*->106-4	PerPron[106]	_	_	_	
+53-2	1078-1081	hat	GFailure[9]	putzen\_set1\_1[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-putzen\_set1\_1[9]	_	_	_	_	_	false[108]	Decl[108]	*[198]	*[198]	*[198]	*[198]	*[198]	input2[198]	29[283]	female[283]	ue2vk0ts1hkpki58vsa3j8t39j[283]	speaker: YOU[368]	_	_	_	_	_	
+53-3	1082-1085	vor	GFailure[9]	putzen\_set1\_1[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-putzen\_set1\_1[9]	_	_	_	_	_	false[108]	Decl[108]	*[198]	*[198]	*[198]	*[198]	*[198]	input2[198]	29[283]	female[283]	ue2vk0ts1hkpki58vsa3j8t39j[283]	speaker: YOU[368]	_	_	_	_	_	
+53-4	1086-1095	Aufregung	GFailure[9]	putzen\_set1\_1[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-putzen\_set1\_1[9]	*	*	PrepObj	*	*	false[108]	Decl[108]	*[198]	*[198]	*[198]	*[198]	*[198]	input2[198]	29[283]	female[283]	ue2vk0ts1hkpki58vsa3j8t39j[283]	speaker: YOU[368]	*->14-1	IndefNP[14]	_	_	_	
+53-5	1096-1106	angefangen	GFailure[9]	putzen\_set1\_1[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-putzen\_set1\_1[9]	_	_	_	_	_	false[108]	Decl[108]	*[198]	*[198]	*[198]	*[198]	*[198]	input2[198]	29[283]	female[283]	ue2vk0ts1hkpki58vsa3j8t39j[283]	speaker: YOU[368]	_	_	_	_	_	
+53-6	1107-1109	zu	GFailure[9]	putzen\_set1\_1[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-putzen\_set1\_1[9]	_	_	_	_	_	false[108]	Decl[108]	*[198]	*[198]	*[198]	*[198]	*[198]	input2[198]	29[283]	female[283]	ue2vk0ts1hkpki58vsa3j8t39j[283]	speaker: YOU[368]	_	_	_	_	_	
+53-7	1110-1117	putzen.	GFailure[9]	putzen\_set1\_1[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-putzen\_set1\_1[9]	_	_	_	_	_	false[108]	Decl[108]	*[198]	*[198]	*[198]	*[198]	*[198]	input2[198]	29[283]	female[283]	ue2vk0ts1hkpki58vsa3j8t39j[283]	speaker: YOU[368]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+54-1	1119-1134	END_OF_DOCUMENT	GFailure[9]	putzen\_set1\_1[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-putzen\_set1\_1[9]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+55-1	1136-1139	Na?	GFailure[10]	putzen\_set1\_1[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-putzen\_set1\_1[10]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Alexandra	_	_	QAP	*	56-1[109_0]	
+
+#Text=Lena hat die Küche geputzt
+56-1	1141-1145	Lena	GFailure[10]	putzen\_set1\_1[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-putzen\_set1\_1[10]	*	*	Subj	*	*	false[109]	Decl[109]	*[199]	putzen[199]	transitive[199]	*[199]	*[199]	item0[199]	58[284]	male[284]	v3le8i0hm1ekj0ps9oou7k56t5[284]	speaker: YOU[369]	*->103-1	PropNm[103]	elaboration|elaboration|CR	*|*|*	58-1[0_109]|59-1[111_109]|57-1[0_109]	
+56-2	1146-1149	hat	GFailure[10]	putzen\_set1\_1[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-putzen\_set1\_1[10]	_	_	_	_	_	false[109]	Decl[109]	*[199]	putzen[199]	transitive[199]	*[199]	*[199]	item0[199]	58[284]	male[284]	v3le8i0hm1ekj0ps9oou7k56t5[284]	speaker: YOU[369]	*->61-1	clause[61]	_	_	_	
+56-3	1150-1153	die	GFailure[10]	putzen\_set1\_1[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-putzen\_set1\_1[10]	*[49]	*[49]	object[49]	*[49]	*[49]	false[109]	Decl[109]	*[199]	putzen[199]	transitive[199]	*[199]	*[199]	item0[199]	58[284]	male[284]	v3le8i0hm1ekj0ps9oou7k56t5[284]	speaker: YOU[369]	*->61-1|*->43-1	clause[61]|DefNP[43]	_	_	_	
+56-4	1154-1159	Küche	GFailure[10]	putzen\_set1\_1[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-putzen\_set1\_1[10]	*[49]	*[49]	object[49]	*[49]	*[49]	false[109]	Decl[109]	*[199]	putzen[199]	transitive[199]	*[199]	*[199]	item0[199]	58[284]	male[284]	v3le8i0hm1ekj0ps9oou7k56t5[284]	speaker: YOU[369]	*->61-1|*->43-1	clause[61]|DefNP[43]	_	_	_	
+56-5	1160-1167	geputzt	GFailure[10]	putzen\_set1\_1[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-putzen\_set1\_1[10]	_	_	_	_	_	false[109]	Decl[109]	*[199]	putzen[199]	transitive[199]	*[199]	*[199]	item0[199]	58[284]	male[284]	v3le8i0hm1ekj0ps9oou7k56t5[284]	speaker: YOU[369]	*->61-1	clause[61]	_	_	_	
+
+#Text=Hm?
+57-1	1169-1172	Hm?	GFailure[10]	putzen\_set1\_1[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-putzen\_set1\_1[10]	_	_	_	_	_	false	NA	hm\_question\_4	*	*	*	*	feedback	*	female	*	speaker:Alexandra	_	_	_	_	_	
+
+#Text=lena <BR> die putzhilfe
+58-1	1174-1178	lena	GFailure[10]	putzen\_set1\_1[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-putzen\_set1\_1[10]	*[50]	*[50]	Subj[50]	*[50]	*[50]	false	NA	*[200]	*[200]	*[200]	*[200]	*[200]	input1[200]	58[285]	male[285]	v3le8i0hm1ekj0ps9oou7k56t5[285]	speaker: YOU[370]	*->103-2	PropNm[103]	elaboration	*	58-3[110_0]	
+58-2	1179-1183	<BR>	GFailure[10]	putzen\_set1\_1[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-putzen\_set1\_1[10]	*[50]	*[50]	Subj[50]	*[50]	*[50]	_	_	*[200]	*[200]	*[200]	*[200]	*[200]	input1[200]	58[285]	male[285]	v3le8i0hm1ekj0ps9oou7k56t5[285]	speaker: YOU[370]	_	_	_	_	_	
+58-3	1184-1187	die	GFailure[10]	putzen\_set1\_1[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-putzen\_set1\_1[10]	*[50]	*[50]	Subj[50]	*[50]	*[50]	false[110]	NA[110]	*[200]	*[200]	*[200]	*[200]	*[200]	input1[200]	58[285]	male[285]	v3le8i0hm1ekj0ps9oou7k56t5[285]	speaker: YOU[370]	*->103-3	DefNP[103]	_	_	_	
+58-4	1188-1197	putzhilfe	GFailure[10]	putzen\_set1\_1[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-putzen\_set1\_1[10]	*[50]	*[50]	Subj[50]	*[50]	*[50]	false[110]	NA[110]	*[200]	*[200]	*[200]	*[200]	*[200]	input1[200]	58[285]	male[285]	v3le8i0hm1ekj0ps9oou7k56t5[285]	speaker: YOU[370]	*->103-3	DefNP[103]	_	_	_	
+
+#Text=macht das richtig gut
+59-1	1199-1204	macht	GFailure[10]	putzen\_set1\_1[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-putzen\_set1\_1[10]	3	*	*	*	singular	false[111]	Decl[111]	*[201]	*[201]	*[201]	*[201]	*[201]	input2[201]	58[286]	male[286]	v3le8i0hm1ekj0ps9oou7k56t5[286]	speaker: YOU[371]	*->103-4	zero[103]	_	_	_	
+59-2	1205-1208	das	GFailure[10]	putzen\_set1\_1[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-putzen\_set1\_1[10]	*	*	DirObj	*	*	false[111]	Decl[111]	*[201]	*[201]	*[201]	*[201]	*[201]	input2[201]	58[286]	male[286]	v3le8i0hm1ekj0ps9oou7k56t5[286]	speaker: YOU[371]	*->61-2	D-Pron[61]	_	_	_	
+59-3	1209-1216	richtig	GFailure[10]	putzen\_set1\_1[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-putzen\_set1\_1[10]	_	_	_	_	_	false[111]	Decl[111]	*[201]	*[201]	*[201]	*[201]	*[201]	input2[201]	58[286]	male[286]	v3le8i0hm1ekj0ps9oou7k56t5[286]	speaker: YOU[371]	_	_	_	_	_	
+59-4	1217-1220	gut	GFailure[10]	putzen\_set1\_1[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-putzen\_set1\_1[10]	_	_	_	_	_	false[111]	Decl[111]	*[201]	*[201]	*[201]	*[201]	*[201]	input2[201]	58[286]	male[286]	v3le8i0hm1ekj0ps9oou7k56t5[286]	speaker: YOU[371]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+60-1	1222-1237	END_OF_DOCUMENT	GFailure[10]	putzen\_set1\_1[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-putzen\_set1\_1[10]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+61-1	1239-1242	Na?	GSuccess[11]	putzen\_set1\_1[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-putzen\_set1\_1[11]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Alexandra	_	_	QAP	*	62-1[112_0]	
+
+#Text=Lena hat die Küche geputzt
+62-1	1244-1248	Lena	GSuccess[11]	putzen\_set1\_1[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-putzen\_set1\_1[11]	*	*	Subj	*	*	false[112]	Decl[112]	*[202]	putzen[202]	transitive[202]	*[202]	*[202]	item0[202]	35[287]	female[287]	2k56uavscuainedj0q9i1sb693[287]	speaker: YOU[372]	*->94-1|*->82-1	clause[94]|PropNm[82]	elaboration|acknowledgement	*|*	64-1[0_112]|63-1[0_112]	
+62-2	1249-1252	hat	GSuccess[11]	putzen\_set1\_1[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-putzen\_set1\_1[11]	_	_	_	_	_	false[112]	Decl[112]	*[202]	putzen[202]	transitive[202]	*[202]	*[202]	item0[202]	35[287]	female[287]	2k56uavscuainedj0q9i1sb693[287]	speaker: YOU[372]	*->94-1	clause[94]	_	_	_	
+62-3	1253-1256	die	GSuccess[11]	putzen\_set1\_1[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-putzen\_set1\_1[11]	*[51]	*[51]	object[51]	*[51]	*[51]	false[112]	Decl[112]	*[202]	putzen[202]	transitive[202]	*[202]	*[202]	item0[202]	35[287]	female[287]	2k56uavscuainedj0q9i1sb693[287]	speaker: YOU[372]	*->94-1|*->91-1	clause[94]|DefNP[91]	_	_	_	
+62-4	1257-1262	Küche	GSuccess[11]	putzen\_set1\_1[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-putzen\_set1\_1[11]	*[51]	*[51]	object[51]	*[51]	*[51]	false[112]	Decl[112]	*[202]	putzen[202]	transitive[202]	*[202]	*[202]	item0[202]	35[287]	female[287]	2k56uavscuainedj0q9i1sb693[287]	speaker: YOU[372]	*->94-1|*->91-1	clause[94]|DefNP[91]	_	_	_	
+62-5	1263-1270	geputzt	GSuccess[11]	putzen\_set1\_1[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-putzen\_set1\_1[11]	_	_	_	_	_	false[112]	Decl[112]	*[202]	putzen[202]	transitive[202]	*[202]	*[202]	item0[202]	35[287]	female[287]	2k56uavscuainedj0q9i1sb693[287]	speaker: YOU[372]	*->94-1	clause[94]	_	_	_	
+
+#Text=Krass!
+63-1	1272-1278	Krass!	GSuccess[11]	putzen\_set1\_1[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-putzen\_set1\_1[11]	_	_	_	_	_	false	NA	krass\_exclamation\_18	*	*	*	*	feedback	*	female	*	speaker:Alexandra	_	_	_	_	_	
+
+#Text=Endlich.
+64-1	1280-1288	Endlich.	GSuccess[11]	putzen\_set1\_1[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-putzen\_set1\_1[11]	_	_	_	_	_	false	NA	*	*	*	*	*	input1	35	female	2k56uavscuainedj0q9i1sb693	speaker: YOU	_	_	elaboration	*	65-1[113_0]	
+
+#Text=Wurde auch wirklich Zeit.
+65-1	1290-1295	Wurde	GSuccess[11]	putzen\_set1\_1[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-putzen\_set1\_1[11]	3	*	*	*	singular	false[113]	Decl[113]	*[203]	*[203]	*[203]	*[203]	*[203]	input2[203]	35[288]	female[288]	2k56uavscuainedj0q9i1sb693[288]	speaker: YOU[373]	*->94-2	zero[94]	_	_	_	
+65-2	1296-1300	auch	GSuccess[11]	putzen\_set1\_1[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-putzen\_set1\_1[11]	_	_	_	_	_	false[113]	Decl[113]	*[203]	*[203]	*[203]	*[203]	*[203]	input2[203]	35[288]	female[288]	2k56uavscuainedj0q9i1sb693[288]	speaker: YOU[373]	_	_	_	_	_	
+65-3	1301-1309	wirklich	GSuccess[11]	putzen\_set1\_1[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-putzen\_set1\_1[11]	_	_	_	_	_	false[113]	Decl[113]	*[203]	*[203]	*[203]	*[203]	*[203]	input2[203]	35[288]	female[288]	2k56uavscuainedj0q9i1sb693[288]	speaker: YOU[373]	_	_	_	_	_	
+65-4	1310-1315	Zeit.	GSuccess[11]	putzen\_set1\_1[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-putzen\_set1\_1[11]	_	_	_	_	_	false[113]	Decl[113]	*[203]	*[203]	*[203]	*[203]	*[203]	input2[203]	35[288]	female[288]	2k56uavscuainedj0q9i1sb693[288]	speaker: YOU[373]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+66-1	1317-1332	END_OF_DOCUMENT	GSuccess[11]	putzen\_set1\_1[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-putzen\_set1\_1[11]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+67-1	1334-1337	Na?	GSuccess[12]	putzen\_set1\_1[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-putzen\_set1\_1[12]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Alexandra	_	_	QAP	*	68-1[114_0]	
+
+#Text=Lena hat die Küche geputzt
+68-1	1339-1343	Lena	GSuccess[12]	putzen\_set1\_1[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-putzen\_set1\_1[12]	*	*	Subj	*	*	false[114]	Decl[114]	*[204]	putzen[204]	transitive[204]	*[204]	*[204]	item0[204]	46[289]	male[289]	7bq5ecc5fndmatjvd44havavdp[289]	speaker: YOU[374]	*->42-1	PropNm[42]	acknowledgement	*	69-1[0_114]	
+68-2	1344-1347	hat	GSuccess[12]	putzen\_set1\_1[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-putzen\_set1\_1[12]	_	_	_	_	_	false[114]	Decl[114]	*[204]	putzen[204]	transitive[204]	*[204]	*[204]	item0[204]	46[289]	male[289]	7bq5ecc5fndmatjvd44havavdp[289]	speaker: YOU[374]	_	_	_	_	_	
+68-3	1348-1351	die	GSuccess[12]	putzen\_set1\_1[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-putzen\_set1\_1[12]	*[52]	*[52]	object[52]	*[52]	*[52]	false[114]	Decl[114]	*[204]	putzen[204]	transitive[204]	*[204]	*[204]	item0[204]	46[289]	male[289]	7bq5ecc5fndmatjvd44havavdp[289]	speaker: YOU[374]	*->25-1	DefNP[25]	_	_	_	
+68-4	1352-1357	Küche	GSuccess[12]	putzen\_set1\_1[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-putzen\_set1\_1[12]	*[52]	*[52]	object[52]	*[52]	*[52]	false[114]	Decl[114]	*[204]	putzen[204]	transitive[204]	*[204]	*[204]	item0[204]	46[289]	male[289]	7bq5ecc5fndmatjvd44havavdp[289]	speaker: YOU[374]	*->25-1	DefNP[25]	_	_	_	
+68-5	1358-1365	geputzt	GSuccess[12]	putzen\_set1\_1[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-putzen\_set1\_1[12]	_	_	_	_	_	false[114]	Decl[114]	*[204]	putzen[204]	transitive[204]	*[204]	*[204]	item0[204]	46[289]	male[289]	7bq5ecc5fndmatjvd44havavdp[289]	speaker: YOU[374]	_	_	_	_	_	
+
+#Text=Krass!
+69-1	1367-1373	Krass!	GSuccess[12]	putzen\_set1\_1[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-putzen\_set1\_1[12]	_	_	_	_	_	false	NA	krass\_exclamation\_18	*	*	*	*	feedback	*	female	*	speaker:Alexandra	_	_	*	*	70-1[115_0]	
+
+#Text=ach komm tu nicht so
+70-1	1375-1378	ach	GSuccess[12]	putzen\_set1\_1[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-putzen\_set1\_1[12]	_	_	_	_	_	false[115]	Imp[115]	*[205]	*[205]	*[205]	*[205]	*[205]	input1[205]	46[290]	male[290]	7bq5ecc5fndmatjvd44havavdp[290]	speaker: YOU[375]	_	_	_	_	_	
+70-2	1379-1383	komm	GSuccess[12]	putzen\_set1\_1[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-putzen\_set1\_1[12]	_	_	_	_	_	false[115]	Imp[115]	*[205]	*[205]	*[205]	*[205]	*[205]	input1[205]	46[290]	male[290]	7bq5ecc5fndmatjvd44havavdp[290]	speaker: YOU[375]	_	_	_	_	_	
+70-3	1384-1386	tu	GSuccess[12]	putzen\_set1\_1[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-putzen\_set1\_1[12]	_	_	_	_	_	false[116]	Imp[116]	*[205]	*[205]	*[205]	*[205]	*[205]	input1[205]	46[290]	male[290]	7bq5ecc5fndmatjvd44havavdp[290]	speaker: YOU[375]	_	_	_	_	_	
+70-4	1387-1392	nicht	GSuccess[12]	putzen\_set1\_1[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-putzen\_set1\_1[12]	_	_	_	_	_	false[116]	Imp[116]	*[205]	*[205]	*[205]	*[205]	*[205]	input1[205]	46[290]	male[290]	7bq5ecc5fndmatjvd44havavdp[290]	speaker: YOU[375]	_	_	_	_	_	
+70-5	1393-1395	so	GSuccess[12]	putzen\_set1\_1[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-putzen\_set1\_1[12]	_	_	_	_	_	false[116]	Imp[116]	*[205]	*[205]	*[205]	*[205]	*[205]	input1[205]	46[290]	male[290]	7bq5ecc5fndmatjvd44havavdp[290]	speaker: YOU[375]	_	_	_	_	_	
+
+#Text=sie ist superfleissig!
+71-1	1397-1400	sie	GSuccess[12]	putzen\_set1\_1[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-putzen\_set1\_1[12]	3	*	Subj	*	singular	false[117]	Decl[117]	*[206]	*[206]	*[206]	*[206]	*[206]	input2[206]	46[291]	male[291]	7bq5ecc5fndmatjvd44havavdp[291]	speaker: YOU[376]	*->42-2	PerPron[42]	_	_	_	
+71-2	1401-1404	ist	GSuccess[12]	putzen\_set1\_1[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-putzen\_set1\_1[12]	_	_	_	_	_	false[117]	Decl[117]	*[206]	*[206]	*[206]	*[206]	*[206]	input2[206]	46[291]	male[291]	7bq5ecc5fndmatjvd44havavdp[291]	speaker: YOU[376]	_	_	_	_	_	
+71-3	1405-1419	superfleissig!	GSuccess[12]	putzen\_set1\_1[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-putzen\_set1\_1[12]	_	_	_	_	_	false[117]	Decl[117]	*[206]	*[206]	*[206]	*[206]	*[206]	input2[206]	46[291]	male[291]	7bq5ecc5fndmatjvd44havavdp[291]	speaker: YOU[376]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+72-1	1421-1436	END_OF_DOCUMENT	GSuccess[12]	putzen\_set1\_1[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-putzen\_set1\_1[12]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+73-1	1438-1441	Na?	GSuccess[13]	putzen\_set1\_1[13]	latin1[13]	9bb79dhfhst017575orahklqol-putzen\_set1\_1[13]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Alexandra	_	_	QAP	*	74-1[118_0]	
+
+#Text=Lena hat die Küche geputzt
+74-1	1443-1447	Lena	GSuccess[13]	putzen\_set1\_1[13]	latin1[13]	9bb79dhfhst017575orahklqol-putzen\_set1\_1[13]	*	*	Subj	*	*	false[118]	Decl[118]	*[207]	putzen[207]	transitive[207]	*[207]	*[207]	item0[207]	37[292]	female[292]	9bb79dhfhst017575orahklqol[292]	speaker: YOU[377]	*->55-1|*->53-1	clause[55]|PropNm[53]	elaboration|acknowledgement	*|*	76-1[119_118]|75-1[0_118]	
+74-2	1448-1451	hat	GSuccess[13]	putzen\_set1\_1[13]	latin1[13]	9bb79dhfhst017575orahklqol-putzen\_set1\_1[13]	_	_	_	_	_	false[118]	Decl[118]	*[207]	putzen[207]	transitive[207]	*[207]	*[207]	item0[207]	37[292]	female[292]	9bb79dhfhst017575orahklqol[292]	speaker: YOU[377]	*->55-1	clause[55]	_	_	_	
+74-3	1452-1455	die	GSuccess[13]	putzen\_set1\_1[13]	latin1[13]	9bb79dhfhst017575orahklqol-putzen\_set1\_1[13]	*[53]	*[53]	object[53]	*[53]	*[53]	false[118]	Decl[118]	*[207]	putzen[207]	transitive[207]	*[207]	*[207]	item0[207]	37[292]	female[292]	9bb79dhfhst017575orahklqol[292]	speaker: YOU[377]	*->55-1|*->16-1	clause[55]|DefNP[16]	_	_	_	
+74-4	1456-1461	Küche	GSuccess[13]	putzen\_set1\_1[13]	latin1[13]	9bb79dhfhst017575orahklqol-putzen\_set1\_1[13]	*[53]	*[53]	object[53]	*[53]	*[53]	false[118]	Decl[118]	*[207]	putzen[207]	transitive[207]	*[207]	*[207]	item0[207]	37[292]	female[292]	9bb79dhfhst017575orahklqol[292]	speaker: YOU[377]	*->55-1|*->16-1	clause[55]|DefNP[16]	_	_	_	
+74-5	1462-1469	geputzt	GSuccess[13]	putzen\_set1\_1[13]	latin1[13]	9bb79dhfhst017575orahklqol-putzen\_set1\_1[13]	_	_	_	_	_	false[118]	Decl[118]	*[207]	putzen[207]	transitive[207]	*[207]	*[207]	item0[207]	37[292]	female[292]	9bb79dhfhst017575orahklqol[292]	speaker: YOU[377]	*->55-1	clause[55]	_	_	_	
+
+#Text=Krass!
+75-1	1471-1477	Krass!	GSuccess[13]	putzen\_set1\_1[13]	latin1[13]	9bb79dhfhst017575orahklqol-putzen\_set1\_1[13]	_	_	_	_	_	false	NA	krass\_exclamation\_18	*	*	*	*	feedback	*	female	*	speaker:Alexandra	_	_	parallel	*	76-1[119_0]	
+
+#Text=war genauso geschockt wie du
+76-1	1479-1482	war	GSuccess[13]	putzen\_set1\_1[13]	latin1[13]	9bb79dhfhst017575orahklqol-putzen\_set1\_1[13]	1	*	*	*	singular	false[119]	Decl[119]	*[208]	*[208]	*[208]	*[208]	*[208]	input1[208]	37[293]	female[293]	9bb79dhfhst017575orahklqol[293]	speaker: YOU[378]	*->71-1	zero[71]	explanation	*	77-1[120_119]	
+76-2	1483-1490	genauso	GSuccess[13]	putzen\_set1\_1[13]	latin1[13]	9bb79dhfhst017575orahklqol-putzen\_set1\_1[13]	_	_	_	_	_	false[119]	Decl[119]	*[208]	*[208]	*[208]	*[208]	*[208]	input1[208]	37[293]	female[293]	9bb79dhfhst017575orahklqol[293]	speaker: YOU[378]	_	_	_	_	_	
+76-3	1491-1500	geschockt	GSuccess[13]	putzen\_set1\_1[13]	latin1[13]	9bb79dhfhst017575orahklqol-putzen\_set1\_1[13]	_	_	_	_	_	false[119]	Decl[119]	*[208]	*[208]	*[208]	*[208]	*[208]	input1[208]	37[293]	female[293]	9bb79dhfhst017575orahklqol[293]	speaker: YOU[378]	_	_	_	_	_	
+76-4	1501-1504	wie	GSuccess[13]	putzen\_set1\_1[13]	latin1[13]	9bb79dhfhst017575orahklqol-putzen\_set1\_1[13]	_	_	_	_	_	false[119]	Decl[119]	*[208]	*[208]	*[208]	*[208]	*[208]	input1[208]	37[293]	female[293]	9bb79dhfhst017575orahklqol[293]	speaker: YOU[378]	_	_	_	_	_	
+76-5	1505-1507	du	GSuccess[13]	putzen\_set1\_1[13]	latin1[13]	9bb79dhfhst017575orahklqol-putzen\_set1\_1[13]	2	*	*	*	singular	false[119]	Decl[119]	*[208]	*[208]	*[208]	*[208]	*[208]	input1[208]	37[293]	female[293]	9bb79dhfhst017575orahklqol[293]	speaker: YOU[378]	*->102-1	PerPron[102]	_	_	_	
+
+#Text=das wird denke so schnell nicht mehr vorkommen
+77-1	1509-1512	das	GSuccess[13]	putzen\_set1\_1[13]	latin1[13]	9bb79dhfhst017575orahklqol-putzen\_set1\_1[13]	*	*	Subj	*	*	false[120]	Decl[120]	*[209]	*[209]	*[209]	*[209]	*[209]	input2[209]	37[294]	female[294]	9bb79dhfhst017575orahklqol[294]	speaker: YOU[379]	*->55-2	D-Pron[55]	_	_	_	
+77-2	1513-1517	wird	GSuccess[13]	putzen\_set1\_1[13]	latin1[13]	9bb79dhfhst017575orahklqol-putzen\_set1\_1[13]	_	_	_	_	_	false[120]	Decl[120]	*[209]	*[209]	*[209]	*[209]	*[209]	input2[209]	37[294]	female[294]	9bb79dhfhst017575orahklqol[294]	speaker: YOU[379]	_	_	_	_	_	
+77-3	1518-1523	denke	GSuccess[13]	putzen\_set1\_1[13]	latin1[13]	9bb79dhfhst017575orahklqol-putzen\_set1\_1[13]	1	*	*	*	singular	false[120]	Decl[120]	*[209]	*[209]	*[209]	*[209]	*[209]	input2[209]	37[294]	female[294]	9bb79dhfhst017575orahklqol[294]	speaker: YOU[379]	*->71-2	zero[71]	_	_	_	
+77-4	1524-1526	so	GSuccess[13]	putzen\_set1\_1[13]	latin1[13]	9bb79dhfhst017575orahklqol-putzen\_set1\_1[13]	_	_	_	_	_	false[120]	Decl[120]	*[209]	*[209]	*[209]	*[209]	*[209]	input2[209]	37[294]	female[294]	9bb79dhfhst017575orahklqol[294]	speaker: YOU[379]	_	_	_	_	_	
+77-5	1527-1534	schnell	GSuccess[13]	putzen\_set1\_1[13]	latin1[13]	9bb79dhfhst017575orahklqol-putzen\_set1\_1[13]	_	_	_	_	_	false[120]	Decl[120]	*[209]	*[209]	*[209]	*[209]	*[209]	input2[209]	37[294]	female[294]	9bb79dhfhst017575orahklqol[294]	speaker: YOU[379]	_	_	_	_	_	
+77-6	1535-1540	nicht	GSuccess[13]	putzen\_set1\_1[13]	latin1[13]	9bb79dhfhst017575orahklqol-putzen\_set1\_1[13]	_	_	_	_	_	false[120]	Decl[120]	*[209]	*[209]	*[209]	*[209]	*[209]	input2[209]	37[294]	female[294]	9bb79dhfhst017575orahklqol[294]	speaker: YOU[379]	_	_	_	_	_	
+77-7	1541-1545	mehr	GSuccess[13]	putzen\_set1\_1[13]	latin1[13]	9bb79dhfhst017575orahklqol-putzen\_set1\_1[13]	_	_	_	_	_	false[120]	Decl[120]	*[209]	*[209]	*[209]	*[209]	*[209]	input2[209]	37[294]	female[294]	9bb79dhfhst017575orahklqol[294]	speaker: YOU[379]	_	_	_	_	_	
+77-8	1546-1555	vorkommen	GSuccess[13]	putzen\_set1\_1[13]	latin1[13]	9bb79dhfhst017575orahklqol-putzen\_set1\_1[13]	_	_	_	_	_	false[120]	Decl[120]	*[209]	*[209]	*[209]	*[209]	*[209]	input2[209]	37[294]	female[294]	9bb79dhfhst017575orahklqol[294]	speaker: YOU[379]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+78-1	1557-1572	END_OF_DOCUMENT	GSuccess[13]	putzen\_set1\_1[13]	latin1[13]	9bb79dhfhst017575orahklqol-putzen\_set1\_1[13]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+79-1	1574-1577	Na?	GSuccess[14]	putzen\_set1\_1[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-putzen\_set1\_1[14]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Alexandra	_	_	QAP	*	80-1[121_0]	
+
+#Text=Lena hat die Küche geputzt
+80-1	1579-1583	Lena	GSuccess[14]	putzen\_set1\_1[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-putzen\_set1\_1[14]	*	*	Subj	*	*	false[121]	Decl[121]	*[210]	putzen[210]	transitive[210]	*[210]	*[210]	item0[210]	21[295]	male[295]	afpst3sherp4732c4se5ajftkq[295]	speaker: YOU[380]	*->23-1	PropNm[23]	elaboration|acknowledgement	*|*	82-1[122_121]|81-1[0_121]	
+80-2	1584-1587	hat	GSuccess[14]	putzen\_set1\_1[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-putzen\_set1\_1[14]	_	_	_	_	_	false[121]	Decl[121]	*[210]	putzen[210]	transitive[210]	*[210]	*[210]	item0[210]	21[295]	male[295]	afpst3sherp4732c4se5ajftkq[295]	speaker: YOU[380]	_	_	_	_	_	
+80-3	1588-1591	die	GSuccess[14]	putzen\_set1\_1[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-putzen\_set1\_1[14]	*[54]	*[54]	object[54]	*[54]	*[54]	false[121]	Decl[121]	*[210]	putzen[210]	transitive[210]	*[210]	*[210]	item0[210]	21[295]	male[295]	afpst3sherp4732c4se5ajftkq[295]	speaker: YOU[380]	*->36-1	DefNP[36]	_	_	_	
+80-4	1592-1597	Küche	GSuccess[14]	putzen\_set1\_1[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-putzen\_set1\_1[14]	*[54]	*[54]	object[54]	*[54]	*[54]	false[121]	Decl[121]	*[210]	putzen[210]	transitive[210]	*[210]	*[210]	item0[210]	21[295]	male[295]	afpst3sherp4732c4se5ajftkq[295]	speaker: YOU[380]	*->36-1	DefNP[36]	_	_	_	
+80-5	1598-1605	geputzt	GSuccess[14]	putzen\_set1\_1[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-putzen\_set1\_1[14]	_	_	_	_	_	false[121]	Decl[121]	*[210]	putzen[210]	transitive[210]	*[210]	*[210]	item0[210]	21[295]	male[295]	afpst3sherp4732c4se5ajftkq[295]	speaker: YOU[380]	_	_	_	_	_	
+
+#Text=Krass!
+81-1	1607-1613	Krass!	GSuccess[14]	putzen\_set1\_1[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-putzen\_set1\_1[14]	_	_	_	_	_	false	NA	krass\_exclamation\_18	*	*	*	*	feedback	*	female	*	speaker:Alexandra	_	_	_	_	_	
+
+#Text=Ja einfach so!
+82-1	1615-1617	Ja	GSuccess[14]	putzen\_set1\_1[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-putzen\_set1\_1[14]	_	_	_	_	_	false[122]	NA[122]	*[211]	*[211]	*[211]	*[211]	*[211]	input1[211]	21[296]	male[296]	afpst3sherp4732c4se5ajftkq[296]	speaker: YOU[381]	_	_	elaboration	*	83-1[123_122]	
+82-2	1618-1625	einfach	GSuccess[14]	putzen\_set1\_1[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-putzen\_set1\_1[14]	_	_	_	_	_	false[122]	NA[122]	*[211]	*[211]	*[211]	*[211]	*[211]	input1[211]	21[296]	male[296]	afpst3sherp4732c4se5ajftkq[296]	speaker: YOU[381]	_	_	_	_	_	
+82-3	1626-1629	so!	GSuccess[14]	putzen\_set1\_1[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-putzen\_set1\_1[14]	_	_	_	_	_	false[122]	NA[122]	*[211]	*[211]	*[211]	*[211]	*[211]	input1[211]	21[296]	male[296]	afpst3sherp4732c4se5ajftkq[296]	speaker: YOU[381]	_	_	_	_	_	
+
+#Text=Ich musste gar nichts sagen.
+83-1	1631-1634	Ich	GSuccess[14]	putzen\_set1\_1[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-putzen\_set1\_1[14]	1	*	Subj	*	singular	false[123]	Decl[123]	*[212]	*[212]	*[212]	*[212]	*[212]	input2[212]	21[297]	male[297]	afpst3sherp4732c4se5ajftkq[297]	speaker: YOU[382]	*->40-1	PerPron[40]	_	_	_	
+83-2	1635-1641	musste	GSuccess[14]	putzen\_set1\_1[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-putzen\_set1\_1[14]	_	_	_	_	_	false[123]	Decl[123]	*[212]	*[212]	*[212]	*[212]	*[212]	input2[212]	21[297]	male[297]	afpst3sherp4732c4se5ajftkq[297]	speaker: YOU[382]	_	_	_	_	_	
+83-3	1642-1645	gar	GSuccess[14]	putzen\_set1\_1[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-putzen\_set1\_1[14]	_	_	_	_	_	false[123]	Decl[123]	*[212]	*[212]	*[212]	*[212]	*[212]	input2[212]	21[297]	male[297]	afpst3sherp4732c4se5ajftkq[297]	speaker: YOU[382]	_	_	_	_	_	
+83-4	1646-1652	nichts	GSuccess[14]	putzen\_set1\_1[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-putzen\_set1\_1[14]	_	_	_	_	_	false[123]	Decl[123]	*[212]	*[212]	*[212]	*[212]	*[212]	input2[212]	21[297]	male[297]	afpst3sherp4732c4se5ajftkq[297]	speaker: YOU[382]	_	_	_	_	_	
+83-5	1653-1659	sagen.	GSuccess[14]	putzen\_set1\_1[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-putzen\_set1\_1[14]	_	_	_	_	_	false[123]	Decl[123]	*[212]	*[212]	*[212]	*[212]	*[212]	input2[212]	21[297]	male[297]	afpst3sherp4732c4se5ajftkq[297]	speaker: YOU[382]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+84-1	1661-1676	END_OF_DOCUMENT	GSuccess[14]	putzen\_set1\_1[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-putzen\_set1\_1[14]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+85-1	1678-1681	Na?	GSuccess[15]	putzen\_set1\_1[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-putzen\_set1\_1[15]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Alexandra	_	_	QAP	*	86-1[124_0]	
+
+#Text=Lena hat die Küche geputzt
+86-1	1683-1687	Lena	GSuccess[15]	putzen\_set1\_1[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-putzen\_set1\_1[15]	*	*	Subj	*	*	false[124]	Decl[124]	*[213]	putzen[213]	transitive[213]	*[213]	*[213]	item0[213]	42[298]	female[298]	blj8i1h4sc8jti0m6gcav1c9ek[298]	speaker: YOU[383]	*->66-1	PropNm[66]	parallel|acknowledgement	*|*	89-1[127_124]|87-1[0_124]	
+86-2	1688-1691	hat	GSuccess[15]	putzen\_set1\_1[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-putzen\_set1\_1[15]	_	_	_	_	_	false[124]	Decl[124]	*[213]	putzen[213]	transitive[213]	*[213]	*[213]	item0[213]	42[298]	female[298]	blj8i1h4sc8jti0m6gcav1c9ek[298]	speaker: YOU[383]	*->45-1	clause[45]	_	_	_	
+86-3	1692-1695	die	GSuccess[15]	putzen\_set1\_1[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-putzen\_set1\_1[15]	*[55]	*[55]	object[55]	*[55]	*[55]	false[124]	Decl[124]	*[213]	putzen[213]	transitive[213]	*[213]	*[213]	item0[213]	42[298]	female[298]	blj8i1h4sc8jti0m6gcav1c9ek[298]	speaker: YOU[383]	*->45-1|*->21-1	clause[45]|DefNP[21]	_	_	_	
+86-4	1696-1701	Küche	GSuccess[15]	putzen\_set1\_1[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-putzen\_set1\_1[15]	*[55]	*[55]	object[55]	*[55]	*[55]	false[124]	Decl[124]	*[213]	putzen[213]	transitive[213]	*[213]	*[213]	item0[213]	42[298]	female[298]	blj8i1h4sc8jti0m6gcav1c9ek[298]	speaker: YOU[383]	*->45-1|*->21-1	clause[45]|DefNP[21]	_	_	_	
+86-5	1702-1709	geputzt	GSuccess[15]	putzen\_set1\_1[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-putzen\_set1\_1[15]	_	_	_	_	_	false[124]	Decl[124]	*[213]	putzen[213]	transitive[213]	*[213]	*[213]	item0[213]	42[298]	female[298]	blj8i1h4sc8jti0m6gcav1c9ek[298]	speaker: YOU[383]	*->45-1	clause[45]	_	_	_	
+
+#Text=Krass!
+87-1	1711-1717	Krass!	GSuccess[15]	putzen\_set1\_1[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-putzen\_set1\_1[15]	_	_	_	_	_	false	NA	krass\_exclamation\_18	*	*	*	*	feedback	*	female	*	speaker:Alexandra	_	_	acknowledgement	*	88-1[125_0]	
+
+#Text=Aber wirklich <BR> das macht sie sonst nie!
+88-1	1719-1723	Aber	GSuccess[15]	putzen\_set1\_1[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-putzen\_set1\_1[15]	_	_	_	_	_	false[125]	NA[125]	*[214]	*[214]	*[214]	*[214]	*[214]	input1[214]	42[299]	female[299]	blj8i1h4sc8jti0m6gcav1c9ek[299]	speaker: YOU[384]	_	_	explanation	*	88-4[126_125]	
+88-2	1724-1732	wirklich	GSuccess[15]	putzen\_set1\_1[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-putzen\_set1\_1[15]	_	_	_	_	_	false[125]	NA[125]	*[214]	*[214]	*[214]	*[214]	*[214]	input1[214]	42[299]	female[299]	blj8i1h4sc8jti0m6gcav1c9ek[299]	speaker: YOU[384]	_	_	_	_	_	
+88-3	1733-1737	<BR>	GSuccess[15]	putzen\_set1\_1[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-putzen\_set1\_1[15]	_	_	_	_	_	_	_	*[214]	*[214]	*[214]	*[214]	*[214]	input1[214]	42[299]	female[299]	blj8i1h4sc8jti0m6gcav1c9ek[299]	speaker: YOU[384]	_	_	_	_	_	
+88-4	1738-1741	das	GSuccess[15]	putzen\_set1\_1[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-putzen\_set1\_1[15]	*	*	DirObj	*	*	false[126]	Decl[126]	*[214]	*[214]	*[214]	*[214]	*[214]	input1[214]	42[299]	female[299]	blj8i1h4sc8jti0m6gcav1c9ek[299]	speaker: YOU[384]	*->45-2	D-Pron[45]	_	_	_	
+88-5	1742-1747	macht	GSuccess[15]	putzen\_set1\_1[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-putzen\_set1\_1[15]	_	_	_	_	_	false[126]	Decl[126]	*[214]	*[214]	*[214]	*[214]	*[214]	input1[214]	42[299]	female[299]	blj8i1h4sc8jti0m6gcav1c9ek[299]	speaker: YOU[384]	_	_	_	_	_	
+88-6	1748-1751	sie	GSuccess[15]	putzen\_set1\_1[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-putzen\_set1\_1[15]	3	*	Subj	*	singular	false[126]	Decl[126]	*[214]	*[214]	*[214]	*[214]	*[214]	input1[214]	42[299]	female[299]	blj8i1h4sc8jti0m6gcav1c9ek[299]	speaker: YOU[384]	*->66-2	PerPron[66]	_	_	_	
+88-7	1752-1757	sonst	GSuccess[15]	putzen\_set1\_1[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-putzen\_set1\_1[15]	_	_	_	_	_	false[126]	Decl[126]	*[214]	*[214]	*[214]	*[214]	*[214]	input1[214]	42[299]	female[299]	blj8i1h4sc8jti0m6gcav1c9ek[299]	speaker: YOU[384]	_	_	_	_	_	
+88-8	1758-1762	nie!	GSuccess[15]	putzen\_set1\_1[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-putzen\_set1\_1[15]	_	_	_	_	_	false[126]	Decl[126]	*[214]	*[214]	*[214]	*[214]	*[214]	input1[214]	42[299]	female[299]	blj8i1h4sc8jti0m6gcav1c9ek[299]	speaker: YOU[384]	_	_	_	_	_	
+
+#Text=Was machst Du heute?
+89-1	1764-1767	Was	GSuccess[15]	putzen\_set1\_1[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-putzen\_set1\_1[15]	_	_	_	_	_	false[127]	Int[127]	*[215]	*[215]	*[215]	*[215]	*[215]	input2[215]	42[300]	female[300]	blj8i1h4sc8jti0m6gcav1c9ek[300]	speaker: YOU[385]	_	_	_	_	_	
+89-2	1768-1774	machst	GSuccess[15]	putzen\_set1\_1[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-putzen\_set1\_1[15]	_	_	_	_	_	false[127]	Int[127]	*[215]	*[215]	*[215]	*[215]	*[215]	input2[215]	42[300]	female[300]	blj8i1h4sc8jti0m6gcav1c9ek[300]	speaker: YOU[385]	_	_	_	_	_	
+89-3	1775-1777	Du	GSuccess[15]	putzen\_set1\_1[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-putzen\_set1\_1[15]	2	*	Subj	*	singular	false[127]	Int[127]	*[215]	*[215]	*[215]	*[215]	*[215]	input2[215]	42[300]	female[300]	blj8i1h4sc8jti0m6gcav1c9ek[300]	speaker: YOU[385]	*->113-1	PerPron[113]	_	_	_	
+89-4	1778-1784	heute?	GSuccess[15]	putzen\_set1\_1[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-putzen\_set1\_1[15]	_	_	_	_	_	false[127]	Int[127]	*[215]	*[215]	*[215]	*[215]	*[215]	input2[215]	42[300]	female[300]	blj8i1h4sc8jti0m6gcav1c9ek[300]	speaker: YOU[385]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+90-1	1786-1801	END_OF_DOCUMENT	GSuccess[15]	putzen\_set1\_1[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-putzen\_set1\_1[15]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+91-1	1803-1806	Na?	GSuccess[16]	putzen\_set1\_1[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-putzen\_set1\_1[16]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Alexandra	_	_	QAP	*	92-1[128_0]	
+
+#Text=Lena hat die Küche geputzt
+92-1	1808-1812	Lena	GSuccess[16]	putzen\_set1\_1[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-putzen\_set1\_1[16]	*	*	Subj	*	*	false[128]	Decl[128]	*[216]	putzen[216]	transitive[216]	*[216]	*[216]	item0[216]	42[301]	female[301]	h05ingrcngdnasp07727nvoq59[301]	speaker: YOU[386]	*->31-1|*->8-1	clause[31]|PropNm[8]	acknowledgement	*	93-1[0_128]	
+92-2	1813-1816	hat	GSuccess[16]	putzen\_set1\_1[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-putzen\_set1\_1[16]	_	_	_	_	_	false[128]	Decl[128]	*[216]	putzen[216]	transitive[216]	*[216]	*[216]	item0[216]	42[301]	female[301]	h05ingrcngdnasp07727nvoq59[301]	speaker: YOU[386]	*->31-1	clause[31]	_	_	_	
+92-3	1817-1820	die	GSuccess[16]	putzen\_set1\_1[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-putzen\_set1\_1[16]	*[56]	*[56]	object[56]	*[56]	*[56]	false[128]	Decl[128]	*[216]	putzen[216]	transitive[216]	*[216]	*[216]	item0[216]	42[301]	female[301]	h05ingrcngdnasp07727nvoq59[301]	speaker: YOU[386]	*->31-1|*->22-1	clause[31]|DefNP[22]	_	_	_	
+92-4	1821-1826	Küche	GSuccess[16]	putzen\_set1\_1[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-putzen\_set1\_1[16]	*[56]	*[56]	object[56]	*[56]	*[56]	false[128]	Decl[128]	*[216]	putzen[216]	transitive[216]	*[216]	*[216]	item0[216]	42[301]	female[301]	h05ingrcngdnasp07727nvoq59[301]	speaker: YOU[386]	*->31-1|*->22-1	clause[31]|DefNP[22]	_	_	_	
+92-5	1827-1834	geputzt	GSuccess[16]	putzen\_set1\_1[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-putzen\_set1\_1[16]	_	_	_	_	_	false[128]	Decl[128]	*[216]	putzen[216]	transitive[216]	*[216]	*[216]	item0[216]	42[301]	female[301]	h05ingrcngdnasp07727nvoq59[301]	speaker: YOU[386]	*->31-1	clause[31]	_	_	_	
+
+#Text=Krass!
+93-1	1836-1842	Krass!	GSuccess[16]	putzen\_set1\_1[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-putzen\_set1\_1[16]	_	_	_	_	_	false	NA	krass\_exclamation\_18	*	*	*	*	feedback	*	female	*	speaker:Alexandra	_	_	acknowledgement	*	94-1[129_0]	
+
+#Text=hahaha ja oder?
+94-1	1844-1850	hahaha	GSuccess[16]	putzen\_set1\_1[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-putzen\_set1\_1[16]	_	_	_	_	_	false[129]	NA[129]	*[217]	*[217]	*[217]	*[217]	*[217]	input1[217]	42[302]	female[302]	h05ingrcngdnasp07727nvoq59[302]	speaker: YOU[387]	_	_	elaboration	*	95-1[130_129]	
+94-2	1851-1853	ja	GSuccess[16]	putzen\_set1\_1[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-putzen\_set1\_1[16]	_	_	_	_	_	false[129]	NA[129]	*[217]	*[217]	*[217]	*[217]	*[217]	input1[217]	42[302]	female[302]	h05ingrcngdnasp07727nvoq59[302]	speaker: YOU[387]	_	_	_	_	_	
+94-3	1854-1859	oder?	GSuccess[16]	putzen\_set1\_1[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-putzen\_set1\_1[16]	_	_	_	_	_	false[129]	NA[129]	*[217]	*[217]	*[217]	*[217]	*[217]	input1[217]	42[302]	female[302]	h05ingrcngdnasp07727nvoq59[302]	speaker: YOU[387]	_	_	_	_	_	
+
+#Text=dass ich das noch erleben darf
+95-1	1861-1865	dass	GSuccess[16]	putzen\_set1\_1[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-putzen\_set1\_1[16]	_	_	_	_	_	false[130]	Excl[130]	*[218]	*[218]	*[218]	*[218]	*[218]	input2[218]	42[303]	female[303]	h05ingrcngdnasp07727nvoq59[303]	speaker: YOU[388]	_	_	_	_	_	
+95-2	1866-1869	ich	GSuccess[16]	putzen\_set1\_1[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-putzen\_set1\_1[16]	1	*	Embedded	*	singular	false[130]	Excl[130]	*[218]	*[218]	*[218]	*[218]	*[218]	input2[218]	42[303]	female[303]	h05ingrcngdnasp07727nvoq59[303]	speaker: YOU[388]	*->75-1	PerPron[75]	_	_	_	
+95-3	1870-1873	das	GSuccess[16]	putzen\_set1\_1[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-putzen\_set1\_1[16]	*	*	Embedded	*	*	false[130]	Excl[130]	*[218]	*[218]	*[218]	*[218]	*[218]	input2[218]	42[303]	female[303]	h05ingrcngdnasp07727nvoq59[303]	speaker: YOU[388]	*->31-2	D-Pron[31]	_	_	_	
+95-4	1874-1878	noch	GSuccess[16]	putzen\_set1\_1[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-putzen\_set1\_1[16]	_	_	_	_	_	false[130]	Excl[130]	*[218]	*[218]	*[218]	*[218]	*[218]	input2[218]	42[303]	female[303]	h05ingrcngdnasp07727nvoq59[303]	speaker: YOU[388]	_	_	_	_	_	
+95-5	1879-1886	erleben	GSuccess[16]	putzen\_set1\_1[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-putzen\_set1\_1[16]	_	_	_	_	_	false[130]	Excl[130]	*[218]	*[218]	*[218]	*[218]	*[218]	input2[218]	42[303]	female[303]	h05ingrcngdnasp07727nvoq59[303]	speaker: YOU[388]	_	_	_	_	_	
+95-6	1887-1891	darf	GSuccess[16]	putzen\_set1\_1[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-putzen\_set1\_1[16]	_	_	_	_	_	false[130]	Excl[130]	*[218]	*[218]	*[218]	*[218]	*[218]	input2[218]	42[303]	female[303]	h05ingrcngdnasp07727nvoq59[303]	speaker: YOU[388]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+96-1	1893-1908	END_OF_DOCUMENT	GSuccess[16]	putzen\_set1\_1[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-putzen\_set1\_1[16]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+97-1	1910-1913	Na?	GSuccess[17]	putzen\_set1\_1[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-putzen\_set1\_1[17]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Alexandra	_	_	QAP	*	98-1[131_0]	
+
+#Text=Lena hat die Küche geputzt
+98-1	1915-1919	Lena	GSuccess[17]	putzen\_set1\_1[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-putzen\_set1\_1[17]	*	*	Subj	*	*	false[131]	Decl[131]	*[219]	putzen[219]	transitive[219]	*[219]	*[219]	item0[219]	42[304]	male[304]	jkqc35grurqg6r29efakrmibd9[304]	speaker: YOU[389]	*->72-1|*->115-1	clause[72]|PropNm[115]	acknowledgement	*	99-1[0_131]	
+98-2	1920-1923	hat	GSuccess[17]	putzen\_set1\_1[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-putzen\_set1\_1[17]	_	_	_	_	_	false[131]	Decl[131]	*[219]	putzen[219]	transitive[219]	*[219]	*[219]	item0[219]	42[304]	male[304]	jkqc35grurqg6r29efakrmibd9[304]	speaker: YOU[389]	*->72-1	clause[72]	_	_	_	
+98-3	1924-1927	die	GSuccess[17]	putzen\_set1\_1[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-putzen\_set1\_1[17]	*[57]	*[57]	object[57]	*[57]	*[57]	false[131]	Decl[131]	*[219]	putzen[219]	transitive[219]	*[219]	*[219]	item0[219]	42[304]	male[304]	jkqc35grurqg6r29efakrmibd9[304]	speaker: YOU[389]	*->72-1|*->48-1	clause[72]|DefNP[48]	_	_	_	
+98-4	1928-1933	Küche	GSuccess[17]	putzen\_set1\_1[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-putzen\_set1\_1[17]	*[57]	*[57]	object[57]	*[57]	*[57]	false[131]	Decl[131]	*[219]	putzen[219]	transitive[219]	*[219]	*[219]	item0[219]	42[304]	male[304]	jkqc35grurqg6r29efakrmibd9[304]	speaker: YOU[389]	*->72-1|*->48-1	clause[72]|DefNP[48]	_	_	_	
+98-5	1934-1941	geputzt	GSuccess[17]	putzen\_set1\_1[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-putzen\_set1\_1[17]	_	_	_	_	_	false[131]	Decl[131]	*[219]	putzen[219]	transitive[219]	*[219]	*[219]	item0[219]	42[304]	male[304]	jkqc35grurqg6r29efakrmibd9[304]	speaker: YOU[389]	*->72-1	clause[72]	_	_	_	
+
+#Text=Krass!
+99-1	1943-1949	Krass!	GSuccess[17]	putzen\_set1\_1[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-putzen\_set1\_1[17]	_	_	_	_	_	false	NA	krass\_exclamation\_18	*	*	*	*	feedback	*	female	*	speaker:Alexandra	_	_	acknowledgement	*	100-1	
+
+#Text=Gell?
+100-1	1951-1956	Gell?	GSuccess[17]	putzen\_set1\_1[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-putzen\_set1\_1[17]	_	_	_	_	_	false	*	*	*	*	*	*	input1	42	male	jkqc35grurqg6r29efakrmibd9	speaker: YOU	_	_	explanation	*	101-1[132_0]	
+
+#Text=Das ist in 100 Jahren nicht mehr passiert <BR> hahaha
+101-1	1958-1961	Das	GSuccess[17]	putzen\_set1\_1[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-putzen\_set1\_1[17]	*	*	Subj	*	*	false[132]	Decl[132]	*[220]	*[220]	*[220]	*[220]	*[220]	input2[220]	42[305]	male[305]	jkqc35grurqg6r29efakrmibd9[305]	speaker: YOU[390]	*->72-2	D-Pron[72]	elaboration	*	101-10[0_132]	
+101-2	1962-1965	ist	GSuccess[17]	putzen\_set1\_1[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-putzen\_set1\_1[17]	_	_	_	_	_	false[132]	Decl[132]	*[220]	*[220]	*[220]	*[220]	*[220]	input2[220]	42[305]	male[305]	jkqc35grurqg6r29efakrmibd9[305]	speaker: YOU[390]	_	_	_	_	_	
+101-3	1966-1968	in	GSuccess[17]	putzen\_set1\_1[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-putzen\_set1\_1[17]	_	_	_	_	_	false[132]	Decl[132]	*[220]	*[220]	*[220]	*[220]	*[220]	input2[220]	42[305]	male[305]	jkqc35grurqg6r29efakrmibd9[305]	speaker: YOU[390]	_	_	_	_	_	
+101-4	1969-1972	100	GSuccess[17]	putzen\_set1\_1[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-putzen\_set1\_1[17]	_	_	_	_	_	false[132]	Decl[132]	*[220]	*[220]	*[220]	*[220]	*[220]	input2[220]	42[305]	male[305]	jkqc35grurqg6r29efakrmibd9[305]	speaker: YOU[390]	*->37-1	IndefNP[37]	_	_	_	
+101-5	1973-1979	Jahren	GSuccess[17]	putzen\_set1\_1[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-putzen\_set1\_1[17]	_	_	_	_	_	false[132]	Decl[132]	*[220]	*[220]	*[220]	*[220]	*[220]	input2[220]	42[305]	male[305]	jkqc35grurqg6r29efakrmibd9[305]	speaker: YOU[390]	*->37-1	IndefNP[37]	_	_	_	
+101-6	1980-1985	nicht	GSuccess[17]	putzen\_set1\_1[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-putzen\_set1\_1[17]	_	_	_	_	_	false[132]	Decl[132]	*[220]	*[220]	*[220]	*[220]	*[220]	input2[220]	42[305]	male[305]	jkqc35grurqg6r29efakrmibd9[305]	speaker: YOU[390]	_	_	_	_	_	
+101-7	1986-1990	mehr	GSuccess[17]	putzen\_set1\_1[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-putzen\_set1\_1[17]	_	_	_	_	_	false[132]	Decl[132]	*[220]	*[220]	*[220]	*[220]	*[220]	input2[220]	42[305]	male[305]	jkqc35grurqg6r29efakrmibd9[305]	speaker: YOU[390]	_	_	_	_	_	
+101-8	1991-1999	passiert	GSuccess[17]	putzen\_set1\_1[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-putzen\_set1\_1[17]	_	_	_	_	_	false[132]	Decl[132]	*[220]	*[220]	*[220]	*[220]	*[220]	input2[220]	42[305]	male[305]	jkqc35grurqg6r29efakrmibd9[305]	speaker: YOU[390]	_	_	_	_	_	
+101-9	2000-2004	<BR>	GSuccess[17]	putzen\_set1\_1[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-putzen\_set1\_1[17]	_	_	_	_	_	_	_	*[220]	*[220]	*[220]	*[220]	*[220]	input2[220]	42[305]	male[305]	jkqc35grurqg6r29efakrmibd9[305]	speaker: YOU[390]	_	_	_	_	_	
+101-10	2005-2011	hahaha	GSuccess[17]	putzen\_set1\_1[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-putzen\_set1\_1[17]	_	_	_	_	_	false	NA	*[220]	*[220]	*[220]	*[220]	*[220]	input2[220]	42[305]	male[305]	jkqc35grurqg6r29efakrmibd9[305]	speaker: YOU[390]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+102-1	2013-2028	END_OF_DOCUMENT	GSuccess[17]	putzen\_set1\_1[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-putzen\_set1\_1[17]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+103-1	2030-2033	Na?	GSuccess[18]	putzen\_set1\_1[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-putzen\_set1\_1[18]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Alexandra	_	_	QAP	*	104-1[133_0]	
+
+#Text=Lena hat die Küche geputzt
+104-1	2035-2039	Lena	GSuccess[18]	putzen\_set1\_1[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-putzen\_set1\_1[18]	*	*	Subj	*	*	false[133]	Decl[133]	*[221]	putzen[221]	transitive[221]	*[221]	*[221]	item0[221]	20[306]	male[306]	lhu26mh95feeqso1qtacqboi3v[306]	speaker: YOU[391]	*->57-1|*->10-1	clause[57]|PropNm[10]	acknowledgement	*	105-1[0_133]	
+104-2	2040-2043	hat	GSuccess[18]	putzen\_set1\_1[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-putzen\_set1\_1[18]	_	_	_	_	_	false[133]	Decl[133]	*[221]	putzen[221]	transitive[221]	*[221]	*[221]	item0[221]	20[306]	male[306]	lhu26mh95feeqso1qtacqboi3v[306]	speaker: YOU[391]	*->57-1	clause[57]	_	_	_	
+104-3	2044-2047	die	GSuccess[18]	putzen\_set1\_1[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-putzen\_set1\_1[18]	*[58]	*[58]	object[58]	*[58]	*[58]	false[133]	Decl[133]	*[221]	putzen[221]	transitive[221]	*[221]	*[221]	item0[221]	20[306]	male[306]	lhu26mh95feeqso1qtacqboi3v[306]	speaker: YOU[391]	*->57-1|*->38-1	clause[57]|DefNP[38]	_	_	_	
+104-4	2048-2053	Küche	GSuccess[18]	putzen\_set1\_1[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-putzen\_set1\_1[18]	*[58]	*[58]	object[58]	*[58]	*[58]	false[133]	Decl[133]	*[221]	putzen[221]	transitive[221]	*[221]	*[221]	item0[221]	20[306]	male[306]	lhu26mh95feeqso1qtacqboi3v[306]	speaker: YOU[391]	*->57-1|*->38-1	clause[57]|DefNP[38]	_	_	_	
+104-5	2054-2061	geputzt	GSuccess[18]	putzen\_set1\_1[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-putzen\_set1\_1[18]	_	_	_	_	_	false[133]	Decl[133]	*[221]	putzen[221]	transitive[221]	*[221]	*[221]	item0[221]	20[306]	male[306]	lhu26mh95feeqso1qtacqboi3v[306]	speaker: YOU[391]	*->57-1	clause[57]	_	_	_	
+
+#Text=Krass!
+105-1	2063-2069	Krass!	GSuccess[18]	putzen\_set1\_1[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-putzen\_set1\_1[18]	_	_	_	_	_	false	NA	krass\_exclamation\_18	*	*	*	*	feedback	*	female	*	speaker:Alexandra	_	_	elaboration|acknowledgement|parallel	*|*|*	106-1|106-3|107-1[134_0]	
+
+#Text=Haha <BR> absolut.
+106-1	2071-2075	Haha	GSuccess[18]	putzen\_set1\_1[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-putzen\_set1\_1[18]	_	_	_	_	_	false	NA	*[222]	*[222]	*[222]	*[222]	*[222]	input1[222]	20[307]	male[307]	lhu26mh95feeqso1qtacqboi3v[307]	speaker: YOU[392]	_	_	_	_	_	
+106-2	2076-2080	<BR>	GSuccess[18]	putzen\_set1\_1[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-putzen\_set1\_1[18]	_	_	_	_	_	_	_	*[222]	*[222]	*[222]	*[222]	*[222]	input1[222]	20[307]	male[307]	lhu26mh95feeqso1qtacqboi3v[307]	speaker: YOU[392]	_	_	_	_	_	
+106-3	2081-2089	absolut.	GSuccess[18]	putzen\_set1\_1[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-putzen\_set1\_1[18]	_	_	_	_	_	false	NA	*[222]	*[222]	*[222]	*[222]	*[222]	input1[222]	20[307]	male[307]	lhu26mh95feeqso1qtacqboi3v[307]	speaker: YOU[392]	_	_	_	_	_	
+
+#Text=Es wundert mich auch <BR> bin aber sehr stolz auf sie.
+107-1	2091-2093	Es	GSuccess[18]	putzen\_set1\_1[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-putzen\_set1\_1[18]	3	*	Subj	*	singular	false[134]	Decl[134]	*[223]	*[223]	*[223]	*[223]	*[223]	input2[223]	20[308]	male[308]	lhu26mh95feeqso1qtacqboi3v[308]	speaker: YOU[393]	*->57-2	PerPron[57]	contrast	*	107-6[135_134]	
+107-2	2094-2101	wundert	GSuccess[18]	putzen\_set1\_1[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-putzen\_set1\_1[18]	_	_	_	_	_	false[134]	Decl[134]	*[223]	*[223]	*[223]	*[223]	*[223]	input2[223]	20[308]	male[308]	lhu26mh95feeqso1qtacqboi3v[308]	speaker: YOU[393]	_	_	_	_	_	
+107-3	2102-2106	mich	GSuccess[18]	putzen\_set1\_1[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-putzen\_set1\_1[18]	1	*	IndirObj	*	singular	false[134]	Decl[134]	*[223]	*[223]	*[223]	*[223]	*[223]	input2[223]	20[308]	male[308]	lhu26mh95feeqso1qtacqboi3v[308]	speaker: YOU[393]	*->59-1	PerPron[59]	_	_	_	
+107-4	2107-2111	auch	GSuccess[18]	putzen\_set1\_1[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-putzen\_set1\_1[18]	_	_	_	_	_	false[134]	Decl[134]	*[223]	*[223]	*[223]	*[223]	*[223]	input2[223]	20[308]	male[308]	lhu26mh95feeqso1qtacqboi3v[308]	speaker: YOU[393]	_	_	_	_	_	
+107-5	2112-2116	<BR>	GSuccess[18]	putzen\_set1\_1[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-putzen\_set1\_1[18]	_	_	_	_	_	_	_	*[223]	*[223]	*[223]	*[223]	*[223]	input2[223]	20[308]	male[308]	lhu26mh95feeqso1qtacqboi3v[308]	speaker: YOU[393]	_	_	_	_	_	
+107-6	2117-2120	bin	GSuccess[18]	putzen\_set1\_1[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-putzen\_set1\_1[18]	1	*	*	*	singular	false[135]	Decl[135]	*[223]	*[223]	*[223]	*[223]	*[223]	input2[223]	20[308]	male[308]	lhu26mh95feeqso1qtacqboi3v[308]	speaker: YOU[393]	*->59-2	zero[59]	_	_	_	
+107-7	2121-2125	aber	GSuccess[18]	putzen\_set1\_1[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-putzen\_set1\_1[18]	_	_	_	_	_	false[135]	Decl[135]	*[223]	*[223]	*[223]	*[223]	*[223]	input2[223]	20[308]	male[308]	lhu26mh95feeqso1qtacqboi3v[308]	speaker: YOU[393]	_	_	_	_	_	
+107-8	2126-2130	sehr	GSuccess[18]	putzen\_set1\_1[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-putzen\_set1\_1[18]	_	_	_	_	_	false[135]	Decl[135]	*[223]	*[223]	*[223]	*[223]	*[223]	input2[223]	20[308]	male[308]	lhu26mh95feeqso1qtacqboi3v[308]	speaker: YOU[393]	_	_	_	_	_	
+107-9	2131-2136	stolz	GSuccess[18]	putzen\_set1\_1[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-putzen\_set1\_1[18]	_	_	_	_	_	false[135]	Decl[135]	*[223]	*[223]	*[223]	*[223]	*[223]	input2[223]	20[308]	male[308]	lhu26mh95feeqso1qtacqboi3v[308]	speaker: YOU[393]	_	_	_	_	_	
+107-10	2137-2140	auf	GSuccess[18]	putzen\_set1\_1[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-putzen\_set1\_1[18]	_	_	_	_	_	false[135]	Decl[135]	*[223]	*[223]	*[223]	*[223]	*[223]	input2[223]	20[308]	male[308]	lhu26mh95feeqso1qtacqboi3v[308]	speaker: YOU[393]	_	_	_	_	_	
+107-11	2141-2145	sie.	GSuccess[18]	putzen\_set1\_1[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-putzen\_set1\_1[18]	3	*	PrepObj	*	singular	false[135]	Decl[135]	*[223]	*[223]	*[223]	*[223]	*[223]	input2[223]	20[308]	male[308]	lhu26mh95feeqso1qtacqboi3v[308]	speaker: YOU[393]	*->10-2	PerPron[10]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+108-1	2147-2162	END_OF_DOCUMENT	GSuccess[18]	putzen\_set1\_1[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-putzen\_set1\_1[18]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+109-1	2164-2167	Na?	GSuccess[19]	putzen\_set1\_1[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-putzen\_set1\_1[19]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Alexandra	_	_	QAP	*	110-1[136_0]	
+
+#Text=Lena hat die Küche geputzt
+110-1	2169-2173	Lena	GSuccess[19]	putzen\_set1\_1[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-putzen\_set1\_1[19]	*	*	Subj	*	*	false[136]	Decl[136]	*[224]	putzen[224]	transitive[224]	*[224]	*[224]	item0[224]	21[309]	male[309]	tc4i3rsgsa9bl8tesf4679lok2[309]	speaker: YOU[394]	*->68-1	PropNm[68]	result|acknowledgement	*|*	112-1[137_136]|111-1[0_136]	
+110-2	2174-2177	hat	GSuccess[19]	putzen\_set1\_1[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-putzen\_set1\_1[19]	_	_	_	_	_	false[136]	Decl[136]	*[224]	putzen[224]	transitive[224]	*[224]	*[224]	item0[224]	21[309]	male[309]	tc4i3rsgsa9bl8tesf4679lok2[309]	speaker: YOU[394]	_	_	_	_	_	
+110-3	2178-2181	die	GSuccess[19]	putzen\_set1\_1[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-putzen\_set1\_1[19]	*[59]	*[59]	object[59]	*[59]	*[59]	false[136]	Decl[136]	*[224]	putzen[224]	transitive[224]	*[224]	*[224]	item0[224]	21[309]	male[309]	tc4i3rsgsa9bl8tesf4679lok2[309]	speaker: YOU[394]	*->67-1	DefNP[67]	_	_	_	
+110-4	2182-2187	Küche	GSuccess[19]	putzen\_set1\_1[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-putzen\_set1\_1[19]	*[59]	*[59]	object[59]	*[59]	*[59]	false[136]	Decl[136]	*[224]	putzen[224]	transitive[224]	*[224]	*[224]	item0[224]	21[309]	male[309]	tc4i3rsgsa9bl8tesf4679lok2[309]	speaker: YOU[394]	*->67-1	DefNP[67]	_	_	_	
+110-5	2188-2195	geputzt	GSuccess[19]	putzen\_set1\_1[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-putzen\_set1\_1[19]	_	_	_	_	_	false[136]	Decl[136]	*[224]	putzen[224]	transitive[224]	*[224]	*[224]	item0[224]	21[309]	male[309]	tc4i3rsgsa9bl8tesf4679lok2[309]	speaker: YOU[394]	_	_	_	_	_	
+
+#Text=Krass!
+111-1	2197-2203	Krass!	GSuccess[19]	putzen\_set1\_1[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-putzen\_set1\_1[19]	_	_	_	_	_	false	NA	krass\_exclamation\_18	*	*	*	*	feedback	*	female	*	speaker:Alexandra	_	_	_	_	_	
+
+#Text=Ja es sieht echt gut aus soweit
+112-1	2205-2207	Ja	GSuccess[19]	putzen\_set1\_1[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-putzen\_set1\_1[19]	_	_	_	_	_	false[137]	Decl[137]	*[225]	*[225]	*[225]	*[225]	*[225]	input1[225]	21[310]	male[310]	tc4i3rsgsa9bl8tesf4679lok2[310]	speaker: YOU[395]	_	_	contrast	*	113-1[138_137]	
+112-2	2208-2210	es	GSuccess[19]	putzen\_set1\_1[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-putzen\_set1\_1[19]	3	*	Subj	*	singular	false[137]	Decl[137]	*[225]	*[225]	*[225]	*[225]	*[225]	input1[225]	21[310]	male[310]	tc4i3rsgsa9bl8tesf4679lok2[310]	speaker: YOU[395]	*->67-2	PerPron[67]	_	_	_	
+112-3	2211-2216	sieht	GSuccess[19]	putzen\_set1\_1[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-putzen\_set1\_1[19]	_	_	_	_	_	false[137]	Decl[137]	*[225]	*[225]	*[225]	*[225]	*[225]	input1[225]	21[310]	male[310]	tc4i3rsgsa9bl8tesf4679lok2[310]	speaker: YOU[395]	_	_	_	_	_	
+112-4	2217-2221	echt	GSuccess[19]	putzen\_set1\_1[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-putzen\_set1\_1[19]	_	_	_	_	_	false[137]	Decl[137]	*[225]	*[225]	*[225]	*[225]	*[225]	input1[225]	21[310]	male[310]	tc4i3rsgsa9bl8tesf4679lok2[310]	speaker: YOU[395]	_	_	_	_	_	
+112-5	2222-2225	gut	GSuccess[19]	putzen\_set1\_1[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-putzen\_set1\_1[19]	_	_	_	_	_	false[137]	Decl[137]	*[225]	*[225]	*[225]	*[225]	*[225]	input1[225]	21[310]	male[310]	tc4i3rsgsa9bl8tesf4679lok2[310]	speaker: YOU[395]	_	_	_	_	_	
+112-6	2226-2229	aus	GSuccess[19]	putzen\_set1\_1[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-putzen\_set1\_1[19]	_	_	_	_	_	false[137]	Decl[137]	*[225]	*[225]	*[225]	*[225]	*[225]	input1[225]	21[310]	male[310]	tc4i3rsgsa9bl8tesf4679lok2[310]	speaker: YOU[395]	_	_	_	_	_	
+112-7	2230-2236	soweit	GSuccess[19]	putzen\_set1\_1[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-putzen\_set1\_1[19]	_	_	_	_	_	false[137]	Decl[137]	*[225]	*[225]	*[225]	*[225]	*[225]	input1[225]	21[310]	male[310]	tc4i3rsgsa9bl8tesf4679lok2[310]	speaker: YOU[395]	_	_	_	_	_	
+
+#Text=Aber wahrscheinlich macht sie nacher wieder alles dreckig
+113-1	2238-2242	Aber	GSuccess[19]	putzen\_set1\_1[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-putzen\_set1\_1[19]	_	_	_	_	_	false[138]	Decl[138]	*[226]	*[226]	*[226]	*[226]	*[226]	input2[226]	21[311]	male[311]	tc4i3rsgsa9bl8tesf4679lok2[311]	speaker: YOU[396]	_	_	_	_	_	
+113-2	2243-2257	wahrscheinlich	GSuccess[19]	putzen\_set1\_1[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-putzen\_set1\_1[19]	_	_	_	_	_	false[138]	Decl[138]	*[226]	*[226]	*[226]	*[226]	*[226]	input2[226]	21[311]	male[311]	tc4i3rsgsa9bl8tesf4679lok2[311]	speaker: YOU[396]	_	_	_	_	_	
+113-3	2258-2263	macht	GSuccess[19]	putzen\_set1\_1[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-putzen\_set1\_1[19]	_	_	_	_	_	false[138]	Decl[138]	*[226]	*[226]	*[226]	*[226]	*[226]	input2[226]	21[311]	male[311]	tc4i3rsgsa9bl8tesf4679lok2[311]	speaker: YOU[396]	_	_	_	_	_	
+113-4	2264-2267	sie	GSuccess[19]	putzen\_set1\_1[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-putzen\_set1\_1[19]	3	*	Subj	*	singular	false[138]	Decl[138]	*[226]	*[226]	*[226]	*[226]	*[226]	input2[226]	21[311]	male[311]	tc4i3rsgsa9bl8tesf4679lok2[311]	speaker: YOU[396]	*->68-2	PerPron[68]	_	_	_	
+113-5	2268-2274	nacher	GSuccess[19]	putzen\_set1\_1[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-putzen\_set1\_1[19]	_	_	_	_	_	false[138]	Decl[138]	*[226]	*[226]	*[226]	*[226]	*[226]	input2[226]	21[311]	male[311]	tc4i3rsgsa9bl8tesf4679lok2[311]	speaker: YOU[396]	_	_	_	_	_	
+113-6	2275-2281	wieder	GSuccess[19]	putzen\_set1\_1[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-putzen\_set1\_1[19]	_	_	_	_	_	false[138]	Decl[138]	*[226]	*[226]	*[226]	*[226]	*[226]	input2[226]	21[311]	male[311]	tc4i3rsgsa9bl8tesf4679lok2[311]	speaker: YOU[396]	_	_	_	_	_	
+113-7	2282-2287	alles	GSuccess[19]	putzen\_set1\_1[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-putzen\_set1\_1[19]	_	_	_	_	_	false[138]	Decl[138]	*[226]	*[226]	*[226]	*[226]	*[226]	input2[226]	21[311]	male[311]	tc4i3rsgsa9bl8tesf4679lok2[311]	speaker: YOU[396]	*->101-1	Allquantor[101]	_	_	_	
+113-8	2288-2295	dreckig	GSuccess[19]	putzen\_set1\_1[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-putzen\_set1\_1[19]	_	_	_	_	_	false[138]	Decl[138]	*[226]	*[226]	*[226]	*[226]	*[226]	input2[226]	21[311]	male[311]	tc4i3rsgsa9bl8tesf4679lok2[311]	speaker: YOU[396]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+114-1	2297-2312	END_OF_DOCUMENT	GSuccess[19]	putzen\_set1\_1[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-putzen\_set1\_1[19]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+115-1	2314-2317	Na?	GSuccess[20]	putzen\_set1\_1[20]	latin1[20]	us0adlivem61c2bj5776kudbot-putzen\_set1\_1[20]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Alexandra	_	_	QAP	*	116-1[139_0]	
+
+#Text=Lena hat die Küche geputzt
+116-1	2319-2323	Lena	GSuccess[20]	putzen\_set1\_1[20]	latin1[20]	us0adlivem61c2bj5776kudbot-putzen\_set1\_1[20]	*	*	Subj	*	*	false[139]	Decl[139]	*[227]	putzen[227]	transitive[227]	*[227]	*[227]	item0[227]	66[312]	male[312]	us0adlivem61c2bj5776kudbot[312]	speaker: YOU[397]	*->85-1	PropNm[85]	acknowledgement	*	117-1[0_139]	
+116-2	2324-2327	hat	GSuccess[20]	putzen\_set1\_1[20]	latin1[20]	us0adlivem61c2bj5776kudbot-putzen\_set1\_1[20]	_	_	_	_	_	false[139]	Decl[139]	*[227]	putzen[227]	transitive[227]	*[227]	*[227]	item0[227]	66[312]	male[312]	us0adlivem61c2bj5776kudbot[312]	speaker: YOU[397]	*->95-1	clause[95]	_	_	_	
+116-3	2328-2331	die	GSuccess[20]	putzen\_set1\_1[20]	latin1[20]	us0adlivem61c2bj5776kudbot-putzen\_set1\_1[20]	*[60]	*[60]	object[60]	*[60]	*[60]	false[139]	Decl[139]	*[227]	putzen[227]	transitive[227]	*[227]	*[227]	item0[227]	66[312]	male[312]	us0adlivem61c2bj5776kudbot[312]	speaker: YOU[397]	*->95-1|*->64-1	clause[95]|DefNP[64]	_	_	_	
+116-4	2332-2337	Küche	GSuccess[20]	putzen\_set1\_1[20]	latin1[20]	us0adlivem61c2bj5776kudbot-putzen\_set1\_1[20]	*[60]	*[60]	object[60]	*[60]	*[60]	false[139]	Decl[139]	*[227]	putzen[227]	transitive[227]	*[227]	*[227]	item0[227]	66[312]	male[312]	us0adlivem61c2bj5776kudbot[312]	speaker: YOU[397]	*->95-1|*->64-1	clause[95]|DefNP[64]	_	_	_	
+116-5	2338-2345	geputzt	GSuccess[20]	putzen\_set1\_1[20]	latin1[20]	us0adlivem61c2bj5776kudbot-putzen\_set1\_1[20]	_	_	_	_	_	false[139]	Decl[139]	*[227]	putzen[227]	transitive[227]	*[227]	*[227]	item0[227]	66[312]	male[312]	us0adlivem61c2bj5776kudbot[312]	speaker: YOU[397]	*->95-1	clause[95]	_	_	_	
+
+#Text=Krass!
+117-1	2347-2353	Krass!	GSuccess[20]	putzen\_set1\_1[20]	latin1[20]	us0adlivem61c2bj5776kudbot-putzen\_set1\_1[20]	_	_	_	_	_	false	NA	krass\_exclamation\_18	*	*	*	*	feedback	*	female	*	speaker:Alexandra	_	_	CR	*	118-1	
+
+#Text=wieso
+118-1	2355-2360	wieso	GSuccess[20]	putzen\_set1\_1[20]	latin1[20]	us0adlivem61c2bj5776kudbot-putzen\_set1\_1[20]	_	_	_	_	_	false	NA	*	*	*	*	*	input1	66	male	us0adlivem61c2bj5776kudbot	speaker: YOU	_	_	explanation	*	119-1[140_0]	
+
+#Text=das macht sich doch öfters
+119-1	2362-2365	das	GSuccess[20]	putzen\_set1\_1[20]	latin1[20]	us0adlivem61c2bj5776kudbot-putzen\_set1\_1[20]	*	*	Subj	*	*	false[140]	Decl[140]	*[228]	*[228]	*[228]	*[228]	*[228]	input2[228]	66[313]	male[313]	us0adlivem61c2bj5776kudbot[313]	speaker: YOU[398]	*->95-2	D-Pron[95]	_	_	_	
+119-2	2366-2371	macht	GSuccess[20]	putzen\_set1\_1[20]	latin1[20]	us0adlivem61c2bj5776kudbot-putzen\_set1\_1[20]	_	_	_	_	_	false[140]	Decl[140]	*[228]	*[228]	*[228]	*[228]	*[228]	input2[228]	66[313]	male[313]	us0adlivem61c2bj5776kudbot[313]	speaker: YOU[398]	_	_	_	_	_	
+119-3	2372-2376	sich	GSuccess[20]	putzen\_set1\_1[20]	latin1[20]	us0adlivem61c2bj5776kudbot-putzen\_set1\_1[20]	3	*	*	*	singular	false[140]	Decl[140]	*[228]	*[228]	*[228]	*[228]	*[228]	input2[228]	66[313]	male[313]	us0adlivem61c2bj5776kudbot[313]	speaker: YOU[398]	*->85-2	PerPron[85]	_	_	_	
+119-4	2377-2381	doch	GSuccess[20]	putzen\_set1\_1[20]	latin1[20]	us0adlivem61c2bj5776kudbot-putzen\_set1\_1[20]	_	_	_	_	_	false[140]	Decl[140]	*[228]	*[228]	*[228]	*[228]	*[228]	input2[228]	66[313]	male[313]	us0adlivem61c2bj5776kudbot[313]	speaker: YOU[398]	_	_	_	_	_	
+119-5	2382-2388	öfters	GSuccess[20]	putzen\_set1\_1[20]	latin1[20]	us0adlivem61c2bj5776kudbot-putzen\_set1\_1[20]	_	_	_	_	_	false[140]	Decl[140]	*[228]	*[228]	*[228]	*[228]	*[228]	input2[228]	66[313]	male[313]	us0adlivem61c2bj5776kudbot[313]	speaker: YOU[398]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+120-1	2390-2405	END_OF_DOCUMENT	GSuccess[20]	putzen\_set1\_1[20]	latin1[20]	us0adlivem61c2bj5776kudbot-putzen\_set1\_1[20]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+121-1	2407-2410	Na?	GWithout[21]	putzen\_set1\_1[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-putzen\_set1\_1[21]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Alexandra	_	_	QAP	*	122-1[141_0]	
+
+#Text=Lena hat die Küche geputzt
+122-1	2412-2416	Lena	GWithout[21]	putzen\_set1\_1[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-putzen\_set1\_1[21]	*	*	Subj	*	*	false[141]	Decl[141]	*[229]	putzen[229]	transitive[229]	*[229]	*[229]	item0[229]	32[314]	female[314]	2em9nj6n4c2pjudl6n6hfpjc30[314]	speaker: YOU[399]	*->76-1	PropNm[76]	elaboration	*	124-1[0_141]	
+122-2	2417-2420	hat	GWithout[21]	putzen\_set1\_1[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-putzen\_set1\_1[21]	_	_	_	_	_	false[141]	Decl[141]	*[229]	putzen[229]	transitive[229]	*[229]	*[229]	item0[229]	32[314]	female[314]	2em9nj6n4c2pjudl6n6hfpjc30[314]	speaker: YOU[399]	_	_	_	_	_	
+122-3	2421-2424	die	GWithout[21]	putzen\_set1\_1[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-putzen\_set1\_1[21]	*[61]	*[61]	object[61]	*[61]	*[61]	false[141]	Decl[141]	*[229]	putzen[229]	transitive[229]	*[229]	*[229]	item0[229]	32[314]	female[314]	2em9nj6n4c2pjudl6n6hfpjc30[314]	speaker: YOU[399]	*->79-1	DefNP[79]	_	_	_	
+122-4	2425-2430	Küche	GWithout[21]	putzen\_set1\_1[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-putzen\_set1\_1[21]	*[61]	*[61]	object[61]	*[61]	*[61]	false[141]	Decl[141]	*[229]	putzen[229]	transitive[229]	*[229]	*[229]	item0[229]	32[314]	female[314]	2em9nj6n4c2pjudl6n6hfpjc30[314]	speaker: YOU[399]	*->79-1	DefNP[79]	_	_	_	
+122-5	2431-2438	geputzt	GWithout[21]	putzen\_set1\_1[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-putzen\_set1\_1[21]	_	_	_	_	_	false[141]	Decl[141]	*[229]	putzen[229]	transitive[229]	*[229]	*[229]	item0[229]	32[314]	female[314]	2em9nj6n4c2pjudl6n6hfpjc30[314]	speaker: YOU[399]	_	_	_	_	_	
+
+#Text=-
+123-1	2440-2441	-	GWithout[21]	putzen\_set1\_1[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-putzen\_set1\_1[21]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Alexandra	_	_	_	_	_	
+
+#Text=Naja. ""Geputzt " i t vielleic t nic t d s richti e Wor
+124-1	2443-2448	Naja.	GWithout[21]	putzen\_set1\_1[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-putzen\_set1\_1[21]	_	_	_	_	_	false	Decl	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	32[315]	female[315]	2em9nj6n4c2pjudl6n6hfpjc30[315]	speaker: YOU[400]	_	_	elaboration	*	124-2[142_0]	
+124-2	2449-2458	""Geputzt	GWithout[21]	putzen\_set1\_1[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-putzen\_set1\_1[21]	_	_	_	_	_	false[142]	Decl[142]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	32[315]	female[315]	2em9nj6n4c2pjudl6n6hfpjc30[315]	speaker: YOU[400]	_	_	elaboration	*	125-1[143_142]	
+124-3	2459-2462	" i	GWithout[21]	putzen\_set1\_1[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-putzen\_set1\_1[21]	_	_	_	_	_	false[142]	Decl[142]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	32[315]	female[315]	2em9nj6n4c2pjudl6n6hfpjc30[315]	speaker: YOU[400]	_	_	_	_	_	
+124-4	2463-2473	t vielleic	GWithout[21]	putzen\_set1\_1[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-putzen\_set1\_1[21]	_	_	_	_	_	false[142]	Decl[142]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	32[315]	female[315]	2em9nj6n4c2pjudl6n6hfpjc30[315]	speaker: YOU[400]	_	_	_	_	_	
+124-5	2474-2479	t nic	GWithout[21]	putzen\_set1\_1[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-putzen\_set1\_1[21]	_	_	_	_	_	false[142]	Decl[142]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	32[315]	female[315]	2em9nj6n4c2pjudl6n6hfpjc30[315]	speaker: YOU[400]	_	_	_	_	_	
+124-6	2480-2483	t d	GWithout[21]	putzen\_set1\_1[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-putzen\_set1\_1[21]	_	_	_	_	_	false[142]	Decl[142]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	32[315]	female[315]	2em9nj6n4c2pjudl6n6hfpjc30[315]	speaker: YOU[400]	_	_	_	_	_	
+124-7	2484-2492	s richti	GWithout[21]	putzen\_set1\_1[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-putzen\_set1\_1[21]	_	_	_	_	_	false[142]	Decl[142]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	32[315]	female[315]	2em9nj6n4c2pjudl6n6hfpjc30[315]	speaker: YOU[400]	_	_	_	_	_	
+124-8	2493-2498	e Wor	GWithout[21]	putzen\_set1\_1[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-putzen\_set1\_1[21]	_	_	_	_	_	false[142]	Decl[142]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	32[315]	female[315]	2em9nj6n4c2pjudl6n6hfpjc30[315]	speaker: YOU[400]	_	_	_	_	_	
+
+#Text=Sie hat Sachen verräumt.
+125-1	2500-2503	Sie	GWithout[21]	putzen\_set1\_1[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-putzen\_set1\_1[21]	3	*	Subj	*	singular	false[143]	Decl[143]	*[231]	*[231]	*[231]	*[231]	*[231]	input2[231]	32[316]	female[316]	2em9nj6n4c2pjudl6n6hfpjc30[316]	speaker: YOU[401]	*->76-2	PerPron[76]	_	_	_	
+125-2	2504-2507	hat	GWithout[21]	putzen\_set1\_1[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-putzen\_set1\_1[21]	_	_	_	_	_	false[143]	Decl[143]	*[231]	*[231]	*[231]	*[231]	*[231]	input2[231]	32[316]	female[316]	2em9nj6n4c2pjudl6n6hfpjc30[316]	speaker: YOU[401]	_	_	_	_	_	
+125-3	2508-2514	Sachen	GWithout[21]	putzen\_set1\_1[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-putzen\_set1\_1[21]	*	*	DirObj	*	*	false[143]	Decl[143]	*[231]	*[231]	*[231]	*[231]	*[231]	input2[231]	32[316]	female[316]	2em9nj6n4c2pjudl6n6hfpjc30[316]	speaker: YOU[401]	*->80-1	IndefNP[80]	_	_	_	
+125-4	2515-2524	verräumt.	GWithout[21]	putzen\_set1\_1[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-putzen\_set1\_1[21]	_	_	_	_	_	false[143]	Decl[143]	*[231]	*[231]	*[231]	*[231]	*[231]	input2[231]	32[316]	female[316]	2em9nj6n4c2pjudl6n6hfpjc30[316]	speaker: YOU[401]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+126-1	2526-2541	END_OF_DOCUMENT	GWithout[21]	putzen\_set1\_1[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-putzen\_set1\_1[21]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+127-1	2543-2546	Na?	GWithout[22]	putzen\_set1\_1[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-putzen\_set1\_1[22]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Alexandra	_	_	QAP	*	128-1[144_0]	
+
+#Text=Lena hat die Küche geputzt
+128-1	2548-2552	Lena	GWithout[22]	putzen\_set1\_1[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-putzen\_set1\_1[22]	*	*	Subj	*	*	false[144]	Decl[144]	*[232]	putzen[232]	transitive[232]	*[232]	*[232]	item0[232]	41[317]	female[317]	2prsavjsjqbmc8hrbo9bovkues[317]	speaker: YOU[402]	*->12-1	PropNm[12]	result|elaboration	*|*	130-1[145_144]|131-1[146_144]	
+128-2	2553-2556	hat	GWithout[22]	putzen\_set1\_1[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-putzen\_set1\_1[22]	_	_	_	_	_	false[144]	Decl[144]	*[232]	putzen[232]	transitive[232]	*[232]	*[232]	item0[232]	41[317]	female[317]	2prsavjsjqbmc8hrbo9bovkues[317]	speaker: YOU[402]	_	_	_	_	_	
+128-3	2557-2560	die	GWithout[22]	putzen\_set1\_1[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-putzen\_set1\_1[22]	*[62]	*[62]	object[62]	*[62]	*[62]	false[144]	Decl[144]	*[232]	putzen[232]	transitive[232]	*[232]	*[232]	item0[232]	41[317]	female[317]	2prsavjsjqbmc8hrbo9bovkues[317]	speaker: YOU[402]	*->120-1	DefNP[120]	_	_	_	
+128-4	2561-2566	Küche	GWithout[22]	putzen\_set1\_1[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-putzen\_set1\_1[22]	*[62]	*[62]	object[62]	*[62]	*[62]	false[144]	Decl[144]	*[232]	putzen[232]	transitive[232]	*[232]	*[232]	item0[232]	41[317]	female[317]	2prsavjsjqbmc8hrbo9bovkues[317]	speaker: YOU[402]	*->120-1	DefNP[120]	_	_	_	
+128-5	2567-2574	geputzt	GWithout[22]	putzen\_set1\_1[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-putzen\_set1\_1[22]	_	_	_	_	_	false[144]	Decl[144]	*[232]	putzen[232]	transitive[232]	*[232]	*[232]	item0[232]	41[317]	female[317]	2prsavjsjqbmc8hrbo9bovkues[317]	speaker: YOU[402]	_	_	_	_	_	
+
+#Text=-
+129-1	2576-2577	-	GWithout[22]	putzen\_set1\_1[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-putzen\_set1\_1[22]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Alexandra	_	_	_	_	_	
+
+#Text=Blinkt von oben bis unten.
+130-1	2579-2585	Blinkt	GWithout[22]	putzen\_set1\_1[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-putzen\_set1\_1[22]	3	*	*	*	singular	false[145]	Decl[145]	*[233]	*[233]	*[233]	*[233]	*[233]	input1[233]	41[318]	female[318]	2prsavjsjqbmc8hrbo9bovkues[318]	speaker: YOU[403]	*->120-2	zero[120]	_	_	_	
+130-2	2586-2589	von	GWithout[22]	putzen\_set1\_1[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-putzen\_set1\_1[22]	_	_	_	_	_	false[145]	Decl[145]	*[233]	*[233]	*[233]	*[233]	*[233]	input1[233]	41[318]	female[318]	2prsavjsjqbmc8hrbo9bovkues[318]	speaker: YOU[403]	_	_	_	_	_	
+130-3	2590-2594	oben	GWithout[22]	putzen\_set1\_1[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-putzen\_set1\_1[22]	*[63]	*[63]	PrepObj[63]	*[63]	*[63]	false[145]	Decl[145]	*[233]	*[233]	*[233]	*[233]	*[233]	input1[233]	41[318]	female[318]	2prsavjsjqbmc8hrbo9bovkues[318]	speaker: YOU[403]	_	_	_	_	_	
+130-4	2595-2598	bis	GWithout[22]	putzen\_set1\_1[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-putzen\_set1\_1[22]	*[63]	*[63]	PrepObj[63]	*[63]	*[63]	false[145]	Decl[145]	*[233]	*[233]	*[233]	*[233]	*[233]	input1[233]	41[318]	female[318]	2prsavjsjqbmc8hrbo9bovkues[318]	speaker: YOU[403]	_	_	_	_	_	
+130-5	2599-2605	unten.	GWithout[22]	putzen\_set1\_1[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-putzen\_set1\_1[22]	*[63]	*[63]	PrepObj[63]	*[63]	*[63]	false[145]	Decl[145]	*[233]	*[233]	*[233]	*[233]	*[233]	input1[233]	41[318]	female[318]	2prsavjsjqbmc8hrbo9bovkues[318]	speaker: YOU[403]	_	_	_	_	_	
+
+#Text=Bin echt stolz.
+131-1	2607-2610	Bin	GWithout[22]	putzen\_set1\_1[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-putzen\_set1\_1[22]	1	*	*	*	singular	false[146]	Decl[146]	*[234]	*[234]	*[234]	*[234]	*[234]	input2[234]	41[319]	female[319]	2prsavjsjqbmc8hrbo9bovkues[319]	speaker: YOU[404]	*->86-1	zero[86]	_	_	_	
+131-2	2611-2615	echt	GWithout[22]	putzen\_set1\_1[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-putzen\_set1\_1[22]	_	_	_	_	_	false[146]	Decl[146]	*[234]	*[234]	*[234]	*[234]	*[234]	input2[234]	41[319]	female[319]	2prsavjsjqbmc8hrbo9bovkues[319]	speaker: YOU[404]	_	_	_	_	_	
+131-3	2616-2622	stolz.	GWithout[22]	putzen\_set1\_1[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-putzen\_set1\_1[22]	_	_	_	_	_	false[146]	Decl[146]	*[234]	*[234]	*[234]	*[234]	*[234]	input2[234]	41[319]	female[319]	2prsavjsjqbmc8hrbo9bovkues[319]	speaker: YOU[404]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+132-1	2624-2639	END_OF_DOCUMENT	GWithout[22]	putzen\_set1\_1[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-putzen\_set1\_1[22]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+133-1	2641-2644	Na?	GWithout[23]	putzen\_set1\_1[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-putzen\_set1\_1[23]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Alexandra	_	_	QAP	*	134-1[147_0]	
+
+#Text=Lena hat die Küche geputzt
+134-1	2646-2650	Lena	GWithout[23]	putzen\_set1\_1[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-putzen\_set1\_1[23]	*	*	Subj	*	*	false[147]	Decl[147]	*[235]	putzen[235]	transitive[235]	*[235]	*[235]	item0[235]	46[320]	male[320]	3jjtes457iqluuhfmeiub8g6qd[320]	speaker: YOU[405]	*->77-1	PropNm[77]	explanation	*	136-1[148_147]	
+134-2	2651-2654	hat	GWithout[23]	putzen\_set1\_1[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-putzen\_set1\_1[23]	_	_	_	_	_	false[147]	Decl[147]	*[235]	putzen[235]	transitive[235]	*[235]	*[235]	item0[235]	46[320]	male[320]	3jjtes457iqluuhfmeiub8g6qd[320]	speaker: YOU[405]	*->109-1	clause[109]	_	_	_	
+134-3	2655-2658	die	GWithout[23]	putzen\_set1\_1[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-putzen\_set1\_1[23]	*[64]	*[64]	object[64]	*[64]	*[64]	false[147]	Decl[147]	*[235]	putzen[235]	transitive[235]	*[235]	*[235]	item0[235]	46[320]	male[320]	3jjtes457iqluuhfmeiub8g6qd[320]	speaker: YOU[405]	*->109-1|*->116-1	clause[109]|DefNP[116]	_	_	_	
+134-4	2659-2664	Küche	GWithout[23]	putzen\_set1\_1[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-putzen\_set1\_1[23]	*[64]	*[64]	object[64]	*[64]	*[64]	false[147]	Decl[147]	*[235]	putzen[235]	transitive[235]	*[235]	*[235]	item0[235]	46[320]	male[320]	3jjtes457iqluuhfmeiub8g6qd[320]	speaker: YOU[405]	*->109-1|*->116-1	clause[109]|DefNP[116]	_	_	_	
+134-5	2665-2672	geputzt	GWithout[23]	putzen\_set1\_1[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-putzen\_set1\_1[23]	_	_	_	_	_	false[147]	Decl[147]	*[235]	putzen[235]	transitive[235]	*[235]	*[235]	item0[235]	46[320]	male[320]	3jjtes457iqluuhfmeiub8g6qd[320]	speaker: YOU[405]	*->109-1	clause[109]	_	_	_	
+
+#Text=-
+135-1	2674-2675	-	GWithout[23]	putzen\_set1\_1[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-putzen\_set1\_1[23]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Alexandra	_	_	_	_	_	
+
+#Text=Eigentlich wollte ich ihr dabei helfen
+136-1	2677-2687	Eigentlich	GWithout[23]	putzen\_set1\_1[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-putzen\_set1\_1[23]	_	_	_	_	_	true[148]|false[149]	*[148]|Decl[149]	*[236]	*[236]	*[236]	*[236]	*[236]	input1[236]	46[321]	male[321]	3jjtes457iqluuhfmeiub8g6qd[321]	speaker: YOU[406]	_	_	contrast	*	137-1[150_149]	
+136-2	2688-2694	wollte	GWithout[23]	putzen\_set1\_1[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-putzen\_set1\_1[23]	_	_	_	_	_	true[148]|false[149]	*[148]|Decl[149]	*[236]	*[236]	*[236]	*[236]	*[236]	input1[236]	46[321]	male[321]	3jjtes457iqluuhfmeiub8g6qd[321]	speaker: YOU[406]	_	_	_	_	_	
+136-3	2695-2698	ich	GWithout[23]	putzen\_set1\_1[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-putzen\_set1\_1[23]	1	*	Subj	*	singular	true[148]|false[149]	*[148]|Decl[149]	*[236]	*[236]	*[236]	*[236]	*[236]	input1[236]	46[321]	male[321]	3jjtes457iqluuhfmeiub8g6qd[321]	speaker: YOU[406]	*->27-1	PerPron[27]	_	_	_	
+136-4	2699-2702	ihr	GWithout[23]	putzen\_set1\_1[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-putzen\_set1\_1[23]	3	*	IndirObj	*	singular	true[148]|false[149]	*[148]|Decl[149]	*[236]	*[236]	*[236]	*[236]	*[236]	input1[236]	46[321]	male[321]	3jjtes457iqluuhfmeiub8g6qd[321]	speaker: YOU[406]	*->77-2	PerPron[77]	_	_	_	
+136-5	2703-2708	dabei	GWithout[23]	putzen\_set1\_1[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-putzen\_set1\_1[23]	_	_	_	_	_	true[148]|false[149]	*[148]|Decl[149]	*[236]	*[236]	*[236]	*[236]	*[236]	input1[236]	46[321]	male[321]	3jjtes457iqluuhfmeiub8g6qd[321]	speaker: YOU[406]	*->116-2	D-Pron[116]	_	_	_	
+136-6	2709-2715	helfen	GWithout[23]	putzen\_set1\_1[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-putzen\_set1\_1[23]	_	_	_	_	_	true[148]|false[149]	*[148]|Decl[149]	*[236]	*[236]	*[236]	*[236]	*[236]	input1[236]	46[321]	male[321]	3jjtes457iqluuhfmeiub8g6qd[321]	speaker: YOU[406]	_	_	_	_	_	
+
+#Text=Aber dann hat meine Mutter angerufen und ewig geredet..
+137-1	2717-2721	Aber	GWithout[23]	putzen\_set1\_1[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-putzen\_set1\_1[23]	_	_	_	_	_	true[148]|false[150]	*[148]|Decl[150]	*[237]	*[237]	*[237]	*[237]	*[237]	input2[237]	46[322]	male[322]	3jjtes457iqluuhfmeiub8g6qd[322]	speaker: YOU[407]	_	_	_	_	_	
+137-2	2722-2726	dann	GWithout[23]	putzen\_set1\_1[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-putzen\_set1\_1[23]	_	_	_	_	_	true[148]|false[150]	*[148]|Decl[150]	*[237]	*[237]	*[237]	*[237]	*[237]	input2[237]	46[322]	male[322]	3jjtes457iqluuhfmeiub8g6qd[322]	speaker: YOU[407]	_	_	_	_	_	
+137-3	2727-2730	hat	GWithout[23]	putzen\_set1\_1[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-putzen\_set1\_1[23]	_	_	_	_	_	true[148]|false[150]	*[148]|Decl[150]	*[237]	*[237]	*[237]	*[237]	*[237]	input2[237]	46[322]	male[322]	3jjtes457iqluuhfmeiub8g6qd[322]	speaker: YOU[407]	_	_	_	_	_	
+137-4	2731-2736	meine	GWithout[23]	putzen\_set1\_1[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-putzen\_set1\_1[23]	*[65]|1[66]	*[65]|*[66]	Subj[65]|*[66]	*[65]|*[66]	*[65]|singular[66]	true[148]|false[150]	*[148]|Decl[150]	*[237]	*[237]	*[237]	*[237]	*[237]	input2[237]	46[322]	male[322]	3jjtes457iqluuhfmeiub8g6qd[322]	speaker: YOU[407]	*->74-1|*->27-2	DefNP[74]|PossePron[27]	_	_	_	
+137-5	2737-2743	Mutter	GWithout[23]	putzen\_set1\_1[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-putzen\_set1\_1[23]	*[65]	*[65]	Subj[65]	*[65]	*[65]	true[148]|false[150]	*[148]|Decl[150]	*[237]	*[237]	*[237]	*[237]	*[237]	input2[237]	46[322]	male[322]	3jjtes457iqluuhfmeiub8g6qd[322]	speaker: YOU[407]	*->74-1	DefNP[74]	_	_	_	
+137-6	2744-2753	angerufen	GWithout[23]	putzen\_set1\_1[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-putzen\_set1\_1[23]	_	_	_	_	_	true[148]|false[150]	*[148]|Decl[150]	*[237]	*[237]	*[237]	*[237]	*[237]	input2[237]	46[322]	male[322]	3jjtes457iqluuhfmeiub8g6qd[322]	speaker: YOU[407]	_	_	_	_	_	
+137-7	2754-2757	und	GWithout[23]	putzen\_set1\_1[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-putzen\_set1\_1[23]	_	_	_	_	_	true[148]|false[150]	*[148]|Decl[150]	*[237]	*[237]	*[237]	*[237]	*[237]	input2[237]	46[322]	male[322]	3jjtes457iqluuhfmeiub8g6qd[322]	speaker: YOU[407]	_	_	_	_	_	
+137-8	2758-2762	ewig	GWithout[23]	putzen\_set1\_1[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-putzen\_set1\_1[23]	_	_	_	_	_	true[148]|false[150]	*[148]|Decl[150]	*[237]	*[237]	*[237]	*[237]	*[237]	input2[237]	46[322]	male[322]	3jjtes457iqluuhfmeiub8g6qd[322]	speaker: YOU[407]	_	_	_	_	_	
+137-9	2763-2772	geredet..	GWithout[23]	putzen\_set1\_1[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-putzen\_set1\_1[23]	_	_	_	_	_	true[148]|false[150]	*[148]|Decl[150]	*[237]	*[237]	*[237]	*[237]	*[237]	input2[237]	46[322]	male[322]	3jjtes457iqluuhfmeiub8g6qd[322]	speaker: YOU[407]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+138-1	2774-2789	END_OF_DOCUMENT	GWithout[23]	putzen\_set1\_1[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-putzen\_set1\_1[23]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+139-1	2791-2794	Na?	GWithout[24]	putzen\_set1\_1[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-putzen\_set1\_1[24]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Alexandra	_	_	QAP	*	140-1[151_0]	
+
+#Text=Lena hat die Küche geputzt
+140-1	2796-2800	Lena	GWithout[24]	putzen\_set1\_1[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-putzen\_set1\_1[24]	*	*	Subj	*	*	false[151]	Decl[151]	*[238]	putzen[238]	transitive[238]	*[238]	*[238]	item0[238]	27[323]	female[323]	65p8m4ujg4fi983365pclnac28[323]	speaker: YOU[408]	*->11-1	PropNm[11]	elaboration	*	142-1[0_151]	
+140-2	2801-2804	hat	GWithout[24]	putzen\_set1\_1[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-putzen\_set1\_1[24]	_	_	_	_	_	false[151]	Decl[151]	*[238]	putzen[238]	transitive[238]	*[238]	*[238]	item0[238]	27[323]	female[323]	65p8m4ujg4fi983365pclnac28[323]	speaker: YOU[408]	_	_	_	_	_	
+140-3	2805-2808	die	GWithout[24]	putzen\_set1\_1[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-putzen\_set1\_1[24]	*[67]	*[67]	object[67]	*[67]	*[67]	false[151]	Decl[151]	*[238]	putzen[238]	transitive[238]	*[238]	*[238]	item0[238]	27[323]	female[323]	65p8m4ujg4fi983365pclnac28[323]	speaker: YOU[408]	*->15-1	DefNP[15]	_	_	_	
+140-4	2809-2814	Küche	GWithout[24]	putzen\_set1\_1[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-putzen\_set1\_1[24]	*[67]	*[67]	object[67]	*[67]	*[67]	false[151]	Decl[151]	*[238]	putzen[238]	transitive[238]	*[238]	*[238]	item0[238]	27[323]	female[323]	65p8m4ujg4fi983365pclnac28[323]	speaker: YOU[408]	*->15-1	DefNP[15]	_	_	_	
+140-5	2815-2822	geputzt	GWithout[24]	putzen\_set1\_1[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-putzen\_set1\_1[24]	_	_	_	_	_	false[151]	Decl[151]	*[238]	putzen[238]	transitive[238]	*[238]	*[238]	item0[238]	27[323]	female[323]	65p8m4ujg4fi983365pclnac28[323]	speaker: YOU[408]	_	_	_	_	_	
+
+#Text=-
+141-1	2824-2825	-	GWithout[24]	putzen\_set1\_1[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-putzen\_set1\_1[24]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Alexandra	_	_	_	_	_	
+
+#Text=Endlich
+142-1	2827-2834	Endlich	GWithout[24]	putzen\_set1\_1[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-putzen\_set1\_1[24]	_	_	_	_	_	false	NA	*	*	*	*	*	input1	27	female	65p8m4ujg4fi983365pclnac28	speaker: YOU	_	_	elaboration	*	143-1[152_0]	
+
+#Text=Nach so einer langen Zeit
+143-1	2836-2840	Nach	GWithout[24]	putzen\_set1\_1[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-putzen\_set1\_1[24]	_	_	_	_	_	false[152]	NA[152]	*[239]	*[239]	*[239]	*[239]	*[239]	input2[239]	27[324]	female[324]	65p8m4ujg4fi983365pclnac28[324]	speaker: YOU[409]	_	_	_	_	_	
+143-2	2841-2843	so	GWithout[24]	putzen\_set1\_1[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-putzen\_set1\_1[24]	_	_	_	_	_	false[152]	NA[152]	*[239]	*[239]	*[239]	*[239]	*[239]	input2[239]	27[324]	female[324]	65p8m4ujg4fi983365pclnac28[324]	speaker: YOU[409]	*->92-1	IndefNP[92]	_	_	_	
+143-3	2844-2849	einer	GWithout[24]	putzen\_set1\_1[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-putzen\_set1\_1[24]	_	_	_	_	_	false[152]	NA[152]	*[239]	*[239]	*[239]	*[239]	*[239]	input2[239]	27[324]	female[324]	65p8m4ujg4fi983365pclnac28[324]	speaker: YOU[409]	*->92-1	IndefNP[92]	_	_	_	
+143-4	2850-2856	langen	GWithout[24]	putzen\_set1\_1[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-putzen\_set1\_1[24]	_	_	_	_	_	false[152]	NA[152]	*[239]	*[239]	*[239]	*[239]	*[239]	input2[239]	27[324]	female[324]	65p8m4ujg4fi983365pclnac28[324]	speaker: YOU[409]	*->92-1	IndefNP[92]	_	_	_	
+143-5	2857-2861	Zeit	GWithout[24]	putzen\_set1\_1[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-putzen\_set1\_1[24]	_	_	_	_	_	false[152]	NA[152]	*[239]	*[239]	*[239]	*[239]	*[239]	input2[239]	27[324]	female[324]	65p8m4ujg4fi983365pclnac28[324]	speaker: YOU[409]	*->92-1	IndefNP[92]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+144-1	2863-2878	END_OF_DOCUMENT	GWithout[24]	putzen\_set1\_1[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-putzen\_set1\_1[24]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+145-1	2880-2883	Na?	GWithout[25]	putzen\_set1\_1[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-putzen\_set1\_1[25]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Alexandra	_	_	QAP	*	146-1[153_0]	
+
+#Text=Lena hat die Küche geputzt
+146-1	2885-2889	Lena	GWithout[25]	putzen\_set1\_1[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-putzen\_set1\_1[25]	*	*	Subj	*	*	false[153]	Decl[153]	*[240]	putzen[240]	transitive[240]	*[240]	*[240]	item0[240]	22[325]	female[325]	ad2p95q44evasm6vmbol4cikit[325]	speaker: YOU[410]	*->65-1	PropNm[65]	result|elaboration	*|*	148-1[154_153]|149-1[155_153]	
+146-2	2890-2893	hat	GWithout[25]	putzen\_set1\_1[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-putzen\_set1\_1[25]	_	_	_	_	_	false[153]	Decl[153]	*[240]	putzen[240]	transitive[240]	*[240]	*[240]	item0[240]	22[325]	female[325]	ad2p95q44evasm6vmbol4cikit[325]	speaker: YOU[410]	*->49-1	clause[49]	_	_	_	
+146-3	2894-2897	die	GWithout[25]	putzen\_set1\_1[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-putzen\_set1\_1[25]	*[68]	*[68]	object[68]	*[68]	*[68]	false[153]	Decl[153]	*[240]	putzen[240]	transitive[240]	*[240]	*[240]	item0[240]	22[325]	female[325]	ad2p95q44evasm6vmbol4cikit[325]	speaker: YOU[410]	*->49-1|*->52-1	clause[49]|DefNP[52]	_	_	_	
+146-4	2898-2903	Küche	GWithout[25]	putzen\_set1\_1[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-putzen\_set1\_1[25]	*[68]	*[68]	object[68]	*[68]	*[68]	false[153]	Decl[153]	*[240]	putzen[240]	transitive[240]	*[240]	*[240]	item0[240]	22[325]	female[325]	ad2p95q44evasm6vmbol4cikit[325]	speaker: YOU[410]	*->49-1|*->52-1	clause[49]|DefNP[52]	_	_	_	
+146-5	2904-2911	geputzt	GWithout[25]	putzen\_set1\_1[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-putzen\_set1\_1[25]	_	_	_	_	_	false[153]	Decl[153]	*[240]	putzen[240]	transitive[240]	*[240]	*[240]	item0[240]	22[325]	female[325]	ad2p95q44evasm6vmbol4cikit[325]	speaker: YOU[410]	*->49-1	clause[49]	_	_	_	
+
+#Text=-
+147-1	2913-2914	-	GWithout[25]	putzen\_set1\_1[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-putzen\_set1\_1[25]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Alexandra	_	_	_	_	_	
+
+#Text=Jetzt ist alles wieder sauber.
+148-1	2916-2921	Jetzt	GWithout[25]	putzen\_set1\_1[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-putzen\_set1\_1[25]	_	_	_	_	_	false[154]	Decl[154]	*[241]	*[241]	*[241]	*[241]	*[241]	input1[241]	22[326]	female[326]	ad2p95q44evasm6vmbol4cikit[326]	speaker: YOU[411]	_	_	_	_	_	
+148-2	2922-2925	ist	GWithout[25]	putzen\_set1\_1[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-putzen\_set1\_1[25]	_	_	_	_	_	false[154]	Decl[154]	*[241]	*[241]	*[241]	*[241]	*[241]	input1[241]	22[326]	female[326]	ad2p95q44evasm6vmbol4cikit[326]	speaker: YOU[411]	_	_	_	_	_	
+148-3	2926-2931	alles	GWithout[25]	putzen\_set1\_1[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-putzen\_set1\_1[25]	_	_	_	_	_	false[154]	Decl[154]	*[241]	*[241]	*[241]	*[241]	*[241]	input1[241]	22[326]	female[326]	ad2p95q44evasm6vmbol4cikit[326]	speaker: YOU[411]	*->54-1	Allquantor[54]	_	_	_	
+148-4	2932-2938	wieder	GWithout[25]	putzen\_set1\_1[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-putzen\_set1\_1[25]	_	_	_	_	_	false[154]	Decl[154]	*[241]	*[241]	*[241]	*[241]	*[241]	input1[241]	22[326]	female[326]	ad2p95q44evasm6vmbol4cikit[326]	speaker: YOU[411]	_	_	_	_	_	
+148-5	2939-2946	sauber.	GWithout[25]	putzen\_set1\_1[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-putzen\_set1\_1[25]	_	_	_	_	_	false[154]	Decl[154]	*[241]	*[241]	*[241]	*[241]	*[241]	input1[241]	22[326]	female[326]	ad2p95q44evasm6vmbol4cikit[326]	speaker: YOU[411]	_	_	_	_	_	
+
+#Text=Sie macht es jede Woche.
+149-1	2948-2951	Sie	GWithout[25]	putzen\_set1\_1[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-putzen\_set1\_1[25]	3	*	Subj	*	singular	false[155]	Decl[155]	*[242]	*[242]	*[242]	*[242]	*[242]	input2[242]	22[327]	female[327]	ad2p95q44evasm6vmbol4cikit[327]	speaker: YOU[412]	*->65-2	PerPron[65]	_	_	_	
+149-2	2952-2957	macht	GWithout[25]	putzen\_set1\_1[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-putzen\_set1\_1[25]	_	_	_	_	_	false[155]	Decl[155]	*[242]	*[242]	*[242]	*[242]	*[242]	input2[242]	22[327]	female[327]	ad2p95q44evasm6vmbol4cikit[327]	speaker: YOU[412]	_	_	_	_	_	
+149-3	2958-2960	es	GWithout[25]	putzen\_set1\_1[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-putzen\_set1\_1[25]	3	*	DirObj	*	singular	false[155]	Decl[155]	*[242]	*[242]	*[242]	*[242]	*[242]	input2[242]	22[327]	female[327]	ad2p95q44evasm6vmbol4cikit[327]	speaker: YOU[412]	*->49-2	PerPron[49]	_	_	_	
+149-4	2961-2965	jede	GWithout[25]	putzen\_set1\_1[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-putzen\_set1\_1[25]	_	_	_	_	_	false[155]	Decl[155]	*[242]	*[242]	*[242]	*[242]	*[242]	input2[242]	22[327]	female[327]	ad2p95q44evasm6vmbol4cikit[327]	speaker: YOU[412]	*->56-1	Allquantor[56]	_	_	_	
+149-5	2966-2972	Woche.	GWithout[25]	putzen\_set1\_1[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-putzen\_set1\_1[25]	_	_	_	_	_	false[155]	Decl[155]	*[242]	*[242]	*[242]	*[242]	*[242]	input2[242]	22[327]	female[327]	ad2p95q44evasm6vmbol4cikit[327]	speaker: YOU[412]	*->56-1	Allquantor[56]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+150-1	2974-2989	END_OF_DOCUMENT	GWithout[25]	putzen\_set1\_1[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-putzen\_set1\_1[25]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+151-1	2991-2994	Na?	GWithout[26]	putzen\_set1\_1[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-putzen\_set1\_1[26]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Alexandra	_	_	QAP	*	152-1[156_0]	
+
+#Text=Lena hat die Küche geputzt
+152-1	2996-3000	Lena	GWithout[26]	putzen\_set1\_1[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-putzen\_set1\_1[26]	*	*	Subj	*	*	false[156]	Decl[156]	*[243]	putzen[243]	transitive[243]	*[243]	*[243]	item0[243]	36[328]	female[328]	aoum613lougtk5ql841j63bjo9[328]	speaker: YOU[413]	*->107-1	PropNm[107]	parallel	*	154-1[157_156]	
+152-2	3001-3004	hat	GWithout[26]	putzen\_set1\_1[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-putzen\_set1\_1[26]	_	_	_	_	_	false[156]	Decl[156]	*[243]	putzen[243]	transitive[243]	*[243]	*[243]	item0[243]	36[328]	female[328]	aoum613lougtk5ql841j63bjo9[328]	speaker: YOU[413]	_	_	_	_	_	
+152-3	3005-3008	die	GWithout[26]	putzen\_set1\_1[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-putzen\_set1\_1[26]	*[69]	*[69]	object[69]	*[69]	*[69]	false[156]	Decl[156]	*[243]	putzen[243]	transitive[243]	*[243]	*[243]	item0[243]	36[328]	female[328]	aoum613lougtk5ql841j63bjo9[328]	speaker: YOU[413]	*->100-1	DefNP[100]	_	_	_	
+152-4	3009-3014	Küche	GWithout[26]	putzen\_set1\_1[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-putzen\_set1\_1[26]	*[69]	*[69]	object[69]	*[69]	*[69]	false[156]	Decl[156]	*[243]	putzen[243]	transitive[243]	*[243]	*[243]	item0[243]	36[328]	female[328]	aoum613lougtk5ql841j63bjo9[328]	speaker: YOU[413]	*->100-1	DefNP[100]	_	_	_	
+152-5	3015-3022	geputzt	GWithout[26]	putzen\_set1\_1[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-putzen\_set1\_1[26]	_	_	_	_	_	false[156]	Decl[156]	*[243]	putzen[243]	transitive[243]	*[243]	*[243]	item0[243]	36[328]	female[328]	aoum613lougtk5ql841j63bjo9[328]	speaker: YOU[413]	_	_	_	_	_	
+
+#Text=-
+153-1	3024-3025	-	GWithout[26]	putzen\_set1\_1[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-putzen\_set1\_1[26]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Alexandra	_	_	_	_	_	
+
+#Text=Jan war fürs Putzen des Badezimmers zuständig.
+154-1	3027-3030	Jan	GWithout[26]	putzen\_set1\_1[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-putzen\_set1\_1[26]	*	*	Subj	*	*	false[157]	Decl[157]	*[244]	*[244]	*[244]	*[244]	*[244]	input1[244]	36[329]	female[329]	aoum613lougtk5ql841j63bjo9[329]	speaker: YOU[414]	*->104-1	PropNm[104]	parallel	*	155-1[158_157]	
+154-2	3031-3034	war	GWithout[26]	putzen\_set1\_1[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-putzen\_set1\_1[26]	_	_	_	_	_	false[157]	Decl[157]	*[244]	*[244]	*[244]	*[244]	*[244]	input1[244]	36[329]	female[329]	aoum613lougtk5ql841j63bjo9[329]	speaker: YOU[414]	_	_	_	_	_	
+154-3	3035-3039	fürs	GWithout[26]	putzen\_set1\_1[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-putzen\_set1\_1[26]	_	_	_	_	_	false[157]	Decl[157]	*[244]	*[244]	*[244]	*[244]	*[244]	input1[244]	36[329]	female[329]	aoum613lougtk5ql841j63bjo9[329]	speaker: YOU[414]	*->28-1	DefNP[28]	_	_	_	
+154-4	3040-3046	Putzen	GWithout[26]	putzen\_set1\_1[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-putzen\_set1\_1[26]	*[70]	*[70]	PrepObj[70]	*[70]	*[70]	false[157]	Decl[157]	*[244]	*[244]	*[244]	*[244]	*[244]	input1[244]	36[329]	female[329]	aoum613lougtk5ql841j63bjo9[329]	speaker: YOU[414]	*->28-1	DefNP[28]	_	_	_	
+154-5	3047-3050	des	GWithout[26]	putzen\_set1\_1[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-putzen\_set1\_1[26]	*[70]	*[70]	PrepObj[70]	*[70]	*[70]	false[157]	Decl[157]	*[244]	*[244]	*[244]	*[244]	*[244]	input1[244]	36[329]	female[329]	aoum613lougtk5ql841j63bjo9[329]	speaker: YOU[414]	*->28-1|*->110-1	DefNP[28]|DefNP[110]	_	_	_	
+154-6	3051-3062	Badezimmers	GWithout[26]	putzen\_set1\_1[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-putzen\_set1\_1[26]	*[70]	*[70]	PrepObj[70]	*[70]	*[70]	false[157]	Decl[157]	*[244]	*[244]	*[244]	*[244]	*[244]	input1[244]	36[329]	female[329]	aoum613lougtk5ql841j63bjo9[329]	speaker: YOU[414]	*->28-1|*->110-1	DefNP[28]|DefNP[110]	_	_	_	
+154-7	3063-3073	zuständig.	GWithout[26]	putzen\_set1\_1[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-putzen\_set1\_1[26]	_	_	_	_	_	false[157]	Decl[157]	*[244]	*[244]	*[244]	*[244]	*[244]	input1[244]	36[329]	female[329]	aoum613lougtk5ql841j63bjo9[329]	speaker: YOU[414]	_	_	_	_	_	
+
+#Text=Ich hab das Wohnzimmer aufgeräumt und sauber gemacht.
+155-1	3075-3078	Ich	GWithout[26]	putzen\_set1\_1[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-putzen\_set1\_1[26]	1	*	Subj	*	singular	false[158]	Decl[158]	*[245]	*[245]	*[245]	*[245]	*[245]	input2[245]	36[330]	female[330]	aoum613lougtk5ql841j63bjo9[330]	speaker: YOU[415]	*->33-1	PerPron[33]	_	_	_	
+155-2	3079-3082	hab	GWithout[26]	putzen\_set1\_1[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-putzen\_set1\_1[26]	_	_	_	_	_	false[158]	Decl[158]	*[245]	*[245]	*[245]	*[245]	*[245]	input2[245]	36[330]	female[330]	aoum613lougtk5ql841j63bjo9[330]	speaker: YOU[415]	_	_	_	_	_	
+155-3	3083-3086	das	GWithout[26]	putzen\_set1\_1[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-putzen\_set1\_1[26]	*[71]	*[71]	DirObj[71]	*[71]	*[71]	false[158]	Decl[158]	*[245]	*[245]	*[245]	*[245]	*[245]	input2[245]	36[330]	female[330]	aoum613lougtk5ql841j63bjo9[330]	speaker: YOU[415]	*->18-1	DefNP[18]	_	_	_	
+155-4	3087-3097	Wohnzimmer	GWithout[26]	putzen\_set1\_1[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-putzen\_set1\_1[26]	*[71]	*[71]	DirObj[71]	*[71]	*[71]	false[158]	Decl[158]	*[245]	*[245]	*[245]	*[245]	*[245]	input2[245]	36[330]	female[330]	aoum613lougtk5ql841j63bjo9[330]	speaker: YOU[415]	*->18-1	DefNP[18]	_	_	_	
+155-5	3098-3108	aufgeräumt	GWithout[26]	putzen\_set1\_1[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-putzen\_set1\_1[26]	_	_	_	_	_	false[158]	Decl[158]	*[245]	*[245]	*[245]	*[245]	*[245]	input2[245]	36[330]	female[330]	aoum613lougtk5ql841j63bjo9[330]	speaker: YOU[415]	_	_	_	_	_	
+155-6	3109-3112	und	GWithout[26]	putzen\_set1\_1[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-putzen\_set1\_1[26]	_	_	_	_	_	false[158]	Decl[158]	*[245]	*[245]	*[245]	*[245]	*[245]	input2[245]	36[330]	female[330]	aoum613lougtk5ql841j63bjo9[330]	speaker: YOU[415]	_	_	_	_	_	
+155-7	3113-3119	sauber	GWithout[26]	putzen\_set1\_1[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-putzen\_set1\_1[26]	_	_	_	_	_	false[158]	Decl[158]	*[245]	*[245]	*[245]	*[245]	*[245]	input2[245]	36[330]	female[330]	aoum613lougtk5ql841j63bjo9[330]	speaker: YOU[415]	_	_	_	_	_	
+155-8	3120-3128	gemacht.	GWithout[26]	putzen\_set1\_1[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-putzen\_set1\_1[26]	_	_	_	_	_	false[158]	Decl[158]	*[245]	*[245]	*[245]	*[245]	*[245]	input2[245]	36[330]	female[330]	aoum613lougtk5ql841j63bjo9[330]	speaker: YOU[415]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+156-1	3130-3145	END_OF_DOCUMENT	GWithout[26]	putzen\_set1\_1[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-putzen\_set1\_1[26]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+157-1	3147-3150	Na?	GWithout[27]	putzen\_set1\_1[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-putzen\_set1\_1[27]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Alexandra	_	_	QAP	*	158-1[159_0]	
+
+#Text=Lena hat die Küche geputzt
+158-1	3152-3156	Lena	GWithout[27]	putzen\_set1\_1[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-putzen\_set1\_1[27]	*	*	Subj	*	*	false[159]	Decl[159]	*[246]	putzen[246]	transitive[246]	*[246]	*[246]	item0[246]	26[331]	male[331]	c48fsj7kc4kiuorutkbb4be30b[331]	speaker: YOU[416]	*->44-1|*->60-1	clause[44]|PropNm[60]	explanation|narration	*|*	160-1[160_159]|161-1[163_159]	
+158-2	3157-3160	hat	GWithout[27]	putzen\_set1\_1[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-putzen\_set1\_1[27]	_	_	_	_	_	false[159]	Decl[159]	*[246]	putzen[246]	transitive[246]	*[246]	*[246]	item0[246]	26[331]	male[331]	c48fsj7kc4kiuorutkbb4be30b[331]	speaker: YOU[416]	*->44-1	clause[44]	_	_	_	
+158-3	3161-3164	die	GWithout[27]	putzen\_set1\_1[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-putzen\_set1\_1[27]	*[72]	*[72]	object[72]	*[72]	*[72]	false[159]	Decl[159]	*[246]	putzen[246]	transitive[246]	*[246]	*[246]	item0[246]	26[331]	male[331]	c48fsj7kc4kiuorutkbb4be30b[331]	speaker: YOU[416]	*->44-1|*->34-1	clause[44]|DefNP[34]	_	_	_	
+158-4	3165-3170	Küche	GWithout[27]	putzen\_set1\_1[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-putzen\_set1\_1[27]	*[72]	*[72]	object[72]	*[72]	*[72]	false[159]	Decl[159]	*[246]	putzen[246]	transitive[246]	*[246]	*[246]	item0[246]	26[331]	male[331]	c48fsj7kc4kiuorutkbb4be30b[331]	speaker: YOU[416]	*->44-1|*->34-1	clause[44]|DefNP[34]	_	_	_	
+158-5	3171-3178	geputzt	GWithout[27]	putzen\_set1\_1[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-putzen\_set1\_1[27]	_	_	_	_	_	false[159]	Decl[159]	*[246]	putzen[246]	transitive[246]	*[246]	*[246]	item0[246]	26[331]	male[331]	c48fsj7kc4kiuorutkbb4be30b[331]	speaker: YOU[416]	*->44-1	clause[44]	_	_	_	
+
+#Text=-
+159-1	3180-3181	-	GWithout[27]	putzen\_set1\_1[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-putzen\_set1\_1[27]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Alexandra	_	_	_	_	_	
+
+#Text=Das ist ja auch nur fair <BR> nach der Sauerei<BR>die sie gestern angerichtet hat.
+160-1	3183-3186	Das	GWithout[27]	putzen\_set1\_1[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-putzen\_set1\_1[27]	*	*	Subj	*	*	false[160]	Decl[160]	*[247]	*[247]	*[247]	*[247]	*[247]	input1[247]	26[332]	male[332]	c48fsj7kc4kiuorutkbb4be30b[332]	speaker: YOU[417]	*->44-2	D-Pron[44]	explanation	*	160-8[161_160]	
+160-2	3187-3190	ist	GWithout[27]	putzen\_set1\_1[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-putzen\_set1\_1[27]	_	_	_	_	_	false[160]	Decl[160]	*[247]	*[247]	*[247]	*[247]	*[247]	input1[247]	26[332]	male[332]	c48fsj7kc4kiuorutkbb4be30b[332]	speaker: YOU[417]	_	_	_	_	_	
+160-3	3191-3193	ja	GWithout[27]	putzen\_set1\_1[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-putzen\_set1\_1[27]	_	_	_	_	_	false[160]	Decl[160]	*[247]	*[247]	*[247]	*[247]	*[247]	input1[247]	26[332]	male[332]	c48fsj7kc4kiuorutkbb4be30b[332]	speaker: YOU[417]	_	_	_	_	_	
+160-4	3194-3198	auch	GWithout[27]	putzen\_set1\_1[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-putzen\_set1\_1[27]	_	_	_	_	_	false[160]	Decl[160]	*[247]	*[247]	*[247]	*[247]	*[247]	input1[247]	26[332]	male[332]	c48fsj7kc4kiuorutkbb4be30b[332]	speaker: YOU[417]	_	_	_	_	_	
+160-5	3199-3202	nur	GWithout[27]	putzen\_set1\_1[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-putzen\_set1\_1[27]	_	_	_	_	_	false[160]	Decl[160]	*[247]	*[247]	*[247]	*[247]	*[247]	input1[247]	26[332]	male[332]	c48fsj7kc4kiuorutkbb4be30b[332]	speaker: YOU[417]	_	_	_	_	_	
+160-6	3203-3207	fair	GWithout[27]	putzen\_set1\_1[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-putzen\_set1\_1[27]	_	_	_	_	_	false[160]	Decl[160]	*[247]	*[247]	*[247]	*[247]	*[247]	input1[247]	26[332]	male[332]	c48fsj7kc4kiuorutkbb4be30b[332]	speaker: YOU[417]	_	_	_	_	_	
+160-7	3208-3212	<BR>	GWithout[27]	putzen\_set1\_1[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-putzen\_set1\_1[27]	_	_	_	_	_	_	_	*[247]	*[247]	*[247]	*[247]	*[247]	input1[247]	26[332]	male[332]	c48fsj7kc4kiuorutkbb4be30b[332]	speaker: YOU[417]	_	_	_	_	_	
+160-8	3213-3217	nach	GWithout[27]	putzen\_set1\_1[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-putzen\_set1\_1[27]	_	_	_	_	_	false[161]	NA[161]	*[247]	*[247]	*[247]	*[247]	*[247]	input1[247]	26[332]	male[332]	c48fsj7kc4kiuorutkbb4be30b[332]	speaker: YOU[417]	_	_	elaboration	*	160-10.2[162_161]	
+160-9	3218-3221	der	GWithout[27]	putzen\_set1\_1[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-putzen\_set1\_1[27]	*[73]	*[73]	PrepObj[73]	*[73]	*[73]	false[161]	NA[161]	*[247]	*[247]	*[247]	*[247]	*[247]	input1[247]	26[332]	male[332]	c48fsj7kc4kiuorutkbb4be30b[332]	speaker: YOU[417]	*->93-1	DefNP[93]	_	_	_	
+160-10	3222-3236	Sauerei<BR>die	GWithout[27]	putzen\_set1\_1[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-putzen\_set1\_1[27]	*[73]	*[73]	PrepObj[73]	*[73]	*[73]	_	_	*[247]	*[247]	*[247]	*[247]	*[247]	input1[247]	26[332]	male[332]	c48fsj7kc4kiuorutkbb4be30b[332]	speaker: YOU[417]	_	_	_	_	_	
+160-10.1	3222-3229	Sauerei	_	_	_	_	_	_	_	_	_	false[161]	NA[161]	_	_	_	_	_	_	_	_	_	_	*->93-1	DefNP[93]	elaboration	*	160-10.2[162_161]	
+160-10.2	3233-3236	die	_	_	_	_	_	_	_	_	_	false[162]	Decl[162]	_	_	_	_	_	_	_	_	_	_	*->93-2	R-Pron[93]	_	_	_	
+160-11	3237-3240	sie	GWithout[27]	putzen\_set1\_1[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-putzen\_set1\_1[27]	3	*	Subj	*	singular	false[162]	Decl[162]	*[247]	*[247]	*[247]	*[247]	*[247]	input1[247]	26[332]	male[332]	c48fsj7kc4kiuorutkbb4be30b[332]	speaker: YOU[417]	*->60-2	PerPron[60]	_	_	_	
+160-12	3241-3248	gestern	GWithout[27]	putzen\_set1\_1[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-putzen\_set1\_1[27]	_	_	_	_	_	false[162]	Decl[162]	*[247]	*[247]	*[247]	*[247]	*[247]	input1[247]	26[332]	male[332]	c48fsj7kc4kiuorutkbb4be30b[332]	speaker: YOU[417]	_	_	_	_	_	
+160-13	3249-3260	angerichtet	GWithout[27]	putzen\_set1\_1[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-putzen\_set1\_1[27]	_	_	_	_	_	false[162]	Decl[162]	*[247]	*[247]	*[247]	*[247]	*[247]	input1[247]	26[332]	male[332]	c48fsj7kc4kiuorutkbb4be30b[332]	speaker: YOU[417]	_	_	_	_	_	
+160-14	3261-3265	hat.	GWithout[27]	putzen\_set1\_1[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-putzen\_set1\_1[27]	_	_	_	_	_	false[162]	Decl[162]	*[247]	*[247]	*[247]	*[247]	*[247]	input1[247]	26[332]	male[332]	c48fsj7kc4kiuorutkbb4be30b[332]	speaker: YOU[417]	_	_	_	_	_	
+
+#Text=Jedenfalls werde ich später etwas kochen.
+161-1	3267-3277	Jedenfalls	GWithout[27]	putzen\_set1\_1[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-putzen\_set1\_1[27]	_	_	_	_	_	false[163]	Decl[163]	*[248]	*[248]	*[248]	*[248]	*[248]	input2[248]	26[333]	male[333]	c48fsj7kc4kiuorutkbb4be30b[333]	speaker: YOU[418]	_	_	_	_	_	
+161-2	3278-3283	werde	GWithout[27]	putzen\_set1\_1[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-putzen\_set1\_1[27]	_	_	_	_	_	false[163]	Decl[163]	*[248]	*[248]	*[248]	*[248]	*[248]	input2[248]	26[333]	male[333]	c48fsj7kc4kiuorutkbb4be30b[333]	speaker: YOU[418]	_	_	_	_	_	
+161-3	3284-3287	ich	GWithout[27]	putzen\_set1\_1[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-putzen\_set1\_1[27]	1	*	Subj	*	singular	false[163]	Decl[163]	*[248]	*[248]	*[248]	*[248]	*[248]	input2[248]	26[333]	male[333]	c48fsj7kc4kiuorutkbb4be30b[333]	speaker: YOU[418]	*->24-1	PerPron[24]	_	_	_	
+161-4	3288-3294	später	GWithout[27]	putzen\_set1\_1[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-putzen\_set1\_1[27]	_	_	_	_	_	false[163]	Decl[163]	*[248]	*[248]	*[248]	*[248]	*[248]	input2[248]	26[333]	male[333]	c48fsj7kc4kiuorutkbb4be30b[333]	speaker: YOU[418]	_	_	_	_	_	
+161-5	3295-3300	etwas	GWithout[27]	putzen\_set1\_1[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-putzen\_set1\_1[27]	_	_	_	_	_	false[163]	Decl[163]	*[248]	*[248]	*[248]	*[248]	*[248]	input2[248]	26[333]	male[333]	c48fsj7kc4kiuorutkbb4be30b[333]	speaker: YOU[418]	*->9-1	IndefNP[9]	_	_	_	
+161-6	3301-3308	kochen.	GWithout[27]	putzen\_set1\_1[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-putzen\_set1\_1[27]	_	_	_	_	_	false[163]	Decl[163]	*[248]	*[248]	*[248]	*[248]	*[248]	input2[248]	26[333]	male[333]	c48fsj7kc4kiuorutkbb4be30b[333]	speaker: YOU[418]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+162-1	3310-3325	END_OF_DOCUMENT	GWithout[27]	putzen\_set1\_1[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-putzen\_set1\_1[27]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+163-1	3327-3330	Na?	GWithout[28]	putzen\_set1\_1[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-putzen\_set1\_1[28]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Alexandra	_	_	QAP	*	164-1[164_0]	
+
+#Text=Lena hat die Küche geputzt
+164-1	3332-3336	Lena	GWithout[28]	putzen\_set1\_1[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-putzen\_set1\_1[28]	*	*	Subj	*	*	false[164]	Decl[164]	*[249]	putzen[249]	transitive[249]	*[249]	*[249]	item0[249]	57[334]	female[334]	k0vnav0sqhr0fo3b0jpuaak9s4[334]	speaker: YOU[419]	*->118-1	PropNm[118]	explanation	*	166-1[165_164]	
+164-2	3337-3340	hat	GWithout[28]	putzen\_set1\_1[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-putzen\_set1\_1[28]	_	_	_	_	_	false[164]	Decl[164]	*[249]	putzen[249]	transitive[249]	*[249]	*[249]	item0[249]	57[334]	female[334]	k0vnav0sqhr0fo3b0jpuaak9s4[334]	speaker: YOU[419]	_	_	_	_	_	
+164-3	3341-3344	die	GWithout[28]	putzen\_set1\_1[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-putzen\_set1\_1[28]	*[74]	*[74]	object[74]	*[74]	*[74]	false[164]	Decl[164]	*[249]	putzen[249]	transitive[249]	*[249]	*[249]	item0[249]	57[334]	female[334]	k0vnav0sqhr0fo3b0jpuaak9s4[334]	speaker: YOU[419]	*->20-1	DefNP[20]	_	_	_	
+164-4	3345-3350	Küche	GWithout[28]	putzen\_set1\_1[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-putzen\_set1\_1[28]	*[74]	*[74]	object[74]	*[74]	*[74]	false[164]	Decl[164]	*[249]	putzen[249]	transitive[249]	*[249]	*[249]	item0[249]	57[334]	female[334]	k0vnav0sqhr0fo3b0jpuaak9s4[334]	speaker: YOU[419]	*->20-1	DefNP[20]	_	_	_	
+164-5	3351-3358	geputzt	GWithout[28]	putzen\_set1\_1[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-putzen\_set1\_1[28]	_	_	_	_	_	false[164]	Decl[164]	*[249]	putzen[249]	transitive[249]	*[249]	*[249]	item0[249]	57[334]	female[334]	k0vnav0sqhr0fo3b0jpuaak9s4[334]	speaker: YOU[419]	_	_	_	_	_	
+
+#Text=-
+165-1	3360-3361	-	GWithout[28]	putzen\_set1\_1[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-putzen\_set1\_1[28]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Alexandra	_	_	_	_	_	
+
+#Text=Wir hatten eine Aussprache.
+166-1	3363-3366	Wir	GWithout[28]	putzen\_set1\_1[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-putzen\_set1\_1[28]	1	*	Subj	*	plural	false[165]	Decl[165]	*[250]	*[250]	*[250]	*[250]	*[250]	input1[250]	57[335]	female[335]	k0vnav0sqhr0fo3b0jpuaak9s4[335]	speaker: YOU[420]	*->87-1	PerPron[87]	elaboration	*	167-1[166_165]	
+166-2	3367-3373	hatten	GWithout[28]	putzen\_set1\_1[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-putzen\_set1\_1[28]	_	_	_	_	_	false[165]	Decl[165]	*[250]	*[250]	*[250]	*[250]	*[250]	input1[250]	57[335]	female[335]	k0vnav0sqhr0fo3b0jpuaak9s4[335]	speaker: YOU[420]	_	_	_	_	_	
+166-3	3374-3378	eine	GWithout[28]	putzen\_set1\_1[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-putzen\_set1\_1[28]	*[75]	*[75]	DirObj[75]	*[75]	*[75]	false[165]	Decl[165]	*[250]	*[250]	*[250]	*[250]	*[250]	input1[250]	57[335]	female[335]	k0vnav0sqhr0fo3b0jpuaak9s4[335]	speaker: YOU[420]	*->5-1	IndefNP[5]	_	_	_	
+166-4	3379-3390	Aussprache.	GWithout[28]	putzen\_set1\_1[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-putzen\_set1\_1[28]	*[75]	*[75]	DirObj[75]	*[75]	*[75]	false[165]	Decl[165]	*[250]	*[250]	*[250]	*[250]	*[250]	input1[250]	57[335]	female[335]	k0vnav0sqhr0fo3b0jpuaak9s4[335]	speaker: YOU[420]	*->5-1	IndefNP[5]	_	_	_	
+
+#Text=Entweder sie hält sich an den Reinigungsplan <BR> oder sie zieht aus der WG aus.
+167-1	3392-3400	Entweder	GWithout[28]	putzen\_set1\_1[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-putzen\_set1\_1[28]	_	_	_	_	_	false[166]	Decl[166]	*[251]	*[251]	*[251]	*[251]	*[251]	input2[251]	57[336]	female[336]	k0vnav0sqhr0fo3b0jpuaak9s4[336]	speaker: YOU[421]	*->5-2	clause[5]	_	_	_	
+167-2	3401-3404	sie	GWithout[28]	putzen\_set1\_1[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-putzen\_set1\_1[28]	3	*	Subj	*	singular	false[166]	Decl[166]	*[251]	*[251]	*[251]	*[251]	*[251]	input2[251]	57[336]	female[336]	k0vnav0sqhr0fo3b0jpuaak9s4[336]	speaker: YOU[421]	*->5-2|*->118-2	clause[5]|PerPron[118]	_	_	_	
+167-3	3405-3409	hält	GWithout[28]	putzen\_set1\_1[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-putzen\_set1\_1[28]	_	_	_	_	_	false[166]	Decl[166]	*[251]	*[251]	*[251]	*[251]	*[251]	input2[251]	57[336]	female[336]	k0vnav0sqhr0fo3b0jpuaak9s4[336]	speaker: YOU[421]	*->5-2	clause[5]	_	_	_	
+167-4	3410-3414	sich	GWithout[28]	putzen\_set1\_1[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-putzen\_set1\_1[28]	_	_	_	_	_	false[166]	Decl[166]	*[251]	*[251]	*[251]	*[251]	*[251]	input2[251]	57[336]	female[336]	k0vnav0sqhr0fo3b0jpuaak9s4[336]	speaker: YOU[421]	*->5-2	clause[5]	_	_	_	
+167-5	3415-3417	an	GWithout[28]	putzen\_set1\_1[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-putzen\_set1\_1[28]	_	_	_	_	_	false[166]	Decl[166]	*[251]	*[251]	*[251]	*[251]	*[251]	input2[251]	57[336]	female[336]	k0vnav0sqhr0fo3b0jpuaak9s4[336]	speaker: YOU[421]	*->5-2	clause[5]	_	_	_	
+167-6	3418-3421	den	GWithout[28]	putzen\_set1\_1[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-putzen\_set1\_1[28]	*[76]	*[76]	PrepObj[76]	*[76]	*[76]	false[166]	Decl[166]	*[251]	*[251]	*[251]	*[251]	*[251]	input2[251]	57[336]	female[336]	k0vnav0sqhr0fo3b0jpuaak9s4[336]	speaker: YOU[421]	*->5-2|*->88-1	clause[5]|DefNP[88]	_	_	_	
+167-7	3422-3436	Reinigungsplan	GWithout[28]	putzen\_set1\_1[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-putzen\_set1\_1[28]	*[76]	*[76]	PrepObj[76]	*[76]	*[76]	false[166]	Decl[166]	*[251]	*[251]	*[251]	*[251]	*[251]	input2[251]	57[336]	female[336]	k0vnav0sqhr0fo3b0jpuaak9s4[336]	speaker: YOU[421]	*->5-2|*->88-1	clause[5]|DefNP[88]	_	_	_	
+167-8	3437-3441	<BR>	GWithout[28]	putzen\_set1\_1[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-putzen\_set1\_1[28]	_	_	_	_	_	false[166]	Decl[166]	*[251]	*[251]	*[251]	*[251]	*[251]	input2[251]	57[336]	female[336]	k0vnav0sqhr0fo3b0jpuaak9s4[336]	speaker: YOU[421]	*->5-2	clause[5]	_	_	_	
+167-9	3442-3446	oder	GWithout[28]	putzen\_set1\_1[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-putzen\_set1\_1[28]	_	_	_	_	_	false[166]	Decl[166]	*[251]	*[251]	*[251]	*[251]	*[251]	input2[251]	57[336]	female[336]	k0vnav0sqhr0fo3b0jpuaak9s4[336]	speaker: YOU[421]	*->5-2	clause[5]	_	_	_	
+167-10	3447-3450	sie	GWithout[28]	putzen\_set1\_1[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-putzen\_set1\_1[28]	3	*	Subj	*	singular	false[166]	Decl[166]	*[251]	*[251]	*[251]	*[251]	*[251]	input2[251]	57[336]	female[336]	k0vnav0sqhr0fo3b0jpuaak9s4[336]	speaker: YOU[421]	*->5-2|*->118-3	clause[5]|PerPron[118]	_	_	_	
+167-11	3451-3456	zieht	GWithout[28]	putzen\_set1\_1[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-putzen\_set1\_1[28]	_	_	_	_	_	false[166]	Decl[166]	*[251]	*[251]	*[251]	*[251]	*[251]	input2[251]	57[336]	female[336]	k0vnav0sqhr0fo3b0jpuaak9s4[336]	speaker: YOU[421]	*->5-2	clause[5]	_	_	_	
+167-12	3457-3460	aus	GWithout[28]	putzen\_set1\_1[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-putzen\_set1\_1[28]	_	_	_	_	_	false[166]	Decl[166]	*[251]	*[251]	*[251]	*[251]	*[251]	input2[251]	57[336]	female[336]	k0vnav0sqhr0fo3b0jpuaak9s4[336]	speaker: YOU[421]	*->5-2	clause[5]	_	_	_	
+167-13	3461-3464	der	GWithout[28]	putzen\_set1\_1[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-putzen\_set1\_1[28]	*[77]	*[77]	PrepObj[77]	*[77]	*[77]	false[166]	Decl[166]	*[251]	*[251]	*[251]	*[251]	*[251]	input2[251]	57[336]	female[336]	k0vnav0sqhr0fo3b0jpuaak9s4[336]	speaker: YOU[421]	*->5-2|*->119-1	clause[5]|DefNP[119]	_	_	_	
+167-14	3465-3467	WG	GWithout[28]	putzen\_set1\_1[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-putzen\_set1\_1[28]	*[77]	*[77]	PrepObj[77]	*[77]	*[77]	false[166]	Decl[166]	*[251]	*[251]	*[251]	*[251]	*[251]	input2[251]	57[336]	female[336]	k0vnav0sqhr0fo3b0jpuaak9s4[336]	speaker: YOU[421]	*->5-2|*->119-1	clause[5]|DefNP[119]	_	_	_	
+167-15	3468-3472	aus.	GWithout[28]	putzen\_set1\_1[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-putzen\_set1\_1[28]	_	_	_	_	_	false[166]	Decl[166]	*[251]	*[251]	*[251]	*[251]	*[251]	input2[251]	57[336]	female[336]	k0vnav0sqhr0fo3b0jpuaak9s4[336]	speaker: YOU[421]	*->5-2	clause[5]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+168-1	3474-3489	END_OF_DOCUMENT	GWithout[28]	putzen\_set1\_1[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-putzen\_set1\_1[28]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+169-1	3491-3494	Na?	GWithout[29]	putzen\_set1\_1[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-putzen\_set1\_1[29]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Alexandra	_	_	QAP	*	170-1[167_0]	
+
+#Text=Lena hat die Küche geputzt
+170-1	3496-3500	Lena	GWithout[29]	putzen\_set1\_1[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-putzen\_set1\_1[29]	*	*	Subj	*	*	false[167]	Decl[167]	*[252]	putzen[252]	transitive[252]	*[252]	*[252]	item0[252]	26[337]	female[337]	qjdpg51abd5auurj3bduisfb43[337]	speaker: YOU[422]	*->90-1	PropNm[90]	elaboration	*	172-1[0_167]	
+170-2	3501-3504	hat	GWithout[29]	putzen\_set1\_1[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-putzen\_set1\_1[29]	_	_	_	_	_	false[167]	Decl[167]	*[252]	putzen[252]	transitive[252]	*[252]	*[252]	item0[252]	26[337]	female[337]	qjdpg51abd5auurj3bduisfb43[337]	speaker: YOU[422]	_	_	_	_	_	
+170-3	3505-3508	die	GWithout[29]	putzen\_set1\_1[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-putzen\_set1\_1[29]	*[78]	*[78]	object[78]	*[78]	*[78]	false[167]	Decl[167]	*[252]	putzen[252]	transitive[252]	*[252]	*[252]	item0[252]	26[337]	female[337]	qjdpg51abd5auurj3bduisfb43[337]	speaker: YOU[422]	*->32-1	DefNP[32]	_	_	_	
+170-4	3509-3514	Küche	GWithout[29]	putzen\_set1\_1[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-putzen\_set1\_1[29]	*[78]	*[78]	object[78]	*[78]	*[78]	false[167]	Decl[167]	*[252]	putzen[252]	transitive[252]	*[252]	*[252]	item0[252]	26[337]	female[337]	qjdpg51abd5auurj3bduisfb43[337]	speaker: YOU[422]	*->32-1	DefNP[32]	_	_	_	
+170-5	3515-3522	geputzt	GWithout[29]	putzen\_set1\_1[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-putzen\_set1\_1[29]	_	_	_	_	_	false[167]	Decl[167]	*[252]	putzen[252]	transitive[252]	*[252]	*[252]	item0[252]	26[337]	female[337]	qjdpg51abd5auurj3bduisfb43[337]	speaker: YOU[422]	_	_	_	_	_	
+
+#Text=-
+171-1	3524-3525	-	GWithout[29]	putzen\_set1\_1[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-putzen\_set1\_1[29]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Alexandra	_	_	_	_	_	
+
+#Text=Endlich.
+172-1	3527-3535	Endlich.	GWithout[29]	putzen\_set1\_1[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-putzen\_set1\_1[29]	_	_	_	_	_	false	NA	*	*	*	*	*	input1	26	female	qjdpg51abd5auurj3bduisfb43	speaker: YOU	_	_	elaboration	*	173-1[168_0]	
+
+#Text=Nach 200 Jahren!
+173-1	3537-3541	Nach	GWithout[29]	putzen\_set1\_1[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-putzen\_set1\_1[29]	_	_	_	_	_	false[168]	NA[168]	*[253]	*[253]	*[253]	*[253]	*[253]	input2[253]	26[338]	female[338]	qjdpg51abd5auurj3bduisfb43[338]	speaker: YOU[423]	_	_	_	_	_	
+173-2	3542-3545	200	GWithout[29]	putzen\_set1\_1[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-putzen\_set1\_1[29]	_	_	_	_	_	false[168]	NA[168]	*[253]	*[253]	*[253]	*[253]	*[253]	input2[253]	26[338]	female[338]	qjdpg51abd5auurj3bduisfb43[338]	speaker: YOU[423]	*->4-1	IndefNP[4]	_	_	_	
+173-3	3546-3553	Jahren!	GWithout[29]	putzen\_set1\_1[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-putzen\_set1\_1[29]	_	_	_	_	_	false[168]	NA[168]	*[253]	*[253]	*[253]	*[253]	*[253]	input2[253]	26[338]	female[338]	qjdpg51abd5auurj3bduisfb43[338]	speaker: YOU[423]	*->4-1	IndefNP[4]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+174-1	3555-3570	END_OF_DOCUMENT	GWithout[29]	putzen\_set1\_1[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-putzen\_set1\_1[29]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+175-1	3572-3575	Na?	GWithout[30]	putzen\_set1\_1[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-putzen\_set1\_1[30]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Alexandra	_	_	QAP	*	176-1[169_0]	
+
+#Text=Lena hat die Küche geputzt
+176-1	3577-3581	Lena	GWithout[30]	putzen\_set1\_1[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-putzen\_set1\_1[30]	*	*	Subj	*	*	false[169]	Decl[169]	*[254]	putzen[254]	transitive[254]	*[254]	*[254]	item0[254]	72[339]	male[339]	rhiec6c6hfje484c5bsbj040l0[339]	speaker: YOU[424]	*->46-1	PropNm[46]	result	*	178-1[170_169]	
+176-2	3582-3585	hat	GWithout[30]	putzen\_set1\_1[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-putzen\_set1\_1[30]	_	_	_	_	_	false[169]	Decl[169]	*[254]	putzen[254]	transitive[254]	*[254]	*[254]	item0[254]	72[339]	male[339]	rhiec6c6hfje484c5bsbj040l0[339]	speaker: YOU[424]	_	_	_	_	_	
+176-3	3586-3589	die	GWithout[30]	putzen\_set1\_1[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-putzen\_set1\_1[30]	*[79]	*[79]	object[79]	*[79]	*[79]	false[169]	Decl[169]	*[254]	putzen[254]	transitive[254]	*[254]	*[254]	item0[254]	72[339]	male[339]	rhiec6c6hfje484c5bsbj040l0[339]	speaker: YOU[424]	*->2-1	DefNP[2]	_	_	_	
+176-4	3590-3595	Küche	GWithout[30]	putzen\_set1\_1[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-putzen\_set1\_1[30]	*[79]	*[79]	object[79]	*[79]	*[79]	false[169]	Decl[169]	*[254]	putzen[254]	transitive[254]	*[254]	*[254]	item0[254]	72[339]	male[339]	rhiec6c6hfje484c5bsbj040l0[339]	speaker: YOU[424]	*->2-1	DefNP[2]	_	_	_	
+176-5	3596-3603	geputzt	GWithout[30]	putzen\_set1\_1[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-putzen\_set1\_1[30]	_	_	_	_	_	false[169]	Decl[169]	*[254]	putzen[254]	transitive[254]	*[254]	*[254]	item0[254]	72[339]	male[339]	rhiec6c6hfje484c5bsbj040l0[339]	speaker: YOU[424]	_	_	_	_	_	
+
+#Text=-
+177-1	3605-3606	-	GWithout[30]	putzen\_set1\_1[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-putzen\_set1\_1[30]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Alexandra	_	_	_	_	_	
+
+#Text=Alles blitz blank
+178-1	3608-3613	Alles	GWithout[30]	putzen\_set1\_1[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-putzen\_set1\_1[30]	_	_	_	_	_	false[170]	NA[170]	*[255]	*[255]	*[255]	*[255]	*[255]	input1[255]	72[340]	male[340]	rhiec6c6hfje484c5bsbj040l0[340]	speaker: YOU[425]	*->62-1	Allquantor[62]	result	*	179-1[171_170]	
+178-2	3614-3619	blitz	GWithout[30]	putzen\_set1\_1[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-putzen\_set1\_1[30]	_	_	_	_	_	false[170]	NA[170]	*[255]	*[255]	*[255]	*[255]	*[255]	input1[255]	72[340]	male[340]	rhiec6c6hfje484c5bsbj040l0[340]	speaker: YOU[425]	_	_	_	_	_	
+178-3	3620-3625	blank	GWithout[30]	putzen\_set1\_1[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-putzen\_set1\_1[30]	_	_	_	_	_	false[170]	NA[170]	*[255]	*[255]	*[255]	*[255]	*[255]	input1[255]	72[340]	male[340]	rhiec6c6hfje484c5bsbj040l0[340]	speaker: YOU[425]	_	_	_	_	_	
+
+#Text=Ich getraue mich schon gar nicht mehr einen Kaffee zu machen
+179-1	3627-3630	Ich	GWithout[30]	putzen\_set1\_1[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-putzen\_set1\_1[30]	1	*	Subj	*	singular	false[171]	Decl[171]	*[256]	*[256]	*[256]	*[256]	*[256]	input2[256]	72[341]	male[341]	rhiec6c6hfje484c5bsbj040l0[341]	speaker: YOU[426]	*->97-1	PerPron[97]	_	_	_	
+179-2	3631-3638	getraue	GWithout[30]	putzen\_set1\_1[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-putzen\_set1\_1[30]	_	_	_	_	_	false[171]	Decl[171]	*[256]	*[256]	*[256]	*[256]	*[256]	input2[256]	72[341]	male[341]	rhiec6c6hfje484c5bsbj040l0[341]	speaker: YOU[426]	_	_	_	_	_	
+179-3	3639-3643	mich	GWithout[30]	putzen\_set1\_1[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-putzen\_set1\_1[30]	*	*	IndirObj	*	*	false[171]	Decl[171]	*[256]	*[256]	*[256]	*[256]	*[256]	input2[256]	72[341]	male[341]	rhiec6c6hfje484c5bsbj040l0[341]	speaker: YOU[426]	_	_	_	_	_	
+179-4	3644-3649	schon	GWithout[30]	putzen\_set1\_1[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-putzen\_set1\_1[30]	_	_	_	_	_	false[171]	Decl[171]	*[256]	*[256]	*[256]	*[256]	*[256]	input2[256]	72[341]	male[341]	rhiec6c6hfje484c5bsbj040l0[341]	speaker: YOU[426]	_	_	_	_	_	
+179-5	3650-3653	gar	GWithout[30]	putzen\_set1\_1[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-putzen\_set1\_1[30]	_	_	_	_	_	false[171]	Decl[171]	*[256]	*[256]	*[256]	*[256]	*[256]	input2[256]	72[341]	male[341]	rhiec6c6hfje484c5bsbj040l0[341]	speaker: YOU[426]	_	_	_	_	_	
+179-6	3654-3659	nicht	GWithout[30]	putzen\_set1\_1[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-putzen\_set1\_1[30]	_	_	_	_	_	false[171]	Decl[171]	*[256]	*[256]	*[256]	*[256]	*[256]	input2[256]	72[341]	male[341]	rhiec6c6hfje484c5bsbj040l0[341]	speaker: YOU[426]	_	_	_	_	_	
+179-7	3660-3664	mehr	GWithout[30]	putzen\_set1\_1[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-putzen\_set1\_1[30]	_	_	_	_	_	false[171]	Decl[171]	*[256]	*[256]	*[256]	*[256]	*[256]	input2[256]	72[341]	male[341]	rhiec6c6hfje484c5bsbj040l0[341]	speaker: YOU[426]	_	_	_	_	_	
+179-8	3665-3670	einen	GWithout[30]	putzen\_set1\_1[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-putzen\_set1\_1[30]	*[80]	*[80]	DirObj[80]	*[80]	*[80]	false[171]	Decl[171]	*[256]	*[256]	*[256]	*[256]	*[256]	input2[256]	72[341]	male[341]	rhiec6c6hfje484c5bsbj040l0[341]	speaker: YOU[426]	*->111-1	IndefNP[111]	_	_	_	
+179-9	3671-3677	Kaffee	GWithout[30]	putzen\_set1\_1[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-putzen\_set1\_1[30]	*[80]	*[80]	DirObj[80]	*[80]	*[80]	false[171]	Decl[171]	*[256]	*[256]	*[256]	*[256]	*[256]	input2[256]	72[341]	male[341]	rhiec6c6hfje484c5bsbj040l0[341]	speaker: YOU[426]	*->111-1	IndefNP[111]	_	_	_	
+179-10	3678-3680	zu	GWithout[30]	putzen\_set1\_1[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-putzen\_set1\_1[30]	_	_	_	_	_	false[171]	Decl[171]	*[256]	*[256]	*[256]	*[256]	*[256]	input2[256]	72[341]	male[341]	rhiec6c6hfje484c5bsbj040l0[341]	speaker: YOU[426]	_	_	_	_	_	
+179-11	3681-3687	machen	GWithout[30]	putzen\_set1\_1[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-putzen\_set1\_1[30]	_	_	_	_	_	false[171]	Decl[171]	*[256]	*[256]	*[256]	*[256]	*[256]	input2[256]	72[341]	male[341]	rhiec6c6hfje484c5bsbj040l0[341]	speaker: YOU[426]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+180-1	3689-3704	END_OF_DOCUMENT	GWithout[30]	putzen\_set1\_1[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-putzen\_set1\_1[30]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	

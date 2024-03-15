@@ -1,0 +1,932 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Item_info|condition|item_id|latinsqr_list|unique_id
+#T_SP=webanno.custom.Ref_info|PersonalPronouns_detailed|ref_def|ref_function|ref_gender|ref_num
+#T_SP=webanno.custom.Segment|complex|segment_type
+#T_SP=webanno.custom.Sent_layer|feedback_id|item0_verb|item0_verbtype|openq_id|openq_type|sent_type
+#T_SP=webanno.custom.Speaker_meta|age|gender|speaker_id
+#T_SP=webanno.custom.Speaker_name|speaker_name
+#T_CH=de.tudarmstadt.ukp.dkpro.core.api.coref.type.CoreferenceLink|referenceRelation|referenceType
+#T_RL=webanno.custom.Relations|discourse_rel|speechAct_rel|BT_webanno.custom.Segment
+
+
+#Text=Hallo, wie geht's?
+1-1	0-6	Hallo,	GFailure[1]	kochen\_set1\_2[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-kochen\_set1\_2[1]	_	_	_	_	_	false[42]	Int[42]	*[164]	*[164]	*[164]	wh\_2[164]	wh\_question[164]	openq[164]	*[282]	female[282]	*[282]	speaker:Alina[400]	_	_	QAP|QAP	*|*	5-1[46_42]|2-1[43_42]	
+1-2	7-10	wie	GFailure[1]	kochen\_set1\_2[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-kochen\_set1\_2[1]	_	_	_	_	_	false[42]	Int[42]	*[164]	*[164]	*[164]	wh\_2[164]	wh\_question[164]	openq[164]	*[282]	female[282]	*[282]	speaker:Alina[400]	_	_	_	_	_	
+1-3	11-18	geht's?	GFailure[1]	kochen\_set1\_2[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-kochen\_set1\_2[1]	_	_	_	_	_	false[42]	Int[42]	*[164]	*[164]	*[164]	wh\_2[164]	wh\_question[164]	openq[164]	*[282]	female[282]	*[282]	speaker:Alina[400]	_	_	_	_	_	
+
+#Text=Leonie hat Abendessen gekocht
+2-1	20-26	Leonie	GFailure[1]	kochen\_set1\_2[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-kochen\_set1\_2[1]	*	*	Subj	*	*	false[43]	Decl[43]	*[165]	kochen[165]	transitive[165]	*[165]	*[165]	item0[165]	18[283]	female[283]	0ncaea7aqlpc7oe43khd21qn11[283]	speaker: YOU[401]	*->80-1	PropNm[80]	elaboration|CR	*|*	4-4[45_43]|3-1[0_43]	
+2-2	27-30	hat	GFailure[1]	kochen\_set1\_2[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-kochen\_set1\_2[1]	_	_	_	_	_	false[43]	Decl[43]	*[165]	kochen[165]	transitive[165]	*[165]	*[165]	item0[165]	18[283]	female[283]	0ncaea7aqlpc7oe43khd21qn11[283]	speaker: YOU[401]	_	_	_	_	_	
+2-3	31-41	Abendessen	GFailure[1]	kochen\_set1\_2[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-kochen\_set1\_2[1]	*	*	object	*	*	false[43]	Decl[43]	*[165]	kochen[165]	transitive[165]	*[165]	*[165]	item0[165]	18[283]	female[283]	0ncaea7aqlpc7oe43khd21qn11[283]	speaker: YOU[401]	*->8-1	IndefNP[8]	_	_	_	
+2-4	42-49	gekocht	GFailure[1]	kochen\_set1\_2[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-kochen\_set1\_2[1]	_	_	_	_	_	false[43]	Decl[43]	*[165]	kochen[165]	transitive[165]	*[165]	*[165]	item0[165]	18[283]	female[283]	0ncaea7aqlpc7oe43khd21qn11[283]	speaker: YOU[401]	_	_	_	_	_	
+
+#Text=Häh?
+3-1	51-55	Häh?	GFailure[1]	kochen\_set1\_2[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-kochen\_set1\_2[1]	_	_	_	_	_	false	NA	haeh\_question\_1	*	*	*	*	feedback	*	female	*	speaker:Alina	_	_	explanation	*	4-1[44_0]	
+
+#Text=Was häh <BR> sie hat uns Essen gekocht.
+4-1	57-60	Was	GFailure[1]	kochen\_set1\_2[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-kochen\_set1\_2[1]	_	_	_	_	_	false[44]	NA[44]	*[166]	*[166]	*[166]	*[166]	*[166]	input1[166]	18[284]	female[284]	0ncaea7aqlpc7oe43khd21qn11[284]	speaker: YOU[402]	_	_	_	_	_	
+4-2	61-64	häh	GFailure[1]	kochen\_set1\_2[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-kochen\_set1\_2[1]	_	_	_	_	_	false[44]	NA[44]	*[166]	*[166]	*[166]	*[166]	*[166]	input1[166]	18[284]	female[284]	0ncaea7aqlpc7oe43khd21qn11[284]	speaker: YOU[402]	_	_	_	_	_	
+4-3	65-69	<BR>	GFailure[1]	kochen\_set1\_2[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-kochen\_set1\_2[1]	_	_	_	_	_	_	_	*[166]	*[166]	*[166]	*[166]	*[166]	input1[166]	18[284]	female[284]	0ncaea7aqlpc7oe43khd21qn11[284]	speaker: YOU[402]	_	_	_	_	_	
+4-4	70-73	sie	GFailure[1]	kochen\_set1\_2[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-kochen\_set1\_2[1]	3	*	Subj	*	singular	false[45]	Decl[45]	*[166]	*[166]	*[166]	*[166]	*[166]	input1[166]	18[284]	female[284]	0ncaea7aqlpc7oe43khd21qn11[284]	speaker: YOU[402]	*->80-2	PerPron[80]	result	*	5-1[46_45]	
+4-5	74-77	hat	GFailure[1]	kochen\_set1\_2[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-kochen\_set1\_2[1]	_	_	_	_	_	false[45]	Decl[45]	*[166]	*[166]	*[166]	*[166]	*[166]	input1[166]	18[284]	female[284]	0ncaea7aqlpc7oe43khd21qn11[284]	speaker: YOU[402]	_	_	_	_	_	
+4-6	78-81	uns	GFailure[1]	kochen\_set1\_2[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-kochen\_set1\_2[1]	1	*	IndirObj	*	plural	false[45]	Decl[45]	*[166]	*[166]	*[166]	*[166]	*[166]	input1[166]	18[284]	female[284]	0ncaea7aqlpc7oe43khd21qn11[284]	speaker: YOU[402]	*->92-1	PerPron[92]	_	_	_	
+4-7	82-87	Essen	GFailure[1]	kochen\_set1\_2[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-kochen\_set1\_2[1]	*	*	DirObj	*	*	false[45]	Decl[45]	*[166]	*[166]	*[166]	*[166]	*[166]	input1[166]	18[284]	female[284]	0ncaea7aqlpc7oe43khd21qn11[284]	speaker: YOU[402]	*->8-2	IndefNP[8]	_	_	_	
+4-8	88-96	gekocht.	GFailure[1]	kochen\_set1\_2[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-kochen\_set1\_2[1]	_	_	_	_	_	false[45]	Decl[45]	*[166]	*[166]	*[166]	*[166]	*[166]	input1[166]	18[284]	female[284]	0ncaea7aqlpc7oe43khd21qn11[284]	speaker: YOU[402]	_	_	_	_	_	
+
+#Text=dementsprechend geht es mir ausgezeichnet.
+5-1	98-113	dementsprechend	GFailure[1]	kochen\_set1\_2[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-kochen\_set1\_2[1]	_	_	_	_	_	false[46]	Decl[46]	*[167]	*[167]	*[167]	*[167]	*[167]	input2[167]	18[285]	female[285]	0ncaea7aqlpc7oe43khd21qn11[285]	speaker: YOU[403]	_	_	_	_	_	
+5-2	114-118	geht	GFailure[1]	kochen\_set1\_2[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-kochen\_set1\_2[1]	_	_	_	_	_	false[46]	Decl[46]	*[167]	*[167]	*[167]	*[167]	*[167]	input2[167]	18[285]	female[285]	0ncaea7aqlpc7oe43khd21qn11[285]	speaker: YOU[403]	_	_	_	_	_	
+5-3	119-121	es	GFailure[1]	kochen\_set1\_2[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-kochen\_set1\_2[1]	*	*	Subj	*	*	false[46]	Decl[46]	*[167]	*[167]	*[167]	*[167]	*[167]	input2[167]	18[285]	female[285]	0ncaea7aqlpc7oe43khd21qn11[285]	speaker: YOU[403]	_	_	_	_	_	
+5-4	122-125	mir	GFailure[1]	kochen\_set1\_2[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-kochen\_set1\_2[1]	1	*	IndirObj	*	singular	false[46]	Decl[46]	*[167]	*[167]	*[167]	*[167]	*[167]	input2[167]	18[285]	female[285]	0ncaea7aqlpc7oe43khd21qn11[285]	speaker: YOU[403]	*->89-1	PerPron[89]	_	_	_	
+5-5	126-140	ausgezeichnet.	GFailure[1]	kochen\_set1\_2[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-kochen\_set1\_2[1]	_	_	_	_	_	false[46]	Decl[46]	*[167]	*[167]	*[167]	*[167]	*[167]	input2[167]	18[285]	female[285]	0ncaea7aqlpc7oe43khd21qn11[285]	speaker: YOU[403]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+6-1	142-157	END_OF_DOCUMENT	GFailure[1]	kochen\_set1\_2[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-kochen\_set1\_2[1]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+7-1	159-165	Hallo,	GFailure[2]	kochen\_set1\_2[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kochen\_set1\_2[2]	_	_	_	_	_	false[47]	Int[47]	*[168]	*[168]	*[168]	wh\_2[168]	wh\_question[168]	openq[168]	*[286]	female[286]	*[286]	speaker:Alina[404]	_	_	QAP	*	8-1[48_47]	
+7-2	166-169	wie	GFailure[2]	kochen\_set1\_2[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kochen\_set1\_2[2]	_	_	_	_	_	false[47]	Int[47]	*[168]	*[168]	*[168]	wh\_2[168]	wh\_question[168]	openq[168]	*[286]	female[286]	*[286]	speaker:Alina[404]	_	_	_	_	_	
+7-3	170-177	geht's?	GFailure[2]	kochen\_set1\_2[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kochen\_set1\_2[2]	_	_	_	_	_	false[47]	Int[47]	*[168]	*[168]	*[168]	wh\_2[168]	wh\_question[168]	openq[168]	*[286]	female[286]	*[286]	speaker:Alina[404]	_	_	_	_	_	
+
+#Text=Leonie hat Abendessen gekocht
+8-1	179-185	Leonie	GFailure[2]	kochen\_set1\_2[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kochen\_set1\_2[2]	*	*	Subj	*	*	false[48]	Decl[48]	*[169]	kochen[169]	transitive[169]	*[169]	*[169]	item0[169]	36[287]	male[287]	19gm0uv9ca6mcngf99lirno94a[287]	speaker: YOU[405]	*->52-1	PropNm[52]	explanation|CR	*|*	11-1[50_48]|9-1[0_48]	
+8-2	186-189	hat	GFailure[2]	kochen\_set1\_2[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kochen\_set1\_2[2]	_	_	_	_	_	false[48]	Decl[48]	*[169]	kochen[169]	transitive[169]	*[169]	*[169]	item0[169]	36[287]	male[287]	19gm0uv9ca6mcngf99lirno94a[287]	speaker: YOU[405]	_	_	_	_	_	
+8-3	190-200	Abendessen	GFailure[2]	kochen\_set1\_2[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kochen\_set1\_2[2]	*	*	object	*	*	false[48]	Decl[48]	*[169]	kochen[169]	transitive[169]	*[169]	*[169]	item0[169]	36[287]	male[287]	19gm0uv9ca6mcngf99lirno94a[287]	speaker: YOU[405]	*->63-1	IndefNP[63]	_	_	_	
+8-4	201-208	gekocht	GFailure[2]	kochen\_set1\_2[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kochen\_set1\_2[2]	_	_	_	_	_	false[48]	Decl[48]	*[169]	kochen[169]	transitive[169]	*[169]	*[169]	item0[169]	36[287]	male[287]	19gm0uv9ca6mcngf99lirno94a[287]	speaker: YOU[405]	_	_	_	_	_	
+
+#Text=Häh?
+9-1	210-214	Häh?	GFailure[2]	kochen\_set1\_2[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kochen\_set1\_2[2]	_	_	_	_	_	false	NA	haeh\_question\_1	*	*	*	*	feedback	*	female	*	speaker:Alina	_	_	parallel	*	10-1[49_0]	
+
+#Text=Ich war auch ganz überrascht!
+10-1	216-219	Ich	GFailure[2]	kochen\_set1\_2[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kochen\_set1\_2[2]	1	*	Subj	*	singular	false[49]	Decl[49]	*[170]	*[170]	*[170]	*[170]	*[170]	input1[170]	36[288]	male[288]	19gm0uv9ca6mcngf99lirno94a[288]	speaker: YOU[406]	*->42-1	PerPron[42]	_	_	_	
+10-2	220-223	war	GFailure[2]	kochen\_set1\_2[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kochen\_set1\_2[2]	_	_	_	_	_	false[49]	Decl[49]	*[170]	*[170]	*[170]	*[170]	*[170]	input1[170]	36[288]	male[288]	19gm0uv9ca6mcngf99lirno94a[288]	speaker: YOU[406]	_	_	_	_	_	
+10-3	224-228	auch	GFailure[2]	kochen\_set1\_2[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kochen\_set1\_2[2]	_	_	_	_	_	false[49]	Decl[49]	*[170]	*[170]	*[170]	*[170]	*[170]	input1[170]	36[288]	male[288]	19gm0uv9ca6mcngf99lirno94a[288]	speaker: YOU[406]	_	_	_	_	_	
+10-4	229-233	ganz	GFailure[2]	kochen\_set1\_2[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kochen\_set1\_2[2]	_	_	_	_	_	false[49]	Decl[49]	*[170]	*[170]	*[170]	*[170]	*[170]	input1[170]	36[288]	male[288]	19gm0uv9ca6mcngf99lirno94a[288]	speaker: YOU[406]	_	_	_	_	_	
+10-5	234-245	überrascht!	GFailure[2]	kochen\_set1\_2[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kochen\_set1\_2[2]	_	_	_	_	_	false[49]	Decl[49]	*[170]	*[170]	*[170]	*[170]	*[170]	input1[170]	36[288]	male[288]	19gm0uv9ca6mcngf99lirno94a[288]	speaker: YOU[406]	_	_	_	_	_	
+
+#Text=Sie hat es sich in den Kopf gesetzt Kochen zu lernen
+11-1	247-250	Sie	GFailure[2]	kochen\_set1\_2[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kochen\_set1\_2[2]	3	*	Subj	*	singular	false[50]	Decl[50]	*[171]	*[171]	*[171]	*[171]	*[171]	input2[171]	36[289]	male[289]	19gm0uv9ca6mcngf99lirno94a[289]	speaker: YOU[407]	*->52-2	PerPron[52]	_	_	_	
+11-2	251-254	hat	GFailure[2]	kochen\_set1\_2[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kochen\_set1\_2[2]	_	_	_	_	_	false[50]	Decl[50]	*[171]	*[171]	*[171]	*[171]	*[171]	input2[171]	36[289]	male[289]	19gm0uv9ca6mcngf99lirno94a[289]	speaker: YOU[407]	_	_	_	_	_	
+11-3	255-257	es	GFailure[2]	kochen\_set1\_2[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kochen\_set1\_2[2]	*	*	DirObj	*	*	false[50]	Decl[50]	*[171]	*[171]	*[171]	*[171]	*[171]	input2[171]	36[289]	male[289]	19gm0uv9ca6mcngf99lirno94a[289]	speaker: YOU[407]	_	_	_	_	_	
+11-4	258-262	sich	GFailure[2]	kochen\_set1\_2[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kochen\_set1\_2[2]	_	_	_	_	_	false[50]	Decl[50]	*[171]	*[171]	*[171]	*[171]	*[171]	input2[171]	36[289]	male[289]	19gm0uv9ca6mcngf99lirno94a[289]	speaker: YOU[407]	_	_	_	_	_	
+11-5	263-265	in	GFailure[2]	kochen\_set1\_2[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kochen\_set1\_2[2]	_	_	_	_	_	false[50]	Decl[50]	*[171]	*[171]	*[171]	*[171]	*[171]	input2[171]	36[289]	male[289]	19gm0uv9ca6mcngf99lirno94a[289]	speaker: YOU[407]	_	_	_	_	_	
+11-6	266-269	den	GFailure[2]	kochen\_set1\_2[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kochen\_set1\_2[2]	*[31]	*[31]	PrepObj[31]	*[31]	*[31]	false[50]	Decl[50]	*[171]	*[171]	*[171]	*[171]	*[171]	input2[171]	36[289]	male[289]	19gm0uv9ca6mcngf99lirno94a[289]	speaker: YOU[407]	_	_	_	_	_	
+11-7	270-274	Kopf	GFailure[2]	kochen\_set1\_2[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kochen\_set1\_2[2]	*[31]	*[31]	PrepObj[31]	*[31]	*[31]	false[50]	Decl[50]	*[171]	*[171]	*[171]	*[171]	*[171]	input2[171]	36[289]	male[289]	19gm0uv9ca6mcngf99lirno94a[289]	speaker: YOU[407]	_	_	_	_	_	
+11-8	275-282	gesetzt	GFailure[2]	kochen\_set1\_2[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kochen\_set1\_2[2]	_	_	_	_	_	false[50]	Decl[50]	*[171]	*[171]	*[171]	*[171]	*[171]	input2[171]	36[289]	male[289]	19gm0uv9ca6mcngf99lirno94a[289]	speaker: YOU[407]	_	_	_	_	_	
+11-9	283-289	Kochen	GFailure[2]	kochen\_set1\_2[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kochen\_set1\_2[2]	_	_	_	_	_	false[50]	Decl[50]	*[171]	*[171]	*[171]	*[171]	*[171]	input2[171]	36[289]	male[289]	19gm0uv9ca6mcngf99lirno94a[289]	speaker: YOU[407]	_	_	_	_	_	
+11-10	290-292	zu	GFailure[2]	kochen\_set1\_2[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kochen\_set1\_2[2]	_	_	_	_	_	false[50]	Decl[50]	*[171]	*[171]	*[171]	*[171]	*[171]	input2[171]	36[289]	male[289]	19gm0uv9ca6mcngf99lirno94a[289]	speaker: YOU[407]	_	_	_	_	_	
+11-11	293-299	lernen	GFailure[2]	kochen\_set1\_2[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kochen\_set1\_2[2]	_	_	_	_	_	false[50]	Decl[50]	*[171]	*[171]	*[171]	*[171]	*[171]	input2[171]	36[289]	male[289]	19gm0uv9ca6mcngf99lirno94a[289]	speaker: YOU[407]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+12-1	301-316	END_OF_DOCUMENT	GFailure[2]	kochen\_set1\_2[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-kochen\_set1\_2[2]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+13-1	318-324	Hallo,	GFailure[3]	kochen\_set1\_2[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-kochen\_set1\_2[3]	_	_	_	_	_	false[51]	Int[51]	*[172]	*[172]	*[172]	wh\_2[172]	wh\_question[172]	openq[172]	*[290]	female[290]	*[290]	speaker:Alina[408]	_	_	QAP	*	14-1[52_51]	
+13-2	325-328	wie	GFailure[3]	kochen\_set1\_2[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-kochen\_set1\_2[3]	_	_	_	_	_	false[51]	Int[51]	*[172]	*[172]	*[172]	wh\_2[172]	wh\_question[172]	openq[172]	*[290]	female[290]	*[290]	speaker:Alina[408]	_	_	_	_	_	
+13-3	329-336	geht's?	GFailure[3]	kochen\_set1\_2[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-kochen\_set1\_2[3]	_	_	_	_	_	false[51]	Int[51]	*[172]	*[172]	*[172]	wh\_2[172]	wh\_question[172]	openq[172]	*[290]	female[290]	*[290]	speaker:Alina[408]	_	_	_	_	_	
+
+#Text=Leonie hat Abendessen gekocht
+14-1	338-344	Leonie	GFailure[3]	kochen\_set1\_2[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-kochen\_set1\_2[3]	*	*	Subj	*	*	false[52]	Decl[52]	*[173]	kochen[173]	transitive[173]	*[173]	*[173]	item0[173]	18[291]	female[291]	4qae3ph27q5gbjcsrgnltv8qld[291]	speaker: YOU[409]	*->59-1	PropNm[59]	elaboration|CR	*|*	16-1[53_52]|15-1[0_52]	
+14-2	345-348	hat	GFailure[3]	kochen\_set1\_2[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-kochen\_set1\_2[3]	_	_	_	_	_	false[52]	Decl[52]	*[173]	kochen[173]	transitive[173]	*[173]	*[173]	item0[173]	18[291]	female[291]	4qae3ph27q5gbjcsrgnltv8qld[291]	speaker: YOU[409]	_	_	_	_	_	
+14-3	349-359	Abendessen	GFailure[3]	kochen\_set1\_2[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-kochen\_set1\_2[3]	*	*	object	*	*	false[52]	Decl[52]	*[173]	kochen[173]	transitive[173]	*[173]	*[173]	item0[173]	18[291]	female[291]	4qae3ph27q5gbjcsrgnltv8qld[291]	speaker: YOU[409]	*->22-1	IndefNP[22]	_	_	_	
+14-4	360-367	gekocht	GFailure[3]	kochen\_set1\_2[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-kochen\_set1\_2[3]	_	_	_	_	_	false[52]	Decl[52]	*[173]	kochen[173]	transitive[173]	*[173]	*[173]	item0[173]	18[291]	female[291]	4qae3ph27q5gbjcsrgnltv8qld[291]	speaker: YOU[409]	_	_	_	_	_	
+
+#Text=Häh?
+15-1	369-373	Häh?	GFailure[3]	kochen\_set1\_2[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-kochen\_set1\_2[3]	_	_	_	_	_	false	NA	haeh\_question\_1	*	*	*	*	feedback	*	female	*	speaker:Alina	_	_	_	_	_	
+
+#Text=spaghetthi bolognese
+16-1	375-385	spaghetthi	GFailure[3]	kochen\_set1\_2[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-kochen\_set1\_2[3]	*[32]	*[32]	DirObj[32]	*[32]	*[32]	false[53]	NA[53]	*[174]	*[174]	*[174]	*[174]	*[174]	input1[174]	18[292]	female[292]	4qae3ph27q5gbjcsrgnltv8qld[292]	speaker: YOU[410]	*->22-2	IndefNP[22]	elaboration	*	17-1[54_53]	
+16-2	386-395	bolognese	GFailure[3]	kochen\_set1\_2[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-kochen\_set1\_2[3]	*[32]	*[32]	DirObj[32]	*[32]	*[32]	false[53]	NA[53]	*[174]	*[174]	*[174]	*[174]	*[174]	input1[174]	18[292]	female[292]	4qae3ph27q5gbjcsrgnltv8qld[292]	speaker: YOU[410]	*->22-2	IndefNP[22]	_	_	_	
+
+#Text=hat super geschmeckt
+17-1	397-400	hat	GFailure[3]	kochen\_set1\_2[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-kochen\_set1\_2[3]	3	*	*	*	singular	false[54]	Decl[54]	*[175]	*[175]	*[175]	*[175]	*[175]	input2[175]	18[293]	female[293]	4qae3ph27q5gbjcsrgnltv8qld[293]	speaker: YOU[411]	*->22-3	zero[22]	_	_	_	
+17-2	401-406	super	GFailure[3]	kochen\_set1\_2[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-kochen\_set1\_2[3]	_	_	_	_	_	false[54]	Decl[54]	*[175]	*[175]	*[175]	*[175]	*[175]	input2[175]	18[293]	female[293]	4qae3ph27q5gbjcsrgnltv8qld[293]	speaker: YOU[411]	_	_	_	_	_	
+17-3	407-417	geschmeckt	GFailure[3]	kochen\_set1\_2[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-kochen\_set1\_2[3]	_	_	_	_	_	false[54]	Decl[54]	*[175]	*[175]	*[175]	*[175]	*[175]	input2[175]	18[293]	female[293]	4qae3ph27q5gbjcsrgnltv8qld[293]	speaker: YOU[411]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+18-1	419-434	END_OF_DOCUMENT	GFailure[3]	kochen\_set1\_2[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-kochen\_set1\_2[3]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+19-1	436-442	Hallo,	GFailure[4]	kochen\_set1\_2[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-kochen\_set1\_2[4]	_	_	_	_	_	false[55]	Int[55]	*[176]	*[176]	*[176]	wh\_2[176]	wh\_question[176]	openq[176]	*[294]	female[294]	*[294]	speaker:Alina[412]	_	_	QAP	*	20-1[56_55]	
+19-2	443-446	wie	GFailure[4]	kochen\_set1\_2[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-kochen\_set1\_2[4]	_	_	_	_	_	false[55]	Int[55]	*[176]	*[176]	*[176]	wh\_2[176]	wh\_question[176]	openq[176]	*[294]	female[294]	*[294]	speaker:Alina[412]	_	_	_	_	_	
+19-3	447-454	geht's?	GFailure[4]	kochen\_set1\_2[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-kochen\_set1\_2[4]	_	_	_	_	_	false[55]	Int[55]	*[176]	*[176]	*[176]	wh\_2[176]	wh\_question[176]	openq[176]	*[294]	female[294]	*[294]	speaker:Alina[412]	_	_	_	_	_	
+
+#Text=Leonie hat Abendessen gekocht
+20-1	456-462	Leonie	GFailure[4]	kochen\_set1\_2[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-kochen\_set1\_2[4]	*	*	Subj	*	*	false[56]	Decl[56]	*[177]	kochen[177]	transitive[177]	*[177]	*[177]	item0[177]	19[295]	male[295]	f28ipql67ma8cbjqke6k374ach[295]	speaker: YOU[413]	*->3-1|*->50-1	clause[3]|PropNm[50]	explanation|elaboration|CR	*|*|*	22-1[57_56]|23-1[58_56]|21-1[0_56]	
+20-2	463-466	hat	GFailure[4]	kochen\_set1\_2[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-kochen\_set1\_2[4]	_	_	_	_	_	false[56]	Decl[56]	*[177]	kochen[177]	transitive[177]	*[177]	*[177]	item0[177]	19[295]	male[295]	f28ipql67ma8cbjqke6k374ach[295]	speaker: YOU[413]	*->3-1	clause[3]	_	_	_	
+20-3	467-477	Abendessen	GFailure[4]	kochen\_set1\_2[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-kochen\_set1\_2[4]	*	*	object	*	*	false[56]	Decl[56]	*[177]	kochen[177]	transitive[177]	*[177]	*[177]	item0[177]	19[295]	male[295]	f28ipql67ma8cbjqke6k374ach[295]	speaker: YOU[413]	*->3-1|*->25-1	clause[3]|IndefNP[25]	_	_	_	
+20-4	478-485	gekocht	GFailure[4]	kochen\_set1\_2[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-kochen\_set1\_2[4]	_	_	_	_	_	false[56]	Decl[56]	*[177]	kochen[177]	transitive[177]	*[177]	*[177]	item0[177]	19[295]	male[295]	f28ipql67ma8cbjqke6k374ach[295]	speaker: YOU[413]	*->3-1	clause[3]	_	_	_	
+
+#Text=Häh?
+21-1	487-491	Häh?	GFailure[4]	kochen\_set1\_2[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-kochen\_set1\_2[4]	_	_	_	_	_	false	NA	haeh\_question\_1	*	*	*	*	feedback	*	female	*	speaker:Alina	_	_	_	_	_	
+
+#Text=Ja ich glaube sie hat was angestellt
+22-1	493-495	Ja	GFailure[4]	kochen\_set1\_2[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-kochen\_set1\_2[4]	_	_	_	_	_	false[57]	Decl[57]	*[178]	*[178]	*[178]	*[178]	*[178]	input1[178]	19[296]	male[296]	f28ipql67ma8cbjqke6k374ach[296]	speaker: YOU[414]	_	_	explanation	*	23-1[58_57]	
+22-2	496-499	ich	GFailure[4]	kochen\_set1\_2[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-kochen\_set1\_2[4]	1	*	Subj	*	singular	false[57]	Decl[57]	*[178]	*[178]	*[178]	*[178]	*[178]	input1[178]	19[296]	male[296]	f28ipql67ma8cbjqke6k374ach[296]	speaker: YOU[414]	*->83-1	PerPron[83]	_	_	_	
+22-3	500-506	glaube	GFailure[4]	kochen\_set1\_2[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-kochen\_set1\_2[4]	_	_	_	_	_	false[57]	Decl[57]	*[178]	*[178]	*[178]	*[178]	*[178]	input1[178]	19[296]	male[296]	f28ipql67ma8cbjqke6k374ach[296]	speaker: YOU[414]	_	_	_	_	_	
+22-4	507-510	sie	GFailure[4]	kochen\_set1\_2[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-kochen\_set1\_2[4]	3	*	Embedded	*	singular	false[57]	Decl[57]	*[178]	*[178]	*[178]	*[178]	*[178]	input1[178]	19[296]	male[296]	f28ipql67ma8cbjqke6k374ach[296]	speaker: YOU[414]	*->50-2	PerPron[50]	_	_	_	
+22-5	511-514	hat	GFailure[4]	kochen\_set1\_2[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-kochen\_set1\_2[4]	_	_	_	_	_	false[57]	Decl[57]	*[178]	*[178]	*[178]	*[178]	*[178]	input1[178]	19[296]	male[296]	f28ipql67ma8cbjqke6k374ach[296]	speaker: YOU[414]	_	_	_	_	_	
+22-6	515-518	was	GFailure[4]	kochen\_set1\_2[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-kochen\_set1\_2[4]	_	_	_	_	_	false[57]	Decl[57]	*[178]	*[178]	*[178]	*[178]	*[178]	input1[178]	19[296]	male[296]	f28ipql67ma8cbjqke6k374ach[296]	speaker: YOU[414]	*->82-1	IndefNP[82]	_	_	_	
+22-7	519-529	angestellt	GFailure[4]	kochen\_set1\_2[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-kochen\_set1\_2[4]	_	_	_	_	_	false[57]	Decl[57]	*[178]	*[178]	*[178]	*[178]	*[178]	input1[178]	19[296]	male[296]	f28ipql67ma8cbjqke6k374ach[296]	speaker: YOU[414]	_	_	_	_	_	
+
+#Text=Macht sie immer so
+23-1	531-536	Macht	GFailure[4]	kochen\_set1\_2[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-kochen\_set1\_2[4]	3	*	*	*	singular	false[58]	Decl[58]	*[179]	*[179]	*[179]	*[179]	*[179]	input2[179]	19[297]	male[297]	f28ipql67ma8cbjqke6k374ach[297]	speaker: YOU[415]	*->3-2	zero[3]	_	_	_	
+23-2	537-540	sie	GFailure[4]	kochen\_set1\_2[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-kochen\_set1\_2[4]	3	*	Subj	*	singular	false[58]	Decl[58]	*[179]	*[179]	*[179]	*[179]	*[179]	input2[179]	19[297]	male[297]	f28ipql67ma8cbjqke6k374ach[297]	speaker: YOU[415]	*->50-3	PerPron[50]	_	_	_	
+23-3	541-546	immer	GFailure[4]	kochen\_set1\_2[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-kochen\_set1\_2[4]	_	_	_	_	_	false[58]	Decl[58]	*[179]	*[179]	*[179]	*[179]	*[179]	input2[179]	19[297]	male[297]	f28ipql67ma8cbjqke6k374ach[297]	speaker: YOU[415]	_	_	_	_	_	
+23-4	547-549	so	GFailure[4]	kochen\_set1\_2[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-kochen\_set1\_2[4]	_	_	_	_	_	false[58]	Decl[58]	*[179]	*[179]	*[179]	*[179]	*[179]	input2[179]	19[297]	male[297]	f28ipql67ma8cbjqke6k374ach[297]	speaker: YOU[415]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+24-1	551-566	END_OF_DOCUMENT	GFailure[4]	kochen\_set1\_2[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-kochen\_set1\_2[4]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+25-1	568-574	Hallo,	GFailure[5]	kochen\_set1\_2[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-kochen\_set1\_2[5]	_	_	_	_	_	false[59]	Int[59]	*[180]	*[180]	*[180]	wh\_2[180]	wh\_question[180]	openq[180]	*[298]	female[298]	*[298]	speaker:Alina[416]	_	_	QAP	*	26-1[60_59]	
+25-2	575-578	wie	GFailure[5]	kochen\_set1\_2[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-kochen\_set1\_2[5]	_	_	_	_	_	false[59]	Int[59]	*[180]	*[180]	*[180]	wh\_2[180]	wh\_question[180]	openq[180]	*[298]	female[298]	*[298]	speaker:Alina[416]	_	_	_	_	_	
+25-3	579-586	geht's?	GFailure[5]	kochen\_set1\_2[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-kochen\_set1\_2[5]	_	_	_	_	_	false[59]	Int[59]	*[180]	*[180]	*[180]	wh\_2[180]	wh\_question[180]	openq[180]	*[298]	female[298]	*[298]	speaker:Alina[416]	_	_	_	_	_	
+
+#Text=Leonie hat Abendessen gekocht
+26-1	588-594	Leonie	GFailure[5]	kochen\_set1\_2[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-kochen\_set1\_2[5]	*	*	Subj	*	*	false[60]	Decl[60]	*[181]	kochen[181]	transitive[181]	*[181]	*[181]	item0[181]	36[299]	male[299]	ifdbjqro2nfkup12rv8t6k0eu9[299]	speaker: YOU[417]	*->49-1|*->9-1	clause[49]|PropNm[9]	elaboration|CR	*|*	29-1[62_60]|27-1[0_60]	
+26-2	595-598	hat	GFailure[5]	kochen\_set1\_2[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-kochen\_set1\_2[5]	_	_	_	_	_	false[60]	Decl[60]	*[181]	kochen[181]	transitive[181]	*[181]	*[181]	item0[181]	36[299]	male[299]	ifdbjqro2nfkup12rv8t6k0eu9[299]	speaker: YOU[417]	*->49-1	clause[49]	_	_	_	
+26-3	599-609	Abendessen	GFailure[5]	kochen\_set1\_2[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-kochen\_set1\_2[5]	*	*	object	*	*	false[60]	Decl[60]	*[181]	kochen[181]	transitive[181]	*[181]	*[181]	item0[181]	36[299]	male[299]	ifdbjqro2nfkup12rv8t6k0eu9[299]	speaker: YOU[417]	*->49-1|*->95-1	clause[49]|IndefNP[95]	_	_	_	
+26-4	610-617	gekocht	GFailure[5]	kochen\_set1\_2[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-kochen\_set1\_2[5]	_	_	_	_	_	false[60]	Decl[60]	*[181]	kochen[181]	transitive[181]	*[181]	*[181]	item0[181]	36[299]	male[299]	ifdbjqro2nfkup12rv8t6k0eu9[299]	speaker: YOU[417]	*->49-1	clause[49]	_	_	_	
+
+#Text=Häh?
+27-1	619-623	Häh?	GFailure[5]	kochen\_set1\_2[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-kochen\_set1\_2[5]	_	_	_	_	_	false	NA	haeh\_question\_1	*	*	*	*	feedback	*	female	*	speaker:Alina	_	_	parallel	*	28-1[61_0]	
+
+#Text=hätt ich auch nicht gedacht
+28-1	625-629	hätt	GFailure[5]	kochen\_set1\_2[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-kochen\_set1\_2[5]	3	*	*	*	singular	false[61]	Decl[61]	*[182]	*[182]	*[182]	*[182]	*[182]	input1[182]	36[300]	male[300]	ifdbjqro2nfkup12rv8t6k0eu9[300]	speaker: YOU[418]	*->49-2	zero[49]	_	_	_	
+28-2	630-633	ich	GFailure[5]	kochen\_set1\_2[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-kochen\_set1\_2[5]	1	*	Subj	*	singular	false[61]	Decl[61]	*[182]	*[182]	*[182]	*[182]	*[182]	input1[182]	36[300]	male[300]	ifdbjqro2nfkup12rv8t6k0eu9[300]	speaker: YOU[418]	*->99-1	PerPron[99]	_	_	_	
+28-3	634-638	auch	GFailure[5]	kochen\_set1\_2[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-kochen\_set1\_2[5]	_	_	_	_	_	false[61]	Decl[61]	*[182]	*[182]	*[182]	*[182]	*[182]	input1[182]	36[300]	male[300]	ifdbjqro2nfkup12rv8t6k0eu9[300]	speaker: YOU[418]	_	_	_	_	_	
+28-4	639-644	nicht	GFailure[5]	kochen\_set1\_2[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-kochen\_set1\_2[5]	_	_	_	_	_	false[61]	Decl[61]	*[182]	*[182]	*[182]	*[182]	*[182]	input1[182]	36[300]	male[300]	ifdbjqro2nfkup12rv8t6k0eu9[300]	speaker: YOU[418]	_	_	_	_	_	
+28-5	645-652	gedacht	GFailure[5]	kochen\_set1\_2[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-kochen\_set1\_2[5]	_	_	_	_	_	false[61]	Decl[61]	*[182]	*[182]	*[182]	*[182]	*[182]	input1[182]	36[300]	male[300]	ifdbjqro2nfkup12rv8t6k0eu9[300]	speaker: YOU[418]	_	_	_	_	_	
+
+#Text=war sogar lecker
+29-1	654-657	war	GFailure[5]	kochen\_set1\_2[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-kochen\_set1\_2[5]	3	*	*	*	singular	false[62]	Decl[62]	*[183]	*[183]	*[183]	*[183]	*[183]	input2[183]	36[301]	male[301]	ifdbjqro2nfkup12rv8t6k0eu9[301]	speaker: YOU[419]	*->95-2	zero[95]	_	_	_	
+29-2	658-663	sogar	GFailure[5]	kochen\_set1\_2[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-kochen\_set1\_2[5]	_	_	_	_	_	false[62]	Decl[62]	*[183]	*[183]	*[183]	*[183]	*[183]	input2[183]	36[301]	male[301]	ifdbjqro2nfkup12rv8t6k0eu9[301]	speaker: YOU[419]	_	_	_	_	_	
+29-3	664-670	lecker	GFailure[5]	kochen\_set1\_2[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-kochen\_set1\_2[5]	_	_	_	_	_	false[62]	Decl[62]	*[183]	*[183]	*[183]	*[183]	*[183]	input2[183]	36[301]	male[301]	ifdbjqro2nfkup12rv8t6k0eu9[301]	speaker: YOU[419]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+30-1	672-687	END_OF_DOCUMENT	GFailure[5]	kochen\_set1\_2[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-kochen\_set1\_2[5]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+31-1	689-695	Hallo,	GFailure[6]	kochen\_set1\_2[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-kochen\_set1\_2[6]	_	_	_	_	_	false[63]	Int[63]	*[184]	*[184]	*[184]	wh\_2[184]	wh\_question[184]	openq[184]	*[302]	female[302]	*[302]	speaker:Alina[420]	_	_	QAP	*	32-1[64_63]	
+31-2	696-699	wie	GFailure[6]	kochen\_set1\_2[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-kochen\_set1\_2[6]	_	_	_	_	_	false[63]	Int[63]	*[184]	*[184]	*[184]	wh\_2[184]	wh\_question[184]	openq[184]	*[302]	female[302]	*[302]	speaker:Alina[420]	_	_	_	_	_	
+31-3	700-707	geht's?	GFailure[6]	kochen\_set1\_2[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-kochen\_set1\_2[6]	_	_	_	_	_	false[63]	Int[63]	*[184]	*[184]	*[184]	wh\_2[184]	wh\_question[184]	openq[184]	*[302]	female[302]	*[302]	speaker:Alina[420]	_	_	_	_	_	
+
+#Text=Leonie hat Abendessen gekocht
+32-1	709-715	Leonie	GFailure[6]	kochen\_set1\_2[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-kochen\_set1\_2[6]	*	*	Subj	*	*	false[64]	Decl[64]	*[185]	kochen[185]	transitive[185]	*[185]	*[185]	item0[185]	27[303]	female[303]	nn1fs9jkn62eo9089lo89usbkb[303]	speaker: YOU[421]	*->53-1	PropNm[53]	result|CR	*|*	34-1[65_64]|33-1[0_64]	
+32-2	716-719	hat	GFailure[6]	kochen\_set1\_2[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-kochen\_set1\_2[6]	_	_	_	_	_	false[64]	Decl[64]	*[185]	kochen[185]	transitive[185]	*[185]	*[185]	item0[185]	27[303]	female[303]	nn1fs9jkn62eo9089lo89usbkb[303]	speaker: YOU[421]	_	_	_	_	_	
+32-3	720-730	Abendessen	GFailure[6]	kochen\_set1\_2[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-kochen\_set1\_2[6]	*	*	object	*	*	false[64]	Decl[64]	*[185]	kochen[185]	transitive[185]	*[185]	*[185]	item0[185]	27[303]	female[303]	nn1fs9jkn62eo9089lo89usbkb[303]	speaker: YOU[421]	*->72-1	IndefNP[72]	_	_	_	
+32-4	731-738	gekocht	GFailure[6]	kochen\_set1\_2[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-kochen\_set1\_2[6]	_	_	_	_	_	false[64]	Decl[64]	*[185]	kochen[185]	transitive[185]	*[185]	*[185]	item0[185]	27[303]	female[303]	nn1fs9jkn62eo9089lo89usbkb[303]	speaker: YOU[421]	_	_	_	_	_	
+
+#Text=Häh?
+33-1	740-744	Häh?	GFailure[6]	kochen\_set1\_2[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-kochen\_set1\_2[6]	_	_	_	_	_	false	NA	haeh\_question\_1	*	*	*	*	feedback	*	female	*	speaker:Alina	_	_	_	_	_	
+
+#Text=Das wird bestimmt komisch
+34-1	746-749	Das	GFailure[6]	kochen\_set1\_2[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-kochen\_set1\_2[6]	*	*	Subj	*	*	false[65]	Decl[65]	*[186]	*[186]	*[186]	*[186]	*[186]	input1[186]	27[304]	female[304]	nn1fs9jkn62eo9089lo89usbkb[304]	speaker: YOU[422]	*->86-1	D-Pron[86]	explanation	*	35-1[66_65]	
+34-2	750-754	wird	GFailure[6]	kochen\_set1\_2[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-kochen\_set1\_2[6]	_	_	_	_	_	false[65]	Decl[65]	*[186]	*[186]	*[186]	*[186]	*[186]	input1[186]	27[304]	female[304]	nn1fs9jkn62eo9089lo89usbkb[304]	speaker: YOU[422]	_	_	_	_	_	
+34-3	755-763	bestimmt	GFailure[6]	kochen\_set1\_2[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-kochen\_set1\_2[6]	_	_	_	_	_	false[65]	Decl[65]	*[186]	*[186]	*[186]	*[186]	*[186]	input1[186]	27[304]	female[304]	nn1fs9jkn62eo9089lo89usbkb[304]	speaker: YOU[422]	_	_	_	_	_	
+34-4	764-771	komisch	GFailure[6]	kochen\_set1\_2[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-kochen\_set1\_2[6]	_	_	_	_	_	false[65]	Decl[65]	*[186]	*[186]	*[186]	*[186]	*[186]	input1[186]	27[304]	female[304]	nn1fs9jkn62eo9089lo89usbkb[304]	speaker: YOU[422]	_	_	_	_	_	
+
+#Text=Also nach unserem Streit
+35-1	773-777	Also	GFailure[6]	kochen\_set1\_2[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-kochen\_set1\_2[6]	_	_	_	_	_	false[66]	NA[66]	*[187]	*[187]	*[187]	*[187]	*[187]	input2[187]	27[305]	female[305]	nn1fs9jkn62eo9089lo89usbkb[305]	speaker: YOU[423]	_	_	_	_	_	
+35-2	778-782	nach	GFailure[6]	kochen\_set1\_2[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-kochen\_set1\_2[6]	_	_	_	_	_	false[66]	NA[66]	*[187]	*[187]	*[187]	*[187]	*[187]	input2[187]	27[305]	female[305]	nn1fs9jkn62eo9089lo89usbkb[305]	speaker: YOU[423]	_	_	_	_	_	
+35-3	783-790	unserem	GFailure[6]	kochen\_set1\_2[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-kochen\_set1\_2[6]	*[33]|1[34]	*[33]|*[34]	PrepObj[33]|*[34]	*[33]|*[34]	*[33]|plural[34]	false[66]	NA[66]	*[187]	*[187]	*[187]	*[187]	*[187]	input2[187]	27[305]	female[305]	nn1fs9jkn62eo9089lo89usbkb[305]	speaker: YOU[423]	*->19-1|*->74-1	DefNP[19]|PossePron[74]	_	_	_	
+35-4	791-797	Streit	GFailure[6]	kochen\_set1\_2[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-kochen\_set1\_2[6]	*[33]	*[33]	PrepObj[33]	*[33]	*[33]	false[66]	NA[66]	*[187]	*[187]	*[187]	*[187]	*[187]	input2[187]	27[305]	female[305]	nn1fs9jkn62eo9089lo89usbkb[305]	speaker: YOU[423]	*->19-1	DefNP[19]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+36-1	799-814	END_OF_DOCUMENT	GFailure[6]	kochen\_set1\_2[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-kochen\_set1\_2[6]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+37-1	816-822	Hallo,	GFailure[7]	kochen\_set1\_2[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kochen\_set1\_2[7]	_	_	_	_	_	false[67]	Int[67]	*[188]	*[188]	*[188]	wh\_2[188]	wh\_question[188]	openq[188]	*[306]	female[306]	*[306]	speaker:Alina[424]	_	_	parallel|QAP	*|*	41-1[71_67]|38-1[68_67]	
+37-2	823-826	wie	GFailure[7]	kochen\_set1\_2[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kochen\_set1\_2[7]	_	_	_	_	_	false[67]	Int[67]	*[188]	*[188]	*[188]	wh\_2[188]	wh\_question[188]	openq[188]	*[306]	female[306]	*[306]	speaker:Alina[424]	_	_	_	_	_	
+37-3	827-834	geht's?	GFailure[7]	kochen\_set1\_2[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kochen\_set1\_2[7]	_	_	_	_	_	false[67]	Int[67]	*[188]	*[188]	*[188]	wh\_2[188]	wh\_question[188]	openq[188]	*[306]	female[306]	*[306]	speaker:Alina[424]	_	_	_	_	_	
+
+#Text=Leonie hat Abendessen gekocht
+38-1	836-842	Leonie	GFailure[7]	kochen\_set1\_2[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kochen\_set1\_2[7]	*	*	Subj	*	*	false[68]	Decl[68]	*[189]	kochen[189]	transitive[189]	*[189]	*[189]	item0[189]	24[307]	male[307]	qaaqp55l485lvs9rdvpvbtmqal[307]	speaker: YOU[425]	*->18-1	PropNm[18]	elaboration|CR	*|*	40-1[69_68]|39-1[0_68]	
+38-2	843-846	hat	GFailure[7]	kochen\_set1\_2[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kochen\_set1\_2[7]	_	_	_	_	_	false[68]	Decl[68]	*[189]	kochen[189]	transitive[189]	*[189]	*[189]	item0[189]	24[307]	male[307]	qaaqp55l485lvs9rdvpvbtmqal[307]	speaker: YOU[425]	_	_	_	_	_	
+38-3	847-857	Abendessen	GFailure[7]	kochen\_set1\_2[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kochen\_set1\_2[7]	*	*	object	*	*	false[68]	Decl[68]	*[189]	kochen[189]	transitive[189]	*[189]	*[189]	item0[189]	24[307]	male[307]	qaaqp55l485lvs9rdvpvbtmqal[307]	speaker: YOU[425]	*->67-1	IndefNP[67]	_	_	_	
+38-4	858-865	gekocht	GFailure[7]	kochen\_set1\_2[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kochen\_set1\_2[7]	_	_	_	_	_	false[68]	Decl[68]	*[189]	kochen[189]	transitive[189]	*[189]	*[189]	item0[189]	24[307]	male[307]	qaaqp55l485lvs9rdvpvbtmqal[307]	speaker: YOU[425]	_	_	_	_	_	
+
+#Text=Häh?
+39-1	867-871	Häh?	GFailure[7]	kochen\_set1\_2[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kochen\_set1\_2[7]	_	_	_	_	_	false	NA	haeh\_question\_1	*	*	*	*	feedback	*	female	*	speaker:Alina	_	_	_	_	_	
+
+#Text=Leonie hat Abendessen gekocht <BR> mir geht es deshalb ziemlich gut.
+40-1	873-879	Leonie	GFailure[7]	kochen\_set1\_2[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kochen\_set1\_2[7]	*	*	Subj	*	*	false[69]	Decl[69]	*[190]	*[190]	*[190]	*[190]	*[190]	input1[190]	24[308]	male[308]	qaaqp55l485lvs9rdvpvbtmqal[308]	speaker: YOU[426]	*->32-1|*->18-2	clause[32]|PropNm[18]	result	*	40-6[70_69]	
+40-2	880-883	hat	GFailure[7]	kochen\_set1\_2[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kochen\_set1\_2[7]	_	_	_	_	_	false[69]	Decl[69]	*[190]	*[190]	*[190]	*[190]	*[190]	input1[190]	24[308]	male[308]	qaaqp55l485lvs9rdvpvbtmqal[308]	speaker: YOU[426]	*->32-1	clause[32]	_	_	_	
+40-3	884-894	Abendessen	GFailure[7]	kochen\_set1\_2[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kochen\_set1\_2[7]	*	*	DirObj	*	*	false[69]	Decl[69]	*[190]	*[190]	*[190]	*[190]	*[190]	input1[190]	24[308]	male[308]	qaaqp55l485lvs9rdvpvbtmqal[308]	speaker: YOU[426]	*->32-1|*->67-2	clause[32]|IndefNP[67]	_	_	_	
+40-4	895-902	gekocht	GFailure[7]	kochen\_set1\_2[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kochen\_set1\_2[7]	_	_	_	_	_	false[69]	Decl[69]	*[190]	*[190]	*[190]	*[190]	*[190]	input1[190]	24[308]	male[308]	qaaqp55l485lvs9rdvpvbtmqal[308]	speaker: YOU[426]	*->32-1	clause[32]	_	_	_	
+40-5	903-907	<BR>	GFailure[7]	kochen\_set1\_2[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kochen\_set1\_2[7]	_	_	_	_	_	_	_	*[190]	*[190]	*[190]	*[190]	*[190]	input1[190]	24[308]	male[308]	qaaqp55l485lvs9rdvpvbtmqal[308]	speaker: YOU[426]	_	_	_	_	_	
+40-6	908-911	mir	GFailure[7]	kochen\_set1\_2[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kochen\_set1\_2[7]	1	*	IndirObj	*	singular	false[70]	Decl[70]	*[190]	*[190]	*[190]	*[190]	*[190]	input1[190]	24[308]	male[308]	qaaqp55l485lvs9rdvpvbtmqal[308]	speaker: YOU[426]	*->33-1	PerPron[33]	_	_	_	
+40-7	912-916	geht	GFailure[7]	kochen\_set1\_2[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kochen\_set1\_2[7]	_	_	_	_	_	false[70]	Decl[70]	*[190]	*[190]	*[190]	*[190]	*[190]	input1[190]	24[308]	male[308]	qaaqp55l485lvs9rdvpvbtmqal[308]	speaker: YOU[426]	_	_	_	_	_	
+40-8	917-919	es	GFailure[7]	kochen\_set1\_2[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kochen\_set1\_2[7]	*	*	Subj	*	*	false[70]	Decl[70]	*[190]	*[190]	*[190]	*[190]	*[190]	input1[190]	24[308]	male[308]	qaaqp55l485lvs9rdvpvbtmqal[308]	speaker: YOU[426]	_	_	_	_	_	
+40-9	920-927	deshalb	GFailure[7]	kochen\_set1\_2[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kochen\_set1\_2[7]	_	_	_	_	_	false[70]	Decl[70]	*[190]	*[190]	*[190]	*[190]	*[190]	input1[190]	24[308]	male[308]	qaaqp55l485lvs9rdvpvbtmqal[308]	speaker: YOU[426]	*->32-2	D-Pron[32]	_	_	_	
+40-10	928-936	ziemlich	GFailure[7]	kochen\_set1\_2[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kochen\_set1\_2[7]	_	_	_	_	_	false[70]	Decl[70]	*[190]	*[190]	*[190]	*[190]	*[190]	input1[190]	24[308]	male[308]	qaaqp55l485lvs9rdvpvbtmqal[308]	speaker: YOU[426]	_	_	_	_	_	
+40-11	937-941	gut.	GFailure[7]	kochen\_set1\_2[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kochen\_set1\_2[7]	_	_	_	_	_	false[70]	Decl[70]	*[190]	*[190]	*[190]	*[190]	*[190]	input1[190]	24[308]	male[308]	qaaqp55l485lvs9rdvpvbtmqal[308]	speaker: YOU[426]	_	_	_	_	_	
+
+#Text=Wie gehts dir ?
+41-1	943-946	Wie	GFailure[7]	kochen\_set1\_2[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kochen\_set1\_2[7]	_	_	_	_	_	false[71]	Int[71]	*[191]	*[191]	*[191]	*[191]	*[191]	input2[191]	24[309]	male[309]	qaaqp55l485lvs9rdvpvbtmqal[309]	speaker: YOU[427]	_	_	_	_	_	
+41-2	947-952	gehts	GFailure[7]	kochen\_set1\_2[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kochen\_set1\_2[7]	_	_	_	_	_	false[71]	Int[71]	*[191]	*[191]	*[191]	*[191]	*[191]	input2[191]	24[309]	male[309]	qaaqp55l485lvs9rdvpvbtmqal[309]	speaker: YOU[427]	_	_	_	_	_	
+41-3	953-956	dir	GFailure[7]	kochen\_set1\_2[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kochen\_set1\_2[7]	2	*	IndirObj	*	singular	false[71]	Int[71]	*[191]	*[191]	*[191]	*[191]	*[191]	input2[191]	24[309]	male[309]	qaaqp55l485lvs9rdvpvbtmqal[309]	speaker: YOU[427]	*->39-1	PerPron[39]	_	_	_	
+41-4	957-958	?	GFailure[7]	kochen\_set1\_2[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kochen\_set1\_2[7]	_	_	_	_	_	false[71]	Int[71]	*[191]	*[191]	*[191]	*[191]	*[191]	input2[191]	24[309]	male[309]	qaaqp55l485lvs9rdvpvbtmqal[309]	speaker: YOU[427]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+42-1	960-975	END_OF_DOCUMENT	GFailure[7]	kochen\_set1\_2[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-kochen\_set1\_2[7]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+43-1	977-983	Hallo,	GFailure[8]	kochen\_set1\_2[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kochen\_set1\_2[8]	_	_	_	_	_	false[72]	Int[72]	*[192]	*[192]	*[192]	wh\_2[192]	wh\_question[192]	openq[192]	*[310]	female[310]	*[310]	speaker:Alina[428]	_	_	QAP	*	44-1[73_72]	
+43-2	984-987	wie	GFailure[8]	kochen\_set1\_2[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kochen\_set1\_2[8]	_	_	_	_	_	false[72]	Int[72]	*[192]	*[192]	*[192]	wh\_2[192]	wh\_question[192]	openq[192]	*[310]	female[310]	*[310]	speaker:Alina[428]	_	_	_	_	_	
+43-3	988-995	geht's?	GFailure[8]	kochen\_set1\_2[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kochen\_set1\_2[8]	_	_	_	_	_	false[72]	Int[72]	*[192]	*[192]	*[192]	wh\_2[192]	wh\_question[192]	openq[192]	*[310]	female[310]	*[310]	speaker:Alina[428]	_	_	_	_	_	
+
+#Text=Leonie hat Abendessen gekocht
+44-1	997-1003	Leonie	GFailure[8]	kochen\_set1\_2[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kochen\_set1\_2[8]	*	*	Subj	*	*	false[73]	Decl[73]	*[193]	kochen[193]	transitive[193]	*[193]	*[193]	item0[193]	25[311]	female[311]	t6ah1r7hfmcncb44kgnh0sjmv6[311]	speaker: YOU[429]	*->40-1	PropNm[40]	result|CR	*|*	46-3[74_73]|45-1[0_73]	
+44-2	1004-1007	hat	GFailure[8]	kochen\_set1\_2[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kochen\_set1\_2[8]	_	_	_	_	_	false[73]	Decl[73]	*[193]	kochen[193]	transitive[193]	*[193]	*[193]	item0[193]	25[311]	female[311]	t6ah1r7hfmcncb44kgnh0sjmv6[311]	speaker: YOU[429]	_	_	_	_	_	
+44-3	1008-1018	Abendessen	GFailure[8]	kochen\_set1\_2[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kochen\_set1\_2[8]	*	*	object	*	*	false[73]	Decl[73]	*[193]	kochen[193]	transitive[193]	*[193]	*[193]	item0[193]	25[311]	female[311]	t6ah1r7hfmcncb44kgnh0sjmv6[311]	speaker: YOU[429]	*->15-1	IndefNP[15]	_	_	_	
+44-4	1019-1026	gekocht	GFailure[8]	kochen\_set1\_2[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kochen\_set1\_2[8]	_	_	_	_	_	false[73]	Decl[73]	*[193]	kochen[193]	transitive[193]	*[193]	*[193]	item0[193]	25[311]	female[311]	t6ah1r7hfmcncb44kgnh0sjmv6[311]	speaker: YOU[429]	_	_	_	_	_	
+
+#Text=Häh?
+45-1	1028-1032	Häh?	GFailure[8]	kochen\_set1\_2[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kochen\_set1\_2[8]	_	_	_	_	_	false	NA	haeh\_question\_1	*	*	*	*	feedback	*	female	*	speaker:Alina	_	_	_	_	_	
+
+#Text=Also <BR> du bist herzlich zum essen eingeladen wenn du noch nichts vor hast
+46-1	1034-1038	Also	GFailure[8]	kochen\_set1\_2[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kochen\_set1\_2[8]	_	_	_	_	_	false	NA	*[194]	*[194]	*[194]	*[194]	*[194]	input1[194]	25[312]	female[312]	t6ah1r7hfmcncb44kgnh0sjmv6[312]	speaker: YOU[430]	_	_	_	_	_	
+46-2	1039-1043	<BR>	GFailure[8]	kochen\_set1\_2[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kochen\_set1\_2[8]	_	_	_	_	_	_	_	*[194]	*[194]	*[194]	*[194]	*[194]	input1[194]	25[312]	female[312]	t6ah1r7hfmcncb44kgnh0sjmv6[312]	speaker: YOU[430]	_	_	_	_	_	
+46-3	1044-1046	du	GFailure[8]	kochen\_set1\_2[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kochen\_set1\_2[8]	2	*	Subj	*	singular	false[74]	Decl[74]	*[194]	*[194]	*[194]	*[194]	*[194]	input1[194]	25[312]	female[312]	t6ah1r7hfmcncb44kgnh0sjmv6[312]	speaker: YOU[430]	*->24-1	PerPron[24]	elaboration|elaboration	*|*	46-9[75_74]|47-1[76_74]	
+46-4	1047-1051	bist	GFailure[8]	kochen\_set1\_2[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kochen\_set1\_2[8]	_	_	_	_	_	false[74]	Decl[74]	*[194]	*[194]	*[194]	*[194]	*[194]	input1[194]	25[312]	female[312]	t6ah1r7hfmcncb44kgnh0sjmv6[312]	speaker: YOU[430]	_	_	_	_	_	
+46-5	1052-1060	herzlich	GFailure[8]	kochen\_set1\_2[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kochen\_set1\_2[8]	_	_	_	_	_	false[74]	Decl[74]	*[194]	*[194]	*[194]	*[194]	*[194]	input1[194]	25[312]	female[312]	t6ah1r7hfmcncb44kgnh0sjmv6[312]	speaker: YOU[430]	_	_	_	_	_	
+46-6	1061-1064	zum	GFailure[8]	kochen\_set1\_2[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kochen\_set1\_2[8]	_	_	_	_	_	false[74]	Decl[74]	*[194]	*[194]	*[194]	*[194]	*[194]	input1[194]	25[312]	female[312]	t6ah1r7hfmcncb44kgnh0sjmv6[312]	speaker: YOU[430]	*->64-1	DefNP[64]	_	_	_	
+46-7	1065-1070	essen	GFailure[8]	kochen\_set1\_2[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kochen\_set1\_2[8]	*	*	PrepObj	*	*	false[74]	Decl[74]	*[194]	*[194]	*[194]	*[194]	*[194]	input1[194]	25[312]	female[312]	t6ah1r7hfmcncb44kgnh0sjmv6[312]	speaker: YOU[430]	*->64-1	DefNP[64]	_	_	_	
+46-8	1071-1081	eingeladen	GFailure[8]	kochen\_set1\_2[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kochen\_set1\_2[8]	_	_	_	_	_	false[74]	Decl[74]	*[194]	*[194]	*[194]	*[194]	*[194]	input1[194]	25[312]	female[312]	t6ah1r7hfmcncb44kgnh0sjmv6[312]	speaker: YOU[430]	_	_	_	_	_	
+46-9	1082-1086	wenn	GFailure[8]	kochen\_set1\_2[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kochen\_set1\_2[8]	_	_	_	_	_	false[75]	NA[75]	*[194]	*[194]	*[194]	*[194]	*[194]	input1[194]	25[312]	female[312]	t6ah1r7hfmcncb44kgnh0sjmv6[312]	speaker: YOU[430]	_	_	_	_	_	
+46-10	1087-1089	du	GFailure[8]	kochen\_set1\_2[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kochen\_set1\_2[8]	2	*	Subj	*	singular	false[75]	NA[75]	*[194]	*[194]	*[194]	*[194]	*[194]	input1[194]	25[312]	female[312]	t6ah1r7hfmcncb44kgnh0sjmv6[312]	speaker: YOU[430]	*->24-2	PerPron[24]	_	_	_	
+46-11	1090-1094	noch	GFailure[8]	kochen\_set1\_2[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kochen\_set1\_2[8]	_	_	_	_	_	false[75]	NA[75]	*[194]	*[194]	*[194]	*[194]	*[194]	input1[194]	25[312]	female[312]	t6ah1r7hfmcncb44kgnh0sjmv6[312]	speaker: YOU[430]	_	_	_	_	_	
+46-12	1095-1101	nichts	GFailure[8]	kochen\_set1\_2[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kochen\_set1\_2[8]	_	_	_	_	_	false[75]	NA[75]	*[194]	*[194]	*[194]	*[194]	*[194]	input1[194]	25[312]	female[312]	t6ah1r7hfmcncb44kgnh0sjmv6[312]	speaker: YOU[430]	_	_	_	_	_	
+46-13	1102-1105	vor	GFailure[8]	kochen\_set1\_2[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kochen\_set1\_2[8]	_	_	_	_	_	false[75]	NA[75]	*[194]	*[194]	*[194]	*[194]	*[194]	input1[194]	25[312]	female[312]	t6ah1r7hfmcncb44kgnh0sjmv6[312]	speaker: YOU[430]	_	_	_	_	_	
+46-14	1106-1110	hast	GFailure[8]	kochen\_set1\_2[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kochen\_set1\_2[8]	_	_	_	_	_	false[75]	NA[75]	*[194]	*[194]	*[194]	*[194]	*[194]	input1[194]	25[312]	female[312]	t6ah1r7hfmcncb44kgnh0sjmv6[312]	speaker: YOU[430]	_	_	_	_	_	
+
+#Text=Es gibt Spaghetti Bolognese
+47-1	1112-1114	Es	GFailure[8]	kochen\_set1\_2[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kochen\_set1\_2[8]	*	*	Subj	*	*	false[76]	Decl[76]	*[195]	*[195]	*[195]	*[195]	*[195]	input2[195]	25[313]	female[313]	t6ah1r7hfmcncb44kgnh0sjmv6[313]	speaker: YOU[431]	_	_	_	_	_	
+47-2	1115-1119	gibt	GFailure[8]	kochen\_set1\_2[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kochen\_set1\_2[8]	_	_	_	_	_	false[76]	Decl[76]	*[195]	*[195]	*[195]	*[195]	*[195]	input2[195]	25[313]	female[313]	t6ah1r7hfmcncb44kgnh0sjmv6[313]	speaker: YOU[431]	_	_	_	_	_	
+47-3	1120-1129	Spaghetti	GFailure[8]	kochen\_set1\_2[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kochen\_set1\_2[8]	_	_	_	_	_	false[76]	Decl[76]	*[195]	*[195]	*[195]	*[195]	*[195]	input2[195]	25[313]	female[313]	t6ah1r7hfmcncb44kgnh0sjmv6[313]	speaker: YOU[431]	*->10-1	IndefNP[10]	_	_	_	
+47-4	1130-1139	Bolognese	GFailure[8]	kochen\_set1\_2[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kochen\_set1\_2[8]	_	_	_	_	_	false[76]	Decl[76]	*[195]	*[195]	*[195]	*[195]	*[195]	input2[195]	25[313]	female[313]	t6ah1r7hfmcncb44kgnh0sjmv6[313]	speaker: YOU[431]	*->10-1	IndefNP[10]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+48-1	1141-1156	END_OF_DOCUMENT	GFailure[8]	kochen\_set1\_2[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-kochen\_set1\_2[8]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+49-1	1158-1164	Hallo,	GFailure[9]	kochen\_set1\_2[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-kochen\_set1\_2[9]	_	_	_	_	_	false[77]	Int[77]	*[196]	*[196]	*[196]	wh\_2[196]	wh\_question[196]	openq[196]	*[314]	female[314]	*[314]	speaker:Alina[432]	_	_	QAP	*	50-1[78_77]	
+49-2	1165-1168	wie	GFailure[9]	kochen\_set1\_2[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-kochen\_set1\_2[9]	_	_	_	_	_	false[77]	Int[77]	*[196]	*[196]	*[196]	wh\_2[196]	wh\_question[196]	openq[196]	*[314]	female[314]	*[314]	speaker:Alina[432]	_	_	_	_	_	
+49-3	1169-1176	geht's?	GFailure[9]	kochen\_set1\_2[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-kochen\_set1\_2[9]	_	_	_	_	_	false[77]	Int[77]	*[196]	*[196]	*[196]	wh\_2[196]	wh\_question[196]	openq[196]	*[314]	female[314]	*[314]	speaker:Alina[432]	_	_	_	_	_	
+
+#Text=Leonie hat Abendessen gekocht
+50-1	1178-1184	Leonie	GFailure[9]	kochen\_set1\_2[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-kochen\_set1\_2[9]	*	*	Subj	*	*	false[78]	Decl[78]	*[197]	kochen[197]	transitive[197]	*[197]	*[197]	item0[197]	29[315]	female[315]	ue2vk0ts1hkpki58vsa3j8t39j[315]	speaker: YOU[433]	*->56-1	PropNm[56]	explanation|elaboration|CR	*|*|*	52-1[79_78]|53-1[80_78]|51-1[0_78]	
+50-2	1185-1188	hat	GFailure[9]	kochen\_set1\_2[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-kochen\_set1\_2[9]	_	_	_	_	_	false[78]	Decl[78]	*[197]	kochen[197]	transitive[197]	*[197]	*[197]	item0[197]	29[315]	female[315]	ue2vk0ts1hkpki58vsa3j8t39j[315]	speaker: YOU[433]	_	_	_	_	_	
+50-3	1189-1199	Abendessen	GFailure[9]	kochen\_set1\_2[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-kochen\_set1\_2[9]	*	*	object	*	*	false[78]	Decl[78]	*[197]	kochen[197]	transitive[197]	*[197]	*[197]	item0[197]	29[315]	female[315]	ue2vk0ts1hkpki58vsa3j8t39j[315]	speaker: YOU[433]	*->55-1	IndefNP[55]	_	_	_	
+50-4	1200-1207	gekocht	GFailure[9]	kochen\_set1\_2[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-kochen\_set1\_2[9]	_	_	_	_	_	false[78]	Decl[78]	*[197]	kochen[197]	transitive[197]	*[197]	*[197]	item0[197]	29[315]	female[315]	ue2vk0ts1hkpki58vsa3j8t39j[315]	speaker: YOU[433]	_	_	_	_	_	
+
+#Text=Häh?
+51-1	1209-1213	Häh?	GFailure[9]	kochen\_set1\_2[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-kochen\_set1\_2[9]	_	_	_	_	_	false	NA	haeh\_question\_1	*	*	*	*	feedback	*	female	*	speaker:Alina	_	_	_	_	_	
+
+#Text=Sie hat Heisshunger gekriegt...
+52-1	1215-1218	Sie	GFailure[9]	kochen\_set1\_2[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-kochen\_set1\_2[9]	3	*	Subj	*	singular	false[79]	Decl[79]	*[198]	*[198]	*[198]	*[198]	*[198]	input1[198]	29[316]	female[316]	ue2vk0ts1hkpki58vsa3j8t39j[316]	speaker: YOU[434]	*->56-2	PerPron[56]	result	*	53-1[80_79]	
+52-2	1219-1222	hat	GFailure[9]	kochen\_set1\_2[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-kochen\_set1\_2[9]	_	_	_	_	_	false[79]	Decl[79]	*[198]	*[198]	*[198]	*[198]	*[198]	input1[198]	29[316]	female[316]	ue2vk0ts1hkpki58vsa3j8t39j[316]	speaker: YOU[434]	_	_	_	_	_	
+52-3	1223-1234	Heisshunger	GFailure[9]	kochen\_set1\_2[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-kochen\_set1\_2[9]	*	*	DirObj	*	*	false[79]	Decl[79]	*[198]	*[198]	*[198]	*[198]	*[198]	input1[198]	29[316]	female[316]	ue2vk0ts1hkpki58vsa3j8t39j[316]	speaker: YOU[434]	*->34-1	IndefNP[34]	_	_	_	
+52-4	1235-1246	gekriegt...	GFailure[9]	kochen\_set1\_2[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-kochen\_set1\_2[9]	_	_	_	_	_	false[79]	Decl[79]	*[198]	*[198]	*[198]	*[198]	*[198]	input1[198]	29[316]	female[316]	ue2vk0ts1hkpki58vsa3j8t39j[316]	speaker: YOU[434]	_	_	_	_	_	
+
+#Text=und hat dann Risotto gemacht.
+53-1	1248-1251	und	GFailure[9]	kochen\_set1\_2[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-kochen\_set1\_2[9]	_	_	_	_	_	false[80]	Decl[80]	*[199]	*[199]	*[199]	*[199]	*[199]	input2[199]	29[317]	female[317]	ue2vk0ts1hkpki58vsa3j8t39j[317]	speaker: YOU[435]	_	_	_	_	_	
+53-2	1252-1255	hat	GFailure[9]	kochen\_set1\_2[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-kochen\_set1\_2[9]	3	*	*	*	singular	false[80]	Decl[80]	*[199]	*[199]	*[199]	*[199]	*[199]	input2[199]	29[317]	female[317]	ue2vk0ts1hkpki58vsa3j8t39j[317]	speaker: YOU[435]	*->56-3	zero[56]	_	_	_	
+53-3	1256-1260	dann	GFailure[9]	kochen\_set1\_2[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-kochen\_set1\_2[9]	_	_	_	_	_	false[80]	Decl[80]	*[199]	*[199]	*[199]	*[199]	*[199]	input2[199]	29[317]	female[317]	ue2vk0ts1hkpki58vsa3j8t39j[317]	speaker: YOU[435]	_	_	_	_	_	
+53-4	1261-1268	Risotto	GFailure[9]	kochen\_set1\_2[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-kochen\_set1\_2[9]	*	*	DirObj	*	*	false[80]	Decl[80]	*[199]	*[199]	*[199]	*[199]	*[199]	input2[199]	29[317]	female[317]	ue2vk0ts1hkpki58vsa3j8t39j[317]	speaker: YOU[435]	*->55-2	IndefNP[55]	_	_	_	
+53-5	1269-1277	gemacht.	GFailure[9]	kochen\_set1\_2[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-kochen\_set1\_2[9]	_	_	_	_	_	false[80]	Decl[80]	*[199]	*[199]	*[199]	*[199]	*[199]	input2[199]	29[317]	female[317]	ue2vk0ts1hkpki58vsa3j8t39j[317]	speaker: YOU[435]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+54-1	1279-1294	END_OF_DOCUMENT	GFailure[9]	kochen\_set1\_2[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-kochen\_set1\_2[9]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+55-1	1296-1302	Hallo,	GFailure[10]	kochen\_set1\_2[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-kochen\_set1\_2[10]	_	_	_	_	_	false[81]	Int[81]	*[200]	*[200]	*[200]	wh\_2[200]	wh\_question[200]	openq[200]	*[318]	female[318]	*[318]	speaker:Alina[436]	_	_	QAP	*	56-1[82_81]	
+55-2	1303-1306	wie	GFailure[10]	kochen\_set1\_2[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-kochen\_set1\_2[10]	_	_	_	_	_	false[81]	Int[81]	*[200]	*[200]	*[200]	wh\_2[200]	wh\_question[200]	openq[200]	*[318]	female[318]	*[318]	speaker:Alina[436]	_	_	_	_	_	
+55-3	1307-1314	geht's?	GFailure[10]	kochen\_set1\_2[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-kochen\_set1\_2[10]	_	_	_	_	_	false[81]	Int[81]	*[200]	*[200]	*[200]	wh\_2[200]	wh\_question[200]	openq[200]	*[318]	female[318]	*[318]	speaker:Alina[436]	_	_	_	_	_	
+
+#Text=Leonie hat Abendessen gekocht
+56-1	1316-1322	Leonie	GFailure[10]	kochen\_set1\_2[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-kochen\_set1\_2[10]	*	*	Subj	*	*	false[82]	Decl[82]	*[201]	kochen[201]	transitive[201]	*[201]	*[201]	item0[201]	58[319]	male[319]	v3le8i0hm1ekj0ps9oou7k56t5[319]	speaker: YOU[437]	*->21-1	PropNm[21]	elaboration|elaboration|CR	*|*|*	59-1[83_82]|58-1[0_82]|57-1[0_82]	
+56-2	1323-1326	hat	GFailure[10]	kochen\_set1\_2[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-kochen\_set1\_2[10]	_	_	_	_	_	false[82]	Decl[82]	*[201]	kochen[201]	transitive[201]	*[201]	*[201]	item0[201]	58[319]	male[319]	v3le8i0hm1ekj0ps9oou7k56t5[319]	speaker: YOU[437]	_	_	_	_	_	
+56-3	1327-1337	Abendessen	GFailure[10]	kochen\_set1\_2[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-kochen\_set1\_2[10]	*	*	object	*	*	false[82]	Decl[82]	*[201]	kochen[201]	transitive[201]	*[201]	*[201]	item0[201]	58[319]	male[319]	v3le8i0hm1ekj0ps9oou7k56t5[319]	speaker: YOU[437]	*->70-1	IndefNP[70]	_	_	_	
+56-4	1338-1345	gekocht	GFailure[10]	kochen\_set1\_2[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-kochen\_set1\_2[10]	_	_	_	_	_	false[82]	Decl[82]	*[201]	kochen[201]	transitive[201]	*[201]	*[201]	item0[201]	58[319]	male[319]	v3le8i0hm1ekj0ps9oou7k56t5[319]	speaker: YOU[437]	_	_	_	_	_	
+
+#Text=Häh?
+57-1	1347-1351	Häh?	GFailure[10]	kochen\_set1\_2[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-kochen\_set1\_2[10]	_	_	_	_	_	false	NA	haeh\_question\_1	*	*	*	*	feedback	*	female	*	speaker:Alina	_	_	_	_	_	
+
+#Text=wirklich
+58-1	1353-1361	wirklich	GFailure[10]	kochen\_set1\_2[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-kochen\_set1\_2[10]	_	_	_	_	_	false	NA	*	*	*	*	*	input1	58	male	v3le8i0hm1ekj0ps9oou7k56t5	speaker: YOU	_	_	_	_	_	
+
+#Text=war gar nicht so schlecht
+59-1	1363-1366	war	GFailure[10]	kochen\_set1\_2[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-kochen\_set1\_2[10]	3	*	*	*	singular	false[83]	Decl[83]	*[202]	*[202]	*[202]	*[202]	*[202]	input2[202]	58[320]	male[320]	v3le8i0hm1ekj0ps9oou7k56t5[320]	speaker: YOU[438]	*->70-2	zero[70]	_	_	_	
+59-2	1367-1370	gar	GFailure[10]	kochen\_set1\_2[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-kochen\_set1\_2[10]	_	_	_	_	_	false[83]	Decl[83]	*[202]	*[202]	*[202]	*[202]	*[202]	input2[202]	58[320]	male[320]	v3le8i0hm1ekj0ps9oou7k56t5[320]	speaker: YOU[438]	_	_	_	_	_	
+59-3	1371-1376	nicht	GFailure[10]	kochen\_set1\_2[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-kochen\_set1\_2[10]	_	_	_	_	_	false[83]	Decl[83]	*[202]	*[202]	*[202]	*[202]	*[202]	input2[202]	58[320]	male[320]	v3le8i0hm1ekj0ps9oou7k56t5[320]	speaker: YOU[438]	_	_	_	_	_	
+59-4	1377-1379	so	GFailure[10]	kochen\_set1\_2[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-kochen\_set1\_2[10]	_	_	_	_	_	false[83]	Decl[83]	*[202]	*[202]	*[202]	*[202]	*[202]	input2[202]	58[320]	male[320]	v3le8i0hm1ekj0ps9oou7k56t5[320]	speaker: YOU[438]	_	_	_	_	_	
+59-5	1380-1388	schlecht	GFailure[10]	kochen\_set1\_2[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-kochen\_set1\_2[10]	_	_	_	_	_	false[83]	Decl[83]	*[202]	*[202]	*[202]	*[202]	*[202]	input2[202]	58[320]	male[320]	v3le8i0hm1ekj0ps9oou7k56t5[320]	speaker: YOU[438]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+60-1	1390-1405	END_OF_DOCUMENT	GFailure[10]	kochen\_set1\_2[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-kochen\_set1\_2[10]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+61-1	1407-1413	Hallo,	GSuccess[11]	kochen\_set1\_2[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-kochen\_set1\_2[11]	_	_	_	_	_	false[84]	Int[84]	*[203]	*[203]	*[203]	wh\_2[203]	wh\_question[203]	openq[203]	*[321]	female[321]	*[321]	speaker:Alina[439]	_	_	QAP	*	62-1[85_84]	
+61-2	1414-1417	wie	GSuccess[11]	kochen\_set1\_2[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-kochen\_set1\_2[11]	_	_	_	_	_	false[84]	Int[84]	*[203]	*[203]	*[203]	wh\_2[203]	wh\_question[203]	openq[203]	*[321]	female[321]	*[321]	speaker:Alina[439]	_	_	_	_	_	
+61-3	1418-1425	geht's?	GSuccess[11]	kochen\_set1\_2[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-kochen\_set1\_2[11]	_	_	_	_	_	false[84]	Int[84]	*[203]	*[203]	*[203]	wh\_2[203]	wh\_question[203]	openq[203]	*[321]	female[321]	*[321]	speaker:Alina[439]	_	_	_	_	_	
+
+#Text=Leonie hat Abendessen gekocht
+62-1	1427-1433	Leonie	GSuccess[11]	kochen\_set1\_2[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-kochen\_set1\_2[11]	*	*	Subj	*	*	false[85]	Decl[85]	*[204]	kochen[204]	transitive[204]	*[204]	*[204]	item0[204]	35[322]	female[322]	2k56uavscuainedj0q9i1sb693[322]	speaker: YOU[440]	*->94-1	PropNm[94]	explanation|acknowledgement	*|*	64-3[86_85]|63-1[0_85]	
+62-2	1434-1437	hat	GSuccess[11]	kochen\_set1\_2[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-kochen\_set1\_2[11]	_	_	_	_	_	false[85]	Decl[85]	*[204]	kochen[204]	transitive[204]	*[204]	*[204]	item0[204]	35[322]	female[322]	2k56uavscuainedj0q9i1sb693[322]	speaker: YOU[440]	*->88-1	zero[88]	_	_	_	
+62-3	1438-1448	Abendessen	GSuccess[11]	kochen\_set1\_2[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-kochen\_set1\_2[11]	*	*	object	*	*	false[85]	Decl[85]	*[204]	kochen[204]	transitive[204]	*[204]	*[204]	item0[204]	35[322]	female[322]	2k56uavscuainedj0q9i1sb693[322]	speaker: YOU[440]	*->88-1|*->65-1	zero[88]|IndefNP[65]	_	_	_	
+62-4	1449-1456	gekocht	GSuccess[11]	kochen\_set1\_2[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-kochen\_set1\_2[11]	_	_	_	_	_	false[85]	Decl[85]	*[204]	kochen[204]	transitive[204]	*[204]	*[204]	item0[204]	35[322]	female[322]	2k56uavscuainedj0q9i1sb693[322]	speaker: YOU[440]	*->88-1	zero[88]	_	_	_	
+
+#Text=Krass!
+63-1	1458-1464	Krass!	GSuccess[11]	kochen\_set1\_2[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-kochen\_set1\_2[11]	_	_	_	_	_	false	NA	krass\_exclamation\_18	*	*	*	*	feedback	*	female	*	speaker:Alina	_	_	acknowledgement	*	64-1	
+
+#Text=Ja <BR> wollte sie unbedingt.
+64-1	1466-1468	Ja	GSuccess[11]	kochen\_set1\_2[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-kochen\_set1\_2[11]	_	_	_	_	_	false	NA	*[205]	*[205]	*[205]	*[205]	*[205]	input1[205]	35[323]	female[323]	2k56uavscuainedj0q9i1sb693[323]	speaker: YOU[441]	_	_	_	_	_	
+64-2	1469-1473	<BR>	GSuccess[11]	kochen\_set1\_2[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-kochen\_set1\_2[11]	_	_	_	_	_	_	_	*[205]	*[205]	*[205]	*[205]	*[205]	input1[205]	35[323]	female[323]	2k56uavscuainedj0q9i1sb693[323]	speaker: YOU[441]	_	_	_	_	_	
+64-3	1474-1480	wollte	GSuccess[11]	kochen\_set1\_2[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-kochen\_set1\_2[11]	3	*	*	*	singular	false[86]	Decl[86]	*[205]	*[205]	*[205]	*[205]	*[205]	input1[205]	35[323]	female[323]	2k56uavscuainedj0q9i1sb693[323]	speaker: YOU[441]	*->88-2	zero[88]	elaboration	*	65-1[87_86]	
+64-4	1481-1484	sie	GSuccess[11]	kochen\_set1\_2[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-kochen\_set1\_2[11]	3	*	Subj	*	singular	false[86]	Decl[86]	*[205]	*[205]	*[205]	*[205]	*[205]	input1[205]	35[323]	female[323]	2k56uavscuainedj0q9i1sb693[323]	speaker: YOU[441]	*->94-2	PerPron[94]	_	_	_	
+64-5	1485-1495	unbedingt.	GSuccess[11]	kochen\_set1\_2[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-kochen\_set1\_2[11]	_	_	_	_	_	false[86]	Decl[86]	*[205]	*[205]	*[205]	*[205]	*[205]	input1[205]	35[323]	female[323]	2k56uavscuainedj0q9i1sb693[323]	speaker: YOU[441]	_	_	_	_	_	
+
+#Text=Richtig lieb von ihr.
+65-1	1497-1504	Richtig	GSuccess[11]	kochen\_set1\_2[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-kochen\_set1\_2[11]	_	_	_	_	_	false[87]	NA[87]	*[206]	*[206]	*[206]	*[206]	*[206]	input2[206]	35[324]	female[324]	2k56uavscuainedj0q9i1sb693[324]	speaker: YOU[442]	_	_	_	_	_	
+65-2	1505-1509	lieb	GSuccess[11]	kochen\_set1\_2[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-kochen\_set1\_2[11]	_	_	_	_	_	false[87]	NA[87]	*[206]	*[206]	*[206]	*[206]	*[206]	input2[206]	35[324]	female[324]	2k56uavscuainedj0q9i1sb693[324]	speaker: YOU[442]	_	_	_	_	_	
+65-3	1510-1513	von	GSuccess[11]	kochen\_set1\_2[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-kochen\_set1\_2[11]	_	_	_	_	_	false[87]	NA[87]	*[206]	*[206]	*[206]	*[206]	*[206]	input2[206]	35[324]	female[324]	2k56uavscuainedj0q9i1sb693[324]	speaker: YOU[442]	_	_	_	_	_	
+65-4	1514-1518	ihr.	GSuccess[11]	kochen\_set1\_2[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-kochen\_set1\_2[11]	3	*	PrepObj	*	singular	false[87]	NA[87]	*[206]	*[206]	*[206]	*[206]	*[206]	input2[206]	35[324]	female[324]	2k56uavscuainedj0q9i1sb693[324]	speaker: YOU[442]	*->94-3	PerPron[94]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+66-1	1520-1535	END_OF_DOCUMENT	GSuccess[11]	kochen\_set1\_2[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-kochen\_set1\_2[11]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+67-1	1537-1543	Hallo,	GSuccess[12]	kochen\_set1\_2[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-kochen\_set1\_2[12]	_	_	_	_	_	false[88]	Int[88]	*[207]	*[207]	*[207]	wh\_2[207]	wh\_question[207]	openq[207]	*[325]	female[325]	*[325]	speaker:Alina[443]	_	_	QAP	*	68-1[89_88]	
+67-2	1544-1547	wie	GSuccess[12]	kochen\_set1\_2[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-kochen\_set1\_2[12]	_	_	_	_	_	false[88]	Int[88]	*[207]	*[207]	*[207]	wh\_2[207]	wh\_question[207]	openq[207]	*[325]	female[325]	*[325]	speaker:Alina[443]	_	_	_	_	_	
+67-3	1548-1555	geht's?	GSuccess[12]	kochen\_set1\_2[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-kochen\_set1\_2[12]	_	_	_	_	_	false[88]	Int[88]	*[207]	*[207]	*[207]	wh\_2[207]	wh\_question[207]	openq[207]	*[325]	female[325]	*[325]	speaker:Alina[443]	_	_	_	_	_	
+
+#Text=Leonie hat Abendessen gekocht
+68-1	1557-1563	Leonie	GSuccess[12]	kochen\_set1\_2[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-kochen\_set1\_2[12]	*	*	Subj	*	*	false[89]	Decl[89]	*[208]	kochen[208]	transitive[208]	*[208]	*[208]	item0[208]	46[326]	male[326]	7bq5ecc5fndmatjvd44havavdp[326]	speaker: YOU[444]	*->79-1	PropNm[79]	elaboration|acknowledgement	*|*	71-1[90_89]|69-1[0_89]	
+68-2	1564-1567	hat	GSuccess[12]	kochen\_set1\_2[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-kochen\_set1\_2[12]	_	_	_	_	_	false[89]	Decl[89]	*[208]	kochen[208]	transitive[208]	*[208]	*[208]	item0[208]	46[326]	male[326]	7bq5ecc5fndmatjvd44havavdp[326]	speaker: YOU[444]	_	_	_	_	_	
+68-3	1568-1578	Abendessen	GSuccess[12]	kochen\_set1\_2[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-kochen\_set1\_2[12]	*	*	object	*	*	false[89]	Decl[89]	*[208]	kochen[208]	transitive[208]	*[208]	*[208]	item0[208]	46[326]	male[326]	7bq5ecc5fndmatjvd44havavdp[326]	speaker: YOU[444]	*->68-1	IndefNP[68]	_	_	_	
+68-4	1579-1586	gekocht	GSuccess[12]	kochen\_set1\_2[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-kochen\_set1\_2[12]	_	_	_	_	_	false[89]	Decl[89]	*[208]	kochen[208]	transitive[208]	*[208]	*[208]	item0[208]	46[326]	male[326]	7bq5ecc5fndmatjvd44havavdp[326]	speaker: YOU[444]	_	_	_	_	_	
+
+#Text=Krass!
+69-1	1588-1594	Krass!	GSuccess[12]	kochen\_set1\_2[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-kochen\_set1\_2[12]	_	_	_	_	_	false	NA	krass\_exclamation\_18	*	*	*	*	feedback	*	female	*	speaker:Alina	_	_	acknowledgement	*	70-1	
+
+#Text=gel
+70-1	1596-1599	gel	GSuccess[12]	kochen\_set1\_2[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-kochen\_set1\_2[12]	_	_	_	_	_	false	NA	*	*	*	*	*	input1	46	male	7bq5ecc5fndmatjvd44havavdp	speaker: YOU	_	_	_	_	_	
+
+#Text=Pizza LOL
+71-1	1601-1606	Pizza	GSuccess[12]	kochen\_set1\_2[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-kochen\_set1\_2[12]	*	*	DirObj	*	*	false[90]	NA[90]	*[209]	*[209]	*[209]	*[209]	*[209]	input2[209]	46[327]	male[327]	7bq5ecc5fndmatjvd44havavdp[327]	speaker: YOU[445]	*->68-2	IndefNP[68]	_	_	_	
+71-2	1607-1610	LOL	GSuccess[12]	kochen\_set1\_2[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-kochen\_set1\_2[12]	_	_	_	_	_	false[90]	NA[90]	*[209]	*[209]	*[209]	*[209]	*[209]	input2[209]	46[327]	male[327]	7bq5ecc5fndmatjvd44havavdp[327]	speaker: YOU[445]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+72-1	1612-1627	END_OF_DOCUMENT	GSuccess[12]	kochen\_set1\_2[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-kochen\_set1\_2[12]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+73-1	1629-1635	Hallo,	GSuccess[13]	kochen\_set1\_2[13]	latin1[13]	9bb79dhfhst017575orahklqol-kochen\_set1\_2[13]	_	_	_	_	_	false[91]	Int[91]	*[210]	*[210]	*[210]	wh\_2[210]	wh\_question[210]	openq[210]	*[328]	female[328]	*[328]	speaker:Alina[446]	_	_	QAP	*	74-1[92_91]	
+73-2	1636-1639	wie	GSuccess[13]	kochen\_set1\_2[13]	latin1[13]	9bb79dhfhst017575orahklqol-kochen\_set1\_2[13]	_	_	_	_	_	false[91]	Int[91]	*[210]	*[210]	*[210]	wh\_2[210]	wh\_question[210]	openq[210]	*[328]	female[328]	*[328]	speaker:Alina[446]	_	_	_	_	_	
+73-3	1640-1647	geht's?	GSuccess[13]	kochen\_set1\_2[13]	latin1[13]	9bb79dhfhst017575orahklqol-kochen\_set1\_2[13]	_	_	_	_	_	false[91]	Int[91]	*[210]	*[210]	*[210]	wh\_2[210]	wh\_question[210]	openq[210]	*[328]	female[328]	*[328]	speaker:Alina[446]	_	_	_	_	_	
+
+#Text=Leonie hat Abendessen gekocht
+74-1	1649-1655	Leonie	GSuccess[13]	kochen\_set1\_2[13]	latin1[13]	9bb79dhfhst017575orahklqol-kochen\_set1\_2[13]	*	*	Subj	*	*	false[92]	Decl[92]	*[211]	kochen[211]	transitive[211]	*[211]	*[211]	item0[211]	37[329]	female[329]	9bb79dhfhst017575orahklqol[329]	speaker: YOU[447]	*->36-1	PropNm[36]	elaboration|parallel|acknowledgement	*|*|*	76-1[93_92]|77-1[94_92]|75-1[0_92]	
+74-2	1656-1659	hat	GSuccess[13]	kochen\_set1\_2[13]	latin1[13]	9bb79dhfhst017575orahklqol-kochen\_set1\_2[13]	_	_	_	_	_	false[92]	Decl[92]	*[211]	kochen[211]	transitive[211]	*[211]	*[211]	item0[211]	37[329]	female[329]	9bb79dhfhst017575orahklqol[329]	speaker: YOU[447]	_	_	_	_	_	
+74-3	1660-1670	Abendessen	GSuccess[13]	kochen\_set1\_2[13]	latin1[13]	9bb79dhfhst017575orahklqol-kochen\_set1\_2[13]	*	*	object	*	*	false[92]	Decl[92]	*[211]	kochen[211]	transitive[211]	*[211]	*[211]	item0[211]	37[329]	female[329]	9bb79dhfhst017575orahklqol[329]	speaker: YOU[447]	*->98-1	IndefNP[98]	_	_	_	
+74-4	1671-1678	gekocht	GSuccess[13]	kochen\_set1\_2[13]	latin1[13]	9bb79dhfhst017575orahklqol-kochen\_set1\_2[13]	_	_	_	_	_	false[92]	Decl[92]	*[211]	kochen[211]	transitive[211]	*[211]	*[211]	item0[211]	37[329]	female[329]	9bb79dhfhst017575orahklqol[329]	speaker: YOU[447]	_	_	_	_	_	
+
+#Text=Krass!
+75-1	1680-1686	Krass!	GSuccess[13]	kochen\_set1\_2[13]	latin1[13]	9bb79dhfhst017575orahklqol-kochen\_set1\_2[13]	_	_	_	_	_	false	NA	krass\_exclamation\_18	*	*	*	*	feedback	*	female	*	speaker:Alina	_	_	_	_	_	
+
+#Text=war echt lecker
+76-1	1688-1691	war	GSuccess[13]	kochen\_set1\_2[13]	latin1[13]	9bb79dhfhst017575orahklqol-kochen\_set1\_2[13]	3	*	*	*	singular	false[93]	Decl[93]	*[212]	*[212]	*[212]	*[212]	*[212]	input1[212]	37[330]	female[330]	9bb79dhfhst017575orahklqol[330]	speaker: YOU[448]	*->98-2	zero[98]	_	_	_	
+76-2	1692-1696	echt	GSuccess[13]	kochen\_set1\_2[13]	latin1[13]	9bb79dhfhst017575orahklqol-kochen\_set1\_2[13]	_	_	_	_	_	false[93]	Decl[93]	*[212]	*[212]	*[212]	*[212]	*[212]	input1[212]	37[330]	female[330]	9bb79dhfhst017575orahklqol[330]	speaker: YOU[448]	_	_	_	_	_	
+76-3	1697-1703	lecker	GSuccess[13]	kochen\_set1\_2[13]	latin1[13]	9bb79dhfhst017575orahklqol-kochen\_set1\_2[13]	_	_	_	_	_	false[93]	Decl[93]	*[212]	*[212]	*[212]	*[212]	*[212]	input1[212]	37[330]	female[330]	9bb79dhfhst017575orahklqol[330]	speaker: YOU[448]	_	_	_	_	_	
+
+#Text=vielleicht kocht sie naechstes mal wieder
+77-1	1705-1715	vielleicht	GSuccess[13]	kochen\_set1\_2[13]	latin1[13]	9bb79dhfhst017575orahklqol-kochen\_set1\_2[13]	_	_	_	_	_	false[94]	Decl[94]	*[213]	*[213]	*[213]	*[213]	*[213]	input2[213]	37[331]	female[331]	9bb79dhfhst017575orahklqol[331]	speaker: YOU[449]	_	_	_	_	_	
+77-2	1716-1721	kocht	GSuccess[13]	kochen\_set1\_2[13]	latin1[13]	9bb79dhfhst017575orahklqol-kochen\_set1\_2[13]	_	_	_	_	_	false[94]	Decl[94]	*[213]	*[213]	*[213]	*[213]	*[213]	input2[213]	37[331]	female[331]	9bb79dhfhst017575orahklqol[331]	speaker: YOU[449]	_	_	_	_	_	
+77-3	1722-1725	sie	GSuccess[13]	kochen\_set1\_2[13]	latin1[13]	9bb79dhfhst017575orahklqol-kochen\_set1\_2[13]	3	*	Subj	*	singular	false[94]	Decl[94]	*[213]	*[213]	*[213]	*[213]	*[213]	input2[213]	37[331]	female[331]	9bb79dhfhst017575orahklqol[331]	speaker: YOU[449]	*->36-2	PerPron[36]	_	_	_	
+77-4	1726-1735	naechstes	GSuccess[13]	kochen\_set1\_2[13]	latin1[13]	9bb79dhfhst017575orahklqol-kochen\_set1\_2[13]	_	_	_	_	_	false[94]	Decl[94]	*[213]	*[213]	*[213]	*[213]	*[213]	input2[213]	37[331]	female[331]	9bb79dhfhst017575orahklqol[331]	speaker: YOU[449]	*->38-1	DefNP[38]	_	_	_	
+77-5	1736-1739	mal	GSuccess[13]	kochen\_set1\_2[13]	latin1[13]	9bb79dhfhst017575orahklqol-kochen\_set1\_2[13]	_	_	_	_	_	false[94]	Decl[94]	*[213]	*[213]	*[213]	*[213]	*[213]	input2[213]	37[331]	female[331]	9bb79dhfhst017575orahklqol[331]	speaker: YOU[449]	*->38-1	DefNP[38]	_	_	_	
+77-6	1740-1746	wieder	GSuccess[13]	kochen\_set1\_2[13]	latin1[13]	9bb79dhfhst017575orahklqol-kochen\_set1\_2[13]	_	_	_	_	_	false[94]	Decl[94]	*[213]	*[213]	*[213]	*[213]	*[213]	input2[213]	37[331]	female[331]	9bb79dhfhst017575orahklqol[331]	speaker: YOU[449]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+78-1	1748-1763	END_OF_DOCUMENT	GSuccess[13]	kochen\_set1\_2[13]	latin1[13]	9bb79dhfhst017575orahklqol-kochen\_set1\_2[13]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+79-1	1765-1771	Hallo,	GSuccess[14]	kochen\_set1\_2[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-kochen\_set1\_2[14]	_	_	_	_	_	false[95]	Int[95]	*[214]	*[214]	*[214]	wh\_2[214]	wh\_question[214]	openq[214]	*[332]	female[332]	*[332]	speaker:Alina[450]	_	_	QAP	*	80-1[96_95]	
+79-2	1772-1775	wie	GSuccess[14]	kochen\_set1\_2[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-kochen\_set1\_2[14]	_	_	_	_	_	false[95]	Int[95]	*[214]	*[214]	*[214]	wh\_2[214]	wh\_question[214]	openq[214]	*[332]	female[332]	*[332]	speaker:Alina[450]	_	_	_	_	_	
+79-3	1776-1783	geht's?	GSuccess[14]	kochen\_set1\_2[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-kochen\_set1\_2[14]	_	_	_	_	_	false[95]	Int[95]	*[214]	*[214]	*[214]	wh\_2[214]	wh\_question[214]	openq[214]	*[332]	female[332]	*[332]	speaker:Alina[450]	_	_	_	_	_	
+
+#Text=Leonie hat Abendessen gekocht
+80-1	1785-1791	Leonie	GSuccess[14]	kochen\_set1\_2[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-kochen\_set1\_2[14]	*	*	Subj	*	*	false[96]	Decl[96]	*[215]	kochen[215]	transitive[215]	*[215]	*[215]	item0[215]	21[333]	male[333]	afpst3sherp4732c4se5ajftkq[333]	speaker: YOU[451]	*->41-1	PropNm[41]	elaboration|elaboration|acknowledgement	*|*|*	82-1[97_96]|83-1[98_96]|81-1[0_96]	
+80-2	1792-1795	hat	GSuccess[14]	kochen\_set1\_2[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-kochen\_set1\_2[14]	_	_	_	_	_	false[96]	Decl[96]	*[215]	kochen[215]	transitive[215]	*[215]	*[215]	item0[215]	21[333]	male[333]	afpst3sherp4732c4se5ajftkq[333]	speaker: YOU[451]	_	_	_	_	_	
+80-3	1796-1806	Abendessen	GSuccess[14]	kochen\_set1\_2[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-kochen\_set1\_2[14]	*	*	object	*	*	false[96]	Decl[96]	*[215]	kochen[215]	transitive[215]	*[215]	*[215]	item0[215]	21[333]	male[333]	afpst3sherp4732c4se5ajftkq[333]	speaker: YOU[451]	*->30-1	IndefNP[30]	_	_	_	
+80-4	1807-1814	gekocht	GSuccess[14]	kochen\_set1\_2[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-kochen\_set1\_2[14]	_	_	_	_	_	false[96]	Decl[96]	*[215]	kochen[215]	transitive[215]	*[215]	*[215]	item0[215]	21[333]	male[333]	afpst3sherp4732c4se5ajftkq[333]	speaker: YOU[451]	_	_	_	_	_	
+
+#Text=Krass!
+81-1	1816-1822	Krass!	GSuccess[14]	kochen\_set1\_2[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-kochen\_set1\_2[14]	_	_	_	_	_	false	NA	krass\_exclamation\_18	*	*	*	*	feedback	*	female	*	speaker:Alina	_	_	_	_	_	
+
+#Text=Ja war gar nicht mal so schlecht.
+82-1	1824-1826	Ja	GSuccess[14]	kochen\_set1\_2[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-kochen\_set1\_2[14]	_	_	_	_	_	false[97]	Decl[97]	*[216]	*[216]	*[216]	*[216]	*[216]	input1[216]	21[334]	male[334]	afpst3sherp4732c4se5ajftkq[334]	speaker: YOU[452]	_	_	_	_	_	
+82-2	1827-1830	war	GSuccess[14]	kochen\_set1\_2[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-kochen\_set1\_2[14]	3	*	*	*	singular	false[97]	Decl[97]	*[216]	*[216]	*[216]	*[216]	*[216]	input1[216]	21[334]	male[334]	afpst3sherp4732c4se5ajftkq[334]	speaker: YOU[452]	*->30-2	zero[30]	_	_	_	
+82-3	1831-1834	gar	GSuccess[14]	kochen\_set1\_2[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-kochen\_set1\_2[14]	_	_	_	_	_	false[97]	Decl[97]	*[216]	*[216]	*[216]	*[216]	*[216]	input1[216]	21[334]	male[334]	afpst3sherp4732c4se5ajftkq[334]	speaker: YOU[452]	_	_	_	_	_	
+82-4	1835-1840	nicht	GSuccess[14]	kochen\_set1\_2[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-kochen\_set1\_2[14]	_	_	_	_	_	false[97]	Decl[97]	*[216]	*[216]	*[216]	*[216]	*[216]	input1[216]	21[334]	male[334]	afpst3sherp4732c4se5ajftkq[334]	speaker: YOU[452]	_	_	_	_	_	
+82-5	1841-1844	mal	GSuccess[14]	kochen\_set1\_2[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-kochen\_set1\_2[14]	_	_	_	_	_	false[97]	Decl[97]	*[216]	*[216]	*[216]	*[216]	*[216]	input1[216]	21[334]	male[334]	afpst3sherp4732c4se5ajftkq[334]	speaker: YOU[452]	_	_	_	_	_	
+82-6	1845-1847	so	GSuccess[14]	kochen\_set1\_2[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-kochen\_set1\_2[14]	_	_	_	_	_	false[97]	Decl[97]	*[216]	*[216]	*[216]	*[216]	*[216]	input1[216]	21[334]	male[334]	afpst3sherp4732c4se5ajftkq[334]	speaker: YOU[452]	_	_	_	_	_	
+82-7	1848-1857	schlecht.	GSuccess[14]	kochen\_set1\_2[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-kochen\_set1\_2[14]	_	_	_	_	_	false[97]	Decl[97]	*[216]	*[216]	*[216]	*[216]	*[216]	input1[216]	21[334]	male[334]	afpst3sherp4732c4se5ajftkq[334]	speaker: YOU[452]	_	_	_	_	_	
+
+#Text=Es gab Jägerschnitzel!
+83-1	1859-1861	Es	GSuccess[14]	kochen\_set1\_2[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-kochen\_set1\_2[14]	*	*	Subj	*	*	false[98]	Decl[98]	*[217]	*[217]	*[217]	*[217]	*[217]	input2[217]	21[335]	male[335]	afpst3sherp4732c4se5ajftkq[335]	speaker: YOU[453]	_	_	_	_	_	
+83-2	1862-1865	gab	GSuccess[14]	kochen\_set1\_2[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-kochen\_set1\_2[14]	_	_	_	_	_	false[98]	Decl[98]	*[217]	*[217]	*[217]	*[217]	*[217]	input2[217]	21[335]	male[335]	afpst3sherp4732c4se5ajftkq[335]	speaker: YOU[453]	_	_	_	_	_	
+83-3	1866-1881	Jägerschnitzel!	GSuccess[14]	kochen\_set1\_2[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-kochen\_set1\_2[14]	*	*	DirObj	*	*	false[98]	Decl[98]	*[217]	*[217]	*[217]	*[217]	*[217]	input2[217]	21[335]	male[335]	afpst3sherp4732c4se5ajftkq[335]	speaker: YOU[453]	*->16-1	IndefNP[16]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+84-1	1883-1898	END_OF_DOCUMENT	GSuccess[14]	kochen\_set1\_2[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-kochen\_set1\_2[14]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+85-1	1900-1906	Hallo,	GSuccess[15]	kochen\_set1\_2[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kochen\_set1\_2[15]	_	_	_	_	_	false[99]	Int[99]	*[218]	*[218]	*[218]	wh\_2[218]	wh\_question[218]	openq[218]	*[336]	female[336]	*[336]	speaker:Alina[454]	_	_	QAP	*	86-1[100_99]	
+85-2	1907-1910	wie	GSuccess[15]	kochen\_set1\_2[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kochen\_set1\_2[15]	_	_	_	_	_	false[99]	Int[99]	*[218]	*[218]	*[218]	wh\_2[218]	wh\_question[218]	openq[218]	*[336]	female[336]	*[336]	speaker:Alina[454]	_	_	_	_	_	
+85-3	1911-1918	geht's?	GSuccess[15]	kochen\_set1\_2[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kochen\_set1\_2[15]	_	_	_	_	_	false[99]	Int[99]	*[218]	*[218]	*[218]	wh\_2[218]	wh\_question[218]	openq[218]	*[336]	female[336]	*[336]	speaker:Alina[454]	_	_	_	_	_	
+
+#Text=Leonie hat Abendessen gekocht
+86-1	1920-1926	Leonie	GSuccess[15]	kochen\_set1\_2[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kochen\_set1\_2[15]	*	*	Subj	*	*	false[100]	Decl[100]	*[219]	kochen[219]	transitive[219]	*[219]	*[219]	item0[219]	42[337]	female[337]	blj8i1h4sc8jti0m6gcav1c9ek[337]	speaker: YOU[455]	*->7-1	PropNm[7]	elaboration|acknowledgement	*|*	88-1[101_100]|87-1[0_100]	
+86-2	1927-1930	hat	GSuccess[15]	kochen\_set1\_2[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kochen\_set1\_2[15]	_	_	_	_	_	false[100]	Decl[100]	*[219]	kochen[219]	transitive[219]	*[219]	*[219]	item0[219]	42[337]	female[337]	blj8i1h4sc8jti0m6gcav1c9ek[337]	speaker: YOU[455]	_	_	_	_	_	
+86-3	1931-1941	Abendessen	GSuccess[15]	kochen\_set1\_2[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kochen\_set1\_2[15]	*	*	object	*	*	false[100]	Decl[100]	*[219]	kochen[219]	transitive[219]	*[219]	*[219]	item0[219]	42[337]	female[337]	blj8i1h4sc8jti0m6gcav1c9ek[337]	speaker: YOU[455]	*->57-1	IndefNP[57]	_	_	_	
+86-4	1942-1949	gekocht	GSuccess[15]	kochen\_set1\_2[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kochen\_set1\_2[15]	_	_	_	_	_	false[100]	Decl[100]	*[219]	kochen[219]	transitive[219]	*[219]	*[219]	item0[219]	42[337]	female[337]	blj8i1h4sc8jti0m6gcav1c9ek[337]	speaker: YOU[455]	_	_	_	_	_	
+
+#Text=Krass!
+87-1	1951-1957	Krass!	GSuccess[15]	kochen\_set1\_2[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kochen\_set1\_2[15]	_	_	_	_	_	false	NA	krass\_exclamation\_18	*	*	*	*	feedback	*	female	*	speaker:Alina	_	_	_	_	_	
+
+#Text=War super lecker <BR> darf sie gern öfters machen.
+88-1	1959-1962	War	GSuccess[15]	kochen\_set1\_2[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kochen\_set1\_2[15]	3	*	*	*	singular	false[101]	Decl[101]	*[220]	*[220]	*[220]	*[220]	*[220]	input1[220]	42[338]	female[338]	blj8i1h4sc8jti0m6gcav1c9ek[338]	speaker: YOU[456]	*->57-2	zero[57]	result	*	88-5[102_101]	
+88-2	1963-1968	super	GSuccess[15]	kochen\_set1\_2[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kochen\_set1\_2[15]	_	_	_	_	_	false[101]	Decl[101]	*[220]	*[220]	*[220]	*[220]	*[220]	input1[220]	42[338]	female[338]	blj8i1h4sc8jti0m6gcav1c9ek[338]	speaker: YOU[456]	_	_	_	_	_	
+88-3	1969-1975	lecker	GSuccess[15]	kochen\_set1\_2[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kochen\_set1\_2[15]	_	_	_	_	_	false[101]	Decl[101]	*[220]	*[220]	*[220]	*[220]	*[220]	input1[220]	42[338]	female[338]	blj8i1h4sc8jti0m6gcav1c9ek[338]	speaker: YOU[456]	_	_	_	_	_	
+88-4	1976-1980	<BR>	GSuccess[15]	kochen\_set1\_2[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kochen\_set1\_2[15]	_	_	_	_	_	_	_	*[220]	*[220]	*[220]	*[220]	*[220]	input1[220]	42[338]	female[338]	blj8i1h4sc8jti0m6gcav1c9ek[338]	speaker: YOU[456]	_	_	_	_	_	
+88-5	1981-1985	darf	GSuccess[15]	kochen\_set1\_2[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kochen\_set1\_2[15]	3	*	*	*	singular	false[102]	Decl[102]	*[220]	*[220]	*[220]	*[220]	*[220]	input1[220]	42[338]	female[338]	blj8i1h4sc8jti0m6gcav1c9ek[338]	speaker: YOU[456]	*->57-3	zero[57]	_	_	_	
+88-6	1986-1989	sie	GSuccess[15]	kochen\_set1\_2[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kochen\_set1\_2[15]	3	*	Subj	*	singular	false[102]	Decl[102]	*[220]	*[220]	*[220]	*[220]	*[220]	input1[220]	42[338]	female[338]	blj8i1h4sc8jti0m6gcav1c9ek[338]	speaker: YOU[456]	*->7-2	PerPron[7]	_	_	_	
+88-7	1990-1994	gern	GSuccess[15]	kochen\_set1\_2[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kochen\_set1\_2[15]	_	_	_	_	_	false[102]	Decl[102]	*[220]	*[220]	*[220]	*[220]	*[220]	input1[220]	42[338]	female[338]	blj8i1h4sc8jti0m6gcav1c9ek[338]	speaker: YOU[456]	_	_	_	_	_	
+88-8	1995-2001	öfters	GSuccess[15]	kochen\_set1\_2[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kochen\_set1\_2[15]	_	_	_	_	_	false[102]	Decl[102]	*[220]	*[220]	*[220]	*[220]	*[220]	input1[220]	42[338]	female[338]	blj8i1h4sc8jti0m6gcav1c9ek[338]	speaker: YOU[456]	_	_	_	_	_	
+88-9	2002-2009	machen.	GSuccess[15]	kochen\_set1\_2[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kochen\_set1\_2[15]	_	_	_	_	_	false[102]	Decl[102]	*[220]	*[220]	*[220]	*[220]	*[220]	input1[220]	42[338]	female[338]	blj8i1h4sc8jti0m6gcav1c9ek[338]	speaker: YOU[456]	_	_	_	_	_	
+
+#Text=Magst Du noch vorbeikommen?
+89-1	2011-2016	Magst	GSuccess[15]	kochen\_set1\_2[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kochen\_set1\_2[15]	_	_	_	_	_	false[103]	Int[103]	*[221]	*[221]	*[221]	*[221]	*[221]	input2[221]	42[339]	female[339]	blj8i1h4sc8jti0m6gcav1c9ek[339]	speaker: YOU[457]	_	_	_	_	_	
+89-2	2017-2019	Du	GSuccess[15]	kochen\_set1\_2[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kochen\_set1\_2[15]	2	*	Subj	*	singular	false[103]	Int[103]	*[221]	*[221]	*[221]	*[221]	*[221]	input2[221]	42[339]	female[339]	blj8i1h4sc8jti0m6gcav1c9ek[339]	speaker: YOU[457]	*->77-1	PerPron[77]	_	_	_	
+89-3	2020-2024	noch	GSuccess[15]	kochen\_set1\_2[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kochen\_set1\_2[15]	_	_	_	_	_	false[103]	Int[103]	*[221]	*[221]	*[221]	*[221]	*[221]	input2[221]	42[339]	female[339]	blj8i1h4sc8jti0m6gcav1c9ek[339]	speaker: YOU[457]	_	_	_	_	_	
+89-4	2025-2038	vorbeikommen?	GSuccess[15]	kochen\_set1\_2[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kochen\_set1\_2[15]	_	_	_	_	_	false[103]	Int[103]	*[221]	*[221]	*[221]	*[221]	*[221]	input2[221]	42[339]	female[339]	blj8i1h4sc8jti0m6gcav1c9ek[339]	speaker: YOU[457]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+90-1	2040-2055	END_OF_DOCUMENT	GSuccess[15]	kochen\_set1\_2[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-kochen\_set1\_2[15]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+91-1	2057-2063	Hallo,	GSuccess[16]	kochen\_set1\_2[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-kochen\_set1\_2[16]	_	_	_	_	_	false[104]	Int[104]	*[222]	*[222]	*[222]	wh\_2[222]	wh\_question[222]	openq[222]	*[340]	female[340]	*[340]	speaker:Alina[458]	_	_	QAP	*	92-1[105_104]	
+91-2	2064-2067	wie	GSuccess[16]	kochen\_set1\_2[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-kochen\_set1\_2[16]	_	_	_	_	_	false[104]	Int[104]	*[222]	*[222]	*[222]	wh\_2[222]	wh\_question[222]	openq[222]	*[340]	female[340]	*[340]	speaker:Alina[458]	_	_	_	_	_	
+91-3	2068-2075	geht's?	GSuccess[16]	kochen\_set1\_2[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-kochen\_set1\_2[16]	_	_	_	_	_	false[104]	Int[104]	*[222]	*[222]	*[222]	wh\_2[222]	wh\_question[222]	openq[222]	*[340]	female[340]	*[340]	speaker:Alina[458]	_	_	_	_	_	
+
+#Text=Leonie hat Abendessen gekocht
+92-1	2077-2083	Leonie	GSuccess[16]	kochen\_set1\_2[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-kochen\_set1\_2[16]	*	*	Subj	*	*	false[105]	Decl[105]	*[223]	kochen[223]	transitive[223]	*[223]	*[223]	item0[223]	42[341]	female[341]	h05ingrcngdnasp07727nvoq59[341]	speaker: YOU[459]	*->91-1	PropNm[91]	elaboration|acknowledgement	*|*	94-1[106_105]|93-1[0_105]	
+92-2	2084-2087	hat	GSuccess[16]	kochen\_set1\_2[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-kochen\_set1\_2[16]	_	_	_	_	_	false[105]	Decl[105]	*[223]	kochen[223]	transitive[223]	*[223]	*[223]	item0[223]	42[341]	female[341]	h05ingrcngdnasp07727nvoq59[341]	speaker: YOU[459]	_	_	_	_	_	
+92-3	2088-2098	Abendessen	GSuccess[16]	kochen\_set1\_2[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-kochen\_set1\_2[16]	*	*	object	*	*	false[105]	Decl[105]	*[223]	kochen[223]	transitive[223]	*[223]	*[223]	item0[223]	42[341]	female[341]	h05ingrcngdnasp07727nvoq59[341]	speaker: YOU[459]	*->13-1	IndefNP[13]	_	_	_	
+92-4	2099-2106	gekocht	GSuccess[16]	kochen\_set1\_2[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-kochen\_set1\_2[16]	_	_	_	_	_	false[105]	Decl[105]	*[223]	kochen[223]	transitive[223]	*[223]	*[223]	item0[223]	42[341]	female[341]	h05ingrcngdnasp07727nvoq59[341]	speaker: YOU[459]	_	_	_	_	_	
+
+#Text=Krass!
+93-1	2108-2114	Krass!	GSuccess[16]	kochen\_set1\_2[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-kochen\_set1\_2[16]	_	_	_	_	_	false	NA	krass\_exclamation\_18	*	*	*	*	feedback	*	female	*	speaker:Alina	_	_	_	_	_	
+
+#Text=Und es war echt lecker!
+94-1	2116-2119	Und	GSuccess[16]	kochen\_set1\_2[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-kochen\_set1\_2[16]	_	_	_	_	_	false[106]	Decl[106]	*[224]	*[224]	*[224]	*[224]	*[224]	input1[224]	42[342]	female[342]	h05ingrcngdnasp07727nvoq59[342]	speaker: YOU[460]	_	_	elaboration	*	95-1[107_106]	
+94-2	2120-2122	es	GSuccess[16]	kochen\_set1\_2[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-kochen\_set1\_2[16]	3	*	Subj	*	singular	false[106]	Decl[106]	*[224]	*[224]	*[224]	*[224]	*[224]	input1[224]	42[342]	female[342]	h05ingrcngdnasp07727nvoq59[342]	speaker: YOU[460]	*->13-2	PerPron[13]	_	_	_	
+94-3	2123-2126	war	GSuccess[16]	kochen\_set1\_2[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-kochen\_set1\_2[16]	_	_	_	_	_	false[106]	Decl[106]	*[224]	*[224]	*[224]	*[224]	*[224]	input1[224]	42[342]	female[342]	h05ingrcngdnasp07727nvoq59[342]	speaker: YOU[460]	_	_	_	_	_	
+94-4	2127-2131	echt	GSuccess[16]	kochen\_set1\_2[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-kochen\_set1\_2[16]	_	_	_	_	_	false[106]	Decl[106]	*[224]	*[224]	*[224]	*[224]	*[224]	input1[224]	42[342]	female[342]	h05ingrcngdnasp07727nvoq59[342]	speaker: YOU[460]	_	_	_	_	_	
+94-5	2132-2139	lecker!	GSuccess[16]	kochen\_set1\_2[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-kochen\_set1\_2[16]	_	_	_	_	_	false[106]	Decl[106]	*[224]	*[224]	*[224]	*[224]	*[224]	input1[224]	42[342]	female[342]	h05ingrcngdnasp07727nvoq59[342]	speaker: YOU[460]	_	_	_	_	_	
+
+#Text=Pasta mit Gemüse
+95-1	2141-2146	Pasta	GSuccess[16]	kochen\_set1\_2[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-kochen\_set1\_2[16]	*[35]	*[35]	DirObj[35]	*[35]	*[35]	false[107]	NA[107]	*[225]	*[225]	*[225]	*[225]	*[225]	input2[225]	42[343]	female[343]	h05ingrcngdnasp07727nvoq59[343]	speaker: YOU[461]	*->13-3	IndefNP[13]	_	_	_	
+95-2	2147-2150	mit	GSuccess[16]	kochen\_set1\_2[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-kochen\_set1\_2[16]	*[35]	*[35]	DirObj[35]	*[35]	*[35]	false[107]	NA[107]	*[225]	*[225]	*[225]	*[225]	*[225]	input2[225]	42[343]	female[343]	h05ingrcngdnasp07727nvoq59[343]	speaker: YOU[461]	*->13-3	IndefNP[13]	_	_	_	
+95-3	2151-2157	Gemüse	GSuccess[16]	kochen\_set1\_2[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-kochen\_set1\_2[16]	*[35]	*[35]	DirObj[35]	*[35]	*[35]	false[107]	NA[107]	*[225]	*[225]	*[225]	*[225]	*[225]	input2[225]	42[343]	female[343]	h05ingrcngdnasp07727nvoq59[343]	speaker: YOU[461]	*->13-3	IndefNP[13]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+96-1	2159-2174	END_OF_DOCUMENT	GSuccess[16]	kochen\_set1\_2[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-kochen\_set1\_2[16]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+97-1	2176-2182	Hallo,	GSuccess[17]	kochen\_set1\_2[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kochen\_set1\_2[17]	_	_	_	_	_	false[108]	Int[108]	*[226]	*[226]	*[226]	wh\_2[226]	wh\_question[226]	openq[226]	*[344]	female[344]	*[344]	speaker:Alina[462]	_	_	QAP	*	98-1[109_108]	
+97-2	2183-2186	wie	GSuccess[17]	kochen\_set1\_2[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kochen\_set1\_2[17]	_	_	_	_	_	false[108]	Int[108]	*[226]	*[226]	*[226]	wh\_2[226]	wh\_question[226]	openq[226]	*[344]	female[344]	*[344]	speaker:Alina[462]	_	_	_	_	_	
+97-3	2187-2194	geht's?	GSuccess[17]	kochen\_set1\_2[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kochen\_set1\_2[17]	_	_	_	_	_	false[108]	Int[108]	*[226]	*[226]	*[226]	wh\_2[226]	wh\_question[226]	openq[226]	*[344]	female[344]	*[344]	speaker:Alina[462]	_	_	_	_	_	
+
+#Text=Leonie hat Abendessen gekocht
+98-1	2196-2202	Leonie	GSuccess[17]	kochen\_set1\_2[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kochen\_set1\_2[17]	*	*	Subj	*	*	false[109]	Decl[109]	*[227]	kochen[227]	transitive[227]	*[227]	*[227]	item0[227]	42[345]	male[345]	jkqc35grurqg6r29efakrmibd9[345]	speaker: YOU[463]	*->87-1	PropNm[87]	explanation|acknowledgement	*|*	101-1[111_109]|99-1[0_109]	
+98-2	2203-2206	hat	GSuccess[17]	kochen\_set1\_2[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kochen\_set1\_2[17]	_	_	_	_	_	false[109]	Decl[109]	*[227]	kochen[227]	transitive[227]	*[227]	*[227]	item0[227]	42[345]	male[345]	jkqc35grurqg6r29efakrmibd9[345]	speaker: YOU[463]	_	_	_	_	_	
+98-3	2207-2217	Abendessen	GSuccess[17]	kochen\_set1\_2[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kochen\_set1\_2[17]	*	*	object	*	*	false[109]	Decl[109]	*[227]	kochen[227]	transitive[227]	*[227]	*[227]	item0[227]	42[345]	male[345]	jkqc35grurqg6r29efakrmibd9[345]	speaker: YOU[463]	*->5-1	IndefNP[5]	_	_	_	
+98-4	2218-2225	gekocht	GSuccess[17]	kochen\_set1\_2[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kochen\_set1\_2[17]	_	_	_	_	_	false[109]	Decl[109]	*[227]	kochen[227]	transitive[227]	*[227]	*[227]	item0[227]	42[345]	male[345]	jkqc35grurqg6r29efakrmibd9[345]	speaker: YOU[463]	_	_	_	_	_	
+
+#Text=Krass!
+99-1	2227-2233	Krass!	GSuccess[17]	kochen\_set1\_2[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kochen\_set1\_2[17]	_	_	_	_	_	false	NA	krass\_exclamation\_18	*	*	*	*	feedback	*	female	*	speaker:Alina	_	_	correction	*	100-1	
+
+#Text=nein <BR> nicht so krass
+100-1	2235-2239	nein	GSuccess[17]	kochen\_set1\_2[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kochen\_set1\_2[17]	_	_	_	_	_	false	NA	*[228]	*[228]	*[228]	*[228]	*[228]	input1[228]	42[346]	male[346]	jkqc35grurqg6r29efakrmibd9[346]	speaker: YOU[464]	_	_	elaboration	*	100-3[110_0]	
+100-2	2240-2244	<BR>	GSuccess[17]	kochen\_set1\_2[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kochen\_set1\_2[17]	_	_	_	_	_	_	_	*[228]	*[228]	*[228]	*[228]	*[228]	input1[228]	42[346]	male[346]	jkqc35grurqg6r29efakrmibd9[346]	speaker: YOU[464]	_	_	_	_	_	
+100-3	2245-2250	nicht	GSuccess[17]	kochen\_set1\_2[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kochen\_set1\_2[17]	_	_	_	_	_	false[110]	NA[110]	*[228]	*[228]	*[228]	*[228]	*[228]	input1[228]	42[346]	male[346]	jkqc35grurqg6r29efakrmibd9[346]	speaker: YOU[464]	_	_	_	_	_	
+100-4	2251-2253	so	GSuccess[17]	kochen\_set1\_2[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kochen\_set1\_2[17]	_	_	_	_	_	false[110]	NA[110]	*[228]	*[228]	*[228]	*[228]	*[228]	input1[228]	42[346]	male[346]	jkqc35grurqg6r29efakrmibd9[346]	speaker: YOU[464]	_	_	_	_	_	
+100-5	2254-2259	krass	GSuccess[17]	kochen\_set1\_2[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kochen\_set1\_2[17]	_	_	_	_	_	false[110]	NA[110]	*[228]	*[228]	*[228]	*[228]	*[228]	input1[228]	42[346]	male[346]	jkqc35grurqg6r29efakrmibd9[346]	speaker: YOU[464]	_	_	_	_	_	
+
+#Text=sie kocht gerne!
+101-1	2261-2264	sie	GSuccess[17]	kochen\_set1\_2[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kochen\_set1\_2[17]	3	*	Subj	*	singular	false[111]	Decl[111]	*[229]	*[229]	*[229]	*[229]	*[229]	input2[229]	42[347]	male[347]	jkqc35grurqg6r29efakrmibd9[347]	speaker: YOU[465]	*->87-2	PerPron[87]	_	_	_	
+101-2	2265-2270	kocht	GSuccess[17]	kochen\_set1\_2[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kochen\_set1\_2[17]	_	_	_	_	_	false[111]	Decl[111]	*[229]	*[229]	*[229]	*[229]	*[229]	input2[229]	42[347]	male[347]	jkqc35grurqg6r29efakrmibd9[347]	speaker: YOU[465]	_	_	_	_	_	
+101-3	2271-2277	gerne!	GSuccess[17]	kochen\_set1\_2[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kochen\_set1\_2[17]	_	_	_	_	_	false[111]	Decl[111]	*[229]	*[229]	*[229]	*[229]	*[229]	input2[229]	42[347]	male[347]	jkqc35grurqg6r29efakrmibd9[347]	speaker: YOU[465]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+102-1	2279-2294	END_OF_DOCUMENT	GSuccess[17]	kochen\_set1\_2[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-kochen\_set1\_2[17]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+103-1	2296-2302	Hallo,	GSuccess[18]	kochen\_set1\_2[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-kochen\_set1\_2[18]	_	_	_	_	_	false[112]	Int[112]	*[230]	*[230]	*[230]	wh\_2[230]	wh\_question[230]	openq[230]	*[348]	female[348]	*[348]	speaker:Alina[466]	_	_	QAP	*	104-1[113_112]	
+103-2	2303-2306	wie	GSuccess[18]	kochen\_set1\_2[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-kochen\_set1\_2[18]	_	_	_	_	_	false[112]	Int[112]	*[230]	*[230]	*[230]	wh\_2[230]	wh\_question[230]	openq[230]	*[348]	female[348]	*[348]	speaker:Alina[466]	_	_	_	_	_	
+103-3	2307-2314	geht's?	GSuccess[18]	kochen\_set1\_2[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-kochen\_set1\_2[18]	_	_	_	_	_	false[112]	Int[112]	*[230]	*[230]	*[230]	wh\_2[230]	wh\_question[230]	openq[230]	*[348]	female[348]	*[348]	speaker:Alina[466]	_	_	_	_	_	
+
+#Text=Leonie hat Abendessen gekocht
+104-1	2316-2322	Leonie	GSuccess[18]	kochen\_set1\_2[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-kochen\_set1\_2[18]	*	*	Subj	*	*	false[113]	Decl[113]	*[231]	kochen[231]	transitive[231]	*[231]	*[231]	item0[231]	20[349]	male[349]	lhu26mh95feeqso1qtacqboi3v[349]	speaker: YOU[467]	*->90-1	PropNm[90]	acknowledgement	*	105-1[0_113]	
+104-2	2323-2326	hat	GSuccess[18]	kochen\_set1\_2[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-kochen\_set1\_2[18]	_	_	_	_	_	false[113]	Decl[113]	*[231]	kochen[231]	transitive[231]	*[231]	*[231]	item0[231]	20[349]	male[349]	lhu26mh95feeqso1qtacqboi3v[349]	speaker: YOU[467]	_	_	_	_	_	
+104-3	2327-2337	Abendessen	GSuccess[18]	kochen\_set1\_2[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-kochen\_set1\_2[18]	*	*	object	*	*	false[113]	Decl[113]	*[231]	kochen[231]	transitive[231]	*[231]	*[231]	item0[231]	20[349]	male[349]	lhu26mh95feeqso1qtacqboi3v[349]	speaker: YOU[467]	*->69-1	IndefNP[69]	_	_	_	
+104-4	2338-2345	gekocht	GSuccess[18]	kochen\_set1\_2[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-kochen\_set1\_2[18]	_	_	_	_	_	false[113]	Decl[113]	*[231]	kochen[231]	transitive[231]	*[231]	*[231]	item0[231]	20[349]	male[349]	lhu26mh95feeqso1qtacqboi3v[349]	speaker: YOU[467]	_	_	_	_	_	
+
+#Text=Krass!
+105-1	2347-2353	Krass!	GSuccess[18]	kochen\_set1\_2[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-kochen\_set1\_2[18]	_	_	_	_	_	false	NA	krass\_exclamation\_18	*	*	*	*	feedback	*	female	*	speaker:Alina	_	_	_	_	_	
+
+#Text=Ja ich freue mich auch schon.
+106-1	2355-2357	Ja	GSuccess[18]	kochen\_set1\_2[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-kochen\_set1\_2[18]	_	_	_	_	_	false[114]	Decl[114]	*[232]	*[232]	*[232]	*[232]	*[232]	input1[232]	20[350]	male[350]	lhu26mh95feeqso1qtacqboi3v[350]	speaker: YOU[468]	_	_	_	_	_	
+106-2	2358-2361	ich	GSuccess[18]	kochen\_set1\_2[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-kochen\_set1\_2[18]	1	*	Subj	*	singular	false[114]	Decl[114]	*[232]	*[232]	*[232]	*[232]	*[232]	input1[232]	20[350]	male[350]	lhu26mh95feeqso1qtacqboi3v[350]	speaker: YOU[468]	*->11-1	PerPron[11]	_	_	_	
+106-3	2362-2367	freue	GSuccess[18]	kochen\_set1\_2[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-kochen\_set1\_2[18]	_	_	_	_	_	false[114]	Decl[114]	*[232]	*[232]	*[232]	*[232]	*[232]	input1[232]	20[350]	male[350]	lhu26mh95feeqso1qtacqboi3v[350]	speaker: YOU[468]	_	_	_	_	_	
+106-4	2368-2372	mich	GSuccess[18]	kochen\_set1\_2[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-kochen\_set1\_2[18]	*	*	IndirObj	*	*	false[114]	Decl[114]	*[232]	*[232]	*[232]	*[232]	*[232]	input1[232]	20[350]	male[350]	lhu26mh95feeqso1qtacqboi3v[350]	speaker: YOU[468]	_	_	_	_	_	
+106-5	2373-2377	auch	GSuccess[18]	kochen\_set1\_2[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-kochen\_set1\_2[18]	_	_	_	_	_	false[114]	Decl[114]	*[232]	*[232]	*[232]	*[232]	*[232]	input1[232]	20[350]	male[350]	lhu26mh95feeqso1qtacqboi3v[350]	speaker: YOU[468]	_	_	_	_	_	
+106-6	2378-2384	schon.	GSuccess[18]	kochen\_set1\_2[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-kochen\_set1\_2[18]	_	_	_	_	_	false[114]	Decl[114]	*[232]	*[232]	*[232]	*[232]	*[232]	input1[232]	20[350]	male[350]	lhu26mh95feeqso1qtacqboi3v[350]	speaker: YOU[468]	_	_	_	_	_	
+
+#Text=Es ist immer ein Genuss wenn sie für uns kocht.
+107-1	2386-2388	Es	GSuccess[18]	kochen\_set1\_2[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-kochen\_set1\_2[18]	*	*	Subj	*	*	false[115]	Decl[115]	*[233]	*[233]	*[233]	*[233]	*[233]	input2[233]	20[351]	male[351]	lhu26mh95feeqso1qtacqboi3v[351]	speaker: YOU[469]	_	_	_	_	_	
+107-2	2389-2392	ist	GSuccess[18]	kochen\_set1\_2[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-kochen\_set1\_2[18]	_	_	_	_	_	false[115]	Decl[115]	*[233]	*[233]	*[233]	*[233]	*[233]	input2[233]	20[351]	male[351]	lhu26mh95feeqso1qtacqboi3v[351]	speaker: YOU[469]	_	_	_	_	_	
+107-3	2393-2398	immer	GSuccess[18]	kochen\_set1\_2[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-kochen\_set1\_2[18]	_	_	_	_	_	false[115]	Decl[115]	*[233]	*[233]	*[233]	*[233]	*[233]	input2[233]	20[351]	male[351]	lhu26mh95feeqso1qtacqboi3v[351]	speaker: YOU[469]	_	_	_	_	_	
+107-4	2399-2402	ein	GSuccess[18]	kochen\_set1\_2[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-kochen\_set1\_2[18]	*[36]	*[36]	DirObj[36]	*[36]	*[36]	false[115]	Decl[115]	*[233]	*[233]	*[233]	*[233]	*[233]	input2[233]	20[351]	male[351]	lhu26mh95feeqso1qtacqboi3v[351]	speaker: YOU[469]	_	_	_	_	_	
+107-5	2403-2409	Genuss	GSuccess[18]	kochen\_set1\_2[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-kochen\_set1\_2[18]	*[36]	*[36]	DirObj[36]	*[36]	*[36]	false[115]	Decl[115]	*[233]	*[233]	*[233]	*[233]	*[233]	input2[233]	20[351]	male[351]	lhu26mh95feeqso1qtacqboi3v[351]	speaker: YOU[469]	_	_	_	_	_	
+107-6	2410-2414	wenn	GSuccess[18]	kochen\_set1\_2[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-kochen\_set1\_2[18]	_	_	_	_	_	false[116]	NA[116]	*[233]	*[233]	*[233]	*[233]	*[233]	input2[233]	20[351]	male[351]	lhu26mh95feeqso1qtacqboi3v[351]	speaker: YOU[469]	_	_	_	_	_	
+107-7	2415-2418	sie	GSuccess[18]	kochen\_set1\_2[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-kochen\_set1\_2[18]	3	*	PrepObj	*	singular	false[116]	NA[116]	*[233]	*[233]	*[233]	*[233]	*[233]	input2[233]	20[351]	male[351]	lhu26mh95feeqso1qtacqboi3v[351]	speaker: YOU[469]	*->90-2	PerPron[90]	_	_	_	
+107-8	2419-2422	für	GSuccess[18]	kochen\_set1\_2[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-kochen\_set1\_2[18]	_	_	_	_	_	false[116]	NA[116]	*[233]	*[233]	*[233]	*[233]	*[233]	input2[233]	20[351]	male[351]	lhu26mh95feeqso1qtacqboi3v[351]	speaker: YOU[469]	_	_	_	_	_	
+107-9	2423-2426	uns	GSuccess[18]	kochen\_set1\_2[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-kochen\_set1\_2[18]	1	*	PrepObj	*	plural	false[116]	NA[116]	*[233]	*[233]	*[233]	*[233]	*[233]	input2[233]	20[351]	male[351]	lhu26mh95feeqso1qtacqboi3v[351]	speaker: YOU[469]	*->47-1	PerPron[47]	_	_	_	
+107-10	2427-2433	kocht.	GSuccess[18]	kochen\_set1\_2[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-kochen\_set1\_2[18]	_	_	_	_	_	false[116]	NA[116]	*[233]	*[233]	*[233]	*[233]	*[233]	input2[233]	20[351]	male[351]	lhu26mh95feeqso1qtacqboi3v[351]	speaker: YOU[469]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+108-1	2435-2450	END_OF_DOCUMENT	GSuccess[18]	kochen\_set1\_2[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-kochen\_set1\_2[18]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+109-1	2452-2458	Hallo,	GSuccess[19]	kochen\_set1\_2[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kochen\_set1\_2[19]	_	_	_	_	_	false[117]	Int[117]	*[234]	*[234]	*[234]	wh\_2[234]	wh\_question[234]	openq[234]	*[352]	female[352]	*[352]	speaker:Alina[470]	_	_	QAP	*	110-1[118_117]	
+109-2	2459-2462	wie	GSuccess[19]	kochen\_set1\_2[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kochen\_set1\_2[19]	_	_	_	_	_	false[117]	Int[117]	*[234]	*[234]	*[234]	wh\_2[234]	wh\_question[234]	openq[234]	*[352]	female[352]	*[352]	speaker:Alina[470]	_	_	_	_	_	
+109-3	2463-2470	geht's?	GSuccess[19]	kochen\_set1\_2[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kochen\_set1\_2[19]	_	_	_	_	_	false[117]	Int[117]	*[234]	*[234]	*[234]	wh\_2[234]	wh\_question[234]	openq[234]	*[352]	female[352]	*[352]	speaker:Alina[470]	_	_	_	_	_	
+
+#Text=Leonie hat Abendessen gekocht
+110-1	2472-2478	Leonie	GSuccess[19]	kochen\_set1\_2[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kochen\_set1\_2[19]	*	*	Subj	*	*	false[118]	Decl[118]	*[235]	kochen[235]	transitive[235]	*[235]	*[235]	item0[235]	21[353]	male[353]	tc4i3rsgsa9bl8tesf4679lok2[353]	speaker: YOU[471]	*->26-1	PropNm[26]	acknowledgement	*	111-1[0_118]	
+110-2	2479-2482	hat	GSuccess[19]	kochen\_set1\_2[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kochen\_set1\_2[19]	_	_	_	_	_	false[118]	Decl[118]	*[235]	kochen[235]	transitive[235]	*[235]	*[235]	item0[235]	21[353]	male[353]	tc4i3rsgsa9bl8tesf4679lok2[353]	speaker: YOU[471]	_	_	_	_	_	
+110-3	2483-2493	Abendessen	GSuccess[19]	kochen\_set1\_2[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kochen\_set1\_2[19]	*	*	object	*	*	false[118]	Decl[118]	*[235]	kochen[235]	transitive[235]	*[235]	*[235]	item0[235]	21[353]	male[353]	tc4i3rsgsa9bl8tesf4679lok2[353]	speaker: YOU[471]	*->43-1	IndefNP[43]	_	_	_	
+110-4	2494-2501	gekocht	GSuccess[19]	kochen\_set1\_2[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kochen\_set1\_2[19]	_	_	_	_	_	false[118]	Decl[118]	*[235]	kochen[235]	transitive[235]	*[235]	*[235]	item0[235]	21[353]	male[353]	tc4i3rsgsa9bl8tesf4679lok2[353]	speaker: YOU[471]	_	_	_	_	_	
+
+#Text=Krass!
+111-1	2503-2509	Krass!	GSuccess[19]	kochen\_set1\_2[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kochen\_set1\_2[19]	_	_	_	_	_	false	NA	krass\_exclamation\_18	*	*	*	*	feedback	*	female	*	speaker:Alina	_	_	parallel	*	112-1[119_0]	
+
+#Text=Ja hab ich auch nicht mit gerechnet
+112-1	2511-2513	Ja	GSuccess[19]	kochen\_set1\_2[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kochen\_set1\_2[19]	_	_	_	_	_	false[119]	Decl[119]	*[236]	*[236]	*[236]	*[236]	*[236]	input1[236]	21[354]	male[354]	tc4i3rsgsa9bl8tesf4679lok2[354]	speaker: YOU[472]	_	_	contrast	*	113-1[120_119]	
+112-2	2514-2517	hab	GSuccess[19]	kochen\_set1\_2[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kochen\_set1\_2[19]	_	_	_	_	_	false[119]	Decl[119]	*[236]	*[236]	*[236]	*[236]	*[236]	input1[236]	21[354]	male[354]	tc4i3rsgsa9bl8tesf4679lok2[354]	speaker: YOU[472]	_	_	_	_	_	
+112-3	2518-2521	ich	GSuccess[19]	kochen\_set1\_2[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kochen\_set1\_2[19]	1	*	Subj	*	singular	false[119]	Decl[119]	*[236]	*[236]	*[236]	*[236]	*[236]	input1[236]	21[354]	male[354]	tc4i3rsgsa9bl8tesf4679lok2[354]	speaker: YOU[472]	*->46-1	PerPron[46]	_	_	_	
+112-4	2522-2526	auch	GSuccess[19]	kochen\_set1\_2[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kochen\_set1\_2[19]	_	_	_	_	_	false[119]	Decl[119]	*[236]	*[236]	*[236]	*[236]	*[236]	input1[236]	21[354]	male[354]	tc4i3rsgsa9bl8tesf4679lok2[354]	speaker: YOU[472]	_	_	_	_	_	
+112-5	2527-2532	nicht	GSuccess[19]	kochen\_set1\_2[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kochen\_set1\_2[19]	_	_	_	_	_	false[119]	Decl[119]	*[236]	*[236]	*[236]	*[236]	*[236]	input1[236]	21[354]	male[354]	tc4i3rsgsa9bl8tesf4679lok2[354]	speaker: YOU[472]	_	_	_	_	_	
+112-6	2533-2536	mit	GSuccess[19]	kochen\_set1\_2[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kochen\_set1\_2[19]	_	_	_	_	_	false[119]	Decl[119]	*[236]	*[236]	*[236]	*[236]	*[236]	input1[236]	21[354]	male[354]	tc4i3rsgsa9bl8tesf4679lok2[354]	speaker: YOU[472]	_	_	_	_	_	
+112-7	2537-2546	gerechnet	GSuccess[19]	kochen\_set1\_2[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kochen\_set1\_2[19]	_	_	_	_	_	false[119]	Decl[119]	*[236]	*[236]	*[236]	*[236]	*[236]	input1[236]	21[354]	male[354]	tc4i3rsgsa9bl8tesf4679lok2[354]	speaker: YOU[472]	_	_	_	_	_	
+
+#Text=Aber es war echt lecker
+113-1	2548-2552	Aber	GSuccess[19]	kochen\_set1\_2[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kochen\_set1\_2[19]	_	_	_	_	_	false[120]	Decl[120]	*[237]	*[237]	*[237]	*[237]	*[237]	input2[237]	21[355]	male[355]	tc4i3rsgsa9bl8tesf4679lok2[355]	speaker: YOU[473]	_	_	_	_	_	
+113-2	2553-2555	es	GSuccess[19]	kochen\_set1\_2[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kochen\_set1\_2[19]	3	*	Subj	*	singular	false[120]	Decl[120]	*[237]	*[237]	*[237]	*[237]	*[237]	input2[237]	21[355]	male[355]	tc4i3rsgsa9bl8tesf4679lok2[355]	speaker: YOU[473]	*->43-2	PerPron[43]	_	_	_	
+113-3	2556-2559	war	GSuccess[19]	kochen\_set1\_2[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kochen\_set1\_2[19]	_	_	_	_	_	false[120]	Decl[120]	*[237]	*[237]	*[237]	*[237]	*[237]	input2[237]	21[355]	male[355]	tc4i3rsgsa9bl8tesf4679lok2[355]	speaker: YOU[473]	_	_	_	_	_	
+113-4	2560-2564	echt	GSuccess[19]	kochen\_set1\_2[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kochen\_set1\_2[19]	_	_	_	_	_	false[120]	Decl[120]	*[237]	*[237]	*[237]	*[237]	*[237]	input2[237]	21[355]	male[355]	tc4i3rsgsa9bl8tesf4679lok2[355]	speaker: YOU[473]	_	_	_	_	_	
+113-5	2565-2571	lecker	GSuccess[19]	kochen\_set1\_2[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kochen\_set1\_2[19]	_	_	_	_	_	false[120]	Decl[120]	*[237]	*[237]	*[237]	*[237]	*[237]	input2[237]	21[355]	male[355]	tc4i3rsgsa9bl8tesf4679lok2[355]	speaker: YOU[473]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+114-1	2573-2588	END_OF_DOCUMENT	GSuccess[19]	kochen\_set1\_2[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-kochen\_set1\_2[19]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+115-1	2590-2596	Hallo,	GSuccess[20]	kochen\_set1\_2[20]	latin1[20]	us0adlivem61c2bj5776kudbot-kochen\_set1\_2[20]	_	_	_	_	_	false[121]	Int[121]	*[238]	*[238]	*[238]	wh\_2[238]	wh\_question[238]	openq[238]	*[356]	female[356]	*[356]	speaker:Alina[474]	_	_	QAP	*	116-1[122_121]	
+115-2	2597-2600	wie	GSuccess[20]	kochen\_set1\_2[20]	latin1[20]	us0adlivem61c2bj5776kudbot-kochen\_set1\_2[20]	_	_	_	_	_	false[121]	Int[121]	*[238]	*[238]	*[238]	wh\_2[238]	wh\_question[238]	openq[238]	*[356]	female[356]	*[356]	speaker:Alina[474]	_	_	_	_	_	
+115-3	2601-2608	geht's?	GSuccess[20]	kochen\_set1\_2[20]	latin1[20]	us0adlivem61c2bj5776kudbot-kochen\_set1\_2[20]	_	_	_	_	_	false[121]	Int[121]	*[238]	*[238]	*[238]	wh\_2[238]	wh\_question[238]	openq[238]	*[356]	female[356]	*[356]	speaker:Alina[474]	_	_	_	_	_	
+
+#Text=Leonie hat Abendessen gekocht
+116-1	2610-2616	Leonie	GSuccess[20]	kochen\_set1\_2[20]	latin1[20]	us0adlivem61c2bj5776kudbot-kochen\_set1\_2[20]	*	*	Subj	*	*	false[122]	Decl[122]	*[239]	kochen[239]	transitive[239]	*[239]	*[239]	item0[239]	66[357]	male[357]	us0adlivem61c2bj5776kudbot[357]	speaker: YOU[475]	*->28-1	PropNm[28]	elaboration|acknowledgement	*|*	118-1[123_122]|117-1[0_122]	
+116-2	2617-2620	hat	GSuccess[20]	kochen\_set1\_2[20]	latin1[20]	us0adlivem61c2bj5776kudbot-kochen\_set1\_2[20]	_	_	_	_	_	false[122]	Decl[122]	*[239]	kochen[239]	transitive[239]	*[239]	*[239]	item0[239]	66[357]	male[357]	us0adlivem61c2bj5776kudbot[357]	speaker: YOU[475]	_	_	_	_	_	
+116-3	2621-2631	Abendessen	GSuccess[20]	kochen\_set1\_2[20]	latin1[20]	us0adlivem61c2bj5776kudbot-kochen\_set1\_2[20]	*	*	object	*	*	false[122]	Decl[122]	*[239]	kochen[239]	transitive[239]	*[239]	*[239]	item0[239]	66[357]	male[357]	us0adlivem61c2bj5776kudbot[357]	speaker: YOU[475]	*->100-1	IndefNP[100]	_	_	_	
+116-4	2632-2639	gekocht	GSuccess[20]	kochen\_set1\_2[20]	latin1[20]	us0adlivem61c2bj5776kudbot-kochen\_set1\_2[20]	_	_	_	_	_	false[122]	Decl[122]	*[239]	kochen[239]	transitive[239]	*[239]	*[239]	item0[239]	66[357]	male[357]	us0adlivem61c2bj5776kudbot[357]	speaker: YOU[475]	_	_	_	_	_	
+
+#Text=Krass!
+117-1	2641-2647	Krass!	GSuccess[20]	kochen\_set1\_2[20]	latin1[20]	us0adlivem61c2bj5776kudbot-kochen\_set1\_2[20]	_	_	_	_	_	false	NA	krass\_exclamation\_18	*	*	*	*	feedback	*	female	*	speaker:Alina	_	_	_	_	_	
+
+#Text=hat sich mal versucht
+118-1	2649-2652	hat	GSuccess[20]	kochen\_set1\_2[20]	latin1[20]	us0adlivem61c2bj5776kudbot-kochen\_set1\_2[20]	3	*	*	*	singular	false[123]	Decl[123]	*[240]	*[240]	*[240]	*[240]	*[240]	input1[240]	66[358]	male[358]	us0adlivem61c2bj5776kudbot[358]	speaker: YOU[476]	*->28-2	zero[28]	elaboration	*	119-1[124_123]	
+118-2	2653-2657	sich	GSuccess[20]	kochen\_set1\_2[20]	latin1[20]	us0adlivem61c2bj5776kudbot-kochen\_set1\_2[20]	_	_	_	_	_	false[123]	Decl[123]	*[240]	*[240]	*[240]	*[240]	*[240]	input1[240]	66[358]	male[358]	us0adlivem61c2bj5776kudbot[358]	speaker: YOU[476]	_	_	_	_	_	
+118-3	2658-2661	mal	GSuccess[20]	kochen\_set1\_2[20]	latin1[20]	us0adlivem61c2bj5776kudbot-kochen\_set1\_2[20]	_	_	_	_	_	false[123]	Decl[123]	*[240]	*[240]	*[240]	*[240]	*[240]	input1[240]	66[358]	male[358]	us0adlivem61c2bj5776kudbot[358]	speaker: YOU[476]	_	_	_	_	_	
+118-4	2662-2670	versucht	GSuccess[20]	kochen\_set1\_2[20]	latin1[20]	us0adlivem61c2bj5776kudbot-kochen\_set1\_2[20]	_	_	_	_	_	false[123]	Decl[123]	*[240]	*[240]	*[240]	*[240]	*[240]	input1[240]	66[358]	male[358]	us0adlivem61c2bj5776kudbot[358]	speaker: YOU[476]	_	_	_	_	_	
+
+#Text=wird schon was werden
+119-1	2672-2676	wird	GSuccess[20]	kochen\_set1\_2[20]	latin1[20]	us0adlivem61c2bj5776kudbot-kochen\_set1\_2[20]	3	*	*	*	singular	false[124]	Decl[124]	*[241]	*[241]	*[241]	*[241]	*[241]	input2[241]	66[359]	male[359]	us0adlivem61c2bj5776kudbot[359]	speaker: YOU[477]	*->100-2	zero[100]	_	_	_	
+119-2	2677-2682	schon	GSuccess[20]	kochen\_set1\_2[20]	latin1[20]	us0adlivem61c2bj5776kudbot-kochen\_set1\_2[20]	_	_	_	_	_	false[124]	Decl[124]	*[241]	*[241]	*[241]	*[241]	*[241]	input2[241]	66[359]	male[359]	us0adlivem61c2bj5776kudbot[359]	speaker: YOU[477]	_	_	_	_	_	
+119-3	2683-2686	was	GSuccess[20]	kochen\_set1\_2[20]	latin1[20]	us0adlivem61c2bj5776kudbot-kochen\_set1\_2[20]	_	_	_	_	_	false[124]	Decl[124]	*[241]	*[241]	*[241]	*[241]	*[241]	input2[241]	66[359]	male[359]	us0adlivem61c2bj5776kudbot[359]	speaker: YOU[477]	_	_	_	_	_	
+119-4	2687-2693	werden	GSuccess[20]	kochen\_set1\_2[20]	latin1[20]	us0adlivem61c2bj5776kudbot-kochen\_set1\_2[20]	_	_	_	_	_	false[124]	Decl[124]	*[241]	*[241]	*[241]	*[241]	*[241]	input2[241]	66[359]	male[359]	us0adlivem61c2bj5776kudbot[359]	speaker: YOU[477]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+120-1	2695-2710	END_OF_DOCUMENT	GSuccess[20]	kochen\_set1\_2[20]	latin1[20]	us0adlivem61c2bj5776kudbot-kochen\_set1\_2[20]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+121-1	2712-2718	Hallo,	GWithout[21]	kochen\_set1\_2[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-kochen\_set1\_2[21]	_	_	_	_	_	false[125]	Int[125]	*[242]	*[242]	*[242]	wh\_2[242]	wh\_question[242]	openq[242]	*[360]	female[360]	*[360]	speaker:Alina[478]	_	_	QAP	*	122-1[126_125]	
+121-2	2719-2722	wie	GWithout[21]	kochen\_set1\_2[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-kochen\_set1\_2[21]	_	_	_	_	_	false[125]	Int[125]	*[242]	*[242]	*[242]	wh\_2[242]	wh\_question[242]	openq[242]	*[360]	female[360]	*[360]	speaker:Alina[478]	_	_	_	_	_	
+121-3	2723-2730	geht's?	GWithout[21]	kochen\_set1\_2[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-kochen\_set1\_2[21]	_	_	_	_	_	false[125]	Int[125]	*[242]	*[242]	*[242]	wh\_2[242]	wh\_question[242]	openq[242]	*[360]	female[360]	*[360]	speaker:Alina[478]	_	_	_	_	_	
+
+#Text=Leonie hat Abendessen gekocht
+122-1	2732-2738	Leonie	GWithout[21]	kochen\_set1\_2[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-kochen\_set1\_2[21]	*	*	Subj	*	*	false[126]	Decl[126]	*[243]	kochen[243]	transitive[243]	*[243]	*[243]	item0[243]	32[361]	female[361]	2em9nj6n4c2pjudl6n6hfpjc30[361]	speaker: YOU[479]	*->4-1	PropNm[4]	contrast	*	124-1[127_126]	
+122-2	2739-2742	hat	GWithout[21]	kochen\_set1\_2[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-kochen\_set1\_2[21]	_	_	_	_	_	false[126]	Decl[126]	*[243]	kochen[243]	transitive[243]	*[243]	*[243]	item0[243]	32[361]	female[361]	2em9nj6n4c2pjudl6n6hfpjc30[361]	speaker: YOU[479]	_	_	_	_	_	
+122-3	2743-2753	Abendessen	GWithout[21]	kochen\_set1\_2[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-kochen\_set1\_2[21]	*	*	object	*	*	false[126]	Decl[126]	*[243]	kochen[243]	transitive[243]	*[243]	*[243]	item0[243]	32[361]	female[361]	2em9nj6n4c2pjudl6n6hfpjc30[361]	speaker: YOU[479]	*->61-1	IndefNP[61]	_	_	_	
+122-4	2754-2761	gekocht	GWithout[21]	kochen\_set1\_2[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-kochen\_set1\_2[21]	_	_	_	_	_	false[126]	Decl[126]	*[243]	kochen[243]	transitive[243]	*[243]	*[243]	item0[243]	32[361]	female[361]	2em9nj6n4c2pjudl6n6hfpjc30[361]	speaker: YOU[479]	_	_	_	_	_	
+
+#Text=-
+123-1	2763-2764	-	GWithout[21]	kochen\_set1\_2[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-kochen\_set1\_2[21]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Alina	_	_	_	_	_	
+
+#Text=...jetzt bestellen wir was.
+124-1	2766-2774	...jetzt	GWithout[21]	kochen\_set1\_2[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-kochen\_set1\_2[21]	_	_	_	_	_	false[127]	Decl[127]	*[244]	*[244]	*[244]	*[244]	*[244]	input1[244]	32[362]	female[362]	2em9nj6n4c2pjudl6n6hfpjc30[362]	speaker: YOU[480]	_	_	elaboration	*	125-1[128_127]	
+124-2	2775-2784	bestellen	GWithout[21]	kochen\_set1\_2[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-kochen\_set1\_2[21]	_	_	_	_	_	false[127]	Decl[127]	*[244]	*[244]	*[244]	*[244]	*[244]	input1[244]	32[362]	female[362]	2em9nj6n4c2pjudl6n6hfpjc30[362]	speaker: YOU[480]	_	_	_	_	_	
+124-3	2785-2788	wir	GWithout[21]	kochen\_set1\_2[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-kochen\_set1\_2[21]	1	*	Subj	*	plural	false[127]	Decl[127]	*[244]	*[244]	*[244]	*[244]	*[244]	input1[244]	32[362]	female[362]	2em9nj6n4c2pjudl6n6hfpjc30[362]	speaker: YOU[480]	*->17-1	PerPron[17]	_	_	_	
+124-4	2789-2793	was.	GWithout[21]	kochen\_set1\_2[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-kochen\_set1\_2[21]	_	_	_	_	_	false[127]	Decl[127]	*[244]	*[244]	*[244]	*[244]	*[244]	input1[244]	32[362]	female[362]	2em9nj6n4c2pjudl6n6hfpjc30[362]	speaker: YOU[480]	_	_	_	_	_	
+
+#Text=Mehr muss ich wohl nicht sagen.
+125-1	2795-2799	Mehr	GWithout[21]	kochen\_set1\_2[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-kochen\_set1\_2[21]	*	*	DirObj	*	*	false[128]	Decl[128]	*[245]	*[245]	*[245]	*[245]	*[245]	input2[245]	32[363]	female[363]	2em9nj6n4c2pjudl6n6hfpjc30[363]	speaker: YOU[481]	_	_	_	_	_	
+125-2	2800-2804	muss	GWithout[21]	kochen\_set1\_2[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-kochen\_set1\_2[21]	_	_	_	_	_	false[128]	Decl[128]	*[245]	*[245]	*[245]	*[245]	*[245]	input2[245]	32[363]	female[363]	2em9nj6n4c2pjudl6n6hfpjc30[363]	speaker: YOU[481]	_	_	_	_	_	
+125-3	2805-2808	ich	GWithout[21]	kochen\_set1\_2[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-kochen\_set1\_2[21]	1	*	Subj	*	singular	false[128]	Decl[128]	*[245]	*[245]	*[245]	*[245]	*[245]	input2[245]	32[363]	female[363]	2em9nj6n4c2pjudl6n6hfpjc30[363]	speaker: YOU[481]	*->48-1	PerPron[48]	_	_	_	
+125-4	2809-2813	wohl	GWithout[21]	kochen\_set1\_2[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-kochen\_set1\_2[21]	_	_	_	_	_	false[128]	Decl[128]	*[245]	*[245]	*[245]	*[245]	*[245]	input2[245]	32[363]	female[363]	2em9nj6n4c2pjudl6n6hfpjc30[363]	speaker: YOU[481]	_	_	_	_	_	
+125-5	2814-2819	nicht	GWithout[21]	kochen\_set1\_2[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-kochen\_set1\_2[21]	_	_	_	_	_	false[128]	Decl[128]	*[245]	*[245]	*[245]	*[245]	*[245]	input2[245]	32[363]	female[363]	2em9nj6n4c2pjudl6n6hfpjc30[363]	speaker: YOU[481]	_	_	_	_	_	
+125-6	2820-2826	sagen.	GWithout[21]	kochen\_set1\_2[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-kochen\_set1\_2[21]	_	_	_	_	_	false[128]	Decl[128]	*[245]	*[245]	*[245]	*[245]	*[245]	input2[245]	32[363]	female[363]	2em9nj6n4c2pjudl6n6hfpjc30[363]	speaker: YOU[481]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+126-1	2828-2843	END_OF_DOCUMENT	GWithout[21]	kochen\_set1\_2[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-kochen\_set1\_2[21]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+127-1	2845-2851	Hallo,	GWithout[22]	kochen\_set1\_2[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-kochen\_set1\_2[22]	_	_	_	_	_	false[129]	Int[129]	*[246]	*[246]	*[246]	wh\_2[246]	wh\_question[246]	openq[246]	*[364]	female[364]	*[364]	speaker:Alina[482]	_	_	QAP	*	128-1[130_129]	
+127-2	2852-2855	wie	GWithout[22]	kochen\_set1\_2[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-kochen\_set1\_2[22]	_	_	_	_	_	false[129]	Int[129]	*[246]	*[246]	*[246]	wh\_2[246]	wh\_question[246]	openq[246]	*[364]	female[364]	*[364]	speaker:Alina[482]	_	_	_	_	_	
+127-3	2856-2863	geht's?	GWithout[22]	kochen\_set1\_2[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-kochen\_set1\_2[22]	_	_	_	_	_	false[129]	Int[129]	*[246]	*[246]	*[246]	wh\_2[246]	wh\_question[246]	openq[246]	*[364]	female[364]	*[364]	speaker:Alina[482]	_	_	_	_	_	
+
+#Text=Leonie hat Abendessen gekocht
+128-1	2865-2871	Leonie	GWithout[22]	kochen\_set1\_2[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-kochen\_set1\_2[22]	*	*	Subj	*	*	false[130]	Decl[130]	*[247]	kochen[247]	transitive[247]	*[247]	*[247]	item0[247]	41[365]	female[365]	2prsavjsjqbmc8hrbo9bovkues[365]	speaker: YOU[483]	*->58-1	PropNm[58]	elaboration|result	*|*	130-1[0_130]|131-1[131_130]	
+128-2	2872-2875	hat	GWithout[22]	kochen\_set1\_2[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-kochen\_set1\_2[22]	_	_	_	_	_	false[130]	Decl[130]	*[247]	kochen[247]	transitive[247]	*[247]	*[247]	item0[247]	41[365]	female[365]	2prsavjsjqbmc8hrbo9bovkues[365]	speaker: YOU[483]	_	_	_	_	_	
+128-3	2876-2886	Abendessen	GWithout[22]	kochen\_set1\_2[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-kochen\_set1\_2[22]	*	*	object	*	*	false[130]	Decl[130]	*[247]	kochen[247]	transitive[247]	*[247]	*[247]	item0[247]	41[365]	female[365]	2prsavjsjqbmc8hrbo9bovkues[365]	speaker: YOU[483]	*->23-1	IndefNP[23]	_	_	_	
+128-4	2887-2894	gekocht	GWithout[22]	kochen\_set1\_2[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-kochen\_set1\_2[22]	_	_	_	_	_	false[130]	Decl[130]	*[247]	kochen[247]	transitive[247]	*[247]	*[247]	item0[247]	41[365]	female[365]	2prsavjsjqbmc8hrbo9bovkues[365]	speaker: YOU[483]	_	_	_	_	_	
+
+#Text=-
+129-1	2896-2897	-	GWithout[22]	kochen\_set1\_2[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-kochen\_set1\_2[22]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Alina	_	_	_	_	_	
+
+#Text=Spaghetti <BR> lecker.
+130-1	2899-2908	Spaghetti	GWithout[22]	kochen\_set1\_2[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-kochen\_set1\_2[22]	*	*	DirObj	*	*	false	NA	*[248]	*[248]	*[248]	*[248]	*[248]	input1[248]	41[366]	female[366]	2prsavjsjqbmc8hrbo9bovkues[366]	speaker: YOU[484]	*->23-2	IndefNP[23]	elaboration	*	130-3	
+130-2	2909-2913	<BR>	GWithout[22]	kochen\_set1\_2[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-kochen\_set1\_2[22]	_	_	_	_	_	_	_	*[248]	*[248]	*[248]	*[248]	*[248]	input1[248]	41[366]	female[366]	2prsavjsjqbmc8hrbo9bovkues[366]	speaker: YOU[484]	_	_	_	_	_	
+130-3	2914-2921	lecker.	GWithout[22]	kochen\_set1\_2[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-kochen\_set1\_2[22]	_	_	_	_	_	false	NA	*[248]	*[248]	*[248]	*[248]	*[248]	input1[248]	41[366]	female[366]	2prsavjsjqbmc8hrbo9bovkues[366]	speaker: YOU[484]	_	_	_	_	_	
+
+#Text=Ich meld mich später bei dir.
+131-1	2923-2926	Ich	GWithout[22]	kochen\_set1\_2[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-kochen\_set1\_2[22]	1	*	Subj	*	singular	false[131]	Decl[131]	*[249]	*[249]	*[249]	*[249]	*[249]	input2[249]	41[367]	female[367]	2prsavjsjqbmc8hrbo9bovkues[367]	speaker: YOU[485]	*->85-1	PerPron[85]	_	_	_	
+131-2	2927-2931	meld	GWithout[22]	kochen\_set1\_2[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-kochen\_set1\_2[22]	_	_	_	_	_	false[131]	Decl[131]	*[249]	*[249]	*[249]	*[249]	*[249]	input2[249]	41[367]	female[367]	2prsavjsjqbmc8hrbo9bovkues[367]	speaker: YOU[485]	_	_	_	_	_	
+131-3	2932-2936	mich	GWithout[22]	kochen\_set1\_2[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-kochen\_set1\_2[22]	*	*	IndirObj	*	*	false[131]	Decl[131]	*[249]	*[249]	*[249]	*[249]	*[249]	input2[249]	41[367]	female[367]	2prsavjsjqbmc8hrbo9bovkues[367]	speaker: YOU[485]	_	_	_	_	_	
+131-4	2937-2943	später	GWithout[22]	kochen\_set1\_2[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-kochen\_set1\_2[22]	_	_	_	_	_	false[131]	Decl[131]	*[249]	*[249]	*[249]	*[249]	*[249]	input2[249]	41[367]	female[367]	2prsavjsjqbmc8hrbo9bovkues[367]	speaker: YOU[485]	_	_	_	_	_	
+131-5	2944-2947	bei	GWithout[22]	kochen\_set1\_2[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-kochen\_set1\_2[22]	_	_	_	_	_	false[131]	Decl[131]	*[249]	*[249]	*[249]	*[249]	*[249]	input2[249]	41[367]	female[367]	2prsavjsjqbmc8hrbo9bovkues[367]	speaker: YOU[485]	_	_	_	_	_	
+131-6	2948-2952	dir.	GWithout[22]	kochen\_set1\_2[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-kochen\_set1\_2[22]	2	*	PrepObj	*	singular	false[131]	Decl[131]	*[249]	*[249]	*[249]	*[249]	*[249]	input2[249]	41[367]	female[367]	2prsavjsjqbmc8hrbo9bovkues[367]	speaker: YOU[485]	*->14-1	PerPron[14]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+132-1	2954-2969	END_OF_DOCUMENT	GWithout[22]	kochen\_set1\_2[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-kochen\_set1\_2[22]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+133-1	2971-2977	Hallo,	GWithout[23]	kochen\_set1\_2[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kochen\_set1\_2[23]	_	_	_	_	_	false[132]	Int[132]	*[250]	*[250]	*[250]	wh\_2[250]	wh\_question[250]	openq[250]	*[368]	female[368]	*[368]	speaker:Alina[486]	_	_	QAP	*	134-1[133_132]	
+133-2	2978-2981	wie	GWithout[23]	kochen\_set1\_2[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kochen\_set1\_2[23]	_	_	_	_	_	false[132]	Int[132]	*[250]	*[250]	*[250]	wh\_2[250]	wh\_question[250]	openq[250]	*[368]	female[368]	*[368]	speaker:Alina[486]	_	_	_	_	_	
+133-3	2982-2989	geht's?	GWithout[23]	kochen\_set1\_2[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kochen\_set1\_2[23]	_	_	_	_	_	false[132]	Int[132]	*[250]	*[250]	*[250]	wh\_2[250]	wh\_question[250]	openq[250]	*[368]	female[368]	*[368]	speaker:Alina[486]	_	_	_	_	_	
+
+#Text=Leonie hat Abendessen gekocht
+134-1	2991-2997	Leonie	GWithout[23]	kochen\_set1\_2[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kochen\_set1\_2[23]	*	*	Subj	*	*	false[133]	Decl[133]	*[251]	kochen[251]	transitive[251]	*[251]	*[251]	item0[251]	46[369]	male[369]	3jjtes457iqluuhfmeiub8g6qd[369]	speaker: YOU[487]	*->96-1	PropNm[96]	elaboration|elaboration	*|*	136-1[134_133]|137-1[135_133]	
+134-2	2998-3001	hat	GWithout[23]	kochen\_set1\_2[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kochen\_set1\_2[23]	_	_	_	_	_	false[133]	Decl[133]	*[251]	kochen[251]	transitive[251]	*[251]	*[251]	item0[251]	46[369]	male[369]	3jjtes457iqluuhfmeiub8g6qd[369]	speaker: YOU[487]	_	_	_	_	_	
+134-3	3002-3012	Abendessen	GWithout[23]	kochen\_set1\_2[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kochen\_set1\_2[23]	*	*	object	*	*	false[133]	Decl[133]	*[251]	kochen[251]	transitive[251]	*[251]	*[251]	item0[251]	46[369]	male[369]	3jjtes457iqluuhfmeiub8g6qd[369]	speaker: YOU[487]	*->27-1	IndefNP[27]	_	_	_	
+134-4	3013-3020	gekocht	GWithout[23]	kochen\_set1\_2[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kochen\_set1\_2[23]	_	_	_	_	_	false[133]	Decl[133]	*[251]	kochen[251]	transitive[251]	*[251]	*[251]	item0[251]	46[369]	male[369]	3jjtes457iqluuhfmeiub8g6qd[369]	speaker: YOU[487]	_	_	_	_	_	
+
+#Text=-
+135-1	3022-3023	-	GWithout[23]	kochen\_set1\_2[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kochen\_set1\_2[23]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Alina	_	_	_	_	_	
+
+#Text=Sieht eigentlich ganz lecker aus.
+136-1	3025-3030	Sieht	GWithout[23]	kochen\_set1\_2[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kochen\_set1\_2[23]	3	*	*	*	singular	false[134]	Decl[134]	*[252]	*[252]	*[252]	*[252]	*[252]	input1[252]	46[370]	male[370]	3jjtes457iqluuhfmeiub8g6qd[370]	speaker: YOU[488]	*->27-2	zero[27]	_	_	_	
+136-2	3031-3041	eigentlich	GWithout[23]	kochen\_set1\_2[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kochen\_set1\_2[23]	_	_	_	_	_	false[134]	Decl[134]	*[252]	*[252]	*[252]	*[252]	*[252]	input1[252]	46[370]	male[370]	3jjtes457iqluuhfmeiub8g6qd[370]	speaker: YOU[488]	_	_	_	_	_	
+136-3	3042-3046	ganz	GWithout[23]	kochen\_set1\_2[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kochen\_set1\_2[23]	_	_	_	_	_	false[134]	Decl[134]	*[252]	*[252]	*[252]	*[252]	*[252]	input1[252]	46[370]	male[370]	3jjtes457iqluuhfmeiub8g6qd[370]	speaker: YOU[488]	_	_	_	_	_	
+136-4	3047-3053	lecker	GWithout[23]	kochen\_set1\_2[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kochen\_set1\_2[23]	_	_	_	_	_	false[134]	Decl[134]	*[252]	*[252]	*[252]	*[252]	*[252]	input1[252]	46[370]	male[370]	3jjtes457iqluuhfmeiub8g6qd[370]	speaker: YOU[488]	_	_	_	_	_	
+136-5	3054-3058	aus.	GWithout[23]	kochen\_set1\_2[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kochen\_set1\_2[23]	_	_	_	_	_	false[134]	Decl[134]	*[252]	*[252]	*[252]	*[252]	*[252]	input1[252]	46[370]	male[370]	3jjtes457iqluuhfmeiub8g6qd[370]	speaker: YOU[488]	_	_	_	_	_	
+
+#Text=Und wenn sie schonmal kocht muß man das ausnutzen
+137-1	3060-3063	Und	GWithout[23]	kochen\_set1\_2[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kochen\_set1\_2[23]	_	_	_	_	_	false[135]	Decl[135]	*[253]	*[253]	*[253]	*[253]	*[253]	input2[253]	46[371]	male[371]	3jjtes457iqluuhfmeiub8g6qd[371]	speaker: YOU[489]	_	_	_	_	_	
+137-2	3064-3068	wenn	GWithout[23]	kochen\_set1\_2[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kochen\_set1\_2[23]	_	_	_	_	_	false[135]	Decl[135]	*[253]	*[253]	*[253]	*[253]	*[253]	input2[253]	46[371]	male[371]	3jjtes457iqluuhfmeiub8g6qd[371]	speaker: YOU[489]	*->35-1	clause[35]	_	_	_	
+137-3	3069-3072	sie	GWithout[23]	kochen\_set1\_2[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kochen\_set1\_2[23]	3	*	Subj	*	singular	false[135]	Decl[135]	*[253]	*[253]	*[253]	*[253]	*[253]	input2[253]	46[371]	male[371]	3jjtes457iqluuhfmeiub8g6qd[371]	speaker: YOU[489]	*->35-1|*->96-2	clause[35]|PerPron[96]	_	_	_	
+137-4	3073-3081	schonmal	GWithout[23]	kochen\_set1\_2[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kochen\_set1\_2[23]	_	_	_	_	_	false[135]	Decl[135]	*[253]	*[253]	*[253]	*[253]	*[253]	input2[253]	46[371]	male[371]	3jjtes457iqluuhfmeiub8g6qd[371]	speaker: YOU[489]	*->35-1	clause[35]	_	_	_	
+137-5	3082-3087	kocht	GWithout[23]	kochen\_set1\_2[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kochen\_set1\_2[23]	_	_	_	_	_	false[135]	Decl[135]	*[253]	*[253]	*[253]	*[253]	*[253]	input2[253]	46[371]	male[371]	3jjtes457iqluuhfmeiub8g6qd[371]	speaker: YOU[489]	*->35-1	clause[35]	_	_	_	
+137-6	3088-3091	muß	GWithout[23]	kochen\_set1\_2[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kochen\_set1\_2[23]	_	_	_	_	_	false[135]	Decl[135]	*[253]	*[253]	*[253]	*[253]	*[253]	input2[253]	46[371]	male[371]	3jjtes457iqluuhfmeiub8g6qd[371]	speaker: YOU[489]	_	_	_	_	_	
+137-7	3092-3095	man	GWithout[23]	kochen\_set1\_2[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kochen\_set1\_2[23]	*	*	Subj	*	*	false[135]	Decl[135]	*[253]	*[253]	*[253]	*[253]	*[253]	input2[253]	46[371]	male[371]	3jjtes457iqluuhfmeiub8g6qd[371]	speaker: YOU[489]	_	_	_	_	_	
+137-8	3096-3099	das	GWithout[23]	kochen\_set1\_2[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kochen\_set1\_2[23]	_	_	_	_	_	false[135]	Decl[135]	*[253]	*[253]	*[253]	*[253]	*[253]	input2[253]	46[371]	male[371]	3jjtes457iqluuhfmeiub8g6qd[371]	speaker: YOU[489]	*->35-2	D-Pron[35]	_	_	_	
+137-9	3100-3109	ausnutzen	GWithout[23]	kochen\_set1\_2[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kochen\_set1\_2[23]	_	_	_	_	_	false[135]	Decl[135]	*[253]	*[253]	*[253]	*[253]	*[253]	input2[253]	46[371]	male[371]	3jjtes457iqluuhfmeiub8g6qd[371]	speaker: YOU[489]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+138-1	3111-3126	END_OF_DOCUMENT	GWithout[23]	kochen\_set1\_2[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-kochen\_set1\_2[23]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+139-1	3128-3134	Hallo,	GWithout[24]	kochen\_set1\_2[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-kochen\_set1\_2[24]	_	_	_	_	_	false[136]	Int[136]	*[254]	*[254]	*[254]	wh\_2[254]	wh\_question[254]	openq[254]	*[372]	female[372]	*[372]	speaker:Alina[490]	_	_	parallel|QAP	*|*	143-1[139_136]|140-1[137_136]	
+139-2	3135-3138	wie	GWithout[24]	kochen\_set1\_2[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-kochen\_set1\_2[24]	_	_	_	_	_	false[136]	Int[136]	*[254]	*[254]	*[254]	wh\_2[254]	wh\_question[254]	openq[254]	*[372]	female[372]	*[372]	speaker:Alina[490]	_	_	_	_	_	
+139-3	3139-3146	geht's?	GWithout[24]	kochen\_set1\_2[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-kochen\_set1\_2[24]	_	_	_	_	_	false[136]	Int[136]	*[254]	*[254]	*[254]	wh\_2[254]	wh\_question[254]	openq[254]	*[372]	female[372]	*[372]	speaker:Alina[490]	_	_	_	_	_	
+
+#Text=Leonie hat Abendessen gekocht
+140-1	3148-3154	Leonie	GWithout[24]	kochen\_set1\_2[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-kochen\_set1\_2[24]	*	*	Subj	*	*	false[137]	Decl[137]	*[255]	kochen[255]	transitive[255]	*[255]	*[255]	item0[255]	27[373]	female[373]	65p8m4ujg4fi983365pclnac28[373]	speaker: YOU[491]	*->73-1	PropNm[73]	result	*	142-1[138_137]	
+140-2	3155-3158	hat	GWithout[24]	kochen\_set1\_2[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-kochen\_set1\_2[24]	_	_	_	_	_	false[137]	Decl[137]	*[255]	kochen[255]	transitive[255]	*[255]	*[255]	item0[255]	27[373]	female[373]	65p8m4ujg4fi983365pclnac28[373]	speaker: YOU[491]	_	_	_	_	_	
+140-3	3159-3169	Abendessen	GWithout[24]	kochen\_set1\_2[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-kochen\_set1\_2[24]	*	*	object	*	*	false[137]	Decl[137]	*[255]	kochen[255]	transitive[255]	*[255]	*[255]	item0[255]	27[373]	female[373]	65p8m4ujg4fi983365pclnac28[373]	speaker: YOU[491]	*->51-1	IndefNP[51]	_	_	_	
+140-4	3170-3177	gekocht	GWithout[24]	kochen\_set1\_2[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-kochen\_set1\_2[24]	_	_	_	_	_	false[137]	Decl[137]	*[255]	kochen[255]	transitive[255]	*[255]	*[255]	item0[255]	27[373]	female[373]	65p8m4ujg4fi983365pclnac28[373]	speaker: YOU[491]	_	_	_	_	_	
+
+#Text=-
+141-1	3179-3180	-	GWithout[24]	kochen\_set1\_2[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-kochen\_set1\_2[24]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Alina	_	_	_	_	_	
+
+#Text=möchtest du mitessen?
+142-1	3182-3190	möchtest	GWithout[24]	kochen\_set1\_2[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-kochen\_set1\_2[24]	_	_	_	_	_	false[138]	Int[138]	*[256]	*[256]	*[256]	*[256]	*[256]	input1[256]	27[374]	female[374]	65p8m4ujg4fi983365pclnac28[374]	speaker: YOU[492]	_	_	_	_	_	
+142-2	3191-3193	du	GWithout[24]	kochen\_set1\_2[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-kochen\_set1\_2[24]	2	*	Subj	*	singular	false[138]	Int[138]	*[256]	*[256]	*[256]	*[256]	*[256]	input1[256]	27[374]	female[374]	65p8m4ujg4fi983365pclnac28[374]	speaker: YOU[492]	*->97-1	PerPron[97]	_	_	_	
+142-3	3194-3203	mitessen?	GWithout[24]	kochen\_set1\_2[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-kochen\_set1\_2[24]	_	_	_	_	_	false[138]	Int[138]	*[256]	*[256]	*[256]	*[256]	*[256]	input1[256]	27[374]	female[374]	65p8m4ujg4fi983365pclnac28[374]	speaker: YOU[492]	_	_	_	_	_	
+
+#Text=wie geht's dir?
+143-1	3205-3208	wie	GWithout[24]	kochen\_set1\_2[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-kochen\_set1\_2[24]	_	_	_	_	_	false[139]	Int[139]	*[257]	*[257]	*[257]	*[257]	*[257]	input2[257]	27[375]	female[375]	65p8m4ujg4fi983365pclnac28[375]	speaker: YOU[493]	_	_	_	_	_	
+143-2	3209-3215	geht's	GWithout[24]	kochen\_set1\_2[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-kochen\_set1\_2[24]	_	_	_	_	_	false[139]	Int[139]	*[257]	*[257]	*[257]	*[257]	*[257]	input2[257]	27[375]	female[375]	65p8m4ujg4fi983365pclnac28[375]	speaker: YOU[493]	_	_	_	_	_	
+143-3	3216-3220	dir?	GWithout[24]	kochen\_set1\_2[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-kochen\_set1\_2[24]	2	*	IndirObj	*	singular	false[139]	Int[139]	*[257]	*[257]	*[257]	*[257]	*[257]	input2[257]	27[375]	female[375]	65p8m4ujg4fi983365pclnac28[375]	speaker: YOU[493]	*->97-2	PerPron[97]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+144-1	3222-3237	END_OF_DOCUMENT	GWithout[24]	kochen\_set1\_2[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-kochen\_set1\_2[24]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+145-1	3239-3245	Hallo,	GWithout[25]	kochen\_set1\_2[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kochen\_set1\_2[25]	_	_	_	_	_	false[140]	Int[140]	*[258]	*[258]	*[258]	wh\_2[258]	wh\_question[258]	openq[258]	*[376]	female[376]	*[376]	speaker:Alina[494]	_	_	QAP	*	146-1[141_140]	
+145-2	3246-3249	wie	GWithout[25]	kochen\_set1\_2[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kochen\_set1\_2[25]	_	_	_	_	_	false[140]	Int[140]	*[258]	*[258]	*[258]	wh\_2[258]	wh\_question[258]	openq[258]	*[376]	female[376]	*[376]	speaker:Alina[494]	_	_	_	_	_	
+145-3	3250-3257	geht's?	GWithout[25]	kochen\_set1\_2[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kochen\_set1\_2[25]	_	_	_	_	_	false[140]	Int[140]	*[258]	*[258]	*[258]	wh\_2[258]	wh\_question[258]	openq[258]	*[376]	female[376]	*[376]	speaker:Alina[494]	_	_	_	_	_	
+
+#Text=Leonie hat Abendessen gekocht
+146-1	3259-3265	Leonie	GWithout[25]	kochen\_set1\_2[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kochen\_set1\_2[25]	*	*	Subj	*	*	false[141]	Decl[141]	*[259]	kochen[259]	transitive[259]	*[259]	*[259]	item0[259]	22[377]	female[377]	ad2p95q44evasm6vmbol4cikit[377]	speaker: YOU[495]	*->54-1	PropNm[54]	result	*	148-1[142_141]	
+146-2	3266-3269	hat	GWithout[25]	kochen\_set1\_2[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kochen\_set1\_2[25]	_	_	_	_	_	false[141]	Decl[141]	*[259]	kochen[259]	transitive[259]	*[259]	*[259]	item0[259]	22[377]	female[377]	ad2p95q44evasm6vmbol4cikit[377]	speaker: YOU[495]	_	_	_	_	_	
+146-3	3270-3280	Abendessen	GWithout[25]	kochen\_set1\_2[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kochen\_set1\_2[25]	*	*	object	*	*	false[141]	Decl[141]	*[259]	kochen[259]	transitive[259]	*[259]	*[259]	item0[259]	22[377]	female[377]	ad2p95q44evasm6vmbol4cikit[377]	speaker: YOU[495]	*->71-1	IndefNP[71]	_	_	_	
+146-4	3281-3288	gekocht	GWithout[25]	kochen\_set1\_2[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kochen\_set1\_2[25]	_	_	_	_	_	false[141]	Decl[141]	*[259]	kochen[259]	transitive[259]	*[259]	*[259]	item0[259]	22[377]	female[377]	ad2p95q44evasm6vmbol4cikit[377]	speaker: YOU[495]	_	_	_	_	_	
+
+#Text=-
+147-1	3290-3291	-	GWithout[25]	kochen\_set1\_2[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kochen\_set1\_2[25]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Alina	_	_	_	_	_	
+
+#Text=Ich denke wir essen heute alle zusammen
+148-1	3293-3296	Ich	GWithout[25]	kochen\_set1\_2[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kochen\_set1\_2[25]	1	*	Subj	*	singular	false[142]	Decl[142]	*[260]	*[260]	*[260]	*[260]	*[260]	input1[260]	22[378]	female[378]	ad2p95q44evasm6vmbol4cikit[378]	speaker: YOU[496]	*->93-1	PerPron[93]	elaboration	*	149-1[143_142]	
+148-2	3297-3302	denke	GWithout[25]	kochen\_set1\_2[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kochen\_set1\_2[25]	_	_	_	_	_	false[142]	Decl[142]	*[260]	*[260]	*[260]	*[260]	*[260]	input1[260]	22[378]	female[378]	ad2p95q44evasm6vmbol4cikit[378]	speaker: YOU[496]	_	_	_	_	_	
+148-3	3303-3306	wir	GWithout[25]	kochen\_set1\_2[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kochen\_set1\_2[25]	1	*	Embedded	*	plural	false[142]	Decl[142]	*[260]	*[260]	*[260]	*[260]	*[260]	input1[260]	22[378]	female[378]	ad2p95q44evasm6vmbol4cikit[378]	speaker: YOU[496]	*->1-1|*->78-1	clause[1]|PerPron[78]	_	_	_	
+148-4	3307-3312	essen	GWithout[25]	kochen\_set1\_2[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kochen\_set1\_2[25]	_	_	_	_	_	false[142]	Decl[142]	*[260]	*[260]	*[260]	*[260]	*[260]	input1[260]	22[378]	female[378]	ad2p95q44evasm6vmbol4cikit[378]	speaker: YOU[496]	*->1-1	clause[1]	_	_	_	
+148-5	3313-3318	heute	GWithout[25]	kochen\_set1\_2[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kochen\_set1\_2[25]	_	_	_	_	_	false[142]	Decl[142]	*[260]	*[260]	*[260]	*[260]	*[260]	input1[260]	22[378]	female[378]	ad2p95q44evasm6vmbol4cikit[378]	speaker: YOU[496]	*->1-1	clause[1]	_	_	_	
+148-6	3319-3323	alle	GWithout[25]	kochen\_set1\_2[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kochen\_set1\_2[25]	_	_	_	_	_	false[142]	Decl[142]	*[260]	*[260]	*[260]	*[260]	*[260]	input1[260]	22[378]	female[378]	ad2p95q44evasm6vmbol4cikit[378]	speaker: YOU[496]	*->1-1	clause[1]	_	_	_	
+148-7	3324-3332	zusammen	GWithout[25]	kochen\_set1\_2[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kochen\_set1\_2[25]	_	_	_	_	_	false[142]	Decl[142]	*[260]	*[260]	*[260]	*[260]	*[260]	input1[260]	22[378]	female[378]	ad2p95q44evasm6vmbol4cikit[378]	speaker: YOU[496]	*->1-1	clause[1]	_	_	_	
+
+#Text=Das wird toll!
+149-1	3334-3337	Das	GWithout[25]	kochen\_set1\_2[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kochen\_set1\_2[25]	*	*	Subj	*	*	false[143]	Decl[143]	*[261]	*[261]	*[261]	*[261]	*[261]	input2[261]	22[379]	female[379]	ad2p95q44evasm6vmbol4cikit[379]	speaker: YOU[497]	*->1-2	D-Pron[1]	_	_	_	
+149-2	3338-3342	wird	GWithout[25]	kochen\_set1\_2[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kochen\_set1\_2[25]	_	_	_	_	_	false[143]	Decl[143]	*[261]	*[261]	*[261]	*[261]	*[261]	input2[261]	22[379]	female[379]	ad2p95q44evasm6vmbol4cikit[379]	speaker: YOU[497]	_	_	_	_	_	
+149-3	3343-3348	toll!	GWithout[25]	kochen\_set1\_2[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kochen\_set1\_2[25]	_	_	_	_	_	false[143]	Decl[143]	*[261]	*[261]	*[261]	*[261]	*[261]	input2[261]	22[379]	female[379]	ad2p95q44evasm6vmbol4cikit[379]	speaker: YOU[497]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+150-1	3350-3365	END_OF_DOCUMENT	GWithout[25]	kochen\_set1\_2[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-kochen\_set1\_2[25]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+151-1	3367-3373	Hallo,	GWithout[26]	kochen\_set1\_2[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-kochen\_set1\_2[26]	_	_	_	_	_	false[144]	Int[144]	*[262]	*[262]	*[262]	wh\_2[262]	wh\_question[262]	openq[262]	*[380]	female[380]	*[380]	speaker:Alina[498]	_	_	QAP	*	152-1[145_144]	
+151-2	3374-3377	wie	GWithout[26]	kochen\_set1\_2[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-kochen\_set1\_2[26]	_	_	_	_	_	false[144]	Int[144]	*[262]	*[262]	*[262]	wh\_2[262]	wh\_question[262]	openq[262]	*[380]	female[380]	*[380]	speaker:Alina[498]	_	_	_	_	_	
+151-3	3378-3385	geht's?	GWithout[26]	kochen\_set1\_2[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-kochen\_set1\_2[26]	_	_	_	_	_	false[144]	Int[144]	*[262]	*[262]	*[262]	wh\_2[262]	wh\_question[262]	openq[262]	*[380]	female[380]	*[380]	speaker:Alina[498]	_	_	_	_	_	
+
+#Text=Leonie hat Abendessen gekocht
+152-1	3387-3393	Leonie	GWithout[26]	kochen\_set1\_2[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-kochen\_set1\_2[26]	*	*	Subj	*	*	false[145]	Decl[145]	*[263]	kochen[263]	transitive[263]	*[263]	*[263]	item0[263]	36[381]	female[381]	aoum613lougtk5ql841j63bjo9[381]	speaker: YOU[499]	*->20-1	PropNm[20]	elaboration	*	154-1[146_145]	
+152-2	3394-3397	hat	GWithout[26]	kochen\_set1\_2[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-kochen\_set1\_2[26]	_	_	_	_	_	false[145]	Decl[145]	*[263]	kochen[263]	transitive[263]	*[263]	*[263]	item0[263]	36[381]	female[381]	aoum613lougtk5ql841j63bjo9[381]	speaker: YOU[499]	_	_	_	_	_	
+152-3	3398-3408	Abendessen	GWithout[26]	kochen\_set1\_2[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-kochen\_set1\_2[26]	*	*	object	*	*	false[145]	Decl[145]	*[263]	kochen[263]	transitive[263]	*[263]	*[263]	item0[263]	36[381]	female[381]	aoum613lougtk5ql841j63bjo9[381]	speaker: YOU[499]	*->84-1	IndefNP[84]	_	_	_	
+152-4	3409-3416	gekocht	GWithout[26]	kochen\_set1\_2[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-kochen\_set1\_2[26]	_	_	_	_	_	false[145]	Decl[145]	*[263]	kochen[263]	transitive[263]	*[263]	*[263]	item0[263]	36[381]	female[381]	aoum613lougtk5ql841j63bjo9[381]	speaker: YOU[499]	_	_	_	_	_	
+
+#Text=-
+153-1	3418-3419	-	GWithout[26]	kochen\_set1\_2[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-kochen\_set1\_2[26]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Alina	_	_	_	_	_	
+
+#Text=Es gibt Spaghetti Carbonara.
+154-1	3421-3423	Es	GWithout[26]	kochen\_set1\_2[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-kochen\_set1\_2[26]	*	*	Subj	*	*	false[146]	Decl[146]	*[264]	*[264]	*[264]	*[264]	*[264]	input1[264]	36[382]	female[382]	aoum613lougtk5ql841j63bjo9[382]	speaker: YOU[500]	_	_	elaboration	*	155-1[147_146]	
+154-2	3424-3428	gibt	GWithout[26]	kochen\_set1\_2[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-kochen\_set1\_2[26]	_	_	_	_	_	false[146]	Decl[146]	*[264]	*[264]	*[264]	*[264]	*[264]	input1[264]	36[382]	female[382]	aoum613lougtk5ql841j63bjo9[382]	speaker: YOU[500]	_	_	_	_	_	
+154-3	3429-3438	Spaghetti	GWithout[26]	kochen\_set1\_2[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-kochen\_set1\_2[26]	*[37]	*[37]	DirObj[37]	*[37]	*[37]	false[146]	Decl[146]	*[264]	*[264]	*[264]	*[264]	*[264]	input1[264]	36[382]	female[382]	aoum613lougtk5ql841j63bjo9[382]	speaker: YOU[500]	*->31-1	IndefNP[31]	_	_	_	
+154-4	3439-3449	Carbonara.	GWithout[26]	kochen\_set1\_2[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-kochen\_set1\_2[26]	*[37]	*[37]	DirObj[37]	*[37]	*[37]	false[146]	Decl[146]	*[264]	*[264]	*[264]	*[264]	*[264]	input1[264]	36[382]	female[382]	aoum613lougtk5ql841j63bjo9[382]	speaker: YOU[500]	*->31-1	IndefNP[31]	_	_	_	
+
+#Text=Mein Lieblingsessen!
+155-1	3451-3455	Mein	GWithout[26]	kochen\_set1\_2[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-kochen\_set1\_2[26]	*[38]|1[39]	*[38]|*[39]	DirObj[38]|*[39]	*[38]|*[39]	*[38]|singular[39]	false[147]	NA[147]	*[265]	*[265]	*[265]	*[265]	*[265]	input2[265]	36[383]	female[383]	aoum613lougtk5ql841j63bjo9[383]	speaker: YOU[501]	*->31-2|*->62-1	DefNP[31]|PossePron[62]	_	_	_	
+155-2	3456-3471	Lieblingsessen!	GWithout[26]	kochen\_set1\_2[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-kochen\_set1\_2[26]	*[38]	*[38]	DirObj[38]	*[38]	*[38]	false[147]	NA[147]	*[265]	*[265]	*[265]	*[265]	*[265]	input2[265]	36[383]	female[383]	aoum613lougtk5ql841j63bjo9[383]	speaker: YOU[501]	*->31-2	DefNP[31]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+156-1	3473-3488	END_OF_DOCUMENT	GWithout[26]	kochen\_set1\_2[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-kochen\_set1\_2[26]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+157-1	3490-3496	Hallo,	GWithout[27]	kochen\_set1\_2[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kochen\_set1\_2[27]	_	_	_	_	_	false[148]	Int[148]	*[266]	*[266]	*[266]	wh\_2[266]	wh\_question[266]	openq[266]	*[384]	female[384]	*[384]	speaker:Alina[502]	_	_	QAP	*	158-1[149_148]	
+157-2	3497-3500	wie	GWithout[27]	kochen\_set1\_2[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kochen\_set1\_2[27]	_	_	_	_	_	false[148]	Int[148]	*[266]	*[266]	*[266]	wh\_2[266]	wh\_question[266]	openq[266]	*[384]	female[384]	*[384]	speaker:Alina[502]	_	_	_	_	_	
+157-3	3501-3508	geht's?	GWithout[27]	kochen\_set1\_2[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kochen\_set1\_2[27]	_	_	_	_	_	false[148]	Int[148]	*[266]	*[266]	*[266]	wh\_2[266]	wh\_question[266]	openq[266]	*[384]	female[384]	*[384]	speaker:Alina[502]	_	_	_	_	_	
+
+#Text=Leonie hat Abendessen gekocht
+158-1	3510-3516	Leonie	GWithout[27]	kochen\_set1\_2[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kochen\_set1\_2[27]	*	*	Subj	*	*	false[149]	Decl[149]	*[267]	kochen[267]	transitive[267]	*[267]	*[267]	item0[267]	26[385]	male[385]	c48fsj7kc4kiuorutkbb4be30b[385]	speaker: YOU[503]	*->45-1	PropNm[45]	elaboration	*	160-1[150_149]	
+158-2	3517-3520	hat	GWithout[27]	kochen\_set1\_2[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kochen\_set1\_2[27]	_	_	_	_	_	false[149]	Decl[149]	*[267]	kochen[267]	transitive[267]	*[267]	*[267]	item0[267]	26[385]	male[385]	c48fsj7kc4kiuorutkbb4be30b[385]	speaker: YOU[503]	_	_	_	_	_	
+158-3	3521-3531	Abendessen	GWithout[27]	kochen\_set1\_2[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kochen\_set1\_2[27]	*	*	object	*	*	false[149]	Decl[149]	*[267]	kochen[267]	transitive[267]	*[267]	*[267]	item0[267]	26[385]	male[385]	c48fsj7kc4kiuorutkbb4be30b[385]	speaker: YOU[503]	*->37-1	IndefNP[37]	_	_	_	
+158-4	3532-3539	gekocht	GWithout[27]	kochen\_set1\_2[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kochen\_set1\_2[27]	_	_	_	_	_	false[149]	Decl[149]	*[267]	kochen[267]	transitive[267]	*[267]	*[267]	item0[267]	26[385]	male[385]	c48fsj7kc4kiuorutkbb4be30b[385]	speaker: YOU[503]	_	_	_	_	_	
+
+#Text=-
+159-1	3541-3542	-	GWithout[27]	kochen\_set1\_2[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kochen\_set1\_2[27]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Alina	_	_	_	_	_	
+
+#Text=Es gab Schweinebraten mit Klößen.
+160-1	3544-3546	Es	GWithout[27]	kochen\_set1\_2[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kochen\_set1\_2[27]	*	*	Subj	*	*	false[150]	Decl[150]	*[268]	*[268]	*[268]	*[268]	*[268]	input1[268]	26[386]	male[386]	c48fsj7kc4kiuorutkbb4be30b[386]	speaker: YOU[504]	_	_	elaboration	*	161-1[151_150]	
+160-2	3547-3550	gab	GWithout[27]	kochen\_set1\_2[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kochen\_set1\_2[27]	_	_	_	_	_	false[150]	Decl[150]	*[268]	*[268]	*[268]	*[268]	*[268]	input1[268]	26[386]	male[386]	c48fsj7kc4kiuorutkbb4be30b[386]	speaker: YOU[504]	_	_	_	_	_	
+160-3	3551-3565	Schweinebraten	GWithout[27]	kochen\_set1\_2[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kochen\_set1\_2[27]	*[40]	*[40]	DirObj[40]	*[40]	*[40]	false[150]	Decl[150]	*[268]	*[268]	*[268]	*[268]	*[268]	input1[268]	26[386]	male[386]	c48fsj7kc4kiuorutkbb4be30b[386]	speaker: YOU[504]	*->101-1	IndefNP[101]	_	_	_	
+160-4	3566-3569	mit	GWithout[27]	kochen\_set1\_2[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kochen\_set1\_2[27]	*[40]	*[40]	DirObj[40]	*[40]	*[40]	false[150]	Decl[150]	*[268]	*[268]	*[268]	*[268]	*[268]	input1[268]	26[386]	male[386]	c48fsj7kc4kiuorutkbb4be30b[386]	speaker: YOU[504]	*->101-1	IndefNP[101]	_	_	_	
+160-5	3570-3577	Klößen.	GWithout[27]	kochen\_set1\_2[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kochen\_set1\_2[27]	*[40]	*[40]	DirObj[40]	*[40]	*[40]	false[150]	Decl[150]	*[268]	*[268]	*[268]	*[268]	*[268]	input1[268]	26[386]	male[386]	c48fsj7kc4kiuorutkbb4be30b[386]	speaker: YOU[504]	*->101-1	IndefNP[101]	_	_	_	
+
+#Text=Das hat sehr gut geschmeckt!
+161-1	3579-3582	Das	GWithout[27]	kochen\_set1\_2[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kochen\_set1\_2[27]	*	*	Subj	*	*	false[151]	Decl[151]	*[269]	*[269]	*[269]	*[269]	*[269]	input2[269]	26[387]	male[387]	c48fsj7kc4kiuorutkbb4be30b[387]	speaker: YOU[505]	*->101-2	D-Pron[101]	_	_	_	
+161-2	3583-3586	hat	GWithout[27]	kochen\_set1\_2[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kochen\_set1\_2[27]	_	_	_	_	_	false[151]	Decl[151]	*[269]	*[269]	*[269]	*[269]	*[269]	input2[269]	26[387]	male[387]	c48fsj7kc4kiuorutkbb4be30b[387]	speaker: YOU[505]	_	_	_	_	_	
+161-3	3587-3591	sehr	GWithout[27]	kochen\_set1\_2[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kochen\_set1\_2[27]	_	_	_	_	_	false[151]	Decl[151]	*[269]	*[269]	*[269]	*[269]	*[269]	input2[269]	26[387]	male[387]	c48fsj7kc4kiuorutkbb4be30b[387]	speaker: YOU[505]	_	_	_	_	_	
+161-4	3592-3595	gut	GWithout[27]	kochen\_set1\_2[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kochen\_set1\_2[27]	_	_	_	_	_	false[151]	Decl[151]	*[269]	*[269]	*[269]	*[269]	*[269]	input2[269]	26[387]	male[387]	c48fsj7kc4kiuorutkbb4be30b[387]	speaker: YOU[505]	_	_	_	_	_	
+161-5	3596-3607	geschmeckt!	GWithout[27]	kochen\_set1\_2[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kochen\_set1\_2[27]	_	_	_	_	_	false[151]	Decl[151]	*[269]	*[269]	*[269]	*[269]	*[269]	input2[269]	26[387]	male[387]	c48fsj7kc4kiuorutkbb4be30b[387]	speaker: YOU[505]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+162-1	3609-3624	END_OF_DOCUMENT	GWithout[27]	kochen\_set1\_2[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-kochen\_set1\_2[27]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+163-1	3626-3632	Hallo,	GWithout[28]	kochen\_set1\_2[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kochen\_set1\_2[28]	_	_	_	_	_	false[152]	Int[152]	*[270]	*[270]	*[270]	wh\_2[270]	wh\_question[270]	openq[270]	*[388]	female[388]	*[388]	speaker:Alina[506]	_	_	QAP	*	164-1[153_152]	
+163-2	3633-3636	wie	GWithout[28]	kochen\_set1\_2[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kochen\_set1\_2[28]	_	_	_	_	_	false[152]	Int[152]	*[270]	*[270]	*[270]	wh\_2[270]	wh\_question[270]	openq[270]	*[388]	female[388]	*[388]	speaker:Alina[506]	_	_	_	_	_	
+163-3	3637-3644	geht's?	GWithout[28]	kochen\_set1\_2[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kochen\_set1\_2[28]	_	_	_	_	_	false[152]	Int[152]	*[270]	*[270]	*[270]	wh\_2[270]	wh\_question[270]	openq[270]	*[388]	female[388]	*[388]	speaker:Alina[506]	_	_	_	_	_	
+
+#Text=Leonie hat Abendessen gekocht
+164-1	3646-3652	Leonie	GWithout[28]	kochen\_set1\_2[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kochen\_set1\_2[28]	*	*	Subj	*	*	false[153]	Decl[153]	*[271]	kochen[271]	transitive[271]	*[271]	*[271]	item0[271]	57[389]	female[389]	k0vnav0sqhr0fo3b0jpuaak9s4[389]	speaker: YOU[507]	*->6-1	PropNm[6]	result	*	166-1[154_153]	
+164-2	3653-3656	hat	GWithout[28]	kochen\_set1\_2[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kochen\_set1\_2[28]	_	_	_	_	_	false[153]	Decl[153]	*[271]	kochen[271]	transitive[271]	*[271]	*[271]	item0[271]	57[389]	female[389]	k0vnav0sqhr0fo3b0jpuaak9s4[389]	speaker: YOU[507]	_	_	_	_	_	
+164-3	3657-3667	Abendessen	GWithout[28]	kochen\_set1\_2[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kochen\_set1\_2[28]	*	*	object	*	*	false[153]	Decl[153]	*[271]	kochen[271]	transitive[271]	*[271]	*[271]	item0[271]	57[389]	female[389]	k0vnav0sqhr0fo3b0jpuaak9s4[389]	speaker: YOU[507]	*->29-1	IndefNP[29]	_	_	_	
+164-4	3668-3675	gekocht	GWithout[28]	kochen\_set1\_2[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kochen\_set1\_2[28]	_	_	_	_	_	false[153]	Decl[153]	*[271]	kochen[271]	transitive[271]	*[271]	*[271]	item0[271]	57[389]	female[389]	k0vnav0sqhr0fo3b0jpuaak9s4[389]	speaker: YOU[507]	_	_	_	_	_	
+
+#Text=-
+165-1	3677-3678	-	GWithout[28]	kochen\_set1\_2[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kochen\_set1\_2[28]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Alina	_	_	_	_	_	
+
+#Text=Hast Du Lust vorbeizukommen?
+166-1	3680-3684	Hast	GWithout[28]	kochen\_set1\_2[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kochen\_set1\_2[28]	_	_	_	_	_	false[154]	Int[154]	*[272]	*[272]	*[272]	*[272]	*[272]	input1[272]	57[390]	female[390]	k0vnav0sqhr0fo3b0jpuaak9s4[390]	speaker: YOU[508]	_	_	elaboration	*	167-1[155_154]	
+166-2	3685-3687	Du	GWithout[28]	kochen\_set1\_2[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kochen\_set1\_2[28]	2	*	Subj	*	singular	false[154]	Int[154]	*[272]	*[272]	*[272]	*[272]	*[272]	input1[272]	57[390]	female[390]	k0vnav0sqhr0fo3b0jpuaak9s4[390]	speaker: YOU[508]	*->66-1	PerPron[66]	_	_	_	
+166-3	3688-3692	Lust	GWithout[28]	kochen\_set1\_2[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kochen\_set1\_2[28]	_	_	_	_	_	false[154]	Int[154]	*[272]	*[272]	*[272]	*[272]	*[272]	input1[272]	57[390]	female[390]	k0vnav0sqhr0fo3b0jpuaak9s4[390]	speaker: YOU[508]	_	_	_	_	_	
+166-4	3693-3708	vorbeizukommen?	GWithout[28]	kochen\_set1\_2[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kochen\_set1\_2[28]	_	_	_	_	_	false[154]	Int[154]	*[272]	*[272]	*[272]	*[272]	*[272]	input1[272]	57[390]	female[390]	k0vnav0sqhr0fo3b0jpuaak9s4[390]	speaker: YOU[508]	_	_	_	_	_	
+
+#Text=Bist gerne eingeladen.
+167-1	3710-3714	Bist	GWithout[28]	kochen\_set1\_2[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kochen\_set1\_2[28]	2	*	*	*	singular	false[155]	Decl[155]	*[273]	*[273]	*[273]	*[273]	*[273]	input2[273]	57[391]	female[391]	k0vnav0sqhr0fo3b0jpuaak9s4[391]	speaker: YOU[509]	*->66-2	zero[66]	_	_	_	
+167-2	3715-3720	gerne	GWithout[28]	kochen\_set1\_2[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kochen\_set1\_2[28]	_	_	_	_	_	false[155]	Decl[155]	*[273]	*[273]	*[273]	*[273]	*[273]	input2[273]	57[391]	female[391]	k0vnav0sqhr0fo3b0jpuaak9s4[391]	speaker: YOU[509]	_	_	_	_	_	
+167-3	3721-3732	eingeladen.	GWithout[28]	kochen\_set1\_2[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kochen\_set1\_2[28]	_	_	_	_	_	false[155]	Decl[155]	*[273]	*[273]	*[273]	*[273]	*[273]	input2[273]	57[391]	female[391]	k0vnav0sqhr0fo3b0jpuaak9s4[391]	speaker: YOU[509]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+168-1	3734-3749	END_OF_DOCUMENT	GWithout[28]	kochen\_set1\_2[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-kochen\_set1\_2[28]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+169-1	3751-3757	Hallo,	GWithout[29]	kochen\_set1\_2[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-kochen\_set1\_2[29]	_	_	_	_	_	false[156]	Int[156]	*[274]	*[274]	*[274]	wh\_2[274]	wh\_question[274]	openq[274]	*[392]	female[392]	*[392]	speaker:Alina[510]	_	_	QAP	*	170-1[157_156]	
+169-2	3758-3761	wie	GWithout[29]	kochen\_set1\_2[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-kochen\_set1\_2[29]	_	_	_	_	_	false[156]	Int[156]	*[274]	*[274]	*[274]	wh\_2[274]	wh\_question[274]	openq[274]	*[392]	female[392]	*[392]	speaker:Alina[510]	_	_	_	_	_	
+169-3	3762-3769	geht's?	GWithout[29]	kochen\_set1\_2[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-kochen\_set1\_2[29]	_	_	_	_	_	false[156]	Int[156]	*[274]	*[274]	*[274]	wh\_2[274]	wh\_question[274]	openq[274]	*[392]	female[392]	*[392]	speaker:Alina[510]	_	_	_	_	_	
+
+#Text=Leonie hat Abendessen gekocht
+170-1	3771-3777	Leonie	GWithout[29]	kochen\_set1\_2[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-kochen\_set1\_2[29]	*	*	Subj	*	*	false[157]	Decl[157]	*[275]	kochen[275]	transitive[275]	*[275]	*[275]	item0[275]	26[393]	female[393]	qjdpg51abd5auurj3bduisfb43[393]	speaker: YOU[511]	*->76-1	PropNm[76]	elaboration	*	172-1[158_157]	
+170-2	3778-3781	hat	GWithout[29]	kochen\_set1\_2[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-kochen\_set1\_2[29]	_	_	_	_	_	false[157]	Decl[157]	*[275]	kochen[275]	transitive[275]	*[275]	*[275]	item0[275]	26[393]	female[393]	qjdpg51abd5auurj3bduisfb43[393]	speaker: YOU[511]	_	_	_	_	_	
+170-3	3782-3792	Abendessen	GWithout[29]	kochen\_set1\_2[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-kochen\_set1\_2[29]	*	*	object	*	*	false[157]	Decl[157]	*[275]	kochen[275]	transitive[275]	*[275]	*[275]	item0[275]	26[393]	female[393]	qjdpg51abd5auurj3bduisfb43[393]	speaker: YOU[511]	*->44-1	IndefNP[44]	_	_	_	
+170-4	3793-3800	gekocht	GWithout[29]	kochen\_set1\_2[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-kochen\_set1\_2[29]	_	_	_	_	_	false[157]	Decl[157]	*[275]	kochen[275]	transitive[275]	*[275]	*[275]	item0[275]	26[393]	female[393]	qjdpg51abd5auurj3bduisfb43[393]	speaker: YOU[511]	_	_	_	_	_	
+
+#Text=-
+171-1	3802-3803	-	GWithout[29]	kochen\_set1\_2[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-kochen\_set1\_2[29]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Alina	_	_	_	_	_	
+
+#Text=Es gab Schnitzel.
+172-1	3805-3807	Es	GWithout[29]	kochen\_set1\_2[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-kochen\_set1\_2[29]	*	*	Subj	*	*	false[158]	Decl[158]	*[276]	*[276]	*[276]	*[276]	*[276]	input1[276]	26[394]	female[394]	qjdpg51abd5auurj3bduisfb43[394]	speaker: YOU[512]	_	_	elaboration	*	173-1[159_158]	
+172-2	3808-3811	gab	GWithout[29]	kochen\_set1\_2[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-kochen\_set1\_2[29]	_	_	_	_	_	false[158]	Decl[158]	*[276]	*[276]	*[276]	*[276]	*[276]	input1[276]	26[394]	female[394]	qjdpg51abd5auurj3bduisfb43[394]	speaker: YOU[512]	_	_	_	_	_	
+172-3	3812-3822	Schnitzel.	GWithout[29]	kochen\_set1\_2[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-kochen\_set1\_2[29]	*	*	DirObj	*	*	false[158]	Decl[158]	*[276]	*[276]	*[276]	*[276]	*[276]	input1[276]	26[394]	female[394]	qjdpg51abd5auurj3bduisfb43[394]	speaker: YOU[512]	*->2-1	IndefNP[2]	_	_	_	
+
+#Text=Also veganes Schnitzel.
+173-1	3824-3828	Also	GWithout[29]	kochen\_set1\_2[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-kochen\_set1\_2[29]	_	_	_	_	_	false[159]	NA[159]	*[277]	*[277]	*[277]	*[277]	*[277]	input2[277]	26[395]	female[395]	qjdpg51abd5auurj3bduisfb43[395]	speaker: YOU[513]	_	_	_	_	_	
+173-2	3829-3836	veganes	GWithout[29]	kochen\_set1\_2[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-kochen\_set1\_2[29]	*[41]	*[41]	DirObj[41]	*[41]	*[41]	false[159]	NA[159]	*[277]	*[277]	*[277]	*[277]	*[277]	input2[277]	26[395]	female[395]	qjdpg51abd5auurj3bduisfb43[395]	speaker: YOU[513]	*->2-2	IndefNP[2]	_	_	_	
+173-3	3837-3847	Schnitzel.	GWithout[29]	kochen\_set1\_2[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-kochen\_set1\_2[29]	*[41]	*[41]	DirObj[41]	*[41]	*[41]	false[159]	NA[159]	*[277]	*[277]	*[277]	*[277]	*[277]	input2[277]	26[395]	female[395]	qjdpg51abd5auurj3bduisfb43[395]	speaker: YOU[513]	*->2-2	IndefNP[2]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+174-1	3849-3864	END_OF_DOCUMENT	GWithout[29]	kochen\_set1\_2[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-kochen\_set1\_2[29]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+175-1	3866-3872	Hallo,	GWithout[30]	kochen\_set1\_2[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-kochen\_set1\_2[30]	_	_	_	_	_	false[160]	Int[160]	*[278]	*[278]	*[278]	wh\_2[278]	wh\_question[278]	openq[278]	*[396]	female[396]	*[396]	speaker:Alina[514]	_	_	QAP	*	176-1[161_160]	
+175-2	3873-3876	wie	GWithout[30]	kochen\_set1\_2[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-kochen\_set1\_2[30]	_	_	_	_	_	false[160]	Int[160]	*[278]	*[278]	*[278]	wh\_2[278]	wh\_question[278]	openq[278]	*[396]	female[396]	*[396]	speaker:Alina[514]	_	_	_	_	_	
+175-3	3877-3884	geht's?	GWithout[30]	kochen\_set1\_2[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-kochen\_set1\_2[30]	_	_	_	_	_	false[160]	Int[160]	*[278]	*[278]	*[278]	wh\_2[278]	wh\_question[278]	openq[278]	*[396]	female[396]	*[396]	speaker:Alina[514]	_	_	_	_	_	
+
+#Text=Leonie hat Abendessen gekocht
+176-1	3886-3892	Leonie	GWithout[30]	kochen\_set1\_2[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-kochen\_set1\_2[30]	*	*	Subj	*	*	false[161]	Decl[161]	*[279]	kochen[279]	transitive[279]	*[279]	*[279]	item0[279]	72[397]	male[397]	rhiec6c6hfje484c5bsbj040l0[397]	speaker: YOU[515]	*->75-1	PropNm[75]	correction	*	178-1[162_161]	
+176-2	3893-3896	hat	GWithout[30]	kochen\_set1\_2[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-kochen\_set1\_2[30]	_	_	_	_	_	false[161]	Decl[161]	*[279]	kochen[279]	transitive[279]	*[279]	*[279]	item0[279]	72[397]	male[397]	rhiec6c6hfje484c5bsbj040l0[397]	speaker: YOU[515]	_	_	_	_	_	
+176-3	3897-3907	Abendessen	GWithout[30]	kochen\_set1\_2[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-kochen\_set1\_2[30]	*	*	object	*	*	false[161]	Decl[161]	*[279]	kochen[279]	transitive[279]	*[279]	*[279]	item0[279]	72[397]	male[397]	rhiec6c6hfje484c5bsbj040l0[397]	speaker: YOU[515]	*->12-1	IndefNP[12]	_	_	_	
+176-4	3908-3915	gekocht	GWithout[30]	kochen\_set1\_2[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-kochen\_set1\_2[30]	_	_	_	_	_	false[161]	Decl[161]	*[279]	kochen[279]	transitive[279]	*[279]	*[279]	item0[279]	72[397]	male[397]	rhiec6c6hfje484c5bsbj040l0[397]	speaker: YOU[515]	_	_	_	_	_	
+
+#Text=-
+177-1	3917-3918	-	GWithout[30]	kochen\_set1\_2[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-kochen\_set1\_2[30]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Alina	_	_	_	_	_	
+
+#Text=Oder sagen wir versucht....
+178-1	3920-3924	Oder	GWithout[30]	kochen\_set1\_2[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-kochen\_set1\_2[30]	_	_	_	_	_	false[162]	Decl[162]	*[280]	*[280]	*[280]	*[280]	*[280]	input1[280]	72[398]	male[398]	rhiec6c6hfje484c5bsbj040l0[398]	speaker: YOU[516]	_	_	_	_	_	
+178-2	3925-3930	sagen	GWithout[30]	kochen\_set1\_2[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-kochen\_set1\_2[30]	_	_	_	_	_	false[162]	Decl[162]	*[280]	*[280]	*[280]	*[280]	*[280]	input1[280]	72[398]	male[398]	rhiec6c6hfje484c5bsbj040l0[398]	speaker: YOU[516]	_	_	_	_	_	
+178-3	3931-3934	wir	GWithout[30]	kochen\_set1\_2[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-kochen\_set1\_2[30]	1	*	Subj	*	plural	false[162]	Decl[162]	*[280]	*[280]	*[280]	*[280]	*[280]	input1[280]	72[398]	male[398]	rhiec6c6hfje484c5bsbj040l0[398]	speaker: YOU[516]	*->81-1	PerPron[81]	_	_	_	
+178-4	3935-3947	versucht....	GWithout[30]	kochen\_set1\_2[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-kochen\_set1\_2[30]	_	_	_	_	_	false[162]	Decl[162]	*[280]	*[280]	*[280]	*[280]	*[280]	input1[280]	72[398]	male[398]	rhiec6c6hfje484c5bsbj040l0[398]	speaker: YOU[516]	_	_	_	_	_	
+
+#Text=Hilfe--- Sie schlägt mich !
+179-1	3949-3957	Hilfe---	GWithout[30]	kochen\_set1\_2[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-kochen\_set1\_2[30]	_	_	_	_	_	false	Imp	*[281]	*[281]	*[281]	*[281]	*[281]	input2[281]	72[399]	male[399]	rhiec6c6hfje484c5bsbj040l0[399]	speaker: YOU[517]	_	_	explanation	*	179-2[163_0]	
+179-2	3958-3961	Sie	GWithout[30]	kochen\_set1\_2[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-kochen\_set1\_2[30]	3	*	Subj	*	singular	false[163]	Decl[163]	*[281]	*[281]	*[281]	*[281]	*[281]	input2[281]	72[399]	male[399]	rhiec6c6hfje484c5bsbj040l0[399]	speaker: YOU[517]	*->75-2	PerPron[75]	_	_	_	
+179-3	3962-3969	schlägt	GWithout[30]	kochen\_set1\_2[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-kochen\_set1\_2[30]	_	_	_	_	_	false[163]	Decl[163]	*[281]	*[281]	*[281]	*[281]	*[281]	input2[281]	72[399]	male[399]	rhiec6c6hfje484c5bsbj040l0[399]	speaker: YOU[517]	_	_	_	_	_	
+179-4	3970-3974	mich	GWithout[30]	kochen\_set1\_2[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-kochen\_set1\_2[30]	1	*	IndirObj	*	singular	false[163]	Decl[163]	*[281]	*[281]	*[281]	*[281]	*[281]	input2[281]	72[399]	male[399]	rhiec6c6hfje484c5bsbj040l0[399]	speaker: YOU[517]	*->60-1	PerPron[60]	_	_	_	
+179-5	3975-3976	!	GWithout[30]	kochen\_set1\_2[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-kochen\_set1\_2[30]	_	_	_	_	_	false[163]	Decl[163]	*[281]	*[281]	*[281]	*[281]	*[281]	input2[281]	72[399]	male[399]	rhiec6c6hfje484c5bsbj040l0[399]	speaker: YOU[517]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+180-1	3978-3993	END_OF_DOCUMENT	GWithout[30]	kochen\_set1\_2[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-kochen\_set1\_2[30]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	

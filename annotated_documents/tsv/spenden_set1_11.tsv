@@ -1,0 +1,948 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Item_info|condition|item_id|latinsqr_list|unique_id
+#T_SP=webanno.custom.Ref_info|PersonalPronouns_detailed|ref_def|ref_function|ref_gender|ref_num
+#T_SP=webanno.custom.Segment|complex|segment_type
+#T_SP=webanno.custom.Sent_layer|feedback_id|item0_verb|item0_verbtype|openq_id|openq_type|sent_type
+#T_SP=webanno.custom.Speaker_meta|age|gender|speaker_id
+#T_SP=webanno.custom.Speaker_name|speaker_name
+#T_CH=de.tudarmstadt.ukp.dkpro.core.api.coref.type.CoreferenceLink|referenceRelation|referenceType
+#T_RL=webanno.custom.Relations|discourse_rel|speechAct_rel|BT_webanno.custom.Segment
+
+
+#Text=Na?
+1-1	0-3	Na?	GFailure[1]	spenden\_set1\_11[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-spenden\_set1\_11[1]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	male	*	speaker:Tony	_	_	QAP	*	2-1[42_0]	
+
+#Text=Clara hat Blut gespendet
+2-1	5-10	Clara	GFailure[1]	spenden\_set1\_11[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-spenden\_set1\_11[1]	*	*	Subj	*	*	false[42]	Decl[42]	*[135]	spenden[135]	transitive[135]	*[135]	*[135]	item0[135]	35[224]	female[224]	2k56uavscuainedj0q9i1sb693[224]	speaker: YOU[313]	*->105-1	PropNm[105]	elaboration|CR	*|*	4-1[43_42]|3-1[0_42]	
+2-2	11-14	hat	GFailure[1]	spenden\_set1\_11[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-spenden\_set1\_11[1]	_	_	_	_	_	false[42]	Decl[42]	*[135]	spenden[135]	transitive[135]	*[135]	*[135]	item0[135]	35[224]	female[224]	2k56uavscuainedj0q9i1sb693[224]	speaker: YOU[313]	_	_	_	_	_	
+2-3	15-19	Blut	GFailure[1]	spenden\_set1\_11[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-spenden\_set1\_11[1]	*	*	object	*	*	false[42]	Decl[42]	*[135]	spenden[135]	transitive[135]	*[135]	*[135]	item0[135]	35[224]	female[224]	2k56uavscuainedj0q9i1sb693[224]	speaker: YOU[313]	*->18-1	IndefNP[18]	_	_	_	
+2-4	20-29	gespendet	GFailure[1]	spenden\_set1\_11[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-spenden\_set1\_11[1]	_	_	_	_	_	false[42]	Decl[42]	*[135]	spenden[135]	transitive[135]	*[135]	*[135]	item0[135]	35[224]	female[224]	2k56uavscuainedj0q9i1sb693[224]	speaker: YOU[313]	_	_	_	_	_	
+
+#Text=Was?
+3-1	31-35	Was?	GFailure[1]	spenden\_set1\_11[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-spenden\_set1\_11[1]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	male	*	speaker:Tony	_	_	_	_	_	
+
+#Text=Sie war bei der Blutspende.
+4-1	37-40	Sie	GFailure[1]	spenden\_set1\_11[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-spenden\_set1\_11[1]	3	*	Subj	*	singular	false[43]	Decl[43]	*[136]	*[136]	*[136]	*[136]	*[136]	input1[136]	35[225]	female[225]	2k56uavscuainedj0q9i1sb693[225]	speaker: YOU[314]	*->105-2	PerPron[105]	elaboration	*	5-1[44_43]	
+4-2	41-44	war	GFailure[1]	spenden\_set1\_11[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-spenden\_set1\_11[1]	_	_	_	_	_	false[43]	Decl[43]	*[136]	*[136]	*[136]	*[136]	*[136]	input1[136]	35[225]	female[225]	2k56uavscuainedj0q9i1sb693[225]	speaker: YOU[314]	_	_	_	_	_	
+4-3	45-48	bei	GFailure[1]	spenden\_set1\_11[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-spenden\_set1\_11[1]	_	_	_	_	_	false[43]	Decl[43]	*[136]	*[136]	*[136]	*[136]	*[136]	input1[136]	35[225]	female[225]	2k56uavscuainedj0q9i1sb693[225]	speaker: YOU[314]	_	_	_	_	_	
+4-4	49-52	der	GFailure[1]	spenden\_set1\_11[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-spenden\_set1\_11[1]	*[31]	*[31]	PrepObj[31]	*[31]	*[31]	false[43]	Decl[43]	*[136]	*[136]	*[136]	*[136]	*[136]	input1[136]	35[225]	female[225]	2k56uavscuainedj0q9i1sb693[225]	speaker: YOU[314]	*->119-1	DefNP[119]	_	_	_	
+4-5	53-64	Blutspende.	GFailure[1]	spenden\_set1\_11[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-spenden\_set1\_11[1]	*[31]	*[31]	PrepObj[31]	*[31]	*[31]	false[43]	Decl[43]	*[136]	*[136]	*[136]	*[136]	*[136]	input1[136]	35[225]	female[225]	2k56uavscuainedj0q9i1sb693[225]	speaker: YOU[314]	*->119-1	DefNP[119]	_	_	_	
+
+#Text=Hier im Krankenhaus um die Ecke.
+5-1	66-70	Hier	GFailure[1]	spenden\_set1\_11[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-spenden\_set1\_11[1]	_	_	_	_	_	false[44]	NA[44]	*[137]	*[137]	*[137]	*[137]	*[137]	input2[137]	35[226]	female[226]	2k56uavscuainedj0q9i1sb693[226]	speaker: YOU[315]	_	_	_	_	_	
+5-2	71-73	im	GFailure[1]	spenden\_set1\_11[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-spenden\_set1\_11[1]	*[32]	*[32]	PrepObj[32]	*[32]	*[32]	false[44]	NA[44]	*[137]	*[137]	*[137]	*[137]	*[137]	input2[137]	35[226]	female[226]	2k56uavscuainedj0q9i1sb693[226]	speaker: YOU[315]	*->29-1	DefNP[29]	_	_	_	
+5-3	74-85	Krankenhaus	GFailure[1]	spenden\_set1\_11[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-spenden\_set1\_11[1]	*[32]	*[32]	PrepObj[32]	*[32]	*[32]	false[44]	NA[44]	*[137]	*[137]	*[137]	*[137]	*[137]	input2[137]	35[226]	female[226]	2k56uavscuainedj0q9i1sb693[226]	speaker: YOU[315]	*->29-1	DefNP[29]	_	_	_	
+5-4	86-88	um	GFailure[1]	spenden\_set1\_11[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-spenden\_set1\_11[1]	_	_	_	_	_	false[44]	NA[44]	*[137]	*[137]	*[137]	*[137]	*[137]	input2[137]	35[226]	female[226]	2k56uavscuainedj0q9i1sb693[226]	speaker: YOU[315]	_	_	_	_	_	
+5-5	89-92	die	GFailure[1]	spenden\_set1\_11[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-spenden\_set1\_11[1]	*[33]	*[33]	PrepObj[33]	*[33]	*[33]	false[44]	NA[44]	*[137]	*[137]	*[137]	*[137]	*[137]	input2[137]	35[226]	female[226]	2k56uavscuainedj0q9i1sb693[226]	speaker: YOU[315]	*->35-1	DefNP[35]	_	_	_	
+5-6	93-98	Ecke.	GFailure[1]	spenden\_set1\_11[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-spenden\_set1\_11[1]	*[33]	*[33]	PrepObj[33]	*[33]	*[33]	false[44]	NA[44]	*[137]	*[137]	*[137]	*[137]	*[137]	input2[137]	35[226]	female[226]	2k56uavscuainedj0q9i1sb693[226]	speaker: YOU[315]	*->35-1	DefNP[35]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+6-1	100-115	END_OF_DOCUMENT	GFailure[1]	spenden\_set1\_11[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-spenden\_set1\_11[1]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+7-1	117-120	Na?	GFailure[2]	spenden\_set1\_11[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-spenden\_set1\_11[2]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	male	*	speaker:Tony	_	_	QAP	*	8-1[45_0]	
+
+#Text=Clara hat Blut gespendet
+8-1	122-127	Clara	GFailure[2]	spenden\_set1\_11[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-spenden\_set1\_11[2]	*	*	Subj	*	*	false[45]	Decl[45]	*[138]	spenden[138]	transitive[138]	*[138]	*[138]	item0[138]	46[227]	male[227]	7bq5ecc5fndmatjvd44havavdp[227]	speaker: YOU[316]	*->90-1	PropNm[90]	elaboration|CR	*|*	10-1[46_45]|9-1[0_45]	
+8-2	128-131	hat	GFailure[2]	spenden\_set1\_11[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-spenden\_set1\_11[2]	_	_	_	_	_	false[45]	Decl[45]	*[138]	spenden[138]	transitive[138]	*[138]	*[138]	item0[138]	46[227]	male[227]	7bq5ecc5fndmatjvd44havavdp[227]	speaker: YOU[316]	_	_	_	_	_	
+8-3	132-136	Blut	GFailure[2]	spenden\_set1\_11[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-spenden\_set1\_11[2]	*	*	object	*	*	false[45]	Decl[45]	*[138]	spenden[138]	transitive[138]	*[138]	*[138]	item0[138]	46[227]	male[227]	7bq5ecc5fndmatjvd44havavdp[227]	speaker: YOU[316]	*->53-1	IndefNP[53]	_	_	_	
+8-4	137-146	gespendet	GFailure[2]	spenden\_set1\_11[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-spenden\_set1\_11[2]	_	_	_	_	_	false[45]	Decl[45]	*[138]	spenden[138]	transitive[138]	*[138]	*[138]	item0[138]	46[227]	male[227]	7bq5ecc5fndmatjvd44havavdp[227]	speaker: YOU[316]	_	_	_	_	_	
+
+#Text=Was?
+9-1	148-152	Was?	GFailure[2]	spenden\_set1\_11[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-spenden\_set1\_11[2]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	male	*	speaker:Tony	_	_	_	_	_	
+
+#Text=bekam eine Einladung
+10-1	154-159	bekam	GFailure[2]	spenden\_set1\_11[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-spenden\_set1\_11[2]	3	*	*	*	singular	true[46]|false[47]	*[46]|Decl[47]	*[139]	*[139]	*[139]	*[139]	*[139]	input1[139]	46[228]	male[228]	7bq5ecc5fndmatjvd44havavdp[228]	speaker: YOU[317]	*->90-2	zero[90]	result	*	11-1[48_47]	
+10-2	160-164	eine	GFailure[2]	spenden\_set1\_11[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-spenden\_set1\_11[2]	*[34]	*[34]	DirObj[34]	*[34]	*[34]	true[46]|false[47]	*[46]|Decl[47]	*[139]	*[139]	*[139]	*[139]	*[139]	input1[139]	46[228]	male[228]	7bq5ecc5fndmatjvd44havavdp[228]	speaker: YOU[317]	*->118-1	IndefNP[118]	_	_	_	
+10-3	165-174	Einladung	GFailure[2]	spenden\_set1\_11[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-spenden\_set1\_11[2]	*[34]	*[34]	DirObj[34]	*[34]	*[34]	true[46]|false[47]	*[46]|Decl[47]	*[139]	*[139]	*[139]	*[139]	*[139]	input1[139]	46[228]	male[228]	7bq5ecc5fndmatjvd44havavdp[228]	speaker: YOU[317]	*->118-1	IndefNP[118]	_	_	_	
+
+#Text=und hat gestern Blut gespendet
+11-1	176-179	und	GFailure[2]	spenden\_set1\_11[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-spenden\_set1\_11[2]	_	_	_	_	_	true[46]|false[48]	*[46]|Decl[48]	*[140]	*[140]	*[140]	*[140]	*[140]	input2[140]	46[229]	male[229]	7bq5ecc5fndmatjvd44havavdp[229]	speaker: YOU[318]	_	_	_	_	_	
+11-2	180-183	hat	GFailure[2]	spenden\_set1\_11[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-spenden\_set1\_11[2]	3	*	*	*	singular	true[46]|false[48]	*[46]|Decl[48]	*[140]	*[140]	*[140]	*[140]	*[140]	input2[140]	46[229]	male[229]	7bq5ecc5fndmatjvd44havavdp[229]	speaker: YOU[318]	*->90-3	zero[90]	_	_	_	
+11-3	184-191	gestern	GFailure[2]	spenden\_set1\_11[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-spenden\_set1\_11[2]	_	_	_	_	_	true[46]|false[48]	*[46]|Decl[48]	*[140]	*[140]	*[140]	*[140]	*[140]	input2[140]	46[229]	male[229]	7bq5ecc5fndmatjvd44havavdp[229]	speaker: YOU[318]	_	_	_	_	_	
+11-4	192-196	Blut	GFailure[2]	spenden\_set1\_11[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-spenden\_set1\_11[2]	*	*	DirObj	*	*	true[46]|false[48]	*[46]|Decl[48]	*[140]	*[140]	*[140]	*[140]	*[140]	input2[140]	46[229]	male[229]	7bq5ecc5fndmatjvd44havavdp[229]	speaker: YOU[318]	*->53-2	IndefNP[53]	_	_	_	
+11-5	197-206	gespendet	GFailure[2]	spenden\_set1\_11[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-spenden\_set1\_11[2]	_	_	_	_	_	true[46]|false[48]	*[46]|Decl[48]	*[140]	*[140]	*[140]	*[140]	*[140]	input2[140]	46[229]	male[229]	7bq5ecc5fndmatjvd44havavdp[229]	speaker: YOU[318]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+12-1	208-223	END_OF_DOCUMENT	GFailure[2]	spenden\_set1\_11[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-spenden\_set1\_11[2]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+13-1	225-228	Na?	GFailure[3]	spenden\_set1\_11[3]	latin1[3]	9bb79dhfhst017575orahklqol-spenden\_set1\_11[3]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	male	*	speaker:Tony	_	_	QAP	*	14-1[49_0]	
+
+#Text=Clara hat Blut gespendet
+14-1	230-235	Clara	GFailure[3]	spenden\_set1\_11[3]	latin1[3]	9bb79dhfhst017575orahklqol-spenden\_set1\_11[3]	*	*	Subj	*	*	false[49]	Decl[49]	*[141]	spenden[141]	transitive[141]	*[141]	*[141]	item0[141]	37[230]	female[230]	9bb79dhfhst017575orahklqol[230]	speaker: YOU[319]	*->62-1|*->86-1	clause[62]|PropNm[86]	elaboration|parallel|CR	*|*|*	16-1[50_49]|17-1[51_49]|15-1[0_49]	
+14-2	236-239	hat	GFailure[3]	spenden\_set1\_11[3]	latin1[3]	9bb79dhfhst017575orahklqol-spenden\_set1\_11[3]	_	_	_	_	_	false[49]	Decl[49]	*[141]	spenden[141]	transitive[141]	*[141]	*[141]	item0[141]	37[230]	female[230]	9bb79dhfhst017575orahklqol[230]	speaker: YOU[319]	*->62-1	clause[62]	_	_	_	
+14-3	240-244	Blut	GFailure[3]	spenden\_set1\_11[3]	latin1[3]	9bb79dhfhst017575orahklqol-spenden\_set1\_11[3]	*	*	object	*	*	false[49]	Decl[49]	*[141]	spenden[141]	transitive[141]	*[141]	*[141]	item0[141]	37[230]	female[230]	9bb79dhfhst017575orahklqol[230]	speaker: YOU[319]	*->62-1|*->115-1	clause[62]|IndefNP[115]	_	_	_	
+14-4	245-254	gespendet	GFailure[3]	spenden\_set1\_11[3]	latin1[3]	9bb79dhfhst017575orahklqol-spenden\_set1\_11[3]	_	_	_	_	_	false[49]	Decl[49]	*[141]	spenden[141]	transitive[141]	*[141]	*[141]	item0[141]	37[230]	female[230]	9bb79dhfhst017575orahklqol[230]	speaker: YOU[319]	*->62-1	clause[62]	_	_	_	
+
+#Text=Was?
+15-1	256-260	Was?	GFailure[3]	spenden\_set1\_11[3]	latin1[3]	9bb79dhfhst017575orahklqol-spenden\_set1\_11[3]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	male	*	speaker:Tony	_	_	_	_	_	
+
+#Text=war das erste mal
+16-1	262-265	war	GFailure[3]	spenden\_set1\_11[3]	latin1[3]	9bb79dhfhst017575orahklqol-spenden\_set1\_11[3]	3	*	*	*	singular	false[50]	Decl[50]	*[142]	*[142]	*[142]	*[142]	*[142]	input1[142]	37[231]	female[231]	9bb79dhfhst017575orahklqol[231]	speaker: YOU[320]	*->62-2	zero[62]	_	_	_	
+16-2	266-269	das	GFailure[3]	spenden\_set1\_11[3]	latin1[3]	9bb79dhfhst017575orahklqol-spenden\_set1\_11[3]	*	*	DirObj	*	*	false[50]	Decl[50]	*[142]	*[142]	*[142]	*[142]	*[142]	input1[142]	37[231]	female[231]	9bb79dhfhst017575orahklqol[231]	speaker: YOU[320]	_	_	_	_	_	
+16-3	270-275	erste	GFailure[3]	spenden\_set1\_11[3]	latin1[3]	9bb79dhfhst017575orahklqol-spenden\_set1\_11[3]	_	_	_	_	_	false[50]	Decl[50]	*[142]	*[142]	*[142]	*[142]	*[142]	input1[142]	37[231]	female[231]	9bb79dhfhst017575orahklqol[231]	speaker: YOU[320]	_	_	_	_	_	
+16-4	276-279	mal	GFailure[3]	spenden\_set1\_11[3]	latin1[3]	9bb79dhfhst017575orahklqol-spenden\_set1\_11[3]	_	_	_	_	_	false[50]	Decl[50]	*[142]	*[142]	*[142]	*[142]	*[142]	input1[142]	37[231]	female[231]	9bb79dhfhst017575orahklqol[231]	speaker: YOU[320]	_	_	_	_	_	
+
+#Text=sie will noch mal spenden gehen
+17-1	281-284	sie	GFailure[3]	spenden\_set1\_11[3]	latin1[3]	9bb79dhfhst017575orahklqol-spenden\_set1\_11[3]	3	*	Subj	*	singular	false[51]	Decl[51]	*[143]	*[143]	*[143]	*[143]	*[143]	input2[143]	37[232]	female[232]	9bb79dhfhst017575orahklqol[232]	speaker: YOU[321]	*->86-2	PerPron[86]	_	_	_	
+17-2	285-289	will	GFailure[3]	spenden\_set1\_11[3]	latin1[3]	9bb79dhfhst017575orahklqol-spenden\_set1\_11[3]	_	_	_	_	_	false[51]	Decl[51]	*[143]	*[143]	*[143]	*[143]	*[143]	input2[143]	37[232]	female[232]	9bb79dhfhst017575orahklqol[232]	speaker: YOU[321]	_	_	_	_	_	
+17-3	290-294	noch	GFailure[3]	spenden\_set1\_11[3]	latin1[3]	9bb79dhfhst017575orahklqol-spenden\_set1\_11[3]	_	_	_	_	_	false[51]	Decl[51]	*[143]	*[143]	*[143]	*[143]	*[143]	input2[143]	37[232]	female[232]	9bb79dhfhst017575orahklqol[232]	speaker: YOU[321]	_	_	_	_	_	
+17-4	295-298	mal	GFailure[3]	spenden\_set1\_11[3]	latin1[3]	9bb79dhfhst017575orahklqol-spenden\_set1\_11[3]	_	_	_	_	_	false[51]	Decl[51]	*[143]	*[143]	*[143]	*[143]	*[143]	input2[143]	37[232]	female[232]	9bb79dhfhst017575orahklqol[232]	speaker: YOU[321]	_	_	_	_	_	
+17-5	299-306	spenden	GFailure[3]	spenden\_set1\_11[3]	latin1[3]	9bb79dhfhst017575orahklqol-spenden\_set1\_11[3]	_	_	_	_	_	false[51]	Decl[51]	*[143]	*[143]	*[143]	*[143]	*[143]	input2[143]	37[232]	female[232]	9bb79dhfhst017575orahklqol[232]	speaker: YOU[321]	_	_	_	_	_	
+17-6	307-312	gehen	GFailure[3]	spenden\_set1\_11[3]	latin1[3]	9bb79dhfhst017575orahklqol-spenden\_set1\_11[3]	_	_	_	_	_	false[51]	Decl[51]	*[143]	*[143]	*[143]	*[143]	*[143]	input2[143]	37[232]	female[232]	9bb79dhfhst017575orahklqol[232]	speaker: YOU[321]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+18-1	314-329	END_OF_DOCUMENT	GFailure[3]	spenden\_set1\_11[3]	latin1[3]	9bb79dhfhst017575orahklqol-spenden\_set1\_11[3]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+19-1	331-334	Na?	GFailure[4]	spenden\_set1\_11[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-spenden\_set1\_11[4]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	male	*	speaker:Tony	_	_	QAP	*	20-1[52_0]	
+
+#Text=Clara hat Blut gespendet
+20-1	336-341	Clara	GFailure[4]	spenden\_set1\_11[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-spenden\_set1\_11[4]	*	*	Subj	*	*	false[52]	Decl[52]	*[144]	spenden[144]	transitive[144]	*[144]	*[144]	item0[144]	21[233]	male[233]	afpst3sherp4732c4se5ajftkq[233]	speaker: YOU[322]	*->2-1	PropNm[2]	elaboration|CR	*|*	22-1[0_52]|21-1[0_52]	
+20-2	342-345	hat	GFailure[4]	spenden\_set1\_11[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-spenden\_set1\_11[4]	_	_	_	_	_	false[52]	Decl[52]	*[144]	spenden[144]	transitive[144]	*[144]	*[144]	item0[144]	21[233]	male[233]	afpst3sherp4732c4se5ajftkq[233]	speaker: YOU[322]	_	_	_	_	_	
+20-3	346-350	Blut	GFailure[4]	spenden\_set1\_11[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-spenden\_set1\_11[4]	*	*	object	*	*	false[52]	Decl[52]	*[144]	spenden[144]	transitive[144]	*[144]	*[144]	item0[144]	21[233]	male[233]	afpst3sherp4732c4se5ajftkq[233]	speaker: YOU[322]	*->94-1	IndefNP[94]	_	_	_	
+20-4	351-360	gespendet	GFailure[4]	spenden\_set1\_11[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-spenden\_set1\_11[4]	_	_	_	_	_	false[52]	Decl[52]	*[144]	spenden[144]	transitive[144]	*[144]	*[144]	item0[144]	21[233]	male[233]	afpst3sherp4732c4se5ajftkq[233]	speaker: YOU[322]	_	_	_	_	_	
+
+#Text=Was?
+21-1	362-366	Was?	GFailure[4]	spenden\_set1\_11[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-spenden\_set1\_11[4]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	male	*	speaker:Tony	_	_	_	_	_	
+
+#Text=Ja <BR> Sie wollte unbedingt ihr Blut abgeben.
+22-1	368-370	Ja	GFailure[4]	spenden\_set1\_11[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-spenden\_set1\_11[4]	_	_	_	_	_	false	NA	*[145]	*[145]	*[145]	*[145]	*[145]	input1[145]	21[234]	male[234]	afpst3sherp4732c4se5ajftkq[234]	speaker: YOU[323]	_	_	explanation	*	22-3[53_0]	
+22-2	371-375	<BR>	GFailure[4]	spenden\_set1\_11[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-spenden\_set1\_11[4]	_	_	_	_	_	_	_	*[145]	*[145]	*[145]	*[145]	*[145]	input1[145]	21[234]	male[234]	afpst3sherp4732c4se5ajftkq[234]	speaker: YOU[323]	_	_	_	_	_	
+22-3	376-379	Sie	GFailure[4]	spenden\_set1\_11[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-spenden\_set1\_11[4]	3	*	Subj	*	singular	false[53]	Decl[53]	*[145]	*[145]	*[145]	*[145]	*[145]	input1[145]	21[234]	male[234]	afpst3sherp4732c4se5ajftkq[234]	speaker: YOU[323]	*->2-2	PerPron[2]	explanation	*	23-1[54_53]	
+22-4	380-386	wollte	GFailure[4]	spenden\_set1\_11[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-spenden\_set1\_11[4]	_	_	_	_	_	false[53]	Decl[53]	*[145]	*[145]	*[145]	*[145]	*[145]	input1[145]	21[234]	male[234]	afpst3sherp4732c4se5ajftkq[234]	speaker: YOU[323]	_	_	_	_	_	
+22-5	387-396	unbedingt	GFailure[4]	spenden\_set1\_11[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-spenden\_set1\_11[4]	_	_	_	_	_	false[53]	Decl[53]	*[145]	*[145]	*[145]	*[145]	*[145]	input1[145]	21[234]	male[234]	afpst3sherp4732c4se5ajftkq[234]	speaker: YOU[323]	_	_	_	_	_	
+22-6	397-400	ihr	GFailure[4]	spenden\_set1\_11[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-spenden\_set1\_11[4]	*[35]|3[36]	*[35]|*[36]	DirObj[35]|*[36]	*[35]|*[36]	*[35]|singular[36]	false[53]	Decl[53]	*[145]	*[145]	*[145]	*[145]	*[145]	input1[145]	21[234]	male[234]	afpst3sherp4732c4se5ajftkq[234]	speaker: YOU[323]	*->94-2|*->2-3	DefNP[94]|PossePron[2]	_	_	_	
+22-7	401-405	Blut	GFailure[4]	spenden\_set1\_11[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-spenden\_set1\_11[4]	*[35]	*[35]	DirObj[35]	*[35]	*[35]	false[53]	Decl[53]	*[145]	*[145]	*[145]	*[145]	*[145]	input1[145]	21[234]	male[234]	afpst3sherp4732c4se5ajftkq[234]	speaker: YOU[323]	*->94-2	DefNP[94]	_	_	_	
+22-8	406-414	abgeben.	GFailure[4]	spenden\_set1\_11[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-spenden\_set1\_11[4]	_	_	_	_	_	false[53]	Decl[53]	*[145]	*[145]	*[145]	*[145]	*[145]	input1[145]	21[234]	male[234]	afpst3sherp4732c4se5ajftkq[234]	speaker: YOU[323]	_	_	_	_	_	
+
+#Text=Sie ist ja Universalspenderin.
+23-1	416-419	Sie	GFailure[4]	spenden\_set1\_11[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-spenden\_set1\_11[4]	3	*	*	*	singular	false[54]	Decl[54]	*[146]	*[146]	*[146]	*[146]	*[146]	input2[146]	21[235]	male[235]	afpst3sherp4732c4se5ajftkq[235]	speaker: YOU[324]	*->2-4	PerPron[2]	_	_	_	
+23-2	420-423	ist	GFailure[4]	spenden\_set1\_11[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-spenden\_set1\_11[4]	_	_	_	_	_	false[54]	Decl[54]	*[146]	*[146]	*[146]	*[146]	*[146]	input2[146]	21[235]	male[235]	afpst3sherp4732c4se5ajftkq[235]	speaker: YOU[324]	_	_	_	_	_	
+23-3	424-426	ja	GFailure[4]	spenden\_set1\_11[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-spenden\_set1\_11[4]	_	_	_	_	_	false[54]	Decl[54]	*[146]	*[146]	*[146]	*[146]	*[146]	input2[146]	21[235]	male[235]	afpst3sherp4732c4se5ajftkq[235]	speaker: YOU[324]	_	_	_	_	_	
+23-4	427-446	Universalspenderin.	GFailure[4]	spenden\_set1\_11[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-spenden\_set1\_11[4]	_	_	_	_	_	false[54]	Decl[54]	*[146]	*[146]	*[146]	*[146]	*[146]	input2[146]	21[235]	male[235]	afpst3sherp4732c4se5ajftkq[235]	speaker: YOU[324]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+24-1	448-463	END_OF_DOCUMENT	GFailure[4]	spenden\_set1\_11[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-spenden\_set1\_11[4]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+25-1	465-468	Na?	GFailure[5]	spenden\_set1\_11[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-spenden\_set1\_11[5]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	male	*	speaker:Tony	_	_	QAP	*	26-1[55_0]	
+
+#Text=Clara hat Blut gespendet
+26-1	470-475	Clara	GFailure[5]	spenden\_set1\_11[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-spenden\_set1\_11[5]	*	*	Subj	*	*	false[55]	Decl[55]	*[147]	spenden[147]	transitive[147]	*[147]	*[147]	item0[147]	42[236]	female[236]	blj8i1h4sc8jti0m6gcav1c9ek[236]	speaker: YOU[325]	*->24-1	PropNm[24]	elaboration|CR	*|*	28-1[56_55]|27-1[0_55]	
+26-2	476-479	hat	GFailure[5]	spenden\_set1\_11[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-spenden\_set1\_11[5]	_	_	_	_	_	false[55]	Decl[55]	*[147]	spenden[147]	transitive[147]	*[147]	*[147]	item0[147]	42[236]	female[236]	blj8i1h4sc8jti0m6gcav1c9ek[236]	speaker: YOU[325]	_	_	_	_	_	
+26-3	480-484	Blut	GFailure[5]	spenden\_set1\_11[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-spenden\_set1\_11[5]	*	*	object	*	*	false[55]	Decl[55]	*[147]	spenden[147]	transitive[147]	*[147]	*[147]	item0[147]	42[236]	female[236]	blj8i1h4sc8jti0m6gcav1c9ek[236]	speaker: YOU[325]	*->104-1	IndefNP[104]	_	_	_	
+26-4	485-494	gespendet	GFailure[5]	spenden\_set1\_11[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-spenden\_set1\_11[5]	_	_	_	_	_	false[55]	Decl[55]	*[147]	spenden[147]	transitive[147]	*[147]	*[147]	item0[147]	42[236]	female[236]	blj8i1h4sc8jti0m6gcav1c9ek[236]	speaker: YOU[325]	_	_	_	_	_	
+
+#Text=Was?
+27-1	496-500	Was?	GFailure[5]	spenden\_set1\_11[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-spenden\_set1\_11[5]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	male	*	speaker:Tony	_	_	_	_	_	
+
+#Text=Clara war heute beim Blutspenden und ich habe sie begleitet.
+28-1	502-507	Clara	GFailure[5]	spenden\_set1\_11[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-spenden\_set1\_11[5]	*	*	Subj	*	*	false[56]	Decl[56]	*[148]	*[148]	*[148]	*[148]	*[148]	input1[148]	42[237]	female[237]	blj8i1h4sc8jti0m6gcav1c9ek[237]	speaker: YOU[326]	*->24-2	PropNm[24]	elaboration|parallel	*|*	28-6[57_56]|29-1[58_56]	
+28-2	508-511	war	GFailure[5]	spenden\_set1\_11[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-spenden\_set1\_11[5]	_	_	_	_	_	false[56]	Decl[56]	*[148]	*[148]	*[148]	*[148]	*[148]	input1[148]	42[237]	female[237]	blj8i1h4sc8jti0m6gcav1c9ek[237]	speaker: YOU[326]	_	_	_	_	_	
+28-3	512-517	heute	GFailure[5]	spenden\_set1\_11[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-spenden\_set1\_11[5]	_	_	_	_	_	false[56]	Decl[56]	*[148]	*[148]	*[148]	*[148]	*[148]	input1[148]	42[237]	female[237]	blj8i1h4sc8jti0m6gcav1c9ek[237]	speaker: YOU[326]	_	_	_	_	_	
+28-4	518-522	beim	GFailure[5]	spenden\_set1\_11[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-spenden\_set1\_11[5]	_	_	_	_	_	false[56]	Decl[56]	*[148]	*[148]	*[148]	*[148]	*[148]	input1[148]	42[237]	female[237]	blj8i1h4sc8jti0m6gcav1c9ek[237]	speaker: YOU[326]	*->32-1	DefNP[32]	_	_	_	
+28-5	523-534	Blutspenden	GFailure[5]	spenden\_set1\_11[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-spenden\_set1\_11[5]	*	*	PrepObj	*	*	false[56]	Decl[56]	*[148]	*[148]	*[148]	*[148]	*[148]	input1[148]	42[237]	female[237]	blj8i1h4sc8jti0m6gcav1c9ek[237]	speaker: YOU[326]	*->32-1	DefNP[32]	_	_	_	
+28-6	535-538	und	GFailure[5]	spenden\_set1\_11[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-spenden\_set1\_11[5]	_	_	_	_	_	false[57]	Decl[57]	*[148]	*[148]	*[148]	*[148]	*[148]	input1[148]	42[237]	female[237]	blj8i1h4sc8jti0m6gcav1c9ek[237]	speaker: YOU[326]	_	_	_	_	_	
+28-7	539-542	ich	GFailure[5]	spenden\_set1\_11[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-spenden\_set1\_11[5]	1	*	Subj	*	singular	false[57]	Decl[57]	*[148]	*[148]	*[148]	*[148]	*[148]	input1[148]	42[237]	female[237]	blj8i1h4sc8jti0m6gcav1c9ek[237]	speaker: YOU[326]	*->74-1	PerPron[74]	_	_	_	
+28-8	543-547	habe	GFailure[5]	spenden\_set1\_11[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-spenden\_set1\_11[5]	_	_	_	_	_	false[57]	Decl[57]	*[148]	*[148]	*[148]	*[148]	*[148]	input1[148]	42[237]	female[237]	blj8i1h4sc8jti0m6gcav1c9ek[237]	speaker: YOU[326]	_	_	_	_	_	
+28-9	548-551	sie	GFailure[5]	spenden\_set1\_11[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-spenden\_set1\_11[5]	3	*	DirObj	*	singular	false[57]	Decl[57]	*[148]	*[148]	*[148]	*[148]	*[148]	input1[148]	42[237]	female[237]	blj8i1h4sc8jti0m6gcav1c9ek[237]	speaker: YOU[326]	*->24-3	PerPron[24]	_	_	_	
+28-10	552-562	begleitet.	GFailure[5]	spenden\_set1\_11[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-spenden\_set1\_11[5]	_	_	_	_	_	false[57]	Decl[57]	*[148]	*[148]	*[148]	*[148]	*[148]	input1[148]	42[237]	female[237]	blj8i1h4sc8jti0m6gcav1c9ek[237]	speaker: YOU[326]	_	_	_	_	_	
+
+#Text=Hast Du schon mal Blut gespendet?
+29-1	564-568	Hast	GFailure[5]	spenden\_set1\_11[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-spenden\_set1\_11[5]	_	_	_	_	_	false[58]	Int[58]	*[149]	*[149]	*[149]	*[149]	*[149]	input2[149]	42[238]	female[238]	blj8i1h4sc8jti0m6gcav1c9ek[238]	speaker: YOU[327]	_	_	_	_	_	
+29-2	569-571	Du	GFailure[5]	spenden\_set1\_11[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-spenden\_set1\_11[5]	2	*	Subj	*	singular	false[58]	Int[58]	*[149]	*[149]	*[149]	*[149]	*[149]	input2[149]	42[238]	female[238]	blj8i1h4sc8jti0m6gcav1c9ek[238]	speaker: YOU[327]	*->43-1	PerPron[43]	_	_	_	
+29-3	572-577	schon	GFailure[5]	spenden\_set1\_11[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-spenden\_set1\_11[5]	_	_	_	_	_	false[58]	Int[58]	*[149]	*[149]	*[149]	*[149]	*[149]	input2[149]	42[238]	female[238]	blj8i1h4sc8jti0m6gcav1c9ek[238]	speaker: YOU[327]	_	_	_	_	_	
+29-4	578-581	mal	GFailure[5]	spenden\_set1\_11[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-spenden\_set1\_11[5]	_	_	_	_	_	false[58]	Int[58]	*[149]	*[149]	*[149]	*[149]	*[149]	input2[149]	42[238]	female[238]	blj8i1h4sc8jti0m6gcav1c9ek[238]	speaker: YOU[327]	_	_	_	_	_	
+29-5	582-586	Blut	GFailure[5]	spenden\_set1\_11[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-spenden\_set1\_11[5]	*	*	DirObj	*	*	false[58]	Int[58]	*[149]	*[149]	*[149]	*[149]	*[149]	input2[149]	42[238]	female[238]	blj8i1h4sc8jti0m6gcav1c9ek[238]	speaker: YOU[327]	*->39-1	IndefNP[39]	_	_	_	
+29-6	587-597	gespendet?	GFailure[5]	spenden\_set1\_11[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-spenden\_set1\_11[5]	_	_	_	_	_	false[58]	Int[58]	*[149]	*[149]	*[149]	*[149]	*[149]	input2[149]	42[238]	female[238]	blj8i1h4sc8jti0m6gcav1c9ek[238]	speaker: YOU[327]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+30-1	599-614	END_OF_DOCUMENT	GFailure[5]	spenden\_set1\_11[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-spenden\_set1\_11[5]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+31-1	616-619	Na?	GFailure[6]	spenden\_set1\_11[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-spenden\_set1\_11[6]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	male	*	speaker:Tony	_	_	QAP	*	32-1[59_0]	
+
+#Text=Clara hat Blut gespendet
+32-1	621-626	Clara	GFailure[6]	spenden\_set1\_11[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-spenden\_set1\_11[6]	*	*	Subj	*	*	false[59]	Decl[59]	*[150]	spenden[150]	transitive[150]	*[150]	*[150]	item0[150]	42[239]	female[239]	h05ingrcngdnasp07727nvoq59[239]	speaker: YOU[328]	*->127-1	PropNm[127]	elaboration|CR	*|*	34-1[0_59]|33-1[0_59]	
+32-2	627-630	hat	GFailure[6]	spenden\_set1\_11[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-spenden\_set1\_11[6]	_	_	_	_	_	false[59]	Decl[59]	*[150]	spenden[150]	transitive[150]	*[150]	*[150]	item0[150]	42[239]	female[239]	h05ingrcngdnasp07727nvoq59[239]	speaker: YOU[328]	_	_	_	_	_	
+32-3	631-635	Blut	GFailure[6]	spenden\_set1\_11[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-spenden\_set1\_11[6]	*	*	object	*	*	false[59]	Decl[59]	*[150]	spenden[150]	transitive[150]	*[150]	*[150]	item0[150]	42[239]	female[239]	h05ingrcngdnasp07727nvoq59[239]	speaker: YOU[328]	*->4-1	IndefNP[4]	_	_	_	
+32-4	636-645	gespendet	GFailure[6]	spenden\_set1\_11[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-spenden\_set1\_11[6]	_	_	_	_	_	false[59]	Decl[59]	*[150]	spenden[150]	transitive[150]	*[150]	*[150]	item0[150]	42[239]	female[239]	h05ingrcngdnasp07727nvoq59[239]	speaker: YOU[328]	_	_	_	_	_	
+
+#Text=Was?
+33-1	647-651	Was?	GFailure[6]	spenden\_set1\_11[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-spenden\_set1\_11[6]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	male	*	speaker:Tony	_	_	_	_	_	
+
+#Text=Ja <BR> sie ist jetzt auf dem sozialen Trip
+34-1	653-655	Ja	GFailure[6]	spenden\_set1\_11[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-spenden\_set1\_11[6]	_	_	_	_	_	false	NA	*[151]	*[151]	*[151]	*[151]	*[151]	input1[151]	42[240]	female[240]	h05ingrcngdnasp07727nvoq59[240]	speaker: YOU[329]	_	_	explanation	*	34-3[60_0]	
+34-2	656-660	<BR>	GFailure[6]	spenden\_set1\_11[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-spenden\_set1\_11[6]	_	_	_	_	_	_	_	*[151]	*[151]	*[151]	*[151]	*[151]	input1[151]	42[240]	female[240]	h05ingrcngdnasp07727nvoq59[240]	speaker: YOU[329]	_	_	_	_	_	
+34-3	661-664	sie	GFailure[6]	spenden\_set1\_11[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-spenden\_set1\_11[6]	3	*	Subj	*	singular	false[60]	Decl[60]	*[151]	*[151]	*[151]	*[151]	*[151]	input1[151]	42[240]	female[240]	h05ingrcngdnasp07727nvoq59[240]	speaker: YOU[329]	*->127-2	PerPron[127]	elaboration	*	35-1[61_60]	
+34-4	665-668	ist	GFailure[6]	spenden\_set1\_11[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-spenden\_set1\_11[6]	_	_	_	_	_	false[60]	Decl[60]	*[151]	*[151]	*[151]	*[151]	*[151]	input1[151]	42[240]	female[240]	h05ingrcngdnasp07727nvoq59[240]	speaker: YOU[329]	_	_	_	_	_	
+34-5	669-674	jetzt	GFailure[6]	spenden\_set1\_11[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-spenden\_set1\_11[6]	_	_	_	_	_	false[60]	Decl[60]	*[151]	*[151]	*[151]	*[151]	*[151]	input1[151]	42[240]	female[240]	h05ingrcngdnasp07727nvoq59[240]	speaker: YOU[329]	_	_	_	_	_	
+34-6	675-678	auf	GFailure[6]	spenden\_set1\_11[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-spenden\_set1\_11[6]	_	_	_	_	_	false[60]	Decl[60]	*[151]	*[151]	*[151]	*[151]	*[151]	input1[151]	42[240]	female[240]	h05ingrcngdnasp07727nvoq59[240]	speaker: YOU[329]	_	_	_	_	_	
+34-7	679-682	dem	GFailure[6]	spenden\_set1\_11[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-spenden\_set1\_11[6]	*[37]	*[37]	PrepObj[37]	*[37]	*[37]	false[60]	Decl[60]	*[151]	*[151]	*[151]	*[151]	*[151]	input1[151]	42[240]	female[240]	h05ingrcngdnasp07727nvoq59[240]	speaker: YOU[329]	*->31-1	DefNP[31]	_	_	_	
+34-8	683-691	sozialen	GFailure[6]	spenden\_set1\_11[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-spenden\_set1\_11[6]	*[37]	*[37]	PrepObj[37]	*[37]	*[37]	false[60]	Decl[60]	*[151]	*[151]	*[151]	*[151]	*[151]	input1[151]	42[240]	female[240]	h05ingrcngdnasp07727nvoq59[240]	speaker: YOU[329]	*->31-1	DefNP[31]	_	_	_	
+34-9	692-696	Trip	GFailure[6]	spenden\_set1\_11[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-spenden\_set1\_11[6]	*[37]	*[37]	PrepObj[37]	*[37]	*[37]	false[60]	Decl[60]	*[151]	*[151]	*[151]	*[151]	*[151]	input1[151]	42[240]	female[240]	h05ingrcngdnasp07727nvoq59[240]	speaker: YOU[329]	*->31-1	DefNP[31]	_	_	_	
+
+#Text=Anderen helfen und so
+35-1	698-705	Anderen	GFailure[6]	spenden\_set1\_11[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-spenden\_set1\_11[6]	_	_	_	_	_	false[61]	NA[61]	*[152]	*[152]	*[152]	*[152]	*[152]	input2[152]	42[241]	female[241]	h05ingrcngdnasp07727nvoq59[241]	speaker: YOU[330]	*->78-1	IndefNP[78]	_	_	_	
+35-2	706-712	helfen	GFailure[6]	spenden\_set1\_11[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-spenden\_set1\_11[6]	_	_	_	_	_	false[61]	NA[61]	*[152]	*[152]	*[152]	*[152]	*[152]	input2[152]	42[241]	female[241]	h05ingrcngdnasp07727nvoq59[241]	speaker: YOU[330]	_	_	_	_	_	
+35-3	713-716	und	GFailure[6]	spenden\_set1\_11[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-spenden\_set1\_11[6]	_	_	_	_	_	false[61]	NA[61]	*[152]	*[152]	*[152]	*[152]	*[152]	input2[152]	42[241]	female[241]	h05ingrcngdnasp07727nvoq59[241]	speaker: YOU[330]	_	_	_	_	_	
+35-4	717-719	so	GFailure[6]	spenden\_set1\_11[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-spenden\_set1\_11[6]	_	_	_	_	_	false[61]	NA[61]	*[152]	*[152]	*[152]	*[152]	*[152]	input2[152]	42[241]	female[241]	h05ingrcngdnasp07727nvoq59[241]	speaker: YOU[330]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+36-1	721-736	END_OF_DOCUMENT	GFailure[6]	spenden\_set1\_11[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-spenden\_set1\_11[6]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+37-1	738-741	Na?	GFailure[7]	spenden\_set1\_11[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-spenden\_set1\_11[7]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	male	*	speaker:Tony	_	_	QAP	*	38-1[62_0]	
+
+#Text=Clara hat Blut gespendet
+38-1	743-748	Clara	GFailure[7]	spenden\_set1\_11[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-spenden\_set1\_11[7]	*	*	Subj	*	*	false[62]	Decl[62]	*[153]	spenden[153]	transitive[153]	*[153]	*[153]	item0[153]	42[242]	male[242]	jkqc35grurqg6r29efakrmibd9[242]	speaker: YOU[331]	*->92-1	PropNm[92]	CR	*	39-1[0_62]	
+38-2	749-752	hat	GFailure[7]	spenden\_set1\_11[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-spenden\_set1\_11[7]	_	_	_	_	_	false[62]	Decl[62]	*[153]	spenden[153]	transitive[153]	*[153]	*[153]	item0[153]	42[242]	male[242]	jkqc35grurqg6r29efakrmibd9[242]	speaker: YOU[331]	*->45-1	clause[45]	_	_	_	
+38-3	753-757	Blut	GFailure[7]	spenden\_set1\_11[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-spenden\_set1\_11[7]	*	*	object	*	*	false[62]	Decl[62]	*[153]	spenden[153]	transitive[153]	*[153]	*[153]	item0[153]	42[242]	male[242]	jkqc35grurqg6r29efakrmibd9[242]	speaker: YOU[331]	*->45-1|*->3-1	clause[45]|IndefNP[3]	_	_	_	
+38-4	758-767	gespendet	GFailure[7]	spenden\_set1\_11[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-spenden\_set1\_11[7]	_	_	_	_	_	false[62]	Decl[62]	*[153]	spenden[153]	transitive[153]	*[153]	*[153]	item0[153]	42[242]	male[242]	jkqc35grurqg6r29efakrmibd9[242]	speaker: YOU[331]	*->45-1	clause[45]	_	_	_	
+
+#Text=Was?
+39-1	769-773	Was?	GFailure[7]	spenden\_set1\_11[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-spenden\_set1\_11[7]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	male	*	speaker:Tony	_	_	acknowledgement|parallel	*|*	40-1|41-1[63_0]	
+
+#Text=Ja <BR> gell?
+40-1	775-777	Ja	GFailure[7]	spenden\_set1\_11[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-spenden\_set1\_11[7]	_	_	_	_	_	false	NA	*[154]	*[154]	*[154]	*[154]	*[154]	input1[154]	42[243]	male[243]	jkqc35grurqg6r29efakrmibd9[243]	speaker: YOU[332]	_	_	acknowledgement	*	40-3	
+40-2	778-782	<BR>	GFailure[7]	spenden\_set1\_11[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-spenden\_set1\_11[7]	_	_	_	_	_	_	_	*[154]	*[154]	*[154]	*[154]	*[154]	input1[154]	42[243]	male[243]	jkqc35grurqg6r29efakrmibd9[243]	speaker: YOU[332]	_	_	_	_	_	
+40-3	783-788	gell?	GFailure[7]	spenden\_set1\_11[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-spenden\_set1\_11[7]	_	_	_	_	_	false	NA	*[154]	*[154]	*[154]	*[154]	*[154]	input1[154]	42[243]	male[243]	jkqc35grurqg6r29efakrmibd9[243]	speaker: YOU[332]	_	_	_	_	_	
+
+#Text=Hätte ich ihr auch nicht zugetraut
+41-1	790-795	Hätte	GFailure[7]	spenden\_set1\_11[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-spenden\_set1\_11[7]	3	*	*	*	singular	false[63]	Decl[63]	*[155]	*[155]	*[155]	*[155]	*[155]	input2[155]	42[244]	male[244]	jkqc35grurqg6r29efakrmibd9[244]	speaker: YOU[333]	*->45-2	zero[45]	_	_	_	
+41-2	796-799	ich	GFailure[7]	spenden\_set1\_11[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-spenden\_set1\_11[7]	1	*	Subj	*	singular	false[63]	Decl[63]	*[155]	*[155]	*[155]	*[155]	*[155]	input2[155]	42[244]	male[244]	jkqc35grurqg6r29efakrmibd9[244]	speaker: YOU[333]	*->91-1	PerPron[91]	_	_	_	
+41-3	800-803	ihr	GFailure[7]	spenden\_set1\_11[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-spenden\_set1\_11[7]	3	*	IndirObj	*	singular	false[63]	Decl[63]	*[155]	*[155]	*[155]	*[155]	*[155]	input2[155]	42[244]	male[244]	jkqc35grurqg6r29efakrmibd9[244]	speaker: YOU[333]	*->92-2	PerPron[92]	_	_	_	
+41-4	804-808	auch	GFailure[7]	spenden\_set1\_11[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-spenden\_set1\_11[7]	_	_	_	_	_	false[63]	Decl[63]	*[155]	*[155]	*[155]	*[155]	*[155]	input2[155]	42[244]	male[244]	jkqc35grurqg6r29efakrmibd9[244]	speaker: YOU[333]	_	_	_	_	_	
+41-5	809-814	nicht	GFailure[7]	spenden\_set1\_11[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-spenden\_set1\_11[7]	_	_	_	_	_	false[63]	Decl[63]	*[155]	*[155]	*[155]	*[155]	*[155]	input2[155]	42[244]	male[244]	jkqc35grurqg6r29efakrmibd9[244]	speaker: YOU[333]	_	_	_	_	_	
+41-6	815-824	zugetraut	GFailure[7]	spenden\_set1\_11[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-spenden\_set1\_11[7]	_	_	_	_	_	false[63]	Decl[63]	*[155]	*[155]	*[155]	*[155]	*[155]	input2[155]	42[244]	male[244]	jkqc35grurqg6r29efakrmibd9[244]	speaker: YOU[333]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+42-1	826-841	END_OF_DOCUMENT	GFailure[7]	spenden\_set1\_11[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-spenden\_set1\_11[7]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+43-1	843-846	Na?	GFailure[8]	spenden\_set1\_11[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-spenden\_set1\_11[8]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	male	*	speaker:Tony	_	_	QAP	*	44-1[64_0]	
+
+#Text=Clara hat Blut gespendet
+44-1	848-853	Clara	GFailure[8]	spenden\_set1\_11[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-spenden\_set1\_11[8]	*	*	Subj	*	*	false[64]	Decl[64]	*[156]	spenden[156]	transitive[156]	*[156]	*[156]	item0[156]	20[245]	male[245]	lhu26mh95feeqso1qtacqboi3v[245]	speaker: YOU[334]	*->11-1	PropNm[11]	CR	*	45-1[0_64]	
+44-2	854-857	hat	GFailure[8]	spenden\_set1\_11[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-spenden\_set1\_11[8]	_	_	_	_	_	false[64]	Decl[64]	*[156]	spenden[156]	transitive[156]	*[156]	*[156]	item0[156]	20[245]	male[245]	lhu26mh95feeqso1qtacqboi3v[245]	speaker: YOU[334]	_	_	_	_	_	
+44-3	858-862	Blut	GFailure[8]	spenden\_set1\_11[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-spenden\_set1\_11[8]	*	*	object	*	*	false[64]	Decl[64]	*[156]	spenden[156]	transitive[156]	*[156]	*[156]	item0[156]	20[245]	male[245]	lhu26mh95feeqso1qtacqboi3v[245]	speaker: YOU[334]	*->101-1	IndefNP[101]	_	_	_	
+44-4	863-872	gespendet	GFailure[8]	spenden\_set1\_11[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-spenden\_set1\_11[8]	_	_	_	_	_	false[64]	Decl[64]	*[156]	spenden[156]	transitive[156]	*[156]	*[156]	item0[156]	20[245]	male[245]	lhu26mh95feeqso1qtacqboi3v[245]	speaker: YOU[334]	_	_	_	_	_	
+
+#Text=Was?
+45-1	874-878	Was?	GFailure[8]	spenden\_set1\_11[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-spenden\_set1\_11[8]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	male	*	speaker:Tony	_	_	acknowledgement|parallel	*|*	46-1|46-3[65_0]	
+
+#Text=Ja <BR> ich war auch überrascht.
+46-1	880-882	Ja	GFailure[8]	spenden\_set1\_11[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-spenden\_set1\_11[8]	_	_	_	_	_	false	NA	*[157]	*[157]	*[157]	*[157]	*[157]	input1[157]	20[246]	male[246]	lhu26mh95feeqso1qtacqboi3v[246]	speaker: YOU[335]	_	_	_	_	_	
+46-2	883-887	<BR>	GFailure[8]	spenden\_set1\_11[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-spenden\_set1\_11[8]	_	_	_	_	_	_	_	*[157]	*[157]	*[157]	*[157]	*[157]	input1[157]	20[246]	male[246]	lhu26mh95feeqso1qtacqboi3v[246]	speaker: YOU[335]	_	_	_	_	_	
+46-3	888-891	ich	GFailure[8]	spenden\_set1\_11[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-spenden\_set1\_11[8]	1	*	Subj	*	singular	false[65]	Decl[65]	*[157]	*[157]	*[157]	*[157]	*[157]	input1[157]	20[246]	male[246]	lhu26mh95feeqso1qtacqboi3v[246]	speaker: YOU[335]	*->68-1	PerPron[68]	explanation	*	47-1[66_65]	
+46-4	892-895	war	GFailure[8]	spenden\_set1\_11[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-spenden\_set1\_11[8]	_	_	_	_	_	false[65]	Decl[65]	*[157]	*[157]	*[157]	*[157]	*[157]	input1[157]	20[246]	male[246]	lhu26mh95feeqso1qtacqboi3v[246]	speaker: YOU[335]	_	_	_	_	_	
+46-5	896-900	auch	GFailure[8]	spenden\_set1\_11[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-spenden\_set1\_11[8]	_	_	_	_	_	false[65]	Decl[65]	*[157]	*[157]	*[157]	*[157]	*[157]	input1[157]	20[246]	male[246]	lhu26mh95feeqso1qtacqboi3v[246]	speaker: YOU[335]	_	_	_	_	_	
+46-6	901-912	überrascht.	GFailure[8]	spenden\_set1\_11[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-spenden\_set1\_11[8]	_	_	_	_	_	false[65]	Decl[65]	*[157]	*[157]	*[157]	*[157]	*[157]	input1[157]	20[246]	male[246]	lhu26mh95feeqso1qtacqboi3v[246]	speaker: YOU[335]	_	_	_	_	_	
+
+#Text=Sie hat ihre Angst vor Blut echt überwunden.
+47-1	914-917	Sie	GFailure[8]	spenden\_set1\_11[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-spenden\_set1\_11[8]	3	*	Subj	*	singular	false[66]	Decl[66]	*[158]	*[158]	*[158]	*[158]	*[158]	input2[158]	20[247]	male[247]	lhu26mh95feeqso1qtacqboi3v[247]	speaker: YOU[336]	*->11-2	PerPron[11]	_	_	_	
+47-2	918-921	hat	GFailure[8]	spenden\_set1\_11[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-spenden\_set1\_11[8]	_	_	_	_	_	false[66]	Decl[66]	*[158]	*[158]	*[158]	*[158]	*[158]	input2[158]	20[247]	male[247]	lhu26mh95feeqso1qtacqboi3v[247]	speaker: YOU[336]	_	_	_	_	_	
+47-3	922-926	ihre	GFailure[8]	spenden\_set1\_11[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-spenden\_set1\_11[8]	*[38]|3[39]	*[38]|*[39]	DirObj[38]|*[39]	*[38]|*[39]	*[38]|singular[39]	false[66]	Decl[66]	*[158]	*[158]	*[158]	*[158]	*[158]	input2[158]	20[247]	male[247]	lhu26mh95feeqso1qtacqboi3v[247]	speaker: YOU[336]	*->5-1|*->11-3	DefNP[5]|PossePron[11]	_	_	_	
+47-4	927-932	Angst	GFailure[8]	spenden\_set1\_11[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-spenden\_set1\_11[8]	*[38]	*[38]	DirObj[38]	*[38]	*[38]	false[66]	Decl[66]	*[158]	*[158]	*[158]	*[158]	*[158]	input2[158]	20[247]	male[247]	lhu26mh95feeqso1qtacqboi3v[247]	speaker: YOU[336]	*->5-1	DefNP[5]	_	_	_	
+47-5	933-936	vor	GFailure[8]	spenden\_set1\_11[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-spenden\_set1\_11[8]	_	_	_	_	_	false[66]	Decl[66]	*[158]	*[158]	*[158]	*[158]	*[158]	input2[158]	20[247]	male[247]	lhu26mh95feeqso1qtacqboi3v[247]	speaker: YOU[336]	*->5-1	DefNP[5]	_	_	_	
+47-6	937-941	Blut	GFailure[8]	spenden\_set1\_11[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-spenden\_set1\_11[8]	*	*	Subj	*	*	false[66]	Decl[66]	*[158]	*[158]	*[158]	*[158]	*[158]	input2[158]	20[247]	male[247]	lhu26mh95feeqso1qtacqboi3v[247]	speaker: YOU[336]	*->5-1|*->23-1	DefNP[5]|IndefNP[23]	_	_	_	
+47-7	942-946	echt	GFailure[8]	spenden\_set1\_11[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-spenden\_set1\_11[8]	_	_	_	_	_	false[66]	Decl[66]	*[158]	*[158]	*[158]	*[158]	*[158]	input2[158]	20[247]	male[247]	lhu26mh95feeqso1qtacqboi3v[247]	speaker: YOU[336]	_	_	_	_	_	
+47-8	947-958	überwunden.	GFailure[8]	spenden\_set1\_11[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-spenden\_set1\_11[8]	_	_	_	_	_	false[66]	Decl[66]	*[158]	*[158]	*[158]	*[158]	*[158]	input2[158]	20[247]	male[247]	lhu26mh95feeqso1qtacqboi3v[247]	speaker: YOU[336]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+48-1	960-975	END_OF_DOCUMENT	GFailure[8]	spenden\_set1\_11[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-spenden\_set1\_11[8]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+49-1	977-980	Na?	GFailure[9]	spenden\_set1\_11[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-spenden\_set1\_11[9]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	male	*	speaker:Tony	_	_	QAP	*	50-1[67_0]	
+
+#Text=Clara hat Blut gespendet
+50-1	982-987	Clara	GFailure[9]	spenden\_set1\_11[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-spenden\_set1\_11[9]	*	*	Subj	*	*	false[67]	Decl[67]	*[159]	spenden[159]	transitive[159]	*[159]	*[159]	item0[159]	21[248]	male[248]	tc4i3rsgsa9bl8tesf4679lok2[248]	speaker: YOU[337]	*->14-1	PropNm[14]	explanation|CR	*|*	52-1[68_67]|51-1[0_67]	
+50-2	988-991	hat	GFailure[9]	spenden\_set1\_11[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-spenden\_set1\_11[9]	_	_	_	_	_	false[67]	Decl[67]	*[159]	spenden[159]	transitive[159]	*[159]	*[159]	item0[159]	21[248]	male[248]	tc4i3rsgsa9bl8tesf4679lok2[248]	speaker: YOU[337]	*->107-1	clause[107]	_	_	_	
+50-3	992-996	Blut	GFailure[9]	spenden\_set1\_11[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-spenden\_set1\_11[9]	*	*	object	*	*	false[67]	Decl[67]	*[159]	spenden[159]	transitive[159]	*[159]	*[159]	item0[159]	21[248]	male[248]	tc4i3rsgsa9bl8tesf4679lok2[248]	speaker: YOU[337]	*->107-1|*->38-1	clause[107]|IndefNP[38]	_	_	_	
+50-4	997-1006	gespendet	GFailure[9]	spenden\_set1\_11[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-spenden\_set1\_11[9]	_	_	_	_	_	false[67]	Decl[67]	*[159]	spenden[159]	transitive[159]	*[159]	*[159]	item0[159]	21[248]	male[248]	tc4i3rsgsa9bl8tesf4679lok2[248]	speaker: YOU[337]	*->107-1	clause[107]	_	_	_	
+
+#Text=Was?
+51-1	1008-1012	Was?	GFailure[9]	spenden\_set1\_11[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-spenden\_set1\_11[9]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	male	*	speaker:Tony	_	_	_	_	_	
+
+#Text=Sie hat irgendwo Werbung dafür gesehen
+52-1	1014-1017	Sie	GFailure[9]	spenden\_set1\_11[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-spenden\_set1\_11[9]	3	*	Subj	*	singular	false[68]	Decl[68]	*[160]	*[160]	*[160]	*[160]	*[160]	input1[160]	21[249]	male[249]	tc4i3rsgsa9bl8tesf4679lok2[249]	speaker: YOU[338]	*->14-2	PerPron[14]	result	*	53-1[69_68]	
+52-2	1018-1021	hat	GFailure[9]	spenden\_set1\_11[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-spenden\_set1\_11[9]	_	_	_	_	_	false[68]	Decl[68]	*[160]	*[160]	*[160]	*[160]	*[160]	input1[160]	21[249]	male[249]	tc4i3rsgsa9bl8tesf4679lok2[249]	speaker: YOU[338]	_	_	_	_	_	
+52-3	1022-1030	irgendwo	GFailure[9]	spenden\_set1\_11[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-spenden\_set1\_11[9]	_	_	_	_	_	false[68]	Decl[68]	*[160]	*[160]	*[160]	*[160]	*[160]	input1[160]	21[249]	male[249]	tc4i3rsgsa9bl8tesf4679lok2[249]	speaker: YOU[338]	_	_	_	_	_	
+52-4	1031-1038	Werbung	GFailure[9]	spenden\_set1\_11[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-spenden\_set1\_11[9]	*	*	DirObj	*	*	false[68]	Decl[68]	*[160]	*[160]	*[160]	*[160]	*[160]	input1[160]	21[249]	male[249]	tc4i3rsgsa9bl8tesf4679lok2[249]	speaker: YOU[338]	*->37-1	IndefNP[37]	_	_	_	
+52-5	1039-1044	dafür	GFailure[9]	spenden\_set1\_11[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-spenden\_set1\_11[9]	*	*	IndirObj	*	*	false[68]	Decl[68]	*[160]	*[160]	*[160]	*[160]	*[160]	input1[160]	21[249]	male[249]	tc4i3rsgsa9bl8tesf4679lok2[249]	speaker: YOU[338]	*->37-1|*->107-2	IndefNP[37]|D-Pron[107]	_	_	_	
+52-6	1045-1052	gesehen	GFailure[9]	spenden\_set1\_11[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-spenden\_set1\_11[9]	_	_	_	_	_	false[68]	Decl[68]	*[160]	*[160]	*[160]	*[160]	*[160]	input1[160]	21[249]	male[249]	tc4i3rsgsa9bl8tesf4679lok2[249]	speaker: YOU[338]	_	_	_	_	_	
+
+#Text=Und meinte dann das ist eine gute Sache das macht sie
+53-1	1054-1057	Und	GFailure[9]	spenden\_set1\_11[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-spenden\_set1\_11[9]	_	_	_	_	_	false[69]	Decl[69]	*[161]	*[161]	*[161]	*[161]	*[161]	input2[161]	21[250]	male[250]	tc4i3rsgsa9bl8tesf4679lok2[250]	speaker: YOU[339]	_	_	result	*	53-9[70_69]	
+53-2	1058-1064	meinte	GFailure[9]	spenden\_set1\_11[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-spenden\_set1\_11[9]	3	*	*	*	singular	false[69]	Decl[69]	*[161]	*[161]	*[161]	*[161]	*[161]	input2[161]	21[250]	male[250]	tc4i3rsgsa9bl8tesf4679lok2[250]	speaker: YOU[339]	*->14-3	zero[14]	_	_	_	
+53-3	1065-1069	dann	GFailure[9]	spenden\_set1\_11[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-spenden\_set1\_11[9]	_	_	_	_	_	false[69]	Decl[69]	*[161]	*[161]	*[161]	*[161]	*[161]	input2[161]	21[250]	male[250]	tc4i3rsgsa9bl8tesf4679lok2[250]	speaker: YOU[339]	_	_	_	_	_	
+53-4	1070-1073	das	GFailure[9]	spenden\_set1\_11[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-spenden\_set1\_11[9]	*	*	Subj	*	*	false[69]	Decl[69]	*[161]	*[161]	*[161]	*[161]	*[161]	input2[161]	21[250]	male[250]	tc4i3rsgsa9bl8tesf4679lok2[250]	speaker: YOU[339]	*->107-3	D-Pron[107]	_	_	_	
+53-5	1074-1077	ist	GFailure[9]	spenden\_set1\_11[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-spenden\_set1\_11[9]	_	_	_	_	_	false[69]	Decl[69]	*[161]	*[161]	*[161]	*[161]	*[161]	input2[161]	21[250]	male[250]	tc4i3rsgsa9bl8tesf4679lok2[250]	speaker: YOU[339]	_	_	_	_	_	
+53-6	1078-1082	eine	GFailure[9]	spenden\_set1\_11[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-spenden\_set1\_11[9]	*[40]	*[40]	DirObj[40]	*[40]	*[40]	false[69]	Decl[69]	*[161]	*[161]	*[161]	*[161]	*[161]	input2[161]	21[250]	male[250]	tc4i3rsgsa9bl8tesf4679lok2[250]	speaker: YOU[339]	_	_	_	_	_	
+53-7	1083-1087	gute	GFailure[9]	spenden\_set1\_11[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-spenden\_set1\_11[9]	*[40]	*[40]	DirObj[40]	*[40]	*[40]	false[69]	Decl[69]	*[161]	*[161]	*[161]	*[161]	*[161]	input2[161]	21[250]	male[250]	tc4i3rsgsa9bl8tesf4679lok2[250]	speaker: YOU[339]	_	_	_	_	_	
+53-8	1088-1093	Sache	GFailure[9]	spenden\_set1\_11[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-spenden\_set1\_11[9]	*[40]	*[40]	DirObj[40]	*[40]	*[40]	false[69]	Decl[69]	*[161]	*[161]	*[161]	*[161]	*[161]	input2[161]	21[250]	male[250]	tc4i3rsgsa9bl8tesf4679lok2[250]	speaker: YOU[339]	_	_	_	_	_	
+53-9	1094-1097	das	GFailure[9]	spenden\_set1\_11[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-spenden\_set1\_11[9]	*	*	DirObj	*	*	false[70]	Decl[70]	*[161]	*[161]	*[161]	*[161]	*[161]	input2[161]	21[250]	male[250]	tc4i3rsgsa9bl8tesf4679lok2[250]	speaker: YOU[339]	*->107-4	D-Pron[107]	_	_	_	
+53-10	1098-1103	macht	GFailure[9]	spenden\_set1\_11[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-spenden\_set1\_11[9]	_	_	_	_	_	false[70]	Decl[70]	*[161]	*[161]	*[161]	*[161]	*[161]	input2[161]	21[250]	male[250]	tc4i3rsgsa9bl8tesf4679lok2[250]	speaker: YOU[339]	_	_	_	_	_	
+53-11	1104-1107	sie	GFailure[9]	spenden\_set1\_11[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-spenden\_set1\_11[9]	3	*	Subj	*	singular	false[70]	Decl[70]	*[161]	*[161]	*[161]	*[161]	*[161]	input2[161]	21[250]	male[250]	tc4i3rsgsa9bl8tesf4679lok2[250]	speaker: YOU[339]	*->14-4	PerPron[14]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+54-1	1109-1124	END_OF_DOCUMENT	GFailure[9]	spenden\_set1\_11[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-spenden\_set1\_11[9]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+55-1	1126-1129	Na?	GFailure[10]	spenden\_set1\_11[10]	latin1[10]	us0adlivem61c2bj5776kudbot-spenden\_set1\_11[10]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	male	*	speaker:Tony	_	_	QAP	*	56-1[71_0]	
+
+#Text=Clara hat Blut gespendet
+56-1	1131-1136	Clara	GFailure[10]	spenden\_set1\_11[10]	latin1[10]	us0adlivem61c2bj5776kudbot-spenden\_set1\_11[10]	*	*	Subj	*	*	false[71]	Decl[71]	*[162]	spenden[162]	transitive[162]	*[162]	*[162]	item0[162]	66[251]	male[251]	us0adlivem61c2bj5776kudbot[251]	speaker: YOU[340]	*->93-1	PropNm[93]	elaboration|elaboration|CR	*|*|*	58-1[72_71]|59-1[73_71]|57-1[0_71]	
+56-2	1137-1140	hat	GFailure[10]	spenden\_set1\_11[10]	latin1[10]	us0adlivem61c2bj5776kudbot-spenden\_set1\_11[10]	_	_	_	_	_	false[71]	Decl[71]	*[162]	spenden[162]	transitive[162]	*[162]	*[162]	item0[162]	66[251]	male[251]	us0adlivem61c2bj5776kudbot[251]	speaker: YOU[340]	*->109-1	clause[109]	_	_	_	
+56-3	1141-1145	Blut	GFailure[10]	spenden\_set1\_11[10]	latin1[10]	us0adlivem61c2bj5776kudbot-spenden\_set1\_11[10]	*	*	object	*	*	false[71]	Decl[71]	*[162]	spenden[162]	transitive[162]	*[162]	*[162]	item0[162]	66[251]	male[251]	us0adlivem61c2bj5776kudbot[251]	speaker: YOU[340]	*->109-1|*->12-1	clause[109]|IndefNP[12]	_	_	_	
+56-4	1146-1155	gespendet	GFailure[10]	spenden\_set1\_11[10]	latin1[10]	us0adlivem61c2bj5776kudbot-spenden\_set1\_11[10]	_	_	_	_	_	false[71]	Decl[71]	*[162]	spenden[162]	transitive[162]	*[162]	*[162]	item0[162]	66[251]	male[251]	us0adlivem61c2bj5776kudbot[251]	speaker: YOU[340]	*->109-1	clause[109]	_	_	_	
+
+#Text=Was?
+57-1	1157-1161	Was?	GFailure[10]	spenden\_set1\_11[10]	latin1[10]	us0adlivem61c2bj5776kudbot-spenden\_set1\_11[10]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	male	*	speaker:Tony	_	_	_	_	_	
+
+#Text=ja in der Uni Klinik
+58-1	1163-1165	ja	GFailure[10]	spenden\_set1\_11[10]	latin1[10]	us0adlivem61c2bj5776kudbot-spenden\_set1\_11[10]	_	_	_	_	_	false[72]	NA[72]	*[163]	*[163]	*[163]	*[163]	*[163]	input1[163]	66[252]	male[252]	us0adlivem61c2bj5776kudbot[252]	speaker: YOU[341]	_	_	_	_	_	
+58-2	1166-1168	in	GFailure[10]	spenden\_set1\_11[10]	latin1[10]	us0adlivem61c2bj5776kudbot-spenden\_set1\_11[10]	_	_	_	_	_	false[72]	NA[72]	*[163]	*[163]	*[163]	*[163]	*[163]	input1[163]	66[252]	male[252]	us0adlivem61c2bj5776kudbot[252]	speaker: YOU[341]	_	_	_	_	_	
+58-3	1169-1172	der	GFailure[10]	spenden\_set1\_11[10]	latin1[10]	us0adlivem61c2bj5776kudbot-spenden\_set1\_11[10]	*[41]	*[41]	PrepObj[41]	*[41]	*[41]	false[72]	NA[72]	*[163]	*[163]	*[163]	*[163]	*[163]	input1[163]	66[252]	male[252]	us0adlivem61c2bj5776kudbot[252]	speaker: YOU[341]	*->72-1	DefNP[72]	_	_	_	
+58-4	1173-1176	Uni	GFailure[10]	spenden\_set1\_11[10]	latin1[10]	us0adlivem61c2bj5776kudbot-spenden\_set1\_11[10]	*[41]	*[41]	PrepObj[41]	*[41]	*[41]	false[72]	NA[72]	*[163]	*[163]	*[163]	*[163]	*[163]	input1[163]	66[252]	male[252]	us0adlivem61c2bj5776kudbot[252]	speaker: YOU[341]	*->72-1	DefNP[72]	_	_	_	
+58-5	1177-1183	Klinik	GFailure[10]	spenden\_set1\_11[10]	latin1[10]	us0adlivem61c2bj5776kudbot-spenden\_set1\_11[10]	*[41]	*[41]	PrepObj[41]	*[41]	*[41]	false[72]	NA[72]	*[163]	*[163]	*[163]	*[163]	*[163]	input1[163]	66[252]	male[252]	us0adlivem61c2bj5776kudbot[252]	speaker: YOU[341]	*->72-1	DefNP[72]	_	_	_	
+
+#Text=das macht sie öfters
+59-1	1185-1188	das	GFailure[10]	spenden\_set1\_11[10]	latin1[10]	us0adlivem61c2bj5776kudbot-spenden\_set1\_11[10]	_	_	_	_	_	false[73]	Decl[73]	*[164]	*[164]	*[164]	*[164]	*[164]	input2[164]	66[253]	male[253]	us0adlivem61c2bj5776kudbot[253]	speaker: YOU[342]	*->109-2	D-Pron[109]	_	_	_	
+59-2	1189-1194	macht	GFailure[10]	spenden\_set1\_11[10]	latin1[10]	us0adlivem61c2bj5776kudbot-spenden\_set1\_11[10]	_	_	_	_	_	false[73]	Decl[73]	*[164]	*[164]	*[164]	*[164]	*[164]	input2[164]	66[253]	male[253]	us0adlivem61c2bj5776kudbot[253]	speaker: YOU[342]	_	_	_	_	_	
+59-3	1195-1198	sie	GFailure[10]	spenden\_set1\_11[10]	latin1[10]	us0adlivem61c2bj5776kudbot-spenden\_set1\_11[10]	3	*	*	*	singular	false[73]	Decl[73]	*[164]	*[164]	*[164]	*[164]	*[164]	input2[164]	66[253]	male[253]	us0adlivem61c2bj5776kudbot[253]	speaker: YOU[342]	*->93-2	PerPron[93]	_	_	_	
+59-4	1199-1205	öfters	GFailure[10]	spenden\_set1\_11[10]	latin1[10]	us0adlivem61c2bj5776kudbot-spenden\_set1\_11[10]	_	_	_	_	_	false[73]	Decl[73]	*[164]	*[164]	*[164]	*[164]	*[164]	input2[164]	66[253]	male[253]	us0adlivem61c2bj5776kudbot[253]	speaker: YOU[342]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+60-1	1207-1222	END_OF_DOCUMENT	GFailure[10]	spenden\_set1\_11[10]	latin1[10]	us0adlivem61c2bj5776kudbot-spenden\_set1\_11[10]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+61-1	1224-1227	Na?	GSuccess[11]	spenden\_set1\_11[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-spenden\_set1\_11[11]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	male	*	speaker:Tony	_	_	QAP	*	62-1[74_0]	
+
+#Text=Clara hat Blut gespendet
+62-1	1229-1234	Clara	GSuccess[11]	spenden\_set1\_11[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-spenden\_set1\_11[11]	_	_	_	_	_	false[74]	Decl[74]	*[165]	spenden[165]	transitive[165]	*[165]	*[165]	item0[165]	32[254]	female[254]	2em9nj6n4c2pjudl6n6hfpjc30[254]	speaker: YOU[343]	*->98-1	PropNm[98]	explanation|result|acknowledgement	*|*|*	64-1[75_74]|65-1[76_74]|63-1[0_74]	
+62-2	1235-1238	hat	GSuccess[11]	spenden\_set1\_11[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-spenden\_set1\_11[11]	_	_	_	_	_	false[74]	Decl[74]	*[165]	spenden[165]	transitive[165]	*[165]	*[165]	item0[165]	32[254]	female[254]	2em9nj6n4c2pjudl6n6hfpjc30[254]	speaker: YOU[343]	_	_	_	_	_	
+62-3	1239-1243	Blut	GSuccess[11]	spenden\_set1\_11[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-spenden\_set1\_11[11]	_	_	_	_	_	false[74]	Decl[74]	*[165]	spenden[165]	transitive[165]	*[165]	*[165]	item0[165]	32[254]	female[254]	2em9nj6n4c2pjudl6n6hfpjc30[254]	speaker: YOU[343]	*->52-1	IndefNP[52]	_	_	_	
+62-4	1244-1253	gespendet	GSuccess[11]	spenden\_set1\_11[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-spenden\_set1\_11[11]	_	_	_	_	_	false[74]	Decl[74]	*[165]	spenden[165]	transitive[165]	*[165]	*[165]	item0[165]	32[254]	female[254]	2em9nj6n4c2pjudl6n6hfpjc30[254]	speaker: YOU[343]	_	_	_	_	_	
+
+#Text=Krass!
+63-1	1255-1261	Krass!	GSuccess[11]	spenden\_set1\_11[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-spenden\_set1\_11[11]	_	_	_	_	_	false	NA	krass\_exclamation\_18	*	*	*	*	feedback	*	male	*	speaker:Tony	_	_	_	_	_	
+
+#Text=Sie brauchte das Geld.
+64-1	1263-1266	Sie	GSuccess[11]	spenden\_set1\_11[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-spenden\_set1\_11[11]	3	*	*	*	singular	false[75]	Decl[75]	*[166]	*[166]	*[166]	*[166]	*[166]	input1[166]	32[255]	female[255]	2em9nj6n4c2pjudl6n6hfpjc30[255]	speaker: YOU[344]	*->98-2	PerPron[98]	_	_	_	
+64-2	1267-1275	brauchte	GSuccess[11]	spenden\_set1\_11[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-spenden\_set1\_11[11]	_	_	_	_	_	false[75]	Decl[75]	*[166]	*[166]	*[166]	*[166]	*[166]	input1[166]	32[255]	female[255]	2em9nj6n4c2pjudl6n6hfpjc30[255]	speaker: YOU[344]	_	_	_	_	_	
+64-3	1276-1279	das	GSuccess[11]	spenden\_set1\_11[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-spenden\_set1\_11[11]	_	_	_	_	_	false[75]	Decl[75]	*[166]	*[166]	*[166]	*[166]	*[166]	input1[166]	32[255]	female[255]	2em9nj6n4c2pjudl6n6hfpjc30[255]	speaker: YOU[344]	*->30-1	DefNP[30]	_	_	_	
+64-4	1280-1285	Geld.	GSuccess[11]	spenden\_set1\_11[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-spenden\_set1\_11[11]	_	_	_	_	_	false[75]	Decl[75]	*[166]	*[166]	*[166]	*[166]	*[166]	input1[166]	32[255]	female[255]	2em9nj6n4c2pjudl6n6hfpjc30[255]	speaker: YOU[344]	*->30-1	DefNP[30]	_	_	_	
+
+#Text=Jetzt muss sie ne Weile warten bevor sie wieder spenden kann.
+65-1	1287-1292	Jetzt	GSuccess[11]	spenden\_set1\_11[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-spenden\_set1\_11[11]	_	_	_	_	_	false[76]	Decl[76]	*[167]	*[167]	*[167]	*[167]	*[167]	input2[167]	32[256]	female[256]	2em9nj6n4c2pjudl6n6hfpjc30[256]	speaker: YOU[345]	_	_	_	_	_	
+65-2	1293-1297	muss	GSuccess[11]	spenden\_set1\_11[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-spenden\_set1\_11[11]	_	_	_	_	_	false[76]	Decl[76]	*[167]	*[167]	*[167]	*[167]	*[167]	input2[167]	32[256]	female[256]	2em9nj6n4c2pjudl6n6hfpjc30[256]	speaker: YOU[345]	_	_	_	_	_	
+65-3	1298-1301	sie	GSuccess[11]	spenden\_set1\_11[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-spenden\_set1\_11[11]	3	*	*	*	singular	false[76]	Decl[76]	*[167]	*[167]	*[167]	*[167]	*[167]	input2[167]	32[256]	female[256]	2em9nj6n4c2pjudl6n6hfpjc30[256]	speaker: YOU[345]	*->98-3	PerPron[98]	_	_	_	
+65-4	1302-1304	ne	GSuccess[11]	spenden\_set1\_11[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-spenden\_set1\_11[11]	_	_	_	_	_	false[76]	Decl[76]	*[167]	*[167]	*[167]	*[167]	*[167]	input2[167]	32[256]	female[256]	2em9nj6n4c2pjudl6n6hfpjc30[256]	speaker: YOU[345]	*->28-1	IndefNP[28]	_	_	_	
+65-5	1305-1310	Weile	GSuccess[11]	spenden\_set1\_11[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-spenden\_set1\_11[11]	_	_	_	_	_	false[76]	Decl[76]	*[167]	*[167]	*[167]	*[167]	*[167]	input2[167]	32[256]	female[256]	2em9nj6n4c2pjudl6n6hfpjc30[256]	speaker: YOU[345]	*->28-1	IndefNP[28]	_	_	_	
+65-6	1311-1317	warten	GSuccess[11]	spenden\_set1\_11[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-spenden\_set1\_11[11]	_	_	_	_	_	false[76]	Decl[76]	*[167]	*[167]	*[167]	*[167]	*[167]	input2[167]	32[256]	female[256]	2em9nj6n4c2pjudl6n6hfpjc30[256]	speaker: YOU[345]	_	_	_	_	_	
+65-7	1318-1323	bevor	GSuccess[11]	spenden\_set1\_11[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-spenden\_set1\_11[11]	_	_	_	_	_	false[76]	Decl[76]	*[167]	*[167]	*[167]	*[167]	*[167]	input2[167]	32[256]	female[256]	2em9nj6n4c2pjudl6n6hfpjc30[256]	speaker: YOU[345]	_	_	_	_	_	
+65-8	1324-1327	sie	GSuccess[11]	spenden\_set1\_11[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-spenden\_set1\_11[11]	3	*	*	*	singular	false[76]	Decl[76]	*[167]	*[167]	*[167]	*[167]	*[167]	input2[167]	32[256]	female[256]	2em9nj6n4c2pjudl6n6hfpjc30[256]	speaker: YOU[345]	*->98-4	PerPron[98]	_	_	_	
+65-9	1328-1334	wieder	GSuccess[11]	spenden\_set1\_11[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-spenden\_set1\_11[11]	_	_	_	_	_	false[76]	Decl[76]	*[167]	*[167]	*[167]	*[167]	*[167]	input2[167]	32[256]	female[256]	2em9nj6n4c2pjudl6n6hfpjc30[256]	speaker: YOU[345]	_	_	_	_	_	
+65-10	1335-1342	spenden	GSuccess[11]	spenden\_set1\_11[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-spenden\_set1\_11[11]	_	_	_	_	_	false[76]	Decl[76]	*[167]	*[167]	*[167]	*[167]	*[167]	input2[167]	32[256]	female[256]	2em9nj6n4c2pjudl6n6hfpjc30[256]	speaker: YOU[345]	_	_	_	_	_	
+65-11	1343-1348	kann.	GSuccess[11]	spenden\_set1\_11[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-spenden\_set1\_11[11]	_	_	_	_	_	false[76]	Decl[76]	*[167]	*[167]	*[167]	*[167]	*[167]	input2[167]	32[256]	female[256]	2em9nj6n4c2pjudl6n6hfpjc30[256]	speaker: YOU[345]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+66-1	1350-1365	END_OF_DOCUMENT	GSuccess[11]	spenden\_set1\_11[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-spenden\_set1\_11[11]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+67-1	1367-1370	Na?	GSuccess[12]	spenden\_set1\_11[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-spenden\_set1\_11[12]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	male	*	speaker:Tony	_	_	QAP	*	68-1[77_0]	
+
+#Text=Clara hat Blut gespendet
+68-1	1372-1377	Clara	GSuccess[12]	spenden\_set1\_11[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-spenden\_set1\_11[12]	_	_	_	_	_	false[77]	Decl[77]	*[168]	spenden[168]	transitive[168]	*[168]	*[168]	item0[168]	41[257]	female[257]	2prsavjsjqbmc8hrbo9bovkues[257]	speaker: YOU[346]	*->58-1|*->42-1	clause[58]|PropNm[42]	acknowledgement	*	69-1[0_77]	
+68-2	1378-1381	hat	GSuccess[12]	spenden\_set1\_11[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-spenden\_set1\_11[12]	_	_	_	_	_	false[77]	Decl[77]	*[168]	spenden[168]	transitive[168]	*[168]	*[168]	item0[168]	41[257]	female[257]	2prsavjsjqbmc8hrbo9bovkues[257]	speaker: YOU[346]	*->58-1	clause[58]	_	_	_	
+68-3	1382-1386	Blut	GSuccess[12]	spenden\_set1\_11[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-spenden\_set1\_11[12]	_	_	_	_	_	false[77]	Decl[77]	*[168]	spenden[168]	transitive[168]	*[168]	*[168]	item0[168]	41[257]	female[257]	2prsavjsjqbmc8hrbo9bovkues[257]	speaker: YOU[346]	*->58-1|*->70-1	clause[58]|IndefNP[70]	_	_	_	
+68-4	1387-1396	gespendet	GSuccess[12]	spenden\_set1\_11[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-spenden\_set1\_11[12]	_	_	_	_	_	false[77]	Decl[77]	*[168]	spenden[168]	transitive[168]	*[168]	*[168]	item0[168]	41[257]	female[257]	2prsavjsjqbmc8hrbo9bovkues[257]	speaker: YOU[346]	*->58-1	clause[58]	_	_	_	
+
+#Text=Krass!
+69-1	1398-1404	Krass!	GSuccess[12]	spenden\_set1\_11[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-spenden\_set1\_11[12]	_	_	_	_	_	false	NA	krass\_exclamation\_18	*	*	*	*	feedback	*	male	*	speaker:Tony	_	_	parallel|acknowledgement	*|*	70-3[78_0]|70-1	
+
+#Text=Ja <BR> ich find das auch toll.
+70-1	1406-1408	Ja	GSuccess[12]	spenden\_set1\_11[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-spenden\_set1\_11[12]	_	_	_	_	_	false	NA	*[169]	*[169]	*[169]	*[169]	*[169]	input1[169]	41[258]	female[258]	2prsavjsjqbmc8hrbo9bovkues[258]	speaker: YOU[347]	_	_	_	_	_	
+70-2	1409-1413	<BR>	GSuccess[12]	spenden\_set1\_11[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-spenden\_set1\_11[12]	_	_	_	_	_	_	_	*[169]	*[169]	*[169]	*[169]	*[169]	input1[169]	41[258]	female[258]	2prsavjsjqbmc8hrbo9bovkues[258]	speaker: YOU[347]	_	_	_	_	_	
+70-3	1414-1417	ich	GSuccess[12]	spenden\_set1\_11[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-spenden\_set1\_11[12]	1	*	*	*	singular	false[78]	Decl[78]	*[169]	*[169]	*[169]	*[169]	*[169]	input1[169]	41[258]	female[258]	2prsavjsjqbmc8hrbo9bovkues[258]	speaker: YOU[347]	*->73-1	PerPron[73]	result	*	71-1[79_78]	
+70-4	1418-1422	find	GSuccess[12]	spenden\_set1\_11[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-spenden\_set1\_11[12]	_	_	_	_	_	false[78]	Decl[78]	*[169]	*[169]	*[169]	*[169]	*[169]	input1[169]	41[258]	female[258]	2prsavjsjqbmc8hrbo9bovkues[258]	speaker: YOU[347]	_	_	_	_	_	
+70-5	1423-1426	das	GSuccess[12]	spenden\_set1\_11[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-spenden\_set1\_11[12]	_	_	_	_	_	false[78]	Decl[78]	*[169]	*[169]	*[169]	*[169]	*[169]	input1[169]	41[258]	female[258]	2prsavjsjqbmc8hrbo9bovkues[258]	speaker: YOU[347]	*->58-2	D-Pron[58]	_	_	_	
+70-6	1427-1431	auch	GSuccess[12]	spenden\_set1\_11[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-spenden\_set1\_11[12]	_	_	_	_	_	false[78]	Decl[78]	*[169]	*[169]	*[169]	*[169]	*[169]	input1[169]	41[258]	female[258]	2prsavjsjqbmc8hrbo9bovkues[258]	speaker: YOU[347]	_	_	_	_	_	
+70-7	1432-1437	toll.	GSuccess[12]	spenden\_set1\_11[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-spenden\_set1\_11[12]	_	_	_	_	_	false[78]	Decl[78]	*[169]	*[169]	*[169]	*[169]	*[169]	input1[169]	41[258]	female[258]	2prsavjsjqbmc8hrbo9bovkues[258]	speaker: YOU[347]	_	_	_	_	_	
+
+#Text=Nächstes Mal gehe ich mit.
+71-1	1439-1447	Nächstes	GSuccess[12]	spenden\_set1\_11[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-spenden\_set1\_11[12]	_	_	_	_	_	false[79]	Decl[79]	*[170]	*[170]	*[170]	*[170]	*[170]	input2[170]	41[259]	female[259]	2prsavjsjqbmc8hrbo9bovkues[259]	speaker: YOU[348]	*->63-1	DefNP[63]	_	_	_	
+71-2	1448-1451	Mal	GSuccess[12]	spenden\_set1\_11[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-spenden\_set1\_11[12]	_	_	_	_	_	false[79]	Decl[79]	*[170]	*[170]	*[170]	*[170]	*[170]	input2[170]	41[259]	female[259]	2prsavjsjqbmc8hrbo9bovkues[259]	speaker: YOU[348]	*->63-1	DefNP[63]	_	_	_	
+71-3	1452-1456	gehe	GSuccess[12]	spenden\_set1\_11[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-spenden\_set1\_11[12]	_	_	_	_	_	false[79]	Decl[79]	*[170]	*[170]	*[170]	*[170]	*[170]	input2[170]	41[259]	female[259]	2prsavjsjqbmc8hrbo9bovkues[259]	speaker: YOU[348]	_	_	_	_	_	
+71-4	1457-1460	ich	GSuccess[12]	spenden\_set1\_11[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-spenden\_set1\_11[12]	1	*	*	*	singular	false[79]	Decl[79]	*[170]	*[170]	*[170]	*[170]	*[170]	input2[170]	41[259]	female[259]	2prsavjsjqbmc8hrbo9bovkues[259]	speaker: YOU[348]	*->73-2	PerPron[73]	_	_	_	
+71-5	1461-1465	mit.	GSuccess[12]	spenden\_set1\_11[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-spenden\_set1\_11[12]	_	_	_	_	_	false[79]	Decl[79]	*[170]	*[170]	*[170]	*[170]	*[170]	input2[170]	41[259]	female[259]	2prsavjsjqbmc8hrbo9bovkues[259]	speaker: YOU[348]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+72-1	1467-1482	END_OF_DOCUMENT	GSuccess[12]	spenden\_set1\_11[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-spenden\_set1\_11[12]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+73-1	1484-1487	Na?	GSuccess[13]	spenden\_set1\_11[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-spenden\_set1\_11[13]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	male	*	speaker:Tony	_	_	QAP	*	74-1[80_0]	
+
+#Text=Clara hat Blut gespendet
+74-1	1489-1494	Clara	GSuccess[13]	spenden\_set1\_11[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-spenden\_set1\_11[13]	_	_	_	_	_	false[80]	Decl[80]	*[171]	spenden[171]	transitive[171]	*[171]	*[171]	item0[171]	46[260]	male[260]	3jjtes457iqluuhfmeiub8g6qd[260]	speaker: YOU[349]	*->87-1	PropNm[87]	parallel|acknowledgement	*|*	77-1[83_80]|75-1[0_80]	
+74-2	1495-1498	hat	GSuccess[13]	spenden\_set1\_11[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-spenden\_set1\_11[13]	_	_	_	_	_	false[80]	Decl[80]	*[171]	spenden[171]	transitive[171]	*[171]	*[171]	item0[171]	46[260]	male[260]	3jjtes457iqluuhfmeiub8g6qd[260]	speaker: YOU[349]	*->49-1	clause[49]	_	_	_	
+74-3	1499-1503	Blut	GSuccess[13]	spenden\_set1\_11[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-spenden\_set1\_11[13]	_	_	_	_	_	false[80]	Decl[80]	*[171]	spenden[171]	transitive[171]	*[171]	*[171]	item0[171]	46[260]	male[260]	3jjtes457iqluuhfmeiub8g6qd[260]	speaker: YOU[349]	*->49-1|*->56-1	clause[49]|IndefNP[56]	_	_	_	
+74-4	1504-1513	gespendet	GSuccess[13]	spenden\_set1\_11[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-spenden\_set1\_11[13]	_	_	_	_	_	false[80]	Decl[80]	*[171]	spenden[171]	transitive[171]	*[171]	*[171]	item0[171]	46[260]	male[260]	3jjtes457iqluuhfmeiub8g6qd[260]	speaker: YOU[349]	*->49-1	clause[49]	_	_	_	
+
+#Text=Krass!
+75-1	1515-1521	Krass!	GSuccess[13]	spenden\_set1\_11[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-spenden\_set1\_11[13]	_	_	_	_	_	false	NA	krass\_exclamation\_18	*	*	*	*	feedback	*	male	*	speaker:Tony	_	_	elaboration|contrast	*|*	76-1[81_0]|76-3[82_0]	
+
+#Text=Findest du? Naja ich finds normal.
+76-1	1523-1530	Findest	GSuccess[13]	spenden\_set1\_11[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-spenden\_set1\_11[13]	_	_	_	_	_	false[81]	Int[81]	*[172]	*[172]	*[172]	*[172]	*[172]	input1[172]	46[261]	male[261]	3jjtes457iqluuhfmeiub8g6qd[261]	speaker: YOU[350]	_	_	_	_	_	
+76-2	1531-1534	du?	GSuccess[13]	spenden\_set1\_11[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-spenden\_set1\_11[13]	2	*	*	*	singular	false[81]	Int[81]	*[172]	*[172]	*[172]	*[172]	*[172]	input1[172]	46[261]	male[261]	3jjtes457iqluuhfmeiub8g6qd[261]	speaker: YOU[350]	*->117-1	PerPron[117]	_	_	_	
+76-3	1535-1539	Naja	GSuccess[13]	spenden\_set1\_11[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-spenden\_set1\_11[13]	_	_	_	_	_	false[82]	Decl[82]	*[172]	*[172]	*[172]	*[172]	*[172]	input1[172]	46[261]	male[261]	3jjtes457iqluuhfmeiub8g6qd[261]	speaker: YOU[350]	_	_	explanation	*	77-1[83_82]	
+76-4	1540-1543	ich	GSuccess[13]	spenden\_set1\_11[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-spenden\_set1\_11[13]	1	*	*	*	singular	false[82]	Decl[82]	*[172]	*[172]	*[172]	*[172]	*[172]	input1[172]	46[261]	male[261]	3jjtes457iqluuhfmeiub8g6qd[261]	speaker: YOU[350]	*->9-1	PerPron[9]	_	_	_	
+76-5	1544-1549	finds	GSuccess[13]	spenden\_set1\_11[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-spenden\_set1\_11[13]	3	*	*	*	singular	false[82]	Decl[82]	*[172]	*[172]	*[172]	*[172]	*[172]	input1[172]	46[261]	male[261]	3jjtes457iqluuhfmeiub8g6qd[261]	speaker: YOU[350]	*->49-2	zero[49]	_	_	_	
+76-6	1550-1557	normal.	GSuccess[13]	spenden\_set1\_11[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-spenden\_set1\_11[13]	_	_	_	_	_	false[82]	Decl[82]	*[172]	*[172]	*[172]	*[172]	*[172]	input1[172]	46[261]	male[261]	3jjtes457iqluuhfmeiub8g6qd[261]	speaker: YOU[350]	_	_	_	_	_	
+
+#Text=Hab ich auch schon ein paarmal gemacht.
+77-1	1559-1562	Hab	GSuccess[13]	spenden\_set1\_11[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-spenden\_set1\_11[13]	3	*	*	*	singular	false[83]	Decl[83]	*[173]	*[173]	*[173]	*[173]	*[173]	input2[173]	46[262]	male[262]	3jjtes457iqluuhfmeiub8g6qd[262]	speaker: YOU[351]	*->49-3	zero[49]	_	_	_	
+77-2	1563-1566	ich	GSuccess[13]	spenden\_set1\_11[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-spenden\_set1\_11[13]	1	*	*	*	singular	false[83]	Decl[83]	*[173]	*[173]	*[173]	*[173]	*[173]	input2[173]	46[262]	male[262]	3jjtes457iqluuhfmeiub8g6qd[262]	speaker: YOU[351]	*->9-2	PerPron[9]	_	_	_	
+77-3	1567-1571	auch	GSuccess[13]	spenden\_set1\_11[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-spenden\_set1\_11[13]	_	_	_	_	_	false[83]	Decl[83]	*[173]	*[173]	*[173]	*[173]	*[173]	input2[173]	46[262]	male[262]	3jjtes457iqluuhfmeiub8g6qd[262]	speaker: YOU[351]	_	_	_	_	_	
+77-4	1572-1577	schon	GSuccess[13]	spenden\_set1\_11[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-spenden\_set1\_11[13]	_	_	_	_	_	false[83]	Decl[83]	*[173]	*[173]	*[173]	*[173]	*[173]	input2[173]	46[262]	male[262]	3jjtes457iqluuhfmeiub8g6qd[262]	speaker: YOU[351]	_	_	_	_	_	
+77-5	1578-1581	ein	GSuccess[13]	spenden\_set1\_11[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-spenden\_set1\_11[13]	_	_	_	_	_	false[83]	Decl[83]	*[173]	*[173]	*[173]	*[173]	*[173]	input2[173]	46[262]	male[262]	3jjtes457iqluuhfmeiub8g6qd[262]	speaker: YOU[351]	_	_	_	_	_	
+77-6	1582-1589	paarmal	GSuccess[13]	spenden\_set1\_11[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-spenden\_set1\_11[13]	_	_	_	_	_	false[83]	Decl[83]	*[173]	*[173]	*[173]	*[173]	*[173]	input2[173]	46[262]	male[262]	3jjtes457iqluuhfmeiub8g6qd[262]	speaker: YOU[351]	_	_	_	_	_	
+77-7	1590-1598	gemacht.	GSuccess[13]	spenden\_set1\_11[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-spenden\_set1\_11[13]	_	_	_	_	_	false[83]	Decl[83]	*[173]	*[173]	*[173]	*[173]	*[173]	input2[173]	46[262]	male[262]	3jjtes457iqluuhfmeiub8g6qd[262]	speaker: YOU[351]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+78-1	1600-1615	END_OF_DOCUMENT	GSuccess[13]	spenden\_set1\_11[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-spenden\_set1\_11[13]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+79-1	1617-1620	Na?	GSuccess[14]	spenden\_set1\_11[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-spenden\_set1\_11[14]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	male	*	speaker:Tony	_	_	QAP	*	80-1[84_0]	
+
+#Text=Clara hat Blut gespendet
+80-1	1622-1627	Clara	GSuccess[14]	spenden\_set1\_11[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-spenden\_set1\_11[14]	_	_	_	_	_	false[84]	Decl[84]	*[174]	spenden[174]	transitive[174]	*[174]	*[174]	item0[174]	27[263]	female[263]	65p8m4ujg4fi983365pclnac28[263]	speaker: YOU[352]	*->41-1|*->83-1	clause[41]|PropNm[83]	elaboration|acknowledgement	*|*	83-1[86_84]|81-1[0_84]	
+80-2	1628-1631	hat	GSuccess[14]	spenden\_set1\_11[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-spenden\_set1\_11[14]	_	_	_	_	_	false[84]	Decl[84]	*[174]	spenden[174]	transitive[174]	*[174]	*[174]	item0[174]	27[263]	female[263]	65p8m4ujg4fi983365pclnac28[263]	speaker: YOU[352]	*->41-1|*->102-1	clause[41]|PerPron[102]	_	_	_	
+80-3	1632-1636	Blut	GSuccess[14]	spenden\_set1\_11[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-spenden\_set1\_11[14]	_	_	_	_	_	false[84]	Decl[84]	*[174]	spenden[174]	transitive[174]	*[174]	*[174]	item0[174]	27[263]	female[263]	65p8m4ujg4fi983365pclnac28[263]	speaker: YOU[352]	*->41-1|*->102-1|*->88-1	clause[41]|PerPron[102]|IndefNP[88]	_	_	_	
+80-4	1637-1646	gespendet	GSuccess[14]	spenden\_set1\_11[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-spenden\_set1\_11[14]	_	_	_	_	_	false[84]	Decl[84]	*[174]	spenden[174]	transitive[174]	*[174]	*[174]	item0[174]	27[263]	female[263]	65p8m4ujg4fi983365pclnac28[263]	speaker: YOU[352]	*->41-1|*->102-1	clause[41]|PerPron[102]	_	_	_	
+
+#Text=Krass!
+81-1	1648-1654	Krass!	GSuccess[14]	spenden\_set1\_11[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-spenden\_set1\_11[14]	_	_	_	_	_	false	NA	krass\_exclamation\_18	*	*	*	*	feedback	*	male	*	speaker:Tony	_	_	parallel	*	82-1[85_0]	
+
+#Text=Hätte ich auch nicht gedacht
+82-1	1656-1661	Hätte	GSuccess[14]	spenden\_set1\_11[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-spenden\_set1\_11[14]	3	*	*	*	singular	false[85]	Decl[85]	*[175]	*[175]	*[175]	*[175]	*[175]	input1[175]	27[264]	female[264]	65p8m4ujg4fi983365pclnac28[264]	speaker: YOU[353]	*->41-2	zero[41]	_	_	_	
+82-2	1662-1665	ich	GSuccess[14]	spenden\_set1\_11[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-spenden\_set1\_11[14]	1	*	*	*	singular	false[85]	Decl[85]	*[175]	*[175]	*[175]	*[175]	*[175]	input1[175]	27[264]	female[264]	65p8m4ujg4fi983365pclnac28[264]	speaker: YOU[353]	*->26-1	PerPron[26]	_	_	_	
+82-3	1666-1670	auch	GSuccess[14]	spenden\_set1\_11[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-spenden\_set1\_11[14]	_	_	_	_	_	false[85]	Decl[85]	*[175]	*[175]	*[175]	*[175]	*[175]	input1[175]	27[264]	female[264]	65p8m4ujg4fi983365pclnac28[264]	speaker: YOU[353]	_	_	_	_	_	
+82-4	1671-1676	nicht	GSuccess[14]	spenden\_set1\_11[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-spenden\_set1\_11[14]	_	_	_	_	_	false[85]	Decl[85]	*[175]	*[175]	*[175]	*[175]	*[175]	input1[175]	27[264]	female[264]	65p8m4ujg4fi983365pclnac28[264]	speaker: YOU[353]	_	_	_	_	_	
+82-5	1677-1684	gedacht	GSuccess[14]	spenden\_set1\_11[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-spenden\_set1\_11[14]	_	_	_	_	_	false[85]	Decl[85]	*[175]	*[175]	*[175]	*[175]	*[175]	input1[175]	27[264]	female[264]	65p8m4ujg4fi983365pclnac28[264]	speaker: YOU[353]	_	_	_	_	_	
+
+#Text=Aber sie hat es toll gemacht
+83-1	1686-1690	Aber	GSuccess[14]	spenden\_set1\_11[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-spenden\_set1\_11[14]	_	_	_	_	_	false[86]	Decl[86]	*[176]	*[176]	*[176]	*[176]	*[176]	input2[176]	27[265]	female[265]	65p8m4ujg4fi983365pclnac28[265]	speaker: YOU[354]	_	_	_	_	_	
+83-2	1691-1694	sie	GSuccess[14]	spenden\_set1\_11[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-spenden\_set1\_11[14]	3	*	*	*	singular	false[86]	Decl[86]	*[176]	*[176]	*[176]	*[176]	*[176]	input2[176]	27[265]	female[265]	65p8m4ujg4fi983365pclnac28[265]	speaker: YOU[354]	*->83-2	PerPron[83]	_	_	_	
+83-3	1695-1698	hat	GSuccess[14]	spenden\_set1\_11[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-spenden\_set1\_11[14]	_	_	_	_	_	false[86]	Decl[86]	*[176]	*[176]	*[176]	*[176]	*[176]	input2[176]	27[265]	female[265]	65p8m4ujg4fi983365pclnac28[265]	speaker: YOU[354]	_	_	_	_	_	
+83-4	1699-1701	es	GSuccess[14]	spenden\_set1\_11[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-spenden\_set1\_11[14]	3	*	*	*	singular	false[86]	Decl[86]	*[176]	*[176]	*[176]	*[176]	*[176]	input2[176]	27[265]	female[265]	65p8m4ujg4fi983365pclnac28[265]	speaker: YOU[354]	*->102-2	PerPron[102]	_	_	_	
+83-5	1702-1706	toll	GSuccess[14]	spenden\_set1\_11[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-spenden\_set1\_11[14]	_	_	_	_	_	false[86]	Decl[86]	*[176]	*[176]	*[176]	*[176]	*[176]	input2[176]	27[265]	female[265]	65p8m4ujg4fi983365pclnac28[265]	speaker: YOU[354]	_	_	_	_	_	
+83-6	1707-1714	gemacht	GSuccess[14]	spenden\_set1\_11[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-spenden\_set1\_11[14]	_	_	_	_	_	false[86]	Decl[86]	*[176]	*[176]	*[176]	*[176]	*[176]	input2[176]	27[265]	female[265]	65p8m4ujg4fi983365pclnac28[265]	speaker: YOU[354]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+84-1	1716-1731	END_OF_DOCUMENT	GSuccess[14]	spenden\_set1\_11[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-spenden\_set1\_11[14]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+85-1	1733-1736	Na?	GSuccess[15]	spenden\_set1\_11[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-spenden\_set1\_11[15]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	male	*	speaker:Tony	_	_	QAP	*	86-1[87_0]	
+
+#Text=Clara hat Blut gespendet
+86-1	1738-1743	Clara	GSuccess[15]	spenden\_set1\_11[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-spenden\_set1\_11[15]	_	_	_	_	_	false[87]	Decl[87]	*[177]	spenden[177]	transitive[177]	*[177]	*[177]	item0[177]	22[266]	female[266]	ad2p95q44evasm6vmbol4cikit[266]	speaker: YOU[355]	*->69-1	PropNm[69]	result|elaboration|acknowledgement	*|*|*	88-1[88_87]|89-1[89_87]|87-1[0_87]	
+86-2	1744-1747	hat	GSuccess[15]	spenden\_set1\_11[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-spenden\_set1\_11[15]	_	_	_	_	_	false[87]	Decl[87]	*[177]	spenden[177]	transitive[177]	*[177]	*[177]	item0[177]	22[266]	female[266]	ad2p95q44evasm6vmbol4cikit[266]	speaker: YOU[355]	*->124-1	PerPron[124]	_	_	_	
+86-3	1748-1752	Blut	GSuccess[15]	spenden\_set1\_11[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-spenden\_set1\_11[15]	_	_	_	_	_	false[87]	Decl[87]	*[177]	spenden[177]	transitive[177]	*[177]	*[177]	item0[177]	22[266]	female[266]	ad2p95q44evasm6vmbol4cikit[266]	speaker: YOU[355]	*->124-1|*->67-1	PerPron[124]|IndefNP[67]	_	_	_	
+86-4	1753-1762	gespendet	GSuccess[15]	spenden\_set1\_11[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-spenden\_set1\_11[15]	_	_	_	_	_	false[87]	Decl[87]	*[177]	spenden[177]	transitive[177]	*[177]	*[177]	item0[177]	22[266]	female[266]	ad2p95q44evasm6vmbol4cikit[266]	speaker: YOU[355]	*->124-1	PerPron[124]	_	_	_	
+
+#Text=Krass!
+87-1	1764-1770	Krass!	GSuccess[15]	spenden\_set1\_11[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-spenden\_set1\_11[15]	_	_	_	_	_	false	NA	krass\_exclamation\_18	*	*	*	*	feedback	*	male	*	speaker:Tony	_	_	_	_	_	
+
+#Text=Dafür bekommt Sie viel anerkennung
+88-1	1772-1777	Dafür	GSuccess[15]	spenden\_set1\_11[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-spenden\_set1\_11[15]	_	_	_	_	_	false[88]	Decl[88]	*[178]	*[178]	*[178]	*[178]	*[178]	input1[178]	22[267]	female[267]	ad2p95q44evasm6vmbol4cikit[267]	speaker: YOU[356]	*->7-1	D-Pron[7]	_	_	_	
+88-2	1778-1785	bekommt	GSuccess[15]	spenden\_set1\_11[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-spenden\_set1\_11[15]	_	_	_	_	_	false[88]	Decl[88]	*[178]	*[178]	*[178]	*[178]	*[178]	input1[178]	22[267]	female[267]	ad2p95q44evasm6vmbol4cikit[267]	speaker: YOU[356]	_	_	_	_	_	
+88-3	1786-1789	Sie	GSuccess[15]	spenden\_set1\_11[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-spenden\_set1\_11[15]	3	*	*	*	singular	false[88]	Decl[88]	*[178]	*[178]	*[178]	*[178]	*[178]	input1[178]	22[267]	female[267]	ad2p95q44evasm6vmbol4cikit[267]	speaker: YOU[356]	*->112-1	PerPron[112]	_	_	_	
+88-4	1790-1794	viel	GSuccess[15]	spenden\_set1\_11[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-spenden\_set1\_11[15]	_	_	_	_	_	false[88]	Decl[88]	*[178]	*[178]	*[178]	*[178]	*[178]	input1[178]	22[267]	female[267]	ad2p95q44evasm6vmbol4cikit[267]	speaker: YOU[356]	*->64-1	IndefNP[64]	_	_	_	
+88-5	1795-1806	anerkennung	GSuccess[15]	spenden\_set1\_11[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-spenden\_set1\_11[15]	_	_	_	_	_	false[88]	Decl[88]	*[178]	*[178]	*[178]	*[178]	*[178]	input1[178]	22[267]	female[267]	ad2p95q44evasm6vmbol4cikit[267]	speaker: YOU[356]	*->64-1	IndefNP[64]	_	_	_	
+
+#Text=Sie macht es 1 Mal im Monat
+89-1	1808-1811	Sie	GSuccess[15]	spenden\_set1\_11[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-spenden\_set1\_11[15]	3	*	*	*	singular	false[89]	Decl[89]	*[179]	*[179]	*[179]	*[179]	*[179]	input2[179]	22[268]	female[268]	ad2p95q44evasm6vmbol4cikit[268]	speaker: YOU[357]	*->112-2	PerPron[112]	_	_	_	
+89-2	1812-1817	macht	GSuccess[15]	spenden\_set1\_11[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-spenden\_set1\_11[15]	_	_	_	_	_	false[89]	Decl[89]	*[179]	*[179]	*[179]	*[179]	*[179]	input2[179]	22[268]	female[268]	ad2p95q44evasm6vmbol4cikit[268]	speaker: YOU[357]	_	_	_	_	_	
+89-3	1818-1820	es	GSuccess[15]	spenden\_set1\_11[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-spenden\_set1\_11[15]	3	*	*	*	singular	false[89]	Decl[89]	*[179]	*[179]	*[179]	*[179]	*[179]	input2[179]	22[268]	female[268]	ad2p95q44evasm6vmbol4cikit[268]	speaker: YOU[357]	*->124-2	PerPron[124]	_	_	_	
+89-4	1821-1822	1	GSuccess[15]	spenden\_set1\_11[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-spenden\_set1\_11[15]	_	_	_	_	_	false[89]	Decl[89]	*[179]	*[179]	*[179]	*[179]	*[179]	input2[179]	22[268]	female[268]	ad2p95q44evasm6vmbol4cikit[268]	speaker: YOU[357]	_	_	_	_	_	
+89-5	1823-1826	Mal	GSuccess[15]	spenden\_set1\_11[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-spenden\_set1\_11[15]	_	_	_	_	_	false[89]	Decl[89]	*[179]	*[179]	*[179]	*[179]	*[179]	input2[179]	22[268]	female[268]	ad2p95q44evasm6vmbol4cikit[268]	speaker: YOU[357]	_	_	_	_	_	
+89-6	1827-1829	im	GSuccess[15]	spenden\_set1\_11[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-spenden\_set1\_11[15]	_	_	_	_	_	false[89]	Decl[89]	*[179]	*[179]	*[179]	*[179]	*[179]	input2[179]	22[268]	female[268]	ad2p95q44evasm6vmbol4cikit[268]	speaker: YOU[357]	_	_	_	_	_	
+89-7	1830-1835	Monat	GSuccess[15]	spenden\_set1\_11[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-spenden\_set1\_11[15]	_	_	_	_	_	false[89]	Decl[89]	*[179]	*[179]	*[179]	*[179]	*[179]	input2[179]	22[268]	female[268]	ad2p95q44evasm6vmbol4cikit[268]	speaker: YOU[357]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+90-1	1837-1852	END_OF_DOCUMENT	GSuccess[15]	spenden\_set1\_11[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-spenden\_set1\_11[15]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+91-1	1854-1857	Na?	GSuccess[16]	spenden\_set1\_11[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-spenden\_set1\_11[16]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	male	*	speaker:Tony	_	_	QAP	*	92-1[90_0]	
+
+#Text=Clara hat Blut gespendet
+92-1	1859-1864	Clara	GSuccess[16]	spenden\_set1\_11[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-spenden\_set1\_11[16]	_	_	_	_	_	false[90]	Decl[90]	*[180]	spenden[180]	transitive[180]	*[180]	*[180]	item0[180]	36[269]	female[269]	aoum613lougtk5ql841j63bjo9[269]	speaker: YOU[358]	*->33-1	PropNm[33]	elaboration|acknowledgement	*|*	94-1[0_90]|93-1[0_90]	
+92-2	1865-1868	hat	GSuccess[16]	spenden\_set1\_11[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-spenden\_set1\_11[16]	_	_	_	_	_	false[90]	Decl[90]	*[180]	spenden[180]	transitive[180]	*[180]	*[180]	item0[180]	36[269]	female[269]	aoum613lougtk5ql841j63bjo9[269]	speaker: YOU[358]	*->123-1	*[123]	_	_	_	
+92-3	1869-1873	Blut	GSuccess[16]	spenden\_set1\_11[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-spenden\_set1\_11[16]	_	_	_	_	_	false[90]	Decl[90]	*[180]	spenden[180]	transitive[180]	*[180]	*[180]	item0[180]	36[269]	female[269]	aoum613lougtk5ql841j63bjo9[269]	speaker: YOU[358]	*->123-1|*->95-1	*[123]|IndefNP[95]	_	_	_	
+92-4	1874-1883	gespendet	GSuccess[16]	spenden\_set1\_11[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-spenden\_set1\_11[16]	_	_	_	_	_	false[90]	Decl[90]	*[180]	spenden[180]	transitive[180]	*[180]	*[180]	item0[180]	36[269]	female[269]	aoum613lougtk5ql841j63bjo9[269]	speaker: YOU[358]	*->123-1	*[123]	_	_	_	
+
+#Text=Krass!
+93-1	1885-1891	Krass!	GSuccess[16]	spenden\_set1\_11[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-spenden\_set1\_11[16]	_	_	_	_	_	false	NA	krass\_exclamation\_18	*	*	*	*	feedback	*	male	*	speaker:Tony	_	_	_	_	_	
+
+#Text=Mutig <BR> wo sie doch solche Angst vor Nadeln hat.
+94-1	1893-1898	Mutig	GSuccess[16]	spenden\_set1\_11[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-spenden\_set1\_11[16]	_	_	_	_	_	false	NA	*[181]	*[181]	*[181]	*[181]	*[181]	input1[181]	36[270]	female[270]	aoum613lougtk5ql841j63bjo9[270]	speaker: YOU[359]	_	_	explanation	*	94-3[91_0]	
+94-2	1899-1903	<BR>	GSuccess[16]	spenden\_set1\_11[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-spenden\_set1\_11[16]	_	_	_	_	_	_	_	*[181]	*[181]	*[181]	*[181]	*[181]	input1[181]	36[270]	female[270]	aoum613lougtk5ql841j63bjo9[270]	speaker: YOU[359]	_	_	_	_	_	
+94-3	1904-1906	wo	GSuccess[16]	spenden\_set1\_11[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-spenden\_set1\_11[16]	_	_	_	_	_	false[91]	Excl[91]	*[181]	*[181]	*[181]	*[181]	*[181]	input1[181]	36[270]	female[270]	aoum613lougtk5ql841j63bjo9[270]	speaker: YOU[359]	_	_	contrast	*	95-1[92_91]	
+94-4	1907-1910	sie	GSuccess[16]	spenden\_set1\_11[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-spenden\_set1\_11[16]	3	*	*	*	singular	false[91]	Excl[91]	*[181]	*[181]	*[181]	*[181]	*[181]	input1[181]	36[270]	female[270]	aoum613lougtk5ql841j63bjo9[270]	speaker: YOU[359]	*->33-2	PerPron[33]	_	_	_	
+94-5	1911-1915	doch	GSuccess[16]	spenden\_set1\_11[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-spenden\_set1\_11[16]	_	_	_	_	_	false[91]	Excl[91]	*[181]	*[181]	*[181]	*[181]	*[181]	input1[181]	36[270]	female[270]	aoum613lougtk5ql841j63bjo9[270]	speaker: YOU[359]	_	_	_	_	_	
+94-6	1916-1922	solche	GSuccess[16]	spenden\_set1\_11[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-spenden\_set1\_11[16]	_	_	_	_	_	false[91]	Excl[91]	*[181]	*[181]	*[181]	*[181]	*[181]	input1[181]	36[270]	female[270]	aoum613lougtk5ql841j63bjo9[270]	speaker: YOU[359]	*->75-1	DefNP[75]	_	_	_	
+94-7	1923-1928	Angst	GSuccess[16]	spenden\_set1\_11[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-spenden\_set1\_11[16]	_	_	_	_	_	false[91]	Excl[91]	*[181]	*[181]	*[181]	*[181]	*[181]	input1[181]	36[270]	female[270]	aoum613lougtk5ql841j63bjo9[270]	speaker: YOU[359]	*->75-1	DefNP[75]	_	_	_	
+94-8	1929-1932	vor	GSuccess[16]	spenden\_set1\_11[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-spenden\_set1\_11[16]	_	_	_	_	_	false[91]	Excl[91]	*[181]	*[181]	*[181]	*[181]	*[181]	input1[181]	36[270]	female[270]	aoum613lougtk5ql841j63bjo9[270]	speaker: YOU[359]	*->75-1	DefNP[75]	_	_	_	
+94-9	1933-1939	Nadeln	GSuccess[16]	spenden\_set1\_11[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-spenden\_set1\_11[16]	_	_	_	_	_	false[91]	Excl[91]	*[181]	*[181]	*[181]	*[181]	*[181]	input1[181]	36[270]	female[270]	aoum613lougtk5ql841j63bjo9[270]	speaker: YOU[359]	*->75-1|*->60-1	DefNP[75]|IndefNP[60]	_	_	_	
+94-10	1940-1944	hat.	GSuccess[16]	spenden\_set1\_11[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-spenden\_set1\_11[16]	_	_	_	_	_	false[91]	Excl[91]	*[181]	*[181]	*[181]	*[181]	*[181]	input1[181]	36[270]	female[270]	aoum613lougtk5ql841j63bjo9[270]	speaker: YOU[359]	_	_	_	_	_	
+
+#Text=Aber es war ihr sehr wichtig.
+95-1	1946-1950	Aber	GSuccess[16]	spenden\_set1\_11[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-spenden\_set1\_11[16]	_	_	_	_	_	false[92]	Decl[92]	*[182]	*[182]	*[182]	*[182]	*[182]	input2[182]	36[271]	female[271]	aoum613lougtk5ql841j63bjo9[271]	speaker: YOU[360]	_	_	_	_	_	
+95-2	1951-1953	es	GSuccess[16]	spenden\_set1\_11[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-spenden\_set1\_11[16]	3	*	*	*	singular	false[92]	Decl[92]	*[182]	*[182]	*[182]	*[182]	*[182]	input2[182]	36[271]	female[271]	aoum613lougtk5ql841j63bjo9[271]	speaker: YOU[360]	*->123-2	PerPron[123]	_	_	_	
+95-3	1954-1957	war	GSuccess[16]	spenden\_set1\_11[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-spenden\_set1\_11[16]	_	_	_	_	_	false[92]	Decl[92]	*[182]	*[182]	*[182]	*[182]	*[182]	input2[182]	36[271]	female[271]	aoum613lougtk5ql841j63bjo9[271]	speaker: YOU[360]	_	_	_	_	_	
+95-4	1958-1961	ihr	GSuccess[16]	spenden\_set1\_11[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-spenden\_set1\_11[16]	3	*	*	*	singular	false[92]	Decl[92]	*[182]	*[182]	*[182]	*[182]	*[182]	input2[182]	36[271]	female[271]	aoum613lougtk5ql841j63bjo9[271]	speaker: YOU[360]	*->33-3	PerPron[33]	_	_	_	
+95-5	1962-1966	sehr	GSuccess[16]	spenden\_set1\_11[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-spenden\_set1\_11[16]	_	_	_	_	_	false[92]	Decl[92]	*[182]	*[182]	*[182]	*[182]	*[182]	input2[182]	36[271]	female[271]	aoum613lougtk5ql841j63bjo9[271]	speaker: YOU[360]	_	_	_	_	_	
+95-6	1967-1975	wichtig.	GSuccess[16]	spenden\_set1\_11[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-spenden\_set1\_11[16]	_	_	_	_	_	false[92]	Decl[92]	*[182]	*[182]	*[182]	*[182]	*[182]	input2[182]	36[271]	female[271]	aoum613lougtk5ql841j63bjo9[271]	speaker: YOU[360]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+96-1	1977-1992	END_OF_DOCUMENT	GSuccess[16]	spenden\_set1\_11[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-spenden\_set1\_11[16]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+97-1	1994-1997	Na?	GSuccess[17]	spenden\_set1\_11[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-spenden\_set1\_11[17]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	male	*	speaker:Tony	_	_	QAP	*	98-1[93_0]	
+
+#Text=Clara hat Blut gespendet
+98-1	1999-2004	Clara	GSuccess[17]	spenden\_set1\_11[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-spenden\_set1\_11[17]	_	_	_	_	_	false[93]	Decl[93]	*[183]	spenden[183]	transitive[183]	*[183]	*[183]	item0[183]	26[272]	male[272]	c48fsj7kc4kiuorutkbb4be30b[272]	speaker: YOU[361]	*->1-1	PropNm[1]	result|acknowledgement	*|*	100-1[94_93]|99-1[0_93]	
+98-2	2005-2008	hat	GSuccess[17]	spenden\_set1\_11[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-spenden\_set1\_11[17]	_	_	_	_	_	false[93]	Decl[93]	*[183]	spenden[183]	transitive[183]	*[183]	*[183]	item0[183]	26[272]	male[272]	c48fsj7kc4kiuorutkbb4be30b[272]	speaker: YOU[361]	_	_	_	_	_	
+98-3	2009-2013	Blut	GSuccess[17]	spenden\_set1\_11[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-spenden\_set1\_11[17]	_	_	_	_	_	false[93]	Decl[93]	*[183]	spenden[183]	transitive[183]	*[183]	*[183]	item0[183]	26[272]	male[272]	c48fsj7kc4kiuorutkbb4be30b[272]	speaker: YOU[361]	*->16-1	IndefNP[16]	_	_	_	
+98-4	2014-2023	gespendet	GSuccess[17]	spenden\_set1\_11[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-spenden\_set1\_11[17]	_	_	_	_	_	false[93]	Decl[93]	*[183]	spenden[183]	transitive[183]	*[183]	*[183]	item0[183]	26[272]	male[272]	c48fsj7kc4kiuorutkbb4be30b[272]	speaker: YOU[361]	_	_	_	_	_	
+
+#Text=Krass!
+99-1	2025-2031	Krass!	GSuccess[17]	spenden\_set1\_11[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-spenden\_set1\_11[17]	_	_	_	_	_	false	NA	krass\_exclamation\_18	*	*	*	*	feedback	*	male	*	speaker:Tony	_	_	_	_	_	
+
+#Text=Vielleicht sollte ich auch mal....
+100-1	2033-2043	Vielleicht	GSuccess[17]	spenden\_set1\_11[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-spenden\_set1\_11[17]	_	_	_	_	_	false[94]	Decl[94]	*[184]	*[184]	*[184]	*[184]	*[184]	input1[184]	26[273]	male[273]	c48fsj7kc4kiuorutkbb4be30b[273]	speaker: YOU[362]	_	_	explanation	*	101-1[95_94]	
+100-2	2044-2050	sollte	GSuccess[17]	spenden\_set1\_11[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-spenden\_set1\_11[17]	_	_	_	_	_	false[94]	Decl[94]	*[184]	*[184]	*[184]	*[184]	*[184]	input1[184]	26[273]	male[273]	c48fsj7kc4kiuorutkbb4be30b[273]	speaker: YOU[362]	_	_	_	_	_	
+100-3	2051-2054	ich	GSuccess[17]	spenden\_set1\_11[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-spenden\_set1\_11[17]	1	*	*	*	singular	false[94]	Decl[94]	*[184]	*[184]	*[184]	*[184]	*[184]	input1[184]	26[273]	male[273]	c48fsj7kc4kiuorutkbb4be30b[273]	speaker: YOU[362]	*->110-1	PerPron[110]	_	_	_	
+100-4	2055-2059	auch	GSuccess[17]	spenden\_set1\_11[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-spenden\_set1\_11[17]	_	_	_	_	_	false[94]	Decl[94]	*[184]	*[184]	*[184]	*[184]	*[184]	input1[184]	26[273]	male[273]	c48fsj7kc4kiuorutkbb4be30b[273]	speaker: YOU[362]	_	_	_	_	_	
+100-5	2060-2067	mal....	GSuccess[17]	spenden\_set1\_11[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-spenden\_set1\_11[17]	_	_	_	_	_	false[94]	Decl[94]	*[184]	*[184]	*[184]	*[184]	*[184]	input1[184]	26[273]	male[273]	c48fsj7kc4kiuorutkbb4be30b[273]	speaker: YOU[362]	_	_	_	_	_	
+
+#Text=Ich habe eine recht seltene Blutgruppe.
+101-1	2069-2072	Ich	GSuccess[17]	spenden\_set1\_11[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-spenden\_set1\_11[17]	1	*	*	*	singular	false[95]	Decl[95]	*[185]	*[185]	*[185]	*[185]	*[185]	input2[185]	26[274]	male[274]	c48fsj7kc4kiuorutkbb4be30b[274]	speaker: YOU[363]	*->110-2	PerPron[110]	_	_	_	
+101-2	2073-2077	habe	GSuccess[17]	spenden\_set1\_11[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-spenden\_set1\_11[17]	_	_	_	_	_	false[95]	Decl[95]	*[185]	*[185]	*[185]	*[185]	*[185]	input2[185]	26[274]	male[274]	c48fsj7kc4kiuorutkbb4be30b[274]	speaker: YOU[363]	_	_	_	_	_	
+101-3	2078-2082	eine	GSuccess[17]	spenden\_set1\_11[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-spenden\_set1\_11[17]	_	_	_	_	_	false[95]	Decl[95]	*[185]	*[185]	*[185]	*[185]	*[185]	input2[185]	26[274]	male[274]	c48fsj7kc4kiuorutkbb4be30b[274]	speaker: YOU[363]	*->121-1	IndefNP[121]	_	_	_	
+101-4	2083-2088	recht	GSuccess[17]	spenden\_set1\_11[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-spenden\_set1\_11[17]	_	_	_	_	_	false[95]	Decl[95]	*[185]	*[185]	*[185]	*[185]	*[185]	input2[185]	26[274]	male[274]	c48fsj7kc4kiuorutkbb4be30b[274]	speaker: YOU[363]	*->121-1	IndefNP[121]	_	_	_	
+101-5	2089-2096	seltene	GSuccess[17]	spenden\_set1\_11[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-spenden\_set1\_11[17]	_	_	_	_	_	false[95]	Decl[95]	*[185]	*[185]	*[185]	*[185]	*[185]	input2[185]	26[274]	male[274]	c48fsj7kc4kiuorutkbb4be30b[274]	speaker: YOU[363]	*->121-1	IndefNP[121]	_	_	_	
+101-6	2097-2108	Blutgruppe.	GSuccess[17]	spenden\_set1\_11[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-spenden\_set1\_11[17]	_	_	_	_	_	false[95]	Decl[95]	*[185]	*[185]	*[185]	*[185]	*[185]	input2[185]	26[274]	male[274]	c48fsj7kc4kiuorutkbb4be30b[274]	speaker: YOU[363]	*->121-1	IndefNP[121]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+102-1	2110-2125	END_OF_DOCUMENT	GSuccess[17]	spenden\_set1\_11[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-spenden\_set1\_11[17]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+103-1	2127-2130	Na?	GSuccess[18]	spenden\_set1\_11[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-spenden\_set1\_11[18]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	male	*	speaker:Tony	_	_	QAP	*	104-1[96_0]	
+
+#Text=Clara hat Blut gespendet
+104-1	2132-2137	Clara	GSuccess[18]	spenden\_set1\_11[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-spenden\_set1\_11[18]	_	_	_	_	_	false[96]	Decl[96]	*[186]	spenden[186]	transitive[186]	*[186]	*[186]	item0[186]	57[275]	female[275]	k0vnav0sqhr0fo3b0jpuaak9s4[275]	speaker: YOU[364]	*->100-1	PropNm[100]	explanation|explanation|acknowledgement	*|*|*	106-1[97_96]|107-1[98_96]|105-1[0_96]	
+104-2	2138-2141	hat	GSuccess[18]	spenden\_set1\_11[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-spenden\_set1\_11[18]	_	_	_	_	_	false[96]	Decl[96]	*[186]	spenden[186]	transitive[186]	*[186]	*[186]	item0[186]	57[275]	female[275]	k0vnav0sqhr0fo3b0jpuaak9s4[275]	speaker: YOU[364]	*->46-1	clause[46]	_	_	_	
+104-3	2142-2146	Blut	GSuccess[18]	spenden\_set1\_11[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-spenden\_set1\_11[18]	_	_	_	_	_	false[96]	Decl[96]	*[186]	spenden[186]	transitive[186]	*[186]	*[186]	item0[186]	57[275]	female[275]	k0vnav0sqhr0fo3b0jpuaak9s4[275]	speaker: YOU[364]	*->46-1|*->25-1	clause[46]|IndefNP[25]	_	_	_	
+104-4	2147-2156	gespendet	GSuccess[18]	spenden\_set1\_11[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-spenden\_set1\_11[18]	_	_	_	_	_	false[96]	Decl[96]	*[186]	spenden[186]	transitive[186]	*[186]	*[186]	item0[186]	57[275]	female[275]	k0vnav0sqhr0fo3b0jpuaak9s4[275]	speaker: YOU[364]	*->46-1	clause[46]	_	_	_	
+
+#Text=Krass!
+105-1	2158-2164	Krass!	GSuccess[18]	spenden\_set1\_11[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-spenden\_set1\_11[18]	_	_	_	_	_	false	NA	krass\_exclamation\_18	*	*	*	*	feedback	*	male	*	speaker:Tony	_	_	_	_	_	
+
+#Text=Sie braucht das Geld.
+106-1	2166-2169	Sie	GSuccess[18]	spenden\_set1\_11[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-spenden\_set1\_11[18]	3	*	*	*	singular	false[97]	Decl[97]	*[187]	*[187]	*[187]	*[187]	*[187]	input1[187]	57[276]	female[276]	k0vnav0sqhr0fo3b0jpuaak9s4[276]	speaker: YOU[365]	*->100-2	PerPron[100]	parallel	*	107-1[98_97]	
+106-2	2170-2177	braucht	GSuccess[18]	spenden\_set1\_11[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-spenden\_set1\_11[18]	_	_	_	_	_	false[97]	Decl[97]	*[187]	*[187]	*[187]	*[187]	*[187]	input1[187]	57[276]	female[276]	k0vnav0sqhr0fo3b0jpuaak9s4[276]	speaker: YOU[365]	_	_	_	_	_	
+106-3	2178-2181	das	GSuccess[18]	spenden\_set1\_11[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-spenden\_set1\_11[18]	_	_	_	_	_	false[97]	Decl[97]	*[187]	*[187]	*[187]	*[187]	*[187]	input1[187]	57[276]	female[276]	k0vnav0sqhr0fo3b0jpuaak9s4[276]	speaker: YOU[365]	*->84-1	DefNP[84]	_	_	_	
+106-4	2182-2187	Geld.	GSuccess[18]	spenden\_set1\_11[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-spenden\_set1\_11[18]	_	_	_	_	_	false[97]	Decl[97]	*[187]	*[187]	*[187]	*[187]	*[187]	input1[187]	57[276]	female[276]	k0vnav0sqhr0fo3b0jpuaak9s4[276]	speaker: YOU[365]	*->84-1	DefNP[84]	_	_	_	
+
+#Text=Und für einen guten Zweck ist es auch auch mit ihrer Blutgruppe.
+107-1	2189-2192	Und	GSuccess[18]	spenden\_set1\_11[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-spenden\_set1\_11[18]	_	_	_	_	_	false[98]	Decl[98]	*[188]	*[188]	*[188]	*[188]	*[188]	input2[188]	57[277]	female[277]	k0vnav0sqhr0fo3b0jpuaak9s4[277]	speaker: YOU[366]	_	_	_	_	_	
+107-2	2193-2196	für	GSuccess[18]	spenden\_set1\_11[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-spenden\_set1\_11[18]	_	_	_	_	_	false[98]	Decl[98]	*[188]	*[188]	*[188]	*[188]	*[188]	input2[188]	57[277]	female[277]	k0vnav0sqhr0fo3b0jpuaak9s4[277]	speaker: YOU[366]	_	_	_	_	_	
+107-3	2197-2202	einen	GSuccess[18]	spenden\_set1\_11[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-spenden\_set1\_11[18]	_	_	_	_	_	false[98]	Decl[98]	*[188]	*[188]	*[188]	*[188]	*[188]	input2[188]	57[277]	female[277]	k0vnav0sqhr0fo3b0jpuaak9s4[277]	speaker: YOU[366]	*->8-1	IndefNP[8]	_	_	_	
+107-4	2203-2208	guten	GSuccess[18]	spenden\_set1\_11[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-spenden\_set1\_11[18]	_	_	_	_	_	false[98]	Decl[98]	*[188]	*[188]	*[188]	*[188]	*[188]	input2[188]	57[277]	female[277]	k0vnav0sqhr0fo3b0jpuaak9s4[277]	speaker: YOU[366]	*->8-1	IndefNP[8]	_	_	_	
+107-5	2209-2214	Zweck	GSuccess[18]	spenden\_set1\_11[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-spenden\_set1\_11[18]	_	_	_	_	_	false[98]	Decl[98]	*[188]	*[188]	*[188]	*[188]	*[188]	input2[188]	57[277]	female[277]	k0vnav0sqhr0fo3b0jpuaak9s4[277]	speaker: YOU[366]	*->8-1	IndefNP[8]	_	_	_	
+107-6	2215-2218	ist	GSuccess[18]	spenden\_set1\_11[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-spenden\_set1\_11[18]	_	_	_	_	_	false[98]	Decl[98]	*[188]	*[188]	*[188]	*[188]	*[188]	input2[188]	57[277]	female[277]	k0vnav0sqhr0fo3b0jpuaak9s4[277]	speaker: YOU[366]	_	_	_	_	_	
+107-7	2219-2221	es	GSuccess[18]	spenden\_set1\_11[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-spenden\_set1\_11[18]	3	*	*	*	singular	false[98]	Decl[98]	*[188]	*[188]	*[188]	*[188]	*[188]	input2[188]	57[277]	female[277]	k0vnav0sqhr0fo3b0jpuaak9s4[277]	speaker: YOU[366]	*->46-2	PerPron[46]	_	_	_	
+107-8	2222-2226	auch	GSuccess[18]	spenden\_set1\_11[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-spenden\_set1\_11[18]	_	_	_	_	_	false[98]	Decl[98]	*[188]	*[188]	*[188]	*[188]	*[188]	input2[188]	57[277]	female[277]	k0vnav0sqhr0fo3b0jpuaak9s4[277]	speaker: YOU[366]	_	_	_	_	_	
+107-9	2227-2231	auch	GSuccess[18]	spenden\_set1\_11[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-spenden\_set1\_11[18]	_	_	_	_	_	false[98]	Decl[98]	*[188]	*[188]	*[188]	*[188]	*[188]	input2[188]	57[277]	female[277]	k0vnav0sqhr0fo3b0jpuaak9s4[277]	speaker: YOU[366]	_	_	_	_	_	
+107-10	2232-2235	mit	GSuccess[18]	spenden\_set1\_11[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-spenden\_set1\_11[18]	_	_	_	_	_	false[98]	Decl[98]	*[188]	*[188]	*[188]	*[188]	*[188]	input2[188]	57[277]	female[277]	k0vnav0sqhr0fo3b0jpuaak9s4[277]	speaker: YOU[366]	_	_	_	_	_	
+107-11	2236-2241	ihrer	GSuccess[18]	spenden\_set1\_11[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-spenden\_set1\_11[18]	3	*	*	*	singular	false[98]	Decl[98]	*[188]	*[188]	*[188]	*[188]	*[188]	input2[188]	57[277]	female[277]	k0vnav0sqhr0fo3b0jpuaak9s4[277]	speaker: YOU[366]	*->47-1|*->100-3	DefNP[47]|PossePron[100]	_	_	_	
+107-12	2242-2253	Blutgruppe.	GSuccess[18]	spenden\_set1\_11[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-spenden\_set1\_11[18]	_	_	_	_	_	false[98]	Decl[98]	*[188]	*[188]	*[188]	*[188]	*[188]	input2[188]	57[277]	female[277]	k0vnav0sqhr0fo3b0jpuaak9s4[277]	speaker: YOU[366]	*->47-1	DefNP[47]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+108-1	2255-2270	END_OF_DOCUMENT	GSuccess[18]	spenden\_set1\_11[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-spenden\_set1\_11[18]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+109-1	2272-2275	Na?	GSuccess[19]	spenden\_set1\_11[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-spenden\_set1\_11[19]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	male	*	speaker:Tony	_	_	QAP	*	110-1[99_0]	
+
+#Text=Clara hat Blut gespendet
+110-1	2277-2282	Clara	GSuccess[19]	spenden\_set1\_11[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-spenden\_set1\_11[19]	_	_	_	_	_	false[99]	Decl[99]	*[189]	spenden[189]	transitive[189]	*[189]	*[189]	item0[189]	26[278]	female[278]	qjdpg51abd5auurj3bduisfb43[278]	speaker: YOU[367]	*->111-1	PropNm[111]	result|acknowledgement	*|*	112-1[100_99]|111-1[0_99]	
+110-2	2283-2286	hat	GSuccess[19]	spenden\_set1\_11[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-spenden\_set1\_11[19]	_	_	_	_	_	false[99]	Decl[99]	*[189]	spenden[189]	transitive[189]	*[189]	*[189]	item0[189]	26[278]	female[278]	qjdpg51abd5auurj3bduisfb43[278]	speaker: YOU[367]	*->65-1	clause[65]	_	_	_	
+110-3	2287-2291	Blut	GSuccess[19]	spenden\_set1\_11[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-spenden\_set1\_11[19]	_	_	_	_	_	false[99]	Decl[99]	*[189]	spenden[189]	transitive[189]	*[189]	*[189]	item0[189]	26[278]	female[278]	qjdpg51abd5auurj3bduisfb43[278]	speaker: YOU[367]	*->65-1|*->36-1	clause[65]|IndefNP[36]	_	_	_	
+110-4	2292-2301	gespendet	GSuccess[19]	spenden\_set1\_11[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-spenden\_set1\_11[19]	_	_	_	_	_	false[99]	Decl[99]	*[189]	spenden[189]	transitive[189]	*[189]	*[189]	item0[189]	26[278]	female[278]	qjdpg51abd5auurj3bduisfb43[278]	speaker: YOU[367]	*->65-1	clause[65]	_	_	_	
+
+#Text=Krass!
+111-1	2303-2309	Krass!	GSuccess[19]	spenden\_set1\_11[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-spenden\_set1\_11[19]	_	_	_	_	_	false	NA	krass\_exclamation\_18	*	*	*	*	feedback	*	male	*	speaker:Tony	_	_	_	_	_	
+
+#Text=Und dabei ist sie umgekippt.
+112-1	2311-2314	Und	GSuccess[19]	spenden\_set1\_11[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-spenden\_set1\_11[19]	_	_	_	_	_	false[100]	Decl[100]	*[190]	*[190]	*[190]	*[190]	*[190]	input1[190]	26[279]	female[279]	qjdpg51abd5auurj3bduisfb43[279]	speaker: YOU[368]	_	_	contrast	*	113-1[101_100]	
+112-2	2315-2320	dabei	GSuccess[19]	spenden\_set1\_11[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-spenden\_set1\_11[19]	_	_	_	_	_	false[100]	Decl[100]	*[190]	*[190]	*[190]	*[190]	*[190]	input1[190]	26[279]	female[279]	qjdpg51abd5auurj3bduisfb43[279]	speaker: YOU[368]	*->65-2	D-Pron[65]	_	_	_	
+112-3	2321-2324	ist	GSuccess[19]	spenden\_set1\_11[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-spenden\_set1\_11[19]	_	_	_	_	_	false[100]	Decl[100]	*[190]	*[190]	*[190]	*[190]	*[190]	input1[190]	26[279]	female[279]	qjdpg51abd5auurj3bduisfb43[279]	speaker: YOU[368]	_	_	_	_	_	
+112-4	2325-2328	sie	GSuccess[19]	spenden\_set1\_11[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-spenden\_set1\_11[19]	3	*	*	*	singular	false[100]	Decl[100]	*[190]	*[190]	*[190]	*[190]	*[190]	input1[190]	26[279]	female[279]	qjdpg51abd5auurj3bduisfb43[279]	speaker: YOU[368]	*->111-2	PerPron[111]	_	_	_	
+112-5	2329-2339	umgekippt.	GSuccess[19]	spenden\_set1\_11[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-spenden\_set1\_11[19]	_	_	_	_	_	false[100]	Decl[100]	*[190]	*[190]	*[190]	*[190]	*[190]	input1[190]	26[279]	female[279]	qjdpg51abd5auurj3bduisfb43[279]	speaker: YOU[368]	_	_	_	_	_	
+
+#Text=Aber es geht ihr wieder gut!
+113-1	2341-2345	Aber	GSuccess[19]	spenden\_set1\_11[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-spenden\_set1\_11[19]	_	_	_	_	_	false[101]	Decl[101]	*[191]	*[191]	*[191]	*[191]	*[191]	input2[191]	26[280]	female[280]	qjdpg51abd5auurj3bduisfb43[280]	speaker: YOU[369]	_	_	_	_	_	
+113-2	2346-2348	es	GSuccess[19]	spenden\_set1\_11[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-spenden\_set1\_11[19]	_	_	_	_	_	false[101]	Decl[101]	*[191]	*[191]	*[191]	*[191]	*[191]	input2[191]	26[280]	female[280]	qjdpg51abd5auurj3bduisfb43[280]	speaker: YOU[369]	_	_	_	_	_	
+113-3	2349-2353	geht	GSuccess[19]	spenden\_set1\_11[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-spenden\_set1\_11[19]	_	_	_	_	_	false[101]	Decl[101]	*[191]	*[191]	*[191]	*[191]	*[191]	input2[191]	26[280]	female[280]	qjdpg51abd5auurj3bduisfb43[280]	speaker: YOU[369]	_	_	_	_	_	
+113-4	2354-2357	ihr	GSuccess[19]	spenden\_set1\_11[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-spenden\_set1\_11[19]	3	*	*	*	singular	false[101]	Decl[101]	*[191]	*[191]	*[191]	*[191]	*[191]	input2[191]	26[280]	female[280]	qjdpg51abd5auurj3bduisfb43[280]	speaker: YOU[369]	*->111-3	PerPron[111]	_	_	_	
+113-5	2358-2364	wieder	GSuccess[19]	spenden\_set1\_11[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-spenden\_set1\_11[19]	_	_	_	_	_	false[101]	Decl[101]	*[191]	*[191]	*[191]	*[191]	*[191]	input2[191]	26[280]	female[280]	qjdpg51abd5auurj3bduisfb43[280]	speaker: YOU[369]	_	_	_	_	_	
+113-6	2365-2369	gut!	GSuccess[19]	spenden\_set1\_11[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-spenden\_set1\_11[19]	_	_	_	_	_	false[101]	Decl[101]	*[191]	*[191]	*[191]	*[191]	*[191]	input2[191]	26[280]	female[280]	qjdpg51abd5auurj3bduisfb43[280]	speaker: YOU[369]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+114-1	2371-2386	END_OF_DOCUMENT	GSuccess[19]	spenden\_set1\_11[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-spenden\_set1\_11[19]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+115-1	2388-2391	Na?	GSuccess[20]	spenden\_set1\_11[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-spenden\_set1\_11[20]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	male	*	speaker:Tony	_	_	QAP	*	116-1[102_0]	
+
+#Text=Clara hat Blut gespendet
+116-1	2393-2398	Clara	GSuccess[20]	spenden\_set1\_11[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-spenden\_set1\_11[20]	_	_	_	_	_	false[102]	Decl[102]	*[192]	spenden[192]	transitive[192]	*[192]	*[192]	item0[192]	72[281]	male[281]	rhiec6c6hfje484c5bsbj040l0[281]	speaker: YOU[370]	*->15-1	PropNm[15]	acknowledgement	*	117-1[0_102]	
+116-2	2399-2402	hat	GSuccess[20]	spenden\_set1\_11[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-spenden\_set1\_11[20]	_	_	_	_	_	false[102]	Decl[102]	*[192]	spenden[192]	transitive[192]	*[192]	*[192]	item0[192]	72[281]	male[281]	rhiec6c6hfje484c5bsbj040l0[281]	speaker: YOU[370]	*->113-1	clause[113]	_	_	_	
+116-3	2403-2407	Blut	GSuccess[20]	spenden\_set1\_11[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-spenden\_set1\_11[20]	_	_	_	_	_	false[102]	Decl[102]	*[192]	spenden[192]	transitive[192]	*[192]	*[192]	item0[192]	72[281]	male[281]	rhiec6c6hfje484c5bsbj040l0[281]	speaker: YOU[370]	*->113-1|*->13-1	clause[113]|IndefNP[13]	_	_	_	
+116-4	2408-2417	gespendet	GSuccess[20]	spenden\_set1\_11[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-spenden\_set1\_11[20]	_	_	_	_	_	false[102]	Decl[102]	*[192]	spenden[192]	transitive[192]	*[192]	*[192]	item0[192]	72[281]	male[281]	rhiec6c6hfje484c5bsbj040l0[281]	speaker: YOU[370]	*->113-1	clause[113]	_	_	_	
+
+#Text=Krass!
+117-1	2419-2425	Krass!	GSuccess[20]	spenden\_set1\_11[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-spenden\_set1\_11[20]	_	_	_	_	_	false	NA	krass\_exclamation\_18	*	*	*	*	feedback	*	male	*	speaker:Tony	_	_	explanation	*	118-1[103_0]	
+
+#Text=Warum krass?
+118-1	2427-2432	Warum	GSuccess[20]	spenden\_set1\_11[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-spenden\_set1\_11[20]	_	_	_	_	_	false[103]	NA[103]	*[193]	*[193]	*[193]	*[193]	*[193]	input1[193]	72[282]	male[282]	rhiec6c6hfje484c5bsbj040l0[282]	speaker: YOU[371]	_	_	explanation	*	119-1[104_103]	
+118-2	2433-2439	krass?	GSuccess[20]	spenden\_set1\_11[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-spenden\_set1\_11[20]	_	_	_	_	_	false[103]	NA[103]	*[193]	*[193]	*[193]	*[193]	*[193]	input1[193]	72[282]	male[282]	rhiec6c6hfje484c5bsbj040l0[282]	speaker: YOU[371]	_	_	_	_	_	
+
+#Text=Das ist doch etwas Normales.....
+119-1	2441-2444	Das	GSuccess[20]	spenden\_set1\_11[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-spenden\_set1\_11[20]	_	_	_	_	_	false[104]	Decl[104]	*[194]	*[194]	*[194]	*[194]	*[194]	input2[194]	72[283]	male[283]	rhiec6c6hfje484c5bsbj040l0[283]	speaker: YOU[372]	*->113-2	D-Pron[113]	_	_	_	
+119-2	2445-2448	ist	GSuccess[20]	spenden\_set1\_11[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-spenden\_set1\_11[20]	_	_	_	_	_	false[104]	Decl[104]	*[194]	*[194]	*[194]	*[194]	*[194]	input2[194]	72[283]	male[283]	rhiec6c6hfje484c5bsbj040l0[283]	speaker: YOU[372]	_	_	_	_	_	
+119-3	2449-2453	doch	GSuccess[20]	spenden\_set1\_11[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-spenden\_set1\_11[20]	_	_	_	_	_	false[104]	Decl[104]	*[194]	*[194]	*[194]	*[194]	*[194]	input2[194]	72[283]	male[283]	rhiec6c6hfje484c5bsbj040l0[283]	speaker: YOU[372]	_	_	_	_	_	
+119-4	2454-2459	etwas	GSuccess[20]	spenden\_set1\_11[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-spenden\_set1\_11[20]	_	_	_	_	_	false[104]	Decl[104]	*[194]	*[194]	*[194]	*[194]	*[194]	input2[194]	72[283]	male[283]	rhiec6c6hfje484c5bsbj040l0[283]	speaker: YOU[372]	_	_	_	_	_	
+119-5	2460-2473	Normales.....	GSuccess[20]	spenden\_set1\_11[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-spenden\_set1\_11[20]	_	_	_	_	_	false[104]	Decl[104]	*[194]	*[194]	*[194]	*[194]	*[194]	input2[194]	72[283]	male[283]	rhiec6c6hfje484c5bsbj040l0[283]	speaker: YOU[372]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+120-1	2475-2490	END_OF_DOCUMENT	GSuccess[20]	spenden\_set1\_11[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-spenden\_set1\_11[20]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+121-1	2492-2495	Na?	GWithout[21]	spenden\_set1\_11[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-spenden\_set1\_11[21]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	male	*	speaker:Tony	_	_	QAP	*	122-1[105_0]	
+
+#Text=Clara hat Blut gespendet
+122-1	2497-2502	Clara	GWithout[21]	spenden\_set1\_11[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-spenden\_set1\_11[21]	_	_	_	_	_	false[105]	Decl[105]	*[195]	spenden[195]	transitive[195]	*[195]	*[195]	item0[195]	18[284]	female[284]	0ncaea7aqlpc7oe43khd21qn11[284]	speaker: YOU[373]	*->77-1	PropNm[77]	result	*	124-1[106_105]	
+122-2	2503-2506	hat	GWithout[21]	spenden\_set1\_11[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-spenden\_set1\_11[21]	_	_	_	_	_	false[105]	Decl[105]	*[195]	spenden[195]	transitive[195]	*[195]	*[195]	item0[195]	18[284]	female[284]	0ncaea7aqlpc7oe43khd21qn11[284]	speaker: YOU[373]	_	_	_	_	_	
+122-3	2507-2511	Blut	GWithout[21]	spenden\_set1\_11[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-spenden\_set1\_11[21]	_	_	_	_	_	false[105]	Decl[105]	*[195]	spenden[195]	transitive[195]	*[195]	*[195]	item0[195]	18[284]	female[284]	0ncaea7aqlpc7oe43khd21qn11[284]	speaker: YOU[373]	*->81-1	IndefNP[81]	_	_	_	
+122-4	2512-2521	gespendet	GWithout[21]	spenden\_set1\_11[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-spenden\_set1\_11[21]	_	_	_	_	_	false[105]	Decl[105]	*[195]	spenden[195]	transitive[195]	*[195]	*[195]	item0[195]	18[284]	female[284]	0ncaea7aqlpc7oe43khd21qn11[284]	speaker: YOU[373]	_	_	_	_	_	
+
+#Text=-
+123-1	2523-2524	-	GWithout[21]	spenden\_set1\_11[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-spenden\_set1\_11[21]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	male	*	speaker:Tony	_	_	_	_	_	
+
+#Text=Sie wäre fast umgekippt.
+124-1	2526-2529	Sie	GWithout[21]	spenden\_set1\_11[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-spenden\_set1\_11[21]	3	*	*	*	singular	false[106]	Decl[106]	*[196]	*[196]	*[196]	*[196]	*[196]	input1[196]	18[285]	female[285]	0ncaea7aqlpc7oe43khd21qn11[285]	speaker: YOU[374]	*->77-2	PerPron[77]	contrast	*	125-1[107_106]	
+124-2	2530-2534	wäre	GWithout[21]	spenden\_set1\_11[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-spenden\_set1\_11[21]	_	_	_	_	_	false[106]	Decl[106]	*[196]	*[196]	*[196]	*[196]	*[196]	input1[196]	18[285]	female[285]	0ncaea7aqlpc7oe43khd21qn11[285]	speaker: YOU[374]	_	_	_	_	_	
+124-3	2535-2539	fast	GWithout[21]	spenden\_set1\_11[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-spenden\_set1\_11[21]	_	_	_	_	_	false[106]	Decl[106]	*[196]	*[196]	*[196]	*[196]	*[196]	input1[196]	18[285]	female[285]	0ncaea7aqlpc7oe43khd21qn11[285]	speaker: YOU[374]	_	_	_	_	_	
+124-4	2540-2550	umgekippt.	GWithout[21]	spenden\_set1\_11[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-spenden\_set1\_11[21]	_	_	_	_	_	false[106]	Decl[106]	*[196]	*[196]	*[196]	*[196]	*[196]	input1[196]	18[285]	female[285]	0ncaea7aqlpc7oe43khd21qn11[285]	speaker: YOU[374]	_	_	_	_	_	
+
+#Text=Zum Glück konnten die Schwestern sie auffangen <BR> bevor sie auf den Boden gefallen ist.
+125-1	2552-2555	Zum	GWithout[21]	spenden\_set1\_11[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-spenden\_set1\_11[21]	_	_	_	_	_	false[107]	Decl[107]	*[197]	*[197]	*[197]	*[197]	*[197]	input2[197]	18[286]	female[286]	0ncaea7aqlpc7oe43khd21qn11[286]	speaker: YOU[375]	_	_	elaboration	*	125-9[108_107]	
+125-2	2556-2561	Glück	GWithout[21]	spenden\_set1\_11[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-spenden\_set1\_11[21]	_	_	_	_	_	false[107]	Decl[107]	*[197]	*[197]	*[197]	*[197]	*[197]	input2[197]	18[286]	female[286]	0ncaea7aqlpc7oe43khd21qn11[286]	speaker: YOU[375]	_	_	_	_	_	
+125-3	2562-2569	konnten	GWithout[21]	spenden\_set1\_11[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-spenden\_set1\_11[21]	_	_	_	_	_	false[107]	Decl[107]	*[197]	*[197]	*[197]	*[197]	*[197]	input2[197]	18[286]	female[286]	0ncaea7aqlpc7oe43khd21qn11[286]	speaker: YOU[375]	_	_	_	_	_	
+125-4	2570-2573	die	GWithout[21]	spenden\_set1\_11[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-spenden\_set1\_11[21]	_	_	_	_	_	false[107]	Decl[107]	*[197]	*[197]	*[197]	*[197]	*[197]	input2[197]	18[286]	female[286]	0ncaea7aqlpc7oe43khd21qn11[286]	speaker: YOU[375]	*->116-1	DefNP[116]	_	_	_	
+125-5	2574-2584	Schwestern	GWithout[21]	spenden\_set1\_11[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-spenden\_set1\_11[21]	_	_	_	_	_	false[107]	Decl[107]	*[197]	*[197]	*[197]	*[197]	*[197]	input2[197]	18[286]	female[286]	0ncaea7aqlpc7oe43khd21qn11[286]	speaker: YOU[375]	*->116-1	DefNP[116]	_	_	_	
+125-6	2585-2588	sie	GWithout[21]	spenden\_set1\_11[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-spenden\_set1\_11[21]	3	*	*	*	singular	false[107]	Decl[107]	*[197]	*[197]	*[197]	*[197]	*[197]	input2[197]	18[286]	female[286]	0ncaea7aqlpc7oe43khd21qn11[286]	speaker: YOU[375]	*->77-3	PerPron[77]	_	_	_	
+125-7	2589-2598	auffangen	GWithout[21]	spenden\_set1\_11[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-spenden\_set1\_11[21]	_	_	_	_	_	false[107]	Decl[107]	*[197]	*[197]	*[197]	*[197]	*[197]	input2[197]	18[286]	female[286]	0ncaea7aqlpc7oe43khd21qn11[286]	speaker: YOU[375]	_	_	_	_	_	
+125-8	2599-2603	<BR>	GWithout[21]	spenden\_set1\_11[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-spenden\_set1\_11[21]	_	_	_	_	_	_	_	*[197]	*[197]	*[197]	*[197]	*[197]	input2[197]	18[286]	female[286]	0ncaea7aqlpc7oe43khd21qn11[286]	speaker: YOU[375]	_	_	_	_	_	
+125-9	2604-2609	bevor	GWithout[21]	spenden\_set1\_11[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-spenden\_set1\_11[21]	_	_	_	_	_	false[108]	NA[108]	*[197]	*[197]	*[197]	*[197]	*[197]	input2[197]	18[286]	female[286]	0ncaea7aqlpc7oe43khd21qn11[286]	speaker: YOU[375]	_	_	_	_	_	
+125-10	2610-2613	sie	GWithout[21]	spenden\_set1\_11[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-spenden\_set1\_11[21]	3	*	*	*	singular	false[108]	NA[108]	*[197]	*[197]	*[197]	*[197]	*[197]	input2[197]	18[286]	female[286]	0ncaea7aqlpc7oe43khd21qn11[286]	speaker: YOU[375]	*->77-4	PerPron[77]	_	_	_	
+125-11	2614-2617	auf	GWithout[21]	spenden\_set1\_11[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-spenden\_set1\_11[21]	_	_	_	_	_	false[108]	NA[108]	*[197]	*[197]	*[197]	*[197]	*[197]	input2[197]	18[286]	female[286]	0ncaea7aqlpc7oe43khd21qn11[286]	speaker: YOU[375]	_	_	_	_	_	
+125-12	2618-2621	den	GWithout[21]	spenden\_set1\_11[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-spenden\_set1\_11[21]	_	_	_	_	_	false[108]	NA[108]	*[197]	*[197]	*[197]	*[197]	*[197]	input2[197]	18[286]	female[286]	0ncaea7aqlpc7oe43khd21qn11[286]	speaker: YOU[375]	*->61-1	DefNP[61]	_	_	_	
+125-13	2622-2627	Boden	GWithout[21]	spenden\_set1\_11[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-spenden\_set1\_11[21]	_	_	_	_	_	false[108]	NA[108]	*[197]	*[197]	*[197]	*[197]	*[197]	input2[197]	18[286]	female[286]	0ncaea7aqlpc7oe43khd21qn11[286]	speaker: YOU[375]	*->61-1	DefNP[61]	_	_	_	
+125-14	2628-2636	gefallen	GWithout[21]	spenden\_set1\_11[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-spenden\_set1\_11[21]	_	_	_	_	_	false[108]	NA[108]	*[197]	*[197]	*[197]	*[197]	*[197]	input2[197]	18[286]	female[286]	0ncaea7aqlpc7oe43khd21qn11[286]	speaker: YOU[375]	_	_	_	_	_	
+125-15	2637-2641	ist.	GWithout[21]	spenden\_set1\_11[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-spenden\_set1\_11[21]	_	_	_	_	_	false[108]	NA[108]	*[197]	*[197]	*[197]	*[197]	*[197]	input2[197]	18[286]	female[286]	0ncaea7aqlpc7oe43khd21qn11[286]	speaker: YOU[375]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+126-1	2643-2658	END_OF_DOCUMENT	GWithout[21]	spenden\_set1\_11[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-spenden\_set1\_11[21]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+127-1	2660-2663	Na?	GWithout[22]	spenden\_set1\_11[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-spenden\_set1\_11[22]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	male	*	speaker:Tony	_	_	QAP	*	128-1[109_0]	
+
+#Text=Clara hat Blut gespendet
+128-1	2665-2670	Clara	GWithout[22]	spenden\_set1\_11[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-spenden\_set1\_11[22]	_	_	_	_	_	false[109]	Decl[109]	*[198]	spenden[198]	transitive[198]	*[198]	*[198]	item0[198]	36[287]	male[287]	19gm0uv9ca6mcngf99lirno94a[287]	speaker: YOU[376]	*->120-1|*->126-1	clause[120]|PropNm[126]	result|elaboration	*|*	130-1[110_109]|131-1[111_109]	
+128-2	2671-2674	hat	GWithout[22]	spenden\_set1\_11[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-spenden\_set1\_11[22]	_	_	_	_	_	false[109]	Decl[109]	*[198]	spenden[198]	transitive[198]	*[198]	*[198]	item0[198]	36[287]	male[287]	19gm0uv9ca6mcngf99lirno94a[287]	speaker: YOU[376]	*->120-1	clause[120]	_	_	_	
+128-3	2675-2679	Blut	GWithout[22]	spenden\_set1\_11[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-spenden\_set1\_11[22]	_	_	_	_	_	false[109]	Decl[109]	*[198]	spenden[198]	transitive[198]	*[198]	*[198]	item0[198]	36[287]	male[287]	19gm0uv9ca6mcngf99lirno94a[287]	speaker: YOU[376]	*->120-1|*->89-1	clause[120]|IndefNP[89]	_	_	_	
+128-4	2680-2689	gespendet	GWithout[22]	spenden\_set1\_11[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-spenden\_set1\_11[22]	_	_	_	_	_	false[109]	Decl[109]	*[198]	spenden[198]	transitive[198]	*[198]	*[198]	item0[198]	36[287]	male[287]	19gm0uv9ca6mcngf99lirno94a[287]	speaker: YOU[376]	*->120-1	clause[120]	_	_	_	
+
+#Text=-
+129-1	2691-2692	-	GWithout[22]	spenden\_set1\_11[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-spenden\_set1\_11[22]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	male	*	speaker:Tony	_	_	_	_	_	
+
+#Text=Jetzt ist ihr etwas mulmig zumute
+130-1	2694-2699	Jetzt	GWithout[22]	spenden\_set1\_11[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-spenden\_set1\_11[22]	_	_	_	_	_	false[110]	Decl[110]	*[199]	*[199]	*[199]	*[199]	*[199]	input1[199]	36[288]	male[288]	19gm0uv9ca6mcngf99lirno94a[288]	speaker: YOU[377]	_	_	_	_	_	
+130-2	2700-2703	ist	GWithout[22]	spenden\_set1\_11[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-spenden\_set1\_11[22]	_	_	_	_	_	false[110]	Decl[110]	*[199]	*[199]	*[199]	*[199]	*[199]	input1[199]	36[288]	male[288]	19gm0uv9ca6mcngf99lirno94a[288]	speaker: YOU[377]	_	_	_	_	_	
+130-3	2704-2707	ihr	GWithout[22]	spenden\_set1\_11[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-spenden\_set1\_11[22]	3	*	*	*	singular	false[110]	Decl[110]	*[199]	*[199]	*[199]	*[199]	*[199]	input1[199]	36[288]	male[288]	19gm0uv9ca6mcngf99lirno94a[288]	speaker: YOU[377]	*->126-2	PerPron[126]	_	_	_	
+130-4	2708-2713	etwas	GWithout[22]	spenden\_set1\_11[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-spenden\_set1\_11[22]	_	_	_	_	_	false[110]	Decl[110]	*[199]	*[199]	*[199]	*[199]	*[199]	input1[199]	36[288]	male[288]	19gm0uv9ca6mcngf99lirno94a[288]	speaker: YOU[377]	_	_	_	_	_	
+130-5	2714-2720	mulmig	GWithout[22]	spenden\_set1\_11[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-spenden\_set1\_11[22]	_	_	_	_	_	false[110]	Decl[110]	*[199]	*[199]	*[199]	*[199]	*[199]	input1[199]	36[288]	male[288]	19gm0uv9ca6mcngf99lirno94a[288]	speaker: YOU[377]	_	_	_	_	_	
+130-6	2721-2727	zumute	GWithout[22]	spenden\_set1\_11[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-spenden\_set1\_11[22]	_	_	_	_	_	false[110]	Decl[110]	*[199]	*[199]	*[199]	*[199]	*[199]	input1[199]	36[288]	male[288]	19gm0uv9ca6mcngf99lirno94a[288]	speaker: YOU[377]	_	_	_	_	_	
+
+#Text=Es war das erste mal für sie.
+131-1	2729-2731	Es	GWithout[22]	spenden\_set1\_11[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-spenden\_set1\_11[22]	3	*	*	*	singular	false[111]	Decl[111]	*[200]	*[200]	*[200]	*[200]	*[200]	input2[200]	36[289]	male[289]	19gm0uv9ca6mcngf99lirno94a[289]	speaker: YOU[378]	*->120-2	PerPron[120]	_	_	_	
+131-2	2732-2735	war	GWithout[22]	spenden\_set1\_11[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-spenden\_set1\_11[22]	_	_	_	_	_	false[111]	Decl[111]	*[200]	*[200]	*[200]	*[200]	*[200]	input2[200]	36[289]	male[289]	19gm0uv9ca6mcngf99lirno94a[289]	speaker: YOU[378]	_	_	_	_	_	
+131-3	2736-2739	das	GWithout[22]	spenden\_set1\_11[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-spenden\_set1\_11[22]	_	_	_	_	_	false[111]	Decl[111]	*[200]	*[200]	*[200]	*[200]	*[200]	input2[200]	36[289]	male[289]	19gm0uv9ca6mcngf99lirno94a[289]	speaker: YOU[378]	_	_	_	_	_	
+131-4	2740-2745	erste	GWithout[22]	spenden\_set1\_11[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-spenden\_set1\_11[22]	_	_	_	_	_	false[111]	Decl[111]	*[200]	*[200]	*[200]	*[200]	*[200]	input2[200]	36[289]	male[289]	19gm0uv9ca6mcngf99lirno94a[289]	speaker: YOU[378]	_	_	_	_	_	
+131-5	2746-2749	mal	GWithout[22]	spenden\_set1\_11[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-spenden\_set1\_11[22]	_	_	_	_	_	false[111]	Decl[111]	*[200]	*[200]	*[200]	*[200]	*[200]	input2[200]	36[289]	male[289]	19gm0uv9ca6mcngf99lirno94a[289]	speaker: YOU[378]	_	_	_	_	_	
+131-6	2750-2753	für	GWithout[22]	spenden\_set1\_11[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-spenden\_set1\_11[22]	_	_	_	_	_	false[111]	Decl[111]	*[200]	*[200]	*[200]	*[200]	*[200]	input2[200]	36[289]	male[289]	19gm0uv9ca6mcngf99lirno94a[289]	speaker: YOU[378]	_	_	_	_	_	
+131-7	2754-2758	sie.	GWithout[22]	spenden\_set1\_11[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-spenden\_set1\_11[22]	3	*	*	*	singular	false[111]	Decl[111]	*[200]	*[200]	*[200]	*[200]	*[200]	input2[200]	36[289]	male[289]	19gm0uv9ca6mcngf99lirno94a[289]	speaker: YOU[378]	*->126-3	PerPron[126]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+132-1	2760-2775	END_OF_DOCUMENT	GWithout[22]	spenden\_set1\_11[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-spenden\_set1\_11[22]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+133-1	2777-2780	Na?	GWithout[23]	spenden\_set1\_11[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-spenden\_set1\_11[23]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	male	*	speaker:Tony	_	_	QAP	*	134-1[112_0]	
+
+#Text=Clara hat Blut gespendet
+134-1	2782-2787	Clara	GWithout[23]	spenden\_set1\_11[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-spenden\_set1\_11[23]	_	_	_	_	_	false[112]	Decl[112]	*[201]	spenden[201]	transitive[201]	*[201]	*[201]	item0[201]	18[290]	female[290]	4qae3ph27q5gbjcsrgnltv8qld[290]	speaker: YOU[379]	*->99-1	PropNm[99]	result	*	136-1[113_112]	
+134-2	2788-2791	hat	GWithout[23]	spenden\_set1\_11[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-spenden\_set1\_11[23]	_	_	_	_	_	false[112]	Decl[112]	*[201]	spenden[201]	transitive[201]	*[201]	*[201]	item0[201]	18[290]	female[290]	4qae3ph27q5gbjcsrgnltv8qld[290]	speaker: YOU[379]	_	_	_	_	_	
+134-3	2792-2796	Blut	GWithout[23]	spenden\_set1\_11[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-spenden\_set1\_11[23]	_	_	_	_	_	false[112]	Decl[112]	*[201]	spenden[201]	transitive[201]	*[201]	*[201]	item0[201]	18[290]	female[290]	4qae3ph27q5gbjcsrgnltv8qld[290]	speaker: YOU[379]	*->76-1	IndefNP[76]	_	_	_	
+134-4	2797-2806	gespendet	GWithout[23]	spenden\_set1\_11[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-spenden\_set1\_11[23]	_	_	_	_	_	false[112]	Decl[112]	*[201]	spenden[201]	transitive[201]	*[201]	*[201]	item0[201]	18[290]	female[290]	4qae3ph27q5gbjcsrgnltv8qld[290]	speaker: YOU[379]	_	_	_	_	_	
+
+#Text=-
+135-1	2808-2809	-	GWithout[23]	spenden\_set1\_11[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-spenden\_set1\_11[23]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	male	*	speaker:Tony	_	_	_	_	_	
+
+#Text=und ist danach ohnmächtig geworden
+136-1	2811-2814	und	GWithout[23]	spenden\_set1\_11[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-spenden\_set1\_11[23]	_	_	_	_	_	false[113]	Decl[113]	*[202]	*[202]	*[202]	*[202]	*[202]	input1[202]	18[291]	female[291]	4qae3ph27q5gbjcsrgnltv8qld[291]	speaker: YOU[380]	_	_	result	*	137-1[114_113]	
+136-2	2815-2818	ist	GWithout[23]	spenden\_set1\_11[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-spenden\_set1\_11[23]	3	*	*	*	singular	false[113]	Decl[113]	*[202]	*[202]	*[202]	*[202]	*[202]	input1[202]	18[291]	female[291]	4qae3ph27q5gbjcsrgnltv8qld[291]	speaker: YOU[380]	*->99-2	zero[99]	_	_	_	
+136-3	2819-2825	danach	GWithout[23]	spenden\_set1\_11[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-spenden\_set1\_11[23]	_	_	_	_	_	false[113]	Decl[113]	*[202]	*[202]	*[202]	*[202]	*[202]	input1[202]	18[291]	female[291]	4qae3ph27q5gbjcsrgnltv8qld[291]	speaker: YOU[380]	_	_	_	_	_	
+136-4	2826-2836	ohnmächtig	GWithout[23]	spenden\_set1\_11[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-spenden\_set1\_11[23]	_	_	_	_	_	false[113]	Decl[113]	*[202]	*[202]	*[202]	*[202]	*[202]	input1[202]	18[291]	female[291]	4qae3ph27q5gbjcsrgnltv8qld[291]	speaker: YOU[380]	_	_	_	_	_	
+136-5	2837-2845	geworden	GWithout[23]	spenden\_set1\_11[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-spenden\_set1\_11[23]	_	_	_	_	_	false[113]	Decl[113]	*[202]	*[202]	*[202]	*[202]	*[202]	input1[202]	18[291]	female[291]	4qae3ph27q5gbjcsrgnltv8qld[291]	speaker: YOU[380]	_	_	_	_	_	
+
+#Text=und hat daraufhin was zu essen bekommen
+137-1	2847-2850	und	GWithout[23]	spenden\_set1\_11[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-spenden\_set1\_11[23]	_	_	_	_	_	false[114]	Decl[114]	*[203]	*[203]	*[203]	*[203]	*[203]	input2[203]	18[292]	female[292]	4qae3ph27q5gbjcsrgnltv8qld[292]	speaker: YOU[381]	_	_	_	_	_	
+137-2	2851-2854	hat	GWithout[23]	spenden\_set1\_11[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-spenden\_set1\_11[23]	3	*	*	*	singular	false[114]	Decl[114]	*[203]	*[203]	*[203]	*[203]	*[203]	input2[203]	18[292]	female[292]	4qae3ph27q5gbjcsrgnltv8qld[292]	speaker: YOU[381]	*->99-3	zero[99]	_	_	_	
+137-3	2855-2864	daraufhin	GWithout[23]	spenden\_set1\_11[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-spenden\_set1\_11[23]	_	_	_	_	_	false[114]	Decl[114]	*[203]	*[203]	*[203]	*[203]	*[203]	input2[203]	18[292]	female[292]	4qae3ph27q5gbjcsrgnltv8qld[292]	speaker: YOU[381]	_	_	_	_	_	
+137-4	2865-2868	was	GWithout[23]	spenden\_set1\_11[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-spenden\_set1\_11[23]	_	_	_	_	_	false[114]	Decl[114]	*[203]	*[203]	*[203]	*[203]	*[203]	input2[203]	18[292]	female[292]	4qae3ph27q5gbjcsrgnltv8qld[292]	speaker: YOU[381]	*->17-1	IndefNP[17]	_	_	_	
+137-5	2869-2871	zu	GWithout[23]	spenden\_set1\_11[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-spenden\_set1\_11[23]	_	_	_	_	_	false[114]	Decl[114]	*[203]	*[203]	*[203]	*[203]	*[203]	input2[203]	18[292]	female[292]	4qae3ph27q5gbjcsrgnltv8qld[292]	speaker: YOU[381]	*->17-1	IndefNP[17]	_	_	_	
+137-6	2872-2877	essen	GWithout[23]	spenden\_set1\_11[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-spenden\_set1\_11[23]	_	_	_	_	_	false[114]	Decl[114]	*[203]	*[203]	*[203]	*[203]	*[203]	input2[203]	18[292]	female[292]	4qae3ph27q5gbjcsrgnltv8qld[292]	speaker: YOU[381]	*->17-1	IndefNP[17]	_	_	_	
+137-7	2878-2886	bekommen	GWithout[23]	spenden\_set1\_11[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-spenden\_set1\_11[23]	_	_	_	_	_	false[114]	Decl[114]	*[203]	*[203]	*[203]	*[203]	*[203]	input2[203]	18[292]	female[292]	4qae3ph27q5gbjcsrgnltv8qld[292]	speaker: YOU[381]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+138-1	2888-2903	END_OF_DOCUMENT	GWithout[23]	spenden\_set1\_11[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-spenden\_set1\_11[23]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+139-1	2905-2908	Na?	GWithout[24]	spenden\_set1\_11[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-spenden\_set1\_11[24]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	male	*	speaker:Tony	_	_	QAP	*	140-1[115_0]	
+
+#Text=Clara hat Blut gespendet
+140-1	2910-2915	Clara	GWithout[24]	spenden\_set1\_11[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-spenden\_set1\_11[24]	_	_	_	_	_	false[115]	Decl[115]	*[204]	spenden[204]	transitive[204]	*[204]	*[204]	item0[204]	19[293]	male[293]	f28ipql67ma8cbjqke6k374ach[293]	speaker: YOU[382]	*->19-1	PropNm[19]	elaboration	*	142-1[116_115]	
+140-2	2916-2919	hat	GWithout[24]	spenden\_set1\_11[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-spenden\_set1\_11[24]	_	_	_	_	_	false[115]	Decl[115]	*[204]	spenden[204]	transitive[204]	*[204]	*[204]	item0[204]	19[293]	male[293]	f28ipql67ma8cbjqke6k374ach[293]	speaker: YOU[382]	*->71-1	clause[71]	_	_	_	
+140-3	2920-2924	Blut	GWithout[24]	spenden\_set1\_11[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-spenden\_set1\_11[24]	_	_	_	_	_	false[115]	Decl[115]	*[204]	spenden[204]	transitive[204]	*[204]	*[204]	item0[204]	19[293]	male[293]	f28ipql67ma8cbjqke6k374ach[293]	speaker: YOU[382]	*->71-1|*->79-1	clause[71]|IndefNP[79]	_	_	_	
+140-4	2925-2934	gespendet	GWithout[24]	spenden\_set1\_11[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-spenden\_set1\_11[24]	_	_	_	_	_	false[115]	Decl[115]	*[204]	spenden[204]	transitive[204]	*[204]	*[204]	item0[204]	19[293]	male[293]	f28ipql67ma8cbjqke6k374ach[293]	speaker: YOU[382]	*->71-1	clause[71]	_	_	_	
+
+#Text=-
+141-1	2936-2937	-	GWithout[24]	spenden\_set1\_11[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-spenden\_set1\_11[24]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	male	*	speaker:Tony	_	_	_	_	_	
+
+#Text=Sie hat erzählt dass sie Geld dafür bekommen hat.
+142-1	2939-2942	Sie	GWithout[24]	spenden\_set1\_11[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-spenden\_set1\_11[24]	3	*	*	*	singular	false[116]	Decl[116]	*[205]	*[205]	*[205]	*[205]	*[205]	input1[205]	19[294]	male[294]	f28ipql67ma8cbjqke6k374ach[294]	speaker: YOU[383]	*->19-2	PerPron[19]	result	*	143-1[117_116]	
+142-2	2943-2946	hat	GWithout[24]	spenden\_set1\_11[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-spenden\_set1\_11[24]	_	_	_	_	_	false[116]	Decl[116]	*[205]	*[205]	*[205]	*[205]	*[205]	input1[205]	19[294]	male[294]	f28ipql67ma8cbjqke6k374ach[294]	speaker: YOU[383]	_	_	_	_	_	
+142-3	2947-2954	erzählt	GWithout[24]	spenden\_set1\_11[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-spenden\_set1\_11[24]	_	_	_	_	_	false[116]	Decl[116]	*[205]	*[205]	*[205]	*[205]	*[205]	input1[205]	19[294]	male[294]	f28ipql67ma8cbjqke6k374ach[294]	speaker: YOU[383]	_	_	_	_	_	
+142-4	2955-2959	dass	GWithout[24]	spenden\_set1\_11[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-spenden\_set1\_11[24]	_	_	_	_	_	false[116]	Decl[116]	*[205]	*[205]	*[205]	*[205]	*[205]	input1[205]	19[294]	male[294]	f28ipql67ma8cbjqke6k374ach[294]	speaker: YOU[383]	_	_	_	_	_	
+142-5	2960-2963	sie	GWithout[24]	spenden\_set1\_11[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-spenden\_set1\_11[24]	3	*	*	*	singular	false[116]	Decl[116]	*[205]	*[205]	*[205]	*[205]	*[205]	input1[205]	19[294]	male[294]	f28ipql67ma8cbjqke6k374ach[294]	speaker: YOU[383]	*->19-3	PerPron[19]	_	_	_	
+142-6	2964-2968	Geld	GWithout[24]	spenden\_set1\_11[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-spenden\_set1\_11[24]	_	_	_	_	_	false[116]	Decl[116]	*[205]	*[205]	*[205]	*[205]	*[205]	input1[205]	19[294]	male[294]	f28ipql67ma8cbjqke6k374ach[294]	speaker: YOU[383]	*->59-1	IndefNP[59]	_	_	_	
+142-7	2969-2974	dafür	GWithout[24]	spenden\_set1\_11[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-spenden\_set1\_11[24]	_	_	_	_	_	false[116]	Decl[116]	*[205]	*[205]	*[205]	*[205]	*[205]	input1[205]	19[294]	male[294]	f28ipql67ma8cbjqke6k374ach[294]	speaker: YOU[383]	*->71-2	D-Pron[71]	_	_	_	
+142-8	2975-2983	bekommen	GWithout[24]	spenden\_set1\_11[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-spenden\_set1\_11[24]	_	_	_	_	_	false[116]	Decl[116]	*[205]	*[205]	*[205]	*[205]	*[205]	input1[205]	19[294]	male[294]	f28ipql67ma8cbjqke6k374ach[294]	speaker: YOU[383]	_	_	_	_	_	
+142-9	2984-2988	hat.	GWithout[24]	spenden\_set1\_11[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-spenden\_set1\_11[24]	_	_	_	_	_	false[116]	Decl[116]	*[205]	*[205]	*[205]	*[205]	*[205]	input1[205]	19[294]	male[294]	f28ipql67ma8cbjqke6k374ach[294]	speaker: YOU[383]	_	_	_	_	_	
+
+#Text=Willst du mit mir spenden gehen?
+143-1	2990-2996	Willst	GWithout[24]	spenden\_set1\_11[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-spenden\_set1\_11[24]	_	_	_	_	_	false[117]	Int[117]	*[206]	*[206]	*[206]	*[206]	*[206]	input2[206]	19[295]	male[295]	f28ipql67ma8cbjqke6k374ach[295]	speaker: YOU[384]	_	_	_	_	_	
+143-2	2997-2999	du	GWithout[24]	spenden\_set1\_11[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-spenden\_set1\_11[24]	2	*	*	*	singular	false[117]	Int[117]	*[206]	*[206]	*[206]	*[206]	*[206]	input2[206]	19[295]	male[295]	f28ipql67ma8cbjqke6k374ach[295]	speaker: YOU[384]	*->54-1	PerPron[54]	_	_	_	
+143-3	3000-3003	mit	GWithout[24]	spenden\_set1\_11[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-spenden\_set1\_11[24]	_	_	_	_	_	false[117]	Int[117]	*[206]	*[206]	*[206]	*[206]	*[206]	input2[206]	19[295]	male[295]	f28ipql67ma8cbjqke6k374ach[295]	speaker: YOU[384]	_	_	_	_	_	
+143-4	3004-3007	mir	GWithout[24]	spenden\_set1\_11[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-spenden\_set1\_11[24]	1	*	*	*	singular	false[117]	Int[117]	*[206]	*[206]	*[206]	*[206]	*[206]	input2[206]	19[295]	male[295]	f28ipql67ma8cbjqke6k374ach[295]	speaker: YOU[384]	*->96-1	PerPron[96]	_	_	_	
+143-5	3008-3015	spenden	GWithout[24]	spenden\_set1\_11[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-spenden\_set1\_11[24]	_	_	_	_	_	false[117]	Int[117]	*[206]	*[206]	*[206]	*[206]	*[206]	input2[206]	19[295]	male[295]	f28ipql67ma8cbjqke6k374ach[295]	speaker: YOU[384]	_	_	_	_	_	
+143-6	3016-3022	gehen?	GWithout[24]	spenden\_set1\_11[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-spenden\_set1\_11[24]	_	_	_	_	_	false[117]	Int[117]	*[206]	*[206]	*[206]	*[206]	*[206]	input2[206]	19[295]	male[295]	f28ipql67ma8cbjqke6k374ach[295]	speaker: YOU[384]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+144-1	3024-3039	END_OF_DOCUMENT	GWithout[24]	spenden\_set1\_11[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-spenden\_set1\_11[24]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+145-1	3041-3044	Na?	GWithout[25]	spenden\_set1\_11[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-spenden\_set1\_11[25]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	male	*	speaker:Tony	_	_	QAP	*	146-1[118_0]	
+
+#Text=Clara hat Blut gespendet
+146-1	3046-3051	Clara	GWithout[25]	spenden\_set1\_11[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-spenden\_set1\_11[25]	_	_	_	_	_	false[118]	Decl[118]	*[207]	spenden[207]	transitive[207]	*[207]	*[207]	item0[207]	36[296]	male[296]	ifdbjqro2nfkup12rv8t6k0eu9[296]	speaker: YOU[385]	*->44-1	PropNm[44]	narration	*	148-1[119_118]	
+146-2	3052-3055	hat	GWithout[25]	spenden\_set1\_11[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-spenden\_set1\_11[25]	_	_	_	_	_	false[118]	Decl[118]	*[207]	spenden[207]	transitive[207]	*[207]	*[207]	item0[207]	36[296]	male[296]	ifdbjqro2nfkup12rv8t6k0eu9[296]	speaker: YOU[385]	_	_	_	_	_	
+146-3	3056-3060	Blut	GWithout[25]	spenden\_set1\_11[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-spenden\_set1\_11[25]	_	_	_	_	_	false[118]	Decl[118]	*[207]	spenden[207]	transitive[207]	*[207]	*[207]	item0[207]	36[296]	male[296]	ifdbjqro2nfkup12rv8t6k0eu9[296]	speaker: YOU[385]	*->66-1	IndefNP[66]	_	_	_	
+146-4	3061-3070	gespendet	GWithout[25]	spenden\_set1\_11[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-spenden\_set1\_11[25]	_	_	_	_	_	false[118]	Decl[118]	*[207]	spenden[207]	transitive[207]	*[207]	*[207]	item0[207]	36[296]	male[296]	ifdbjqro2nfkup12rv8t6k0eu9[296]	speaker: YOU[385]	_	_	_	_	_	
+
+#Text=-
+147-1	3072-3073	-	GWithout[25]	spenden\_set1\_11[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-spenden\_set1\_11[25]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	male	*	speaker:Tony	_	_	_	_	_	
+
+#Text=jetzt ist sie im Bett
+148-1	3075-3080	jetzt	GWithout[25]	spenden\_set1\_11[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-spenden\_set1\_11[25]	_	_	_	_	_	false[119]	Decl[119]	*[208]	*[208]	*[208]	*[208]	*[208]	input1[208]	36[297]	male[297]	ifdbjqro2nfkup12rv8t6k0eu9[297]	speaker: YOU[386]	_	_	narration	*	149-1[120_119]	
+148-2	3081-3084	ist	GWithout[25]	spenden\_set1\_11[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-spenden\_set1\_11[25]	_	_	_	_	_	false[119]	Decl[119]	*[208]	*[208]	*[208]	*[208]	*[208]	input1[208]	36[297]	male[297]	ifdbjqro2nfkup12rv8t6k0eu9[297]	speaker: YOU[386]	_	_	_	_	_	
+148-3	3085-3088	sie	GWithout[25]	spenden\_set1\_11[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-spenden\_set1\_11[25]	3	*	*	*	singular	false[119]	Decl[119]	*[208]	*[208]	*[208]	*[208]	*[208]	input1[208]	36[297]	male[297]	ifdbjqro2nfkup12rv8t6k0eu9[297]	speaker: YOU[386]	*->44-2	PerPron[44]	_	_	_	
+148-4	3089-3091	im	GWithout[25]	spenden\_set1\_11[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-spenden\_set1\_11[25]	_	_	_	_	_	false[119]	Decl[119]	*[208]	*[208]	*[208]	*[208]	*[208]	input1[208]	36[297]	male[297]	ifdbjqro2nfkup12rv8t6k0eu9[297]	speaker: YOU[386]	*->80-1	DefNP[80]	_	_	_	
+148-5	3092-3096	Bett	GWithout[25]	spenden\_set1\_11[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-spenden\_set1\_11[25]	_	_	_	_	_	false[119]	Decl[119]	*[208]	*[208]	*[208]	*[208]	*[208]	input1[208]	36[297]	male[297]	ifdbjqro2nfkup12rv8t6k0eu9[297]	speaker: YOU[386]	*->80-1	DefNP[80]	_	_	_	
+
+#Text=heute macht sie nichts mehr
+149-1	3098-3103	heute	GWithout[25]	spenden\_set1\_11[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-spenden\_set1\_11[25]	_	_	_	_	_	false[120]	Decl[120]	*[209]	*[209]	*[209]	*[209]	*[209]	input2[209]	36[298]	male[298]	ifdbjqro2nfkup12rv8t6k0eu9[298]	speaker: YOU[387]	_	_	_	_	_	
+149-2	3104-3109	macht	GWithout[25]	spenden\_set1\_11[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-spenden\_set1\_11[25]	_	_	_	_	_	false[120]	Decl[120]	*[209]	*[209]	*[209]	*[209]	*[209]	input2[209]	36[298]	male[298]	ifdbjqro2nfkup12rv8t6k0eu9[298]	speaker: YOU[387]	_	_	_	_	_	
+149-3	3110-3113	sie	GWithout[25]	spenden\_set1\_11[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-spenden\_set1\_11[25]	3	*	*	*	singular	false[120]	Decl[120]	*[209]	*[209]	*[209]	*[209]	*[209]	input2[209]	36[298]	male[298]	ifdbjqro2nfkup12rv8t6k0eu9[298]	speaker: YOU[387]	*->44-3	PerPron[44]	_	_	_	
+149-4	3114-3120	nichts	GWithout[25]	spenden\_set1\_11[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-spenden\_set1\_11[25]	_	_	_	_	_	false[120]	Decl[120]	*[209]	*[209]	*[209]	*[209]	*[209]	input2[209]	36[298]	male[298]	ifdbjqro2nfkup12rv8t6k0eu9[298]	speaker: YOU[387]	_	_	_	_	_	
+149-5	3121-3125	mehr	GWithout[25]	spenden\_set1\_11[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-spenden\_set1\_11[25]	_	_	_	_	_	false[120]	Decl[120]	*[209]	*[209]	*[209]	*[209]	*[209]	input2[209]	36[298]	male[298]	ifdbjqro2nfkup12rv8t6k0eu9[298]	speaker: YOU[387]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+150-1	3127-3142	END_OF_DOCUMENT	GWithout[25]	spenden\_set1\_11[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-spenden\_set1\_11[25]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+151-1	3144-3147	Na?	GWithout[26]	spenden\_set1\_11[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-spenden\_set1\_11[26]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	male	*	speaker:Tony	_	_	QAP	*	152-1[121_0]	
+
+#Text=Clara hat Blut gespendet
+152-1	3149-3154	Clara	GWithout[26]	spenden\_set1\_11[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-spenden\_set1\_11[26]	_	_	_	_	_	false[121]	Decl[121]	*[210]	spenden[210]	transitive[210]	*[210]	*[210]	item0[210]	27[299]	female[299]	nn1fs9jkn62eo9089lo89usbkb[299]	speaker: YOU[388]	*->21-1	PropNm[21]	parallel	*	154-1[122_121]	
+152-2	3155-3158	hat	GWithout[26]	spenden\_set1\_11[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-spenden\_set1\_11[26]	_	_	_	_	_	false[121]	Decl[121]	*[210]	spenden[210]	transitive[210]	*[210]	*[210]	item0[210]	27[299]	female[299]	nn1fs9jkn62eo9089lo89usbkb[299]	speaker: YOU[388]	*->55-1	clause[55]	_	_	_	
+152-3	3159-3163	Blut	GWithout[26]	spenden\_set1\_11[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-spenden\_set1\_11[26]	_	_	_	_	_	false[121]	Decl[121]	*[210]	spenden[210]	transitive[210]	*[210]	*[210]	item0[210]	27[299]	female[299]	nn1fs9jkn62eo9089lo89usbkb[299]	speaker: YOU[388]	*->55-1|*->125-1	clause[55]|IndefNP[125]	_	_	_	
+152-4	3164-3173	gespendet	GWithout[26]	spenden\_set1\_11[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-spenden\_set1\_11[26]	_	_	_	_	_	false[121]	Decl[121]	*[210]	spenden[210]	transitive[210]	*[210]	*[210]	item0[210]	27[299]	female[299]	nn1fs9jkn62eo9089lo89usbkb[299]	speaker: YOU[388]	*->55-1	clause[55]	_	_	_	
+
+#Text=-
+153-1	3175-3176	-	GWithout[26]	spenden\_set1\_11[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-spenden\_set1\_11[26]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	male	*	speaker:Tony	_	_	_	_	_	
+
+#Text=Warst du schon einmal?
+154-1	3178-3183	Warst	GWithout[26]	spenden\_set1\_11[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-spenden\_set1\_11[26]	_	_	_	_	_	false[122]	Int[122]	*[211]	*[211]	*[211]	*[211]	*[211]	input1[211]	27[300]	female[300]	nn1fs9jkn62eo9089lo89usbkb[300]	speaker: YOU[389]	_	_	parallel	*	155-1[123_122]	
+154-2	3184-3186	du	GWithout[26]	spenden\_set1\_11[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-spenden\_set1\_11[26]	2	*	*	*	singular	false[122]	Int[122]	*[211]	*[211]	*[211]	*[211]	*[211]	input1[211]	27[300]	female[300]	nn1fs9jkn62eo9089lo89usbkb[300]	speaker: YOU[389]	*->10-1	PerPron[10]	_	_	_	
+154-3	3187-3192	schon	GWithout[26]	spenden\_set1\_11[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-spenden\_set1\_11[26]	_	_	_	_	_	false[122]	Int[122]	*[211]	*[211]	*[211]	*[211]	*[211]	input1[211]	27[300]	female[300]	nn1fs9jkn62eo9089lo89usbkb[300]	speaker: YOU[389]	_	_	_	_	_	
+154-4	3193-3200	einmal?	GWithout[26]	spenden\_set1\_11[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-spenden\_set1\_11[26]	_	_	_	_	_	false[122]	Int[122]	*[211]	*[211]	*[211]	*[211]	*[211]	input1[211]	27[300]	female[300]	nn1fs9jkn62eo9089lo89usbkb[300]	speaker: YOU[389]	_	_	_	_	_	
+
+#Text=Glaube ich sollte es auch mal probieren
+155-1	3202-3208	Glaube	GWithout[26]	spenden\_set1\_11[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-spenden\_set1\_11[26]	1	*	*	*	singular	false[123]	Decl[123]	*[212]	*[212]	*[212]	*[212]	*[212]	input2[212]	27[301]	female[301]	nn1fs9jkn62eo9089lo89usbkb[301]	speaker: YOU[390]	*->34-1	zero[34]	_	_	_	
+155-2	3209-3212	ich	GWithout[26]	spenden\_set1\_11[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-spenden\_set1\_11[26]	1	*	*	*	singular	false[123]	Decl[123]	*[212]	*[212]	*[212]	*[212]	*[212]	input2[212]	27[301]	female[301]	nn1fs9jkn62eo9089lo89usbkb[301]	speaker: YOU[390]	*->34-2	PerPron[34]	_	_	_	
+155-3	3213-3219	sollte	GWithout[26]	spenden\_set1\_11[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-spenden\_set1\_11[26]	_	_	_	_	_	false[123]	Decl[123]	*[212]	*[212]	*[212]	*[212]	*[212]	input2[212]	27[301]	female[301]	nn1fs9jkn62eo9089lo89usbkb[301]	speaker: YOU[390]	_	_	_	_	_	
+155-4	3220-3222	es	GWithout[26]	spenden\_set1\_11[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-spenden\_set1\_11[26]	3	*	*	*	singular	false[123]	Decl[123]	*[212]	*[212]	*[212]	*[212]	*[212]	input2[212]	27[301]	female[301]	nn1fs9jkn62eo9089lo89usbkb[301]	speaker: YOU[390]	*->55-2	PerPron[55]	_	_	_	
+155-5	3223-3227	auch	GWithout[26]	spenden\_set1\_11[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-spenden\_set1\_11[26]	_	_	_	_	_	false[123]	Decl[123]	*[212]	*[212]	*[212]	*[212]	*[212]	input2[212]	27[301]	female[301]	nn1fs9jkn62eo9089lo89usbkb[301]	speaker: YOU[390]	_	_	_	_	_	
+155-6	3228-3231	mal	GWithout[26]	spenden\_set1\_11[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-spenden\_set1\_11[26]	_	_	_	_	_	false[123]	Decl[123]	*[212]	*[212]	*[212]	*[212]	*[212]	input2[212]	27[301]	female[301]	nn1fs9jkn62eo9089lo89usbkb[301]	speaker: YOU[390]	_	_	_	_	_	
+155-7	3232-3241	probieren	GWithout[26]	spenden\_set1\_11[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-spenden\_set1\_11[26]	_	_	_	_	_	false[123]	Decl[123]	*[212]	*[212]	*[212]	*[212]	*[212]	input2[212]	27[301]	female[301]	nn1fs9jkn62eo9089lo89usbkb[301]	speaker: YOU[390]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+156-1	3243-3258	END_OF_DOCUMENT	GWithout[26]	spenden\_set1\_11[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-spenden\_set1\_11[26]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+157-1	3260-3263	Na?	GWithout[27]	spenden\_set1\_11[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-spenden\_set1\_11[27]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	male	*	speaker:Tony	_	_	QAP	*	158-1[124_0]	
+
+#Text=Clara hat Blut gespendet
+158-1	3265-3270	Clara	GWithout[27]	spenden\_set1\_11[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-spenden\_set1\_11[27]	_	_	_	_	_	false[124]	Decl[124]	*[213]	spenden[213]	transitive[213]	*[213]	*[213]	item0[213]	24[302]	male[302]	qaaqp55l485lvs9rdvpvbtmqal[302]	speaker: YOU[391]	*->128-1	PropNm[128]	contrast	*	160-1[125_124]	
+158-2	3271-3274	hat	GWithout[27]	spenden\_set1\_11[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-spenden\_set1\_11[27]	_	_	_	_	_	false[124]	Decl[124]	*[213]	spenden[213]	transitive[213]	*[213]	*[213]	item0[213]	24[302]	male[302]	qaaqp55l485lvs9rdvpvbtmqal[302]	speaker: YOU[391]	*->114-1	clause[114]	_	_	_	
+158-3	3275-3279	Blut	GWithout[27]	spenden\_set1\_11[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-spenden\_set1\_11[27]	_	_	_	_	_	false[124]	Decl[124]	*[213]	spenden[213]	transitive[213]	*[213]	*[213]	item0[213]	24[302]	male[302]	qaaqp55l485lvs9rdvpvbtmqal[302]	speaker: YOU[391]	*->114-1|*->106-1	clause[114]|IndefNP[106]	_	_	_	
+158-4	3280-3289	gespendet	GWithout[27]	spenden\_set1\_11[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-spenden\_set1\_11[27]	_	_	_	_	_	false[124]	Decl[124]	*[213]	spenden[213]	transitive[213]	*[213]	*[213]	item0[213]	24[302]	male[302]	qaaqp55l485lvs9rdvpvbtmqal[302]	speaker: YOU[391]	*->114-1	clause[114]	_	_	_	
+
+#Text=-
+159-1	3291-3292	-	GWithout[27]	spenden\_set1\_11[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-spenden\_set1\_11[27]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	male	*	speaker:Tony	_	_	_	_	_	
+
+#Text=Ich konnte mich heute leider nicht dazu überwinden
+160-1	3294-3297	Ich	GWithout[27]	spenden\_set1\_11[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-spenden\_set1\_11[27]	1	*	*	*	singular	false[125]	Decl[125]	*[214]	*[214]	*[214]	*[214]	*[214]	input1[214]	24[303]	male[303]	qaaqp55l485lvs9rdvpvbtmqal[303]	speaker: YOU[392]	*->85-1	PerPron[85]	contrast	*	161-1[126_125]	
+160-2	3298-3304	konnte	GWithout[27]	spenden\_set1\_11[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-spenden\_set1\_11[27]	_	_	_	_	_	false[125]	Decl[125]	*[214]	*[214]	*[214]	*[214]	*[214]	input1[214]	24[303]	male[303]	qaaqp55l485lvs9rdvpvbtmqal[303]	speaker: YOU[392]	_	_	_	_	_	
+160-3	3305-3309	mich	GWithout[27]	spenden\_set1\_11[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-spenden\_set1\_11[27]	_	_	_	_	_	false[125]	Decl[125]	*[214]	*[214]	*[214]	*[214]	*[214]	input1[214]	24[303]	male[303]	qaaqp55l485lvs9rdvpvbtmqal[303]	speaker: YOU[392]	_	_	_	_	_	
+160-4	3310-3315	heute	GWithout[27]	spenden\_set1\_11[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-spenden\_set1\_11[27]	_	_	_	_	_	false[125]	Decl[125]	*[214]	*[214]	*[214]	*[214]	*[214]	input1[214]	24[303]	male[303]	qaaqp55l485lvs9rdvpvbtmqal[303]	speaker: YOU[392]	_	_	_	_	_	
+160-5	3316-3322	leider	GWithout[27]	spenden\_set1\_11[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-spenden\_set1\_11[27]	_	_	_	_	_	false[125]	Decl[125]	*[214]	*[214]	*[214]	*[214]	*[214]	input1[214]	24[303]	male[303]	qaaqp55l485lvs9rdvpvbtmqal[303]	speaker: YOU[392]	_	_	_	_	_	
+160-6	3323-3328	nicht	GWithout[27]	spenden\_set1\_11[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-spenden\_set1\_11[27]	_	_	_	_	_	false[125]	Decl[125]	*[214]	*[214]	*[214]	*[214]	*[214]	input1[214]	24[303]	male[303]	qaaqp55l485lvs9rdvpvbtmqal[303]	speaker: YOU[392]	_	_	_	_	_	
+160-7	3329-3333	dazu	GWithout[27]	spenden\_set1\_11[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-spenden\_set1\_11[27]	_	_	_	_	_	false[125]	Decl[125]	*[214]	*[214]	*[214]	*[214]	*[214]	input1[214]	24[303]	male[303]	qaaqp55l485lvs9rdvpvbtmqal[303]	speaker: YOU[392]	*->114-2	D-Pron[114]	_	_	_	
+160-8	3334-3344	überwinden	GWithout[27]	spenden\_set1\_11[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-spenden\_set1\_11[27]	_	_	_	_	_	false[125]	Decl[125]	*[214]	*[214]	*[214]	*[214]	*[214]	input1[214]	24[303]	male[303]	qaaqp55l485lvs9rdvpvbtmqal[303]	speaker: YOU[392]	_	_	_	_	_	
+
+#Text=Aber nächste Woche werde ich auch Blut spenden
+161-1	3346-3350	Aber	GWithout[27]	spenden\_set1\_11[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-spenden\_set1\_11[27]	_	_	_	_	_	false[126]	Decl[126]	*[215]	*[215]	*[215]	*[215]	*[215]	input2[215]	24[304]	male[304]	qaaqp55l485lvs9rdvpvbtmqal[304]	speaker: YOU[393]	_	_	_	_	_	
+161-2	3351-3358	nächste	GWithout[27]	spenden\_set1\_11[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-spenden\_set1\_11[27]	_	_	_	_	_	false[126]	Decl[126]	*[215]	*[215]	*[215]	*[215]	*[215]	input2[215]	24[304]	male[304]	qaaqp55l485lvs9rdvpvbtmqal[304]	speaker: YOU[393]	*->20-1	DefNP[20]	_	_	_	
+161-3	3359-3364	Woche	GWithout[27]	spenden\_set1\_11[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-spenden\_set1\_11[27]	_	_	_	_	_	false[126]	Decl[126]	*[215]	*[215]	*[215]	*[215]	*[215]	input2[215]	24[304]	male[304]	qaaqp55l485lvs9rdvpvbtmqal[304]	speaker: YOU[393]	*->20-1	DefNP[20]	_	_	_	
+161-4	3365-3370	werde	GWithout[27]	spenden\_set1\_11[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-spenden\_set1\_11[27]	_	_	_	_	_	false[126]	Decl[126]	*[215]	*[215]	*[215]	*[215]	*[215]	input2[215]	24[304]	male[304]	qaaqp55l485lvs9rdvpvbtmqal[304]	speaker: YOU[393]	_	_	_	_	_	
+161-5	3371-3374	ich	GWithout[27]	spenden\_set1\_11[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-spenden\_set1\_11[27]	1	*	*	*	singular	false[126]	Decl[126]	*[215]	*[215]	*[215]	*[215]	*[215]	input2[215]	24[304]	male[304]	qaaqp55l485lvs9rdvpvbtmqal[304]	speaker: YOU[393]	*->85-2	PerPron[85]	_	_	_	
+161-6	3375-3379	auch	GWithout[27]	spenden\_set1\_11[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-spenden\_set1\_11[27]	_	_	_	_	_	false[126]	Decl[126]	*[215]	*[215]	*[215]	*[215]	*[215]	input2[215]	24[304]	male[304]	qaaqp55l485lvs9rdvpvbtmqal[304]	speaker: YOU[393]	_	_	_	_	_	
+161-7	3380-3384	Blut	GWithout[27]	spenden\_set1\_11[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-spenden\_set1\_11[27]	_	_	_	_	_	false[126]	Decl[126]	*[215]	*[215]	*[215]	*[215]	*[215]	input2[215]	24[304]	male[304]	qaaqp55l485lvs9rdvpvbtmqal[304]	speaker: YOU[393]	*->48-1	IndefNP[48]	_	_	_	
+161-8	3385-3392	spenden	GWithout[27]	spenden\_set1\_11[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-spenden\_set1\_11[27]	_	_	_	_	_	false[126]	Decl[126]	*[215]	*[215]	*[215]	*[215]	*[215]	input2[215]	24[304]	male[304]	qaaqp55l485lvs9rdvpvbtmqal[304]	speaker: YOU[393]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+162-1	3394-3409	END_OF_DOCUMENT	GWithout[27]	spenden\_set1\_11[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-spenden\_set1\_11[27]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+163-1	3411-3414	Na?	GWithout[28]	spenden\_set1\_11[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-spenden\_set1\_11[28]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	male	*	speaker:Tony	_	_	QAP	*	164-1[127_0]	
+
+#Text=Clara hat Blut gespendet
+164-1	3416-3421	Clara	GWithout[28]	spenden\_set1\_11[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-spenden\_set1\_11[28]	_	_	_	_	_	false[127]	Decl[127]	*[216]	spenden[216]	transitive[216]	*[216]	*[216]	item0[216]	25[305]	female[305]	t6ah1r7hfmcncb44kgnh0sjmv6[305]	speaker: YOU[394]	*->108-1	PropNm[108]	elaboration	*	166-1[128_127]	
+164-2	3422-3425	hat	GWithout[28]	spenden\_set1\_11[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-spenden\_set1\_11[28]	_	_	_	_	_	false[127]	Decl[127]	*[216]	spenden[216]	transitive[216]	*[216]	*[216]	item0[216]	25[305]	female[305]	t6ah1r7hfmcncb44kgnh0sjmv6[305]	speaker: YOU[394]	_	_	_	_	_	
+164-3	3426-3430	Blut	GWithout[28]	spenden\_set1\_11[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-spenden\_set1\_11[28]	_	_	_	_	_	false[127]	Decl[127]	*[216]	spenden[216]	transitive[216]	*[216]	*[216]	item0[216]	25[305]	female[305]	t6ah1r7hfmcncb44kgnh0sjmv6[305]	speaker: YOU[394]	*->22-1	IndefNP[22]	_	_	_	
+164-4	3431-3440	gespendet	GWithout[28]	spenden\_set1\_11[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-spenden\_set1\_11[28]	_	_	_	_	_	false[127]	Decl[127]	*[216]	spenden[216]	transitive[216]	*[216]	*[216]	item0[216]	25[305]	female[305]	t6ah1r7hfmcncb44kgnh0sjmv6[305]	speaker: YOU[394]	_	_	_	_	_	
+
+#Text=-
+165-1	3442-3443	-	GWithout[28]	spenden\_set1\_11[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-spenden\_set1\_11[28]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	male	*	speaker:Tony	_	_	_	_	_	
+
+#Text=Ich bin total stolz auf sie
+166-1	3445-3448	Ich	GWithout[28]	spenden\_set1\_11[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-spenden\_set1\_11[28]	1	*	*	*	singular	false[128]	Decl[128]	*[217]	*[217]	*[217]	*[217]	*[217]	input1[217]	25[306]	female[306]	t6ah1r7hfmcncb44kgnh0sjmv6[306]	speaker: YOU[395]	*->40-1	PerPron[40]	explanation	*	167-1[129_128]	
+166-2	3449-3452	bin	GWithout[28]	spenden\_set1\_11[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-spenden\_set1\_11[28]	_	_	_	_	_	false[128]	Decl[128]	*[217]	*[217]	*[217]	*[217]	*[217]	input1[217]	25[306]	female[306]	t6ah1r7hfmcncb44kgnh0sjmv6[306]	speaker: YOU[395]	_	_	_	_	_	
+166-3	3453-3458	total	GWithout[28]	spenden\_set1\_11[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-spenden\_set1\_11[28]	_	_	_	_	_	false[128]	Decl[128]	*[217]	*[217]	*[217]	*[217]	*[217]	input1[217]	25[306]	female[306]	t6ah1r7hfmcncb44kgnh0sjmv6[306]	speaker: YOU[395]	_	_	_	_	_	
+166-4	3459-3464	stolz	GWithout[28]	spenden\_set1\_11[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-spenden\_set1\_11[28]	_	_	_	_	_	false[128]	Decl[128]	*[217]	*[217]	*[217]	*[217]	*[217]	input1[217]	25[306]	female[306]	t6ah1r7hfmcncb44kgnh0sjmv6[306]	speaker: YOU[395]	_	_	_	_	_	
+166-5	3465-3468	auf	GWithout[28]	spenden\_set1\_11[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-spenden\_set1\_11[28]	_	_	_	_	_	false[128]	Decl[128]	*[217]	*[217]	*[217]	*[217]	*[217]	input1[217]	25[306]	female[306]	t6ah1r7hfmcncb44kgnh0sjmv6[306]	speaker: YOU[395]	_	_	_	_	_	
+166-6	3469-3472	sie	GWithout[28]	spenden\_set1\_11[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-spenden\_set1\_11[28]	3	*	*	*	singular	false[128]	Decl[128]	*[217]	*[217]	*[217]	*[217]	*[217]	input1[217]	25[306]	female[306]	t6ah1r7hfmcncb44kgnh0sjmv6[306]	speaker: YOU[395]	*->108-2	PerPron[108]	_	_	_	
+
+#Text=Sie hat ja so viel Angst vor Nadeln
+167-1	3474-3477	Sie	GWithout[28]	spenden\_set1\_11[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-spenden\_set1\_11[28]	3	*	*	*	singular	false[129]	Decl[129]	*[218]	*[218]	*[218]	*[218]	*[218]	input2[218]	25[307]	female[307]	t6ah1r7hfmcncb44kgnh0sjmv6[307]	speaker: YOU[396]	*->108-3	PerPron[108]	_	_	_	
+167-2	3478-3481	hat	GWithout[28]	spenden\_set1\_11[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-spenden\_set1\_11[28]	_	_	_	_	_	false[129]	Decl[129]	*[218]	*[218]	*[218]	*[218]	*[218]	input2[218]	25[307]	female[307]	t6ah1r7hfmcncb44kgnh0sjmv6[307]	speaker: YOU[396]	_	_	_	_	_	
+167-3	3482-3484	ja	GWithout[28]	spenden\_set1\_11[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-spenden\_set1\_11[28]	_	_	_	_	_	false[129]	Decl[129]	*[218]	*[218]	*[218]	*[218]	*[218]	input2[218]	25[307]	female[307]	t6ah1r7hfmcncb44kgnh0sjmv6[307]	speaker: YOU[396]	_	_	_	_	_	
+167-4	3485-3487	so	GWithout[28]	spenden\_set1\_11[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-spenden\_set1\_11[28]	_	_	_	_	_	false[129]	Decl[129]	*[218]	*[218]	*[218]	*[218]	*[218]	input2[218]	25[307]	female[307]	t6ah1r7hfmcncb44kgnh0sjmv6[307]	speaker: YOU[396]	*->57-1	DefNP[57]	_	_	_	
+167-5	3488-3492	viel	GWithout[28]	spenden\_set1\_11[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-spenden\_set1\_11[28]	_	_	_	_	_	false[129]	Decl[129]	*[218]	*[218]	*[218]	*[218]	*[218]	input2[218]	25[307]	female[307]	t6ah1r7hfmcncb44kgnh0sjmv6[307]	speaker: YOU[396]	*->57-1	DefNP[57]	_	_	_	
+167-6	3493-3498	Angst	GWithout[28]	spenden\_set1\_11[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-spenden\_set1\_11[28]	_	_	_	_	_	false[129]	Decl[129]	*[218]	*[218]	*[218]	*[218]	*[218]	input2[218]	25[307]	female[307]	t6ah1r7hfmcncb44kgnh0sjmv6[307]	speaker: YOU[396]	*->57-1	DefNP[57]	_	_	_	
+167-7	3499-3502	vor	GWithout[28]	spenden\_set1\_11[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-spenden\_set1\_11[28]	_	_	_	_	_	false[129]	Decl[129]	*[218]	*[218]	*[218]	*[218]	*[218]	input2[218]	25[307]	female[307]	t6ah1r7hfmcncb44kgnh0sjmv6[307]	speaker: YOU[396]	*->57-1	DefNP[57]	_	_	_	
+167-8	3503-3509	Nadeln	GWithout[28]	spenden\_set1\_11[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-spenden\_set1\_11[28]	_	_	_	_	_	false[129]	Decl[129]	*[218]	*[218]	*[218]	*[218]	*[218]	input2[218]	25[307]	female[307]	t6ah1r7hfmcncb44kgnh0sjmv6[307]	speaker: YOU[396]	*->57-1|*->51-1	DefNP[57]|IndefNP[51]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+168-1	3511-3526	END_OF_DOCUMENT	GWithout[28]	spenden\_set1\_11[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-spenden\_set1\_11[28]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+169-1	3528-3531	Na?	GWithout[29]	spenden\_set1\_11[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-spenden\_set1\_11[29]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	male	*	speaker:Tony	_	_	QAP	*	170-1[130_0]	
+
+#Text=Clara hat Blut gespendet
+170-1	3533-3538	Clara	GWithout[29]	spenden\_set1\_11[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-spenden\_set1\_11[29]	_	_	_	_	_	false[130]	Decl[130]	*[219]	spenden[219]	transitive[219]	*[219]	*[219]	item0[219]	29[308]	female[308]	ue2vk0ts1hkpki58vsa3j8t39j[308]	speaker: YOU[397]	*->97-1	PropNm[97]	narration	*	172-1[131_130]	
+170-2	3539-3542	hat	GWithout[29]	spenden\_set1\_11[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-spenden\_set1\_11[29]	_	_	_	_	_	false[130]	Decl[130]	*[219]	spenden[219]	transitive[219]	*[219]	*[219]	item0[219]	29[308]	female[308]	ue2vk0ts1hkpki58vsa3j8t39j[308]	speaker: YOU[397]	_	_	_	_	_	
+170-3	3543-3547	Blut	GWithout[29]	spenden\_set1\_11[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-spenden\_set1\_11[29]	_	_	_	_	_	false[130]	Decl[130]	*[219]	spenden[219]	transitive[219]	*[219]	*[219]	item0[219]	29[308]	female[308]	ue2vk0ts1hkpki58vsa3j8t39j[308]	speaker: YOU[397]	*->103-1	IndefNP[103]	_	_	_	
+170-4	3548-3557	gespendet	GWithout[29]	spenden\_set1\_11[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-spenden\_set1\_11[29]	_	_	_	_	_	false[130]	Decl[130]	*[219]	spenden[219]	transitive[219]	*[219]	*[219]	item0[219]	29[308]	female[308]	ue2vk0ts1hkpki58vsa3j8t39j[308]	speaker: YOU[397]	_	_	_	_	_	
+
+#Text=-
+171-1	3559-3560	-	GWithout[29]	spenden\_set1\_11[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-spenden\_set1\_11[29]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	male	*	speaker:Tony	_	_	_	_	_	
+
+#Text=Sie ist jetzt zu Hause.
+172-1	3562-3565	Sie	GWithout[29]	spenden\_set1\_11[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-spenden\_set1\_11[29]	3	*	*	*	singular	false[131]	Decl[131]	*[220]	*[220]	*[220]	*[220]	*[220]	input1[220]	29[309]	female[309]	ue2vk0ts1hkpki58vsa3j8t39j[309]	speaker: YOU[398]	*->97-2	PerPron[97]	contrast	*	173-1[132_131]	
+172-2	3566-3569	ist	GWithout[29]	spenden\_set1\_11[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-spenden\_set1\_11[29]	_	_	_	_	_	false[131]	Decl[131]	*[220]	*[220]	*[220]	*[220]	*[220]	input1[220]	29[309]	female[309]	ue2vk0ts1hkpki58vsa3j8t39j[309]	speaker: YOU[398]	_	_	_	_	_	
+172-3	3570-3575	jetzt	GWithout[29]	spenden\_set1\_11[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-spenden\_set1\_11[29]	_	_	_	_	_	false[131]	Decl[131]	*[220]	*[220]	*[220]	*[220]	*[220]	input1[220]	29[309]	female[309]	ue2vk0ts1hkpki58vsa3j8t39j[309]	speaker: YOU[398]	_	_	_	_	_	
+172-4	3576-3578	zu	GWithout[29]	spenden\_set1\_11[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-spenden\_set1\_11[29]	_	_	_	_	_	false[131]	Decl[131]	*[220]	*[220]	*[220]	*[220]	*[220]	input1[220]	29[309]	female[309]	ue2vk0ts1hkpki58vsa3j8t39j[309]	speaker: YOU[398]	_	_	_	_	_	
+172-5	3579-3585	Hause.	GWithout[29]	spenden\_set1\_11[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-spenden\_set1\_11[29]	_	_	_	_	_	false[131]	Decl[131]	*[220]	*[220]	*[220]	*[220]	*[220]	input1[220]	29[309]	female[309]	ue2vk0ts1hkpki58vsa3j8t39j[309]	speaker: YOU[398]	*->82-1	IndefNP[82]	_	_	_	
+
+#Text=Ich gehe aber gleich los.
+173-1	3587-3590	Ich	GWithout[29]	spenden\_set1\_11[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-spenden\_set1\_11[29]	1	*	*	*	singular	false[132]	Decl[132]	*[221]	*[221]	*[221]	*[221]	*[221]	input2[221]	29[310]	female[310]	ue2vk0ts1hkpki58vsa3j8t39j[310]	speaker: YOU[399]	*->6-1	PerPron[6]	_	_	_	
+173-2	3591-3595	gehe	GWithout[29]	spenden\_set1\_11[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-spenden\_set1\_11[29]	_	_	_	_	_	false[132]	Decl[132]	*[221]	*[221]	*[221]	*[221]	*[221]	input2[221]	29[310]	female[310]	ue2vk0ts1hkpki58vsa3j8t39j[310]	speaker: YOU[399]	_	_	_	_	_	
+173-3	3596-3600	aber	GWithout[29]	spenden\_set1\_11[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-spenden\_set1\_11[29]	_	_	_	_	_	false[132]	Decl[132]	*[221]	*[221]	*[221]	*[221]	*[221]	input2[221]	29[310]	female[310]	ue2vk0ts1hkpki58vsa3j8t39j[310]	speaker: YOU[399]	_	_	_	_	_	
+173-4	3601-3607	gleich	GWithout[29]	spenden\_set1\_11[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-spenden\_set1\_11[29]	_	_	_	_	_	false[132]	Decl[132]	*[221]	*[221]	*[221]	*[221]	*[221]	input2[221]	29[310]	female[310]	ue2vk0ts1hkpki58vsa3j8t39j[310]	speaker: YOU[399]	_	_	_	_	_	
+173-5	3608-3612	los.	GWithout[29]	spenden\_set1\_11[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-spenden\_set1\_11[29]	_	_	_	_	_	false[132]	Decl[132]	*[221]	*[221]	*[221]	*[221]	*[221]	input2[221]	29[310]	female[310]	ue2vk0ts1hkpki58vsa3j8t39j[310]	speaker: YOU[399]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+174-1	3614-3629	END_OF_DOCUMENT	GWithout[29]	spenden\_set1\_11[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-spenden\_set1\_11[29]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+175-1	3631-3634	Na?	GWithout[30]	spenden\_set1\_11[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-spenden\_set1\_11[30]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	male	*	speaker:Tony	_	_	QAP	*	176-1[133_0]	
+
+#Text=Clara hat Blut gespendet
+176-1	3636-3641	Clara	GWithout[30]	spenden\_set1\_11[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-spenden\_set1\_11[30]	_	_	_	_	_	false[133]	Decl[133]	*[222]	spenden[222]	transitive[222]	*[222]	*[222]	item0[222]	58[311]	male[311]	v3le8i0hm1ekj0ps9oou7k56t5[311]	speaker: YOU[400]	*->122-1	PropNm[122]	elaboration	*	178-1[134_133]	
+176-2	3642-3645	hat	GWithout[30]	spenden\_set1\_11[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-spenden\_set1\_11[30]	_	_	_	_	_	false[133]	Decl[133]	*[222]	spenden[222]	transitive[222]	*[222]	*[222]	item0[222]	58[311]	male[311]	v3le8i0hm1ekj0ps9oou7k56t5[311]	speaker: YOU[400]	_	_	_	_	_	
+176-3	3646-3650	Blut	GWithout[30]	spenden\_set1\_11[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-spenden\_set1\_11[30]	_	_	_	_	_	false[133]	Decl[133]	*[222]	spenden[222]	transitive[222]	*[222]	*[222]	item0[222]	58[311]	male[311]	v3le8i0hm1ekj0ps9oou7k56t5[311]	speaker: YOU[400]	*->50-1	IndefNP[50]	_	_	_	
+176-4	3651-3660	gespendet	GWithout[30]	spenden\_set1\_11[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-spenden\_set1\_11[30]	_	_	_	_	_	false[133]	Decl[133]	*[222]	spenden[222]	transitive[222]	*[222]	*[222]	item0[222]	58[311]	male[311]	v3le8i0hm1ekj0ps9oou7k56t5[311]	speaker: YOU[400]	_	_	_	_	_	
+
+#Text=-
+177-1	3662-3663	-	GWithout[30]	spenden\_set1\_11[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-spenden\_set1\_11[30]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	male	*	speaker:Tony	_	_	_	_	_	
+
+#Text=wie du gesagt hast
+178-1	3665-3668	wie	GWithout[30]	spenden\_set1\_11[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-spenden\_set1\_11[30]	_	_	_	_	_	false[134]	Decl[134]	*[223]	*[223]	*[223]	*[223]	*[223]	input1[223]	58[312]	male[312]	v3le8i0hm1ekj0ps9oou7k56t5[312]	speaker: YOU[401]	_	_	result	*	179-1[0_134]	
+178-2	3669-3671	du	GWithout[30]	spenden\_set1\_11[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-spenden\_set1\_11[30]	2	*	*	*	singular	false[134]	Decl[134]	*[223]	*[223]	*[223]	*[223]	*[223]	input1[223]	58[312]	male[312]	v3le8i0hm1ekj0ps9oou7k56t5[312]	speaker: YOU[401]	*->27-1	PerPron[27]	_	_	_	
+178-3	3672-3678	gesagt	GWithout[30]	spenden\_set1\_11[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-spenden\_set1\_11[30]	_	_	_	_	_	false[134]	Decl[134]	*[223]	*[223]	*[223]	*[223]	*[223]	input1[223]	58[312]	male[312]	v3le8i0hm1ekj0ps9oou7k56t5[312]	speaker: YOU[401]	_	_	_	_	_	
+178-4	3679-3683	hast	GWithout[30]	spenden\_set1\_11[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-spenden\_set1\_11[30]	_	_	_	_	_	false[134]	Decl[134]	*[223]	*[223]	*[223]	*[223]	*[223]	input1[223]	58[312]	male[312]	v3le8i0hm1ekj0ps9oou7k56t5[312]	speaker: YOU[401]	_	_	_	_	_	
+
+#Text=danke
+179-1	3685-3690	danke	GWithout[30]	spenden\_set1\_11[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-spenden\_set1\_11[30]	_	_	_	_	_	false	NA	*	*	*	*	*	input2	58	male	v3le8i0hm1ekj0ps9oou7k56t5	speaker: YOU	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+180-1	3692-3707	END_OF_DOCUMENT	GWithout[30]	spenden\_set1\_11[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-spenden\_set1\_11[30]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	

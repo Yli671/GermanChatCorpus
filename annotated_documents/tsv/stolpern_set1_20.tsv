@@ -1,0 +1,999 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Error|Error
+#T_SP=webanno.custom.Item_info|condition|item_id|latinsqr_list|unique_id
+#T_SP=webanno.custom.Ref_info|PersonalPronouns_detailed|ref_def|ref_function|ref_gender|ref_num
+#T_SP=webanno.custom.Segment|complex|segment_type
+#T_SP=webanno.custom.Sent_layer|feedback_id|item0_verb|item0_verbtype|openq_id|openq_type|sent_type
+#T_SP=webanno.custom.Speaker_meta|age|gender|speaker_id
+#T_SP=webanno.custom.Speaker_name|speaker_name
+#T_CH=de.tudarmstadt.ukp.dkpro.core.api.coref.type.CoreferenceLink|referenceRelation|referenceType
+#T_RL=webanno.custom.Relations|discourse_rel|speechAct_rel|BT_webanno.custom.Segment
+
+
+#Text=Hey, was gibts Neues?
+1-1	0-4	Hey,	_	GFailure[2]	stolpern\_set1\_20[2]	latin1[2]	2k56uavscuainedj0q9i1sb693-stolpern\_set1\_20[2]	_	_	_	_	_	false[60]	Int[60]	*[197]	*[197]	*[197]	wh\_6[197]	wh\_question[197]	openq[197]	*[326]	female[326]	*[326]	speaker:Eva[455]	_	_	QAP	*	2-1[61_60]	
+1-2	5-8	was	_	GFailure[2]	stolpern\_set1\_20[2]	latin1[2]	2k56uavscuainedj0q9i1sb693-stolpern\_set1\_20[2]	_	_	_	_	_	false[60]	Int[60]	*[197]	*[197]	*[197]	wh\_6[197]	wh\_question[197]	openq[197]	*[326]	female[326]	*[326]	speaker:Eva[455]	_	_	_	_	_	
+1-3	9-14	gibts	_	GFailure[2]	stolpern\_set1\_20[2]	latin1[2]	2k56uavscuainedj0q9i1sb693-stolpern\_set1\_20[2]	_	_	_	_	_	false[60]	Int[60]	*[197]	*[197]	*[197]	wh\_6[197]	wh\_question[197]	openq[197]	*[326]	female[326]	*[326]	speaker:Eva[455]	_	_	_	_	_	
+1-4	15-21	Neues?	_	GFailure[2]	stolpern\_set1\_20[2]	latin1[2]	2k56uavscuainedj0q9i1sb693-stolpern\_set1\_20[2]	_	_	_	_	_	false[60]	Int[60]	*[197]	*[197]	*[197]	wh\_6[197]	wh\_question[197]	openq[197]	*[326]	female[326]	*[326]	speaker:Eva[455]	_	_	_	_	_	
+
+#Text=Sebastian ist gestolpert
+2-1	23-32	Sebastian	_	GFailure[2]	stolpern\_set1\_20[2]	latin1[2]	2k56uavscuainedj0q9i1sb693-stolpern\_set1\_20[2]	*	*	Subj	*	*	false[61]	Decl[61]	*[198]	stolpern[198]	intransitive[198]	*[198]	*[198]	item0[198]	35[327]	female[327]	2k56uavscuainedj0q9i1sb693[327]	speaker: YOU[456]	*->13-1	PropNm[13]	elaboration|CR	*|*	4-1[62_61]|3-1[0_61]	
+2-2	33-36	ist	_	GFailure[2]	stolpern\_set1\_20[2]	latin1[2]	2k56uavscuainedj0q9i1sb693-stolpern\_set1\_20[2]	_	_	_	_	_	false[61]	Decl[61]	*[198]	stolpern[198]	intransitive[198]	*[198]	*[198]	item0[198]	35[327]	female[327]	2k56uavscuainedj0q9i1sb693[327]	speaker: YOU[456]	_	_	_	_	_	
+2-3	37-47	gestolpert	_	GFailure[2]	stolpern\_set1\_20[2]	latin1[2]	2k56uavscuainedj0q9i1sb693-stolpern\_set1\_20[2]	_	_	_	_	_	false[61]	Decl[61]	*[198]	stolpern[198]	intransitive[198]	*[198]	*[198]	item0[198]	35[327]	female[327]	2k56uavscuainedj0q9i1sb693[327]	speaker: YOU[456]	_	_	_	_	_	
+
+#Text=Häh?
+3-1	49-53	Häh?	_	GFailure[2]	stolpern\_set1\_20[2]	latin1[2]	2k56uavscuainedj0q9i1sb693-stolpern\_set1\_20[2]	_	_	_	_	_	false	NA	haeh\_question\_1	*	*	*	*	feedback	*	female	*	speaker:Eva	_	_	_	_	_	
+
+#Text=Er ist so tollpatschig.
+4-1	55-57	Er	_	GFailure[2]	stolpern\_set1\_20[2]	latin1[2]	2k56uavscuainedj0q9i1sb693-stolpern\_set1\_20[2]	3	*	Subj	*	singular	false[62]	Decl[62]	*[199]	*[199]	*[199]	*[199]	*[199]	input1[199]	35[328]	female[328]	2k56uavscuainedj0q9i1sb693[328]	speaker: YOU[457]	*->13-2	PerPron[13]	contrast	*	5-1[63_62]	
+4-2	58-61	ist	_	GFailure[2]	stolpern\_set1\_20[2]	latin1[2]	2k56uavscuainedj0q9i1sb693-stolpern\_set1\_20[2]	_	_	_	_	_	false[62]	Decl[62]	*[199]	*[199]	*[199]	*[199]	*[199]	input1[199]	35[328]	female[328]	2k56uavscuainedj0q9i1sb693[328]	speaker: YOU[457]	_	_	_	_	_	
+4-3	62-64	so	_	GFailure[2]	stolpern\_set1\_20[2]	latin1[2]	2k56uavscuainedj0q9i1sb693-stolpern\_set1\_20[2]	_	_	_	_	_	false[62]	Decl[62]	*[199]	*[199]	*[199]	*[199]	*[199]	input1[199]	35[328]	female[328]	2k56uavscuainedj0q9i1sb693[328]	speaker: YOU[457]	_	_	_	_	_	
+4-4	65-78	tollpatschig.	_	GFailure[2]	stolpern\_set1\_20[2]	latin1[2]	2k56uavscuainedj0q9i1sb693-stolpern\_set1\_20[2]	_	_	_	_	_	false[62]	Decl[62]	*[199]	*[199]	*[199]	*[199]	*[199]	input1[199]	35[328]	female[328]	2k56uavscuainedj0q9i1sb693[328]	speaker: YOU[457]	_	_	_	_	_	
+
+#Text=Aber ist nix passiert.
+5-1	80-84	Aber	_	GFailure[2]	stolpern\_set1\_20[2]	latin1[2]	2k56uavscuainedj0q9i1sb693-stolpern\_set1\_20[2]	_	_	_	_	_	false[63]	Decl[63]	*[200]	*[200]	*[200]	*[200]	*[200]	input2[200]	35[329]	female[329]	2k56uavscuainedj0q9i1sb693[329]	speaker: YOU[458]	_	_	_	_	_	
+5-2	85-88	ist	_	GFailure[2]	stolpern\_set1\_20[2]	latin1[2]	2k56uavscuainedj0q9i1sb693-stolpern\_set1\_20[2]	_	_	_	_	_	false[63]	Decl[63]	*[200]	*[200]	*[200]	*[200]	*[200]	input2[200]	35[329]	female[329]	2k56uavscuainedj0q9i1sb693[329]	speaker: YOU[458]	_	_	_	_	_	
+5-3	89-92	nix	_	GFailure[2]	stolpern\_set1\_20[2]	latin1[2]	2k56uavscuainedj0q9i1sb693-stolpern\_set1\_20[2]	_	_	_	_	_	false[63]	Decl[63]	*[200]	*[200]	*[200]	*[200]	*[200]	input2[200]	35[329]	female[329]	2k56uavscuainedj0q9i1sb693[329]	speaker: YOU[458]	_	_	_	_	_	
+5-4	93-102	passiert.	_	GFailure[2]	stolpern\_set1\_20[2]	latin1[2]	2k56uavscuainedj0q9i1sb693-stolpern\_set1\_20[2]	_	_	_	_	_	false[63]	Decl[63]	*[200]	*[200]	*[200]	*[200]	*[200]	input2[200]	35[329]	female[329]	2k56uavscuainedj0q9i1sb693[329]	speaker: YOU[458]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+6-1	104-119	END_OF_DOCUMENT	_	GFailure[2]	stolpern\_set1\_20[2]	latin1[2]	2k56uavscuainedj0q9i1sb693-stolpern\_set1\_20[2]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+7-1	121-125	Hey,	_	GFailure[3]	stolpern\_set1\_20[3]	latin1[3]	7bq5ecc5fndmatjvd44havavdp-stolpern\_set1\_20[3]	_	_	_	_	_	false[64]	Int[64]	*[201]	*[201]	*[201]	wh\_6[201]	wh\_question[201]	openq[201]	*[330]	female[330]	*[330]	speaker:Eva[459]	_	_	QAP	*	8-1[65_64]	
+7-2	126-129	was	_	GFailure[3]	stolpern\_set1\_20[3]	latin1[3]	7bq5ecc5fndmatjvd44havavdp-stolpern\_set1\_20[3]	_	_	_	_	_	false[64]	Int[64]	*[201]	*[201]	*[201]	wh\_6[201]	wh\_question[201]	openq[201]	*[330]	female[330]	*[330]	speaker:Eva[459]	_	_	_	_	_	
+7-3	130-135	gibts	_	GFailure[3]	stolpern\_set1\_20[3]	latin1[3]	7bq5ecc5fndmatjvd44havavdp-stolpern\_set1\_20[3]	_	_	_	_	_	false[64]	Int[64]	*[201]	*[201]	*[201]	wh\_6[201]	wh\_question[201]	openq[201]	*[330]	female[330]	*[330]	speaker:Eva[459]	_	_	_	_	_	
+7-4	136-142	Neues?	_	GFailure[3]	stolpern\_set1\_20[3]	latin1[3]	7bq5ecc5fndmatjvd44havavdp-stolpern\_set1\_20[3]	_	_	_	_	_	false[64]	Int[64]	*[201]	*[201]	*[201]	wh\_6[201]	wh\_question[201]	openq[201]	*[330]	female[330]	*[330]	speaker:Eva[459]	_	_	_	_	_	
+
+#Text=Sebastian ist gestolpert
+8-1	144-153	Sebastian	_	GFailure[3]	stolpern\_set1\_20[3]	latin1[3]	7bq5ecc5fndmatjvd44havavdp-stolpern\_set1\_20[3]	*	*	Subj	*	*	false[65]	Decl[65]	*[202]	stolpern[202]	intransitive[202]	*[202]	*[202]	item0[202]	46[331]	male[331]	7bq5ecc5fndmatjvd44havavdp[331]	speaker: YOU[460]	*->27-1	PropNm[27]	elaboration|result|CR	*|*|*	10-1[66_65]|11-1[67_65]|9-1[0_65]	
+8-2	154-157	ist	_	GFailure[3]	stolpern\_set1\_20[3]	latin1[3]	7bq5ecc5fndmatjvd44havavdp-stolpern\_set1\_20[3]	_	_	_	_	_	false[65]	Decl[65]	*[202]	stolpern[202]	intransitive[202]	*[202]	*[202]	item0[202]	46[331]	male[331]	7bq5ecc5fndmatjvd44havavdp[331]	speaker: YOU[460]	_	_	_	_	_	
+8-3	158-168	gestolpert	_	GFailure[3]	stolpern\_set1\_20[3]	latin1[3]	7bq5ecc5fndmatjvd44havavdp-stolpern\_set1\_20[3]	_	_	_	_	_	false[65]	Decl[65]	*[202]	stolpern[202]	intransitive[202]	*[202]	*[202]	item0[202]	46[331]	male[331]	7bq5ecc5fndmatjvd44havavdp[331]	speaker: YOU[460]	_	_	_	_	_	
+
+#Text=Häh?
+9-1	170-174	Häh?	_	GFailure[3]	stolpern\_set1\_20[3]	latin1[3]	7bq5ecc5fndmatjvd44havavdp-stolpern\_set1\_20[3]	_	_	_	_	_	false	NA	haeh\_question\_1	*	*	*	*	feedback	*	female	*	speaker:Eva	_	_	_	_	_	
+
+#Text=über eine Banane
+10-1	176-180	über	_	GFailure[3]	stolpern\_set1\_20[3]	latin1[3]	7bq5ecc5fndmatjvd44havavdp-stolpern\_set1\_20[3]	_	_	_	_	_	false[66]	NA[66]	*[203]	*[203]	*[203]	*[203]	*[203]	input1[203]	46[332]	male[332]	7bq5ecc5fndmatjvd44havavdp[332]	speaker: YOU[461]	_	_	_	_	_	
+10-2	181-185	eine	_	GFailure[3]	stolpern\_set1\_20[3]	latin1[3]	7bq5ecc5fndmatjvd44havavdp-stolpern\_set1\_20[3]	*[32]	*[32]	PrepObj[32]	*[32]	*[32]	false[66]	NA[66]	*[203]	*[203]	*[203]	*[203]	*[203]	input1[203]	46[332]	male[332]	7bq5ecc5fndmatjvd44havavdp[332]	speaker: YOU[461]	*->19-1	IndefNP[19]	_	_	_	
+10-3	186-192	Banane	_	GFailure[3]	stolpern\_set1\_20[3]	latin1[3]	7bq5ecc5fndmatjvd44havavdp-stolpern\_set1\_20[3]	*[32]	*[32]	PrepObj[32]	*[32]	*[32]	false[66]	NA[66]	*[203]	*[203]	*[203]	*[203]	*[203]	input1[203]	46[332]	male[332]	7bq5ecc5fndmatjvd44havavdp[332]	speaker: YOU[461]	*->19-1	IndefNP[19]	_	_	_	
+
+#Text=nix passiert zum Glück
+11-1	194-197	nix	_	GFailure[3]	stolpern\_set1\_20[3]	latin1[3]	7bq5ecc5fndmatjvd44havavdp-stolpern\_set1\_20[3]	_	_	_	_	_	false[67]	Decl[67]	*[204]	*[204]	*[204]	*[204]	*[204]	input2[204]	46[333]	male[333]	7bq5ecc5fndmatjvd44havavdp[333]	speaker: YOU[462]	_	_	_	_	_	
+11-2	198-206	passiert	_	GFailure[3]	stolpern\_set1\_20[3]	latin1[3]	7bq5ecc5fndmatjvd44havavdp-stolpern\_set1\_20[3]	_	_	_	_	_	false[67]	Decl[67]	*[204]	*[204]	*[204]	*[204]	*[204]	input2[204]	46[333]	male[333]	7bq5ecc5fndmatjvd44havavdp[333]	speaker: YOU[462]	_	_	_	_	_	
+11-3	207-210	zum	_	GFailure[3]	stolpern\_set1\_20[3]	latin1[3]	7bq5ecc5fndmatjvd44havavdp-stolpern\_set1\_20[3]	_	_	_	_	_	false[67]	Decl[67]	*[204]	*[204]	*[204]	*[204]	*[204]	input2[204]	46[333]	male[333]	7bq5ecc5fndmatjvd44havavdp[333]	speaker: YOU[462]	_	_	_	_	_	
+11-4	211-216	Glück	_	GFailure[3]	stolpern\_set1\_20[3]	latin1[3]	7bq5ecc5fndmatjvd44havavdp-stolpern\_set1\_20[3]	_	_	_	_	_	false[67]	Decl[67]	*[204]	*[204]	*[204]	*[204]	*[204]	input2[204]	46[333]	male[333]	7bq5ecc5fndmatjvd44havavdp[333]	speaker: YOU[462]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+12-1	218-233	END_OF_DOCUMENT	_	GFailure[3]	stolpern\_set1\_20[3]	latin1[3]	7bq5ecc5fndmatjvd44havavdp-stolpern\_set1\_20[3]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+13-1	235-239	Hey,	_	GFailure[4]	stolpern\_set1\_20[4]	latin1[4]	9bb79dhfhst017575orahklqol-stolpern\_set1\_20[4]	_	_	_	_	_	false[68]	Int[68]	*[205]	*[205]	*[205]	wh\_6[205]	wh\_question[205]	openq[205]	*[334]	female[334]	*[334]	speaker:Eva[463]	_	_	QAP	*	14-1[69_68]	
+13-2	240-243	was	_	GFailure[4]	stolpern\_set1\_20[4]	latin1[4]	9bb79dhfhst017575orahklqol-stolpern\_set1\_20[4]	_	_	_	_	_	false[68]	Int[68]	*[205]	*[205]	*[205]	wh\_6[205]	wh\_question[205]	openq[205]	*[334]	female[334]	*[334]	speaker:Eva[463]	_	_	_	_	_	
+13-3	244-249	gibts	_	GFailure[4]	stolpern\_set1\_20[4]	latin1[4]	9bb79dhfhst017575orahklqol-stolpern\_set1\_20[4]	_	_	_	_	_	false[68]	Int[68]	*[205]	*[205]	*[205]	wh\_6[205]	wh\_question[205]	openq[205]	*[334]	female[334]	*[334]	speaker:Eva[463]	_	_	_	_	_	
+13-4	250-256	Neues?	_	GFailure[4]	stolpern\_set1\_20[4]	latin1[4]	9bb79dhfhst017575orahklqol-stolpern\_set1\_20[4]	_	_	_	_	_	false[68]	Int[68]	*[205]	*[205]	*[205]	wh\_6[205]	wh\_question[205]	openq[205]	*[334]	female[334]	*[334]	speaker:Eva[463]	_	_	_	_	_	
+
+#Text=Sebastian ist gestolpert
+14-1	258-267	Sebastian	_	GFailure[4]	stolpern\_set1\_20[4]	latin1[4]	9bb79dhfhst017575orahklqol-stolpern\_set1\_20[4]	*	*	Subj	*	*	false[69]	Decl[69]	*[206]	stolpern[206]	intransitive[206]	*[206]	*[206]	item0[206]	37[335]	female[335]	9bb79dhfhst017575orahklqol[335]	speaker: YOU[464]	*->15-1	PropNm[15]	result|CR	*|*	16-1[70_69]|15-1[0_69]	
+14-2	268-271	ist	_	GFailure[4]	stolpern\_set1\_20[4]	latin1[4]	9bb79dhfhst017575orahklqol-stolpern\_set1\_20[4]	_	_	_	_	_	false[69]	Decl[69]	*[206]	stolpern[206]	intransitive[206]	*[206]	*[206]	item0[206]	37[335]	female[335]	9bb79dhfhst017575orahklqol[335]	speaker: YOU[464]	_	_	_	_	_	
+14-3	272-282	gestolpert	_	GFailure[4]	stolpern\_set1\_20[4]	latin1[4]	9bb79dhfhst017575orahklqol-stolpern\_set1\_20[4]	_	_	_	_	_	false[69]	Decl[69]	*[206]	stolpern[206]	intransitive[206]	*[206]	*[206]	item0[206]	37[335]	female[335]	9bb79dhfhst017575orahklqol[335]	speaker: YOU[464]	_	_	_	_	_	
+
+#Text=Häh?
+15-1	284-288	Häh?	_	GFailure[4]	stolpern\_set1\_20[4]	latin1[4]	9bb79dhfhst017575orahklqol-stolpern\_set1\_20[4]	_	_	_	_	_	false	NA	haeh\_question\_1	*	*	*	*	feedback	*	female	*	speaker:Eva	_	_	_	_	_	
+
+#Text=hat sich das Knie verletzt
+16-1	290-293	hat	_	GFailure[4]	stolpern\_set1\_20[4]	latin1[4]	9bb79dhfhst017575orahklqol-stolpern\_set1\_20[4]	3	*	*	*	singular	false[70]	Decl[70]	*[207]	*[207]	*[207]	*[207]	*[207]	input1[207]	37[336]	female[336]	9bb79dhfhst017575orahklqol[336]	speaker: YOU[465]	*->15-2	zero[15]	elaboration	*	17-1[71_70]	
+16-2	294-298	sich	_	GFailure[4]	stolpern\_set1\_20[4]	latin1[4]	9bb79dhfhst017575orahklqol-stolpern\_set1\_20[4]	_	_	_	_	_	false[70]	Decl[70]	*[207]	*[207]	*[207]	*[207]	*[207]	input1[207]	37[336]	female[336]	9bb79dhfhst017575orahklqol[336]	speaker: YOU[465]	_	_	_	_	_	
+16-3	299-302	das	_	GFailure[4]	stolpern\_set1\_20[4]	latin1[4]	9bb79dhfhst017575orahklqol-stolpern\_set1\_20[4]	*[33]	*[33]	DirObj[33]	*[33]	*[33]	false[70]	Decl[70]	*[207]	*[207]	*[207]	*[207]	*[207]	input1[207]	37[336]	female[336]	9bb79dhfhst017575orahklqol[336]	speaker: YOU[465]	*->70-1	DefNP[70]	_	_	_	
+16-4	303-307	Knie	_	GFailure[4]	stolpern\_set1\_20[4]	latin1[4]	9bb79dhfhst017575orahklqol-stolpern\_set1\_20[4]	*[33]	*[33]	DirObj[33]	*[33]	*[33]	false[70]	Decl[70]	*[207]	*[207]	*[207]	*[207]	*[207]	input1[207]	37[336]	female[336]	9bb79dhfhst017575orahklqol[336]	speaker: YOU[465]	*->70-1	DefNP[70]	_	_	_	
+16-5	308-316	verletzt	_	GFailure[4]	stolpern\_set1\_20[4]	latin1[4]	9bb79dhfhst017575orahklqol-stolpern\_set1\_20[4]	_	_	_	_	_	false[70]	Decl[70]	*[207]	*[207]	*[207]	*[207]	*[207]	input1[207]	37[336]	female[336]	9bb79dhfhst017575orahklqol[336]	speaker: YOU[465]	_	_	_	_	_	
+
+#Text=sah nicht gut aus
+17-1	318-321	sah	_	GFailure[4]	stolpern\_set1\_20[4]	latin1[4]	9bb79dhfhst017575orahklqol-stolpern\_set1\_20[4]	3	*	*	*	singular	false[71]	Decl[71]	*[208]	*[208]	*[208]	*[208]	*[208]	input2[208]	37[337]	female[337]	9bb79dhfhst017575orahklqol[337]	speaker: YOU[466]	*->70-2	zero[70]	_	_	_	
+17-2	322-327	nicht	_	GFailure[4]	stolpern\_set1\_20[4]	latin1[4]	9bb79dhfhst017575orahklqol-stolpern\_set1\_20[4]	_	_	_	_	_	false[71]	Decl[71]	*[208]	*[208]	*[208]	*[208]	*[208]	input2[208]	37[337]	female[337]	9bb79dhfhst017575orahklqol[337]	speaker: YOU[466]	_	_	_	_	_	
+17-3	328-331	gut	_	GFailure[4]	stolpern\_set1\_20[4]	latin1[4]	9bb79dhfhst017575orahklqol-stolpern\_set1\_20[4]	_	_	_	_	_	false[71]	Decl[71]	*[208]	*[208]	*[208]	*[208]	*[208]	input2[208]	37[337]	female[337]	9bb79dhfhst017575orahklqol[337]	speaker: YOU[466]	_	_	_	_	_	
+17-4	332-335	aus	_	GFailure[4]	stolpern\_set1\_20[4]	latin1[4]	9bb79dhfhst017575orahklqol-stolpern\_set1\_20[4]	_	_	_	_	_	false[71]	Decl[71]	*[208]	*[208]	*[208]	*[208]	*[208]	input2[208]	37[337]	female[337]	9bb79dhfhst017575orahklqol[337]	speaker: YOU[466]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+18-1	337-352	END_OF_DOCUMENT	_	GFailure[4]	stolpern\_set1\_20[4]	latin1[4]	9bb79dhfhst017575orahklqol-stolpern\_set1\_20[4]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+19-1	354-358	Hey,	_	GFailure[5]	stolpern\_set1\_20[5]	latin1[5]	afpst3sherp4732c4se5ajftkq-stolpern\_set1\_20[5]	_	_	_	_	_	false[72]	Int[72]	*[209]	*[209]	*[209]	wh\_6[209]	wh\_question[209]	openq[209]	*[338]	female[338]	*[338]	speaker:Eva[467]	_	_	QAP	*	20-1[73_72]	
+19-2	359-362	was	_	GFailure[5]	stolpern\_set1\_20[5]	latin1[5]	afpst3sherp4732c4se5ajftkq-stolpern\_set1\_20[5]	_	_	_	_	_	false[72]	Int[72]	*[209]	*[209]	*[209]	wh\_6[209]	wh\_question[209]	openq[209]	*[338]	female[338]	*[338]	speaker:Eva[467]	_	_	_	_	_	
+19-3	363-368	gibts	_	GFailure[5]	stolpern\_set1\_20[5]	latin1[5]	afpst3sherp4732c4se5ajftkq-stolpern\_set1\_20[5]	_	_	_	_	_	false[72]	Int[72]	*[209]	*[209]	*[209]	wh\_6[209]	wh\_question[209]	openq[209]	*[338]	female[338]	*[338]	speaker:Eva[467]	_	_	_	_	_	
+19-4	369-375	Neues?	_	GFailure[5]	stolpern\_set1\_20[5]	latin1[5]	afpst3sherp4732c4se5ajftkq-stolpern\_set1\_20[5]	_	_	_	_	_	false[72]	Int[72]	*[209]	*[209]	*[209]	wh\_6[209]	wh\_question[209]	openq[209]	*[338]	female[338]	*[338]	speaker:Eva[467]	_	_	_	_	_	
+
+#Text=Sebastian ist gestolpert
+20-1	377-386	Sebastian	_	GFailure[5]	stolpern\_set1\_20[5]	latin1[5]	afpst3sherp4732c4se5ajftkq-stolpern\_set1\_20[5]	*	*	Subj	*	*	false[73]	Decl[73]	*[210]	stolpern[210]	intransitive[210]	*[210]	*[210]	item0[210]	21[339]	male[339]	afpst3sherp4732c4se5ajftkq[339]	speaker: YOU[468]	*->53-1	PropNm[53]	elaboration|CR	*|*	22-1[74_73]|21-1[0_73]	
+20-2	387-390	ist	_	GFailure[5]	stolpern\_set1\_20[5]	latin1[5]	afpst3sherp4732c4se5ajftkq-stolpern\_set1\_20[5]	_	_	_	_	_	false[73]	Decl[73]	*[210]	stolpern[210]	intransitive[210]	*[210]	*[210]	item0[210]	21[339]	male[339]	afpst3sherp4732c4se5ajftkq[339]	speaker: YOU[468]	_	_	_	_	_	
+20-3	391-401	gestolpert	_	GFailure[5]	stolpern\_set1\_20[5]	latin1[5]	afpst3sherp4732c4se5ajftkq-stolpern\_set1\_20[5]	_	_	_	_	_	false[73]	Decl[73]	*[210]	stolpern[210]	intransitive[210]	*[210]	*[210]	item0[210]	21[339]	male[339]	afpst3sherp4732c4se5ajftkq[339]	speaker: YOU[468]	_	_	_	_	_	
+
+#Text=Häh?
+21-1	403-407	Häh?	_	GFailure[5]	stolpern\_set1\_20[5]	latin1[5]	afpst3sherp4732c4se5ajftkq-stolpern\_set1\_20[5]	_	_	_	_	_	false	NA	haeh\_question\_1	*	*	*	*	feedback	*	female	*	speaker:Eva	_	_	_	_	_	
+
+#Text=Ja er ist an der Bordkante gestolpert.
+22-1	409-411	Ja	_	GFailure[5]	stolpern\_set1\_20[5]	latin1[5]	afpst3sherp4732c4se5ajftkq-stolpern\_set1\_20[5]	_	_	_	_	_	false[74]	Decl[74]	*[211]	*[211]	*[211]	*[211]	*[211]	input1[211]	21[340]	male[340]	afpst3sherp4732c4se5ajftkq[340]	speaker: YOU[469]	_	_	result	*	23-1[75_74]	
+22-2	412-414	er	_	GFailure[5]	stolpern\_set1\_20[5]	latin1[5]	afpst3sherp4732c4se5ajftkq-stolpern\_set1\_20[5]	3	*	Subj	*	singular	false[74]	Decl[74]	*[211]	*[211]	*[211]	*[211]	*[211]	input1[211]	21[340]	male[340]	afpst3sherp4732c4se5ajftkq[340]	speaker: YOU[469]	*->53-2	PerPron[53]	_	_	_	
+22-3	415-418	ist	_	GFailure[5]	stolpern\_set1\_20[5]	latin1[5]	afpst3sherp4732c4se5ajftkq-stolpern\_set1\_20[5]	_	_	_	_	_	false[74]	Decl[74]	*[211]	*[211]	*[211]	*[211]	*[211]	input1[211]	21[340]	male[340]	afpst3sherp4732c4se5ajftkq[340]	speaker: YOU[469]	_	_	_	_	_	
+22-4	419-421	an	_	GFailure[5]	stolpern\_set1\_20[5]	latin1[5]	afpst3sherp4732c4se5ajftkq-stolpern\_set1\_20[5]	_	_	_	_	_	false[74]	Decl[74]	*[211]	*[211]	*[211]	*[211]	*[211]	input1[211]	21[340]	male[340]	afpst3sherp4732c4se5ajftkq[340]	speaker: YOU[469]	_	_	_	_	_	
+22-5	422-425	der	_	GFailure[5]	stolpern\_set1\_20[5]	latin1[5]	afpst3sherp4732c4se5ajftkq-stolpern\_set1\_20[5]	*[34]	*[34]	PrepObj[34]	*[34]	*[34]	false[74]	Decl[74]	*[211]	*[211]	*[211]	*[211]	*[211]	input1[211]	21[340]	male[340]	afpst3sherp4732c4se5ajftkq[340]	speaker: YOU[469]	*->48-1	DefNP[48]	_	_	_	
+22-6	426-435	Bordkante	_	GFailure[5]	stolpern\_set1\_20[5]	latin1[5]	afpst3sherp4732c4se5ajftkq-stolpern\_set1\_20[5]	*[34]	*[34]	PrepObj[34]	*[34]	*[34]	false[74]	Decl[74]	*[211]	*[211]	*[211]	*[211]	*[211]	input1[211]	21[340]	male[340]	afpst3sherp4732c4se5ajftkq[340]	speaker: YOU[469]	*->48-1	DefNP[48]	_	_	_	
+22-7	436-447	gestolpert.	_	GFailure[5]	stolpern\_set1\_20[5]	latin1[5]	afpst3sherp4732c4se5ajftkq-stolpern\_set1\_20[5]	_	_	_	_	_	false[74]	Decl[74]	*[211]	*[211]	*[211]	*[211]	*[211]	input1[211]	21[340]	male[340]	afpst3sherp4732c4se5ajftkq[340]	speaker: YOU[469]	_	_	_	_	_	
+
+#Text=Er hat sich den Fuß verstaucht.
+23-1	449-451	Er	_	GFailure[5]	stolpern\_set1\_20[5]	latin1[5]	afpst3sherp4732c4se5ajftkq-stolpern\_set1\_20[5]	3	*	Subj	*	singular	false[75]	Decl[75]	*[212]	*[212]	*[212]	*[212]	*[212]	input2[212]	21[341]	male[341]	afpst3sherp4732c4se5ajftkq[341]	speaker: YOU[470]	*->53-3	PerPron[53]	_	_	_	
+23-2	452-455	hat	_	GFailure[5]	stolpern\_set1\_20[5]	latin1[5]	afpst3sherp4732c4se5ajftkq-stolpern\_set1\_20[5]	_	_	_	_	_	false[75]	Decl[75]	*[212]	*[212]	*[212]	*[212]	*[212]	input2[212]	21[341]	male[341]	afpst3sherp4732c4se5ajftkq[341]	speaker: YOU[470]	_	_	_	_	_	
+23-3	456-460	sich	_	GFailure[5]	stolpern\_set1\_20[5]	latin1[5]	afpst3sherp4732c4se5ajftkq-stolpern\_set1\_20[5]	_	_	_	_	_	false[75]	Decl[75]	*[212]	*[212]	*[212]	*[212]	*[212]	input2[212]	21[341]	male[341]	afpst3sherp4732c4se5ajftkq[341]	speaker: YOU[470]	_	_	_	_	_	
+23-4	461-464	den	_	GFailure[5]	stolpern\_set1\_20[5]	latin1[5]	afpst3sherp4732c4se5ajftkq-stolpern\_set1\_20[5]	*[35]	*[35]	DirObj[35]	*[35]	*[35]	false[75]	Decl[75]	*[212]	*[212]	*[212]	*[212]	*[212]	input2[212]	21[341]	male[341]	afpst3sherp4732c4se5ajftkq[341]	speaker: YOU[470]	*->71-1	DefNP[71]	_	_	_	
+23-5	465-468	Fuß	_	GFailure[5]	stolpern\_set1\_20[5]	latin1[5]	afpst3sherp4732c4se5ajftkq-stolpern\_set1\_20[5]	*[35]	*[35]	DirObj[35]	*[35]	*[35]	false[75]	Decl[75]	*[212]	*[212]	*[212]	*[212]	*[212]	input2[212]	21[341]	male[341]	afpst3sherp4732c4se5ajftkq[341]	speaker: YOU[470]	*->71-1	DefNP[71]	_	_	_	
+23-6	469-480	verstaucht.	_	GFailure[5]	stolpern\_set1\_20[5]	latin1[5]	afpst3sherp4732c4se5ajftkq-stolpern\_set1\_20[5]	_	_	_	_	_	false[75]	Decl[75]	*[212]	*[212]	*[212]	*[212]	*[212]	input2[212]	21[341]	male[341]	afpst3sherp4732c4se5ajftkq[341]	speaker: YOU[470]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+24-1	482-497	END_OF_DOCUMENT	_	GFailure[5]	stolpern\_set1\_20[5]	latin1[5]	afpst3sherp4732c4se5ajftkq-stolpern\_set1\_20[5]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+25-1	499-503	Hey,	_	GFailure[6]	stolpern\_set1\_20[6]	latin1[6]	blj8i1h4sc8jti0m6gcav1c9ek-stolpern\_set1\_20[6]	_	_	_	_	_	false[76]	Int[76]	*[213]	*[213]	*[213]	wh\_6[213]	wh\_question[213]	openq[213]	*[342]	female[342]	*[342]	speaker:Eva[471]	_	_	contrast|QAP	*|*	29-1[80_76]|26-1[77_76]	
+25-2	504-507	was	_	GFailure[6]	stolpern\_set1\_20[6]	latin1[6]	blj8i1h4sc8jti0m6gcav1c9ek-stolpern\_set1\_20[6]	_	_	_	_	_	false[76]	Int[76]	*[213]	*[213]	*[213]	wh\_6[213]	wh\_question[213]	openq[213]	*[342]	female[342]	*[342]	speaker:Eva[471]	_	_	_	_	_	
+25-3	508-513	gibts	_	GFailure[6]	stolpern\_set1\_20[6]	latin1[6]	blj8i1h4sc8jti0m6gcav1c9ek-stolpern\_set1\_20[6]	_	_	_	_	_	false[76]	Int[76]	*[213]	*[213]	*[213]	wh\_6[213]	wh\_question[213]	openq[213]	*[342]	female[342]	*[342]	speaker:Eva[471]	_	_	_	_	_	
+25-4	514-520	Neues?	_	GFailure[6]	stolpern\_set1\_20[6]	latin1[6]	blj8i1h4sc8jti0m6gcav1c9ek-stolpern\_set1\_20[6]	_	_	_	_	_	false[76]	Int[76]	*[213]	*[213]	*[213]	wh\_6[213]	wh\_question[213]	openq[213]	*[342]	female[342]	*[342]	speaker:Eva[471]	_	_	_	_	_	
+
+#Text=Sebastian ist gestolpert
+26-1	522-531	Sebastian	_	GFailure[6]	stolpern\_set1\_20[6]	latin1[6]	blj8i1h4sc8jti0m6gcav1c9ek-stolpern\_set1\_20[6]	*	*	Subj	*	*	false[77]	Decl[77]	*[214]	stolpern[214]	intransitive[214]	*[214]	*[214]	item0[214]	42[343]	female[343]	blj8i1h4sc8jti0m6gcav1c9ek[343]	speaker: YOU[472]	*->16-1|*->50-1	clause[16]|PropNm[50]	elaboration|CR	*|*	28-1[78_77]|27-1[0_77]	
+26-2	532-535	ist	_	GFailure[6]	stolpern\_set1\_20[6]	latin1[6]	blj8i1h4sc8jti0m6gcav1c9ek-stolpern\_set1\_20[6]	_	_	_	_	_	false[77]	Decl[77]	*[214]	stolpern[214]	intransitive[214]	*[214]	*[214]	item0[214]	42[343]	female[343]	blj8i1h4sc8jti0m6gcav1c9ek[343]	speaker: YOU[472]	*->16-1	clause[16]	_	_	_	
+26-3	536-546	gestolpert	_	GFailure[6]	stolpern\_set1\_20[6]	latin1[6]	blj8i1h4sc8jti0m6gcav1c9ek-stolpern\_set1\_20[6]	_	_	_	_	_	false[77]	Decl[77]	*[214]	stolpern[214]	intransitive[214]	*[214]	*[214]	item0[214]	42[343]	female[343]	blj8i1h4sc8jti0m6gcav1c9ek[343]	speaker: YOU[472]	*->16-1	clause[16]	_	_	_	
+
+#Text=Häh?
+27-1	548-552	Häh?	_	GFailure[6]	stolpern\_set1\_20[6]	latin1[6]	blj8i1h4sc8jti0m6gcav1c9ek-stolpern\_set1\_20[6]	_	_	_	_	_	false	NA	haeh\_question\_1	*	*	*	*	feedback	*	female	*	speaker:Eva	_	_	_	_	_	
+
+#Text=Er ist gestolpert und hat sich dabei den Knöchel verstaucht.
+28-1	554-556	Er	_	GFailure[6]	stolpern\_set1\_20[6]	latin1[6]	blj8i1h4sc8jti0m6gcav1c9ek-stolpern\_set1\_20[6]	3	*	Subj	*	singular	false[78]	Decl[78]	*[215]	*[215]	*[215]	*[215]	*[215]	input1[215]	42[344]	female[344]	blj8i1h4sc8jti0m6gcav1c9ek[344]	speaker: YOU[473]	*->50-2	PerPron[50]	result	*	28-4[79_78]	
+28-2	557-560	ist	_	GFailure[6]	stolpern\_set1\_20[6]	latin1[6]	blj8i1h4sc8jti0m6gcav1c9ek-stolpern\_set1\_20[6]	_	_	_	_	_	false[78]	Decl[78]	*[215]	*[215]	*[215]	*[215]	*[215]	input1[215]	42[344]	female[344]	blj8i1h4sc8jti0m6gcav1c9ek[344]	speaker: YOU[473]	_	_	_	_	_	
+28-3	561-571	gestolpert	_	GFailure[6]	stolpern\_set1\_20[6]	latin1[6]	blj8i1h4sc8jti0m6gcav1c9ek-stolpern\_set1\_20[6]	_	_	_	_	_	false[78]	Decl[78]	*[215]	*[215]	*[215]	*[215]	*[215]	input1[215]	42[344]	female[344]	blj8i1h4sc8jti0m6gcav1c9ek[344]	speaker: YOU[473]	_	_	_	_	_	
+28-4	572-575	und	_	GFailure[6]	stolpern\_set1\_20[6]	latin1[6]	blj8i1h4sc8jti0m6gcav1c9ek-stolpern\_set1\_20[6]	_	_	_	_	_	false[79]	Decl[79]	*[215]	*[215]	*[215]	*[215]	*[215]	input1[215]	42[344]	female[344]	blj8i1h4sc8jti0m6gcav1c9ek[344]	speaker: YOU[473]	_	_	_	_	_	
+28-5	576-579	hat	_	GFailure[6]	stolpern\_set1\_20[6]	latin1[6]	blj8i1h4sc8jti0m6gcav1c9ek-stolpern\_set1\_20[6]	3	*	*	*	singular	false[79]	Decl[79]	*[215]	*[215]	*[215]	*[215]	*[215]	input1[215]	42[344]	female[344]	blj8i1h4sc8jti0m6gcav1c9ek[344]	speaker: YOU[473]	*->50-3	zero[50]	_	_	_	
+28-6	580-584	sich	_	GFailure[6]	stolpern\_set1\_20[6]	latin1[6]	blj8i1h4sc8jti0m6gcav1c9ek-stolpern\_set1\_20[6]	_	_	_	_	_	false[79]	Decl[79]	*[215]	*[215]	*[215]	*[215]	*[215]	input1[215]	42[344]	female[344]	blj8i1h4sc8jti0m6gcav1c9ek[344]	speaker: YOU[473]	_	_	_	_	_	
+28-7	585-590	dabei	_	GFailure[6]	stolpern\_set1\_20[6]	latin1[6]	blj8i1h4sc8jti0m6gcav1c9ek-stolpern\_set1\_20[6]	*	*	IndirObj	*	*	false[79]	Decl[79]	*[215]	*[215]	*[215]	*[215]	*[215]	input1[215]	42[344]	female[344]	blj8i1h4sc8jti0m6gcav1c9ek[344]	speaker: YOU[473]	*->16-2	D-Pron[16]	_	_	_	
+28-8	591-594	den	_	GFailure[6]	stolpern\_set1\_20[6]	latin1[6]	blj8i1h4sc8jti0m6gcav1c9ek-stolpern\_set1\_20[6]	*[36]	*[36]	DirObj[36]	*[36]	*[36]	false[79]	Decl[79]	*[215]	*[215]	*[215]	*[215]	*[215]	input1[215]	42[344]	female[344]	blj8i1h4sc8jti0m6gcav1c9ek[344]	speaker: YOU[473]	*->73-1	DefNP[73]	_	_	_	
+28-9	595-602	Knöchel	_	GFailure[6]	stolpern\_set1\_20[6]	latin1[6]	blj8i1h4sc8jti0m6gcav1c9ek-stolpern\_set1\_20[6]	*[36]	*[36]	DirObj[36]	*[36]	*[36]	false[79]	Decl[79]	*[215]	*[215]	*[215]	*[215]	*[215]	input1[215]	42[344]	female[344]	blj8i1h4sc8jti0m6gcav1c9ek[344]	speaker: YOU[473]	*->73-1	DefNP[73]	_	_	_	
+28-10	603-614	verstaucht.	_	GFailure[6]	stolpern\_set1\_20[6]	latin1[6]	blj8i1h4sc8jti0m6gcav1c9ek-stolpern\_set1\_20[6]	_	_	_	_	_	false[79]	Decl[79]	*[215]	*[215]	*[215]	*[215]	*[215]	input1[215]	42[344]	female[344]	blj8i1h4sc8jti0m6gcav1c9ek[344]	speaker: YOU[473]	_	_	_	_	_	
+
+#Text=Hoffe bei Dir gibt es bessere Neuigkeiten?
+29-1	616-621	Hoffe	_	GFailure[6]	stolpern\_set1\_20[6]	latin1[6]	blj8i1h4sc8jti0m6gcav1c9ek-stolpern\_set1\_20[6]	1	*	*	*	singular	false[80]	Int[80]	*[216]	*[216]	*[216]	*[216]	*[216]	input2[216]	42[345]	female[345]	blj8i1h4sc8jti0m6gcav1c9ek[345]	speaker: YOU[474]	*->6-1	zero[6]	_	_	_	
+29-2	622-625	bei	_	GFailure[6]	stolpern\_set1\_20[6]	latin1[6]	blj8i1h4sc8jti0m6gcav1c9ek-stolpern\_set1\_20[6]	_	_	_	_	_	false[80]	Int[80]	*[216]	*[216]	*[216]	*[216]	*[216]	input2[216]	42[345]	female[345]	blj8i1h4sc8jti0m6gcav1c9ek[345]	speaker: YOU[474]	_	_	_	_	_	
+29-3	626-629	Dir	_	GFailure[6]	stolpern\_set1\_20[6]	latin1[6]	blj8i1h4sc8jti0m6gcav1c9ek-stolpern\_set1\_20[6]	2	*	PrepObj	*	singular	false[80]	Int[80]	*[216]	*[216]	*[216]	*[216]	*[216]	input2[216]	42[345]	female[345]	blj8i1h4sc8jti0m6gcav1c9ek[345]	speaker: YOU[474]	*->4-1	PerPron[4]	_	_	_	
+29-4	630-634	gibt	_	GFailure[6]	stolpern\_set1\_20[6]	latin1[6]	blj8i1h4sc8jti0m6gcav1c9ek-stolpern\_set1\_20[6]	_	_	_	_	_	false[80]	Int[80]	*[216]	*[216]	*[216]	*[216]	*[216]	input2[216]	42[345]	female[345]	blj8i1h4sc8jti0m6gcav1c9ek[345]	speaker: YOU[474]	_	_	_	_	_	
+29-5	635-637	es	_	GFailure[6]	stolpern\_set1\_20[6]	latin1[6]	blj8i1h4sc8jti0m6gcav1c9ek-stolpern\_set1\_20[6]	*	*	Subj	*	*	false[80]	Int[80]	*[216]	*[216]	*[216]	*[216]	*[216]	input2[216]	42[345]	female[345]	blj8i1h4sc8jti0m6gcav1c9ek[345]	speaker: YOU[474]	_	_	_	_	_	
+29-6	638-645	bessere	_	GFailure[6]	stolpern\_set1\_20[6]	latin1[6]	blj8i1h4sc8jti0m6gcav1c9ek-stolpern\_set1\_20[6]	*[37]	*[37]	DirObj[37]	*[37]	*[37]	false[80]	Int[80]	*[216]	*[216]	*[216]	*[216]	*[216]	input2[216]	42[345]	female[345]	blj8i1h4sc8jti0m6gcav1c9ek[345]	speaker: YOU[474]	*->52-1	IndefNP[52]	_	_	_	
+29-7	646-658	Neuigkeiten?	_	GFailure[6]	stolpern\_set1\_20[6]	latin1[6]	blj8i1h4sc8jti0m6gcav1c9ek-stolpern\_set1\_20[6]	*[37]	*[37]	DirObj[37]	*[37]	*[37]	false[80]	Int[80]	*[216]	*[216]	*[216]	*[216]	*[216]	input2[216]	42[345]	female[345]	blj8i1h4sc8jti0m6gcav1c9ek[345]	speaker: YOU[474]	*->52-1	IndefNP[52]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+30-1	660-675	END_OF_DOCUMENT	_	GFailure[6]	stolpern\_set1\_20[6]	latin1[6]	blj8i1h4sc8jti0m6gcav1c9ek-stolpern\_set1\_20[6]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+31-1	677-681	Hey,	_	GFailure[7]	stolpern\_set1\_20[7]	latin1[7]	h05ingrcngdnasp07727nvoq59-stolpern\_set1\_20[7]	_	_	_	_	_	false[81]	Int[81]	*[217]	*[217]	*[217]	wh\_6[217]	wh\_question[217]	openq[217]	*[346]	female[346]	*[346]	speaker:Eva[475]	_	_	QAP	*	32-1[82_81]	
+31-2	682-685	was	_	GFailure[7]	stolpern\_set1\_20[7]	latin1[7]	h05ingrcngdnasp07727nvoq59-stolpern\_set1\_20[7]	_	_	_	_	_	false[81]	Int[81]	*[217]	*[217]	*[217]	wh\_6[217]	wh\_question[217]	openq[217]	*[346]	female[346]	*[346]	speaker:Eva[475]	_	_	_	_	_	
+31-3	686-691	gibts	_	GFailure[7]	stolpern\_set1\_20[7]	latin1[7]	h05ingrcngdnasp07727nvoq59-stolpern\_set1\_20[7]	_	_	_	_	_	false[81]	Int[81]	*[217]	*[217]	*[217]	wh\_6[217]	wh\_question[217]	openq[217]	*[346]	female[346]	*[346]	speaker:Eva[475]	_	_	_	_	_	
+31-4	692-698	Neues?	_	GFailure[7]	stolpern\_set1\_20[7]	latin1[7]	h05ingrcngdnasp07727nvoq59-stolpern\_set1\_20[7]	_	_	_	_	_	false[81]	Int[81]	*[217]	*[217]	*[217]	wh\_6[217]	wh\_question[217]	openq[217]	*[346]	female[346]	*[346]	speaker:Eva[475]	_	_	_	_	_	
+
+#Text=Sebastian ist gestolpert
+32-1	700-709	Sebastian	_	GFailure[7]	stolpern\_set1\_20[7]	latin1[7]	h05ingrcngdnasp07727nvoq59-stolpern\_set1\_20[7]	*	*	Subj	*	*	false[82]	Decl[82]	*[218]	stolpern[218]	intransitive[218]	*[218]	*[218]	item0[218]	42[347]	female[347]	h05ingrcngdnasp07727nvoq59[347]	speaker: YOU[476]	*->37-1	PropNm[37]	explanation|CR	*|*	34-1[83_82]|33-1[0_82]	
+32-2	710-713	ist	_	GFailure[7]	stolpern\_set1\_20[7]	latin1[7]	h05ingrcngdnasp07727nvoq59-stolpern\_set1\_20[7]	_	_	_	_	_	false[82]	Decl[82]	*[218]	stolpern[218]	intransitive[218]	*[218]	*[218]	item0[218]	42[347]	female[347]	h05ingrcngdnasp07727nvoq59[347]	speaker: YOU[476]	_	_	_	_	_	
+32-3	714-724	gestolpert	_	GFailure[7]	stolpern\_set1\_20[7]	latin1[7]	h05ingrcngdnasp07727nvoq59-stolpern\_set1\_20[7]	_	_	_	_	_	false[82]	Decl[82]	*[218]	stolpern[218]	intransitive[218]	*[218]	*[218]	item0[218]	42[347]	female[347]	h05ingrcngdnasp07727nvoq59[347]	speaker: YOU[476]	_	_	_	_	_	
+
+#Text=Häh?
+33-1	726-730	Häh?	_	GFailure[7]	stolpern\_set1\_20[7]	latin1[7]	h05ingrcngdnasp07727nvoq59-stolpern\_set1\_20[7]	_	_	_	_	_	false	NA	haeh\_question\_1	*	*	*	*	feedback	*	female	*	speaker:Eva	_	_	_	_	_	
+
+#Text=Hat aufs Handy geguckt...
+34-1	732-735	Hat	_	GFailure[7]	stolpern\_set1\_20[7]	latin1[7]	h05ingrcngdnasp07727nvoq59-stolpern\_set1\_20[7]	3	*	*	*	singular	false[83]	Decl[83]	*[219]	*[219]	*[219]	*[219]	*[219]	input1[219]	42[348]	female[348]	h05ingrcngdnasp07727nvoq59[348]	speaker: YOU[477]	*->37-2	zero[37]	result	*	35-1[84_83]	
+34-2	736-740	aufs	_	GFailure[7]	stolpern\_set1\_20[7]	latin1[7]	h05ingrcngdnasp07727nvoq59-stolpern\_set1\_20[7]	_	_	_	_	_	false[83]	Decl[83]	*[219]	*[219]	*[219]	*[219]	*[219]	input1[219]	42[348]	female[348]	h05ingrcngdnasp07727nvoq59[348]	speaker: YOU[477]	*->46-1	DefNP[46]	_	_	_	
+34-3	741-746	Handy	_	GFailure[7]	stolpern\_set1\_20[7]	latin1[7]	h05ingrcngdnasp07727nvoq59-stolpern\_set1\_20[7]	*	*	PrepObj	*	*	false[83]	Decl[83]	*[219]	*[219]	*[219]	*[219]	*[219]	input1[219]	42[348]	female[348]	h05ingrcngdnasp07727nvoq59[348]	speaker: YOU[477]	*->46-1	DefNP[46]	_	_	_	
+34-4	747-757	geguckt...	_	GFailure[7]	stolpern\_set1\_20[7]	latin1[7]	h05ingrcngdnasp07727nvoq59-stolpern\_set1\_20[7]	_	_	_	_	_	false[83]	Decl[83]	*[219]	*[219]	*[219]	*[219]	*[219]	input1[219]	42[348]	female[348]	h05ingrcngdnasp07727nvoq59[348]	speaker: YOU[477]	_	_	_	_	_	
+
+#Text=Und die Stufen nicht gesehen
+35-1	759-762	Und	_	GFailure[7]	stolpern\_set1\_20[7]	latin1[7]	h05ingrcngdnasp07727nvoq59-stolpern\_set1\_20[7]	_	_	_	_	_	false[84]	Decl[84]	*[220]	*[220]	*[220]	*[220]	*[220]	input2[220]	42[349]	female[349]	h05ingrcngdnasp07727nvoq59[349]	speaker: YOU[478]	_	_	_	_	_	
+35-2	763-766	die	_	GFailure[7]	stolpern\_set1\_20[7]	latin1[7]	h05ingrcngdnasp07727nvoq59-stolpern\_set1\_20[7]	*[38]	*[38]	DirObj[38]	*[38]	*[38]	false[84]	Decl[84]	*[220]	*[220]	*[220]	*[220]	*[220]	input2[220]	42[349]	female[349]	h05ingrcngdnasp07727nvoq59[349]	speaker: YOU[478]	*->80-1	DefNP[80]	_	_	_	
+35-3	767-773	Stufen	_	GFailure[7]	stolpern\_set1\_20[7]	latin1[7]	h05ingrcngdnasp07727nvoq59-stolpern\_set1\_20[7]	*[38]	*[38]	DirObj[38]	*[38]	*[38]	false[84]	Decl[84]	*[220]	*[220]	*[220]	*[220]	*[220]	input2[220]	42[349]	female[349]	h05ingrcngdnasp07727nvoq59[349]	speaker: YOU[478]	*->80-1	DefNP[80]	_	_	_	
+35-4	774-779	nicht	_	GFailure[7]	stolpern\_set1\_20[7]	latin1[7]	h05ingrcngdnasp07727nvoq59-stolpern\_set1\_20[7]	_	_	_	_	_	false[84]	Decl[84]	*[220]	*[220]	*[220]	*[220]	*[220]	input2[220]	42[349]	female[349]	h05ingrcngdnasp07727nvoq59[349]	speaker: YOU[478]	_	_	_	_	_	
+35-5	780-787	gesehen	_	GFailure[7]	stolpern\_set1\_20[7]	latin1[7]	h05ingrcngdnasp07727nvoq59-stolpern\_set1\_20[7]	_	_	_	_	_	false[84]	Decl[84]	*[220]	*[220]	*[220]	*[220]	*[220]	input2[220]	42[349]	female[349]	h05ingrcngdnasp07727nvoq59[349]	speaker: YOU[478]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+36-1	789-804	END_OF_DOCUMENT	_	GFailure[7]	stolpern\_set1\_20[7]	latin1[7]	h05ingrcngdnasp07727nvoq59-stolpern\_set1\_20[7]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+37-1	806-810	Hey,	_	GFailure[8]	stolpern\_set1\_20[8]	latin1[8]	jkqc35grurqg6r29efakrmibd9-stolpern\_set1\_20[8]	_	_	_	_	_	false[85]	Int[85]	*[221]	*[221]	*[221]	wh\_6[221]	wh\_question[221]	openq[221]	*[350]	female[350]	*[350]	speaker:Eva[479]	_	_	QAP	*	38-1[86_85]	
+37-2	811-814	was	_	GFailure[8]	stolpern\_set1\_20[8]	latin1[8]	jkqc35grurqg6r29efakrmibd9-stolpern\_set1\_20[8]	_	_	_	_	_	false[85]	Int[85]	*[221]	*[221]	*[221]	wh\_6[221]	wh\_question[221]	openq[221]	*[350]	female[350]	*[350]	speaker:Eva[479]	_	_	_	_	_	
+37-3	815-820	gibts	_	GFailure[8]	stolpern\_set1\_20[8]	latin1[8]	jkqc35grurqg6r29efakrmibd9-stolpern\_set1\_20[8]	_	_	_	_	_	false[85]	Int[85]	*[221]	*[221]	*[221]	wh\_6[221]	wh\_question[221]	openq[221]	*[350]	female[350]	*[350]	speaker:Eva[479]	_	_	_	_	_	
+37-4	821-827	Neues?	_	GFailure[8]	stolpern\_set1\_20[8]	latin1[8]	jkqc35grurqg6r29efakrmibd9-stolpern\_set1\_20[8]	_	_	_	_	_	false[85]	Int[85]	*[221]	*[221]	*[221]	wh\_6[221]	wh\_question[221]	openq[221]	*[350]	female[350]	*[350]	speaker:Eva[479]	_	_	_	_	_	
+
+#Text=Sebastian ist gestolpert
+38-1	829-838	Sebastian	_	GFailure[8]	stolpern\_set1\_20[8]	latin1[8]	jkqc35grurqg6r29efakrmibd9-stolpern\_set1\_20[8]	*	*	Subj	*	*	false[86]	Decl[86]	*[222]	stolpern[222]	intransitive[222]	*[222]	*[222]	item0[222]	42[351]	male[351]	jkqc35grurqg6r29efakrmibd9[351]	speaker: YOU[480]	*->25-1	PropNm[25]	elaboration|CR	*|*	40-1[87_86]|39-1[0_86]	
+38-2	839-842	ist	_	GFailure[8]	stolpern\_set1\_20[8]	latin1[8]	jkqc35grurqg6r29efakrmibd9-stolpern\_set1\_20[8]	_	_	_	_	_	false[86]	Decl[86]	*[222]	stolpern[222]	intransitive[222]	*[222]	*[222]	item0[222]	42[351]	male[351]	jkqc35grurqg6r29efakrmibd9[351]	speaker: YOU[480]	_	_	_	_	_	
+38-3	843-853	gestolpert	_	GFailure[8]	stolpern\_set1\_20[8]	latin1[8]	jkqc35grurqg6r29efakrmibd9-stolpern\_set1\_20[8]	_	_	_	_	_	false[86]	Decl[86]	*[222]	stolpern[222]	intransitive[222]	*[222]	*[222]	item0[222]	42[351]	male[351]	jkqc35grurqg6r29efakrmibd9[351]	speaker: YOU[480]	_	_	_	_	_	
+
+#Text=Häh?
+39-1	855-859	Häh?	_	GFailure[8]	stolpern\_set1\_20[8]	latin1[8]	jkqc35grurqg6r29efakrmibd9-stolpern\_set1\_20[8]	_	_	_	_	_	false	NA	haeh\_question\_1	*	*	*	*	feedback	*	female	*	speaker:Eva	_	_	_	_	_	
+
+#Text=auf der Treppe
+40-1	861-864	auf	_	GFailure[8]	stolpern\_set1\_20[8]	latin1[8]	jkqc35grurqg6r29efakrmibd9-stolpern\_set1\_20[8]	_	_	_	_	_	false[87]	NA[87]	*[223]	*[223]	*[223]	*[223]	*[223]	input1[223]	42[352]	male[352]	jkqc35grurqg6r29efakrmibd9[352]	speaker: YOU[481]	_	_	elaboration	*	41-1[88_87]	
+40-2	865-868	der	_	GFailure[8]	stolpern\_set1\_20[8]	latin1[8]	jkqc35grurqg6r29efakrmibd9-stolpern\_set1\_20[8]	*[39]	*[39]	PrepObj[39]	*[39]	*[39]	false[87]	NA[87]	*[223]	*[223]	*[223]	*[223]	*[223]	input1[223]	42[352]	male[352]	jkqc35grurqg6r29efakrmibd9[352]	speaker: YOU[481]	*->28-1	DefNP[28]	_	_	_	
+40-3	869-875	Treppe	_	GFailure[8]	stolpern\_set1\_20[8]	latin1[8]	jkqc35grurqg6r29efakrmibd9-stolpern\_set1\_20[8]	*[39]	*[39]	PrepObj[39]	*[39]	*[39]	false[87]	NA[87]	*[223]	*[223]	*[223]	*[223]	*[223]	input1[223]	42[352]	male[352]	jkqc35grurqg6r29efakrmibd9[352]	speaker: YOU[481]	*->28-1	DefNP[28]	_	_	_	
+
+#Text=über Nikos Legosteine <BR> echt blöd
+41-1	877-881	über	_	GFailure[8]	stolpern\_set1\_20[8]	latin1[8]	jkqc35grurqg6r29efakrmibd9-stolpern\_set1\_20[8]	_	_	_	_	_	false[88]	NA[88]	*[224]	*[224]	*[224]	*[224]	*[224]	input2[224]	42[353]	male[353]	jkqc35grurqg6r29efakrmibd9[353]	speaker: YOU[482]	_	_	elaboration	*	41-5[89_88]	
+41-2	882-887	Nikos	_	GFailure[8]	stolpern\_set1\_20[8]	latin1[8]	jkqc35grurqg6r29efakrmibd9-stolpern\_set1\_20[8]	*[40]	*[40]	PrepObj[40]	*[40]	*[40]	false[88]	NA[88]	*[224]	*[224]	*[224]	*[224]	*[224]	input2[224]	42[353]	male[353]	jkqc35grurqg6r29efakrmibd9[353]	speaker: YOU[482]	*->31-1|*->17-1	DefNP[31]|PropNm[17]	_	_	_	
+41-3	888-898	Legosteine	_	GFailure[8]	stolpern\_set1\_20[8]	latin1[8]	jkqc35grurqg6r29efakrmibd9-stolpern\_set1\_20[8]	*[40]	*[40]	PrepObj[40]	*[40]	*[40]	false[88]	NA[88]	*[224]	*[224]	*[224]	*[224]	*[224]	input2[224]	42[353]	male[353]	jkqc35grurqg6r29efakrmibd9[353]	speaker: YOU[482]	*->31-1	DefNP[31]	_	_	_	
+41-4	899-903	<BR>	_	GFailure[8]	stolpern\_set1\_20[8]	latin1[8]	jkqc35grurqg6r29efakrmibd9-stolpern\_set1\_20[8]	_	_	_	_	_	_	_	*[224]	*[224]	*[224]	*[224]	*[224]	input2[224]	42[353]	male[353]	jkqc35grurqg6r29efakrmibd9[353]	speaker: YOU[482]	_	_	_	_	_	
+41-5	904-908	echt	_	GFailure[8]	stolpern\_set1\_20[8]	latin1[8]	jkqc35grurqg6r29efakrmibd9-stolpern\_set1\_20[8]	_	_	_	_	_	false[89]	NA[89]	*[224]	*[224]	*[224]	*[224]	*[224]	input2[224]	42[353]	male[353]	jkqc35grurqg6r29efakrmibd9[353]	speaker: YOU[482]	_	_	_	_	_	
+41-6	909-913	blöd	_	GFailure[8]	stolpern\_set1\_20[8]	latin1[8]	jkqc35grurqg6r29efakrmibd9-stolpern\_set1\_20[8]	_	_	_	_	_	false[89]	NA[89]	*[224]	*[224]	*[224]	*[224]	*[224]	input2[224]	42[353]	male[353]	jkqc35grurqg6r29efakrmibd9[353]	speaker: YOU[482]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+42-1	915-930	END_OF_DOCUMENT	_	GFailure[8]	stolpern\_set1\_20[8]	latin1[8]	jkqc35grurqg6r29efakrmibd9-stolpern\_set1\_20[8]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+43-1	932-936	Hey,	_	GFailure[9]	stolpern\_set1\_20[9]	latin1[9]	lhu26mh95feeqso1qtacqboi3v-stolpern\_set1\_20[9]	_	_	_	_	_	false[90]	Int[90]	*[225]	*[225]	*[225]	wh\_6[225]	wh\_question[225]	openq[225]	*[354]	female[354]	*[354]	speaker:Eva[483]	_	_	QAP	*	44-1[91_90]	
+43-2	937-940	was	_	GFailure[9]	stolpern\_set1\_20[9]	latin1[9]	lhu26mh95feeqso1qtacqboi3v-stolpern\_set1\_20[9]	_	_	_	_	_	false[90]	Int[90]	*[225]	*[225]	*[225]	wh\_6[225]	wh\_question[225]	openq[225]	*[354]	female[354]	*[354]	speaker:Eva[483]	_	_	_	_	_	
+43-3	941-946	gibts	_	GFailure[9]	stolpern\_set1\_20[9]	latin1[9]	lhu26mh95feeqso1qtacqboi3v-stolpern\_set1\_20[9]	_	_	_	_	_	false[90]	Int[90]	*[225]	*[225]	*[225]	wh\_6[225]	wh\_question[225]	openq[225]	*[354]	female[354]	*[354]	speaker:Eva[483]	_	_	_	_	_	
+43-4	947-953	Neues?	_	GFailure[9]	stolpern\_set1\_20[9]	latin1[9]	lhu26mh95feeqso1qtacqboi3v-stolpern\_set1\_20[9]	_	_	_	_	_	false[90]	Int[90]	*[225]	*[225]	*[225]	wh\_6[225]	wh\_question[225]	openq[225]	*[354]	female[354]	*[354]	speaker:Eva[483]	_	_	_	_	_	
+
+#Text=Sebastian ist gestolpert
+44-1	955-964	Sebastian	_	GFailure[9]	stolpern\_set1\_20[9]	latin1[9]	lhu26mh95feeqso1qtacqboi3v-stolpern\_set1\_20[9]	*	*	Subj	*	*	false[91]	Decl[91]	*[226]	stolpern[226]	intransitive[226]	*[226]	*[226]	item0[226]	20[355]	male[355]	lhu26mh95feeqso1qtacqboi3v[355]	speaker: YOU[484]	*->79-1	PropNm[79]	elaboration|CR	*|*	46-1[92_91]|45-1[0_91]	
+44-2	965-968	ist	_	GFailure[9]	stolpern\_set1\_20[9]	latin1[9]	lhu26mh95feeqso1qtacqboi3v-stolpern\_set1\_20[9]	_	_	_	_	_	false[91]	Decl[91]	*[226]	stolpern[226]	intransitive[226]	*[226]	*[226]	item0[226]	20[355]	male[355]	lhu26mh95feeqso1qtacqboi3v[355]	speaker: YOU[484]	_	_	_	_	_	
+44-3	969-979	gestolpert	_	GFailure[9]	stolpern\_set1\_20[9]	latin1[9]	lhu26mh95feeqso1qtacqboi3v-stolpern\_set1\_20[9]	_	_	_	_	_	false[91]	Decl[91]	*[226]	stolpern[226]	intransitive[226]	*[226]	*[226]	item0[226]	20[355]	male[355]	lhu26mh95feeqso1qtacqboi3v[355]	speaker: YOU[484]	_	_	_	_	_	
+
+#Text=Häh?
+45-1	981-985	Häh?	_	GFailure[9]	stolpern\_set1\_20[9]	latin1[9]	lhu26mh95feeqso1qtacqboi3v-stolpern\_set1\_20[9]	_	_	_	_	_	false	NA	haeh\_question\_1	*	*	*	*	feedback	*	female	*	speaker:Eva	_	_	_	_	_	
+
+#Text=Ja Sebastian ist beim Treppensteigen gestürzt.
+46-1	987-989	Ja	_	GFailure[9]	stolpern\_set1\_20[9]	latin1[9]	lhu26mh95feeqso1qtacqboi3v-stolpern\_set1\_20[9]	_	_	_	_	_	false[92]	Decl[92]	*[227]	*[227]	*[227]	*[227]	*[227]	input1[227]	20[356]	male[356]	lhu26mh95feeqso1qtacqboi3v[356]	speaker: YOU[485]	_	_	contrast	*	47-1[93_92]	
+46-2	990-999	Sebastian	_	GFailure[9]	stolpern\_set1\_20[9]	latin1[9]	lhu26mh95feeqso1qtacqboi3v-stolpern\_set1\_20[9]	*	*	Subj	*	*	false[92]	Decl[92]	*[227]	*[227]	*[227]	*[227]	*[227]	input1[227]	20[356]	male[356]	lhu26mh95feeqso1qtacqboi3v[356]	speaker: YOU[485]	*->79-2	PropNm[79]	_	_	_	
+46-3	1000-1003	ist	_	GFailure[9]	stolpern\_set1\_20[9]	latin1[9]	lhu26mh95feeqso1qtacqboi3v-stolpern\_set1\_20[9]	_	_	_	_	_	false[92]	Decl[92]	*[227]	*[227]	*[227]	*[227]	*[227]	input1[227]	20[356]	male[356]	lhu26mh95feeqso1qtacqboi3v[356]	speaker: YOU[485]	_	_	_	_	_	
+46-4	1004-1008	beim	_	GFailure[9]	stolpern\_set1\_20[9]	latin1[9]	lhu26mh95feeqso1qtacqboi3v-stolpern\_set1\_20[9]	_	_	_	_	_	false[92]	Decl[92]	*[227]	*[227]	*[227]	*[227]	*[227]	input1[227]	20[356]	male[356]	lhu26mh95feeqso1qtacqboi3v[356]	speaker: YOU[485]	*->32-1	DefNP[32]	_	_	_	
+46-5	1009-1023	Treppensteigen	_	GFailure[9]	stolpern\_set1\_20[9]	latin1[9]	lhu26mh95feeqso1qtacqboi3v-stolpern\_set1\_20[9]	*	*	PrepObj	*	*	false[92]	Decl[92]	*[227]	*[227]	*[227]	*[227]	*[227]	input1[227]	20[356]	male[356]	lhu26mh95feeqso1qtacqboi3v[356]	speaker: YOU[485]	*->32-1	DefNP[32]	_	_	_	
+46-6	1024-1033	gestürzt.	_	GFailure[9]	stolpern\_set1\_20[9]	latin1[9]	lhu26mh95feeqso1qtacqboi3v-stolpern\_set1\_20[9]	_	_	_	_	_	false[92]	Decl[92]	*[227]	*[227]	*[227]	*[227]	*[227]	input1[227]	20[356]	male[356]	lhu26mh95feeqso1qtacqboi3v[356]	speaker: YOU[485]	_	_	_	_	_	
+
+#Text=Er hat sich aber nicht verletzt.
+47-1	1035-1037	Er	_	GFailure[9]	stolpern\_set1\_20[9]	latin1[9]	lhu26mh95feeqso1qtacqboi3v-stolpern\_set1\_20[9]	3	*	Subj	*	singular	false[93]	Decl[93]	*[228]	*[228]	*[228]	*[228]	*[228]	input2[228]	20[357]	male[357]	lhu26mh95feeqso1qtacqboi3v[357]	speaker: YOU[486]	*->79-3	PerPron[79]	_	_	_	
+47-2	1038-1041	hat	_	GFailure[9]	stolpern\_set1\_20[9]	latin1[9]	lhu26mh95feeqso1qtacqboi3v-stolpern\_set1\_20[9]	_	_	_	_	_	false[93]	Decl[93]	*[228]	*[228]	*[228]	*[228]	*[228]	input2[228]	20[357]	male[357]	lhu26mh95feeqso1qtacqboi3v[357]	speaker: YOU[486]	_	_	_	_	_	
+47-3	1042-1046	sich	_	GFailure[9]	stolpern\_set1\_20[9]	latin1[9]	lhu26mh95feeqso1qtacqboi3v-stolpern\_set1\_20[9]	_	_	_	_	_	false[93]	Decl[93]	*[228]	*[228]	*[228]	*[228]	*[228]	input2[228]	20[357]	male[357]	lhu26mh95feeqso1qtacqboi3v[357]	speaker: YOU[486]	_	_	_	_	_	
+47-4	1047-1051	aber	_	GFailure[9]	stolpern\_set1\_20[9]	latin1[9]	lhu26mh95feeqso1qtacqboi3v-stolpern\_set1\_20[9]	_	_	_	_	_	false[93]	Decl[93]	*[228]	*[228]	*[228]	*[228]	*[228]	input2[228]	20[357]	male[357]	lhu26mh95feeqso1qtacqboi3v[357]	speaker: YOU[486]	_	_	_	_	_	
+47-5	1052-1057	nicht	_	GFailure[9]	stolpern\_set1\_20[9]	latin1[9]	lhu26mh95feeqso1qtacqboi3v-stolpern\_set1\_20[9]	_	_	_	_	_	false[93]	Decl[93]	*[228]	*[228]	*[228]	*[228]	*[228]	input2[228]	20[357]	male[357]	lhu26mh95feeqso1qtacqboi3v[357]	speaker: YOU[486]	_	_	_	_	_	
+47-6	1058-1067	verletzt.	_	GFailure[9]	stolpern\_set1\_20[9]	latin1[9]	lhu26mh95feeqso1qtacqboi3v-stolpern\_set1\_20[9]	_	_	_	_	_	false[93]	Decl[93]	*[228]	*[228]	*[228]	*[228]	*[228]	input2[228]	20[357]	male[357]	lhu26mh95feeqso1qtacqboi3v[357]	speaker: YOU[486]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+48-1	1069-1084	END_OF_DOCUMENT	_	GFailure[9]	stolpern\_set1\_20[9]	latin1[9]	lhu26mh95feeqso1qtacqboi3v-stolpern\_set1\_20[9]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+49-1	1086-1090	Hey,	_	GFailure[10]	stolpern\_set1\_20[10]	latin1[10]	tc4i3rsgsa9bl8tesf4679lok2-stolpern\_set1\_20[10]	_	_	_	_	_	false[94]	Int[94]	*[229]	*[229]	*[229]	wh\_6[229]	wh\_question[229]	openq[229]	*[358]	female[358]	*[358]	speaker:Eva[487]	_	_	QAP	*	50-1[95_94]	
+49-2	1091-1094	was	_	GFailure[10]	stolpern\_set1\_20[10]	latin1[10]	tc4i3rsgsa9bl8tesf4679lok2-stolpern\_set1\_20[10]	_	_	_	_	_	false[94]	Int[94]	*[229]	*[229]	*[229]	wh\_6[229]	wh\_question[229]	openq[229]	*[358]	female[358]	*[358]	speaker:Eva[487]	_	_	_	_	_	
+49-3	1095-1100	gibts	_	GFailure[10]	stolpern\_set1\_20[10]	latin1[10]	tc4i3rsgsa9bl8tesf4679lok2-stolpern\_set1\_20[10]	_	_	_	_	_	false[94]	Int[94]	*[229]	*[229]	*[229]	wh\_6[229]	wh\_question[229]	openq[229]	*[358]	female[358]	*[358]	speaker:Eva[487]	_	_	_	_	_	
+49-4	1101-1107	Neues?	_	GFailure[10]	stolpern\_set1\_20[10]	latin1[10]	tc4i3rsgsa9bl8tesf4679lok2-stolpern\_set1\_20[10]	_	_	_	_	_	false[94]	Int[94]	*[229]	*[229]	*[229]	wh\_6[229]	wh\_question[229]	openq[229]	*[358]	female[358]	*[358]	speaker:Eva[487]	_	_	_	_	_	
+
+#Text=Sebastian ist gestolpert
+50-1	1109-1118	Sebastian	_	GFailure[10]	stolpern\_set1\_20[10]	latin1[10]	tc4i3rsgsa9bl8tesf4679lok2-stolpern\_set1\_20[10]	*	*	Subj	*	*	false[95]	Decl[95]	*[230]	stolpern[230]	intransitive[230]	*[230]	*[230]	item0[230]	21[359]	male[359]	tc4i3rsgsa9bl8tesf4679lok2[359]	speaker: YOU[488]	*->26-1	PropNm[26]	elaboration|CR	*|*	52-1[96_95]|51-1[0_95]	
+50-2	1119-1122	ist	_	GFailure[10]	stolpern\_set1\_20[10]	latin1[10]	tc4i3rsgsa9bl8tesf4679lok2-stolpern\_set1\_20[10]	_	_	_	_	_	false[95]	Decl[95]	*[230]	stolpern[230]	intransitive[230]	*[230]	*[230]	item0[230]	21[359]	male[359]	tc4i3rsgsa9bl8tesf4679lok2[359]	speaker: YOU[488]	_	_	_	_	_	
+50-3	1123-1133	gestolpert	_	GFailure[10]	stolpern\_set1\_20[10]	latin1[10]	tc4i3rsgsa9bl8tesf4679lok2-stolpern\_set1\_20[10]	_	_	_	_	_	false[95]	Decl[95]	*[230]	stolpern[230]	intransitive[230]	*[230]	*[230]	item0[230]	21[359]	male[359]	tc4i3rsgsa9bl8tesf4679lok2[359]	speaker: YOU[488]	_	_	_	_	_	
+
+#Text=Häh?
+51-1	1135-1139	Häh?	_	GFailure[10]	stolpern\_set1\_20[10]	latin1[10]	tc4i3rsgsa9bl8tesf4679lok2-stolpern\_set1\_20[10]	_	_	_	_	_	false	NA	haeh\_question\_1	*	*	*	*	feedback	*	female	*	speaker:Eva	_	_	_	_	_	
+
+#Text=Er wollte kurz was von oben holen
+52-1	1141-1143	Er	_	GFailure[10]	stolpern\_set1\_20[10]	latin1[10]	tc4i3rsgsa9bl8tesf4679lok2-stolpern\_set1\_20[10]	3	*	Subj	*	singular	true[96]|false[97]	*[96]|Decl[97]	*[231]	*[231]	*[231]	*[231]	*[231]	input1[231]	21[360]	male[360]	tc4i3rsgsa9bl8tesf4679lok2[360]	speaker: YOU[489]	*->26-2	PerPron[26]	narration	*	53-1[98_97]	
+52-2	1144-1150	wollte	_	GFailure[10]	stolpern\_set1\_20[10]	latin1[10]	tc4i3rsgsa9bl8tesf4679lok2-stolpern\_set1\_20[10]	_	_	_	_	_	true[96]|false[97]	*[96]|Decl[97]	*[231]	*[231]	*[231]	*[231]	*[231]	input1[231]	21[360]	male[360]	tc4i3rsgsa9bl8tesf4679lok2[360]	speaker: YOU[489]	_	_	_	_	_	
+52-3	1151-1155	kurz	_	GFailure[10]	stolpern\_set1\_20[10]	latin1[10]	tc4i3rsgsa9bl8tesf4679lok2-stolpern\_set1\_20[10]	_	_	_	_	_	true[96]|false[97]	*[96]|Decl[97]	*[231]	*[231]	*[231]	*[231]	*[231]	input1[231]	21[360]	male[360]	tc4i3rsgsa9bl8tesf4679lok2[360]	speaker: YOU[489]	_	_	_	_	_	
+52-4	1156-1159	was	_	GFailure[10]	stolpern\_set1\_20[10]	latin1[10]	tc4i3rsgsa9bl8tesf4679lok2-stolpern\_set1\_20[10]	_	_	_	_	_	true[96]|false[97]	*[96]|Decl[97]	*[231]	*[231]	*[231]	*[231]	*[231]	input1[231]	21[360]	male[360]	tc4i3rsgsa9bl8tesf4679lok2[360]	speaker: YOU[489]	*->64-1	IndefNP[64]	_	_	_	
+52-5	1160-1163	von	_	GFailure[10]	stolpern\_set1\_20[10]	latin1[10]	tc4i3rsgsa9bl8tesf4679lok2-stolpern\_set1\_20[10]	_	_	_	_	_	true[96]|false[97]	*[96]|Decl[97]	*[231]	*[231]	*[231]	*[231]	*[231]	input1[231]	21[360]	male[360]	tc4i3rsgsa9bl8tesf4679lok2[360]	speaker: YOU[489]	_	_	_	_	_	
+52-6	1164-1168	oben	_	GFailure[10]	stolpern\_set1\_20[10]	latin1[10]	tc4i3rsgsa9bl8tesf4679lok2-stolpern\_set1\_20[10]	*	*	PrepObj	*	*	true[96]|false[97]	*[96]|Decl[97]	*[231]	*[231]	*[231]	*[231]	*[231]	input1[231]	21[360]	male[360]	tc4i3rsgsa9bl8tesf4679lok2[360]	speaker: YOU[489]	_	_	_	_	_	
+52-7	1169-1174	holen	_	GFailure[10]	stolpern\_set1\_20[10]	latin1[10]	tc4i3rsgsa9bl8tesf4679lok2-stolpern\_set1\_20[10]	_	_	_	_	_	true[96]|false[97]	*[96]|Decl[97]	*[231]	*[231]	*[231]	*[231]	*[231]	input1[231]	21[360]	male[360]	tc4i3rsgsa9bl8tesf4679lok2[360]	speaker: YOU[489]	_	_	_	_	_	
+
+#Text=Und ist dann blöd auf der Treppe hingefallen
+53-1	1176-1179	Und	_	GFailure[10]	stolpern\_set1\_20[10]	latin1[10]	tc4i3rsgsa9bl8tesf4679lok2-stolpern\_set1\_20[10]	_	_	_	_	_	true[96]|false[98]	*[96]|Decl[98]	*[232]	*[232]	*[232]	*[232]	*[232]	input2[232]	21[361]	male[361]	tc4i3rsgsa9bl8tesf4679lok2[361]	speaker: YOU[490]	_	_	_	_	_	
+53-2	1180-1183	ist	_	GFailure[10]	stolpern\_set1\_20[10]	latin1[10]	tc4i3rsgsa9bl8tesf4679lok2-stolpern\_set1\_20[10]	3	*	*	*	singular	true[96]|false[98]	*[96]|Decl[98]	*[232]	*[232]	*[232]	*[232]	*[232]	input2[232]	21[361]	male[361]	tc4i3rsgsa9bl8tesf4679lok2[361]	speaker: YOU[490]	*->26-3	zero[26]	_	_	_	
+53-3	1184-1188	dann	_	GFailure[10]	stolpern\_set1\_20[10]	latin1[10]	tc4i3rsgsa9bl8tesf4679lok2-stolpern\_set1\_20[10]	_	_	_	_	_	true[96]|false[98]	*[96]|Decl[98]	*[232]	*[232]	*[232]	*[232]	*[232]	input2[232]	21[361]	male[361]	tc4i3rsgsa9bl8tesf4679lok2[361]	speaker: YOU[490]	_	_	_	_	_	
+53-4	1189-1193	blöd	_	GFailure[10]	stolpern\_set1\_20[10]	latin1[10]	tc4i3rsgsa9bl8tesf4679lok2-stolpern\_set1\_20[10]	_	_	_	_	_	true[96]|false[98]	*[96]|Decl[98]	*[232]	*[232]	*[232]	*[232]	*[232]	input2[232]	21[361]	male[361]	tc4i3rsgsa9bl8tesf4679lok2[361]	speaker: YOU[490]	_	_	_	_	_	
+53-5	1194-1197	auf	_	GFailure[10]	stolpern\_set1\_20[10]	latin1[10]	tc4i3rsgsa9bl8tesf4679lok2-stolpern\_set1\_20[10]	_	_	_	_	_	true[96]|false[98]	*[96]|Decl[98]	*[232]	*[232]	*[232]	*[232]	*[232]	input2[232]	21[361]	male[361]	tc4i3rsgsa9bl8tesf4679lok2[361]	speaker: YOU[490]	_	_	_	_	_	
+53-6	1198-1201	der	_	GFailure[10]	stolpern\_set1\_20[10]	latin1[10]	tc4i3rsgsa9bl8tesf4679lok2-stolpern\_set1\_20[10]	*[41]	*[41]	PrepObj[41]	*[41]	*[41]	true[96]|false[98]	*[96]|Decl[98]	*[232]	*[232]	*[232]	*[232]	*[232]	input2[232]	21[361]	male[361]	tc4i3rsgsa9bl8tesf4679lok2[361]	speaker: YOU[490]	*->74-1	DefNP[74]	_	_	_	
+53-7	1202-1208	Treppe	_	GFailure[10]	stolpern\_set1\_20[10]	latin1[10]	tc4i3rsgsa9bl8tesf4679lok2-stolpern\_set1\_20[10]	*[41]	*[41]	PrepObj[41]	*[41]	*[41]	true[96]|false[98]	*[96]|Decl[98]	*[232]	*[232]	*[232]	*[232]	*[232]	input2[232]	21[361]	male[361]	tc4i3rsgsa9bl8tesf4679lok2[361]	speaker: YOU[490]	*->74-1	DefNP[74]	_	_	_	
+53-8	1209-1220	hingefallen	_	GFailure[10]	stolpern\_set1\_20[10]	latin1[10]	tc4i3rsgsa9bl8tesf4679lok2-stolpern\_set1\_20[10]	_	_	_	_	_	true[96]|false[98]	*[96]|Decl[98]	*[232]	*[232]	*[232]	*[232]	*[232]	input2[232]	21[361]	male[361]	tc4i3rsgsa9bl8tesf4679lok2[361]	speaker: YOU[490]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+54-1	1222-1237	END_OF_DOCUMENT	_	GFailure[10]	stolpern\_set1\_20[10]	latin1[10]	tc4i3rsgsa9bl8tesf4679lok2-stolpern\_set1\_20[10]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+55-1	1239-1243	Hey,	_	GFailure[11]	stolpern\_set1\_20[11]	latin1[11]	us0adlivem61c2bj5776kudbot-stolpern\_set1\_20[11]	_	_	_	_	_	false[99]	Int[99]	*[233]	*[233]	*[233]	wh\_6[233]	wh\_question[233]	openq[233]	*[362]	female[362]	*[362]	speaker:Eva[491]	_	_	QAP	*	56-1[100_99]	
+55-2	1244-1247	was	_	GFailure[11]	stolpern\_set1\_20[11]	latin1[11]	us0adlivem61c2bj5776kudbot-stolpern\_set1\_20[11]	_	_	_	_	_	false[99]	Int[99]	*[233]	*[233]	*[233]	wh\_6[233]	wh\_question[233]	openq[233]	*[362]	female[362]	*[362]	speaker:Eva[491]	_	_	_	_	_	
+55-3	1248-1253	gibts	_	GFailure[11]	stolpern\_set1\_20[11]	latin1[11]	us0adlivem61c2bj5776kudbot-stolpern\_set1\_20[11]	_	_	_	_	_	false[99]	Int[99]	*[233]	*[233]	*[233]	wh\_6[233]	wh\_question[233]	openq[233]	*[362]	female[362]	*[362]	speaker:Eva[491]	_	_	_	_	_	
+55-4	1254-1260	Neues?	_	GFailure[11]	stolpern\_set1\_20[11]	latin1[11]	us0adlivem61c2bj5776kudbot-stolpern\_set1\_20[11]	_	_	_	_	_	false[99]	Int[99]	*[233]	*[233]	*[233]	wh\_6[233]	wh\_question[233]	openq[233]	*[362]	female[362]	*[362]	speaker:Eva[491]	_	_	_	_	_	
+
+#Text=Sebastian ist gestolpert
+56-1	1262-1271	Sebastian	_	GFailure[11]	stolpern\_set1\_20[11]	latin1[11]	us0adlivem61c2bj5776kudbot-stolpern\_set1\_20[11]	*	*	Subj	*	*	false[100]	Decl[100]	*[234]	stolpern[234]	intransitive[234]	*[234]	*[234]	item0[234]	66[363]	male[363]	us0adlivem61c2bj5776kudbot[363]	speaker: YOU[492]	*->33-1	PropNm[33]	elaboration|CR	*|*	58-1[101_100]|57-1[0_100]	
+56-2	1272-1275	ist	_	GFailure[11]	stolpern\_set1\_20[11]	latin1[11]	us0adlivem61c2bj5776kudbot-stolpern\_set1\_20[11]	_	_	_	_	_	false[100]	Decl[100]	*[234]	stolpern[234]	intransitive[234]	*[234]	*[234]	item0[234]	66[363]	male[363]	us0adlivem61c2bj5776kudbot[363]	speaker: YOU[492]	_	_	_	_	_	
+56-3	1276-1286	gestolpert	_	GFailure[11]	stolpern\_set1\_20[11]	latin1[11]	us0adlivem61c2bj5776kudbot-stolpern\_set1\_20[11]	_	_	_	_	_	false[100]	Decl[100]	*[234]	stolpern[234]	intransitive[234]	*[234]	*[234]	item0[234]	66[363]	male[363]	us0adlivem61c2bj5776kudbot[363]	speaker: YOU[492]	_	_	_	_	_	
+
+#Text=Häh?
+57-1	1288-1292	Häh?	_	GFailure[11]	stolpern\_set1\_20[11]	latin1[11]	us0adlivem61c2bj5776kudbot-stolpern\_set1\_20[11]	_	_	_	_	_	false	NA	haeh\_question\_1	*	*	*	*	feedback	*	female	*	speaker:Eva	_	_	_	_	_	
+
+#Text=beim jogen
+58-1	1294-1298	beim	_	GFailure[11]	stolpern\_set1\_20[11]	latin1[11]	us0adlivem61c2bj5776kudbot-stolpern\_set1\_20[11]	_	_	_	_	_	false[101]	NA[101]	*[235]	*[235]	*[235]	*[235]	*[235]	input1[235]	66[364]	male[364]	us0adlivem61c2bj5776kudbot[364]	speaker: YOU[493]	*->18-1	DefNP[18]	contrast	*	59-1[102_101]	
+58-2	1299-1304	jogen	_	GFailure[11]	stolpern\_set1\_20[11]	latin1[11]	us0adlivem61c2bj5776kudbot-stolpern\_set1\_20[11]	_	_	_	_	_	false[101]	NA[101]	*[235]	*[235]	*[235]	*[235]	*[235]	input1[235]	66[364]	male[364]	us0adlivem61c2bj5776kudbot[364]	speaker: YOU[493]	*->18-1	DefNP[18]	_	_	_	
+
+#Text=aber hat sich nicht ernsthaft verletzt
+59-1	1306-1310	aber	_	GFailure[11]	stolpern\_set1\_20[11]	latin1[11]	us0adlivem61c2bj5776kudbot-stolpern\_set1\_20[11]	_	_	_	_	_	false[102]	Decl[102]	*[236]	*[236]	*[236]	*[236]	*[236]	input2[236]	66[365]	male[365]	us0adlivem61c2bj5776kudbot[365]	speaker: YOU[494]	_	_	_	_	_	
+59-2	1311-1314	hat	_	GFailure[11]	stolpern\_set1\_20[11]	latin1[11]	us0adlivem61c2bj5776kudbot-stolpern\_set1\_20[11]	3	*	*	*	singular	false[102]	Decl[102]	*[236]	*[236]	*[236]	*[236]	*[236]	input2[236]	66[365]	male[365]	us0adlivem61c2bj5776kudbot[365]	speaker: YOU[494]	*->33-2	zero[33]	_	_	_	
+59-3	1315-1319	sich	_	GFailure[11]	stolpern\_set1\_20[11]	latin1[11]	us0adlivem61c2bj5776kudbot-stolpern\_set1\_20[11]	_	_	_	_	_	false[102]	Decl[102]	*[236]	*[236]	*[236]	*[236]	*[236]	input2[236]	66[365]	male[365]	us0adlivem61c2bj5776kudbot[365]	speaker: YOU[494]	_	_	_	_	_	
+59-4	1320-1325	nicht	_	GFailure[11]	stolpern\_set1\_20[11]	latin1[11]	us0adlivem61c2bj5776kudbot-stolpern\_set1\_20[11]	_	_	_	_	_	false[102]	Decl[102]	*[236]	*[236]	*[236]	*[236]	*[236]	input2[236]	66[365]	male[365]	us0adlivem61c2bj5776kudbot[365]	speaker: YOU[494]	_	_	_	_	_	
+59-5	1326-1335	ernsthaft	_	GFailure[11]	stolpern\_set1\_20[11]	latin1[11]	us0adlivem61c2bj5776kudbot-stolpern\_set1\_20[11]	_	_	_	_	_	false[102]	Decl[102]	*[236]	*[236]	*[236]	*[236]	*[236]	input2[236]	66[365]	male[365]	us0adlivem61c2bj5776kudbot[365]	speaker: YOU[494]	_	_	_	_	_	
+59-6	1336-1344	verletzt	_	GFailure[11]	stolpern\_set1\_20[11]	latin1[11]	us0adlivem61c2bj5776kudbot-stolpern\_set1\_20[11]	_	_	_	_	_	false[102]	Decl[102]	*[236]	*[236]	*[236]	*[236]	*[236]	input2[236]	66[365]	male[365]	us0adlivem61c2bj5776kudbot[365]	speaker: YOU[494]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+60-1	1346-1361	END_OF_DOCUMENT	_	GFailure[11]	stolpern\_set1\_20[11]	latin1[11]	us0adlivem61c2bj5776kudbot-stolpern\_set1\_20[11]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+61-1	1363-1367	Hey,	_	GSuccess[12]	stolpern\_set1\_20[12]	latin2[12]	2em9nj6n4c2pjudl6n6hfpjc30-stolpern\_set1\_20[12]	_	_	_	_	_	false[103]	Int[103]	*[237]	*[237]	*[237]	wh\_6[237]	wh\_question[237]	openq[237]	*[366]	female[366]	*[366]	speaker:Eva[495]	_	_	QAP	*	62-1[104_103]	
+61-2	1368-1371	was	_	GSuccess[12]	stolpern\_set1\_20[12]	latin2[12]	2em9nj6n4c2pjudl6n6hfpjc30-stolpern\_set1\_20[12]	_	_	_	_	_	false[103]	Int[103]	*[237]	*[237]	*[237]	wh\_6[237]	wh\_question[237]	openq[237]	*[366]	female[366]	*[366]	speaker:Eva[495]	_	_	_	_	_	
+61-3	1372-1377	gibts	_	GSuccess[12]	stolpern\_set1\_20[12]	latin2[12]	2em9nj6n4c2pjudl6n6hfpjc30-stolpern\_set1\_20[12]	_	_	_	_	_	false[103]	Int[103]	*[237]	*[237]	*[237]	wh\_6[237]	wh\_question[237]	openq[237]	*[366]	female[366]	*[366]	speaker:Eva[495]	_	_	_	_	_	
+61-4	1378-1384	Neues?	_	GSuccess[12]	stolpern\_set1\_20[12]	latin2[12]	2em9nj6n4c2pjudl6n6hfpjc30-stolpern\_set1\_20[12]	_	_	_	_	_	false[103]	Int[103]	*[237]	*[237]	*[237]	wh\_6[237]	wh\_question[237]	openq[237]	*[366]	female[366]	*[366]	speaker:Eva[495]	_	_	_	_	_	
+
+#Text=Sebastian ist gestolpert
+62-1	1386-1395	Sebastian	_	GSuccess[12]	stolpern\_set1\_20[12]	latin2[12]	2em9nj6n4c2pjudl6n6hfpjc30-stolpern\_set1\_20[12]	*	*	Subj	*	*	false[104]	Decl[104]	*[238]	stolpern[238]	intransitive[238]	*[238]	*[238]	item0[238]	32[367]	female[367]	2em9nj6n4c2pjudl6n6hfpjc30[367]	speaker: YOU[496]	*->20-1	PropNm[20]	elaboration|contrast|acknowledgement	*|*|*	64-3[107_104]|65-1[108_104]|63-1[105_104]	
+62-2	1396-1399	ist	_	GSuccess[12]	stolpern\_set1\_20[12]	latin2[12]	2em9nj6n4c2pjudl6n6hfpjc30-stolpern\_set1\_20[12]	_	_	_	_	_	false[104]	Decl[104]	*[238]	stolpern[238]	intransitive[238]	*[238]	*[238]	item0[238]	32[367]	female[367]	2em9nj6n4c2pjudl6n6hfpjc30[367]	speaker: YOU[496]	_	_	_	_	_	
+62-3	1400-1410	gestolpert	_	GSuccess[12]	stolpern\_set1\_20[12]	latin2[12]	2em9nj6n4c2pjudl6n6hfpjc30-stolpern\_set1\_20[12]	_	_	_	_	_	false[104]	Decl[104]	*[238]	stolpern[238]	intransitive[238]	*[238]	*[238]	item0[238]	32[367]	female[367]	2em9nj6n4c2pjudl6n6hfpjc30[367]	speaker: YOU[496]	_	_	_	_	_	
+
+#Text=Oh nein
+63-1	1412-1414	Oh	_	GSuccess[12]	stolpern\_set1\_20[12]	latin2[12]	2em9nj6n4c2pjudl6n6hfpjc30-stolpern\_set1\_20[12]	_	_	_	_	_	false[105]	NA[105]	oh-nein\_25[239]	*[239]	*[239]	*[239]	*[239]	feedback[239]	*[368]	female[368]	*[368]	speaker:Eva[497]	_	_	correction	*	64-1[106_105]	
+63-2	1415-1419	nein	_	GSuccess[12]	stolpern\_set1\_20[12]	latin2[12]	2em9nj6n4c2pjudl6n6hfpjc30-stolpern\_set1\_20[12]	_	_	_	_	_	false[105]	NA[105]	oh-nein\_25[239]	*[239]	*[239]	*[239]	*[239]	feedback[239]	*[368]	female[368]	*[368]	speaker:Eva[497]	_	_	_	_	_	
+
+#Text=Oh doch. Hat den Duschvorhang beim rumtaumeln abgerissen.
+64-1	1421-1423	Oh	_	GSuccess[12]	stolpern\_set1\_20[12]	latin2[12]	2em9nj6n4c2pjudl6n6hfpjc30-stolpern\_set1\_20[12]	_	_	_	_	_	false[106]	NA[106]	*[240]	*[240]	*[240]	*[240]	*[240]	input1[240]	32[369]	female[369]	2em9nj6n4c2pjudl6n6hfpjc30[369]	speaker: YOU[498]	_	_	_	_	_	
+64-2	1424-1429	doch.	_	GSuccess[12]	stolpern\_set1\_20[12]	latin2[12]	2em9nj6n4c2pjudl6n6hfpjc30-stolpern\_set1\_20[12]	_	_	_	_	_	false[106]	NA[106]	*[240]	*[240]	*[240]	*[240]	*[240]	input1[240]	32[369]	female[369]	2em9nj6n4c2pjudl6n6hfpjc30[369]	speaker: YOU[498]	_	_	_	_	_	
+64-3	1430-1433	Hat	_	GSuccess[12]	stolpern\_set1\_20[12]	latin2[12]	2em9nj6n4c2pjudl6n6hfpjc30-stolpern\_set1\_20[12]	3	*	*	*	singular	false[107]	Decl[107]	*[240]	*[240]	*[240]	*[240]	*[240]	input1[240]	32[369]	female[369]	2em9nj6n4c2pjudl6n6hfpjc30[369]	speaker: YOU[498]	*->20-2	zero[20]	contrast	*	65-1[108_107]	
+64-4	1434-1437	den	_	GSuccess[12]	stolpern\_set1\_20[12]	latin2[12]	2em9nj6n4c2pjudl6n6hfpjc30-stolpern\_set1\_20[12]	*[42]	*[42]	DirObj[42]	*[42]	*[42]	false[107]	Decl[107]	*[240]	*[240]	*[240]	*[240]	*[240]	input1[240]	32[369]	female[369]	2em9nj6n4c2pjudl6n6hfpjc30[369]	speaker: YOU[498]	*->21-1	DefNP[21]	_	_	_	
+64-5	1438-1450	Duschvorhang	_	GSuccess[12]	stolpern\_set1\_20[12]	latin2[12]	2em9nj6n4c2pjudl6n6hfpjc30-stolpern\_set1\_20[12]	*[42]	*[42]	DirObj[42]	*[42]	*[42]	false[107]	Decl[107]	*[240]	*[240]	*[240]	*[240]	*[240]	input1[240]	32[369]	female[369]	2em9nj6n4c2pjudl6n6hfpjc30[369]	speaker: YOU[498]	*->21-1	DefNP[21]	_	_	_	
+64-6	1451-1455	beim	_	GSuccess[12]	stolpern\_set1\_20[12]	latin2[12]	2em9nj6n4c2pjudl6n6hfpjc30-stolpern\_set1\_20[12]	_	_	_	_	_	false[107]	Decl[107]	*[240]	*[240]	*[240]	*[240]	*[240]	input1[240]	32[369]	female[369]	2em9nj6n4c2pjudl6n6hfpjc30[369]	speaker: YOU[498]	*->43-1	DefNP[43]	_	_	_	
+64-7	1456-1466	rumtaumeln	_	GSuccess[12]	stolpern\_set1\_20[12]	latin2[12]	2em9nj6n4c2pjudl6n6hfpjc30-stolpern\_set1\_20[12]	_	_	_	_	_	false[107]	Decl[107]	*[240]	*[240]	*[240]	*[240]	*[240]	input1[240]	32[369]	female[369]	2em9nj6n4c2pjudl6n6hfpjc30[369]	speaker: YOU[498]	*->43-1	DefNP[43]	_	_	_	
+64-8	1467-1478	abgerissen.	_	GSuccess[12]	stolpern\_set1\_20[12]	latin2[12]	2em9nj6n4c2pjudl6n6hfpjc30-stolpern\_set1\_20[12]	_	_	_	_	_	false[107]	Decl[107]	*[240]	*[240]	*[240]	*[240]	*[240]	input1[240]	32[369]	female[369]	2em9nj6n4c2pjudl6n6hfpjc30[369]	speaker: YOU[498]	_	_	_	_	_	
+
+#Text=Aber ihm ist glücklicherweise nichts passiert.
+65-1	1480-1484	Aber	_	GSuccess[12]	stolpern\_set1\_20[12]	latin2[12]	2em9nj6n4c2pjudl6n6hfpjc30-stolpern\_set1\_20[12]	_	_	_	_	_	false[108]	Decl[108]	*[241]	*[241]	*[241]	*[241]	*[241]	input2[241]	32[370]	female[370]	2em9nj6n4c2pjudl6n6hfpjc30[370]	speaker: YOU[499]	_	_	_	_	_	
+65-2	1485-1488	ihm	_	GSuccess[12]	stolpern\_set1\_20[12]	latin2[12]	2em9nj6n4c2pjudl6n6hfpjc30-stolpern\_set1\_20[12]	3	*	IndirObj	*	singular	false[108]	Decl[108]	*[241]	*[241]	*[241]	*[241]	*[241]	input2[241]	32[370]	female[370]	2em9nj6n4c2pjudl6n6hfpjc30[370]	speaker: YOU[499]	*->20-3	PerPron[20]	_	_	_	
+65-3	1489-1492	ist	_	GSuccess[12]	stolpern\_set1\_20[12]	latin2[12]	2em9nj6n4c2pjudl6n6hfpjc30-stolpern\_set1\_20[12]	_	_	_	_	_	false[108]	Decl[108]	*[241]	*[241]	*[241]	*[241]	*[241]	input2[241]	32[370]	female[370]	2em9nj6n4c2pjudl6n6hfpjc30[370]	speaker: YOU[499]	_	_	_	_	_	
+65-4	1493-1509	glücklicherweise	_	GSuccess[12]	stolpern\_set1\_20[12]	latin2[12]	2em9nj6n4c2pjudl6n6hfpjc30-stolpern\_set1\_20[12]	_	_	_	_	_	false[108]	Decl[108]	*[241]	*[241]	*[241]	*[241]	*[241]	input2[241]	32[370]	female[370]	2em9nj6n4c2pjudl6n6hfpjc30[370]	speaker: YOU[499]	_	_	_	_	_	
+65-5	1510-1516	nichts	_	GSuccess[12]	stolpern\_set1\_20[12]	latin2[12]	2em9nj6n4c2pjudl6n6hfpjc30-stolpern\_set1\_20[12]	_	_	_	_	_	false[108]	Decl[108]	*[241]	*[241]	*[241]	*[241]	*[241]	input2[241]	32[370]	female[370]	2em9nj6n4c2pjudl6n6hfpjc30[370]	speaker: YOU[499]	_	_	_	_	_	
+65-6	1517-1526	passiert.	_	GSuccess[12]	stolpern\_set1\_20[12]	latin2[12]	2em9nj6n4c2pjudl6n6hfpjc30-stolpern\_set1\_20[12]	_	_	_	_	_	false[108]	Decl[108]	*[241]	*[241]	*[241]	*[241]	*[241]	input2[241]	32[370]	female[370]	2em9nj6n4c2pjudl6n6hfpjc30[370]	speaker: YOU[499]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+66-1	1528-1543	END_OF_DOCUMENT	_	GSuccess[12]	stolpern\_set1\_20[12]	latin2[12]	2em9nj6n4c2pjudl6n6hfpjc30-stolpern\_set1\_20[12]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+67-1	1545-1549	Hey,	_	GSuccess[13]	stolpern\_set1\_20[13]	latin2[13]	2prsavjsjqbmc8hrbo9bovkues-stolpern\_set1\_20[13]	_	_	_	_	_	false[109]	Int[109]	*[242]	*[242]	*[242]	wh\_6[242]	wh\_question[242]	openq[242]	*[371]	female[371]	*[371]	speaker:Eva[500]	_	_	QAP	*	68-1[110_109]	
+67-2	1550-1553	was	_	GSuccess[13]	stolpern\_set1\_20[13]	latin2[13]	2prsavjsjqbmc8hrbo9bovkues-stolpern\_set1\_20[13]	_	_	_	_	_	false[109]	Int[109]	*[242]	*[242]	*[242]	wh\_6[242]	wh\_question[242]	openq[242]	*[371]	female[371]	*[371]	speaker:Eva[500]	_	_	_	_	_	
+67-3	1554-1559	gibts	_	GSuccess[13]	stolpern\_set1\_20[13]	latin2[13]	2prsavjsjqbmc8hrbo9bovkues-stolpern\_set1\_20[13]	_	_	_	_	_	false[109]	Int[109]	*[242]	*[242]	*[242]	wh\_6[242]	wh\_question[242]	openq[242]	*[371]	female[371]	*[371]	speaker:Eva[500]	_	_	_	_	_	
+67-4	1560-1566	Neues?	_	GSuccess[13]	stolpern\_set1\_20[13]	latin2[13]	2prsavjsjqbmc8hrbo9bovkues-stolpern\_set1\_20[13]	_	_	_	_	_	false[109]	Int[109]	*[242]	*[242]	*[242]	wh\_6[242]	wh\_question[242]	openq[242]	*[371]	female[371]	*[371]	speaker:Eva[500]	_	_	_	_	_	
+
+#Text=Sebastian ist gestolpert
+68-1	1568-1577	Sebastian	_	GSuccess[13]	stolpern\_set1\_20[13]	latin2[13]	2prsavjsjqbmc8hrbo9bovkues-stolpern\_set1\_20[13]	*	*	Subj	*	*	false[110]	Decl[110]	*[243]	stolpern[243]	intransitive[243]	*[243]	*[243]	item0[243]	41[372]	female[372]	2prsavjsjqbmc8hrbo9bovkues[372]	speaker: YOU[501]	*->2-1	PropNm[2]	elaboration|contrast|acknowledgement	*|*|*	70-1[112_110]|71-1[113_110]|69-1[111_110]	
+68-2	1578-1581	ist	_	GSuccess[13]	stolpern\_set1\_20[13]	latin2[13]	2prsavjsjqbmc8hrbo9bovkues-stolpern\_set1\_20[13]	_	_	_	_	_	false[110]	Decl[110]	*[243]	stolpern[243]	intransitive[243]	*[243]	*[243]	item0[243]	41[372]	female[372]	2prsavjsjqbmc8hrbo9bovkues[372]	speaker: YOU[501]	_	_	_	_	_	
+68-3	1582-1592	gestolpert	_	GSuccess[13]	stolpern\_set1\_20[13]	latin2[13]	2prsavjsjqbmc8hrbo9bovkues-stolpern\_set1\_20[13]	_	_	_	_	_	false[110]	Decl[110]	*[243]	stolpern[243]	intransitive[243]	*[243]	*[243]	item0[243]	41[372]	female[372]	2prsavjsjqbmc8hrbo9bovkues[372]	speaker: YOU[501]	_	_	_	_	_	
+
+#Text=Oh nein
+69-1	1594-1596	Oh	_	GSuccess[13]	stolpern\_set1\_20[13]	latin2[13]	2prsavjsjqbmc8hrbo9bovkues-stolpern\_set1\_20[13]	_	_	_	_	_	false[111]	NA[111]	oh-nein\_25[244]	*[244]	*[244]	*[244]	*[244]	feedback[244]	*[373]	female[373]	*[373]	speaker:Eva[502]	_	_	_	_	_	
+69-2	1597-1601	nein	_	GSuccess[13]	stolpern\_set1\_20[13]	latin2[13]	2prsavjsjqbmc8hrbo9bovkues-stolpern\_set1\_20[13]	_	_	_	_	_	false[111]	NA[111]	oh-nein\_25[244]	*[244]	*[244]	*[244]	*[244]	feedback[244]	*[373]	female[373]	*[373]	speaker:Eva[502]	_	_	_	_	_	
+
+#Text=Die blöde Türschwelle.
+70-1	1603-1606	Die	_	GSuccess[13]	stolpern\_set1\_20[13]	latin2[13]	2prsavjsjqbmc8hrbo9bovkues-stolpern\_set1\_20[13]	_	_	_	_	_	false[112]	NA[112]	*[245]	*[245]	*[245]	*[245]	*[245]	input1[245]	41[374]	female[374]	2prsavjsjqbmc8hrbo9bovkues[374]	speaker: YOU[503]	*->61-1	DefNP[61]	_	_	_	
+70-2	1607-1612	blöde	_	GSuccess[13]	stolpern\_set1\_20[13]	latin2[13]	2prsavjsjqbmc8hrbo9bovkues-stolpern\_set1\_20[13]	_	_	_	_	_	false[112]	NA[112]	*[245]	*[245]	*[245]	*[245]	*[245]	input1[245]	41[374]	female[374]	2prsavjsjqbmc8hrbo9bovkues[374]	speaker: YOU[503]	*->61-1	DefNP[61]	_	_	_	
+70-3	1613-1625	Türschwelle.	_	GSuccess[13]	stolpern\_set1\_20[13]	latin2[13]	2prsavjsjqbmc8hrbo9bovkues-stolpern\_set1\_20[13]	_	_	_	_	_	false[112]	NA[112]	*[245]	*[245]	*[245]	*[245]	*[245]	input1[245]	41[374]	female[374]	2prsavjsjqbmc8hrbo9bovkues[374]	speaker: YOU[503]	*->61-1	DefNP[61]	_	_	_	
+
+#Text=Zum Glück hat er sich nicht schwer verletzt.
+71-1	1627-1630	Zum	_	GSuccess[13]	stolpern\_set1\_20[13]	latin2[13]	2prsavjsjqbmc8hrbo9bovkues-stolpern\_set1\_20[13]	_	_	_	_	_	false[113]	Decl[113]	*[246]	*[246]	*[246]	*[246]	*[246]	input2[246]	41[375]	female[375]	2prsavjsjqbmc8hrbo9bovkues[375]	speaker: YOU[504]	_	_	_	_	_	
+71-2	1631-1636	Glück	_	GSuccess[13]	stolpern\_set1\_20[13]	latin2[13]	2prsavjsjqbmc8hrbo9bovkues-stolpern\_set1\_20[13]	_	_	_	_	_	false[113]	Decl[113]	*[246]	*[246]	*[246]	*[246]	*[246]	input2[246]	41[375]	female[375]	2prsavjsjqbmc8hrbo9bovkues[375]	speaker: YOU[504]	_	_	_	_	_	
+71-3	1637-1640	hat	_	GSuccess[13]	stolpern\_set1\_20[13]	latin2[13]	2prsavjsjqbmc8hrbo9bovkues-stolpern\_set1\_20[13]	_	_	_	_	_	false[113]	Decl[113]	*[246]	*[246]	*[246]	*[246]	*[246]	input2[246]	41[375]	female[375]	2prsavjsjqbmc8hrbo9bovkues[375]	speaker: YOU[504]	_	_	_	_	_	
+71-4	1641-1643	er	_	GSuccess[13]	stolpern\_set1\_20[13]	latin2[13]	2prsavjsjqbmc8hrbo9bovkues-stolpern\_set1\_20[13]	3	*	Subj	*	singular	false[113]	Decl[113]	*[246]	*[246]	*[246]	*[246]	*[246]	input2[246]	41[375]	female[375]	2prsavjsjqbmc8hrbo9bovkues[375]	speaker: YOU[504]	*->2-2	PerPron[2]	_	_	_	
+71-5	1644-1648	sich	_	GSuccess[13]	stolpern\_set1\_20[13]	latin2[13]	2prsavjsjqbmc8hrbo9bovkues-stolpern\_set1\_20[13]	_	_	_	_	_	false[113]	Decl[113]	*[246]	*[246]	*[246]	*[246]	*[246]	input2[246]	41[375]	female[375]	2prsavjsjqbmc8hrbo9bovkues[375]	speaker: YOU[504]	_	_	_	_	_	
+71-6	1649-1654	nicht	_	GSuccess[13]	stolpern\_set1\_20[13]	latin2[13]	2prsavjsjqbmc8hrbo9bovkues-stolpern\_set1\_20[13]	_	_	_	_	_	false[113]	Decl[113]	*[246]	*[246]	*[246]	*[246]	*[246]	input2[246]	41[375]	female[375]	2prsavjsjqbmc8hrbo9bovkues[375]	speaker: YOU[504]	_	_	_	_	_	
+71-7	1655-1661	schwer	_	GSuccess[13]	stolpern\_set1\_20[13]	latin2[13]	2prsavjsjqbmc8hrbo9bovkues-stolpern\_set1\_20[13]	_	_	_	_	_	false[113]	Decl[113]	*[246]	*[246]	*[246]	*[246]	*[246]	input2[246]	41[375]	female[375]	2prsavjsjqbmc8hrbo9bovkues[375]	speaker: YOU[504]	_	_	_	_	_	
+71-8	1662-1671	verletzt.	_	GSuccess[13]	stolpern\_set1\_20[13]	latin2[13]	2prsavjsjqbmc8hrbo9bovkues-stolpern\_set1\_20[13]	_	_	_	_	_	false[113]	Decl[113]	*[246]	*[246]	*[246]	*[246]	*[246]	input2[246]	41[375]	female[375]	2prsavjsjqbmc8hrbo9bovkues[375]	speaker: YOU[504]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+72-1	1673-1688	END_OF_DOCUMENT	_	GSuccess[13]	stolpern\_set1\_20[13]	latin2[13]	2prsavjsjqbmc8hrbo9bovkues-stolpern\_set1\_20[13]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+73-1	1690-1694	Hey,	_	GSuccess[14]	stolpern\_set1\_20[14]	latin2[14]	3jjtes457iqluuhfmeiub8g6qd-stolpern\_set1\_20[14]	_	_	_	_	_	false[114]	Int[114]	*[247]	*[247]	*[247]	wh\_6[247]	wh\_question[247]	openq[247]	*[376]	female[376]	*[376]	speaker:Eva[505]	_	_	QAP	*	74-1[115_114]	
+73-2	1695-1698	was	_	GSuccess[14]	stolpern\_set1\_20[14]	latin2[14]	3jjtes457iqluuhfmeiub8g6qd-stolpern\_set1\_20[14]	_	_	_	_	_	false[114]	Int[114]	*[247]	*[247]	*[247]	wh\_6[247]	wh\_question[247]	openq[247]	*[376]	female[376]	*[376]	speaker:Eva[505]	_	_	_	_	_	
+73-3	1699-1704	gibts	_	GSuccess[14]	stolpern\_set1\_20[14]	latin2[14]	3jjtes457iqluuhfmeiub8g6qd-stolpern\_set1\_20[14]	_	_	_	_	_	false[114]	Int[114]	*[247]	*[247]	*[247]	wh\_6[247]	wh\_question[247]	openq[247]	*[376]	female[376]	*[376]	speaker:Eva[505]	_	_	_	_	_	
+73-4	1705-1711	Neues?	_	GSuccess[14]	stolpern\_set1\_20[14]	latin2[14]	3jjtes457iqluuhfmeiub8g6qd-stolpern\_set1\_20[14]	_	_	_	_	_	false[114]	Int[114]	*[247]	*[247]	*[247]	wh\_6[247]	wh\_question[247]	openq[247]	*[376]	female[376]	*[376]	speaker:Eva[505]	_	_	_	_	_	
+
+#Text=Sebastian ist gestolpert
+74-1	1713-1722	Sebastian	_	GSuccess[14]	stolpern\_set1\_20[14]	latin2[14]	3jjtes457iqluuhfmeiub8g6qd-stolpern\_set1\_20[14]	*	*	Subj	*	*	false[115]	Decl[115]	*[248]	stolpern[248]	intransitive[248]	*[248]	*[248]	item0[248]	46[377]	male[377]	3jjtes457iqluuhfmeiub8g6qd[377]	speaker: YOU[506]	*->63-1	PropNm[63]	acknowledgement	*	75-1[116_115]	
+74-2	1723-1726	ist	_	GSuccess[14]	stolpern\_set1\_20[14]	latin2[14]	3jjtes457iqluuhfmeiub8g6qd-stolpern\_set1\_20[14]	_	_	_	_	_	false[115]	Decl[115]	*[248]	stolpern[248]	intransitive[248]	*[248]	*[248]	item0[248]	46[377]	male[377]	3jjtes457iqluuhfmeiub8g6qd[377]	speaker: YOU[506]	_	_	_	_	_	
+74-3	1727-1737	gestolpert	_	GSuccess[14]	stolpern\_set1\_20[14]	latin2[14]	3jjtes457iqluuhfmeiub8g6qd-stolpern\_set1\_20[14]	_	_	_	_	_	false[115]	Decl[115]	*[248]	stolpern[248]	intransitive[248]	*[248]	*[248]	item0[248]	46[377]	male[377]	3jjtes457iqluuhfmeiub8g6qd[377]	speaker: YOU[506]	_	_	_	_	_	
+
+#Text=Oh nein
+75-1	1739-1741	Oh	_	GSuccess[14]	stolpern\_set1\_20[14]	latin2[14]	3jjtes457iqluuhfmeiub8g6qd-stolpern\_set1\_20[14]	_	_	_	_	_	false[116]	NA[116]	oh-nein\_25[249]	*[249]	*[249]	*[249]	*[249]	feedback[249]	*[378]	female[378]	*[378]	speaker:Eva[507]	_	_	_	_	_	
+75-2	1742-1746	nein	_	GSuccess[14]	stolpern\_set1\_20[14]	latin2[14]	3jjtes457iqluuhfmeiub8g6qd-stolpern\_set1\_20[14]	_	_	_	_	_	false[116]	NA[116]	oh-nein\_25[249]	*[249]	*[249]	*[249]	*[249]	feedback[249]	*[378]	female[378]	*[378]	speaker:Eva[507]	_	_	_	_	_	
+
+#Text=Der ist doch immer so ungeschickt.
+76-1	1748-1751	Der	_	GSuccess[14]	stolpern\_set1\_20[14]	latin2[14]	3jjtes457iqluuhfmeiub8g6qd-stolpern\_set1\_20[14]	*	*	Subj	*	*	false[117]	Decl[117]	*[250]	*[250]	*[250]	*[250]	*[250]	input1[250]	46[379]	male[379]	3jjtes457iqluuhfmeiub8g6qd[379]	speaker: YOU[508]	*->63-2	D-Pron[63]	_	_	_	
+76-2	1752-1755	ist	_	GSuccess[14]	stolpern\_set1\_20[14]	latin2[14]	3jjtes457iqluuhfmeiub8g6qd-stolpern\_set1\_20[14]	_	_	_	_	_	false[117]	Decl[117]	*[250]	*[250]	*[250]	*[250]	*[250]	input1[250]	46[379]	male[379]	3jjtes457iqluuhfmeiub8g6qd[379]	speaker: YOU[508]	_	_	_	_	_	
+76-3	1756-1760	doch	_	GSuccess[14]	stolpern\_set1\_20[14]	latin2[14]	3jjtes457iqluuhfmeiub8g6qd-stolpern\_set1\_20[14]	_	_	_	_	_	false[117]	Decl[117]	*[250]	*[250]	*[250]	*[250]	*[250]	input1[250]	46[379]	male[379]	3jjtes457iqluuhfmeiub8g6qd[379]	speaker: YOU[508]	_	_	_	_	_	
+76-4	1761-1766	immer	_	GSuccess[14]	stolpern\_set1\_20[14]	latin2[14]	3jjtes457iqluuhfmeiub8g6qd-stolpern\_set1\_20[14]	_	_	_	_	_	false[117]	Decl[117]	*[250]	*[250]	*[250]	*[250]	*[250]	input1[250]	46[379]	male[379]	3jjtes457iqluuhfmeiub8g6qd[379]	speaker: YOU[508]	_	_	_	_	_	
+76-5	1767-1769	so	_	GSuccess[14]	stolpern\_set1\_20[14]	latin2[14]	3jjtes457iqluuhfmeiub8g6qd-stolpern\_set1\_20[14]	_	_	_	_	_	false[117]	Decl[117]	*[250]	*[250]	*[250]	*[250]	*[250]	input1[250]	46[379]	male[379]	3jjtes457iqluuhfmeiub8g6qd[379]	speaker: YOU[508]	_	_	_	_	_	
+76-6	1770-1782	ungeschickt.	_	GSuccess[14]	stolpern\_set1\_20[14]	latin2[14]	3jjtes457iqluuhfmeiub8g6qd-stolpern\_set1\_20[14]	_	_	_	_	_	false[117]	Decl[117]	*[250]	*[250]	*[250]	*[250]	*[250]	input1[250]	46[379]	male[379]	3jjtes457iqluuhfmeiub8g6qd[379]	speaker: YOU[508]	_	_	_	_	_	
+
+#Text=Nix neues also.
+77-1	1784-1787	Nix	_	GSuccess[14]	stolpern\_set1\_20[14]	latin2[14]	3jjtes457iqluuhfmeiub8g6qd-stolpern\_set1\_20[14]	_	_	_	_	_	false[118]	NA[118]	*[251]	*[251]	*[251]	*[251]	*[251]	input2[251]	46[380]	male[380]	3jjtes457iqluuhfmeiub8g6qd[380]	speaker: YOU[509]	_	_	_	_	_	
+77-2	1788-1793	neues	_	GSuccess[14]	stolpern\_set1\_20[14]	latin2[14]	3jjtes457iqluuhfmeiub8g6qd-stolpern\_set1\_20[14]	_	_	_	_	_	false[118]	NA[118]	*[251]	*[251]	*[251]	*[251]	*[251]	input2[251]	46[380]	male[380]	3jjtes457iqluuhfmeiub8g6qd[380]	speaker: YOU[509]	_	_	_	_	_	
+77-3	1794-1799	also.	_	GSuccess[14]	stolpern\_set1\_20[14]	latin2[14]	3jjtes457iqluuhfmeiub8g6qd-stolpern\_set1\_20[14]	_	_	_	_	_	false[118]	NA[118]	*[251]	*[251]	*[251]	*[251]	*[251]	input2[251]	46[380]	male[380]	3jjtes457iqluuhfmeiub8g6qd[380]	speaker: YOU[509]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+78-1	1801-1816	END_OF_DOCUMENT	_	GSuccess[14]	stolpern\_set1\_20[14]	latin2[14]	3jjtes457iqluuhfmeiub8g6qd-stolpern\_set1\_20[14]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+79-1	1818-1822	Hey,	_	GSuccess[15]	stolpern\_set1\_20[15]	latin2[15]	65p8m4ujg4fi983365pclnac28-stolpern\_set1\_20[15]	_	_	_	_	_	false[119]	Int[119]	*[252]	*[252]	*[252]	wh\_6[252]	wh\_question[252]	openq[252]	*[381]	female[381]	*[381]	speaker:Eva[510]	_	_	QAP	*	80-1[120_119]	
+79-2	1823-1826	was	_	GSuccess[15]	stolpern\_set1\_20[15]	latin2[15]	65p8m4ujg4fi983365pclnac28-stolpern\_set1\_20[15]	_	_	_	_	_	false[119]	Int[119]	*[252]	*[252]	*[252]	wh\_6[252]	wh\_question[252]	openq[252]	*[381]	female[381]	*[381]	speaker:Eva[510]	_	_	_	_	_	
+79-3	1827-1832	gibts	_	GSuccess[15]	stolpern\_set1\_20[15]	latin2[15]	65p8m4ujg4fi983365pclnac28-stolpern\_set1\_20[15]	_	_	_	_	_	false[119]	Int[119]	*[252]	*[252]	*[252]	wh\_6[252]	wh\_question[252]	openq[252]	*[381]	female[381]	*[381]	speaker:Eva[510]	_	_	_	_	_	
+79-4	1833-1839	Neues?	_	GSuccess[15]	stolpern\_set1\_20[15]	latin2[15]	65p8m4ujg4fi983365pclnac28-stolpern\_set1\_20[15]	_	_	_	_	_	false[119]	Int[119]	*[252]	*[252]	*[252]	wh\_6[252]	wh\_question[252]	openq[252]	*[381]	female[381]	*[381]	speaker:Eva[510]	_	_	_	_	_	
+
+#Text=Sebastian ist gestolpert
+80-1	1841-1850	Sebastian	_	GSuccess[15]	stolpern\_set1\_20[15]	latin2[15]	65p8m4ujg4fi983365pclnac28-stolpern\_set1\_20[15]	*	*	Subj	*	*	false[120]	Decl[120]	*[253]	stolpern[253]	intransitive[253]	*[253]	*[253]	item0[253]	27[382]	female[382]	65p8m4ujg4fi983365pclnac28[382]	speaker: YOU[511]	*->54-1	PropNm[54]	contrast|result|acknowledgement	*|*|*	82-1[122_120]|83-1[123_120]|81-1[121_120]	
+80-2	1851-1854	ist	_	GSuccess[15]	stolpern\_set1\_20[15]	latin2[15]	65p8m4ujg4fi983365pclnac28-stolpern\_set1\_20[15]	_	_	_	_	_	false[120]	Decl[120]	*[253]	stolpern[253]	intransitive[253]	*[253]	*[253]	item0[253]	27[382]	female[382]	65p8m4ujg4fi983365pclnac28[382]	speaker: YOU[511]	_	_	_	_	_	
+80-3	1855-1865	gestolpert	_	GSuccess[15]	stolpern\_set1\_20[15]	latin2[15]	65p8m4ujg4fi983365pclnac28-stolpern\_set1\_20[15]	_	_	_	_	_	false[120]	Decl[120]	*[253]	stolpern[253]	intransitive[253]	*[253]	*[253]	item0[253]	27[382]	female[382]	65p8m4ujg4fi983365pclnac28[382]	speaker: YOU[511]	_	_	_	_	_	
+
+#Text=Oh nein
+81-1	1867-1869	Oh	_	GSuccess[15]	stolpern\_set1\_20[15]	latin2[15]	65p8m4ujg4fi983365pclnac28-stolpern\_set1\_20[15]	_	_	_	_	_	false[121]	NA[121]	oh-nein\_25[254]	*[254]	*[254]	*[254]	*[254]	feedback[254]	*[383]	female[383]	*[383]	speaker:Eva[512]	_	_	_	_	_	
+81-2	1870-1874	nein	_	GSuccess[15]	stolpern\_set1\_20[15]	latin2[15]	65p8m4ujg4fi983365pclnac28-stolpern\_set1\_20[15]	_	_	_	_	_	false[121]	NA[121]	oh-nein\_25[254]	*[254]	*[254]	*[254]	*[254]	feedback[254]	*[383]	female[383]	*[383]	speaker:Eva[512]	_	_	_	_	_	
+
+#Text=zum Glück ist nichts passiert
+82-1	1876-1879	zum	_	GSuccess[15]	stolpern\_set1\_20[15]	latin2[15]	65p8m4ujg4fi983365pclnac28-stolpern\_set1\_20[15]	_	_	_	_	_	false[122]	Decl[122]	*[255]	*[255]	*[255]	*[255]	*[255]	input1[255]	27[384]	female[384]	65p8m4ujg4fi983365pclnac28[384]	speaker: YOU[513]	_	_	_	_	_	
+82-2	1880-1885	Glück	_	GSuccess[15]	stolpern\_set1\_20[15]	latin2[15]	65p8m4ujg4fi983365pclnac28-stolpern\_set1\_20[15]	_	_	_	_	_	false[122]	Decl[122]	*[255]	*[255]	*[255]	*[255]	*[255]	input1[255]	27[384]	female[384]	65p8m4ujg4fi983365pclnac28[384]	speaker: YOU[513]	_	_	_	_	_	
+82-3	1886-1889	ist	_	GSuccess[15]	stolpern\_set1\_20[15]	latin2[15]	65p8m4ujg4fi983365pclnac28-stolpern\_set1\_20[15]	_	_	_	_	_	false[122]	Decl[122]	*[255]	*[255]	*[255]	*[255]	*[255]	input1[255]	27[384]	female[384]	65p8m4ujg4fi983365pclnac28[384]	speaker: YOU[513]	_	_	_	_	_	
+82-4	1890-1896	nichts	_	GSuccess[15]	stolpern\_set1\_20[15]	latin2[15]	65p8m4ujg4fi983365pclnac28-stolpern\_set1\_20[15]	_	_	_	_	_	false[122]	Decl[122]	*[255]	*[255]	*[255]	*[255]	*[255]	input1[255]	27[384]	female[384]	65p8m4ujg4fi983365pclnac28[384]	speaker: YOU[513]	_	_	_	_	_	
+82-5	1897-1905	passiert	_	GSuccess[15]	stolpern\_set1\_20[15]	latin2[15]	65p8m4ujg4fi983365pclnac28-stolpern\_set1\_20[15]	_	_	_	_	_	false[122]	Decl[122]	*[255]	*[255]	*[255]	*[255]	*[255]	input1[255]	27[384]	female[384]	65p8m4ujg4fi983365pclnac28[384]	speaker: YOU[513]	_	_	_	_	_	
+
+#Text=er muss viel vorsichtiger sein
+83-1	1907-1909	er	_	GSuccess[15]	stolpern\_set1\_20[15]	latin2[15]	65p8m4ujg4fi983365pclnac28-stolpern\_set1\_20[15]	3	*	Subj	*	singular	false[123]	Decl[123]	*[256]	*[256]	*[256]	*[256]	*[256]	input2[256]	27[385]	female[385]	65p8m4ujg4fi983365pclnac28[385]	speaker: YOU[514]	*->54-2	PerPron[54]	_	_	_	
+83-2	1910-1914	muss	_	GSuccess[15]	stolpern\_set1\_20[15]	latin2[15]	65p8m4ujg4fi983365pclnac28-stolpern\_set1\_20[15]	_	_	_	_	_	false[123]	Decl[123]	*[256]	*[256]	*[256]	*[256]	*[256]	input2[256]	27[385]	female[385]	65p8m4ujg4fi983365pclnac28[385]	speaker: YOU[514]	_	_	_	_	_	
+83-3	1915-1919	viel	_	GSuccess[15]	stolpern\_set1\_20[15]	latin2[15]	65p8m4ujg4fi983365pclnac28-stolpern\_set1\_20[15]	_	_	_	_	_	false[123]	Decl[123]	*[256]	*[256]	*[256]	*[256]	*[256]	input2[256]	27[385]	female[385]	65p8m4ujg4fi983365pclnac28[385]	speaker: YOU[514]	_	_	_	_	_	
+83-4	1920-1932	vorsichtiger	_	GSuccess[15]	stolpern\_set1\_20[15]	latin2[15]	65p8m4ujg4fi983365pclnac28-stolpern\_set1\_20[15]	_	_	_	_	_	false[123]	Decl[123]	*[256]	*[256]	*[256]	*[256]	*[256]	input2[256]	27[385]	female[385]	65p8m4ujg4fi983365pclnac28[385]	speaker: YOU[514]	_	_	_	_	_	
+83-5	1933-1937	sein	_	GSuccess[15]	stolpern\_set1\_20[15]	latin2[15]	65p8m4ujg4fi983365pclnac28-stolpern\_set1\_20[15]	_	_	_	_	_	false[123]	Decl[123]	*[256]	*[256]	*[256]	*[256]	*[256]	input2[256]	27[385]	female[385]	65p8m4ujg4fi983365pclnac28[385]	speaker: YOU[514]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+84-1	1939-1954	END_OF_DOCUMENT	_	GSuccess[15]	stolpern\_set1\_20[15]	latin2[15]	65p8m4ujg4fi983365pclnac28-stolpern\_set1\_20[15]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+85-1	1956-1960	Hey,	_	GSuccess[16]	stolpern\_set1\_20[16]	latin2[16]	ad2p95q44evasm6vmbol4cikit-stolpern\_set1\_20[16]	_	_	_	_	_	false[124]	Int[124]	*[257]	*[257]	*[257]	wh\_6[257]	wh\_question[257]	openq[257]	*[386]	female[386]	*[386]	speaker:Eva[515]	_	_	QAP	*	86-1[125_124]	
+85-2	1961-1964	was	_	GSuccess[16]	stolpern\_set1\_20[16]	latin2[16]	ad2p95q44evasm6vmbol4cikit-stolpern\_set1\_20[16]	_	_	_	_	_	false[124]	Int[124]	*[257]	*[257]	*[257]	wh\_6[257]	wh\_question[257]	openq[257]	*[386]	female[386]	*[386]	speaker:Eva[515]	_	_	_	_	_	
+85-3	1965-1970	gibts	_	GSuccess[16]	stolpern\_set1\_20[16]	latin2[16]	ad2p95q44evasm6vmbol4cikit-stolpern\_set1\_20[16]	_	_	_	_	_	false[124]	Int[124]	*[257]	*[257]	*[257]	wh\_6[257]	wh\_question[257]	openq[257]	*[386]	female[386]	*[386]	speaker:Eva[515]	_	_	_	_	_	
+85-4	1971-1977	Neues?	_	GSuccess[16]	stolpern\_set1\_20[16]	latin2[16]	ad2p95q44evasm6vmbol4cikit-stolpern\_set1\_20[16]	_	_	_	_	_	false[124]	Int[124]	*[257]	*[257]	*[257]	wh\_6[257]	wh\_question[257]	openq[257]	*[386]	female[386]	*[386]	speaker:Eva[515]	_	_	_	_	_	
+
+#Text=Sebastian ist gestolpert
+86-1	1979-1988	Sebastian	_	GSuccess[16]	stolpern\_set1\_20[16]	latin2[16]	ad2p95q44evasm6vmbol4cikit-stolpern\_set1\_20[16]	*	*	Subj	*	*	false[125]	Decl[125]	*[258]	stolpern[258]	intransitive[258]	*[258]	*[258]	item0[258]	22[387]	female[387]	ad2p95q44evasm6vmbol4cikit[387]	speaker: YOU[516]	*->56-1	PropNm[56]	narration|result|acknowledgement	*|*|*	88-1[127_125]|89-1[128_125]|87-1[126_125]	
+86-2	1989-1992	ist	_	GSuccess[16]	stolpern\_set1\_20[16]	latin2[16]	ad2p95q44evasm6vmbol4cikit-stolpern\_set1\_20[16]	_	_	_	_	_	false[125]	Decl[125]	*[258]	stolpern[258]	intransitive[258]	*[258]	*[258]	item0[258]	22[387]	female[387]	ad2p95q44evasm6vmbol4cikit[387]	speaker: YOU[516]	_	_	_	_	_	
+86-3	1993-2003	gestolpert	_	GSuccess[16]	stolpern\_set1\_20[16]	latin2[16]	ad2p95q44evasm6vmbol4cikit-stolpern\_set1\_20[16]	_	_	_	_	_	false[125]	Decl[125]	*[258]	stolpern[258]	intransitive[258]	*[258]	*[258]	item0[258]	22[387]	female[387]	ad2p95q44evasm6vmbol4cikit[387]	speaker: YOU[516]	_	_	_	_	_	
+
+#Text=Oh nein
+87-1	2005-2007	Oh	_	GSuccess[16]	stolpern\_set1\_20[16]	latin2[16]	ad2p95q44evasm6vmbol4cikit-stolpern\_set1\_20[16]	_	_	_	_	_	false[126]	NA[126]	oh-nein\_25[259]	*[259]	*[259]	*[259]	*[259]	feedback[259]	*[388]	female[388]	*[388]	speaker:Eva[517]	_	_	_	_	_	
+87-2	2008-2012	nein	_	GSuccess[16]	stolpern\_set1\_20[16]	latin2[16]	ad2p95q44evasm6vmbol4cikit-stolpern\_set1\_20[16]	_	_	_	_	_	false[126]	NA[126]	oh-nein\_25[259]	*[259]	*[259]	*[259]	*[259]	feedback[259]	*[388]	female[388]	*[388]	speaker:Eva[517]	_	_	_	_	_	
+
+#Text=Ihm geht es bald wieder besser
+88-1	2014-2017	Ihm	_	GSuccess[16]	stolpern\_set1\_20[16]	latin2[16]	ad2p95q44evasm6vmbol4cikit-stolpern\_set1\_20[16]	3	*	IndirObj	*	singular	false[127]	Decl[127]	*[260]	*[260]	*[260]	*[260]	*[260]	input1[260]	22[389]	female[389]	ad2p95q44evasm6vmbol4cikit[389]	speaker: YOU[518]	*->56-2	PerPron[56]	_	_	_	
+88-2	2018-2022	geht	_	GSuccess[16]	stolpern\_set1\_20[16]	latin2[16]	ad2p95q44evasm6vmbol4cikit-stolpern\_set1\_20[16]	_	_	_	_	_	false[127]	Decl[127]	*[260]	*[260]	*[260]	*[260]	*[260]	input1[260]	22[389]	female[389]	ad2p95q44evasm6vmbol4cikit[389]	speaker: YOU[518]	_	_	_	_	_	
+88-3	2023-2025	es	_	GSuccess[16]	stolpern\_set1\_20[16]	latin2[16]	ad2p95q44evasm6vmbol4cikit-stolpern\_set1\_20[16]	*	*	Subj	*	*	false[127]	Decl[127]	*[260]	*[260]	*[260]	*[260]	*[260]	input1[260]	22[389]	female[389]	ad2p95q44evasm6vmbol4cikit[389]	speaker: YOU[518]	_	_	_	_	_	
+88-4	2026-2030	bald	_	GSuccess[16]	stolpern\_set1\_20[16]	latin2[16]	ad2p95q44evasm6vmbol4cikit-stolpern\_set1\_20[16]	_	_	_	_	_	false[127]	Decl[127]	*[260]	*[260]	*[260]	*[260]	*[260]	input1[260]	22[389]	female[389]	ad2p95q44evasm6vmbol4cikit[389]	speaker: YOU[518]	_	_	_	_	_	
+88-5	2031-2037	wieder	_	GSuccess[16]	stolpern\_set1\_20[16]	latin2[16]	ad2p95q44evasm6vmbol4cikit-stolpern\_set1\_20[16]	_	_	_	_	_	false[127]	Decl[127]	*[260]	*[260]	*[260]	*[260]	*[260]	input1[260]	22[389]	female[389]	ad2p95q44evasm6vmbol4cikit[389]	speaker: YOU[518]	_	_	_	_	_	
+88-6	2038-2044	besser	_	GSuccess[16]	stolpern\_set1\_20[16]	latin2[16]	ad2p95q44evasm6vmbol4cikit-stolpern\_set1\_20[16]	_	_	_	_	_	false[127]	Decl[127]	*[260]	*[260]	*[260]	*[260]	*[260]	input1[260]	22[389]	female[389]	ad2p95q44evasm6vmbol4cikit[389]	speaker: YOU[518]	_	_	_	_	_	
+
+#Text=Er hat jetzt einen Verband
+89-1	2046-2048	Er	_	GSuccess[16]	stolpern\_set1\_20[16]	latin2[16]	ad2p95q44evasm6vmbol4cikit-stolpern\_set1\_20[16]	3	*	Subj	*	singular	false[128]	Decl[128]	*[261]	*[261]	*[261]	*[261]	*[261]	input2[261]	22[390]	female[390]	ad2p95q44evasm6vmbol4cikit[390]	speaker: YOU[519]	*->56-3	PerPron[56]	_	_	_	
+89-2	2049-2052	hat	_	GSuccess[16]	stolpern\_set1\_20[16]	latin2[16]	ad2p95q44evasm6vmbol4cikit-stolpern\_set1\_20[16]	_	_	_	_	_	false[128]	Decl[128]	*[261]	*[261]	*[261]	*[261]	*[261]	input2[261]	22[390]	female[390]	ad2p95q44evasm6vmbol4cikit[390]	speaker: YOU[519]	_	_	_	_	_	
+89-3	2053-2058	jetzt	_	GSuccess[16]	stolpern\_set1\_20[16]	latin2[16]	ad2p95q44evasm6vmbol4cikit-stolpern\_set1\_20[16]	_	_	_	_	_	false[128]	Decl[128]	*[261]	*[261]	*[261]	*[261]	*[261]	input2[261]	22[390]	female[390]	ad2p95q44evasm6vmbol4cikit[390]	speaker: YOU[519]	_	_	_	_	_	
+89-4	2059-2064	einen	_	GSuccess[16]	stolpern\_set1\_20[16]	latin2[16]	ad2p95q44evasm6vmbol4cikit-stolpern\_set1\_20[16]	*[43]	*[43]	DirObj[43]	*[43]	*[43]	false[128]	Decl[128]	*[261]	*[261]	*[261]	*[261]	*[261]	input2[261]	22[390]	female[390]	ad2p95q44evasm6vmbol4cikit[390]	speaker: YOU[519]	*->65-1	IndefNP[65]	_	_	_	
+89-5	2065-2072	Verband	_	GSuccess[16]	stolpern\_set1\_20[16]	latin2[16]	ad2p95q44evasm6vmbol4cikit-stolpern\_set1\_20[16]	*[43]	*[43]	DirObj[43]	*[43]	*[43]	false[128]	Decl[128]	*[261]	*[261]	*[261]	*[261]	*[261]	input2[261]	22[390]	female[390]	ad2p95q44evasm6vmbol4cikit[390]	speaker: YOU[519]	*->65-1	IndefNP[65]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+90-1	2074-2089	END_OF_DOCUMENT	_	GSuccess[16]	stolpern\_set1\_20[16]	latin2[16]	ad2p95q44evasm6vmbol4cikit-stolpern\_set1\_20[16]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+91-1	2091-2095	Hey,	_	GSuccess[17]	stolpern\_set1\_20[17]	latin2[17]	aoum613lougtk5ql841j63bjo9-stolpern\_set1\_20[17]	_	_	_	_	_	false[129]	Int[129]	*[262]	*[262]	*[262]	wh\_6[262]	wh\_question[262]	openq[262]	*[391]	female[391]	*[391]	speaker:Eva[520]	_	_	QAP	*	92-1[130_129]	
+91-2	2096-2099	was	_	GSuccess[17]	stolpern\_set1\_20[17]	latin2[17]	aoum613lougtk5ql841j63bjo9-stolpern\_set1\_20[17]	_	_	_	_	_	false[129]	Int[129]	*[262]	*[262]	*[262]	wh\_6[262]	wh\_question[262]	openq[262]	*[391]	female[391]	*[391]	speaker:Eva[520]	_	_	_	_	_	
+91-3	2100-2105	gibts	_	GSuccess[17]	stolpern\_set1\_20[17]	latin2[17]	aoum613lougtk5ql841j63bjo9-stolpern\_set1\_20[17]	_	_	_	_	_	false[129]	Int[129]	*[262]	*[262]	*[262]	wh\_6[262]	wh\_question[262]	openq[262]	*[391]	female[391]	*[391]	speaker:Eva[520]	_	_	_	_	_	
+91-4	2106-2112	Neues?	_	GSuccess[17]	stolpern\_set1\_20[17]	latin2[17]	aoum613lougtk5ql841j63bjo9-stolpern\_set1\_20[17]	_	_	_	_	_	false[129]	Int[129]	*[262]	*[262]	*[262]	wh\_6[262]	wh\_question[262]	openq[262]	*[391]	female[391]	*[391]	speaker:Eva[520]	_	_	_	_	_	
+
+#Text=Sebastian ist gestolpert
+92-1	2114-2123	Sebastian	_	GSuccess[17]	stolpern\_set1\_20[17]	latin2[17]	aoum613lougtk5ql841j63bjo9-stolpern\_set1\_20[17]	*	*	Subj	*	*	false[130]	Decl[130]	*[263]	stolpern[263]	intransitive[263]	*[263]	*[263]	item0[263]	36[392]	female[392]	aoum613lougtk5ql841j63bjo9[392]	speaker: YOU[521]	*->51-1|*->58-1	clause[51]|PropNm[58]	contrast|acknowledgement	*|*	94-1[132_130]|93-1[131_130]	
+92-2	2124-2127	ist	_	GSuccess[17]	stolpern\_set1\_20[17]	latin2[17]	aoum613lougtk5ql841j63bjo9-stolpern\_set1\_20[17]	_	_	_	_	_	false[130]	Decl[130]	*[263]	stolpern[263]	intransitive[263]	*[263]	*[263]	item0[263]	36[392]	female[392]	aoum613lougtk5ql841j63bjo9[392]	speaker: YOU[521]	*->51-1	clause[51]	_	_	_	
+92-3	2128-2138	gestolpert	_	GSuccess[17]	stolpern\_set1\_20[17]	latin2[17]	aoum613lougtk5ql841j63bjo9-stolpern\_set1\_20[17]	_	_	_	_	_	false[130]	Decl[130]	*[263]	stolpern[263]	intransitive[263]	*[263]	*[263]	item0[263]	36[392]	female[392]	aoum613lougtk5ql841j63bjo9[392]	speaker: YOU[521]	*->51-1	clause[51]	_	_	_	
+
+#Text=Oh nein
+93-1	2140-2142	Oh	_	GSuccess[17]	stolpern\_set1\_20[17]	latin2[17]	aoum613lougtk5ql841j63bjo9-stolpern\_set1\_20[17]	_	_	_	_	_	false[131]	NA[131]	oh-nein\_25[264]	*[264]	*[264]	*[264]	*[264]	feedback[264]	*[393]	female[393]	*[393]	speaker:Eva[522]	_	_	_	_	_	
+93-2	2143-2147	nein	_	GSuccess[17]	stolpern\_set1\_20[17]	latin2[17]	aoum613lougtk5ql841j63bjo9-stolpern\_set1\_20[17]	_	_	_	_	_	false[131]	NA[131]	oh-nein\_25[264]	*[264]	*[264]	*[264]	*[264]	feedback[264]	*[393]	female[393]	*[393]	speaker:Eva[522]	_	_	_	_	_	
+
+#Text=War zum Glück halb so schlimm.
+94-1	2149-2152	War	_	GSuccess[17]	stolpern\_set1\_20[17]	latin2[17]	aoum613lougtk5ql841j63bjo9-stolpern\_set1\_20[17]	3	*	*	*	singular	false[132]	Decl[132]	*[265]	*[265]	*[265]	*[265]	*[265]	input1[265]	36[394]	female[394]	aoum613lougtk5ql841j63bjo9[394]	speaker: YOU[523]	*->51-2	zero[51]	elaboration	*	95-1[133_132]	
+94-2	2153-2156	zum	_	GSuccess[17]	stolpern\_set1\_20[17]	latin2[17]	aoum613lougtk5ql841j63bjo9-stolpern\_set1\_20[17]	_	_	_	_	_	false[132]	Decl[132]	*[265]	*[265]	*[265]	*[265]	*[265]	input1[265]	36[394]	female[394]	aoum613lougtk5ql841j63bjo9[394]	speaker: YOU[523]	_	_	_	_	_	
+94-3	2157-2162	Glück	_	GSuccess[17]	stolpern\_set1\_20[17]	latin2[17]	aoum613lougtk5ql841j63bjo9-stolpern\_set1\_20[17]	_	_	_	_	_	false[132]	Decl[132]	*[265]	*[265]	*[265]	*[265]	*[265]	input1[265]	36[394]	female[394]	aoum613lougtk5ql841j63bjo9[394]	speaker: YOU[523]	_	_	_	_	_	
+94-4	2163-2167	halb	_	GSuccess[17]	stolpern\_set1\_20[17]	latin2[17]	aoum613lougtk5ql841j63bjo9-stolpern\_set1\_20[17]	_	_	_	_	_	false[132]	Decl[132]	*[265]	*[265]	*[265]	*[265]	*[265]	input1[265]	36[394]	female[394]	aoum613lougtk5ql841j63bjo9[394]	speaker: YOU[523]	_	_	_	_	_	
+94-5	2168-2170	so	_	GSuccess[17]	stolpern\_set1\_20[17]	latin2[17]	aoum613lougtk5ql841j63bjo9-stolpern\_set1\_20[17]	_	_	_	_	_	false[132]	Decl[132]	*[265]	*[265]	*[265]	*[265]	*[265]	input1[265]	36[394]	female[394]	aoum613lougtk5ql841j63bjo9[394]	speaker: YOU[523]	_	_	_	_	_	
+94-6	2171-2179	schlimm.	_	GSuccess[17]	stolpern\_set1\_20[17]	latin2[17]	aoum613lougtk5ql841j63bjo9-stolpern\_set1\_20[17]	_	_	_	_	_	false[132]	Decl[132]	*[265]	*[265]	*[265]	*[265]	*[265]	input1[265]	36[394]	female[394]	aoum613lougtk5ql841j63bjo9[394]	speaker: YOU[523]	_	_	_	_	_	
+
+#Text=Er hat sich nicht ernsthaft verletzt.
+95-1	2181-2183	Er	_	GSuccess[17]	stolpern\_set1\_20[17]	latin2[17]	aoum613lougtk5ql841j63bjo9-stolpern\_set1\_20[17]	3	*	Subj	*	singular	false[133]	Decl[133]	*[266]	*[266]	*[266]	*[266]	*[266]	input2[266]	36[395]	female[395]	aoum613lougtk5ql841j63bjo9[395]	speaker: YOU[524]	*->58-2	PerPron[58]	_	_	_	
+95-2	2184-2187	hat	_	GSuccess[17]	stolpern\_set1\_20[17]	latin2[17]	aoum613lougtk5ql841j63bjo9-stolpern\_set1\_20[17]	_	_	_	_	_	false[133]	Decl[133]	*[266]	*[266]	*[266]	*[266]	*[266]	input2[266]	36[395]	female[395]	aoum613lougtk5ql841j63bjo9[395]	speaker: YOU[524]	_	_	_	_	_	
+95-3	2188-2192	sich	_	GSuccess[17]	stolpern\_set1\_20[17]	latin2[17]	aoum613lougtk5ql841j63bjo9-stolpern\_set1\_20[17]	_	_	_	_	_	false[133]	Decl[133]	*[266]	*[266]	*[266]	*[266]	*[266]	input2[266]	36[395]	female[395]	aoum613lougtk5ql841j63bjo9[395]	speaker: YOU[524]	_	_	_	_	_	
+95-4	2193-2198	nicht	_	GSuccess[17]	stolpern\_set1\_20[17]	latin2[17]	aoum613lougtk5ql841j63bjo9-stolpern\_set1\_20[17]	_	_	_	_	_	false[133]	Decl[133]	*[266]	*[266]	*[266]	*[266]	*[266]	input2[266]	36[395]	female[395]	aoum613lougtk5ql841j63bjo9[395]	speaker: YOU[524]	_	_	_	_	_	
+95-5	2199-2208	ernsthaft	_	GSuccess[17]	stolpern\_set1\_20[17]	latin2[17]	aoum613lougtk5ql841j63bjo9-stolpern\_set1\_20[17]	_	_	_	_	_	false[133]	Decl[133]	*[266]	*[266]	*[266]	*[266]	*[266]	input2[266]	36[395]	female[395]	aoum613lougtk5ql841j63bjo9[395]	speaker: YOU[524]	_	_	_	_	_	
+95-6	2209-2218	verletzt.	_	GSuccess[17]	stolpern\_set1\_20[17]	latin2[17]	aoum613lougtk5ql841j63bjo9-stolpern\_set1\_20[17]	_	_	_	_	_	false[133]	Decl[133]	*[266]	*[266]	*[266]	*[266]	*[266]	input2[266]	36[395]	female[395]	aoum613lougtk5ql841j63bjo9[395]	speaker: YOU[524]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+96-1	2220-2235	END_OF_DOCUMENT	_	GSuccess[17]	stolpern\_set1\_20[17]	latin2[17]	aoum613lougtk5ql841j63bjo9-stolpern\_set1\_20[17]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+97-1	2237-2241	Hey,	_	GSuccess[18]	stolpern\_set1\_20[18]	latin2[18]	c48fsj7kc4kiuorutkbb4be30b-stolpern\_set1\_20[18]	_	_	_	_	_	false[134]	Int[134]	*[267]	*[267]	*[267]	wh\_6[267]	wh\_question[267]	openq[267]	*[396]	female[396]	*[396]	speaker:Eva[525]	_	_	QAP	*	98-1[135_134]	
+97-2	2242-2245	was	_	GSuccess[18]	stolpern\_set1\_20[18]	latin2[18]	c48fsj7kc4kiuorutkbb4be30b-stolpern\_set1\_20[18]	_	_	_	_	_	false[134]	Int[134]	*[267]	*[267]	*[267]	wh\_6[267]	wh\_question[267]	openq[267]	*[396]	female[396]	*[396]	speaker:Eva[525]	_	_	_	_	_	
+97-3	2246-2251	gibts	_	GSuccess[18]	stolpern\_set1\_20[18]	latin2[18]	c48fsj7kc4kiuorutkbb4be30b-stolpern\_set1\_20[18]	_	_	_	_	_	false[134]	Int[134]	*[267]	*[267]	*[267]	wh\_6[267]	wh\_question[267]	openq[267]	*[396]	female[396]	*[396]	speaker:Eva[525]	_	_	_	_	_	
+97-4	2252-2258	Neues?	_	GSuccess[18]	stolpern\_set1\_20[18]	latin2[18]	c48fsj7kc4kiuorutkbb4be30b-stolpern\_set1\_20[18]	_	_	_	_	_	false[134]	Int[134]	*[267]	*[267]	*[267]	wh\_6[267]	wh\_question[267]	openq[267]	*[396]	female[396]	*[396]	speaker:Eva[525]	_	_	_	_	_	
+
+#Text=Sebastian ist gestolpert
+98-1	2260-2269	Sebastian	_	GSuccess[18]	stolpern\_set1\_20[18]	latin2[18]	c48fsj7kc4kiuorutkbb4be30b-stolpern\_set1\_20[18]	*	*	Subj	*	*	false[135]	Decl[135]	*[268]	stolpern[268]	intransitive[268]	*[268]	*[268]	item0[268]	26[397]	male[397]	c48fsj7kc4kiuorutkbb4be30b[397]	speaker: YOU[526]	*->34-1	PropNm[34]	result|acknowledgement	*|*	100-1[137_135]|99-1[136_135]	
+98-2	2270-2273	ist	_	GSuccess[18]	stolpern\_set1\_20[18]	latin2[18]	c48fsj7kc4kiuorutkbb4be30b-stolpern\_set1\_20[18]	_	_	_	_	_	false[135]	Decl[135]	*[268]	stolpern[268]	intransitive[268]	*[268]	*[268]	item0[268]	26[397]	male[397]	c48fsj7kc4kiuorutkbb4be30b[397]	speaker: YOU[526]	_	_	_	_	_	
+98-3	2274-2284	gestolpert	_	GSuccess[18]	stolpern\_set1\_20[18]	latin2[18]	c48fsj7kc4kiuorutkbb4be30b-stolpern\_set1\_20[18]	_	_	_	_	_	false[135]	Decl[135]	*[268]	stolpern[268]	intransitive[268]	*[268]	*[268]	item0[268]	26[397]	male[397]	c48fsj7kc4kiuorutkbb4be30b[397]	speaker: YOU[526]	_	_	_	_	_	
+
+#Text=Oh nein
+99-1	2286-2288	Oh	_	GSuccess[18]	stolpern\_set1\_20[18]	latin2[18]	c48fsj7kc4kiuorutkbb4be30b-stolpern\_set1\_20[18]	_	_	_	_	_	false[136]	NA[136]	oh-nein\_25[269]	*[269]	*[269]	*[269]	*[269]	feedback[269]	*[398]	female[398]	*[398]	speaker:Eva[527]	_	_	_	_	_	
+99-2	2289-2293	nein	_	GSuccess[18]	stolpern\_set1\_20[18]	latin2[18]	c48fsj7kc4kiuorutkbb4be30b-stolpern\_set1\_20[18]	_	_	_	_	_	false[136]	NA[136]	oh-nein\_25[269]	*[269]	*[269]	*[269]	*[269]	feedback[269]	*[398]	female[398]	*[398]	speaker:Eva[527]	_	_	_	_	_	
+
+#Text=Er hat sich den Arm gebrochen und musste ins Krankenhaus zum gipsen.
+100-1	2295-2297	Er	_	GSuccess[18]	stolpern\_set1\_20[18]	latin2[18]	c48fsj7kc4kiuorutkbb4be30b-stolpern\_set1\_20[18]	3	*	Subj	*	singular	false[137]	Decl[137]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	26[399]	male[399]	c48fsj7kc4kiuorutkbb4be30b[399]	speaker: YOU[528]	*->34-2	PerPron[34]	result	*	100-7[138_137]	
+100-2	2298-2301	hat	_	GSuccess[18]	stolpern\_set1\_20[18]	latin2[18]	c48fsj7kc4kiuorutkbb4be30b-stolpern\_set1\_20[18]	_	_	_	_	_	false[137]	Decl[137]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	26[399]	male[399]	c48fsj7kc4kiuorutkbb4be30b[399]	speaker: YOU[528]	_	_	_	_	_	
+100-3	2302-2306	sich	_	GSuccess[18]	stolpern\_set1\_20[18]	latin2[18]	c48fsj7kc4kiuorutkbb4be30b-stolpern\_set1\_20[18]	_	_	_	_	_	false[137]	Decl[137]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	26[399]	male[399]	c48fsj7kc4kiuorutkbb4be30b[399]	speaker: YOU[528]	_	_	_	_	_	
+100-4	2307-2310	den	_	GSuccess[18]	stolpern\_set1\_20[18]	latin2[18]	c48fsj7kc4kiuorutkbb4be30b-stolpern\_set1\_20[18]	*[44]	*[44]	DirObj[44]	*[44]	*[44]	false[137]	Decl[137]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	26[399]	male[399]	c48fsj7kc4kiuorutkbb4be30b[399]	speaker: YOU[528]	*->66-1	DefNP[66]	_	_	_	
+100-5	2311-2314	Arm	_	GSuccess[18]	stolpern\_set1\_20[18]	latin2[18]	c48fsj7kc4kiuorutkbb4be30b-stolpern\_set1\_20[18]	*[44]	*[44]	DirObj[44]	*[44]	*[44]	false[137]	Decl[137]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	26[399]	male[399]	c48fsj7kc4kiuorutkbb4be30b[399]	speaker: YOU[528]	*->66-1	DefNP[66]	_	_	_	
+100-6	2315-2324	gebrochen	_	GSuccess[18]	stolpern\_set1\_20[18]	latin2[18]	c48fsj7kc4kiuorutkbb4be30b-stolpern\_set1\_20[18]	_	_	_	_	_	false[137]	Decl[137]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	26[399]	male[399]	c48fsj7kc4kiuorutkbb4be30b[399]	speaker: YOU[528]	_	_	_	_	_	
+100-7	2325-2328	und	_	GSuccess[18]	stolpern\_set1\_20[18]	latin2[18]	c48fsj7kc4kiuorutkbb4be30b-stolpern\_set1\_20[18]	_	_	_	_	_	false[138]	Decl[138]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	26[399]	male[399]	c48fsj7kc4kiuorutkbb4be30b[399]	speaker: YOU[528]	_	_	result	*	101-1[139_138]	
+100-8	2329-2335	musste	_	GSuccess[18]	stolpern\_set1\_20[18]	latin2[18]	c48fsj7kc4kiuorutkbb4be30b-stolpern\_set1\_20[18]	3	*	*	*	singular	false[138]	Decl[138]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	26[399]	male[399]	c48fsj7kc4kiuorutkbb4be30b[399]	speaker: YOU[528]	*->34-3	zero[34]	_	_	_	
+100-9	2336-2339	ins	_	GSuccess[18]	stolpern\_set1\_20[18]	latin2[18]	c48fsj7kc4kiuorutkbb4be30b-stolpern\_set1\_20[18]	_	_	_	_	_	false[138]	Decl[138]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	26[399]	male[399]	c48fsj7kc4kiuorutkbb4be30b[399]	speaker: YOU[528]	*->36-1	DefNP[36]	_	_	_	
+100-10	2340-2351	Krankenhaus	_	GSuccess[18]	stolpern\_set1\_20[18]	latin2[18]	c48fsj7kc4kiuorutkbb4be30b-stolpern\_set1\_20[18]	*	*	PrepObj	*	*	false[138]	Decl[138]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	26[399]	male[399]	c48fsj7kc4kiuorutkbb4be30b[399]	speaker: YOU[528]	*->36-1	DefNP[36]	_	_	_	
+100-11	2352-2355	zum	_	GSuccess[18]	stolpern\_set1\_20[18]	latin2[18]	c48fsj7kc4kiuorutkbb4be30b-stolpern\_set1\_20[18]	_	_	_	_	_	false[138]	Decl[138]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	26[399]	male[399]	c48fsj7kc4kiuorutkbb4be30b[399]	speaker: YOU[528]	*->22-1	DefNP[22]	_	_	_	
+100-12	2356-2363	gipsen.	_	GSuccess[18]	stolpern\_set1\_20[18]	latin2[18]	c48fsj7kc4kiuorutkbb4be30b-stolpern\_set1\_20[18]	*	*	PrepObj	*	*	false[138]	Decl[138]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	26[399]	male[399]	c48fsj7kc4kiuorutkbb4be30b[399]	speaker: YOU[528]	*->22-1	DefNP[22]	_	_	_	
+
+#Text=Leider kann er jetzt nicht beim Fußballspiel mitmachen.
+101-1	2365-2371	Leider	_	GSuccess[18]	stolpern\_set1\_20[18]	latin2[18]	c48fsj7kc4kiuorutkbb4be30b-stolpern\_set1\_20[18]	_	_	_	_	_	false[139]	Decl[139]	*[271]	*[271]	*[271]	*[271]	*[271]	input2[271]	26[400]	male[400]	c48fsj7kc4kiuorutkbb4be30b[400]	speaker: YOU[529]	_	_	_	_	_	
+101-2	2372-2376	kann	_	GSuccess[18]	stolpern\_set1\_20[18]	latin2[18]	c48fsj7kc4kiuorutkbb4be30b-stolpern\_set1\_20[18]	_	_	_	_	_	false[139]	Decl[139]	*[271]	*[271]	*[271]	*[271]	*[271]	input2[271]	26[400]	male[400]	c48fsj7kc4kiuorutkbb4be30b[400]	speaker: YOU[529]	_	_	_	_	_	
+101-3	2377-2379	er	_	GSuccess[18]	stolpern\_set1\_20[18]	latin2[18]	c48fsj7kc4kiuorutkbb4be30b-stolpern\_set1\_20[18]	3	*	Subj	*	singular	false[139]	Decl[139]	*[271]	*[271]	*[271]	*[271]	*[271]	input2[271]	26[400]	male[400]	c48fsj7kc4kiuorutkbb4be30b[400]	speaker: YOU[529]	*->34-4	PerPron[34]	_	_	_	
+101-4	2380-2385	jetzt	_	GSuccess[18]	stolpern\_set1\_20[18]	latin2[18]	c48fsj7kc4kiuorutkbb4be30b-stolpern\_set1\_20[18]	_	_	_	_	_	false[139]	Decl[139]	*[271]	*[271]	*[271]	*[271]	*[271]	input2[271]	26[400]	male[400]	c48fsj7kc4kiuorutkbb4be30b[400]	speaker: YOU[529]	_	_	_	_	_	
+101-5	2386-2391	nicht	_	GSuccess[18]	stolpern\_set1\_20[18]	latin2[18]	c48fsj7kc4kiuorutkbb4be30b-stolpern\_set1\_20[18]	_	_	_	_	_	false[139]	Decl[139]	*[271]	*[271]	*[271]	*[271]	*[271]	input2[271]	26[400]	male[400]	c48fsj7kc4kiuorutkbb4be30b[400]	speaker: YOU[529]	_	_	_	_	_	
+101-6	2392-2396	beim	_	GSuccess[18]	stolpern\_set1\_20[18]	latin2[18]	c48fsj7kc4kiuorutkbb4be30b-stolpern\_set1\_20[18]	_	_	_	_	_	false[139]	Decl[139]	*[271]	*[271]	*[271]	*[271]	*[271]	input2[271]	26[400]	male[400]	c48fsj7kc4kiuorutkbb4be30b[400]	speaker: YOU[529]	*->55-1	DefNP[55]	_	_	_	
+101-7	2397-2409	Fußballspiel	_	GSuccess[18]	stolpern\_set1\_20[18]	latin2[18]	c48fsj7kc4kiuorutkbb4be30b-stolpern\_set1\_20[18]	*	*	PrepObj	*	*	false[139]	Decl[139]	*[271]	*[271]	*[271]	*[271]	*[271]	input2[271]	26[400]	male[400]	c48fsj7kc4kiuorutkbb4be30b[400]	speaker: YOU[529]	*->55-1	DefNP[55]	_	_	_	
+101-8	2410-2420	mitmachen.	_	GSuccess[18]	stolpern\_set1\_20[18]	latin2[18]	c48fsj7kc4kiuorutkbb4be30b-stolpern\_set1\_20[18]	_	_	_	_	_	false[139]	Decl[139]	*[271]	*[271]	*[271]	*[271]	*[271]	input2[271]	26[400]	male[400]	c48fsj7kc4kiuorutkbb4be30b[400]	speaker: YOU[529]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+102-1	2422-2437	END_OF_DOCUMENT	_	GSuccess[18]	stolpern\_set1\_20[18]	latin2[18]	c48fsj7kc4kiuorutkbb4be30b-stolpern\_set1\_20[18]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+103-1	2439-2443	Hey,	_	GSuccess[19]	stolpern\_set1\_20[19]	latin2[19]	k0vnav0sqhr0fo3b0jpuaak9s4-stolpern\_set1\_20[19]	_	_	_	_	_	false[140]	Int[140]	*[272]	*[272]	*[272]	wh\_6[272]	wh\_question[272]	openq[272]	*[401]	female[401]	*[401]	speaker:Eva[530]	_	_	QAP	*	104-1[141_140]	
+103-2	2444-2447	was	_	GSuccess[19]	stolpern\_set1\_20[19]	latin2[19]	k0vnav0sqhr0fo3b0jpuaak9s4-stolpern\_set1\_20[19]	_	_	_	_	_	false[140]	Int[140]	*[272]	*[272]	*[272]	wh\_6[272]	wh\_question[272]	openq[272]	*[401]	female[401]	*[401]	speaker:Eva[530]	_	_	_	_	_	
+103-3	2448-2453	gibts	_	GSuccess[19]	stolpern\_set1\_20[19]	latin2[19]	k0vnav0sqhr0fo3b0jpuaak9s4-stolpern\_set1\_20[19]	_	_	_	_	_	false[140]	Int[140]	*[272]	*[272]	*[272]	wh\_6[272]	wh\_question[272]	openq[272]	*[401]	female[401]	*[401]	speaker:Eva[530]	_	_	_	_	_	
+103-4	2454-2460	Neues?	_	GSuccess[19]	stolpern\_set1\_20[19]	latin2[19]	k0vnav0sqhr0fo3b0jpuaak9s4-stolpern\_set1\_20[19]	_	_	_	_	_	false[140]	Int[140]	*[272]	*[272]	*[272]	wh\_6[272]	wh\_question[272]	openq[272]	*[401]	female[401]	*[401]	speaker:Eva[530]	_	_	_	_	_	
+
+#Text=Sebastian ist gestolpert
+104-1	2462-2471	Sebastian	_	GSuccess[19]	stolpern\_set1\_20[19]	latin2[19]	k0vnav0sqhr0fo3b0jpuaak9s4-stolpern\_set1\_20[19]	*	*	Subj	*	*	false[141]	Decl[141]	*[273]	stolpern[273]	intransitive[273]	*[273]	*[273]	item0[273]	57[402]	female[402]	k0vnav0sqhr0fo3b0jpuaak9s4[402]	speaker: YOU[531]	*->59-1|*->40-1	clause[59]|PropNm[40]	explanation|acknowledgement	*|*	106-1[143_141]|105-1[142_141]	
+104-2	2472-2475	ist	_	GSuccess[19]	stolpern\_set1\_20[19]	latin2[19]	k0vnav0sqhr0fo3b0jpuaak9s4-stolpern\_set1\_20[19]	_	_	_	_	_	false[141]	Decl[141]	*[273]	stolpern[273]	intransitive[273]	*[273]	*[273]	item0[273]	57[402]	female[402]	k0vnav0sqhr0fo3b0jpuaak9s4[402]	speaker: YOU[531]	*->59-1	clause[59]	_	_	_	
+104-3	2476-2486	gestolpert	_	GSuccess[19]	stolpern\_set1\_20[19]	latin2[19]	k0vnav0sqhr0fo3b0jpuaak9s4-stolpern\_set1\_20[19]	_	_	_	_	_	false[141]	Decl[141]	*[273]	stolpern[273]	intransitive[273]	*[273]	*[273]	item0[273]	57[402]	female[402]	k0vnav0sqhr0fo3b0jpuaak9s4[402]	speaker: YOU[531]	*->59-1	clause[59]	_	_	_	
+
+#Text=Oh nein
+105-1	2488-2490	Oh	_	GSuccess[19]	stolpern\_set1\_20[19]	latin2[19]	k0vnav0sqhr0fo3b0jpuaak9s4-stolpern\_set1\_20[19]	_	_	_	_	_	false[142]	NA[142]	oh-nein\_25[274]	*[274]	*[274]	*[274]	*[274]	feedback[274]	*[403]	female[403]	*[403]	speaker:Eva[532]	_	_	_	_	_	
+105-2	2491-2495	nein	_	GSuccess[19]	stolpern\_set1\_20[19]	latin2[19]	k0vnav0sqhr0fo3b0jpuaak9s4-stolpern\_set1\_20[19]	_	_	_	_	_	false[142]	NA[142]	oh-nein\_25[274]	*[274]	*[274]	*[274]	*[274]	feedback[274]	*[403]	female[403]	*[403]	speaker:Eva[532]	_	_	_	_	_	
+
+#Text=Die verdammte Katze läuft uns ständig vor die Beine.
+106-1	2497-2500	Die	_	GSuccess[19]	stolpern\_set1\_20[19]	latin2[19]	k0vnav0sqhr0fo3b0jpuaak9s4-stolpern\_set1\_20[19]	*[45]	*[45]	Subj[45]	*[45]	*[45]	false[143]	Decl[143]	*[275]	*[275]	*[275]	*[275]	*[275]	input1[275]	57[404]	female[404]	k0vnav0sqhr0fo3b0jpuaak9s4[404]	speaker: YOU[533]	*->44-1	DefNP[44]	result	*	107-1[144_143]	
+106-2	2501-2510	verdammte	_	GSuccess[19]	stolpern\_set1\_20[19]	latin2[19]	k0vnav0sqhr0fo3b0jpuaak9s4-stolpern\_set1\_20[19]	*[45]	*[45]	Subj[45]	*[45]	*[45]	false[143]	Decl[143]	*[275]	*[275]	*[275]	*[275]	*[275]	input1[275]	57[404]	female[404]	k0vnav0sqhr0fo3b0jpuaak9s4[404]	speaker: YOU[533]	*->44-1	DefNP[44]	_	_	_	
+106-3	2511-2516	Katze	_	GSuccess[19]	stolpern\_set1\_20[19]	latin2[19]	k0vnav0sqhr0fo3b0jpuaak9s4-stolpern\_set1\_20[19]	*[45]	*[45]	Subj[45]	*[45]	*[45]	false[143]	Decl[143]	*[275]	*[275]	*[275]	*[275]	*[275]	input1[275]	57[404]	female[404]	k0vnav0sqhr0fo3b0jpuaak9s4[404]	speaker: YOU[533]	*->44-1	DefNP[44]	_	_	_	
+106-4	2517-2522	läuft	_	GSuccess[19]	stolpern\_set1\_20[19]	latin2[19]	k0vnav0sqhr0fo3b0jpuaak9s4-stolpern\_set1\_20[19]	_	_	_	_	_	false[143]	Decl[143]	*[275]	*[275]	*[275]	*[275]	*[275]	input1[275]	57[404]	female[404]	k0vnav0sqhr0fo3b0jpuaak9s4[404]	speaker: YOU[533]	_	_	_	_	_	
+106-5	2523-2526	uns	_	GSuccess[19]	stolpern\_set1\_20[19]	latin2[19]	k0vnav0sqhr0fo3b0jpuaak9s4-stolpern\_set1\_20[19]	1	*	IndirObj	*	plural	false[143]	Decl[143]	*[275]	*[275]	*[275]	*[275]	*[275]	input1[275]	57[404]	female[404]	k0vnav0sqhr0fo3b0jpuaak9s4[404]	speaker: YOU[533]	*->30-1	PerPron[30]	_	_	_	
+106-6	2527-2534	ständig	_	GSuccess[19]	stolpern\_set1\_20[19]	latin2[19]	k0vnav0sqhr0fo3b0jpuaak9s4-stolpern\_set1\_20[19]	_	_	_	_	_	false[143]	Decl[143]	*[275]	*[275]	*[275]	*[275]	*[275]	input1[275]	57[404]	female[404]	k0vnav0sqhr0fo3b0jpuaak9s4[404]	speaker: YOU[533]	_	_	_	_	_	
+106-7	2535-2538	vor	_	GSuccess[19]	stolpern\_set1\_20[19]	latin2[19]	k0vnav0sqhr0fo3b0jpuaak9s4-stolpern\_set1\_20[19]	_	_	_	_	_	false[143]	Decl[143]	*[275]	*[275]	*[275]	*[275]	*[275]	input1[275]	57[404]	female[404]	k0vnav0sqhr0fo3b0jpuaak9s4[404]	speaker: YOU[533]	_	_	_	_	_	
+106-8	2539-2542	die	_	GSuccess[19]	stolpern\_set1\_20[19]	latin2[19]	k0vnav0sqhr0fo3b0jpuaak9s4-stolpern\_set1\_20[19]	*[46]	*[46]	PrepObj[46]	*[46]	*[46]	false[143]	Decl[143]	*[275]	*[275]	*[275]	*[275]	*[275]	input1[275]	57[404]	female[404]	k0vnav0sqhr0fo3b0jpuaak9s4[404]	speaker: YOU[533]	*->14-1	DefNP[14]	_	_	_	
+106-9	2543-2549	Beine.	_	GSuccess[19]	stolpern\_set1\_20[19]	latin2[19]	k0vnav0sqhr0fo3b0jpuaak9s4-stolpern\_set1\_20[19]	*[46]	*[46]	PrepObj[46]	*[46]	*[46]	false[143]	Decl[143]	*[275]	*[275]	*[275]	*[275]	*[275]	input1[275]	57[404]	female[404]	k0vnav0sqhr0fo3b0jpuaak9s4[404]	speaker: YOU[533]	*->14-1	DefNP[14]	_	_	_	
+
+#Text=Irgendwann mußte das passieren.
+107-1	2551-2561	Irgendwann	_	GSuccess[19]	stolpern\_set1\_20[19]	latin2[19]	k0vnav0sqhr0fo3b0jpuaak9s4-stolpern\_set1\_20[19]	_	_	_	_	_	false[144]	Decl[144]	*[276]	*[276]	*[276]	*[276]	*[276]	input2[276]	57[405]	female[405]	k0vnav0sqhr0fo3b0jpuaak9s4[405]	speaker: YOU[534]	_	_	_	_	_	
+107-2	2562-2567	mußte	_	GSuccess[19]	stolpern\_set1\_20[19]	latin2[19]	k0vnav0sqhr0fo3b0jpuaak9s4-stolpern\_set1\_20[19]	_	_	_	_	_	false[144]	Decl[144]	*[276]	*[276]	*[276]	*[276]	*[276]	input2[276]	57[405]	female[405]	k0vnav0sqhr0fo3b0jpuaak9s4[405]	speaker: YOU[534]	_	_	_	_	_	
+107-3	2568-2571	das	_	GSuccess[19]	stolpern\_set1\_20[19]	latin2[19]	k0vnav0sqhr0fo3b0jpuaak9s4-stolpern\_set1\_20[19]	*	*	Subj	*	*	false[144]	Decl[144]	*[276]	*[276]	*[276]	*[276]	*[276]	input2[276]	57[405]	female[405]	k0vnav0sqhr0fo3b0jpuaak9s4[405]	speaker: YOU[534]	*->59-2	D-Pron[59]	_	_	_	
+107-4	2572-2582	passieren.	_	GSuccess[19]	stolpern\_set1\_20[19]	latin2[19]	k0vnav0sqhr0fo3b0jpuaak9s4-stolpern\_set1\_20[19]	_	_	_	_	_	false[144]	Decl[144]	*[276]	*[276]	*[276]	*[276]	*[276]	input2[276]	57[405]	female[405]	k0vnav0sqhr0fo3b0jpuaak9s4[405]	speaker: YOU[534]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+108-1	2584-2599	END_OF_DOCUMENT	_	GSuccess[19]	stolpern\_set1\_20[19]	latin2[19]	k0vnav0sqhr0fo3b0jpuaak9s4-stolpern\_set1\_20[19]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+109-1	2601-2605	Hey,	_	GSuccess[20]	stolpern\_set1\_20[20]	latin2[20]	qjdpg51abd5auurj3bduisfb43-stolpern\_set1\_20[20]	_	_	_	_	_	false[145]	Int[145]	*[277]	*[277]	*[277]	wh\_6[277]	wh\_question[277]	openq[277]	*[406]	female[406]	*[406]	speaker:Eva[535]	_	_	parallel|QAP	*|*	113-1[149_145]|110-1[146_145]	
+109-2	2606-2609	was	_	GSuccess[20]	stolpern\_set1\_20[20]	latin2[20]	qjdpg51abd5auurj3bduisfb43-stolpern\_set1\_20[20]	_	_	_	_	_	false[145]	Int[145]	*[277]	*[277]	*[277]	wh\_6[277]	wh\_question[277]	openq[277]	*[406]	female[406]	*[406]	speaker:Eva[535]	_	_	_	_	_	
+109-3	2610-2615	gibts	_	GSuccess[20]	stolpern\_set1\_20[20]	latin2[20]	qjdpg51abd5auurj3bduisfb43-stolpern\_set1\_20[20]	_	_	_	_	_	false[145]	Int[145]	*[277]	*[277]	*[277]	wh\_6[277]	wh\_question[277]	openq[277]	*[406]	female[406]	*[406]	speaker:Eva[535]	_	_	_	_	_	
+109-4	2616-2622	Neues?	_	GSuccess[20]	stolpern\_set1\_20[20]	latin2[20]	qjdpg51abd5auurj3bduisfb43-stolpern\_set1\_20[20]	_	_	_	_	_	false[145]	Int[145]	*[277]	*[277]	*[277]	wh\_6[277]	wh\_question[277]	openq[277]	*[406]	female[406]	*[406]	speaker:Eva[535]	_	_	_	_	_	
+
+#Text=Sebastian ist gestolpert
+110-1	2624-2633	Sebastian	_	GSuccess[20]	stolpern\_set1\_20[20]	latin2[20]	qjdpg51abd5auurj3bduisfb43-stolpern\_set1\_20[20]	*	*	Subj	*	*	false[146]	Decl[146]	*[278]	stolpern[278]	intransitive[278]	*[278]	*[278]	item0[278]	26[407]	female[407]	qjdpg51abd5auurj3bduisfb43[407]	speaker: YOU[536]	*->75-1	PropNm[75]	contrast|acknowledgement	*|*	112-1[148_146]|111-1[147_146]	
+110-2	2634-2637	ist	_	GSuccess[20]	stolpern\_set1\_20[20]	latin2[20]	qjdpg51abd5auurj3bduisfb43-stolpern\_set1\_20[20]	_	_	_	_	_	false[146]	Decl[146]	*[278]	stolpern[278]	intransitive[278]	*[278]	*[278]	item0[278]	26[407]	female[407]	qjdpg51abd5auurj3bduisfb43[407]	speaker: YOU[536]	_	_	_	_	_	
+110-3	2638-2648	gestolpert	_	GSuccess[20]	stolpern\_set1\_20[20]	latin2[20]	qjdpg51abd5auurj3bduisfb43-stolpern\_set1\_20[20]	_	_	_	_	_	false[146]	Decl[146]	*[278]	stolpern[278]	intransitive[278]	*[278]	*[278]	item0[278]	26[407]	female[407]	qjdpg51abd5auurj3bduisfb43[407]	speaker: YOU[536]	_	_	_	_	_	
+
+#Text=Oh nein
+111-1	2650-2652	Oh	_	GSuccess[20]	stolpern\_set1\_20[20]	latin2[20]	qjdpg51abd5auurj3bduisfb43-stolpern\_set1\_20[20]	_	_	_	_	_	false[147]	NA[147]	oh-nein\_25[279]	*[279]	*[279]	*[279]	*[279]	feedback[279]	*[408]	female[408]	*[408]	speaker:Eva[537]	_	_	_	_	_	
+111-2	2653-2657	nein	_	GSuccess[20]	stolpern\_set1\_20[20]	latin2[20]	qjdpg51abd5auurj3bduisfb43-stolpern\_set1\_20[20]	_	_	_	_	_	false[147]	NA[147]	oh-nein\_25[279]	*[279]	*[279]	*[279]	*[279]	feedback[279]	*[408]	female[408]	*[408]	speaker:Eva[537]	_	_	_	_	_	
+
+#Text=Aber ihm geht es gut.
+112-1	2659-2663	Aber	_	GSuccess[20]	stolpern\_set1\_20[20]	latin2[20]	qjdpg51abd5auurj3bduisfb43-stolpern\_set1\_20[20]	_	_	_	_	_	false[148]	Decl[148]	*[280]	*[280]	*[280]	*[280]	*[280]	input1[280]	26[409]	female[409]	qjdpg51abd5auurj3bduisfb43[409]	speaker: YOU[538]	_	_	_	_	_	
+112-2	2664-2667	ihm	_	GSuccess[20]	stolpern\_set1\_20[20]	latin2[20]	qjdpg51abd5auurj3bduisfb43-stolpern\_set1\_20[20]	3	*	IndirObj	*	singular	false[148]	Decl[148]	*[280]	*[280]	*[280]	*[280]	*[280]	input1[280]	26[409]	female[409]	qjdpg51abd5auurj3bduisfb43[409]	speaker: YOU[538]	*->75-2	PerPron[75]	_	_	_	
+112-3	2668-2672	geht	_	GSuccess[20]	stolpern\_set1\_20[20]	latin2[20]	qjdpg51abd5auurj3bduisfb43-stolpern\_set1\_20[20]	_	_	_	_	_	false[148]	Decl[148]	*[280]	*[280]	*[280]	*[280]	*[280]	input1[280]	26[409]	female[409]	qjdpg51abd5auurj3bduisfb43[409]	speaker: YOU[538]	_	_	_	_	_	
+112-4	2673-2675	es	_	GSuccess[20]	stolpern\_set1\_20[20]	latin2[20]	qjdpg51abd5auurj3bduisfb43-stolpern\_set1\_20[20]	*	*	Subj	*	*	false[148]	Decl[148]	*[280]	*[280]	*[280]	*[280]	*[280]	input1[280]	26[409]	female[409]	qjdpg51abd5auurj3bduisfb43[409]	speaker: YOU[538]	_	_	_	_	_	
+112-5	2676-2680	gut.	_	GSuccess[20]	stolpern\_set1\_20[20]	latin2[20]	qjdpg51abd5auurj3bduisfb43-stolpern\_set1\_20[20]	_	_	_	_	_	false[148]	Decl[148]	*[280]	*[280]	*[280]	*[280]	*[280]	input1[280]	26[409]	female[409]	qjdpg51abd5auurj3bduisfb43[409]	speaker: YOU[538]	_	_	_	_	_	
+
+#Text=Und bei dir so?
+113-1	2682-2685	Und	_	GSuccess[20]	stolpern\_set1\_20[20]	latin2[20]	qjdpg51abd5auurj3bduisfb43-stolpern\_set1\_20[20]	_	_	_	_	_	false[149]	NA[149]	*[281]	*[281]	*[281]	*[281]	*[281]	input2[281]	26[410]	female[410]	qjdpg51abd5auurj3bduisfb43[410]	speaker: YOU[539]	_	_	_	_	_	
+113-2	2686-2689	bei	_	GSuccess[20]	stolpern\_set1\_20[20]	latin2[20]	qjdpg51abd5auurj3bduisfb43-stolpern\_set1\_20[20]	_	_	_	_	_	false[149]	NA[149]	*[281]	*[281]	*[281]	*[281]	*[281]	input2[281]	26[410]	female[410]	qjdpg51abd5auurj3bduisfb43[410]	speaker: YOU[539]	_	_	_	_	_	
+113-3	2690-2693	dir	_	GSuccess[20]	stolpern\_set1\_20[20]	latin2[20]	qjdpg51abd5auurj3bduisfb43-stolpern\_set1\_20[20]	2	*	IndirObj	*	singular	false[149]	NA[149]	*[281]	*[281]	*[281]	*[281]	*[281]	input2[281]	26[410]	female[410]	qjdpg51abd5auurj3bduisfb43[410]	speaker: YOU[539]	*->24-1	PerPron[24]	_	_	_	
+113-4	2694-2697	so?	_	GSuccess[20]	stolpern\_set1\_20[20]	latin2[20]	qjdpg51abd5auurj3bduisfb43-stolpern\_set1\_20[20]	_	_	_	_	_	false[149]	NA[149]	*[281]	*[281]	*[281]	*[281]	*[281]	input2[281]	26[410]	female[410]	qjdpg51abd5auurj3bduisfb43[410]	speaker: YOU[539]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+114-1	2699-2714	END_OF_DOCUMENT	_	GSuccess[20]	stolpern\_set1\_20[20]	latin2[20]	qjdpg51abd5auurj3bduisfb43-stolpern\_set1\_20[20]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+115-1	2716-2720	Hey,	_	GSuccess[21]	stolpern\_set1\_20[21]	latin2[21]	rhiec6c6hfje484c5bsbj040l0-stolpern\_set1\_20[21]	_	_	_	_	_	false[150]	Int[150]	*[282]	*[282]	*[282]	wh\_6[282]	wh\_question[282]	openq[282]	*[411]	female[411]	*[411]	speaker:Eva[540]	_	_	QAP	*	116-1[151_150]	
+115-2	2721-2724	was	_	GSuccess[21]	stolpern\_set1\_20[21]	latin2[21]	rhiec6c6hfje484c5bsbj040l0-stolpern\_set1\_20[21]	_	_	_	_	_	false[150]	Int[150]	*[282]	*[282]	*[282]	wh\_6[282]	wh\_question[282]	openq[282]	*[411]	female[411]	*[411]	speaker:Eva[540]	_	_	_	_	_	
+115-3	2725-2730	gibts	_	GSuccess[21]	stolpern\_set1\_20[21]	latin2[21]	rhiec6c6hfje484c5bsbj040l0-stolpern\_set1\_20[21]	_	_	_	_	_	false[150]	Int[150]	*[282]	*[282]	*[282]	wh\_6[282]	wh\_question[282]	openq[282]	*[411]	female[411]	*[411]	speaker:Eva[540]	_	_	_	_	_	
+115-4	2731-2737	Neues?	_	GSuccess[21]	stolpern\_set1\_20[21]	latin2[21]	rhiec6c6hfje484c5bsbj040l0-stolpern\_set1\_20[21]	_	_	_	_	_	false[150]	Int[150]	*[282]	*[282]	*[282]	wh\_6[282]	wh\_question[282]	openq[282]	*[411]	female[411]	*[411]	speaker:Eva[540]	_	_	_	_	_	
+
+#Text=Sebastian ist gestolpert
+116-1	2739-2748	Sebastian	_	GSuccess[21]	stolpern\_set1\_20[21]	latin2[21]	rhiec6c6hfje484c5bsbj040l0-stolpern\_set1\_20[21]	*	*	Subj	*	*	false[151]	Decl[151]	*[283]	stolpern[283]	intransitive[283]	*[283]	*[283]	item0[283]	72[412]	male[412]	rhiec6c6hfje484c5bsbj040l0[412]	speaker: YOU[541]	*->38-1	PropNm[38]	elaboration|acknowledgement	*|*	118-1[0_151]|117-1[152_151]	
+116-2	2749-2752	ist	_	GSuccess[21]	stolpern\_set1\_20[21]	latin2[21]	rhiec6c6hfje484c5bsbj040l0-stolpern\_set1\_20[21]	_	_	_	_	_	false[151]	Decl[151]	*[283]	stolpern[283]	intransitive[283]	*[283]	*[283]	item0[283]	72[412]	male[412]	rhiec6c6hfje484c5bsbj040l0[412]	speaker: YOU[541]	_	_	_	_	_	
+116-3	2753-2763	gestolpert	_	GSuccess[21]	stolpern\_set1\_20[21]	latin2[21]	rhiec6c6hfje484c5bsbj040l0-stolpern\_set1\_20[21]	_	_	_	_	_	false[151]	Decl[151]	*[283]	stolpern[283]	intransitive[283]	*[283]	*[283]	item0[283]	72[412]	male[412]	rhiec6c6hfje484c5bsbj040l0[412]	speaker: YOU[541]	_	_	_	_	_	
+
+#Text=Oh nein
+117-1	2765-2767	Oh	_	GSuccess[21]	stolpern\_set1\_20[21]	latin2[21]	rhiec6c6hfje484c5bsbj040l0-stolpern\_set1\_20[21]	_	_	_	_	_	false[152]	NA[152]	oh-nein\_25[284]	*[284]	*[284]	*[284]	*[284]	feedback[284]	*[413]	female[413]	*[413]	speaker:Eva[542]	_	_	correction	*	118-1[0_152]	
+117-2	2768-2772	nein	_	GSuccess[21]	stolpern\_set1\_20[21]	latin2[21]	rhiec6c6hfje484c5bsbj040l0-stolpern\_set1\_20[21]	_	_	_	_	_	false[152]	NA[152]	oh-nein\_25[284]	*[284]	*[284]	*[284]	*[284]	feedback[284]	*[413]	female[413]	*[413]	speaker:Eva[542]	_	_	_	_	_	
+
+#Text=Doch <BR> du weisst ja...
+118-1	2774-2778	Doch	_	GSuccess[21]	stolpern\_set1\_20[21]	latin2[21]	rhiec6c6hfje484c5bsbj040l0-stolpern\_set1\_20[21]	_	_	_	_	_	false	NA	*[285]	*[285]	*[285]	*[285]	*[285]	input1[285]	72[414]	male[414]	rhiec6c6hfje484c5bsbj040l0[414]	speaker: YOU[543]	_	_	_	_	_	
+118-2	2779-2783	<BR>	_	GSuccess[21]	stolpern\_set1\_20[21]	latin2[21]	rhiec6c6hfje484c5bsbj040l0-stolpern\_set1\_20[21]	_	_	_	_	_	_	_	*[285]	*[285]	*[285]	*[285]	*[285]	input1[285]	72[414]	male[414]	rhiec6c6hfje484c5bsbj040l0[414]	speaker: YOU[543]	_	_	_	_	_	
+118-3	2784-2786	du	_	GSuccess[21]	stolpern\_set1\_20[21]	latin2[21]	rhiec6c6hfje484c5bsbj040l0-stolpern\_set1\_20[21]	2	*	Subj	*	singular	false[153]	Decl[153]	*[285]	*[285]	*[285]	*[285]	*[285]	input1[285]	72[414]	male[414]	rhiec6c6hfje484c5bsbj040l0[414]	speaker: YOU[543]	*->8-1	PerPron[8]	_	_	_	
+118-4	2787-2793	weisst	_	GSuccess[21]	stolpern\_set1\_20[21]	latin2[21]	rhiec6c6hfje484c5bsbj040l0-stolpern\_set1\_20[21]	_	_	_	_	_	false[153]	Decl[153]	*[285]	*[285]	*[285]	*[285]	*[285]	input1[285]	72[414]	male[414]	rhiec6c6hfje484c5bsbj040l0[414]	speaker: YOU[543]	_	_	_	_	_	
+118-5	2794-2799	ja...	_	GSuccess[21]	stolpern\_set1\_20[21]	latin2[21]	rhiec6c6hfje484c5bsbj040l0-stolpern\_set1\_20[21]	_	_	_	_	_	false[153]	Decl[153]	*[285]	*[285]	*[285]	*[285]	*[285]	input1[285]	72[414]	male[414]	rhiec6c6hfje484c5bsbj040l0[414]	speaker: YOU[543]	_	_	_	_	_	
+
+#Text=er hat zwei linke Füsse..
+119-1	2801-2803	er	_	GSuccess[21]	stolpern\_set1\_20[21]	latin2[21]	rhiec6c6hfje484c5bsbj040l0-stolpern\_set1\_20[21]	3	*	Subj	*	singular	false[154]	Decl[154]	*[286]	*[286]	*[286]	*[286]	*[286]	input2[286]	72[415]	male[415]	rhiec6c6hfje484c5bsbj040l0[415]	speaker: YOU[544]	*->38-2	PerPron[38]	_	_	_	
+119-2	2804-2807	hat	_	GSuccess[21]	stolpern\_set1\_20[21]	latin2[21]	rhiec6c6hfje484c5bsbj040l0-stolpern\_set1\_20[21]	_	_	_	_	_	false[154]	Decl[154]	*[286]	*[286]	*[286]	*[286]	*[286]	input2[286]	72[415]	male[415]	rhiec6c6hfje484c5bsbj040l0[415]	speaker: YOU[544]	_	_	_	_	_	
+119-3	2808-2812	zwei	_	GSuccess[21]	stolpern\_set1\_20[21]	latin2[21]	rhiec6c6hfje484c5bsbj040l0-stolpern\_set1\_20[21]	_	_	_	_	_	false[154]	Decl[154]	*[286]	*[286]	*[286]	*[286]	*[286]	input2[286]	72[415]	male[415]	rhiec6c6hfje484c5bsbj040l0[415]	speaker: YOU[544]	*->39-1	IndefNP[39]	_	_	_	
+119-4	2813-2818	linke	_	GSuccess[21]	stolpern\_set1\_20[21]	latin2[21]	rhiec6c6hfje484c5bsbj040l0-stolpern\_set1\_20[21]	_	_	_	_	_	false[154]	Decl[154]	*[286]	*[286]	*[286]	*[286]	*[286]	input2[286]	72[415]	male[415]	rhiec6c6hfje484c5bsbj040l0[415]	speaker: YOU[544]	*->39-1	IndefNP[39]	_	_	_	
+119-5	2819-2826	Füsse..	_	GSuccess[21]	stolpern\_set1\_20[21]	latin2[21]	rhiec6c6hfje484c5bsbj040l0-stolpern\_set1\_20[21]	_	_	_	_	_	false[154]	Decl[154]	*[286]	*[286]	*[286]	*[286]	*[286]	input2[286]	72[415]	male[415]	rhiec6c6hfje484c5bsbj040l0[415]	speaker: YOU[544]	*->39-1	IndefNP[39]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+120-1	2828-2843	END_OF_DOCUMENT	_	GSuccess[21]	stolpern\_set1\_20[21]	latin2[21]	rhiec6c6hfje484c5bsbj040l0-stolpern\_set1\_20[21]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+121-1	2845-2849	Hey,	_	GWithout[22]	stolpern\_set1\_20[22]	latin3[22]	0ncaea7aqlpc7oe43khd21qn11-stolpern\_set1\_20[22]	_	_	_	_	_	false[155]	Int[155]	*[287]	*[287]	*[287]	wh\_6[287]	wh\_question[287]	openq[287]	*[416]	female[416]	*[416]	speaker:Eva[545]	_	_	QAP	*	122-1[156_155]	
+121-2	2850-2853	was	_	GWithout[22]	stolpern\_set1\_20[22]	latin3[22]	0ncaea7aqlpc7oe43khd21qn11-stolpern\_set1\_20[22]	_	_	_	_	_	false[155]	Int[155]	*[287]	*[287]	*[287]	wh\_6[287]	wh\_question[287]	openq[287]	*[416]	female[416]	*[416]	speaker:Eva[545]	_	_	_	_	_	
+121-3	2854-2859	gibts	_	GWithout[22]	stolpern\_set1\_20[22]	latin3[22]	0ncaea7aqlpc7oe43khd21qn11-stolpern\_set1\_20[22]	_	_	_	_	_	false[155]	Int[155]	*[287]	*[287]	*[287]	wh\_6[287]	wh\_question[287]	openq[287]	*[416]	female[416]	*[416]	speaker:Eva[545]	_	_	_	_	_	
+121-4	2860-2866	Neues?	_	GWithout[22]	stolpern\_set1\_20[22]	latin3[22]	0ncaea7aqlpc7oe43khd21qn11-stolpern\_set1\_20[22]	_	_	_	_	_	false[155]	Int[155]	*[287]	*[287]	*[287]	wh\_6[287]	wh\_question[287]	openq[287]	*[416]	female[416]	*[416]	speaker:Eva[545]	_	_	_	_	_	
+
+#Text=Sebastian ist gestolpert
+122-1	2868-2877	Sebastian	_	GWithout[22]	stolpern\_set1\_20[22]	latin3[22]	0ncaea7aqlpc7oe43khd21qn11-stolpern\_set1\_20[22]	*	*	Subj	*	*	false[156]	Decl[156]	*[288]	stolpern[288]	intransitive[288]	*[288]	*[288]	item0[288]	18[417]	female[417]	0ncaea7aqlpc7oe43khd21qn11[417]	speaker: YOU[546]	*->76-1	PropNm[76]	result	*	124-1[157_156]	
+122-2	2878-2881	ist	_	GWithout[22]	stolpern\_set1\_20[22]	latin3[22]	0ncaea7aqlpc7oe43khd21qn11-stolpern\_set1\_20[22]	_	_	_	_	_	false[156]	Decl[156]	*[288]	stolpern[288]	intransitive[288]	*[288]	*[288]	item0[288]	18[417]	female[417]	0ncaea7aqlpc7oe43khd21qn11[417]	speaker: YOU[546]	_	_	_	_	_	
+122-3	2882-2892	gestolpert	_	GWithout[22]	stolpern\_set1\_20[22]	latin3[22]	0ncaea7aqlpc7oe43khd21qn11-stolpern\_set1\_20[22]	_	_	_	_	_	false[156]	Decl[156]	*[288]	stolpern[288]	intransitive[288]	*[288]	*[288]	item0[288]	18[417]	female[417]	0ncaea7aqlpc7oe43khd21qn11[417]	speaker: YOU[546]	_	_	_	_	_	
+
+#Text=-
+123-1	2894-2895	-	_	GWithout[22]	stolpern\_set1\_20[22]	latin3[22]	0ncaea7aqlpc7oe43khd21qn11-stolpern\_set1\_20[22]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Eva	_	_	_	_	_	
+
+#Text=Beide seine Knie sind komplett aufgeschürft.
+124-1	2897-2902	Beide	_	GWithout[22]	stolpern\_set1\_20[22]	latin3[22]	0ncaea7aqlpc7oe43khd21qn11-stolpern\_set1\_20[22]	*[47]	*[47]	Subj[47]	*[47]	*[47]	false[157]	Decl[157]	*[289]	*[289]	*[289]	*[289]	*[289]	input1[289]	18[418]	female[418]	0ncaea7aqlpc7oe43khd21qn11[418]	speaker: YOU[547]	*->41-1	Allquantor[41]	contrast	*	125-1[158_157]	
+124-2	2903-2908	seine	_	GWithout[22]	stolpern\_set1\_20[22]	latin3[22]	0ncaea7aqlpc7oe43khd21qn11-stolpern\_set1\_20[22]	*[47]|3[48]	*[47]|*[48]	Subj[47]|*[48]	*[47]|*[48]	*[47]|singular[48]	false[157]	Decl[157]	*[289]	*[289]	*[289]	*[289]	*[289]	input1[289]	18[418]	female[418]	0ncaea7aqlpc7oe43khd21qn11[418]	speaker: YOU[547]	*->41-1|*->76-2	Allquantor[41]|PossePron[76]	_	_	_	
+124-3	2909-2913	Knie	_	GWithout[22]	stolpern\_set1\_20[22]	latin3[22]	0ncaea7aqlpc7oe43khd21qn11-stolpern\_set1\_20[22]	*[47]	*[47]	Subj[47]	*[47]	*[47]	false[157]	Decl[157]	*[289]	*[289]	*[289]	*[289]	*[289]	input1[289]	18[418]	female[418]	0ncaea7aqlpc7oe43khd21qn11[418]	speaker: YOU[547]	*->41-1	Allquantor[41]	_	_	_	
+124-4	2914-2918	sind	_	GWithout[22]	stolpern\_set1\_20[22]	latin3[22]	0ncaea7aqlpc7oe43khd21qn11-stolpern\_set1\_20[22]	_	_	_	_	_	false[157]	Decl[157]	*[289]	*[289]	*[289]	*[289]	*[289]	input1[289]	18[418]	female[418]	0ncaea7aqlpc7oe43khd21qn11[418]	speaker: YOU[547]	_	_	_	_	_	
+124-5	2919-2927	komplett	_	GWithout[22]	stolpern\_set1\_20[22]	latin3[22]	0ncaea7aqlpc7oe43khd21qn11-stolpern\_set1\_20[22]	_	_	_	_	_	false[157]	Decl[157]	*[289]	*[289]	*[289]	*[289]	*[289]	input1[289]	18[418]	female[418]	0ncaea7aqlpc7oe43khd21qn11[418]	speaker: YOU[547]	_	_	_	_	_	
+124-6	2928-2941	aufgeschürft.	_	GWithout[22]	stolpern\_set1\_20[22]	latin3[22]	0ncaea7aqlpc7oe43khd21qn11-stolpern\_set1\_20[22]	_	_	_	_	_	false[157]	Decl[157]	*[289]	*[289]	*[289]	*[289]	*[289]	input1[289]	18[418]	female[418]	0ncaea7aqlpc7oe43khd21qn11[418]	speaker: YOU[547]	_	_	_	_	_	
+
+#Text=Aber sonst alles gut <BR> bei dir auch?
+125-1	2943-2947	Aber	_	GWithout[22]	stolpern\_set1\_20[22]	latin3[22]	0ncaea7aqlpc7oe43khd21qn11-stolpern\_set1\_20[22]	_	_	_	_	_	false[158]	NA[158]	*[290]	*[290]	*[290]	*[290]	*[290]	input2[290]	18[419]	female[419]	0ncaea7aqlpc7oe43khd21qn11[419]	speaker: YOU[548]	_	_	parallel	*	125-6[159_158]	
+125-2	2948-2953	sonst	_	GWithout[22]	stolpern\_set1\_20[22]	latin3[22]	0ncaea7aqlpc7oe43khd21qn11-stolpern\_set1\_20[22]	_	_	_	_	_	false[158]	NA[158]	*[290]	*[290]	*[290]	*[290]	*[290]	input2[290]	18[419]	female[419]	0ncaea7aqlpc7oe43khd21qn11[419]	speaker: YOU[548]	_	_	_	_	_	
+125-3	2954-2959	alles	_	GWithout[22]	stolpern\_set1\_20[22]	latin3[22]	0ncaea7aqlpc7oe43khd21qn11-stolpern\_set1\_20[22]	_	_	_	_	_	false[158]	NA[158]	*[290]	*[290]	*[290]	*[290]	*[290]	input2[290]	18[419]	female[419]	0ncaea7aqlpc7oe43khd21qn11[419]	speaker: YOU[548]	_	_	_	_	_	
+125-4	2960-2963	gut	_	GWithout[22]	stolpern\_set1\_20[22]	latin3[22]	0ncaea7aqlpc7oe43khd21qn11-stolpern\_set1\_20[22]	_	_	_	_	_	false[158]	NA[158]	*[290]	*[290]	*[290]	*[290]	*[290]	input2[290]	18[419]	female[419]	0ncaea7aqlpc7oe43khd21qn11[419]	speaker: YOU[548]	_	_	_	_	_	
+125-5	2964-2968	<BR>	_	GWithout[22]	stolpern\_set1\_20[22]	latin3[22]	0ncaea7aqlpc7oe43khd21qn11-stolpern\_set1\_20[22]	_	_	_	_	_	_	_	*[290]	*[290]	*[290]	*[290]	*[290]	input2[290]	18[419]	female[419]	0ncaea7aqlpc7oe43khd21qn11[419]	speaker: YOU[548]	_	_	_	_	_	
+125-6	2969-2972	bei	_	GWithout[22]	stolpern\_set1\_20[22]	latin3[22]	0ncaea7aqlpc7oe43khd21qn11-stolpern\_set1\_20[22]	_	_	_	_	_	false[159]	NA[159]	*[290]	*[290]	*[290]	*[290]	*[290]	input2[290]	18[419]	female[419]	0ncaea7aqlpc7oe43khd21qn11[419]	speaker: YOU[548]	_	_	_	_	_	
+125-7	2973-2976	dir	_	GWithout[22]	stolpern\_set1\_20[22]	latin3[22]	0ncaea7aqlpc7oe43khd21qn11-stolpern\_set1\_20[22]	2	*	PrepObj	*	singular	false[159]	NA[159]	*[290]	*[290]	*[290]	*[290]	*[290]	input2[290]	18[419]	female[419]	0ncaea7aqlpc7oe43khd21qn11[419]	speaker: YOU[548]	*->35-1	PerPron[35]	_	_	_	
+125-8	2977-2982	auch?	_	GWithout[22]	stolpern\_set1\_20[22]	latin3[22]	0ncaea7aqlpc7oe43khd21qn11-stolpern\_set1\_20[22]	_	_	_	_	_	false[159]	NA[159]	*[290]	*[290]	*[290]	*[290]	*[290]	input2[290]	18[419]	female[419]	0ncaea7aqlpc7oe43khd21qn11[419]	speaker: YOU[548]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+126-1	2984-2999	END_OF_DOCUMENT	_	GWithout[22]	stolpern\_set1\_20[22]	latin3[22]	0ncaea7aqlpc7oe43khd21qn11-stolpern\_set1\_20[22]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+127-1	3001-3005	Hey,	_	GWithout[23]	stolpern\_set1\_20[23]	latin3[23]	19gm0uv9ca6mcngf99lirno94a-stolpern\_set1\_20[23]	_	_	_	_	_	false[160]	Int[160]	*[291]	*[291]	*[291]	wh\_6[291]	wh\_question[291]	openq[291]	*[420]	female[420]	*[420]	speaker:Eva[549]	_	_	QAP	*	128-1[161_160]	
+127-2	3006-3009	was	_	GWithout[23]	stolpern\_set1\_20[23]	latin3[23]	19gm0uv9ca6mcngf99lirno94a-stolpern\_set1\_20[23]	_	_	_	_	_	false[160]	Int[160]	*[291]	*[291]	*[291]	wh\_6[291]	wh\_question[291]	openq[291]	*[420]	female[420]	*[420]	speaker:Eva[549]	_	_	_	_	_	
+127-3	3010-3015	gibts	_	GWithout[23]	stolpern\_set1\_20[23]	latin3[23]	19gm0uv9ca6mcngf99lirno94a-stolpern\_set1\_20[23]	_	_	_	_	_	false[160]	Int[160]	*[291]	*[291]	*[291]	wh\_6[291]	wh\_question[291]	openq[291]	*[420]	female[420]	*[420]	speaker:Eva[549]	_	_	_	_	_	
+127-4	3016-3022	Neues?	_	GWithout[23]	stolpern\_set1\_20[23]	latin3[23]	19gm0uv9ca6mcngf99lirno94a-stolpern\_set1\_20[23]	_	_	_	_	_	false[160]	Int[160]	*[291]	*[291]	*[291]	wh\_6[291]	wh\_question[291]	openq[291]	*[420]	female[420]	*[420]	speaker:Eva[549]	_	_	_	_	_	
+
+#Text=Sebastian ist gestolpert
+128-1	3024-3033	Sebastian	_	GWithout[23]	stolpern\_set1\_20[23]	latin3[23]	19gm0uv9ca6mcngf99lirno94a-stolpern\_set1\_20[23]	*	*	Subj	*	*	false[161]	Decl[161]	*[292]	stolpern[292]	intransitive[292]	*[292]	*[292]	item0[292]	36[421]	male[421]	19gm0uv9ca6mcngf99lirno94a[421]	speaker: YOU[550]	*->7-1	PropNm[7]	elaboration	*	130-1[162_161]	
+128-2	3034-3037	ist	_	GWithout[23]	stolpern\_set1\_20[23]	latin3[23]	19gm0uv9ca6mcngf99lirno94a-stolpern\_set1\_20[23]	_	_	_	_	_	false[161]	Decl[161]	*[292]	stolpern[292]	intransitive[292]	*[292]	*[292]	item0[292]	36[421]	male[421]	19gm0uv9ca6mcngf99lirno94a[421]	speaker: YOU[550]	_	_	_	_	_	
+128-3	3038-3048	gestolpert	_	GWithout[23]	stolpern\_set1\_20[23]	latin3[23]	19gm0uv9ca6mcngf99lirno94a-stolpern\_set1\_20[23]	_	_	_	_	_	false[161]	Decl[161]	*[292]	stolpern[292]	intransitive[292]	*[292]	*[292]	item0[292]	36[421]	male[421]	19gm0uv9ca6mcngf99lirno94a[421]	speaker: YOU[550]	_	_	_	_	_	
+
+#Text=-
+129-1	3050-3051	-	_	GWithout[23]	stolpern\_set1\_20[23]	latin3[23]	19gm0uv9ca6mcngf99lirno94a-stolpern\_set1\_20[23]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Eva	_	_	_	_	_	
+
+#Text=Und ist fast mitten in eine Pfütze gefallen
+130-1	3053-3056	Und	_	GWithout[23]	stolpern\_set1\_20[23]	latin3[23]	19gm0uv9ca6mcngf99lirno94a-stolpern\_set1\_20[23]	_	_	_	_	_	false[162]	Decl[162]	*[293]	*[293]	*[293]	*[293]	*[293]	input1[293]	36[422]	male[422]	19gm0uv9ca6mcngf99lirno94a[422]	speaker: YOU[551]	_	_	result	*	131-1[163_162]	
+130-2	3057-3060	ist	_	GWithout[23]	stolpern\_set1\_20[23]	latin3[23]	19gm0uv9ca6mcngf99lirno94a-stolpern\_set1\_20[23]	3	*	*	*	singular	false[162]	Decl[162]	*[293]	*[293]	*[293]	*[293]	*[293]	input1[293]	36[422]	male[422]	19gm0uv9ca6mcngf99lirno94a[422]	speaker: YOU[551]	*->7-2	zero[7]	_	_	_	
+130-3	3061-3065	fast	_	GWithout[23]	stolpern\_set1\_20[23]	latin3[23]	19gm0uv9ca6mcngf99lirno94a-stolpern\_set1\_20[23]	_	_	_	_	_	false[162]	Decl[162]	*[293]	*[293]	*[293]	*[293]	*[293]	input1[293]	36[422]	male[422]	19gm0uv9ca6mcngf99lirno94a[422]	speaker: YOU[551]	_	_	_	_	_	
+130-4	3066-3072	mitten	_	GWithout[23]	stolpern\_set1\_20[23]	latin3[23]	19gm0uv9ca6mcngf99lirno94a-stolpern\_set1\_20[23]	_	_	_	_	_	false[162]	Decl[162]	*[293]	*[293]	*[293]	*[293]	*[293]	input1[293]	36[422]	male[422]	19gm0uv9ca6mcngf99lirno94a[422]	speaker: YOU[551]	_	_	_	_	_	
+130-5	3073-3075	in	_	GWithout[23]	stolpern\_set1\_20[23]	latin3[23]	19gm0uv9ca6mcngf99lirno94a-stolpern\_set1\_20[23]	_	_	_	_	_	false[162]	Decl[162]	*[293]	*[293]	*[293]	*[293]	*[293]	input1[293]	36[422]	male[422]	19gm0uv9ca6mcngf99lirno94a[422]	speaker: YOU[551]	_	_	_	_	_	
+130-6	3076-3080	eine	_	GWithout[23]	stolpern\_set1\_20[23]	latin3[23]	19gm0uv9ca6mcngf99lirno94a-stolpern\_set1\_20[23]	*[49]	*[49]	PrepObj[49]	*[49]	*[49]	false[162]	Decl[162]	*[293]	*[293]	*[293]	*[293]	*[293]	input1[293]	36[422]	male[422]	19gm0uv9ca6mcngf99lirno94a[422]	speaker: YOU[551]	*->57-1	IndefNP[57]	_	_	_	
+130-7	3081-3087	Pfütze	_	GWithout[23]	stolpern\_set1\_20[23]	latin3[23]	19gm0uv9ca6mcngf99lirno94a-stolpern\_set1\_20[23]	*[49]	*[49]	PrepObj[49]	*[49]	*[49]	false[162]	Decl[162]	*[293]	*[293]	*[293]	*[293]	*[293]	input1[293]	36[422]	male[422]	19gm0uv9ca6mcngf99lirno94a[422]	speaker: YOU[551]	*->57-1	IndefNP[57]	_	_	_	
+130-8	3088-3096	gefallen	_	GWithout[23]	stolpern\_set1\_20[23]	latin3[23]	19gm0uv9ca6mcngf99lirno94a-stolpern\_set1\_20[23]	_	_	_	_	_	false[162]	Decl[162]	*[293]	*[293]	*[293]	*[293]	*[293]	input1[293]	36[422]	male[422]	19gm0uv9ca6mcngf99lirno94a[422]	speaker: YOU[551]	_	_	_	_	_	
+
+#Text=Er braucht echt besseres Schuhwerk für den Regen
+131-1	3098-3100	Er	_	GWithout[23]	stolpern\_set1\_20[23]	latin3[23]	19gm0uv9ca6mcngf99lirno94a-stolpern\_set1\_20[23]	3	*	Subj	*	singular	false[163]	Decl[163]	*[294]	*[294]	*[294]	*[294]	*[294]	input2[294]	36[423]	male[423]	19gm0uv9ca6mcngf99lirno94a[423]	speaker: YOU[552]	*->7-3	PerPron[7]	_	_	_	
+131-2	3101-3108	braucht	_	GWithout[23]	stolpern\_set1\_20[23]	latin3[23]	19gm0uv9ca6mcngf99lirno94a-stolpern\_set1\_20[23]	_	_	_	_	_	false[163]	Decl[163]	*[294]	*[294]	*[294]	*[294]	*[294]	input2[294]	36[423]	male[423]	19gm0uv9ca6mcngf99lirno94a[423]	speaker: YOU[552]	_	_	_	_	_	
+131-3	3109-3113	echt	_	GWithout[23]	stolpern\_set1\_20[23]	latin3[23]	19gm0uv9ca6mcngf99lirno94a-stolpern\_set1\_20[23]	*[50]	*[50]	DirObj[50]	*[50]	*[50]	false[163]	Decl[163]	*[294]	*[294]	*[294]	*[294]	*[294]	input2[294]	36[423]	male[423]	19gm0uv9ca6mcngf99lirno94a[423]	speaker: YOU[552]	_	_	_	_	_	
+131-4	3114-3122	besseres	_	GWithout[23]	stolpern\_set1\_20[23]	latin3[23]	19gm0uv9ca6mcngf99lirno94a-stolpern\_set1\_20[23]	*[50]	*[50]	DirObj[50]	*[50]	*[50]	false[163]	Decl[163]	*[294]	*[294]	*[294]	*[294]	*[294]	input2[294]	36[423]	male[423]	19gm0uv9ca6mcngf99lirno94a[423]	speaker: YOU[552]	_	_	_	_	_	
+131-5	3123-3132	Schuhwerk	_	GWithout[23]	stolpern\_set1\_20[23]	latin3[23]	19gm0uv9ca6mcngf99lirno94a-stolpern\_set1\_20[23]	*[50]	*[50]	DirObj[50]	*[50]	*[50]	false[163]	Decl[163]	*[294]	*[294]	*[294]	*[294]	*[294]	input2[294]	36[423]	male[423]	19gm0uv9ca6mcngf99lirno94a[423]	speaker: YOU[552]	_	_	_	_	_	
+131-6	3133-3136	für	_	GWithout[23]	stolpern\_set1\_20[23]	latin3[23]	19gm0uv9ca6mcngf99lirno94a-stolpern\_set1\_20[23]	_	_	_	_	_	false[163]	Decl[163]	*[294]	*[294]	*[294]	*[294]	*[294]	input2[294]	36[423]	male[423]	19gm0uv9ca6mcngf99lirno94a[423]	speaker: YOU[552]	_	_	_	_	_	
+131-7	3137-3140	den	_	GWithout[23]	stolpern\_set1\_20[23]	latin3[23]	19gm0uv9ca6mcngf99lirno94a-stolpern\_set1\_20[23]	*[51]	*[51]	PrepObj[51]	*[51]	*[51]	false[163]	Decl[163]	*[294]	*[294]	*[294]	*[294]	*[294]	input2[294]	36[423]	male[423]	19gm0uv9ca6mcngf99lirno94a[423]	speaker: YOU[552]	*->3-1	DefNP[3]	_	_	_	
+131-8	3141-3146	Regen	_	GWithout[23]	stolpern\_set1\_20[23]	latin3[23]	19gm0uv9ca6mcngf99lirno94a-stolpern\_set1\_20[23]	*[51]	*[51]	PrepObj[51]	*[51]	*[51]	false[163]	Decl[163]	*[294]	*[294]	*[294]	*[294]	*[294]	input2[294]	36[423]	male[423]	19gm0uv9ca6mcngf99lirno94a[423]	speaker: YOU[552]	*->3-1	DefNP[3]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+132-1	3148-3163	END_OF_DOCUMENT	_	GWithout[23]	stolpern\_set1\_20[23]	latin3[23]	19gm0uv9ca6mcngf99lirno94a-stolpern\_set1\_20[23]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+133-1	3165-3169	Hey,	_	GWithout[24]	stolpern\_set1\_20[24]	latin3[24]	4qae3ph27q5gbjcsrgnltv8qld-stolpern\_set1\_20[24]	_	_	_	_	_	false[164]	Int[164]	*[295]	*[295]	*[295]	wh\_6[295]	wh\_question[295]	openq[295]	*[424]	female[424]	*[424]	speaker:Eva[553]	_	_	QAP	*	134-1[165_164]	
+133-2	3170-3173	was	_	GWithout[24]	stolpern\_set1\_20[24]	latin3[24]	4qae3ph27q5gbjcsrgnltv8qld-stolpern\_set1\_20[24]	_	_	_	_	_	false[164]	Int[164]	*[295]	*[295]	*[295]	wh\_6[295]	wh\_question[295]	openq[295]	*[424]	female[424]	*[424]	speaker:Eva[553]	_	_	_	_	_	
+133-3	3174-3179	gibts	_	GWithout[24]	stolpern\_set1\_20[24]	latin3[24]	4qae3ph27q5gbjcsrgnltv8qld-stolpern\_set1\_20[24]	_	_	_	_	_	false[164]	Int[164]	*[295]	*[295]	*[295]	wh\_6[295]	wh\_question[295]	openq[295]	*[424]	female[424]	*[424]	speaker:Eva[553]	_	_	_	_	_	
+133-4	3180-3186	Neues?	_	GWithout[24]	stolpern\_set1\_20[24]	latin3[24]	4qae3ph27q5gbjcsrgnltv8qld-stolpern\_set1\_20[24]	_	_	_	_	_	false[164]	Int[164]	*[295]	*[295]	*[295]	wh\_6[295]	wh\_question[295]	openq[295]	*[424]	female[424]	*[424]	speaker:Eva[553]	_	_	_	_	_	
+
+#Text=Sebastian ist gestolpert
+134-1	3188-3197	Sebastian	_	GWithout[24]	stolpern\_set1\_20[24]	latin3[24]	4qae3ph27q5gbjcsrgnltv8qld-stolpern\_set1\_20[24]	*	*	Subj	*	*	false[165]	Decl[165]	*[296]	stolpern[296]	intransitive[296]	*[296]	*[296]	item0[296]	18[425]	female[425]	4qae3ph27q5gbjcsrgnltv8qld[425]	speaker: YOU[554]	*->78-1	PropNm[78]	result	*	136-1[166_165]	
+134-2	3198-3201	ist	_	GWithout[24]	stolpern\_set1\_20[24]	latin3[24]	4qae3ph27q5gbjcsrgnltv8qld-stolpern\_set1\_20[24]	_	_	_	_	_	false[165]	Decl[165]	*[296]	stolpern[296]	intransitive[296]	*[296]	*[296]	item0[296]	18[425]	female[425]	4qae3ph27q5gbjcsrgnltv8qld[425]	speaker: YOU[554]	_	_	_	_	_	
+134-3	3202-3212	gestolpert	_	GWithout[24]	stolpern\_set1\_20[24]	latin3[24]	4qae3ph27q5gbjcsrgnltv8qld-stolpern\_set1\_20[24]	_	_	_	_	_	false[165]	Decl[165]	*[296]	stolpern[296]	intransitive[296]	*[296]	*[296]	item0[296]	18[425]	female[425]	4qae3ph27q5gbjcsrgnltv8qld[425]	speaker: YOU[554]	_	_	_	_	_	
+
+#Text=-
+135-1	3214-3215	-	_	GWithout[24]	stolpern\_set1\_20[24]	latin3[24]	4qae3ph27q5gbjcsrgnltv8qld-stolpern\_set1\_20[24]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Eva	_	_	_	_	_	
+
+#Text=hat sich den fuß gebrochen
+136-1	3217-3220	hat	_	GWithout[24]	stolpern\_set1\_20[24]	latin3[24]	4qae3ph27q5gbjcsrgnltv8qld-stolpern\_set1\_20[24]	3	*	*	*	singular	false[166]	Decl[166]	*[297]	*[297]	*[297]	*[297]	*[297]	input1[297]	18[426]	female[426]	4qae3ph27q5gbjcsrgnltv8qld[426]	speaker: YOU[555]	*->78-2	zero[78]	result	*	137-1[167_166]	
+136-2	3221-3225	sich	_	GWithout[24]	stolpern\_set1\_20[24]	latin3[24]	4qae3ph27q5gbjcsrgnltv8qld-stolpern\_set1\_20[24]	_	_	_	_	_	false[166]	Decl[166]	*[297]	*[297]	*[297]	*[297]	*[297]	input1[297]	18[426]	female[426]	4qae3ph27q5gbjcsrgnltv8qld[426]	speaker: YOU[555]	_	_	_	_	_	
+136-3	3226-3229	den	_	GWithout[24]	stolpern\_set1\_20[24]	latin3[24]	4qae3ph27q5gbjcsrgnltv8qld-stolpern\_set1\_20[24]	*[52]	*[52]	DirObj[52]	*[52]	*[52]	false[166]	Decl[166]	*[297]	*[297]	*[297]	*[297]	*[297]	input1[297]	18[426]	female[426]	4qae3ph27q5gbjcsrgnltv8qld[426]	speaker: YOU[555]	*->47-1	DefNP[47]	_	_	_	
+136-4	3230-3233	fuß	_	GWithout[24]	stolpern\_set1\_20[24]	latin3[24]	4qae3ph27q5gbjcsrgnltv8qld-stolpern\_set1\_20[24]	*[52]	*[52]	DirObj[52]	*[52]	*[52]	false[166]	Decl[166]	*[297]	*[297]	*[297]	*[297]	*[297]	input1[297]	18[426]	female[426]	4qae3ph27q5gbjcsrgnltv8qld[426]	speaker: YOU[555]	*->47-1	DefNP[47]	_	_	_	
+136-5	3234-3243	gebrochen	_	GWithout[24]	stolpern\_set1\_20[24]	latin3[24]	4qae3ph27q5gbjcsrgnltv8qld-stolpern\_set1\_20[24]	_	_	_	_	_	false[166]	Decl[166]	*[297]	*[297]	*[297]	*[297]	*[297]	input1[297]	18[426]	female[426]	4qae3ph27q5gbjcsrgnltv8qld[426]	speaker: YOU[555]	_	_	_	_	_	
+
+#Text=und ist jetzt im krankenhaus
+137-1	3245-3248	und	_	GWithout[24]	stolpern\_set1\_20[24]	latin3[24]	4qae3ph27q5gbjcsrgnltv8qld-stolpern\_set1\_20[24]	_	_	_	_	_	false[167]	Decl[167]	*[298]	*[298]	*[298]	*[298]	*[298]	input2[298]	18[427]	female[427]	4qae3ph27q5gbjcsrgnltv8qld[427]	speaker: YOU[556]	_	_	_	_	_	
+137-2	3249-3252	ist	_	GWithout[24]	stolpern\_set1\_20[24]	latin3[24]	4qae3ph27q5gbjcsrgnltv8qld-stolpern\_set1\_20[24]	3	*	*	*	singular	false[167]	Decl[167]	*[298]	*[298]	*[298]	*[298]	*[298]	input2[298]	18[427]	female[427]	4qae3ph27q5gbjcsrgnltv8qld[427]	speaker: YOU[556]	*->78-3	zero[78]	_	_	_	
+137-3	3253-3258	jetzt	_	GWithout[24]	stolpern\_set1\_20[24]	latin3[24]	4qae3ph27q5gbjcsrgnltv8qld-stolpern\_set1\_20[24]	_	_	_	_	_	false[167]	Decl[167]	*[298]	*[298]	*[298]	*[298]	*[298]	input2[298]	18[427]	female[427]	4qae3ph27q5gbjcsrgnltv8qld[427]	speaker: YOU[556]	_	_	_	_	_	
+137-4	3259-3261	im	_	GWithout[24]	stolpern\_set1\_20[24]	latin3[24]	4qae3ph27q5gbjcsrgnltv8qld-stolpern\_set1\_20[24]	_	_	_	_	_	false[167]	Decl[167]	*[298]	*[298]	*[298]	*[298]	*[298]	input2[298]	18[427]	female[427]	4qae3ph27q5gbjcsrgnltv8qld[427]	speaker: YOU[556]	*->67-1	DefNP[67]	_	_	_	
+137-5	3262-3273	krankenhaus	_	GWithout[24]	stolpern\_set1\_20[24]	latin3[24]	4qae3ph27q5gbjcsrgnltv8qld-stolpern\_set1\_20[24]	*	*	PrepObj	*	*	false[167]	Decl[167]	*[298]	*[298]	*[298]	*[298]	*[298]	input2[298]	18[427]	female[427]	4qae3ph27q5gbjcsrgnltv8qld[427]	speaker: YOU[556]	*->67-1	DefNP[67]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+138-1	3275-3290	END_OF_DOCUMENT	_	GWithout[24]	stolpern\_set1\_20[24]	latin3[24]	4qae3ph27q5gbjcsrgnltv8qld-stolpern\_set1\_20[24]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+139-1	3292-3296	Hey,	_	GWithout[25]	stolpern\_set1\_20[25]	latin3[25]	f28ipql67ma8cbjqke6k374ach-stolpern\_set1\_20[25]	_	_	_	_	_	false[168]	Int[168]	*[299]	*[299]	*[299]	wh\_6[299]	wh\_question[299]	openq[299]	*[428]	female[428]	*[428]	speaker:Eva[557]	_	_	QAP	*	140-1[169_168]	
+139-2	3297-3300	was	_	GWithout[25]	stolpern\_set1\_20[25]	latin3[25]	f28ipql67ma8cbjqke6k374ach-stolpern\_set1\_20[25]	_	_	_	_	_	false[168]	Int[168]	*[299]	*[299]	*[299]	wh\_6[299]	wh\_question[299]	openq[299]	*[428]	female[428]	*[428]	speaker:Eva[557]	_	_	_	_	_	
+139-3	3301-3306	gibts	_	GWithout[25]	stolpern\_set1\_20[25]	latin3[25]	f28ipql67ma8cbjqke6k374ach-stolpern\_set1\_20[25]	_	_	_	_	_	false[168]	Int[168]	*[299]	*[299]	*[299]	wh\_6[299]	wh\_question[299]	openq[299]	*[428]	female[428]	*[428]	speaker:Eva[557]	_	_	_	_	_	
+139-4	3307-3313	Neues?	_	GWithout[25]	stolpern\_set1\_20[25]	latin3[25]	f28ipql67ma8cbjqke6k374ach-stolpern\_set1\_20[25]	_	_	_	_	_	false[168]	Int[168]	*[299]	*[299]	*[299]	wh\_6[299]	wh\_question[299]	openq[299]	*[428]	female[428]	*[428]	speaker:Eva[557]	_	_	_	_	_	
+
+#Text=Sebastian ist gestolpert
+140-1	3315-3324	Sebastian	_	GWithout[25]	stolpern\_set1\_20[25]	latin3[25]	f28ipql67ma8cbjqke6k374ach-stolpern\_set1\_20[25]	*	*	Subj	*	*	false[169]	Decl[169]	*[300]	stolpern[300]	intransitive[300]	*[300]	*[300]	item0[300]	19[429]	male[429]	f28ipql67ma8cbjqke6k374ach[429]	speaker: YOU[558]	*->68-1	PropNm[68]	explanation	*	142-1[170_169]	
+140-2	3325-3328	ist	_	GWithout[25]	stolpern\_set1\_20[25]	latin3[25]	f28ipql67ma8cbjqke6k374ach-stolpern\_set1\_20[25]	_	_	_	_	_	false[169]	Decl[169]	*[300]	stolpern[300]	intransitive[300]	*[300]	*[300]	item0[300]	19[429]	male[429]	f28ipql67ma8cbjqke6k374ach[429]	speaker: YOU[558]	_	_	_	_	_	
+140-3	3329-3339	gestolpert	_	GWithout[25]	stolpern\_set1\_20[25]	latin3[25]	f28ipql67ma8cbjqke6k374ach-stolpern\_set1\_20[25]	_	_	_	_	_	false[169]	Decl[169]	*[300]	stolpern[300]	intransitive[300]	*[300]	*[300]	item0[300]	19[429]	male[429]	f28ipql67ma8cbjqke6k374ach[429]	speaker: YOU[558]	_	_	_	_	_	
+
+#Text=-
+141-1	3341-3342	-	_	GWithout[25]	stolpern\_set1\_20[25]	latin3[25]	f28ipql67ma8cbjqke6k374ach-stolpern\_set1\_20[25]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Eva	_	_	_	_	_	
+
+#Text=Er war sooo betrunken.
+142-1	3344-3346	Er	_	GWithout[25]	stolpern\_set1\_20[25]	latin3[25]	f28ipql67ma8cbjqke6k374ach-stolpern\_set1\_20[25]	3	*	Subj	*	singular	false[170]	Decl[170]	*[301]	*[301]	*[301]	*[301]	*[301]	input1[301]	19[430]	male[430]	f28ipql67ma8cbjqke6k374ach[430]	speaker: YOU[559]	*->68-2	PerPron[68]	elaboration	*	143-1[171_170]	
+142-2	3347-3350	war	_	GWithout[25]	stolpern\_set1\_20[25]	latin3[25]	f28ipql67ma8cbjqke6k374ach-stolpern\_set1\_20[25]	_	_	_	_	_	false[170]	Decl[170]	*[301]	*[301]	*[301]	*[301]	*[301]	input1[301]	19[430]	male[430]	f28ipql67ma8cbjqke6k374ach[430]	speaker: YOU[559]	_	_	_	_	_	
+142-3	3351-3355	sooo	_	GWithout[25]	stolpern\_set1\_20[25]	latin3[25]	f28ipql67ma8cbjqke6k374ach-stolpern\_set1\_20[25]	_	_	_	_	_	false[170]	Decl[170]	*[301]	*[301]	*[301]	*[301]	*[301]	input1[301]	19[430]	male[430]	f28ipql67ma8cbjqke6k374ach[430]	speaker: YOU[559]	_	_	_	_	_	
+142-4	3356-3366	betrunken.	_	GWithout[25]	stolpern\_set1\_20[25]	latin3[25]	f28ipql67ma8cbjqke6k374ach-stolpern\_set1\_20[25]	_	_	_	_	_	false[170]	Decl[170]	*[301]	*[301]	*[301]	*[301]	*[301]	input1[301]	19[430]	male[430]	f28ipql67ma8cbjqke6k374ach[430]	speaker: YOU[559]	_	_	_	_	_	
+
+#Text=Alkohol ist echt scheiße...
+143-1	3368-3375	Alkohol	_	GWithout[25]	stolpern\_set1\_20[25]	latin3[25]	f28ipql67ma8cbjqke6k374ach-stolpern\_set1\_20[25]	*	*	Subj	*	*	false[171]	Decl[171]	*[302]	*[302]	*[302]	*[302]	*[302]	input2[302]	19[431]	male[431]	f28ipql67ma8cbjqke6k374ach[431]	speaker: YOU[560]	*->42-1	IndefNP[42]	_	_	_	
+143-2	3376-3379	ist	_	GWithout[25]	stolpern\_set1\_20[25]	latin3[25]	f28ipql67ma8cbjqke6k374ach-stolpern\_set1\_20[25]	_	_	_	_	_	false[171]	Decl[171]	*[302]	*[302]	*[302]	*[302]	*[302]	input2[302]	19[431]	male[431]	f28ipql67ma8cbjqke6k374ach[431]	speaker: YOU[560]	_	_	_	_	_	
+143-3	3380-3384	echt	_	GWithout[25]	stolpern\_set1\_20[25]	latin3[25]	f28ipql67ma8cbjqke6k374ach-stolpern\_set1\_20[25]	_	_	_	_	_	false[171]	Decl[171]	*[302]	*[302]	*[302]	*[302]	*[302]	input2[302]	19[431]	male[431]	f28ipql67ma8cbjqke6k374ach[431]	speaker: YOU[560]	_	_	_	_	_	
+143-4	3385-3395	scheiße...	_	GWithout[25]	stolpern\_set1\_20[25]	latin3[25]	f28ipql67ma8cbjqke6k374ach-stolpern\_set1\_20[25]	_	_	_	_	_	false[171]	Decl[171]	*[302]	*[302]	*[302]	*[302]	*[302]	input2[302]	19[431]	male[431]	f28ipql67ma8cbjqke6k374ach[431]	speaker: YOU[560]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+144-1	3397-3412	END_OF_DOCUMENT	_	GWithout[25]	stolpern\_set1\_20[25]	latin3[25]	f28ipql67ma8cbjqke6k374ach-stolpern\_set1\_20[25]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+145-1	3414-3418	Hey,	_	GWithout[26]	stolpern\_set1\_20[26]	latin3[26]	ifdbjqro2nfkup12rv8t6k0eu9-stolpern\_set1\_20[26]	_	_	_	_	_	false[172]	Int[172]	*[303]	*[303]	*[303]	wh\_6[303]	wh\_question[303]	openq[303]	*[432]	female[432]	*[432]	speaker:Eva[561]	_	_	QAP	*	146-1[173_172]	
+145-2	3419-3422	was	_	GWithout[26]	stolpern\_set1\_20[26]	latin3[26]	ifdbjqro2nfkup12rv8t6k0eu9-stolpern\_set1\_20[26]	_	_	_	_	_	false[172]	Int[172]	*[303]	*[303]	*[303]	wh\_6[303]	wh\_question[303]	openq[303]	*[432]	female[432]	*[432]	speaker:Eva[561]	_	_	_	_	_	
+145-3	3423-3428	gibts	_	GWithout[26]	stolpern\_set1\_20[26]	latin3[26]	ifdbjqro2nfkup12rv8t6k0eu9-stolpern\_set1\_20[26]	_	_	_	_	_	false[172]	Int[172]	*[303]	*[303]	*[303]	wh\_6[303]	wh\_question[303]	openq[303]	*[432]	female[432]	*[432]	speaker:Eva[561]	_	_	_	_	_	
+145-4	3429-3435	Neues?	_	GWithout[26]	stolpern\_set1\_20[26]	latin3[26]	ifdbjqro2nfkup12rv8t6k0eu9-stolpern\_set1\_20[26]	_	_	_	_	_	false[172]	Int[172]	*[303]	*[303]	*[303]	wh\_6[303]	wh\_question[303]	openq[303]	*[432]	female[432]	*[432]	speaker:Eva[561]	_	_	_	_	_	
+
+#Text=Sebastian ist gestolpert
+146-1	3437-3446	Sebastian	_	GWithout[26]	stolpern\_set1\_20[26]	latin3[26]	ifdbjqro2nfkup12rv8t6k0eu9-stolpern\_set1\_20[26]	*	*	Subj	*	*	false[173]	Decl[173]	*[304]	stolpern[304]	intransitive[304]	*[304]	*[304]	item0[304]	36[433]	male[433]	ifdbjqro2nfkup12rv8t6k0eu9[433]	speaker: YOU[562]	*->12-1	PropNm[12]	result	*	148-1[174_173]	
+146-2	3447-3450	ist	_	GWithout[26]	stolpern\_set1\_20[26]	latin3[26]	ifdbjqro2nfkup12rv8t6k0eu9-stolpern\_set1\_20[26]	_	_	_	_	_	false[173]	Decl[173]	*[304]	stolpern[304]	intransitive[304]	*[304]	*[304]	item0[304]	36[433]	male[433]	ifdbjqro2nfkup12rv8t6k0eu9[433]	speaker: YOU[562]	_	_	_	_	_	
+146-3	3451-3461	gestolpert	_	GWithout[26]	stolpern\_set1\_20[26]	latin3[26]	ifdbjqro2nfkup12rv8t6k0eu9-stolpern\_set1\_20[26]	_	_	_	_	_	false[173]	Decl[173]	*[304]	stolpern[304]	intransitive[304]	*[304]	*[304]	item0[304]	36[433]	male[433]	ifdbjqro2nfkup12rv8t6k0eu9[433]	speaker: YOU[562]	_	_	_	_	_	
+
+#Text=-
+147-1	3463-3464	-	_	GWithout[26]	stolpern\_set1\_20[26]	latin3[26]	ifdbjqro2nfkup12rv8t6k0eu9-stolpern\_set1\_20[26]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Eva	_	_	_	_	_	
+
+#Text=und hat sich sein Bein gebrochen
+148-1	3466-3469	und	_	GWithout[26]	stolpern\_set1\_20[26]	latin3[26]	ifdbjqro2nfkup12rv8t6k0eu9-stolpern\_set1\_20[26]	_	_	_	_	_	false[174]	Decl[174]	*[305]	*[305]	*[305]	*[305]	*[305]	input1[305]	36[434]	male[434]	ifdbjqro2nfkup12rv8t6k0eu9[434]	speaker: YOU[563]	_	_	result	*	149-1[175_174]	
+148-2	3470-3473	hat	_	GWithout[26]	stolpern\_set1\_20[26]	latin3[26]	ifdbjqro2nfkup12rv8t6k0eu9-stolpern\_set1\_20[26]	3	*	*	*	singular	false[174]	Decl[174]	*[305]	*[305]	*[305]	*[305]	*[305]	input1[305]	36[434]	male[434]	ifdbjqro2nfkup12rv8t6k0eu9[434]	speaker: YOU[563]	*->12-2	zero[12]	_	_	_	
+148-3	3474-3478	sich	_	GWithout[26]	stolpern\_set1\_20[26]	latin3[26]	ifdbjqro2nfkup12rv8t6k0eu9-stolpern\_set1\_20[26]	_	_	_	_	_	false[174]	Decl[174]	*[305]	*[305]	*[305]	*[305]	*[305]	input1[305]	36[434]	male[434]	ifdbjqro2nfkup12rv8t6k0eu9[434]	speaker: YOU[563]	_	_	_	_	_	
+148-4	3479-3483	sein	_	GWithout[26]	stolpern\_set1\_20[26]	latin3[26]	ifdbjqro2nfkup12rv8t6k0eu9-stolpern\_set1\_20[26]	*[53]|3[54]	*[53]|*[54]	DirObj[53]|*[54]	*[53]|*[54]	*[53]|singular[54]	false[174]	Decl[174]	*[305]	*[305]	*[305]	*[305]	*[305]	input1[305]	36[434]	male[434]	ifdbjqro2nfkup12rv8t6k0eu9[434]	speaker: YOU[563]	*->72-1|*->12-3	DefNP[72]|PossePron[12]	_	_	_	
+148-5	3484-3488	Bein	_	GWithout[26]	stolpern\_set1\_20[26]	latin3[26]	ifdbjqro2nfkup12rv8t6k0eu9-stolpern\_set1\_20[26]	*[53]	*[53]	DirObj[53]	*[53]	*[53]	false[174]	Decl[174]	*[305]	*[305]	*[305]	*[305]	*[305]	input1[305]	36[434]	male[434]	ifdbjqro2nfkup12rv8t6k0eu9[434]	speaker: YOU[563]	*->72-1	DefNP[72]	_	_	_	
+148-6	3489-3498	gebrochen	_	GWithout[26]	stolpern\_set1\_20[26]	latin3[26]	ifdbjqro2nfkup12rv8t6k0eu9-stolpern\_set1\_20[26]	_	_	_	_	_	false[174]	Decl[174]	*[305]	*[305]	*[305]	*[305]	*[305]	input1[305]	36[434]	male[434]	ifdbjqro2nfkup12rv8t6k0eu9[434]	speaker: YOU[563]	_	_	_	_	_	
+
+#Text=jetzt ist er außer Gefecht
+149-1	3500-3505	jetzt	_	GWithout[26]	stolpern\_set1\_20[26]	latin3[26]	ifdbjqro2nfkup12rv8t6k0eu9-stolpern\_set1\_20[26]	_	_	_	_	_	false[175]	Decl[175]	*[306]	*[306]	*[306]	*[306]	*[306]	input2[306]	36[435]	male[435]	ifdbjqro2nfkup12rv8t6k0eu9[435]	speaker: YOU[564]	_	_	_	_	_	
+149-2	3506-3509	ist	_	GWithout[26]	stolpern\_set1\_20[26]	latin3[26]	ifdbjqro2nfkup12rv8t6k0eu9-stolpern\_set1\_20[26]	_	_	_	_	_	false[175]	Decl[175]	*[306]	*[306]	*[306]	*[306]	*[306]	input2[306]	36[435]	male[435]	ifdbjqro2nfkup12rv8t6k0eu9[435]	speaker: YOU[564]	_	_	_	_	_	
+149-3	3510-3512	er	_	GWithout[26]	stolpern\_set1\_20[26]	latin3[26]	ifdbjqro2nfkup12rv8t6k0eu9-stolpern\_set1\_20[26]	3	*	Subj	m	singular	false[175]	Decl[175]	*[306]	*[306]	*[306]	*[306]	*[306]	input2[306]	36[435]	male[435]	ifdbjqro2nfkup12rv8t6k0eu9[435]	speaker: YOU[564]	*->12-4	PerPron[12]	_	_	_	
+149-4	3513-3518	außer	_	GWithout[26]	stolpern\_set1\_20[26]	latin3[26]	ifdbjqro2nfkup12rv8t6k0eu9-stolpern\_set1\_20[26]	_	_	_	_	_	false[175]	Decl[175]	*[306]	*[306]	*[306]	*[306]	*[306]	input2[306]	36[435]	male[435]	ifdbjqro2nfkup12rv8t6k0eu9[435]	speaker: YOU[564]	_	_	_	_	_	
+149-5	3519-3526	Gefecht	_	GWithout[26]	stolpern\_set1\_20[26]	latin3[26]	ifdbjqro2nfkup12rv8t6k0eu9-stolpern\_set1\_20[26]	*	*	PrepObj	*	*	false[175]	Decl[175]	*[306]	*[306]	*[306]	*[306]	*[306]	input2[306]	36[435]	male[435]	ifdbjqro2nfkup12rv8t6k0eu9[435]	speaker: YOU[564]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+150-1	3528-3543	END_OF_DOCUMENT	_	GWithout[26]	stolpern\_set1\_20[26]	latin3[26]	ifdbjqro2nfkup12rv8t6k0eu9-stolpern\_set1\_20[26]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+151-1	3545-3549	Hey,	_	GWithout[27]	stolpern\_set1\_20[27]	latin3[27]	nn1fs9jkn62eo9089lo89usbkb-stolpern\_set1\_20[27]	_	_	_	_	_	false[176]	Int[176]	*[307]	*[307]	*[307]	wh\_6[307]	wh\_question[307]	openq[307]	*[436]	female[436]	*[436]	speaker:Eva[565]	_	_	QAP	*	152-1[177_176]	
+151-2	3550-3553	was	_	GWithout[27]	stolpern\_set1\_20[27]	latin3[27]	nn1fs9jkn62eo9089lo89usbkb-stolpern\_set1\_20[27]	_	_	_	_	_	false[176]	Int[176]	*[307]	*[307]	*[307]	wh\_6[307]	wh\_question[307]	openq[307]	*[436]	female[436]	*[436]	speaker:Eva[565]	_	_	_	_	_	
+151-3	3554-3559	gibts	_	GWithout[27]	stolpern\_set1\_20[27]	latin3[27]	nn1fs9jkn62eo9089lo89usbkb-stolpern\_set1\_20[27]	_	_	_	_	_	false[176]	Int[176]	*[307]	*[307]	*[307]	wh\_6[307]	wh\_question[307]	openq[307]	*[436]	female[436]	*[436]	speaker:Eva[565]	_	_	_	_	_	
+151-4	3560-3566	Neues?	_	GWithout[27]	stolpern\_set1\_20[27]	latin3[27]	nn1fs9jkn62eo9089lo89usbkb-stolpern\_set1\_20[27]	_	_	_	_	_	false[176]	Int[176]	*[307]	*[307]	*[307]	wh\_6[307]	wh\_question[307]	openq[307]	*[436]	female[436]	*[436]	speaker:Eva[565]	_	_	_	_	_	
+
+#Text=Sebastian ist gestolpert
+152-1	3568-3577	Sebastian	_	GWithout[27]	stolpern\_set1\_20[27]	latin3[27]	nn1fs9jkn62eo9089lo89usbkb-stolpern\_set1\_20[27]	*	*	Subj	*	*	false[177]	Decl[177]	*[308]	stolpern[308]	intransitive[308]	*[308]	*[308]	item0[308]	27[437]	female[437]	nn1fs9jkn62eo9089lo89usbkb[437]	speaker: YOU[566]	*->29-1	PropNm[29]	result	*	154-1[178_177]	
+152-2	3578-3581	ist	_	GWithout[27]	stolpern\_set1\_20[27]	latin3[27]	nn1fs9jkn62eo9089lo89usbkb-stolpern\_set1\_20[27]	_	_	_	_	_	false[177]	Decl[177]	*[308]	stolpern[308]	intransitive[308]	*[308]	*[308]	item0[308]	27[437]	female[437]	nn1fs9jkn62eo9089lo89usbkb[437]	speaker: YOU[566]	_	_	_	_	_	
+152-3	3582-3592	gestolpert	_	GWithout[27]	stolpern\_set1\_20[27]	latin3[27]	nn1fs9jkn62eo9089lo89usbkb-stolpern\_set1\_20[27]	_	_	_	_	_	false[177]	Decl[177]	*[308]	stolpern[308]	intransitive[308]	*[308]	*[308]	item0[308]	27[437]	female[437]	nn1fs9jkn62eo9089lo89usbkb[437]	speaker: YOU[566]	_	_	_	_	_	
+
+#Text=-
+153-1	3594-3595	-	_	GWithout[27]	stolpern\_set1\_20[27]	latin3[27]	nn1fs9jkn62eo9089lo89usbkb-stolpern\_set1\_20[27]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Eva	_	_	_	_	_	
+
+#Text=Er hat sich am Knie verletzt.
+154-1	3597-3599	Er	_	GWithout[27]	stolpern\_set1\_20[27]	latin3[27]	nn1fs9jkn62eo9089lo89usbkb-stolpern\_set1\_20[27]	3	*	Subj	*	singular	false[178]	Decl[178]	*[309]	*[309]	*[309]	*[309]	*[309]	input1[309]	27[438]	female[438]	nn1fs9jkn62eo9089lo89usbkb[438]	speaker: YOU[567]	*->29-2	PerPron[29]	contrast	*	155-1[179_178]	
+154-2	3600-3603	hat	_	GWithout[27]	stolpern\_set1\_20[27]	latin3[27]	nn1fs9jkn62eo9089lo89usbkb-stolpern\_set1\_20[27]	_	_	_	_	_	false[178]	Decl[178]	*[309]	*[309]	*[309]	*[309]	*[309]	input1[309]	27[438]	female[438]	nn1fs9jkn62eo9089lo89usbkb[438]	speaker: YOU[567]	_	_	_	_	_	
+154-3	3604-3608	sich	_	GWithout[27]	stolpern\_set1\_20[27]	latin3[27]	nn1fs9jkn62eo9089lo89usbkb-stolpern\_set1\_20[27]	_	_	_	_	_	false[178]	Decl[178]	*[309]	*[309]	*[309]	*[309]	*[309]	input1[309]	27[438]	female[438]	nn1fs9jkn62eo9089lo89usbkb[438]	speaker: YOU[567]	_	_	_	_	_	
+154-4	3609-3611	am	_	GWithout[27]	stolpern\_set1\_20[27]	latin3[27]	nn1fs9jkn62eo9089lo89usbkb-stolpern\_set1\_20[27]	_	_	_	_	_	false[178]	Decl[178]	*[309]	*[309]	*[309]	*[309]	*[309]	input1[309]	27[438]	female[438]	nn1fs9jkn62eo9089lo89usbkb[438]	speaker: YOU[567]	*->5-1	DefNP[5]	_	_	_	
+154-5	3612-3616	Knie	_	GWithout[27]	stolpern\_set1\_20[27]	latin3[27]	nn1fs9jkn62eo9089lo89usbkb-stolpern\_set1\_20[27]	*	*	PrepObj	*	*	false[178]	Decl[178]	*[309]	*[309]	*[309]	*[309]	*[309]	input1[309]	27[438]	female[438]	nn1fs9jkn62eo9089lo89usbkb[438]	speaker: YOU[567]	*->5-1	DefNP[5]	_	_	_	
+154-6	3617-3626	verletzt.	_	GWithout[27]	stolpern\_set1\_20[27]	latin3[27]	nn1fs9jkn62eo9089lo89usbkb-stolpern\_set1\_20[27]	_	_	_	_	_	false[178]	Decl[178]	*[309]	*[309]	*[309]	*[309]	*[309]	input1[309]	27[438]	female[438]	nn1fs9jkn62eo9089lo89usbkb[438]	speaker: YOU[567]	_	_	_	_	_	
+
+#Text=Ich glaube es ist aber nur etwas geschwollen und nichts Ernstes.
+155-1	3628-3631	Ich	_	GWithout[27]	stolpern\_set1\_20[27]	latin3[27]	nn1fs9jkn62eo9089lo89usbkb-stolpern\_set1\_20[27]	1	*	Subj	*	singular	false[179]	Decl[179]	*[310]	*[310]	*[310]	*[310]	*[310]	input2[310]	27[439]	female[439]	nn1fs9jkn62eo9089lo89usbkb[439]	speaker: YOU[568]	*->60-1	PerPron[60]	_	_	_	
+155-2	3632-3638	glaube	_	GWithout[27]	stolpern\_set1\_20[27]	latin3[27]	nn1fs9jkn62eo9089lo89usbkb-stolpern\_set1\_20[27]	_	_	_	_	_	false[179]	Decl[179]	*[310]	*[310]	*[310]	*[310]	*[310]	input2[310]	27[439]	female[439]	nn1fs9jkn62eo9089lo89usbkb[439]	speaker: YOU[568]	_	_	_	_	_	
+155-3	3639-3641	es	_	GWithout[27]	stolpern\_set1\_20[27]	latin3[27]	nn1fs9jkn62eo9089lo89usbkb-stolpern\_set1\_20[27]	3	*	Embedded	*	singular	false[179]	Decl[179]	*[310]	*[310]	*[310]	*[310]	*[310]	input2[310]	27[439]	female[439]	nn1fs9jkn62eo9089lo89usbkb[439]	speaker: YOU[568]	*->5-2	PerPron[5]	_	_	_	
+155-4	3642-3645	ist	_	GWithout[27]	stolpern\_set1\_20[27]	latin3[27]	nn1fs9jkn62eo9089lo89usbkb-stolpern\_set1\_20[27]	_	_	_	_	_	false[179]	Decl[179]	*[310]	*[310]	*[310]	*[310]	*[310]	input2[310]	27[439]	female[439]	nn1fs9jkn62eo9089lo89usbkb[439]	speaker: YOU[568]	_	_	_	_	_	
+155-5	3646-3650	aber	_	GWithout[27]	stolpern\_set1\_20[27]	latin3[27]	nn1fs9jkn62eo9089lo89usbkb-stolpern\_set1\_20[27]	_	_	_	_	_	false[179]	Decl[179]	*[310]	*[310]	*[310]	*[310]	*[310]	input2[310]	27[439]	female[439]	nn1fs9jkn62eo9089lo89usbkb[439]	speaker: YOU[568]	_	_	_	_	_	
+155-6	3651-3654	nur	_	GWithout[27]	stolpern\_set1\_20[27]	latin3[27]	nn1fs9jkn62eo9089lo89usbkb-stolpern\_set1\_20[27]	_	_	_	_	_	false[179]	Decl[179]	*[310]	*[310]	*[310]	*[310]	*[310]	input2[310]	27[439]	female[439]	nn1fs9jkn62eo9089lo89usbkb[439]	speaker: YOU[568]	_	_	_	_	_	
+155-7	3655-3660	etwas	_	GWithout[27]	stolpern\_set1\_20[27]	latin3[27]	nn1fs9jkn62eo9089lo89usbkb-stolpern\_set1\_20[27]	*[55]	*[55]	Embedded[55]	*[55]	*[55]	false[179]	Decl[179]	*[310]	*[310]	*[310]	*[310]	*[310]	input2[310]	27[439]	female[439]	nn1fs9jkn62eo9089lo89usbkb[439]	speaker: YOU[568]	_	_	_	_	_	
+155-8	3661-3672	geschwollen	_	GWithout[27]	stolpern\_set1\_20[27]	latin3[27]	nn1fs9jkn62eo9089lo89usbkb-stolpern\_set1\_20[27]	*[55]	*[55]	Embedded[55]	*[55]	*[55]	false[179]	Decl[179]	*[310]	*[310]	*[310]	*[310]	*[310]	input2[310]	27[439]	female[439]	nn1fs9jkn62eo9089lo89usbkb[439]	speaker: YOU[568]	_	_	_	_	_	
+155-9	3673-3676	und	_	GWithout[27]	stolpern\_set1\_20[27]	latin3[27]	nn1fs9jkn62eo9089lo89usbkb-stolpern\_set1\_20[27]	_	_	_	_	_	false[179]	Decl[179]	*[310]	*[310]	*[310]	*[310]	*[310]	input2[310]	27[439]	female[439]	nn1fs9jkn62eo9089lo89usbkb[439]	speaker: YOU[568]	_	_	_	_	_	
+155-10	3677-3683	nichts	_	GWithout[27]	stolpern\_set1\_20[27]	latin3[27]	nn1fs9jkn62eo9089lo89usbkb-stolpern\_set1\_20[27]	_	_	_	_	_	false[179]	Decl[179]	*[310]	*[310]	*[310]	*[310]	*[310]	input2[310]	27[439]	female[439]	nn1fs9jkn62eo9089lo89usbkb[439]	speaker: YOU[568]	_	_	_	_	_	
+155-11	3684-3692	Ernstes.	_	GWithout[27]	stolpern\_set1\_20[27]	latin3[27]	nn1fs9jkn62eo9089lo89usbkb-stolpern\_set1\_20[27]	_	_	_	_	_	false[179]	Decl[179]	*[310]	*[310]	*[310]	*[310]	*[310]	input2[310]	27[439]	female[439]	nn1fs9jkn62eo9089lo89usbkb[439]	speaker: YOU[568]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+156-1	3694-3709	END_OF_DOCUMENT	_	GWithout[27]	stolpern\_set1\_20[27]	latin3[27]	nn1fs9jkn62eo9089lo89usbkb-stolpern\_set1\_20[27]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+157-1	3711-3715	Hey,	_	GWithout[28]	stolpern\_set1\_20[28]	latin3[28]	qaaqp55l485lvs9rdvpvbtmqal-stolpern\_set1\_20[28]	_	_	_	_	_	false[180]	Int[180]	*[311]	*[311]	*[311]	wh\_6[311]	wh\_question[311]	openq[311]	*[440]	female[440]	*[440]	speaker:Eva[569]	_	_	QAP	*	158-1[181_180]	
+157-2	3716-3719	was	_	GWithout[28]	stolpern\_set1\_20[28]	latin3[28]	qaaqp55l485lvs9rdvpvbtmqal-stolpern\_set1\_20[28]	_	_	_	_	_	false[180]	Int[180]	*[311]	*[311]	*[311]	wh\_6[311]	wh\_question[311]	openq[311]	*[440]	female[440]	*[440]	speaker:Eva[569]	_	_	_	_	_	
+157-3	3720-3725	gibts	_	GWithout[28]	stolpern\_set1\_20[28]	latin3[28]	qaaqp55l485lvs9rdvpvbtmqal-stolpern\_set1\_20[28]	_	_	_	_	_	false[180]	Int[180]	*[311]	*[311]	*[311]	wh\_6[311]	wh\_question[311]	openq[311]	*[440]	female[440]	*[440]	speaker:Eva[569]	_	_	_	_	_	
+157-4	3726-3732	Neues?	_	GWithout[28]	stolpern\_set1\_20[28]	latin3[28]	qaaqp55l485lvs9rdvpvbtmqal-stolpern\_set1\_20[28]	_	_	_	_	_	false[180]	Int[180]	*[311]	*[311]	*[311]	wh\_6[311]	wh\_question[311]	openq[311]	*[440]	female[440]	*[440]	speaker:Eva[569]	_	_	_	_	_	
+
+#Text=Sebastian ist gestolpert
+158-1	3734-3743	Sebastian	_	GWithout[28]	stolpern\_set1\_20[28]	latin3[28]	qaaqp55l485lvs9rdvpvbtmqal-stolpern\_set1\_20[28]	*	*	Subj	*	*	false[181]	Decl[181]	*[312]	stolpern[312]	intransitive[312]	*[312]	*[312]	item0[312]	24[441]	male[441]	qaaqp55l485lvs9rdvpvbtmqal[441]	speaker: YOU[570]	*->23-1	PropNm[23]	elaboration|explanation	*|*	160-1[182_181]|161-1[185_181]	
+158-2	3744-3747	ist	_	GWithout[28]	stolpern\_set1\_20[28]	latin3[28]	qaaqp55l485lvs9rdvpvbtmqal-stolpern\_set1\_20[28]	_	_	_	_	_	false[181]	Decl[181]	*[312]	stolpern[312]	intransitive[312]	*[312]	*[312]	item0[312]	24[441]	male[441]	qaaqp55l485lvs9rdvpvbtmqal[441]	speaker: YOU[570]	_	_	_	_	_	
+158-3	3748-3758	gestolpert	_	GWithout[28]	stolpern\_set1\_20[28]	latin3[28]	qaaqp55l485lvs9rdvpvbtmqal-stolpern\_set1\_20[28]	_	_	_	_	_	false[181]	Decl[181]	*[312]	stolpern[312]	intransitive[312]	*[312]	*[312]	item0[312]	24[441]	male[441]	qaaqp55l485lvs9rdvpvbtmqal[441]	speaker: YOU[570]	_	_	_	_	_	
+
+#Text=-
+159-1	3760-3761	-	_	GWithout[28]	stolpern\_set1\_20[28]	latin3[28]	qaaqp55l485lvs9rdvpvbtmqal-stolpern\_set1\_20[28]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Eva	_	_	_	_	_	
+
+#Text=Er war zu Fuß unterwegs als er zu Boden fiel
+160-1	3763-3765	Er	_	GWithout[28]	stolpern\_set1\_20[28]	latin3[28]	qaaqp55l485lvs9rdvpvbtmqal-stolpern\_set1\_20[28]	3	*	Subj	*	singular	true[182]|false[183]	*[182]|Decl[183]	*[313]	*[313]	*[313]	*[313]	*[313]	input1[313]	24[442]	male[442]	qaaqp55l485lvs9rdvpvbtmqal[442]	speaker: YOU[571]	*->23-2	PerPron[23]	narration	*	160-6[184_183]	
+160-2	3766-3769	war	_	GWithout[28]	stolpern\_set1\_20[28]	latin3[28]	qaaqp55l485lvs9rdvpvbtmqal-stolpern\_set1\_20[28]	_	_	_	_	_	true[182]|false[183]	*[182]|Decl[183]	*[313]	*[313]	*[313]	*[313]	*[313]	input1[313]	24[442]	male[442]	qaaqp55l485lvs9rdvpvbtmqal[442]	speaker: YOU[571]	_	_	_	_	_	
+160-3	3770-3772	zu	_	GWithout[28]	stolpern\_set1\_20[28]	latin3[28]	qaaqp55l485lvs9rdvpvbtmqal-stolpern\_set1\_20[28]	_	_	_	_	_	true[182]|false[183]	*[182]|Decl[183]	*[313]	*[313]	*[313]	*[313]	*[313]	input1[313]	24[442]	male[442]	qaaqp55l485lvs9rdvpvbtmqal[442]	speaker: YOU[571]	_	_	_	_	_	
+160-4	3773-3776	Fuß	_	GWithout[28]	stolpern\_set1\_20[28]	latin3[28]	qaaqp55l485lvs9rdvpvbtmqal-stolpern\_set1\_20[28]	*	*	PrepObj	*	*	true[182]|false[183]	*[182]|Decl[183]	*[313]	*[313]	*[313]	*[313]	*[313]	input1[313]	24[442]	male[442]	qaaqp55l485lvs9rdvpvbtmqal[442]	speaker: YOU[571]	_	_	_	_	_	
+160-5	3777-3786	unterwegs	_	GWithout[28]	stolpern\_set1\_20[28]	latin3[28]	qaaqp55l485lvs9rdvpvbtmqal-stolpern\_set1\_20[28]	_	_	_	_	_	true[182]|false[183]	*[182]|Decl[183]	*[313]	*[313]	*[313]	*[313]	*[313]	input1[313]	24[442]	male[442]	qaaqp55l485lvs9rdvpvbtmqal[442]	speaker: YOU[571]	_	_	_	_	_	
+160-6	3787-3790	als	_	GWithout[28]	stolpern\_set1\_20[28]	latin3[28]	qaaqp55l485lvs9rdvpvbtmqal-stolpern\_set1\_20[28]	_	_	_	_	_	true[182]|false[184]	*[182]|NA[184]	*[313]	*[313]	*[313]	*[313]	*[313]	input1[313]	24[442]	male[442]	qaaqp55l485lvs9rdvpvbtmqal[442]	speaker: YOU[571]	_	_	_	_	_	
+160-7	3791-3793	er	_	GWithout[28]	stolpern\_set1\_20[28]	latin3[28]	qaaqp55l485lvs9rdvpvbtmqal-stolpern\_set1\_20[28]	3	*	Subj	*	singular	true[182]|false[184]	*[182]|NA[184]	*[313]	*[313]	*[313]	*[313]	*[313]	input1[313]	24[442]	male[442]	qaaqp55l485lvs9rdvpvbtmqal[442]	speaker: YOU[571]	_	_	_	_	_	
+160-8	3794-3796	zu	_	GWithout[28]	stolpern\_set1\_20[28]	latin3[28]	qaaqp55l485lvs9rdvpvbtmqal-stolpern\_set1\_20[28]	_	_	_	_	_	true[182]|false[184]	*[182]|NA[184]	*[313]	*[313]	*[313]	*[313]	*[313]	input1[313]	24[442]	male[442]	qaaqp55l485lvs9rdvpvbtmqal[442]	speaker: YOU[571]	_	_	_	_	_	
+160-9	3797-3802	Boden	_	GWithout[28]	stolpern\_set1\_20[28]	latin3[28]	qaaqp55l485lvs9rdvpvbtmqal-stolpern\_set1\_20[28]	*	*	PrepObj	*	*	true[182]|false[184]	*[182]|NA[184]	*[313]	*[313]	*[313]	*[313]	*[313]	input1[313]	24[442]	male[442]	qaaqp55l485lvs9rdvpvbtmqal[442]	speaker: YOU[571]	_	_	_	_	_	
+160-10	3803-3807	fiel	_	GWithout[28]	stolpern\_set1\_20[28]	latin3[28]	qaaqp55l485lvs9rdvpvbtmqal-stolpern\_set1\_20[28]	_	_	_	_	_	true[182]|false[184]	*[182]|NA[184]	*[313]	*[313]	*[313]	*[313]	*[313]	input1[313]	24[442]	male[442]	qaaqp55l485lvs9rdvpvbtmqal[442]	speaker: YOU[571]	_	_	_	_	_	
+
+#Text=Lana sagt <BR> dass er auf sein Handy starrte
+161-1	3809-3813	Lana	_	GWithout[28]	stolpern\_set1\_20[28]	latin3[28]	qaaqp55l485lvs9rdvpvbtmqal-stolpern\_set1\_20[28]	*	*	Subj	*	*	false[185]	Decl[185]	*[314]	*[314]	*[314]	*[314]	*[314]	input2[314]	24[443]	male[443]	qaaqp55l485lvs9rdvpvbtmqal[443]	speaker: YOU[572]	*->1-1	PropNm[1]	_	_	_	
+161-2	3814-3818	sagt	_	GWithout[28]	stolpern\_set1\_20[28]	latin3[28]	qaaqp55l485lvs9rdvpvbtmqal-stolpern\_set1\_20[28]	_	_	_	_	_	false[185]	Decl[185]	*[314]	*[314]	*[314]	*[314]	*[314]	input2[314]	24[443]	male[443]	qaaqp55l485lvs9rdvpvbtmqal[443]	speaker: YOU[572]	_	_	_	_	_	
+161-3	3819-3823	<BR>	_	GWithout[28]	stolpern\_set1\_20[28]	latin3[28]	qaaqp55l485lvs9rdvpvbtmqal-stolpern\_set1\_20[28]	_	_	_	_	_	false[185]	Decl[185]	*[314]	*[314]	*[314]	*[314]	*[314]	input2[314]	24[443]	male[443]	qaaqp55l485lvs9rdvpvbtmqal[443]	speaker: YOU[572]	_	_	_	_	_	
+161-4	3824-3828	dass	_	GWithout[28]	stolpern\_set1\_20[28]	latin3[28]	qaaqp55l485lvs9rdvpvbtmqal-stolpern\_set1\_20[28]	_	_	_	_	_	false[185]	Decl[185]	*[314]	*[314]	*[314]	*[314]	*[314]	input2[314]	24[443]	male[443]	qaaqp55l485lvs9rdvpvbtmqal[443]	speaker: YOU[572]	_	_	_	_	_	
+161-5	3829-3831	er	_	GWithout[28]	stolpern\_set1\_20[28]	latin3[28]	qaaqp55l485lvs9rdvpvbtmqal-stolpern\_set1\_20[28]	3	*	Embedded	*	singular	false[185]	Decl[185]	*[314]	*[314]	*[314]	*[314]	*[314]	input2[314]	24[443]	male[443]	qaaqp55l485lvs9rdvpvbtmqal[443]	speaker: YOU[572]	*->23-3	PerPron[23]	_	_	_	
+161-6	3832-3835	auf	_	GWithout[28]	stolpern\_set1\_20[28]	latin3[28]	qaaqp55l485lvs9rdvpvbtmqal-stolpern\_set1\_20[28]	_	_	_	_	_	false[185]	Decl[185]	*[314]	*[314]	*[314]	*[314]	*[314]	input2[314]	24[443]	male[443]	qaaqp55l485lvs9rdvpvbtmqal[443]	speaker: YOU[572]	_	_	_	_	_	
+161-7	3836-3840	sein	_	GWithout[28]	stolpern\_set1\_20[28]	latin3[28]	qaaqp55l485lvs9rdvpvbtmqal-stolpern\_set1\_20[28]	*[56]|3[57]	*[56]|*[57]	Embedded[56]|*[57]	*[56]|*[57]	*[56]|singular[57]	false[185]	Decl[185]	*[314]	*[314]	*[314]	*[314]	*[314]	input2[314]	24[443]	male[443]	qaaqp55l485lvs9rdvpvbtmqal[443]	speaker: YOU[572]	*->11-1|*->23-4	DefNP[11]|PossePron[23]	_	_	_	
+161-8	3841-3846	Handy	_	GWithout[28]	stolpern\_set1\_20[28]	latin3[28]	qaaqp55l485lvs9rdvpvbtmqal-stolpern\_set1\_20[28]	*[56]	*[56]	Embedded[56]	*[56]	*[56]	false[185]	Decl[185]	*[314]	*[314]	*[314]	*[314]	*[314]	input2[314]	24[443]	male[443]	qaaqp55l485lvs9rdvpvbtmqal[443]	speaker: YOU[572]	*->11-1	DefNP[11]	_	_	_	
+161-9	3847-3854	starrte	_	GWithout[28]	stolpern\_set1\_20[28]	latin3[28]	qaaqp55l485lvs9rdvpvbtmqal-stolpern\_set1\_20[28]	_	_	_	_	_	false[185]	Decl[185]	*[314]	*[314]	*[314]	*[314]	*[314]	input2[314]	24[443]	male[443]	qaaqp55l485lvs9rdvpvbtmqal[443]	speaker: YOU[572]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+162-1	3856-3871	END_OF_DOCUMENT	_	GWithout[28]	stolpern\_set1\_20[28]	latin3[28]	qaaqp55l485lvs9rdvpvbtmqal-stolpern\_set1\_20[28]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+163-1	3873-3877	Hey,	_	GWithout[29]	stolpern\_set1\_20[29]	latin3[29]	t6ah1r7hfmcncb44kgnh0sjmv6-stolpern\_set1\_20[29]	_	_	_	_	_	false[186]	Int[186]	*[315]	*[315]	*[315]	wh\_6[315]	wh\_question[315]	openq[315]	*[444]	female[444]	*[444]	speaker:Eva[573]	_	_	QAP	*	164-1[187_186]	
+163-2	3878-3881	was	_	GWithout[29]	stolpern\_set1\_20[29]	latin3[29]	t6ah1r7hfmcncb44kgnh0sjmv6-stolpern\_set1\_20[29]	_	_	_	_	_	false[186]	Int[186]	*[315]	*[315]	*[315]	wh\_6[315]	wh\_question[315]	openq[315]	*[444]	female[444]	*[444]	speaker:Eva[573]	_	_	_	_	_	
+163-3	3882-3887	gibts	_	GWithout[29]	stolpern\_set1\_20[29]	latin3[29]	t6ah1r7hfmcncb44kgnh0sjmv6-stolpern\_set1\_20[29]	_	_	_	_	_	false[186]	Int[186]	*[315]	*[315]	*[315]	wh\_6[315]	wh\_question[315]	openq[315]	*[444]	female[444]	*[444]	speaker:Eva[573]	_	_	_	_	_	
+163-4	3888-3894	Neues?	_	GWithout[29]	stolpern\_set1\_20[29]	latin3[29]	t6ah1r7hfmcncb44kgnh0sjmv6-stolpern\_set1\_20[29]	_	_	_	_	_	false[186]	Int[186]	*[315]	*[315]	*[315]	wh\_6[315]	wh\_question[315]	openq[315]	*[444]	female[444]	*[444]	speaker:Eva[573]	_	_	_	_	_	
+
+#Text=Sebastian ist gestolpert
+164-1	3896-3905	Sebastian	_	GWithout[29]	stolpern\_set1\_20[29]	latin3[29]	t6ah1r7hfmcncb44kgnh0sjmv6-stolpern\_set1\_20[29]	*	*	Subj	*	*	false[187]	Decl[187]	*[316]	stolpern[316]	intransitive[316]	*[316]	*[316]	item0[316]	25[445]	female[445]	t6ah1r7hfmcncb44kgnh0sjmv6[445]	speaker: YOU[574]	*->49-1	PropNm[49]	result	*	166-1[188_187]	
+164-2	3906-3909	ist	_	GWithout[29]	stolpern\_set1\_20[29]	latin3[29]	t6ah1r7hfmcncb44kgnh0sjmv6-stolpern\_set1\_20[29]	_	_	_	_	_	false[187]	Decl[187]	*[316]	stolpern[316]	intransitive[316]	*[316]	*[316]	item0[316]	25[445]	female[445]	t6ah1r7hfmcncb44kgnh0sjmv6[445]	speaker: YOU[574]	_	_	_	_	_	
+164-3	3910-3920	gestolpert	_	GWithout[29]	stolpern\_set1\_20[29]	latin3[29]	t6ah1r7hfmcncb44kgnh0sjmv6-stolpern\_set1\_20[29]	_	_	_	_	_	false[187]	Decl[187]	*[316]	stolpern[316]	intransitive[316]	*[316]	*[316]	item0[316]	25[445]	female[445]	t6ah1r7hfmcncb44kgnh0sjmv6[445]	speaker: YOU[574]	_	_	_	_	_	
+
+#Text=-
+165-1	3922-3923	-	_	GWithout[29]	stolpern\_set1\_20[29]	latin3[29]	t6ah1r7hfmcncb44kgnh0sjmv6-stolpern\_set1\_20[29]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Eva	_	_	_	_	_	
+
+#Text=Er glaubt er hat sich den Knöchel verstaucht
+166-1	3925-3927	Er	_	GWithout[29]	stolpern\_set1\_20[29]	latin3[29]	t6ah1r7hfmcncb44kgnh0sjmv6-stolpern\_set1\_20[29]	3	*	Subj	*	singular	false[188]	Decl[188]	*[317]	*[317]	*[317]	*[317]	*[317]	input1[317]	25[446]	female[446]	t6ah1r7hfmcncb44kgnh0sjmv6[446]	speaker: YOU[575]	*->49-2	PerPron[49]	contrast	*	167-1[189_188]	
+166-2	3928-3934	glaubt	_	GWithout[29]	stolpern\_set1\_20[29]	latin3[29]	t6ah1r7hfmcncb44kgnh0sjmv6-stolpern\_set1\_20[29]	_	_	_	_	_	false[188]	Decl[188]	*[317]	*[317]	*[317]	*[317]	*[317]	input1[317]	25[446]	female[446]	t6ah1r7hfmcncb44kgnh0sjmv6[446]	speaker: YOU[575]	_	_	_	_	_	
+166-3	3935-3937	er	_	GWithout[29]	stolpern\_set1\_20[29]	latin3[29]	t6ah1r7hfmcncb44kgnh0sjmv6-stolpern\_set1\_20[29]	3	*	Embedded	*	singular	false[188]	Decl[188]	*[317]	*[317]	*[317]	*[317]	*[317]	input1[317]	25[446]	female[446]	t6ah1r7hfmcncb44kgnh0sjmv6[446]	speaker: YOU[575]	*->49-3	PerPron[49]	_	_	_	
+166-4	3938-3941	hat	_	GWithout[29]	stolpern\_set1\_20[29]	latin3[29]	t6ah1r7hfmcncb44kgnh0sjmv6-stolpern\_set1\_20[29]	_	_	_	_	_	false[188]	Decl[188]	*[317]	*[317]	*[317]	*[317]	*[317]	input1[317]	25[446]	female[446]	t6ah1r7hfmcncb44kgnh0sjmv6[446]	speaker: YOU[575]	_	_	_	_	_	
+166-5	3942-3946	sich	_	GWithout[29]	stolpern\_set1\_20[29]	latin3[29]	t6ah1r7hfmcncb44kgnh0sjmv6-stolpern\_set1\_20[29]	_	_	_	_	_	false[188]	Decl[188]	*[317]	*[317]	*[317]	*[317]	*[317]	input1[317]	25[446]	female[446]	t6ah1r7hfmcncb44kgnh0sjmv6[446]	speaker: YOU[575]	_	_	_	_	_	
+166-6	3947-3950	den	_	GWithout[29]	stolpern\_set1\_20[29]	latin3[29]	t6ah1r7hfmcncb44kgnh0sjmv6-stolpern\_set1\_20[29]	*[58]	*[58]	Embedded[58]	*[58]	*[58]	false[188]	Decl[188]	*[317]	*[317]	*[317]	*[317]	*[317]	input1[317]	25[446]	female[446]	t6ah1r7hfmcncb44kgnh0sjmv6[446]	speaker: YOU[575]	*->69-1	DefNP[69]	_	_	_	
+166-7	3951-3958	Knöchel	_	GWithout[29]	stolpern\_set1\_20[29]	latin3[29]	t6ah1r7hfmcncb44kgnh0sjmv6-stolpern\_set1\_20[29]	*[58]	*[58]	Embedded[58]	*[58]	*[58]	false[188]	Decl[188]	*[317]	*[317]	*[317]	*[317]	*[317]	input1[317]	25[446]	female[446]	t6ah1r7hfmcncb44kgnh0sjmv6[446]	speaker: YOU[575]	*->69-1	DefNP[69]	_	_	_	
+166-8	3959-3969	verstaucht	_	GWithout[29]	stolpern\_set1\_20[29]	latin3[29]	t6ah1r7hfmcncb44kgnh0sjmv6-stolpern\_set1\_20[29]	_	_	_	_	_	false[188]	Decl[188]	*[317]	*[317]	*[317]	*[317]	*[317]	input1[317]	25[446]	female[446]	t6ah1r7hfmcncb44kgnh0sjmv6[446]	speaker: YOU[575]	_	_	_	_	_	
+
+#Text=Ich glaube er übertreibt
+167-1	3971-3974	Ich	_	GWithout[29]	stolpern\_set1\_20[29]	latin3[29]	t6ah1r7hfmcncb44kgnh0sjmv6-stolpern\_set1\_20[29]	1	*	Subj	*	singular	false[189]	Decl[189]	*[318]	*[318]	*[318]	*[318]	*[318]	input2[318]	25[447]	female[447]	t6ah1r7hfmcncb44kgnh0sjmv6[447]	speaker: YOU[576]	*->62-1	PerPron[62]	_	_	_	
+167-2	3975-3981	glaube	_	GWithout[29]	stolpern\_set1\_20[29]	latin3[29]	t6ah1r7hfmcncb44kgnh0sjmv6-stolpern\_set1\_20[29]	_	_	_	_	_	false[189]	Decl[189]	*[318]	*[318]	*[318]	*[318]	*[318]	input2[318]	25[447]	female[447]	t6ah1r7hfmcncb44kgnh0sjmv6[447]	speaker: YOU[576]	_	_	_	_	_	
+167-3	3982-3984	er	_	GWithout[29]	stolpern\_set1\_20[29]	latin3[29]	t6ah1r7hfmcncb44kgnh0sjmv6-stolpern\_set1\_20[29]	3	*	Embedded	*	singular	false[189]	Decl[189]	*[318]	*[318]	*[318]	*[318]	*[318]	input2[318]	25[447]	female[447]	t6ah1r7hfmcncb44kgnh0sjmv6[447]	speaker: YOU[576]	*->49-4	PerPron[49]	_	_	_	
+167-4	3985-3995	übertreibt	_	GWithout[29]	stolpern\_set1\_20[29]	latin3[29]	t6ah1r7hfmcncb44kgnh0sjmv6-stolpern\_set1\_20[29]	_	_	_	_	_	false[189]	Decl[189]	*[318]	*[318]	*[318]	*[318]	*[318]	input2[318]	25[447]	female[447]	t6ah1r7hfmcncb44kgnh0sjmv6[447]	speaker: YOU[576]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+168-1	3997-4012	END_OF_DOCUMENT	_	GWithout[29]	stolpern\_set1\_20[29]	latin3[29]	t6ah1r7hfmcncb44kgnh0sjmv6-stolpern\_set1\_20[29]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+169-1	4014-4018	Hey,	_	GWithout[30]	stolpern\_set1\_20[30]	latin3[30]	ue2vk0ts1hkpki58vsa3j8t39j-stolpern\_set1\_20[30]	_	_	_	_	_	false[190]	Int[190]	*[319]	*[319]	*[319]	wh\_6[319]	wh\_question[319]	openq[319]	*[448]	female[448]	*[448]	speaker:Eva[577]	_	_	QAP	*	170-1[191_190]	
+169-2	4019-4022	was	_	GWithout[30]	stolpern\_set1\_20[30]	latin3[30]	ue2vk0ts1hkpki58vsa3j8t39j-stolpern\_set1\_20[30]	_	_	_	_	_	false[190]	Int[190]	*[319]	*[319]	*[319]	wh\_6[319]	wh\_question[319]	openq[319]	*[448]	female[448]	*[448]	speaker:Eva[577]	_	_	_	_	_	
+169-3	4023-4028	gibts	_	GWithout[30]	stolpern\_set1\_20[30]	latin3[30]	ue2vk0ts1hkpki58vsa3j8t39j-stolpern\_set1\_20[30]	_	_	_	_	_	false[190]	Int[190]	*[319]	*[319]	*[319]	wh\_6[319]	wh\_question[319]	openq[319]	*[448]	female[448]	*[448]	speaker:Eva[577]	_	_	_	_	_	
+169-4	4029-4035	Neues?	_	GWithout[30]	stolpern\_set1\_20[30]	latin3[30]	ue2vk0ts1hkpki58vsa3j8t39j-stolpern\_set1\_20[30]	_	_	_	_	_	false[190]	Int[190]	*[319]	*[319]	*[319]	wh\_6[319]	wh\_question[319]	openq[319]	*[448]	female[448]	*[448]	speaker:Eva[577]	_	_	_	_	_	
+
+#Text=Sebastian ist gestolpert
+170-1	4037-4046	Sebastian	_	GWithout[30]	stolpern\_set1\_20[30]	latin3[30]	ue2vk0ts1hkpki58vsa3j8t39j-stolpern\_set1\_20[30]	*	*	Subj	*	*	false[191]	Decl[191]	*[320]	stolpern[320]	intransitive[320]	*[320]	*[320]	item0[320]	29[449]	female[449]	ue2vk0ts1hkpki58vsa3j8t39j[449]	speaker: YOU[578]	*->9-1	PropNm[9]	contrast	*	172-1[192_191]	
+170-2	4047-4050	ist	_	GWithout[30]	stolpern\_set1\_20[30]	latin3[30]	ue2vk0ts1hkpki58vsa3j8t39j-stolpern\_set1\_20[30]	_	_	_	_	_	false[191]	Decl[191]	*[320]	stolpern[320]	intransitive[320]	*[320]	*[320]	item0[320]	29[449]	female[449]	ue2vk0ts1hkpki58vsa3j8t39j[449]	speaker: YOU[578]	_	_	_	_	_	
+170-3	4051-4061	gestolpert	_	GWithout[30]	stolpern\_set1\_20[30]	latin3[30]	ue2vk0ts1hkpki58vsa3j8t39j-stolpern\_set1\_20[30]	_	_	_	_	_	false[191]	Decl[191]	*[320]	stolpern[320]	intransitive[320]	*[320]	*[320]	item0[320]	29[449]	female[449]	ue2vk0ts1hkpki58vsa3j8t39j[449]	speaker: YOU[578]	_	_	_	_	_	
+
+#Text=-
+171-1	4063-4064	-	_	GWithout[30]	stolpern\_set1\_20[30]	latin3[30]	ue2vk0ts1hkpki58vsa3j8t39j-stolpern\_set1\_20[30]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Eva	_	_	_	_	_	
+
+#Text=Aber ihm ist nicht passiert.
+172-1	4066-4070	Aber	_	GWithout[30]	stolpern\_set1\_20[30]	latin3[30]	ue2vk0ts1hkpki58vsa3j8t39j-stolpern\_set1\_20[30]	_	_	_	_	_	false[192]	Decl[192]	*[321]	*[321]	*[321]	*[321]	*[321]	input1[321]	29[450]	female[450]	ue2vk0ts1hkpki58vsa3j8t39j[450]	speaker: YOU[579]	_	_	elaboration	*	173-1[193_192]	
+172-2	4071-4074	ihm	_	GWithout[30]	stolpern\_set1\_20[30]	latin3[30]	ue2vk0ts1hkpki58vsa3j8t39j-stolpern\_set1\_20[30]	3	*	IndirObj	*	singular	false[192]	Decl[192]	*[321]	*[321]	*[321]	*[321]	*[321]	input1[321]	29[450]	female[450]	ue2vk0ts1hkpki58vsa3j8t39j[450]	speaker: YOU[579]	*->9-2	PerPron[9]	_	_	_	
+172-3	4075-4078	ist	_	GWithout[30]	stolpern\_set1\_20[30]	latin3[30]	ue2vk0ts1hkpki58vsa3j8t39j-stolpern\_set1\_20[30]	_	_	_	_	_	false[192]	Decl[192]	*[321]	*[321]	*[321]	*[321]	*[321]	input1[321]	29[450]	female[450]	ue2vk0ts1hkpki58vsa3j8t39j[450]	speaker: YOU[579]	_	_	_	_	_	
+172-4	4079-4084	nicht	_	GWithout[30]	stolpern\_set1\_20[30]	latin3[30]	ue2vk0ts1hkpki58vsa3j8t39j-stolpern\_set1\_20[30]	_	_	_	_	_	false[192]	Decl[192]	*[321]	*[321]	*[321]	*[321]	*[321]	input1[321]	29[450]	female[450]	ue2vk0ts1hkpki58vsa3j8t39j[450]	speaker: YOU[579]	_	_	_	_	_	
+172-5	4085-4094	passiert.	_	GWithout[30]	stolpern\_set1\_20[30]	latin3[30]	ue2vk0ts1hkpki58vsa3j8t39j-stolpern\_set1\_20[30]	_	_	_	_	_	false[192]	Decl[192]	*[321]	*[321]	*[321]	*[321]	*[321]	input1[321]	29[450]	female[450]	ue2vk0ts1hkpki58vsa3j8t39j[450]	speaker: YOU[579]	_	_	_	_	_	
+
+#Text=Er hat nur einen blauen Fleck.
+173-1	4096-4098	Er	_	GWithout[30]	stolpern\_set1\_20[30]	latin3[30]	ue2vk0ts1hkpki58vsa3j8t39j-stolpern\_set1\_20[30]	3	*	Subj	*	singular	false[193]	Decl[193]	*[322]	*[322]	*[322]	*[322]	*[322]	input2[322]	29[451]	female[451]	ue2vk0ts1hkpki58vsa3j8t39j[451]	speaker: YOU[580]	*->9-3	PerPron[9]	_	_	_	
+173-2	4099-4102	hat	_	GWithout[30]	stolpern\_set1\_20[30]	latin3[30]	ue2vk0ts1hkpki58vsa3j8t39j-stolpern\_set1\_20[30]	_	_	_	_	_	false[193]	Decl[193]	*[322]	*[322]	*[322]	*[322]	*[322]	input2[322]	29[451]	female[451]	ue2vk0ts1hkpki58vsa3j8t39j[451]	speaker: YOU[580]	_	_	_	_	_	
+173-3	4103-4106	nur	_	GWithout[30]	stolpern\_set1\_20[30]	latin3[30]	ue2vk0ts1hkpki58vsa3j8t39j-stolpern\_set1\_20[30]	_	_	_	_	_	false[193]	Decl[193]	*[322]	*[322]	*[322]	*[322]	*[322]	input2[322]	29[451]	female[451]	ue2vk0ts1hkpki58vsa3j8t39j[451]	speaker: YOU[580]	_	_	_	_	_	
+173-4	4107-4112	einen	_	GWithout[30]	stolpern\_set1\_20[30]	latin3[30]	ue2vk0ts1hkpki58vsa3j8t39j-stolpern\_set1\_20[30]	*[59]	*[59]	DirObj[59]	*[59]	*[59]	false[193]	Decl[193]	*[322]	*[322]	*[322]	*[322]	*[322]	input2[322]	29[451]	female[451]	ue2vk0ts1hkpki58vsa3j8t39j[451]	speaker: YOU[580]	*->77-1	IndefNP[77]	_	_	_	
+173-5	4113-4119	blauen	_	GWithout[30]	stolpern\_set1\_20[30]	latin3[30]	ue2vk0ts1hkpki58vsa3j8t39j-stolpern\_set1\_20[30]	*[59]	*[59]	DirObj[59]	*[59]	*[59]	false[193]	Decl[193]	*[322]	*[322]	*[322]	*[322]	*[322]	input2[322]	29[451]	female[451]	ue2vk0ts1hkpki58vsa3j8t39j[451]	speaker: YOU[580]	*->77-1	IndefNP[77]	_	_	_	
+173-6	4120-4126	Fleck.	_	GWithout[30]	stolpern\_set1\_20[30]	latin3[30]	ue2vk0ts1hkpki58vsa3j8t39j-stolpern\_set1\_20[30]	*[59]	*[59]	DirObj[59]	*[59]	*[59]	false[193]	Decl[193]	*[322]	*[322]	*[322]	*[322]	*[322]	input2[322]	29[451]	female[451]	ue2vk0ts1hkpki58vsa3j8t39j[451]	speaker: YOU[580]	*->77-1	IndefNP[77]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+174-1	4128-4143	END_OF_DOCUMENT	_	GWithout[30]	stolpern\_set1\_20[30]	latin3[30]	ue2vk0ts1hkpki58vsa3j8t39j-stolpern\_set1\_20[30]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+175-1	4145-4149	Hey,	_	GWithout[31]	stolpern\_set1\_20[31]	latin3[31]	v3le8i0hm1ekj0ps9oou7k56t5-stolpern\_set1\_20[31]	_	_	_	_	_	false[194]	Int[194]	*[323]	*[323]	*[323]	wh\_6[323]	wh\_question[323]	openq[323]	*[452]	female[452]	*[452]	speaker:Eva[581]	_	_	QAP	*	176-1[195_194]	
+175-2	4150-4153	was	_	GWithout[31]	stolpern\_set1\_20[31]	latin3[31]	v3le8i0hm1ekj0ps9oou7k56t5-stolpern\_set1\_20[31]	_	_	_	_	_	false[194]	Int[194]	*[323]	*[323]	*[323]	wh\_6[323]	wh\_question[323]	openq[323]	*[452]	female[452]	*[452]	speaker:Eva[581]	_	_	_	_	_	
+175-3	4154-4159	gibts	_	GWithout[31]	stolpern\_set1\_20[31]	latin3[31]	v3le8i0hm1ekj0ps9oou7k56t5-stolpern\_set1\_20[31]	_	_	_	_	_	false[194]	Int[194]	*[323]	*[323]	*[323]	wh\_6[323]	wh\_question[323]	openq[323]	*[452]	female[452]	*[452]	speaker:Eva[581]	_	_	_	_	_	
+175-4	4160-4166	Neues?	_	GWithout[31]	stolpern\_set1\_20[31]	latin3[31]	v3le8i0hm1ekj0ps9oou7k56t5-stolpern\_set1\_20[31]	_	_	_	_	_	false[194]	Int[194]	*[323]	*[323]	*[323]	wh\_6[323]	wh\_question[323]	openq[323]	*[452]	female[452]	*[452]	speaker:Eva[581]	_	_	_	_	_	
+
+#Text=Sebastian ist gestolpert
+176-1	4168-4177	Sebastian	_	GWithout[31]	stolpern\_set1\_20[31]	latin3[31]	v3le8i0hm1ekj0ps9oou7k56t5-stolpern\_set1\_20[31]	*	*	Subj	*	*	false[195]	Decl[195]	*[324]	stolpern[324]	intransitive[324]	*[324]	*[324]	item0[324]	58[453]	male[453]	v3le8i0hm1ekj0ps9oou7k56t5[453]	speaker: YOU[582]	*->10-1	PropNm[10]	_	_	_	
+176-2	4178-4181	ist	_	GWithout[31]	stolpern\_set1\_20[31]	latin3[31]	v3le8i0hm1ekj0ps9oou7k56t5-stolpern\_set1\_20[31]	_	_	_	_	_	false[195]	Decl[195]	*[324]	stolpern[324]	intransitive[324]	*[324]	*[324]	item0[324]	58[453]	male[453]	v3le8i0hm1ekj0ps9oou7k56t5[453]	speaker: YOU[582]	_	_	_	_	_	
+176-3	4182-4192	gestolpert	_	GWithout[31]	stolpern\_set1\_20[31]	latin3[31]	v3le8i0hm1ekj0ps9oou7k56t5-stolpern\_set1\_20[31]	_	_	_	_	_	false[195]	Decl[195]	*[324]	stolpern[324]	intransitive[324]	*[324]	*[324]	item0[324]	58[453]	male[453]	v3le8i0hm1ekj0ps9oou7k56t5[453]	speaker: YOU[582]	_	_	_	_	_	
+
+#Text=-
+177-1	4194-4195	-	_	GWithout[31]	stolpern\_set1\_20[31]	latin3[31]	v3le8i0hm1ekj0ps9oou7k56t5-stolpern\_set1\_20[31]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Eva	*->45-1	clause[45]	_	_	_	
+
+#Text=ist das textürdig
+178-1	4197-4200	ist	MetaCommentError[1]	GWithout[31]	stolpern\_set1\_20[31]	latin3[31]	v3le8i0hm1ekj0ps9oou7k56t5-stolpern\_set1\_20[31]	_	_	_	_	_	false[196]	Int[196]	*[325]	*[325]	*[325]	*[325]	*[325]	input1[325]	58[454]	male[454]	v3le8i0hm1ekj0ps9oou7k56t5[454]	speaker: YOU[583]	_	_	_	_	_	
+178-2	4201-4204	das	MetaCommentError[1]	GWithout[31]	stolpern\_set1\_20[31]	latin3[31]	v3le8i0hm1ekj0ps9oou7k56t5-stolpern\_set1\_20[31]	*	*	Subj	*	*	false[196]	Int[196]	*[325]	*[325]	*[325]	*[325]	*[325]	input1[325]	58[454]	male[454]	v3le8i0hm1ekj0ps9oou7k56t5[454]	speaker: YOU[583]	*->45-2	D-Pron[45]	_	_	_	
+178-3	4205-4214	textürdig	MetaCommentError[1]	GWithout[31]	stolpern\_set1\_20[31]	latin3[31]	v3le8i0hm1ekj0ps9oou7k56t5-stolpern\_set1\_20[31]	_	_	_	_	_	false[196]	Int[196]	*[325]	*[325]	*[325]	*[325]	*[325]	input1[325]	58[454]	male[454]	v3le8i0hm1ekj0ps9oou7k56t5[454]	speaker: YOU[583]	_	_	_	_	_	
+
+#Text=wirklich?
+179-1	4216-4225	wirklich?	MetaCommentError	GWithout[31]	stolpern\_set1\_20[31]	latin3[31]	v3le8i0hm1ekj0ps9oou7k56t5-stolpern\_set1\_20[31]	_	_	_	_	_	false	Int	*	*	*	*	*	input2	58	male	v3le8i0hm1ekj0ps9oou7k56t5	speaker: YOU	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+180-1	4227-4242	END_OF_DOCUMENT	_	GWithout[31]	stolpern\_set1\_20[31]	latin3[31]	v3le8i0hm1ekj0ps9oou7k56t5-stolpern\_set1\_20[31]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	

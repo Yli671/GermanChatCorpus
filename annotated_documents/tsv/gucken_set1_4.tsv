@@ -1,0 +1,1052 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Item_info|condition|item_id|latinsqr_list|unique_id
+#T_SP=webanno.custom.Ref_info|PersonalPronouns_detailed|ref_def|ref_function|ref_gender|ref_num
+#T_SP=webanno.custom.Segment|complex|segment_type
+#T_SP=webanno.custom.Sent_layer|feedback_id|item0_verb|item0_verbtype|openq_id|openq_type|sent_type
+#T_SP=webanno.custom.Speaker_meta|age|gender|speaker_id
+#T_SP=webanno.custom.Speaker_name|speaker_name
+#T_CH=de.tudarmstadt.ukp.dkpro.core.api.coref.type.CoreferenceLink|referenceRelation|referenceType
+#T_RL=webanno.custom.Relations|discourse_rel|speechAct_rel|BT_webanno.custom.Segment
+
+
+#Text=Und, alles klar?
+1-1	0-4	Und,	GFailure[1]	gucken\_set1\_4[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-gucken\_set1\_4[1]	_	_	_	_	_	false[88]	Int[88]	*[214]	*[214]	*[214]	yn\_2[214]	yesno\_question[214]	openq[214]	*[332]	female[332]	*[332]	speaker:Amira[450]	_	_	QAP	*	2-1[89_88]	
+1-2	5-10	alles	GFailure[1]	gucken\_set1\_4[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-gucken\_set1\_4[1]	_	_	_	_	_	false[88]	Int[88]	*[214]	*[214]	*[214]	yn\_2[214]	yesno\_question[214]	openq[214]	*[332]	female[332]	*[332]	speaker:Amira[450]	_	_	_	_	_	
+1-3	11-16	klar?	GFailure[1]	gucken\_set1\_4[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-gucken\_set1\_4[1]	_	_	_	_	_	false[88]	Int[88]	*[214]	*[214]	*[214]	yn\_2[214]	yesno\_question[214]	openq[214]	*[332]	female[332]	*[332]	speaker:Amira[450]	_	_	_	_	_	
+
+#Text=Linda hat die Tagesschau geguckt
+2-1	18-23	Linda	GFailure[1]	gucken\_set1\_4[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-gucken\_set1\_4[1]	*	*	Subj	*	*	false[89]	Decl[89]	*[215]	gucken[215]	transitive[215]	*[215]	*[215]	item0[215]	18[333]	female[333]	0ncaea7aqlpc7oe43khd21qn11[333]	speaker: YOU[451]	*->76-1	PropNm[76]	explanation|CR	*|*	4-1[90_89]|3-1[0_89]	
+2-2	24-27	hat	GFailure[1]	gucken\_set1\_4[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-gucken\_set1\_4[1]	_	_	_	_	_	false[89]	Decl[89]	*[215]	gucken[215]	transitive[215]	*[215]	*[215]	item0[215]	18[333]	female[333]	0ncaea7aqlpc7oe43khd21qn11[333]	speaker: YOU[451]	_	_	_	_	_	
+2-3	28-31	die	GFailure[1]	gucken\_set1\_4[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-gucken\_set1\_4[1]	*[31]	*[31]	object[31]	*[31]	*[31]	false[89]	Decl[89]	*[215]	gucken[215]	transitive[215]	*[215]	*[215]	item0[215]	18[333]	female[333]	0ncaea7aqlpc7oe43khd21qn11[333]	speaker: YOU[451]	*->11-1	DefNP[11]	_	_	_	
+2-4	32-42	Tagesschau	GFailure[1]	gucken\_set1\_4[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-gucken\_set1\_4[1]	*[31]	*[31]	object[31]	*[31]	*[31]	false[89]	Decl[89]	*[215]	gucken[215]	transitive[215]	*[215]	*[215]	item0[215]	18[333]	female[333]	0ncaea7aqlpc7oe43khd21qn11[333]	speaker: YOU[451]	*->11-1	DefNP[11]	_	_	_	
+2-5	43-50	geguckt	GFailure[1]	gucken\_set1\_4[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-gucken\_set1\_4[1]	_	_	_	_	_	false[89]	Decl[89]	*[215]	gucken[215]	transitive[215]	*[215]	*[215]	item0[215]	18[333]	female[333]	0ncaea7aqlpc7oe43khd21qn11[333]	speaker: YOU[451]	_	_	_	_	_	
+
+#Text=Ähm?
+3-1	52-56	Ähm?	GFailure[1]	gucken\_set1\_4[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-gucken\_set1\_4[1]	_	_	_	_	_	false	NA	aehm\_question\_5	*	*	*	*	feedback	*	female	*	speaker:Amira	_	_	_	_	_	
+
+#Text=Ich weiß auch nicht warum <BR> ich glaub sie dreht langsam ganz durch.
+4-1	58-61	Ich	GFailure[1]	gucken\_set1\_4[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-gucken\_set1\_4[1]	1	*	Subj	*	singular	false[90]	Decl[90]	*[216]	*[216]	*[216]	*[216]	*[216]	input1[216]	18[334]	female[334]	0ncaea7aqlpc7oe43khd21qn11[334]	speaker: YOU[452]	*->110-1	PerPron[110]	elaboration	*	4-7[91_90]	
+4-2	62-66	weiß	GFailure[1]	gucken\_set1\_4[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-gucken\_set1\_4[1]	_	_	_	_	_	false[90]	Decl[90]	*[216]	*[216]	*[216]	*[216]	*[216]	input1[216]	18[334]	female[334]	0ncaea7aqlpc7oe43khd21qn11[334]	speaker: YOU[452]	_	_	_	_	_	
+4-3	67-71	auch	GFailure[1]	gucken\_set1\_4[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-gucken\_set1\_4[1]	_	_	_	_	_	false[90]	Decl[90]	*[216]	*[216]	*[216]	*[216]	*[216]	input1[216]	18[334]	female[334]	0ncaea7aqlpc7oe43khd21qn11[334]	speaker: YOU[452]	_	_	_	_	_	
+4-4	72-77	nicht	GFailure[1]	gucken\_set1\_4[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-gucken\_set1\_4[1]	_	_	_	_	_	false[90]	Decl[90]	*[216]	*[216]	*[216]	*[216]	*[216]	input1[216]	18[334]	female[334]	0ncaea7aqlpc7oe43khd21qn11[334]	speaker: YOU[452]	_	_	_	_	_	
+4-5	78-83	warum	GFailure[1]	gucken\_set1\_4[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-gucken\_set1\_4[1]	_	_	_	_	_	false[90]	Decl[90]	*[216]	*[216]	*[216]	*[216]	*[216]	input1[216]	18[334]	female[334]	0ncaea7aqlpc7oe43khd21qn11[334]	speaker: YOU[452]	_	_	_	_	_	
+4-6	84-88	<BR>	GFailure[1]	gucken\_set1\_4[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-gucken\_set1\_4[1]	_	_	_	_	_	_	_	*[216]	*[216]	*[216]	*[216]	*[216]	input1[216]	18[334]	female[334]	0ncaea7aqlpc7oe43khd21qn11[334]	speaker: YOU[452]	_	_	_	_	_	
+4-7	89-92	ich	GFailure[1]	gucken\_set1\_4[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-gucken\_set1\_4[1]	1	*	Subj	*	singular	false[91]	Decl[91]	*[216]	*[216]	*[216]	*[216]	*[216]	input1[216]	18[334]	female[334]	0ncaea7aqlpc7oe43khd21qn11[334]	speaker: YOU[452]	*->110-2	PerPron[110]	result	*	5-1[92_91]	
+4-8	93-98	glaub	GFailure[1]	gucken\_set1\_4[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-gucken\_set1\_4[1]	_	_	_	_	_	false[91]	Decl[91]	*[216]	*[216]	*[216]	*[216]	*[216]	input1[216]	18[334]	female[334]	0ncaea7aqlpc7oe43khd21qn11[334]	speaker: YOU[452]	_	_	_	_	_	
+4-9	99-102	sie	GFailure[1]	gucken\_set1\_4[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-gucken\_set1\_4[1]	3	*	Subj	*	singular	false[91]	Decl[91]	*[216]	*[216]	*[216]	*[216]	*[216]	input1[216]	18[334]	female[334]	0ncaea7aqlpc7oe43khd21qn11[334]	speaker: YOU[452]	*->76-2	PerPron[76]	_	_	_	
+4-10	103-108	dreht	GFailure[1]	gucken\_set1\_4[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-gucken\_set1\_4[1]	_	_	_	_	_	false[91]	Decl[91]	*[216]	*[216]	*[216]	*[216]	*[216]	input1[216]	18[334]	female[334]	0ncaea7aqlpc7oe43khd21qn11[334]	speaker: YOU[452]	_	_	_	_	_	
+4-11	109-116	langsam	GFailure[1]	gucken\_set1\_4[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-gucken\_set1\_4[1]	_	_	_	_	_	false[91]	Decl[91]	*[216]	*[216]	*[216]	*[216]	*[216]	input1[216]	18[334]	female[334]	0ncaea7aqlpc7oe43khd21qn11[334]	speaker: YOU[452]	_	_	_	_	_	
+4-12	117-121	ganz	GFailure[1]	gucken\_set1\_4[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-gucken\_set1\_4[1]	_	_	_	_	_	false[91]	Decl[91]	*[216]	*[216]	*[216]	*[216]	*[216]	input1[216]	18[334]	female[334]	0ncaea7aqlpc7oe43khd21qn11[334]	speaker: YOU[452]	_	_	_	_	_	
+4-13	122-128	durch.	GFailure[1]	gucken\_set1\_4[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-gucken\_set1\_4[1]	_	_	_	_	_	false[91]	Decl[91]	*[216]	*[216]	*[216]	*[216]	*[216]	input1[216]	18[334]	female[334]	0ncaea7aqlpc7oe43khd21qn11[334]	speaker: YOU[452]	_	_	_	_	_	
+
+#Text=Willst du vielleicht mal kommen und mit ihr sprechen?
+5-1	130-136	Willst	GFailure[1]	gucken\_set1\_4[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-gucken\_set1\_4[1]	_	_	_	_	_	false[92]	Int[92]	*[217]	*[217]	*[217]	*[217]	*[217]	input2[217]	18[335]	female[335]	0ncaea7aqlpc7oe43khd21qn11[335]	speaker: YOU[453]	_	_	_	_	_	
+5-2	137-139	du	GFailure[1]	gucken\_set1\_4[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-gucken\_set1\_4[1]	2	*	Subj	*	singular	false[92]	Int[92]	*[217]	*[217]	*[217]	*[217]	*[217]	input2[217]	18[335]	female[335]	0ncaea7aqlpc7oe43khd21qn11[335]	speaker: YOU[453]	*->31-1	PerPron[31]	_	_	_	
+5-3	140-150	vielleicht	GFailure[1]	gucken\_set1\_4[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-gucken\_set1\_4[1]	_	_	_	_	_	false[92]	Int[92]	*[217]	*[217]	*[217]	*[217]	*[217]	input2[217]	18[335]	female[335]	0ncaea7aqlpc7oe43khd21qn11[335]	speaker: YOU[453]	_	_	_	_	_	
+5-4	151-154	mal	GFailure[1]	gucken\_set1\_4[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-gucken\_set1\_4[1]	_	_	_	_	_	false[92]	Int[92]	*[217]	*[217]	*[217]	*[217]	*[217]	input2[217]	18[335]	female[335]	0ncaea7aqlpc7oe43khd21qn11[335]	speaker: YOU[453]	_	_	_	_	_	
+5-5	155-161	kommen	GFailure[1]	gucken\_set1\_4[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-gucken\_set1\_4[1]	_	_	_	_	_	false[92]	Int[92]	*[217]	*[217]	*[217]	*[217]	*[217]	input2[217]	18[335]	female[335]	0ncaea7aqlpc7oe43khd21qn11[335]	speaker: YOU[453]	_	_	_	_	_	
+5-6	162-165	und	GFailure[1]	gucken\_set1\_4[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-gucken\_set1\_4[1]	_	_	_	_	_	false[92]	Int[92]	*[217]	*[217]	*[217]	*[217]	*[217]	input2[217]	18[335]	female[335]	0ncaea7aqlpc7oe43khd21qn11[335]	speaker: YOU[453]	_	_	_	_	_	
+5-7	166-169	mit	GFailure[1]	gucken\_set1\_4[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-gucken\_set1\_4[1]	_	_	_	_	_	false[92]	Int[92]	*[217]	*[217]	*[217]	*[217]	*[217]	input2[217]	18[335]	female[335]	0ncaea7aqlpc7oe43khd21qn11[335]	speaker: YOU[453]	_	_	_	_	_	
+5-8	170-173	ihr	GFailure[1]	gucken\_set1\_4[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-gucken\_set1\_4[1]	3	*	PrepObj	*	singular	false[92]	Int[92]	*[217]	*[217]	*[217]	*[217]	*[217]	input2[217]	18[335]	female[335]	0ncaea7aqlpc7oe43khd21qn11[335]	speaker: YOU[453]	*->76-3	PerPron[76]	_	_	_	
+5-9	174-183	sprechen?	GFailure[1]	gucken\_set1\_4[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-gucken\_set1\_4[1]	_	_	_	_	_	false[92]	Int[92]	*[217]	*[217]	*[217]	*[217]	*[217]	input2[217]	18[335]	female[335]	0ncaea7aqlpc7oe43khd21qn11[335]	speaker: YOU[453]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+6-1	185-200	END_OF_DOCUMENT	GFailure[1]	gucken\_set1\_4[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-gucken\_set1\_4[1]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Und, alles klar?
+7-1	202-206	Und,	GFailure[2]	gucken\_set1\_4[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-gucken\_set1\_4[2]	_	_	_	_	_	false[93]	Int[93]	*[218]	*[218]	*[218]	yn\_2[218]	yesno\_question[218]	openq[218]	*[336]	female[336]	*[336]	speaker:Amira[454]	_	_	QAP	*	8-1[94_93]	
+7-2	207-212	alles	GFailure[2]	gucken\_set1\_4[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-gucken\_set1\_4[2]	_	_	_	_	_	false[93]	Int[93]	*[218]	*[218]	*[218]	yn\_2[218]	yesno\_question[218]	openq[218]	*[336]	female[336]	*[336]	speaker:Amira[454]	_	_	_	_	_	
+7-3	213-218	klar?	GFailure[2]	gucken\_set1\_4[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-gucken\_set1\_4[2]	_	_	_	_	_	false[93]	Int[93]	*[218]	*[218]	*[218]	yn\_2[218]	yesno\_question[218]	openq[218]	*[336]	female[336]	*[336]	speaker:Amira[454]	_	_	_	_	_	
+
+#Text=Linda hat die Tagesschau geguckt
+8-1	220-225	Linda	GFailure[2]	gucken\_set1\_4[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-gucken\_set1\_4[2]	*	*	Subj	*	*	false[94]	Decl[94]	*[219]	gucken[219]	transitive[219]	*[219]	*[219]	item0[219]	36[337]	male[337]	19gm0uv9ca6mcngf99lirno94a[337]	speaker: YOU[455]	*->69-1	PropNm[69]	explanation|CR	*|*	10-1[95_94]|9-1[0_94]	
+8-2	226-229	hat	GFailure[2]	gucken\_set1\_4[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-gucken\_set1\_4[2]	_	_	_	_	_	false[94]	Decl[94]	*[219]	gucken[219]	transitive[219]	*[219]	*[219]	item0[219]	36[337]	male[337]	19gm0uv9ca6mcngf99lirno94a[337]	speaker: YOU[455]	_	_	_	_	_	
+8-3	230-233	die	GFailure[2]	gucken\_set1\_4[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-gucken\_set1\_4[2]	*[32]	*[32]	object[32]	*[32]	*[32]	false[94]	Decl[94]	*[219]	gucken[219]	transitive[219]	*[219]	*[219]	item0[219]	36[337]	male[337]	19gm0uv9ca6mcngf99lirno94a[337]	speaker: YOU[455]	*->102-1	DefNP[102]	_	_	_	
+8-4	234-244	Tagesschau	GFailure[2]	gucken\_set1\_4[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-gucken\_set1\_4[2]	*[32]	*[32]	object[32]	*[32]	*[32]	false[94]	Decl[94]	*[219]	gucken[219]	transitive[219]	*[219]	*[219]	item0[219]	36[337]	male[337]	19gm0uv9ca6mcngf99lirno94a[337]	speaker: YOU[455]	*->102-1	DefNP[102]	_	_	_	
+8-5	245-252	geguckt	GFailure[2]	gucken\_set1\_4[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-gucken\_set1\_4[2]	_	_	_	_	_	false[94]	Decl[94]	*[219]	gucken[219]	transitive[219]	*[219]	*[219]	item0[219]	36[337]	male[337]	19gm0uv9ca6mcngf99lirno94a[337]	speaker: YOU[455]	_	_	_	_	_	
+
+#Text=Ähm?
+9-1	254-258	Ähm?	GFailure[2]	gucken\_set1\_4[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-gucken\_set1\_4[2]	_	_	_	_	_	false	NA	aehm\_question\_5	*	*	*	*	feedback	*	female	*	speaker:Amira	_	_	_	_	_	
+
+#Text=Sie will etwas mehr über das Tagesgeschehen wissen sagt sie
+10-1	260-263	Sie	GFailure[2]	gucken\_set1\_4[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-gucken\_set1\_4[2]	3	*	Subj	*	singular	false[95]	Decl[95]	*[220]	*[220]	*[220]	*[220]	*[220]	input1[220]	36[338]	male[338]	19gm0uv9ca6mcngf99lirno94a[338]	speaker: YOU[456]	*->69-2	PerPron[69]	contrast	*	11-1[96_95]	
+10-2	264-268	will	GFailure[2]	gucken\_set1\_4[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-gucken\_set1\_4[2]	_	_	_	_	_	false[95]	Decl[95]	*[220]	*[220]	*[220]	*[220]	*[220]	input1[220]	36[338]	male[338]	19gm0uv9ca6mcngf99lirno94a[338]	speaker: YOU[456]	_	_	_	_	_	
+10-3	269-274	etwas	GFailure[2]	gucken\_set1\_4[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-gucken\_set1\_4[2]	_	_	_	_	_	false[95]	Decl[95]	*[220]	*[220]	*[220]	*[220]	*[220]	input1[220]	36[338]	male[338]	19gm0uv9ca6mcngf99lirno94a[338]	speaker: YOU[456]	*->56-1	IndefNP[56]	_	_	_	
+10-4	275-279	mehr	GFailure[2]	gucken\_set1\_4[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-gucken\_set1\_4[2]	_	_	_	_	_	false[95]	Decl[95]	*[220]	*[220]	*[220]	*[220]	*[220]	input1[220]	36[338]	male[338]	19gm0uv9ca6mcngf99lirno94a[338]	speaker: YOU[456]	*->56-1	IndefNP[56]	_	_	_	
+10-5	280-284	über	GFailure[2]	gucken\_set1\_4[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-gucken\_set1\_4[2]	_	_	_	_	_	false[95]	Decl[95]	*[220]	*[220]	*[220]	*[220]	*[220]	input1[220]	36[338]	male[338]	19gm0uv9ca6mcngf99lirno94a[338]	speaker: YOU[456]	*->56-1	IndefNP[56]	_	_	_	
+10-6	285-288	das	GFailure[2]	gucken\_set1\_4[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-gucken\_set1\_4[2]	*[33]	*[33]	PrepObj[33]	*[33]	*[33]	false[95]	Decl[95]	*[220]	*[220]	*[220]	*[220]	*[220]	input1[220]	36[338]	male[338]	19gm0uv9ca6mcngf99lirno94a[338]	speaker: YOU[456]	*->56-1|*->60-1	IndefNP[56]|DefNP[60]	_	_	_	
+10-7	289-303	Tagesgeschehen	GFailure[2]	gucken\_set1\_4[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-gucken\_set1\_4[2]	*[33]	*[33]	PrepObj[33]	*[33]	*[33]	false[95]	Decl[95]	*[220]	*[220]	*[220]	*[220]	*[220]	input1[220]	36[338]	male[338]	19gm0uv9ca6mcngf99lirno94a[338]	speaker: YOU[456]	*->56-1|*->60-1	IndefNP[56]|DefNP[60]	_	_	_	
+10-8	304-310	wissen	GFailure[2]	gucken\_set1\_4[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-gucken\_set1\_4[2]	_	_	_	_	_	false[95]	Decl[95]	*[220]	*[220]	*[220]	*[220]	*[220]	input1[220]	36[338]	male[338]	19gm0uv9ca6mcngf99lirno94a[338]	speaker: YOU[456]	_	_	_	_	_	
+10-9	311-315	sagt	GFailure[2]	gucken\_set1\_4[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-gucken\_set1\_4[2]	_	_	_	_	_	false[95]	Decl[95]	*[220]	*[220]	*[220]	*[220]	*[220]	input1[220]	36[338]	male[338]	19gm0uv9ca6mcngf99lirno94a[338]	speaker: YOU[456]	_	_	_	_	_	
+10-10	316-319	sie	GFailure[2]	gucken\_set1\_4[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-gucken\_set1\_4[2]	3	*	Subj	*	singular	false[95]	Decl[95]	*[220]	*[220]	*[220]	*[220]	*[220]	input1[220]	36[338]	male[338]	19gm0uv9ca6mcngf99lirno94a[338]	speaker: YOU[456]	*->69-3	PerPron[69]	_	_	_	
+
+#Text=Ich glaub sie will nur ihren neuen Freund beeindrucken
+11-1	321-324	Ich	GFailure[2]	gucken\_set1\_4[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-gucken\_set1\_4[2]	1	*	Subj	*	singular	false[96]	Decl[96]	*[221]	*[221]	*[221]	*[221]	*[221]	input2[221]	36[339]	male[339]	19gm0uv9ca6mcngf99lirno94a[339]	speaker: YOU[457]	*->10-1	PerPron[10]	_	_	_	
+11-2	325-330	glaub	GFailure[2]	gucken\_set1\_4[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-gucken\_set1\_4[2]	_	_	_	_	_	false[96]	Decl[96]	*[221]	*[221]	*[221]	*[221]	*[221]	input2[221]	36[339]	male[339]	19gm0uv9ca6mcngf99lirno94a[339]	speaker: YOU[457]	_	_	_	_	_	
+11-3	331-334	sie	GFailure[2]	gucken\_set1\_4[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-gucken\_set1\_4[2]	3	*	Subj	*	singular	false[96]	Decl[96]	*[221]	*[221]	*[221]	*[221]	*[221]	input2[221]	36[339]	male[339]	19gm0uv9ca6mcngf99lirno94a[339]	speaker: YOU[457]	*->69-4	PerPron[69]	_	_	_	
+11-4	335-339	will	GFailure[2]	gucken\_set1\_4[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-gucken\_set1\_4[2]	_	_	_	_	_	false[96]	Decl[96]	*[221]	*[221]	*[221]	*[221]	*[221]	input2[221]	36[339]	male[339]	19gm0uv9ca6mcngf99lirno94a[339]	speaker: YOU[457]	_	_	_	_	_	
+11-5	340-343	nur	GFailure[2]	gucken\_set1\_4[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-gucken\_set1\_4[2]	_	_	_	_	_	false[96]	Decl[96]	*[221]	*[221]	*[221]	*[221]	*[221]	input2[221]	36[339]	male[339]	19gm0uv9ca6mcngf99lirno94a[339]	speaker: YOU[457]	_	_	_	_	_	
+11-6	344-349	ihren	GFailure[2]	gucken\_set1\_4[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-gucken\_set1\_4[2]	*[34]|3[35]	*[34]|*[35]	DirObj[34]|*[35]	*[34]|*[35]	*[34]|singular[35]	false[96]	Decl[96]	*[221]	*[221]	*[221]	*[221]	*[221]	input2[221]	36[339]	male[339]	19gm0uv9ca6mcngf99lirno94a[339]	speaker: YOU[457]	*->26-1|*->69-5	DefNP[26]|PossePron[69]	_	_	_	
+11-7	350-355	neuen	GFailure[2]	gucken\_set1\_4[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-gucken\_set1\_4[2]	*[34]	*[34]	DirObj[34]	*[34]	*[34]	false[96]	Decl[96]	*[221]	*[221]	*[221]	*[221]	*[221]	input2[221]	36[339]	male[339]	19gm0uv9ca6mcngf99lirno94a[339]	speaker: YOU[457]	*->26-1	DefNP[26]	_	_	_	
+11-8	356-362	Freund	GFailure[2]	gucken\_set1\_4[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-gucken\_set1\_4[2]	*[34]	*[34]	DirObj[34]	*[34]	*[34]	false[96]	Decl[96]	*[221]	*[221]	*[221]	*[221]	*[221]	input2[221]	36[339]	male[339]	19gm0uv9ca6mcngf99lirno94a[339]	speaker: YOU[457]	*->26-1	DefNP[26]	_	_	_	
+11-9	363-375	beeindrucken	GFailure[2]	gucken\_set1\_4[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-gucken\_set1\_4[2]	_	_	_	_	_	false[96]	Decl[96]	*[221]	*[221]	*[221]	*[221]	*[221]	input2[221]	36[339]	male[339]	19gm0uv9ca6mcngf99lirno94a[339]	speaker: YOU[457]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+12-1	377-392	END_OF_DOCUMENT	GFailure[2]	gucken\_set1\_4[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-gucken\_set1\_4[2]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Und, alles klar?
+13-1	394-398	Und,	GFailure[3]	gucken\_set1\_4[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-gucken\_set1\_4[3]	_	_	_	_	_	false[97]	Int[97]	*[222]	*[222]	*[222]	yn\_2[222]	yesno\_question[222]	openq[222]	*[340]	female[340]	*[340]	speaker:Amira[458]	_	_	QAP	*	14-1[98_97]	
+13-2	399-404	alles	GFailure[3]	gucken\_set1\_4[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-gucken\_set1\_4[3]	_	_	_	_	_	false[97]	Int[97]	*[222]	*[222]	*[222]	yn\_2[222]	yesno\_question[222]	openq[222]	*[340]	female[340]	*[340]	speaker:Amira[458]	_	_	_	_	_	
+13-3	405-410	klar?	GFailure[3]	gucken\_set1\_4[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-gucken\_set1\_4[3]	_	_	_	_	_	false[97]	Int[97]	*[222]	*[222]	*[222]	yn\_2[222]	yesno\_question[222]	openq[222]	*[340]	female[340]	*[340]	speaker:Amira[458]	_	_	_	_	_	
+
+#Text=Linda hat die Tagesschau geguckt
+14-1	412-417	Linda	GFailure[3]	gucken\_set1\_4[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-gucken\_set1\_4[3]	*	*	Subj	*	*	false[98]	Decl[98]	*[223]	gucken[223]	transitive[223]	*[223]	*[223]	item0[223]	18[341]	female[341]	4qae3ph27q5gbjcsrgnltv8qld[341]	speaker: YOU[459]	*->87-1	PropNm[87]	CR	*	15-1[0_98]	
+14-2	418-421	hat	GFailure[3]	gucken\_set1\_4[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-gucken\_set1\_4[3]	_	_	_	_	_	false[98]	Decl[98]	*[223]	gucken[223]	transitive[223]	*[223]	*[223]	item0[223]	18[341]	female[341]	4qae3ph27q5gbjcsrgnltv8qld[341]	speaker: YOU[459]	_	_	_	_	_	
+14-3	422-425	die	GFailure[3]	gucken\_set1\_4[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-gucken\_set1\_4[3]	*[36]	*[36]	object[36]	*[36]	*[36]	false[98]	Decl[98]	*[223]	gucken[223]	transitive[223]	*[223]	*[223]	item0[223]	18[341]	female[341]	4qae3ph27q5gbjcsrgnltv8qld[341]	speaker: YOU[459]	*->107-1	DefNP[107]	_	_	_	
+14-4	426-436	Tagesschau	GFailure[3]	gucken\_set1\_4[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-gucken\_set1\_4[3]	*[36]	*[36]	object[36]	*[36]	*[36]	false[98]	Decl[98]	*[223]	gucken[223]	transitive[223]	*[223]	*[223]	item0[223]	18[341]	female[341]	4qae3ph27q5gbjcsrgnltv8qld[341]	speaker: YOU[459]	*->107-1	DefNP[107]	_	_	_	
+14-5	437-444	geguckt	GFailure[3]	gucken\_set1\_4[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-gucken\_set1\_4[3]	_	_	_	_	_	false[98]	Decl[98]	*[223]	gucken[223]	transitive[223]	*[223]	*[223]	item0[223]	18[341]	female[341]	4qae3ph27q5gbjcsrgnltv8qld[341]	speaker: YOU[459]	_	_	_	_	_	
+
+#Text=Ähm?
+15-1	446-450	Ähm?	GFailure[3]	gucken\_set1\_4[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-gucken\_set1\_4[3]	_	_	_	_	_	false	NA	aehm\_question\_5	*	*	*	*	feedback	*	female	*	speaker:Amira	_	_	acknowledgement	*	16-1[99_0]	
+
+#Text=ja voll
+16-1	452-454	ja	GFailure[3]	gucken\_set1\_4[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-gucken\_set1\_4[3]	_	_	_	_	_	false[99]	NA[99]	*[224]	*[224]	*[224]	*[224]	*[224]	input1[224]	18[342]	female[342]	4qae3ph27q5gbjcsrgnltv8qld[342]	speaker: YOU[460]	_	_	elaboration	*	17-1[0_99]	
+16-2	455-459	voll	GFailure[3]	gucken\_set1\_4[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-gucken\_set1\_4[3]	_	_	_	_	_	false[99]	NA[99]	*[224]	*[224]	*[224]	*[224]	*[224]	input1[224]	18[342]	female[342]	4qae3ph27q5gbjcsrgnltv8qld[342]	speaker: YOU[460]	_	_	_	_	_	
+
+#Text=ungewöhnlich
+17-1	461-473	ungewöhnlich	GFailure[3]	gucken\_set1\_4[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-gucken\_set1\_4[3]	_	_	_	_	_	false	NA	*	*	*	*	*	input2	18	female	4qae3ph27q5gbjcsrgnltv8qld	speaker: YOU	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+18-1	475-490	END_OF_DOCUMENT	GFailure[3]	gucken\_set1\_4[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-gucken\_set1\_4[3]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Und, alles klar?
+19-1	492-496	Und,	GFailure[4]	gucken\_set1\_4[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-gucken\_set1\_4[4]	_	_	_	_	_	false[100]	Int[100]	*[225]	*[225]	*[225]	yn\_2[225]	yesno\_question[225]	openq[225]	*[343]	female[343]	*[343]	speaker:Amira[461]	_	_	QAP	*	20-1[101_100]	
+19-2	497-502	alles	GFailure[4]	gucken\_set1\_4[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-gucken\_set1\_4[4]	_	_	_	_	_	false[100]	Int[100]	*[225]	*[225]	*[225]	yn\_2[225]	yesno\_question[225]	openq[225]	*[343]	female[343]	*[343]	speaker:Amira[461]	_	_	_	_	_	
+19-3	503-508	klar?	GFailure[4]	gucken\_set1\_4[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-gucken\_set1\_4[4]	_	_	_	_	_	false[100]	Int[100]	*[225]	*[225]	*[225]	yn\_2[225]	yesno\_question[225]	openq[225]	*[343]	female[343]	*[343]	speaker:Amira[461]	_	_	_	_	_	
+
+#Text=Linda hat die Tagesschau geguckt
+20-1	510-515	Linda	GFailure[4]	gucken\_set1\_4[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-gucken\_set1\_4[4]	*	*	Subj	*	*	false[101]	Decl[101]	*[226]	gucken[226]	transitive[226]	*[226]	*[226]	item0[226]	19[344]	male[344]	f28ipql67ma8cbjqke6k374ach[344]	speaker: YOU[462]	*->64-1	PropNm[64]	CR	*	21-1[0_101]	
+20-2	516-519	hat	GFailure[4]	gucken\_set1\_4[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-gucken\_set1\_4[4]	_	_	_	_	_	false[101]	Decl[101]	*[226]	gucken[226]	transitive[226]	*[226]	*[226]	item0[226]	19[344]	male[344]	f28ipql67ma8cbjqke6k374ach[344]	speaker: YOU[462]	_	_	_	_	_	
+20-3	520-523	die	GFailure[4]	gucken\_set1\_4[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-gucken\_set1\_4[4]	*[37]	*[37]	object[37]	*[37]	*[37]	false[101]	Decl[101]	*[226]	gucken[226]	transitive[226]	*[226]	*[226]	item0[226]	19[344]	male[344]	f28ipql67ma8cbjqke6k374ach[344]	speaker: YOU[462]	*->121-1	DefNP[121]	_	_	_	
+20-4	524-534	Tagesschau	GFailure[4]	gucken\_set1\_4[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-gucken\_set1\_4[4]	*[37]	*[37]	object[37]	*[37]	*[37]	false[101]	Decl[101]	*[226]	gucken[226]	transitive[226]	*[226]	*[226]	item0[226]	19[344]	male[344]	f28ipql67ma8cbjqke6k374ach[344]	speaker: YOU[462]	*->121-1	DefNP[121]	_	_	_	
+20-5	535-542	geguckt	GFailure[4]	gucken\_set1\_4[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-gucken\_set1\_4[4]	_	_	_	_	_	false[101]	Decl[101]	*[226]	gucken[226]	transitive[226]	*[226]	*[226]	item0[226]	19[344]	male[344]	f28ipql67ma8cbjqke6k374ach[344]	speaker: YOU[462]	_	_	_	_	_	
+
+#Text=Ähm?
+21-1	544-548	Ähm?	GFailure[4]	gucken\_set1\_4[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-gucken\_set1\_4[4]	_	_	_	_	_	false	NA	aehm\_question\_5	*	*	*	*	feedback	*	female	*	speaker:Amira	_	_	acknowledgement	*	22-1	
+
+#Text=Ja...
+22-1	550-555	Ja...	GFailure[4]	gucken\_set1\_4[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-gucken\_set1\_4[4]	_	_	_	_	_	false	NA	*	*	*	*	*	input1	19	male	f28ipql67ma8cbjqke6k374ach	speaker: YOU	_	_	contrast	*	23-1[102_0]	
+
+#Text=Aber sie mag die Sendung anscheinend.
+23-1	557-561	Aber	GFailure[4]	gucken\_set1\_4[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-gucken\_set1\_4[4]	_	_	_	_	_	false[102]	Decl[102]	*[227]	*[227]	*[227]	*[227]	*[227]	input2[227]	19[345]	male[345]	f28ipql67ma8cbjqke6k374ach[345]	speaker: YOU[463]	_	_	_	_	_	
+23-2	562-565	sie	GFailure[4]	gucken\_set1\_4[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-gucken\_set1\_4[4]	3	*	Subj	*	singular	false[102]	Decl[102]	*[227]	*[227]	*[227]	*[227]	*[227]	input2[227]	19[345]	male[345]	f28ipql67ma8cbjqke6k374ach[345]	speaker: YOU[463]	*->64-2	PerPron[64]	_	_	_	
+23-3	566-569	mag	GFailure[4]	gucken\_set1\_4[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-gucken\_set1\_4[4]	_	_	_	_	_	false[102]	Decl[102]	*[227]	*[227]	*[227]	*[227]	*[227]	input2[227]	19[345]	male[345]	f28ipql67ma8cbjqke6k374ach[345]	speaker: YOU[463]	_	_	_	_	_	
+23-4	570-573	die	GFailure[4]	gucken\_set1\_4[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-gucken\_set1\_4[4]	*[38]	*[38]	DirObj[38]	*[38]	*[38]	false[102]	Decl[102]	*[227]	*[227]	*[227]	*[227]	*[227]	input2[227]	19[345]	male[345]	f28ipql67ma8cbjqke6k374ach[345]	speaker: YOU[463]	*->121-2	DefNP[121]	_	_	_	
+23-5	574-581	Sendung	GFailure[4]	gucken\_set1\_4[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-gucken\_set1\_4[4]	*[38]	*[38]	DirObj[38]	*[38]	*[38]	false[102]	Decl[102]	*[227]	*[227]	*[227]	*[227]	*[227]	input2[227]	19[345]	male[345]	f28ipql67ma8cbjqke6k374ach[345]	speaker: YOU[463]	*->121-2	DefNP[121]	_	_	_	
+23-6	582-594	anscheinend.	GFailure[4]	gucken\_set1\_4[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-gucken\_set1\_4[4]	_	_	_	_	_	false[102]	Decl[102]	*[227]	*[227]	*[227]	*[227]	*[227]	input2[227]	19[345]	male[345]	f28ipql67ma8cbjqke6k374ach[345]	speaker: YOU[463]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+24-1	596-611	END_OF_DOCUMENT	GFailure[4]	gucken\_set1\_4[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-gucken\_set1\_4[4]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Und, alles klar?
+25-1	613-617	Und,	GFailure[5]	gucken\_set1\_4[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-gucken\_set1\_4[5]	_	_	_	_	_	false[103]	Int[103]	*[228]	*[228]	*[228]	yn\_2[228]	yesno\_question[228]	openq[228]	*[346]	female[346]	*[346]	speaker:Amira[464]	_	_	QAP	*	26-1[104_103]	
+25-2	618-623	alles	GFailure[5]	gucken\_set1\_4[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-gucken\_set1\_4[5]	_	_	_	_	_	false[103]	Int[103]	*[228]	*[228]	*[228]	yn\_2[228]	yesno\_question[228]	openq[228]	*[346]	female[346]	*[346]	speaker:Amira[464]	_	_	_	_	_	
+25-3	624-629	klar?	GFailure[5]	gucken\_set1\_4[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-gucken\_set1\_4[5]	_	_	_	_	_	false[103]	Int[103]	*[228]	*[228]	*[228]	yn\_2[228]	yesno\_question[228]	openq[228]	*[346]	female[346]	*[346]	speaker:Amira[464]	_	_	_	_	_	
+
+#Text=Linda hat die Tagesschau geguckt
+26-1	631-636	Linda	GFailure[5]	gucken\_set1\_4[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-gucken\_set1\_4[5]	*	*	Subj	*	*	false[104]	Decl[104]	*[229]	gucken[229]	transitive[229]	*[229]	*[229]	item0[229]	36[347]	male[347]	ifdbjqro2nfkup12rv8t6k0eu9[347]	speaker: YOU[465]	*->95-1	PropNm[95]	elaboration|CR	*|*	28-1[105_104]|27-1[0_104]	
+26-2	637-640	hat	GFailure[5]	gucken\_set1\_4[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-gucken\_set1\_4[5]	_	_	_	_	_	false[104]	Decl[104]	*[229]	gucken[229]	transitive[229]	*[229]	*[229]	item0[229]	36[347]	male[347]	ifdbjqro2nfkup12rv8t6k0eu9[347]	speaker: YOU[465]	_	_	_	_	_	
+26-3	641-644	die	GFailure[5]	gucken\_set1\_4[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-gucken\_set1\_4[5]	*[39]	*[39]	object[39]	*[39]	*[39]	false[104]	Decl[104]	*[229]	gucken[229]	transitive[229]	*[229]	*[229]	item0[229]	36[347]	male[347]	ifdbjqro2nfkup12rv8t6k0eu9[347]	speaker: YOU[465]	*->100-1	DefNP[100]	_	_	_	
+26-4	645-655	Tagesschau	GFailure[5]	gucken\_set1\_4[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-gucken\_set1\_4[5]	*[39]	*[39]	object[39]	*[39]	*[39]	false[104]	Decl[104]	*[229]	gucken[229]	transitive[229]	*[229]	*[229]	item0[229]	36[347]	male[347]	ifdbjqro2nfkup12rv8t6k0eu9[347]	speaker: YOU[465]	*->100-1	DefNP[100]	_	_	_	
+26-5	656-663	geguckt	GFailure[5]	gucken\_set1\_4[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-gucken\_set1\_4[5]	_	_	_	_	_	false[104]	Decl[104]	*[229]	gucken[229]	transitive[229]	*[229]	*[229]	item0[229]	36[347]	male[347]	ifdbjqro2nfkup12rv8t6k0eu9[347]	speaker: YOU[465]	_	_	_	_	_	
+
+#Text=Ähm?
+27-1	665-669	Ähm?	GFailure[5]	gucken\_set1\_4[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-gucken\_set1\_4[5]	_	_	_	_	_	false	NA	aehm\_question\_5	*	*	*	*	feedback	*	female	*	speaker:Amira	_	_	_	_	_	
+
+#Text=Sie fand die Sendung extrem langweilig
+28-1	671-674	Sie	GFailure[5]	gucken\_set1\_4[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-gucken\_set1\_4[5]	3	*	Subj	*	singular	false[105]	Decl[105]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	36[348]	male[348]	ifdbjqro2nfkup12rv8t6k0eu9[348]	speaker: YOU[466]	*->95-2	PerPron[95]	result	*	29-1[106_105]	
+28-2	675-679	fand	GFailure[5]	gucken\_set1\_4[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-gucken\_set1\_4[5]	_	_	_	_	_	false[105]	Decl[105]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	36[348]	male[348]	ifdbjqro2nfkup12rv8t6k0eu9[348]	speaker: YOU[466]	_	_	_	_	_	
+28-3	680-683	die	GFailure[5]	gucken\_set1\_4[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-gucken\_set1\_4[5]	*[40]	*[40]	DirObj[40]	*[40]	*[40]	false[105]	Decl[105]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	36[348]	male[348]	ifdbjqro2nfkup12rv8t6k0eu9[348]	speaker: YOU[466]	*->100-2	DefNP[100]	_	_	_	
+28-4	684-691	Sendung	GFailure[5]	gucken\_set1\_4[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-gucken\_set1\_4[5]	*[40]	*[40]	DirObj[40]	*[40]	*[40]	false[105]	Decl[105]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	36[348]	male[348]	ifdbjqro2nfkup12rv8t6k0eu9[348]	speaker: YOU[466]	*->100-2	DefNP[100]	_	_	_	
+28-5	692-698	extrem	GFailure[5]	gucken\_set1\_4[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-gucken\_set1\_4[5]	_	_	_	_	_	false[105]	Decl[105]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	36[348]	male[348]	ifdbjqro2nfkup12rv8t6k0eu9[348]	speaker: YOU[466]	_	_	_	_	_	
+28-6	699-709	langweilig	GFailure[5]	gucken\_set1\_4[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-gucken\_set1\_4[5]	_	_	_	_	_	false[105]	Decl[105]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	36[348]	male[348]	ifdbjqro2nfkup12rv8t6k0eu9[348]	speaker: YOU[466]	_	_	_	_	_	
+
+#Text=Sie ist direkt eingeschlafen
+29-1	711-714	Sie	GFailure[5]	gucken\_set1\_4[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-gucken\_set1\_4[5]	3	*	Subj	*	singular	false[106]	Decl[106]	*[231]	*[231]	*[231]	*[231]	*[231]	input2[231]	36[349]	male[349]	ifdbjqro2nfkup12rv8t6k0eu9[349]	speaker: YOU[467]	*->95-3	PerPron[95]	_	_	_	
+29-2	715-718	ist	GFailure[5]	gucken\_set1\_4[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-gucken\_set1\_4[5]	_	_	_	_	_	false[106]	Decl[106]	*[231]	*[231]	*[231]	*[231]	*[231]	input2[231]	36[349]	male[349]	ifdbjqro2nfkup12rv8t6k0eu9[349]	speaker: YOU[467]	_	_	_	_	_	
+29-3	719-725	direkt	GFailure[5]	gucken\_set1\_4[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-gucken\_set1\_4[5]	_	_	_	_	_	false[106]	Decl[106]	*[231]	*[231]	*[231]	*[231]	*[231]	input2[231]	36[349]	male[349]	ifdbjqro2nfkup12rv8t6k0eu9[349]	speaker: YOU[467]	_	_	_	_	_	
+29-4	726-739	eingeschlafen	GFailure[5]	gucken\_set1\_4[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-gucken\_set1\_4[5]	_	_	_	_	_	false[106]	Decl[106]	*[231]	*[231]	*[231]	*[231]	*[231]	input2[231]	36[349]	male[349]	ifdbjqro2nfkup12rv8t6k0eu9[349]	speaker: YOU[467]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+30-1	741-756	END_OF_DOCUMENT	GFailure[5]	gucken\_set1\_4[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-gucken\_set1\_4[5]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Und, alles klar?
+31-1	758-762	Und,	GFailure[6]	gucken\_set1\_4[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-gucken\_set1\_4[6]	_	_	_	_	_	false[107]	Int[107]	*[232]	*[232]	*[232]	yn\_2[232]	yesno\_question[232]	openq[232]	*[350]	female[350]	*[350]	speaker:Amira[468]	_	_	QAP	*	32-1[108_107]	
+31-2	763-768	alles	GFailure[6]	gucken\_set1\_4[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-gucken\_set1\_4[6]	_	_	_	_	_	false[107]	Int[107]	*[232]	*[232]	*[232]	yn\_2[232]	yesno\_question[232]	openq[232]	*[350]	female[350]	*[350]	speaker:Amira[468]	_	_	_	_	_	
+31-3	769-774	klar?	GFailure[6]	gucken\_set1\_4[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-gucken\_set1\_4[6]	_	_	_	_	_	false[107]	Int[107]	*[232]	*[232]	*[232]	yn\_2[232]	yesno\_question[232]	openq[232]	*[350]	female[350]	*[350]	speaker:Amira[468]	_	_	_	_	_	
+
+#Text=Linda hat die Tagesschau geguckt
+32-1	776-781	Linda	GFailure[6]	gucken\_set1\_4[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-gucken\_set1\_4[6]	*	*	Subj	*	*	false[108]	Decl[108]	*[233]	gucken[233]	transitive[233]	*[233]	*[233]	item0[233]	27[351]	female[351]	nn1fs9jkn62eo9089lo89usbkb[351]	speaker: YOU[469]	*->5-1	PropNm[5]	elaboration|CR	*|*	34-1[109_108]|33-1[0_108]	
+32-2	782-785	hat	GFailure[6]	gucken\_set1\_4[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-gucken\_set1\_4[6]	_	_	_	_	_	false[108]	Decl[108]	*[233]	gucken[233]	transitive[233]	*[233]	*[233]	item0[233]	27[351]	female[351]	nn1fs9jkn62eo9089lo89usbkb[351]	speaker: YOU[469]	_	_	_	_	_	
+32-3	786-789	die	GFailure[6]	gucken\_set1\_4[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-gucken\_set1\_4[6]	*[41]	*[41]	object[41]	*[41]	*[41]	false[108]	Decl[108]	*[233]	gucken[233]	transitive[233]	*[233]	*[233]	item0[233]	27[351]	female[351]	nn1fs9jkn62eo9089lo89usbkb[351]	speaker: YOU[469]	*->106-1	DefNP[106]	_	_	_	
+32-4	790-800	Tagesschau	GFailure[6]	gucken\_set1\_4[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-gucken\_set1\_4[6]	*[41]	*[41]	object[41]	*[41]	*[41]	false[108]	Decl[108]	*[233]	gucken[233]	transitive[233]	*[233]	*[233]	item0[233]	27[351]	female[351]	nn1fs9jkn62eo9089lo89usbkb[351]	speaker: YOU[469]	*->106-1	DefNP[106]	_	_	_	
+32-5	801-808	geguckt	GFailure[6]	gucken\_set1\_4[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-gucken\_set1\_4[6]	_	_	_	_	_	false[108]	Decl[108]	*[233]	gucken[233]	transitive[233]	*[233]	*[233]	item0[233]	27[351]	female[351]	nn1fs9jkn62eo9089lo89usbkb[351]	speaker: YOU[469]	_	_	_	_	_	
+
+#Text=Ähm?
+33-1	810-814	Ähm?	GFailure[6]	gucken\_set1\_4[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-gucken\_set1\_4[6]	_	_	_	_	_	false	NA	aehm\_question\_5	*	*	*	*	feedback	*	female	*	speaker:Amira	_	_	_	_	_	
+
+#Text=Sie hat bei den ganzen negativen Nachrichten zu weinen begonnen.
+34-1	816-819	Sie	GFailure[6]	gucken\_set1\_4[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-gucken\_set1\_4[6]	3	*	Subj	*	singular	false[109]	Decl[109]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	27[352]	female[352]	nn1fs9jkn62eo9089lo89usbkb[352]	speaker: YOU[470]	*->5-2	PerPron[5]	result	*	35-1[110_109]	
+34-2	820-823	hat	GFailure[6]	gucken\_set1\_4[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-gucken\_set1\_4[6]	_	_	_	_	_	false[109]	Decl[109]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	27[352]	female[352]	nn1fs9jkn62eo9089lo89usbkb[352]	speaker: YOU[470]	_	_	_	_	_	
+34-3	824-827	bei	GFailure[6]	gucken\_set1\_4[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-gucken\_set1\_4[6]	_	_	_	_	_	false[109]	Decl[109]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	27[352]	female[352]	nn1fs9jkn62eo9089lo89usbkb[352]	speaker: YOU[470]	_	_	_	_	_	
+34-4	828-831	den	GFailure[6]	gucken\_set1\_4[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-gucken\_set1\_4[6]	*[42]	*[42]	PrepObj[42]	*[42]	*[42]	false[109]	Decl[109]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	27[352]	female[352]	nn1fs9jkn62eo9089lo89usbkb[352]	speaker: YOU[470]	*->7-1	DefNP[7]	_	_	_	
+34-5	832-838	ganzen	GFailure[6]	gucken\_set1\_4[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-gucken\_set1\_4[6]	*[42]	*[42]	PrepObj[42]	*[42]	*[42]	false[109]	Decl[109]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	27[352]	female[352]	nn1fs9jkn62eo9089lo89usbkb[352]	speaker: YOU[470]	*->7-1	DefNP[7]	_	_	_	
+34-6	839-848	negativen	GFailure[6]	gucken\_set1\_4[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-gucken\_set1\_4[6]	*[42]	*[42]	PrepObj[42]	*[42]	*[42]	false[109]	Decl[109]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	27[352]	female[352]	nn1fs9jkn62eo9089lo89usbkb[352]	speaker: YOU[470]	*->7-1	DefNP[7]	_	_	_	
+34-7	849-860	Nachrichten	GFailure[6]	gucken\_set1\_4[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-gucken\_set1\_4[6]	*[42]	*[42]	PrepObj[42]	*[42]	*[42]	false[109]	Decl[109]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	27[352]	female[352]	nn1fs9jkn62eo9089lo89usbkb[352]	speaker: YOU[470]	*->7-1	DefNP[7]	_	_	_	
+34-8	861-863	zu	GFailure[6]	gucken\_set1\_4[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-gucken\_set1\_4[6]	_	_	_	_	_	false[109]	Decl[109]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	27[352]	female[352]	nn1fs9jkn62eo9089lo89usbkb[352]	speaker: YOU[470]	_	_	_	_	_	
+34-9	864-870	weinen	GFailure[6]	gucken\_set1\_4[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-gucken\_set1\_4[6]	_	_	_	_	_	false[109]	Decl[109]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	27[352]	female[352]	nn1fs9jkn62eo9089lo89usbkb[352]	speaker: YOU[470]	_	_	_	_	_	
+34-10	871-880	begonnen.	GFailure[6]	gucken\_set1\_4[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-gucken\_set1\_4[6]	_	_	_	_	_	false[109]	Decl[109]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	27[352]	female[352]	nn1fs9jkn62eo9089lo89usbkb[352]	speaker: YOU[470]	_	_	_	_	_	
+
+#Text=Ich glaube es geht ihr echt nicht gut.
+35-1	882-885	Ich	GFailure[6]	gucken\_set1\_4[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-gucken\_set1\_4[6]	1	*	*	*	singular	false[110]	Decl[110]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	27[353]	female[353]	nn1fs9jkn62eo9089lo89usbkb[353]	speaker: YOU[471]	*->116-1	PerPron[116]	_	_	_	
+35-2	886-892	glaube	GFailure[6]	gucken\_set1\_4[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-gucken\_set1\_4[6]	_	_	_	_	_	false[110]	Decl[110]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	27[353]	female[353]	nn1fs9jkn62eo9089lo89usbkb[353]	speaker: YOU[471]	_	_	_	_	_	
+35-3	893-895	es	GFailure[6]	gucken\_set1\_4[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-gucken\_set1\_4[6]	*	*	DirObj	*	*	false[110]	Decl[110]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	27[353]	female[353]	nn1fs9jkn62eo9089lo89usbkb[353]	speaker: YOU[471]	_	_	_	_	_	
+35-4	896-900	geht	GFailure[6]	gucken\_set1\_4[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-gucken\_set1\_4[6]	_	_	_	_	_	false[110]	Decl[110]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	27[353]	female[353]	nn1fs9jkn62eo9089lo89usbkb[353]	speaker: YOU[471]	_	_	_	_	_	
+35-5	901-904	ihr	GFailure[6]	gucken\_set1\_4[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-gucken\_set1\_4[6]	3	*	IndirObj	*	singular	false[110]	Decl[110]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	27[353]	female[353]	nn1fs9jkn62eo9089lo89usbkb[353]	speaker: YOU[471]	*->5-3	PerPron[5]	_	_	_	
+35-6	905-909	echt	GFailure[6]	gucken\_set1\_4[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-gucken\_set1\_4[6]	_	_	_	_	_	false[110]	Decl[110]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	27[353]	female[353]	nn1fs9jkn62eo9089lo89usbkb[353]	speaker: YOU[471]	_	_	_	_	_	
+35-7	910-915	nicht	GFailure[6]	gucken\_set1\_4[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-gucken\_set1\_4[6]	_	_	_	_	_	false[110]	Decl[110]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	27[353]	female[353]	nn1fs9jkn62eo9089lo89usbkb[353]	speaker: YOU[471]	_	_	_	_	_	
+35-8	916-920	gut.	GFailure[6]	gucken\_set1\_4[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-gucken\_set1\_4[6]	_	_	_	_	_	false[110]	Decl[110]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	27[353]	female[353]	nn1fs9jkn62eo9089lo89usbkb[353]	speaker: YOU[471]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+36-1	922-937	END_OF_DOCUMENT	GFailure[6]	gucken\_set1\_4[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-gucken\_set1\_4[6]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Und, alles klar?
+37-1	939-943	Und,	GFailure[7]	gucken\_set1\_4[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-gucken\_set1\_4[7]	_	_	_	_	_	false[111]	Int[111]	*[236]	*[236]	*[236]	yn\_2[236]	yesno\_question[236]	openq[236]	*[354]	female[354]	*[354]	speaker:Amira[472]	_	_	QAP	*	38-1[112_111]	
+37-2	944-949	alles	GFailure[7]	gucken\_set1\_4[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-gucken\_set1\_4[7]	_	_	_	_	_	false[111]	Int[111]	*[236]	*[236]	*[236]	yn\_2[236]	yesno\_question[236]	openq[236]	*[354]	female[354]	*[354]	speaker:Amira[472]	_	_	_	_	_	
+37-3	950-955	klar?	GFailure[7]	gucken\_set1\_4[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-gucken\_set1\_4[7]	_	_	_	_	_	false[111]	Int[111]	*[236]	*[236]	*[236]	yn\_2[236]	yesno\_question[236]	openq[236]	*[354]	female[354]	*[354]	speaker:Amira[472]	_	_	_	_	_	
+
+#Text=Linda hat die Tagesschau geguckt
+38-1	957-962	Linda	GFailure[7]	gucken\_set1\_4[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-gucken\_set1\_4[7]	*	*	Subj	*	*	false[112]	Decl[112]	*[237]	gucken[237]	transitive[237]	*[237]	*[237]	item0[237]	24[355]	male[355]	qaaqp55l485lvs9rdvpvbtmqal[355]	speaker: YOU[473]	*->3-1	PropNm[3]	elaboration|CR	*|*	40-1[113_112]|39-1[0_112]	
+38-2	963-966	hat	GFailure[7]	gucken\_set1\_4[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-gucken\_set1\_4[7]	_	_	_	_	_	false[112]	Decl[112]	*[237]	gucken[237]	transitive[237]	*[237]	*[237]	item0[237]	24[355]	male[355]	qaaqp55l485lvs9rdvpvbtmqal[355]	speaker: YOU[473]	_	_	_	_	_	
+38-3	967-970	die	GFailure[7]	gucken\_set1\_4[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-gucken\_set1\_4[7]	*[43]	*[43]	object[43]	*[43]	*[43]	false[112]	Decl[112]	*[237]	gucken[237]	transitive[237]	*[237]	*[237]	item0[237]	24[355]	male[355]	qaaqp55l485lvs9rdvpvbtmqal[355]	speaker: YOU[473]	*->32-1	DefNP[32]	_	_	_	
+38-4	971-981	Tagesschau	GFailure[7]	gucken\_set1\_4[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-gucken\_set1\_4[7]	*[43]	*[43]	object[43]	*[43]	*[43]	false[112]	Decl[112]	*[237]	gucken[237]	transitive[237]	*[237]	*[237]	item0[237]	24[355]	male[355]	qaaqp55l485lvs9rdvpvbtmqal[355]	speaker: YOU[473]	*->32-1	DefNP[32]	_	_	_	
+38-5	982-989	geguckt	GFailure[7]	gucken\_set1\_4[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-gucken\_set1\_4[7]	_	_	_	_	_	false[112]	Decl[112]	*[237]	gucken[237]	transitive[237]	*[237]	*[237]	item0[237]	24[355]	male[355]	qaaqp55l485lvs9rdvpvbtmqal[355]	speaker: YOU[473]	_	_	_	_	_	
+
+#Text=Ähm?
+39-1	991-995	Ähm?	GFailure[7]	gucken\_set1\_4[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-gucken\_set1\_4[7]	_	_	_	_	_	false	NA	aehm\_question\_5	*	*	*	*	feedback	*	female	*	speaker:Amira	_	_	_	_	_	
+
+#Text=Während der Tagesschau bekam sie plötzlich einen Anfall
+40-1	997-1004	Während	GFailure[7]	gucken\_set1\_4[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-gucken\_set1\_4[7]	_	_	_	_	_	false[113]	Decl[113]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	24[356]	male[356]	qaaqp55l485lvs9rdvpvbtmqal[356]	speaker: YOU[474]	_	_	result	*	41-1[114_113]	
+40-2	1005-1008	der	GFailure[7]	gucken\_set1\_4[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-gucken\_set1\_4[7]	*[44]	*[44]	PrepObj[44]	*[44]	*[44]	false[113]	Decl[113]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	24[356]	male[356]	qaaqp55l485lvs9rdvpvbtmqal[356]	speaker: YOU[474]	*->32-2	DefNP[32]	_	_	_	
+40-3	1009-1019	Tagesschau	GFailure[7]	gucken\_set1\_4[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-gucken\_set1\_4[7]	*[44]	*[44]	PrepObj[44]	*[44]	*[44]	false[113]	Decl[113]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	24[356]	male[356]	qaaqp55l485lvs9rdvpvbtmqal[356]	speaker: YOU[474]	*->32-2	DefNP[32]	_	_	_	
+40-4	1020-1025	bekam	GFailure[7]	gucken\_set1\_4[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-gucken\_set1\_4[7]	_	_	_	_	_	false[113]	Decl[113]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	24[356]	male[356]	qaaqp55l485lvs9rdvpvbtmqal[356]	speaker: YOU[474]	_	_	_	_	_	
+40-5	1026-1029	sie	GFailure[7]	gucken\_set1\_4[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-gucken\_set1\_4[7]	3	*	Subj	*	singular	false[113]	Decl[113]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	24[356]	male[356]	qaaqp55l485lvs9rdvpvbtmqal[356]	speaker: YOU[474]	*->3-2	PerPron[3]	_	_	_	
+40-6	1030-1039	plötzlich	GFailure[7]	gucken\_set1\_4[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-gucken\_set1\_4[7]	_	_	_	_	_	false[113]	Decl[113]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	24[356]	male[356]	qaaqp55l485lvs9rdvpvbtmqal[356]	speaker: YOU[474]	_	_	_	_	_	
+40-7	1040-1045	einen	GFailure[7]	gucken\_set1\_4[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-gucken\_set1\_4[7]	*[45]	*[45]	DirObj[45]	*[45]	*[45]	false[113]	Decl[113]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	24[356]	male[356]	qaaqp55l485lvs9rdvpvbtmqal[356]	speaker: YOU[474]	*->40-1	IndefNP[40]	_	_	_	
+40-8	1046-1052	Anfall	GFailure[7]	gucken\_set1\_4[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-gucken\_set1\_4[7]	*[45]	*[45]	DirObj[45]	*[45]	*[45]	false[113]	Decl[113]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	24[356]	male[356]	qaaqp55l485lvs9rdvpvbtmqal[356]	speaker: YOU[474]	*->40-1	IndefNP[40]	_	_	_	
+
+#Text=Ich versuchte ihr zu helfen <BR> jedoch musste ich die Rettung alarmieren
+41-1	1054-1057	Ich	GFailure[7]	gucken\_set1\_4[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-gucken\_set1\_4[7]	1	*	Subj	*	singular	false[114]	Decl[114]	*[239]	*[239]	*[239]	*[239]	*[239]	input2[239]	24[357]	male[357]	qaaqp55l485lvs9rdvpvbtmqal[357]	speaker: YOU[475]	*->73-1	PerPron[73]	contrast	*	41-7[115_114]	
+41-2	1058-1067	versuchte	GFailure[7]	gucken\_set1\_4[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-gucken\_set1\_4[7]	_	_	_	_	_	false[114]	Decl[114]	*[239]	*[239]	*[239]	*[239]	*[239]	input2[239]	24[357]	male[357]	qaaqp55l485lvs9rdvpvbtmqal[357]	speaker: YOU[475]	_	_	_	_	_	
+41-3	1068-1071	ihr	GFailure[7]	gucken\_set1\_4[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-gucken\_set1\_4[7]	3	*	IndirObj	*	singular	false[114]	Decl[114]	*[239]	*[239]	*[239]	*[239]	*[239]	input2[239]	24[357]	male[357]	qaaqp55l485lvs9rdvpvbtmqal[357]	speaker: YOU[475]	*->3-3	PerPron[3]	_	_	_	
+41-4	1072-1074	zu	GFailure[7]	gucken\_set1\_4[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-gucken\_set1\_4[7]	_	_	_	_	_	false[114]	Decl[114]	*[239]	*[239]	*[239]	*[239]	*[239]	input2[239]	24[357]	male[357]	qaaqp55l485lvs9rdvpvbtmqal[357]	speaker: YOU[475]	_	_	_	_	_	
+41-5	1075-1081	helfen	GFailure[7]	gucken\_set1\_4[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-gucken\_set1\_4[7]	_	_	_	_	_	false[114]	Decl[114]	*[239]	*[239]	*[239]	*[239]	*[239]	input2[239]	24[357]	male[357]	qaaqp55l485lvs9rdvpvbtmqal[357]	speaker: YOU[475]	_	_	_	_	_	
+41-6	1082-1086	<BR>	GFailure[7]	gucken\_set1\_4[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-gucken\_set1\_4[7]	_	_	_	_	_	_	_	*[239]	*[239]	*[239]	*[239]	*[239]	input2[239]	24[357]	male[357]	qaaqp55l485lvs9rdvpvbtmqal[357]	speaker: YOU[475]	_	_	_	_	_	
+41-7	1087-1093	jedoch	GFailure[7]	gucken\_set1\_4[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-gucken\_set1\_4[7]	_	_	_	_	_	false[115]	Decl[115]	*[239]	*[239]	*[239]	*[239]	*[239]	input2[239]	24[357]	male[357]	qaaqp55l485lvs9rdvpvbtmqal[357]	speaker: YOU[475]	_	_	_	_	_	
+41-8	1094-1100	musste	GFailure[7]	gucken\_set1\_4[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-gucken\_set1\_4[7]	_	_	_	_	_	false[115]	Decl[115]	*[239]	*[239]	*[239]	*[239]	*[239]	input2[239]	24[357]	male[357]	qaaqp55l485lvs9rdvpvbtmqal[357]	speaker: YOU[475]	_	_	_	_	_	
+41-9	1101-1104	ich	GFailure[7]	gucken\_set1\_4[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-gucken\_set1\_4[7]	1	*	Subj	*	singular	false[115]	Decl[115]	*[239]	*[239]	*[239]	*[239]	*[239]	input2[239]	24[357]	male[357]	qaaqp55l485lvs9rdvpvbtmqal[357]	speaker: YOU[475]	*->73-2	PerPron[73]	_	_	_	
+41-10	1105-1108	die	GFailure[7]	gucken\_set1\_4[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-gucken\_set1\_4[7]	*[46]	*[46]	DirObj[46]	*[46]	*[46]	false[115]	Decl[115]	*[239]	*[239]	*[239]	*[239]	*[239]	input2[239]	24[357]	male[357]	qaaqp55l485lvs9rdvpvbtmqal[357]	speaker: YOU[475]	*->89-1	DefNP[89]	_	_	_	
+41-11	1109-1116	Rettung	GFailure[7]	gucken\_set1\_4[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-gucken\_set1\_4[7]	*[46]	*[46]	DirObj[46]	*[46]	*[46]	false[115]	Decl[115]	*[239]	*[239]	*[239]	*[239]	*[239]	input2[239]	24[357]	male[357]	qaaqp55l485lvs9rdvpvbtmqal[357]	speaker: YOU[475]	*->89-1	DefNP[89]	_	_	_	
+41-12	1117-1127	alarmieren	GFailure[7]	gucken\_set1\_4[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-gucken\_set1\_4[7]	_	_	_	_	_	false[115]	Decl[115]	*[239]	*[239]	*[239]	*[239]	*[239]	input2[239]	24[357]	male[357]	qaaqp55l485lvs9rdvpvbtmqal[357]	speaker: YOU[475]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+42-1	1129-1144	END_OF_DOCUMENT	GFailure[7]	gucken\_set1\_4[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-gucken\_set1\_4[7]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Und, alles klar?
+43-1	1146-1150	Und,	GFailure[8]	gucken\_set1\_4[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-gucken\_set1\_4[8]	_	_	_	_	_	false[116]	Int[116]	*[240]	*[240]	*[240]	yn\_2[240]	yesno\_question[240]	openq[240]	*[358]	female[358]	*[358]	speaker:Amira[476]	_	_	parallel|QAP	*|*	47-1[119_116]|44-1[117_116]	
+43-2	1151-1156	alles	GFailure[8]	gucken\_set1\_4[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-gucken\_set1\_4[8]	_	_	_	_	_	false[116]	Int[116]	*[240]	*[240]	*[240]	yn\_2[240]	yesno\_question[240]	openq[240]	*[358]	female[358]	*[358]	speaker:Amira[476]	_	_	_	_	_	
+43-3	1157-1162	klar?	GFailure[8]	gucken\_set1\_4[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-gucken\_set1\_4[8]	_	_	_	_	_	false[116]	Int[116]	*[240]	*[240]	*[240]	yn\_2[240]	yesno\_question[240]	openq[240]	*[358]	female[358]	*[358]	speaker:Amira[476]	_	_	_	_	_	
+
+#Text=Linda hat die Tagesschau geguckt
+44-1	1164-1169	Linda	GFailure[8]	gucken\_set1\_4[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-gucken\_set1\_4[8]	*	*	Subj	*	*	false[117]	Decl[117]	*[241]	gucken[241]	transitive[241]	*[241]	*[241]	item0[241]	25[359]	female[359]	t6ah1r7hfmcncb44kgnh0sjmv6[359]	speaker: YOU[477]	*->36-1	PropNm[36]	explanation|CR	*|*	46-1[118_117]|45-1[0_117]	
+44-2	1170-1173	hat	GFailure[8]	gucken\_set1\_4[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-gucken\_set1\_4[8]	_	_	_	_	_	false[117]	Decl[117]	*[241]	gucken[241]	transitive[241]	*[241]	*[241]	item0[241]	25[359]	female[359]	t6ah1r7hfmcncb44kgnh0sjmv6[359]	speaker: YOU[477]	_	_	_	_	_	
+44-3	1174-1177	die	GFailure[8]	gucken\_set1\_4[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-gucken\_set1\_4[8]	*[47]	*[47]	object[47]	*[47]	*[47]	false[117]	Decl[117]	*[241]	gucken[241]	transitive[241]	*[241]	*[241]	item0[241]	25[359]	female[359]	t6ah1r7hfmcncb44kgnh0sjmv6[359]	speaker: YOU[477]	*->103-1	DefNP[103]	_	_	_	
+44-4	1178-1188	Tagesschau	GFailure[8]	gucken\_set1\_4[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-gucken\_set1\_4[8]	*[47]	*[47]	object[47]	*[47]	*[47]	false[117]	Decl[117]	*[241]	gucken[241]	transitive[241]	*[241]	*[241]	item0[241]	25[359]	female[359]	t6ah1r7hfmcncb44kgnh0sjmv6[359]	speaker: YOU[477]	*->103-1	DefNP[103]	_	_	_	
+44-5	1189-1196	geguckt	GFailure[8]	gucken\_set1\_4[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-gucken\_set1\_4[8]	_	_	_	_	_	false[117]	Decl[117]	*[241]	gucken[241]	transitive[241]	*[241]	*[241]	item0[241]	25[359]	female[359]	t6ah1r7hfmcncb44kgnh0sjmv6[359]	speaker: YOU[477]	_	_	_	_	_	
+
+#Text=Ähm?
+45-1	1198-1202	Ähm?	GFailure[8]	gucken\_set1\_4[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-gucken\_set1\_4[8]	_	_	_	_	_	false	NA	aehm\_question\_5	*	*	*	*	feedback	*	female	*	speaker:Amira	_	_	_	_	_	
+
+#Text=Was spannenderes gibt es heute leider nicht zu berichten haha
+46-1	1204-1207	Was	GFailure[8]	gucken\_set1\_4[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-gucken\_set1\_4[8]	*[48]	*[48]	DirObj[48]	*[48]	*[48]	false[118]	Decl[118]	*[242]	*[242]	*[242]	*[242]	*[242]	input1[242]	25[360]	female[360]	t6ah1r7hfmcncb44kgnh0sjmv6[360]	speaker: YOU[478]	*->59-1	IndefNP[59]	_	_	_	
+46-2	1208-1220	spannenderes	GFailure[8]	gucken\_set1\_4[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-gucken\_set1\_4[8]	*[48]	*[48]	DirObj[48]	*[48]	*[48]	false[118]	Decl[118]	*[242]	*[242]	*[242]	*[242]	*[242]	input1[242]	25[360]	female[360]	t6ah1r7hfmcncb44kgnh0sjmv6[360]	speaker: YOU[478]	*->59-1	IndefNP[59]	_	_	_	
+46-3	1221-1225	gibt	GFailure[8]	gucken\_set1\_4[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-gucken\_set1\_4[8]	_	_	_	_	_	false[118]	Decl[118]	*[242]	*[242]	*[242]	*[242]	*[242]	input1[242]	25[360]	female[360]	t6ah1r7hfmcncb44kgnh0sjmv6[360]	speaker: YOU[478]	_	_	_	_	_	
+46-4	1226-1228	es	GFailure[8]	gucken\_set1\_4[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-gucken\_set1\_4[8]	*	*	Subj	*	*	false[118]	Decl[118]	*[242]	*[242]	*[242]	*[242]	*[242]	input1[242]	25[360]	female[360]	t6ah1r7hfmcncb44kgnh0sjmv6[360]	speaker: YOU[478]	_	_	_	_	_	
+46-5	1229-1234	heute	GFailure[8]	gucken\_set1\_4[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-gucken\_set1\_4[8]	_	_	_	_	_	false[118]	Decl[118]	*[242]	*[242]	*[242]	*[242]	*[242]	input1[242]	25[360]	female[360]	t6ah1r7hfmcncb44kgnh0sjmv6[360]	speaker: YOU[478]	_	_	_	_	_	
+46-6	1235-1241	leider	GFailure[8]	gucken\_set1\_4[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-gucken\_set1\_4[8]	_	_	_	_	_	false[118]	Decl[118]	*[242]	*[242]	*[242]	*[242]	*[242]	input1[242]	25[360]	female[360]	t6ah1r7hfmcncb44kgnh0sjmv6[360]	speaker: YOU[478]	_	_	_	_	_	
+46-7	1242-1247	nicht	GFailure[8]	gucken\_set1\_4[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-gucken\_set1\_4[8]	_	_	_	_	_	false[118]	Decl[118]	*[242]	*[242]	*[242]	*[242]	*[242]	input1[242]	25[360]	female[360]	t6ah1r7hfmcncb44kgnh0sjmv6[360]	speaker: YOU[478]	_	_	_	_	_	
+46-8	1248-1250	zu	GFailure[8]	gucken\_set1\_4[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-gucken\_set1\_4[8]	_	_	_	_	_	false[118]	Decl[118]	*[242]	*[242]	*[242]	*[242]	*[242]	input1[242]	25[360]	female[360]	t6ah1r7hfmcncb44kgnh0sjmv6[360]	speaker: YOU[478]	_	_	_	_	_	
+46-9	1251-1260	berichten	GFailure[8]	gucken\_set1\_4[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-gucken\_set1\_4[8]	_	_	_	_	_	false[118]	Decl[118]	*[242]	*[242]	*[242]	*[242]	*[242]	input1[242]	25[360]	female[360]	t6ah1r7hfmcncb44kgnh0sjmv6[360]	speaker: YOU[478]	_	_	_	_	_	
+46-10	1261-1265	haha	GFailure[8]	gucken\_set1\_4[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-gucken\_set1\_4[8]	_	_	_	_	_	false[118]	Decl[118]	*[242]	*[242]	*[242]	*[242]	*[242]	input1[242]	25[360]	female[360]	t6ah1r7hfmcncb44kgnh0sjmv6[360]	speaker: YOU[478]	_	_	_	_	_	
+
+#Text=Alles klar bei dir?
+47-1	1267-1272	Alles	GFailure[8]	gucken\_set1\_4[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-gucken\_set1\_4[8]	_	_	_	_	_	false[119]	Int[119]	*[243]	*[243]	*[243]	*[243]	*[243]	input2[243]	25[361]	female[361]	t6ah1r7hfmcncb44kgnh0sjmv6[361]	speaker: YOU[479]	_	_	_	_	_	
+47-2	1273-1277	klar	GFailure[8]	gucken\_set1\_4[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-gucken\_set1\_4[8]	_	_	_	_	_	false[119]	Int[119]	*[243]	*[243]	*[243]	*[243]	*[243]	input2[243]	25[361]	female[361]	t6ah1r7hfmcncb44kgnh0sjmv6[361]	speaker: YOU[479]	_	_	_	_	_	
+47-3	1278-1281	bei	GFailure[8]	gucken\_set1\_4[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-gucken\_set1\_4[8]	_	_	_	_	_	false[119]	Int[119]	*[243]	*[243]	*[243]	*[243]	*[243]	input2[243]	25[361]	female[361]	t6ah1r7hfmcncb44kgnh0sjmv6[361]	speaker: YOU[479]	_	_	_	_	_	
+47-4	1282-1286	dir?	GFailure[8]	gucken\_set1\_4[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-gucken\_set1\_4[8]	2	*	PrepObj	*	singular	false[119]	Int[119]	*[243]	*[243]	*[243]	*[243]	*[243]	input2[243]	25[361]	female[361]	t6ah1r7hfmcncb44kgnh0sjmv6[361]	speaker: YOU[479]	*->29-1	PerPron[29]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+48-1	1288-1303	END_OF_DOCUMENT	GFailure[8]	gucken\_set1\_4[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-gucken\_set1\_4[8]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Und, alles klar?
+49-1	1305-1309	Und,	GFailure[9]	gucken\_set1\_4[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-gucken\_set1\_4[9]	_	_	_	_	_	false[120]	Int[120]	*[244]	*[244]	*[244]	yn\_2[244]	yesno\_question[244]	openq[244]	*[362]	female[362]	*[362]	speaker:Amira[480]	_	_	QAP	*	50-1[121_120]	
+49-2	1310-1315	alles	GFailure[9]	gucken\_set1\_4[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-gucken\_set1\_4[9]	_	_	_	_	_	false[120]	Int[120]	*[244]	*[244]	*[244]	yn\_2[244]	yesno\_question[244]	openq[244]	*[362]	female[362]	*[362]	speaker:Amira[480]	_	_	_	_	_	
+49-3	1316-1321	klar?	GFailure[9]	gucken\_set1\_4[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-gucken\_set1\_4[9]	_	_	_	_	_	false[120]	Int[120]	*[244]	*[244]	*[244]	yn\_2[244]	yesno\_question[244]	openq[244]	*[362]	female[362]	*[362]	speaker:Amira[480]	_	_	_	_	_	
+
+#Text=Linda hat die Tagesschau geguckt
+50-1	1323-1328	Linda	GFailure[9]	gucken\_set1\_4[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-gucken\_set1\_4[9]	*	*	Subj	*	*	false[121]	Decl[121]	*[245]	gucken[245]	transitive[245]	*[245]	*[245]	item0[245]	29[363]	female[363]	ue2vk0ts1hkpki58vsa3j8t39j[363]	speaker: YOU[481]	*->50-1	PropNm[50]	explanation|CR	*|*	52-1[122_121]|51-1[0_121]	
+50-2	1329-1332	hat	GFailure[9]	gucken\_set1\_4[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-gucken\_set1\_4[9]	_	_	_	_	_	false[121]	Decl[121]	*[245]	gucken[245]	transitive[245]	*[245]	*[245]	item0[245]	29[363]	female[363]	ue2vk0ts1hkpki58vsa3j8t39j[363]	speaker: YOU[481]	_	_	_	_	_	
+50-3	1333-1336	die	GFailure[9]	gucken\_set1\_4[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-gucken\_set1\_4[9]	*[49]	*[49]	object[49]	*[49]	*[49]	false[121]	Decl[121]	*[245]	gucken[245]	transitive[245]	*[245]	*[245]	item0[245]	29[363]	female[363]	ue2vk0ts1hkpki58vsa3j8t39j[363]	speaker: YOU[481]	*->66-1	DefNP[66]	_	_	_	
+50-4	1337-1347	Tagesschau	GFailure[9]	gucken\_set1\_4[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-gucken\_set1\_4[9]	*[49]	*[49]	object[49]	*[49]	*[49]	false[121]	Decl[121]	*[245]	gucken[245]	transitive[245]	*[245]	*[245]	item0[245]	29[363]	female[363]	ue2vk0ts1hkpki58vsa3j8t39j[363]	speaker: YOU[481]	*->66-1	DefNP[66]	_	_	_	
+50-5	1348-1355	geguckt	GFailure[9]	gucken\_set1\_4[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-gucken\_set1\_4[9]	_	_	_	_	_	false[121]	Decl[121]	*[245]	gucken[245]	transitive[245]	*[245]	*[245]	item0[245]	29[363]	female[363]	ue2vk0ts1hkpki58vsa3j8t39j[363]	speaker: YOU[481]	_	_	_	_	_	
+
+#Text=Ähm?
+51-1	1357-1361	Ähm?	GFailure[9]	gucken\_set1\_4[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-gucken\_set1\_4[9]	_	_	_	_	_	false	NA	aehm\_question\_5	*	*	*	*	feedback	*	female	*	speaker:Amira	_	_	_	_	_	
+
+#Text=Sie wurde auf der Strasse von Reportern für irgendetwas ausgefragt.
+52-1	1363-1366	Sie	GFailure[9]	gucken\_set1\_4[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-gucken\_set1\_4[9]	3	*	Subj	*	singular	false[122]	Decl[122]	*[246]	*[246]	*[246]	*[246]	*[246]	input1[246]	29[364]	female[364]	ue2vk0ts1hkpki58vsa3j8t39j[364]	speaker: YOU[482]	*->50-2	PerPron[50]	contrast	*	53-1[123_122]	
+52-2	1367-1372	wurde	GFailure[9]	gucken\_set1\_4[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-gucken\_set1\_4[9]	_	_	_	_	_	false[122]	Decl[122]	*[246]	*[246]	*[246]	*[246]	*[246]	input1[246]	29[364]	female[364]	ue2vk0ts1hkpki58vsa3j8t39j[364]	speaker: YOU[482]	_	_	_	_	_	
+52-3	1373-1376	auf	GFailure[9]	gucken\_set1\_4[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-gucken\_set1\_4[9]	_	_	_	_	_	false[122]	Decl[122]	*[246]	*[246]	*[246]	*[246]	*[246]	input1[246]	29[364]	female[364]	ue2vk0ts1hkpki58vsa3j8t39j[364]	speaker: YOU[482]	_	_	_	_	_	
+52-4	1377-1380	der	GFailure[9]	gucken\_set1\_4[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-gucken\_set1\_4[9]	*[50]	*[50]	PrepObj[50]	*[50]	*[50]	false[122]	Decl[122]	*[246]	*[246]	*[246]	*[246]	*[246]	input1[246]	29[364]	female[364]	ue2vk0ts1hkpki58vsa3j8t39j[364]	speaker: YOU[482]	*->15-1	DefNP[15]	_	_	_	
+52-5	1381-1388	Strasse	GFailure[9]	gucken\_set1\_4[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-gucken\_set1\_4[9]	*[50]	*[50]	PrepObj[50]	*[50]	*[50]	false[122]	Decl[122]	*[246]	*[246]	*[246]	*[246]	*[246]	input1[246]	29[364]	female[364]	ue2vk0ts1hkpki58vsa3j8t39j[364]	speaker: YOU[482]	*->15-1	DefNP[15]	_	_	_	
+52-6	1389-1392	von	GFailure[9]	gucken\_set1\_4[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-gucken\_set1\_4[9]	*[50]	*[50]	PrepObj[50]	*[50]	*[50]	false[122]	Decl[122]	*[246]	*[246]	*[246]	*[246]	*[246]	input1[246]	29[364]	female[364]	ue2vk0ts1hkpki58vsa3j8t39j[364]	speaker: YOU[482]	_	_	_	_	_	
+52-7	1393-1402	Reportern	GFailure[9]	gucken\_set1\_4[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-gucken\_set1\_4[9]	*[50]	*[50]	PrepObj[50]	*[50]	*[50]	false[122]	Decl[122]	*[246]	*[246]	*[246]	*[246]	*[246]	input1[246]	29[364]	female[364]	ue2vk0ts1hkpki58vsa3j8t39j[364]	speaker: YOU[482]	*->99-1	IndefNP[99]	_	_	_	
+52-8	1403-1406	für	GFailure[9]	gucken\_set1\_4[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-gucken\_set1\_4[9]	_	_	_	_	_	false[122]	Decl[122]	*[246]	*[246]	*[246]	*[246]	*[246]	input1[246]	29[364]	female[364]	ue2vk0ts1hkpki58vsa3j8t39j[364]	speaker: YOU[482]	_	_	_	_	_	
+52-9	1407-1418	irgendetwas	GFailure[9]	gucken\_set1\_4[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-gucken\_set1\_4[9]	*	*	PrepObj	*	*	false[122]	Decl[122]	*[246]	*[246]	*[246]	*[246]	*[246]	input1[246]	29[364]	female[364]	ue2vk0ts1hkpki58vsa3j8t39j[364]	speaker: YOU[482]	*->19-1	IndefNP[19]	_	_	_	
+52-10	1419-1430	ausgefragt.	GFailure[9]	gucken\_set1\_4[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-gucken\_set1\_4[9]	_	_	_	_	_	false[122]	Decl[122]	*[246]	*[246]	*[246]	*[246]	*[246]	input1[246]	29[364]	female[364]	ue2vk0ts1hkpki58vsa3j8t39j[364]	speaker: YOU[482]	_	_	_	_	_	
+
+#Text=Aber man hat sie doch nicht gezeigt.
+53-1	1432-1436	Aber	GFailure[9]	gucken\_set1\_4[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-gucken\_set1\_4[9]	_	_	_	_	_	false[123]	Decl[123]	*[247]	*[247]	*[247]	*[247]	*[247]	input2[247]	29[365]	female[365]	ue2vk0ts1hkpki58vsa3j8t39j[365]	speaker: YOU[483]	_	_	_	_	_	
+53-2	1437-1440	man	GFailure[9]	gucken\_set1\_4[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-gucken\_set1\_4[9]	*	*	Subj	*	*	false[123]	Decl[123]	*[247]	*[247]	*[247]	*[247]	*[247]	input2[247]	29[365]	female[365]	ue2vk0ts1hkpki58vsa3j8t39j[365]	speaker: YOU[483]	_	_	_	_	_	
+53-3	1441-1444	hat	GFailure[9]	gucken\_set1\_4[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-gucken\_set1\_4[9]	_	_	_	_	_	false[123]	Decl[123]	*[247]	*[247]	*[247]	*[247]	*[247]	input2[247]	29[365]	female[365]	ue2vk0ts1hkpki58vsa3j8t39j[365]	speaker: YOU[483]	_	_	_	_	_	
+53-4	1445-1448	sie	GFailure[9]	gucken\_set1\_4[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-gucken\_set1\_4[9]	3	*	DirObj	*	singular	false[123]	Decl[123]	*[247]	*[247]	*[247]	*[247]	*[247]	input2[247]	29[365]	female[365]	ue2vk0ts1hkpki58vsa3j8t39j[365]	speaker: YOU[483]	*->50-3	PerPron[50]	_	_	_	
+53-5	1449-1453	doch	GFailure[9]	gucken\_set1\_4[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-gucken\_set1\_4[9]	_	_	_	_	_	false[123]	Decl[123]	*[247]	*[247]	*[247]	*[247]	*[247]	input2[247]	29[365]	female[365]	ue2vk0ts1hkpki58vsa3j8t39j[365]	speaker: YOU[483]	_	_	_	_	_	
+53-6	1454-1459	nicht	GFailure[9]	gucken\_set1\_4[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-gucken\_set1\_4[9]	_	_	_	_	_	false[123]	Decl[123]	*[247]	*[247]	*[247]	*[247]	*[247]	input2[247]	29[365]	female[365]	ue2vk0ts1hkpki58vsa3j8t39j[365]	speaker: YOU[483]	_	_	_	_	_	
+53-7	1460-1468	gezeigt.	GFailure[9]	gucken\_set1\_4[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-gucken\_set1\_4[9]	_	_	_	_	_	false[123]	Decl[123]	*[247]	*[247]	*[247]	*[247]	*[247]	input2[247]	29[365]	female[365]	ue2vk0ts1hkpki58vsa3j8t39j[365]	speaker: YOU[483]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+54-1	1470-1485	END_OF_DOCUMENT	GFailure[9]	gucken\_set1\_4[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-gucken\_set1\_4[9]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Und, alles klar?
+55-1	1487-1491	Und,	GFailure[10]	gucken\_set1\_4[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-gucken\_set1\_4[10]	_	_	_	_	_	false[124]	Int[124]	*[248]	*[248]	*[248]	yn\_2[248]	yesno\_question[248]	openq[248]	*[366]	female[366]	*[366]	speaker:Amira[484]	_	_	QAP	*	56-1[125_124]	
+55-2	1492-1497	alles	GFailure[10]	gucken\_set1\_4[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-gucken\_set1\_4[10]	_	_	_	_	_	false[124]	Int[124]	*[248]	*[248]	*[248]	yn\_2[248]	yesno\_question[248]	openq[248]	*[366]	female[366]	*[366]	speaker:Amira[484]	_	_	_	_	_	
+55-3	1498-1503	klar?	GFailure[10]	gucken\_set1\_4[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-gucken\_set1\_4[10]	_	_	_	_	_	false[124]	Int[124]	*[248]	*[248]	*[248]	yn\_2[248]	yesno\_question[248]	openq[248]	*[366]	female[366]	*[366]	speaker:Amira[484]	_	_	_	_	_	
+
+#Text=Linda hat die Tagesschau geguckt
+56-1	1505-1510	Linda	GFailure[10]	gucken\_set1\_4[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-gucken\_set1\_4[10]	*	*	Subj	*	*	false[125]	Decl[125]	*[249]	gucken[249]	transitive[249]	*[249]	*[249]	item0[249]	58[367]	male[367]	v3le8i0hm1ekj0ps9oou7k56t5[367]	speaker: YOU[485]	*->27-1	PropNm[27]	elaboration|CR	*|*	59-1[127_125]|57-1[0_125]	
+56-2	1511-1514	hat	GFailure[10]	gucken\_set1\_4[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-gucken\_set1\_4[10]	_	_	_	_	_	false[125]	Decl[125]	*[249]	gucken[249]	transitive[249]	*[249]	*[249]	item0[249]	58[367]	male[367]	v3le8i0hm1ekj0ps9oou7k56t5[367]	speaker: YOU[485]	_	_	_	_	_	
+56-3	1515-1518	die	GFailure[10]	gucken\_set1\_4[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-gucken\_set1\_4[10]	*[51]	*[51]	object[51]	*[51]	*[51]	false[125]	Decl[125]	*[249]	gucken[249]	transitive[249]	*[249]	*[249]	item0[249]	58[367]	male[367]	v3le8i0hm1ekj0ps9oou7k56t5[367]	speaker: YOU[485]	*->68-1	DefNP[68]	_	_	_	
+56-4	1519-1529	Tagesschau	GFailure[10]	gucken\_set1\_4[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-gucken\_set1\_4[10]	*[51]	*[51]	object[51]	*[51]	*[51]	false[125]	Decl[125]	*[249]	gucken[249]	transitive[249]	*[249]	*[249]	item0[249]	58[367]	male[367]	v3le8i0hm1ekj0ps9oou7k56t5[367]	speaker: YOU[485]	*->68-1	DefNP[68]	_	_	_	
+56-5	1530-1537	geguckt	GFailure[10]	gucken\_set1\_4[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-gucken\_set1\_4[10]	_	_	_	_	_	false[125]	Decl[125]	*[249]	gucken[249]	transitive[249]	*[249]	*[249]	item0[249]	58[367]	male[367]	v3le8i0hm1ekj0ps9oou7k56t5[367]	speaker: YOU[485]	_	_	_	_	_	
+
+#Text=Ähm?
+57-1	1539-1543	Ähm?	GFailure[10]	gucken\_set1\_4[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-gucken\_set1\_4[10]	_	_	_	_	_	false	NA	aehm\_question\_5	*	*	*	*	feedback	*	female	*	speaker:Amira	_	_	acknowledgement|parallel	*|*	58-1|58-3[126_0]	
+
+#Text=ja <BR> ähm ich auch
+58-1	1545-1547	ja	GFailure[10]	gucken\_set1\_4[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-gucken\_set1\_4[10]	_	_	_	_	_	false	NA	*[250]	*[250]	*[250]	*[250]	*[250]	input1[250]	58[368]	male[368]	v3le8i0hm1ekj0ps9oou7k56t5[368]	speaker: YOU[486]	_	_	_	_	_	
+58-2	1548-1552	<BR>	GFailure[10]	gucken\_set1\_4[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-gucken\_set1\_4[10]	_	_	_	_	_	_	_	*[250]	*[250]	*[250]	*[250]	*[250]	input1[250]	58[368]	male[368]	v3le8i0hm1ekj0ps9oou7k56t5[368]	speaker: YOU[486]	_	_	_	_	_	
+58-3	1553-1556	ähm	GFailure[10]	gucken\_set1\_4[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-gucken\_set1\_4[10]	_	_	_	_	_	false[126]	NA[126]	*[250]	*[250]	*[250]	*[250]	*[250]	input1[250]	58[368]	male[368]	v3le8i0hm1ekj0ps9oou7k56t5[368]	speaker: YOU[486]	_	_	_	_	_	
+58-4	1557-1560	ich	GFailure[10]	gucken\_set1\_4[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-gucken\_set1\_4[10]	1	*	Subj	*	singular	false[126]	NA[126]	*[250]	*[250]	*[250]	*[250]	*[250]	input1[250]	58[368]	male[368]	v3le8i0hm1ekj0ps9oou7k56t5[368]	speaker: YOU[486]	*->115-1	PerPron[115]	_	_	_	
+58-5	1561-1565	auch	GFailure[10]	gucken\_set1\_4[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-gucken\_set1\_4[10]	_	_	_	_	_	false[126]	NA[126]	*[250]	*[250]	*[250]	*[250]	*[250]	input1[250]	58[368]	male[368]	v3le8i0hm1ekj0ps9oou7k56t5[368]	speaker: YOU[486]	_	_	_	_	_	
+
+#Text=gut für lena
+59-1	1567-1570	gut	GFailure[10]	gucken\_set1\_4[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-gucken\_set1\_4[10]	_	_	_	_	_	false[127]	NA[127]	*[251]	*[251]	*[251]	*[251]	*[251]	input2[251]	58[369]	male[369]	v3le8i0hm1ekj0ps9oou7k56t5[369]	speaker: YOU[487]	_	_	_	_	_	
+59-2	1571-1574	für	GFailure[10]	gucken\_set1\_4[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-gucken\_set1\_4[10]	_	_	_	_	_	false[127]	NA[127]	*[251]	*[251]	*[251]	*[251]	*[251]	input2[251]	58[369]	male[369]	v3le8i0hm1ekj0ps9oou7k56t5[369]	speaker: YOU[487]	_	_	_	_	_	
+59-3	1575-1579	lena	GFailure[10]	gucken\_set1\_4[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-gucken\_set1\_4[10]	*	*	PrepObj	*	*	false[127]	NA[127]	*[251]	*[251]	*[251]	*[251]	*[251]	input2[251]	58[369]	male[369]	v3le8i0hm1ekj0ps9oou7k56t5[369]	speaker: YOU[487]	*->46-1	PropNm[46]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+60-1	1581-1596	END_OF_DOCUMENT	GFailure[10]	gucken\_set1\_4[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-gucken\_set1\_4[10]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Und, alles klar?
+61-1	1598-1602	Und,	GSuccess[11]	gucken\_set1\_4[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-gucken\_set1\_4[11]	_	_	_	_	_	false[128]	Int[128]	*[252]	*[252]	*[252]	yn\_2[252]	yesno\_question[252]	openq[252]	*[370]	female[370]	*[370]	speaker:Amira[488]	_	_	QAP	*	62-1[129_128]	
+61-2	1603-1608	alles	GSuccess[11]	gucken\_set1\_4[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-gucken\_set1\_4[11]	_	_	_	_	_	false[128]	Int[128]	*[252]	*[252]	*[252]	yn\_2[252]	yesno\_question[252]	openq[252]	*[370]	female[370]	*[370]	speaker:Amira[488]	_	_	_	_	_	
+61-3	1609-1614	klar?	GSuccess[11]	gucken\_set1\_4[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-gucken\_set1\_4[11]	_	_	_	_	_	false[128]	Int[128]	*[252]	*[252]	*[252]	yn\_2[252]	yesno\_question[252]	openq[252]	*[370]	female[370]	*[370]	speaker:Amira[488]	_	_	_	_	_	
+
+#Text=Linda hat die Tagesschau geguckt
+62-1	1616-1621	Linda	GSuccess[11]	gucken\_set1\_4[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-gucken\_set1\_4[11]	*	*	Subj	*	*	false[129]	Decl[129]	*[253]	gucken[253]	transitive[253]	*[253]	*[253]	item0[253]	35[371]	female[371]	2k56uavscuainedj0q9i1sb693[371]	speaker: YOU[489]	*->122-1	PropNm[122]	result|acknowledgement	*|*	64-1[130_129]|63-1[0_129]	
+62-2	1622-1625	hat	GSuccess[11]	gucken\_set1\_4[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-gucken\_set1\_4[11]	_	_	_	_	_	false[129]	Decl[129]	*[253]	gucken[253]	transitive[253]	*[253]	*[253]	item0[253]	35[371]	female[371]	2k56uavscuainedj0q9i1sb693[371]	speaker: YOU[489]	*->93-1	clause[93]	_	_	_	
+62-3	1626-1629	die	GSuccess[11]	gucken\_set1\_4[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-gucken\_set1\_4[11]	*[52]	*[52]	object[52]	*[52]	*[52]	false[129]	Decl[129]	*[253]	gucken[253]	transitive[253]	*[253]	*[253]	item0[253]	35[371]	female[371]	2k56uavscuainedj0q9i1sb693[371]	speaker: YOU[489]	*->93-1|*->96-1	clause[93]|DefNP[96]	_	_	_	
+62-4	1630-1640	Tagesschau	GSuccess[11]	gucken\_set1\_4[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-gucken\_set1\_4[11]	*[52]	*[52]	object[52]	*[52]	*[52]	false[129]	Decl[129]	*[253]	gucken[253]	transitive[253]	*[253]	*[253]	item0[253]	35[371]	female[371]	2k56uavscuainedj0q9i1sb693[371]	speaker: YOU[489]	*->93-1|*->96-1	clause[93]|DefNP[96]	_	_	_	
+62-5	1641-1648	geguckt	GSuccess[11]	gucken\_set1\_4[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-gucken\_set1\_4[11]	_	_	_	_	_	false[129]	Decl[129]	*[253]	gucken[253]	transitive[253]	*[253]	*[253]	item0[253]	35[371]	female[371]	2k56uavscuainedj0q9i1sb693[371]	speaker: YOU[489]	*->93-1	clause[93]	_	_	_	
+
+#Text=Okay
+63-1	1650-1654	Okay	GSuccess[11]	gucken\_set1\_4[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-gucken\_set1\_4[11]	_	_	_	_	_	false	NA	okay\_22	*	*	*	*	feedback	*	female	*	speaker:Amira	_	_	_	_	_	
+
+#Text=Hat ihr nicht so gut getan.
+64-1	1656-1659	Hat	GSuccess[11]	gucken\_set1\_4[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-gucken\_set1\_4[11]	3	*	*	*	singular	false[130]	Decl[130]	*[254]	*[254]	*[254]	*[254]	*[254]	input1[254]	35[372]	female[372]	2k56uavscuainedj0q9i1sb693[372]	speaker: YOU[490]	*->93-2	zero[93]	explanation	*	65-1[131_130]	
+64-2	1660-1663	ihr	GSuccess[11]	gucken\_set1\_4[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-gucken\_set1\_4[11]	3	*	IndirObj	*	singular	false[130]	Decl[130]	*[254]	*[254]	*[254]	*[254]	*[254]	input1[254]	35[372]	female[372]	2k56uavscuainedj0q9i1sb693[372]	speaker: YOU[490]	*->122-2	PerPron[122]	_	_	_	
+64-3	1664-1669	nicht	GSuccess[11]	gucken\_set1\_4[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-gucken\_set1\_4[11]	_	_	_	_	_	false[130]	Decl[130]	*[254]	*[254]	*[254]	*[254]	*[254]	input1[254]	35[372]	female[372]	2k56uavscuainedj0q9i1sb693[372]	speaker: YOU[490]	_	_	_	_	_	
+64-4	1670-1672	so	GSuccess[11]	gucken\_set1\_4[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-gucken\_set1\_4[11]	_	_	_	_	_	false[130]	Decl[130]	*[254]	*[254]	*[254]	*[254]	*[254]	input1[254]	35[372]	female[372]	2k56uavscuainedj0q9i1sb693[372]	speaker: YOU[490]	_	_	_	_	_	
+64-5	1673-1676	gut	GSuccess[11]	gucken\_set1\_4[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-gucken\_set1\_4[11]	_	_	_	_	_	false[130]	Decl[130]	*[254]	*[254]	*[254]	*[254]	*[254]	input1[254]	35[372]	female[372]	2k56uavscuainedj0q9i1sb693[372]	speaker: YOU[490]	_	_	_	_	_	
+64-6	1677-1683	getan.	GSuccess[11]	gucken\_set1\_4[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-gucken\_set1\_4[11]	_	_	_	_	_	false[130]	Decl[130]	*[254]	*[254]	*[254]	*[254]	*[254]	input1[254]	35[372]	female[372]	2k56uavscuainedj0q9i1sb693[372]	speaker: YOU[490]	_	_	_	_	_	
+
+#Text=Redet jetzt viel über den Krieg.
+65-1	1685-1690	Redet	GSuccess[11]	gucken\_set1\_4[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-gucken\_set1\_4[11]	3	*	*	*	singular	false[131]	Decl[131]	*[255]	*[255]	*[255]	*[255]	*[255]	input2[255]	35[373]	female[373]	2k56uavscuainedj0q9i1sb693[373]	speaker: YOU[491]	*->88-1	zero[88]	_	_	_	
+65-2	1691-1696	jetzt	GSuccess[11]	gucken\_set1\_4[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-gucken\_set1\_4[11]	_	_	_	_	_	false[131]	Decl[131]	*[255]	*[255]	*[255]	*[255]	*[255]	input2[255]	35[373]	female[373]	2k56uavscuainedj0q9i1sb693[373]	speaker: YOU[491]	_	_	_	_	_	
+65-3	1697-1701	viel	GSuccess[11]	gucken\_set1\_4[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-gucken\_set1\_4[11]	_	_	_	_	_	false[131]	Decl[131]	*[255]	*[255]	*[255]	*[255]	*[255]	input2[255]	35[373]	female[373]	2k56uavscuainedj0q9i1sb693[373]	speaker: YOU[491]	_	_	_	_	_	
+65-4	1702-1706	über	GSuccess[11]	gucken\_set1\_4[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-gucken\_set1\_4[11]	_	_	_	_	_	false[131]	Decl[131]	*[255]	*[255]	*[255]	*[255]	*[255]	input2[255]	35[373]	female[373]	2k56uavscuainedj0q9i1sb693[373]	speaker: YOU[491]	_	_	_	_	_	
+65-5	1707-1710	den	GSuccess[11]	gucken\_set1\_4[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-gucken\_set1\_4[11]	*[53]	*[53]	PrepObj[53]	*[53]	*[53]	false[131]	Decl[131]	*[255]	*[255]	*[255]	*[255]	*[255]	input2[255]	35[373]	female[373]	2k56uavscuainedj0q9i1sb693[373]	speaker: YOU[491]	*->45-1	DefNP[45]	_	_	_	
+65-6	1711-1717	Krieg.	GSuccess[11]	gucken\_set1\_4[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-gucken\_set1\_4[11]	*[53]	*[53]	PrepObj[53]	*[53]	*[53]	false[131]	Decl[131]	*[255]	*[255]	*[255]	*[255]	*[255]	input2[255]	35[373]	female[373]	2k56uavscuainedj0q9i1sb693[373]	speaker: YOU[491]	*->45-1	DefNP[45]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+66-1	1719-1734	END_OF_DOCUMENT	GSuccess[11]	gucken\_set1\_4[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-gucken\_set1\_4[11]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Und, alles klar?
+67-1	1736-1740	Und,	GSuccess[12]	gucken\_set1\_4[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-gucken\_set1\_4[12]	_	_	_	_	_	false[132]	Int[132]	*[256]	*[256]	*[256]	yn\_2[256]	yesno\_question[256]	openq[256]	*[374]	female[374]	*[374]	speaker:Amira[492]	_	_	QAP	*	68-1[133_132]	
+67-2	1741-1746	alles	GSuccess[12]	gucken\_set1\_4[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-gucken\_set1\_4[12]	_	_	_	_	_	false[132]	Int[132]	*[256]	*[256]	*[256]	yn\_2[256]	yesno\_question[256]	openq[256]	*[374]	female[374]	*[374]	speaker:Amira[492]	_	_	_	_	_	
+67-3	1747-1752	klar?	GSuccess[12]	gucken\_set1\_4[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-gucken\_set1\_4[12]	_	_	_	_	_	false[132]	Int[132]	*[256]	*[256]	*[256]	yn\_2[256]	yesno\_question[256]	openq[256]	*[374]	female[374]	*[374]	speaker:Amira[492]	_	_	_	_	_	
+
+#Text=Linda hat die Tagesschau geguckt
+68-1	1754-1759	Linda	GSuccess[12]	gucken\_set1\_4[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-gucken\_set1\_4[12]	*	*	Subj	*	*	false[133]	Decl[133]	*[257]	gucken[257]	transitive[257]	*[257]	*[257]	item0[257]	46[375]	male[375]	7bq5ecc5fndmatjvd44havavdp[375]	speaker: YOU[493]	*->4-1	PropNm[4]	elaboration|acknowledgement	*|*	70-1[134_133]|69-1[0_133]	
+68-2	1760-1763	hat	GSuccess[12]	gucken\_set1\_4[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-gucken\_set1\_4[12]	_	_	_	_	_	false[133]	Decl[133]	*[257]	gucken[257]	transitive[257]	*[257]	*[257]	item0[257]	46[375]	male[375]	7bq5ecc5fndmatjvd44havavdp[375]	speaker: YOU[493]	_	_	_	_	_	
+68-3	1764-1767	die	GSuccess[12]	gucken\_set1\_4[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-gucken\_set1\_4[12]	*[54]	*[54]	object[54]	*[54]	*[54]	false[133]	Decl[133]	*[257]	gucken[257]	transitive[257]	*[257]	*[257]	item0[257]	46[375]	male[375]	7bq5ecc5fndmatjvd44havavdp[375]	speaker: YOU[493]	*->18-1	DefNP[18]	_	_	_	
+68-4	1768-1778	Tagesschau	GSuccess[12]	gucken\_set1\_4[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-gucken\_set1\_4[12]	*[54]	*[54]	object[54]	*[54]	*[54]	false[133]	Decl[133]	*[257]	gucken[257]	transitive[257]	*[257]	*[257]	item0[257]	46[375]	male[375]	7bq5ecc5fndmatjvd44havavdp[375]	speaker: YOU[493]	*->18-1	DefNP[18]	_	_	_	
+68-5	1779-1786	geguckt	GSuccess[12]	gucken\_set1\_4[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-gucken\_set1\_4[12]	_	_	_	_	_	false[133]	Decl[133]	*[257]	gucken[257]	transitive[257]	*[257]	*[257]	item0[257]	46[375]	male[375]	7bq5ecc5fndmatjvd44havavdp[375]	speaker: YOU[493]	_	_	_	_	_	
+
+#Text=Okay
+69-1	1788-1792	Okay	GSuccess[12]	gucken\_set1\_4[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-gucken\_set1\_4[12]	_	_	_	_	_	false	NA	okay\_22	*	*	*	*	feedback	*	female	*	speaker:Amira	_	_	_	_	_	
+
+#Text=hat sich echt interessiert
+70-1	1794-1797	hat	GSuccess[12]	gucken\_set1\_4[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-gucken\_set1\_4[12]	3	*	*	*	singular	false[134]	Decl[134]	*[258]	*[258]	*[258]	*[258]	*[258]	input1[258]	46[376]	male[376]	7bq5ecc5fndmatjvd44havavdp[376]	speaker: YOU[494]	*->4-2	zero[4]	elaboration	*	71-1[135_134]	
+70-2	1798-1802	sich	GSuccess[12]	gucken\_set1\_4[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-gucken\_set1\_4[12]	_	_	_	_	_	false[134]	Decl[134]	*[258]	*[258]	*[258]	*[258]	*[258]	input1[258]	46[376]	male[376]	7bq5ecc5fndmatjvd44havavdp[376]	speaker: YOU[494]	_	_	_	_	_	
+70-3	1803-1807	echt	GSuccess[12]	gucken\_set1\_4[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-gucken\_set1\_4[12]	_	_	_	_	_	false[134]	Decl[134]	*[258]	*[258]	*[258]	*[258]	*[258]	input1[258]	46[376]	male[376]	7bq5ecc5fndmatjvd44havavdp[376]	speaker: YOU[494]	_	_	_	_	_	
+70-4	1808-1820	interessiert	GSuccess[12]	gucken\_set1\_4[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-gucken\_set1\_4[12]	_	_	_	_	_	false[134]	Decl[134]	*[258]	*[258]	*[258]	*[258]	*[258]	input1[258]	46[376]	male[376]	7bq5ecc5fndmatjvd44havavdp[376]	speaker: YOU[494]	_	_	_	_	_	
+
+#Text=war überrascht
+71-1	1822-1825	war	GSuccess[12]	gucken\_set1\_4[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-gucken\_set1\_4[12]	1	*	*	*	singular	false[135]	Decl[135]	*[259]	*[259]	*[259]	*[259]	*[259]	input2[259]	46[377]	male[377]	7bq5ecc5fndmatjvd44havavdp[377]	speaker: YOU[495]	*->81-1	zero[81]	_	_	_	
+71-2	1826-1836	überrascht	GSuccess[12]	gucken\_set1\_4[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-gucken\_set1\_4[12]	_	_	_	_	_	false[135]	Decl[135]	*[259]	*[259]	*[259]	*[259]	*[259]	input2[259]	46[377]	male[377]	7bq5ecc5fndmatjvd44havavdp[377]	speaker: YOU[495]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+72-1	1838-1853	END_OF_DOCUMENT	GSuccess[12]	gucken\_set1\_4[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-gucken\_set1\_4[12]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Und, alles klar?
+73-1	1855-1859	Und,	GSuccess[13]	gucken\_set1\_4[13]	latin1[13]	9bb79dhfhst017575orahklqol-gucken\_set1\_4[13]	_	_	_	_	_	false[136]	Int[136]	*[260]	*[260]	*[260]	yn\_2[260]	yesno\_question[260]	openq[260]	*[378]	female[378]	*[378]	speaker:Amira[496]	_	_	parallel|QAP	*|*	77-1[139_136]|74-1[137_136]	
+73-2	1860-1865	alles	GSuccess[13]	gucken\_set1\_4[13]	latin1[13]	9bb79dhfhst017575orahklqol-gucken\_set1\_4[13]	_	_	_	_	_	false[136]	Int[136]	*[260]	*[260]	*[260]	yn\_2[260]	yesno\_question[260]	openq[260]	*[378]	female[378]	*[378]	speaker:Amira[496]	_	_	_	_	_	
+73-3	1866-1871	klar?	GSuccess[13]	gucken\_set1\_4[13]	latin1[13]	9bb79dhfhst017575orahklqol-gucken\_set1\_4[13]	_	_	_	_	_	false[136]	Int[136]	*[260]	*[260]	*[260]	yn\_2[260]	yesno\_question[260]	openq[260]	*[378]	female[378]	*[378]	speaker:Amira[496]	_	_	_	_	_	
+
+#Text=Linda hat die Tagesschau geguckt
+74-1	1873-1878	Linda	GSuccess[13]	gucken\_set1\_4[13]	latin1[13]	9bb79dhfhst017575orahklqol-gucken\_set1\_4[13]	*	*	Subj	*	*	false[137]	Decl[137]	*[261]	gucken[261]	transitive[261]	*[261]	*[261]	item0[261]	37[379]	female[379]	9bb79dhfhst017575orahklqol[379]	speaker: YOU[497]	*->84-1	PropNm[84]	explanation|acknowledgement	*|*	76-1[138_137]|75-1[0_137]	
+74-2	1879-1882	hat	GSuccess[13]	gucken\_set1\_4[13]	latin1[13]	9bb79dhfhst017575orahklqol-gucken\_set1\_4[13]	_	_	_	_	_	false[137]	Decl[137]	*[261]	gucken[261]	transitive[261]	*[261]	*[261]	item0[261]	37[379]	female[379]	9bb79dhfhst017575orahklqol[379]	speaker: YOU[497]	*->80-1	clause[80]	_	_	_	
+74-3	1883-1886	die	GSuccess[13]	gucken\_set1\_4[13]	latin1[13]	9bb79dhfhst017575orahklqol-gucken\_set1\_4[13]	*[55]	*[55]	object[55]	*[55]	*[55]	false[137]	Decl[137]	*[261]	gucken[261]	transitive[261]	*[261]	*[261]	item0[261]	37[379]	female[379]	9bb79dhfhst017575orahklqol[379]	speaker: YOU[497]	*->80-1|*->30-1	clause[80]|DefNP[30]	_	_	_	
+74-4	1887-1897	Tagesschau	GSuccess[13]	gucken\_set1\_4[13]	latin1[13]	9bb79dhfhst017575orahklqol-gucken\_set1\_4[13]	*[55]	*[55]	object[55]	*[55]	*[55]	false[137]	Decl[137]	*[261]	gucken[261]	transitive[261]	*[261]	*[261]	item0[261]	37[379]	female[379]	9bb79dhfhst017575orahklqol[379]	speaker: YOU[497]	*->80-1|*->30-1	clause[80]|DefNP[30]	_	_	_	
+74-5	1898-1905	geguckt	GSuccess[13]	gucken\_set1\_4[13]	latin1[13]	9bb79dhfhst017575orahklqol-gucken\_set1\_4[13]	_	_	_	_	_	false[137]	Decl[137]	*[261]	gucken[261]	transitive[261]	*[261]	*[261]	item0[261]	37[379]	female[379]	9bb79dhfhst017575orahklqol[379]	speaker: YOU[497]	*->80-1	clause[80]	_	_	_	
+
+#Text=Okay
+75-1	1907-1911	Okay	GSuccess[13]	gucken\_set1\_4[13]	latin1[13]	9bb79dhfhst017575orahklqol-gucken\_set1\_4[13]	_	_	_	_	_	false	NA	okay\_22	*	*	*	*	feedback	*	female	*	speaker:Amira	_	_	_	_	_	
+
+#Text=das macht sie sonst nie
+76-1	1913-1916	das	GSuccess[13]	gucken\_set1\_4[13]	latin1[13]	9bb79dhfhst017575orahklqol-gucken\_set1\_4[13]	*	*	DirObj	*	*	false[138]	Decl[138]	*[262]	*[262]	*[262]	*[262]	*[262]	input1[262]	37[380]	female[380]	9bb79dhfhst017575orahklqol[380]	speaker: YOU[498]	*->80-2	D-Pron[80]	_	_	_	
+76-2	1917-1922	macht	GSuccess[13]	gucken\_set1\_4[13]	latin1[13]	9bb79dhfhst017575orahklqol-gucken\_set1\_4[13]	_	_	_	_	_	false[138]	Decl[138]	*[262]	*[262]	*[262]	*[262]	*[262]	input1[262]	37[380]	female[380]	9bb79dhfhst017575orahklqol[380]	speaker: YOU[498]	_	_	_	_	_	
+76-3	1923-1926	sie	GSuccess[13]	gucken\_set1\_4[13]	latin1[13]	9bb79dhfhst017575orahklqol-gucken\_set1\_4[13]	3	*	Subj	*	singular	false[138]	Decl[138]	*[262]	*[262]	*[262]	*[262]	*[262]	input1[262]	37[380]	female[380]	9bb79dhfhst017575orahklqol[380]	speaker: YOU[498]	*->84-2	PerPron[84]	_	_	_	
+76-4	1927-1932	sonst	GSuccess[13]	gucken\_set1\_4[13]	latin1[13]	9bb79dhfhst017575orahklqol-gucken\_set1\_4[13]	_	_	_	_	_	false[138]	Decl[138]	*[262]	*[262]	*[262]	*[262]	*[262]	input1[262]	37[380]	female[380]	9bb79dhfhst017575orahklqol[380]	speaker: YOU[498]	_	_	_	_	_	
+76-5	1933-1936	nie	GSuccess[13]	gucken\_set1\_4[13]	latin1[13]	9bb79dhfhst017575orahklqol-gucken\_set1\_4[13]	_	_	_	_	_	false[138]	Decl[138]	*[262]	*[262]	*[262]	*[262]	*[262]	input1[262]	37[380]	female[380]	9bb79dhfhst017575orahklqol[380]	speaker: YOU[498]	_	_	_	_	_	
+
+#Text=was ist bei dir so los?
+77-1	1938-1941	was	GSuccess[13]	gucken\_set1\_4[13]	latin1[13]	9bb79dhfhst017575orahklqol-gucken\_set1\_4[13]	_	_	_	_	_	false[139]	Int[139]	*[263]	*[263]	*[263]	*[263]	*[263]	input2[263]	37[381]	female[381]	9bb79dhfhst017575orahklqol[381]	speaker: YOU[499]	_	_	_	_	_	
+77-2	1942-1945	ist	GSuccess[13]	gucken\_set1\_4[13]	latin1[13]	9bb79dhfhst017575orahklqol-gucken\_set1\_4[13]	_	_	_	_	_	false[139]	Int[139]	*[263]	*[263]	*[263]	*[263]	*[263]	input2[263]	37[381]	female[381]	9bb79dhfhst017575orahklqol[381]	speaker: YOU[499]	_	_	_	_	_	
+77-3	1946-1949	bei	GSuccess[13]	gucken\_set1\_4[13]	latin1[13]	9bb79dhfhst017575orahklqol-gucken\_set1\_4[13]	_	_	_	_	_	false[139]	Int[139]	*[263]	*[263]	*[263]	*[263]	*[263]	input2[263]	37[381]	female[381]	9bb79dhfhst017575orahklqol[381]	speaker: YOU[499]	_	_	_	_	_	
+77-4	1950-1953	dir	GSuccess[13]	gucken\_set1\_4[13]	latin1[13]	9bb79dhfhst017575orahklqol-gucken\_set1\_4[13]	2	*	PrepObj	*	singular	false[139]	Int[139]	*[263]	*[263]	*[263]	*[263]	*[263]	input2[263]	37[381]	female[381]	9bb79dhfhst017575orahklqol[381]	speaker: YOU[499]	*->9-1	PerPron[9]	_	_	_	
+77-5	1954-1956	so	GSuccess[13]	gucken\_set1\_4[13]	latin1[13]	9bb79dhfhst017575orahklqol-gucken\_set1\_4[13]	_	_	_	_	_	false[139]	Int[139]	*[263]	*[263]	*[263]	*[263]	*[263]	input2[263]	37[381]	female[381]	9bb79dhfhst017575orahklqol[381]	speaker: YOU[499]	_	_	_	_	_	
+77-6	1957-1961	los?	GSuccess[13]	gucken\_set1\_4[13]	latin1[13]	9bb79dhfhst017575orahklqol-gucken\_set1\_4[13]	_	_	_	_	_	false[139]	Int[139]	*[263]	*[263]	*[263]	*[263]	*[263]	input2[263]	37[381]	female[381]	9bb79dhfhst017575orahklqol[381]	speaker: YOU[499]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+78-1	1963-1978	END_OF_DOCUMENT	GSuccess[13]	gucken\_set1\_4[13]	latin1[13]	9bb79dhfhst017575orahklqol-gucken\_set1\_4[13]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Und, alles klar?
+79-1	1980-1984	Und,	GSuccess[14]	gucken\_set1\_4[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-gucken\_set1\_4[14]	_	_	_	_	_	false[140]	Int[140]	*[264]	*[264]	*[264]	yn\_2[264]	yesno\_question[264]	openq[264]	*[382]	female[382]	*[382]	speaker:Amira[500]	_	_	QAP	*	80-1[141_140]	
+79-2	1985-1990	alles	GSuccess[14]	gucken\_set1\_4[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-gucken\_set1\_4[14]	_	_	_	_	_	false[140]	Int[140]	*[264]	*[264]	*[264]	yn\_2[264]	yesno\_question[264]	openq[264]	*[382]	female[382]	*[382]	speaker:Amira[500]	_	_	_	_	_	
+79-3	1991-1996	klar?	GSuccess[14]	gucken\_set1\_4[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-gucken\_set1\_4[14]	_	_	_	_	_	false[140]	Int[140]	*[264]	*[264]	*[264]	yn\_2[264]	yesno\_question[264]	openq[264]	*[382]	female[382]	*[382]	speaker:Amira[500]	_	_	_	_	_	
+
+#Text=Linda hat die Tagesschau geguckt
+80-1	1998-2003	Linda	GSuccess[14]	gucken\_set1\_4[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-gucken\_set1\_4[14]	*	*	Subj	*	*	false[141]	Decl[141]	*[265]	gucken[265]	transitive[265]	*[265]	*[265]	item0[265]	21[383]	male[383]	afpst3sherp4732c4se5ajftkq[383]	speaker: YOU[501]	*->51-1	PropNm[51]	result|acknowledgement	*|*	82-1[142_141]|81-1[0_141]	
+80-2	2004-2007	hat	GSuccess[14]	gucken\_set1\_4[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-gucken\_set1\_4[14]	_	_	_	_	_	false[141]	Decl[141]	*[265]	gucken[265]	transitive[265]	*[265]	*[265]	item0[265]	21[383]	male[383]	afpst3sherp4732c4se5ajftkq[383]	speaker: YOU[501]	_	_	_	_	_	
+80-3	2008-2011	die	GSuccess[14]	gucken\_set1\_4[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-gucken\_set1\_4[14]	*[56]	*[56]	object[56]	*[56]	*[56]	false[141]	Decl[141]	*[265]	gucken[265]	transitive[265]	*[265]	*[265]	item0[265]	21[383]	male[383]	afpst3sherp4732c4se5ajftkq[383]	speaker: YOU[501]	*->65-1	DefNP[65]	_	_	_	
+80-4	2012-2022	Tagesschau	GSuccess[14]	gucken\_set1\_4[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-gucken\_set1\_4[14]	*[56]	*[56]	object[56]	*[56]	*[56]	false[141]	Decl[141]	*[265]	gucken[265]	transitive[265]	*[265]	*[265]	item0[265]	21[383]	male[383]	afpst3sherp4732c4se5ajftkq[383]	speaker: YOU[501]	*->65-1	DefNP[65]	_	_	_	
+80-5	2023-2030	geguckt	GSuccess[14]	gucken\_set1\_4[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-gucken\_set1\_4[14]	_	_	_	_	_	false[141]	Decl[141]	*[265]	gucken[265]	transitive[265]	*[265]	*[265]	item0[265]	21[383]	male[383]	afpst3sherp4732c4se5ajftkq[383]	speaker: YOU[501]	_	_	_	_	_	
+
+#Text=Okay
+81-1	2032-2036	Okay	GSuccess[14]	gucken\_set1\_4[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-gucken\_set1\_4[14]	_	_	_	_	_	false	NA	okay\_22	*	*	*	*	feedback	*	female	*	speaker:Amira	_	_	_	_	_	
+
+#Text=Sie war geschockt von den Nachrichten.
+82-1	2038-2041	Sie	GSuccess[14]	gucken\_set1\_4[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-gucken\_set1\_4[14]	3	*	Subj	*	singular	false[142]	Decl[142]	*[266]	*[266]	*[266]	*[266]	*[266]	input1[266]	21[384]	male[384]	afpst3sherp4732c4se5ajftkq[384]	speaker: YOU[502]	*->51-2	PerPron[51]	explanation	*	83-1[143_142]	
+82-2	2042-2045	war	GSuccess[14]	gucken\_set1\_4[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-gucken\_set1\_4[14]	_	_	_	_	_	false[142]	Decl[142]	*[266]	*[266]	*[266]	*[266]	*[266]	input1[266]	21[384]	male[384]	afpst3sherp4732c4se5ajftkq[384]	speaker: YOU[502]	_	_	_	_	_	
+82-3	2046-2055	geschockt	GSuccess[14]	gucken\_set1\_4[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-gucken\_set1\_4[14]	_	_	_	_	_	false[142]	Decl[142]	*[266]	*[266]	*[266]	*[266]	*[266]	input1[266]	21[384]	male[384]	afpst3sherp4732c4se5ajftkq[384]	speaker: YOU[502]	_	_	_	_	_	
+82-4	2056-2059	von	GSuccess[14]	gucken\_set1\_4[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-gucken\_set1\_4[14]	_	_	_	_	_	false[142]	Decl[142]	*[266]	*[266]	*[266]	*[266]	*[266]	input1[266]	21[384]	male[384]	afpst3sherp4732c4se5ajftkq[384]	speaker: YOU[502]	_	_	_	_	_	
+82-5	2060-2063	den	GSuccess[14]	gucken\_set1\_4[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-gucken\_set1\_4[14]	*[57]	*[57]	PrepObj[57]	*[57]	*[57]	false[142]	Decl[142]	*[266]	*[266]	*[266]	*[266]	*[266]	input1[266]	21[384]	male[384]	afpst3sherp4732c4se5ajftkq[384]	speaker: YOU[502]	*->71-1	DefNP[71]	_	_	_	
+82-6	2064-2076	Nachrichten.	GSuccess[14]	gucken\_set1\_4[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-gucken\_set1\_4[14]	*[57]	*[57]	PrepObj[57]	*[57]	*[57]	false[142]	Decl[142]	*[266]	*[266]	*[266]	*[266]	*[266]	input1[266]	21[384]	male[384]	afpst3sherp4732c4se5ajftkq[384]	speaker: YOU[502]	*->71-1	DefNP[71]	_	_	_	
+
+#Text=Russland hat wohl die Ukraine angegriffen!
+83-1	2078-2086	Russland	GSuccess[14]	gucken\_set1\_4[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-gucken\_set1\_4[14]	*	*	Subj	*	*	false[143]	Decl[143]	*[267]	*[267]	*[267]	*[267]	*[267]	input2[267]	21[385]	male[385]	afpst3sherp4732c4se5ajftkq[385]	speaker: YOU[503]	*->54-1	PropNm[54]	_	_	_	
+83-2	2087-2090	hat	GSuccess[14]	gucken\_set1\_4[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-gucken\_set1\_4[14]	_	_	_	_	_	false[143]	Decl[143]	*[267]	*[267]	*[267]	*[267]	*[267]	input2[267]	21[385]	male[385]	afpst3sherp4732c4se5ajftkq[385]	speaker: YOU[503]	_	_	_	_	_	
+83-3	2091-2095	wohl	GSuccess[14]	gucken\_set1\_4[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-gucken\_set1\_4[14]	_	_	_	_	_	false[143]	Decl[143]	*[267]	*[267]	*[267]	*[267]	*[267]	input2[267]	21[385]	male[385]	afpst3sherp4732c4se5ajftkq[385]	speaker: YOU[503]	_	_	_	_	_	
+83-4	2096-2099	die	GSuccess[14]	gucken\_set1\_4[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-gucken\_set1\_4[14]	*[58]	*[58]	DirObj[58]	*[58]	*[58]	false[143]	Decl[143]	*[267]	*[267]	*[267]	*[267]	*[267]	input2[267]	21[385]	male[385]	afpst3sherp4732c4se5ajftkq[385]	speaker: YOU[503]	*->16-1	PropNm[16]	_	_	_	
+83-5	2100-2107	Ukraine	GSuccess[14]	gucken\_set1\_4[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-gucken\_set1\_4[14]	*[58]	*[58]	DirObj[58]	*[58]	*[58]	false[143]	Decl[143]	*[267]	*[267]	*[267]	*[267]	*[267]	input2[267]	21[385]	male[385]	afpst3sherp4732c4se5ajftkq[385]	speaker: YOU[503]	*->16-1	PropNm[16]	_	_	_	
+83-6	2108-2120	angegriffen!	GSuccess[14]	gucken\_set1\_4[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-gucken\_set1\_4[14]	_	_	_	_	_	false[143]	Decl[143]	*[267]	*[267]	*[267]	*[267]	*[267]	input2[267]	21[385]	male[385]	afpst3sherp4732c4se5ajftkq[385]	speaker: YOU[503]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+84-1	2122-2137	END_OF_DOCUMENT	GSuccess[14]	gucken\_set1\_4[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-gucken\_set1\_4[14]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Und, alles klar?
+85-1	2139-2143	Und,	GSuccess[15]	gucken\_set1\_4[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-gucken\_set1\_4[15]	_	_	_	_	_	false[144]	Int[144]	*[268]	*[268]	*[268]	yn\_2[268]	yesno\_question[268]	openq[268]	*[386]	female[386]	*[386]	speaker:Amira[504]	_	_	parallel|QAP	*|*	89-1[147_144]|86-1[145_144]	
+85-2	2144-2149	alles	GSuccess[15]	gucken\_set1\_4[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-gucken\_set1\_4[15]	_	_	_	_	_	false[144]	Int[144]	*[268]	*[268]	*[268]	yn\_2[268]	yesno\_question[268]	openq[268]	*[386]	female[386]	*[386]	speaker:Amira[504]	_	_	_	_	_	
+85-3	2150-2155	klar?	GSuccess[15]	gucken\_set1\_4[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-gucken\_set1\_4[15]	_	_	_	_	_	false[144]	Int[144]	*[268]	*[268]	*[268]	yn\_2[268]	yesno\_question[268]	openq[268]	*[386]	female[386]	*[386]	speaker:Amira[504]	_	_	_	_	_	
+
+#Text=Linda hat die Tagesschau geguckt
+86-1	2157-2162	Linda	GSuccess[15]	gucken\_set1\_4[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-gucken\_set1\_4[15]	*	*	Subj	*	*	false[145]	Decl[145]	*[269]	gucken[269]	transitive[269]	*[269]	*[269]	item0[269]	42[387]	female[387]	blj8i1h4sc8jti0m6gcav1c9ek[387]	speaker: YOU[505]	*->43-1	PropNm[43]	explanation|acknowledgement	*|*	88-1[146_145]|87-1[0_145]	
+86-2	2163-2166	hat	GSuccess[15]	gucken\_set1\_4[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-gucken\_set1\_4[15]	_	_	_	_	_	false[145]	Decl[145]	*[269]	gucken[269]	transitive[269]	*[269]	*[269]	item0[269]	42[387]	female[387]	blj8i1h4sc8jti0m6gcav1c9ek[387]	speaker: YOU[505]	*->25-1	clause[25]	_	_	_	
+86-3	2167-2170	die	GSuccess[15]	gucken\_set1\_4[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-gucken\_set1\_4[15]	*[59]	*[59]	object[59]	*[59]	*[59]	false[145]	Decl[145]	*[269]	gucken[269]	transitive[269]	*[269]	*[269]	item0[269]	42[387]	female[387]	blj8i1h4sc8jti0m6gcav1c9ek[387]	speaker: YOU[505]	*->25-1|*->94-1	clause[25]|DefNP[94]	_	_	_	
+86-4	2171-2181	Tagesschau	GSuccess[15]	gucken\_set1\_4[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-gucken\_set1\_4[15]	*[59]	*[59]	object[59]	*[59]	*[59]	false[145]	Decl[145]	*[269]	gucken[269]	transitive[269]	*[269]	*[269]	item0[269]	42[387]	female[387]	blj8i1h4sc8jti0m6gcav1c9ek[387]	speaker: YOU[505]	*->25-1|*->94-1	clause[25]|DefNP[94]	_	_	_	
+86-5	2182-2189	geguckt	GSuccess[15]	gucken\_set1\_4[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-gucken\_set1\_4[15]	_	_	_	_	_	false[145]	Decl[145]	*[269]	gucken[269]	transitive[269]	*[269]	*[269]	item0[269]	42[387]	female[387]	blj8i1h4sc8jti0m6gcav1c9ek[387]	speaker: YOU[505]	*->25-1	clause[25]	_	_	_	
+
+#Text=Okay
+87-1	2191-2195	Okay	GSuccess[15]	gucken\_set1\_4[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-gucken\_set1\_4[15]	_	_	_	_	_	false	NA	okay\_22	*	*	*	*	feedback	*	female	*	speaker:Amira	_	_	_	_	_	
+
+#Text=Macht sie sonst nie.
+88-1	2197-2202	Macht	GSuccess[15]	gucken\_set1\_4[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-gucken\_set1\_4[15]	3	*	*	*	singular	false[146]	Decl[146]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	42[388]	female[388]	blj8i1h4sc8jti0m6gcav1c9ek[388]	speaker: YOU[506]	*->25-2	zero[25]	_	_	_	
+88-2	2203-2206	sie	GSuccess[15]	gucken\_set1\_4[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-gucken\_set1\_4[15]	3	*	Subj	*	singular	false[146]	Decl[146]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	42[388]	female[388]	blj8i1h4sc8jti0m6gcav1c9ek[388]	speaker: YOU[506]	*->43-2	PerPron[43]	_	_	_	
+88-3	2207-2212	sonst	GSuccess[15]	gucken\_set1\_4[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-gucken\_set1\_4[15]	_	_	_	_	_	false[146]	Decl[146]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	42[388]	female[388]	blj8i1h4sc8jti0m6gcav1c9ek[388]	speaker: YOU[506]	_	_	_	_	_	
+88-4	2213-2217	nie.	GSuccess[15]	gucken\_set1\_4[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-gucken\_set1\_4[15]	_	_	_	_	_	false[146]	Decl[146]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	42[388]	female[388]	blj8i1h4sc8jti0m6gcav1c9ek[388]	speaker: YOU[506]	_	_	_	_	_	
+
+#Text=Was machst Du heute Abend noch?
+89-1	2219-2222	Was	GSuccess[15]	gucken\_set1\_4[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-gucken\_set1\_4[15]	_	_	_	_	_	false[147]	Int[147]	*[271]	*[271]	*[271]	*[271]	*[271]	input2[271]	42[389]	female[389]	blj8i1h4sc8jti0m6gcav1c9ek[389]	speaker: YOU[507]	_	_	_	_	_	
+89-2	2223-2229	machst	GSuccess[15]	gucken\_set1\_4[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-gucken\_set1\_4[15]	_	_	_	_	_	false[147]	Int[147]	*[271]	*[271]	*[271]	*[271]	*[271]	input2[271]	42[389]	female[389]	blj8i1h4sc8jti0m6gcav1c9ek[389]	speaker: YOU[507]	_	_	_	_	_	
+89-3	2230-2232	Du	GSuccess[15]	gucken\_set1\_4[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-gucken\_set1\_4[15]	2	*	Subj	*	singular	false[147]	Int[147]	*[271]	*[271]	*[271]	*[271]	*[271]	input2[271]	42[389]	female[389]	blj8i1h4sc8jti0m6gcav1c9ek[389]	speaker: YOU[507]	*->39-1	PerPron[39]	_	_	_	
+89-4	2233-2238	heute	GSuccess[15]	gucken\_set1\_4[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-gucken\_set1\_4[15]	_	_	_	_	_	false[147]	Int[147]	*[271]	*[271]	*[271]	*[271]	*[271]	input2[271]	42[389]	female[389]	blj8i1h4sc8jti0m6gcav1c9ek[389]	speaker: YOU[507]	*->104-1	DefNP[104]	_	_	_	
+89-5	2239-2244	Abend	GSuccess[15]	gucken\_set1\_4[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-gucken\_set1\_4[15]	_	_	_	_	_	false[147]	Int[147]	*[271]	*[271]	*[271]	*[271]	*[271]	input2[271]	42[389]	female[389]	blj8i1h4sc8jti0m6gcav1c9ek[389]	speaker: YOU[507]	*->104-1	DefNP[104]	_	_	_	
+89-6	2245-2250	noch?	GSuccess[15]	gucken\_set1\_4[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-gucken\_set1\_4[15]	_	_	_	_	_	false[147]	Int[147]	*[271]	*[271]	*[271]	*[271]	*[271]	input2[271]	42[389]	female[389]	blj8i1h4sc8jti0m6gcav1c9ek[389]	speaker: YOU[507]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+90-1	2252-2267	END_OF_DOCUMENT	GSuccess[15]	gucken\_set1\_4[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-gucken\_set1\_4[15]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Und, alles klar?
+91-1	2269-2273	Und,	GSuccess[16]	gucken\_set1\_4[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-gucken\_set1\_4[16]	_	_	_	_	_	false[148]	Int[148]	*[272]	*[272]	*[272]	yn\_2[272]	yesno\_question[272]	openq[272]	*[390]	female[390]	*[390]	speaker:Amira[508]	_	_	QAP	*	92-1[149_148]	
+91-2	2274-2279	alles	GSuccess[16]	gucken\_set1\_4[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-gucken\_set1\_4[16]	_	_	_	_	_	false[148]	Int[148]	*[272]	*[272]	*[272]	yn\_2[272]	yesno\_question[272]	openq[272]	*[390]	female[390]	*[390]	speaker:Amira[508]	_	_	_	_	_	
+91-3	2280-2285	klar?	GSuccess[16]	gucken\_set1\_4[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-gucken\_set1\_4[16]	_	_	_	_	_	false[148]	Int[148]	*[272]	*[272]	*[272]	yn\_2[272]	yesno\_question[272]	openq[272]	*[390]	female[390]	*[390]	speaker:Amira[508]	_	_	_	_	_	
+
+#Text=Linda hat die Tagesschau geguckt
+92-1	2287-2292	Linda	GSuccess[16]	gucken\_set1\_4[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-gucken\_set1\_4[16]	*	*	Subj	*	*	false[149]	Decl[149]	*[273]	gucken[273]	transitive[273]	*[273]	*[273]	item0[273]	42[391]	female[391]	h05ingrcngdnasp07727nvoq59[391]	speaker: YOU[509]	*->101-1	PropNm[101]	narration|acknowledgement	*|*	94-1[150_149]|93-1[0_149]	
+92-2	2293-2296	hat	GSuccess[16]	gucken\_set1\_4[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-gucken\_set1\_4[16]	_	_	_	_	_	false[149]	Decl[149]	*[273]	gucken[273]	transitive[273]	*[273]	*[273]	item0[273]	42[391]	female[391]	h05ingrcngdnasp07727nvoq59[391]	speaker: YOU[509]	_	_	_	_	_	
+92-3	2297-2300	die	GSuccess[16]	gucken\_set1\_4[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-gucken\_set1\_4[16]	*[60]	*[60]	object[60]	*[60]	*[60]	false[149]	Decl[149]	*[273]	gucken[273]	transitive[273]	*[273]	*[273]	item0[273]	42[391]	female[391]	h05ingrcngdnasp07727nvoq59[391]	speaker: YOU[509]	*->108-1	DefNP[108]	_	_	_	
+92-4	2301-2311	Tagesschau	GSuccess[16]	gucken\_set1\_4[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-gucken\_set1\_4[16]	*[60]	*[60]	object[60]	*[60]	*[60]	false[149]	Decl[149]	*[273]	gucken[273]	transitive[273]	*[273]	*[273]	item0[273]	42[391]	female[391]	h05ingrcngdnasp07727nvoq59[391]	speaker: YOU[509]	*->108-1	DefNP[108]	_	_	_	
+92-5	2312-2319	geguckt	GSuccess[16]	gucken\_set1\_4[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-gucken\_set1\_4[16]	_	_	_	_	_	false[149]	Decl[149]	*[273]	gucken[273]	transitive[273]	*[273]	*[273]	item0[273]	42[391]	female[391]	h05ingrcngdnasp07727nvoq59[391]	speaker: YOU[509]	_	_	_	_	_	
+
+#Text=Okay
+93-1	2321-2325	Okay	GSuccess[16]	gucken\_set1\_4[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-gucken\_set1\_4[16]	_	_	_	_	_	false	NA	okay\_22	*	*	*	*	feedback	*	female	*	speaker:Amira	_	_	_	_	_	
+
+#Text=Und mich über alles informiert.
+94-1	2327-2330	Und	GSuccess[16]	gucken\_set1\_4[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-gucken\_set1\_4[16]	_	_	_	_	_	false[150]	NA[150]	*[274]	*[274]	*[274]	*[274]	*[274]	input1[274]	42[392]	female[392]	h05ingrcngdnasp07727nvoq59[392]	speaker: YOU[510]	_	_	elaboration	*	95-1[151_150]	
+94-2	2331-2335	mich	GSuccess[16]	gucken\_set1\_4[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-gucken\_set1\_4[16]	1	*	IndirObj	*	singular	false[150]	NA[150]	*[274]	*[274]	*[274]	*[274]	*[274]	input1[274]	42[392]	female[392]	h05ingrcngdnasp07727nvoq59[392]	speaker: YOU[510]	*->28-1	PerPron[28]	_	_	_	
+94-3	2336-2340	über	GSuccess[16]	gucken\_set1\_4[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-gucken\_set1\_4[16]	_	_	_	_	_	false[150]	NA[150]	*[274]	*[274]	*[274]	*[274]	*[274]	input1[274]	42[392]	female[392]	h05ingrcngdnasp07727nvoq59[392]	speaker: YOU[510]	_	_	_	_	_	
+94-4	2341-2346	alles	GSuccess[16]	gucken\_set1\_4[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-gucken\_set1\_4[16]	_	_	_	_	_	false[150]	NA[150]	*[274]	*[274]	*[274]	*[274]	*[274]	input1[274]	42[392]	female[392]	h05ingrcngdnasp07727nvoq59[392]	speaker: YOU[510]	*->82-1	Allquantor[82]	_	_	_	
+94-5	2347-2358	informiert.	GSuccess[16]	gucken\_set1\_4[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-gucken\_set1\_4[16]	_	_	_	_	_	false[150]	NA[150]	*[274]	*[274]	*[274]	*[274]	*[274]	input1[274]	42[392]	female[392]	h05ingrcngdnasp07727nvoq59[392]	speaker: YOU[510]	_	_	_	_	_	
+
+#Text=Da kriegt man ja echt Angst.
+95-1	2360-2362	Da	GSuccess[16]	gucken\_set1\_4[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-gucken\_set1\_4[16]	_	_	_	_	_	false[151]	Decl[151]	*[275]	*[275]	*[275]	*[275]	*[275]	input2[275]	42[393]	female[393]	h05ingrcngdnasp07727nvoq59[393]	speaker: YOU[511]	_	_	_	_	_	
+95-2	2363-2369	kriegt	GSuccess[16]	gucken\_set1\_4[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-gucken\_set1\_4[16]	_	_	_	_	_	false[151]	Decl[151]	*[275]	*[275]	*[275]	*[275]	*[275]	input2[275]	42[393]	female[393]	h05ingrcngdnasp07727nvoq59[393]	speaker: YOU[511]	_	_	_	_	_	
+95-3	2370-2373	man	GSuccess[16]	gucken\_set1\_4[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-gucken\_set1\_4[16]	_	_	_	_	_	false[151]	Decl[151]	*[275]	*[275]	*[275]	*[275]	*[275]	input2[275]	42[393]	female[393]	h05ingrcngdnasp07727nvoq59[393]	speaker: YOU[511]	_	_	_	_	_	
+95-4	2374-2376	ja	GSuccess[16]	gucken\_set1\_4[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-gucken\_set1\_4[16]	_	_	_	_	_	false[151]	Decl[151]	*[275]	*[275]	*[275]	*[275]	*[275]	input2[275]	42[393]	female[393]	h05ingrcngdnasp07727nvoq59[393]	speaker: YOU[511]	_	_	_	_	_	
+95-5	2377-2381	echt	GSuccess[16]	gucken\_set1\_4[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-gucken\_set1\_4[16]	_	_	_	_	_	false[151]	Decl[151]	*[275]	*[275]	*[275]	*[275]	*[275]	input2[275]	42[393]	female[393]	h05ingrcngdnasp07727nvoq59[393]	speaker: YOU[511]	_	_	_	_	_	
+95-6	2382-2388	Angst.	GSuccess[16]	gucken\_set1\_4[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-gucken\_set1\_4[16]	_	_	_	_	_	false[151]	Decl[151]	*[275]	*[275]	*[275]	*[275]	*[275]	input2[275]	42[393]	female[393]	h05ingrcngdnasp07727nvoq59[393]	speaker: YOU[511]	*->17-1	IndefNP[17]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+96-1	2390-2405	END_OF_DOCUMENT	GSuccess[16]	gucken\_set1\_4[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-gucken\_set1\_4[16]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Und, alles klar?
+97-1	2407-2411	Und,	GSuccess[17]	gucken\_set1\_4[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-gucken\_set1\_4[17]	_	_	_	_	_	false[152]	Int[152]	*[276]	*[276]	*[276]	yn\_2[276]	yesno\_question[276]	openq[276]	*[394]	female[394]	*[394]	speaker:Amira[512]	_	_	QAP	*	98-1[153_152]	
+97-2	2412-2417	alles	GSuccess[17]	gucken\_set1\_4[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-gucken\_set1\_4[17]	_	_	_	_	_	false[152]	Int[152]	*[276]	*[276]	*[276]	yn\_2[276]	yesno\_question[276]	openq[276]	*[394]	female[394]	*[394]	speaker:Amira[512]	_	_	_	_	_	
+97-3	2418-2423	klar?	GSuccess[17]	gucken\_set1\_4[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-gucken\_set1\_4[17]	_	_	_	_	_	false[152]	Int[152]	*[276]	*[276]	*[276]	yn\_2[276]	yesno\_question[276]	openq[276]	*[394]	female[394]	*[394]	speaker:Amira[512]	_	_	_	_	_	
+
+#Text=Linda hat die Tagesschau geguckt
+98-1	2425-2430	Linda	GSuccess[17]	gucken\_set1\_4[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-gucken\_set1\_4[17]	*	*	Subj	*	*	false[153]	Decl[153]	*[277]	gucken[277]	transitive[277]	*[277]	*[277]	item0[277]	42[395]	male[395]	jkqc35grurqg6r29efakrmibd9[395]	speaker: YOU[513]	*->57-1	PropNm[57]	contrast|acknowledgement	*|*	100-1[154_153]|99-1[0_153]	
+98-2	2431-2434	hat	GSuccess[17]	gucken\_set1\_4[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-gucken\_set1\_4[17]	_	_	_	_	_	false[153]	Decl[153]	*[277]	gucken[277]	transitive[277]	*[277]	*[277]	item0[277]	42[395]	male[395]	jkqc35grurqg6r29efakrmibd9[395]	speaker: YOU[513]	_	_	_	_	_	
+98-3	2435-2438	die	GSuccess[17]	gucken\_set1\_4[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-gucken\_set1\_4[17]	*[61]	*[61]	object[61]	*[61]	*[61]	false[153]	Decl[153]	*[277]	gucken[277]	transitive[277]	*[277]	*[277]	item0[277]	42[395]	male[395]	jkqc35grurqg6r29efakrmibd9[395]	speaker: YOU[513]	*->92-1	DefNP[92]	_	_	_	
+98-4	2439-2449	Tagesschau	GSuccess[17]	gucken\_set1\_4[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-gucken\_set1\_4[17]	*[61]	*[61]	object[61]	*[61]	*[61]	false[153]	Decl[153]	*[277]	gucken[277]	transitive[277]	*[277]	*[277]	item0[277]	42[395]	male[395]	jkqc35grurqg6r29efakrmibd9[395]	speaker: YOU[513]	*->92-1	DefNP[92]	_	_	_	
+98-5	2450-2457	geguckt	GSuccess[17]	gucken\_set1\_4[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-gucken\_set1\_4[17]	_	_	_	_	_	false[153]	Decl[153]	*[277]	gucken[277]	transitive[277]	*[277]	*[277]	item0[277]	42[395]	male[395]	jkqc35grurqg6r29efakrmibd9[395]	speaker: YOU[513]	_	_	_	_	_	
+
+#Text=Okay
+99-1	2459-2463	Okay	GSuccess[17]	gucken\_set1\_4[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-gucken\_set1\_4[17]	_	_	_	_	_	false	NA	okay\_22	*	*	*	*	feedback	*	female	*	speaker:Amira	_	_	_	_	_	
+
+#Text=hat sie aber nicht so interessiert
+100-1	2465-2468	hat	GSuccess[17]	gucken\_set1\_4[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-gucken\_set1\_4[17]	3	*	*	*	singular	false[154]	Decl[154]	*[278]	*[278]	*[278]	*[278]	*[278]	input1[278]	42[396]	male[396]	jkqc35grurqg6r29efakrmibd9[396]	speaker: YOU[514]	*->92-2	zero[92]	explanation	*	101-1[155_154]	
+100-2	2469-2472	sie	GSuccess[17]	gucken\_set1\_4[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-gucken\_set1\_4[17]	3	*	DirObj	*	singular	false[154]	Decl[154]	*[278]	*[278]	*[278]	*[278]	*[278]	input1[278]	42[396]	male[396]	jkqc35grurqg6r29efakrmibd9[396]	speaker: YOU[514]	*->57-2	PerPron[57]	_	_	_	
+100-3	2473-2477	aber	GSuccess[17]	gucken\_set1\_4[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-gucken\_set1\_4[17]	_	_	_	_	_	false[154]	Decl[154]	*[278]	*[278]	*[278]	*[278]	*[278]	input1[278]	42[396]	male[396]	jkqc35grurqg6r29efakrmibd9[396]	speaker: YOU[514]	_	_	_	_	_	
+100-4	2478-2483	nicht	GSuccess[17]	gucken\_set1\_4[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-gucken\_set1\_4[17]	_	_	_	_	_	false[154]	Decl[154]	*[278]	*[278]	*[278]	*[278]	*[278]	input1[278]	42[396]	male[396]	jkqc35grurqg6r29efakrmibd9[396]	speaker: YOU[514]	_	_	_	_	_	
+100-5	2484-2486	so	GSuccess[17]	gucken\_set1\_4[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-gucken\_set1\_4[17]	_	_	_	_	_	false[154]	Decl[154]	*[278]	*[278]	*[278]	*[278]	*[278]	input1[278]	42[396]	male[396]	jkqc35grurqg6r29efakrmibd9[396]	speaker: YOU[514]	_	_	_	_	_	
+100-6	2487-2499	interessiert	GSuccess[17]	gucken\_set1\_4[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-gucken\_set1\_4[17]	_	_	_	_	_	false[154]	Decl[154]	*[278]	*[278]	*[278]	*[278]	*[278]	input1[278]	42[396]	male[396]	jkqc35grurqg6r29efakrmibd9[396]	speaker: YOU[514]	_	_	_	_	_	
+
+#Text=war auch nicht gut gemacht heute
+101-1	2501-2504	war	GSuccess[17]	gucken\_set1\_4[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-gucken\_set1\_4[17]	3	*	*	*	singular	false[155]	Decl[155]	*[279]	*[279]	*[279]	*[279]	*[279]	input2[279]	42[397]	male[397]	jkqc35grurqg6r29efakrmibd9[397]	speaker: YOU[515]	*->92-3	zero[92]	_	_	_	
+101-2	2505-2509	auch	GSuccess[17]	gucken\_set1\_4[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-gucken\_set1\_4[17]	_	_	_	_	_	false[155]	Decl[155]	*[279]	*[279]	*[279]	*[279]	*[279]	input2[279]	42[397]	male[397]	jkqc35grurqg6r29efakrmibd9[397]	speaker: YOU[515]	_	_	_	_	_	
+101-3	2510-2515	nicht	GSuccess[17]	gucken\_set1\_4[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-gucken\_set1\_4[17]	_	_	_	_	_	false[155]	Decl[155]	*[279]	*[279]	*[279]	*[279]	*[279]	input2[279]	42[397]	male[397]	jkqc35grurqg6r29efakrmibd9[397]	speaker: YOU[515]	_	_	_	_	_	
+101-4	2516-2519	gut	GSuccess[17]	gucken\_set1\_4[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-gucken\_set1\_4[17]	_	_	_	_	_	false[155]	Decl[155]	*[279]	*[279]	*[279]	*[279]	*[279]	input2[279]	42[397]	male[397]	jkqc35grurqg6r29efakrmibd9[397]	speaker: YOU[515]	_	_	_	_	_	
+101-5	2520-2527	gemacht	GSuccess[17]	gucken\_set1\_4[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-gucken\_set1\_4[17]	_	_	_	_	_	false[155]	Decl[155]	*[279]	*[279]	*[279]	*[279]	*[279]	input2[279]	42[397]	male[397]	jkqc35grurqg6r29efakrmibd9[397]	speaker: YOU[515]	_	_	_	_	_	
+101-6	2528-2533	heute	GSuccess[17]	gucken\_set1\_4[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-gucken\_set1\_4[17]	_	_	_	_	_	false[155]	Decl[155]	*[279]	*[279]	*[279]	*[279]	*[279]	input2[279]	42[397]	male[397]	jkqc35grurqg6r29efakrmibd9[397]	speaker: YOU[515]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+102-1	2535-2550	END_OF_DOCUMENT	GSuccess[17]	gucken\_set1\_4[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-gucken\_set1\_4[17]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Und, alles klar?
+103-1	2552-2556	Und,	GSuccess[18]	gucken\_set1\_4[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-gucken\_set1\_4[18]	_	_	_	_	_	false[156]	Int[156]	*[280]	*[280]	*[280]	yn\_2[280]	yesno\_question[280]	openq[280]	*[398]	female[398]	*[398]	speaker:Amira[516]	_	_	QAP	*	104-1[157_156]	
+103-2	2557-2562	alles	GSuccess[18]	gucken\_set1\_4[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-gucken\_set1\_4[18]	_	_	_	_	_	false[156]	Int[156]	*[280]	*[280]	*[280]	yn\_2[280]	yesno\_question[280]	openq[280]	*[398]	female[398]	*[398]	speaker:Amira[516]	_	_	_	_	_	
+103-3	2563-2568	klar?	GSuccess[18]	gucken\_set1\_4[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-gucken\_set1\_4[18]	_	_	_	_	_	false[156]	Int[156]	*[280]	*[280]	*[280]	yn\_2[280]	yesno\_question[280]	openq[280]	*[398]	female[398]	*[398]	speaker:Amira[516]	_	_	_	_	_	
+
+#Text=Linda hat die Tagesschau geguckt
+104-1	2570-2575	Linda	GSuccess[18]	gucken\_set1\_4[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-gucken\_set1\_4[18]	*	*	Subj	*	*	false[157]	Decl[157]	*[281]	gucken[281]	transitive[281]	*[281]	*[281]	item0[281]	20[399]	male[399]	lhu26mh95feeqso1qtacqboi3v[399]	speaker: YOU[517]	*->21-1	PropNm[21]	contrast|acknowledgement	*|*	106-1[158_157]|105-1[0_157]	
+104-2	2576-2579	hat	GSuccess[18]	gucken\_set1\_4[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-gucken\_set1\_4[18]	_	_	_	_	_	false[157]	Decl[157]	*[281]	gucken[281]	transitive[281]	*[281]	*[281]	item0[281]	20[399]	male[399]	lhu26mh95feeqso1qtacqboi3v[399]	speaker: YOU[517]	_	_	_	_	_	
+104-3	2580-2583	die	GSuccess[18]	gucken\_set1\_4[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-gucken\_set1\_4[18]	*[62]	*[62]	object[62]	*[62]	*[62]	false[157]	Decl[157]	*[281]	gucken[281]	transitive[281]	*[281]	*[281]	item0[281]	20[399]	male[399]	lhu26mh95feeqso1qtacqboi3v[399]	speaker: YOU[517]	*->35-1	DefNP[35]	_	_	_	
+104-4	2584-2594	Tagesschau	GSuccess[18]	gucken\_set1\_4[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-gucken\_set1\_4[18]	*[62]	*[62]	object[62]	*[62]	*[62]	false[157]	Decl[157]	*[281]	gucken[281]	transitive[281]	*[281]	*[281]	item0[281]	20[399]	male[399]	lhu26mh95feeqso1qtacqboi3v[399]	speaker: YOU[517]	*->35-1	DefNP[35]	_	_	_	
+104-5	2595-2602	geguckt	GSuccess[18]	gucken\_set1\_4[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-gucken\_set1\_4[18]	_	_	_	_	_	false[157]	Decl[157]	*[281]	gucken[281]	transitive[281]	*[281]	*[281]	item0[281]	20[399]	male[399]	lhu26mh95feeqso1qtacqboi3v[399]	speaker: YOU[517]	_	_	_	_	_	
+
+#Text=Okay
+105-1	2604-2608	Okay	GSuccess[18]	gucken\_set1\_4[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-gucken\_set1\_4[18]	_	_	_	_	_	false	NA	okay\_22	*	*	*	*	feedback	*	female	*	speaker:Amira	_	_	_	_	_	
+
+#Text=Ihr geht es aber gut soweit.
+106-1	2610-2613	Ihr	GSuccess[18]	gucken\_set1\_4[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-gucken\_set1\_4[18]	3	*	IndirObj	*	singular	false[158]	Decl[158]	*[282]	*[282]	*[282]	*[282]	*[282]	input1[282]	20[400]	male[400]	lhu26mh95feeqso1qtacqboi3v[400]	speaker: YOU[518]	*->21-2	PerPron[21]	explanation	*	107-1[159_158]	
+106-2	2614-2618	geht	GSuccess[18]	gucken\_set1\_4[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-gucken\_set1\_4[18]	_	_	_	_	_	false[158]	Decl[158]	*[282]	*[282]	*[282]	*[282]	*[282]	input1[282]	20[400]	male[400]	lhu26mh95feeqso1qtacqboi3v[400]	speaker: YOU[518]	_	_	_	_	_	
+106-3	2619-2621	es	GSuccess[18]	gucken\_set1\_4[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-gucken\_set1\_4[18]	*	*	Subj	*	*	false[158]	Decl[158]	*[282]	*[282]	*[282]	*[282]	*[282]	input1[282]	20[400]	male[400]	lhu26mh95feeqso1qtacqboi3v[400]	speaker: YOU[518]	_	_	_	_	_	
+106-4	2622-2626	aber	GSuccess[18]	gucken\_set1\_4[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-gucken\_set1\_4[18]	_	_	_	_	_	false[158]	Decl[158]	*[282]	*[282]	*[282]	*[282]	*[282]	input1[282]	20[400]	male[400]	lhu26mh95feeqso1qtacqboi3v[400]	speaker: YOU[518]	_	_	_	_	_	
+106-5	2627-2630	gut	GSuccess[18]	gucken\_set1\_4[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-gucken\_set1\_4[18]	_	_	_	_	_	false[158]	Decl[158]	*[282]	*[282]	*[282]	*[282]	*[282]	input1[282]	20[400]	male[400]	lhu26mh95feeqso1qtacqboi3v[400]	speaker: YOU[518]	_	_	_	_	_	
+106-6	2631-2638	soweit.	GSuccess[18]	gucken\_set1\_4[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-gucken\_set1\_4[18]	_	_	_	_	_	false[158]	Decl[158]	*[282]	*[282]	*[282]	*[282]	*[282]	input1[282]	20[400]	male[400]	lhu26mh95feeqso1qtacqboi3v[400]	speaker: YOU[518]	_	_	_	_	_	
+
+#Text=Sie hat sich schon etwas vom Schock erholt.
+107-1	2640-2643	Sie	GSuccess[18]	gucken\_set1\_4[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-gucken\_set1\_4[18]	3	*	Subj	*	singular	false[159]	Decl[159]	*[283]	*[283]	*[283]	*[283]	*[283]	input2[283]	20[401]	male[401]	lhu26mh95feeqso1qtacqboi3v[401]	speaker: YOU[519]	*->21-3	PerPron[21]	_	_	_	
+107-2	2644-2647	hat	GSuccess[18]	gucken\_set1\_4[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-gucken\_set1\_4[18]	_	_	_	_	_	false[159]	Decl[159]	*[283]	*[283]	*[283]	*[283]	*[283]	input2[283]	20[401]	male[401]	lhu26mh95feeqso1qtacqboi3v[401]	speaker: YOU[519]	_	_	_	_	_	
+107-3	2648-2652	sich	GSuccess[18]	gucken\_set1\_4[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-gucken\_set1\_4[18]	_	_	_	_	_	false[159]	Decl[159]	*[283]	*[283]	*[283]	*[283]	*[283]	input2[283]	20[401]	male[401]	lhu26mh95feeqso1qtacqboi3v[401]	speaker: YOU[519]	_	_	_	_	_	
+107-4	2653-2658	schon	GSuccess[18]	gucken\_set1\_4[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-gucken\_set1\_4[18]	_	_	_	_	_	false[159]	Decl[159]	*[283]	*[283]	*[283]	*[283]	*[283]	input2[283]	20[401]	male[401]	lhu26mh95feeqso1qtacqboi3v[401]	speaker: YOU[519]	_	_	_	_	_	
+107-5	2659-2664	etwas	GSuccess[18]	gucken\_set1\_4[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-gucken\_set1\_4[18]	_	_	_	_	_	false[159]	Decl[159]	*[283]	*[283]	*[283]	*[283]	*[283]	input2[283]	20[401]	male[401]	lhu26mh95feeqso1qtacqboi3v[401]	speaker: YOU[519]	_	_	_	_	_	
+107-6	2665-2668	vom	GSuccess[18]	gucken\_set1\_4[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-gucken\_set1\_4[18]	_	_	_	_	_	false[159]	Decl[159]	*[283]	*[283]	*[283]	*[283]	*[283]	input2[283]	20[401]	male[401]	lhu26mh95feeqso1qtacqboi3v[401]	speaker: YOU[519]	*->61-1	DefNP[61]	_	_	_	
+107-7	2669-2675	Schock	GSuccess[18]	gucken\_set1\_4[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-gucken\_set1\_4[18]	*	*	PrepObj	*	*	false[159]	Decl[159]	*[283]	*[283]	*[283]	*[283]	*[283]	input2[283]	20[401]	male[401]	lhu26mh95feeqso1qtacqboi3v[401]	speaker: YOU[519]	*->61-1	DefNP[61]	_	_	_	
+107-8	2676-2683	erholt.	GSuccess[18]	gucken\_set1\_4[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-gucken\_set1\_4[18]	_	_	_	_	_	false[159]	Decl[159]	*[283]	*[283]	*[283]	*[283]	*[283]	input2[283]	20[401]	male[401]	lhu26mh95feeqso1qtacqboi3v[401]	speaker: YOU[519]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+108-1	2685-2700	END_OF_DOCUMENT	GSuccess[18]	gucken\_set1\_4[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-gucken\_set1\_4[18]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Und, alles klar?
+109-1	2702-2706	Und,	GSuccess[19]	gucken\_set1\_4[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-gucken\_set1\_4[19]	_	_	_	_	_	false[160]	Int[160]	*[284]	*[284]	*[284]	yn\_2[284]	yesno\_question[284]	openq[284]	*[402]	female[402]	*[402]	speaker:Amira[520]	_	_	QAP	*	110-1[161_160]	
+109-2	2707-2712	alles	GSuccess[19]	gucken\_set1\_4[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-gucken\_set1\_4[19]	_	_	_	_	_	false[160]	Int[160]	*[284]	*[284]	*[284]	yn\_2[284]	yesno\_question[284]	openq[284]	*[402]	female[402]	*[402]	speaker:Amira[520]	_	_	_	_	_	
+109-3	2713-2718	klar?	GSuccess[19]	gucken\_set1\_4[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-gucken\_set1\_4[19]	_	_	_	_	_	false[160]	Int[160]	*[284]	*[284]	*[284]	yn\_2[284]	yesno\_question[284]	openq[284]	*[402]	female[402]	*[402]	speaker:Amira[520]	_	_	_	_	_	
+
+#Text=Linda hat die Tagesschau geguckt
+110-1	2720-2725	Linda	GSuccess[19]	gucken\_set1\_4[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-gucken\_set1\_4[19]	*	*	Subj	*	*	false[161]	Decl[161]	*[285]	gucken[285]	transitive[285]	*[285]	*[285]	item0[285]	21[403]	male[403]	tc4i3rsgsa9bl8tesf4679lok2[403]	speaker: YOU[521]	*->13-1	PropNm[13]	explanation|acknowledgement	*|*	112-1[162_161]|111-1[0_161]	
+110-2	2726-2729	hat	GSuccess[19]	gucken\_set1\_4[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-gucken\_set1\_4[19]	_	_	_	_	_	false[161]	Decl[161]	*[285]	gucken[285]	transitive[285]	*[285]	*[285]	item0[285]	21[403]	male[403]	tc4i3rsgsa9bl8tesf4679lok2[403]	speaker: YOU[521]	*->49-1	clause[49]	_	_	_	
+110-3	2730-2733	die	GSuccess[19]	gucken\_set1\_4[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-gucken\_set1\_4[19]	*[63]	*[63]	object[63]	*[63]	*[63]	false[161]	Decl[161]	*[285]	gucken[285]	transitive[285]	*[285]	*[285]	item0[285]	21[403]	male[403]	tc4i3rsgsa9bl8tesf4679lok2[403]	speaker: YOU[521]	*->49-1|*->33-1	clause[49]|DefNP[33]	_	_	_	
+110-4	2734-2744	Tagesschau	GSuccess[19]	gucken\_set1\_4[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-gucken\_set1\_4[19]	*[63]	*[63]	object[63]	*[63]	*[63]	false[161]	Decl[161]	*[285]	gucken[285]	transitive[285]	*[285]	*[285]	item0[285]	21[403]	male[403]	tc4i3rsgsa9bl8tesf4679lok2[403]	speaker: YOU[521]	*->49-1|*->33-1	clause[49]|DefNP[33]	_	_	_	
+110-5	2745-2752	geguckt	GSuccess[19]	gucken\_set1\_4[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-gucken\_set1\_4[19]	_	_	_	_	_	false[161]	Decl[161]	*[285]	gucken[285]	transitive[285]	*[285]	*[285]	item0[285]	21[403]	male[403]	tc4i3rsgsa9bl8tesf4679lok2[403]	speaker: YOU[521]	*->49-1	clause[49]	_	_	_	
+
+#Text=Okay
+111-1	2754-2758	Okay	GSuccess[19]	gucken\_set1\_4[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-gucken\_set1\_4[19]	_	_	_	_	_	false	NA	okay\_22	*	*	*	*	feedback	*	female	*	speaker:Amira	_	_	_	_	_	
+
+#Text=Normalerweise macht sie das nicht
+112-1	2760-2773	Normalerweise	GSuccess[19]	gucken\_set1\_4[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-gucken\_set1\_4[19]	_	_	_	_	_	true[162]|false[163]	*[162]|Decl[163]	*[286]	*[286]	*[286]	*[286]	*[286]	input1[286]	21[404]	male[404]	tc4i3rsgsa9bl8tesf4679lok2[404]	speaker: YOU[522]	_	_	contrast	*	113-1[164_163]	
+112-2	2774-2779	macht	GSuccess[19]	gucken\_set1\_4[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-gucken\_set1\_4[19]	_	_	_	_	_	true[162]|false[163]	*[162]|Decl[163]	*[286]	*[286]	*[286]	*[286]	*[286]	input1[286]	21[404]	male[404]	tc4i3rsgsa9bl8tesf4679lok2[404]	speaker: YOU[522]	_	_	_	_	_	
+112-3	2780-2783	sie	GSuccess[19]	gucken\_set1\_4[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-gucken\_set1\_4[19]	3	*	Subj	*	singular	true[162]|false[163]	*[162]|Decl[163]	*[286]	*[286]	*[286]	*[286]	*[286]	input1[286]	21[404]	male[404]	tc4i3rsgsa9bl8tesf4679lok2[404]	speaker: YOU[522]	*->13-2	PerPron[13]	_	_	_	
+112-4	2784-2787	das	GSuccess[19]	gucken\_set1\_4[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-gucken\_set1\_4[19]	_	_	_	_	_	true[162]|false[163]	*[162]|Decl[163]	*[286]	*[286]	*[286]	*[286]	*[286]	input1[286]	21[404]	male[404]	tc4i3rsgsa9bl8tesf4679lok2[404]	speaker: YOU[522]	*->49-2	D-Pron[49]	_	_	_	
+112-5	2788-2793	nicht	GSuccess[19]	gucken\_set1\_4[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-gucken\_set1\_4[19]	_	_	_	_	_	true[162]|false[163]	*[162]|Decl[163]	*[286]	*[286]	*[286]	*[286]	*[286]	input1[286]	21[404]	male[404]	tc4i3rsgsa9bl8tesf4679lok2[404]	speaker: YOU[522]	_	_	_	_	_	
+
+#Text=Aber das Thema rund um den Ukraine Krieg scheint sie zu interessieren
+113-1	2795-2799	Aber	GSuccess[19]	gucken\_set1\_4[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-gucken\_set1\_4[19]	_	_	_	_	_	true[162]|false[164]	*[162]|Decl[164]	*[287]	*[287]	*[287]	*[287]	*[287]	input2[287]	21[405]	male[405]	tc4i3rsgsa9bl8tesf4679lok2[405]	speaker: YOU[523]	_	_	_	_	_	
+113-2	2800-2803	das	GSuccess[19]	gucken\_set1\_4[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-gucken\_set1\_4[19]	*[64]	*[64]	Subj[64]	*[64]	*[64]	true[162]|false[164]	*[162]|Decl[164]	*[287]	*[287]	*[287]	*[287]	*[287]	input2[287]	21[405]	male[405]	tc4i3rsgsa9bl8tesf4679lok2[405]	speaker: YOU[523]	*->86-1	DefNP[86]	_	_	_	
+113-3	2804-2809	Thema	GSuccess[19]	gucken\_set1\_4[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-gucken\_set1\_4[19]	*[64]	*[64]	Subj[64]	*[64]	*[64]	true[162]|false[164]	*[162]|Decl[164]	*[287]	*[287]	*[287]	*[287]	*[287]	input2[287]	21[405]	male[405]	tc4i3rsgsa9bl8tesf4679lok2[405]	speaker: YOU[523]	*->86-1	DefNP[86]	_	_	_	
+113-4	2810-2814	rund	GSuccess[19]	gucken\_set1\_4[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-gucken\_set1\_4[19]	_	_	_	_	_	true[162]|false[164]	*[162]|Decl[164]	*[287]	*[287]	*[287]	*[287]	*[287]	input2[287]	21[405]	male[405]	tc4i3rsgsa9bl8tesf4679lok2[405]	speaker: YOU[523]	*->86-1	DefNP[86]	_	_	_	
+113-5	2815-2817	um	GSuccess[19]	gucken\_set1\_4[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-gucken\_set1\_4[19]	_	_	_	_	_	true[162]|false[164]	*[162]|Decl[164]	*[287]	*[287]	*[287]	*[287]	*[287]	input2[287]	21[405]	male[405]	tc4i3rsgsa9bl8tesf4679lok2[405]	speaker: YOU[523]	*->86-1	DefNP[86]	_	_	_	
+113-6	2818-2821	den	GSuccess[19]	gucken\_set1\_4[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-gucken\_set1\_4[19]	*[65]	*[65]	PrepObj[65]	*[65]	*[65]	true[162]|false[164]	*[162]|Decl[164]	*[287]	*[287]	*[287]	*[287]	*[287]	input2[287]	21[405]	male[405]	tc4i3rsgsa9bl8tesf4679lok2[405]	speaker: YOU[523]	*->86-1|*->117-1	DefNP[86]|DefNP[117]	_	_	_	
+113-7	2822-2829	Ukraine	GSuccess[19]	gucken\_set1\_4[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-gucken\_set1\_4[19]	*[65]	*[65]	PrepObj[65]	*[65]	*[65]	true[162]|false[164]	*[162]|Decl[164]	*[287]	*[287]	*[287]	*[287]	*[287]	input2[287]	21[405]	male[405]	tc4i3rsgsa9bl8tesf4679lok2[405]	speaker: YOU[523]	*->86-1|*->117-1	DefNP[86]|DefNP[117]	_	_	_	
+113-8	2830-2835	Krieg	GSuccess[19]	gucken\_set1\_4[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-gucken\_set1\_4[19]	*[65]	*[65]	PrepObj[65]	*[65]	*[65]	true[162]|false[164]	*[162]|Decl[164]	*[287]	*[287]	*[287]	*[287]	*[287]	input2[287]	21[405]	male[405]	tc4i3rsgsa9bl8tesf4679lok2[405]	speaker: YOU[523]	*->86-1|*->117-1	DefNP[86]|DefNP[117]	_	_	_	
+113-9	2836-2843	scheint	GSuccess[19]	gucken\_set1\_4[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-gucken\_set1\_4[19]	_	_	_	_	_	true[162]|false[164]	*[162]|Decl[164]	*[287]	*[287]	*[287]	*[287]	*[287]	input2[287]	21[405]	male[405]	tc4i3rsgsa9bl8tesf4679lok2[405]	speaker: YOU[523]	_	_	_	_	_	
+113-10	2844-2847	sie	GSuccess[19]	gucken\_set1\_4[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-gucken\_set1\_4[19]	3	*	DirObj	*	singular	true[162]|false[164]	*[162]|Decl[164]	*[287]	*[287]	*[287]	*[287]	*[287]	input2[287]	21[405]	male[405]	tc4i3rsgsa9bl8tesf4679lok2[405]	speaker: YOU[523]	*->13-3	PerPron[13]	_	_	_	
+113-11	2848-2850	zu	GSuccess[19]	gucken\_set1\_4[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-gucken\_set1\_4[19]	_	_	_	_	_	true[162]|false[164]	*[162]|Decl[164]	*[287]	*[287]	*[287]	*[287]	*[287]	input2[287]	21[405]	male[405]	tc4i3rsgsa9bl8tesf4679lok2[405]	speaker: YOU[523]	_	_	_	_	_	
+113-12	2851-2864	interessieren	GSuccess[19]	gucken\_set1\_4[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-gucken\_set1\_4[19]	_	_	_	_	_	true[162]|false[164]	*[162]|Decl[164]	*[287]	*[287]	*[287]	*[287]	*[287]	input2[287]	21[405]	male[405]	tc4i3rsgsa9bl8tesf4679lok2[405]	speaker: YOU[523]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+114-1	2866-2881	END_OF_DOCUMENT	GSuccess[19]	gucken\_set1\_4[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-gucken\_set1\_4[19]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Und, alles klar?
+115-1	2883-2887	Und,	GSuccess[20]	gucken\_set1\_4[20]	latin1[20]	us0adlivem61c2bj5776kudbot-gucken\_set1\_4[20]	_	_	_	_	_	false[165]	Int[165]	*[288]	*[288]	*[288]	yn\_2[288]	yesno\_question[288]	openq[288]	*[406]	female[406]	*[406]	speaker:Amira[524]	_	_	QAP	*	116-1[166_165]	
+115-2	2888-2893	alles	GSuccess[20]	gucken\_set1\_4[20]	latin1[20]	us0adlivem61c2bj5776kudbot-gucken\_set1\_4[20]	_	_	_	_	_	false[165]	Int[165]	*[288]	*[288]	*[288]	yn\_2[288]	yesno\_question[288]	openq[288]	*[406]	female[406]	*[406]	speaker:Amira[524]	_	_	_	_	_	
+115-3	2894-2899	klar?	GSuccess[20]	gucken\_set1\_4[20]	latin1[20]	us0adlivem61c2bj5776kudbot-gucken\_set1\_4[20]	_	_	_	_	_	false[165]	Int[165]	*[288]	*[288]	*[288]	yn\_2[288]	yesno\_question[288]	openq[288]	*[406]	female[406]	*[406]	speaker:Amira[524]	_	_	_	_	_	
+
+#Text=Linda hat die Tagesschau geguckt
+116-1	2901-2906	Linda	GSuccess[20]	gucken\_set1\_4[20]	latin1[20]	us0adlivem61c2bj5776kudbot-gucken\_set1\_4[20]	*	*	Subj	*	*	false[166]	Decl[166]	*[289]	gucken[289]	transitive[289]	*[289]	*[289]	item0[289]	66[407]	male[407]	us0adlivem61c2bj5776kudbot[407]	speaker: YOU[525]	*->77-1	PropNm[77]	explanation|acknowledgement	*|*	118-1[167_166]|117-1[0_166]	
+116-2	2907-2910	hat	GSuccess[20]	gucken\_set1\_4[20]	latin1[20]	us0adlivem61c2bj5776kudbot-gucken\_set1\_4[20]	_	_	_	_	_	false[166]	Decl[166]	*[289]	gucken[289]	transitive[289]	*[289]	*[289]	item0[289]	66[407]	male[407]	us0adlivem61c2bj5776kudbot[407]	speaker: YOU[525]	*->118-1	clause[118]	_	_	_	
+116-3	2911-2914	die	GSuccess[20]	gucken\_set1\_4[20]	latin1[20]	us0adlivem61c2bj5776kudbot-gucken\_set1\_4[20]	*[66]	*[66]	object[66]	*[66]	*[66]	false[166]	Decl[166]	*[289]	gucken[289]	transitive[289]	*[289]	*[289]	item0[289]	66[407]	male[407]	us0adlivem61c2bj5776kudbot[407]	speaker: YOU[525]	*->118-1|*->83-1	clause[118]|DefNP[83]	_	_	_	
+116-4	2915-2925	Tagesschau	GSuccess[20]	gucken\_set1\_4[20]	latin1[20]	us0adlivem61c2bj5776kudbot-gucken\_set1\_4[20]	*[66]	*[66]	object[66]	*[66]	*[66]	false[166]	Decl[166]	*[289]	gucken[289]	transitive[289]	*[289]	*[289]	item0[289]	66[407]	male[407]	us0adlivem61c2bj5776kudbot[407]	speaker: YOU[525]	*->118-1|*->83-1	clause[118]|DefNP[83]	_	_	_	
+116-5	2926-2933	geguckt	GSuccess[20]	gucken\_set1\_4[20]	latin1[20]	us0adlivem61c2bj5776kudbot-gucken\_set1\_4[20]	_	_	_	_	_	false[166]	Decl[166]	*[289]	gucken[289]	transitive[289]	*[289]	*[289]	item0[289]	66[407]	male[407]	us0adlivem61c2bj5776kudbot[407]	speaker: YOU[525]	*->118-1	clause[118]	_	_	_	
+
+#Text=Okay
+117-1	2935-2939	Okay	GSuccess[20]	gucken\_set1\_4[20]	latin1[20]	us0adlivem61c2bj5776kudbot-gucken\_set1\_4[20]	_	_	_	_	_	false	NA	okay\_22	*	*	*	*	feedback	*	female	*	speaker:Amira	_	_	_	_	_	
+
+#Text=ja das macht sie immer
+118-1	2941-2943	ja	GSuccess[20]	gucken\_set1\_4[20]	latin1[20]	us0adlivem61c2bj5776kudbot-gucken\_set1\_4[20]	_	_	_	_	_	false[167]	Decl[167]	*[290]	*[290]	*[290]	*[290]	*[290]	input1[290]	66[408]	male[408]	us0adlivem61c2bj5776kudbot[408]	speaker: YOU[526]	_	_	elaboration	*	119-1[168_167]	
+118-2	2944-2947	das	GSuccess[20]	gucken\_set1\_4[20]	latin1[20]	us0adlivem61c2bj5776kudbot-gucken\_set1\_4[20]	_	_	_	_	_	false[167]	Decl[167]	*[290]	*[290]	*[290]	*[290]	*[290]	input1[290]	66[408]	male[408]	us0adlivem61c2bj5776kudbot[408]	speaker: YOU[526]	*->118-2	D-Pron[118]	_	_	_	
+118-3	2948-2953	macht	GSuccess[20]	gucken\_set1\_4[20]	latin1[20]	us0adlivem61c2bj5776kudbot-gucken\_set1\_4[20]	_	_	_	_	_	false[167]	Decl[167]	*[290]	*[290]	*[290]	*[290]	*[290]	input1[290]	66[408]	male[408]	us0adlivem61c2bj5776kudbot[408]	speaker: YOU[526]	_	_	_	_	_	
+118-4	2954-2957	sie	GSuccess[20]	gucken\_set1\_4[20]	latin1[20]	us0adlivem61c2bj5776kudbot-gucken\_set1\_4[20]	3	*	Subj	*	singular	false[167]	Decl[167]	*[290]	*[290]	*[290]	*[290]	*[290]	input1[290]	66[408]	male[408]	us0adlivem61c2bj5776kudbot[408]	speaker: YOU[526]	*->77-2	PerPron[77]	_	_	_	
+118-5	2958-2963	immer	GSuccess[20]	gucken\_set1\_4[20]	latin1[20]	us0adlivem61c2bj5776kudbot-gucken\_set1\_4[20]	_	_	_	_	_	false[167]	Decl[167]	*[290]	*[290]	*[290]	*[290]	*[290]	input1[290]	66[408]	male[408]	us0adlivem61c2bj5776kudbot[408]	speaker: YOU[526]	_	_	_	_	_	
+
+#Text=Ritual bei ihr
+119-1	2965-2971	Ritual	GSuccess[20]	gucken\_set1\_4[20]	latin1[20]	us0adlivem61c2bj5776kudbot-gucken\_set1\_4[20]	_	_	_	_	_	false[168]	NA[168]	*[291]	*[291]	*[291]	*[291]	*[291]	input2[291]	66[409]	male[409]	us0adlivem61c2bj5776kudbot[409]	speaker: YOU[527]	*->118-3	IndefNP[118]	_	_	_	
+119-2	2972-2975	bei	GSuccess[20]	gucken\_set1\_4[20]	latin1[20]	us0adlivem61c2bj5776kudbot-gucken\_set1\_4[20]	_	_	_	_	_	false[168]	NA[168]	*[291]	*[291]	*[291]	*[291]	*[291]	input2[291]	66[409]	male[409]	us0adlivem61c2bj5776kudbot[409]	speaker: YOU[527]	_	_	_	_	_	
+119-3	2976-2979	ihr	GSuccess[20]	gucken\_set1\_4[20]	latin1[20]	us0adlivem61c2bj5776kudbot-gucken\_set1\_4[20]	3	*	PrepObj	*	singular	false[168]	NA[168]	*[291]	*[291]	*[291]	*[291]	*[291]	input2[291]	66[409]	male[409]	us0adlivem61c2bj5776kudbot[409]	speaker: YOU[527]	*->77-3	PerPron[77]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+120-1	2981-2996	END_OF_DOCUMENT	GSuccess[20]	gucken\_set1\_4[20]	latin1[20]	us0adlivem61c2bj5776kudbot-gucken\_set1\_4[20]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Und, alles klar?
+121-1	2998-3002	Und,	GWithout[21]	gucken\_set1\_4[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-gucken\_set1\_4[21]	_	_	_	_	_	false[169]	Int[169]	*[292]	*[292]	*[292]	yn\_2[292]	yesno\_question[292]	openq[292]	*[410]	female[410]	*[410]	speaker:Amira[528]	_	_	QAP	*	122-1[170_169]	
+121-2	3003-3008	alles	GWithout[21]	gucken\_set1\_4[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-gucken\_set1\_4[21]	_	_	_	_	_	false[169]	Int[169]	*[292]	*[292]	*[292]	yn\_2[292]	yesno\_question[292]	openq[292]	*[410]	female[410]	*[410]	speaker:Amira[528]	_	_	_	_	_	
+121-3	3009-3014	klar?	GWithout[21]	gucken\_set1\_4[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-gucken\_set1\_4[21]	_	_	_	_	_	false[169]	Int[169]	*[292]	*[292]	*[292]	yn\_2[292]	yesno\_question[292]	openq[292]	*[410]	female[410]	*[410]	speaker:Amira[528]	_	_	_	_	_	
+
+#Text=Linda hat die Tagesschau geguckt
+122-1	3016-3021	Linda	GWithout[21]	gucken\_set1\_4[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-gucken\_set1\_4[21]	*	*	Subj	*	*	false[170]	Decl[170]	*[293]	gucken[293]	transitive[293]	*[293]	*[293]	item0[293]	32[411]	female[411]	2em9nj6n4c2pjudl6n6hfpjc30[411]	speaker: YOU[529]	*->58-1	PropNm[58]	result	*	124-1[171_170]	
+122-2	3022-3025	hat	GWithout[21]	gucken\_set1\_4[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-gucken\_set1\_4[21]	_	_	_	_	_	false[170]	Decl[170]	*[293]	gucken[293]	transitive[293]	*[293]	*[293]	item0[293]	32[411]	female[411]	2em9nj6n4c2pjudl6n6hfpjc30[411]	speaker: YOU[529]	_	_	_	_	_	
+122-3	3026-3029	die	GWithout[21]	gucken\_set1\_4[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-gucken\_set1\_4[21]	*[67]	*[67]	object[67]	*[67]	*[67]	false[170]	Decl[170]	*[293]	gucken[293]	transitive[293]	*[293]	*[293]	item0[293]	32[411]	female[411]	2em9nj6n4c2pjudl6n6hfpjc30[411]	speaker: YOU[529]	*->38-1	DefNP[38]	_	_	_	
+122-4	3030-3040	Tagesschau	GWithout[21]	gucken\_set1\_4[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-gucken\_set1\_4[21]	*[67]	*[67]	object[67]	*[67]	*[67]	false[170]	Decl[170]	*[293]	gucken[293]	transitive[293]	*[293]	*[293]	item0[293]	32[411]	female[411]	2em9nj6n4c2pjudl6n6hfpjc30[411]	speaker: YOU[529]	*->38-1	DefNP[38]	_	_	_	
+122-5	3041-3048	geguckt	GWithout[21]	gucken\_set1\_4[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-gucken\_set1\_4[21]	_	_	_	_	_	false[170]	Decl[170]	*[293]	gucken[293]	transitive[293]	*[293]	*[293]	item0[293]	32[411]	female[411]	2em9nj6n4c2pjudl6n6hfpjc30[411]	speaker: YOU[529]	_	_	_	_	_	
+
+#Text=-
+123-1	3050-3051	-	GWithout[21]	gucken\_set1\_4[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-gucken\_set1\_4[21]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Amira	_	_	_	_	_	
+
+#Text=Jetzt ist sie deprimiert.
+124-1	3053-3058	Jetzt	GWithout[21]	gucken\_set1\_4[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-gucken\_set1\_4[21]	_	_	_	_	_	false[171]	Decl[171]	*[294]	*[294]	*[294]	*[294]	*[294]	input1[294]	32[412]	female[412]	2em9nj6n4c2pjudl6n6hfpjc30[412]	speaker: YOU[530]	*->47-1	clause[47]	elaboration	*	125-1[172_171]	
+124-2	3059-3062	ist	GWithout[21]	gucken\_set1\_4[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-gucken\_set1\_4[21]	_	_	_	_	_	false[171]	Decl[171]	*[294]	*[294]	*[294]	*[294]	*[294]	input1[294]	32[412]	female[412]	2em9nj6n4c2pjudl6n6hfpjc30[412]	speaker: YOU[530]	*->47-1	clause[47]	_	_	_	
+124-3	3063-3066	sie	GWithout[21]	gucken\_set1\_4[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-gucken\_set1\_4[21]	3	*	Subj	*	singular	false[171]	Decl[171]	*[294]	*[294]	*[294]	*[294]	*[294]	input1[294]	32[412]	female[412]	2em9nj6n4c2pjudl6n6hfpjc30[412]	speaker: YOU[530]	*->47-1|*->58-2	clause[47]|PerPron[58]	_	_	_	
+124-4	3067-3078	deprimiert.	GWithout[21]	gucken\_set1\_4[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-gucken\_set1\_4[21]	_	_	_	_	_	false[171]	Decl[171]	*[294]	*[294]	*[294]	*[294]	*[294]	input1[294]	32[412]	female[412]	2em9nj6n4c2pjudl6n6hfpjc30[412]	speaker: YOU[530]	*->47-1	clause[47]	_	_	_	
+
+#Text=Was abzusehen war <BR> wenn du mich fragst.
+125-1	3080-3083	Was	GWithout[21]	gucken\_set1\_4[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-gucken\_set1\_4[21]	_	_	_	_	_	false[172]	NA[172]	*[295]	*[295]	*[295]	*[295]	*[295]	input2[295]	32[413]	female[413]	2em9nj6n4c2pjudl6n6hfpjc30[413]	speaker: YOU[531]	*->47-2	R-Pron[47]	explanation	*	125-5[173_172]	
+125-2	3084-3093	abzusehen	GWithout[21]	gucken\_set1\_4[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-gucken\_set1\_4[21]	_	_	_	_	_	false[172]	NA[172]	*[295]	*[295]	*[295]	*[295]	*[295]	input2[295]	32[413]	female[413]	2em9nj6n4c2pjudl6n6hfpjc30[413]	speaker: YOU[531]	_	_	_	_	_	
+125-3	3094-3097	war	GWithout[21]	gucken\_set1\_4[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-gucken\_set1\_4[21]	_	_	_	_	_	false[172]	NA[172]	*[295]	*[295]	*[295]	*[295]	*[295]	input2[295]	32[413]	female[413]	2em9nj6n4c2pjudl6n6hfpjc30[413]	speaker: YOU[531]	_	_	_	_	_	
+125-4	3098-3102	<BR>	GWithout[21]	gucken\_set1\_4[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-gucken\_set1\_4[21]	_	_	_	_	_	_	_	*[295]	*[295]	*[295]	*[295]	*[295]	input2[295]	32[413]	female[413]	2em9nj6n4c2pjudl6n6hfpjc30[413]	speaker: YOU[531]	_	_	_	_	_	
+125-5	3103-3107	wenn	GWithout[21]	gucken\_set1\_4[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-gucken\_set1\_4[21]	_	_	_	_	_	false[173]	NA[173]	*[295]	*[295]	*[295]	*[295]	*[295]	input2[295]	32[413]	female[413]	2em9nj6n4c2pjudl6n6hfpjc30[413]	speaker: YOU[531]	_	_	_	_	_	
+125-6	3108-3110	du	GWithout[21]	gucken\_set1\_4[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-gucken\_set1\_4[21]	2	*	Subj	*	singular	false[173]	NA[173]	*[295]	*[295]	*[295]	*[295]	*[295]	input2[295]	32[413]	female[413]	2em9nj6n4c2pjudl6n6hfpjc30[413]	speaker: YOU[531]	*->109-1	PerPron[109]	_	_	_	
+125-7	3111-3115	mich	GWithout[21]	gucken\_set1\_4[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-gucken\_set1\_4[21]	1	*	*	*	singular	false[173]	NA[173]	*[295]	*[295]	*[295]	*[295]	*[295]	input2[295]	32[413]	female[413]	2em9nj6n4c2pjudl6n6hfpjc30[413]	speaker: YOU[531]	*->90-1	PerPron[90]	_	_	_	
+125-8	3116-3123	fragst.	GWithout[21]	gucken\_set1\_4[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-gucken\_set1\_4[21]	_	_	_	_	_	false[173]	NA[173]	*[295]	*[295]	*[295]	*[295]	*[295]	input2[295]	32[413]	female[413]	2em9nj6n4c2pjudl6n6hfpjc30[413]	speaker: YOU[531]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+126-1	3125-3140	END_OF_DOCUMENT	GWithout[21]	gucken\_set1\_4[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-gucken\_set1\_4[21]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Und, alles klar?
+127-1	3142-3146	Und,	GWithout[22]	gucken\_set1\_4[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-gucken\_set1\_4[22]	_	_	_	_	_	false[174]	Int[174]	*[296]	*[296]	*[296]	yn\_2[296]	yesno\_question[296]	openq[296]	*[414]	female[414]	*[414]	speaker:Amira[532]	_	_	QAP	*	128-1[175_174]	
+127-2	3147-3152	alles	GWithout[22]	gucken\_set1\_4[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-gucken\_set1\_4[22]	_	_	_	_	_	false[174]	Int[174]	*[296]	*[296]	*[296]	yn\_2[296]	yesno\_question[296]	openq[296]	*[414]	female[414]	*[414]	speaker:Amira[532]	_	_	_	_	_	
+127-3	3153-3158	klar?	GWithout[22]	gucken\_set1\_4[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-gucken\_set1\_4[22]	_	_	_	_	_	false[174]	Int[174]	*[296]	*[296]	*[296]	yn\_2[296]	yesno\_question[296]	openq[296]	*[414]	female[414]	*[414]	speaker:Amira[532]	_	_	_	_	_	
+
+#Text=Linda hat die Tagesschau geguckt
+128-1	3160-3165	Linda	GWithout[22]	gucken\_set1\_4[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-gucken\_set1\_4[22]	*	*	Subj	*	*	false[175]	Decl[175]	*[297]	gucken[297]	transitive[297]	*[297]	*[297]	item0[297]	41[415]	female[415]	2prsavjsjqbmc8hrbo9bovkues[415]	speaker: YOU[533]	*->14-1	PropNm[14]	parallel|elaboration	*|*	130-1[176_175]|131-1[177_175]	
+128-2	3166-3169	hat	GWithout[22]	gucken\_set1\_4[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-gucken\_set1\_4[22]	_	_	_	_	_	false[175]	Decl[175]	*[297]	gucken[297]	transitive[297]	*[297]	*[297]	item0[297]	41[415]	female[415]	2prsavjsjqbmc8hrbo9bovkues[415]	speaker: YOU[533]	_	_	_	_	_	
+128-3	3170-3173	die	GWithout[22]	gucken\_set1\_4[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-gucken\_set1\_4[22]	*[68]	*[68]	object[68]	*[68]	*[68]	false[175]	Decl[175]	*[297]	gucken[297]	transitive[297]	*[297]	*[297]	item0[297]	41[415]	female[415]	2prsavjsjqbmc8hrbo9bovkues[415]	speaker: YOU[533]	*->12-1	DefNP[12]	_	_	_	
+128-4	3174-3184	Tagesschau	GWithout[22]	gucken\_set1\_4[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-gucken\_set1\_4[22]	*[68]	*[68]	object[68]	*[68]	*[68]	false[175]	Decl[175]	*[297]	gucken[297]	transitive[297]	*[297]	*[297]	item0[297]	41[415]	female[415]	2prsavjsjqbmc8hrbo9bovkues[415]	speaker: YOU[533]	*->12-1	DefNP[12]	_	_	_	
+128-5	3185-3192	geguckt	GWithout[22]	gucken\_set1\_4[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-gucken\_set1\_4[22]	_	_	_	_	_	false[175]	Decl[175]	*[297]	gucken[297]	transitive[297]	*[297]	*[297]	item0[297]	41[415]	female[415]	2prsavjsjqbmc8hrbo9bovkues[415]	speaker: YOU[533]	_	_	_	_	_	
+
+#Text=-
+129-1	3194-3195	-	GWithout[22]	gucken\_set1\_4[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-gucken\_set1\_4[22]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Amira	_	_	_	_	_	
+
+#Text=Hast du sie auch gesehen?
+130-1	3197-3201	Hast	GWithout[22]	gucken\_set1\_4[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-gucken\_set1\_4[22]	_	_	_	_	_	false[176]	Int[176]	*[298]	*[298]	*[298]	*[298]	*[298]	input1[298]	41[416]	female[416]	2prsavjsjqbmc8hrbo9bovkues[416]	speaker: YOU[534]	_	_	_	_	_	
+130-2	3202-3204	du	GWithout[22]	gucken\_set1\_4[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-gucken\_set1\_4[22]	2	*	Subj	*	singular	false[176]	Int[176]	*[298]	*[298]	*[298]	*[298]	*[298]	input1[298]	41[416]	female[416]	2prsavjsjqbmc8hrbo9bovkues[416]	speaker: YOU[534]	*->63-1	PerPron[63]	_	_	_	
+130-3	3205-3208	sie	GWithout[22]	gucken\_set1\_4[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-gucken\_set1\_4[22]	3	*	DirObj	*	singular	false[176]	Int[176]	*[298]	*[298]	*[298]	*[298]	*[298]	input1[298]	41[416]	female[416]	2prsavjsjqbmc8hrbo9bovkues[416]	speaker: YOU[534]	*->12-2	PerPron[12]	_	_	_	
+130-4	3209-3213	auch	GWithout[22]	gucken\_set1\_4[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-gucken\_set1\_4[22]	_	_	_	_	_	false[176]	Int[176]	*[298]	*[298]	*[298]	*[298]	*[298]	input1[298]	41[416]	female[416]	2prsavjsjqbmc8hrbo9bovkues[416]	speaker: YOU[534]	_	_	_	_	_	
+130-5	3214-3222	gesehen?	GWithout[22]	gucken\_set1\_4[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-gucken\_set1\_4[22]	_	_	_	_	_	false[176]	Int[176]	*[298]	*[298]	*[298]	*[298]	*[298]	input1[298]	41[416]	female[416]	2prsavjsjqbmc8hrbo9bovkues[416]	speaker: YOU[534]	_	_	_	_	_	
+
+#Text=Echt unglaublich...
+131-1	3224-3228	Echt	GWithout[22]	gucken\_set1\_4[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-gucken\_set1\_4[22]	_	_	_	_	_	false[177]	NA[177]	*[299]	*[299]	*[299]	*[299]	*[299]	input2[299]	41[417]	female[417]	2prsavjsjqbmc8hrbo9bovkues[417]	speaker: YOU[535]	_	_	_	_	_	
+131-2	3229-3243	unglaublich...	GWithout[22]	gucken\_set1\_4[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-gucken\_set1\_4[22]	_	_	_	_	_	false[177]	NA[177]	*[299]	*[299]	*[299]	*[299]	*[299]	input2[299]	41[417]	female[417]	2prsavjsjqbmc8hrbo9bovkues[417]	speaker: YOU[535]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+132-1	3245-3260	END_OF_DOCUMENT	GWithout[22]	gucken\_set1\_4[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-gucken\_set1\_4[22]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Und, alles klar?
+133-1	3262-3266	Und,	GWithout[23]	gucken\_set1\_4[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-gucken\_set1\_4[23]	_	_	_	_	_	false[178]	Int[178]	*[300]	*[300]	*[300]	yn\_2[300]	yesno\_question[300]	openq[300]	*[418]	female[418]	*[418]	speaker:Amira[536]	_	_	QAP	*	134-1[179_178]	
+133-2	3267-3272	alles	GWithout[23]	gucken\_set1\_4[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-gucken\_set1\_4[23]	_	_	_	_	_	false[178]	Int[178]	*[300]	*[300]	*[300]	yn\_2[300]	yesno\_question[300]	openq[300]	*[418]	female[418]	*[418]	speaker:Amira[536]	_	_	_	_	_	
+133-3	3273-3278	klar?	GWithout[23]	gucken\_set1\_4[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-gucken\_set1\_4[23]	_	_	_	_	_	false[178]	Int[178]	*[300]	*[300]	*[300]	yn\_2[300]	yesno\_question[300]	openq[300]	*[418]	female[418]	*[418]	speaker:Amira[536]	_	_	_	_	_	
+
+#Text=Linda hat die Tagesschau geguckt
+134-1	3280-3285	Linda	GWithout[23]	gucken\_set1\_4[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-gucken\_set1\_4[23]	*	*	Subj	*	*	false[179]	Decl[179]	*[301]	gucken[301]	transitive[301]	*[301]	*[301]	item0[301]	46[419]	male[419]	3jjtes457iqluuhfmeiub8g6qd[419]	speaker: YOU[537]	*->91-1	PropNm[91]	elaboration	*	136-1[180_179]	
+134-2	3286-3289	hat	GWithout[23]	gucken\_set1\_4[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-gucken\_set1\_4[23]	_	_	_	_	_	false[179]	Decl[179]	*[301]	gucken[301]	transitive[301]	*[301]	*[301]	item0[301]	46[419]	male[419]	3jjtes457iqluuhfmeiub8g6qd[419]	speaker: YOU[537]	_	_	_	_	_	
+134-3	3290-3293	die	GWithout[23]	gucken\_set1\_4[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-gucken\_set1\_4[23]	*[69]	*[69]	object[69]	*[69]	*[69]	false[179]	Decl[179]	*[301]	gucken[301]	transitive[301]	*[301]	*[301]	item0[301]	46[419]	male[419]	3jjtes457iqluuhfmeiub8g6qd[419]	speaker: YOU[537]	*->8-1	DefNP[8]	_	_	_	
+134-4	3294-3304	Tagesschau	GWithout[23]	gucken\_set1\_4[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-gucken\_set1\_4[23]	*[69]	*[69]	object[69]	*[69]	*[69]	false[179]	Decl[179]	*[301]	gucken[301]	transitive[301]	*[301]	*[301]	item0[301]	46[419]	male[419]	3jjtes457iqluuhfmeiub8g6qd[419]	speaker: YOU[537]	*->8-1	DefNP[8]	_	_	_	
+134-5	3305-3312	geguckt	GWithout[23]	gucken\_set1\_4[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-gucken\_set1\_4[23]	_	_	_	_	_	false[179]	Decl[179]	*[301]	gucken[301]	transitive[301]	*[301]	*[301]	item0[301]	46[419]	male[419]	3jjtes457iqluuhfmeiub8g6qd[419]	speaker: YOU[537]	_	_	_	_	_	
+
+#Text=-
+135-1	3314-3315	-	GWithout[23]	gucken\_set1\_4[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-gucken\_set1\_4[23]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Amira	_	_	_	_	_	
+
+#Text=Da haben sie wieder über den Ukraine-Krieg berichtet..
+136-1	3317-3319	Da	GWithout[23]	gucken\_set1\_4[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-gucken\_set1\_4[23]	_	_	_	_	_	false[180]	Decl[180]	*[302]	*[302]	*[302]	*[302]	*[302]	input1[302]	46[420]	male[420]	3jjtes457iqluuhfmeiub8g6qd[420]	speaker: YOU[538]	_	_	elaboration	*	137-1[181_180]	
+136-2	3320-3325	haben	GWithout[23]	gucken\_set1\_4[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-gucken\_set1\_4[23]	_	_	_	_	_	false[180]	Decl[180]	*[302]	*[302]	*[302]	*[302]	*[302]	input1[302]	46[420]	male[420]	3jjtes457iqluuhfmeiub8g6qd[420]	speaker: YOU[538]	_	_	_	_	_	
+136-3	3326-3329	sie	GWithout[23]	gucken\_set1\_4[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-gucken\_set1\_4[23]	3	*	Subj	*	plural	false[180]	Decl[180]	*[302]	*[302]	*[302]	*[302]	*[302]	input1[302]	46[420]	male[420]	3jjtes457iqluuhfmeiub8g6qd[420]	speaker: YOU[538]	*->8-2	PerPron[8]	_	_	_	
+136-4	3330-3336	wieder	GWithout[23]	gucken\_set1\_4[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-gucken\_set1\_4[23]	_	_	_	_	_	false[180]	Decl[180]	*[302]	*[302]	*[302]	*[302]	*[302]	input1[302]	46[420]	male[420]	3jjtes457iqluuhfmeiub8g6qd[420]	speaker: YOU[538]	_	_	_	_	_	
+136-5	3337-3341	über	GWithout[23]	gucken\_set1\_4[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-gucken\_set1\_4[23]	_	_	_	_	_	false[180]	Decl[180]	*[302]	*[302]	*[302]	*[302]	*[302]	input1[302]	46[420]	male[420]	3jjtes457iqluuhfmeiub8g6qd[420]	speaker: YOU[538]	_	_	_	_	_	
+136-6	3342-3345	den	GWithout[23]	gucken\_set1\_4[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-gucken\_set1\_4[23]	*[70]	*[70]	PrepObj[70]	*[70]	*[70]	false[180]	Decl[180]	*[302]	*[302]	*[302]	*[302]	*[302]	input1[302]	46[420]	male[420]	3jjtes457iqluuhfmeiub8g6qd[420]	speaker: YOU[538]	*->62-1	DefNP[62]	_	_	_	
+136-7	3346-3359	Ukraine-Krieg	GWithout[23]	gucken\_set1\_4[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-gucken\_set1\_4[23]	*[70]	*[70]	PrepObj[70]	*[70]	*[70]	false[180]	Decl[180]	*[302]	*[302]	*[302]	*[302]	*[302]	input1[302]	46[420]	male[420]	3jjtes457iqluuhfmeiub8g6qd[420]	speaker: YOU[538]	*->62-1	DefNP[62]	_	_	_	
+136-8	3360-3371	berichtet..	GWithout[23]	gucken\_set1\_4[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-gucken\_set1\_4[23]	_	_	_	_	_	false[180]	Decl[180]	*[302]	*[302]	*[302]	*[302]	*[302]	input1[302]	46[420]	male[420]	3jjtes457iqluuhfmeiub8g6qd[420]	speaker: YOU[538]	_	_	_	_	_	
+
+#Text=Sie versteht auch nicht wie das heutzutage überhaupt noch möglich ist..
+137-1	3373-3376	Sie	GWithout[23]	gucken\_set1\_4[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-gucken\_set1\_4[23]	3	*	Subj	*	singular	false[181]	Decl[181]	*[303]	*[303]	*[303]	*[303]	*[303]	input2[303]	46[421]	male[421]	3jjtes457iqluuhfmeiub8g6qd[421]	speaker: YOU[539]	*->91-2	PerPron[91]	_	_	_	
+137-2	3377-3385	versteht	GWithout[23]	gucken\_set1\_4[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-gucken\_set1\_4[23]	_	_	_	_	_	false[181]	Decl[181]	*[303]	*[303]	*[303]	*[303]	*[303]	input2[303]	46[421]	male[421]	3jjtes457iqluuhfmeiub8g6qd[421]	speaker: YOU[539]	_	_	_	_	_	
+137-3	3386-3390	auch	GWithout[23]	gucken\_set1\_4[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-gucken\_set1\_4[23]	_	_	_	_	_	false[181]	Decl[181]	*[303]	*[303]	*[303]	*[303]	*[303]	input2[303]	46[421]	male[421]	3jjtes457iqluuhfmeiub8g6qd[421]	speaker: YOU[539]	_	_	_	_	_	
+137-4	3391-3396	nicht	GWithout[23]	gucken\_set1\_4[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-gucken\_set1\_4[23]	_	_	_	_	_	false[181]	Decl[181]	*[303]	*[303]	*[303]	*[303]	*[303]	input2[303]	46[421]	male[421]	3jjtes457iqluuhfmeiub8g6qd[421]	speaker: YOU[539]	_	_	_	_	_	
+137-5	3397-3400	wie	GWithout[23]	gucken\_set1\_4[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-gucken\_set1\_4[23]	_	_	_	_	_	false[181]	Decl[181]	*[303]	*[303]	*[303]	*[303]	*[303]	input2[303]	46[421]	male[421]	3jjtes457iqluuhfmeiub8g6qd[421]	speaker: YOU[539]	_	_	_	_	_	
+137-6	3401-3404	das	GWithout[23]	gucken\_set1\_4[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-gucken\_set1\_4[23]	*	*	Subj	*	*	false[181]	Decl[181]	*[303]	*[303]	*[303]	*[303]	*[303]	input2[303]	46[421]	male[421]	3jjtes457iqluuhfmeiub8g6qd[421]	speaker: YOU[539]	*->52-1	D-Pron[52]	_	_	_	
+137-7	3405-3415	heutzutage	GWithout[23]	gucken\_set1\_4[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-gucken\_set1\_4[23]	_	_	_	_	_	false[181]	Decl[181]	*[303]	*[303]	*[303]	*[303]	*[303]	input2[303]	46[421]	male[421]	3jjtes457iqluuhfmeiub8g6qd[421]	speaker: YOU[539]	_	_	_	_	_	
+137-8	3416-3425	überhaupt	GWithout[23]	gucken\_set1\_4[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-gucken\_set1\_4[23]	_	_	_	_	_	false[181]	Decl[181]	*[303]	*[303]	*[303]	*[303]	*[303]	input2[303]	46[421]	male[421]	3jjtes457iqluuhfmeiub8g6qd[421]	speaker: YOU[539]	_	_	_	_	_	
+137-9	3426-3430	noch	GWithout[23]	gucken\_set1\_4[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-gucken\_set1\_4[23]	_	_	_	_	_	false[181]	Decl[181]	*[303]	*[303]	*[303]	*[303]	*[303]	input2[303]	46[421]	male[421]	3jjtes457iqluuhfmeiub8g6qd[421]	speaker: YOU[539]	_	_	_	_	_	
+137-10	3431-3438	möglich	GWithout[23]	gucken\_set1\_4[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-gucken\_set1\_4[23]	_	_	_	_	_	false[181]	Decl[181]	*[303]	*[303]	*[303]	*[303]	*[303]	input2[303]	46[421]	male[421]	3jjtes457iqluuhfmeiub8g6qd[421]	speaker: YOU[539]	_	_	_	_	_	
+137-11	3439-3444	ist..	GWithout[23]	gucken\_set1\_4[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-gucken\_set1\_4[23]	_	_	_	_	_	false[181]	Decl[181]	*[303]	*[303]	*[303]	*[303]	*[303]	input2[303]	46[421]	male[421]	3jjtes457iqluuhfmeiub8g6qd[421]	speaker: YOU[539]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+138-1	3446-3461	END_OF_DOCUMENT	GWithout[23]	gucken\_set1\_4[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-gucken\_set1\_4[23]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Und, alles klar?
+139-1	3463-3467	Und,	GWithout[24]	gucken\_set1\_4[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-gucken\_set1\_4[24]	_	_	_	_	_	false[182]	Int[182]	*[304]	*[304]	*[304]	yn\_2[304]	yesno\_question[304]	openq[304]	*[422]	female[422]	*[422]	speaker:Amira[540]	_	_	QAP	*	140-1[183_182]	
+139-2	3468-3473	alles	GWithout[24]	gucken\_set1\_4[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-gucken\_set1\_4[24]	_	_	_	_	_	false[182]	Int[182]	*[304]	*[304]	*[304]	yn\_2[304]	yesno\_question[304]	openq[304]	*[422]	female[422]	*[422]	speaker:Amira[540]	_	_	_	_	_	
+139-3	3474-3479	klar?	GWithout[24]	gucken\_set1\_4[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-gucken\_set1\_4[24]	_	_	_	_	_	false[182]	Int[182]	*[304]	*[304]	*[304]	yn\_2[304]	yesno\_question[304]	openq[304]	*[422]	female[422]	*[422]	speaker:Amira[540]	_	_	_	_	_	
+
+#Text=Linda hat die Tagesschau geguckt
+140-1	3481-3486	Linda	GWithout[24]	gucken\_set1\_4[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-gucken\_set1\_4[24]	*	*	Subj	*	*	false[183]	Decl[183]	*[305]	gucken[305]	transitive[305]	*[305]	*[305]	item0[305]	27[423]	female[423]	65p8m4ujg4fi983365pclnac28[423]	speaker: YOU[541]	*->79-1	PropNm[79]	elaboration	*	142-1[184_183]	
+140-2	3487-3490	hat	GWithout[24]	gucken\_set1\_4[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-gucken\_set1\_4[24]	_	_	_	_	_	false[183]	Decl[183]	*[305]	gucken[305]	transitive[305]	*[305]	*[305]	item0[305]	27[423]	female[423]	65p8m4ujg4fi983365pclnac28[423]	speaker: YOU[541]	_	_	_	_	_	
+140-3	3491-3494	die	GWithout[24]	gucken\_set1\_4[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-gucken\_set1\_4[24]	*[71]	*[71]	object[71]	*[71]	*[71]	false[183]	Decl[183]	*[305]	gucken[305]	transitive[305]	*[305]	*[305]	item0[305]	27[423]	female[423]	65p8m4ujg4fi983365pclnac28[423]	speaker: YOU[541]	*->53-1	DefNP[53]	_	_	_	
+140-4	3495-3505	Tagesschau	GWithout[24]	gucken\_set1\_4[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-gucken\_set1\_4[24]	*[71]	*[71]	object[71]	*[71]	*[71]	false[183]	Decl[183]	*[305]	gucken[305]	transitive[305]	*[305]	*[305]	item0[305]	27[423]	female[423]	65p8m4ujg4fi983365pclnac28[423]	speaker: YOU[541]	*->53-1	DefNP[53]	_	_	_	
+140-5	3506-3513	geguckt	GWithout[24]	gucken\_set1\_4[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-gucken\_set1\_4[24]	_	_	_	_	_	false[183]	Decl[183]	*[305]	gucken[305]	transitive[305]	*[305]	*[305]	item0[305]	27[423]	female[423]	65p8m4ujg4fi983365pclnac28[423]	speaker: YOU[541]	_	_	_	_	_	
+
+#Text=-
+141-1	3515-3516	-	GWithout[24]	gucken\_set1\_4[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-gucken\_set1\_4[24]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Amira	_	_	_	_	_	
+
+#Text=und ihr ist etwas besonderes aufgefallen
+142-1	3518-3521	und	GWithout[24]	gucken\_set1\_4[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-gucken\_set1\_4[24]	_	_	_	_	_	false[184]	Decl[184]	*[306]	*[306]	*[306]	*[306]	*[306]	input1[306]	27[424]	female[424]	65p8m4ujg4fi983365pclnac28[424]	speaker: YOU[542]	_	_	elaboration	*	143-1[185_184]	
+142-2	3522-3525	ihr	GWithout[24]	gucken\_set1\_4[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-gucken\_set1\_4[24]	3	*	Subj	*	singular	false[184]	Decl[184]	*[306]	*[306]	*[306]	*[306]	*[306]	input1[306]	27[424]	female[424]	65p8m4ujg4fi983365pclnac28[424]	speaker: YOU[542]	*->79-2	PerPron[79]	_	_	_	
+142-3	3526-3529	ist	GWithout[24]	gucken\_set1\_4[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-gucken\_set1\_4[24]	_	_	_	_	_	false[184]	Decl[184]	*[306]	*[306]	*[306]	*[306]	*[306]	input1[306]	27[424]	female[424]	65p8m4ujg4fi983365pclnac28[424]	speaker: YOU[542]	_	_	_	_	_	
+142-4	3530-3535	etwas	GWithout[24]	gucken\_set1\_4[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-gucken\_set1\_4[24]	_	_	_	_	_	false[184]	Decl[184]	*[306]	*[306]	*[306]	*[306]	*[306]	input1[306]	27[424]	female[424]	65p8m4ujg4fi983365pclnac28[424]	speaker: YOU[542]	*->70-1	IndefNP[70]	_	_	_	
+142-5	3536-3546	besonderes	GWithout[24]	gucken\_set1\_4[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-gucken\_set1\_4[24]	_	_	_	_	_	false[184]	Decl[184]	*[306]	*[306]	*[306]	*[306]	*[306]	input1[306]	27[424]	female[424]	65p8m4ujg4fi983365pclnac28[424]	speaker: YOU[542]	*->70-1	IndefNP[70]	_	_	_	
+142-6	3547-3558	aufgefallen	GWithout[24]	gucken\_set1\_4[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-gucken\_set1\_4[24]	_	_	_	_	_	false[184]	Decl[184]	*[306]	*[306]	*[306]	*[306]	*[306]	input1[306]	27[424]	female[424]	65p8m4ujg4fi983365pclnac28[424]	speaker: YOU[542]	_	_	_	_	_	
+
+#Text=Der Hintergrund ist immer im selben Blauton!
+143-1	3560-3563	Der	GWithout[24]	gucken\_set1\_4[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-gucken\_set1\_4[24]	*[72]	*[72]	Subj[72]	*[72]	*[72]	false[185]	Decl[185]	*[307]	*[307]	*[307]	*[307]	*[307]	input2[307]	27[425]	female[425]	65p8m4ujg4fi983365pclnac28[425]	speaker: YOU[543]	*->70-2|*->34-1	clause[70]|DefNP[34]	_	_	_	
+143-2	3564-3575	Hintergrund	GWithout[24]	gucken\_set1\_4[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-gucken\_set1\_4[24]	*[72]	*[72]	Subj[72]	*[72]	*[72]	false[185]	Decl[185]	*[307]	*[307]	*[307]	*[307]	*[307]	input2[307]	27[425]	female[425]	65p8m4ujg4fi983365pclnac28[425]	speaker: YOU[543]	*->70-2|*->34-1	clause[70]|DefNP[34]	_	_	_	
+143-3	3576-3579	ist	GWithout[24]	gucken\_set1\_4[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-gucken\_set1\_4[24]	_	_	_	_	_	false[185]	Decl[185]	*[307]	*[307]	*[307]	*[307]	*[307]	input2[307]	27[425]	female[425]	65p8m4ujg4fi983365pclnac28[425]	speaker: YOU[543]	*->70-2	clause[70]	_	_	_	
+143-4	3580-3585	immer	GWithout[24]	gucken\_set1\_4[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-gucken\_set1\_4[24]	_	_	_	_	_	false[185]	Decl[185]	*[307]	*[307]	*[307]	*[307]	*[307]	input2[307]	27[425]	female[425]	65p8m4ujg4fi983365pclnac28[425]	speaker: YOU[543]	*->70-2	clause[70]	_	_	_	
+143-5	3586-3588	im	GWithout[24]	gucken\_set1\_4[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-gucken\_set1\_4[24]	_	_	_	_	_	false[185]	Decl[185]	*[307]	*[307]	*[307]	*[307]	*[307]	input2[307]	27[425]	female[425]	65p8m4ujg4fi983365pclnac28[425]	speaker: YOU[543]	*->70-2|*->78-1	clause[70]|DefNP[78]	_	_	_	
+143-6	3589-3595	selben	GWithout[24]	gucken\_set1\_4[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-gucken\_set1\_4[24]	*[73]	*[73]	PrepObj[73]	*[73]	*[73]	false[185]	Decl[185]	*[307]	*[307]	*[307]	*[307]	*[307]	input2[307]	27[425]	female[425]	65p8m4ujg4fi983365pclnac28[425]	speaker: YOU[543]	*->70-2|*->78-1	clause[70]|DefNP[78]	_	_	_	
+143-7	3596-3604	Blauton!	GWithout[24]	gucken\_set1\_4[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-gucken\_set1\_4[24]	*[73]	*[73]	PrepObj[73]	*[73]	*[73]	false[185]	Decl[185]	*[307]	*[307]	*[307]	*[307]	*[307]	input2[307]	27[425]	female[425]	65p8m4ujg4fi983365pclnac28[425]	speaker: YOU[543]	*->70-2|*->78-1	clause[70]|DefNP[78]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+144-1	3606-3621	END_OF_DOCUMENT	GWithout[24]	gucken\_set1\_4[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-gucken\_set1\_4[24]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Und, alles klar?
+145-1	3623-3627	Und,	GWithout[25]	gucken\_set1\_4[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-gucken\_set1\_4[25]	_	_	_	_	_	false[186]	Int[186]	*[308]	*[308]	*[308]	yn\_2[308]	yesno\_question[308]	openq[308]	*[426]	female[426]	*[426]	speaker:Amira[544]	_	_	QAP	*	146-1[187_186]	
+145-2	3628-3633	alles	GWithout[25]	gucken\_set1\_4[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-gucken\_set1\_4[25]	_	_	_	_	_	false[186]	Int[186]	*[308]	*[308]	*[308]	yn\_2[308]	yesno\_question[308]	openq[308]	*[426]	female[426]	*[426]	speaker:Amira[544]	_	_	_	_	_	
+145-3	3634-3639	klar?	GWithout[25]	gucken\_set1\_4[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-gucken\_set1\_4[25]	_	_	_	_	_	false[186]	Int[186]	*[308]	*[308]	*[308]	yn\_2[308]	yesno\_question[308]	openq[308]	*[426]	female[426]	*[426]	speaker:Amira[544]	_	_	_	_	_	
+
+#Text=Linda hat die Tagesschau geguckt
+146-1	3641-3646	Linda	GWithout[25]	gucken\_set1\_4[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-gucken\_set1\_4[25]	*	*	Subj	*	*	false[187]	Decl[187]	*[309]	gucken[309]	transitive[309]	*[309]	*[309]	item0[309]	22[427]	female[427]	ad2p95q44evasm6vmbol4cikit[427]	speaker: YOU[545]	*->24-1	PropNm[24]	elaboration	*	148-1[188_187]	
+146-2	3647-3650	hat	GWithout[25]	gucken\_set1\_4[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-gucken\_set1\_4[25]	_	_	_	_	_	false[187]	Decl[187]	*[309]	gucken[309]	transitive[309]	*[309]	*[309]	item0[309]	22[427]	female[427]	ad2p95q44evasm6vmbol4cikit[427]	speaker: YOU[545]	_	_	_	_	_	
+146-3	3651-3654	die	GWithout[25]	gucken\_set1\_4[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-gucken\_set1\_4[25]	*[74]	*[74]	object[74]	*[74]	*[74]	false[187]	Decl[187]	*[309]	gucken[309]	transitive[309]	*[309]	*[309]	item0[309]	22[427]	female[427]	ad2p95q44evasm6vmbol4cikit[427]	speaker: YOU[545]	*->97-1	DefNP[97]	_	_	_	
+146-4	3655-3665	Tagesschau	GWithout[25]	gucken\_set1\_4[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-gucken\_set1\_4[25]	*[74]	*[74]	object[74]	*[74]	*[74]	false[187]	Decl[187]	*[309]	gucken[309]	transitive[309]	*[309]	*[309]	item0[309]	22[427]	female[427]	ad2p95q44evasm6vmbol4cikit[427]	speaker: YOU[545]	*->97-1	DefNP[97]	_	_	_	
+146-5	3666-3673	geguckt	GWithout[25]	gucken\_set1\_4[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-gucken\_set1\_4[25]	_	_	_	_	_	false[187]	Decl[187]	*[309]	gucken[309]	transitive[309]	*[309]	*[309]	item0[309]	22[427]	female[427]	ad2p95q44evasm6vmbol4cikit[427]	speaker: YOU[545]	_	_	_	_	_	
+
+#Text=-
+147-1	3675-3676	-	GWithout[25]	gucken\_set1\_4[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-gucken\_set1\_4[25]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Amira	_	_	_	_	_	
+
+#Text=Es wurde wieder nur das gleiche erzählt
+148-1	3678-3680	Es	GWithout[25]	gucken\_set1\_4[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-gucken\_set1\_4[25]	*	*	Subj	*	*	false[188]	Decl[188]	*[310]	*[310]	*[310]	*[310]	*[310]	input1[310]	22[428]	female[428]	ad2p95q44evasm6vmbol4cikit[428]	speaker: YOU[546]	_	_	elaboration	*	149-1[189_188]	
+148-2	3681-3686	wurde	GWithout[25]	gucken\_set1\_4[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-gucken\_set1\_4[25]	_	_	_	_	_	false[188]	Decl[188]	*[310]	*[310]	*[310]	*[310]	*[310]	input1[310]	22[428]	female[428]	ad2p95q44evasm6vmbol4cikit[428]	speaker: YOU[546]	_	_	_	_	_	
+148-3	3687-3693	wieder	GWithout[25]	gucken\_set1\_4[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-gucken\_set1\_4[25]	_	_	_	_	_	false[188]	Decl[188]	*[310]	*[310]	*[310]	*[310]	*[310]	input1[310]	22[428]	female[428]	ad2p95q44evasm6vmbol4cikit[428]	speaker: YOU[546]	_	_	_	_	_	
+148-4	3694-3697	nur	GWithout[25]	gucken\_set1\_4[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-gucken\_set1\_4[25]	_	_	_	_	_	false[188]	Decl[188]	*[310]	*[310]	*[310]	*[310]	*[310]	input1[310]	22[428]	female[428]	ad2p95q44evasm6vmbol4cikit[428]	speaker: YOU[546]	_	_	_	_	_	
+148-5	3698-3701	das	GWithout[25]	gucken\_set1\_4[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-gucken\_set1\_4[25]	*[75]	*[75]	DirObj[75]	*[75]	*[75]	false[188]	Decl[188]	*[310]	*[310]	*[310]	*[310]	*[310]	input1[310]	22[428]	female[428]	ad2p95q44evasm6vmbol4cikit[428]	speaker: YOU[546]	*->112-1	DefNP[112]	_	_	_	
+148-6	3702-3709	gleiche	GWithout[25]	gucken\_set1\_4[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-gucken\_set1\_4[25]	*[75]	*[75]	DirObj[75]	*[75]	*[75]	false[188]	Decl[188]	*[310]	*[310]	*[310]	*[310]	*[310]	input1[310]	22[428]	female[428]	ad2p95q44evasm6vmbol4cikit[428]	speaker: YOU[546]	*->112-1	DefNP[112]	_	_	_	
+148-7	3710-3717	erzählt	GWithout[25]	gucken\_set1\_4[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-gucken\_set1\_4[25]	_	_	_	_	_	false[188]	Decl[188]	*[310]	*[310]	*[310]	*[310]	*[310]	input1[310]	22[428]	female[428]	ad2p95q44evasm6vmbol4cikit[428]	speaker: YOU[546]	_	_	_	_	_	
+
+#Text=Krieg und Corona
+149-1	3719-3724	Krieg	GWithout[25]	gucken\_set1\_4[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-gucken\_set1\_4[25]	*[76]	*[76]	DirObj[76]	*[76]	*[76]	false[189]	NA[189]	*[311]	*[311]	*[311]	*[311]	*[311]	input2[311]	22[429]	female[429]	ad2p95q44evasm6vmbol4cikit[429]	speaker: YOU[547]	*->37-1|*->74-1	IndefNP[37]|IndefNP[74]	_	_	_	
+149-2	3725-3728	und	GWithout[25]	gucken\_set1\_4[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-gucken\_set1\_4[25]	*[76]	*[76]	DirObj[76]	*[76]	*[76]	false[189]	NA[189]	*[311]	*[311]	*[311]	*[311]	*[311]	input2[311]	22[429]	female[429]	ad2p95q44evasm6vmbol4cikit[429]	speaker: YOU[547]	*->37-1	IndefNP[37]	_	_	_	
+149-3	3729-3735	Corona	GWithout[25]	gucken\_set1\_4[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-gucken\_set1\_4[25]	*[76]	*[76]	DirObj[76]	*[76]	*[76]	false[189]	NA[189]	*[311]	*[311]	*[311]	*[311]	*[311]	input2[311]	22[429]	female[429]	ad2p95q44evasm6vmbol4cikit[429]	speaker: YOU[547]	*->37-1|*->113-1	IndefNP[37]|IndefNP[113]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+150-1	3737-3752	END_OF_DOCUMENT	GWithout[25]	gucken\_set1\_4[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-gucken\_set1\_4[25]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Und, alles klar?
+151-1	3754-3758	Und,	GWithout[26]	gucken\_set1\_4[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-gucken\_set1\_4[26]	_	_	_	_	_	false[190]	Int[190]	*[312]	*[312]	*[312]	yn\_2[312]	yesno\_question[312]	openq[312]	*[430]	female[430]	*[430]	speaker:Amira[548]	_	_	QAP	*	152-1[191_190]	
+151-2	3759-3764	alles	GWithout[26]	gucken\_set1\_4[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-gucken\_set1\_4[26]	_	_	_	_	_	false[190]	Int[190]	*[312]	*[312]	*[312]	yn\_2[312]	yesno\_question[312]	openq[312]	*[430]	female[430]	*[430]	speaker:Amira[548]	_	_	_	_	_	
+151-3	3765-3770	klar?	GWithout[26]	gucken\_set1\_4[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-gucken\_set1\_4[26]	_	_	_	_	_	false[190]	Int[190]	*[312]	*[312]	*[312]	yn\_2[312]	yesno\_question[312]	openq[312]	*[430]	female[430]	*[430]	speaker:Amira[548]	_	_	_	_	_	
+
+#Text=Linda hat die Tagesschau geguckt
+152-1	3772-3777	Linda	GWithout[26]	gucken\_set1\_4[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-gucken\_set1\_4[26]	*	*	Subj	*	*	false[191]	Decl[191]	*[313]	gucken[313]	transitive[313]	*[313]	*[313]	item0[313]	36[431]	female[431]	aoum613lougtk5ql841j63bjo9[431]	speaker: YOU[549]	*->55-1	PropNm[55]	explanation	*	154-1[192_191]	
+152-2	3778-3781	hat	GWithout[26]	gucken\_set1\_4[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-gucken\_set1\_4[26]	_	_	_	_	_	false[191]	Decl[191]	*[313]	gucken[313]	transitive[313]	*[313]	*[313]	item0[313]	36[431]	female[431]	aoum613lougtk5ql841j63bjo9[431]	speaker: YOU[549]	_	_	_	_	_	
+152-3	3782-3785	die	GWithout[26]	gucken\_set1\_4[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-gucken\_set1\_4[26]	*[77]	*[77]	object[77]	*[77]	*[77]	false[191]	Decl[191]	*[313]	gucken[313]	transitive[313]	*[313]	*[313]	item0[313]	36[431]	female[431]	aoum613lougtk5ql841j63bjo9[431]	speaker: YOU[549]	*->111-1	DefNP[111]	_	_	_	
+152-4	3786-3796	Tagesschau	GWithout[26]	gucken\_set1\_4[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-gucken\_set1\_4[26]	*[77]	*[77]	object[77]	*[77]	*[77]	false[191]	Decl[191]	*[313]	gucken[313]	transitive[313]	*[313]	*[313]	item0[313]	36[431]	female[431]	aoum613lougtk5ql841j63bjo9[431]	speaker: YOU[549]	*->111-1	DefNP[111]	_	_	_	
+152-5	3797-3804	geguckt	GWithout[26]	gucken\_set1\_4[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-gucken\_set1\_4[26]	_	_	_	_	_	false[191]	Decl[191]	*[313]	gucken[313]	transitive[313]	*[313]	*[313]	item0[313]	36[431]	female[431]	aoum613lougtk5ql841j63bjo9[431]	speaker: YOU[549]	_	_	_	_	_	
+
+#Text=-
+153-1	3806-3807	-	GWithout[26]	gucken\_set1\_4[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-gucken\_set1\_4[26]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Amira	_	_	_	_	_	
+
+#Text=Obwohl sie sich eigentlich nicht für Nachrichten interessiert.
+154-1	3809-3815	Obwohl	GWithout[26]	gucken\_set1\_4[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-gucken\_set1\_4[26]	_	_	_	_	_	true[192]|false[193]	*[192]|NA[193]	*[314]	*[314]	*[314]	*[314]	*[314]	input1[314]	36[432]	female[432]	aoum613lougtk5ql841j63bjo9[432]	speaker: YOU[550]	_	_	contrast	*	155-1[194_193]	
+154-2	3816-3819	sie	GWithout[26]	gucken\_set1\_4[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-gucken\_set1\_4[26]	3	*	Subj	*	singular	true[192]|false[193]	*[192]|NA[193]	*[314]	*[314]	*[314]	*[314]	*[314]	input1[314]	36[432]	female[432]	aoum613lougtk5ql841j63bjo9[432]	speaker: YOU[550]	*->55-2	PerPron[55]	_	_	_	
+154-3	3820-3824	sich	GWithout[26]	gucken\_set1\_4[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-gucken\_set1\_4[26]	_	_	_	_	_	true[192]|false[193]	*[192]|NA[193]	*[314]	*[314]	*[314]	*[314]	*[314]	input1[314]	36[432]	female[432]	aoum613lougtk5ql841j63bjo9[432]	speaker: YOU[550]	_	_	_	_	_	
+154-4	3825-3835	eigentlich	GWithout[26]	gucken\_set1\_4[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-gucken\_set1\_4[26]	_	_	_	_	_	true[192]|false[193]	*[192]|NA[193]	*[314]	*[314]	*[314]	*[314]	*[314]	input1[314]	36[432]	female[432]	aoum613lougtk5ql841j63bjo9[432]	speaker: YOU[550]	_	_	_	_	_	
+154-5	3836-3841	nicht	GWithout[26]	gucken\_set1\_4[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-gucken\_set1\_4[26]	_	_	_	_	_	true[192]|false[193]	*[192]|NA[193]	*[314]	*[314]	*[314]	*[314]	*[314]	input1[314]	36[432]	female[432]	aoum613lougtk5ql841j63bjo9[432]	speaker: YOU[550]	_	_	_	_	_	
+154-6	3842-3845	für	GWithout[26]	gucken\_set1\_4[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-gucken\_set1\_4[26]	_	_	_	_	_	true[192]|false[193]	*[192]|NA[193]	*[314]	*[314]	*[314]	*[314]	*[314]	input1[314]	36[432]	female[432]	aoum613lougtk5ql841j63bjo9[432]	speaker: YOU[550]	_	_	_	_	_	
+154-7	3846-3857	Nachrichten	GWithout[26]	gucken\_set1\_4[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-gucken\_set1\_4[26]	*[78]	*[78]	PrepObj[78]	*[78]	*[78]	true[192]|false[193]	*[192]|NA[193]	*[314]	*[314]	*[314]	*[314]	*[314]	input1[314]	36[432]	female[432]	aoum613lougtk5ql841j63bjo9[432]	speaker: YOU[550]	*->98-1	IndefNP[98]	_	_	_	
+154-8	3858-3871	interessiert.	GWithout[26]	gucken\_set1\_4[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-gucken\_set1\_4[26]	*[78]	*[78]	PrepObj[78]	*[78]	*[78]	true[192]|false[193]	*[192]|NA[193]	*[314]	*[314]	*[314]	*[314]	*[314]	input1[314]	36[432]	female[432]	aoum613lougtk5ql841j63bjo9[432]	speaker: YOU[550]	_	_	_	_	_	
+
+#Text=Aber ihr war wohl langweilig.
+155-1	3873-3877	Aber	GWithout[26]	gucken\_set1\_4[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-gucken\_set1\_4[26]	_	_	_	_	_	true[192]|false[194]	*[192]|Decl[194]	*[315]	*[315]	*[315]	*[315]	*[315]	input2[315]	36[433]	female[433]	aoum613lougtk5ql841j63bjo9[433]	speaker: YOU[551]	_	_	_	_	_	
+155-2	3878-3881	ihr	GWithout[26]	gucken\_set1\_4[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-gucken\_set1\_4[26]	3	*	DirObj	*	singular	true[192]|false[194]	*[192]|Decl[194]	*[315]	*[315]	*[315]	*[315]	*[315]	input2[315]	36[433]	female[433]	aoum613lougtk5ql841j63bjo9[433]	speaker: YOU[551]	*->55-3	PerPron[55]	_	_	_	
+155-3	3882-3885	war	GWithout[26]	gucken\_set1\_4[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-gucken\_set1\_4[26]	_	_	_	_	_	true[192]|false[194]	*[192]|Decl[194]	*[315]	*[315]	*[315]	*[315]	*[315]	input2[315]	36[433]	female[433]	aoum613lougtk5ql841j63bjo9[433]	speaker: YOU[551]	_	_	_	_	_	
+155-4	3886-3890	wohl	GWithout[26]	gucken\_set1\_4[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-gucken\_set1\_4[26]	_	_	_	_	_	true[192]|false[194]	*[192]|Decl[194]	*[315]	*[315]	*[315]	*[315]	*[315]	input2[315]	36[433]	female[433]	aoum613lougtk5ql841j63bjo9[433]	speaker: YOU[551]	_	_	_	_	_	
+155-5	3891-3902	langweilig.	GWithout[26]	gucken\_set1\_4[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-gucken\_set1\_4[26]	_	_	_	_	_	true[192]|false[194]	*[192]|Decl[194]	*[315]	*[315]	*[315]	*[315]	*[315]	input2[315]	36[433]	female[433]	aoum613lougtk5ql841j63bjo9[433]	speaker: YOU[551]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+156-1	3904-3919	END_OF_DOCUMENT	GWithout[26]	gucken\_set1\_4[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-gucken\_set1\_4[26]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Und, alles klar?
+157-1	3921-3925	Und,	GWithout[27]	gucken\_set1\_4[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-gucken\_set1\_4[27]	_	_	_	_	_	false[195]	Int[195]	*[316]	*[316]	*[316]	yn\_2[316]	yesno\_question[316]	openq[316]	*[434]	female[434]	*[434]	speaker:Amira[552]	_	_	QAP	*	158-1[196_195]	
+157-2	3926-3931	alles	GWithout[27]	gucken\_set1\_4[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-gucken\_set1\_4[27]	_	_	_	_	_	false[195]	Int[195]	*[316]	*[316]	*[316]	yn\_2[316]	yesno\_question[316]	openq[316]	*[434]	female[434]	*[434]	speaker:Amira[552]	_	_	_	_	_	
+157-3	3932-3937	klar?	GWithout[27]	gucken\_set1\_4[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-gucken\_set1\_4[27]	_	_	_	_	_	false[195]	Int[195]	*[316]	*[316]	*[316]	yn\_2[316]	yesno\_question[316]	openq[316]	*[434]	female[434]	*[434]	speaker:Amira[552]	_	_	_	_	_	
+
+#Text=Linda hat die Tagesschau geguckt
+158-1	3939-3944	Linda	GWithout[27]	gucken\_set1\_4[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-gucken\_set1\_4[27]	*	*	Subj	*	*	false[196]	Decl[196]	*[317]	gucken[317]	transitive[317]	*[317]	*[317]	item0[317]	26[435]	male[435]	c48fsj7kc4kiuorutkbb4be30b[435]	speaker: YOU[553]	*->85-1	PropNm[85]	_	_	_	
+158-2	3945-3948	hat	GWithout[27]	gucken\_set1\_4[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-gucken\_set1\_4[27]	_	_	_	_	_	false[196]	Decl[196]	*[317]	gucken[317]	transitive[317]	*[317]	*[317]	item0[317]	26[435]	male[435]	c48fsj7kc4kiuorutkbb4be30b[435]	speaker: YOU[553]	_	_	_	_	_	
+158-3	3949-3952	die	GWithout[27]	gucken\_set1\_4[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-gucken\_set1\_4[27]	*[79]	*[79]	object[79]	*[79]	*[79]	false[196]	Decl[196]	*[317]	gucken[317]	transitive[317]	*[317]	*[317]	item0[317]	26[435]	male[435]	c48fsj7kc4kiuorutkbb4be30b[435]	speaker: YOU[553]	*->2-1	DefNP[2]	_	_	_	
+158-4	3953-3963	Tagesschau	GWithout[27]	gucken\_set1\_4[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-gucken\_set1\_4[27]	*[79]	*[79]	object[79]	*[79]	*[79]	false[196]	Decl[196]	*[317]	gucken[317]	transitive[317]	*[317]	*[317]	item0[317]	26[435]	male[435]	c48fsj7kc4kiuorutkbb4be30b[435]	speaker: YOU[553]	*->2-1	DefNP[2]	_	_	_	
+158-5	3964-3971	geguckt	GWithout[27]	gucken\_set1\_4[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-gucken\_set1\_4[27]	_	_	_	_	_	false[196]	Decl[196]	*[317]	gucken[317]	transitive[317]	*[317]	*[317]	item0[317]	26[435]	male[435]	c48fsj7kc4kiuorutkbb4be30b[435]	speaker: YOU[553]	_	_	_	_	_	
+
+#Text=-
+159-1	3973-3974	-	GWithout[27]	gucken\_set1\_4[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-gucken\_set1\_4[27]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Amira	_	_	_	_	_	
+
+#Text=Hast du gehört <BR> dass die Benzinpreise schon wieder gestiegen sind?
+160-1	3976-3980	Hast	GWithout[27]	gucken\_set1\_4[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-gucken\_set1\_4[27]	_	_	_	_	_	false[197]	Int[197]	*[318]	*[318]	*[318]	*[318]	*[318]	input1[318]	26[436]	male[436]	c48fsj7kc4kiuorutkbb4be30b[436]	speaker: YOU[554]	_	_	_	_	_	
+160-2	3981-3983	du	GWithout[27]	gucken\_set1\_4[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-gucken\_set1\_4[27]	2	*	Subj	*	singular	false[197]	Int[197]	*[318]	*[318]	*[318]	*[318]	*[318]	input1[318]	26[436]	male[436]	c48fsj7kc4kiuorutkbb4be30b[436]	speaker: YOU[554]	*->75-1	PerPron[75]	_	_	_	
+160-3	3984-3990	gehört	GWithout[27]	gucken\_set1\_4[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-gucken\_set1\_4[27]	_	_	_	_	_	false[197]	Int[197]	*[318]	*[318]	*[318]	*[318]	*[318]	input1[318]	26[436]	male[436]	c48fsj7kc4kiuorutkbb4be30b[436]	speaker: YOU[554]	_	_	_	_	_	
+160-4	3991-3995	<BR>	GWithout[27]	gucken\_set1\_4[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-gucken\_set1\_4[27]	_	_	_	_	_	false[197]	Int[197]	*[318]	*[318]	*[318]	*[318]	*[318]	input1[318]	26[436]	male[436]	c48fsj7kc4kiuorutkbb4be30b[436]	speaker: YOU[554]	_	_	_	_	_	
+160-5	3996-4000	dass	GWithout[27]	gucken\_set1\_4[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-gucken\_set1\_4[27]	_	_	_	_	_	false[197]	Int[197]	*[318]	*[318]	*[318]	*[318]	*[318]	input1[318]	26[436]	male[436]	c48fsj7kc4kiuorutkbb4be30b[436]	speaker: YOU[554]	_	_	_	_	_	
+160-6	4001-4004	die	GWithout[27]	gucken\_set1\_4[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-gucken\_set1\_4[27]	*[80]	*[80]	Embedded[80]	*[80]	*[80]	false[197]	Int[197]	*[318]	*[318]	*[318]	*[318]	*[318]	input1[318]	26[436]	male[436]	c48fsj7kc4kiuorutkbb4be30b[436]	speaker: YOU[554]	*->120-1	DefNP[120]	_	_	_	
+160-7	4005-4017	Benzinpreise	GWithout[27]	gucken\_set1\_4[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-gucken\_set1\_4[27]	*[80]	*[80]	Embedded[80]	*[80]	*[80]	false[197]	Int[197]	*[318]	*[318]	*[318]	*[318]	*[318]	input1[318]	26[436]	male[436]	c48fsj7kc4kiuorutkbb4be30b[436]	speaker: YOU[554]	*->120-1	DefNP[120]	_	_	_	
+160-8	4018-4023	schon	GWithout[27]	gucken\_set1\_4[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-gucken\_set1\_4[27]	_	_	_	_	_	false[197]	Int[197]	*[318]	*[318]	*[318]	*[318]	*[318]	input1[318]	26[436]	male[436]	c48fsj7kc4kiuorutkbb4be30b[436]	speaker: YOU[554]	_	_	_	_	_	
+160-9	4024-4030	wieder	GWithout[27]	gucken\_set1\_4[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-gucken\_set1\_4[27]	_	_	_	_	_	false[197]	Int[197]	*[318]	*[318]	*[318]	*[318]	*[318]	input1[318]	26[436]	male[436]	c48fsj7kc4kiuorutkbb4be30b[436]	speaker: YOU[554]	_	_	_	_	_	
+160-10	4031-4040	gestiegen	GWithout[27]	gucken\_set1\_4[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-gucken\_set1\_4[27]	_	_	_	_	_	false[197]	Int[197]	*[318]	*[318]	*[318]	*[318]	*[318]	input1[318]	26[436]	male[436]	c48fsj7kc4kiuorutkbb4be30b[436]	speaker: YOU[554]	_	_	_	_	_	
+160-11	4041-4046	sind?	GWithout[27]	gucken\_set1\_4[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-gucken\_set1\_4[27]	_	_	_	_	_	false[197]	Int[197]	*[318]	*[318]	*[318]	*[318]	*[318]	input1[318]	26[436]	male[436]	c48fsj7kc4kiuorutkbb4be30b[436]	speaker: YOU[554]	_	_	_	_	_	
+
+#Text=Ich weiß nicht <BR> wie man sich das noch leisten soll...
+161-1	4048-4051	Ich	GWithout[27]	gucken\_set1\_4[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-gucken\_set1\_4[27]	1	*	Subj	*	singular	true[198]|false[199]	*[198]|Decl[199]	*[319]	*[319]	*[319]	*[319]	*[319]	input2[319]	26[437]	male[437]	c48fsj7kc4kiuorutkbb4be30b[437]	speaker: YOU[555]	*->41-1	PerPron[41]	_	_	_	
+161-2	4052-4056	weiß	GWithout[27]	gucken\_set1\_4[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-gucken\_set1\_4[27]	_	_	_	_	_	true[198]|false[199]	*[198]|Decl[199]	*[319]	*[319]	*[319]	*[319]	*[319]	input2[319]	26[437]	male[437]	c48fsj7kc4kiuorutkbb4be30b[437]	speaker: YOU[555]	_	_	_	_	_	
+161-3	4057-4062	nicht	GWithout[27]	gucken\_set1\_4[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-gucken\_set1\_4[27]	_	_	_	_	_	true[198]|false[199]	*[198]|Decl[199]	*[319]	*[319]	*[319]	*[319]	*[319]	input2[319]	26[437]	male[437]	c48fsj7kc4kiuorutkbb4be30b[437]	speaker: YOU[555]	_	_	_	_	_	
+161-4	4063-4067	<BR>	GWithout[27]	gucken\_set1\_4[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-gucken\_set1\_4[27]	_	_	_	_	_	true[198]	*[198]	*[319]	*[319]	*[319]	*[319]	*[319]	input2[319]	26[437]	male[437]	c48fsj7kc4kiuorutkbb4be30b[437]	speaker: YOU[555]	_	_	_	_	_	
+161-5	4068-4071	wie	GWithout[27]	gucken\_set1\_4[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-gucken\_set1\_4[27]	_	_	_	_	_	true[198]|false[200]	*[198]|NA[200]	*[319]	*[319]	*[319]	*[319]	*[319]	input2[319]	26[437]	male[437]	c48fsj7kc4kiuorutkbb4be30b[437]	speaker: YOU[555]	_	_	_	_	_	
+161-6	4072-4075	man	GWithout[27]	gucken\_set1\_4[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-gucken\_set1\_4[27]	_	_	_	_	_	true[198]|false[200]	*[198]|NA[200]	*[319]	*[319]	*[319]	*[319]	*[319]	input2[319]	26[437]	male[437]	c48fsj7kc4kiuorutkbb4be30b[437]	speaker: YOU[555]	_	_	_	_	_	
+161-7	4076-4080	sich	GWithout[27]	gucken\_set1\_4[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-gucken\_set1\_4[27]	_	_	_	_	_	true[198]|false[200]	*[198]|NA[200]	*[319]	*[319]	*[319]	*[319]	*[319]	input2[319]	26[437]	male[437]	c48fsj7kc4kiuorutkbb4be30b[437]	speaker: YOU[555]	_	_	_	_	_	
+161-8	4081-4084	das	GWithout[27]	gucken\_set1\_4[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-gucken\_set1\_4[27]	_	_	_	_	_	true[198]|false[200]	*[198]|NA[200]	*[319]	*[319]	*[319]	*[319]	*[319]	input2[319]	26[437]	male[437]	c48fsj7kc4kiuorutkbb4be30b[437]	speaker: YOU[555]	*->120-2	D-Pron[120]	_	_	_	
+161-9	4085-4089	noch	GWithout[27]	gucken\_set1\_4[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-gucken\_set1\_4[27]	_	_	_	_	_	true[198]|false[200]	*[198]|NA[200]	*[319]	*[319]	*[319]	*[319]	*[319]	input2[319]	26[437]	male[437]	c48fsj7kc4kiuorutkbb4be30b[437]	speaker: YOU[555]	_	_	_	_	_	
+161-10	4090-4097	leisten	GWithout[27]	gucken\_set1\_4[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-gucken\_set1\_4[27]	_	_	_	_	_	true[198]|false[200]	*[198]|NA[200]	*[319]	*[319]	*[319]	*[319]	*[319]	input2[319]	26[437]	male[437]	c48fsj7kc4kiuorutkbb4be30b[437]	speaker: YOU[555]	_	_	_	_	_	
+161-11	4098-4105	soll...	GWithout[27]	gucken\_set1\_4[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-gucken\_set1\_4[27]	_	_	_	_	_	true[198]|false[200]	*[198]|NA[200]	*[319]	*[319]	*[319]	*[319]	*[319]	input2[319]	26[437]	male[437]	c48fsj7kc4kiuorutkbb4be30b[437]	speaker: YOU[555]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+162-1	4107-4122	END_OF_DOCUMENT	GWithout[27]	gucken\_set1\_4[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-gucken\_set1\_4[27]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Und, alles klar?
+163-1	4124-4128	Und,	GWithout[28]	gucken\_set1\_4[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-gucken\_set1\_4[28]	_	_	_	_	_	false[201]	Int[201]	*[320]	*[320]	*[320]	yn\_2[320]	yesno\_question[320]	openq[320]	*[438]	female[438]	*[438]	speaker:Amira[556]	_	_	QAP	*	164-1[202_201]	
+163-2	4129-4134	alles	GWithout[28]	gucken\_set1\_4[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-gucken\_set1\_4[28]	_	_	_	_	_	false[201]	Int[201]	*[320]	*[320]	*[320]	yn\_2[320]	yesno\_question[320]	openq[320]	*[438]	female[438]	*[438]	speaker:Amira[556]	_	_	_	_	_	
+163-3	4135-4140	klar?	GWithout[28]	gucken\_set1\_4[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-gucken\_set1\_4[28]	_	_	_	_	_	false[201]	Int[201]	*[320]	*[320]	*[320]	yn\_2[320]	yesno\_question[320]	openq[320]	*[438]	female[438]	*[438]	speaker:Amira[556]	_	_	_	_	_	
+
+#Text=Linda hat die Tagesschau geguckt
+164-1	4142-4147	Linda	GWithout[28]	gucken\_set1\_4[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-gucken\_set1\_4[28]	*	*	Subj	*	*	false[202]	Decl[202]	*[321]	gucken[321]	transitive[321]	*[321]	*[321]	item0[321]	57[439]	female[439]	k0vnav0sqhr0fo3b0jpuaak9s4[439]	speaker: YOU[557]	*->72-1	PropNm[72]	result	*	166-1[203_202]	
+164-2	4148-4151	hat	GWithout[28]	gucken\_set1\_4[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-gucken\_set1\_4[28]	_	_	_	_	_	false[202]	Decl[202]	*[321]	gucken[321]	transitive[321]	*[321]	*[321]	item0[321]	57[439]	female[439]	k0vnav0sqhr0fo3b0jpuaak9s4[439]	speaker: YOU[557]	_	_	_	_	_	
+164-3	4152-4155	die	GWithout[28]	gucken\_set1\_4[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-gucken\_set1\_4[28]	*[81]	*[81]	object[81]	*[81]	*[81]	false[202]	Decl[202]	*[321]	gucken[321]	transitive[321]	*[321]	*[321]	item0[321]	57[439]	female[439]	k0vnav0sqhr0fo3b0jpuaak9s4[439]	speaker: YOU[557]	*->44-1	DefNP[44]	_	_	_	
+164-4	4156-4166	Tagesschau	GWithout[28]	gucken\_set1\_4[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-gucken\_set1\_4[28]	*[81]	*[81]	object[81]	*[81]	*[81]	false[202]	Decl[202]	*[321]	gucken[321]	transitive[321]	*[321]	*[321]	item0[321]	57[439]	female[439]	k0vnav0sqhr0fo3b0jpuaak9s4[439]	speaker: YOU[557]	*->44-1	DefNP[44]	_	_	_	
+164-5	4167-4174	geguckt	GWithout[28]	gucken\_set1\_4[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-gucken\_set1\_4[28]	_	_	_	_	_	false[202]	Decl[202]	*[321]	gucken[321]	transitive[321]	*[321]	*[321]	item0[321]	57[439]	female[439]	k0vnav0sqhr0fo3b0jpuaak9s4[439]	speaker: YOU[557]	_	_	_	_	_	
+
+#Text=-
+165-1	4176-4177	-	GWithout[28]	gucken\_set1\_4[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-gucken\_set1\_4[28]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Amira	_	_	_	_	_	
+
+#Text=Jetzt weint sie weil nur schlechte Nachrichten kamen.
+166-1	4179-4184	Jetzt	GWithout[28]	gucken\_set1\_4[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-gucken\_set1\_4[28]	_	_	_	_	_	false[203]	Decl[203]	*[322]	*[322]	*[322]	*[322]	*[322]	input1[322]	57[440]	female[440]	k0vnav0sqhr0fo3b0jpuaak9s4[440]	speaker: YOU[558]	_	_	explanation	*	166-4[204_203]	
+166-2	4185-4190	weint	GWithout[28]	gucken\_set1\_4[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-gucken\_set1\_4[28]	_	_	_	_	_	false[203]	Decl[203]	*[322]	*[322]	*[322]	*[322]	*[322]	input1[322]	57[440]	female[440]	k0vnav0sqhr0fo3b0jpuaak9s4[440]	speaker: YOU[558]	_	_	_	_	_	
+166-3	4191-4194	sie	GWithout[28]	gucken\_set1\_4[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-gucken\_set1\_4[28]	3	*	Subj	*	singular	false[203]	Decl[203]	*[322]	*[322]	*[322]	*[322]	*[322]	input1[322]	57[440]	female[440]	k0vnav0sqhr0fo3b0jpuaak9s4[440]	speaker: YOU[558]	*->72-2	PerPron[72]	_	_	_	
+166-4	4195-4199	weil	GWithout[28]	gucken\_set1\_4[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-gucken\_set1\_4[28]	_	_	_	_	_	false[204]	NA[204]	*[322]	*[322]	*[322]	*[322]	*[322]	input1[322]	57[440]	female[440]	k0vnav0sqhr0fo3b0jpuaak9s4[440]	speaker: YOU[558]	_	_	result	*	167-1[205_204]	
+166-5	4200-4203	nur	GWithout[28]	gucken\_set1\_4[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-gucken\_set1\_4[28]	_	_	_	_	_	false[204]	NA[204]	*[322]	*[322]	*[322]	*[322]	*[322]	input1[322]	57[440]	female[440]	k0vnav0sqhr0fo3b0jpuaak9s4[440]	speaker: YOU[558]	_	_	_	_	_	
+166-6	4204-4213	schlechte	GWithout[28]	gucken\_set1\_4[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-gucken\_set1\_4[28]	*[82]	*[82]	Subj[82]	*[82]	*[82]	false[204]	NA[204]	*[322]	*[322]	*[322]	*[322]	*[322]	input1[322]	57[440]	female[440]	k0vnav0sqhr0fo3b0jpuaak9s4[440]	speaker: YOU[558]	*->20-1	IndefNP[20]	_	_	_	
+166-7	4214-4225	Nachrichten	GWithout[28]	gucken\_set1\_4[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-gucken\_set1\_4[28]	*[82]	*[82]	Subj[82]	*[82]	*[82]	false[204]	NA[204]	*[322]	*[322]	*[322]	*[322]	*[322]	input1[322]	57[440]	female[440]	k0vnav0sqhr0fo3b0jpuaak9s4[440]	speaker: YOU[558]	*->20-1	IndefNP[20]	_	_	_	
+166-8	4226-4232	kamen.	GWithout[28]	gucken\_set1\_4[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-gucken\_set1\_4[28]	_	_	_	_	_	false[204]	NA[204]	*[322]	*[322]	*[322]	*[322]	*[322]	input1[322]	57[440]	female[440]	k0vnav0sqhr0fo3b0jpuaak9s4[440]	speaker: YOU[558]	_	_	_	_	_	
+
+#Text=Die Frau darf sich nicht alles so zu Herzen nehmen.
+167-1	4234-4237	Die	GWithout[28]	gucken\_set1\_4[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-gucken\_set1\_4[28]	*[83]	*[83]	Subj[83]	*[83]	*[83]	false[205]	Decl[205]	*[323]	*[323]	*[323]	*[323]	*[323]	input2[323]	57[441]	female[441]	k0vnav0sqhr0fo3b0jpuaak9s4[441]	speaker: YOU[559]	*->72-3	DefNP[72]	_	_	_	
+167-2	4238-4242	Frau	GWithout[28]	gucken\_set1\_4[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-gucken\_set1\_4[28]	*[83]	*[83]	Subj[83]	*[83]	*[83]	false[205]	Decl[205]	*[323]	*[323]	*[323]	*[323]	*[323]	input2[323]	57[441]	female[441]	k0vnav0sqhr0fo3b0jpuaak9s4[441]	speaker: YOU[559]	*->72-3	DefNP[72]	_	_	_	
+167-3	4243-4247	darf	GWithout[28]	gucken\_set1\_4[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-gucken\_set1\_4[28]	_	_	_	_	_	false[205]	Decl[205]	*[323]	*[323]	*[323]	*[323]	*[323]	input2[323]	57[441]	female[441]	k0vnav0sqhr0fo3b0jpuaak9s4[441]	speaker: YOU[559]	_	_	_	_	_	
+167-4	4248-4252	sich	GWithout[28]	gucken\_set1\_4[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-gucken\_set1\_4[28]	_	_	_	_	_	false[205]	Decl[205]	*[323]	*[323]	*[323]	*[323]	*[323]	input2[323]	57[441]	female[441]	k0vnav0sqhr0fo3b0jpuaak9s4[441]	speaker: YOU[559]	_	_	_	_	_	
+167-5	4253-4258	nicht	GWithout[28]	gucken\_set1\_4[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-gucken\_set1\_4[28]	_	_	_	_	_	false[205]	Decl[205]	*[323]	*[323]	*[323]	*[323]	*[323]	input2[323]	57[441]	female[441]	k0vnav0sqhr0fo3b0jpuaak9s4[441]	speaker: YOU[559]	_	_	_	_	_	
+167-6	4259-4264	alles	GWithout[28]	gucken\_set1\_4[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-gucken\_set1\_4[28]	_	_	_	_	_	false[205]	Decl[205]	*[323]	*[323]	*[323]	*[323]	*[323]	input2[323]	57[441]	female[441]	k0vnav0sqhr0fo3b0jpuaak9s4[441]	speaker: YOU[559]	_	_	_	_	_	
+167-7	4265-4267	so	GWithout[28]	gucken\_set1\_4[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-gucken\_set1\_4[28]	_	_	_	_	_	false[205]	Decl[205]	*[323]	*[323]	*[323]	*[323]	*[323]	input2[323]	57[441]	female[441]	k0vnav0sqhr0fo3b0jpuaak9s4[441]	speaker: YOU[559]	_	_	_	_	_	
+167-8	4268-4270	zu	GWithout[28]	gucken\_set1\_4[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-gucken\_set1\_4[28]	_	_	_	_	_	false[205]	Decl[205]	*[323]	*[323]	*[323]	*[323]	*[323]	input2[323]	57[441]	female[441]	k0vnav0sqhr0fo3b0jpuaak9s4[441]	speaker: YOU[559]	_	_	_	_	_	
+167-9	4271-4277	Herzen	GWithout[28]	gucken\_set1\_4[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-gucken\_set1\_4[28]	*	*	PrepObj	*	*	false[205]	Decl[205]	*[323]	*[323]	*[323]	*[323]	*[323]	input2[323]	57[441]	female[441]	k0vnav0sqhr0fo3b0jpuaak9s4[441]	speaker: YOU[559]	_	_	_	_	_	
+167-10	4278-4285	nehmen.	GWithout[28]	gucken\_set1\_4[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-gucken\_set1\_4[28]	_	_	_	_	_	false[205]	Decl[205]	*[323]	*[323]	*[323]	*[323]	*[323]	input2[323]	57[441]	female[441]	k0vnav0sqhr0fo3b0jpuaak9s4[441]	speaker: YOU[559]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+168-1	4287-4302	END_OF_DOCUMENT	GWithout[28]	gucken\_set1\_4[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-gucken\_set1\_4[28]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Und, alles klar?
+169-1	4304-4308	Und,	GWithout[29]	gucken\_set1\_4[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-gucken\_set1\_4[29]	_	_	_	_	_	false[206]	Int[206]	*[324]	*[324]	*[324]	yn\_2[324]	yesno\_question[324]	openq[324]	*[442]	female[442]	*[442]	speaker:Amira[560]	_	_	QAP	*	170-1[207_206]	
+169-2	4309-4314	alles	GWithout[29]	gucken\_set1\_4[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-gucken\_set1\_4[29]	_	_	_	_	_	false[206]	Int[206]	*[324]	*[324]	*[324]	yn\_2[324]	yesno\_question[324]	openq[324]	*[442]	female[442]	*[442]	speaker:Amira[560]	_	_	_	_	_	
+169-3	4315-4320	klar?	GWithout[29]	gucken\_set1\_4[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-gucken\_set1\_4[29]	_	_	_	_	_	false[206]	Int[206]	*[324]	*[324]	*[324]	yn\_2[324]	yesno\_question[324]	openq[324]	*[442]	female[442]	*[442]	speaker:Amira[560]	_	_	_	_	_	
+
+#Text=Linda hat die Tagesschau geguckt
+170-1	4322-4327	Linda	GWithout[29]	gucken\_set1\_4[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-gucken\_set1\_4[29]	*	*	Subj	*	*	false[207]	Decl[207]	*[325]	gucken[325]	transitive[325]	*[325]	*[325]	item0[325]	26[443]	female[443]	qjdpg51abd5auurj3bduisfb43[443]	speaker: YOU[561]	*->1-1|*->119-1	clause[1]|PropNm[119]	result|explanation	*|*	172-1[208_207]|173-1[209_207]	
+170-2	4328-4331	hat	GWithout[29]	gucken\_set1\_4[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-gucken\_set1\_4[29]	_	_	_	_	_	false[207]	Decl[207]	*[325]	gucken[325]	transitive[325]	*[325]	*[325]	item0[325]	26[443]	female[443]	qjdpg51abd5auurj3bduisfb43[443]	speaker: YOU[561]	*->1-1	clause[1]	_	_	_	
+170-3	4332-4335	die	GWithout[29]	gucken\_set1\_4[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-gucken\_set1\_4[29]	*[84]	*[84]	object[84]	*[84]	*[84]	false[207]	Decl[207]	*[325]	gucken[325]	transitive[325]	*[325]	*[325]	item0[325]	26[443]	female[443]	qjdpg51abd5auurj3bduisfb43[443]	speaker: YOU[561]	*->1-1|*->48-1	clause[1]|DefNP[48]	_	_	_	
+170-4	4336-4346	Tagesschau	GWithout[29]	gucken\_set1\_4[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-gucken\_set1\_4[29]	*[84]	*[84]	object[84]	*[84]	*[84]	false[207]	Decl[207]	*[325]	gucken[325]	transitive[325]	*[325]	*[325]	item0[325]	26[443]	female[443]	qjdpg51abd5auurj3bduisfb43[443]	speaker: YOU[561]	*->1-1|*->48-1	clause[1]|DefNP[48]	_	_	_	
+170-5	4347-4354	geguckt	GWithout[29]	gucken\_set1\_4[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-gucken\_set1\_4[29]	_	_	_	_	_	false[207]	Decl[207]	*[325]	gucken[325]	transitive[325]	*[325]	*[325]	item0[325]	26[443]	female[443]	qjdpg51abd5auurj3bduisfb43[443]	speaker: YOU[561]	*->1-1	clause[1]	_	_	_	
+
+#Text=-
+171-1	4356-4357	-	GWithout[29]	gucken\_set1\_4[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-gucken\_set1\_4[29]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Amira	_	_	_	_	_	
+
+#Text=Ich musste lachen.
+172-1	4359-4362	Ich	GWithout[29]	gucken\_set1\_4[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-gucken\_set1\_4[29]	1	*	Subj	*	singular	false[208]	Decl[208]	*[326]	*[326]	*[326]	*[326]	*[326]	input1[326]	26[444]	female[444]	qjdpg51abd5auurj3bduisfb43[444]	speaker: YOU[562]	*->114-1	PerPron[114]	_	_	_	
+172-2	4363-4369	musste	GWithout[29]	gucken\_set1\_4[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-gucken\_set1\_4[29]	_	_	_	_	_	false[208]	Decl[208]	*[326]	*[326]	*[326]	*[326]	*[326]	input1[326]	26[444]	female[444]	qjdpg51abd5auurj3bduisfb43[444]	speaker: YOU[562]	_	_	_	_	_	
+172-3	4370-4377	lachen.	GWithout[29]	gucken\_set1\_4[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-gucken\_set1\_4[29]	_	_	_	_	_	false[208]	Decl[208]	*[326]	*[326]	*[326]	*[326]	*[326]	input1[326]	26[444]	female[444]	qjdpg51abd5auurj3bduisfb43[444]	speaker: YOU[562]	_	_	_	_	_	
+
+#Text=Ihre Lehrerin hat wohl drum gebeten.
+173-1	4379-4383	Ihre	GWithout[29]	gucken\_set1\_4[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-gucken\_set1\_4[29]	*[85]|3[86]	*[85]|*[86]	Subj[85]|*[86]	*[85]|*[86]	*[85]|singular[86]	false[209]	Decl[209]	*[327]	*[327]	*[327]	*[327]	*[327]	input2[327]	26[445]	female[445]	qjdpg51abd5auurj3bduisfb43[445]	speaker: YOU[563]	*->42-1|*->119-2	DefNP[42]|PossePron[119]	_	_	_	
+173-2	4384-4392	Lehrerin	GWithout[29]	gucken\_set1\_4[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-gucken\_set1\_4[29]	*[85]	*[85]	Subj[85]	*[85]	*[85]	false[209]	Decl[209]	*[327]	*[327]	*[327]	*[327]	*[327]	input2[327]	26[445]	female[445]	qjdpg51abd5auurj3bduisfb43[445]	speaker: YOU[563]	*->42-1	DefNP[42]	_	_	_	
+173-3	4393-4396	hat	GWithout[29]	gucken\_set1\_4[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-gucken\_set1\_4[29]	_	_	_	_	_	false[209]	Decl[209]	*[327]	*[327]	*[327]	*[327]	*[327]	input2[327]	26[445]	female[445]	qjdpg51abd5auurj3bduisfb43[445]	speaker: YOU[563]	_	_	_	_	_	
+173-4	4397-4401	wohl	GWithout[29]	gucken\_set1\_4[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-gucken\_set1\_4[29]	_	_	_	_	_	false[209]	Decl[209]	*[327]	*[327]	*[327]	*[327]	*[327]	input2[327]	26[445]	female[445]	qjdpg51abd5auurj3bduisfb43[445]	speaker: YOU[563]	_	_	_	_	_	
+173-5	4402-4406	drum	GWithout[29]	gucken\_set1\_4[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-gucken\_set1\_4[29]	_	_	_	_	_	false[209]	Decl[209]	*[327]	*[327]	*[327]	*[327]	*[327]	input2[327]	26[445]	female[445]	qjdpg51abd5auurj3bduisfb43[445]	speaker: YOU[563]	*->1-2	D-Pron[1]	_	_	_	
+173-6	4407-4415	gebeten.	GWithout[29]	gucken\_set1\_4[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-gucken\_set1\_4[29]	_	_	_	_	_	false[209]	Decl[209]	*[327]	*[327]	*[327]	*[327]	*[327]	input2[327]	26[445]	female[445]	qjdpg51abd5auurj3bduisfb43[445]	speaker: YOU[563]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+174-1	4417-4432	END_OF_DOCUMENT	GWithout[29]	gucken\_set1\_4[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-gucken\_set1\_4[29]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Und, alles klar?
+175-1	4434-4438	Und,	GWithout[30]	gucken\_set1\_4[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-gucken\_set1\_4[30]	_	_	_	_	_	false[210]	Int[210]	*[328]	*[328]	*[328]	yn\_2[328]	yesno\_question[328]	openq[328]	*[446]	female[446]	*[446]	speaker:Amira[564]	_	_	QAP	*	176-1[211_210]	
+175-2	4439-4444	alles	GWithout[30]	gucken\_set1\_4[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-gucken\_set1\_4[30]	_	_	_	_	_	false[210]	Int[210]	*[328]	*[328]	*[328]	yn\_2[328]	yesno\_question[328]	openq[328]	*[446]	female[446]	*[446]	speaker:Amira[564]	_	_	_	_	_	
+175-3	4445-4450	klar?	GWithout[30]	gucken\_set1\_4[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-gucken\_set1\_4[30]	_	_	_	_	_	false[210]	Int[210]	*[328]	*[328]	*[328]	yn\_2[328]	yesno\_question[328]	openq[328]	*[446]	female[446]	*[446]	speaker:Amira[564]	_	_	_	_	_	
+
+#Text=Linda hat die Tagesschau geguckt
+176-1	4452-4457	Linda	GWithout[30]	gucken\_set1\_4[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-gucken\_set1\_4[30]	*	*	Subj	*	*	false[211]	Decl[211]	*[329]	gucken[329]	transitive[329]	*[329]	*[329]	item0[329]	72[447]	male[447]	rhiec6c6hfje484c5bsbj040l0[447]	speaker: YOU[565]	*->67-1	PropNm[67]	parallel	*	178-1[212_211]	
+176-2	4458-4461	hat	GWithout[30]	gucken\_set1\_4[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-gucken\_set1\_4[30]	_	_	_	_	_	false[211]	Decl[211]	*[329]	gucken[329]	transitive[329]	*[329]	*[329]	item0[329]	72[447]	male[447]	rhiec6c6hfje484c5bsbj040l0[447]	speaker: YOU[565]	_	_	_	_	_	
+176-3	4462-4465	die	GWithout[30]	gucken\_set1\_4[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-gucken\_set1\_4[30]	*[87]	*[87]	object[87]	*[87]	*[87]	false[211]	Decl[211]	*[329]	gucken[329]	transitive[329]	*[329]	*[329]	item0[329]	72[447]	male[447]	rhiec6c6hfje484c5bsbj040l0[447]	speaker: YOU[565]	*->6-1	DefNP[6]	_	_	_	
+176-4	4466-4476	Tagesschau	GWithout[30]	gucken\_set1\_4[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-gucken\_set1\_4[30]	*[87]	*[87]	object[87]	*[87]	*[87]	false[211]	Decl[211]	*[329]	gucken[329]	transitive[329]	*[329]	*[329]	item0[329]	72[447]	male[447]	rhiec6c6hfje484c5bsbj040l0[447]	speaker: YOU[565]	*->6-1	DefNP[6]	_	_	_	
+176-5	4477-4484	geguckt	GWithout[30]	gucken\_set1\_4[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-gucken\_set1\_4[30]	_	_	_	_	_	false[211]	Decl[211]	*[329]	gucken[329]	transitive[329]	*[329]	*[329]	item0[329]	72[447]	male[447]	rhiec6c6hfje484c5bsbj040l0[447]	speaker: YOU[565]	_	_	_	_	_	
+
+#Text=-
+177-1	4486-4487	-	GWithout[30]	gucken\_set1\_4[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-gucken\_set1\_4[30]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Amira	_	_	_	_	_	
+
+#Text=Hast du auch geguckt?
+178-1	4489-4493	Hast	GWithout[30]	gucken\_set1\_4[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-gucken\_set1\_4[30]	_	_	_	_	_	false[212]	Int[212]	*[330]	*[330]	*[330]	*[330]	*[330]	input1[330]	72[448]	male[448]	rhiec6c6hfje484c5bsbj040l0[448]	speaker: YOU[566]	*->6-2	zero[6]	elaboration	*	179-1[213_212]	
+178-2	4494-4496	du	GWithout[30]	gucken\_set1\_4[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-gucken\_set1\_4[30]	2	*	Subj	*	singular	false[212]	Int[212]	*[330]	*[330]	*[330]	*[330]	*[330]	input1[330]	72[448]	male[448]	rhiec6c6hfje484c5bsbj040l0[448]	speaker: YOU[566]	*->23-1	PerPron[23]	_	_	_	
+178-3	4497-4501	auch	GWithout[30]	gucken\_set1\_4[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-gucken\_set1\_4[30]	_	_	_	_	_	false[212]	Int[212]	*[330]	*[330]	*[330]	*[330]	*[330]	input1[330]	72[448]	male[448]	rhiec6c6hfje484c5bsbj040l0[448]	speaker: YOU[566]	_	_	_	_	_	
+178-4	4502-4510	geguckt?	GWithout[30]	gucken\_set1\_4[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-gucken\_set1\_4[30]	_	_	_	_	_	false[212]	Int[212]	*[330]	*[330]	*[330]	*[330]	*[330]	input1[330]	72[448]	male[448]	rhiec6c6hfje484c5bsbj040l0[448]	speaker: YOU[566]	_	_	_	_	_	
+
+#Text=Das über Hollywood gesehen?
+179-1	4512-4515	Das	GWithout[30]	gucken\_set1\_4[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-gucken\_set1\_4[30]	_	_	_	_	_	false[213]	NA[213]	*[331]	*[331]	*[331]	*[331]	*[331]	input2[331]	72[449]	male[449]	rhiec6c6hfje484c5bsbj040l0[449]	speaker: YOU[567]	*->22-1	DefNP[22]	_	_	_	
+179-2	4516-4520	über	GWithout[30]	gucken\_set1\_4[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-gucken\_set1\_4[30]	_	_	_	_	_	false[213]	NA[213]	*[331]	*[331]	*[331]	*[331]	*[331]	input2[331]	72[449]	male[449]	rhiec6c6hfje484c5bsbj040l0[449]	speaker: YOU[567]	*->22-1	DefNP[22]	_	_	_	
+179-3	4521-4530	Hollywood	GWithout[30]	gucken\_set1\_4[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-gucken\_set1\_4[30]	*	*	PrepObj	*	*	false[213]	NA[213]	*[331]	*[331]	*[331]	*[331]	*[331]	input2[331]	72[449]	male[449]	rhiec6c6hfje484c5bsbj040l0[449]	speaker: YOU[567]	*->22-1|*->105-1	DefNP[22]|PropNm[105]	_	_	_	
+179-4	4531-4539	gesehen?	GWithout[30]	gucken\_set1\_4[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-gucken\_set1\_4[30]	_	_	_	_	_	false[213]	NA[213]	*[331]	*[331]	*[331]	*[331]	*[331]	input2[331]	72[449]	male[449]	rhiec6c6hfje484c5bsbj040l0[449]	speaker: YOU[567]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+180-1	4541-4556	END_OF_DOCUMENT	GWithout[30]	gucken\_set1\_4[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-gucken\_set1\_4[30]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	

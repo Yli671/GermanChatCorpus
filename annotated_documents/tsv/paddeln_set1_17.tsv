@@ -1,0 +1,981 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Item_info|condition|item_id|latinsqr_list|unique_id
+#T_SP=webanno.custom.Ref_info|PersonalPronouns_detailed|ref_def|ref_function|ref_gender|ref_num
+#T_SP=webanno.custom.Segment|complex|segment_type
+#T_SP=webanno.custom.Sent_layer|feedback_id|item0_verb|item0_verbtype|openq_id|openq_type|sent_type
+#T_SP=webanno.custom.Speaker_meta|age|gender|speaker_id
+#T_SP=webanno.custom.Speaker_name|speaker_name
+#T_CH=de.tudarmstadt.ukp.dkpro.core.api.coref.type.CoreferenceLink|referenceRelation|referenceType
+#T_RL=webanno.custom.Relations|discourse_rel|speechAct_rel|BT_webanno.custom.Segment
+
+
+#Text=Wie gehts dir?
+1-1	0-3	Wie	GFailure[1]	paddeln\_set1\_17[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-paddeln\_set1\_17[1]	_	_	_	_	_	false[53]	Int[53]	*[179]	*[179]	*[179]	wh\_3[179]	wh\_question[179]	openq[179]	*[299]	female[299]	*[299]	speaker:Ella[419]	_	_	QAP	*	2-1[54_53]	
+1-2	4-9	gehts	GFailure[1]	paddeln\_set1\_17[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-paddeln\_set1\_17[1]	_	_	_	_	_	false[53]	Int[53]	*[179]	*[179]	*[179]	wh\_3[179]	wh\_question[179]	openq[179]	*[299]	female[299]	*[299]	speaker:Ella[419]	_	_	_	_	_	
+1-3	10-14	dir?	GFailure[1]	paddeln\_set1\_17[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-paddeln\_set1\_17[1]	2	*	*	*	singular	false[53]	Int[53]	*[179]	*[179]	*[179]	wh\_3[179]	wh\_question[179]	openq[179]	*[299]	female[299]	*[299]	speaker:Ella[419]	*->59-1	PerPron[59]	_	_	_	
+
+#Text=Theodor hat lange gepaddelt
+2-1	16-23	Theodor	GFailure[1]	paddeln\_set1\_17[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-paddeln\_set1\_17[1]	*	*	Subj	*	*	false[54]	Decl[54]	*[180]	paddeln[180]	intransitive[180]	*[180]	*[180]	item0[180]	35[300]	female[300]	2k56uavscuainedj0q9i1sb693[300]	speaker: YOU[420]	*->8-1|*->71-1	clause[8]|PropNm[71]	elaboration|elaboration|CR	*|*|*	4-1[55_54]|5-1[56_54]|3-1[0_54]	
+2-2	24-27	hat	GFailure[1]	paddeln\_set1\_17[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-paddeln\_set1\_17[1]	_	_	_	_	_	false[54]	Decl[54]	*[180]	paddeln[180]	intransitive[180]	*[180]	*[180]	item0[180]	35[300]	female[300]	2k56uavscuainedj0q9i1sb693[300]	speaker: YOU[420]	*->8-1	clause[8]	_	_	_	
+2-3	28-33	lange	GFailure[1]	paddeln\_set1\_17[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-paddeln\_set1\_17[1]	_	_	_	_	_	false[54]	Decl[54]	*[180]	paddeln[180]	intransitive[180]	*[180]	*[180]	item0[180]	35[300]	female[300]	2k56uavscuainedj0q9i1sb693[300]	speaker: YOU[420]	*->8-1	clause[8]	_	_	_	
+2-4	34-43	gepaddelt	GFailure[1]	paddeln\_set1\_17[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-paddeln\_set1\_17[1]	_	_	_	_	_	false[54]	Decl[54]	*[180]	paddeln[180]	intransitive[180]	*[180]	*[180]	item0[180]	35[300]	female[300]	2k56uavscuainedj0q9i1sb693[300]	speaker: YOU[420]	*->8-1	clause[8]	_	_	_	
+
+#Text=Was?
+3-1	45-49	Was?	GFailure[1]	paddeln\_set1\_17[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-paddeln\_set1\_17[1]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	female	*	speaker:Ella	_	_	_	_	_	
+
+#Text=Mit dem Kanu.
+4-1	51-54	Mit	GFailure[1]	paddeln\_set1\_17[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-paddeln\_set1\_17[1]	_	_	_	_	_	false[55]	NA[55]	*[181]	*[181]	*[181]	*[181]	*[181]	input1[181]	35[301]	female[301]	2k56uavscuainedj0q9i1sb693[301]	speaker: YOU[421]	_	_	_	_	_	
+4-2	55-58	dem	GFailure[1]	paddeln\_set1\_17[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-paddeln\_set1\_17[1]	*[31]	*[31]	PrepObj[31]	*[31]	*[31]	false[55]	NA[55]	*[181]	*[181]	*[181]	*[181]	*[181]	input1[181]	35[301]	female[301]	2k56uavscuainedj0q9i1sb693[301]	speaker: YOU[421]	*->23-1	DefNP[23]	_	_	_	
+4-3	59-64	Kanu.	GFailure[1]	paddeln\_set1\_17[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-paddeln\_set1\_17[1]	*[31]	*[31]	PrepObj[31]	*[31]	*[31]	false[55]	NA[55]	*[181]	*[181]	*[181]	*[181]	*[181]	input1[181]	35[301]	female[301]	2k56uavscuainedj0q9i1sb693[301]	speaker: YOU[421]	*->23-1	DefNP[23]	_	_	_	
+
+#Text=Hat ihm Spaß gemacht.
+5-1	66-69	Hat	GFailure[1]	paddeln\_set1\_17[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-paddeln\_set1\_17[1]	3	*	*	*	singular	false[56]	Decl[56]	*[182]	*[182]	*[182]	*[182]	*[182]	input2[182]	35[302]	female[302]	2k56uavscuainedj0q9i1sb693[302]	speaker: YOU[422]	*->8-2	zero[8]	_	_	_	
+5-2	70-73	ihm	GFailure[1]	paddeln\_set1\_17[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-paddeln\_set1\_17[1]	3	*	DirObj	*	singular	false[56]	Decl[56]	*[182]	*[182]	*[182]	*[182]	*[182]	input2[182]	35[302]	female[302]	2k56uavscuainedj0q9i1sb693[302]	speaker: YOU[422]	*->71-2	PerPron[71]	_	_	_	
+5-3	74-78	Spaß	GFailure[1]	paddeln\_set1\_17[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-paddeln\_set1\_17[1]	_	_	_	_	_	false[56]	Decl[56]	*[182]	*[182]	*[182]	*[182]	*[182]	input2[182]	35[302]	female[302]	2k56uavscuainedj0q9i1sb693[302]	speaker: YOU[422]	*->49-1	IndefNP[49]	_	_	_	
+5-4	79-87	gemacht.	GFailure[1]	paddeln\_set1\_17[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-paddeln\_set1\_17[1]	_	_	_	_	_	false[56]	Decl[56]	*[182]	*[182]	*[182]	*[182]	*[182]	input2[182]	35[302]	female[302]	2k56uavscuainedj0q9i1sb693[302]	speaker: YOU[422]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+6-1	89-104	END_OF_DOCUMENT	GFailure[1]	paddeln\_set1\_17[1]	latin1[1]	2k56uavscuainedj0q9i1sb693-paddeln\_set1\_17[1]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+7-1	106-109	Wie	GFailure[2]	paddeln\_set1\_17[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-paddeln\_set1\_17[2]	_	_	_	_	_	false[57]	Int[57]	*[183]	*[183]	*[183]	wh\_3[183]	wh\_question[183]	openq[183]	*[303]	female[303]	*[303]	speaker:Ella[423]	_	_	QAP	*	8-1[58_57]	
+7-2	110-115	gehts	GFailure[2]	paddeln\_set1\_17[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-paddeln\_set1\_17[2]	_	_	_	_	_	false[57]	Int[57]	*[183]	*[183]	*[183]	wh\_3[183]	wh\_question[183]	openq[183]	*[303]	female[303]	*[303]	speaker:Ella[423]	_	_	_	_	_	
+7-3	116-120	dir?	GFailure[2]	paddeln\_set1\_17[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-paddeln\_set1\_17[2]	2	*	*	*	singular	false[57]	Int[57]	*[183]	*[183]	*[183]	wh\_3[183]	wh\_question[183]	openq[183]	*[303]	female[303]	*[303]	speaker:Ella[423]	*->106-1	PerPron[106]	_	_	_	
+
+#Text=Theodor hat lange gepaddelt
+8-1	122-129	Theodor	GFailure[2]	paddeln\_set1\_17[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-paddeln\_set1\_17[2]	*	*	Subj	*	*	false[58]	Decl[58]	*[184]	paddeln[184]	intransitive[184]	*[184]	*[184]	item0[184]	46[304]	male[304]	7bq5ecc5fndmatjvd44havavdp[304]	speaker: YOU[424]	*->96-1	PropNm[96]	elaboration|elaboration|CR	*|*|*	10-1[59_58]|11-1[60_58]|9-1[0_58]	
+8-2	130-133	hat	GFailure[2]	paddeln\_set1\_17[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-paddeln\_set1\_17[2]	_	_	_	_	_	false[58]	Decl[58]	*[184]	paddeln[184]	intransitive[184]	*[184]	*[184]	item0[184]	46[304]	male[304]	7bq5ecc5fndmatjvd44havavdp[304]	speaker: YOU[424]	_	_	_	_	_	
+8-3	134-139	lange	GFailure[2]	paddeln\_set1\_17[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-paddeln\_set1\_17[2]	_	_	_	_	_	false[58]	Decl[58]	*[184]	paddeln[184]	intransitive[184]	*[184]	*[184]	item0[184]	46[304]	male[304]	7bq5ecc5fndmatjvd44havavdp[304]	speaker: YOU[424]	_	_	_	_	_	
+8-4	140-149	gepaddelt	GFailure[2]	paddeln\_set1\_17[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-paddeln\_set1\_17[2]	_	_	_	_	_	false[58]	Decl[58]	*[184]	paddeln[184]	intransitive[184]	*[184]	*[184]	item0[184]	46[304]	male[304]	7bq5ecc5fndmatjvd44havavdp[304]	speaker: YOU[424]	_	_	_	_	_	
+
+#Text=Was?
+9-1	151-155	Was?	GFailure[2]	paddeln\_set1\_17[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-paddeln\_set1\_17[2]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	female	*	speaker:Ella	_	_	_	_	_	
+
+#Text=Gestern auf dem See
+10-1	157-164	Gestern	GFailure[2]	paddeln\_set1\_17[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-paddeln\_set1\_17[2]	_	_	_	_	_	false[59]	NA[59]	*[185]	*[185]	*[185]	*[185]	*[185]	input1[185]	46[305]	male[305]	7bq5ecc5fndmatjvd44havavdp[305]	speaker: YOU[425]	_	_	_	_	_	
+10-2	165-168	auf	GFailure[2]	paddeln\_set1\_17[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-paddeln\_set1\_17[2]	_	_	_	_	_	false[59]	NA[59]	*[185]	*[185]	*[185]	*[185]	*[185]	input1[185]	46[305]	male[305]	7bq5ecc5fndmatjvd44havavdp[305]	speaker: YOU[425]	_	_	_	_	_	
+10-3	169-172	dem	GFailure[2]	paddeln\_set1\_17[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-paddeln\_set1\_17[2]	*[32]	*[32]	PrepObj[32]	*[32]	*[32]	false[59]	NA[59]	*[185]	*[185]	*[185]	*[185]	*[185]	input1[185]	46[305]	male[305]	7bq5ecc5fndmatjvd44havavdp[305]	speaker: YOU[425]	*->68-1	DefNP[68]	_	_	_	
+10-4	173-176	See	GFailure[2]	paddeln\_set1\_17[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-paddeln\_set1\_17[2]	*[32]	*[32]	PrepObj[32]	*[32]	*[32]	false[59]	NA[59]	*[185]	*[185]	*[185]	*[185]	*[185]	input1[185]	46[305]	male[305]	7bq5ecc5fndmatjvd44havavdp[305]	speaker: YOU[425]	*->68-1	DefNP[68]	_	_	_	
+
+#Text=war sicher 3h unterwegs
+11-1	178-181	war	GFailure[2]	paddeln\_set1\_17[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-paddeln\_set1\_17[2]	3	*	*	*	singular	false[60]	Decl[60]	*[186]	*[186]	*[186]	*[186]	*[186]	input2[186]	46[306]	male[306]	7bq5ecc5fndmatjvd44havavdp[306]	speaker: YOU[426]	*->96-2	zero[96]	_	_	_	
+11-2	182-188	sicher	GFailure[2]	paddeln\_set1\_17[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-paddeln\_set1\_17[2]	_	_	_	_	_	false[60]	Decl[60]	*[186]	*[186]	*[186]	*[186]	*[186]	input2[186]	46[306]	male[306]	7bq5ecc5fndmatjvd44havavdp[306]	speaker: YOU[426]	_	_	_	_	_	
+11-3	189-191	3h	GFailure[2]	paddeln\_set1\_17[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-paddeln\_set1\_17[2]	_	_	_	_	_	false[60]	Decl[60]	*[186]	*[186]	*[186]	*[186]	*[186]	input2[186]	46[306]	male[306]	7bq5ecc5fndmatjvd44havavdp[306]	speaker: YOU[426]	*->101-1	IndefNP[101]	_	_	_	
+11-4	192-201	unterwegs	GFailure[2]	paddeln\_set1\_17[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-paddeln\_set1\_17[2]	_	_	_	_	_	false[60]	Decl[60]	*[186]	*[186]	*[186]	*[186]	*[186]	input2[186]	46[306]	male[306]	7bq5ecc5fndmatjvd44havavdp[306]	speaker: YOU[426]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+12-1	203-218	END_OF_DOCUMENT	GFailure[2]	paddeln\_set1\_17[2]	latin1[2]	7bq5ecc5fndmatjvd44havavdp-paddeln\_set1\_17[2]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+13-1	220-223	Wie	GFailure[3]	paddeln\_set1\_17[3]	latin1[3]	9bb79dhfhst017575orahklqol-paddeln\_set1\_17[3]	_	_	_	_	_	false[61]	Int[61]	*[187]	*[187]	*[187]	wh\_3[187]	wh\_question[187]	openq[187]	*[307]	female[307]	*[307]	speaker:Ella[427]	_	_	QAP	*	14-1[62_61]	
+13-2	224-229	gehts	GFailure[3]	paddeln\_set1\_17[3]	latin1[3]	9bb79dhfhst017575orahklqol-paddeln\_set1\_17[3]	_	_	_	_	_	false[61]	Int[61]	*[187]	*[187]	*[187]	wh\_3[187]	wh\_question[187]	openq[187]	*[307]	female[307]	*[307]	speaker:Ella[427]	_	_	_	_	_	
+13-3	230-234	dir?	GFailure[3]	paddeln\_set1\_17[3]	latin1[3]	9bb79dhfhst017575orahklqol-paddeln\_set1\_17[3]	2	*	*	*	singular	false[61]	Int[61]	*[187]	*[187]	*[187]	wh\_3[187]	wh\_question[187]	openq[187]	*[307]	female[307]	*[307]	speaker:Ella[427]	*->50-1	PerPron[50]	_	_	_	
+
+#Text=Theodor hat lange gepaddelt
+14-1	236-243	Theodor	GFailure[3]	paddeln\_set1\_17[3]	latin1[3]	9bb79dhfhst017575orahklqol-paddeln\_set1\_17[3]	*	*	Subj	*	*	false[62]	Decl[62]	*[188]	paddeln[188]	intransitive[188]	*[188]	*[188]	item0[188]	37[308]	female[308]	9bb79dhfhst017575orahklqol[308]	speaker: YOU[428]	*->22-1|*->5-1	clause[22]|PropNm[5]	elaboration|elaboration|CR	*|*|*	16-1[63_62]|17-1[64_62]|15-1[0_62]	
+14-2	244-247	hat	GFailure[3]	paddeln\_set1\_17[3]	latin1[3]	9bb79dhfhst017575orahklqol-paddeln\_set1\_17[3]	_	_	_	_	_	false[62]	Decl[62]	*[188]	paddeln[188]	intransitive[188]	*[188]	*[188]	item0[188]	37[308]	female[308]	9bb79dhfhst017575orahklqol[308]	speaker: YOU[428]	*->22-1	clause[22]	_	_	_	
+14-3	248-253	lange	GFailure[3]	paddeln\_set1\_17[3]	latin1[3]	9bb79dhfhst017575orahklqol-paddeln\_set1\_17[3]	_	_	_	_	_	false[62]	Decl[62]	*[188]	paddeln[188]	intransitive[188]	*[188]	*[188]	item0[188]	37[308]	female[308]	9bb79dhfhst017575orahklqol[308]	speaker: YOU[428]	*->22-1	clause[22]	_	_	_	
+14-4	254-263	gepaddelt	GFailure[3]	paddeln\_set1\_17[3]	latin1[3]	9bb79dhfhst017575orahklqol-paddeln\_set1\_17[3]	_	_	_	_	_	false[62]	Decl[62]	*[188]	paddeln[188]	intransitive[188]	*[188]	*[188]	item0[188]	37[308]	female[308]	9bb79dhfhst017575orahklqol[308]	speaker: YOU[428]	*->22-1	clause[22]	_	_	_	
+
+#Text=Was?
+15-1	265-269	Was?	GFailure[3]	paddeln\_set1\_17[3]	latin1[3]	9bb79dhfhst017575orahklqol-paddeln\_set1\_17[3]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	female	*	speaker:Ella	_	_	_	_	_	
+
+#Text=ueber 3stunden
+16-1	271-276	ueber	GFailure[3]	paddeln\_set1\_17[3]	latin1[3]	9bb79dhfhst017575orahklqol-paddeln\_set1\_17[3]	_	_	_	_	_	false[63]	NA[63]	*[189]	*[189]	*[189]	*[189]	*[189]	input1[189]	37[309]	female[309]	9bb79dhfhst017575orahklqol[309]	speaker: YOU[429]	_	_	_	_	_	
+16-2	277-285	3stunden	GFailure[3]	paddeln\_set1\_17[3]	latin1[3]	9bb79dhfhst017575orahklqol-paddeln\_set1\_17[3]	_	_	_	_	_	false[63]	NA[63]	*[189]	*[189]	*[189]	*[189]	*[189]	input1[189]	37[309]	female[309]	9bb79dhfhst017575orahklqol[309]	speaker: YOU[429]	*->57-1	IndefNP[57]	_	_	_	
+
+#Text=haettste sehen sollen
+17-1	287-295	haettste	GFailure[3]	paddeln\_set1\_17[3]	latin1[3]	9bb79dhfhst017575orahklqol-paddeln\_set1\_17[3]	3[33]|2[34]	*[33]|*[34]	Subj[33]|*[34]	*[33]|*[34]	singular[33]|singular[34]	false[64]	Decl[64]	*[190]	*[190]	*[190]	*[190]	*[190]	input2[190]	37[310]	female[310]	9bb79dhfhst017575orahklqol[310]	speaker: YOU[430]	*->107-1|*->22-2	zero[107]|zero[22]	_	_	_	
+17-2	296-301	sehen	GFailure[3]	paddeln\_set1\_17[3]	latin1[3]	9bb79dhfhst017575orahklqol-paddeln\_set1\_17[3]	_	_	_	_	_	false[64]	Decl[64]	*[190]	*[190]	*[190]	*[190]	*[190]	input2[190]	37[310]	female[310]	9bb79dhfhst017575orahklqol[310]	speaker: YOU[430]	_	_	_	_	_	
+17-3	302-308	sollen	GFailure[3]	paddeln\_set1\_17[3]	latin1[3]	9bb79dhfhst017575orahklqol-paddeln\_set1\_17[3]	_	_	_	_	_	false[64]	Decl[64]	*[190]	*[190]	*[190]	*[190]	*[190]	input2[190]	37[310]	female[310]	9bb79dhfhst017575orahklqol[310]	speaker: YOU[430]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+18-1	310-325	END_OF_DOCUMENT	GFailure[3]	paddeln\_set1\_17[3]	latin1[3]	9bb79dhfhst017575orahklqol-paddeln\_set1\_17[3]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+19-1	327-330	Wie	GFailure[4]	paddeln\_set1\_17[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-paddeln\_set1\_17[4]	_	_	_	_	_	false[65]	Int[65]	*[191]	*[191]	*[191]	wh\_3[191]	wh\_question[191]	openq[191]	*[311]	female[311]	*[311]	speaker:Ella[431]	_	_	QAP	*	20-1[66_65]	
+19-2	331-336	gehts	GFailure[4]	paddeln\_set1\_17[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-paddeln\_set1\_17[4]	_	_	_	_	_	false[65]	Int[65]	*[191]	*[191]	*[191]	wh\_3[191]	wh\_question[191]	openq[191]	*[311]	female[311]	*[311]	speaker:Ella[431]	_	_	_	_	_	
+19-3	337-341	dir?	GFailure[4]	paddeln\_set1\_17[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-paddeln\_set1\_17[4]	2	*	*	*	singular	false[65]	Int[65]	*[191]	*[191]	*[191]	wh\_3[191]	wh\_question[191]	openq[191]	*[311]	female[311]	*[311]	speaker:Ella[431]	*->95-1	PerPron[95]	_	_	_	
+
+#Text=Theodor hat lange gepaddelt
+20-1	343-350	Theodor	GFailure[4]	paddeln\_set1\_17[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-paddeln\_set1\_17[4]	*	*	Subj	*	*	false[66]	Decl[66]	*[192]	paddeln[192]	intransitive[192]	*[192]	*[192]	item0[192]	21[312]	male[312]	afpst3sherp4732c4se5ajftkq[312]	speaker: YOU[432]	*->20-1	PropNm[20]	elaboration|CR	*|*	22-1[67_66]|21-1[0_66]	
+20-2	351-354	hat	GFailure[4]	paddeln\_set1\_17[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-paddeln\_set1\_17[4]	_	_	_	_	_	false[66]	Decl[66]	*[192]	paddeln[192]	intransitive[192]	*[192]	*[192]	item0[192]	21[312]	male[312]	afpst3sherp4732c4se5ajftkq[312]	speaker: YOU[432]	_	_	_	_	_	
+20-3	355-360	lange	GFailure[4]	paddeln\_set1\_17[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-paddeln\_set1\_17[4]	_	_	_	_	_	false[66]	Decl[66]	*[192]	paddeln[192]	intransitive[192]	*[192]	*[192]	item0[192]	21[312]	male[312]	afpst3sherp4732c4se5ajftkq[312]	speaker: YOU[432]	_	_	_	_	_	
+20-4	361-370	gepaddelt	GFailure[4]	paddeln\_set1\_17[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-paddeln\_set1\_17[4]	_	_	_	_	_	false[66]	Decl[66]	*[192]	paddeln[192]	intransitive[192]	*[192]	*[192]	item0[192]	21[312]	male[312]	afpst3sherp4732c4se5ajftkq[312]	speaker: YOU[432]	_	_	_	_	_	
+
+#Text=Was?
+21-1	372-376	Was?	GFailure[4]	paddeln\_set1\_17[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-paddeln\_set1\_17[4]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	female	*	speaker:Ella	_	_	_	_	_	
+
+#Text=Er hat solange gepaddelt <BR> dass er irgendwann einfach eingeschlafen ist.
+22-1	378-380	Er	GFailure[4]	paddeln\_set1\_17[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-paddeln\_set1\_17[4]	3	*	Subj	*	singular	false[67]	Decl[67]	*[193]	*[193]	*[193]	*[193]	*[193]	input1[193]	21[313]	male[313]	afpst3sherp4732c4se5ajftkq[313]	speaker: YOU[433]	*->20-2	PerPron[20]	result	*	22-6[68_67]	
+22-2	381-384	hat	GFailure[4]	paddeln\_set1\_17[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-paddeln\_set1\_17[4]	_	_	_	_	_	false[67]	Decl[67]	*[193]	*[193]	*[193]	*[193]	*[193]	input1[193]	21[313]	male[313]	afpst3sherp4732c4se5ajftkq[313]	speaker: YOU[433]	_	_	_	_	_	
+22-3	385-392	solange	GFailure[4]	paddeln\_set1\_17[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-paddeln\_set1\_17[4]	_	_	_	_	_	false[67]	Decl[67]	*[193]	*[193]	*[193]	*[193]	*[193]	input1[193]	21[313]	male[313]	afpst3sherp4732c4se5ajftkq[313]	speaker: YOU[433]	_	_	_	_	_	
+22-4	393-402	gepaddelt	GFailure[4]	paddeln\_set1\_17[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-paddeln\_set1\_17[4]	_	_	_	_	_	false[67]	Decl[67]	*[193]	*[193]	*[193]	*[193]	*[193]	input1[193]	21[313]	male[313]	afpst3sherp4732c4se5ajftkq[313]	speaker: YOU[433]	_	_	_	_	_	
+22-5	403-407	<BR>	GFailure[4]	paddeln\_set1\_17[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-paddeln\_set1\_17[4]	_	_	_	_	_	_	_	*[193]	*[193]	*[193]	*[193]	*[193]	input1[193]	21[313]	male[313]	afpst3sherp4732c4se5ajftkq[313]	speaker: YOU[433]	_	_	_	_	_	
+22-6	408-412	dass	GFailure[4]	paddeln\_set1\_17[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-paddeln\_set1\_17[4]	_	_	_	_	_	false[68]	NA[68]	*[193]	*[193]	*[193]	*[193]	*[193]	input1[193]	21[313]	male[313]	afpst3sherp4732c4se5ajftkq[313]	speaker: YOU[433]	_	_	result	*	23-1[69_68]	
+22-7	413-415	er	GFailure[4]	paddeln\_set1\_17[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-paddeln\_set1\_17[4]	3	*	Embedded	*	singular	false[68]	NA[68]	*[193]	*[193]	*[193]	*[193]	*[193]	input1[193]	21[313]	male[313]	afpst3sherp4732c4se5ajftkq[313]	speaker: YOU[433]	*->20-3	*[20]	_	_	_	
+22-8	416-426	irgendwann	GFailure[4]	paddeln\_set1\_17[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-paddeln\_set1\_17[4]	_	_	_	_	_	false[68]	NA[68]	*[193]	*[193]	*[193]	*[193]	*[193]	input1[193]	21[313]	male[313]	afpst3sherp4732c4se5ajftkq[313]	speaker: YOU[433]	_	_	_	_	_	
+22-9	427-434	einfach	GFailure[4]	paddeln\_set1\_17[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-paddeln\_set1\_17[4]	_	_	_	_	_	false[68]	NA[68]	*[193]	*[193]	*[193]	*[193]	*[193]	input1[193]	21[313]	male[313]	afpst3sherp4732c4se5ajftkq[313]	speaker: YOU[433]	_	_	_	_	_	
+22-10	435-448	eingeschlafen	GFailure[4]	paddeln\_set1\_17[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-paddeln\_set1\_17[4]	_	_	_	_	_	false[68]	NA[68]	*[193]	*[193]	*[193]	*[193]	*[193]	input1[193]	21[313]	male[313]	afpst3sherp4732c4se5ajftkq[313]	speaker: YOU[433]	_	_	_	_	_	
+22-11	449-453	ist.	GFailure[4]	paddeln\_set1\_17[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-paddeln\_set1\_17[4]	_	_	_	_	_	false[68]	NA[68]	*[193]	*[193]	*[193]	*[193]	*[193]	input1[193]	21[313]	male[313]	afpst3sherp4732c4se5ajftkq[313]	speaker: YOU[433]	_	_	_	_	_	
+
+#Text=Wir mussten ihn mit der Feuerwehr aus dem Fluss retten <BR> weil er einfach in das Wasser geplumst ist.
+23-1	455-458	Wir	GFailure[4]	paddeln\_set1\_17[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-paddeln\_set1\_17[4]	1	*	Subj	*	plural	false[69]	Decl[69]	*[194]	*[194]	*[194]	*[194]	*[194]	input2[194]	21[314]	male[314]	afpst3sherp4732c4se5ajftkq[314]	speaker: YOU[434]	*->45-1	PerPron[45]	explanation	*	23-12[70_69]	
+23-2	459-466	mussten	GFailure[4]	paddeln\_set1\_17[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-paddeln\_set1\_17[4]	_	_	_	_	_	false[69]	Decl[69]	*[194]	*[194]	*[194]	*[194]	*[194]	input2[194]	21[314]	male[314]	afpst3sherp4732c4se5ajftkq[314]	speaker: YOU[434]	_	_	_	_	_	
+23-3	467-470	ihn	GFailure[4]	paddeln\_set1\_17[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-paddeln\_set1\_17[4]	3	*	IndirObj	*	singular	false[69]	Decl[69]	*[194]	*[194]	*[194]	*[194]	*[194]	input2[194]	21[314]	male[314]	afpst3sherp4732c4se5ajftkq[314]	speaker: YOU[434]	*->20-4	PerPron[20]	_	_	_	
+23-4	471-474	mit	GFailure[4]	paddeln\_set1\_17[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-paddeln\_set1\_17[4]	_	_	_	_	_	false[69]	Decl[69]	*[194]	*[194]	*[194]	*[194]	*[194]	input2[194]	21[314]	male[314]	afpst3sherp4732c4se5ajftkq[314]	speaker: YOU[434]	_	_	_	_	_	
+23-5	475-478	der	GFailure[4]	paddeln\_set1\_17[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-paddeln\_set1\_17[4]	*[35]	*[35]	PrepObj[35]	*[35]	*[35]	false[69]	Decl[69]	*[194]	*[194]	*[194]	*[194]	*[194]	input2[194]	21[314]	male[314]	afpst3sherp4732c4se5ajftkq[314]	speaker: YOU[434]	*->39-1	DefNP[39]	_	_	_	
+23-6	479-488	Feuerwehr	GFailure[4]	paddeln\_set1\_17[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-paddeln\_set1\_17[4]	*[35]	*[35]	PrepObj[35]	*[35]	*[35]	false[69]	Decl[69]	*[194]	*[194]	*[194]	*[194]	*[194]	input2[194]	21[314]	male[314]	afpst3sherp4732c4se5ajftkq[314]	speaker: YOU[434]	*->39-1	DefNP[39]	_	_	_	
+23-7	489-492	aus	GFailure[4]	paddeln\_set1\_17[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-paddeln\_set1\_17[4]	_	_	_	_	_	false[69]	Decl[69]	*[194]	*[194]	*[194]	*[194]	*[194]	input2[194]	21[314]	male[314]	afpst3sherp4732c4se5ajftkq[314]	speaker: YOU[434]	_	_	_	_	_	
+23-8	493-496	dem	GFailure[4]	paddeln\_set1\_17[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-paddeln\_set1\_17[4]	*[36]	*[36]	PrepObj[36]	*[36]	*[36]	false[69]	Decl[69]	*[194]	*[194]	*[194]	*[194]	*[194]	input2[194]	21[314]	male[314]	afpst3sherp4732c4se5ajftkq[314]	speaker: YOU[434]	*->11-1	DefNP[11]	_	_	_	
+23-9	497-502	Fluss	GFailure[4]	paddeln\_set1\_17[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-paddeln\_set1\_17[4]	*[36]	*[36]	PrepObj[36]	*[36]	*[36]	false[69]	Decl[69]	*[194]	*[194]	*[194]	*[194]	*[194]	input2[194]	21[314]	male[314]	afpst3sherp4732c4se5ajftkq[314]	speaker: YOU[434]	*->11-1	DefNP[11]	_	_	_	
+23-10	503-509	retten	GFailure[4]	paddeln\_set1\_17[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-paddeln\_set1\_17[4]	_	_	_	_	_	false[69]	Decl[69]	*[194]	*[194]	*[194]	*[194]	*[194]	input2[194]	21[314]	male[314]	afpst3sherp4732c4se5ajftkq[314]	speaker: YOU[434]	_	_	_	_	_	
+23-11	510-514	<BR>	GFailure[4]	paddeln\_set1\_17[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-paddeln\_set1\_17[4]	_	_	_	_	_	_	_	*[194]	*[194]	*[194]	*[194]	*[194]	input2[194]	21[314]	male[314]	afpst3sherp4732c4se5ajftkq[314]	speaker: YOU[434]	_	_	_	_	_	
+23-12	515-519	weil	GFailure[4]	paddeln\_set1\_17[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-paddeln\_set1\_17[4]	_	_	_	_	_	false[70]	NA[70]	*[194]	*[194]	*[194]	*[194]	*[194]	input2[194]	21[314]	male[314]	afpst3sherp4732c4se5ajftkq[314]	speaker: YOU[434]	_	_	_	_	_	
+23-13	520-522	er	GFailure[4]	paddeln\_set1\_17[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-paddeln\_set1\_17[4]	3	*	Subj	*	singular	false[70]	NA[70]	*[194]	*[194]	*[194]	*[194]	*[194]	input2[194]	21[314]	male[314]	afpst3sherp4732c4se5ajftkq[314]	speaker: YOU[434]	*->20-5	PerPron[20]	_	_	_	
+23-14	523-530	einfach	GFailure[4]	paddeln\_set1\_17[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-paddeln\_set1\_17[4]	_	_	_	_	_	false[70]	NA[70]	*[194]	*[194]	*[194]	*[194]	*[194]	input2[194]	21[314]	male[314]	afpst3sherp4732c4se5ajftkq[314]	speaker: YOU[434]	_	_	_	_	_	
+23-15	531-533	in	GFailure[4]	paddeln\_set1\_17[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-paddeln\_set1\_17[4]	_	_	_	_	_	false[70]	NA[70]	*[194]	*[194]	*[194]	*[194]	*[194]	input2[194]	21[314]	male[314]	afpst3sherp4732c4se5ajftkq[314]	speaker: YOU[434]	_	_	_	_	_	
+23-16	534-537	das	GFailure[4]	paddeln\_set1\_17[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-paddeln\_set1\_17[4]	*[37]	*[37]	PrepObj[37]	*[37]	*[37]	false[70]	NA[70]	*[194]	*[194]	*[194]	*[194]	*[194]	input2[194]	21[314]	male[314]	afpst3sherp4732c4se5ajftkq[314]	speaker: YOU[434]	*->112-1	DefNP[112]	_	_	_	
+23-17	538-544	Wasser	GFailure[4]	paddeln\_set1\_17[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-paddeln\_set1\_17[4]	*[37]	*[37]	PrepObj[37]	*[37]	*[37]	false[70]	NA[70]	*[194]	*[194]	*[194]	*[194]	*[194]	input2[194]	21[314]	male[314]	afpst3sherp4732c4se5ajftkq[314]	speaker: YOU[434]	*->112-1	DefNP[112]	_	_	_	
+23-18	545-553	geplumst	GFailure[4]	paddeln\_set1\_17[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-paddeln\_set1\_17[4]	_	_	_	_	_	false[70]	NA[70]	*[194]	*[194]	*[194]	*[194]	*[194]	input2[194]	21[314]	male[314]	afpst3sherp4732c4se5ajftkq[314]	speaker: YOU[434]	_	_	_	_	_	
+23-19	554-558	ist.	GFailure[4]	paddeln\_set1\_17[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-paddeln\_set1\_17[4]	_	_	_	_	_	false[70]	NA[70]	*[194]	*[194]	*[194]	*[194]	*[194]	input2[194]	21[314]	male[314]	afpst3sherp4732c4se5ajftkq[314]	speaker: YOU[434]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+24-1	560-575	END_OF_DOCUMENT	GFailure[4]	paddeln\_set1\_17[4]	latin1[4]	afpst3sherp4732c4se5ajftkq-paddeln\_set1\_17[4]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+25-1	577-580	Wie	GFailure[5]	paddeln\_set1\_17[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-paddeln\_set1\_17[5]	_	_	_	_	_	false[71]	Int[71]	*[195]	*[195]	*[195]	wh\_3[195]	wh\_question[195]	openq[195]	*[315]	female[315]	*[315]	speaker:Ella[435]	_	_	parallel|QAP	*|*	29-1[74_71]|26-1[72_71]	
+25-2	581-586	gehts	GFailure[5]	paddeln\_set1\_17[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-paddeln\_set1\_17[5]	_	_	_	_	_	false[71]	Int[71]	*[195]	*[195]	*[195]	wh\_3[195]	wh\_question[195]	openq[195]	*[315]	female[315]	*[315]	speaker:Ella[435]	_	_	_	_	_	
+25-3	587-591	dir?	GFailure[5]	paddeln\_set1\_17[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-paddeln\_set1\_17[5]	2	*	*	*	singular	false[71]	Int[71]	*[195]	*[195]	*[195]	wh\_3[195]	wh\_question[195]	openq[195]	*[315]	female[315]	*[315]	speaker:Ella[435]	*->34-1	PerPron[34]	_	_	_	
+
+#Text=Theodor hat lange gepaddelt
+26-1	593-600	Theodor	GFailure[5]	paddeln\_set1\_17[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-paddeln\_set1\_17[5]	*	*	Subj	*	*	false[72]	Decl[72]	*[196]	paddeln[196]	intransitive[196]	*[196]	*[196]	item0[196]	42[316]	female[316]	blj8i1h4sc8jti0m6gcav1c9ek[316]	speaker: YOU[436]	*->116-1	PropNm[116]	elaboration|CR	*|*	28-1[73_72]|27-1[0_72]	
+26-2	601-604	hat	GFailure[5]	paddeln\_set1\_17[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-paddeln\_set1\_17[5]	_	_	_	_	_	false[72]	Decl[72]	*[196]	paddeln[196]	intransitive[196]	*[196]	*[196]	item0[196]	42[316]	female[316]	blj8i1h4sc8jti0m6gcav1c9ek[316]	speaker: YOU[436]	_	_	_	_	_	
+26-3	605-610	lange	GFailure[5]	paddeln\_set1\_17[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-paddeln\_set1\_17[5]	_	_	_	_	_	false[72]	Decl[72]	*[196]	paddeln[196]	intransitive[196]	*[196]	*[196]	item0[196]	42[316]	female[316]	blj8i1h4sc8jti0m6gcav1c9ek[316]	speaker: YOU[436]	_	_	_	_	_	
+26-4	611-620	gepaddelt	GFailure[5]	paddeln\_set1\_17[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-paddeln\_set1\_17[5]	_	_	_	_	_	false[72]	Decl[72]	*[196]	paddeln[196]	intransitive[196]	*[196]	*[196]	item0[196]	42[316]	female[316]	blj8i1h4sc8jti0m6gcav1c9ek[316]	speaker: YOU[436]	_	_	_	_	_	
+
+#Text=Was?
+27-1	622-626	Was?	GFailure[5]	paddeln\_set1\_17[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-paddeln\_set1\_17[5]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	female	*	speaker:Ella	_	_	_	_	_	
+
+#Text=Theodor war mit dem Paddelboot auf dem Bodensee unterwegs.
+28-1	628-635	Theodor	GFailure[5]	paddeln\_set1\_17[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-paddeln\_set1\_17[5]	*	*	Subj	*	*	false[73]	Decl[73]	*[197]	*[197]	*[197]	*[197]	*[197]	input1[197]	42[317]	female[317]	blj8i1h4sc8jti0m6gcav1c9ek[317]	speaker: YOU[437]	*->116-2	PropNm[116]	_	_	_	
+28-2	636-639	war	GFailure[5]	paddeln\_set1\_17[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-paddeln\_set1\_17[5]	_	_	_	_	_	false[73]	Decl[73]	*[197]	*[197]	*[197]	*[197]	*[197]	input1[197]	42[317]	female[317]	blj8i1h4sc8jti0m6gcav1c9ek[317]	speaker: YOU[437]	_	_	_	_	_	
+28-3	640-643	mit	GFailure[5]	paddeln\_set1\_17[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-paddeln\_set1\_17[5]	_	_	_	_	_	false[73]	Decl[73]	*[197]	*[197]	*[197]	*[197]	*[197]	input1[197]	42[317]	female[317]	blj8i1h4sc8jti0m6gcav1c9ek[317]	speaker: YOU[437]	_	_	_	_	_	
+28-4	644-647	dem	GFailure[5]	paddeln\_set1\_17[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-paddeln\_set1\_17[5]	*[38]	*[38]	PrepObj[38]	*[38]	*[38]	false[73]	Decl[73]	*[197]	*[197]	*[197]	*[197]	*[197]	input1[197]	42[317]	female[317]	blj8i1h4sc8jti0m6gcav1c9ek[317]	speaker: YOU[437]	*->90-1	DefNP[90]	_	_	_	
+28-5	648-658	Paddelboot	GFailure[5]	paddeln\_set1\_17[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-paddeln\_set1\_17[5]	*[38]	*[38]	PrepObj[38]	*[38]	*[38]	false[73]	Decl[73]	*[197]	*[197]	*[197]	*[197]	*[197]	input1[197]	42[317]	female[317]	blj8i1h4sc8jti0m6gcav1c9ek[317]	speaker: YOU[437]	*->90-1	DefNP[90]	_	_	_	
+28-6	659-662	auf	GFailure[5]	paddeln\_set1\_17[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-paddeln\_set1\_17[5]	_	_	_	_	_	false[73]	Decl[73]	*[197]	*[197]	*[197]	*[197]	*[197]	input1[197]	42[317]	female[317]	blj8i1h4sc8jti0m6gcav1c9ek[317]	speaker: YOU[437]	_	_	_	_	_	
+28-7	663-666	dem	GFailure[5]	paddeln\_set1\_17[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-paddeln\_set1\_17[5]	*[39]	*[39]	PrepObj[39]	*[39]	*[39]	false[73]	Decl[73]	*[197]	*[197]	*[197]	*[197]	*[197]	input1[197]	42[317]	female[317]	blj8i1h4sc8jti0m6gcav1c9ek[317]	speaker: YOU[437]	*->75-1	DefNP[75]	_	_	_	
+28-8	667-675	Bodensee	GFailure[5]	paddeln\_set1\_17[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-paddeln\_set1\_17[5]	*[39]	*[39]	PrepObj[39]	*[39]	*[39]	false[73]	Decl[73]	*[197]	*[197]	*[197]	*[197]	*[197]	input1[197]	42[317]	female[317]	blj8i1h4sc8jti0m6gcav1c9ek[317]	speaker: YOU[437]	*->75-1	DefNP[75]	_	_	_	
+28-9	676-686	unterwegs.	GFailure[5]	paddeln\_set1\_17[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-paddeln\_set1\_17[5]	_	_	_	_	_	false[73]	Decl[73]	*[197]	*[197]	*[197]	*[197]	*[197]	input1[197]	42[317]	female[317]	blj8i1h4sc8jti0m6gcav1c9ek[317]	speaker: YOU[437]	_	_	_	_	_	
+
+#Text=Wie geht es Dir?
+29-1	688-691	Wie	GFailure[5]	paddeln\_set1\_17[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-paddeln\_set1\_17[5]	_	_	_	_	_	false[74]	Int[74]	*[198]	*[198]	*[198]	*[198]	*[198]	input2[198]	42[318]	female[318]	blj8i1h4sc8jti0m6gcav1c9ek[318]	speaker: YOU[438]	_	_	_	_	_	
+29-2	692-696	geht	GFailure[5]	paddeln\_set1\_17[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-paddeln\_set1\_17[5]	_	_	_	_	_	false[74]	Int[74]	*[198]	*[198]	*[198]	*[198]	*[198]	input2[198]	42[318]	female[318]	blj8i1h4sc8jti0m6gcav1c9ek[318]	speaker: YOU[438]	_	_	_	_	_	
+29-3	697-699	es	GFailure[5]	paddeln\_set1\_17[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-paddeln\_set1\_17[5]	*	*	Subj	*	*	false[74]	Int[74]	*[198]	*[198]	*[198]	*[198]	*[198]	input2[198]	42[318]	female[318]	blj8i1h4sc8jti0m6gcav1c9ek[318]	speaker: YOU[438]	_	_	_	_	_	
+29-4	700-704	Dir?	GFailure[5]	paddeln\_set1\_17[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-paddeln\_set1\_17[5]	2	*	IndirObj	*	singular	false[74]	Int[74]	*[198]	*[198]	*[198]	*[198]	*[198]	input2[198]	42[318]	female[318]	blj8i1h4sc8jti0m6gcav1c9ek[318]	speaker: YOU[438]	*->108-1	PerPron[108]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+30-1	706-721	END_OF_DOCUMENT	GFailure[5]	paddeln\_set1\_17[5]	latin1[5]	blj8i1h4sc8jti0m6gcav1c9ek-paddeln\_set1\_17[5]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+31-1	723-726	Wie	GFailure[6]	paddeln\_set1\_17[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-paddeln\_set1\_17[6]	_	_	_	_	_	false[75]	Int[75]	*[199]	*[199]	*[199]	wh\_3[199]	wh\_question[199]	openq[199]	*[319]	female[319]	*[319]	speaker:Ella[439]	_	_	QAP	*	32-1[76_75]	
+31-2	727-732	gehts	GFailure[6]	paddeln\_set1\_17[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-paddeln\_set1\_17[6]	_	_	_	_	_	false[75]	Int[75]	*[199]	*[199]	*[199]	wh\_3[199]	wh\_question[199]	openq[199]	*[319]	female[319]	*[319]	speaker:Ella[439]	_	_	_	_	_	
+31-3	733-737	dir?	GFailure[6]	paddeln\_set1\_17[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-paddeln\_set1\_17[6]	2	*	*	*	singular	false[75]	Int[75]	*[199]	*[199]	*[199]	wh\_3[199]	wh\_question[199]	openq[199]	*[319]	female[319]	*[319]	speaker:Ella[439]	*->47-1	PerPron[47]	_	_	_	
+
+#Text=Theodor hat lange gepaddelt
+32-1	739-746	Theodor	GFailure[6]	paddeln\_set1\_17[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-paddeln\_set1\_17[6]	*	*	Subj	*	*	false[76]	Decl[76]	*[200]	paddeln[200]	intransitive[200]	*[200]	*[200]	item0[200]	42[320]	female[320]	h05ingrcngdnasp07727nvoq59[320]	speaker: YOU[440]	*->46-1	PropNm[46]	elaboration|result|CR	*|*|*	34-1[0_76]|35-1[78_76]|33-1[0_76]	
+32-2	747-750	hat	GFailure[6]	paddeln\_set1\_17[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-paddeln\_set1\_17[6]	_	_	_	_	_	false[76]	Decl[76]	*[200]	paddeln[200]	intransitive[200]	*[200]	*[200]	item0[200]	42[320]	female[320]	h05ingrcngdnasp07727nvoq59[320]	speaker: YOU[440]	_	_	_	_	_	
+32-3	751-756	lange	GFailure[6]	paddeln\_set1\_17[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-paddeln\_set1\_17[6]	_	_	_	_	_	false[76]	Decl[76]	*[200]	paddeln[200]	intransitive[200]	*[200]	*[200]	item0[200]	42[320]	female[320]	h05ingrcngdnasp07727nvoq59[320]	speaker: YOU[440]	_	_	_	_	_	
+32-4	757-766	gepaddelt	GFailure[6]	paddeln\_set1\_17[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-paddeln\_set1\_17[6]	_	_	_	_	_	false[76]	Decl[76]	*[200]	paddeln[200]	intransitive[200]	*[200]	*[200]	item0[200]	42[320]	female[320]	h05ingrcngdnasp07727nvoq59[320]	speaker: YOU[440]	_	_	_	_	_	
+
+#Text=Was?
+33-1	768-772	Was?	GFailure[6]	paddeln\_set1\_17[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-paddeln\_set1\_17[6]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	female	*	speaker:Ella	_	_	_	_	_	
+
+#Text=Ja <BR> über 3 Stunden.
+34-1	774-776	Ja	GFailure[6]	paddeln\_set1\_17[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-paddeln\_set1\_17[6]	_	_	_	_	_	false	NA	*[201]	*[201]	*[201]	*[201]	*[201]	input1[201]	42[321]	female[321]	h05ingrcngdnasp07727nvoq59[321]	speaker: YOU[441]	_	_	elaboration	*	34-3[77_0]	
+34-2	777-781	<BR>	GFailure[6]	paddeln\_set1\_17[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-paddeln\_set1\_17[6]	_	_	_	_	_	_	_	*[201]	*[201]	*[201]	*[201]	*[201]	input1[201]	42[321]	female[321]	h05ingrcngdnasp07727nvoq59[321]	speaker: YOU[441]	_	_	_	_	_	
+34-3	782-786	über	GFailure[6]	paddeln\_set1\_17[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-paddeln\_set1\_17[6]	_	_	_	_	_	false[77]	NA[77]	*[201]	*[201]	*[201]	*[201]	*[201]	input1[201]	42[321]	female[321]	h05ingrcngdnasp07727nvoq59[321]	speaker: YOU[441]	_	_	_	_	_	
+34-4	787-788	3	GFailure[6]	paddeln\_set1\_17[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-paddeln\_set1\_17[6]	_	_	_	_	_	false[77]	NA[77]	*[201]	*[201]	*[201]	*[201]	*[201]	input1[201]	42[321]	female[321]	h05ingrcngdnasp07727nvoq59[321]	speaker: YOU[441]	*->105-1	IndefNP[105]	_	_	_	
+34-5	789-797	Stunden.	GFailure[6]	paddeln\_set1\_17[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-paddeln\_set1\_17[6]	_	_	_	_	_	false[77]	NA[77]	*[201]	*[201]	*[201]	*[201]	*[201]	input1[201]	42[321]	female[321]	h05ingrcngdnasp07727nvoq59[321]	speaker: YOU[441]	*->105-1	IndefNP[105]	_	_	_	
+
+#Text=Morgen wird er sicher Muskelkater haben.
+35-1	799-805	Morgen	GFailure[6]	paddeln\_set1\_17[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-paddeln\_set1\_17[6]	_	_	_	_	_	false[78]	Decl[78]	*[202]	*[202]	*[202]	*[202]	*[202]	input2[202]	42[322]	female[322]	h05ingrcngdnasp07727nvoq59[322]	speaker: YOU[442]	_	_	_	_	_	
+35-2	806-810	wird	GFailure[6]	paddeln\_set1\_17[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-paddeln\_set1\_17[6]	_	_	_	_	_	false[78]	Decl[78]	*[202]	*[202]	*[202]	*[202]	*[202]	input2[202]	42[322]	female[322]	h05ingrcngdnasp07727nvoq59[322]	speaker: YOU[442]	_	_	_	_	_	
+35-3	811-813	er	GFailure[6]	paddeln\_set1\_17[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-paddeln\_set1\_17[6]	3	*	Subj	*	singular	false[78]	Decl[78]	*[202]	*[202]	*[202]	*[202]	*[202]	input2[202]	42[322]	female[322]	h05ingrcngdnasp07727nvoq59[322]	speaker: YOU[442]	*->46-2	PerPron[46]	_	_	_	
+35-4	814-820	sicher	GFailure[6]	paddeln\_set1\_17[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-paddeln\_set1\_17[6]	_	_	_	_	_	false[78]	Decl[78]	*[202]	*[202]	*[202]	*[202]	*[202]	input2[202]	42[322]	female[322]	h05ingrcngdnasp07727nvoq59[322]	speaker: YOU[442]	_	_	_	_	_	
+35-5	821-832	Muskelkater	GFailure[6]	paddeln\_set1\_17[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-paddeln\_set1\_17[6]	*	*	DirObj	*	*	false[78]	Decl[78]	*[202]	*[202]	*[202]	*[202]	*[202]	input2[202]	42[322]	female[322]	h05ingrcngdnasp07727nvoq59[322]	speaker: YOU[442]	*->44-1	IndefNP[44]	_	_	_	
+35-6	833-839	haben.	GFailure[6]	paddeln\_set1\_17[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-paddeln\_set1\_17[6]	_	_	_	_	_	false[78]	Decl[78]	*[202]	*[202]	*[202]	*[202]	*[202]	input2[202]	42[322]	female[322]	h05ingrcngdnasp07727nvoq59[322]	speaker: YOU[442]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+36-1	841-856	END_OF_DOCUMENT	GFailure[6]	paddeln\_set1\_17[6]	latin1[6]	h05ingrcngdnasp07727nvoq59-paddeln\_set1\_17[6]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+37-1	858-861	Wie	GFailure[7]	paddeln\_set1\_17[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-paddeln\_set1\_17[7]	_	_	_	_	_	false[79]	Int[79]	*[203]	*[203]	*[203]	wh\_3[203]	wh\_question[203]	openq[203]	*[323]	female[323]	*[323]	speaker:Ella[443]	_	_	QAP	*	38-1[80_79]	
+37-2	862-867	gehts	GFailure[7]	paddeln\_set1\_17[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-paddeln\_set1\_17[7]	_	_	_	_	_	false[79]	Int[79]	*[203]	*[203]	*[203]	wh\_3[203]	wh\_question[203]	openq[203]	*[323]	female[323]	*[323]	speaker:Ella[443]	_	_	_	_	_	
+37-3	868-872	dir?	GFailure[7]	paddeln\_set1\_17[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-paddeln\_set1\_17[7]	2	*	*	*	singular	false[79]	Int[79]	*[203]	*[203]	*[203]	wh\_3[203]	wh\_question[203]	openq[203]	*[323]	female[323]	*[323]	speaker:Ella[443]	*->66-1	PerPron[66]	_	_	_	
+
+#Text=Theodor hat lange gepaddelt
+38-1	874-881	Theodor	GFailure[7]	paddeln\_set1\_17[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-paddeln\_set1\_17[7]	*	*	Subj	*	*	false[80]	Decl[80]	*[204]	paddeln[204]	intransitive[204]	*[204]	*[204]	item0[204]	42[324]	male[324]	jkqc35grurqg6r29efakrmibd9[324]	speaker: YOU[444]	*->53-1	PropNm[53]	elaboration|CR	*|*	40-1[0_80]|39-1[0_80]	
+38-2	882-885	hat	GFailure[7]	paddeln\_set1\_17[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-paddeln\_set1\_17[7]	_	_	_	_	_	false[80]	Decl[80]	*[204]	paddeln[204]	intransitive[204]	*[204]	*[204]	item0[204]	42[324]	male[324]	jkqc35grurqg6r29efakrmibd9[324]	speaker: YOU[444]	_	_	_	_	_	
+38-3	886-891	lange	GFailure[7]	paddeln\_set1\_17[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-paddeln\_set1\_17[7]	_	_	_	_	_	false[80]	Decl[80]	*[204]	paddeln[204]	intransitive[204]	*[204]	*[204]	item0[204]	42[324]	male[324]	jkqc35grurqg6r29efakrmibd9[324]	speaker: YOU[444]	_	_	_	_	_	
+38-4	892-901	gepaddelt	GFailure[7]	paddeln\_set1\_17[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-paddeln\_set1\_17[7]	_	_	_	_	_	false[80]	Decl[80]	*[204]	paddeln[204]	intransitive[204]	*[204]	*[204]	item0[204]	42[324]	male[324]	jkqc35grurqg6r29efakrmibd9[324]	speaker: YOU[444]	_	_	_	_	_	
+
+#Text=Was?
+39-1	903-907	Was?	GFailure[7]	paddeln\_set1\_17[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-paddeln\_set1\_17[7]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	female	*	speaker:Ella	_	_	_	_	_	
+
+#Text=gepaddelt <BR> was ist da so schwierig?
+40-1	909-918	gepaddelt	GFailure[7]	paddeln\_set1\_17[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-paddeln\_set1\_17[7]	_	_	_	_	_	false	NA	*[205]	*[205]	*[205]	*[205]	*[205]	input1[205]	42[325]	male[325]	jkqc35grurqg6r29efakrmibd9[325]	speaker: YOU[445]	_	_	elaboration	*	40-3[81_0]	
+40-2	919-923	<BR>	GFailure[7]	paddeln\_set1\_17[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-paddeln\_set1\_17[7]	_	_	_	_	_	_	_	*[205]	*[205]	*[205]	*[205]	*[205]	input1[205]	42[325]	male[325]	jkqc35grurqg6r29efakrmibd9[325]	speaker: YOU[445]	_	_	_	_	_	
+40-3	924-927	was	GFailure[7]	paddeln\_set1\_17[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-paddeln\_set1\_17[7]	_	_	_	_	_	false[81]	Int[81]	*[205]	*[205]	*[205]	*[205]	*[205]	input1[205]	42[325]	male[325]	jkqc35grurqg6r29efakrmibd9[325]	speaker: YOU[445]	_	_	explanation	*	41-1[82_81]	
+40-4	928-931	ist	GFailure[7]	paddeln\_set1\_17[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-paddeln\_set1\_17[7]	_	_	_	_	_	false[81]	Int[81]	*[205]	*[205]	*[205]	*[205]	*[205]	input1[205]	42[325]	male[325]	jkqc35grurqg6r29efakrmibd9[325]	speaker: YOU[445]	_	_	_	_	_	
+40-5	932-934	da	GFailure[7]	paddeln\_set1\_17[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-paddeln\_set1\_17[7]	_	_	_	_	_	false[81]	Int[81]	*[205]	*[205]	*[205]	*[205]	*[205]	input1[205]	42[325]	male[325]	jkqc35grurqg6r29efakrmibd9[325]	speaker: YOU[445]	_	_	_	_	_	
+40-6	935-937	so	GFailure[7]	paddeln\_set1\_17[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-paddeln\_set1\_17[7]	_	_	_	_	_	false[81]	Int[81]	*[205]	*[205]	*[205]	*[205]	*[205]	input1[205]	42[325]	male[325]	jkqc35grurqg6r29efakrmibd9[325]	speaker: YOU[445]	_	_	_	_	_	
+40-7	938-948	schwierig?	GFailure[7]	paddeln\_set1\_17[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-paddeln\_set1\_17[7]	_	_	_	_	_	false[81]	Int[81]	*[205]	*[205]	*[205]	*[205]	*[205]	input1[205]	42[325]	male[325]	jkqc35grurqg6r29efakrmibd9[325]	speaker: YOU[445]	_	_	_	_	_	
+
+#Text=Er hat sich doch neulich ein Kanu gekauft
+41-1	950-952	Er	GFailure[7]	paddeln\_set1\_17[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-paddeln\_set1\_17[7]	3	*	Subj	*	singular	false[82]	Decl[82]	*[206]	*[206]	*[206]	*[206]	*[206]	input2[206]	42[326]	male[326]	jkqc35grurqg6r29efakrmibd9[326]	speaker: YOU[446]	*->53-2	PerPron[53]	_	_	_	
+41-2	953-956	hat	GFailure[7]	paddeln\_set1\_17[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-paddeln\_set1\_17[7]	_	_	_	_	_	false[82]	Decl[82]	*[206]	*[206]	*[206]	*[206]	*[206]	input2[206]	42[326]	male[326]	jkqc35grurqg6r29efakrmibd9[326]	speaker: YOU[446]	_	_	_	_	_	
+41-3	957-961	sich	GFailure[7]	paddeln\_set1\_17[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-paddeln\_set1\_17[7]	_	_	_	_	_	false[82]	Decl[82]	*[206]	*[206]	*[206]	*[206]	*[206]	input2[206]	42[326]	male[326]	jkqc35grurqg6r29efakrmibd9[326]	speaker: YOU[446]	_	_	_	_	_	
+41-4	962-966	doch	GFailure[7]	paddeln\_set1\_17[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-paddeln\_set1\_17[7]	_	_	_	_	_	false[82]	Decl[82]	*[206]	*[206]	*[206]	*[206]	*[206]	input2[206]	42[326]	male[326]	jkqc35grurqg6r29efakrmibd9[326]	speaker: YOU[446]	_	_	_	_	_	
+41-5	967-974	neulich	GFailure[7]	paddeln\_set1\_17[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-paddeln\_set1\_17[7]	_	_	_	_	_	false[82]	Decl[82]	*[206]	*[206]	*[206]	*[206]	*[206]	input2[206]	42[326]	male[326]	jkqc35grurqg6r29efakrmibd9[326]	speaker: YOU[446]	_	_	_	_	_	
+41-6	975-978	ein	GFailure[7]	paddeln\_set1\_17[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-paddeln\_set1\_17[7]	*[40]	*[40]	DirObj[40]	*[40]	*[40]	false[82]	Decl[82]	*[206]	*[206]	*[206]	*[206]	*[206]	input2[206]	42[326]	male[326]	jkqc35grurqg6r29efakrmibd9[326]	speaker: YOU[446]	*->40-1	IndefNP[40]	_	_	_	
+41-7	979-983	Kanu	GFailure[7]	paddeln\_set1\_17[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-paddeln\_set1\_17[7]	*[40]	*[40]	DirObj[40]	*[40]	*[40]	false[82]	Decl[82]	*[206]	*[206]	*[206]	*[206]	*[206]	input2[206]	42[326]	male[326]	jkqc35grurqg6r29efakrmibd9[326]	speaker: YOU[446]	*->40-1	IndefNP[40]	_	_	_	
+41-8	984-991	gekauft	GFailure[7]	paddeln\_set1\_17[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-paddeln\_set1\_17[7]	_	_	_	_	_	false[82]	Decl[82]	*[206]	*[206]	*[206]	*[206]	*[206]	input2[206]	42[326]	male[326]	jkqc35grurqg6r29efakrmibd9[326]	speaker: YOU[446]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+42-1	993-1008	END_OF_DOCUMENT	GFailure[7]	paddeln\_set1\_17[7]	latin1[7]	jkqc35grurqg6r29efakrmibd9-paddeln\_set1\_17[7]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+43-1	1010-1013	Wie	GFailure[8]	paddeln\_set1\_17[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-paddeln\_set1\_17[8]	_	_	_	_	_	false[83]	Int[83]	*[207]	*[207]	*[207]	wh\_3[207]	wh\_question[207]	openq[207]	*[327]	female[327]	*[327]	speaker:Ella[447]	_	_	QAP|parallel	*|*	47-1[86_83]|47-5[87_83]	
+43-2	1014-1019	gehts	GFailure[8]	paddeln\_set1\_17[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-paddeln\_set1\_17[8]	_	_	_	_	_	false[83]	Int[83]	*[207]	*[207]	*[207]	wh\_3[207]	wh\_question[207]	openq[207]	*[327]	female[327]	*[327]	speaker:Ella[447]	_	_	_	_	_	
+43-3	1020-1024	dir?	GFailure[8]	paddeln\_set1\_17[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-paddeln\_set1\_17[8]	2	*	*	*	singular	false[83]	Int[83]	*[207]	*[207]	*[207]	wh\_3[207]	wh\_question[207]	openq[207]	*[327]	female[327]	*[327]	speaker:Ella[447]	*->79-1	PerPron[79]	_	_	_	
+
+#Text=Theodor hat lange gepaddelt
+44-1	1026-1033	Theodor	GFailure[8]	paddeln\_set1\_17[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-paddeln\_set1\_17[8]	*	*	Subj	*	*	false[84]	Decl[84]	*[208]	paddeln[208]	intransitive[208]	*[208]	*[208]	item0[208]	20[328]	male[328]	lhu26mh95feeqso1qtacqboi3v[328]	speaker: YOU[448]	*->62-1	PropNm[62]	CR	*	45-1[0_84]	
+44-2	1034-1037	hat	GFailure[8]	paddeln\_set1\_17[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-paddeln\_set1\_17[8]	_	_	_	_	_	false[84]	Decl[84]	*[208]	paddeln[208]	intransitive[208]	*[208]	*[208]	item0[208]	20[328]	male[328]	lhu26mh95feeqso1qtacqboi3v[328]	speaker: YOU[448]	_	_	_	_	_	
+44-3	1038-1043	lange	GFailure[8]	paddeln\_set1\_17[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-paddeln\_set1\_17[8]	_	_	_	_	_	false[84]	Decl[84]	*[208]	paddeln[208]	intransitive[208]	*[208]	*[208]	item0[208]	20[328]	male[328]	lhu26mh95feeqso1qtacqboi3v[328]	speaker: YOU[448]	_	_	_	_	_	
+44-4	1044-1053	gepaddelt	GFailure[8]	paddeln\_set1\_17[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-paddeln\_set1\_17[8]	_	_	_	_	_	false[84]	Decl[84]	*[208]	paddeln[208]	intransitive[208]	*[208]	*[208]	item0[208]	20[328]	male[328]	lhu26mh95feeqso1qtacqboi3v[328]	speaker: YOU[448]	_	_	_	_	_	
+
+#Text=Was?
+45-1	1055-1059	Was?	GFailure[8]	paddeln\_set1\_17[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-paddeln\_set1\_17[8]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	female	*	speaker:Ella	_	_	_	_	_	
+
+#Text=Sorry <BR> falscher Chat.
+46-1	1061-1066	Sorry	GFailure[8]	paddeln\_set1\_17[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-paddeln\_set1\_17[8]	_	_	_	_	_	false	NA	*[209]	*[209]	*[209]	*[209]	*[209]	input1[209]	20[329]	male[329]	lhu26mh95feeqso1qtacqboi3v[329]	speaker: YOU[449]	_	_	explanation	*	46-3[85_0]	
+46-2	1067-1071	<BR>	GFailure[8]	paddeln\_set1\_17[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-paddeln\_set1\_17[8]	_	_	_	_	_	_	_	*[209]	*[209]	*[209]	*[209]	*[209]	input1[209]	20[329]	male[329]	lhu26mh95feeqso1qtacqboi3v[329]	speaker: YOU[449]	_	_	_	_	_	
+46-3	1072-1080	falscher	GFailure[8]	paddeln\_set1\_17[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-paddeln\_set1\_17[8]	*[41]	*[41]	DirObj[41]	*[41]	*[41]	false[85]	NA[85]	*[209]	*[209]	*[209]	*[209]	*[209]	input1[209]	20[329]	male[329]	lhu26mh95feeqso1qtacqboi3v[329]	speaker: YOU[449]	*->76-1	IndefNP[76]	_	_	_	
+46-4	1081-1086	Chat.	GFailure[8]	paddeln\_set1\_17[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-paddeln\_set1\_17[8]	*[41]	*[41]	DirObj[41]	*[41]	*[41]	false[85]	NA[85]	*[209]	*[209]	*[209]	*[209]	*[209]	input1[209]	20[329]	male[329]	lhu26mh95feeqso1qtacqboi3v[329]	speaker: YOU[449]	*->76-1	IndefNP[76]	_	_	_	
+
+#Text=Mir geht es gut und dir?
+47-1	1088-1091	Mir	GFailure[8]	paddeln\_set1\_17[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-paddeln\_set1\_17[8]	1	*	IndirObj	*	singular	false[86]	Decl[86]	*[210]	*[210]	*[210]	*[210]	*[210]	input2[210]	20[330]	male[330]	lhu26mh95feeqso1qtacqboi3v[330]	speaker: YOU[450]	*->79-2	PerPron[79]	_	_	_	
+47-2	1092-1096	geht	GFailure[8]	paddeln\_set1\_17[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-paddeln\_set1\_17[8]	_	_	_	_	_	false[86]	Decl[86]	*[210]	*[210]	*[210]	*[210]	*[210]	input2[210]	20[330]	male[330]	lhu26mh95feeqso1qtacqboi3v[330]	speaker: YOU[450]	_	_	_	_	_	
+47-3	1097-1099	es	GFailure[8]	paddeln\_set1\_17[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-paddeln\_set1\_17[8]	*	*	Subj	*	*	false[86]	Decl[86]	*[210]	*[210]	*[210]	*[210]	*[210]	input2[210]	20[330]	male[330]	lhu26mh95feeqso1qtacqboi3v[330]	speaker: YOU[450]	_	_	_	_	_	
+47-4	1100-1103	gut	GFailure[8]	paddeln\_set1\_17[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-paddeln\_set1\_17[8]	_	_	_	_	_	false[86]	Decl[86]	*[210]	*[210]	*[210]	*[210]	*[210]	input2[210]	20[330]	male[330]	lhu26mh95feeqso1qtacqboi3v[330]	speaker: YOU[450]	_	_	_	_	_	
+47-5	1104-1107	und	GFailure[8]	paddeln\_set1\_17[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-paddeln\_set1\_17[8]	_	_	_	_	_	false[87]	Int[87]	*[210]	*[210]	*[210]	*[210]	*[210]	input2[210]	20[330]	male[330]	lhu26mh95feeqso1qtacqboi3v[330]	speaker: YOU[450]	_	_	_	_	_	
+47-6	1108-1112	dir?	GFailure[8]	paddeln\_set1\_17[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-paddeln\_set1\_17[8]	2	*	IndirObj	*	singular	false[87]	Int[87]	*[210]	*[210]	*[210]	*[210]	*[210]	input2[210]	20[330]	male[330]	lhu26mh95feeqso1qtacqboi3v[330]	speaker: YOU[450]	*->24-1	PerPron[24]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+48-1	1114-1129	END_OF_DOCUMENT	GFailure[8]	paddeln\_set1\_17[8]	latin1[8]	lhu26mh95feeqso1qtacqboi3v-paddeln\_set1\_17[8]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+49-1	1131-1134	Wie	GFailure[9]	paddeln\_set1\_17[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-paddeln\_set1\_17[9]	_	_	_	_	_	false[88]	Int[88]	*[211]	*[211]	*[211]	wh\_3[211]	wh\_question[211]	openq[211]	*[331]	female[331]	*[331]	speaker:Ella[451]	_	_	QAP	*	50-1[89_88]	
+49-2	1135-1140	gehts	GFailure[9]	paddeln\_set1\_17[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-paddeln\_set1\_17[9]	_	_	_	_	_	false[88]	Int[88]	*[211]	*[211]	*[211]	wh\_3[211]	wh\_question[211]	openq[211]	*[331]	female[331]	*[331]	speaker:Ella[451]	_	_	_	_	_	
+49-3	1141-1145	dir?	GFailure[9]	paddeln\_set1\_17[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-paddeln\_set1\_17[9]	2	*	*	*	singular	false[88]	Int[88]	*[211]	*[211]	*[211]	wh\_3[211]	wh\_question[211]	openq[211]	*[331]	female[331]	*[331]	speaker:Ella[451]	*->82-1	PerPron[82]	_	_	_	
+
+#Text=Theodor hat lange gepaddelt
+50-1	1147-1154	Theodor	GFailure[9]	paddeln\_set1\_17[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-paddeln\_set1\_17[9]	*	*	Subj	*	*	false[89]	Decl[89]	*[212]	paddeln[212]	intransitive[212]	*[212]	*[212]	item0[212]	21[332]	male[332]	tc4i3rsgsa9bl8tesf4679lok2[332]	speaker: YOU[452]	*->78-1	PropNm[78]	explanation|explanation|CR	*|*|*	52-1[90_89]|53-1[91_89]|51-1[0_89]	
+50-2	1155-1158	hat	GFailure[9]	paddeln\_set1\_17[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-paddeln\_set1\_17[9]	_	_	_	_	_	false[89]	Decl[89]	*[212]	paddeln[212]	intransitive[212]	*[212]	*[212]	item0[212]	21[332]	male[332]	tc4i3rsgsa9bl8tesf4679lok2[332]	speaker: YOU[452]	_	_	_	_	_	
+50-3	1159-1164	lange	GFailure[9]	paddeln\_set1\_17[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-paddeln\_set1\_17[9]	_	_	_	_	_	false[89]	Decl[89]	*[212]	paddeln[212]	intransitive[212]	*[212]	*[212]	item0[212]	21[332]	male[332]	tc4i3rsgsa9bl8tesf4679lok2[332]	speaker: YOU[452]	_	_	_	_	_	
+50-4	1165-1174	gepaddelt	GFailure[9]	paddeln\_set1\_17[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-paddeln\_set1\_17[9]	_	_	_	_	_	false[89]	Decl[89]	*[212]	paddeln[212]	intransitive[212]	*[212]	*[212]	item0[212]	21[332]	male[332]	tc4i3rsgsa9bl8tesf4679lok2[332]	speaker: YOU[452]	_	_	_	_	_	
+
+#Text=Was?
+51-1	1176-1180	Was?	GFailure[9]	paddeln\_set1\_17[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-paddeln\_set1\_17[9]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	female	*	speaker:Ella	_	_	_	_	_	
+
+#Text=Theodor ist mein Hund
+52-1	1182-1189	Theodor	GFailure[9]	paddeln\_set1\_17[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-paddeln\_set1\_17[9]	*	*	Subj	*	*	false[90]	Decl[90]	*[213]	*[213]	*[213]	*[213]	*[213]	input1[213]	21[333]	male[333]	tc4i3rsgsa9bl8tesf4679lok2[333]	speaker: YOU[453]	*->78-2	PropNm[78]	_	_	_	
+52-2	1190-1193	ist	GFailure[9]	paddeln\_set1\_17[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-paddeln\_set1\_17[9]	_	_	_	_	_	false[90]	Decl[90]	*[213]	*[213]	*[213]	*[213]	*[213]	input1[213]	21[333]	male[333]	tc4i3rsgsa9bl8tesf4679lok2[333]	speaker: YOU[453]	_	_	_	_	_	
+52-3	1194-1198	mein	GFailure[9]	paddeln\_set1\_17[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-paddeln\_set1\_17[9]	1	*	*	*	singular	false[90]	Decl[90]	*[213]	*[213]	*[213]	*[213]	*[213]	input1[213]	21[333]	male[333]	tc4i3rsgsa9bl8tesf4679lok2[333]	speaker: YOU[453]	*->65-1|*->82-2	DefNP[65]|PossePron[82]	_	_	_	
+52-4	1199-1203	Hund	GFailure[9]	paddeln\_set1\_17[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-paddeln\_set1\_17[9]	_	_	_	_	_	false[90]	Decl[90]	*[213]	*[213]	*[213]	*[213]	*[213]	input1[213]	21[333]	male[333]	tc4i3rsgsa9bl8tesf4679lok2[333]	speaker: YOU[453]	*->65-1	DefNP[65]	_	_	_	
+
+#Text=Und normalerweise schwimmt er nicht so gerne aber heute gings
+53-1	1205-1208	Und	GFailure[9]	paddeln\_set1\_17[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-paddeln\_set1\_17[9]	_	_	_	_	_	false[91]	Decl[91]	*[214]	*[214]	*[214]	*[214]	*[214]	input2[214]	21[334]	male[334]	tc4i3rsgsa9bl8tesf4679lok2[334]	speaker: YOU[454]	_	_	contrast	*	53-8[92_91]	
+53-2	1209-1222	normalerweise	GFailure[9]	paddeln\_set1\_17[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-paddeln\_set1\_17[9]	_	_	_	_	_	false[91]	Decl[91]	*[214]	*[214]	*[214]	*[214]	*[214]	input2[214]	21[334]	male[334]	tc4i3rsgsa9bl8tesf4679lok2[334]	speaker: YOU[454]	_	_	_	_	_	
+53-3	1223-1231	schwimmt	GFailure[9]	paddeln\_set1\_17[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-paddeln\_set1\_17[9]	_	_	_	_	_	false[91]	Decl[91]	*[214]	*[214]	*[214]	*[214]	*[214]	input2[214]	21[334]	male[334]	tc4i3rsgsa9bl8tesf4679lok2[334]	speaker: YOU[454]	_	_	_	_	_	
+53-4	1232-1234	er	GFailure[9]	paddeln\_set1\_17[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-paddeln\_set1\_17[9]	3	*	Subj	*	singular	false[91]	Decl[91]	*[214]	*[214]	*[214]	*[214]	*[214]	input2[214]	21[334]	male[334]	tc4i3rsgsa9bl8tesf4679lok2[334]	speaker: YOU[454]	*->78-3	PerPron[78]	_	_	_	
+53-5	1235-1240	nicht	GFailure[9]	paddeln\_set1\_17[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-paddeln\_set1\_17[9]	_	_	_	_	_	false[91]	Decl[91]	*[214]	*[214]	*[214]	*[214]	*[214]	input2[214]	21[334]	male[334]	tc4i3rsgsa9bl8tesf4679lok2[334]	speaker: YOU[454]	_	_	_	_	_	
+53-6	1241-1243	so	GFailure[9]	paddeln\_set1\_17[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-paddeln\_set1\_17[9]	_	_	_	_	_	false[91]	Decl[91]	*[214]	*[214]	*[214]	*[214]	*[214]	input2[214]	21[334]	male[334]	tc4i3rsgsa9bl8tesf4679lok2[334]	speaker: YOU[454]	_	_	_	_	_	
+53-7	1244-1249	gerne	GFailure[9]	paddeln\_set1\_17[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-paddeln\_set1\_17[9]	_	_	_	_	_	false[91]	Decl[91]	*[214]	*[214]	*[214]	*[214]	*[214]	input2[214]	21[334]	male[334]	tc4i3rsgsa9bl8tesf4679lok2[334]	speaker: YOU[454]	_	_	_	_	_	
+53-8	1250-1254	aber	GFailure[9]	paddeln\_set1\_17[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-paddeln\_set1\_17[9]	_	_	_	_	_	false[92]	Decl[92]	*[214]	*[214]	*[214]	*[214]	*[214]	input2[214]	21[334]	male[334]	tc4i3rsgsa9bl8tesf4679lok2[334]	speaker: YOU[454]	_	_	_	_	_	
+53-9	1255-1260	heute	GFailure[9]	paddeln\_set1\_17[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-paddeln\_set1\_17[9]	_	_	_	_	_	false[92]	Decl[92]	*[214]	*[214]	*[214]	*[214]	*[214]	input2[214]	21[334]	male[334]	tc4i3rsgsa9bl8tesf4679lok2[334]	speaker: YOU[454]	_	_	_	_	_	
+53-10	1261-1266	gings	GFailure[9]	paddeln\_set1\_17[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-paddeln\_set1\_17[9]	_	_	_	_	_	false[92]	Decl[92]	*[214]	*[214]	*[214]	*[214]	*[214]	input2[214]	21[334]	male[334]	tc4i3rsgsa9bl8tesf4679lok2[334]	speaker: YOU[454]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+54-1	1268-1283	END_OF_DOCUMENT	GFailure[9]	paddeln\_set1\_17[9]	latin1[9]	tc4i3rsgsa9bl8tesf4679lok2-paddeln\_set1\_17[9]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+55-1	1285-1288	Wie	GFailure[10]	paddeln\_set1\_17[10]	latin1[10]	us0adlivem61c2bj5776kudbot-paddeln\_set1\_17[10]	_	_	_	_	_	false[93]	Int[93]	*[215]	*[215]	*[215]	wh\_3[215]	wh\_question[215]	openq[215]	*[335]	female[335]	*[335]	speaker:Ella[455]	_	_	QAP	*	56-1[94_93]	
+55-2	1289-1294	gehts	GFailure[10]	paddeln\_set1\_17[10]	latin1[10]	us0adlivem61c2bj5776kudbot-paddeln\_set1\_17[10]	_	_	_	_	_	false[93]	Int[93]	*[215]	*[215]	*[215]	wh\_3[215]	wh\_question[215]	openq[215]	*[335]	female[335]	*[335]	speaker:Ella[455]	_	_	_	_	_	
+55-3	1295-1299	dir?	GFailure[10]	paddeln\_set1\_17[10]	latin1[10]	us0adlivem61c2bj5776kudbot-paddeln\_set1\_17[10]	2	*	*	*	singular	false[93]	Int[93]	*[215]	*[215]	*[215]	wh\_3[215]	wh\_question[215]	openq[215]	*[335]	female[335]	*[335]	speaker:Ella[455]	*->72-1	PerPron[72]	_	_	_	
+
+#Text=Theodor hat lange gepaddelt
+56-1	1301-1308	Theodor	GFailure[10]	paddeln\_set1\_17[10]	latin1[10]	us0adlivem61c2bj5776kudbot-paddeln\_set1\_17[10]	*	*	Subj	*	*	false[94]	Decl[94]	*[216]	paddeln[216]	intransitive[216]	*[216]	*[216]	item0[216]	66[336]	male[336]	us0adlivem61c2bj5776kudbot[336]	speaker: YOU[456]	*->87-1	PropNm[87]	elaboration|elaboration|CR	*|*|*	58-1[95_94]|59-1[96_94]|57-1[0_94]	
+56-2	1309-1312	hat	GFailure[10]	paddeln\_set1\_17[10]	latin1[10]	us0adlivem61c2bj5776kudbot-paddeln\_set1\_17[10]	_	_	_	_	_	false[94]	Decl[94]	*[216]	paddeln[216]	intransitive[216]	*[216]	*[216]	item0[216]	66[336]	male[336]	us0adlivem61c2bj5776kudbot[336]	speaker: YOU[456]	_	_	_	_	_	
+56-3	1313-1318	lange	GFailure[10]	paddeln\_set1\_17[10]	latin1[10]	us0adlivem61c2bj5776kudbot-paddeln\_set1\_17[10]	_	_	_	_	_	false[94]	Decl[94]	*[216]	paddeln[216]	intransitive[216]	*[216]	*[216]	item0[216]	66[336]	male[336]	us0adlivem61c2bj5776kudbot[336]	speaker: YOU[456]	_	_	_	_	_	
+56-4	1319-1328	gepaddelt	GFailure[10]	paddeln\_set1\_17[10]	latin1[10]	us0adlivem61c2bj5776kudbot-paddeln\_set1\_17[10]	_	_	_	_	_	false[94]	Decl[94]	*[216]	paddeln[216]	intransitive[216]	*[216]	*[216]	item0[216]	66[336]	male[336]	us0adlivem61c2bj5776kudbot[336]	speaker: YOU[456]	_	_	_	_	_	
+
+#Text=Was?
+57-1	1330-1334	Was?	GFailure[10]	paddeln\_set1\_17[10]	latin1[10]	us0adlivem61c2bj5776kudbot-paddeln\_set1\_17[10]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	female	*	speaker:Ella	_	_	_	_	_	
+
+#Text=Ja auf den See
+58-1	1336-1338	Ja	GFailure[10]	paddeln\_set1\_17[10]	latin1[10]	us0adlivem61c2bj5776kudbot-paddeln\_set1\_17[10]	_	_	_	_	_	false[95]	NA[95]	*[217]	*[217]	*[217]	*[217]	*[217]	input1[217]	66[337]	male[337]	us0adlivem61c2bj5776kudbot[337]	speaker: YOU[457]	_	_	_	_	_	
+58-2	1339-1342	auf	GFailure[10]	paddeln\_set1\_17[10]	latin1[10]	us0adlivem61c2bj5776kudbot-paddeln\_set1\_17[10]	_	_	_	_	_	false[95]	NA[95]	*[217]	*[217]	*[217]	*[217]	*[217]	input1[217]	66[337]	male[337]	us0adlivem61c2bj5776kudbot[337]	speaker: YOU[457]	_	_	_	_	_	
+58-3	1343-1346	den	GFailure[10]	paddeln\_set1\_17[10]	latin1[10]	us0adlivem61c2bj5776kudbot-paddeln\_set1\_17[10]	*[42]	*[42]	PrepObj[42]	*[42]	*[42]	false[95]	NA[95]	*[217]	*[217]	*[217]	*[217]	*[217]	input1[217]	66[337]	male[337]	us0adlivem61c2bj5776kudbot[337]	speaker: YOU[457]	*->110-1	DefNP[110]	_	_	_	
+58-4	1347-1350	See	GFailure[10]	paddeln\_set1\_17[10]	latin1[10]	us0adlivem61c2bj5776kudbot-paddeln\_set1\_17[10]	*[42]	*[42]	PrepObj[42]	*[42]	*[42]	false[95]	NA[95]	*[217]	*[217]	*[217]	*[217]	*[217]	input1[217]	66[337]	male[337]	us0adlivem61c2bj5776kudbot[337]	speaker: YOU[457]	*->110-1	DefNP[110]	_	_	_	
+
+#Text=mit den Paddelboot
+59-1	1352-1355	mit	GFailure[10]	paddeln\_set1\_17[10]	latin1[10]	us0adlivem61c2bj5776kudbot-paddeln\_set1\_17[10]	_	_	_	_	_	false[96]	NA[96]	*[218]	*[218]	*[218]	*[218]	*[218]	input2[218]	66[338]	male[338]	us0adlivem61c2bj5776kudbot[338]	speaker: YOU[458]	_	_	_	_	_	
+59-2	1356-1359	den	GFailure[10]	paddeln\_set1\_17[10]	latin1[10]	us0adlivem61c2bj5776kudbot-paddeln\_set1\_17[10]	*[43]	*[43]	PrepObj[43]	*[43]	*[43]	false[96]	NA[96]	*[218]	*[218]	*[218]	*[218]	*[218]	input2[218]	66[338]	male[338]	us0adlivem61c2bj5776kudbot[338]	speaker: YOU[458]	*->113-1	DefNP[113]	_	_	_	
+59-3	1360-1370	Paddelboot	GFailure[10]	paddeln\_set1\_17[10]	latin1[10]	us0adlivem61c2bj5776kudbot-paddeln\_set1\_17[10]	*[43]	*[43]	PrepObj[43]	*[43]	*[43]	false[96]	NA[96]	*[218]	*[218]	*[218]	*[218]	*[218]	input2[218]	66[338]	male[338]	us0adlivem61c2bj5776kudbot[338]	speaker: YOU[458]	*->113-1	DefNP[113]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+60-1	1372-1387	END_OF_DOCUMENT	GFailure[10]	paddeln\_set1\_17[10]	latin1[10]	us0adlivem61c2bj5776kudbot-paddeln\_set1\_17[10]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+61-1	1389-1392	Wie	GSuccess[11]	paddeln\_set1\_17[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-paddeln\_set1\_17[11]	_	_	_	_	_	false[97]	Int[97]	*[219]	*[219]	*[219]	wh\_3[219]	wh\_question[219]	openq[219]	*[339]	female[339]	*[339]	speaker:Ella[459]	_	_	QAP	*	62-1[98_97]	
+61-2	1393-1398	gehts	GSuccess[11]	paddeln\_set1\_17[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-paddeln\_set1\_17[11]	_	_	_	_	_	false[97]	Int[97]	*[219]	*[219]	*[219]	wh\_3[219]	wh\_question[219]	openq[219]	*[339]	female[339]	*[339]	speaker:Ella[459]	_	_	_	_	_	
+61-3	1399-1403	dir?	GSuccess[11]	paddeln\_set1\_17[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-paddeln\_set1\_17[11]	2	*	*	*	singular	false[97]	Int[97]	*[219]	*[219]	*[219]	wh\_3[219]	wh\_question[219]	openq[219]	*[339]	female[339]	*[339]	speaker:Ella[459]	*->31-1	PerPron[31]	_	_	_	
+
+#Text=Theodor hat lange gepaddelt
+62-1	1405-1412	Theodor	GSuccess[11]	paddeln\_set1\_17[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-paddeln\_set1\_17[11]	*	*	Subj	*	*	false[98]	Decl[98]	*[220]	paddeln[220]	intransitive[220]	*[220]	*[220]	item0[220]	32[340]	female[340]	2em9nj6n4c2pjudl6n6hfpjc30[340]	speaker: YOU[460]	*->97-1	PropNm[97]	result|acknowledgement	*|*	64-1[99_98]|63-1[0_98]	
+62-2	1413-1416	hat	GSuccess[11]	paddeln\_set1\_17[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-paddeln\_set1\_17[11]	_	_	_	_	_	false[98]	Decl[98]	*[220]	paddeln[220]	intransitive[220]	*[220]	*[220]	item0[220]	32[340]	female[340]	2em9nj6n4c2pjudl6n6hfpjc30[340]	speaker: YOU[460]	_	_	_	_	_	
+62-3	1417-1422	lange	GSuccess[11]	paddeln\_set1\_17[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-paddeln\_set1\_17[11]	_	_	_	_	_	false[98]	Decl[98]	*[220]	paddeln[220]	intransitive[220]	*[220]	*[220]	item0[220]	32[340]	female[340]	2em9nj6n4c2pjudl6n6hfpjc30[340]	speaker: YOU[460]	_	_	_	_	_	
+62-4	1423-1432	gepaddelt	GSuccess[11]	paddeln\_set1\_17[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-paddeln\_set1\_17[11]	_	_	_	_	_	false[98]	Decl[98]	*[220]	paddeln[220]	intransitive[220]	*[220]	*[220]	item0[220]	32[340]	female[340]	2em9nj6n4c2pjudl6n6hfpjc30[340]	speaker: YOU[460]	_	_	_	_	_	
+
+#Text=Oh!
+63-1	1434-1437	Oh!	GSuccess[11]	paddeln\_set1\_17[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-paddeln\_set1\_17[11]	_	_	_	_	_	false	NA	oh\_exclamation\_17	*	*	*	*	feedback	*	female	*	speaker:Ella	_	_	_	_	_	
+
+#Text=Jetzt hat er Muskelkater.
+64-1	1439-1444	Jetzt	GSuccess[11]	paddeln\_set1\_17[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-paddeln\_set1\_17[11]	_	_	_	_	_	false[99]	Decl[99]	*[221]	*[221]	*[221]	*[221]	*[221]	input1[221]	32[341]	female[341]	2em9nj6n4c2pjudl6n6hfpjc30[341]	speaker: YOU[461]	_	_	result	*	65-1[100_99]	
+64-2	1445-1448	hat	GSuccess[11]	paddeln\_set1\_17[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-paddeln\_set1\_17[11]	_	_	_	_	_	false[99]	Decl[99]	*[221]	*[221]	*[221]	*[221]	*[221]	input1[221]	32[341]	female[341]	2em9nj6n4c2pjudl6n6hfpjc30[341]	speaker: YOU[461]	_	_	_	_	_	
+64-3	1449-1451	er	GSuccess[11]	paddeln\_set1\_17[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-paddeln\_set1\_17[11]	3	*	Subj	*	singular	false[99]	Decl[99]	*[221]	*[221]	*[221]	*[221]	*[221]	input1[221]	32[341]	female[341]	2em9nj6n4c2pjudl6n6hfpjc30[341]	speaker: YOU[461]	*->97-2	PerPron[97]	_	_	_	
+64-4	1452-1464	Muskelkater.	GSuccess[11]	paddeln\_set1\_17[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-paddeln\_set1\_17[11]	*	*	DirObj	*	*	false[99]	Decl[99]	*[221]	*[221]	*[221]	*[221]	*[221]	input1[221]	32[341]	female[341]	2em9nj6n4c2pjudl6n6hfpjc30[341]	speaker: YOU[461]	*->58-1	IndefNP[58]	_	_	_	
+
+#Text=Und jammert die ganze Zeit.
+65-1	1466-1469	Und	GSuccess[11]	paddeln\_set1\_17[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-paddeln\_set1\_17[11]	_	_	_	_	_	false[100]	Decl[100]	*[222]	*[222]	*[222]	*[222]	*[222]	input2[222]	32[342]	female[342]	2em9nj6n4c2pjudl6n6hfpjc30[342]	speaker: YOU[462]	_	_	_	_	_	
+65-2	1470-1477	jammert	GSuccess[11]	paddeln\_set1\_17[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-paddeln\_set1\_17[11]	3	*	*	*	singular	false[100]	Decl[100]	*[222]	*[222]	*[222]	*[222]	*[222]	input2[222]	32[342]	female[342]	2em9nj6n4c2pjudl6n6hfpjc30[342]	speaker: YOU[462]	*->97-3	zero[97]	_	_	_	
+65-3	1478-1481	die	GSuccess[11]	paddeln\_set1\_17[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-paddeln\_set1\_17[11]	_	_	_	_	_	false[100]	Decl[100]	*[222]	*[222]	*[222]	*[222]	*[222]	input2[222]	32[342]	female[342]	2em9nj6n4c2pjudl6n6hfpjc30[342]	speaker: YOU[462]	*->60-1	DefNP[60]	_	_	_	
+65-4	1482-1487	ganze	GSuccess[11]	paddeln\_set1\_17[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-paddeln\_set1\_17[11]	_	_	_	_	_	false[100]	Decl[100]	*[222]	*[222]	*[222]	*[222]	*[222]	input2[222]	32[342]	female[342]	2em9nj6n4c2pjudl6n6hfpjc30[342]	speaker: YOU[462]	*->60-1	DefNP[60]	_	_	_	
+65-5	1488-1493	Zeit.	GSuccess[11]	paddeln\_set1\_17[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-paddeln\_set1\_17[11]	_	_	_	_	_	false[100]	Decl[100]	*[222]	*[222]	*[222]	*[222]	*[222]	input2[222]	32[342]	female[342]	2em9nj6n4c2pjudl6n6hfpjc30[342]	speaker: YOU[462]	*->60-1	DefNP[60]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+66-1	1495-1510	END_OF_DOCUMENT	GSuccess[11]	paddeln\_set1\_17[11]	latin2[11]	2em9nj6n4c2pjudl6n6hfpjc30-paddeln\_set1\_17[11]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+67-1	1512-1515	Wie	GSuccess[12]	paddeln\_set1\_17[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-paddeln\_set1\_17[12]	_	_	_	_	_	false[101]	Int[101]	*[223]	*[223]	*[223]	wh\_3[223]	wh\_question[223]	openq[223]	*[343]	female[343]	*[343]	speaker:Ella[463]	_	_	QAP|parallel|QAP	*|*|*	70-1[103_101]|71-1[104_101]|68-1[102_101]	
+67-2	1516-1521	gehts	GSuccess[12]	paddeln\_set1\_17[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-paddeln\_set1\_17[12]	_	_	_	_	_	false[101]	Int[101]	*[223]	*[223]	*[223]	wh\_3[223]	wh\_question[223]	openq[223]	*[343]	female[343]	*[343]	speaker:Ella[463]	_	_	_	_	_	
+67-3	1522-1526	dir?	GSuccess[12]	paddeln\_set1\_17[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-paddeln\_set1\_17[12]	2	*	*	*	singular	false[101]	Int[101]	*[223]	*[223]	*[223]	wh\_3[223]	wh\_question[223]	openq[223]	*[343]	female[343]	*[343]	speaker:Ella[463]	*->6-1	PerPron[6]	_	_	_	
+
+#Text=Theodor hat lange gepaddelt
+68-1	1528-1535	Theodor	GSuccess[12]	paddeln\_set1\_17[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-paddeln\_set1\_17[12]	*	*	Subj	*	*	false[102]	Decl[102]	*[224]	paddeln[224]	intransitive[224]	*[224]	*[224]	item0[224]	41[344]	female[344]	2prsavjsjqbmc8hrbo9bovkues[344]	speaker: YOU[464]	*->18-1	PropNm[18]	acknowledgement	*	69-1[0_102]	
+68-2	1536-1539	hat	GSuccess[12]	paddeln\_set1\_17[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-paddeln\_set1\_17[12]	_	_	_	_	_	false[102]	Decl[102]	*[224]	paddeln[224]	intransitive[224]	*[224]	*[224]	item0[224]	41[344]	female[344]	2prsavjsjqbmc8hrbo9bovkues[344]	speaker: YOU[464]	_	_	_	_	_	
+68-3	1540-1545	lange	GSuccess[12]	paddeln\_set1\_17[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-paddeln\_set1\_17[12]	_	_	_	_	_	false[102]	Decl[102]	*[224]	paddeln[224]	intransitive[224]	*[224]	*[224]	item0[224]	41[344]	female[344]	2prsavjsjqbmc8hrbo9bovkues[344]	speaker: YOU[464]	_	_	_	_	_	
+68-4	1546-1555	gepaddelt	GSuccess[12]	paddeln\_set1\_17[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-paddeln\_set1\_17[12]	_	_	_	_	_	false[102]	Decl[102]	*[224]	paddeln[224]	intransitive[224]	*[224]	*[224]	item0[224]	41[344]	female[344]	2prsavjsjqbmc8hrbo9bovkues[344]	speaker: YOU[464]	_	_	_	_	_	
+
+#Text=Oh!
+69-1	1557-1560	Oh!	GSuccess[12]	paddeln\_set1\_17[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-paddeln\_set1\_17[12]	_	_	_	_	_	false	NA	oh\_exclamation\_17	*	*	*	*	feedback	*	female	*	speaker:Ella	_	_	_	_	_	
+
+#Text=Mir geht's gut.
+70-1	1562-1565	Mir	GSuccess[12]	paddeln\_set1\_17[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-paddeln\_set1\_17[12]	1	*	IndirObj	*	singular	false[103]	Decl[103]	*[225]	*[225]	*[225]	*[225]	*[225]	input1[225]	41[345]	female[345]	2prsavjsjqbmc8hrbo9bovkues[345]	speaker: YOU[465]	*->6-2	PerPron[6]	_	_	_	
+70-2	1566-1572	geht's	GSuccess[12]	paddeln\_set1\_17[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-paddeln\_set1\_17[12]	_	_	_	_	_	false[103]	Decl[103]	*[225]	*[225]	*[225]	*[225]	*[225]	input1[225]	41[345]	female[345]	2prsavjsjqbmc8hrbo9bovkues[345]	speaker: YOU[465]	_	_	_	_	_	
+70-3	1573-1577	gut.	GSuccess[12]	paddeln\_set1\_17[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-paddeln\_set1\_17[12]	_	_	_	_	_	false[103]	Decl[103]	*[225]	*[225]	*[225]	*[225]	*[225]	input1[225]	41[345]	female[345]	2prsavjsjqbmc8hrbo9bovkues[345]	speaker: YOU[465]	_	_	_	_	_	
+
+#Text=Was machst du so?
+71-1	1579-1582	Was	GSuccess[12]	paddeln\_set1\_17[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-paddeln\_set1\_17[12]	_	_	_	_	_	false[104]	Int[104]	*[226]	*[226]	*[226]	*[226]	*[226]	input2[226]	41[346]	female[346]	2prsavjsjqbmc8hrbo9bovkues[346]	speaker: YOU[466]	_	_	_	_	_	
+71-2	1583-1589	machst	GSuccess[12]	paddeln\_set1\_17[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-paddeln\_set1\_17[12]	_	_	_	_	_	false[104]	Int[104]	*[226]	*[226]	*[226]	*[226]	*[226]	input2[226]	41[346]	female[346]	2prsavjsjqbmc8hrbo9bovkues[346]	speaker: YOU[466]	_	_	_	_	_	
+71-3	1590-1592	du	GSuccess[12]	paddeln\_set1\_17[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-paddeln\_set1\_17[12]	2	*	Subj	*	singular	false[104]	Int[104]	*[226]	*[226]	*[226]	*[226]	*[226]	input2[226]	41[346]	female[346]	2prsavjsjqbmc8hrbo9bovkues[346]	speaker: YOU[466]	*->88-1	PerPron[88]	_	_	_	
+71-4	1593-1596	so?	GSuccess[12]	paddeln\_set1\_17[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-paddeln\_set1\_17[12]	_	_	_	_	_	false[104]	Int[104]	*[226]	*[226]	*[226]	*[226]	*[226]	input2[226]	41[346]	female[346]	2prsavjsjqbmc8hrbo9bovkues[346]	speaker: YOU[466]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+72-1	1598-1613	END_OF_DOCUMENT	GSuccess[12]	paddeln\_set1\_17[12]	latin2[12]	2prsavjsjqbmc8hrbo9bovkues-paddeln\_set1\_17[12]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+73-1	1615-1618	Wie	GSuccess[13]	paddeln\_set1\_17[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-paddeln\_set1\_17[13]	_	_	_	_	_	false[105]	Int[105]	*[227]	*[227]	*[227]	wh\_3[227]	wh\_question[227]	openq[227]	*[347]	female[347]	*[347]	speaker:Ella[467]	_	_	QAP	*	74-1[106_105]	
+73-2	1619-1624	gehts	GSuccess[13]	paddeln\_set1\_17[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-paddeln\_set1\_17[13]	_	_	_	_	_	false[105]	Int[105]	*[227]	*[227]	*[227]	wh\_3[227]	wh\_question[227]	openq[227]	*[347]	female[347]	*[347]	speaker:Ella[467]	_	_	_	_	_	
+73-3	1625-1629	dir?	GSuccess[13]	paddeln\_set1\_17[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-paddeln\_set1\_17[13]	2	*	*	*	singular	false[105]	Int[105]	*[227]	*[227]	*[227]	wh\_3[227]	wh\_question[227]	openq[227]	*[347]	female[347]	*[347]	speaker:Ella[467]	*->9-1	PerPron[9]	_	_	_	
+
+#Text=Theodor hat lange gepaddelt
+74-1	1631-1638	Theodor	GSuccess[13]	paddeln\_set1\_17[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-paddeln\_set1\_17[13]	*	*	Subj	*	*	false[106]	Decl[106]	*[228]	paddeln[228]	intransitive[228]	*[228]	*[228]	item0[228]	46[348]	male[348]	3jjtes457iqluuhfmeiub8g6qd[348]	speaker: YOU[468]	*->115-1	PropNm[115]	elaboration|acknowledgement	*|*	76-1[107_106]|75-1[0_106]	
+74-2	1639-1642	hat	GSuccess[13]	paddeln\_set1\_17[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-paddeln\_set1\_17[13]	_	_	_	_	_	false[106]	Decl[106]	*[228]	paddeln[228]	intransitive[228]	*[228]	*[228]	item0[228]	46[348]	male[348]	3jjtes457iqluuhfmeiub8g6qd[348]	speaker: YOU[468]	_	_	_	_	_	
+74-3	1643-1648	lange	GSuccess[13]	paddeln\_set1\_17[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-paddeln\_set1\_17[13]	_	_	_	_	_	false[106]	Decl[106]	*[228]	paddeln[228]	intransitive[228]	*[228]	*[228]	item0[228]	46[348]	male[348]	3jjtes457iqluuhfmeiub8g6qd[348]	speaker: YOU[468]	_	_	_	_	_	
+74-4	1649-1658	gepaddelt	GSuccess[13]	paddeln\_set1\_17[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-paddeln\_set1\_17[13]	_	_	_	_	_	false[106]	Decl[106]	*[228]	paddeln[228]	intransitive[228]	*[228]	*[228]	item0[228]	46[348]	male[348]	3jjtes457iqluuhfmeiub8g6qd[348]	speaker: YOU[468]	_	_	_	_	_	
+
+#Text=Oh!
+75-1	1660-1663	Oh!	GSuccess[13]	paddeln\_set1\_17[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-paddeln\_set1\_17[13]	_	_	_	_	_	false	NA	oh\_exclamation\_17	*	*	*	*	feedback	*	female	*	speaker:Ella	_	_	_	_	_	
+
+#Text=Ich glaub es waren über 3 Stunden.
+76-1	1665-1668	Ich	GSuccess[13]	paddeln\_set1\_17[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-paddeln\_set1\_17[13]	1	*	Subj	*	singular	false[107]	Decl[107]	*[229]	*[229]	*[229]	*[229]	*[229]	input1[229]	46[349]	male[349]	3jjtes457iqluuhfmeiub8g6qd[349]	speaker: YOU[469]	*->9-2	PerPron[9]	result	*	77-1[108_107]	
+76-2	1669-1674	glaub	GSuccess[13]	paddeln\_set1\_17[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-paddeln\_set1\_17[13]	_	_	_	_	_	false[107]	Decl[107]	*[229]	*[229]	*[229]	*[229]	*[229]	input1[229]	46[349]	male[349]	3jjtes457iqluuhfmeiub8g6qd[349]	speaker: YOU[469]	_	_	_	_	_	
+76-3	1675-1677	es	GSuccess[13]	paddeln\_set1\_17[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-paddeln\_set1\_17[13]	3	*	Embedded	*	singular	false[107]	Decl[107]	*[229]	*[229]	*[229]	*[229]	*[229]	input1[229]	46[349]	male[349]	3jjtes457iqluuhfmeiub8g6qd[349]	speaker: YOU[469]	*->104-1	PerPron[104]	_	_	_	
+76-4	1678-1683	waren	GSuccess[13]	paddeln\_set1\_17[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-paddeln\_set1\_17[13]	_	_	_	_	_	false[107]	Decl[107]	*[229]	*[229]	*[229]	*[229]	*[229]	input1[229]	46[349]	male[349]	3jjtes457iqluuhfmeiub8g6qd[349]	speaker: YOU[469]	_	_	_	_	_	
+76-5	1684-1688	über	GSuccess[13]	paddeln\_set1\_17[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-paddeln\_set1\_17[13]	_	_	_	_	_	false[107]	Decl[107]	*[229]	*[229]	*[229]	*[229]	*[229]	input1[229]	46[349]	male[349]	3jjtes457iqluuhfmeiub8g6qd[349]	speaker: YOU[469]	_	_	_	_	_	
+76-6	1689-1690	3	GSuccess[13]	paddeln\_set1\_17[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-paddeln\_set1\_17[13]	_	_	_	_	_	false[107]	Decl[107]	*[229]	*[229]	*[229]	*[229]	*[229]	input1[229]	46[349]	male[349]	3jjtes457iqluuhfmeiub8g6qd[349]	speaker: YOU[469]	*->38-1	IndefNP[38]	_	_	_	
+76-7	1691-1699	Stunden.	GSuccess[13]	paddeln\_set1\_17[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-paddeln\_set1\_17[13]	_	_	_	_	_	false[107]	Decl[107]	*[229]	*[229]	*[229]	*[229]	*[229]	input1[229]	46[349]	male[349]	3jjtes457iqluuhfmeiub8g6qd[349]	speaker: YOU[469]	*->38-1	IndefNP[38]	_	_	_	
+
+#Text=Der hat eine Ausdauer.. Wahnsinn
+77-1	1701-1704	Der	GSuccess[13]	paddeln\_set1\_17[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-paddeln\_set1\_17[13]	*	*	Subj	*	*	false[108]	Decl[108]	*[230]	*[230]	*[230]	*[230]	*[230]	input2[230]	46[350]	male[350]	3jjtes457iqluuhfmeiub8g6qd[350]	speaker: YOU[470]	*->115-2	D-Pron[115]	elaboration	*	77-5[0_108]	
+77-2	1705-1708	hat	GSuccess[13]	paddeln\_set1\_17[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-paddeln\_set1\_17[13]	_	_	_	_	_	false[108]	Decl[108]	*[230]	*[230]	*[230]	*[230]	*[230]	input2[230]	46[350]	male[350]	3jjtes457iqluuhfmeiub8g6qd[350]	speaker: YOU[470]	_	_	_	_	_	
+77-3	1709-1713	eine	GSuccess[13]	paddeln\_set1\_17[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-paddeln\_set1\_17[13]	*[44]	*[44]	DirObj[44]	*[44]	*[44]	false[108]	Decl[108]	*[230]	*[230]	*[230]	*[230]	*[230]	input2[230]	46[350]	male[350]	3jjtes457iqluuhfmeiub8g6qd[350]	speaker: YOU[470]	*->35-1	IndefNP[35]	_	_	_	
+77-4	1714-1724	Ausdauer..	GSuccess[13]	paddeln\_set1\_17[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-paddeln\_set1\_17[13]	*[44]	*[44]	DirObj[44]	*[44]	*[44]	false[108]	Decl[108]	*[230]	*[230]	*[230]	*[230]	*[230]	input2[230]	46[350]	male[350]	3jjtes457iqluuhfmeiub8g6qd[350]	speaker: YOU[470]	*->35-1	IndefNP[35]	_	_	_	
+77-5	1725-1733	Wahnsinn	GSuccess[13]	paddeln\_set1\_17[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-paddeln\_set1\_17[13]	_	_	_	_	_	false	NA	*[230]	*[230]	*[230]	*[230]	*[230]	input2[230]	46[350]	male[350]	3jjtes457iqluuhfmeiub8g6qd[350]	speaker: YOU[470]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+78-1	1735-1750	END_OF_DOCUMENT	GSuccess[13]	paddeln\_set1\_17[13]	latin2[13]	3jjtes457iqluuhfmeiub8g6qd-paddeln\_set1\_17[13]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+79-1	1752-1755	Wie	GSuccess[14]	paddeln\_set1\_17[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-paddeln\_set1\_17[14]	_	_	_	_	_	false[109]	Int[109]	*[231]	*[231]	*[231]	wh\_3[231]	wh\_question[231]	openq[231]	*[351]	female[351]	*[351]	speaker:Ella[471]	_	_	QAP	*	80-1[110_109]	
+79-2	1756-1761	gehts	GSuccess[14]	paddeln\_set1\_17[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-paddeln\_set1\_17[14]	_	_	_	_	_	false[109]	Int[109]	*[231]	*[231]	*[231]	wh\_3[231]	wh\_question[231]	openq[231]	*[351]	female[351]	*[351]	speaker:Ella[471]	_	_	_	_	_	
+79-3	1762-1766	dir?	GSuccess[14]	paddeln\_set1\_17[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-paddeln\_set1\_17[14]	2	*	*	*	singular	false[109]	Int[109]	*[231]	*[231]	*[231]	wh\_3[231]	wh\_question[231]	openq[231]	*[351]	female[351]	*[351]	speaker:Ella[471]	*->26-1	PerPron[26]	_	_	_	
+
+#Text=Theodor hat lange gepaddelt
+80-1	1768-1775	Theodor	GSuccess[14]	paddeln\_set1\_17[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-paddeln\_set1\_17[14]	*	*	Subj	*	*	false[110]	Decl[110]	*[232]	paddeln[232]	intransitive[232]	*[232]	*[232]	item0[232]	27[352]	female[352]	65p8m4ujg4fi983365pclnac28[352]	speaker: YOU[472]	*->85-1|*->77-1	clause[85]|PropNm[77]	result|acknowledgement	*|*	82-1[111_110]|81-1[0_110]	
+80-2	1776-1779	hat	GSuccess[14]	paddeln\_set1\_17[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-paddeln\_set1\_17[14]	_	_	_	_	_	false[110]	Decl[110]	*[232]	paddeln[232]	intransitive[232]	*[232]	*[232]	item0[232]	27[352]	female[352]	65p8m4ujg4fi983365pclnac28[352]	speaker: YOU[472]	*->85-1	clause[85]	_	_	_	
+80-3	1780-1785	lange	GSuccess[14]	paddeln\_set1\_17[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-paddeln\_set1\_17[14]	_	_	_	_	_	false[110]	Decl[110]	*[232]	paddeln[232]	intransitive[232]	*[232]	*[232]	item0[232]	27[352]	female[352]	65p8m4ujg4fi983365pclnac28[352]	speaker: YOU[472]	*->85-1	clause[85]	_	_	_	
+80-4	1786-1795	gepaddelt	GSuccess[14]	paddeln\_set1\_17[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-paddeln\_set1\_17[14]	_	_	_	_	_	false[110]	Decl[110]	*[232]	paddeln[232]	intransitive[232]	*[232]	*[232]	item0[232]	27[352]	female[352]	65p8m4ujg4fi983365pclnac28[352]	speaker: YOU[472]	*->85-1	clause[85]	_	_	_	
+
+#Text=Oh!
+81-1	1797-1800	Oh!	GSuccess[14]	paddeln\_set1\_17[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-paddeln\_set1\_17[14]	_	_	_	_	_	false	NA	oh\_exclamation\_17	*	*	*	*	feedback	*	female	*	speaker:Ella	_	_	_	_	_	
+
+#Text=und war danach ganz schön müde
+82-1	1802-1805	und	GSuccess[14]	paddeln\_set1\_17[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-paddeln\_set1\_17[14]	_	_	_	_	_	false[111]	Decl[111]	*[233]	*[233]	*[233]	*[233]	*[233]	input1[233]	27[353]	female[353]	65p8m4ujg4fi983365pclnac28[353]	speaker: YOU[473]	_	_	explanation	*	83-1[112_111]	
+82-2	1806-1809	war	GSuccess[14]	paddeln\_set1\_17[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-paddeln\_set1\_17[14]	3	*	*	*	singular	false[111]	Decl[111]	*[233]	*[233]	*[233]	*[233]	*[233]	input1[233]	27[353]	female[353]	65p8m4ujg4fi983365pclnac28[353]	speaker: YOU[473]	*->77-2	zero[77]	_	_	_	
+82-3	1810-1816	danach	GSuccess[14]	paddeln\_set1\_17[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-paddeln\_set1\_17[14]	_	_	_	_	_	false[111]	Decl[111]	*[233]	*[233]	*[233]	*[233]	*[233]	input1[233]	27[353]	female[353]	65p8m4ujg4fi983365pclnac28[353]	speaker: YOU[473]	*->85-2	D-Pron[85]	_	_	_	
+82-4	1817-1821	ganz	GSuccess[14]	paddeln\_set1\_17[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-paddeln\_set1\_17[14]	_	_	_	_	_	false[111]	Decl[111]	*[233]	*[233]	*[233]	*[233]	*[233]	input1[233]	27[353]	female[353]	65p8m4ujg4fi983365pclnac28[353]	speaker: YOU[473]	_	_	_	_	_	
+82-5	1822-1827	schön	GSuccess[14]	paddeln\_set1\_17[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-paddeln\_set1\_17[14]	_	_	_	_	_	false[111]	Decl[111]	*[233]	*[233]	*[233]	*[233]	*[233]	input1[233]	27[353]	female[353]	65p8m4ujg4fi983365pclnac28[353]	speaker: YOU[473]	_	_	_	_	_	
+82-6	1828-1832	müde	GSuccess[14]	paddeln\_set1\_17[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-paddeln\_set1\_17[14]	_	_	_	_	_	false[111]	Decl[111]	*[233]	*[233]	*[233]	*[233]	*[233]	input1[233]	27[353]	female[353]	65p8m4ujg4fi983365pclnac28[353]	speaker: YOU[473]	_	_	_	_	_	
+
+#Text=ein langer Tag
+83-1	1834-1837	ein	GSuccess[14]	paddeln\_set1\_17[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-paddeln\_set1\_17[14]	_	_	_	_	_	false[112]	NA[112]	*[234]	*[234]	*[234]	*[234]	*[234]	input2[234]	27[354]	female[354]	65p8m4ujg4fi983365pclnac28[354]	speaker: YOU[474]	*->12-1	IndefNP[12]	_	_	_	
+83-2	1838-1844	langer	GSuccess[14]	paddeln\_set1\_17[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-paddeln\_set1\_17[14]	_	_	_	_	_	false[112]	NA[112]	*[234]	*[234]	*[234]	*[234]	*[234]	input2[234]	27[354]	female[354]	65p8m4ujg4fi983365pclnac28[354]	speaker: YOU[474]	*->12-1	IndefNP[12]	_	_	_	
+83-3	1845-1848	Tag	GSuccess[14]	paddeln\_set1\_17[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-paddeln\_set1\_17[14]	_	_	_	_	_	false[112]	NA[112]	*[234]	*[234]	*[234]	*[234]	*[234]	input2[234]	27[354]	female[354]	65p8m4ujg4fi983365pclnac28[354]	speaker: YOU[474]	*->12-1	IndefNP[12]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+84-1	1850-1865	END_OF_DOCUMENT	GSuccess[14]	paddeln\_set1\_17[14]	latin2[14]	65p8m4ujg4fi983365pclnac28-paddeln\_set1\_17[14]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+85-1	1867-1870	Wie	GSuccess[15]	paddeln\_set1\_17[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-paddeln\_set1\_17[15]	_	_	_	_	_	false[113]	Int[113]	*[235]	*[235]	*[235]	wh\_3[235]	wh\_question[235]	openq[235]	*[355]	female[355]	*[355]	speaker:Ella[475]	_	_	QAP	*	86-1[114_113]	
+85-2	1871-1876	gehts	GSuccess[15]	paddeln\_set1\_17[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-paddeln\_set1\_17[15]	_	_	_	_	_	false[113]	Int[113]	*[235]	*[235]	*[235]	wh\_3[235]	wh\_question[235]	openq[235]	*[355]	female[355]	*[355]	speaker:Ella[475]	_	_	_	_	_	
+85-3	1877-1881	dir?	GSuccess[15]	paddeln\_set1\_17[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-paddeln\_set1\_17[15]	2	*	*	*	singular	false[113]	Int[113]	*[235]	*[235]	*[235]	wh\_3[235]	wh\_question[235]	openq[235]	*[355]	female[355]	*[355]	speaker:Ella[475]	*->81-1	PerPron[81]	_	_	_	
+
+#Text=Theodor hat lange gepaddelt
+86-1	1883-1890	Theodor	GSuccess[15]	paddeln\_set1\_17[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-paddeln\_set1\_17[15]	*	*	Subj	*	*	false[114]	Decl[114]	*[236]	paddeln[236]	intransitive[236]	*[236]	*[236]	item0[236]	22[356]	female[356]	ad2p95q44evasm6vmbol4cikit[356]	speaker: YOU[476]	*->99-1	PropNm[99]	elaboration|elaboration|acknowledgement	*|*|*	88-1[115_114]|89-1[116_114]|87-1[0_114]	
+86-2	1891-1894	hat	GSuccess[15]	paddeln\_set1\_17[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-paddeln\_set1\_17[15]	_	_	_	_	_	false[114]	Decl[114]	*[236]	paddeln[236]	intransitive[236]	*[236]	*[236]	item0[236]	22[356]	female[356]	ad2p95q44evasm6vmbol4cikit[356]	speaker: YOU[476]	*->119-1	clause[119]	_	_	_	
+86-3	1895-1900	lange	GSuccess[15]	paddeln\_set1\_17[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-paddeln\_set1\_17[15]	_	_	_	_	_	false[114]	Decl[114]	*[236]	paddeln[236]	intransitive[236]	*[236]	*[236]	item0[236]	22[356]	female[356]	ad2p95q44evasm6vmbol4cikit[356]	speaker: YOU[476]	*->119-1	clause[119]	_	_	_	
+86-4	1901-1910	gepaddelt	GSuccess[15]	paddeln\_set1\_17[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-paddeln\_set1\_17[15]	_	_	_	_	_	false[114]	Decl[114]	*[236]	paddeln[236]	intransitive[236]	*[236]	*[236]	item0[236]	22[356]	female[356]	ad2p95q44evasm6vmbol4cikit[356]	speaker: YOU[476]	*->119-1	clause[119]	_	_	_	
+
+#Text=Oh!
+87-1	1912-1915	Oh!	GSuccess[15]	paddeln\_set1\_17[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-paddeln\_set1\_17[15]	_	_	_	_	_	false	NA	oh\_exclamation\_17	*	*	*	*	feedback	*	female	*	speaker:Ella	_	_	_	_	_	
+
+#Text=Er hat insgesamt 2 Stunden gebraucht.
+88-1	1917-1919	Er	GSuccess[15]	paddeln\_set1\_17[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-paddeln\_set1\_17[15]	3	*	Subj	*	singular	false[115]	Decl[115]	*[237]	*[237]	*[237]	*[237]	*[237]	input1[237]	22[357]	female[357]	ad2p95q44evasm6vmbol4cikit[357]	speaker: YOU[477]	*->99-2	PerPron[99]	_	_	_	
+88-2	1920-1923	hat	GSuccess[15]	paddeln\_set1\_17[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-paddeln\_set1\_17[15]	_	_	_	_	_	false[115]	Decl[115]	*[237]	*[237]	*[237]	*[237]	*[237]	input1[237]	22[357]	female[357]	ad2p95q44evasm6vmbol4cikit[357]	speaker: YOU[477]	_	_	_	_	_	
+88-3	1924-1933	insgesamt	GSuccess[15]	paddeln\_set1\_17[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-paddeln\_set1\_17[15]	_	_	_	_	_	false[115]	Decl[115]	*[237]	*[237]	*[237]	*[237]	*[237]	input1[237]	22[357]	female[357]	ad2p95q44evasm6vmbol4cikit[357]	speaker: YOU[477]	_	_	_	_	_	
+88-4	1934-1935	2	GSuccess[15]	paddeln\_set1\_17[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-paddeln\_set1\_17[15]	_	_	_	_	_	false[115]	Decl[115]	*[237]	*[237]	*[237]	*[237]	*[237]	input1[237]	22[357]	female[357]	ad2p95q44evasm6vmbol4cikit[357]	speaker: YOU[477]	*->13-1	IndefNP[13]	_	_	_	
+88-5	1936-1943	Stunden	GSuccess[15]	paddeln\_set1\_17[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-paddeln\_set1\_17[15]	_	_	_	_	_	false[115]	Decl[115]	*[237]	*[237]	*[237]	*[237]	*[237]	input1[237]	22[357]	female[357]	ad2p95q44evasm6vmbol4cikit[357]	speaker: YOU[477]	*->13-1	IndefNP[13]	_	_	_	
+88-6	1944-1954	gebraucht.	GSuccess[15]	paddeln\_set1\_17[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-paddeln\_set1\_17[15]	_	_	_	_	_	false[115]	Decl[115]	*[237]	*[237]	*[237]	*[237]	*[237]	input1[237]	22[357]	female[357]	ad2p95q44evasm6vmbol4cikit[357]	speaker: YOU[477]	_	_	_	_	_	
+
+#Text=Es hat ihm viel Spaß gemacht
+89-1	1956-1958	Es	GSuccess[15]	paddeln\_set1\_17[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-paddeln\_set1\_17[15]	3	*	Subj	*	singular	false[116]	Decl[116]	*[238]	*[238]	*[238]	*[238]	*[238]	input2[238]	22[358]	female[358]	ad2p95q44evasm6vmbol4cikit[358]	speaker: YOU[478]	*->119-2	PerPron[119]	_	_	_	
+89-2	1959-1962	hat	GSuccess[15]	paddeln\_set1\_17[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-paddeln\_set1\_17[15]	_	_	_	_	_	false[116]	Decl[116]	*[238]	*[238]	*[238]	*[238]	*[238]	input2[238]	22[358]	female[358]	ad2p95q44evasm6vmbol4cikit[358]	speaker: YOU[478]	_	_	_	_	_	
+89-3	1963-1966	ihm	GSuccess[15]	paddeln\_set1\_17[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-paddeln\_set1\_17[15]	3	*	IndirObj	*	singular	false[116]	Decl[116]	*[238]	*[238]	*[238]	*[238]	*[238]	input2[238]	22[358]	female[358]	ad2p95q44evasm6vmbol4cikit[358]	speaker: YOU[478]	*->99-3	PerPron[99]	_	_	_	
+89-4	1967-1971	viel	GSuccess[15]	paddeln\_set1\_17[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-paddeln\_set1\_17[15]	*[45]	*[45]	DirObj[45]	*[45]	*[45]	false[116]	Decl[116]	*[238]	*[238]	*[238]	*[238]	*[238]	input2[238]	22[358]	female[358]	ad2p95q44evasm6vmbol4cikit[358]	speaker: YOU[478]	_	_	_	_	_	
+89-5	1972-1976	Spaß	GSuccess[15]	paddeln\_set1\_17[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-paddeln\_set1\_17[15]	*[45]	*[45]	DirObj[45]	*[45]	*[45]	false[116]	Decl[116]	*[238]	*[238]	*[238]	*[238]	*[238]	input2[238]	22[358]	female[358]	ad2p95q44evasm6vmbol4cikit[358]	speaker: YOU[478]	_	_	_	_	_	
+89-6	1977-1984	gemacht	GSuccess[15]	paddeln\_set1\_17[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-paddeln\_set1\_17[15]	_	_	_	_	_	false[116]	Decl[116]	*[238]	*[238]	*[238]	*[238]	*[238]	input2[238]	22[358]	female[358]	ad2p95q44evasm6vmbol4cikit[358]	speaker: YOU[478]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+90-1	1986-2001	END_OF_DOCUMENT	GSuccess[15]	paddeln\_set1\_17[15]	latin2[15]	ad2p95q44evasm6vmbol4cikit-paddeln\_set1\_17[15]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+91-1	2003-2006	Wie	GSuccess[16]	paddeln\_set1\_17[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-paddeln\_set1\_17[16]	_	_	_	_	_	false[117]	Int[117]	*[239]	*[239]	*[239]	wh\_3[239]	wh\_question[239]	openq[239]	*[359]	female[359]	*[359]	speaker:Ella[479]	_	_	QAP	*	92-1[118_117]	
+91-2	2007-2012	gehts	GSuccess[16]	paddeln\_set1\_17[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-paddeln\_set1\_17[16]	_	_	_	_	_	false[117]	Int[117]	*[239]	*[239]	*[239]	wh\_3[239]	wh\_question[239]	openq[239]	*[359]	female[359]	*[359]	speaker:Ella[479]	_	_	_	_	_	
+91-3	2013-2017	dir?	GSuccess[16]	paddeln\_set1\_17[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-paddeln\_set1\_17[16]	2	*	*	*	singular	false[117]	Int[117]	*[239]	*[239]	*[239]	wh\_3[239]	wh\_question[239]	openq[239]	*[359]	female[359]	*[359]	speaker:Ella[479]	*->91-1	PerPron[91]	_	_	_	
+
+#Text=Theodor hat lange gepaddelt
+92-1	2019-2026	Theodor	GSuccess[16]	paddeln\_set1\_17[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-paddeln\_set1\_17[16]	*	*	Subj	*	*	false[118]	Decl[118]	*[240]	paddeln[240]	intransitive[240]	*[240]	*[240]	item0[240]	36[360]	female[360]	aoum613lougtk5ql841j63bjo9[360]	speaker: YOU[480]	*->29-1	PropNm[29]	result|acknowledgement	*|*	94-1[119_118]|93-1[0_118]	
+92-2	2027-2030	hat	GSuccess[16]	paddeln\_set1\_17[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-paddeln\_set1\_17[16]	_	_	_	_	_	false[118]	Decl[118]	*[240]	paddeln[240]	intransitive[240]	*[240]	*[240]	item0[240]	36[360]	female[360]	aoum613lougtk5ql841j63bjo9[360]	speaker: YOU[480]	_	_	_	_	_	
+92-3	2031-2036	lange	GSuccess[16]	paddeln\_set1\_17[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-paddeln\_set1\_17[16]	_	_	_	_	_	false[118]	Decl[118]	*[240]	paddeln[240]	intransitive[240]	*[240]	*[240]	item0[240]	36[360]	female[360]	aoum613lougtk5ql841j63bjo9[360]	speaker: YOU[480]	_	_	_	_	_	
+92-4	2037-2046	gepaddelt	GSuccess[16]	paddeln\_set1\_17[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-paddeln\_set1\_17[16]	_	_	_	_	_	false[118]	Decl[118]	*[240]	paddeln[240]	intransitive[240]	*[240]	*[240]	item0[240]	36[360]	female[360]	aoum613lougtk5ql841j63bjo9[360]	speaker: YOU[480]	_	_	_	_	_	
+
+#Text=Oh!
+93-1	2048-2051	Oh!	GSuccess[16]	paddeln\_set1\_17[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-paddeln\_set1\_17[16]	_	_	_	_	_	false	NA	oh\_exclamation\_17	*	*	*	*	feedback	*	female	*	speaker:Ella	_	_	_	_	_	
+
+#Text=Jetzt ist er natürlich total müde.
+94-1	2053-2058	Jetzt	GSuccess[16]	paddeln\_set1\_17[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-paddeln\_set1\_17[16]	_	_	_	_	_	false[119]	Decl[119]	*[241]	*[241]	*[241]	*[241]	*[241]	input1[241]	36[361]	female[361]	aoum613lougtk5ql841j63bjo9[361]	speaker: YOU[481]	_	_	result	*	95-1[120_119]	
+94-2	2059-2062	ist	GSuccess[16]	paddeln\_set1\_17[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-paddeln\_set1\_17[16]	_	_	_	_	_	false[119]	Decl[119]	*[241]	*[241]	*[241]	*[241]	*[241]	input1[241]	36[361]	female[361]	aoum613lougtk5ql841j63bjo9[361]	speaker: YOU[481]	_	_	_	_	_	
+94-3	2063-2065	er	GSuccess[16]	paddeln\_set1\_17[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-paddeln\_set1\_17[16]	3	*	Subj	*	singular	false[119]	Decl[119]	*[241]	*[241]	*[241]	*[241]	*[241]	input1[241]	36[361]	female[361]	aoum613lougtk5ql841j63bjo9[361]	speaker: YOU[481]	*->29-2	PerPron[29]	_	_	_	
+94-4	2066-2075	natürlich	GSuccess[16]	paddeln\_set1\_17[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-paddeln\_set1\_17[16]	_	_	_	_	_	false[119]	Decl[119]	*[241]	*[241]	*[241]	*[241]	*[241]	input1[241]	36[361]	female[361]	aoum613lougtk5ql841j63bjo9[361]	speaker: YOU[481]	_	_	_	_	_	
+94-5	2076-2081	total	GSuccess[16]	paddeln\_set1\_17[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-paddeln\_set1\_17[16]	_	_	_	_	_	false[119]	Decl[119]	*[241]	*[241]	*[241]	*[241]	*[241]	input1[241]	36[361]	female[361]	aoum613lougtk5ql841j63bjo9[361]	speaker: YOU[481]	_	_	_	_	_	
+94-6	2082-2087	müde.	GSuccess[16]	paddeln\_set1\_17[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-paddeln\_set1\_17[16]	_	_	_	_	_	false[119]	Decl[119]	*[241]	*[241]	*[241]	*[241]	*[241]	input1[241]	36[361]	female[361]	aoum613lougtk5ql841j63bjo9[361]	speaker: YOU[481]	_	_	_	_	_	
+
+#Text=Und ich kann mich um alles alleine kümmern.
+95-1	2089-2092	Und	GSuccess[16]	paddeln\_set1\_17[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-paddeln\_set1\_17[16]	_	_	_	_	_	false[120]	Decl[120]	*[242]	*[242]	*[242]	*[242]	*[242]	input2[242]	36[362]	female[362]	aoum613lougtk5ql841j63bjo9[362]	speaker: YOU[482]	_	_	_	_	_	
+95-2	2093-2096	ich	GSuccess[16]	paddeln\_set1\_17[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-paddeln\_set1\_17[16]	1	*	Subj	*	singular	false[120]	Decl[120]	*[242]	*[242]	*[242]	*[242]	*[242]	input2[242]	36[362]	female[362]	aoum613lougtk5ql841j63bjo9[362]	speaker: YOU[482]	*->91-2	PerPron[91]	_	_	_	
+95-3	2097-2101	kann	GSuccess[16]	paddeln\_set1\_17[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-paddeln\_set1\_17[16]	_	_	_	_	_	false[120]	Decl[120]	*[242]	*[242]	*[242]	*[242]	*[242]	input2[242]	36[362]	female[362]	aoum613lougtk5ql841j63bjo9[362]	speaker: YOU[482]	_	_	_	_	_	
+95-4	2102-2106	mich	GSuccess[16]	paddeln\_set1\_17[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-paddeln\_set1\_17[16]	*	*	IndirObj	*	*	false[120]	Decl[120]	*[242]	*[242]	*[242]	*[242]	*[242]	input2[242]	36[362]	female[362]	aoum613lougtk5ql841j63bjo9[362]	speaker: YOU[482]	_	_	_	_	_	
+95-5	2107-2109	um	GSuccess[16]	paddeln\_set1\_17[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-paddeln\_set1\_17[16]	_	_	_	_	_	false[120]	Decl[120]	*[242]	*[242]	*[242]	*[242]	*[242]	input2[242]	36[362]	female[362]	aoum613lougtk5ql841j63bjo9[362]	speaker: YOU[482]	_	_	_	_	_	
+95-6	2110-2115	alles	GSuccess[16]	paddeln\_set1\_17[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-paddeln\_set1\_17[16]	_	_	_	_	_	false[120]	Decl[120]	*[242]	*[242]	*[242]	*[242]	*[242]	input2[242]	36[362]	female[362]	aoum613lougtk5ql841j63bjo9[362]	speaker: YOU[482]	*->74-1	Allquantor[74]	_	_	_	
+95-7	2116-2123	alleine	GSuccess[16]	paddeln\_set1\_17[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-paddeln\_set1\_17[16]	_	_	_	_	_	false[120]	Decl[120]	*[242]	*[242]	*[242]	*[242]	*[242]	input2[242]	36[362]	female[362]	aoum613lougtk5ql841j63bjo9[362]	speaker: YOU[482]	_	_	_	_	_	
+95-8	2124-2132	kümmern.	GSuccess[16]	paddeln\_set1\_17[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-paddeln\_set1\_17[16]	_	_	_	_	_	false[120]	Decl[120]	*[242]	*[242]	*[242]	*[242]	*[242]	input2[242]	36[362]	female[362]	aoum613lougtk5ql841j63bjo9[362]	speaker: YOU[482]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+96-1	2134-2149	END_OF_DOCUMENT	GSuccess[16]	paddeln\_set1\_17[16]	latin2[16]	aoum613lougtk5ql841j63bjo9-paddeln\_set1\_17[16]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+97-1	2151-2154	Wie	GSuccess[17]	paddeln\_set1\_17[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-paddeln\_set1\_17[17]	_	_	_	_	_	false[121]	Int[121]	*[243]	*[243]	*[243]	wh\_3[243]	wh\_question[243]	openq[243]	*[363]	female[363]	*[363]	speaker:Ella[483]	_	_	parallel|QAP	*|*	100-1[123_121]|98-1[122_121]	
+97-2	2155-2160	gehts	GSuccess[17]	paddeln\_set1\_17[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-paddeln\_set1\_17[17]	_	_	_	_	_	false[121]	Int[121]	*[243]	*[243]	*[243]	wh\_3[243]	wh\_question[243]	openq[243]	*[363]	female[363]	*[363]	speaker:Ella[483]	_	_	_	_	_	
+97-3	2161-2165	dir?	GSuccess[17]	paddeln\_set1\_17[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-paddeln\_set1\_17[17]	2	*	*	*	singular	false[121]	Int[121]	*[243]	*[243]	*[243]	wh\_3[243]	wh\_question[243]	openq[243]	*[363]	female[363]	*[363]	speaker:Ella[483]	*->51-1	PerPron[51]	_	_	_	
+
+#Text=Theodor hat lange gepaddelt
+98-1	2167-2174	Theodor	GSuccess[17]	paddeln\_set1\_17[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-paddeln\_set1\_17[17]	*	*	Subj	*	*	false[122]	Decl[122]	*[244]	paddeln[244]	intransitive[244]	*[244]	*[244]	item0[244]	26[364]	male[364]	c48fsj7kc4kiuorutkbb4be30b[364]	speaker: YOU[484]	*->25-1	PropNm[25]	acknowledgement	*	99-1[0_122]	
+98-2	2175-2178	hat	GSuccess[17]	paddeln\_set1\_17[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-paddeln\_set1\_17[17]	_	_	_	_	_	false[122]	Decl[122]	*[244]	paddeln[244]	intransitive[244]	*[244]	*[244]	item0[244]	26[364]	male[364]	c48fsj7kc4kiuorutkbb4be30b[364]	speaker: YOU[484]	_	_	_	_	_	
+98-3	2179-2184	lange	GSuccess[17]	paddeln\_set1\_17[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-paddeln\_set1\_17[17]	_	_	_	_	_	false[122]	Decl[122]	*[244]	paddeln[244]	intransitive[244]	*[244]	*[244]	item0[244]	26[364]	male[364]	c48fsj7kc4kiuorutkbb4be30b[364]	speaker: YOU[484]	_	_	_	_	_	
+98-4	2185-2194	gepaddelt	GSuccess[17]	paddeln\_set1\_17[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-paddeln\_set1\_17[17]	_	_	_	_	_	false[122]	Decl[122]	*[244]	paddeln[244]	intransitive[244]	*[244]	*[244]	item0[244]	26[364]	male[364]	c48fsj7kc4kiuorutkbb4be30b[364]	speaker: YOU[484]	_	_	_	_	_	
+
+#Text=Oh!
+99-1	2196-2199	Oh!	GSuccess[17]	paddeln\_set1\_17[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-paddeln\_set1\_17[17]	_	_	_	_	_	false	NA	oh\_exclamation\_17	*	*	*	*	feedback	*	female	*	speaker:Ella	_	_	_	_	_	
+
+#Text=Wie geht es dir denn?
+100-1	2201-2204	Wie	GSuccess[17]	paddeln\_set1\_17[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-paddeln\_set1\_17[17]	_	_	_	_	_	false[123]	Int[123]	*[245]	*[245]	*[245]	*[245]	*[245]	input1[245]	26[365]	male[365]	c48fsj7kc4kiuorutkbb4be30b[365]	speaker: YOU[485]	_	_	elaboration	*	101-1[124_123]	
+100-2	2205-2209	geht	GSuccess[17]	paddeln\_set1\_17[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-paddeln\_set1\_17[17]	_	_	_	_	_	false[123]	Int[123]	*[245]	*[245]	*[245]	*[245]	*[245]	input1[245]	26[365]	male[365]	c48fsj7kc4kiuorutkbb4be30b[365]	speaker: YOU[485]	_	_	_	_	_	
+100-3	2210-2212	es	GSuccess[17]	paddeln\_set1\_17[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-paddeln\_set1\_17[17]	*	*	Subj	*	*	false[123]	Int[123]	*[245]	*[245]	*[245]	*[245]	*[245]	input1[245]	26[365]	male[365]	c48fsj7kc4kiuorutkbb4be30b[365]	speaker: YOU[485]	_	_	_	_	_	
+100-4	2213-2216	dir	GSuccess[17]	paddeln\_set1\_17[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-paddeln\_set1\_17[17]	2	*	IndirObj	*	singular	false[123]	Int[123]	*[245]	*[245]	*[245]	*[245]	*[245]	input1[245]	26[365]	male[365]	c48fsj7kc4kiuorutkbb4be30b[365]	speaker: YOU[485]	*->2-1	PerPron[2]	_	_	_	
+100-5	2217-2222	denn?	GSuccess[17]	paddeln\_set1\_17[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-paddeln\_set1\_17[17]	_	_	_	_	_	false[123]	Int[123]	*[245]	*[245]	*[245]	*[245]	*[245]	input1[245]	26[365]	male[365]	c48fsj7kc4kiuorutkbb4be30b[365]	speaker: YOU[485]	_	_	_	_	_	
+
+#Text=Ich hab gehört <BR> ihr seid auch im Urlaub?
+101-1	2224-2227	Ich	GSuccess[17]	paddeln\_set1\_17[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-paddeln\_set1\_17[17]	1	*	Subj	*	singular	false[124]	Decl[124]	*[246]	*[246]	*[246]	*[246]	*[246]	input2[246]	26[366]	male[366]	c48fsj7kc4kiuorutkbb4be30b[366]	speaker: YOU[486]	*->51-2	PerPron[51]	_	_	_	
+101-2	2228-2231	hab	GSuccess[17]	paddeln\_set1\_17[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-paddeln\_set1\_17[17]	_	_	_	_	_	false[124]	Decl[124]	*[246]	*[246]	*[246]	*[246]	*[246]	input2[246]	26[366]	male[366]	c48fsj7kc4kiuorutkbb4be30b[366]	speaker: YOU[486]	_	_	_	_	_	
+101-3	2232-2238	gehört	GSuccess[17]	paddeln\_set1\_17[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-paddeln\_set1\_17[17]	_	_	_	_	_	false[124]	Decl[124]	*[246]	*[246]	*[246]	*[246]	*[246]	input2[246]	26[366]	male[366]	c48fsj7kc4kiuorutkbb4be30b[366]	speaker: YOU[486]	_	_	_	_	_	
+101-4	2239-2243	<BR>	GSuccess[17]	paddeln\_set1\_17[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-paddeln\_set1\_17[17]	_	_	_	_	_	false[124]	Decl[124]	*[246]	*[246]	*[246]	*[246]	*[246]	input2[246]	26[366]	male[366]	c48fsj7kc4kiuorutkbb4be30b[366]	speaker: YOU[486]	_	_	_	_	_	
+101-5	2244-2247	ihr	GSuccess[17]	paddeln\_set1\_17[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-paddeln\_set1\_17[17]	2	*	IndirObj	*	plural	false[124]	Decl[124]	*[246]	*[246]	*[246]	*[246]	*[246]	input2[246]	26[366]	male[366]	c48fsj7kc4kiuorutkbb4be30b[366]	speaker: YOU[486]	*->98-1	PerPron[98]	_	_	_	
+101-6	2248-2252	seid	GSuccess[17]	paddeln\_set1\_17[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-paddeln\_set1\_17[17]	_	_	_	_	_	false[124]	Decl[124]	*[246]	*[246]	*[246]	*[246]	*[246]	input2[246]	26[366]	male[366]	c48fsj7kc4kiuorutkbb4be30b[366]	speaker: YOU[486]	_	_	_	_	_	
+101-7	2253-2257	auch	GSuccess[17]	paddeln\_set1\_17[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-paddeln\_set1\_17[17]	_	_	_	_	_	false[124]	Decl[124]	*[246]	*[246]	*[246]	*[246]	*[246]	input2[246]	26[366]	male[366]	c48fsj7kc4kiuorutkbb4be30b[366]	speaker: YOU[486]	_	_	_	_	_	
+101-8	2258-2260	im	GSuccess[17]	paddeln\_set1\_17[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-paddeln\_set1\_17[17]	_	_	_	_	_	false[124]	Decl[124]	*[246]	*[246]	*[246]	*[246]	*[246]	input2[246]	26[366]	male[366]	c48fsj7kc4kiuorutkbb4be30b[366]	speaker: YOU[486]	*->102-1	DefNP[102]	_	_	_	
+101-9	2261-2268	Urlaub?	GSuccess[17]	paddeln\_set1\_17[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-paddeln\_set1\_17[17]	*	*	DirObj	*	*	false[124]	Decl[124]	*[246]	*[246]	*[246]	*[246]	*[246]	input2[246]	26[366]	male[366]	c48fsj7kc4kiuorutkbb4be30b[366]	speaker: YOU[486]	*->102-1	DefNP[102]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+102-1	2270-2285	END_OF_DOCUMENT	GSuccess[17]	paddeln\_set1\_17[17]	latin2[17]	c48fsj7kc4kiuorutkbb4be30b-paddeln\_set1\_17[17]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+103-1	2287-2290	Wie	GSuccess[18]	paddeln\_set1\_17[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-paddeln\_set1\_17[18]	_	_	_	_	_	false[125]	Int[125]	*[247]	*[247]	*[247]	wh\_3[247]	wh\_question[247]	openq[247]	*[367]	female[367]	*[367]	speaker:Ella[487]	_	_	QAP	*	104-1[126_125]	
+103-2	2291-2296	gehts	GSuccess[18]	paddeln\_set1\_17[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-paddeln\_set1\_17[18]	_	_	_	_	_	false[125]	Int[125]	*[247]	*[247]	*[247]	wh\_3[247]	wh\_question[247]	openq[247]	*[367]	female[367]	*[367]	speaker:Ella[487]	_	_	_	_	_	
+103-3	2297-2301	dir?	GSuccess[18]	paddeln\_set1\_17[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-paddeln\_set1\_17[18]	2	*	*	*	singular	false[125]	Int[125]	*[247]	*[247]	*[247]	wh\_3[247]	wh\_question[247]	openq[247]	*[367]	female[367]	*[367]	speaker:Ella[487]	*->17-1	PerPron[17]	_	_	_	
+
+#Text=Theodor hat lange gepaddelt
+104-1	2303-2310	Theodor	GSuccess[18]	paddeln\_set1\_17[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-paddeln\_set1\_17[18]	*	*	Subj	*	*	false[126]	Decl[126]	*[248]	paddeln[248]	intransitive[248]	*[248]	*[248]	item0[248]	57[368]	female[368]	k0vnav0sqhr0fo3b0jpuaak9s4[368]	speaker: YOU[488]	*->92-1	PropNm[92]	contrast|acknowledgement	*|*	106-1[127_126]|105-1[0_126]	
+104-2	2311-2314	hat	GSuccess[18]	paddeln\_set1\_17[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-paddeln\_set1\_17[18]	_	_	_	_	_	false[126]	Decl[126]	*[248]	paddeln[248]	intransitive[248]	*[248]	*[248]	item0[248]	57[368]	female[368]	k0vnav0sqhr0fo3b0jpuaak9s4[368]	speaker: YOU[488]	*->84-1	clause[84]	_	_	_	
+104-3	2315-2320	lange	GSuccess[18]	paddeln\_set1\_17[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-paddeln\_set1\_17[18]	_	_	_	_	_	false[126]	Decl[126]	*[248]	paddeln[248]	intransitive[248]	*[248]	*[248]	item0[248]	57[368]	female[368]	k0vnav0sqhr0fo3b0jpuaak9s4[368]	speaker: YOU[488]	*->84-1	clause[84]	_	_	_	
+104-4	2321-2330	gepaddelt	GSuccess[18]	paddeln\_set1\_17[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-paddeln\_set1\_17[18]	_	_	_	_	_	false[126]	Decl[126]	*[248]	paddeln[248]	intransitive[248]	*[248]	*[248]	item0[248]	57[368]	female[368]	k0vnav0sqhr0fo3b0jpuaak9s4[368]	speaker: YOU[488]	*->84-1	clause[84]	_	_	_	
+
+#Text=Oh!
+105-1	2332-2335	Oh!	GSuccess[18]	paddeln\_set1\_17[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-paddeln\_set1\_17[18]	_	_	_	_	_	false	NA	oh\_exclamation\_17	*	*	*	*	feedback	*	female	*	speaker:Ella	_	_	_	_	_	
+
+#Text=Hat ihm aber nichts genützt.
+106-1	2337-2340	Hat	GSuccess[18]	paddeln\_set1\_17[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-paddeln\_set1\_17[18]	3	*	*	*	singular	false[127]	Decl[127]	*[249]	*[249]	*[249]	*[249]	*[249]	input1[249]	57[369]	female[369]	k0vnav0sqhr0fo3b0jpuaak9s4[369]	speaker: YOU[489]	*->84-2	zero[84]	explanation	*	107-1[128_127]	
+106-2	2341-2344	ihm	GSuccess[18]	paddeln\_set1\_17[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-paddeln\_set1\_17[18]	3	*	IndirObj	*	singular	false[127]	Decl[127]	*[249]	*[249]	*[249]	*[249]	*[249]	input1[249]	57[369]	female[369]	k0vnav0sqhr0fo3b0jpuaak9s4[369]	speaker: YOU[489]	*->92-2	PerPron[92]	_	_	_	
+106-3	2345-2349	aber	GSuccess[18]	paddeln\_set1\_17[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-paddeln\_set1\_17[18]	_	_	_	_	_	false[127]	Decl[127]	*[249]	*[249]	*[249]	*[249]	*[249]	input1[249]	57[369]	female[369]	k0vnav0sqhr0fo3b0jpuaak9s4[369]	speaker: YOU[489]	_	_	_	_	_	
+106-4	2350-2356	nichts	GSuccess[18]	paddeln\_set1\_17[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-paddeln\_set1\_17[18]	_	_	_	_	_	false[127]	Decl[127]	*[249]	*[249]	*[249]	*[249]	*[249]	input1[249]	57[369]	female[369]	k0vnav0sqhr0fo3b0jpuaak9s4[369]	speaker: YOU[489]	_	_	_	_	_	
+106-5	2357-2365	genützt.	GSuccess[18]	paddeln\_set1\_17[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-paddeln\_set1\_17[18]	_	_	_	_	_	false[127]	Decl[127]	*[249]	*[249]	*[249]	*[249]	*[249]	input1[249]	57[369]	female[369]	k0vnav0sqhr0fo3b0jpuaak9s4[369]	speaker: YOU[489]	_	_	_	_	_	
+
+#Text=Ist trotzdem ertrunken.
+107-1	2367-2370	Ist	GSuccess[18]	paddeln\_set1\_17[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-paddeln\_set1\_17[18]	3	*	*	*	singular	false[128]	Decl[128]	*[250]	*[250]	*[250]	*[250]	*[250]	input2[250]	57[370]	female[370]	k0vnav0sqhr0fo3b0jpuaak9s4[370]	speaker: YOU[490]	*->92-3	zero[92]	_	_	_	
+107-2	2371-2379	trotzdem	GSuccess[18]	paddeln\_set1\_17[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-paddeln\_set1\_17[18]	_	_	_	_	_	false[128]	Decl[128]	*[250]	*[250]	*[250]	*[250]	*[250]	input2[250]	57[370]	female[370]	k0vnav0sqhr0fo3b0jpuaak9s4[370]	speaker: YOU[490]	_	_	_	_	_	
+107-3	2380-2390	ertrunken.	GSuccess[18]	paddeln\_set1\_17[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-paddeln\_set1\_17[18]	_	_	_	_	_	false[128]	Decl[128]	*[250]	*[250]	*[250]	*[250]	*[250]	input2[250]	57[370]	female[370]	k0vnav0sqhr0fo3b0jpuaak9s4[370]	speaker: YOU[490]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+108-1	2392-2407	END_OF_DOCUMENT	GSuccess[18]	paddeln\_set1\_17[18]	latin2[18]	k0vnav0sqhr0fo3b0jpuaak9s4-paddeln\_set1\_17[18]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+109-1	2409-2412	Wie	GSuccess[19]	paddeln\_set1\_17[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-paddeln\_set1\_17[19]	_	_	_	_	_	false[129]	Int[129]	*[251]	*[251]	*[251]	wh\_3[251]	wh\_question[251]	openq[251]	*[371]	female[371]	*[371]	speaker:Ella[491]	_	_	QAP	*	110-1[130_129]	
+109-2	2413-2418	gehts	GSuccess[19]	paddeln\_set1\_17[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-paddeln\_set1\_17[19]	_	_	_	_	_	false[129]	Int[129]	*[251]	*[251]	*[251]	wh\_3[251]	wh\_question[251]	openq[251]	*[371]	female[371]	*[371]	speaker:Ella[491]	_	_	_	_	_	
+109-3	2419-2423	dir?	GSuccess[19]	paddeln\_set1\_17[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-paddeln\_set1\_17[19]	2	*	*	*	singular	false[129]	Int[129]	*[251]	*[251]	*[251]	wh\_3[251]	wh\_question[251]	openq[251]	*[371]	female[371]	*[371]	speaker:Ella[491]	*->3-1	PerPron[3]	_	_	_	
+
+#Text=Theodor hat lange gepaddelt
+110-1	2425-2432	Theodor	GSuccess[19]	paddeln\_set1\_17[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-paddeln\_set1\_17[19]	*	*	Subj	*	*	false[130]	Decl[130]	*[252]	paddeln[252]	intransitive[252]	*[252]	*[252]	item0[252]	26[372]	female[372]	qjdpg51abd5auurj3bduisfb43[372]	speaker: YOU[492]	*->94-1|*->100-1	clause[94]|PropNm[100]	elaboration|elaboration|acknowledgement	*|*|*	112-1[131_130]|113-1[132_130]|111-1[0_130]	
+110-2	2433-2436	hat	GSuccess[19]	paddeln\_set1\_17[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-paddeln\_set1\_17[19]	_	_	_	_	_	false[130]	Decl[130]	*[252]	paddeln[252]	intransitive[252]	*[252]	*[252]	item0[252]	26[372]	female[372]	qjdpg51abd5auurj3bduisfb43[372]	speaker: YOU[492]	*->94-1	clause[94]	_	_	_	
+110-3	2437-2442	lange	GSuccess[19]	paddeln\_set1\_17[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-paddeln\_set1\_17[19]	_	_	_	_	_	false[130]	Decl[130]	*[252]	paddeln[252]	intransitive[252]	*[252]	*[252]	item0[252]	26[372]	female[372]	qjdpg51abd5auurj3bduisfb43[372]	speaker: YOU[492]	*->94-1	clause[94]	_	_	_	
+110-4	2443-2452	gepaddelt	GSuccess[19]	paddeln\_set1\_17[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-paddeln\_set1\_17[19]	_	_	_	_	_	false[130]	Decl[130]	*[252]	paddeln[252]	intransitive[252]	*[252]	*[252]	item0[252]	26[372]	female[372]	qjdpg51abd5auurj3bduisfb43[372]	speaker: YOU[492]	*->94-1	clause[94]	_	_	_	
+
+#Text=Oh!
+111-1	2454-2457	Oh!	GSuccess[19]	paddeln\_set1\_17[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-paddeln\_set1\_17[19]	_	_	_	_	_	false	NA	oh\_exclamation\_17	*	*	*	*	feedback	*	female	*	speaker:Ella	_	_	_	_	_	
+
+#Text=War voll cool.
+112-1	2459-2462	War	GSuccess[19]	paddeln\_set1\_17[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-paddeln\_set1\_17[19]	3	*	*	*	singular	false[131]	Decl[131]	*[253]	*[253]	*[253]	*[253]	*[253]	input1[253]	26[373]	female[373]	qjdpg51abd5auurj3bduisfb43[373]	speaker: YOU[493]	*->94-2	zero[94]	parallel	*	113-1[132_131]	
+112-2	2463-2467	voll	GSuccess[19]	paddeln\_set1\_17[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-paddeln\_set1\_17[19]	_	_	_	_	_	false[131]	Decl[131]	*[253]	*[253]	*[253]	*[253]	*[253]	input1[253]	26[373]	female[373]	qjdpg51abd5auurj3bduisfb43[373]	speaker: YOU[493]	_	_	_	_	_	
+112-3	2468-2473	cool.	GSuccess[19]	paddeln\_set1\_17[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-paddeln\_set1\_17[19]	_	_	_	_	_	false[131]	Decl[131]	*[253]	*[253]	*[253]	*[253]	*[253]	input1[253]	26[373]	female[373]	qjdpg51abd5auurj3bduisfb43[373]	speaker: YOU[493]	_	_	_	_	_	
+
+#Text=Sah auch sehr witzig aus
+113-1	2475-2478	Sah	GSuccess[19]	paddeln\_set1\_17[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-paddeln\_set1\_17[19]	3	*	*	*	singular	false[132]	Decl[132]	*[254]	*[254]	*[254]	*[254]	*[254]	input2[254]	26[374]	female[374]	qjdpg51abd5auurj3bduisfb43[374]	speaker: YOU[494]	*->94-3	zero[94]	_	_	_	
+113-2	2479-2483	auch	GSuccess[19]	paddeln\_set1\_17[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-paddeln\_set1\_17[19]	_	_	_	_	_	false[132]	Decl[132]	*[254]	*[254]	*[254]	*[254]	*[254]	input2[254]	26[374]	female[374]	qjdpg51abd5auurj3bduisfb43[374]	speaker: YOU[494]	_	_	_	_	_	
+113-3	2484-2488	sehr	GSuccess[19]	paddeln\_set1\_17[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-paddeln\_set1\_17[19]	_	_	_	_	_	false[132]	Decl[132]	*[254]	*[254]	*[254]	*[254]	*[254]	input2[254]	26[374]	female[374]	qjdpg51abd5auurj3bduisfb43[374]	speaker: YOU[494]	_	_	_	_	_	
+113-4	2489-2495	witzig	GSuccess[19]	paddeln\_set1\_17[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-paddeln\_set1\_17[19]	_	_	_	_	_	false[132]	Decl[132]	*[254]	*[254]	*[254]	*[254]	*[254]	input2[254]	26[374]	female[374]	qjdpg51abd5auurj3bduisfb43[374]	speaker: YOU[494]	_	_	_	_	_	
+113-5	2496-2499	aus	GSuccess[19]	paddeln\_set1\_17[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-paddeln\_set1\_17[19]	_	_	_	_	_	false[132]	Decl[132]	*[254]	*[254]	*[254]	*[254]	*[254]	input2[254]	26[374]	female[374]	qjdpg51abd5auurj3bduisfb43[374]	speaker: YOU[494]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+114-1	2501-2516	END_OF_DOCUMENT	GSuccess[19]	paddeln\_set1\_17[19]	latin2[19]	qjdpg51abd5auurj3bduisfb43-paddeln\_set1\_17[19]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+115-1	2518-2521	Wie	GSuccess[20]	paddeln\_set1\_17[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-paddeln\_set1\_17[20]	_	_	_	_	_	false[133]	Int[133]	*[255]	*[255]	*[255]	wh\_3[255]	wh\_question[255]	openq[255]	*[375]	female[375]	*[375]	speaker:Ella[495]	_	_	QAP	*	116-1[134_133]	
+115-2	2522-2527	gehts	GSuccess[20]	paddeln\_set1\_17[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-paddeln\_set1\_17[20]	_	_	_	_	_	false[133]	Int[133]	*[255]	*[255]	*[255]	wh\_3[255]	wh\_question[255]	openq[255]	*[375]	female[375]	*[375]	speaker:Ella[495]	_	_	_	_	_	
+115-3	2528-2532	dir?	GSuccess[20]	paddeln\_set1\_17[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-paddeln\_set1\_17[20]	2	*	*	*	singular	false[133]	Int[133]	*[255]	*[255]	*[255]	wh\_3[255]	wh\_question[255]	openq[255]	*[375]	female[375]	*[375]	speaker:Ella[495]	*->28-1	PerPron[28]	_	_	_	
+
+#Text=Theodor hat lange gepaddelt
+116-1	2534-2541	Theodor	GSuccess[20]	paddeln\_set1\_17[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-paddeln\_set1\_17[20]	*	*	Subj	*	*	false[134]	Decl[134]	*[256]	paddeln[256]	intransitive[256]	*[256]	*[256]	item0[256]	72[376]	male[376]	rhiec6c6hfje484c5bsbj040l0[376]	speaker: YOU[496]	*->67-1	PropNm[67]	result|acknowledgement	*|*	118-1[135_134]|117-1[0_134]	
+116-2	2542-2545	hat	GSuccess[20]	paddeln\_set1\_17[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-paddeln\_set1\_17[20]	_	_	_	_	_	false[134]	Decl[134]	*[256]	paddeln[256]	intransitive[256]	*[256]	*[256]	item0[256]	72[376]	male[376]	rhiec6c6hfje484c5bsbj040l0[376]	speaker: YOU[496]	_	_	_	_	_	
+116-3	2546-2551	lange	GSuccess[20]	paddeln\_set1\_17[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-paddeln\_set1\_17[20]	_	_	_	_	_	false[134]	Decl[134]	*[256]	paddeln[256]	intransitive[256]	*[256]	*[256]	item0[256]	72[376]	male[376]	rhiec6c6hfje484c5bsbj040l0[376]	speaker: YOU[496]	_	_	_	_	_	
+116-4	2552-2561	gepaddelt	GSuccess[20]	paddeln\_set1\_17[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-paddeln\_set1\_17[20]	_	_	_	_	_	false[134]	Decl[134]	*[256]	paddeln[256]	intransitive[256]	*[256]	*[256]	item0[256]	72[376]	male[376]	rhiec6c6hfje484c5bsbj040l0[376]	speaker: YOU[496]	_	_	_	_	_	
+
+#Text=Oh!
+117-1	2563-2566	Oh!	GSuccess[20]	paddeln\_set1\_17[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-paddeln\_set1\_17[20]	_	_	_	_	_	false	NA	oh\_exclamation\_17	*	*	*	*	feedback	*	female	*	speaker:Ella	_	_	_	_	_	
+
+#Text=Also ist er jetzt müde
+118-1	2568-2572	Also	GSuccess[20]	paddeln\_set1\_17[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-paddeln\_set1\_17[20]	_	_	_	_	_	false[135]	Decl[135]	*[257]	*[257]	*[257]	*[257]	*[257]	input1[257]	72[377]	male[377]	rhiec6c6hfje484c5bsbj040l0[377]	speaker: YOU[497]	_	_	result	*	119-1[136_135]	
+118-2	2573-2576	ist	GSuccess[20]	paddeln\_set1\_17[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-paddeln\_set1\_17[20]	_	_	_	_	_	false[135]	Decl[135]	*[257]	*[257]	*[257]	*[257]	*[257]	input1[257]	72[377]	male[377]	rhiec6c6hfje484c5bsbj040l0[377]	speaker: YOU[497]	_	_	_	_	_	
+118-3	2577-2579	er	GSuccess[20]	paddeln\_set1\_17[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-paddeln\_set1\_17[20]	3	*	Subj	*	singular	false[135]	Decl[135]	*[257]	*[257]	*[257]	*[257]	*[257]	input1[257]	72[377]	male[377]	rhiec6c6hfje484c5bsbj040l0[377]	speaker: YOU[497]	*->67-2	PerPron[67]	_	_	_	
+118-4	2580-2585	jetzt	GSuccess[20]	paddeln\_set1\_17[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-paddeln\_set1\_17[20]	_	_	_	_	_	false[135]	Decl[135]	*[257]	*[257]	*[257]	*[257]	*[257]	input1[257]	72[377]	male[377]	rhiec6c6hfje484c5bsbj040l0[377]	speaker: YOU[497]	_	_	_	_	_	
+118-5	2586-2590	müde	GSuccess[20]	paddeln\_set1\_17[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-paddeln\_set1\_17[20]	_	_	_	_	_	false[135]	Decl[135]	*[257]	*[257]	*[257]	*[257]	*[257]	input1[257]	72[377]	male[377]	rhiec6c6hfje484c5bsbj040l0[377]	speaker: YOU[497]	_	_	_	_	_	
+
+#Text=Ruf doch morgen an
+119-1	2592-2595	Ruf	GSuccess[20]	paddeln\_set1\_17[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-paddeln\_set1\_17[20]	2	*	*	*	singular	false[136]	Imp[136]	*[258]	*[258]	*[258]	*[258]	*[258]	input2[258]	72[378]	male[378]	rhiec6c6hfje484c5bsbj040l0[378]	speaker: YOU[498]	*->21-1	zero[21]	_	_	_	
+119-2	2596-2600	doch	GSuccess[20]	paddeln\_set1\_17[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-paddeln\_set1\_17[20]	_	_	_	_	_	false[136]	Imp[136]	*[258]	*[258]	*[258]	*[258]	*[258]	input2[258]	72[378]	male[378]	rhiec6c6hfje484c5bsbj040l0[378]	speaker: YOU[498]	_	_	_	_	_	
+119-3	2601-2607	morgen	GSuccess[20]	paddeln\_set1\_17[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-paddeln\_set1\_17[20]	_	_	_	_	_	false[136]	Imp[136]	*[258]	*[258]	*[258]	*[258]	*[258]	input2[258]	72[378]	male[378]	rhiec6c6hfje484c5bsbj040l0[378]	speaker: YOU[498]	_	_	_	_	_	
+119-4	2608-2610	an	GSuccess[20]	paddeln\_set1\_17[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-paddeln\_set1\_17[20]	_	_	_	_	_	false[136]	Imp[136]	*[258]	*[258]	*[258]	*[258]	*[258]	input2[258]	72[378]	male[378]	rhiec6c6hfje484c5bsbj040l0[378]	speaker: YOU[498]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+120-1	2612-2627	END_OF_DOCUMENT	GSuccess[20]	paddeln\_set1\_17[20]	latin2[20]	rhiec6c6hfje484c5bsbj040l0-paddeln\_set1\_17[20]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+121-1	2629-2632	Wie	GWithout[21]	paddeln\_set1\_17[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-paddeln\_set1\_17[21]	_	_	_	_	_	false[137]	Int[137]	*[259]	*[259]	*[259]	wh\_3[259]	wh\_question[259]	openq[259]	*[379]	female[379]	*[379]	speaker:Ella[499]	_	_	parallel|QAP	*|*	125-1[141_137]|122-1[138_137]	
+121-2	2633-2638	gehts	GWithout[21]	paddeln\_set1\_17[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-paddeln\_set1\_17[21]	_	_	_	_	_	false[137]	Int[137]	*[259]	*[259]	*[259]	wh\_3[259]	wh\_question[259]	openq[259]	*[379]	female[379]	*[379]	speaker:Ella[499]	_	_	_	_	_	
+121-3	2639-2643	dir?	GWithout[21]	paddeln\_set1\_17[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-paddeln\_set1\_17[21]	2	*	*	*	singular	false[137]	Int[137]	*[259]	*[259]	*[259]	wh\_3[259]	wh\_question[259]	openq[259]	*[379]	female[379]	*[379]	speaker:Ella[499]	*->69-1	PerPron[69]	_	_	_	
+
+#Text=Theodor hat lange gepaddelt
+122-1	2645-2652	Theodor	GWithout[21]	paddeln\_set1\_17[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-paddeln\_set1\_17[21]	*	*	Subj	*	*	false[138]	Decl[138]	*[260]	paddeln[260]	intransitive[260]	*[260]	*[260]	item0[260]	18[380]	female[380]	0ncaea7aqlpc7oe43khd21qn11[380]	speaker: YOU[500]	*->120-1	PropNm[120]	result	*	124-1[139_138]	
+122-2	2653-2656	hat	GWithout[21]	paddeln\_set1\_17[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-paddeln\_set1\_17[21]	_	_	_	_	_	false[138]	Decl[138]	*[260]	paddeln[260]	intransitive[260]	*[260]	*[260]	item0[260]	18[380]	female[380]	0ncaea7aqlpc7oe43khd21qn11[380]	speaker: YOU[500]	_	_	_	_	_	
+122-3	2657-2662	lange	GWithout[21]	paddeln\_set1\_17[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-paddeln\_set1\_17[21]	_	_	_	_	_	false[138]	Decl[138]	*[260]	paddeln[260]	intransitive[260]	*[260]	*[260]	item0[260]	18[380]	female[380]	0ncaea7aqlpc7oe43khd21qn11[380]	speaker: YOU[500]	_	_	_	_	_	
+122-4	2663-2672	gepaddelt	GWithout[21]	paddeln\_set1\_17[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-paddeln\_set1\_17[21]	_	_	_	_	_	false[138]	Decl[138]	*[260]	paddeln[260]	intransitive[260]	*[260]	*[260]	item0[260]	18[380]	female[380]	0ncaea7aqlpc7oe43khd21qn11[380]	speaker: YOU[500]	_	_	_	_	_	
+
+#Text=-
+123-1	2674-2675	-	GWithout[21]	paddeln\_set1\_17[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-paddeln\_set1\_17[21]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Ella	_	_	_	_	_	
+
+#Text=Ich bin so müde <BR> ich will nur noch ins Bett.
+124-1	2677-2680	Ich	GWithout[21]	paddeln\_set1\_17[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-paddeln\_set1\_17[21]	1	*	Subj	*	singular	false[139]	Decl[139]	*[261]	*[261]	*[261]	*[261]	*[261]	input1[261]	18[381]	female[381]	0ncaea7aqlpc7oe43khd21qn11[381]	speaker: YOU[501]	*->69-2	PerPron[69]	result	*	124-6[140_139]	
+124-2	2681-2684	bin	GWithout[21]	paddeln\_set1\_17[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-paddeln\_set1\_17[21]	_	_	_	_	_	false[139]	Decl[139]	*[261]	*[261]	*[261]	*[261]	*[261]	input1[261]	18[381]	female[381]	0ncaea7aqlpc7oe43khd21qn11[381]	speaker: YOU[501]	_	_	_	_	_	
+124-3	2685-2687	so	GWithout[21]	paddeln\_set1\_17[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-paddeln\_set1\_17[21]	_	_	_	_	_	false[139]	Decl[139]	*[261]	*[261]	*[261]	*[261]	*[261]	input1[261]	18[381]	female[381]	0ncaea7aqlpc7oe43khd21qn11[381]	speaker: YOU[501]	_	_	_	_	_	
+124-4	2688-2692	müde	GWithout[21]	paddeln\_set1\_17[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-paddeln\_set1\_17[21]	_	_	_	_	_	false[139]	Decl[139]	*[261]	*[261]	*[261]	*[261]	*[261]	input1[261]	18[381]	female[381]	0ncaea7aqlpc7oe43khd21qn11[381]	speaker: YOU[501]	_	_	_	_	_	
+124-5	2693-2697	<BR>	GWithout[21]	paddeln\_set1\_17[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-paddeln\_set1\_17[21]	_	_	_	_	_	_	_	*[261]	*[261]	*[261]	*[261]	*[261]	input1[261]	18[381]	female[381]	0ncaea7aqlpc7oe43khd21qn11[381]	speaker: YOU[501]	_	_	_	_	_	
+124-6	2698-2701	ich	GWithout[21]	paddeln\_set1\_17[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-paddeln\_set1\_17[21]	1	*	Subj	*	singular	false[140]	Decl[140]	*[261]	*[261]	*[261]	*[261]	*[261]	input1[261]	18[381]	female[381]	0ncaea7aqlpc7oe43khd21qn11[381]	speaker: YOU[501]	*->69-3	PerPron[69]	_	_	_	
+124-7	2702-2706	will	GWithout[21]	paddeln\_set1\_17[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-paddeln\_set1\_17[21]	_	_	_	_	_	false[140]	Decl[140]	*[261]	*[261]	*[261]	*[261]	*[261]	input1[261]	18[381]	female[381]	0ncaea7aqlpc7oe43khd21qn11[381]	speaker: YOU[501]	_	_	_	_	_	
+124-8	2707-2710	nur	GWithout[21]	paddeln\_set1\_17[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-paddeln\_set1\_17[21]	_	_	_	_	_	false[140]	Decl[140]	*[261]	*[261]	*[261]	*[261]	*[261]	input1[261]	18[381]	female[381]	0ncaea7aqlpc7oe43khd21qn11[381]	speaker: YOU[501]	_	_	_	_	_	
+124-9	2711-2715	noch	GWithout[21]	paddeln\_set1\_17[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-paddeln\_set1\_17[21]	_	_	_	_	_	false[140]	Decl[140]	*[261]	*[261]	*[261]	*[261]	*[261]	input1[261]	18[381]	female[381]	0ncaea7aqlpc7oe43khd21qn11[381]	speaker: YOU[501]	_	_	_	_	_	
+124-10	2716-2719	ins	GWithout[21]	paddeln\_set1\_17[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-paddeln\_set1\_17[21]	_	_	_	_	_	false[140]	Decl[140]	*[261]	*[261]	*[261]	*[261]	*[261]	input1[261]	18[381]	female[381]	0ncaea7aqlpc7oe43khd21qn11[381]	speaker: YOU[501]	*->16-1	DefNP[16]	_	_	_	
+124-11	2720-2725	Bett.	GWithout[21]	paddeln\_set1\_17[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-paddeln\_set1\_17[21]	*	*	PrepObj	*	*	false[140]	Decl[140]	*[261]	*[261]	*[261]	*[261]	*[261]	input1[261]	18[381]	female[381]	0ncaea7aqlpc7oe43khd21qn11[381]	speaker: YOU[501]	*->16-1	DefNP[16]	_	_	_	
+
+#Text=Bei dir alles bestens?
+125-1	2727-2730	Bei	GWithout[21]	paddeln\_set1\_17[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-paddeln\_set1\_17[21]	_	_	_	_	_	false[141]	Int[141]	*[262]	*[262]	*[262]	*[262]	*[262]	input2[262]	18[382]	female[382]	0ncaea7aqlpc7oe43khd21qn11[382]	speaker: YOU[502]	_	_	_	_	_	
+125-2	2731-2734	dir	GWithout[21]	paddeln\_set1\_17[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-paddeln\_set1\_17[21]	2	*	IndirObj	*	singular	false[141]	Int[141]	*[262]	*[262]	*[262]	*[262]	*[262]	input2[262]	18[382]	female[382]	0ncaea7aqlpc7oe43khd21qn11[382]	speaker: YOU[502]	*->117-1	PerPron[117]	_	_	_	
+125-3	2735-2740	alles	GWithout[21]	paddeln\_set1\_17[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-paddeln\_set1\_17[21]	_	_	_	_	_	false[141]	Int[141]	*[262]	*[262]	*[262]	*[262]	*[262]	input2[262]	18[382]	female[382]	0ncaea7aqlpc7oe43khd21qn11[382]	speaker: YOU[502]	_	_	_	_	_	
+125-4	2741-2749	bestens?	GWithout[21]	paddeln\_set1\_17[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-paddeln\_set1\_17[21]	_	_	_	_	_	false[141]	Int[141]	*[262]	*[262]	*[262]	*[262]	*[262]	input2[262]	18[382]	female[382]	0ncaea7aqlpc7oe43khd21qn11[382]	speaker: YOU[502]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+126-1	2751-2766	END_OF_DOCUMENT	GWithout[21]	paddeln\_set1\_17[21]	latin3[21]	0ncaea7aqlpc7oe43khd21qn11-paddeln\_set1\_17[21]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+127-1	2768-2771	Wie	GWithout[22]	paddeln\_set1\_17[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-paddeln\_set1\_17[22]	_	_	_	_	_	false[142]	Int[142]	*[263]	*[263]	*[263]	wh\_3[263]	wh\_question[263]	openq[263]	*[383]	female[383]	*[383]	speaker:Ella[503]	_	_	QAP	*	128-1[143_142]	
+127-2	2772-2777	gehts	GWithout[22]	paddeln\_set1\_17[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-paddeln\_set1\_17[22]	_	_	_	_	_	false[142]	Int[142]	*[263]	*[263]	*[263]	wh\_3[263]	wh\_question[263]	openq[263]	*[383]	female[383]	*[383]	speaker:Ella[503]	_	_	_	_	_	
+127-3	2778-2782	dir?	GWithout[22]	paddeln\_set1\_17[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-paddeln\_set1\_17[22]	2	*	*	*	singular	false[142]	Int[142]	*[263]	*[263]	*[263]	wh\_3[263]	wh\_question[263]	openq[263]	*[383]	female[383]	*[383]	speaker:Ella[503]	*->42-1	PerPron[42]	_	_	_	
+
+#Text=Theodor hat lange gepaddelt
+128-1	2784-2791	Theodor	GWithout[22]	paddeln\_set1\_17[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-paddeln\_set1\_17[22]	*	*	Subj	*	*	false[143]	Decl[143]	*[264]	paddeln[264]	intransitive[264]	*[264]	*[264]	item0[264]	36[384]	male[384]	19gm0uv9ca6mcngf99lirno94a[384]	speaker: YOU[504]	*->70-1|*->63-1	clause[70]|PropNm[63]	result	*	130-1[144_143]	
+128-2	2792-2795	hat	GWithout[22]	paddeln\_set1\_17[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-paddeln\_set1\_17[22]	_	_	_	_	_	false[143]	Decl[143]	*[264]	paddeln[264]	intransitive[264]	*[264]	*[264]	item0[264]	36[384]	male[384]	19gm0uv9ca6mcngf99lirno94a[384]	speaker: YOU[504]	*->70-1	clause[70]	_	_	_	
+128-3	2796-2801	lange	GWithout[22]	paddeln\_set1\_17[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-paddeln\_set1\_17[22]	_	_	_	_	_	false[143]	Decl[143]	*[264]	paddeln[264]	intransitive[264]	*[264]	*[264]	item0[264]	36[384]	male[384]	19gm0uv9ca6mcngf99lirno94a[384]	speaker: YOU[504]	*->70-1	clause[70]	_	_	_	
+128-4	2802-2811	gepaddelt	GWithout[22]	paddeln\_set1\_17[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-paddeln\_set1\_17[22]	_	_	_	_	_	false[143]	Decl[143]	*[264]	paddeln[264]	intransitive[264]	*[264]	*[264]	item0[264]	36[384]	male[384]	19gm0uv9ca6mcngf99lirno94a[384]	speaker: YOU[504]	*->70-1	clause[70]	_	_	_	
+
+#Text=-
+129-1	2813-2814	-	GWithout[22]	paddeln\_set1\_17[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-paddeln\_set1\_17[22]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Ella	_	_	_	_	_	
+
+#Text=Heute hat er Muskelkater deswegen
+130-1	2816-2821	Heute	GWithout[22]	paddeln\_set1\_17[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-paddeln\_set1\_17[22]	_	_	_	_	_	false[144]	Decl[144]	*[265]	*[265]	*[265]	*[265]	*[265]	input1[265]	36[385]	male[385]	19gm0uv9ca6mcngf99lirno94a[385]	speaker: YOU[505]	_	_	contrast	*	131-1[145_144]	
+130-2	2822-2825	hat	GWithout[22]	paddeln\_set1\_17[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-paddeln\_set1\_17[22]	_	_	_	_	_	false[144]	Decl[144]	*[265]	*[265]	*[265]	*[265]	*[265]	input1[265]	36[385]	male[385]	19gm0uv9ca6mcngf99lirno94a[385]	speaker: YOU[505]	_	_	_	_	_	
+130-3	2826-2828	er	GWithout[22]	paddeln\_set1\_17[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-paddeln\_set1\_17[22]	3	*	Subj	*	singular	false[144]	Decl[144]	*[265]	*[265]	*[265]	*[265]	*[265]	input1[265]	36[385]	male[385]	19gm0uv9ca6mcngf99lirno94a[385]	speaker: YOU[505]	*->63-2	PerPron[63]	_	_	_	
+130-4	2829-2840	Muskelkater	GWithout[22]	paddeln\_set1\_17[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-paddeln\_set1\_17[22]	*	*	DirObj	*	*	false[144]	Decl[144]	*[265]	*[265]	*[265]	*[265]	*[265]	input1[265]	36[385]	male[385]	19gm0uv9ca6mcngf99lirno94a[385]	speaker: YOU[505]	*->80-1	IndefNP[80]	_	_	_	
+130-5	2841-2849	deswegen	GWithout[22]	paddeln\_set1\_17[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-paddeln\_set1\_17[22]	_	_	_	_	_	false[144]	Decl[144]	*[265]	*[265]	*[265]	*[265]	*[265]	input1[265]	36[385]	male[385]	19gm0uv9ca6mcngf99lirno94a[385]	speaker: YOU[505]	*->70-2	D-Pron[70]	_	_	_	
+
+#Text=Aber ich fand es sehr sexy
+131-1	2851-2855	Aber	GWithout[22]	paddeln\_set1\_17[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-paddeln\_set1\_17[22]	_	_	_	_	_	false[145]	Decl[145]	*[266]	*[266]	*[266]	*[266]	*[266]	input2[266]	36[386]	male[386]	19gm0uv9ca6mcngf99lirno94a[386]	speaker: YOU[506]	_	_	_	_	_	
+131-2	2856-2859	ich	GWithout[22]	paddeln\_set1\_17[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-paddeln\_set1\_17[22]	1	*	Subj	*	singular	false[145]	Decl[145]	*[266]	*[266]	*[266]	*[266]	*[266]	input2[266]	36[386]	male[386]	19gm0uv9ca6mcngf99lirno94a[386]	speaker: YOU[506]	*->42-2	PerPron[42]	_	_	_	
+131-3	2860-2864	fand	GWithout[22]	paddeln\_set1\_17[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-paddeln\_set1\_17[22]	_	_	_	_	_	false[145]	Decl[145]	*[266]	*[266]	*[266]	*[266]	*[266]	input2[266]	36[386]	male[386]	19gm0uv9ca6mcngf99lirno94a[386]	speaker: YOU[506]	_	_	_	_	_	
+131-4	2865-2867	es	GWithout[22]	paddeln\_set1\_17[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-paddeln\_set1\_17[22]	3	*	Embedded	*	singular	false[145]	Decl[145]	*[266]	*[266]	*[266]	*[266]	*[266]	input2[266]	36[386]	male[386]	19gm0uv9ca6mcngf99lirno94a[386]	speaker: YOU[506]	*->70-3	PerPron[70]	_	_	_	
+131-5	2868-2872	sehr	GWithout[22]	paddeln\_set1\_17[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-paddeln\_set1\_17[22]	_	_	_	_	_	false[145]	Decl[145]	*[266]	*[266]	*[266]	*[266]	*[266]	input2[266]	36[386]	male[386]	19gm0uv9ca6mcngf99lirno94a[386]	speaker: YOU[506]	_	_	_	_	_	
+131-6	2873-2877	sexy	GWithout[22]	paddeln\_set1\_17[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-paddeln\_set1\_17[22]	_	_	_	_	_	false[145]	Decl[145]	*[266]	*[266]	*[266]	*[266]	*[266]	input2[266]	36[386]	male[386]	19gm0uv9ca6mcngf99lirno94a[386]	speaker: YOU[506]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+132-1	2879-2894	END_OF_DOCUMENT	GWithout[22]	paddeln\_set1\_17[22]	latin3[22]	19gm0uv9ca6mcngf99lirno94a-paddeln\_set1\_17[22]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+133-1	2896-2899	Wie	GWithout[23]	paddeln\_set1\_17[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-paddeln\_set1\_17[23]	_	_	_	_	_	false[146]	Int[146]	*[267]	*[267]	*[267]	wh\_3[267]	wh\_question[267]	openq[267]	*[387]	female[387]	*[387]	speaker:Ella[507]	_	_	QAP	*	134-1[147_146]	
+133-2	2900-2905	gehts	GWithout[23]	paddeln\_set1\_17[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-paddeln\_set1\_17[23]	_	_	_	_	_	false[146]	Int[146]	*[267]	*[267]	*[267]	wh\_3[267]	wh\_question[267]	openq[267]	*[387]	female[387]	*[387]	speaker:Ella[507]	_	_	_	_	_	
+133-3	2906-2910	dir?	GWithout[23]	paddeln\_set1\_17[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-paddeln\_set1\_17[23]	3	*	*	*	singular	false[146]	Int[146]	*[267]	*[267]	*[267]	wh\_3[267]	wh\_question[267]	openq[267]	*[387]	female[387]	*[387]	speaker:Ella[507]	*->55-1	PerPron[55]	_	_	_	
+
+#Text=Theodor hat lange gepaddelt
+134-1	2912-2919	Theodor	GWithout[23]	paddeln\_set1\_17[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-paddeln\_set1\_17[23]	*	*	Subj	*	*	false[147]	Decl[147]	*[268]	paddeln[268]	intransitive[268]	*[268]	*[268]	item0[268]	18[388]	female[388]	4qae3ph27q5gbjcsrgnltv8qld[388]	speaker: YOU[508]	*->37-1|*->1-1	clause[37]|PropNm[1]	parallel	*	136-1[148_147]	
+134-2	2920-2923	hat	GWithout[23]	paddeln\_set1\_17[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-paddeln\_set1\_17[23]	_	_	_	_	_	false[147]	Decl[147]	*[268]	paddeln[268]	intransitive[268]	*[268]	*[268]	item0[268]	18[388]	female[388]	4qae3ph27q5gbjcsrgnltv8qld[388]	speaker: YOU[508]	*->37-1	clause[37]	_	_	_	
+134-3	2924-2929	lange	GWithout[23]	paddeln\_set1\_17[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-paddeln\_set1\_17[23]	_	_	_	_	_	false[147]	Decl[147]	*[268]	paddeln[268]	intransitive[268]	*[268]	*[268]	item0[268]	18[388]	female[388]	4qae3ph27q5gbjcsrgnltv8qld[388]	speaker: YOU[508]	*->37-1	clause[37]	_	_	_	
+134-4	2930-2939	gepaddelt	GWithout[23]	paddeln\_set1\_17[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-paddeln\_set1\_17[23]	_	_	_	_	_	false[147]	Decl[147]	*[268]	paddeln[268]	intransitive[268]	*[268]	*[268]	item0[268]	18[388]	female[388]	4qae3ph27q5gbjcsrgnltv8qld[388]	speaker: YOU[508]	*->37-1	clause[37]	_	_	_	
+
+#Text=-
+135-1	2941-2942	-	GWithout[23]	paddeln\_set1\_17[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-paddeln\_set1\_17[23]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Ella	_	_	_	_	_	
+
+#Text=ich aber auch
+136-1	2944-2947	ich	GWithout[23]	paddeln\_set1\_17[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-paddeln\_set1\_17[23]	1	*	Subj	*	singular	false[148]	NA[148]	*[269]	*[269]	*[269]	*[269]	*[269]	input1[269]	18[389]	female[389]	4qae3ph27q5gbjcsrgnltv8qld[389]	speaker: YOU[509]	*->55-2	PerPron[55]	result	*	137-1[149_148]	
+136-2	2948-2952	aber	GWithout[23]	paddeln\_set1\_17[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-paddeln\_set1\_17[23]	_	_	_	_	_	false[148]	NA[148]	*[269]	*[269]	*[269]	*[269]	*[269]	input1[269]	18[389]	female[389]	4qae3ph27q5gbjcsrgnltv8qld[389]	speaker: YOU[509]	_	_	_	_	_	
+136-3	2953-2957	auch	GWithout[23]	paddeln\_set1\_17[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-paddeln\_set1\_17[23]	_	_	_	_	_	false[148]	NA[148]	*[269]	*[269]	*[269]	*[269]	*[269]	input1[269]	18[389]	female[389]	4qae3ph27q5gbjcsrgnltv8qld[389]	speaker: YOU[509]	_	_	_	_	_	
+
+#Text=danach waren wir sehr müde
+137-1	2959-2965	danach	GWithout[23]	paddeln\_set1\_17[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-paddeln\_set1\_17[23]	_	_	_	_	_	false[149]	Decl[149]	*[270]	*[270]	*[270]	*[270]	*[270]	input2[270]	18[390]	female[390]	4qae3ph27q5gbjcsrgnltv8qld[390]	speaker: YOU[510]	*->37-2	D-Pron[37]	_	_	_	
+137-2	2966-2971	waren	GWithout[23]	paddeln\_set1\_17[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-paddeln\_set1\_17[23]	_	_	_	_	_	false[149]	Decl[149]	*[270]	*[270]	*[270]	*[270]	*[270]	input2[270]	18[390]	female[390]	4qae3ph27q5gbjcsrgnltv8qld[390]	speaker: YOU[510]	_	_	_	_	_	
+137-3	2972-2975	wir	GWithout[23]	paddeln\_set1\_17[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-paddeln\_set1\_17[23]	1	*	Subj	*	plural	false[149]	Decl[149]	*[270]	*[270]	*[270]	*[270]	*[270]	input2[270]	18[390]	female[390]	4qae3ph27q5gbjcsrgnltv8qld[390]	speaker: YOU[510]	*->36-1	PerPron[36]	_	_	_	
+137-4	2976-2980	sehr	GWithout[23]	paddeln\_set1\_17[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-paddeln\_set1\_17[23]	_	_	_	_	_	false[149]	Decl[149]	*[270]	*[270]	*[270]	*[270]	*[270]	input2[270]	18[390]	female[390]	4qae3ph27q5gbjcsrgnltv8qld[390]	speaker: YOU[510]	_	_	_	_	_	
+137-5	2981-2985	müde	GWithout[23]	paddeln\_set1\_17[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-paddeln\_set1\_17[23]	_	_	_	_	_	false[149]	Decl[149]	*[270]	*[270]	*[270]	*[270]	*[270]	input2[270]	18[390]	female[390]	4qae3ph27q5gbjcsrgnltv8qld[390]	speaker: YOU[510]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+138-1	2987-3002	END_OF_DOCUMENT	GWithout[23]	paddeln\_set1\_17[23]	latin3[23]	4qae3ph27q5gbjcsrgnltv8qld-paddeln\_set1\_17[23]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+139-1	3004-3007	Wie	GWithout[24]	paddeln\_set1\_17[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-paddeln\_set1\_17[24]	_	_	_	_	_	false[150]	Int[150]	*[271]	*[271]	*[271]	wh\_3[271]	wh\_question[271]	openq[271]	*[391]	female[391]	*[391]	speaker:Ella[511]	_	_	QAP	*	140-1[151_150]	
+139-2	3008-3013	gehts	GWithout[24]	paddeln\_set1\_17[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-paddeln\_set1\_17[24]	_	_	_	_	_	false[150]	Int[150]	*[271]	*[271]	*[271]	wh\_3[271]	wh\_question[271]	openq[271]	*[391]	female[391]	*[391]	speaker:Ella[511]	_	_	_	_	_	
+139-3	3014-3018	dir?	GWithout[24]	paddeln\_set1\_17[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-paddeln\_set1\_17[24]	2	*	*	*	singular	false[150]	Int[150]	*[271]	*[271]	*[271]	wh\_3[271]	wh\_question[271]	openq[271]	*[391]	female[391]	*[391]	speaker:Ella[511]	*->111-1	PerPron[111]	_	_	_	
+
+#Text=Theodor hat lange gepaddelt
+140-1	3020-3027	Theodor	GWithout[24]	paddeln\_set1\_17[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-paddeln\_set1\_17[24]	*	*	Subj	*	*	false[151]	Decl[151]	*[272]	paddeln[272]	intransitive[272]	*[272]	*[272]	item0[272]	19[392]	male[392]	f28ipql67ma8cbjqke6k374ach[392]	speaker: YOU[512]	*->103-1	PropNm[103]	explanation|elaboration	*|*	142-1[152_151]|143-1[153_151]	
+140-2	3028-3031	hat	GWithout[24]	paddeln\_set1\_17[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-paddeln\_set1\_17[24]	_	_	_	_	_	false[151]	Decl[151]	*[272]	paddeln[272]	intransitive[272]	*[272]	*[272]	item0[272]	19[392]	male[392]	f28ipql67ma8cbjqke6k374ach[392]	speaker: YOU[512]	_	_	_	_	_	
+140-3	3032-3037	lange	GWithout[24]	paddeln\_set1\_17[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-paddeln\_set1\_17[24]	_	_	_	_	_	false[151]	Decl[151]	*[272]	paddeln[272]	intransitive[272]	*[272]	*[272]	item0[272]	19[392]	male[392]	f28ipql67ma8cbjqke6k374ach[392]	speaker: YOU[512]	_	_	_	_	_	
+140-4	3038-3047	gepaddelt	GWithout[24]	paddeln\_set1\_17[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-paddeln\_set1\_17[24]	_	_	_	_	_	false[151]	Decl[151]	*[272]	paddeln[272]	intransitive[272]	*[272]	*[272]	item0[272]	19[392]	male[392]	f28ipql67ma8cbjqke6k374ach[392]	speaker: YOU[512]	_	_	_	_	_	
+
+#Text=-
+141-1	3049-3050	-	GWithout[24]	paddeln\_set1\_17[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-paddeln\_set1\_17[24]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Ella	_	_	_	_	_	
+
+#Text=Unser Motor ist nämlich ausgefallen.
+142-1	3052-3057	Unser	GWithout[24]	paddeln\_set1\_17[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-paddeln\_set1\_17[24]	*[46]|1[47]	*[46]|*[47]	Subj[46]|*[47]	*[46]|*[47]	*[46]|plural[47]	false[152]	Decl[152]	*[273]	*[273]	*[273]	*[273]	*[273]	input1[273]	19[393]	male[393]	f28ipql67ma8cbjqke6k374ach[393]	speaker: YOU[513]	*->4-1|*->7-1	DefNP[4]|PerPron[7]	_	_	_	
+142-2	3058-3063	Motor	GWithout[24]	paddeln\_set1\_17[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-paddeln\_set1\_17[24]	*[46]	*[46]	Subj[46]	*[46]	*[46]	false[152]	Decl[152]	*[273]	*[273]	*[273]	*[273]	*[273]	input1[273]	19[393]	male[393]	f28ipql67ma8cbjqke6k374ach[393]	speaker: YOU[513]	*->4-1	DefNP[4]	_	_	_	
+142-3	3064-3067	ist	GWithout[24]	paddeln\_set1\_17[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-paddeln\_set1\_17[24]	_	_	_	_	_	false[152]	Decl[152]	*[273]	*[273]	*[273]	*[273]	*[273]	input1[273]	19[393]	male[393]	f28ipql67ma8cbjqke6k374ach[393]	speaker: YOU[513]	_	_	_	_	_	
+142-4	3068-3075	nämlich	GWithout[24]	paddeln\_set1\_17[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-paddeln\_set1\_17[24]	_	_	_	_	_	false[152]	Decl[152]	*[273]	*[273]	*[273]	*[273]	*[273]	input1[273]	19[393]	male[393]	f28ipql67ma8cbjqke6k374ach[393]	speaker: YOU[513]	_	_	_	_	_	
+142-5	3076-3088	ausgefallen.	GWithout[24]	paddeln\_set1\_17[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-paddeln\_set1\_17[24]	_	_	_	_	_	false[152]	Decl[152]	*[273]	*[273]	*[273]	*[273]	*[273]	input1[273]	19[393]	male[393]	f28ipql67ma8cbjqke6k374ach[393]	speaker: YOU[513]	_	_	_	_	_	
+
+#Text=Wenigstens hat er ein bisschen Sport gemacht heute.
+143-1	3090-3100	Wenigstens	GWithout[24]	paddeln\_set1\_17[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-paddeln\_set1\_17[24]	_	_	_	_	_	false[153]	Decl[153]	*[274]	*[274]	*[274]	*[274]	*[274]	input2[274]	19[394]	male[394]	f28ipql67ma8cbjqke6k374ach[394]	speaker: YOU[514]	_	_	_	_	_	
+143-2	3101-3104	hat	GWithout[24]	paddeln\_set1\_17[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-paddeln\_set1\_17[24]	_	_	_	_	_	false[153]	Decl[153]	*[274]	*[274]	*[274]	*[274]	*[274]	input2[274]	19[394]	male[394]	f28ipql67ma8cbjqke6k374ach[394]	speaker: YOU[514]	_	_	_	_	_	
+143-3	3105-3107	er	GWithout[24]	paddeln\_set1\_17[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-paddeln\_set1\_17[24]	3	*	Subj	*	singular	false[153]	Decl[153]	*[274]	*[274]	*[274]	*[274]	*[274]	input2[274]	19[394]	male[394]	f28ipql67ma8cbjqke6k374ach[394]	speaker: YOU[514]	*->30-1	PerPron[30]	_	_	_	
+143-4	3108-3111	ein	GWithout[24]	paddeln\_set1\_17[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-paddeln\_set1\_17[24]	*[48]	*[48]	DirObj[48]	*[48]	*[48]	false[153]	Decl[153]	*[274]	*[274]	*[274]	*[274]	*[274]	input2[274]	19[394]	male[394]	f28ipql67ma8cbjqke6k374ach[394]	speaker: YOU[514]	*->83-1	IndefNP[83]	_	_	_	
+143-5	3112-3120	bisschen	GWithout[24]	paddeln\_set1\_17[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-paddeln\_set1\_17[24]	*[48]	*[48]	DirObj[48]	*[48]	*[48]	false[153]	Decl[153]	*[274]	*[274]	*[274]	*[274]	*[274]	input2[274]	19[394]	male[394]	f28ipql67ma8cbjqke6k374ach[394]	speaker: YOU[514]	*->83-1	IndefNP[83]	_	_	_	
+143-6	3121-3126	Sport	GWithout[24]	paddeln\_set1\_17[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-paddeln\_set1\_17[24]	*[48]	*[48]	DirObj[48]	*[48]	*[48]	false[153]	Decl[153]	*[274]	*[274]	*[274]	*[274]	*[274]	input2[274]	19[394]	male[394]	f28ipql67ma8cbjqke6k374ach[394]	speaker: YOU[514]	*->83-1	IndefNP[83]	_	_	_	
+143-7	3127-3134	gemacht	GWithout[24]	paddeln\_set1\_17[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-paddeln\_set1\_17[24]	_	_	_	_	_	false[153]	Decl[153]	*[274]	*[274]	*[274]	*[274]	*[274]	input2[274]	19[394]	male[394]	f28ipql67ma8cbjqke6k374ach[394]	speaker: YOU[514]	_	_	_	_	_	
+143-8	3135-3141	heute.	GWithout[24]	paddeln\_set1\_17[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-paddeln\_set1\_17[24]	_	_	_	_	_	false[153]	Decl[153]	*[274]	*[274]	*[274]	*[274]	*[274]	input2[274]	19[394]	male[394]	f28ipql67ma8cbjqke6k374ach[394]	speaker: YOU[514]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+144-1	3143-3158	END_OF_DOCUMENT	GWithout[24]	paddeln\_set1\_17[24]	latin3[24]	f28ipql67ma8cbjqke6k374ach-paddeln\_set1\_17[24]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+145-1	3160-3163	Wie	GWithout[25]	paddeln\_set1\_17[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-paddeln\_set1\_17[25]	_	_	_	_	_	false[154]	Int[154]	*[275]	*[275]	*[275]	wh\_3[275]	wh\_question[275]	openq[275]	*[395]	female[395]	*[395]	speaker:Ella[515]	_	_	QAP	*	146-1[155_154]	
+145-2	3164-3169	gehts	GWithout[25]	paddeln\_set1\_17[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-paddeln\_set1\_17[25]	_	_	_	_	_	false[154]	Int[154]	*[275]	*[275]	*[275]	wh\_3[275]	wh\_question[275]	openq[275]	*[395]	female[395]	*[395]	speaker:Ella[515]	_	_	_	_	_	
+145-3	3170-3174	dir?	GWithout[25]	paddeln\_set1\_17[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-paddeln\_set1\_17[25]	2	*	*	*	singular	false[154]	Int[154]	*[275]	*[275]	*[275]	wh\_3[275]	wh\_question[275]	openq[275]	*[395]	female[395]	*[395]	speaker:Ella[515]	*->33-1	PerPron[33]	_	_	_	
+
+#Text=Theodor hat lange gepaddelt
+146-1	3176-3183	Theodor	GWithout[25]	paddeln\_set1\_17[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-paddeln\_set1\_17[25]	*	*	Subj	*	*	false[155]	Decl[155]	*[276]	paddeln[276]	intransitive[276]	*[276]	*[276]	item0[276]	36[396]	male[396]	ifdbjqro2nfkup12rv8t6k0eu9[396]	speaker: YOU[516]	*->19-1	PropNm[19]	elaboration	*	148-1[156_155]	
+146-2	3184-3187	hat	GWithout[25]	paddeln\_set1\_17[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-paddeln\_set1\_17[25]	_	_	_	_	_	false[155]	Decl[155]	*[276]	paddeln[276]	intransitive[276]	*[276]	*[276]	item0[276]	36[396]	male[396]	ifdbjqro2nfkup12rv8t6k0eu9[396]	speaker: YOU[516]	_	_	_	_	_	
+146-3	3188-3193	lange	GWithout[25]	paddeln\_set1\_17[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-paddeln\_set1\_17[25]	_	_	_	_	_	false[155]	Decl[155]	*[276]	paddeln[276]	intransitive[276]	*[276]	*[276]	item0[276]	36[396]	male[396]	ifdbjqro2nfkup12rv8t6k0eu9[396]	speaker: YOU[516]	_	_	_	_	_	
+146-4	3194-3203	gepaddelt	GWithout[25]	paddeln\_set1\_17[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-paddeln\_set1\_17[25]	_	_	_	_	_	false[155]	Decl[155]	*[276]	paddeln[276]	intransitive[276]	*[276]	*[276]	item0[276]	36[396]	male[396]	ifdbjqro2nfkup12rv8t6k0eu9[396]	speaker: YOU[516]	_	_	_	_	_	
+
+#Text=-
+147-1	3205-3206	-	GWithout[25]	paddeln\_set1\_17[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-paddeln\_set1\_17[25]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Ella	_	_	_	_	_	
+
+#Text=6 Stunden.
+148-1	3208-3209	6	GWithout[25]	paddeln\_set1\_17[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-paddeln\_set1\_17[25]	_	_	_	_	_	false[156]	NA[156]	*[277]	*[277]	*[277]	*[277]	*[277]	input1[277]	36[397]	male[397]	ifdbjqro2nfkup12rv8t6k0eu9[397]	speaker: YOU[517]	*->64-1	IndefNP[64]	elaboration	*	149-1[157_156]	
+148-2	3210-3218	Stunden.	GWithout[25]	paddeln\_set1\_17[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-paddeln\_set1\_17[25]	_	_	_	_	_	false[156]	NA[156]	*[277]	*[277]	*[277]	*[277]	*[277]	input1[277]	36[397]	male[397]	ifdbjqro2nfkup12rv8t6k0eu9[397]	speaker: YOU[517]	*->64-1	IndefNP[64]	_	_	_	
+
+#Text=richtig heftig
+149-1	3220-3227	richtig	GWithout[25]	paddeln\_set1\_17[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-paddeln\_set1\_17[25]	_	_	_	_	_	false[157]	NA[157]	*[278]	*[278]	*[278]	*[278]	*[278]	input2[278]	36[398]	male[398]	ifdbjqro2nfkup12rv8t6k0eu9[398]	speaker: YOU[518]	_	_	_	_	_	
+149-2	3228-3234	heftig	GWithout[25]	paddeln\_set1\_17[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-paddeln\_set1\_17[25]	_	_	_	_	_	false[157]	NA[157]	*[278]	*[278]	*[278]	*[278]	*[278]	input2[278]	36[398]	male[398]	ifdbjqro2nfkup12rv8t6k0eu9[398]	speaker: YOU[518]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+150-1	3236-3251	END_OF_DOCUMENT	GWithout[25]	paddeln\_set1\_17[25]	latin3[25]	ifdbjqro2nfkup12rv8t6k0eu9-paddeln\_set1\_17[25]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+151-1	3253-3256	Wie	GWithout[26]	paddeln\_set1\_17[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-paddeln\_set1\_17[26]	_	_	_	_	_	false[158]	Int[158]	*[279]	*[279]	*[279]	wh\_3[279]	wh\_question[279]	openq[279]	*[399]	female[399]	*[399]	speaker:Ella[519]	_	_	QAP	*	152-1[159_158]	
+151-2	3257-3262	gehts	GWithout[26]	paddeln\_set1\_17[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-paddeln\_set1\_17[26]	_	_	_	_	_	false[158]	Int[158]	*[279]	*[279]	*[279]	wh\_3[279]	wh\_question[279]	openq[279]	*[399]	female[399]	*[399]	speaker:Ella[519]	_	_	_	_	_	
+151-3	3263-3267	dir?	GWithout[26]	paddeln\_set1\_17[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-paddeln\_set1\_17[26]	2	*	*	*	singular	false[158]	Int[158]	*[279]	*[279]	*[279]	wh\_3[279]	wh\_question[279]	openq[279]	*[399]	female[399]	*[399]	speaker:Ella[519]	*->109-1	PerPron[109]	_	_	_	
+
+#Text=Theodor hat lange gepaddelt
+152-1	3269-3276	Theodor	GWithout[26]	paddeln\_set1\_17[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-paddeln\_set1\_17[26]	*	*	Subj	*	*	false[159]	Decl[159]	*[280]	paddeln[280]	intransitive[280]	*[280]	*[280]	item0[280]	27[400]	female[400]	nn1fs9jkn62eo9089lo89usbkb[400]	speaker: YOU[520]	*->73-1	PropNm[73]	result	*	154-1[160_159]	
+152-2	3277-3280	hat	GWithout[26]	paddeln\_set1\_17[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-paddeln\_set1\_17[26]	_	_	_	_	_	false[159]	Decl[159]	*[280]	paddeln[280]	intransitive[280]	*[280]	*[280]	item0[280]	27[400]	female[400]	nn1fs9jkn62eo9089lo89usbkb[400]	speaker: YOU[520]	_	_	_	_	_	
+152-3	3281-3286	lange	GWithout[26]	paddeln\_set1\_17[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-paddeln\_set1\_17[26]	_	_	_	_	_	false[159]	Decl[159]	*[280]	paddeln[280]	intransitive[280]	*[280]	*[280]	item0[280]	27[400]	female[400]	nn1fs9jkn62eo9089lo89usbkb[400]	speaker: YOU[520]	_	_	_	_	_	
+152-4	3287-3296	gepaddelt	GWithout[26]	paddeln\_set1\_17[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-paddeln\_set1\_17[26]	_	_	_	_	_	false[159]	Decl[159]	*[280]	paddeln[280]	intransitive[280]	*[280]	*[280]	item0[280]	27[400]	female[400]	nn1fs9jkn62eo9089lo89usbkb[400]	speaker: YOU[520]	_	_	_	_	_	
+
+#Text=-
+153-1	3298-3299	-	GWithout[26]	paddeln\_set1\_17[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-paddeln\_set1\_17[26]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Ella	_	_	_	_	_	
+
+#Text=Dann ist er sofort im Auto eingeschlafen.
+154-1	3301-3305	Dann	GWithout[26]	paddeln\_set1\_17[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-paddeln\_set1\_17[26]	_	_	_	_	_	false[160]	Decl[160]	*[281]	*[281]	*[281]	*[281]	*[281]	input1[281]	27[401]	female[401]	nn1fs9jkn62eo9089lo89usbkb[401]	speaker: YOU[521]	_	_	result	*	155-1[161_160]	
+154-2	3306-3309	ist	GWithout[26]	paddeln\_set1\_17[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-paddeln\_set1\_17[26]	_	_	_	_	_	false[160]	Decl[160]	*[281]	*[281]	*[281]	*[281]	*[281]	input1[281]	27[401]	female[401]	nn1fs9jkn62eo9089lo89usbkb[401]	speaker: YOU[521]	_	_	_	_	_	
+154-3	3310-3312	er	GWithout[26]	paddeln\_set1\_17[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-paddeln\_set1\_17[26]	3	*	Subj	*	singular	false[160]	Decl[160]	*[281]	*[281]	*[281]	*[281]	*[281]	input1[281]	27[401]	female[401]	nn1fs9jkn62eo9089lo89usbkb[401]	speaker: YOU[521]	*->73-2	PerPron[73]	_	_	_	
+154-4	3313-3319	sofort	GWithout[26]	paddeln\_set1\_17[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-paddeln\_set1\_17[26]	_	_	_	_	_	false[160]	Decl[160]	*[281]	*[281]	*[281]	*[281]	*[281]	input1[281]	27[401]	female[401]	nn1fs9jkn62eo9089lo89usbkb[401]	speaker: YOU[521]	_	_	_	_	_	
+154-5	3320-3322	im	GWithout[26]	paddeln\_set1\_17[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-paddeln\_set1\_17[26]	_	_	_	_	_	false[160]	Decl[160]	*[281]	*[281]	*[281]	*[281]	*[281]	input1[281]	27[401]	female[401]	nn1fs9jkn62eo9089lo89usbkb[401]	speaker: YOU[521]	*->15-1	DefNP[15]	_	_	_	
+154-6	3323-3327	Auto	GWithout[26]	paddeln\_set1\_17[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-paddeln\_set1\_17[26]	*	*	PrepObj	*	*	false[160]	Decl[160]	*[281]	*[281]	*[281]	*[281]	*[281]	input1[281]	27[401]	female[401]	nn1fs9jkn62eo9089lo89usbkb[401]	speaker: YOU[521]	*->15-1	DefNP[15]	_	_	_	
+154-7	3328-3342	eingeschlafen.	GWithout[26]	paddeln\_set1\_17[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-paddeln\_set1\_17[26]	_	_	_	_	_	false[160]	Decl[160]	*[281]	*[281]	*[281]	*[281]	*[281]	input1[281]	27[401]	female[401]	nn1fs9jkn62eo9089lo89usbkb[401]	speaker: YOU[521]	_	_	_	_	_	
+
+#Text=Jetzt habe ich einen ruhigen Abend vor mir.
+155-1	3344-3349	Jetzt	GWithout[26]	paddeln\_set1\_17[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-paddeln\_set1\_17[26]	_	_	_	_	_	false[161]	Decl[161]	*[282]	*[282]	*[282]	*[282]	*[282]	input2[282]	27[402]	female[402]	nn1fs9jkn62eo9089lo89usbkb[402]	speaker: YOU[522]	_	_	_	_	_	
+155-2	3350-3354	habe	GWithout[26]	paddeln\_set1\_17[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-paddeln\_set1\_17[26]	_	_	_	_	_	false[161]	Decl[161]	*[282]	*[282]	*[282]	*[282]	*[282]	input2[282]	27[402]	female[402]	nn1fs9jkn62eo9089lo89usbkb[402]	speaker: YOU[522]	_	_	_	_	_	
+155-3	3355-3358	ich	GWithout[26]	paddeln\_set1\_17[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-paddeln\_set1\_17[26]	1	*	Subj	*	singular	false[161]	Decl[161]	*[282]	*[282]	*[282]	*[282]	*[282]	input2[282]	27[402]	female[402]	nn1fs9jkn62eo9089lo89usbkb[402]	speaker: YOU[522]	*->109-2	PerPron[109]	_	_	_	
+155-4	3359-3364	einen	GWithout[26]	paddeln\_set1\_17[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-paddeln\_set1\_17[26]	*[49]	*[49]	DirObj[49]	*[49]	*[49]	false[161]	Decl[161]	*[282]	*[282]	*[282]	*[282]	*[282]	input2[282]	27[402]	female[402]	nn1fs9jkn62eo9089lo89usbkb[402]	speaker: YOU[522]	*->41-1	IndefNP[41]	_	_	_	
+155-5	3365-3372	ruhigen	GWithout[26]	paddeln\_set1\_17[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-paddeln\_set1\_17[26]	*[49]	*[49]	DirObj[49]	*[49]	*[49]	false[161]	Decl[161]	*[282]	*[282]	*[282]	*[282]	*[282]	input2[282]	27[402]	female[402]	nn1fs9jkn62eo9089lo89usbkb[402]	speaker: YOU[522]	*->41-1	IndefNP[41]	_	_	_	
+155-6	3373-3378	Abend	GWithout[26]	paddeln\_set1\_17[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-paddeln\_set1\_17[26]	*[49]	*[49]	DirObj[49]	*[49]	*[49]	false[161]	Decl[161]	*[282]	*[282]	*[282]	*[282]	*[282]	input2[282]	27[402]	female[402]	nn1fs9jkn62eo9089lo89usbkb[402]	speaker: YOU[522]	*->41-1	IndefNP[41]	_	_	_	
+155-7	3379-3382	vor	GWithout[26]	paddeln\_set1\_17[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-paddeln\_set1\_17[26]	_	_	_	_	_	false[161]	Decl[161]	*[282]	*[282]	*[282]	*[282]	*[282]	input2[282]	27[402]	female[402]	nn1fs9jkn62eo9089lo89usbkb[402]	speaker: YOU[522]	_	_	_	_	_	
+155-8	3383-3387	mir.	GWithout[26]	paddeln\_set1\_17[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-paddeln\_set1\_17[26]	1	*	PrepObj	*	singular	false[161]	Decl[161]	*[282]	*[282]	*[282]	*[282]	*[282]	input2[282]	27[402]	female[402]	nn1fs9jkn62eo9089lo89usbkb[402]	speaker: YOU[522]	*->109-3	PerPron[109]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+156-1	3389-3404	END_OF_DOCUMENT	GWithout[26]	paddeln\_set1\_17[26]	latin3[26]	nn1fs9jkn62eo9089lo89usbkb-paddeln\_set1\_17[26]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+157-1	3406-3409	Wie	GWithout[27]	paddeln\_set1\_17[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-paddeln\_set1\_17[27]	_	_	_	_	_	false[162]	Int[162]	*[283]	*[283]	*[283]	wh\_3[283]	wh\_question[283]	openq[283]	*[403]	female[403]	*[403]	speaker:Ella[523]	_	_	QAP	*	158-1[163_162]	
+157-2	3410-3415	gehts	GWithout[27]	paddeln\_set1\_17[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-paddeln\_set1\_17[27]	_	_	_	_	_	false[162]	Int[162]	*[283]	*[283]	*[283]	wh\_3[283]	wh\_question[283]	openq[283]	*[403]	female[403]	*[403]	speaker:Ella[523]	_	_	_	_	_	
+157-3	3416-3420	dir?	GWithout[27]	paddeln\_set1\_17[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-paddeln\_set1\_17[27]	2	*	*	*	singular	false[162]	Int[162]	*[283]	*[283]	*[283]	wh\_3[283]	wh\_question[283]	openq[283]	*[403]	female[403]	*[403]	speaker:Ella[523]	*->27-1	PerPron[27]	_	_	_	
+
+#Text=Theodor hat lange gepaddelt
+158-1	3422-3429	Theodor	GWithout[27]	paddeln\_set1\_17[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-paddeln\_set1\_17[27]	*	*	Subj	*	*	false[163]	Decl[163]	*[284]	paddeln[284]	intransitive[284]	*[284]	*[284]	item0[284]	24[404]	male[404]	qaaqp55l485lvs9rdvpvbtmqal[404]	speaker: YOU[524]	*->114-1	PropNm[114]	narration	*	160-1[164_163]	
+158-2	3430-3433	hat	GWithout[27]	paddeln\_set1\_17[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-paddeln\_set1\_17[27]	_	_	_	_	_	false[163]	Decl[163]	*[284]	paddeln[284]	intransitive[284]	*[284]	*[284]	item0[284]	24[404]	male[404]	qaaqp55l485lvs9rdvpvbtmqal[404]	speaker: YOU[524]	_	_	_	_	_	
+158-3	3434-3439	lange	GWithout[27]	paddeln\_set1\_17[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-paddeln\_set1\_17[27]	_	_	_	_	_	false[163]	Decl[163]	*[284]	paddeln[284]	intransitive[284]	*[284]	*[284]	item0[284]	24[404]	male[404]	qaaqp55l485lvs9rdvpvbtmqal[404]	speaker: YOU[524]	_	_	_	_	_	
+158-4	3440-3449	gepaddelt	GWithout[27]	paddeln\_set1\_17[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-paddeln\_set1\_17[27]	_	_	_	_	_	false[163]	Decl[163]	*[284]	paddeln[284]	intransitive[284]	*[284]	*[284]	item0[284]	24[404]	male[404]	qaaqp55l485lvs9rdvpvbtmqal[404]	speaker: YOU[524]	_	_	_	_	_	
+
+#Text=-
+159-1	3451-3452	-	GWithout[27]	paddeln\_set1\_17[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-paddeln\_set1\_17[27]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Ella	_	_	_	_	_	
+
+#Text=Als er aus dem Kanu stieg <BR> legte er sich erschöpft auf den Boden
+160-1	3454-3457	Als	GWithout[27]	paddeln\_set1\_17[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-paddeln\_set1\_17[27]	_	_	_	_	_	false[164]	NA[164]	*[285]	*[285]	*[285]	*[285]	*[285]	input1[285]	24[405]	male[405]	qaaqp55l485lvs9rdvpvbtmqal[405]	speaker: YOU[525]	_	_	narration	*	160-8[165_164]	
+160-2	3458-3460	er	GWithout[27]	paddeln\_set1\_17[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-paddeln\_set1\_17[27]	3	*	Subj	*	singular	false[164]	NA[164]	*[285]	*[285]	*[285]	*[285]	*[285]	input1[285]	24[405]	male[405]	qaaqp55l485lvs9rdvpvbtmqal[405]	speaker: YOU[525]	*->114-2	PerPron[114]	_	_	_	
+160-3	3461-3464	aus	GWithout[27]	paddeln\_set1\_17[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-paddeln\_set1\_17[27]	_	_	_	_	_	false[164]	NA[164]	*[285]	*[285]	*[285]	*[285]	*[285]	input1[285]	24[405]	male[405]	qaaqp55l485lvs9rdvpvbtmqal[405]	speaker: YOU[525]	_	_	_	_	_	
+160-4	3465-3468	dem	GWithout[27]	paddeln\_set1\_17[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-paddeln\_set1\_17[27]	*[50]	*[50]	PrepObj[50]	*[50]	*[50]	false[164]	NA[164]	*[285]	*[285]	*[285]	*[285]	*[285]	input1[285]	24[405]	male[405]	qaaqp55l485lvs9rdvpvbtmqal[405]	speaker: YOU[525]	*->54-1	DefNP[54]	_	_	_	
+160-5	3469-3473	Kanu	GWithout[27]	paddeln\_set1\_17[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-paddeln\_set1\_17[27]	*[50]	*[50]	PrepObj[50]	*[50]	*[50]	false[164]	NA[164]	*[285]	*[285]	*[285]	*[285]	*[285]	input1[285]	24[405]	male[405]	qaaqp55l485lvs9rdvpvbtmqal[405]	speaker: YOU[525]	*->54-1	DefNP[54]	_	_	_	
+160-6	3474-3479	stieg	GWithout[27]	paddeln\_set1\_17[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-paddeln\_set1\_17[27]	_	_	_	_	_	false[164]	NA[164]	*[285]	*[285]	*[285]	*[285]	*[285]	input1[285]	24[405]	male[405]	qaaqp55l485lvs9rdvpvbtmqal[405]	speaker: YOU[525]	_	_	_	_	_	
+160-7	3480-3484	<BR>	GWithout[27]	paddeln\_set1\_17[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-paddeln\_set1\_17[27]	_	_	_	_	_	_	_	*[285]	*[285]	*[285]	*[285]	*[285]	input1[285]	24[405]	male[405]	qaaqp55l485lvs9rdvpvbtmqal[405]	speaker: YOU[525]	_	_	_	_	_	
+160-8	3485-3490	legte	GWithout[27]	paddeln\_set1\_17[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-paddeln\_set1\_17[27]	_	_	_	_	_	false[165]	Decl[165]	*[285]	*[285]	*[285]	*[285]	*[285]	input1[285]	24[405]	male[405]	qaaqp55l485lvs9rdvpvbtmqal[405]	speaker: YOU[525]	_	_	narration	*	161-1[166_165]	
+160-9	3491-3493	er	GWithout[27]	paddeln\_set1\_17[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-paddeln\_set1\_17[27]	3	*	Subj	*	singular	false[165]	Decl[165]	*[285]	*[285]	*[285]	*[285]	*[285]	input1[285]	24[405]	male[405]	qaaqp55l485lvs9rdvpvbtmqal[405]	speaker: YOU[525]	*->114-3	PerPron[114]	_	_	_	
+160-10	3494-3498	sich	GWithout[27]	paddeln\_set1\_17[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-paddeln\_set1\_17[27]	_	_	_	_	_	false[165]	Decl[165]	*[285]	*[285]	*[285]	*[285]	*[285]	input1[285]	24[405]	male[405]	qaaqp55l485lvs9rdvpvbtmqal[405]	speaker: YOU[525]	_	_	_	_	_	
+160-11	3499-3508	erschöpft	GWithout[27]	paddeln\_set1\_17[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-paddeln\_set1\_17[27]	_	_	_	_	_	false[165]	Decl[165]	*[285]	*[285]	*[285]	*[285]	*[285]	input1[285]	24[405]	male[405]	qaaqp55l485lvs9rdvpvbtmqal[405]	speaker: YOU[525]	_	_	_	_	_	
+160-12	3509-3512	auf	GWithout[27]	paddeln\_set1\_17[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-paddeln\_set1\_17[27]	_	_	_	_	_	false[165]	Decl[165]	*[285]	*[285]	*[285]	*[285]	*[285]	input1[285]	24[405]	male[405]	qaaqp55l485lvs9rdvpvbtmqal[405]	speaker: YOU[525]	_	_	_	_	_	
+160-13	3513-3516	den	GWithout[27]	paddeln\_set1\_17[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-paddeln\_set1\_17[27]	*[51]	*[51]	PrepObj[51]	*[51]	*[51]	false[165]	Decl[165]	*[285]	*[285]	*[285]	*[285]	*[285]	input1[285]	24[405]	male[405]	qaaqp55l485lvs9rdvpvbtmqal[405]	speaker: YOU[525]	*->89-1	DefNP[89]	_	_	_	
+160-14	3517-3522	Boden	GWithout[27]	paddeln\_set1\_17[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-paddeln\_set1\_17[27]	*[51]	*[51]	PrepObj[51]	*[51]	*[51]	false[165]	Decl[165]	*[285]	*[285]	*[285]	*[285]	*[285]	input1[285]	24[405]	male[405]	qaaqp55l485lvs9rdvpvbtmqal[405]	speaker: YOU[525]	*->89-1	DefNP[89]	_	_	_	
+
+#Text=Nun kommt er wieder langsam zu Kräften
+161-1	3524-3527	Nun	GWithout[27]	paddeln\_set1\_17[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-paddeln\_set1\_17[27]	_	_	_	_	_	false[166]	Decl[166]	*[286]	*[286]	*[286]	*[286]	*[286]	input2[286]	24[406]	male[406]	qaaqp55l485lvs9rdvpvbtmqal[406]	speaker: YOU[526]	_	_	_	_	_	
+161-2	3528-3533	kommt	GWithout[27]	paddeln\_set1\_17[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-paddeln\_set1\_17[27]	_	_	_	_	_	false[166]	Decl[166]	*[286]	*[286]	*[286]	*[286]	*[286]	input2[286]	24[406]	male[406]	qaaqp55l485lvs9rdvpvbtmqal[406]	speaker: YOU[526]	_	_	_	_	_	
+161-3	3534-3536	er	GWithout[27]	paddeln\_set1\_17[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-paddeln\_set1\_17[27]	3	*	Subj	*	singular	false[166]	Decl[166]	*[286]	*[286]	*[286]	*[286]	*[286]	input2[286]	24[406]	male[406]	qaaqp55l485lvs9rdvpvbtmqal[406]	speaker: YOU[526]	*->114-4	PerPron[114]	_	_	_	
+161-4	3537-3543	wieder	GWithout[27]	paddeln\_set1\_17[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-paddeln\_set1\_17[27]	_	_	_	_	_	false[166]	Decl[166]	*[286]	*[286]	*[286]	*[286]	*[286]	input2[286]	24[406]	male[406]	qaaqp55l485lvs9rdvpvbtmqal[406]	speaker: YOU[526]	_	_	_	_	_	
+161-5	3544-3551	langsam	GWithout[27]	paddeln\_set1\_17[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-paddeln\_set1\_17[27]	_	_	_	_	_	false[166]	Decl[166]	*[286]	*[286]	*[286]	*[286]	*[286]	input2[286]	24[406]	male[406]	qaaqp55l485lvs9rdvpvbtmqal[406]	speaker: YOU[526]	_	_	_	_	_	
+161-6	3552-3554	zu	GWithout[27]	paddeln\_set1\_17[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-paddeln\_set1\_17[27]	_	_	_	_	_	false[166]	Decl[166]	*[286]	*[286]	*[286]	*[286]	*[286]	input2[286]	24[406]	male[406]	qaaqp55l485lvs9rdvpvbtmqal[406]	speaker: YOU[526]	_	_	_	_	_	
+161-7	3555-3562	Kräften	GWithout[27]	paddeln\_set1\_17[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-paddeln\_set1\_17[27]	_	_	_	_	_	false[166]	Decl[166]	*[286]	*[286]	*[286]	*[286]	*[286]	input2[286]	24[406]	male[406]	qaaqp55l485lvs9rdvpvbtmqal[406]	speaker: YOU[526]	*->48-1	IndefNP[48]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+162-1	3564-3579	END_OF_DOCUMENT	GWithout[27]	paddeln\_set1\_17[27]	latin3[27]	qaaqp55l485lvs9rdvpvbtmqal-paddeln\_set1\_17[27]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+163-1	3581-3584	Wie	GWithout[28]	paddeln\_set1\_17[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-paddeln\_set1\_17[28]	_	_	_	_	_	false[167]	Int[167]	*[287]	*[287]	*[287]	wh\_3[287]	wh\_question[287]	openq[287]	*[407]	female[407]	*[407]	speaker:Ella[527]	_	_	QAP	*	164-1[168_167]	
+163-2	3585-3590	gehts	GWithout[28]	paddeln\_set1\_17[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-paddeln\_set1\_17[28]	_	_	_	_	_	false[167]	Int[167]	*[287]	*[287]	*[287]	wh\_3[287]	wh\_question[287]	openq[287]	*[407]	female[407]	*[407]	speaker:Ella[527]	_	_	_	_	_	
+163-3	3591-3595	dir?	GWithout[28]	paddeln\_set1\_17[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-paddeln\_set1\_17[28]	2	*	*	*	singular	false[167]	Int[167]	*[287]	*[287]	*[287]	wh\_3[287]	wh\_question[287]	openq[287]	*[407]	female[407]	*[407]	speaker:Ella[527]	*->61-1	PerPron[61]	_	_	_	
+
+#Text=Theodor hat lange gepaddelt
+164-1	3597-3604	Theodor	GWithout[28]	paddeln\_set1\_17[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-paddeln\_set1\_17[28]	*	*	Subj	*	*	false[168]	Decl[168]	*[288]	paddeln[288]	intransitive[288]	*[288]	*[288]	item0[288]	25[408]	female[408]	t6ah1r7hfmcncb44kgnh0sjmv6[408]	speaker: YOU[528]	*->93-1	PropNm[93]	result	*	166-1[169_168]	
+164-2	3605-3608	hat	GWithout[28]	paddeln\_set1\_17[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-paddeln\_set1\_17[28]	_	_	_	_	_	false[168]	Decl[168]	*[288]	paddeln[288]	intransitive[288]	*[288]	*[288]	item0[288]	25[408]	female[408]	t6ah1r7hfmcncb44kgnh0sjmv6[408]	speaker: YOU[528]	_	_	_	_	_	
+164-3	3609-3614	lange	GWithout[28]	paddeln\_set1\_17[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-paddeln\_set1\_17[28]	_	_	_	_	_	false[168]	Decl[168]	*[288]	paddeln[288]	intransitive[288]	*[288]	*[288]	item0[288]	25[408]	female[408]	t6ah1r7hfmcncb44kgnh0sjmv6[408]	speaker: YOU[528]	_	_	_	_	_	
+164-4	3615-3624	gepaddelt	GWithout[28]	paddeln\_set1\_17[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-paddeln\_set1\_17[28]	_	_	_	_	_	false[168]	Decl[168]	*[288]	paddeln[288]	intransitive[288]	*[288]	*[288]	item0[288]	25[408]	female[408]	t6ah1r7hfmcncb44kgnh0sjmv6[408]	speaker: YOU[528]	_	_	_	_	_	
+
+#Text=-
+165-1	3626-3627	-	GWithout[28]	paddeln\_set1\_17[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-paddeln\_set1\_17[28]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Ella	_	_	_	_	_	
+
+#Text=Ich hatte schon gar keine Lust mehr.
+166-1	3629-3632	Ich	GWithout[28]	paddeln\_set1\_17[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-paddeln\_set1\_17[28]	1	*	Subj	*	singular	false[169]	Decl[169]	*[289]	*[289]	*[289]	*[289]	*[289]	input1[289]	25[409]	female[409]	t6ah1r7hfmcncb44kgnh0sjmv6[409]	speaker: YOU[529]	*->61-2	PerPron[61]	elaboration	*	167-1[170_169]	
+166-2	3633-3638	hatte	GWithout[28]	paddeln\_set1\_17[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-paddeln\_set1\_17[28]	_	_	_	_	_	false[169]	Decl[169]	*[289]	*[289]	*[289]	*[289]	*[289]	input1[289]	25[409]	female[409]	t6ah1r7hfmcncb44kgnh0sjmv6[409]	speaker: YOU[529]	_	_	_	_	_	
+166-3	3639-3644	schon	GWithout[28]	paddeln\_set1\_17[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-paddeln\_set1\_17[28]	_	_	_	_	_	false[169]	Decl[169]	*[289]	*[289]	*[289]	*[289]	*[289]	input1[289]	25[409]	female[409]	t6ah1r7hfmcncb44kgnh0sjmv6[409]	speaker: YOU[529]	_	_	_	_	_	
+166-4	3645-3648	gar	GWithout[28]	paddeln\_set1\_17[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-paddeln\_set1\_17[28]	_	_	_	_	_	false[169]	Decl[169]	*[289]	*[289]	*[289]	*[289]	*[289]	input1[289]	25[409]	female[409]	t6ah1r7hfmcncb44kgnh0sjmv6[409]	speaker: YOU[529]	_	_	_	_	_	
+166-5	3649-3654	keine	GWithout[28]	paddeln\_set1\_17[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-paddeln\_set1\_17[28]	_	_	_	_	_	false[169]	Decl[169]	*[289]	*[289]	*[289]	*[289]	*[289]	input1[289]	25[409]	female[409]	t6ah1r7hfmcncb44kgnh0sjmv6[409]	speaker: YOU[529]	_	_	_	_	_	
+166-6	3655-3659	Lust	GWithout[28]	paddeln\_set1\_17[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-paddeln\_set1\_17[28]	_	_	_	_	_	false[169]	Decl[169]	*[289]	*[289]	*[289]	*[289]	*[289]	input1[289]	25[409]	female[409]	t6ah1r7hfmcncb44kgnh0sjmv6[409]	speaker: YOU[529]	_	_	_	_	_	
+166-7	3660-3665	mehr.	GWithout[28]	paddeln\_set1\_17[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-paddeln\_set1\_17[28]	_	_	_	_	_	false[169]	Decl[169]	*[289]	*[289]	*[289]	*[289]	*[289]	input1[289]	25[409]	female[409]	t6ah1r7hfmcncb44kgnh0sjmv6[409]	speaker: YOU[529]	_	_	_	_	_	
+
+#Text=Der Tag war echt langweilig.
+167-1	3667-3670	Der	GWithout[28]	paddeln\_set1\_17[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-paddeln\_set1\_17[28]	_	_	_	_	_	false[170]	Decl[170]	*[290]	*[290]	*[290]	*[290]	*[290]	input2[290]	25[410]	female[410]	t6ah1r7hfmcncb44kgnh0sjmv6[410]	speaker: YOU[530]	*->56-1	DefNP[56]	_	_	_	
+167-2	3671-3674	Tag	GWithout[28]	paddeln\_set1\_17[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-paddeln\_set1\_17[28]	_	_	_	_	_	false[170]	Decl[170]	*[290]	*[290]	*[290]	*[290]	*[290]	input2[290]	25[410]	female[410]	t6ah1r7hfmcncb44kgnh0sjmv6[410]	speaker: YOU[530]	*->56-1	DefNP[56]	_	_	_	
+167-3	3675-3678	war	GWithout[28]	paddeln\_set1\_17[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-paddeln\_set1\_17[28]	_	_	_	_	_	false[170]	Decl[170]	*[290]	*[290]	*[290]	*[290]	*[290]	input2[290]	25[410]	female[410]	t6ah1r7hfmcncb44kgnh0sjmv6[410]	speaker: YOU[530]	_	_	_	_	_	
+167-4	3679-3683	echt	GWithout[28]	paddeln\_set1\_17[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-paddeln\_set1\_17[28]	_	_	_	_	_	false[170]	Decl[170]	*[290]	*[290]	*[290]	*[290]	*[290]	input2[290]	25[410]	female[410]	t6ah1r7hfmcncb44kgnh0sjmv6[410]	speaker: YOU[530]	_	_	_	_	_	
+167-5	3684-3695	langweilig.	GWithout[28]	paddeln\_set1\_17[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-paddeln\_set1\_17[28]	_	_	_	_	_	false[170]	Decl[170]	*[290]	*[290]	*[290]	*[290]	*[290]	input2[290]	25[410]	female[410]	t6ah1r7hfmcncb44kgnh0sjmv6[410]	speaker: YOU[530]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+168-1	3697-3712	END_OF_DOCUMENT	GWithout[28]	paddeln\_set1\_17[28]	latin3[28]	t6ah1r7hfmcncb44kgnh0sjmv6-paddeln\_set1\_17[28]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+169-1	3714-3717	Wie	GWithout[29]	paddeln\_set1\_17[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-paddeln\_set1\_17[29]	_	_	_	_	_	false[171]	Int[171]	*[291]	*[291]	*[291]	wh\_3[291]	wh\_question[291]	openq[291]	*[411]	female[411]	*[411]	speaker:Ella[531]	_	_	QAP	*	170-1[172_171]	
+169-2	3718-3723	gehts	GWithout[29]	paddeln\_set1\_17[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-paddeln\_set1\_17[29]	_	_	_	_	_	false[171]	Int[171]	*[291]	*[291]	*[291]	wh\_3[291]	wh\_question[291]	openq[291]	*[411]	female[411]	*[411]	speaker:Ella[531]	_	_	_	_	_	
+169-3	3724-3728	dir?	GWithout[29]	paddeln\_set1\_17[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-paddeln\_set1\_17[29]	2	*	*	*	singular	false[171]	Int[171]	*[291]	*[291]	*[291]	wh\_3[291]	wh\_question[291]	openq[291]	*[411]	female[411]	*[411]	speaker:Ella[531]	*->118-1	PerPron[118]	_	_	_	
+
+#Text=Theodor hat lange gepaddelt
+170-1	3730-3737	Theodor	GWithout[29]	paddeln\_set1\_17[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-paddeln\_set1\_17[29]	*	*	Subj	*	*	false[172]	Decl[172]	*[292]	paddeln[292]	intransitive[292]	*[292]	*[292]	item0[292]	29[412]	female[412]	ue2vk0ts1hkpki58vsa3j8t39j[412]	speaker: YOU[532]	*->10-1	PropNm[10]	result	*	172-1[173_172]	
+170-2	3738-3741	hat	GWithout[29]	paddeln\_set1\_17[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-paddeln\_set1\_17[29]	_	_	_	_	_	false[172]	Decl[172]	*[292]	paddeln[292]	intransitive[292]	*[292]	*[292]	item0[292]	29[412]	female[412]	ue2vk0ts1hkpki58vsa3j8t39j[412]	speaker: YOU[532]	_	_	_	_	_	
+170-3	3742-3747	lange	GWithout[29]	paddeln\_set1\_17[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-paddeln\_set1\_17[29]	_	_	_	_	_	false[172]	Decl[172]	*[292]	paddeln[292]	intransitive[292]	*[292]	*[292]	item0[292]	29[412]	female[412]	ue2vk0ts1hkpki58vsa3j8t39j[412]	speaker: YOU[532]	_	_	_	_	_	
+170-4	3748-3757	gepaddelt	GWithout[29]	paddeln\_set1\_17[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-paddeln\_set1\_17[29]	_	_	_	_	_	false[172]	Decl[172]	*[292]	paddeln[292]	intransitive[292]	*[292]	*[292]	item0[292]	29[412]	female[412]	ue2vk0ts1hkpki58vsa3j8t39j[412]	speaker: YOU[532]	_	_	_	_	_	
+
+#Text=-
+171-1	3759-3760	-	GWithout[29]	paddeln\_set1\_17[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-paddeln\_set1\_17[29]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Ella	_	_	_	_	_	
+
+#Text=Er ist jetzt mega müde.
+172-1	3762-3764	Er	GWithout[29]	paddeln\_set1\_17[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-paddeln\_set1\_17[29]	3	*	Subj	*	singular	false[173]	Decl[173]	*[293]	*[293]	*[293]	*[293]	*[293]	input1[293]	29[413]	female[413]	ue2vk0ts1hkpki58vsa3j8t39j[413]	speaker: YOU[533]	*->10-2	PerPron[10]	result	*	173-1[174_173]	
+172-2	3765-3768	ist	GWithout[29]	paddeln\_set1\_17[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-paddeln\_set1\_17[29]	_	_	_	_	_	false[173]	Decl[173]	*[293]	*[293]	*[293]	*[293]	*[293]	input1[293]	29[413]	female[413]	ue2vk0ts1hkpki58vsa3j8t39j[413]	speaker: YOU[533]	_	_	_	_	_	
+172-3	3769-3774	jetzt	GWithout[29]	paddeln\_set1\_17[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-paddeln\_set1\_17[29]	_	_	_	_	_	false[173]	Decl[173]	*[293]	*[293]	*[293]	*[293]	*[293]	input1[293]	29[413]	female[413]	ue2vk0ts1hkpki58vsa3j8t39j[413]	speaker: YOU[533]	_	_	_	_	_	
+172-4	3775-3779	mega	GWithout[29]	paddeln\_set1\_17[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-paddeln\_set1\_17[29]	_	_	_	_	_	false[173]	Decl[173]	*[293]	*[293]	*[293]	*[293]	*[293]	input1[293]	29[413]	female[413]	ue2vk0ts1hkpki58vsa3j8t39j[413]	speaker: YOU[533]	_	_	_	_	_	
+172-5	3780-3785	müde.	GWithout[29]	paddeln\_set1\_17[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-paddeln\_set1\_17[29]	_	_	_	_	_	false[173]	Decl[173]	*[293]	*[293]	*[293]	*[293]	*[293]	input1[293]	29[413]	female[413]	ue2vk0ts1hkpki58vsa3j8t39j[413]	speaker: YOU[533]	_	_	_	_	_	
+
+#Text=Er wird heute Nacht gut schlafen!
+173-1	3787-3789	Er	GWithout[29]	paddeln\_set1\_17[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-paddeln\_set1\_17[29]	3	*	Subj	*	singular	false[174]	Decl[174]	*[294]	*[294]	*[294]	*[294]	*[294]	input2[294]	29[414]	female[414]	ue2vk0ts1hkpki58vsa3j8t39j[414]	speaker: YOU[534]	*->10-3	PerPron[10]	_	_	_	
+173-2	3790-3794	wird	GWithout[29]	paddeln\_set1\_17[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-paddeln\_set1\_17[29]	_	_	_	_	_	false[174]	Decl[174]	*[294]	*[294]	*[294]	*[294]	*[294]	input2[294]	29[414]	female[414]	ue2vk0ts1hkpki58vsa3j8t39j[414]	speaker: YOU[534]	_	_	_	_	_	
+173-3	3795-3800	heute	GWithout[29]	paddeln\_set1\_17[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-paddeln\_set1\_17[29]	_	_	_	_	_	false[174]	Decl[174]	*[294]	*[294]	*[294]	*[294]	*[294]	input2[294]	29[414]	female[414]	ue2vk0ts1hkpki58vsa3j8t39j[414]	speaker: YOU[534]	_	_	_	_	_	
+173-4	3801-3806	Nacht	GWithout[29]	paddeln\_set1\_17[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-paddeln\_set1\_17[29]	_	_	_	_	_	false[174]	Decl[174]	*[294]	*[294]	*[294]	*[294]	*[294]	input2[294]	29[414]	female[414]	ue2vk0ts1hkpki58vsa3j8t39j[414]	speaker: YOU[534]	_	_	_	_	_	
+173-5	3807-3810	gut	GWithout[29]	paddeln\_set1\_17[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-paddeln\_set1\_17[29]	_	_	_	_	_	false[174]	Decl[174]	*[294]	*[294]	*[294]	*[294]	*[294]	input2[294]	29[414]	female[414]	ue2vk0ts1hkpki58vsa3j8t39j[414]	speaker: YOU[534]	_	_	_	_	_	
+173-6	3811-3820	schlafen!	GWithout[29]	paddeln\_set1\_17[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-paddeln\_set1\_17[29]	_	_	_	_	_	false[174]	Decl[174]	*[294]	*[294]	*[294]	*[294]	*[294]	input2[294]	29[414]	female[414]	ue2vk0ts1hkpki58vsa3j8t39j[414]	speaker: YOU[534]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+174-1	3822-3837	END_OF_DOCUMENT	GWithout[29]	paddeln\_set1\_17[29]	latin3[29]	ue2vk0ts1hkpki58vsa3j8t39j-paddeln\_set1\_17[29]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Wie gehts dir?
+175-1	3839-3842	Wie	GWithout[30]	paddeln\_set1\_17[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-paddeln\_set1\_17[30]	_	_	_	_	_	false[175]	Int[175]	*[295]	*[295]	*[295]	wh\_3[295]	wh\_question[295]	openq[295]	*[415]	female[415]	*[415]	speaker:Ella[535]	_	_	QAP	*	176-1[176_175]	
+175-2	3843-3848	gehts	GWithout[30]	paddeln\_set1\_17[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-paddeln\_set1\_17[30]	_	_	_	_	_	false[175]	Int[175]	*[295]	*[295]	*[295]	wh\_3[295]	wh\_question[295]	openq[295]	*[415]	female[415]	*[415]	speaker:Ella[535]	_	_	_	_	_	
+175-3	3849-3853	dir?	GWithout[30]	paddeln\_set1\_17[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-paddeln\_set1\_17[30]	2	*	*	*	singular	false[175]	Int[175]	*[295]	*[295]	*[295]	wh\_3[295]	wh\_question[295]	openq[295]	*[415]	female[415]	*[415]	speaker:Ella[535]	*->14-1	PerPron[14]	_	_	_	
+
+#Text=Theodor hat lange gepaddelt
+176-1	3855-3862	Theodor	GWithout[30]	paddeln\_set1\_17[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-paddeln\_set1\_17[30]	*	*	Subj	*	*	false[176]	Decl[176]	*[296]	paddeln[296]	intransitive[296]	*[296]	*[296]	item0[296]	58[416]	male[416]	v3le8i0hm1ekj0ps9oou7k56t5[416]	speaker: YOU[536]	*->32-1	PropNm[32]	elaboration	*	178-1[177_176]	
+176-2	3863-3866	hat	GWithout[30]	paddeln\_set1\_17[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-paddeln\_set1\_17[30]	_	_	_	_	_	false[176]	Decl[176]	*[296]	paddeln[296]	intransitive[296]	*[296]	*[296]	item0[296]	58[416]	male[416]	v3le8i0hm1ekj0ps9oou7k56t5[416]	speaker: YOU[536]	_	_	_	_	_	
+176-3	3867-3872	lange	GWithout[30]	paddeln\_set1\_17[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-paddeln\_set1\_17[30]	_	_	_	_	_	false[176]	Decl[176]	*[296]	paddeln[296]	intransitive[296]	*[296]	*[296]	item0[296]	58[416]	male[416]	v3le8i0hm1ekj0ps9oou7k56t5[416]	speaker: YOU[536]	_	_	_	_	_	
+176-4	3873-3882	gepaddelt	GWithout[30]	paddeln\_set1\_17[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-paddeln\_set1\_17[30]	_	_	_	_	_	false[176]	Decl[176]	*[296]	paddeln[296]	intransitive[296]	*[296]	*[296]	item0[296]	58[416]	male[416]	v3le8i0hm1ekj0ps9oou7k56t5[416]	speaker: YOU[536]	_	_	_	_	_	
+
+#Text=-
+177-1	3884-3885	-	GWithout[30]	paddeln\_set1\_17[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-paddeln\_set1\_17[30]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Ella	_	_	_	_	_	
+
+#Text=bis zur erschöpfung
+178-1	3887-3890	bis	GWithout[30]	paddeln\_set1\_17[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-paddeln\_set1\_17[30]	_	_	_	_	_	false[177]	NA[177]	*[297]	*[297]	*[297]	*[297]	*[297]	input1[297]	58[417]	male[417]	v3le8i0hm1ekj0ps9oou7k56t5[417]	speaker: YOU[537]	_	_	result	*	179-1[178_177]	
+178-2	3891-3894	zur	GWithout[30]	paddeln\_set1\_17[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-paddeln\_set1\_17[30]	_	_	_	_	_	false[177]	NA[177]	*[297]	*[297]	*[297]	*[297]	*[297]	input1[297]	58[417]	male[417]	v3le8i0hm1ekj0ps9oou7k56t5[417]	speaker: YOU[537]	*->52-1	DefNP[52]	_	_	_	
+178-3	3895-3906	erschöpfung	GWithout[30]	paddeln\_set1\_17[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-paddeln\_set1\_17[30]	*	*	PrepObj	*	*	false[177]	NA[177]	*[297]	*[297]	*[297]	*[297]	*[297]	input1[297]	58[417]	male[417]	v3le8i0hm1ekj0ps9oou7k56t5[417]	speaker: YOU[537]	*->52-1	DefNP[52]	_	_	_	
+
+#Text=nun treiben wir in den wellen
+179-1	3908-3911	nun	GWithout[30]	paddeln\_set1\_17[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-paddeln\_set1\_17[30]	_	_	_	_	_	false[178]	Decl[178]	*[298]	*[298]	*[298]	*[298]	*[298]	input2[298]	58[418]	male[418]	v3le8i0hm1ekj0ps9oou7k56t5[418]	speaker: YOU[538]	_	_	_	_	_	
+179-2	3912-3919	treiben	GWithout[30]	paddeln\_set1\_17[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-paddeln\_set1\_17[30]	_	_	_	_	_	false[178]	Decl[178]	*[298]	*[298]	*[298]	*[298]	*[298]	input2[298]	58[418]	male[418]	v3le8i0hm1ekj0ps9oou7k56t5[418]	speaker: YOU[538]	_	_	_	_	_	
+179-3	3920-3923	wir	GWithout[30]	paddeln\_set1\_17[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-paddeln\_set1\_17[30]	1	*	Subj	*	plural	false[178]	Decl[178]	*[298]	*[298]	*[298]	*[298]	*[298]	input2[298]	58[418]	male[418]	v3le8i0hm1ekj0ps9oou7k56t5[418]	speaker: YOU[538]	*->86-1	PerPron[86]	_	_	_	
+179-4	3924-3926	in	GWithout[30]	paddeln\_set1\_17[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-paddeln\_set1\_17[30]	_	_	_	_	_	false[178]	Decl[178]	*[298]	*[298]	*[298]	*[298]	*[298]	input2[298]	58[418]	male[418]	v3le8i0hm1ekj0ps9oou7k56t5[418]	speaker: YOU[538]	_	_	_	_	_	
+179-5	3927-3930	den	GWithout[30]	paddeln\_set1\_17[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-paddeln\_set1\_17[30]	*[52]	*[52]	PrepObj[52]	*[52]	*[52]	false[178]	Decl[178]	*[298]	*[298]	*[298]	*[298]	*[298]	input2[298]	58[418]	male[418]	v3le8i0hm1ekj0ps9oou7k56t5[418]	speaker: YOU[538]	*->43-1	DefNP[43]	_	_	_	
+179-6	3931-3937	wellen	GWithout[30]	paddeln\_set1\_17[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-paddeln\_set1\_17[30]	*[52]	*[52]	PrepObj[52]	*[52]	*[52]	false[178]	Decl[178]	*[298]	*[298]	*[298]	*[298]	*[298]	input2[298]	58[418]	male[418]	v3le8i0hm1ekj0ps9oou7k56t5[418]	speaker: YOU[538]	*->43-1	DefNP[43]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+180-1	3939-3954	END_OF_DOCUMENT	GWithout[30]	paddeln\_set1\_17[30]	latin3[30]	v3le8i0hm1ekj0ps9oou7k56t5-paddeln\_set1\_17[30]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	

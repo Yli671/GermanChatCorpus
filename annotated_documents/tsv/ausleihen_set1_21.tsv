@@ -1,0 +1,1009 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Item_info|condition|item_id|latinsqr_list|unique_id
+#T_SP=webanno.custom.Ref_info|PersonalPronouns_detailed|ref_def|ref_function|ref_gender|ref_num
+#T_SP=webanno.custom.Segment|complex|segment_type
+#T_SP=webanno.custom.Sent_layer|feedback_id|item0_verb|item0_verbtype|openq_id|openq_type|sent_type
+#T_SP=webanno.custom.Speaker_meta|age|gender|speaker_id
+#T_SP=webanno.custom.Speaker_name|speaker_name
+#T_CH=de.tudarmstadt.ukp.dkpro.core.api.coref.type.CoreferenceLink|referenceRelation|referenceType
+#T_RL=webanno.custom.Relations|discourse_rel|speechAct_rel|BT_webanno.custom.Segment
+
+
+#Text=Na?
+1-1	0-3	Na?	GFailure[1]	ausleihen\_set1\_21[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-ausleihen\_set1\_21[1]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Finnja	_	_	QAP	*	2-1[98_0]	
+
+#Text=Samuel hat eine Leiter ausgeliehen
+2-1	5-11	Samuel	GFailure[1]	ausleihen\_set1\_21[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-ausleihen\_set1\_21[1]	*	*	Subj	*	*	false[98]	Decl[98]	*[194]	ausleihen[194]	transitive[194]	*[194]	*[194]	item0[194]	32[283]	female[283]	2em9nj6n4c2pjudl6n6hfpjc30[283]	speaker: YOU[372]	*->74-1	PropNm[74]	explanation|CR	*|*	4-1[99_98]|3-1[0_98]	
+2-2	12-15	hat	GFailure[1]	ausleihen\_set1\_21[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-ausleihen\_set1\_21[1]	_	_	_	_	_	false[98]	Decl[98]	*[194]	ausleihen[194]	transitive[194]	*[194]	*[194]	item0[194]	32[283]	female[283]	2em9nj6n4c2pjudl6n6hfpjc30[283]	speaker: YOU[372]	_	_	_	_	_	
+2-3	16-20	eine	GFailure[1]	ausleihen\_set1\_21[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-ausleihen\_set1\_21[1]	*[31]	*[31]	object[31]	*[31]	*[31]	false[98]	Decl[98]	*[194]	ausleihen[194]	transitive[194]	*[194]	*[194]	item0[194]	32[283]	female[283]	2em9nj6n4c2pjudl6n6hfpjc30[283]	speaker: YOU[372]	*->82-1	IndefNP[82]	_	_	_	
+2-4	21-27	Leiter	GFailure[1]	ausleihen\_set1\_21[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-ausleihen\_set1\_21[1]	*[31]	*[31]	object[31]	*[31]	*[31]	false[98]	Decl[98]	*[194]	ausleihen[194]	transitive[194]	*[194]	*[194]	item0[194]	32[283]	female[283]	2em9nj6n4c2pjudl6n6hfpjc30[283]	speaker: YOU[372]	*->82-1	IndefNP[82]	_	_	_	
+2-5	28-39	ausgeliehen	GFailure[1]	ausleihen\_set1\_21[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-ausleihen\_set1\_21[1]	_	_	_	_	_	false[98]	Decl[98]	*[194]	ausleihen[194]	transitive[194]	*[194]	*[194]	item0[194]	32[283]	female[283]	2em9nj6n4c2pjudl6n6hfpjc30[283]	speaker: YOU[372]	_	_	_	_	_	
+
+#Text=Was?
+3-1	41-45	Was?	GFailure[1]	ausleihen\_set1\_21[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-ausleihen\_set1\_21[1]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	female	*	speaker:Finnja	_	_	_	_	_	
+
+#Text=Er will die Weihnachtsbeleuchtung anbringen.
+4-1	47-49	Er	GFailure[1]	ausleihen\_set1\_21[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-ausleihen\_set1\_21[1]	3	*	Subj	*	singular	false[99]	Decl[99]	*[195]	*[195]	*[195]	*[195]	*[195]	input1[195]	32[284]	female[284]	2em9nj6n4c2pjudl6n6hfpjc30[284]	speaker: YOU[373]	*->74-2	PerPron[74]	result	*	5-1[100_99]	
+4-2	50-54	will	GFailure[1]	ausleihen\_set1\_21[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-ausleihen\_set1\_21[1]	_	_	_	_	_	false[99]	Decl[99]	*[195]	*[195]	*[195]	*[195]	*[195]	input1[195]	32[284]	female[284]	2em9nj6n4c2pjudl6n6hfpjc30[284]	speaker: YOU[373]	_	_	_	_	_	
+4-3	55-58	die	GFailure[1]	ausleihen\_set1\_21[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-ausleihen\_set1\_21[1]	*[32]	*[32]	DirObj[32]	*[32]	*[32]	false[99]	Decl[99]	*[195]	*[195]	*[195]	*[195]	*[195]	input1[195]	32[284]	female[284]	2em9nj6n4c2pjudl6n6hfpjc30[284]	speaker: YOU[373]	*->75-1	DefNP[75]	_	_	_	
+4-4	59-80	Weihnachtsbeleuchtung	GFailure[1]	ausleihen\_set1\_21[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-ausleihen\_set1\_21[1]	*[32]	*[32]	DirObj[32]	*[32]	*[32]	false[99]	Decl[99]	*[195]	*[195]	*[195]	*[195]	*[195]	input1[195]	32[284]	female[284]	2em9nj6n4c2pjudl6n6hfpjc30[284]	speaker: YOU[373]	*->75-1	DefNP[75]	_	_	_	
+4-5	81-91	anbringen.	GFailure[1]	ausleihen\_set1\_21[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-ausleihen\_set1\_21[1]	_	_	_	_	_	false[99]	Decl[99]	*[195]	*[195]	*[195]	*[195]	*[195]	input1[195]	32[284]	female[284]	2em9nj6n4c2pjudl6n6hfpjc30[284]	speaker: YOU[373]	_	_	_	_	_	
+
+#Text=Ich ahne Schlimmes.
+5-1	93-96	Ich	GFailure[1]	ausleihen\_set1\_21[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-ausleihen\_set1\_21[1]	1	*	Subj	*	singular	false[100]	Decl[100]	*[196]	*[196]	*[196]	*[196]	*[196]	input2[196]	32[285]	female[285]	2em9nj6n4c2pjudl6n6hfpjc30[285]	speaker: YOU[374]	*->5-1	PerPron[5]	_	_	_	
+5-2	97-101	ahne	GFailure[1]	ausleihen\_set1\_21[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-ausleihen\_set1\_21[1]	_	_	_	_	_	false[100]	Decl[100]	*[196]	*[196]	*[196]	*[196]	*[196]	input2[196]	32[285]	female[285]	2em9nj6n4c2pjudl6n6hfpjc30[285]	speaker: YOU[374]	_	_	_	_	_	
+5-3	102-112	Schlimmes.	GFailure[1]	ausleihen\_set1\_21[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-ausleihen\_set1\_21[1]	*	*	DirObj	*	*	false[100]	Decl[100]	*[196]	*[196]	*[196]	*[196]	*[196]	input2[196]	32[285]	female[285]	2em9nj6n4c2pjudl6n6hfpjc30[285]	speaker: YOU[374]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+6-1	114-129	END_OF_DOCUMENT	GFailure[1]	ausleihen\_set1\_21[1]	latin2[1]	2em9nj6n4c2pjudl6n6hfpjc30-ausleihen\_set1\_21[1]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+7-1	131-134	Na?	GFailure[2]	ausleihen\_set1\_21[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-ausleihen\_set1\_21[2]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Finnja	_	_	QAP	*	8-1[101_0]	
+
+#Text=Samuel hat eine Leiter ausgeliehen
+8-1	136-142	Samuel	GFailure[2]	ausleihen\_set1\_21[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-ausleihen\_set1\_21[2]	*	*	Subj	*	*	false[101]	Decl[101]	*[197]	ausleihen[197]	transitive[197]	*[197]	*[197]	item0[197]	41[286]	female[286]	2prsavjsjqbmc8hrbo9bovkues[286]	speaker: YOU[375]	*->21-1	PropNm[21]	explanation|CR	*|*	10-1[102_101]|9-1[0_101]	
+8-2	143-146	hat	GFailure[2]	ausleihen\_set1\_21[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-ausleihen\_set1\_21[2]	_	_	_	_	_	false[101]	Decl[101]	*[197]	ausleihen[197]	transitive[197]	*[197]	*[197]	item0[197]	41[286]	female[286]	2prsavjsjqbmc8hrbo9bovkues[286]	speaker: YOU[375]	_	_	_	_	_	
+8-3	147-151	eine	GFailure[2]	ausleihen\_set1\_21[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-ausleihen\_set1\_21[2]	*[33]	*[33]	object[33]	*[33]	*[33]	false[101]	Decl[101]	*[197]	ausleihen[197]	transitive[197]	*[197]	*[197]	item0[197]	41[286]	female[286]	2prsavjsjqbmc8hrbo9bovkues[286]	speaker: YOU[375]	*->16-1	IndefNP[16]	_	_	_	
+8-4	152-158	Leiter	GFailure[2]	ausleihen\_set1\_21[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-ausleihen\_set1\_21[2]	*[33]	*[33]	object[33]	*[33]	*[33]	false[101]	Decl[101]	*[197]	ausleihen[197]	transitive[197]	*[197]	*[197]	item0[197]	41[286]	female[286]	2prsavjsjqbmc8hrbo9bovkues[286]	speaker: YOU[375]	*->16-1	IndefNP[16]	_	_	_	
+8-5	159-170	ausgeliehen	GFailure[2]	ausleihen\_set1\_21[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-ausleihen\_set1\_21[2]	_	_	_	_	_	false[101]	Decl[101]	*[197]	ausleihen[197]	transitive[197]	*[197]	*[197]	item0[197]	41[286]	female[286]	2prsavjsjqbmc8hrbo9bovkues[286]	speaker: YOU[375]	_	_	_	_	_	
+
+#Text=Was?
+9-1	172-176	Was?	GFailure[2]	ausleihen\_set1\_21[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-ausleihen\_set1\_21[2]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	female	*	speaker:Finnja	_	_	_	_	_	
+
+#Text=Na für die Arbeiten am Wochenende.
+10-1	178-180	Na	GFailure[2]	ausleihen\_set1\_21[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-ausleihen\_set1\_21[2]	_	_	_	_	_	false[102]	NA[102]	*[198]	*[198]	*[198]	*[198]	*[198]	input1[198]	41[287]	female[287]	2prsavjsjqbmc8hrbo9bovkues[287]	speaker: YOU[376]	_	_	explanation	*	11-1[103_102]	
+10-2	181-184	für	GFailure[2]	ausleihen\_set1\_21[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-ausleihen\_set1\_21[2]	_	_	_	_	_	false[102]	NA[102]	*[198]	*[198]	*[198]	*[198]	*[198]	input1[198]	41[287]	female[287]	2prsavjsjqbmc8hrbo9bovkues[287]	speaker: YOU[376]	_	_	_	_	_	
+10-3	185-188	die	GFailure[2]	ausleihen\_set1\_21[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-ausleihen\_set1\_21[2]	*[34]	*[34]	PrepObj[34]	*[34]	*[34]	false[102]	NA[102]	*[198]	*[198]	*[198]	*[198]	*[198]	input1[198]	41[287]	female[287]	2prsavjsjqbmc8hrbo9bovkues[287]	speaker: YOU[376]	*->130-1	DefNP[130]	_	_	_	
+10-4	189-197	Arbeiten	GFailure[2]	ausleihen\_set1\_21[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-ausleihen\_set1\_21[2]	*[34]	*[34]	PrepObj[34]	*[34]	*[34]	false[102]	NA[102]	*[198]	*[198]	*[198]	*[198]	*[198]	input1[198]	41[287]	female[287]	2prsavjsjqbmc8hrbo9bovkues[287]	speaker: YOU[376]	*->130-1	DefNP[130]	_	_	_	
+10-5	198-200	am	GFailure[2]	ausleihen\_set1\_21[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-ausleihen\_set1\_21[2]	_	_	_	_	_	false[102]	NA[102]	*[198]	*[198]	*[198]	*[198]	*[198]	input1[198]	41[287]	female[287]	2prsavjsjqbmc8hrbo9bovkues[287]	speaker: YOU[376]	*->12-1	DefNP[12]	_	_	_	
+10-6	201-212	Wochenende.	GFailure[2]	ausleihen\_set1\_21[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-ausleihen\_set1\_21[2]	_	_	_	_	_	false[102]	NA[102]	*[198]	*[198]	*[198]	*[198]	*[198]	input1[198]	41[287]	female[287]	2prsavjsjqbmc8hrbo9bovkues[287]	speaker: YOU[376]	*->12-1	DefNP[12]	_	_	_	
+
+#Text=Wir wollten doch die Regenrinne reparieren.
+11-1	214-217	Wir	GFailure[2]	ausleihen\_set1\_21[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-ausleihen\_set1\_21[2]	1	*	Subj	*	plural	false[103]	Decl[103]	*[199]	*[199]	*[199]	*[199]	*[199]	input2[199]	41[288]	female[288]	2prsavjsjqbmc8hrbo9bovkues[288]	speaker: YOU[377]	*->49-1	PerPron[49]	_	_	_	
+11-2	218-225	wollten	GFailure[2]	ausleihen\_set1\_21[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-ausleihen\_set1\_21[2]	_	_	_	_	_	false[103]	Decl[103]	*[199]	*[199]	*[199]	*[199]	*[199]	input2[199]	41[288]	female[288]	2prsavjsjqbmc8hrbo9bovkues[288]	speaker: YOU[377]	_	_	_	_	_	
+11-3	226-230	doch	GFailure[2]	ausleihen\_set1\_21[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-ausleihen\_set1\_21[2]	_	_	_	_	_	false[103]	Decl[103]	*[199]	*[199]	*[199]	*[199]	*[199]	input2[199]	41[288]	female[288]	2prsavjsjqbmc8hrbo9bovkues[288]	speaker: YOU[377]	_	_	_	_	_	
+11-4	231-234	die	GFailure[2]	ausleihen\_set1\_21[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-ausleihen\_set1\_21[2]	*[35]	*[35]	DirObj[35]	*[35]	*[35]	false[103]	Decl[103]	*[199]	*[199]	*[199]	*[199]	*[199]	input2[199]	41[288]	female[288]	2prsavjsjqbmc8hrbo9bovkues[288]	speaker: YOU[377]	*->24-1	DefNP[24]	_	_	_	
+11-5	235-245	Regenrinne	GFailure[2]	ausleihen\_set1\_21[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-ausleihen\_set1\_21[2]	*[35]	*[35]	DirObj[35]	*[35]	*[35]	false[103]	Decl[103]	*[199]	*[199]	*[199]	*[199]	*[199]	input2[199]	41[288]	female[288]	2prsavjsjqbmc8hrbo9bovkues[288]	speaker: YOU[377]	*->24-1	DefNP[24]	_	_	_	
+11-6	246-257	reparieren.	GFailure[2]	ausleihen\_set1\_21[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-ausleihen\_set1\_21[2]	_	_	_	_	_	false[103]	Decl[103]	*[199]	*[199]	*[199]	*[199]	*[199]	input2[199]	41[288]	female[288]	2prsavjsjqbmc8hrbo9bovkues[288]	speaker: YOU[377]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+12-1	259-274	END_OF_DOCUMENT	GFailure[2]	ausleihen\_set1\_21[2]	latin2[2]	2prsavjsjqbmc8hrbo9bovkues-ausleihen\_set1\_21[2]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+13-1	276-279	Na?	GFailure[3]	ausleihen\_set1\_21[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-ausleihen\_set1\_21[3]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Finnja	_	_	QAP	*	14-1[104_0]	
+
+#Text=Samuel hat eine Leiter ausgeliehen
+14-1	281-287	Samuel	GFailure[3]	ausleihen\_set1\_21[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-ausleihen\_set1\_21[3]	*	*	Subj	*	*	false[104]	Decl[104]	*[200]	ausleihen[200]	transitive[200]	*[200]	*[200]	item0[200]	46[289]	male[289]	3jjtes457iqluuhfmeiub8g6qd[289]	speaker: YOU[378]	*->67-1	PropNm[67]	explanation|elaboration|CR	*|*|*	16-1[105_104]|17-1[106_104]|15-1[0_104]	
+14-2	288-291	hat	GFailure[3]	ausleihen\_set1\_21[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-ausleihen\_set1\_21[3]	_	_	_	_	_	false[104]	Decl[104]	*[200]	ausleihen[200]	transitive[200]	*[200]	*[200]	item0[200]	46[289]	male[289]	3jjtes457iqluuhfmeiub8g6qd[289]	speaker: YOU[378]	_	_	_	_	_	
+14-3	292-296	eine	GFailure[3]	ausleihen\_set1\_21[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-ausleihen\_set1\_21[3]	*[36]	*[36]	object[36]	*[36]	*[36]	false[104]	Decl[104]	*[200]	ausleihen[200]	transitive[200]	*[200]	*[200]	item0[200]	46[289]	male[289]	3jjtes457iqluuhfmeiub8g6qd[289]	speaker: YOU[378]	*->33-1	IndefNP[33]	_	_	_	
+14-4	297-303	Leiter	GFailure[3]	ausleihen\_set1\_21[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-ausleihen\_set1\_21[3]	*[36]	*[36]	object[36]	*[36]	*[36]	false[104]	Decl[104]	*[200]	ausleihen[200]	transitive[200]	*[200]	*[200]	item0[200]	46[289]	male[289]	3jjtes457iqluuhfmeiub8g6qd[289]	speaker: YOU[378]	*->33-1	IndefNP[33]	_	_	_	
+14-5	304-315	ausgeliehen	GFailure[3]	ausleihen\_set1\_21[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-ausleihen\_set1\_21[3]	_	_	_	_	_	false[104]	Decl[104]	*[200]	ausleihen[200]	transitive[200]	*[200]	*[200]	item0[200]	46[289]	male[289]	3jjtes457iqluuhfmeiub8g6qd[289]	speaker: YOU[378]	_	_	_	_	_	
+
+#Text=Was?
+15-1	317-321	Was?	GFailure[3]	ausleihen\_set1\_21[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-ausleihen\_set1\_21[3]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	female	*	speaker:Finnja	_	_	_	_	_	
+
+#Text=Ja keine Ahnung wofür.
+16-1	323-325	Ja	GFailure[3]	ausleihen\_set1\_21[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-ausleihen\_set1\_21[3]	_	_	_	_	_	false[105]	NA[105]	*[201]	*[201]	*[201]	*[201]	*[201]	input1[201]	46[290]	male[290]	3jjtes457iqluuhfmeiub8g6qd[290]	speaker: YOU[379]	_	_	_	_	_	
+16-2	326-331	keine	GFailure[3]	ausleihen\_set1\_21[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-ausleihen\_set1\_21[3]	_	_	_	_	_	false[105]	NA[105]	*[201]	*[201]	*[201]	*[201]	*[201]	input1[201]	46[290]	male[290]	3jjtes457iqluuhfmeiub8g6qd[290]	speaker: YOU[379]	_	_	_	_	_	
+16-3	332-338	Ahnung	GFailure[3]	ausleihen\_set1\_21[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-ausleihen\_set1\_21[3]	_	_	_	_	_	false[105]	NA[105]	*[201]	*[201]	*[201]	*[201]	*[201]	input1[201]	46[290]	male[290]	3jjtes457iqluuhfmeiub8g6qd[290]	speaker: YOU[379]	_	_	_	_	_	
+16-4	339-345	wofür.	GFailure[3]	ausleihen\_set1\_21[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-ausleihen\_set1\_21[3]	_	_	_	_	_	false[105]	NA[105]	*[201]	*[201]	*[201]	*[201]	*[201]	input1[201]	46[290]	male[290]	3jjtes457iqluuhfmeiub8g6qd[290]	speaker: YOU[379]	_	_	_	_	_	
+
+#Text=Aber heute Morgen hat er sich eine Leiter von mir ausgeliehen.
+17-1	347-351	Aber	GFailure[3]	ausleihen\_set1\_21[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-ausleihen\_set1\_21[3]	_	_	_	_	_	false[106]	Decl[106]	*[202]	*[202]	*[202]	*[202]	*[202]	input2[202]	46[291]	male[291]	3jjtes457iqluuhfmeiub8g6qd[291]	speaker: YOU[380]	_	_	_	_	_	
+17-2	352-357	heute	GFailure[3]	ausleihen\_set1\_21[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-ausleihen\_set1\_21[3]	_	_	_	_	_	false[106]	Decl[106]	*[202]	*[202]	*[202]	*[202]	*[202]	input2[202]	46[291]	male[291]	3jjtes457iqluuhfmeiub8g6qd[291]	speaker: YOU[380]	_	_	_	_	_	
+17-3	358-364	Morgen	GFailure[3]	ausleihen\_set1\_21[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-ausleihen\_set1\_21[3]	_	_	_	_	_	false[106]	Decl[106]	*[202]	*[202]	*[202]	*[202]	*[202]	input2[202]	46[291]	male[291]	3jjtes457iqluuhfmeiub8g6qd[291]	speaker: YOU[380]	_	_	_	_	_	
+17-4	365-368	hat	GFailure[3]	ausleihen\_set1\_21[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-ausleihen\_set1\_21[3]	_	_	_	_	_	false[106]	Decl[106]	*[202]	*[202]	*[202]	*[202]	*[202]	input2[202]	46[291]	male[291]	3jjtes457iqluuhfmeiub8g6qd[291]	speaker: YOU[380]	_	_	_	_	_	
+17-5	369-371	er	GFailure[3]	ausleihen\_set1\_21[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-ausleihen\_set1\_21[3]	3	*	Subj	*	singular	false[106]	Decl[106]	*[202]	*[202]	*[202]	*[202]	*[202]	input2[202]	46[291]	male[291]	3jjtes457iqluuhfmeiub8g6qd[291]	speaker: YOU[380]	*->67-2	PerPron[67]	_	_	_	
+17-6	372-376	sich	GFailure[3]	ausleihen\_set1\_21[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-ausleihen\_set1\_21[3]	_	_	_	_	_	false[106]	Decl[106]	*[202]	*[202]	*[202]	*[202]	*[202]	input2[202]	46[291]	male[291]	3jjtes457iqluuhfmeiub8g6qd[291]	speaker: YOU[380]	_	_	_	_	_	
+17-7	377-381	eine	GFailure[3]	ausleihen\_set1\_21[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-ausleihen\_set1\_21[3]	*[37]	*[37]	DirObj[37]	*[37]	*[37]	false[106]	Decl[106]	*[202]	*[202]	*[202]	*[202]	*[202]	input2[202]	46[291]	male[291]	3jjtes457iqluuhfmeiub8g6qd[291]	speaker: YOU[380]	*->33-2	IndefNP[33]	_	_	_	
+17-8	382-388	Leiter	GFailure[3]	ausleihen\_set1\_21[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-ausleihen\_set1\_21[3]	*[37]	*[37]	DirObj[37]	*[37]	*[37]	false[106]	Decl[106]	*[202]	*[202]	*[202]	*[202]	*[202]	input2[202]	46[291]	male[291]	3jjtes457iqluuhfmeiub8g6qd[291]	speaker: YOU[380]	*->33-2	IndefNP[33]	_	_	_	
+17-9	389-392	von	GFailure[3]	ausleihen\_set1\_21[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-ausleihen\_set1\_21[3]	*[37]	*[37]	DirObj[37]	*[37]	*[37]	false[106]	Decl[106]	*[202]	*[202]	*[202]	*[202]	*[202]	input2[202]	46[291]	male[291]	3jjtes457iqluuhfmeiub8g6qd[291]	speaker: YOU[380]	_	_	_	_	_	
+17-10	393-396	mir	GFailure[3]	ausleihen\_set1\_21[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-ausleihen\_set1\_21[3]	*[37]|1[38]|*[39]	*[37]|*[38]|*[39]	DirObj[37]|*[38]|Embedded[39]	*[37]|*[38]|*[39]	*[37]|singular[38]|*[39]	false[106]	Decl[106]	*[202]	*[202]	*[202]	*[202]	*[202]	input2[202]	46[291]	male[291]	3jjtes457iqluuhfmeiub8g6qd[291]	speaker: YOU[380]	*->8-1	PerPron[8]	_	_	_	
+17-11	397-409	ausgeliehen.	GFailure[3]	ausleihen\_set1\_21[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-ausleihen\_set1\_21[3]	_	_	_	_	_	false[106]	Decl[106]	*[202]	*[202]	*[202]	*[202]	*[202]	input2[202]	46[291]	male[291]	3jjtes457iqluuhfmeiub8g6qd[291]	speaker: YOU[380]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+18-1	411-426	END_OF_DOCUMENT	GFailure[3]	ausleihen\_set1\_21[3]	latin2[3]	3jjtes457iqluuhfmeiub8g6qd-ausleihen\_set1\_21[3]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+19-1	428-431	Na?	GFailure[4]	ausleihen\_set1\_21[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-ausleihen\_set1\_21[4]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Finnja	_	_	QAP	*	20-1[107_0]	
+
+#Text=Samuel hat eine Leiter ausgeliehen
+20-1	433-439	Samuel	GFailure[4]	ausleihen\_set1\_21[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-ausleihen\_set1\_21[4]	*	*	Subj	*	*	false[107]	Decl[107]	*[203]	ausleihen[203]	transitive[203]	*[203]	*[203]	item0[203]	27[292]	female[292]	65p8m4ujg4fi983365pclnac28[292]	speaker: YOU[381]	*->91-1	PropNm[91]	explanation|CR	*|*	22-1[108_107]|21-1[0_107]	
+20-2	440-443	hat	GFailure[4]	ausleihen\_set1\_21[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-ausleihen\_set1\_21[4]	_	_	_	_	_	false[107]	Decl[107]	*[203]	ausleihen[203]	transitive[203]	*[203]	*[203]	item0[203]	27[292]	female[292]	65p8m4ujg4fi983365pclnac28[292]	speaker: YOU[381]	_	_	_	_	_	
+20-3	444-448	eine	GFailure[4]	ausleihen\_set1\_21[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-ausleihen\_set1\_21[4]	*[40]	*[40]	object[40]	*[40]	*[40]	false[107]	Decl[107]	*[203]	ausleihen[203]	transitive[203]	*[203]	*[203]	item0[203]	27[292]	female[292]	65p8m4ujg4fi983365pclnac28[292]	speaker: YOU[381]	*->1-1	IndefNP[1]	_	_	_	
+20-4	449-455	Leiter	GFailure[4]	ausleihen\_set1\_21[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-ausleihen\_set1\_21[4]	*[40]	*[40]	object[40]	*[40]	*[40]	false[107]	Decl[107]	*[203]	ausleihen[203]	transitive[203]	*[203]	*[203]	item0[203]	27[292]	female[292]	65p8m4ujg4fi983365pclnac28[292]	speaker: YOU[381]	*->1-1	IndefNP[1]	_	_	_	
+20-5	456-467	ausgeliehen	GFailure[4]	ausleihen\_set1\_21[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-ausleihen\_set1\_21[4]	_	_	_	_	_	false[107]	Decl[107]	*[203]	ausleihen[203]	transitive[203]	*[203]	*[203]	item0[203]	27[292]	female[292]	65p8m4ujg4fi983365pclnac28[292]	speaker: YOU[381]	_	_	_	_	_	
+
+#Text=Was?
+21-1	469-473	Was?	GFailure[4]	ausleihen\_set1\_21[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-ausleihen\_set1\_21[4]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	female	*	speaker:Finnja	_	_	_	_	_	
+
+#Text=Er brauchte unbedingt eine Leiter
+22-1	475-477	Er	GFailure[4]	ausleihen\_set1\_21[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-ausleihen\_set1\_21[4]	3	*	Subj	*	singular	false[108]	Decl[108]	*[204]	*[204]	*[204]	*[204]	*[204]	input1[204]	27[293]	female[293]	65p8m4ujg4fi983365pclnac28[293]	speaker: YOU[382]	*->91-2	PerPron[91]	explanation	*	23-1[109_108]	
+22-2	478-486	brauchte	GFailure[4]	ausleihen\_set1\_21[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-ausleihen\_set1\_21[4]	_	_	_	_	_	false[108]	Decl[108]	*[204]	*[204]	*[204]	*[204]	*[204]	input1[204]	27[293]	female[293]	65p8m4ujg4fi983365pclnac28[293]	speaker: YOU[382]	_	_	_	_	_	
+22-3	487-496	unbedingt	GFailure[4]	ausleihen\_set1\_21[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-ausleihen\_set1\_21[4]	_	_	_	_	_	false[108]	Decl[108]	*[204]	*[204]	*[204]	*[204]	*[204]	input1[204]	27[293]	female[293]	65p8m4ujg4fi983365pclnac28[293]	speaker: YOU[382]	_	_	_	_	_	
+22-4	497-501	eine	GFailure[4]	ausleihen\_set1\_21[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-ausleihen\_set1\_21[4]	*[41]	*[41]	DirObj[41]	*[41]	*[41]	false[108]	Decl[108]	*[204]	*[204]	*[204]	*[204]	*[204]	input1[204]	27[293]	female[293]	65p8m4ujg4fi983365pclnac28[293]	speaker: YOU[382]	_	_	_	_	_	
+22-5	502-508	Leiter	GFailure[4]	ausleihen\_set1\_21[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-ausleihen\_set1\_21[4]	*[41]	*[41]	DirObj[41]	*[41]	*[41]	false[108]	Decl[108]	*[204]	*[204]	*[204]	*[204]	*[204]	input1[204]	27[293]	female[293]	65p8m4ujg4fi983365pclnac28[293]	speaker: YOU[382]	_	_	_	_	_	
+
+#Text=Um das Bild an der Wand zu befestigen
+23-1	510-512	Um	GFailure[4]	ausleihen\_set1\_21[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-ausleihen\_set1\_21[4]	_	_	_	_	_	false[109]	NA[109]	*[205]	*[205]	*[205]	*[205]	*[205]	input2[205]	27[294]	female[294]	65p8m4ujg4fi983365pclnac28[294]	speaker: YOU[383]	_	_	_	_	_	
+23-2	513-516	das	GFailure[4]	ausleihen\_set1\_21[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-ausleihen\_set1\_21[4]	*[42]	*[42]	DirObj[42]	*[42]	*[42]	false[109]	NA[109]	*[205]	*[205]	*[205]	*[205]	*[205]	input2[205]	27[294]	female[294]	65p8m4ujg4fi983365pclnac28[294]	speaker: YOU[383]	*->47-1	DefNP[47]	_	_	_	
+23-3	517-521	Bild	GFailure[4]	ausleihen\_set1\_21[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-ausleihen\_set1\_21[4]	*[42]	*[42]	DirObj[42]	*[42]	*[42]	false[109]	NA[109]	*[205]	*[205]	*[205]	*[205]	*[205]	input2[205]	27[294]	female[294]	65p8m4ujg4fi983365pclnac28[294]	speaker: YOU[383]	*->47-1	DefNP[47]	_	_	_	
+23-4	522-524	an	GFailure[4]	ausleihen\_set1\_21[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-ausleihen\_set1\_21[4]	_	_	_	_	_	false[109]	NA[109]	*[205]	*[205]	*[205]	*[205]	*[205]	input2[205]	27[294]	female[294]	65p8m4ujg4fi983365pclnac28[294]	speaker: YOU[383]	_	_	_	_	_	
+23-5	525-528	der	GFailure[4]	ausleihen\_set1\_21[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-ausleihen\_set1\_21[4]	*[43]	*[43]	PrepObj[43]	*[43]	*[43]	false[109]	NA[109]	*[205]	*[205]	*[205]	*[205]	*[205]	input2[205]	27[294]	female[294]	65p8m4ujg4fi983365pclnac28[294]	speaker: YOU[383]	*->131-1	DefNP[131]	_	_	_	
+23-6	529-533	Wand	GFailure[4]	ausleihen\_set1\_21[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-ausleihen\_set1\_21[4]	*[43]	*[43]	PrepObj[43]	*[43]	*[43]	false[109]	NA[109]	*[205]	*[205]	*[205]	*[205]	*[205]	input2[205]	27[294]	female[294]	65p8m4ujg4fi983365pclnac28[294]	speaker: YOU[383]	*->131-1	DefNP[131]	_	_	_	
+23-7	534-536	zu	GFailure[4]	ausleihen\_set1\_21[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-ausleihen\_set1\_21[4]	_	_	_	_	_	false[109]	NA[109]	*[205]	*[205]	*[205]	*[205]	*[205]	input2[205]	27[294]	female[294]	65p8m4ujg4fi983365pclnac28[294]	speaker: YOU[383]	_	_	_	_	_	
+23-8	537-547	befestigen	GFailure[4]	ausleihen\_set1\_21[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-ausleihen\_set1\_21[4]	_	_	_	_	_	false[109]	NA[109]	*[205]	*[205]	*[205]	*[205]	*[205]	input2[205]	27[294]	female[294]	65p8m4ujg4fi983365pclnac28[294]	speaker: YOU[383]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+24-1	549-564	END_OF_DOCUMENT	GFailure[4]	ausleihen\_set1\_21[4]	latin2[4]	65p8m4ujg4fi983365pclnac28-ausleihen\_set1\_21[4]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+25-1	566-569	Na?	GFailure[5]	ausleihen\_set1\_21[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-ausleihen\_set1\_21[5]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Finnja	_	_	QAP	*	26-1[110_0]	
+
+#Text=Samuel hat eine Leiter ausgeliehen
+26-1	571-577	Samuel	GFailure[5]	ausleihen\_set1\_21[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-ausleihen\_set1\_21[5]	*	*	Subj	*	*	false[110]	Decl[110]	*[206]	ausleihen[206]	transitive[206]	*[206]	*[206]	item0[206]	22[295]	female[295]	ad2p95q44evasm6vmbol4cikit[295]	speaker: YOU[384]	*->128-1	PropNm[128]	explanation|CR	*|*	28-1[111_110]|27-1[0_110]	
+26-2	578-581	hat	GFailure[5]	ausleihen\_set1\_21[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-ausleihen\_set1\_21[5]	_	_	_	_	_	false[110]	Decl[110]	*[206]	ausleihen[206]	transitive[206]	*[206]	*[206]	item0[206]	22[295]	female[295]	ad2p95q44evasm6vmbol4cikit[295]	speaker: YOU[384]	_	_	_	_	_	
+26-3	582-586	eine	GFailure[5]	ausleihen\_set1\_21[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-ausleihen\_set1\_21[5]	*[44]	*[44]	object[44]	*[44]	*[44]	false[110]	Decl[110]	*[206]	ausleihen[206]	transitive[206]	*[206]	*[206]	item0[206]	22[295]	female[295]	ad2p95q44evasm6vmbol4cikit[295]	speaker: YOU[384]	*->78-1	IndefNP[78]	_	_	_	
+26-4	587-593	Leiter	GFailure[5]	ausleihen\_set1\_21[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-ausleihen\_set1\_21[5]	*[44]	*[44]	object[44]	*[44]	*[44]	false[110]	Decl[110]	*[206]	ausleihen[206]	transitive[206]	*[206]	*[206]	item0[206]	22[295]	female[295]	ad2p95q44evasm6vmbol4cikit[295]	speaker: YOU[384]	*->78-1	IndefNP[78]	_	_	_	
+26-5	594-605	ausgeliehen	GFailure[5]	ausleihen\_set1\_21[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-ausleihen\_set1\_21[5]	_	_	_	_	_	false[110]	Decl[110]	*[206]	ausleihen[206]	transitive[206]	*[206]	*[206]	item0[206]	22[295]	female[295]	ad2p95q44evasm6vmbol4cikit[295]	speaker: YOU[384]	_	_	_	_	_	
+
+#Text=Was?
+27-1	607-611	Was?	GFailure[5]	ausleihen\_set1\_21[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-ausleihen\_set1\_21[5]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	female	*	speaker:Finnja	_	_	_	_	_	
+
+#Text=Er braucht die Leiter um seine Wohnung zu streichen.
+28-1	613-615	Er	GFailure[5]	ausleihen\_set1\_21[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-ausleihen\_set1\_21[5]	3	*	Subj	m	singular	false[111]	Decl[111]	*[207]	*[207]	*[207]	*[207]	*[207]	input1[207]	22[296]	female[296]	ad2p95q44evasm6vmbol4cikit[296]	speaker: YOU[385]	*->128-2	PerPron[128]	_	_	_	
+28-2	616-623	braucht	GFailure[5]	ausleihen\_set1\_21[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-ausleihen\_set1\_21[5]	_	_	_	_	_	false[111]	Decl[111]	*[207]	*[207]	*[207]	*[207]	*[207]	input1[207]	22[296]	female[296]	ad2p95q44evasm6vmbol4cikit[296]	speaker: YOU[385]	_	_	_	_	_	
+28-3	624-627	die	GFailure[5]	ausleihen\_set1\_21[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-ausleihen\_set1\_21[5]	*[45]	*[45]	DirObj[45]	*[45]	*[45]	false[111]	Decl[111]	*[207]	*[207]	*[207]	*[207]	*[207]	input1[207]	22[296]	female[296]	ad2p95q44evasm6vmbol4cikit[296]	speaker: YOU[385]	*->78-2	DefNP[78]	_	_	_	
+28-4	628-634	Leiter	GFailure[5]	ausleihen\_set1\_21[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-ausleihen\_set1\_21[5]	*[45]	*[45]	DirObj[45]	*[45]	*[45]	false[111]	Decl[111]	*[207]	*[207]	*[207]	*[207]	*[207]	input1[207]	22[296]	female[296]	ad2p95q44evasm6vmbol4cikit[296]	speaker: YOU[385]	*->78-2	DefNP[78]	_	_	_	
+28-5	635-637	um	GFailure[5]	ausleihen\_set1\_21[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-ausleihen\_set1\_21[5]	_	_	_	_	_	false[111]	Decl[111]	*[207]	*[207]	*[207]	*[207]	*[207]	input1[207]	22[296]	female[296]	ad2p95q44evasm6vmbol4cikit[296]	speaker: YOU[385]	_	_	_	_	_	
+28-6	638-643	seine	GFailure[5]	ausleihen\_set1\_21[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-ausleihen\_set1\_21[5]	*[46]|3[47]	*[46]|*[47]	PrepObj[46]|*[47]	*[46]|*[47]	*[46]|singular[47]	false[111]	Decl[111]	*[207]	*[207]	*[207]	*[207]	*[207]	input1[207]	22[296]	female[296]	ad2p95q44evasm6vmbol4cikit[296]	speaker: YOU[385]	*->135-1|*->128-3	DefNP[135]|PossePron[128]	_	_	_	
+28-7	644-651	Wohnung	GFailure[5]	ausleihen\_set1\_21[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-ausleihen\_set1\_21[5]	*[46]	*[46]	PrepObj[46]	*[46]	*[46]	false[111]	Decl[111]	*[207]	*[207]	*[207]	*[207]	*[207]	input1[207]	22[296]	female[296]	ad2p95q44evasm6vmbol4cikit[296]	speaker: YOU[385]	*->135-1	DefNP[135]	_	_	_	
+28-8	652-654	zu	GFailure[5]	ausleihen\_set1\_21[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-ausleihen\_set1\_21[5]	_	_	_	_	_	false[111]	Decl[111]	*[207]	*[207]	*[207]	*[207]	*[207]	input1[207]	22[296]	female[296]	ad2p95q44evasm6vmbol4cikit[296]	speaker: YOU[385]	_	_	_	_	_	
+28-9	655-665	streichen.	GFailure[5]	ausleihen\_set1\_21[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-ausleihen\_set1\_21[5]	_	_	_	_	_	false[111]	Decl[111]	*[207]	*[207]	*[207]	*[207]	*[207]	input1[207]	22[296]	female[296]	ad2p95q44evasm6vmbol4cikit[296]	speaker: YOU[385]	_	_	_	_	_	
+
+#Text=Ich bringe Sie dir morgen wieder
+29-1	667-670	Ich	GFailure[5]	ausleihen\_set1\_21[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-ausleihen\_set1\_21[5]	1	*	Subj	*	singular	false[112]	Decl[112]	*[208]	*[208]	*[208]	*[208]	*[208]	input2[208]	22[297]	female[297]	ad2p95q44evasm6vmbol4cikit[297]	speaker: YOU[386]	*->34-1	PerPron[34]	_	_	_	
+29-2	671-677	bringe	GFailure[5]	ausleihen\_set1\_21[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-ausleihen\_set1\_21[5]	_	_	_	_	_	false[112]	Decl[112]	*[208]	*[208]	*[208]	*[208]	*[208]	input2[208]	22[297]	female[297]	ad2p95q44evasm6vmbol4cikit[297]	speaker: YOU[386]	_	_	_	_	_	
+29-3	678-681	Sie	GFailure[5]	ausleihen\_set1\_21[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-ausleihen\_set1\_21[5]	3	*	DirObj	*	singular	false[112]	Decl[112]	*[208]	*[208]	*[208]	*[208]	*[208]	input2[208]	22[297]	female[297]	ad2p95q44evasm6vmbol4cikit[297]	speaker: YOU[386]	*->78-3	PerPron[78]	_	_	_	
+29-4	682-685	dir	GFailure[5]	ausleihen\_set1\_21[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-ausleihen\_set1\_21[5]	2	*	*	*	singular	false[112]	Decl[112]	*[208]	*[208]	*[208]	*[208]	*[208]	input2[208]	22[297]	female[297]	ad2p95q44evasm6vmbol4cikit[297]	speaker: YOU[386]	*->53-1	PerPron[53]	_	_	_	
+29-5	686-692	morgen	GFailure[5]	ausleihen\_set1\_21[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-ausleihen\_set1\_21[5]	_	_	_	_	_	false[112]	Decl[112]	*[208]	*[208]	*[208]	*[208]	*[208]	input2[208]	22[297]	female[297]	ad2p95q44evasm6vmbol4cikit[297]	speaker: YOU[386]	_	_	_	_	_	
+29-6	693-699	wieder	GFailure[5]	ausleihen\_set1\_21[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-ausleihen\_set1\_21[5]	_	_	_	_	_	false[112]	Decl[112]	*[208]	*[208]	*[208]	*[208]	*[208]	input2[208]	22[297]	female[297]	ad2p95q44evasm6vmbol4cikit[297]	speaker: YOU[386]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+30-1	701-716	END_OF_DOCUMENT	GFailure[5]	ausleihen\_set1\_21[5]	latin2[5]	ad2p95q44evasm6vmbol4cikit-ausleihen\_set1\_21[5]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+31-1	718-721	Na?	GFailure[6]	ausleihen\_set1\_21[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-ausleihen\_set1\_21[6]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Finnja	_	_	QAP	*	32-1[113_0]	
+
+#Text=Samuel hat eine Leiter ausgeliehen
+32-1	723-729	Samuel	GFailure[6]	ausleihen\_set1\_21[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-ausleihen\_set1\_21[6]	*	*	Subj	*	*	false[113]	Decl[113]	*[209]	ausleihen[209]	transitive[209]	*[209]	*[209]	item0[209]	36[298]	female[298]	aoum613lougtk5ql841j63bjo9[298]	speaker: YOU[387]	*->142-1	PropNm[142]	explanation|explanation|CR	*|*|*	34-1[114_113]|35-1[116_113]|33-1[0_113]	
+32-2	730-733	hat	GFailure[6]	ausleihen\_set1\_21[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-ausleihen\_set1\_21[6]	_	_	_	_	_	false[113]	Decl[113]	*[209]	ausleihen[209]	transitive[209]	*[209]	*[209]	item0[209]	36[298]	female[298]	aoum613lougtk5ql841j63bjo9[298]	speaker: YOU[387]	_	_	_	_	_	
+32-3	734-738	eine	GFailure[6]	ausleihen\_set1\_21[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-ausleihen\_set1\_21[6]	*[48]	*[48]	object[48]	*[48]	*[48]	false[113]	Decl[113]	*[209]	ausleihen[209]	transitive[209]	*[209]	*[209]	item0[209]	36[298]	female[298]	aoum613lougtk5ql841j63bjo9[298]	speaker: YOU[387]	*->96-1	IndefNP[96]	_	_	_	
+32-4	739-745	Leiter	GFailure[6]	ausleihen\_set1\_21[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-ausleihen\_set1\_21[6]	*[48]	*[48]	object[48]	*[48]	*[48]	false[113]	Decl[113]	*[209]	ausleihen[209]	transitive[209]	*[209]	*[209]	item0[209]	36[298]	female[298]	aoum613lougtk5ql841j63bjo9[298]	speaker: YOU[387]	*->96-1	IndefNP[96]	_	_	_	
+32-5	746-757	ausgeliehen	GFailure[6]	ausleihen\_set1\_21[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-ausleihen\_set1\_21[6]	_	_	_	_	_	false[113]	Decl[113]	*[209]	ausleihen[209]	transitive[209]	*[209]	*[209]	item0[209]	36[298]	female[298]	aoum613lougtk5ql841j63bjo9[298]	speaker: YOU[387]	_	_	_	_	_	
+
+#Text=Was?
+33-1	759-763	Was?	GFailure[6]	ausleihen\_set1\_21[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-ausleihen\_set1\_21[6]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	female	*	speaker:Finnja	_	_	_	_	_	
+
+#Text=Er will die Äpfel dieses Jahr selbst ernten.
+34-1	765-767	Er	GFailure[6]	ausleihen\_set1\_21[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-ausleihen\_set1\_21[6]	3	*	Subj	m	singular	false[114]	Decl[114]	*[210]	*[210]	*[210]	*[210]	*[210]	input1[210]	36[299]	female[299]	aoum613lougtk5ql841j63bjo9[299]	speaker: YOU[388]	*->142-2	PerPron[142]	_	_	_	
+34-2	768-772	will	GFailure[6]	ausleihen\_set1\_21[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-ausleihen\_set1\_21[6]	_	_	_	_	_	false[114]	Decl[114]	*[210]	*[210]	*[210]	*[210]	*[210]	input1[210]	36[299]	female[299]	aoum613lougtk5ql841j63bjo9[299]	speaker: YOU[388]	_	_	_	_	_	
+34-3	773-776	die	GFailure[6]	ausleihen\_set1\_21[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-ausleihen\_set1\_21[6]	*[49]	*[49]	*[49]	*[49]	*[49]	false[114]	Decl[114]	*[210]	*[210]	*[210]	*[210]	*[210]	input1[210]	36[299]	female[299]	aoum613lougtk5ql841j63bjo9[299]	speaker: YOU[388]	*->28-1	DefNP[28]	_	_	_	
+34-4	777-782	Äpfel	GFailure[6]	ausleihen\_set1\_21[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-ausleihen\_set1\_21[6]	*[49]	*[49]	*[49]	*[49]	*[49]	false[114]	Decl[114]	*[210]	*[210]	*[210]	*[210]	*[210]	input1[210]	36[299]	female[299]	aoum613lougtk5ql841j63bjo9[299]	speaker: YOU[388]	*->28-1	DefNP[28]	_	_	_	
+34-5	783-789	dieses	GFailure[6]	ausleihen\_set1\_21[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-ausleihen\_set1\_21[6]	_	_	_	_	_	false[114]	Decl[114]	*[210]	*[210]	*[210]	*[210]	*[210]	input1[210]	36[299]	female[299]	aoum613lougtk5ql841j63bjo9[299]	speaker: YOU[388]	*->114-1	DefNP[114]	_	_	_	
+34-6	790-794	Jahr	GFailure[6]	ausleihen\_set1\_21[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-ausleihen\_set1\_21[6]	_	_	_	_	_	false[114]	Decl[114]	*[210]	*[210]	*[210]	*[210]	*[210]	input1[210]	36[299]	female[299]	aoum613lougtk5ql841j63bjo9[299]	speaker: YOU[388]	*->114-1	DefNP[114]	_	_	_	
+34-7	795-801	selbst	GFailure[6]	ausleihen\_set1\_21[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-ausleihen\_set1\_21[6]	_	_	_	_	_	false[114]	Decl[114]	*[210]	*[210]	*[210]	*[210]	*[210]	input1[210]	36[299]	female[299]	aoum613lougtk5ql841j63bjo9[299]	speaker: YOU[388]	_	_	_	_	_	
+34-8	802-809	ernten.	GFailure[6]	ausleihen\_set1\_21[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-ausleihen\_set1\_21[6]	_	_	_	_	_	false[114]	Decl[114]	*[210]	*[210]	*[210]	*[210]	*[210]	input1[210]	36[299]	female[299]	aoum613lougtk5ql841j63bjo9[299]	speaker: YOU[388]	_	_	_	_	_	
+
+#Text=Und wir hatten keine Leiter <BR> die lang genug ist.
+35-1	811-814	Und	GFailure[6]	ausleihen\_set1\_21[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-ausleihen\_set1\_21[6]	_	_	_	_	_	false[115]|false[116]	*[115]|Decl[116]	*[211]	*[211]	*[211]	*[211]	*[211]	input2[211]	36[300]	female[300]	aoum613lougtk5ql841j63bjo9[300]	speaker: YOU[389]	_	_	_	_	_	
+35-2	815-818	wir	GFailure[6]	ausleihen\_set1\_21[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-ausleihen\_set1\_21[6]	1	*	Subj	*	plural	false[115]|false[116]	*[115]|Decl[116]	*[211]	*[211]	*[211]	*[211]	*[211]	input2[211]	36[300]	female[300]	aoum613lougtk5ql841j63bjo9[300]	speaker: YOU[389]	*->73-1	PerPron[73]	_	_	_	
+35-3	819-825	hatten	GFailure[6]	ausleihen\_set1\_21[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-ausleihen\_set1\_21[6]	_	_	_	_	_	false[115]|false[116]	*[115]|Decl[116]	*[211]	*[211]	*[211]	*[211]	*[211]	input2[211]	36[300]	female[300]	aoum613lougtk5ql841j63bjo9[300]	speaker: YOU[389]	_	_	_	_	_	
+35-4	826-831	keine	GFailure[6]	ausleihen\_set1\_21[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-ausleihen\_set1\_21[6]	_	_	_	_	_	false[115]|false[116]	*[115]|Decl[116]	*[211]	*[211]	*[211]	*[211]	*[211]	input2[211]	36[300]	female[300]	aoum613lougtk5ql841j63bjo9[300]	speaker: YOU[389]	_	_	_	_	_	
+35-5	832-838	Leiter	GFailure[6]	ausleihen\_set1\_21[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-ausleihen\_set1\_21[6]	_	_	_	_	_	false[115]|false[116]	*[115]|Decl[116]	*[211]	*[211]	*[211]	*[211]	*[211]	input2[211]	36[300]	female[300]	aoum613lougtk5ql841j63bjo9[300]	speaker: YOU[389]	_	_	_	_	_	
+35-6	839-843	<BR>	GFailure[6]	ausleihen\_set1\_21[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-ausleihen\_set1\_21[6]	_	_	_	_	_	false[115]	*[115]	*[211]	*[211]	*[211]	*[211]	*[211]	input2[211]	36[300]	female[300]	aoum613lougtk5ql841j63bjo9[300]	speaker: YOU[389]	_	_	_	_	_	
+35-7	844-847	die	GFailure[6]	ausleihen\_set1\_21[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-ausleihen\_set1\_21[6]	_	_	_	_	_	false[115]|false[117]	*[115]|NA[117]	*[211]	*[211]	*[211]	*[211]	*[211]	input2[211]	36[300]	female[300]	aoum613lougtk5ql841j63bjo9[300]	speaker: YOU[389]	_	_	_	_	_	
+35-8	848-852	lang	GFailure[6]	ausleihen\_set1\_21[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-ausleihen\_set1\_21[6]	_	_	_	_	_	false[115]|false[117]	*[115]|NA[117]	*[211]	*[211]	*[211]	*[211]	*[211]	input2[211]	36[300]	female[300]	aoum613lougtk5ql841j63bjo9[300]	speaker: YOU[389]	_	_	_	_	_	
+35-9	853-858	genug	GFailure[6]	ausleihen\_set1\_21[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-ausleihen\_set1\_21[6]	_	_	_	_	_	false[115]|false[117]	*[115]|NA[117]	*[211]	*[211]	*[211]	*[211]	*[211]	input2[211]	36[300]	female[300]	aoum613lougtk5ql841j63bjo9[300]	speaker: YOU[389]	_	_	_	_	_	
+35-10	859-863	ist.	GFailure[6]	ausleihen\_set1\_21[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-ausleihen\_set1\_21[6]	_	_	_	_	_	false[115]|false[117]	*[115]|NA[117]	*[211]	*[211]	*[211]	*[211]	*[211]	input2[211]	36[300]	female[300]	aoum613lougtk5ql841j63bjo9[300]	speaker: YOU[389]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+36-1	865-880	END_OF_DOCUMENT	GFailure[6]	ausleihen\_set1\_21[6]	latin2[6]	aoum613lougtk5ql841j63bjo9-ausleihen\_set1\_21[6]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+37-1	882-885	Na?	GFailure[7]	ausleihen\_set1\_21[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-ausleihen\_set1\_21[7]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Finnja	_	_	QAP	*	38-1[118_0]	
+
+#Text=Samuel hat eine Leiter ausgeliehen
+38-1	887-893	Samuel	GFailure[7]	ausleihen\_set1\_21[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-ausleihen\_set1\_21[7]	*	*	Subj	*	*	false[118]	Decl[118]	*[212]	ausleihen[212]	transitive[212]	*[212]	*[212]	item0[212]	26[301]	male[301]	c48fsj7kc4kiuorutkbb4be30b[301]	speaker: YOU[390]	*->120-1	PropNm[120]	elaboration|CR	*|*	40-1[0_118]|39-1[0_118]	
+38-2	894-897	hat	GFailure[7]	ausleihen\_set1\_21[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-ausleihen\_set1\_21[7]	_	_	_	_	_	false[118]	Decl[118]	*[212]	ausleihen[212]	transitive[212]	*[212]	*[212]	item0[212]	26[301]	male[301]	c48fsj7kc4kiuorutkbb4be30b[301]	speaker: YOU[390]	_	_	_	_	_	
+38-3	898-902	eine	GFailure[7]	ausleihen\_set1\_21[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-ausleihen\_set1\_21[7]	*[50]	*[50]	object[50]	*[50]	*[50]	false[118]	Decl[118]	*[212]	ausleihen[212]	transitive[212]	*[212]	*[212]	item0[212]	26[301]	male[301]	c48fsj7kc4kiuorutkbb4be30b[301]	speaker: YOU[390]	*->72-1	IndefNP[72]	_	_	_	
+38-4	903-909	Leiter	GFailure[7]	ausleihen\_set1\_21[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-ausleihen\_set1\_21[7]	*[50]	*[50]	object[50]	*[50]	*[50]	false[118]	Decl[118]	*[212]	ausleihen[212]	transitive[212]	*[212]	*[212]	item0[212]	26[301]	male[301]	c48fsj7kc4kiuorutkbb4be30b[301]	speaker: YOU[390]	*->72-1	IndefNP[72]	_	_	_	
+38-5	910-921	ausgeliehen	GFailure[7]	ausleihen\_set1\_21[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-ausleihen\_set1\_21[7]	_	_	_	_	_	false[118]	Decl[118]	*[212]	ausleihen[212]	transitive[212]	*[212]	*[212]	item0[212]	26[301]	male[301]	c48fsj7kc4kiuorutkbb4be30b[301]	speaker: YOU[390]	_	_	_	_	_	
+
+#Text=Was?
+39-1	923-927	Was?	GFailure[7]	ausleihen\_set1\_21[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-ausleihen\_set1\_21[7]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	female	*	speaker:Finnja	_	_	_	_	_	
+
+#Text=Ja <BR> er möchte etwas am Haus arbeiten.
+40-1	929-931	Ja	GFailure[7]	ausleihen\_set1\_21[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-ausleihen\_set1\_21[7]	_	_	_	_	_	false	NA	*[213]	*[213]	*[213]	*[213]	*[213]	input1[213]	26[302]	male[302]	c48fsj7kc4kiuorutkbb4be30b[302]	speaker: YOU[391]	_	_	explanation	*	40-3[119_0]	
+40-2	932-936	<BR>	GFailure[7]	ausleihen\_set1\_21[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-ausleihen\_set1\_21[7]	_	_	_	_	_	_	_	*[213]	*[213]	*[213]	*[213]	*[213]	input1[213]	26[302]	male[302]	c48fsj7kc4kiuorutkbb4be30b[302]	speaker: YOU[391]	_	_	_	_	_	
+40-3	937-939	er	GFailure[7]	ausleihen\_set1\_21[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-ausleihen\_set1\_21[7]	3	*	Subj	m	singular	false[119]	Decl[119]	*[213]	*[213]	*[213]	*[213]	*[213]	input1[213]	26[302]	male[302]	c48fsj7kc4kiuorutkbb4be30b[302]	speaker: YOU[391]	*->120-2	PerPron[120]	_	_	_	
+40-4	940-946	möchte	GFailure[7]	ausleihen\_set1\_21[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-ausleihen\_set1\_21[7]	_	_	_	_	_	false[119]	Decl[119]	*[213]	*[213]	*[213]	*[213]	*[213]	input1[213]	26[302]	male[302]	c48fsj7kc4kiuorutkbb4be30b[302]	speaker: YOU[391]	_	_	_	_	_	
+40-5	947-952	etwas	GFailure[7]	ausleihen\_set1\_21[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-ausleihen\_set1\_21[7]	_	_	_	_	_	false[119]	Decl[119]	*[213]	*[213]	*[213]	*[213]	*[213]	input1[213]	26[302]	male[302]	c48fsj7kc4kiuorutkbb4be30b[302]	speaker: YOU[391]	*->143-1	IndefNP[143]	_	_	_	
+40-6	953-955	am	GFailure[7]	ausleihen\_set1\_21[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-ausleihen\_set1\_21[7]	_	_	_	_	_	false[119]	Decl[119]	*[213]	*[213]	*[213]	*[213]	*[213]	input1[213]	26[302]	male[302]	c48fsj7kc4kiuorutkbb4be30b[302]	speaker: YOU[391]	*->115-1	DefNP[115]	_	_	_	
+40-7	956-960	Haus	GFailure[7]	ausleihen\_set1\_21[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-ausleihen\_set1\_21[7]	*	*	PrepObj	*	*	false[119]	Decl[119]	*[213]	*[213]	*[213]	*[213]	*[213]	input1[213]	26[302]	male[302]	c48fsj7kc4kiuorutkbb4be30b[302]	speaker: YOU[391]	*->115-1	DefNP[115]	_	_	_	
+40-8	961-970	arbeiten.	GFailure[7]	ausleihen\_set1\_21[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-ausleihen\_set1\_21[7]	_	_	_	_	_	false[119]	Decl[119]	*[213]	*[213]	*[213]	*[213]	*[213]	input1[213]	26[302]	male[302]	c48fsj7kc4kiuorutkbb4be30b[302]	speaker: YOU[391]	_	_	_	_	_	
+
+#Text=Ich hoffe er fällt nicht runter.
+41-1	972-975	Ich	GFailure[7]	ausleihen\_set1\_21[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-ausleihen\_set1\_21[7]	1	*	Subj	*	singular	false[120]	Decl[120]	*[214]	*[214]	*[214]	*[214]	*[214]	input2[214]	26[303]	male[303]	c48fsj7kc4kiuorutkbb4be30b[303]	speaker: YOU[392]	*->19-1	PerPron[19]	_	_	_	
+41-2	976-981	hoffe	GFailure[7]	ausleihen\_set1\_21[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-ausleihen\_set1\_21[7]	_	_	_	_	_	false[120]	Decl[120]	*[214]	*[214]	*[214]	*[214]	*[214]	input2[214]	26[303]	male[303]	c48fsj7kc4kiuorutkbb4be30b[303]	speaker: YOU[392]	_	_	_	_	_	
+41-3	982-984	er	GFailure[7]	ausleihen\_set1\_21[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-ausleihen\_set1\_21[7]	3	*	DirObj	*	singular	false[120]	Decl[120]	*[214]	*[214]	*[214]	*[214]	*[214]	input2[214]	26[303]	male[303]	c48fsj7kc4kiuorutkbb4be30b[303]	speaker: YOU[392]	*->120-3	PerPron[120]	_	_	_	
+41-4	985-990	fällt	GFailure[7]	ausleihen\_set1\_21[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-ausleihen\_set1\_21[7]	_	_	_	_	_	false[120]	Decl[120]	*[214]	*[214]	*[214]	*[214]	*[214]	input2[214]	26[303]	male[303]	c48fsj7kc4kiuorutkbb4be30b[303]	speaker: YOU[392]	_	_	_	_	_	
+41-5	991-996	nicht	GFailure[7]	ausleihen\_set1\_21[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-ausleihen\_set1\_21[7]	_	_	_	_	_	false[120]	Decl[120]	*[214]	*[214]	*[214]	*[214]	*[214]	input2[214]	26[303]	male[303]	c48fsj7kc4kiuorutkbb4be30b[303]	speaker: YOU[392]	_	_	_	_	_	
+41-6	997-1004	runter.	GFailure[7]	ausleihen\_set1\_21[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-ausleihen\_set1\_21[7]	_	_	_	_	_	false[120]	Decl[120]	*[214]	*[214]	*[214]	*[214]	*[214]	input2[214]	26[303]	male[303]	c48fsj7kc4kiuorutkbb4be30b[303]	speaker: YOU[392]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+42-1	1006-1021	END_OF_DOCUMENT	GFailure[7]	ausleihen\_set1\_21[7]	latin2[7]	c48fsj7kc4kiuorutkbb4be30b-ausleihen\_set1\_21[7]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+43-1	1023-1026	Na?	GFailure[8]	ausleihen\_set1\_21[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-ausleihen\_set1\_21[8]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Finnja	_	_	QAP	*	44-1[121_0]	
+
+#Text=Samuel hat eine Leiter ausgeliehen
+44-1	1028-1034	Samuel	GFailure[8]	ausleihen\_set1\_21[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-ausleihen\_set1\_21[8]	*	*	Subj	*	*	false[121]	Decl[121]	*[215]	ausleihen[215]	transitive[215]	*[215]	*[215]	item0[215]	57[304]	female[304]	k0vnav0sqhr0fo3b0jpuaak9s4[304]	speaker: YOU[393]	*->102-1	PropNm[102]	explanation|CR	*|*	46-1[122_121]|45-1[0_121]	
+44-2	1035-1038	hat	GFailure[8]	ausleihen\_set1\_21[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-ausleihen\_set1\_21[8]	_	_	_	_	_	false[121]	Decl[121]	*[215]	ausleihen[215]	transitive[215]	*[215]	*[215]	item0[215]	57[304]	female[304]	k0vnav0sqhr0fo3b0jpuaak9s4[304]	speaker: YOU[393]	_	_	_	_	_	
+44-3	1039-1043	eine	GFailure[8]	ausleihen\_set1\_21[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-ausleihen\_set1\_21[8]	*[51]	*[51]	object[51]	*[51]	*[51]	false[121]	Decl[121]	*[215]	ausleihen[215]	transitive[215]	*[215]	*[215]	item0[215]	57[304]	female[304]	k0vnav0sqhr0fo3b0jpuaak9s4[304]	speaker: YOU[393]	*->46-1	IndefNP[46]	_	_	_	
+44-4	1044-1050	Leiter	GFailure[8]	ausleihen\_set1\_21[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-ausleihen\_set1\_21[8]	*[51]	*[51]	object[51]	*[51]	*[51]	false[121]	Decl[121]	*[215]	ausleihen[215]	transitive[215]	*[215]	*[215]	item0[215]	57[304]	female[304]	k0vnav0sqhr0fo3b0jpuaak9s4[304]	speaker: YOU[393]	*->46-1	IndefNP[46]	_	_	_	
+44-5	1051-1062	ausgeliehen	GFailure[8]	ausleihen\_set1\_21[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-ausleihen\_set1\_21[8]	_	_	_	_	_	false[121]	Decl[121]	*[215]	ausleihen[215]	transitive[215]	*[215]	*[215]	item0[215]	57[304]	female[304]	k0vnav0sqhr0fo3b0jpuaak9s4[304]	speaker: YOU[393]	_	_	_	_	_	
+
+#Text=Was?
+45-1	1064-1068	Was?	GFailure[8]	ausleihen\_set1\_21[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-ausleihen\_set1\_21[8]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	female	*	speaker:Finnja	_	_	_	_	_	
+
+#Text=Katze Berta ist wieder auf die Pappel geklettert und kommt nicht wieder runter.
+46-1	1070-1075	Katze	GFailure[8]	ausleihen\_set1\_21[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-ausleihen\_set1\_21[8]	*[52]	*[52]	Subj[52]	*[52]	*[52]	true[122]|false[123]	*[122]|Decl[123]	*[216]	*[216]	*[216]	*[216]	*[216]	input1[216]	57[305]	female[305]	k0vnav0sqhr0fo3b0jpuaak9s4[305]	speaker: YOU[394]	*->133-1|*->137-1	clause[133]|PropNm[137]	elaboration|result	*|*	47-1[125_122]|46-9[124_123]	
+46-2	1076-1081	Berta	GFailure[8]	ausleihen\_set1\_21[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-ausleihen\_set1\_21[8]	*[52]	*[52]	Subj[52]	*[52]	*[52]	true[122]|false[123]	*[122]|Decl[123]	*[216]	*[216]	*[216]	*[216]	*[216]	input1[216]	57[305]	female[305]	k0vnav0sqhr0fo3b0jpuaak9s4[305]	speaker: YOU[394]	*->133-1|*->137-1	clause[133]|PropNm[137]	_	_	_	
+46-3	1082-1085	ist	GFailure[8]	ausleihen\_set1\_21[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-ausleihen\_set1\_21[8]	_	_	_	_	_	true[122]|false[123]	*[122]|Decl[123]	*[216]	*[216]	*[216]	*[216]	*[216]	input1[216]	57[305]	female[305]	k0vnav0sqhr0fo3b0jpuaak9s4[305]	speaker: YOU[394]	*->133-1	clause[133]	_	_	_	
+46-4	1086-1092	wieder	GFailure[8]	ausleihen\_set1\_21[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-ausleihen\_set1\_21[8]	_	_	_	_	_	true[122]|false[123]	*[122]|Decl[123]	*[216]	*[216]	*[216]	*[216]	*[216]	input1[216]	57[305]	female[305]	k0vnav0sqhr0fo3b0jpuaak9s4[305]	speaker: YOU[394]	*->133-1	clause[133]	_	_	_	
+46-5	1093-1096	auf	GFailure[8]	ausleihen\_set1\_21[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-ausleihen\_set1\_21[8]	_	_	_	_	_	true[122]|false[123]	*[122]|Decl[123]	*[216]	*[216]	*[216]	*[216]	*[216]	input1[216]	57[305]	female[305]	k0vnav0sqhr0fo3b0jpuaak9s4[305]	speaker: YOU[394]	*->133-1	clause[133]	_	_	_	
+46-6	1097-1100	die	GFailure[8]	ausleihen\_set1\_21[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-ausleihen\_set1\_21[8]	*[53]	*[53]	PrepObj[53]	*[53]	*[53]	true[122]|false[123]	*[122]|Decl[123]	*[216]	*[216]	*[216]	*[216]	*[216]	input1[216]	57[305]	female[305]	k0vnav0sqhr0fo3b0jpuaak9s4[305]	speaker: YOU[394]	*->133-1|*->97-1	clause[133]|DefNP[97]	_	_	_	
+46-7	1101-1107	Pappel	GFailure[8]	ausleihen\_set1\_21[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-ausleihen\_set1\_21[8]	*[53]	*[53]	PrepObj[53]	*[53]	*[53]	true[122]|false[123]	*[122]|Decl[123]	*[216]	*[216]	*[216]	*[216]	*[216]	input1[216]	57[305]	female[305]	k0vnav0sqhr0fo3b0jpuaak9s4[305]	speaker: YOU[394]	*->133-1|*->97-1	clause[133]|DefNP[97]	_	_	_	
+46-8	1108-1118	geklettert	GFailure[8]	ausleihen\_set1\_21[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-ausleihen\_set1\_21[8]	_	_	_	_	_	true[122]|false[123]	*[122]|Decl[123]	*[216]	*[216]	*[216]	*[216]	*[216]	input1[216]	57[305]	female[305]	k0vnav0sqhr0fo3b0jpuaak9s4[305]	speaker: YOU[394]	*->133-1	clause[133]	_	_	_	
+46-9	1119-1122	und	GFailure[8]	ausleihen\_set1\_21[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-ausleihen\_set1\_21[8]	_	_	_	_	_	true[122]|false[124]	*[122]|Decl[124]	*[216]	*[216]	*[216]	*[216]	*[216]	input1[216]	57[305]	female[305]	k0vnav0sqhr0fo3b0jpuaak9s4[305]	speaker: YOU[394]	*->133-1	clause[133]	_	_	_	
+46-10	1123-1128	kommt	GFailure[8]	ausleihen\_set1\_21[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-ausleihen\_set1\_21[8]	3	*	*	*	singular	true[122]|false[124]	*[122]|Decl[124]	*[216]	*[216]	*[216]	*[216]	*[216]	input1[216]	57[305]	female[305]	k0vnav0sqhr0fo3b0jpuaak9s4[305]	speaker: YOU[394]	*->133-1|*->137-2	clause[133]|zero[137]	_	_	_	
+46-11	1129-1134	nicht	GFailure[8]	ausleihen\_set1\_21[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-ausleihen\_set1\_21[8]	_	_	_	_	_	true[122]|false[124]	*[122]|Decl[124]	*[216]	*[216]	*[216]	*[216]	*[216]	input1[216]	57[305]	female[305]	k0vnav0sqhr0fo3b0jpuaak9s4[305]	speaker: YOU[394]	*->133-1	clause[133]	_	_	_	
+46-12	1135-1141	wieder	GFailure[8]	ausleihen\_set1\_21[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-ausleihen\_set1\_21[8]	_	_	_	_	_	true[122]|false[124]	*[122]|Decl[124]	*[216]	*[216]	*[216]	*[216]	*[216]	input1[216]	57[305]	female[305]	k0vnav0sqhr0fo3b0jpuaak9s4[305]	speaker: YOU[394]	*->133-1	clause[133]	_	_	_	
+46-13	1142-1149	runter.	GFailure[8]	ausleihen\_set1\_21[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-ausleihen\_set1\_21[8]	_	_	_	_	_	true[122]|false[124]	*[122]|Decl[124]	*[216]	*[216]	*[216]	*[216]	*[216]	input1[216]	57[305]	female[305]	k0vnav0sqhr0fo3b0jpuaak9s4[305]	speaker: YOU[394]	*->133-1	clause[133]	_	_	_	
+
+#Text=Berta macht das so oft <BR> Samuel denkt darüber nach<BR>sich eine eigene Leiter zu kaufen.
+47-1	1151-1156	Berta	GFailure[8]	ausleihen\_set1\_21[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-ausleihen\_set1\_21[8]	*	*	Subj	*	*	false[125]	Excl[125]	*[217]	*[217]	*[217]	*[217]	*[217]	input2[217]	57[306]	female[306]	k0vnav0sqhr0fo3b0jpuaak9s4[306]	speaker: YOU[395]	*->137-3	PropNm[137]	result	*	47-7[126_125]	
+47-2	1157-1162	macht	GFailure[8]	ausleihen\_set1\_21[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-ausleihen\_set1\_21[8]	_	_	_	_	_	false[125]	Excl[125]	*[217]	*[217]	*[217]	*[217]	*[217]	input2[217]	57[306]	female[306]	k0vnav0sqhr0fo3b0jpuaak9s4[306]	speaker: YOU[395]	_	_	_	_	_	
+47-3	1163-1166	das	GFailure[8]	ausleihen\_set1\_21[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-ausleihen\_set1\_21[8]	_	_	_	_	_	false[125]	Excl[125]	*[217]	*[217]	*[217]	*[217]	*[217]	input2[217]	57[306]	female[306]	k0vnav0sqhr0fo3b0jpuaak9s4[306]	speaker: YOU[395]	*->133-2	D-Pron[133]	_	_	_	
+47-4	1167-1169	so	GFailure[8]	ausleihen\_set1\_21[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-ausleihen\_set1\_21[8]	_	_	_	_	_	false[125]	Excl[125]	*[217]	*[217]	*[217]	*[217]	*[217]	input2[217]	57[306]	female[306]	k0vnav0sqhr0fo3b0jpuaak9s4[306]	speaker: YOU[395]	_	_	_	_	_	
+47-5	1170-1173	oft	GFailure[8]	ausleihen\_set1\_21[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-ausleihen\_set1\_21[8]	_	_	_	_	_	false[125]	Excl[125]	*[217]	*[217]	*[217]	*[217]	*[217]	input2[217]	57[306]	female[306]	k0vnav0sqhr0fo3b0jpuaak9s4[306]	speaker: YOU[395]	_	_	_	_	_	
+47-6	1174-1178	<BR>	GFailure[8]	ausleihen\_set1\_21[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-ausleihen\_set1\_21[8]	_	_	_	_	_	_	_	*[217]	*[217]	*[217]	*[217]	*[217]	input2[217]	57[306]	female[306]	k0vnav0sqhr0fo3b0jpuaak9s4[306]	speaker: YOU[395]	_	_	_	_	_	
+47-7	1179-1185	Samuel	GFailure[8]	ausleihen\_set1\_21[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-ausleihen\_set1\_21[8]	*	*	Subj	*	*	false[126]	Decl[126]	*[217]	*[217]	*[217]	*[217]	*[217]	input2[217]	57[306]	female[306]	k0vnav0sqhr0fo3b0jpuaak9s4[306]	speaker: YOU[395]	*->102-2	PropNm[102]	_	_	_	
+47-8	1186-1191	denkt	GFailure[8]	ausleihen\_set1\_21[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-ausleihen\_set1\_21[8]	_	_	_	_	_	false[126]	Decl[126]	*[217]	*[217]	*[217]	*[217]	*[217]	input2[217]	57[306]	female[306]	k0vnav0sqhr0fo3b0jpuaak9s4[306]	speaker: YOU[395]	_	_	_	_	_	
+47-9	1192-1199	darüber	GFailure[8]	ausleihen\_set1\_21[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-ausleihen\_set1\_21[8]	_	_	_	_	_	false[126]	Decl[126]	*[217]	*[217]	*[217]	*[217]	*[217]	input2[217]	57[306]	female[306]	k0vnav0sqhr0fo3b0jpuaak9s4[306]	speaker: YOU[395]	*->105-1	DemPron[105]	_	_	_	
+47-10	1200-1212	nach<BR>sich	GFailure[8]	ausleihen\_set1\_21[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-ausleihen\_set1\_21[8]	_	_	_	_	_	false[126]	Decl[126]	*[217]	*[217]	*[217]	*[217]	*[217]	input2[217]	57[306]	female[306]	k0vnav0sqhr0fo3b0jpuaak9s4[306]	speaker: YOU[395]	*->105-2	clause[105]	_	_	_	
+47-11	1213-1217	eine	GFailure[8]	ausleihen\_set1\_21[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-ausleihen\_set1\_21[8]	*[54]	*[54]	Embedded[54]	*[54]	*[54]	false[126]	Decl[126]	*[217]	*[217]	*[217]	*[217]	*[217]	input2[217]	57[306]	female[306]	k0vnav0sqhr0fo3b0jpuaak9s4[306]	speaker: YOU[395]	*->105-2|*->37-1	clause[105]|IndefNP[37]	_	_	_	
+47-12	1218-1224	eigene	GFailure[8]	ausleihen\_set1\_21[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-ausleihen\_set1\_21[8]	*[54]	*[54]	Embedded[54]	*[54]	*[54]	false[126]	Decl[126]	*[217]	*[217]	*[217]	*[217]	*[217]	input2[217]	57[306]	female[306]	k0vnav0sqhr0fo3b0jpuaak9s4[306]	speaker: YOU[395]	*->105-2|*->37-1	clause[105]|IndefNP[37]	_	_	_	
+47-13	1225-1231	Leiter	GFailure[8]	ausleihen\_set1\_21[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-ausleihen\_set1\_21[8]	*[54]	*[54]	Embedded[54]	*[54]	*[54]	false[126]	Decl[126]	*[217]	*[217]	*[217]	*[217]	*[217]	input2[217]	57[306]	female[306]	k0vnav0sqhr0fo3b0jpuaak9s4[306]	speaker: YOU[395]	*->105-2|*->37-1	clause[105]|IndefNP[37]	_	_	_	
+47-14	1232-1234	zu	GFailure[8]	ausleihen\_set1\_21[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-ausleihen\_set1\_21[8]	_	_	_	_	_	false[126]	Decl[126]	*[217]	*[217]	*[217]	*[217]	*[217]	input2[217]	57[306]	female[306]	k0vnav0sqhr0fo3b0jpuaak9s4[306]	speaker: YOU[395]	*->105-2	clause[105]	_	_	_	
+47-15	1235-1242	kaufen.	GFailure[8]	ausleihen\_set1\_21[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-ausleihen\_set1\_21[8]	_	_	_	_	_	false[126]	Decl[126]	*[217]	*[217]	*[217]	*[217]	*[217]	input2[217]	57[306]	female[306]	k0vnav0sqhr0fo3b0jpuaak9s4[306]	speaker: YOU[395]	*->105-2	clause[105]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+48-1	1244-1259	END_OF_DOCUMENT	GFailure[8]	ausleihen\_set1\_21[8]	latin2[8]	k0vnav0sqhr0fo3b0jpuaak9s4-ausleihen\_set1\_21[8]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+49-1	1261-1264	Na?	GFailure[9]	ausleihen\_set1\_21[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-ausleihen\_set1\_21[9]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Finnja	_	_	QAP	*	50-1[127_0]	
+
+#Text=Samuel hat eine Leiter ausgeliehen
+50-1	1266-1272	Samuel	GFailure[9]	ausleihen\_set1\_21[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-ausleihen\_set1\_21[9]	*	*	Subj	*	*	false[127]	Decl[127]	*[218]	ausleihen[218]	transitive[218]	*[218]	*[218]	item0[218]	26[307]	female[307]	qjdpg51abd5auurj3bduisfb43[307]	speaker: YOU[396]	*->136-1	PropNm[136]	elaboration|CR	*|*	52-1[128_127]|51-1[0_127]	
+50-2	1273-1276	hat	GFailure[9]	ausleihen\_set1\_21[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-ausleihen\_set1\_21[9]	_	_	_	_	_	false[127]	Decl[127]	*[218]	ausleihen[218]	transitive[218]	*[218]	*[218]	item0[218]	26[307]	female[307]	qjdpg51abd5auurj3bduisfb43[307]	speaker: YOU[396]	_	_	_	_	_	
+50-3	1277-1281	eine	GFailure[9]	ausleihen\_set1\_21[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-ausleihen\_set1\_21[9]	*[55]	*[55]	object[55]	*[55]	*[55]	false[127]	Decl[127]	*[218]	ausleihen[218]	transitive[218]	*[218]	*[218]	item0[218]	26[307]	female[307]	qjdpg51abd5auurj3bduisfb43[307]	speaker: YOU[396]	*->57-1	IndefNP[57]	_	_	_	
+50-4	1282-1288	Leiter	GFailure[9]	ausleihen\_set1\_21[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-ausleihen\_set1\_21[9]	*[55]	*[55]	object[55]	*[55]	*[55]	false[127]	Decl[127]	*[218]	ausleihen[218]	transitive[218]	*[218]	*[218]	item0[218]	26[307]	female[307]	qjdpg51abd5auurj3bduisfb43[307]	speaker: YOU[396]	*->57-1	IndefNP[57]	_	_	_	
+50-5	1289-1300	ausgeliehen	GFailure[9]	ausleihen\_set1\_21[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-ausleihen\_set1\_21[9]	_	_	_	_	_	false[127]	Decl[127]	*[218]	ausleihen[218]	transitive[218]	*[218]	*[218]	item0[218]	26[307]	female[307]	qjdpg51abd5auurj3bduisfb43[307]	speaker: YOU[396]	_	_	_	_	_	
+
+#Text=Was?
+51-1	1302-1306	Was?	GFailure[9]	ausleihen\_set1\_21[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-ausleihen\_set1\_21[9]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	female	*	speaker:Finnja	_	_	_	_	_	
+
+#Text=Also deine Leiter.
+52-1	1308-1312	Also	GFailure[9]	ausleihen\_set1\_21[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-ausleihen\_set1\_21[9]	_	_	_	_	_	false[128]	NA[128]	*[219]	*[219]	*[219]	*[219]	*[219]	input1[219]	26[308]	female[308]	qjdpg51abd5auurj3bduisfb43[308]	speaker: YOU[397]	*->85-1	clause[85]	elaboration	*	53-1[129_128]	
+52-2	1313-1318	deine	GFailure[9]	ausleihen\_set1\_21[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-ausleihen\_set1\_21[9]	2	*	*	*	singular	false[128]	NA[128]	*[219]	*[219]	*[219]	*[219]	*[219]	input1[219]	26[308]	female[308]	qjdpg51abd5auurj3bduisfb43[308]	speaker: YOU[397]	*->85-1|*->57-2|*->10-1	clause[85]|DefNP[57]|PossePron[10]	_	_	_	
+52-3	1319-1326	Leiter.	GFailure[9]	ausleihen\_set1\_21[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-ausleihen\_set1\_21[9]	_	_	_	_	_	false[128]	NA[128]	*[219]	*[219]	*[219]	*[219]	*[219]	input1[219]	26[308]	female[308]	qjdpg51abd5auurj3bduisfb43[308]	speaker: YOU[397]	*->85-1|*->57-2	clause[85]|DefNP[57]	_	_	_	
+
+#Text=Ich hoffe <BR> dass das okay ist.
+53-1	1328-1331	Ich	GFailure[9]	ausleihen\_set1\_21[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-ausleihen\_set1\_21[9]	1	*	Subj	*	singular	false[129]	Decl[129]	*[220]	*[220]	*[220]	*[220]	*[220]	input2[220]	26[309]	female[309]	qjdpg51abd5auurj3bduisfb43[309]	speaker: YOU[398]	*->124-1	PerPron[124]	_	_	_	
+53-2	1332-1337	hoffe	GFailure[9]	ausleihen\_set1\_21[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-ausleihen\_set1\_21[9]	_	_	_	_	_	false[129]	Decl[129]	*[220]	*[220]	*[220]	*[220]	*[220]	input2[220]	26[309]	female[309]	qjdpg51abd5auurj3bduisfb43[309]	speaker: YOU[398]	_	_	_	_	_	
+53-3	1338-1342	<BR>	GFailure[9]	ausleihen\_set1\_21[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-ausleihen\_set1\_21[9]	_	_	_	_	_	false[129]	Decl[129]	*[220]	*[220]	*[220]	*[220]	*[220]	input2[220]	26[309]	female[309]	qjdpg51abd5auurj3bduisfb43[309]	speaker: YOU[398]	_	_	_	_	_	
+53-4	1343-1347	dass	GFailure[9]	ausleihen\_set1\_21[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-ausleihen\_set1\_21[9]	_	_	_	_	_	false[129]	Decl[129]	*[220]	*[220]	*[220]	*[220]	*[220]	input2[220]	26[309]	female[309]	qjdpg51abd5auurj3bduisfb43[309]	speaker: YOU[398]	_	_	_	_	_	
+53-5	1348-1351	das	GFailure[9]	ausleihen\_set1\_21[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-ausleihen\_set1\_21[9]	*	*	Embedded	*	*	false[129]	Decl[129]	*[220]	*[220]	*[220]	*[220]	*[220]	input2[220]	26[309]	female[309]	qjdpg51abd5auurj3bduisfb43[309]	speaker: YOU[398]	*->85-2	D-Pron[85]	_	_	_	
+53-6	1352-1356	okay	GFailure[9]	ausleihen\_set1\_21[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-ausleihen\_set1\_21[9]	_	_	_	_	_	false[129]	Decl[129]	*[220]	*[220]	*[220]	*[220]	*[220]	input2[220]	26[309]	female[309]	qjdpg51abd5auurj3bduisfb43[309]	speaker: YOU[398]	_	_	_	_	_	
+53-7	1357-1361	ist.	GFailure[9]	ausleihen\_set1\_21[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-ausleihen\_set1\_21[9]	_	_	_	_	_	false[129]	Decl[129]	*[220]	*[220]	*[220]	*[220]	*[220]	input2[220]	26[309]	female[309]	qjdpg51abd5auurj3bduisfb43[309]	speaker: YOU[398]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+54-1	1363-1378	END_OF_DOCUMENT	GFailure[9]	ausleihen\_set1\_21[9]	latin2[9]	qjdpg51abd5auurj3bduisfb43-ausleihen\_set1\_21[9]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+55-1	1380-1383	Na?	GFailure[10]	ausleihen\_set1\_21[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-ausleihen\_set1\_21[10]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Finnja	_	_	QAP	*	56-1[130_0]	
+
+#Text=Samuel hat eine Leiter ausgeliehen
+56-1	1385-1391	Samuel	GFailure[10]	ausleihen\_set1\_21[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-ausleihen\_set1\_21[10]	*	*	Subj	*	*	false[130]	Decl[130]	*[221]	ausleihen[221]	transitive[221]	*[221]	*[221]	item0[221]	72[310]	male[310]	rhiec6c6hfje484c5bsbj040l0[310]	speaker: YOU[399]	*->121-1	PropNm[121]	elaboration|CR	*|*	58-1[131_130]|57-1[0_130]	
+56-2	1392-1395	hat	GFailure[10]	ausleihen\_set1\_21[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-ausleihen\_set1\_21[10]	_	_	_	_	_	false[130]	Decl[130]	*[221]	ausleihen[221]	transitive[221]	*[221]	*[221]	item0[221]	72[310]	male[310]	rhiec6c6hfje484c5bsbj040l0[310]	speaker: YOU[399]	_	_	_	_	_	
+56-3	1396-1400	eine	GFailure[10]	ausleihen\_set1\_21[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-ausleihen\_set1\_21[10]	*[56]	*[56]	object[56]	*[56]	*[56]	false[130]	Decl[130]	*[221]	ausleihen[221]	transitive[221]	*[221]	*[221]	item0[221]	72[310]	male[310]	rhiec6c6hfje484c5bsbj040l0[310]	speaker: YOU[399]	*->20-1	IndefNP[20]	_	_	_	
+56-4	1401-1407	Leiter	GFailure[10]	ausleihen\_set1\_21[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-ausleihen\_set1\_21[10]	*[56]	*[56]	object[56]	*[56]	*[56]	false[130]	Decl[130]	*[221]	ausleihen[221]	transitive[221]	*[221]	*[221]	item0[221]	72[310]	male[310]	rhiec6c6hfje484c5bsbj040l0[310]	speaker: YOU[399]	*->20-1	IndefNP[20]	_	_	_	
+56-5	1408-1419	ausgeliehen	GFailure[10]	ausleihen\_set1\_21[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-ausleihen\_set1\_21[10]	_	_	_	_	_	false[130]	Decl[130]	*[221]	ausleihen[221]	transitive[221]	*[221]	*[221]	item0[221]	72[310]	male[310]	rhiec6c6hfje484c5bsbj040l0[310]	speaker: YOU[399]	_	_	_	_	_	
+
+#Text=Was?
+57-1	1421-1425	Was?	GFailure[10]	ausleihen\_set1\_21[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-ausleihen\_set1\_21[10]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	female	*	speaker:Finnja	_	_	_	_	_	
+
+#Text=Er hat eine Leiter ausgeliehen
+58-1	1427-1429	Er	GFailure[10]	ausleihen\_set1\_21[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-ausleihen\_set1\_21[10]	3	*	Subj	*	singular	false[131]	Decl[131]	*[222]	*[222]	*[222]	*[222]	*[222]	input1[222]	72[311]	male[311]	rhiec6c6hfje484c5bsbj040l0[311]	speaker: YOU[400]	*->121-2	PerPron[121]	explanation	*	59-1[132_131]	
+58-2	1430-1433	hat	GFailure[10]	ausleihen\_set1\_21[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-ausleihen\_set1\_21[10]	_	_	_	_	_	false[131]	Decl[131]	*[222]	*[222]	*[222]	*[222]	*[222]	input1[222]	72[311]	male[311]	rhiec6c6hfje484c5bsbj040l0[311]	speaker: YOU[400]	_	_	_	_	_	
+58-3	1434-1438	eine	GFailure[10]	ausleihen\_set1\_21[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-ausleihen\_set1\_21[10]	*[57]	*[57]	DirObj[57]	*[57]	*[57]	false[131]	Decl[131]	*[222]	*[222]	*[222]	*[222]	*[222]	input1[222]	72[311]	male[311]	rhiec6c6hfje484c5bsbj040l0[311]	speaker: YOU[400]	*->20-2	IndefNP[20]	_	_	_	
+58-4	1439-1445	Leiter	GFailure[10]	ausleihen\_set1\_21[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-ausleihen\_set1\_21[10]	*[57]	*[57]	DirObj[57]	*[57]	*[57]	false[131]	Decl[131]	*[222]	*[222]	*[222]	*[222]	*[222]	input1[222]	72[311]	male[311]	rhiec6c6hfje484c5bsbj040l0[311]	speaker: YOU[400]	*->20-2	IndefNP[20]	_	_	_	
+58-5	1446-1457	ausgeliehen	GFailure[10]	ausleihen\_set1\_21[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-ausleihen\_set1\_21[10]	_	_	_	_	_	false[131]	Decl[131]	*[222]	*[222]	*[222]	*[222]	*[222]	input1[222]	72[311]	male[311]	rhiec6c6hfje484c5bsbj040l0[311]	speaker: YOU[400]	_	_	_	_	_	
+
+#Text=Er will die Fassade streichen
+59-1	1459-1461	Er	GFailure[10]	ausleihen\_set1\_21[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-ausleihen\_set1\_21[10]	3	*	Subj	*	singular	false[132]	Decl[132]	*[223]	*[223]	*[223]	*[223]	*[223]	input2[223]	72[312]	male[312]	rhiec6c6hfje484c5bsbj040l0[312]	speaker: YOU[401]	*->121-3	PerPron[121]	_	_	_	
+59-2	1462-1466	will	GFailure[10]	ausleihen\_set1\_21[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-ausleihen\_set1\_21[10]	_	_	_	_	_	false[132]	Decl[132]	*[223]	*[223]	*[223]	*[223]	*[223]	input2[223]	72[312]	male[312]	rhiec6c6hfje484c5bsbj040l0[312]	speaker: YOU[401]	_	_	_	_	_	
+59-3	1467-1470	die	GFailure[10]	ausleihen\_set1\_21[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-ausleihen\_set1\_21[10]	*[58]	*[58]	DirObj[58]	*[58]	*[58]	false[132]	Decl[132]	*[223]	*[223]	*[223]	*[223]	*[223]	input2[223]	72[312]	male[312]	rhiec6c6hfje484c5bsbj040l0[312]	speaker: YOU[401]	*->54-1	DefNP[54]	_	_	_	
+59-4	1471-1478	Fassade	GFailure[10]	ausleihen\_set1\_21[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-ausleihen\_set1\_21[10]	*[58]	*[58]	DirObj[58]	*[58]	*[58]	false[132]	Decl[132]	*[223]	*[223]	*[223]	*[223]	*[223]	input2[223]	72[312]	male[312]	rhiec6c6hfje484c5bsbj040l0[312]	speaker: YOU[401]	*->54-1	DefNP[54]	_	_	_	
+59-5	1479-1488	streichen	GFailure[10]	ausleihen\_set1\_21[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-ausleihen\_set1\_21[10]	_	_	_	_	_	false[132]	Decl[132]	*[223]	*[223]	*[223]	*[223]	*[223]	input2[223]	72[312]	male[312]	rhiec6c6hfje484c5bsbj040l0[312]	speaker: YOU[401]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+60-1	1490-1505	END_OF_DOCUMENT	GFailure[10]	ausleihen\_set1\_21[10]	latin2[10]	rhiec6c6hfje484c5bsbj040l0-ausleihen\_set1\_21[10]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+61-1	1507-1510	Na?	GSuccess[11]	ausleihen\_set1\_21[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-ausleihen\_set1\_21[11]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Finnja	_	_	QAP	*	62-1[133_0]	
+
+#Text=Samuel hat eine Leiter ausgeliehen
+62-1	1512-1518	Samuel	GSuccess[11]	ausleihen\_set1\_21[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-ausleihen\_set1\_21[11]	*	*	Subj	*	*	false[133]	Decl[133]	*[224]	ausleihen[224]	transitive[224]	*[224]	*[224]	item0[224]	18[313]	female[313]	0ncaea7aqlpc7oe43khd21qn11[313]	speaker: YOU[402]	*->6-1	PropNm[6]	result|acknowledgement	*|*	64-1[134_133]|63-1[0_133]	
+62-2	1519-1522	hat	GSuccess[11]	ausleihen\_set1\_21[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-ausleihen\_set1\_21[11]	_	_	_	_	_	false[133]	Decl[133]	*[224]	ausleihen[224]	transitive[224]	*[224]	*[224]	item0[224]	18[313]	female[313]	0ncaea7aqlpc7oe43khd21qn11[313]	speaker: YOU[402]	_	_	_	_	_	
+62-3	1523-1527	eine	GSuccess[11]	ausleihen\_set1\_21[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-ausleihen\_set1\_21[11]	*[59]	*[59]	object[59]	*[59]	*[59]	false[133]	Decl[133]	*[224]	ausleihen[224]	transitive[224]	*[224]	*[224]	item0[224]	18[313]	female[313]	0ncaea7aqlpc7oe43khd21qn11[313]	speaker: YOU[402]	*->66-1	IndefNP[66]	_	_	_	
+62-4	1528-1534	Leiter	GSuccess[11]	ausleihen\_set1\_21[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-ausleihen\_set1\_21[11]	*[59]	*[59]	object[59]	*[59]	*[59]	false[133]	Decl[133]	*[224]	ausleihen[224]	transitive[224]	*[224]	*[224]	item0[224]	18[313]	female[313]	0ncaea7aqlpc7oe43khd21qn11[313]	speaker: YOU[402]	*->66-1	IndefNP[66]	_	_	_	
+62-5	1535-1546	ausgeliehen	GSuccess[11]	ausleihen\_set1\_21[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-ausleihen\_set1\_21[11]	_	_	_	_	_	false[133]	Decl[133]	*[224]	ausleihen[224]	transitive[224]	*[224]	*[224]	item0[224]	18[313]	female[313]	0ncaea7aqlpc7oe43khd21qn11[313]	speaker: YOU[402]	_	_	_	_	_	
+
+#Text=Okay
+63-1	1548-1552	Okay	GSuccess[11]	ausleihen\_set1\_21[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-ausleihen\_set1\_21[11]	_	_	_	_	_	false	NA	okay\_22	*	*	*	*	feedback	*	female	*	speaker:Finnja	_	_	_	_	_	
+
+#Text=Jetzt können wir auch die Decke streichen.
+64-1	1554-1559	Jetzt	GSuccess[11]	ausleihen\_set1\_21[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-ausleihen\_set1\_21[11]	_	_	_	_	_	false[134]	Decl[134]	*[225]	*[225]	*[225]	*[225]	*[225]	input1[225]	18[314]	female[314]	0ncaea7aqlpc7oe43khd21qn11[314]	speaker: YOU[403]	_	_	_	_	_	
+64-2	1560-1566	können	GSuccess[11]	ausleihen\_set1\_21[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-ausleihen\_set1\_21[11]	_	_	_	_	_	false[134]	Decl[134]	*[225]	*[225]	*[225]	*[225]	*[225]	input1[225]	18[314]	female[314]	0ncaea7aqlpc7oe43khd21qn11[314]	speaker: YOU[403]	_	_	_	_	_	
+64-3	1567-1570	wir	GSuccess[11]	ausleihen\_set1\_21[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-ausleihen\_set1\_21[11]	1	*	Subj	*	plural	false[134]	Decl[134]	*[225]	*[225]	*[225]	*[225]	*[225]	input1[225]	18[314]	female[314]	0ncaea7aqlpc7oe43khd21qn11[314]	speaker: YOU[403]	*->17-1	PerPron[17]	_	_	_	
+64-4	1571-1575	auch	GSuccess[11]	ausleihen\_set1\_21[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-ausleihen\_set1\_21[11]	_	_	_	_	_	false[134]	Decl[134]	*[225]	*[225]	*[225]	*[225]	*[225]	input1[225]	18[314]	female[314]	0ncaea7aqlpc7oe43khd21qn11[314]	speaker: YOU[403]	_	_	_	_	_	
+64-5	1576-1579	die	GSuccess[11]	ausleihen\_set1\_21[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-ausleihen\_set1\_21[11]	*[60]	*[60]	DirObj[60]	*[60]	*[60]	false[134]	Decl[134]	*[225]	*[225]	*[225]	*[225]	*[225]	input1[225]	18[314]	female[314]	0ncaea7aqlpc7oe43khd21qn11[314]	speaker: YOU[403]	*->40-1	DefNP[40]	_	_	_	
+64-6	1580-1585	Decke	GSuccess[11]	ausleihen\_set1\_21[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-ausleihen\_set1\_21[11]	*[60]	*[60]	DirObj[60]	*[60]	*[60]	false[134]	Decl[134]	*[225]	*[225]	*[225]	*[225]	*[225]	input1[225]	18[314]	female[314]	0ncaea7aqlpc7oe43khd21qn11[314]	speaker: YOU[403]	*->40-1	DefNP[40]	_	_	_	
+64-7	1586-1596	streichen.	GSuccess[11]	ausleihen\_set1\_21[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-ausleihen\_set1\_21[11]	_	_	_	_	_	false[134]	Decl[134]	*[225]	*[225]	*[225]	*[225]	*[225]	input1[225]	18[314]	female[314]	0ncaea7aqlpc7oe43khd21qn11[314]	speaker: YOU[403]	_	_	_	_	_	
+
+#Text=Wann hättest du Zeit?
+65-1	1598-1602	Wann	GSuccess[11]	ausleihen\_set1\_21[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-ausleihen\_set1\_21[11]	_	_	_	_	_	false[135]	Int[135]	*[226]	*[226]	*[226]	*[226]	*[226]	input2[226]	18[315]	female[315]	0ncaea7aqlpc7oe43khd21qn11[315]	speaker: YOU[404]	_	_	_	_	_	
+65-2	1603-1610	hättest	GSuccess[11]	ausleihen\_set1\_21[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-ausleihen\_set1\_21[11]	_	_	_	_	_	false[135]	Int[135]	*[226]	*[226]	*[226]	*[226]	*[226]	input2[226]	18[315]	female[315]	0ncaea7aqlpc7oe43khd21qn11[315]	speaker: YOU[404]	_	_	_	_	_	
+65-3	1611-1613	du	GSuccess[11]	ausleihen\_set1\_21[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-ausleihen\_set1\_21[11]	2	*	Subj	*	singular	false[135]	Int[135]	*[226]	*[226]	*[226]	*[226]	*[226]	input2[226]	18[315]	female[315]	0ncaea7aqlpc7oe43khd21qn11[315]	speaker: YOU[404]	*->94-1	PerPron[94]	_	_	_	
+65-4	1614-1619	Zeit?	GSuccess[11]	ausleihen\_set1\_21[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-ausleihen\_set1\_21[11]	*	*	DirObj	*	*	false[135]	Int[135]	*[226]	*[226]	*[226]	*[226]	*[226]	input2[226]	18[315]	female[315]	0ncaea7aqlpc7oe43khd21qn11[315]	speaker: YOU[404]	*->31-1	IndefNP[31]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+66-1	1621-1636	END_OF_DOCUMENT	GSuccess[11]	ausleihen\_set1\_21[11]	latin3[11]	0ncaea7aqlpc7oe43khd21qn11-ausleihen\_set1\_21[11]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+67-1	1638-1641	Na?	GSuccess[12]	ausleihen\_set1\_21[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-ausleihen\_set1\_21[12]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Finnja	_	_	QAP	*	68-1[136_0]	
+
+#Text=Samuel hat eine Leiter ausgeliehen
+68-1	1643-1649	Samuel	GSuccess[12]	ausleihen\_set1\_21[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-ausleihen\_set1\_21[12]	*	*	Subj	*	*	false[136]	Decl[136]	*[227]	ausleihen[227]	transitive[227]	*[227]	*[227]	item0[227]	36[316]	male[316]	19gm0uv9ca6mcngf99lirno94a[316]	speaker: YOU[405]	*->92-1	PropNm[92]	explanation|acknowledgement	*|*	70-1[137_136]|69-1[0_136]	
+68-2	1650-1653	hat	GSuccess[12]	ausleihen\_set1\_21[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-ausleihen\_set1\_21[12]	_	_	_	_	_	false[136]	Decl[136]	*[227]	ausleihen[227]	transitive[227]	*[227]	*[227]	item0[227]	36[316]	male[316]	19gm0uv9ca6mcngf99lirno94a[316]	speaker: YOU[405]	_	_	_	_	_	
+68-3	1654-1658	eine	GSuccess[12]	ausleihen\_set1\_21[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-ausleihen\_set1\_21[12]	*[61]	*[61]	object[61]	*[61]	*[61]	false[136]	Decl[136]	*[227]	ausleihen[227]	transitive[227]	*[227]	*[227]	item0[227]	36[316]	male[316]	19gm0uv9ca6mcngf99lirno94a[316]	speaker: YOU[405]	*->7-1	IndefNP[7]	_	_	_	
+68-4	1659-1665	Leiter	GSuccess[12]	ausleihen\_set1\_21[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-ausleihen\_set1\_21[12]	*[61]	*[61]	object[61]	*[61]	*[61]	false[136]	Decl[136]	*[227]	ausleihen[227]	transitive[227]	*[227]	*[227]	item0[227]	36[316]	male[316]	19gm0uv9ca6mcngf99lirno94a[316]	speaker: YOU[405]	*->7-1	IndefNP[7]	_	_	_	
+68-5	1666-1677	ausgeliehen	GSuccess[12]	ausleihen\_set1\_21[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-ausleihen\_set1\_21[12]	_	_	_	_	_	false[136]	Decl[136]	*[227]	ausleihen[227]	transitive[227]	*[227]	*[227]	item0[227]	36[316]	male[316]	19gm0uv9ca6mcngf99lirno94a[316]	speaker: YOU[405]	_	_	_	_	_	
+
+#Text=Okay
+69-1	1679-1683	Okay	GSuccess[12]	ausleihen\_set1\_21[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-ausleihen\_set1\_21[12]	_	_	_	_	_	false	NA	okay\_22	*	*	*	*	feedback	*	female	*	speaker:Finnja	_	_	_	_	_	
+
+#Text=Er will das Loch im Dach selber reparieren...
+70-1	1685-1687	Er	GSuccess[12]	ausleihen\_set1\_21[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-ausleihen\_set1\_21[12]	3	*	Subj	*	singular	false[137]	Decl[137]	*[228]	*[228]	*[228]	*[228]	*[228]	input1[228]	36[317]	male[317]	19gm0uv9ca6mcngf99lirno94a[317]	speaker: YOU[406]	*->92-2	PerPron[92]	elaboration	*	71-1[138_137]	
+70-2	1688-1692	will	GSuccess[12]	ausleihen\_set1\_21[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-ausleihen\_set1\_21[12]	_	_	_	_	_	false[137]	Decl[137]	*[228]	*[228]	*[228]	*[228]	*[228]	input1[228]	36[317]	male[317]	19gm0uv9ca6mcngf99lirno94a[317]	speaker: YOU[406]	_	_	_	_	_	
+70-3	1693-1696	das	GSuccess[12]	ausleihen\_set1\_21[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-ausleihen\_set1\_21[12]	*[62]	*[62]	DirObj[62]	*[62]	*[62]	false[137]	Decl[137]	*[228]	*[228]	*[228]	*[228]	*[228]	input1[228]	36[317]	male[317]	19gm0uv9ca6mcngf99lirno94a[317]	speaker: YOU[406]	*->56-1|*->93-1	clause[56]|DefNP[93]	_	_	_	
+70-4	1697-1701	Loch	GSuccess[12]	ausleihen\_set1\_21[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-ausleihen\_set1\_21[12]	*[62]	*[62]	DirObj[62]	*[62]	*[62]	false[137]	Decl[137]	*[228]	*[228]	*[228]	*[228]	*[228]	input1[228]	36[317]	male[317]	19gm0uv9ca6mcngf99lirno94a[317]	speaker: YOU[406]	*->56-1|*->93-1	clause[56]|DefNP[93]	_	_	_	
+70-5	1702-1704	im	GSuccess[12]	ausleihen\_set1\_21[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-ausleihen\_set1\_21[12]	*[62]	*[62]	DirObj[62]	*[62]	*[62]	false[137]	Decl[137]	*[228]	*[228]	*[228]	*[228]	*[228]	input1[228]	36[317]	male[317]	19gm0uv9ca6mcngf99lirno94a[317]	speaker: YOU[406]	*->56-1|*->93-1|*->18-1	clause[56]|DefNP[93]|DefNP[18]	_	_	_	
+70-6	1705-1709	Dach	GSuccess[12]	ausleihen\_set1\_21[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-ausleihen\_set1\_21[12]	*[62]	*[62]	DirObj[62]	*[62]	*[62]	false[137]	Decl[137]	*[228]	*[228]	*[228]	*[228]	*[228]	input1[228]	36[317]	male[317]	19gm0uv9ca6mcngf99lirno94a[317]	speaker: YOU[406]	*->56-1|*->93-1|*->18-1	clause[56]|DefNP[93]|DefNP[18]	_	_	_	
+70-7	1710-1716	selber	GSuccess[12]	ausleihen\_set1\_21[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-ausleihen\_set1\_21[12]	_	_	_	_	_	false[137]	Decl[137]	*[228]	*[228]	*[228]	*[228]	*[228]	input1[228]	36[317]	male[317]	19gm0uv9ca6mcngf99lirno94a[317]	speaker: YOU[406]	*->56-1	clause[56]	_	_	_	
+70-8	1717-1730	reparieren...	GSuccess[12]	ausleihen\_set1\_21[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-ausleihen\_set1\_21[12]	_	_	_	_	_	false[137]	Decl[137]	*[228]	*[228]	*[228]	*[228]	*[228]	input1[228]	36[317]	male[317]	19gm0uv9ca6mcngf99lirno94a[317]	speaker: YOU[406]	*->56-1	clause[56]	_	_	_	
+
+#Text=Ich hab da meine Zweifel <BR> aber er ist zu geizig um jemanden dafür zu bezahlen.
+71-1	1732-1735	Ich	GSuccess[12]	ausleihen\_set1\_21[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-ausleihen\_set1\_21[12]	1	*	Subj	*	singular	false[138]	Decl[138]	*[229]	*[229]	*[229]	*[229]	*[229]	input2[229]	36[318]	male[318]	19gm0uv9ca6mcngf99lirno94a[318]	speaker: YOU[407]	*->80-1	PerPron[80]	contrast	*	71-7[139_138]	
+71-2	1736-1739	hab	GSuccess[12]	ausleihen\_set1\_21[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-ausleihen\_set1\_21[12]	_	_	_	_	_	false[138]	Decl[138]	*[229]	*[229]	*[229]	*[229]	*[229]	input2[229]	36[318]	male[318]	19gm0uv9ca6mcngf99lirno94a[318]	speaker: YOU[407]	_	_	_	_	_	
+71-3	1740-1742	da	GSuccess[12]	ausleihen\_set1\_21[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-ausleihen\_set1\_21[12]	*[63]	*[63]	DirObj[63]	*[63]	*[63]	false[138]	Decl[138]	*[229]	*[229]	*[229]	*[229]	*[229]	input2[229]	36[318]	male[318]	19gm0uv9ca6mcngf99lirno94a[318]	speaker: YOU[407]	_	_	_	_	_	
+71-4	1743-1748	meine	GSuccess[12]	ausleihen\_set1\_21[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-ausleihen\_set1\_21[12]	*[63]|1[64]	*[63]|*[64]	DirObj[63]|*[64]	*[63]|*[64]	*[63]|singular[64]	false[138]	Decl[138]	*[229]	*[229]	*[229]	*[229]	*[229]	input2[229]	36[318]	male[318]	19gm0uv9ca6mcngf99lirno94a[318]	speaker: YOU[407]	*->43-1|*->80-2	DefNP[43]|PossePron[80]	_	_	_	
+71-5	1749-1756	Zweifel	GSuccess[12]	ausleihen\_set1\_21[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-ausleihen\_set1\_21[12]	*[63]	*[63]	DirObj[63]	*[63]	*[63]	false[138]	Decl[138]	*[229]	*[229]	*[229]	*[229]	*[229]	input2[229]	36[318]	male[318]	19gm0uv9ca6mcngf99lirno94a[318]	speaker: YOU[407]	*->43-1	DefNP[43]	_	_	_	
+71-6	1757-1761	<BR>	GSuccess[12]	ausleihen\_set1\_21[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-ausleihen\_set1\_21[12]	_	_	_	_	_	_	_	*[229]	*[229]	*[229]	*[229]	*[229]	input2[229]	36[318]	male[318]	19gm0uv9ca6mcngf99lirno94a[318]	speaker: YOU[407]	_	_	_	_	_	
+71-7	1762-1766	aber	GSuccess[12]	ausleihen\_set1\_21[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-ausleihen\_set1\_21[12]	_	_	_	_	_	false[139]	Decl[139]	*[229]	*[229]	*[229]	*[229]	*[229]	input2[229]	36[318]	male[318]	19gm0uv9ca6mcngf99lirno94a[318]	speaker: YOU[407]	_	_	_	_	_	
+71-8	1767-1769	er	GSuccess[12]	ausleihen\_set1\_21[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-ausleihen\_set1\_21[12]	3	*	Subj	*	singular	false[139]	Decl[139]	*[229]	*[229]	*[229]	*[229]	*[229]	input2[229]	36[318]	male[318]	19gm0uv9ca6mcngf99lirno94a[318]	speaker: YOU[407]	*->92-3	PerPron[92]	_	_	_	
+71-9	1770-1773	ist	GSuccess[12]	ausleihen\_set1\_21[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-ausleihen\_set1\_21[12]	_	_	_	_	_	false[139]	Decl[139]	*[229]	*[229]	*[229]	*[229]	*[229]	input2[229]	36[318]	male[318]	19gm0uv9ca6mcngf99lirno94a[318]	speaker: YOU[407]	_	_	_	_	_	
+71-10	1774-1776	zu	GSuccess[12]	ausleihen\_set1\_21[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-ausleihen\_set1\_21[12]	_	_	_	_	_	false[139]	Decl[139]	*[229]	*[229]	*[229]	*[229]	*[229]	input2[229]	36[318]	male[318]	19gm0uv9ca6mcngf99lirno94a[318]	speaker: YOU[407]	_	_	_	_	_	
+71-11	1777-1783	geizig	GSuccess[12]	ausleihen\_set1\_21[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-ausleihen\_set1\_21[12]	_	_	_	_	_	false[139]	Decl[139]	*[229]	*[229]	*[229]	*[229]	*[229]	input2[229]	36[318]	male[318]	19gm0uv9ca6mcngf99lirno94a[318]	speaker: YOU[407]	_	_	_	_	_	
+71-12	1784-1786	um	GSuccess[12]	ausleihen\_set1\_21[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-ausleihen\_set1\_21[12]	_	_	_	_	_	false[139]	Decl[139]	*[229]	*[229]	*[229]	*[229]	*[229]	input2[229]	36[318]	male[318]	19gm0uv9ca6mcngf99lirno94a[318]	speaker: YOU[407]	_	_	_	_	_	
+71-13	1787-1795	jemanden	GSuccess[12]	ausleihen\_set1\_21[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-ausleihen\_set1\_21[12]	_	_	_	_	_	false[139]	Decl[139]	*[229]	*[229]	*[229]	*[229]	*[229]	input2[229]	36[318]	male[318]	19gm0uv9ca6mcngf99lirno94a[318]	speaker: YOU[407]	*->118-1	IndefNP[118]	_	_	_	
+71-14	1796-1801	dafür	GSuccess[12]	ausleihen\_set1\_21[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-ausleihen\_set1\_21[12]	_	_	_	_	_	false[139]	Decl[139]	*[229]	*[229]	*[229]	*[229]	*[229]	input2[229]	36[318]	male[318]	19gm0uv9ca6mcngf99lirno94a[318]	speaker: YOU[407]	*->56-2	D-Pron[56]	_	_	_	
+71-15	1802-1804	zu	GSuccess[12]	ausleihen\_set1\_21[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-ausleihen\_set1\_21[12]	_	_	_	_	_	false[139]	Decl[139]	*[229]	*[229]	*[229]	*[229]	*[229]	input2[229]	36[318]	male[318]	19gm0uv9ca6mcngf99lirno94a[318]	speaker: YOU[407]	_	_	_	_	_	
+71-16	1805-1814	bezahlen.	GSuccess[12]	ausleihen\_set1\_21[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-ausleihen\_set1\_21[12]	_	_	_	_	_	false[139]	Decl[139]	*[229]	*[229]	*[229]	*[229]	*[229]	input2[229]	36[318]	male[318]	19gm0uv9ca6mcngf99lirno94a[318]	speaker: YOU[407]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+72-1	1816-1831	END_OF_DOCUMENT	GSuccess[12]	ausleihen\_set1\_21[12]	latin3[12]	19gm0uv9ca6mcngf99lirno94a-ausleihen\_set1\_21[12]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+73-1	1833-1836	Na?	GSuccess[13]	ausleihen\_set1\_21[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-ausleihen\_set1\_21[13]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Finnja	_	_	QAP	*	74-1[140_0]	
+
+#Text=Samuel hat eine Leiter ausgeliehen
+74-1	1838-1844	Samuel	GSuccess[13]	ausleihen\_set1\_21[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-ausleihen\_set1\_21[13]	*	*	Subj	*	*	false[140]	Decl[140]	*[230]	ausleihen[230]	transitive[230]	*[230]	*[230]	item0[230]	18[319]	female[319]	4qae3ph27q5gbjcsrgnltv8qld[319]	speaker: YOU[408]	*->48-1	PropNm[48]	explanation|explanation|acknowledgement	*|*|*	77-1[142_140]|76-1[141_140]|75-1[0_140]	
+74-2	1845-1848	hat	GSuccess[13]	ausleihen\_set1\_21[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-ausleihen\_set1\_21[13]	_	_	_	_	_	false[140]	Decl[140]	*[230]	ausleihen[230]	transitive[230]	*[230]	*[230]	item0[230]	18[319]	female[319]	4qae3ph27q5gbjcsrgnltv8qld[319]	speaker: YOU[408]	_	_	_	_	_	
+74-3	1849-1853	eine	GSuccess[13]	ausleihen\_set1\_21[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-ausleihen\_set1\_21[13]	*[65]	*[65]	object[65]	*[65]	*[65]	false[140]	Decl[140]	*[230]	ausleihen[230]	transitive[230]	*[230]	*[230]	item0[230]	18[319]	female[319]	4qae3ph27q5gbjcsrgnltv8qld[319]	speaker: YOU[408]	*->60-1	IndefNP[60]	_	_	_	
+74-4	1854-1860	Leiter	GSuccess[13]	ausleihen\_set1\_21[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-ausleihen\_set1\_21[13]	*[65]	*[65]	object[65]	*[65]	*[65]	false[140]	Decl[140]	*[230]	ausleihen[230]	transitive[230]	*[230]	*[230]	item0[230]	18[319]	female[319]	4qae3ph27q5gbjcsrgnltv8qld[319]	speaker: YOU[408]	*->60-1	IndefNP[60]	_	_	_	
+74-5	1861-1872	ausgeliehen	GSuccess[13]	ausleihen\_set1\_21[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-ausleihen\_set1\_21[13]	_	_	_	_	_	false[140]	Decl[140]	*[230]	ausleihen[230]	transitive[230]	*[230]	*[230]	item0[230]	18[319]	female[319]	4qae3ph27q5gbjcsrgnltv8qld[319]	speaker: YOU[408]	_	_	_	_	_	
+
+#Text=Okay
+75-1	1874-1878	Okay	GSuccess[13]	ausleihen\_set1\_21[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-ausleihen\_set1\_21[13]	_	_	_	_	_	false	NA	okay\_22	*	*	*	*	feedback	*	female	*	speaker:Finnja	_	_	_	_	_	
+
+#Text=er bringt sie sehr bald wieder zurück
+76-1	1880-1882	er	GSuccess[13]	ausleihen\_set1\_21[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-ausleihen\_set1\_21[13]	3	*	Subj	m	singular	false[141]	Decl[141]	*[231]	*[231]	*[231]	*[231]	*[231]	input1[231]	18[320]	female[320]	4qae3ph27q5gbjcsrgnltv8qld[320]	speaker: YOU[409]	*->48-2	PerPron[48]	_	_	_	
+76-2	1883-1889	bringt	GSuccess[13]	ausleihen\_set1\_21[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-ausleihen\_set1\_21[13]	_	_	_	_	_	false[141]	Decl[141]	*[231]	*[231]	*[231]	*[231]	*[231]	input1[231]	18[320]	female[320]	4qae3ph27q5gbjcsrgnltv8qld[320]	speaker: YOU[409]	_	_	_	_	_	
+76-3	1890-1893	sie	GSuccess[13]	ausleihen\_set1\_21[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-ausleihen\_set1\_21[13]	3	*	DirObj	f	singular	false[141]	Decl[141]	*[231]	*[231]	*[231]	*[231]	*[231]	input1[231]	18[320]	female[320]	4qae3ph27q5gbjcsrgnltv8qld[320]	speaker: YOU[409]	*->60-2	PerPron[60]	_	_	_	
+76-4	1894-1898	sehr	GSuccess[13]	ausleihen\_set1\_21[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-ausleihen\_set1\_21[13]	_	_	_	_	_	false[141]	Decl[141]	*[231]	*[231]	*[231]	*[231]	*[231]	input1[231]	18[320]	female[320]	4qae3ph27q5gbjcsrgnltv8qld[320]	speaker: YOU[409]	_	_	_	_	_	
+76-5	1899-1903	bald	GSuccess[13]	ausleihen\_set1\_21[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-ausleihen\_set1\_21[13]	_	_	_	_	_	false[141]	Decl[141]	*[231]	*[231]	*[231]	*[231]	*[231]	input1[231]	18[320]	female[320]	4qae3ph27q5gbjcsrgnltv8qld[320]	speaker: YOU[409]	_	_	_	_	_	
+76-6	1904-1910	wieder	GSuccess[13]	ausleihen\_set1\_21[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-ausleihen\_set1\_21[13]	_	_	_	_	_	false[141]	Decl[141]	*[231]	*[231]	*[231]	*[231]	*[231]	input1[231]	18[320]	female[320]	4qae3ph27q5gbjcsrgnltv8qld[320]	speaker: YOU[409]	_	_	_	_	_	
+76-7	1911-1917	zurück	GSuccess[13]	ausleihen\_set1\_21[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-ausleihen\_set1\_21[13]	_	_	_	_	_	false[141]	Decl[141]	*[231]	*[231]	*[231]	*[231]	*[231]	input1[231]	18[320]	female[320]	4qae3ph27q5gbjcsrgnltv8qld[320]	speaker: YOU[409]	_	_	_	_	_	
+
+#Text=ich hoffe ihr braucht sie nicht?
+77-1	1919-1922	ich	GSuccess[13]	ausleihen\_set1\_21[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-ausleihen\_set1\_21[13]	1	*	Subj	*	singular	false[142]	Decl[142]	*[232]	*[232]	*[232]	*[232]	*[232]	input2[232]	18[321]	female[321]	4qae3ph27q5gbjcsrgnltv8qld[321]	speaker: YOU[410]	*->70-1	PerPron[70]	_	_	_	
+77-2	1923-1928	hoffe	GSuccess[13]	ausleihen\_set1\_21[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-ausleihen\_set1\_21[13]	_	_	_	_	_	false[142]	Decl[142]	*[232]	*[232]	*[232]	*[232]	*[232]	input2[232]	18[321]	female[321]	4qae3ph27q5gbjcsrgnltv8qld[321]	speaker: YOU[410]	_	_	_	_	_	
+77-3	1929-1932	ihr	GSuccess[13]	ausleihen\_set1\_21[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-ausleihen\_set1\_21[13]	2	*	Embedded	*	plural	false[142]	Decl[142]	*[232]	*[232]	*[232]	*[232]	*[232]	input2[232]	18[321]	female[321]	4qae3ph27q5gbjcsrgnltv8qld[321]	speaker: YOU[410]	*->41-1	PerPron[41]	_	_	_	
+77-4	1933-1940	braucht	GSuccess[13]	ausleihen\_set1\_21[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-ausleihen\_set1\_21[13]	_	_	_	_	_	false[142]	Decl[142]	*[232]	*[232]	*[232]	*[232]	*[232]	input2[232]	18[321]	female[321]	4qae3ph27q5gbjcsrgnltv8qld[321]	speaker: YOU[410]	_	_	_	_	_	
+77-5	1941-1944	sie	GSuccess[13]	ausleihen\_set1\_21[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-ausleihen\_set1\_21[13]	3	*	Embedded	*	singular	false[142]	Decl[142]	*[232]	*[232]	*[232]	*[232]	*[232]	input2[232]	18[321]	female[321]	4qae3ph27q5gbjcsrgnltv8qld[321]	speaker: YOU[410]	*->60-3	PerPron[60]	_	_	_	
+77-6	1945-1951	nicht?	GSuccess[13]	ausleihen\_set1\_21[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-ausleihen\_set1\_21[13]	_	_	_	_	_	false[142]	Decl[142]	*[232]	*[232]	*[232]	*[232]	*[232]	input2[232]	18[321]	female[321]	4qae3ph27q5gbjcsrgnltv8qld[321]	speaker: YOU[410]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+78-1	1953-1968	END_OF_DOCUMENT	GSuccess[13]	ausleihen\_set1\_21[13]	latin3[13]	4qae3ph27q5gbjcsrgnltv8qld-ausleihen\_set1\_21[13]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+79-1	1970-1973	Na?	GSuccess[14]	ausleihen\_set1\_21[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-ausleihen\_set1\_21[14]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Finnja	_	_	QAP	*	80-1[143_0]	
+
+#Text=Samuel hat eine Leiter ausgeliehen
+80-1	1975-1981	Samuel	GSuccess[14]	ausleihen\_set1\_21[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-ausleihen\_set1\_21[14]	*	*	Subj	*	*	false[143]	Decl[143]	*[233]	ausleihen[233]	transitive[233]	*[233]	*[233]	item0[233]	19[322]	male[322]	f28ipql67ma8cbjqke6k374ach[322]	speaker: YOU[411]	*->111-1	PropNm[111]	acknowledgement	*	81-1[0_143]	
+80-2	1982-1985	hat	GSuccess[14]	ausleihen\_set1\_21[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-ausleihen\_set1\_21[14]	_	_	_	_	_	false[143]	Decl[143]	*[233]	ausleihen[233]	transitive[233]	*[233]	*[233]	item0[233]	19[322]	male[322]	f28ipql67ma8cbjqke6k374ach[322]	speaker: YOU[411]	_	_	_	_	_	
+80-3	1986-1990	eine	GSuccess[14]	ausleihen\_set1\_21[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-ausleihen\_set1\_21[14]	*[66]	*[66]	object[66]	*[66]	*[66]	false[143]	Decl[143]	*[233]	ausleihen[233]	transitive[233]	*[233]	*[233]	item0[233]	19[322]	male[322]	f28ipql67ma8cbjqke6k374ach[322]	speaker: YOU[411]	*->100-1	IndefNP[100]	_	_	_	
+80-4	1991-1997	Leiter	GSuccess[14]	ausleihen\_set1\_21[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-ausleihen\_set1\_21[14]	*[66]	*[66]	object[66]	*[66]	*[66]	false[143]	Decl[143]	*[233]	ausleihen[233]	transitive[233]	*[233]	*[233]	item0[233]	19[322]	male[322]	f28ipql67ma8cbjqke6k374ach[322]	speaker: YOU[411]	*->100-1	IndefNP[100]	_	_	_	
+80-5	1998-2009	ausgeliehen	GSuccess[14]	ausleihen\_set1\_21[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-ausleihen\_set1\_21[14]	_	_	_	_	_	false[143]	Decl[143]	*[233]	ausleihen[233]	transitive[233]	*[233]	*[233]	item0[233]	19[322]	male[322]	f28ipql67ma8cbjqke6k374ach[322]	speaker: YOU[411]	_	_	_	_	_	
+
+#Text=Okay
+81-1	2011-2015	Okay	GSuccess[14]	ausleihen\_set1\_21[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-ausleihen\_set1\_21[14]	_	_	_	_	_	false	NA	okay\_22	*	*	*	*	feedback	*	female	*	speaker:Finnja	_	_	_	_	_	
+
+#Text=Hast du die Farbe schon gekauft?
+82-1	2017-2021	Hast	GSuccess[14]	ausleihen\_set1\_21[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-ausleihen\_set1\_21[14]	_	_	_	_	_	false[144]	Int[144]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	19[323]	male[323]	f28ipql67ma8cbjqke6k374ach[323]	speaker: YOU[412]	_	_	explanation	*	83-1[145_144]	
+82-2	2022-2024	du	GSuccess[14]	ausleihen\_set1\_21[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-ausleihen\_set1\_21[14]	2	*	Subj	*	singular	false[144]	Int[144]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	19[323]	male[323]	f28ipql67ma8cbjqke6k374ach[323]	speaker: YOU[412]	*->69-1	PerPron[69]	_	_	_	
+82-3	2025-2028	die	GSuccess[14]	ausleihen\_set1\_21[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-ausleihen\_set1\_21[14]	*[67]	*[67]	DirObj[67]	*[67]	*[67]	false[144]	Int[144]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	19[323]	male[323]	f28ipql67ma8cbjqke6k374ach[323]	speaker: YOU[412]	*->9-1	DefNP[9]	_	_	_	
+82-4	2029-2034	Farbe	GSuccess[14]	ausleihen\_set1\_21[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-ausleihen\_set1\_21[14]	*[67]	*[67]	DirObj[67]	*[67]	*[67]	false[144]	Int[144]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	19[323]	male[323]	f28ipql67ma8cbjqke6k374ach[323]	speaker: YOU[412]	*->9-1	DefNP[9]	_	_	_	
+82-5	2035-2040	schon	GSuccess[14]	ausleihen\_set1\_21[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-ausleihen\_set1\_21[14]	_	_	_	_	_	false[144]	Int[144]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	19[323]	male[323]	f28ipql67ma8cbjqke6k374ach[323]	speaker: YOU[412]	_	_	_	_	_	
+82-6	2041-2049	gekauft?	GSuccess[14]	ausleihen\_set1\_21[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-ausleihen\_set1\_21[14]	_	_	_	_	_	false[144]	Int[144]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	19[323]	male[323]	f28ipql67ma8cbjqke6k374ach[323]	speaker: YOU[412]	_	_	_	_	_	
+
+#Text=Dann können wir heute schon anfangen.
+83-1	2051-2055	Dann	GSuccess[14]	ausleihen\_set1\_21[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-ausleihen\_set1\_21[14]	_	_	_	_	_	false[145]	Decl[145]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	19[324]	male[324]	f28ipql67ma8cbjqke6k374ach[324]	speaker: YOU[413]	_	_	_	_	_	
+83-2	2056-2062	können	GSuccess[14]	ausleihen\_set1\_21[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-ausleihen\_set1\_21[14]	_	_	_	_	_	false[145]	Decl[145]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	19[324]	male[324]	f28ipql67ma8cbjqke6k374ach[324]	speaker: YOU[413]	_	_	_	_	_	
+83-3	2063-2066	wir	GSuccess[14]	ausleihen\_set1\_21[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-ausleihen\_set1\_21[14]	1	*	Subj	*	plural	false[145]	Decl[145]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	19[324]	male[324]	f28ipql67ma8cbjqke6k374ach[324]	speaker: YOU[413]	*->50-1	PerPron[50]	_	_	_	
+83-4	2067-2072	heute	GSuccess[14]	ausleihen\_set1\_21[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-ausleihen\_set1\_21[14]	_	_	_	_	_	false[145]	Decl[145]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	19[324]	male[324]	f28ipql67ma8cbjqke6k374ach[324]	speaker: YOU[413]	_	_	_	_	_	
+83-5	2073-2078	schon	GSuccess[14]	ausleihen\_set1\_21[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-ausleihen\_set1\_21[14]	_	_	_	_	_	false[145]	Decl[145]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	19[324]	male[324]	f28ipql67ma8cbjqke6k374ach[324]	speaker: YOU[413]	_	_	_	_	_	
+83-6	2079-2088	anfangen.	GSuccess[14]	ausleihen\_set1\_21[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-ausleihen\_set1\_21[14]	_	_	_	_	_	false[145]	Decl[145]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	19[324]	male[324]	f28ipql67ma8cbjqke6k374ach[324]	speaker: YOU[413]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+84-1	2090-2105	END_OF_DOCUMENT	GSuccess[14]	ausleihen\_set1\_21[14]	latin3[14]	f28ipql67ma8cbjqke6k374ach-ausleihen\_set1\_21[14]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+85-1	2107-2110	Na?	GSuccess[15]	ausleihen\_set1\_21[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-ausleihen\_set1\_21[15]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Finnja	_	_	QAP	*	86-1[146_0]	
+
+#Text=Samuel hat eine Leiter ausgeliehen
+86-1	2112-2118	Samuel	GSuccess[15]	ausleihen\_set1\_21[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-ausleihen\_set1\_21[15]	*	*	Subj	*	*	false[146]	Decl[146]	*[236]	ausleihen[236]	transitive[236]	*[236]	*[236]	item0[236]	36[325]	male[325]	ifdbjqro2nfkup12rv8t6k0eu9[325]	speaker: YOU[414]	*->141-1	PropNm[141]	explanation|acknowledgement	*|*	88-1[147_146]|87-1[0_146]	
+86-2	2119-2122	hat	GSuccess[15]	ausleihen\_set1\_21[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-ausleihen\_set1\_21[15]	_	_	_	_	_	false[146]	Decl[146]	*[236]	ausleihen[236]	transitive[236]	*[236]	*[236]	item0[236]	36[325]	male[325]	ifdbjqro2nfkup12rv8t6k0eu9[325]	speaker: YOU[414]	_	_	_	_	_	
+86-3	2123-2127	eine	GSuccess[15]	ausleihen\_set1\_21[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-ausleihen\_set1\_21[15]	*[68]	*[68]	object[68]	*[68]	*[68]	false[146]	Decl[146]	*[236]	ausleihen[236]	transitive[236]	*[236]	*[236]	item0[236]	36[325]	male[325]	ifdbjqro2nfkup12rv8t6k0eu9[325]	speaker: YOU[414]	*->117-1	IndefNP[117]	_	_	_	
+86-4	2128-2134	Leiter	GSuccess[15]	ausleihen\_set1\_21[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-ausleihen\_set1\_21[15]	*[68]	*[68]	object[68]	*[68]	*[68]	false[146]	Decl[146]	*[236]	ausleihen[236]	transitive[236]	*[236]	*[236]	item0[236]	36[325]	male[325]	ifdbjqro2nfkup12rv8t6k0eu9[325]	speaker: YOU[414]	*->117-1	IndefNP[117]	_	_	_	
+86-5	2135-2146	ausgeliehen	GSuccess[15]	ausleihen\_set1\_21[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-ausleihen\_set1\_21[15]	_	_	_	_	_	false[146]	Decl[146]	*[236]	ausleihen[236]	transitive[236]	*[236]	*[236]	item0[236]	36[325]	male[325]	ifdbjqro2nfkup12rv8t6k0eu9[325]	speaker: YOU[414]	_	_	_	_	_	
+
+#Text=Okay
+87-1	2148-2152	Okay	GSuccess[15]	ausleihen\_set1\_21[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-ausleihen\_set1\_21[15]	_	_	_	_	_	false	NA	okay\_22	*	*	*	*	feedback	*	female	*	speaker:Finnja	_	_	_	_	_	
+
+#Text=Er will aufs Dach
+88-1	2154-2156	Er	GSuccess[15]	ausleihen\_set1\_21[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-ausleihen\_set1\_21[15]	3	*	Subj	m	singular	false[147]	Decl[147]	*[237]	*[237]	*[237]	*[237]	*[237]	input1[237]	36[326]	male[326]	ifdbjqro2nfkup12rv8t6k0eu9[326]	speaker: YOU[415]	*->141-2	PerPron[141]	elaboration	*	89-1[148_147]	
+88-2	2157-2161	will	GSuccess[15]	ausleihen\_set1\_21[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-ausleihen\_set1\_21[15]	_	_	_	_	_	false[147]	Decl[147]	*[237]	*[237]	*[237]	*[237]	*[237]	input1[237]	36[326]	male[326]	ifdbjqro2nfkup12rv8t6k0eu9[326]	speaker: YOU[415]	_	_	_	_	_	
+88-3	2162-2166	aufs	GSuccess[15]	ausleihen\_set1\_21[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-ausleihen\_set1\_21[15]	_	_	_	_	_	false[147]	Decl[147]	*[237]	*[237]	*[237]	*[237]	*[237]	input1[237]	36[326]	male[326]	ifdbjqro2nfkup12rv8t6k0eu9[326]	speaker: YOU[415]	*->25-1	DefNP[25]	_	_	_	
+88-4	2167-2171	Dach	GSuccess[15]	ausleihen\_set1\_21[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-ausleihen\_set1\_21[15]	*	*	PrepObj	*	*	false[147]	Decl[147]	*[237]	*[237]	*[237]	*[237]	*[237]	input1[237]	36[326]	male[326]	ifdbjqro2nfkup12rv8t6k0eu9[326]	speaker: YOU[415]	*->25-1	DefNP[25]	_	_	_	
+
+#Text=Solarplatten installieren
+89-1	2173-2185	Solarplatten	GSuccess[15]	ausleihen\_set1\_21[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-ausleihen\_set1\_21[15]	*	*	DirObj	*	*	false[148]	NA[148]	*[238]	*[238]	*[238]	*[238]	*[238]	input2[238]	36[327]	male[327]	ifdbjqro2nfkup12rv8t6k0eu9[327]	speaker: YOU[416]	*->76-1	IndefNP[76]	_	_	_	
+89-2	2186-2198	installieren	GSuccess[15]	ausleihen\_set1\_21[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-ausleihen\_set1\_21[15]	_	_	_	_	_	false[148]	NA[148]	*[238]	*[238]	*[238]	*[238]	*[238]	input2[238]	36[327]	male[327]	ifdbjqro2nfkup12rv8t6k0eu9[327]	speaker: YOU[416]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+90-1	2200-2215	END_OF_DOCUMENT	GSuccess[15]	ausleihen\_set1\_21[15]	latin3[15]	ifdbjqro2nfkup12rv8t6k0eu9-ausleihen\_set1\_21[15]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+91-1	2217-2220	Na?	GSuccess[16]	ausleihen\_set1\_21[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-ausleihen\_set1\_21[16]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Finnja	_	_	QAP	*	92-1[149_0]	
+
+#Text=Samuel hat eine Leiter ausgeliehen
+92-1	2222-2228	Samuel	GSuccess[16]	ausleihen\_set1\_21[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-ausleihen\_set1\_21[16]	*	*	Subj	*	*	false[149]	Decl[149]	*[239]	ausleihen[239]	transitive[239]	*[239]	*[239]	item0[239]	27[328]	female[328]	nn1fs9jkn62eo9089lo89usbkb[328]	speaker: YOU[417]	*->84-1	PropNm[84]	result|acknowledgement	*|*	94-1[150_149]|93-1[0_149]	
+92-2	2229-2232	hat	GSuccess[16]	ausleihen\_set1\_21[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-ausleihen\_set1\_21[16]	_	_	_	_	_	false[149]	Decl[149]	*[239]	ausleihen[239]	transitive[239]	*[239]	*[239]	item0[239]	27[328]	female[328]	nn1fs9jkn62eo9089lo89usbkb[328]	speaker: YOU[417]	_	_	_	_	_	
+92-3	2233-2237	eine	GSuccess[16]	ausleihen\_set1\_21[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-ausleihen\_set1\_21[16]	*[69]	*[69]	object[69]	*[69]	*[69]	false[149]	Decl[149]	*[239]	ausleihen[239]	transitive[239]	*[239]	*[239]	item0[239]	27[328]	female[328]	nn1fs9jkn62eo9089lo89usbkb[328]	speaker: YOU[417]	*->13-1	IndefNP[13]	_	_	_	
+92-4	2238-2244	Leiter	GSuccess[16]	ausleihen\_set1\_21[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-ausleihen\_set1\_21[16]	*[69]	*[69]	object[69]	*[69]	*[69]	false[149]	Decl[149]	*[239]	ausleihen[239]	transitive[239]	*[239]	*[239]	item0[239]	27[328]	female[328]	nn1fs9jkn62eo9089lo89usbkb[328]	speaker: YOU[417]	*->13-1	IndefNP[13]	_	_	_	
+92-5	2245-2256	ausgeliehen	GSuccess[16]	ausleihen\_set1\_21[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-ausleihen\_set1\_21[16]	_	_	_	_	_	false[149]	Decl[149]	*[239]	ausleihen[239]	transitive[239]	*[239]	*[239]	item0[239]	27[328]	female[328]	nn1fs9jkn62eo9089lo89usbkb[328]	speaker: YOU[417]	_	_	_	_	_	
+
+#Text=Okay
+93-1	2258-2262	Okay	GSuccess[16]	ausleihen\_set1\_21[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-ausleihen\_set1\_21[16]	_	_	_	_	_	false	NA	okay\_22	*	*	*	*	feedback	*	female	*	speaker:Finnja	_	_	_	_	_	
+
+#Text=Jetzt können wir endlich die Lampen aufhängen.
+94-1	2264-2269	Jetzt	GSuccess[16]	ausleihen\_set1\_21[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-ausleihen\_set1\_21[16]	_	_	_	_	_	false[150]	Decl[150]	*[240]	*[240]	*[240]	*[240]	*[240]	input1[240]	27[329]	female[329]	nn1fs9jkn62eo9089lo89usbkb[329]	speaker: YOU[418]	_	_	elaboration	*	95-1[151_150]	
+94-2	2270-2276	können	GSuccess[16]	ausleihen\_set1\_21[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-ausleihen\_set1\_21[16]	_	_	_	_	_	false[150]	Decl[150]	*[240]	*[240]	*[240]	*[240]	*[240]	input1[240]	27[329]	female[329]	nn1fs9jkn62eo9089lo89usbkb[329]	speaker: YOU[418]	_	_	_	_	_	
+94-3	2277-2280	wir	GSuccess[16]	ausleihen\_set1\_21[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-ausleihen\_set1\_21[16]	1	*	Subj	*	plural	false[150]	Decl[150]	*[240]	*[240]	*[240]	*[240]	*[240]	input1[240]	27[329]	female[329]	nn1fs9jkn62eo9089lo89usbkb[329]	speaker: YOU[418]	*->52-1	PerPron[52]	_	_	_	
+94-4	2281-2288	endlich	GSuccess[16]	ausleihen\_set1\_21[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-ausleihen\_set1\_21[16]	_	_	_	_	_	false[150]	Decl[150]	*[240]	*[240]	*[240]	*[240]	*[240]	input1[240]	27[329]	female[329]	nn1fs9jkn62eo9089lo89usbkb[329]	speaker: YOU[418]	_	_	_	_	_	
+94-5	2289-2292	die	GSuccess[16]	ausleihen\_set1\_21[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-ausleihen\_set1\_21[16]	*[70]	*[70]	DirObj[70]	*[70]	*[70]	false[150]	Decl[150]	*[240]	*[240]	*[240]	*[240]	*[240]	input1[240]	27[329]	female[329]	nn1fs9jkn62eo9089lo89usbkb[329]	speaker: YOU[418]	*->23-1	DefNP[23]	_	_	_	
+94-6	2293-2299	Lampen	GSuccess[16]	ausleihen\_set1\_21[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-ausleihen\_set1\_21[16]	*[70]	*[70]	DirObj[70]	*[70]	*[70]	false[150]	Decl[150]	*[240]	*[240]	*[240]	*[240]	*[240]	input1[240]	27[329]	female[329]	nn1fs9jkn62eo9089lo89usbkb[329]	speaker: YOU[418]	*->23-1	DefNP[23]	_	_	_	
+94-7	2300-2310	aufhängen.	GSuccess[16]	ausleihen\_set1\_21[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-ausleihen\_set1\_21[16]	_	_	_	_	_	false[150]	Decl[150]	*[240]	*[240]	*[240]	*[240]	*[240]	input1[240]	27[329]	female[329]	nn1fs9jkn62eo9089lo89usbkb[329]	speaker: YOU[418]	_	_	_	_	_	
+
+#Text=Ich freue mich schon.
+95-1	2312-2315	Ich	GSuccess[16]	ausleihen\_set1\_21[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-ausleihen\_set1\_21[16]	1	*	Subj	*	singular	false[151]	Decl[151]	*[241]	*[241]	*[241]	*[241]	*[241]	input2[241]	27[330]	female[330]	nn1fs9jkn62eo9089lo89usbkb[330]	speaker: YOU[419]	*->81-1	PerPron[81]	_	_	_	
+95-2	2316-2321	freue	GSuccess[16]	ausleihen\_set1\_21[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-ausleihen\_set1\_21[16]	_	_	_	_	_	false[151]	Decl[151]	*[241]	*[241]	*[241]	*[241]	*[241]	input2[241]	27[330]	female[330]	nn1fs9jkn62eo9089lo89usbkb[330]	speaker: YOU[419]	_	_	_	_	_	
+95-3	2322-2326	mich	GSuccess[16]	ausleihen\_set1\_21[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-ausleihen\_set1\_21[16]	_	_	_	_	_	false[151]	Decl[151]	*[241]	*[241]	*[241]	*[241]	*[241]	input2[241]	27[330]	female[330]	nn1fs9jkn62eo9089lo89usbkb[330]	speaker: YOU[419]	_	_	_	_	_	
+95-4	2327-2333	schon.	GSuccess[16]	ausleihen\_set1\_21[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-ausleihen\_set1\_21[16]	_	_	_	_	_	false[151]	Decl[151]	*[241]	*[241]	*[241]	*[241]	*[241]	input2[241]	27[330]	female[330]	nn1fs9jkn62eo9089lo89usbkb[330]	speaker: YOU[419]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+96-1	2335-2350	END_OF_DOCUMENT	GSuccess[16]	ausleihen\_set1\_21[16]	latin3[16]	nn1fs9jkn62eo9089lo89usbkb-ausleihen\_set1\_21[16]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+97-1	2352-2355	Na?	GSuccess[17]	ausleihen\_set1\_21[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-ausleihen\_set1\_21[17]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Finnja	_	_	QAP	*	98-1[152_0]	
+
+#Text=Samuel hat eine Leiter ausgeliehen
+98-1	2357-2363	Samuel	GSuccess[17]	ausleihen\_set1\_21[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-ausleihen\_set1\_21[17]	*	*	Subj	*	*	false[152]	Decl[152]	*[242]	ausleihen[242]	transitive[242]	*[242]	*[242]	item0[242]	24[331]	male[331]	qaaqp55l485lvs9rdvpvbtmqal[331]	speaker: YOU[420]	*->4-1|*->122-1	clause[4]|PropNm[122]	narration|acknowledgement	*|*	100-1[153_152]|99-1[0_152]	
+98-2	2364-2367	hat	GSuccess[17]	ausleihen\_set1\_21[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-ausleihen\_set1\_21[17]	_	_	_	_	_	false[152]	Decl[152]	*[242]	ausleihen[242]	transitive[242]	*[242]	*[242]	item0[242]	24[331]	male[331]	qaaqp55l485lvs9rdvpvbtmqal[331]	speaker: YOU[420]	*->4-1	clause[4]	_	_	_	
+98-3	2368-2372	eine	GSuccess[17]	ausleihen\_set1\_21[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-ausleihen\_set1\_21[17]	*[71]	*[71]	object[71]	*[71]	*[71]	false[152]	Decl[152]	*[242]	ausleihen[242]	transitive[242]	*[242]	*[242]	item0[242]	24[331]	male[331]	qaaqp55l485lvs9rdvpvbtmqal[331]	speaker: YOU[420]	*->4-1|*->109-1	clause[4]|IndefNP[109]	_	_	_	
+98-4	2373-2379	Leiter	GSuccess[17]	ausleihen\_set1\_21[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-ausleihen\_set1\_21[17]	*[71]	*[71]	object[71]	*[71]	*[71]	false[152]	Decl[152]	*[242]	ausleihen[242]	transitive[242]	*[242]	*[242]	item0[242]	24[331]	male[331]	qaaqp55l485lvs9rdvpvbtmqal[331]	speaker: YOU[420]	*->4-1|*->109-1	clause[4]|IndefNP[109]	_	_	_	
+98-5	2380-2391	ausgeliehen	GSuccess[17]	ausleihen\_set1\_21[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-ausleihen\_set1\_21[17]	_	_	_	_	_	false[152]	Decl[152]	*[242]	ausleihen[242]	transitive[242]	*[242]	*[242]	item0[242]	24[331]	male[331]	qaaqp55l485lvs9rdvpvbtmqal[331]	speaker: YOU[420]	*->4-1	clause[4]	_	_	_	
+
+#Text=Okay
+99-1	2393-2397	Okay	GSuccess[17]	ausleihen\_set1\_21[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-ausleihen\_set1\_21[17]	_	_	_	_	_	false	NA	okay\_22	*	*	*	*	feedback	*	female	*	speaker:Finnja	_	_	_	_	_	
+
+#Text=Daraufhin ist er beim Verscuh aufs Dach zu steigen gestürzt
+100-1	2399-2408	Daraufhin	GSuccess[17]	ausleihen\_set1\_21[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-ausleihen\_set1\_21[17]	_	_	_	_	_	false[153]	Decl[153]	*[243]	*[243]	*[243]	*[243]	*[243]	input1[243]	24[332]	male[332]	qaaqp55l485lvs9rdvpvbtmqal[332]	speaker: YOU[421]	*->4-2	DemPron[4]	contrast	*	101-1[154_153]	
+100-2	2409-2412	ist	GSuccess[17]	ausleihen\_set1\_21[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-ausleihen\_set1\_21[17]	_	_	_	_	_	false[153]	Decl[153]	*[243]	*[243]	*[243]	*[243]	*[243]	input1[243]	24[332]	male[332]	qaaqp55l485lvs9rdvpvbtmqal[332]	speaker: YOU[421]	_	_	_	_	_	
+100-3	2413-2415	er	GSuccess[17]	ausleihen\_set1\_21[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-ausleihen\_set1\_21[17]	3	*	Subj	*	singular	false[153]	Decl[153]	*[243]	*[243]	*[243]	*[243]	*[243]	input1[243]	24[332]	male[332]	qaaqp55l485lvs9rdvpvbtmqal[332]	speaker: YOU[421]	*->122-2	PerPron[122]	_	_	_	
+100-4	2416-2420	beim	GSuccess[17]	ausleihen\_set1\_21[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-ausleihen\_set1\_21[17]	_	_	_	_	_	false[153]	Decl[153]	*[243]	*[243]	*[243]	*[243]	*[243]	input1[243]	24[332]	male[332]	qaaqp55l485lvs9rdvpvbtmqal[332]	speaker: YOU[421]	*->113-1	DefNP[113]	_	_	_	
+100-5	2421-2428	Verscuh	GSuccess[17]	ausleihen\_set1\_21[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-ausleihen\_set1\_21[17]	*	*	PrepObj	*	*	false[153]	Decl[153]	*[243]	*[243]	*[243]	*[243]	*[243]	input1[243]	24[332]	male[332]	qaaqp55l485lvs9rdvpvbtmqal[332]	speaker: YOU[421]	*->113-1	DefNP[113]	_	_	_	
+100-6	2429-2433	aufs	GSuccess[17]	ausleihen\_set1\_21[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-ausleihen\_set1\_21[17]	_	_	_	_	_	false[153]	Decl[153]	*[243]	*[243]	*[243]	*[243]	*[243]	input1[243]	24[332]	male[332]	qaaqp55l485lvs9rdvpvbtmqal[332]	speaker: YOU[421]	*->113-1|*->79-1	DefNP[113]|DefNP[79]	_	_	_	
+100-7	2434-2438	Dach	GSuccess[17]	ausleihen\_set1\_21[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-ausleihen\_set1\_21[17]	*	*	PrepObj	*	*	false[153]	Decl[153]	*[243]	*[243]	*[243]	*[243]	*[243]	input1[243]	24[332]	male[332]	qaaqp55l485lvs9rdvpvbtmqal[332]	speaker: YOU[421]	*->113-1|*->79-1	DefNP[113]|DefNP[79]	_	_	_	
+100-8	2439-2441	zu	GSuccess[17]	ausleihen\_set1\_21[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-ausleihen\_set1\_21[17]	_	_	_	_	_	false[153]	Decl[153]	*[243]	*[243]	*[243]	*[243]	*[243]	input1[243]	24[332]	male[332]	qaaqp55l485lvs9rdvpvbtmqal[332]	speaker: YOU[421]	*->113-1	DefNP[113]	_	_	_	
+100-9	2442-2449	steigen	GSuccess[17]	ausleihen\_set1\_21[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-ausleihen\_set1\_21[17]	_	_	_	_	_	false[153]	Decl[153]	*[243]	*[243]	*[243]	*[243]	*[243]	input1[243]	24[332]	male[332]	qaaqp55l485lvs9rdvpvbtmqal[332]	speaker: YOU[421]	*->113-1	DefNP[113]	_	_	_	
+100-10	2450-2458	gestürzt	GSuccess[17]	ausleihen\_set1\_21[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-ausleihen\_set1\_21[17]	_	_	_	_	_	false[153]	Decl[153]	*[243]	*[243]	*[243]	*[243]	*[243]	input1[243]	24[332]	male[332]	qaaqp55l485lvs9rdvpvbtmqal[332]	speaker: YOU[421]	_	_	_	_	_	
+
+#Text=Zum Glück blieb es bei leichten Verletzungen
+101-1	2460-2463	Zum	GSuccess[17]	ausleihen\_set1\_21[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-ausleihen\_set1\_21[17]	_	_	_	_	_	false[154]	Decl[154]	*[244]	*[244]	*[244]	*[244]	*[244]	input2[244]	24[333]	male[333]	qaaqp55l485lvs9rdvpvbtmqal[333]	speaker: YOU[422]	_	_	_	_	_	
+101-2	2464-2469	Glück	GSuccess[17]	ausleihen\_set1\_21[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-ausleihen\_set1\_21[17]	_	_	_	_	_	false[154]	Decl[154]	*[244]	*[244]	*[244]	*[244]	*[244]	input2[244]	24[333]	male[333]	qaaqp55l485lvs9rdvpvbtmqal[333]	speaker: YOU[422]	_	_	_	_	_	
+101-3	2470-2475	blieb	GSuccess[17]	ausleihen\_set1\_21[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-ausleihen\_set1\_21[17]	_	_	_	_	_	false[154]	Decl[154]	*[244]	*[244]	*[244]	*[244]	*[244]	input2[244]	24[333]	male[333]	qaaqp55l485lvs9rdvpvbtmqal[333]	speaker: YOU[422]	_	_	_	_	_	
+101-4	2476-2478	es	GSuccess[17]	ausleihen\_set1\_21[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-ausleihen\_set1\_21[17]	*	*	Subj	*	*	false[154]	Decl[154]	*[244]	*[244]	*[244]	*[244]	*[244]	input2[244]	24[333]	male[333]	qaaqp55l485lvs9rdvpvbtmqal[333]	speaker: YOU[422]	_	_	_	_	_	
+101-5	2479-2482	bei	GSuccess[17]	ausleihen\_set1\_21[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-ausleihen\_set1\_21[17]	_	_	_	_	_	false[154]	Decl[154]	*[244]	*[244]	*[244]	*[244]	*[244]	input2[244]	24[333]	male[333]	qaaqp55l485lvs9rdvpvbtmqal[333]	speaker: YOU[422]	_	_	_	_	_	
+101-6	2483-2491	leichten	GSuccess[17]	ausleihen\_set1\_21[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-ausleihen\_set1\_21[17]	*[72]	*[72]	PrepObj[72]	*[72]	*[72]	false[154]	Decl[154]	*[244]	*[244]	*[244]	*[244]	*[244]	input2[244]	24[333]	male[333]	qaaqp55l485lvs9rdvpvbtmqal[333]	speaker: YOU[422]	*->123-1	IndefNP[123]	_	_	_	
+101-7	2492-2504	Verletzungen	GSuccess[17]	ausleihen\_set1\_21[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-ausleihen\_set1\_21[17]	*[72]	*[72]	PrepObj[72]	*[72]	*[72]	false[154]	Decl[154]	*[244]	*[244]	*[244]	*[244]	*[244]	input2[244]	24[333]	male[333]	qaaqp55l485lvs9rdvpvbtmqal[333]	speaker: YOU[422]	*->123-1	IndefNP[123]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+102-1	2506-2521	END_OF_DOCUMENT	GSuccess[17]	ausleihen\_set1\_21[17]	latin3[17]	qaaqp55l485lvs9rdvpvbtmqal-ausleihen\_set1\_21[17]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+103-1	2523-2526	Na?	GSuccess[18]	ausleihen\_set1\_21[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-ausleihen\_set1\_21[18]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Finnja	_	_	QAP	*	104-1[155_0]	
+
+#Text=Samuel hat eine Leiter ausgeliehen
+104-1	2528-2534	Samuel	GSuccess[18]	ausleihen\_set1\_21[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-ausleihen\_set1\_21[18]	*	*	Subj	*	*	false[155]	Decl[155]	*[245]	ausleihen[245]	transitive[245]	*[245]	*[245]	item0[245]	25[334]	female[334]	t6ah1r7hfmcncb44kgnh0sjmv6[334]	speaker: YOU[423]	*->44-1	PropNm[44]	result|acknowledgement	*|*	106-1[156_155]|105-1[0_155]	
+104-2	2535-2538	hat	GSuccess[18]	ausleihen\_set1\_21[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-ausleihen\_set1\_21[18]	_	_	_	_	_	false[155]	Decl[155]	*[245]	ausleihen[245]	transitive[245]	*[245]	*[245]	item0[245]	25[334]	female[334]	t6ah1r7hfmcncb44kgnh0sjmv6[334]	speaker: YOU[423]	_	_	_	_	_	
+104-3	2539-2543	eine	GSuccess[18]	ausleihen\_set1\_21[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-ausleihen\_set1\_21[18]	*[73]	*[73]	object[73]	*[73]	*[73]	false[155]	Decl[155]	*[245]	ausleihen[245]	transitive[245]	*[245]	*[245]	item0[245]	25[334]	female[334]	t6ah1r7hfmcncb44kgnh0sjmv6[334]	speaker: YOU[423]	*->106-1	IndefNP[106]	_	_	_	
+104-4	2544-2550	Leiter	GSuccess[18]	ausleihen\_set1\_21[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-ausleihen\_set1\_21[18]	*[73]	*[73]	object[73]	*[73]	*[73]	false[155]	Decl[155]	*[245]	ausleihen[245]	transitive[245]	*[245]	*[245]	item0[245]	25[334]	female[334]	t6ah1r7hfmcncb44kgnh0sjmv6[334]	speaker: YOU[423]	*->106-1	IndefNP[106]	_	_	_	
+104-5	2551-2562	ausgeliehen	GSuccess[18]	ausleihen\_set1\_21[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-ausleihen\_set1\_21[18]	_	_	_	_	_	false[155]	Decl[155]	*[245]	ausleihen[245]	transitive[245]	*[245]	*[245]	item0[245]	25[334]	female[334]	t6ah1r7hfmcncb44kgnh0sjmv6[334]	speaker: YOU[423]	_	_	_	_	_	
+
+#Text=Okay
+105-1	2564-2568	Okay	GSuccess[18]	ausleihen\_set1\_21[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-ausleihen\_set1\_21[18]	_	_	_	_	_	false	NA	okay\_22	*	*	*	*	feedback	*	female	*	speaker:Finnja	_	_	_	_	_	
+
+#Text=Jetzt kann der Umbau richtig starten
+106-1	2570-2575	Jetzt	GSuccess[18]	ausleihen\_set1\_21[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-ausleihen\_set1\_21[18]	_	_	_	_	_	false[156]	Decl[156]	*[246]	*[246]	*[246]	*[246]	*[246]	input1[246]	25[335]	female[335]	t6ah1r7hfmcncb44kgnh0sjmv6[335]	speaker: YOU[424]	_	_	_	_	_	
+106-2	2576-2580	kann	GSuccess[18]	ausleihen\_set1\_21[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-ausleihen\_set1\_21[18]	_	_	_	_	_	false[156]	Decl[156]	*[246]	*[246]	*[246]	*[246]	*[246]	input1[246]	25[335]	female[335]	t6ah1r7hfmcncb44kgnh0sjmv6[335]	speaker: YOU[424]	_	_	_	_	_	
+106-3	2581-2584	der	GSuccess[18]	ausleihen\_set1\_21[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-ausleihen\_set1\_21[18]	*[74]	*[74]	Subj[74]	*[74]	*[74]	false[156]	Decl[156]	*[246]	*[246]	*[246]	*[246]	*[246]	input1[246]	25[335]	female[335]	t6ah1r7hfmcncb44kgnh0sjmv6[335]	speaker: YOU[424]	*->103-1	DefNP[103]	_	_	_	
+106-4	2585-2590	Umbau	GSuccess[18]	ausleihen\_set1\_21[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-ausleihen\_set1\_21[18]	*[74]	*[74]	Subj[74]	*[74]	*[74]	false[156]	Decl[156]	*[246]	*[246]	*[246]	*[246]	*[246]	input1[246]	25[335]	female[335]	t6ah1r7hfmcncb44kgnh0sjmv6[335]	speaker: YOU[424]	*->103-1	DefNP[103]	_	_	_	
+106-5	2591-2598	richtig	GSuccess[18]	ausleihen\_set1\_21[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-ausleihen\_set1\_21[18]	_	_	_	_	_	false[156]	Decl[156]	*[246]	*[246]	*[246]	*[246]	*[246]	input1[246]	25[335]	female[335]	t6ah1r7hfmcncb44kgnh0sjmv6[335]	speaker: YOU[424]	_	_	_	_	_	
+106-6	2599-2606	starten	GSuccess[18]	ausleihen\_set1\_21[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-ausleihen\_set1\_21[18]	_	_	_	_	_	false[156]	Decl[156]	*[246]	*[246]	*[246]	*[246]	*[246]	input1[246]	25[335]	female[335]	t6ah1r7hfmcncb44kgnh0sjmv6[335]	speaker: YOU[424]	_	_	_	_	_	
+
+#Text=Wie geht es dir so?
+107-1	2608-2611	Wie	GSuccess[18]	ausleihen\_set1\_21[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-ausleihen\_set1\_21[18]	_	_	_	_	_	false[157]	Int[157]	*[247]	*[247]	*[247]	*[247]	*[247]	input2[247]	25[336]	female[336]	t6ah1r7hfmcncb44kgnh0sjmv6[336]	speaker: YOU[425]	_	_	_	_	_	
+107-2	2612-2616	geht	GSuccess[18]	ausleihen\_set1\_21[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-ausleihen\_set1\_21[18]	_	_	_	_	_	false[157]	Int[157]	*[247]	*[247]	*[247]	*[247]	*[247]	input2[247]	25[336]	female[336]	t6ah1r7hfmcncb44kgnh0sjmv6[336]	speaker: YOU[425]	_	_	_	_	_	
+107-3	2617-2619	es	GSuccess[18]	ausleihen\_set1\_21[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-ausleihen\_set1\_21[18]	*	*	Subj	*	*	false[157]	Int[157]	*[247]	*[247]	*[247]	*[247]	*[247]	input2[247]	25[336]	female[336]	t6ah1r7hfmcncb44kgnh0sjmv6[336]	speaker: YOU[425]	_	_	_	_	_	
+107-4	2620-2623	dir	GSuccess[18]	ausleihen\_set1\_21[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-ausleihen\_set1\_21[18]	2	*	*	*	singular	false[157]	Int[157]	*[247]	*[247]	*[247]	*[247]	*[247]	input2[247]	25[336]	female[336]	t6ah1r7hfmcncb44kgnh0sjmv6[336]	speaker: YOU[425]	*->39-1	PerPron[39]	_	_	_	
+107-5	2624-2627	so?	GSuccess[18]	ausleihen\_set1\_21[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-ausleihen\_set1\_21[18]	_	_	_	_	_	false[157]	Int[157]	*[247]	*[247]	*[247]	*[247]	*[247]	input2[247]	25[336]	female[336]	t6ah1r7hfmcncb44kgnh0sjmv6[336]	speaker: YOU[425]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+108-1	2629-2644	END_OF_DOCUMENT	GSuccess[18]	ausleihen\_set1\_21[18]	latin3[18]	t6ah1r7hfmcncb44kgnh0sjmv6-ausleihen\_set1\_21[18]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+109-1	2646-2649	Na?	GSuccess[19]	ausleihen\_set1\_21[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-ausleihen\_set1\_21[19]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Finnja	_	_	QAP	*	110-1[158_0]	
+
+#Text=Samuel hat eine Leiter ausgeliehen
+110-1	2651-2657	Samuel	GSuccess[19]	ausleihen\_set1\_21[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-ausleihen\_set1\_21[19]	*	*	Subj	*	*	false[158]	Decl[158]	*[248]	ausleihen[248]	transitive[248]	*[248]	*[248]	item0[248]	29[337]	female[337]	ue2vk0ts1hkpki58vsa3j8t39j[337]	speaker: YOU[426]	*->88-1	PropNm[88]	explanation|acknowledgement	*|*	112-1[159_158]|111-1[0_158]	
+110-2	2658-2661	hat	GSuccess[19]	ausleihen\_set1\_21[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-ausleihen\_set1\_21[19]	_	_	_	_	_	false[158]	Decl[158]	*[248]	ausleihen[248]	transitive[248]	*[248]	*[248]	item0[248]	29[337]	female[337]	ue2vk0ts1hkpki58vsa3j8t39j[337]	speaker: YOU[426]	_	_	_	_	_	
+110-3	2662-2666	eine	GSuccess[19]	ausleihen\_set1\_21[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-ausleihen\_set1\_21[19]	*[75]	*[75]	object[75]	*[75]	*[75]	false[158]	Decl[158]	*[248]	ausleihen[248]	transitive[248]	*[248]	*[248]	item0[248]	29[337]	female[337]	ue2vk0ts1hkpki58vsa3j8t39j[337]	speaker: YOU[426]	*->22-1	IndefNP[22]	_	_	_	
+110-4	2667-2673	Leiter	GSuccess[19]	ausleihen\_set1\_21[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-ausleihen\_set1\_21[19]	*[75]	*[75]	object[75]	*[75]	*[75]	false[158]	Decl[158]	*[248]	ausleihen[248]	transitive[248]	*[248]	*[248]	item0[248]	29[337]	female[337]	ue2vk0ts1hkpki58vsa3j8t39j[337]	speaker: YOU[426]	*->22-1	IndefNP[22]	_	_	_	
+110-5	2674-2685	ausgeliehen	GSuccess[19]	ausleihen\_set1\_21[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-ausleihen\_set1\_21[19]	_	_	_	_	_	false[158]	Decl[158]	*[248]	ausleihen[248]	transitive[248]	*[248]	*[248]	item0[248]	29[337]	female[337]	ue2vk0ts1hkpki58vsa3j8t39j[337]	speaker: YOU[426]	_	_	_	_	_	
+
+#Text=Okay
+111-1	2687-2691	Okay	GSuccess[19]	ausleihen\_set1\_21[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-ausleihen\_set1\_21[19]	_	_	_	_	_	false	NA	okay\_22	*	*	*	*	feedback	*	female	*	speaker:Finnja	_	_	_	_	_	
+
+#Text=Er will die Glühbirne auswechseln.
+112-1	2693-2695	Er	GSuccess[19]	ausleihen\_set1\_21[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-ausleihen\_set1\_21[19]	3	*	Subj	*	singular	false[159]	Decl[159]	*[249]	*[249]	*[249]	*[249]	*[249]	input1[249]	29[338]	female[338]	ue2vk0ts1hkpki58vsa3j8t39j[338]	speaker: YOU[427]	*->88-2	PerPron[88]	_	_	_	
+112-2	2696-2700	will	GSuccess[19]	ausleihen\_set1\_21[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-ausleihen\_set1\_21[19]	_	_	_	_	_	false[159]	Decl[159]	*[249]	*[249]	*[249]	*[249]	*[249]	input1[249]	29[338]	female[338]	ue2vk0ts1hkpki58vsa3j8t39j[338]	speaker: YOU[427]	_	_	_	_	_	
+112-3	2701-2704	die	GSuccess[19]	ausleihen\_set1\_21[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-ausleihen\_set1\_21[19]	*[76]	*[76]	DirObj[76]	*[76]	*[76]	false[159]	Decl[159]	*[249]	*[249]	*[249]	*[249]	*[249]	input1[249]	29[338]	female[338]	ue2vk0ts1hkpki58vsa3j8t39j[338]	speaker: YOU[427]	*->58-1|*->104-1	clause[58]|DefNP[104]	_	_	_	
+112-4	2705-2714	Glühbirne	GSuccess[19]	ausleihen\_set1\_21[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-ausleihen\_set1\_21[19]	*[76]	*[76]	DirObj[76]	*[76]	*[76]	false[159]	Decl[159]	*[249]	*[249]	*[249]	*[249]	*[249]	input1[249]	29[338]	female[338]	ue2vk0ts1hkpki58vsa3j8t39j[338]	speaker: YOU[427]	*->58-1|*->104-1	clause[58]|DefNP[104]	_	_	_	
+112-5	2715-2727	auswechseln.	GSuccess[19]	ausleihen\_set1\_21[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-ausleihen\_set1\_21[19]	_	_	_	_	_	false[159]	Decl[159]	*[249]	*[249]	*[249]	*[249]	*[249]	input1[249]	29[338]	female[338]	ue2vk0ts1hkpki58vsa3j8t39j[338]	speaker: YOU[427]	_	_	_	_	_	
+112-5.1	2715-2726	auswechseln	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	*->58-1	clause[58]	_	_	_	
+
+#Text=Hoffe er kriegt keinen Stromstoss dadurch!
+113-1	2729-2734	Hoffe	GSuccess[19]	ausleihen\_set1\_21[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-ausleihen\_set1\_21[19]	1	*	*	*	singular	false[160]	Decl[160]	*[250]	*[250]	*[250]	*[250]	*[250]	input2[250]	29[339]	female[339]	ue2vk0ts1hkpki58vsa3j8t39j[339]	speaker: YOU[428]	*->71-1	zero[71]	_	_	_	
+113-2	2735-2737	er	GSuccess[19]	ausleihen\_set1\_21[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-ausleihen\_set1\_21[19]	3	*	Subj	*	singular	false[160]	Decl[160]	*[250]	*[250]	*[250]	*[250]	*[250]	input2[250]	29[339]	female[339]	ue2vk0ts1hkpki58vsa3j8t39j[339]	speaker: YOU[428]	*->88-3	PerPron[88]	_	_	_	
+113-3	2738-2744	kriegt	GSuccess[19]	ausleihen\_set1\_21[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-ausleihen\_set1\_21[19]	_	_	_	_	_	false[160]	Decl[160]	*[250]	*[250]	*[250]	*[250]	*[250]	input2[250]	29[339]	female[339]	ue2vk0ts1hkpki58vsa3j8t39j[339]	speaker: YOU[428]	_	_	_	_	_	
+113-4	2745-2751	keinen	GSuccess[19]	ausleihen\_set1\_21[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-ausleihen\_set1\_21[19]	_	_	_	_	_	false[160]	Decl[160]	*[250]	*[250]	*[250]	*[250]	*[250]	input2[250]	29[339]	female[339]	ue2vk0ts1hkpki58vsa3j8t39j[339]	speaker: YOU[428]	_	_	_	_	_	
+113-5	2752-2762	Stromstoss	GSuccess[19]	ausleihen\_set1\_21[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-ausleihen\_set1\_21[19]	_	_	_	_	_	false[160]	Decl[160]	*[250]	*[250]	*[250]	*[250]	*[250]	input2[250]	29[339]	female[339]	ue2vk0ts1hkpki58vsa3j8t39j[339]	speaker: YOU[428]	_	_	_	_	_	
+113-6	2763-2771	dadurch!	GSuccess[19]	ausleihen\_set1\_21[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-ausleihen\_set1\_21[19]	_	_	_	_	_	false[160]	Decl[160]	*[250]	*[250]	*[250]	*[250]	*[250]	input2[250]	29[339]	female[339]	ue2vk0ts1hkpki58vsa3j8t39j[339]	speaker: YOU[428]	_	_	_	_	_	
+113-6.1	2763-2770	dadurch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	*->58-2	D-Pron[58]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+114-1	2773-2788	END_OF_DOCUMENT	GSuccess[19]	ausleihen\_set1\_21[19]	latin3[19]	ue2vk0ts1hkpki58vsa3j8t39j-ausleihen\_set1\_21[19]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+115-1	2790-2793	Na?	GSuccess[20]	ausleihen\_set1\_21[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-ausleihen\_set1\_21[20]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Finnja	_	_	QAP	*	116-1[161_0]	
+
+#Text=Samuel hat eine Leiter ausgeliehen
+116-1	2795-2801	Samuel	GSuccess[20]	ausleihen\_set1\_21[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-ausleihen\_set1\_21[20]	*	*	Subj	*	*	false[161]	Decl[161]	*[251]	ausleihen[251]	transitive[251]	*[251]	*[251]	item0[251]	58[340]	male[340]	v3le8i0hm1ekj0ps9oou7k56t5[340]	speaker: YOU[429]	*->101-1	PropNm[101]	narration|acknowledgement	*|*	118-1[162_161]|117-1[0_161]	
+116-2	2802-2805	hat	GSuccess[20]	ausleihen\_set1\_21[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-ausleihen\_set1\_21[20]	_	_	_	_	_	false[161]	Decl[161]	*[251]	ausleihen[251]	transitive[251]	*[251]	*[251]	item0[251]	58[340]	male[340]	v3le8i0hm1ekj0ps9oou7k56t5[340]	speaker: YOU[429]	_	_	_	_	_	
+116-3	2806-2810	eine	GSuccess[20]	ausleihen\_set1\_21[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-ausleihen\_set1\_21[20]	*[77]	*[77]	object[77]	*[77]	*[77]	false[161]	Decl[161]	*[251]	ausleihen[251]	transitive[251]	*[251]	*[251]	item0[251]	58[340]	male[340]	v3le8i0hm1ekj0ps9oou7k56t5[340]	speaker: YOU[429]	*->27-1	IndefNP[27]	_	_	_	
+116-4	2811-2817	Leiter	GSuccess[20]	ausleihen\_set1\_21[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-ausleihen\_set1\_21[20]	*[77]	*[77]	object[77]	*[77]	*[77]	false[161]	Decl[161]	*[251]	ausleihen[251]	transitive[251]	*[251]	*[251]	item0[251]	58[340]	male[340]	v3le8i0hm1ekj0ps9oou7k56t5[340]	speaker: YOU[429]	*->27-1	IndefNP[27]	_	_	_	
+116-5	2818-2829	ausgeliehen	GSuccess[20]	ausleihen\_set1\_21[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-ausleihen\_set1\_21[20]	_	_	_	_	_	false[161]	Decl[161]	*[251]	ausleihen[251]	transitive[251]	*[251]	*[251]	item0[251]	58[340]	male[340]	v3le8i0hm1ekj0ps9oou7k56t5[340]	speaker: YOU[429]	_	_	_	_	_	
+
+#Text=Okay
+117-1	2831-2835	Okay	GSuccess[20]	ausleihen\_set1\_21[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-ausleihen\_set1\_21[20]	_	_	_	_	_	false	NA	okay\_22	*	*	*	*	feedback	*	female	*	speaker:Finnja	_	_	_	_	_	
+
+#Text=um braucht ihr die noch
+118-1	2837-2839	um	GSuccess[20]	ausleihen\_set1\_21[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-ausleihen\_set1\_21[20]	_	_	_	_	_	false[162]	Int[162]	*[252]	*[252]	*[252]	*[252]	*[252]	input1[252]	58[341]	male[341]	v3le8i0hm1ekj0ps9oou7k56t5[341]	speaker: YOU[430]	_	_	contrast	*	119-1[163_162]	
+118-2	2840-2847	braucht	GSuccess[20]	ausleihen\_set1\_21[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-ausleihen\_set1\_21[20]	_	_	_	_	_	false[162]	Int[162]	*[252]	*[252]	*[252]	*[252]	*[252]	input1[252]	58[341]	male[341]	v3le8i0hm1ekj0ps9oou7k56t5[341]	speaker: YOU[430]	_	_	_	_	_	
+118-3	2848-2851	ihr	GSuccess[20]	ausleihen\_set1\_21[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-ausleihen\_set1\_21[20]	2	*	Subj	*	plural	false[162]	Int[162]	*[252]	*[252]	*[252]	*[252]	*[252]	input1[252]	58[341]	male[341]	v3le8i0hm1ekj0ps9oou7k56t5[341]	speaker: YOU[430]	*->119-1	PerPron[119]	_	_	_	
+118-4	2852-2855	die	GSuccess[20]	ausleihen\_set1\_21[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-ausleihen\_set1\_21[20]	*	*	DirObj	*	*	false[162]	Int[162]	*[252]	*[252]	*[252]	*[252]	*[252]	input1[252]	58[341]	male[341]	v3le8i0hm1ekj0ps9oou7k56t5[341]	speaker: YOU[430]	*->27-2	D-Pron[27]	_	_	_	
+118-5	2856-2860	noch	GSuccess[20]	ausleihen\_set1\_21[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-ausleihen\_set1\_21[20]	_	_	_	_	_	false[162]	Int[162]	*[252]	*[252]	*[252]	*[252]	*[252]	input1[252]	58[341]	male[341]	v3le8i0hm1ekj0ps9oou7k56t5[341]	speaker: YOU[430]	_	_	_	_	_	
+
+#Text=sonst hätten wir sie gerne wieder
+119-1	2862-2867	sonst	GSuccess[20]	ausleihen\_set1\_21[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-ausleihen\_set1\_21[20]	_	_	_	_	_	false[163]	Decl[163]	*[253]	*[253]	*[253]	*[253]	*[253]	input2[253]	58[342]	male[342]	v3le8i0hm1ekj0ps9oou7k56t5[342]	speaker: YOU[431]	_	_	_	_	_	
+119-2	2868-2874	hätten	GSuccess[20]	ausleihen\_set1\_21[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-ausleihen\_set1\_21[20]	_	_	_	_	_	false[163]	Decl[163]	*[253]	*[253]	*[253]	*[253]	*[253]	input2[253]	58[342]	male[342]	v3le8i0hm1ekj0ps9oou7k56t5[342]	speaker: YOU[431]	_	_	_	_	_	
+119-3	2875-2878	wir	GSuccess[20]	ausleihen\_set1\_21[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-ausleihen\_set1\_21[20]	1	*	Subj	*	plural	false[163]	Decl[163]	*[253]	*[253]	*[253]	*[253]	*[253]	input2[253]	58[342]	male[342]	v3le8i0hm1ekj0ps9oou7k56t5[342]	speaker: YOU[431]	*->2-1	PerPron[2]	_	_	_	
+119-4	2879-2882	sie	GSuccess[20]	ausleihen\_set1\_21[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-ausleihen\_set1\_21[20]	3	*	DirObj	*	singular	false[163]	Decl[163]	*[253]	*[253]	*[253]	*[253]	*[253]	input2[253]	58[342]	male[342]	v3le8i0hm1ekj0ps9oou7k56t5[342]	speaker: YOU[431]	*->27-3	PerPron[27]	_	_	_	
+119-5	2883-2888	gerne	GSuccess[20]	ausleihen\_set1\_21[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-ausleihen\_set1\_21[20]	_	_	_	_	_	false[163]	Decl[163]	*[253]	*[253]	*[253]	*[253]	*[253]	input2[253]	58[342]	male[342]	v3le8i0hm1ekj0ps9oou7k56t5[342]	speaker: YOU[431]	_	_	_	_	_	
+119-6	2889-2895	wieder	GSuccess[20]	ausleihen\_set1\_21[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-ausleihen\_set1\_21[20]	_	_	_	_	_	false[163]	Decl[163]	*[253]	*[253]	*[253]	*[253]	*[253]	input2[253]	58[342]	male[342]	v3le8i0hm1ekj0ps9oou7k56t5[342]	speaker: YOU[431]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+120-1	2897-2912	END_OF_DOCUMENT	GSuccess[20]	ausleihen\_set1\_21[20]	latin3[20]	v3le8i0hm1ekj0ps9oou7k56t5-ausleihen\_set1\_21[20]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+121-1	2914-2917	Na?	GWithout[21]	ausleihen\_set1\_21[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-ausleihen\_set1\_21[21]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Finnja	_	_	QAP	*	122-1[164_0]	
+
+#Text=Samuel hat eine Leiter ausgeliehen
+122-1	2919-2925	Samuel	GWithout[21]	ausleihen\_set1\_21[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-ausleihen\_set1\_21[21]	*	*	Subj	*	*	false[164]	Decl[164]	*[254]	ausleihen[254]	transitive[254]	*[254]	*[254]	item0[254]	35[343]	female[343]	2k56uavscuainedj0q9i1sb693[343]	speaker: YOU[432]	*->138-1	PropNm[138]	result	*	124-1[165_164]	
+122-2	2926-2929	hat	GWithout[21]	ausleihen\_set1\_21[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-ausleihen\_set1\_21[21]	_	_	_	_	_	false[164]	Decl[164]	*[254]	ausleihen[254]	transitive[254]	*[254]	*[254]	item0[254]	35[343]	female[343]	2k56uavscuainedj0q9i1sb693[343]	speaker: YOU[432]	_	_	_	_	_	
+122-3	2930-2934	eine	GWithout[21]	ausleihen\_set1\_21[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-ausleihen\_set1\_21[21]	*[78]	*[78]	object[78]	*[78]	*[78]	false[164]	Decl[164]	*[254]	ausleihen[254]	transitive[254]	*[254]	*[254]	item0[254]	35[343]	female[343]	2k56uavscuainedj0q9i1sb693[343]	speaker: YOU[432]	*->3-1	IndefNP[3]	_	_	_	
+122-4	2935-2941	Leiter	GWithout[21]	ausleihen\_set1\_21[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-ausleihen\_set1\_21[21]	*[78]	*[78]	object[78]	*[78]	*[78]	false[164]	Decl[164]	*[254]	ausleihen[254]	transitive[254]	*[254]	*[254]	item0[254]	35[343]	female[343]	2k56uavscuainedj0q9i1sb693[343]	speaker: YOU[432]	*->3-1	IndefNP[3]	_	_	_	
+122-5	2942-2953	ausgeliehen	GWithout[21]	ausleihen\_set1\_21[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-ausleihen\_set1\_21[21]	_	_	_	_	_	false[164]	Decl[164]	*[254]	ausleihen[254]	transitive[254]	*[254]	*[254]	item0[254]	35[343]	female[343]	2k56uavscuainedj0q9i1sb693[343]	speaker: YOU[432]	_	_	_	_	_	
+
+#Text=-
+123-1	2955-2956	-	GWithout[21]	ausleihen\_set1\_21[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-ausleihen\_set1\_21[21]	_	_	_	_	_	false	NA	GWithout	*	*	*	*	feedback	*	female	*	speaker:Finnja	_	_	_	_	_	
+
+#Text=Damit kommen wir auf das Dach.
+124-1	2958-2963	Damit	GWithout[21]	ausleihen\_set1\_21[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-ausleihen\_set1\_21[21]	_	_	_	_	_	false[165]	Decl[165]	*[255]	*[255]	*[255]	*[255]	*[255]	input1[255]	35[344]	female[344]	2k56uavscuainedj0q9i1sb693[344]	speaker: YOU[433]	*->3-2	D-Pron[3]	result	*	125-1[166_165]	
+124-2	2964-2970	kommen	GWithout[21]	ausleihen\_set1\_21[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-ausleihen\_set1\_21[21]	_	_	_	_	_	false[165]	Decl[165]	*[255]	*[255]	*[255]	*[255]	*[255]	input1[255]	35[344]	female[344]	2k56uavscuainedj0q9i1sb693[344]	speaker: YOU[433]	_	_	_	_	_	
+124-3	2971-2974	wir	GWithout[21]	ausleihen\_set1\_21[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-ausleihen\_set1\_21[21]	1	*	Subj	*	plural	false[165]	Decl[165]	*[255]	*[255]	*[255]	*[255]	*[255]	input1[255]	35[344]	female[344]	2k56uavscuainedj0q9i1sb693[344]	speaker: YOU[433]	*->29-1	PerPron[29]	_	_	_	
+124-4	2975-2978	auf	GWithout[21]	ausleihen\_set1\_21[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-ausleihen\_set1\_21[21]	_	_	_	_	_	false[165]	Decl[165]	*[255]	*[255]	*[255]	*[255]	*[255]	input1[255]	35[344]	female[344]	2k56uavscuainedj0q9i1sb693[344]	speaker: YOU[433]	_	_	_	_	_	
+124-5	2979-2982	das	GWithout[21]	ausleihen\_set1\_21[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-ausleihen\_set1\_21[21]	*[79]	*[79]	PrepObj[79]	*[79]	*[79]	false[165]	Decl[165]	*[255]	*[255]	*[255]	*[255]	*[255]	input1[255]	35[344]	female[344]	2k56uavscuainedj0q9i1sb693[344]	speaker: YOU[433]	*->11-1	DefNP[11]	_	_	_	
+124-6	2983-2988	Dach.	GWithout[21]	ausleihen\_set1\_21[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-ausleihen\_set1\_21[21]	*[79]	*[79]	PrepObj[79]	*[79]	*[79]	false[165]	Decl[165]	*[255]	*[255]	*[255]	*[255]	*[255]	input1[255]	35[344]	female[344]	2k56uavscuainedj0q9i1sb693[344]	speaker: YOU[433]	*->11-1	DefNP[11]	_	_	_	
+
+#Text=Und können den Frisbee retten.
+125-1	2990-2993	Und	GWithout[21]	ausleihen\_set1\_21[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-ausleihen\_set1\_21[21]	_	_	_	_	_	false[166]	Decl[166]	*[256]	*[256]	*[256]	*[256]	*[256]	input2[256]	35[345]	female[345]	2k56uavscuainedj0q9i1sb693[345]	speaker: YOU[434]	_	_	_	_	_	
+125-2	2994-3000	können	GWithout[21]	ausleihen\_set1\_21[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-ausleihen\_set1\_21[21]	1	*	*	*	plural	false[166]	Decl[166]	*[256]	*[256]	*[256]	*[256]	*[256]	input2[256]	35[345]	female[345]	2k56uavscuainedj0q9i1sb693[345]	speaker: YOU[434]	*->29-2	zero[29]	_	_	_	
+125-3	3001-3004	den	GWithout[21]	ausleihen\_set1\_21[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-ausleihen\_set1\_21[21]	*[80]	*[80]	DirObj[80]	*[80]	*[80]	false[166]	Decl[166]	*[256]	*[256]	*[256]	*[256]	*[256]	input2[256]	35[345]	female[345]	2k56uavscuainedj0q9i1sb693[345]	speaker: YOU[434]	*->107-1	DefNP[107]	_	_	_	
+125-4	3005-3012	Frisbee	GWithout[21]	ausleihen\_set1\_21[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-ausleihen\_set1\_21[21]	*[80]	*[80]	DirObj[80]	*[80]	*[80]	false[166]	Decl[166]	*[256]	*[256]	*[256]	*[256]	*[256]	input2[256]	35[345]	female[345]	2k56uavscuainedj0q9i1sb693[345]	speaker: YOU[434]	*->107-1	DefNP[107]	_	_	_	
+125-5	3013-3020	retten.	GWithout[21]	ausleihen\_set1\_21[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-ausleihen\_set1\_21[21]	_	_	_	_	_	false[166]	Decl[166]	*[256]	*[256]	*[256]	*[256]	*[256]	input2[256]	35[345]	female[345]	2k56uavscuainedj0q9i1sb693[345]	speaker: YOU[434]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+126-1	3022-3037	END_OF_DOCUMENT	GWithout[21]	ausleihen\_set1\_21[21]	latin1[21]	2k56uavscuainedj0q9i1sb693-ausleihen\_set1\_21[21]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+127-1	3039-3042	Na?	GWithout[22]	ausleihen\_set1\_21[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-ausleihen\_set1\_21[22]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Finnja	_	_	QAP	*	128-1[167_0]	
+
+#Text=Samuel hat eine Leiter ausgeliehen
+128-1	3044-3050	Samuel	GWithout[22]	ausleihen\_set1\_21[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-ausleihen\_set1\_21[22]	*	*	Subj	*	*	false[167]	Decl[167]	*[257]	ausleihen[257]	transitive[257]	*[257]	*[257]	item0[257]	46[346]	male[346]	7bq5ecc5fndmatjvd44havavdp[346]	speaker: YOU[435]	*->30-1	PropNm[30]	explanation	*	130-1[168_167]	
+128-2	3051-3054	hat	GWithout[22]	ausleihen\_set1\_21[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-ausleihen\_set1\_21[22]	_	_	_	_	_	false[167]	Decl[167]	*[257]	ausleihen[257]	transitive[257]	*[257]	*[257]	item0[257]	46[346]	male[346]	7bq5ecc5fndmatjvd44havavdp[346]	speaker: YOU[435]	_	_	_	_	_	
+128-3	3055-3059	eine	GWithout[22]	ausleihen\_set1\_21[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-ausleihen\_set1\_21[22]	*[81]	*[81]	object[81]	*[81]	*[81]	false[167]	Decl[167]	*[257]	ausleihen[257]	transitive[257]	*[257]	*[257]	item0[257]	46[346]	male[346]	7bq5ecc5fndmatjvd44havavdp[346]	speaker: YOU[435]	*->116-1	IndefNP[116]	_	_	_	
+128-4	3060-3066	Leiter	GWithout[22]	ausleihen\_set1\_21[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-ausleihen\_set1\_21[22]	*[81]	*[81]	object[81]	*[81]	*[81]	false[167]	Decl[167]	*[257]	ausleihen[257]	transitive[257]	*[257]	*[257]	item0[257]	46[346]	male[346]	7bq5ecc5fndmatjvd44havavdp[346]	speaker: YOU[435]	*->116-1	IndefNP[116]	_	_	_	
+128-5	3067-3078	ausgeliehen	GWithout[22]	ausleihen\_set1\_21[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-ausleihen\_set1\_21[22]	_	_	_	_	_	false[167]	Decl[167]	*[257]	ausleihen[257]	transitive[257]	*[257]	*[257]	item0[257]	46[346]	male[346]	7bq5ecc5fndmatjvd44havavdp[346]	speaker: YOU[435]	_	_	_	_	_	
+
+#Text=-
+129-1	3080-3081	-	GWithout[22]	ausleihen\_set1\_21[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-ausleihen\_set1\_21[22]	_	_	_	_	_	false	NA	GWithout	*	*	*	*	feedback	*	female	*	speaker:Finnja	_	_	_	_	_	
+
+#Text=um das Dach zu reparieren
+130-1	3083-3085	um	GWithout[22]	ausleihen\_set1\_21[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-ausleihen\_set1\_21[22]	_	_	_	_	_	false[168]	NA[168]	*[258]	*[258]	*[258]	*[258]	*[258]	input1[258]	46[347]	male[347]	7bq5ecc5fndmatjvd44havavdp[347]	speaker: YOU[436]	_	_	narration	*	131-1[169_168]	
+130-2	3086-3089	das	GWithout[22]	ausleihen\_set1\_21[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-ausleihen\_set1\_21[22]	*[82]	*[82]	*[82]	*[82]	*[82]	false[168]	NA[168]	*[258]	*[258]	*[258]	*[258]	*[258]	input1[258]	46[347]	male[347]	7bq5ecc5fndmatjvd44havavdp[347]	speaker: YOU[436]	*->132-1|*->139-1	clause[132]|DefNP[139]	_	_	_	
+130-3	3090-3094	Dach	GWithout[22]	ausleihen\_set1\_21[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-ausleihen\_set1\_21[22]	*[82]	*[82]	*[82]	*[82]	*[82]	false[168]	NA[168]	*[258]	*[258]	*[258]	*[258]	*[258]	input1[258]	46[347]	male[347]	7bq5ecc5fndmatjvd44havavdp[347]	speaker: YOU[436]	*->132-1|*->139-1	clause[132]|DefNP[139]	_	_	_	
+130-4	3095-3097	zu	GWithout[22]	ausleihen\_set1\_21[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-ausleihen\_set1\_21[22]	_	_	_	_	_	false[168]	NA[168]	*[258]	*[258]	*[258]	*[258]	*[258]	input1[258]	46[347]	male[347]	7bq5ecc5fndmatjvd44havavdp[347]	speaker: YOU[436]	*->132-1	clause[132]	_	_	_	
+130-5	3098-3108	reparieren	GWithout[22]	ausleihen\_set1\_21[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-ausleihen\_set1\_21[22]	_	_	_	_	_	false[168]	NA[168]	*[258]	*[258]	*[258]	*[258]	*[258]	input1[258]	46[347]	male[347]	7bq5ecc5fndmatjvd44havavdp[347]	speaker: YOU[436]	*->132-1	clause[132]	_	_	_	
+
+#Text=mal schauen ob er das schafft
+131-1	3110-3113	mal	GWithout[22]	ausleihen\_set1\_21[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-ausleihen\_set1\_21[22]	_	_	_	_	_	false[169]	NA[169]	*[259]	*[259]	*[259]	*[259]	*[259]	input2[259]	46[348]	male[348]	7bq5ecc5fndmatjvd44havavdp[348]	speaker: YOU[437]	_	_	_	_	_	
+131-2	3114-3121	schauen	GWithout[22]	ausleihen\_set1\_21[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-ausleihen\_set1\_21[22]	_	_	_	_	_	false[169]	NA[169]	*[259]	*[259]	*[259]	*[259]	*[259]	input2[259]	46[348]	male[348]	7bq5ecc5fndmatjvd44havavdp[348]	speaker: YOU[437]	_	_	_	_	_	
+131-3	3122-3124	ob	GWithout[22]	ausleihen\_set1\_21[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-ausleihen\_set1\_21[22]	_	_	_	_	_	false[169]	NA[169]	*[259]	*[259]	*[259]	*[259]	*[259]	input2[259]	46[348]	male[348]	7bq5ecc5fndmatjvd44havavdp[348]	speaker: YOU[437]	_	_	_	_	_	
+131-4	3125-3127	er	GWithout[22]	ausleihen\_set1\_21[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-ausleihen\_set1\_21[22]	3	*	Subj	*	singular	false[169]	NA[169]	*[259]	*[259]	*[259]	*[259]	*[259]	input2[259]	46[348]	male[348]	7bq5ecc5fndmatjvd44havavdp[348]	speaker: YOU[437]	*->30-2	PerPron[30]	_	_	_	
+131-5	3128-3131	das	GWithout[22]	ausleihen\_set1\_21[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-ausleihen\_set1\_21[22]	_	_	_	_	_	false[169]	NA[169]	*[259]	*[259]	*[259]	*[259]	*[259]	input2[259]	46[348]	male[348]	7bq5ecc5fndmatjvd44havavdp[348]	speaker: YOU[437]	*->132-2	D-Pron[132]	_	_	_	
+131-6	3132-3139	schafft	GWithout[22]	ausleihen\_set1\_21[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-ausleihen\_set1\_21[22]	_	_	_	_	_	false[169]	NA[169]	*[259]	*[259]	*[259]	*[259]	*[259]	input2[259]	46[348]	male[348]	7bq5ecc5fndmatjvd44havavdp[348]	speaker: YOU[437]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+132-1	3141-3156	END_OF_DOCUMENT	GWithout[22]	ausleihen\_set1\_21[22]	latin1[22]	7bq5ecc5fndmatjvd44havavdp-ausleihen\_set1\_21[22]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+133-1	3158-3161	Na?	GWithout[23]	ausleihen\_set1\_21[23]	latin1[23]	9bb79dhfhst017575orahklqol-ausleihen\_set1\_21[23]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Finnja	_	_	QAP	*	134-1[170_0]	
+
+#Text=Samuel hat eine Leiter ausgeliehen
+134-1	3163-3169	Samuel	GWithout[23]	ausleihen\_set1\_21[23]	latin1[23]	9bb79dhfhst017575orahklqol-ausleihen\_set1\_21[23]	*	*	Subj	*	*	false[170]	Decl[170]	*[260]	ausleihen[260]	transitive[260]	*[260]	*[260]	item0[260]	37[349]	female[349]	9bb79dhfhst017575orahklqol[349]	speaker: YOU[438]	*->26-1	PropNm[26]	elaboration	*	136-1[171_170]	
+134-2	3170-3173	hat	GWithout[23]	ausleihen\_set1\_21[23]	latin1[23]	9bb79dhfhst017575orahklqol-ausleihen\_set1\_21[23]	_	_	_	_	_	false[170]	Decl[170]	*[260]	ausleihen[260]	transitive[260]	*[260]	*[260]	item0[260]	37[349]	female[349]	9bb79dhfhst017575orahklqol[349]	speaker: YOU[438]	_	_	_	_	_	
+134-3	3174-3178	eine	GWithout[23]	ausleihen\_set1\_21[23]	latin1[23]	9bb79dhfhst017575orahklqol-ausleihen\_set1\_21[23]	*[83]	*[83]	object[83]	*[83]	*[83]	false[170]	Decl[170]	*[260]	ausleihen[260]	transitive[260]	*[260]	*[260]	item0[260]	37[349]	female[349]	9bb79dhfhst017575orahklqol[349]	speaker: YOU[438]	*->77-1	IndefNP[77]	_	_	_	
+134-4	3179-3185	Leiter	GWithout[23]	ausleihen\_set1\_21[23]	latin1[23]	9bb79dhfhst017575orahklqol-ausleihen\_set1\_21[23]	*[83]	*[83]	object[83]	*[83]	*[83]	false[170]	Decl[170]	*[260]	ausleihen[260]	transitive[260]	*[260]	*[260]	item0[260]	37[349]	female[349]	9bb79dhfhst017575orahklqol[349]	speaker: YOU[438]	*->77-1	IndefNP[77]	_	_	_	
+134-5	3186-3197	ausgeliehen	GWithout[23]	ausleihen\_set1\_21[23]	latin1[23]	9bb79dhfhst017575orahklqol-ausleihen\_set1\_21[23]	_	_	_	_	_	false[170]	Decl[170]	*[260]	ausleihen[260]	transitive[260]	*[260]	*[260]	item0[260]	37[349]	female[349]	9bb79dhfhst017575orahklqol[349]	speaker: YOU[438]	_	_	_	_	_	
+
+#Text=-
+135-1	3199-3200	-	GWithout[23]	ausleihen\_set1\_21[23]	latin1[23]	9bb79dhfhst017575orahklqol-ausleihen\_set1\_21[23]	_	_	_	_	_	false	NA	GWithout	*	*	*	*	feedback	*	female	*	speaker:Finnja	_	_	_	_	_	
+
+#Text=hoffe das er nicht runter faellt
+136-1	3202-3207	hoffe	GWithout[23]	ausleihen\_set1\_21[23]	latin1[23]	9bb79dhfhst017575orahklqol-ausleihen\_set1\_21[23]	1	*	*	*	singular	false[171]	Decl[171]	*[261]	*[261]	*[261]	*[261]	*[261]	input1[261]	37[350]	female[350]	9bb79dhfhst017575orahklqol[350]	speaker: YOU[439]	*->68-1	zero[68]	_	_	_	
+136-2	3208-3211	das	GWithout[23]	ausleihen\_set1\_21[23]	latin1[23]	9bb79dhfhst017575orahklqol-ausleihen\_set1\_21[23]	_	_	_	_	_	false[171]	Decl[171]	*[261]	*[261]	*[261]	*[261]	*[261]	input1[261]	37[350]	female[350]	9bb79dhfhst017575orahklqol[350]	speaker: YOU[439]	_	_	_	_	_	
+136-3	3212-3214	er	GWithout[23]	ausleihen\_set1\_21[23]	latin1[23]	9bb79dhfhst017575orahklqol-ausleihen\_set1\_21[23]	3	*	Embedded	*	singular	false[171]	Decl[171]	*[261]	*[261]	*[261]	*[261]	*[261]	input1[261]	37[350]	female[350]	9bb79dhfhst017575orahklqol[350]	speaker: YOU[439]	*->26-2	PerPron[26]	_	_	_	
+136-4	3215-3220	nicht	GWithout[23]	ausleihen\_set1\_21[23]	latin1[23]	9bb79dhfhst017575orahklqol-ausleihen\_set1\_21[23]	_	_	_	_	_	false[171]	Decl[171]	*[261]	*[261]	*[261]	*[261]	*[261]	input1[261]	37[350]	female[350]	9bb79dhfhst017575orahklqol[350]	speaker: YOU[439]	_	_	_	_	_	
+136-5	3221-3227	runter	GWithout[23]	ausleihen\_set1\_21[23]	latin1[23]	9bb79dhfhst017575orahklqol-ausleihen\_set1\_21[23]	_	_	_	_	_	false[171]	Decl[171]	*[261]	*[261]	*[261]	*[261]	*[261]	input1[261]	37[350]	female[350]	9bb79dhfhst017575orahklqol[350]	speaker: YOU[439]	_	_	_	_	_	
+136-6	3228-3234	faellt	GWithout[23]	ausleihen\_set1\_21[23]	latin1[23]	9bb79dhfhst017575orahklqol-ausleihen\_set1\_21[23]	_	_	_	_	_	false[171]	Decl[171]	*[261]	*[261]	*[261]	*[261]	*[261]	input1[261]	37[350]	female[350]	9bb79dhfhst017575orahklqol[350]	speaker: YOU[439]	_	_	_	_	_	
+
+#Text=alles ok?
+137-1	3236-3241	alles	GWithout[23]	ausleihen\_set1\_21[23]	latin1[23]	9bb79dhfhst017575orahklqol-ausleihen\_set1\_21[23]	_	_	_	_	_	false[172]	NA[172]	*[262]	*[262]	*[262]	*[262]	*[262]	input2[262]	37[351]	female[351]	9bb79dhfhst017575orahklqol[351]	speaker: YOU[440]	*->32-1	Allquantor[32]	_	_	_	
+137-2	3242-3245	ok?	GWithout[23]	ausleihen\_set1\_21[23]	latin1[23]	9bb79dhfhst017575orahklqol-ausleihen\_set1\_21[23]	_	_	_	_	_	false[172]	NA[172]	*[262]	*[262]	*[262]	*[262]	*[262]	input2[262]	37[351]	female[351]	9bb79dhfhst017575orahklqol[351]	speaker: YOU[440]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+138-1	3247-3262	END_OF_DOCUMENT	GWithout[23]	ausleihen\_set1\_21[23]	latin1[23]	9bb79dhfhst017575orahklqol-ausleihen\_set1\_21[23]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+139-1	3264-3267	Na?	GWithout[24]	ausleihen\_set1\_21[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-ausleihen\_set1\_21[24]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Finnja	_	_	QAP	*	140-1[173_0]	
+
+#Text=Samuel hat eine Leiter ausgeliehen
+140-1	3269-3275	Samuel	GWithout[24]	ausleihen\_set1\_21[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-ausleihen\_set1\_21[24]	*	*	Subj	*	*	false[173]	Decl[173]	*[263]	ausleihen[263]	transitive[263]	*[263]	*[263]	item0[263]	21[352]	male[352]	afpst3sherp4732c4se5ajftkq[352]	speaker: YOU[441]	*->108-1	PropNm[108]	explanation	*	142-1[174_173]	
+140-2	3276-3279	hat	GWithout[24]	ausleihen\_set1\_21[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-ausleihen\_set1\_21[24]	_	_	_	_	_	false[173]	Decl[173]	*[263]	ausleihen[263]	transitive[263]	*[263]	*[263]	item0[263]	21[352]	male[352]	afpst3sherp4732c4se5ajftkq[352]	speaker: YOU[441]	_	_	_	_	_	
+140-3	3280-3284	eine	GWithout[24]	ausleihen\_set1\_21[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-ausleihen\_set1\_21[24]	*[84]	*[84]	object[84]	*[84]	*[84]	false[173]	Decl[173]	*[263]	ausleihen[263]	transitive[263]	*[263]	*[263]	item0[263]	21[352]	male[352]	afpst3sherp4732c4se5ajftkq[352]	speaker: YOU[441]	*->110-1	IndefNP[110]	_	_	_	
+140-4	3285-3291	Leiter	GWithout[24]	ausleihen\_set1\_21[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-ausleihen\_set1\_21[24]	*[84]	*[84]	object[84]	*[84]	*[84]	false[173]	Decl[173]	*[263]	ausleihen[263]	transitive[263]	*[263]	*[263]	item0[263]	21[352]	male[352]	afpst3sherp4732c4se5ajftkq[352]	speaker: YOU[441]	*->110-1	IndefNP[110]	_	_	_	
+140-5	3292-3303	ausgeliehen	GWithout[24]	ausleihen\_set1\_21[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-ausleihen\_set1\_21[24]	_	_	_	_	_	false[173]	Decl[173]	*[263]	ausleihen[263]	transitive[263]	*[263]	*[263]	item0[263]	21[352]	male[352]	afpst3sherp4732c4se5ajftkq[352]	speaker: YOU[441]	_	_	_	_	_	
+
+#Text=-
+141-1	3305-3306	-	GWithout[24]	ausleihen\_set1\_21[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-ausleihen\_set1\_21[24]	_	_	_	_	_	false	NA	GWithout	*	*	*	*	feedback	*	female	*	speaker:Finnja	_	_	_	_	_	
+
+#Text=Er braucht Sie wohl um sein Dach neu zu decken.
+142-1	3308-3310	Er	GWithout[24]	ausleihen\_set1\_21[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-ausleihen\_set1\_21[24]	3	*	Subj	*	singular	false[174]	Decl[174]	*[264]	*[264]	*[264]	*[264]	*[264]	input1[264]	21[353]	male[353]	afpst3sherp4732c4se5ajftkq[353]	speaker: YOU[442]	*->108-2	PerPron[108]	explanation	*	143-1[175_174]	
+142-2	3311-3318	braucht	GWithout[24]	ausleihen\_set1\_21[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-ausleihen\_set1\_21[24]	_	_	_	_	_	false[174]	Decl[174]	*[264]	*[264]	*[264]	*[264]	*[264]	input1[264]	21[353]	male[353]	afpst3sherp4732c4se5ajftkq[353]	speaker: YOU[442]	_	_	_	_	_	
+142-3	3319-3322	Sie	GWithout[24]	ausleihen\_set1\_21[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-ausleihen\_set1\_21[24]	3	*	DirObj	*	singular	false[174]	Decl[174]	*[264]	*[264]	*[264]	*[264]	*[264]	input1[264]	21[353]	male[353]	afpst3sherp4732c4se5ajftkq[353]	speaker: YOU[442]	*->110-2	PerPron[110]	_	_	_	
+142-4	3323-3327	wohl	GWithout[24]	ausleihen\_set1\_21[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-ausleihen\_set1\_21[24]	_	_	_	_	_	false[174]	Decl[174]	*[264]	*[264]	*[264]	*[264]	*[264]	input1[264]	21[353]	male[353]	afpst3sherp4732c4se5ajftkq[353]	speaker: YOU[442]	_	_	_	_	_	
+142-5	3328-3330	um	GWithout[24]	ausleihen\_set1\_21[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-ausleihen\_set1\_21[24]	_	_	_	_	_	false[174]	Decl[174]	*[264]	*[264]	*[264]	*[264]	*[264]	input1[264]	21[353]	male[353]	afpst3sherp4732c4se5ajftkq[353]	speaker: YOU[442]	_	_	_	_	_	
+142-6	3331-3335	sein	GWithout[24]	ausleihen\_set1\_21[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-ausleihen\_set1\_21[24]	*[85]|3[86]	*[85]|*[86]	PrepObj[85]|*[86]	*[85]|*[86]	*[85]|singular[86]	false[174]	Decl[174]	*[264]	*[264]	*[264]	*[264]	*[264]	input1[264]	21[353]	male[353]	afpst3sherp4732c4se5ajftkq[353]	speaker: YOU[442]	*->55-1|*->108-3	DefNP[55]|PossePron[108]	_	_	_	
+142-7	3336-3340	Dach	GWithout[24]	ausleihen\_set1\_21[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-ausleihen\_set1\_21[24]	*[85]	*[85]	PrepObj[85]	*[85]	*[85]	false[174]	Decl[174]	*[264]	*[264]	*[264]	*[264]	*[264]	input1[264]	21[353]	male[353]	afpst3sherp4732c4se5ajftkq[353]	speaker: YOU[442]	*->55-1	DefNP[55]	_	_	_	
+142-8	3341-3344	neu	GWithout[24]	ausleihen\_set1\_21[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-ausleihen\_set1\_21[24]	_	_	_	_	_	false[174]	Decl[174]	*[264]	*[264]	*[264]	*[264]	*[264]	input1[264]	21[353]	male[353]	afpst3sherp4732c4se5ajftkq[353]	speaker: YOU[442]	_	_	_	_	_	
+142-9	3345-3347	zu	GWithout[24]	ausleihen\_set1\_21[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-ausleihen\_set1\_21[24]	_	_	_	_	_	false[174]	Decl[174]	*[264]	*[264]	*[264]	*[264]	*[264]	input1[264]	21[353]	male[353]	afpst3sherp4732c4se5ajftkq[353]	speaker: YOU[442]	_	_	_	_	_	
+142-10	3348-3355	decken.	GWithout[24]	ausleihen\_set1\_21[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-ausleihen\_set1\_21[24]	_	_	_	_	_	false[174]	Decl[174]	*[264]	*[264]	*[264]	*[264]	*[264]	input1[264]	21[353]	male[353]	afpst3sherp4732c4se5ajftkq[353]	speaker: YOU[442]	_	_	_	_	_	
+
+#Text=Das ist ja nach dem Sturm schwer beschädigt worden.
+143-1	3357-3360	Das	GWithout[24]	ausleihen\_set1\_21[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-ausleihen\_set1\_21[24]	*	*	Subj	*	*	false[175]	Decl[175]	*[265]	*[265]	*[265]	*[265]	*[265]	input2[265]	21[354]	male[354]	afpst3sherp4732c4se5ajftkq[354]	speaker: YOU[443]	*->55-2	D-Pron[55]	_	_	_	
+143-2	3361-3364	ist	GWithout[24]	ausleihen\_set1\_21[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-ausleihen\_set1\_21[24]	_	_	_	_	_	false[175]	Decl[175]	*[265]	*[265]	*[265]	*[265]	*[265]	input2[265]	21[354]	male[354]	afpst3sherp4732c4se5ajftkq[354]	speaker: YOU[443]	_	_	_	_	_	
+143-3	3365-3367	ja	GWithout[24]	ausleihen\_set1\_21[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-ausleihen\_set1\_21[24]	_	_	_	_	_	false[175]	Decl[175]	*[265]	*[265]	*[265]	*[265]	*[265]	input2[265]	21[354]	male[354]	afpst3sherp4732c4se5ajftkq[354]	speaker: YOU[443]	_	_	_	_	_	
+143-4	3368-3372	nach	GWithout[24]	ausleihen\_set1\_21[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-ausleihen\_set1\_21[24]	_	_	_	_	_	false[175]	Decl[175]	*[265]	*[265]	*[265]	*[265]	*[265]	input2[265]	21[354]	male[354]	afpst3sherp4732c4se5ajftkq[354]	speaker: YOU[443]	_	_	_	_	_	
+143-5	3373-3376	dem	GWithout[24]	ausleihen\_set1\_21[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-ausleihen\_set1\_21[24]	*[87]	*[87]	PrepObj[87]	*[87]	*[87]	false[175]	Decl[175]	*[265]	*[265]	*[265]	*[265]	*[265]	input2[265]	21[354]	male[354]	afpst3sherp4732c4se5ajftkq[354]	speaker: YOU[443]	*->64-1	DefNP[64]	_	_	_	
+143-6	3377-3382	Sturm	GWithout[24]	ausleihen\_set1\_21[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-ausleihen\_set1\_21[24]	*[87]	*[87]	PrepObj[87]	*[87]	*[87]	false[175]	Decl[175]	*[265]	*[265]	*[265]	*[265]	*[265]	input2[265]	21[354]	male[354]	afpst3sherp4732c4se5ajftkq[354]	speaker: YOU[443]	*->64-1	DefNP[64]	_	_	_	
+143-7	3383-3389	schwer	GWithout[24]	ausleihen\_set1\_21[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-ausleihen\_set1\_21[24]	_	_	_	_	_	false[175]	Decl[175]	*[265]	*[265]	*[265]	*[265]	*[265]	input2[265]	21[354]	male[354]	afpst3sherp4732c4se5ajftkq[354]	speaker: YOU[443]	_	_	_	_	_	
+143-8	3390-3400	beschädigt	GWithout[24]	ausleihen\_set1\_21[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-ausleihen\_set1\_21[24]	_	_	_	_	_	false[175]	Decl[175]	*[265]	*[265]	*[265]	*[265]	*[265]	input2[265]	21[354]	male[354]	afpst3sherp4732c4se5ajftkq[354]	speaker: YOU[443]	_	_	_	_	_	
+143-9	3401-3408	worden.	GWithout[24]	ausleihen\_set1\_21[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-ausleihen\_set1\_21[24]	_	_	_	_	_	false[175]	Decl[175]	*[265]	*[265]	*[265]	*[265]	*[265]	input2[265]	21[354]	male[354]	afpst3sherp4732c4se5ajftkq[354]	speaker: YOU[443]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+144-1	3410-3425	END_OF_DOCUMENT	GWithout[24]	ausleihen\_set1\_21[24]	latin1[24]	afpst3sherp4732c4se5ajftkq-ausleihen\_set1\_21[24]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+145-1	3427-3430	Na?	GWithout[25]	ausleihen\_set1\_21[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-ausleihen\_set1\_21[25]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Finnja	_	_	QAP	*	146-1[176_0]	
+
+#Text=Samuel hat eine Leiter ausgeliehen
+146-1	3432-3438	Samuel	GWithout[25]	ausleihen\_set1\_21[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-ausleihen\_set1\_21[25]	*	*	Subj	*	*	false[176]	Decl[176]	*[266]	ausleihen[266]	transitive[266]	*[266]	*[266]	item0[266]	42[355]	female[355]	blj8i1h4sc8jti0m6gcav1c9ek[355]	speaker: YOU[444]	*->86-1	PropNm[86]	explanation	*	148-1[177_176]	
+146-2	3439-3442	hat	GWithout[25]	ausleihen\_set1\_21[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-ausleihen\_set1\_21[25]	_	_	_	_	_	false[176]	Decl[176]	*[266]	ausleihen[266]	transitive[266]	*[266]	*[266]	item0[266]	42[355]	female[355]	blj8i1h4sc8jti0m6gcav1c9ek[355]	speaker: YOU[444]	_	_	_	_	_	
+146-3	3443-3447	eine	GWithout[25]	ausleihen\_set1\_21[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-ausleihen\_set1\_21[25]	*[88]	*[88]	object[88]	*[88]	*[88]	false[176]	Decl[176]	*[266]	ausleihen[266]	transitive[266]	*[266]	*[266]	item0[266]	42[355]	female[355]	blj8i1h4sc8jti0m6gcav1c9ek[355]	speaker: YOU[444]	*->127-1	IndefNP[127]	_	_	_	
+146-4	3448-3454	Leiter	GWithout[25]	ausleihen\_set1\_21[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-ausleihen\_set1\_21[25]	*[88]	*[88]	object[88]	*[88]	*[88]	false[176]	Decl[176]	*[266]	ausleihen[266]	transitive[266]	*[266]	*[266]	item0[266]	42[355]	female[355]	blj8i1h4sc8jti0m6gcav1c9ek[355]	speaker: YOU[444]	*->127-1	IndefNP[127]	_	_	_	
+146-5	3455-3466	ausgeliehen	GWithout[25]	ausleihen\_set1\_21[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-ausleihen\_set1\_21[25]	_	_	_	_	_	false[176]	Decl[176]	*[266]	ausleihen[266]	transitive[266]	*[266]	*[266]	item0[266]	42[355]	female[355]	blj8i1h4sc8jti0m6gcav1c9ek[355]	speaker: YOU[444]	_	_	_	_	_	
+
+#Text=-
+147-1	3468-3469	-	GWithout[25]	ausleihen\_set1\_21[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-ausleihen\_set1\_21[25]	_	_	_	_	_	false	NA	GWithout	*	*	*	*	feedback	*	female	*	speaker:Finnja	_	_	_	_	_	
+
+#Text=Keine Ahnung was er damit vorhat.
+148-1	3471-3476	Keine	GWithout[25]	ausleihen\_set1\_21[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-ausleihen\_set1\_21[25]	_	_	_	_	_	false[177]	NA[177]	*[267]	*[267]	*[267]	*[267]	*[267]	input1[267]	42[356]	female[356]	blj8i1h4sc8jti0m6gcav1c9ek[356]	speaker: YOU[445]	_	_	parallel	*	149-1[178_177]	
+148-2	3477-3483	Ahnung	GWithout[25]	ausleihen\_set1\_21[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-ausleihen\_set1\_21[25]	_	_	_	_	_	false[177]	NA[177]	*[267]	*[267]	*[267]	*[267]	*[267]	input1[267]	42[356]	female[356]	blj8i1h4sc8jti0m6gcav1c9ek[356]	speaker: YOU[445]	_	_	_	_	_	
+148-3	3484-3487	was	GWithout[25]	ausleihen\_set1\_21[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-ausleihen\_set1\_21[25]	_	_	_	_	_	false[177]	NA[177]	*[267]	*[267]	*[267]	*[267]	*[267]	input1[267]	42[356]	female[356]	blj8i1h4sc8jti0m6gcav1c9ek[356]	speaker: YOU[445]	_	_	_	_	_	
+148-4	3488-3490	er	GWithout[25]	ausleihen\_set1\_21[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-ausleihen\_set1\_21[25]	3	*	Subj	*	singular	false[177]	NA[177]	*[267]	*[267]	*[267]	*[267]	*[267]	input1[267]	42[356]	female[356]	blj8i1h4sc8jti0m6gcav1c9ek[356]	speaker: YOU[445]	*->86-2	PerPron[86]	_	_	_	
+148-5	3491-3496	damit	GWithout[25]	ausleihen\_set1\_21[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-ausleihen\_set1\_21[25]	_	_	_	_	_	false[177]	NA[177]	*[267]	*[267]	*[267]	*[267]	*[267]	input1[267]	42[356]	female[356]	blj8i1h4sc8jti0m6gcav1c9ek[356]	speaker: YOU[445]	*->127-2	D-Pron[127]	_	_	_	
+148-6	3497-3504	vorhat.	GWithout[25]	ausleihen\_set1\_21[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-ausleihen\_set1\_21[25]	_	_	_	_	_	false[177]	NA[177]	*[267]	*[267]	*[267]	*[267]	*[267]	input1[267]	42[356]	female[356]	blj8i1h4sc8jti0m6gcav1c9ek[356]	speaker: YOU[445]	_	_	_	_	_	
+
+#Text=Was hast Du vor?
+149-1	3506-3509	Was	GWithout[25]	ausleihen\_set1\_21[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-ausleihen\_set1\_21[25]	_	_	_	_	_	false[178]	Int[178]	*[268]	*[268]	*[268]	*[268]	*[268]	input2[268]	42[357]	female[357]	blj8i1h4sc8jti0m6gcav1c9ek[357]	speaker: YOU[446]	_	_	_	_	_	
+149-2	3510-3514	hast	GWithout[25]	ausleihen\_set1\_21[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-ausleihen\_set1\_21[25]	_	_	_	_	_	false[178]	Int[178]	*[268]	*[268]	*[268]	*[268]	*[268]	input2[268]	42[357]	female[357]	blj8i1h4sc8jti0m6gcav1c9ek[357]	speaker: YOU[446]	_	_	_	_	_	
+149-3	3515-3517	Du	GWithout[25]	ausleihen\_set1\_21[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-ausleihen\_set1\_21[25]	2	*	Subj	*	singular	false[178]	Int[178]	*[268]	*[268]	*[268]	*[268]	*[268]	input2[268]	42[357]	female[357]	blj8i1h4sc8jti0m6gcav1c9ek[357]	speaker: YOU[446]	*->83-1	PerPron[83]	_	_	_	
+149-4	3518-3522	vor?	GWithout[25]	ausleihen\_set1\_21[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-ausleihen\_set1\_21[25]	_	_	_	_	_	false[178]	Int[178]	*[268]	*[268]	*[268]	*[268]	*[268]	input2[268]	42[357]	female[357]	blj8i1h4sc8jti0m6gcav1c9ek[357]	speaker: YOU[446]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+150-1	3524-3539	END_OF_DOCUMENT	GWithout[25]	ausleihen\_set1\_21[25]	latin1[25]	blj8i1h4sc8jti0m6gcav1c9ek-ausleihen\_set1\_21[25]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+151-1	3541-3544	Na?	GWithout[26]	ausleihen\_set1\_21[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-ausleihen\_set1\_21[26]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Finnja	_	_	QAP	*	152-1[179_0]	
+
+#Text=Samuel hat eine Leiter ausgeliehen
+152-1	3546-3552	Samuel	GWithout[26]	ausleihen\_set1\_21[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-ausleihen\_set1\_21[26]	*	*	Subj	*	*	false[179]	Decl[179]	*[269]	ausleihen[269]	transitive[269]	*[269]	*[269]	item0[269]	42[358]	female[358]	h05ingrcngdnasp07727nvoq59[358]	speaker: YOU[447]	*->112-1	PropNm[112]	explanation	*	154-1[180_179]	
+152-2	3553-3556	hat	GWithout[26]	ausleihen\_set1\_21[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-ausleihen\_set1\_21[26]	_	_	_	_	_	false[179]	Decl[179]	*[269]	ausleihen[269]	transitive[269]	*[269]	*[269]	item0[269]	42[358]	female[358]	h05ingrcngdnasp07727nvoq59[358]	speaker: YOU[447]	_	_	_	_	_	
+152-3	3557-3561	eine	GWithout[26]	ausleihen\_set1\_21[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-ausleihen\_set1\_21[26]	*[89]	*[89]	object[89]	*[89]	*[89]	false[179]	Decl[179]	*[269]	ausleihen[269]	transitive[269]	*[269]	*[269]	item0[269]	42[358]	female[358]	h05ingrcngdnasp07727nvoq59[358]	speaker: YOU[447]	*->51-1	IndefNP[51]	_	_	_	
+152-4	3562-3568	Leiter	GWithout[26]	ausleihen\_set1\_21[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-ausleihen\_set1\_21[26]	*[89]	*[89]	object[89]	*[89]	*[89]	false[179]	Decl[179]	*[269]	ausleihen[269]	transitive[269]	*[269]	*[269]	item0[269]	42[358]	female[358]	h05ingrcngdnasp07727nvoq59[358]	speaker: YOU[447]	*->51-1	IndefNP[51]	_	_	_	
+152-5	3569-3580	ausgeliehen	GWithout[26]	ausleihen\_set1\_21[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-ausleihen\_set1\_21[26]	_	_	_	_	_	false[179]	Decl[179]	*[269]	ausleihen[269]	transitive[269]	*[269]	*[269]	item0[269]	42[358]	female[358]	h05ingrcngdnasp07727nvoq59[358]	speaker: YOU[447]	_	_	_	_	_	
+
+#Text=-
+153-1	3582-3583	-	GWithout[26]	ausleihen\_set1\_21[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-ausleihen\_set1\_21[26]	_	_	_	_	_	false	NA	GWithout	*	*	*	*	feedback	*	female	*	speaker:Finnja	_	_	_	_	_	
+
+#Text=Wir fangen jetzt an das Dach zu richten.
+154-1	3585-3588	Wir	GWithout[26]	ausleihen\_set1\_21[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-ausleihen\_set1\_21[26]	1	*	Subj	*	plural	false[180]	Decl[180]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	42[359]	female[359]	h05ingrcngdnasp07727nvoq59[359]	speaker: YOU[448]	*->36-1	PerPron[36]	elaboration	*	155-1[181_180]	
+154-2	3589-3595	fangen	GWithout[26]	ausleihen\_set1\_21[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-ausleihen\_set1\_21[26]	_	_	_	_	_	false[180]	Decl[180]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	42[359]	female[359]	h05ingrcngdnasp07727nvoq59[359]	speaker: YOU[448]	_	_	_	_	_	
+154-3	3596-3601	jetzt	GWithout[26]	ausleihen\_set1\_21[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-ausleihen\_set1\_21[26]	_	_	_	_	_	false[180]	Decl[180]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	42[359]	female[359]	h05ingrcngdnasp07727nvoq59[359]	speaker: YOU[448]	_	_	_	_	_	
+154-4	3602-3604	an	GWithout[26]	ausleihen\_set1\_21[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-ausleihen\_set1\_21[26]	_	_	_	_	_	false[180]	Decl[180]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	42[359]	female[359]	h05ingrcngdnasp07727nvoq59[359]	speaker: YOU[448]	_	_	_	_	_	
+154-5	3605-3608	das	GWithout[26]	ausleihen\_set1\_21[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-ausleihen\_set1\_21[26]	*[90]	*[90]	DirObj[90]	*[90]	*[90]	false[180]	Decl[180]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	42[359]	female[359]	h05ingrcngdnasp07727nvoq59[359]	speaker: YOU[448]	*->59-1	DefNP[59]	_	_	_	
+154-6	3609-3613	Dach	GWithout[26]	ausleihen\_set1\_21[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-ausleihen\_set1\_21[26]	*[90]	*[90]	DirObj[90]	*[90]	*[90]	false[180]	Decl[180]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	42[359]	female[359]	h05ingrcngdnasp07727nvoq59[359]	speaker: YOU[448]	*->59-1	DefNP[59]	_	_	_	
+154-7	3614-3616	zu	GWithout[26]	ausleihen\_set1\_21[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-ausleihen\_set1\_21[26]	_	_	_	_	_	false[180]	Decl[180]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	42[359]	female[359]	h05ingrcngdnasp07727nvoq59[359]	speaker: YOU[448]	_	_	_	_	_	
+154-8	3617-3625	richten.	GWithout[26]	ausleihen\_set1\_21[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-ausleihen\_set1\_21[26]	_	_	_	_	_	false[180]	Decl[180]	*[270]	*[270]	*[270]	*[270]	*[270]	input1[270]	42[359]	female[359]	h05ingrcngdnasp07727nvoq59[359]	speaker: YOU[448]	_	_	_	_	_	
+
+#Text=Hoffe wird heute fertig.
+155-1	3627-3632	Hoffe	GWithout[26]	ausleihen\_set1\_21[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-ausleihen\_set1\_21[26]	1	*	*	*	singular	false[181]	Decl[181]	*[271]	*[271]	*[271]	*[271]	*[271]	input2[271]	42[360]	female[360]	h05ingrcngdnasp07727nvoq59[360]	speaker: YOU[449]	*->42-1	zero[42]	_	_	_	
+155-2	3633-3637	wird	GWithout[26]	ausleihen\_set1\_21[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-ausleihen\_set1\_21[26]	3	*	*	*	singular	false[181]	Decl[181]	*[271]	*[271]	*[271]	*[271]	*[271]	input2[271]	42[360]	female[360]	h05ingrcngdnasp07727nvoq59[360]	speaker: YOU[449]	*->59-2	zero[59]	_	_	_	
+155-3	3638-3643	heute	GWithout[26]	ausleihen\_set1\_21[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-ausleihen\_set1\_21[26]	_	_	_	_	_	false[181]	Decl[181]	*[271]	*[271]	*[271]	*[271]	*[271]	input2[271]	42[360]	female[360]	h05ingrcngdnasp07727nvoq59[360]	speaker: YOU[449]	_	_	_	_	_	
+155-4	3644-3651	fertig.	GWithout[26]	ausleihen\_set1\_21[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-ausleihen\_set1\_21[26]	_	_	_	_	_	false[181]	Decl[181]	*[271]	*[271]	*[271]	*[271]	*[271]	input2[271]	42[360]	female[360]	h05ingrcngdnasp07727nvoq59[360]	speaker: YOU[449]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+156-1	3653-3668	END_OF_DOCUMENT	GWithout[26]	ausleihen\_set1\_21[26]	latin1[26]	h05ingrcngdnasp07727nvoq59-ausleihen\_set1\_21[26]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+157-1	3670-3673	Na?	GWithout[27]	ausleihen\_set1\_21[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-ausleihen\_set1\_21[27]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Finnja	_	_	QAP	*	158-1[182_0]	
+
+#Text=Samuel hat eine Leiter ausgeliehen
+158-1	3675-3681	Samuel	GWithout[27]	ausleihen\_set1\_21[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-ausleihen\_set1\_21[27]	*	*	Subj	*	*	false[182]	Decl[182]	*[272]	ausleihen[272]	transitive[272]	*[272]	*[272]	item0[272]	42[361]	male[361]	jkqc35grurqg6r29efakrmibd9[361]	speaker: YOU[450]	*->15-1	PropNm[15]	explanation|contrast	*|*	160-1[183_182]|161-1[184_182]	
+158-2	3682-3685	hat	GWithout[27]	ausleihen\_set1\_21[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-ausleihen\_set1\_21[27]	_	_	_	_	_	false[182]	Decl[182]	*[272]	ausleihen[272]	transitive[272]	*[272]	*[272]	item0[272]	42[361]	male[361]	jkqc35grurqg6r29efakrmibd9[361]	speaker: YOU[450]	_	_	_	_	_	
+158-3	3686-3690	eine	GWithout[27]	ausleihen\_set1\_21[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-ausleihen\_set1\_21[27]	*[91]	*[91]	object[91]	*[91]	*[91]	false[182]	Decl[182]	*[272]	ausleihen[272]	transitive[272]	*[272]	*[272]	item0[272]	42[361]	male[361]	jkqc35grurqg6r29efakrmibd9[361]	speaker: YOU[450]	*->90-1	IndefNP[90]	_	_	_	
+158-4	3691-3697	Leiter	GWithout[27]	ausleihen\_set1\_21[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-ausleihen\_set1\_21[27]	*[91]	*[91]	object[91]	*[91]	*[91]	false[182]	Decl[182]	*[272]	ausleihen[272]	transitive[272]	*[272]	*[272]	item0[272]	42[361]	male[361]	jkqc35grurqg6r29efakrmibd9[361]	speaker: YOU[450]	*->90-1	IndefNP[90]	_	_	_	
+158-5	3698-3709	ausgeliehen	GWithout[27]	ausleihen\_set1\_21[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-ausleihen\_set1\_21[27]	_	_	_	_	_	false[182]	Decl[182]	*[272]	ausleihen[272]	transitive[272]	*[272]	*[272]	item0[272]	42[361]	male[361]	jkqc35grurqg6r29efakrmibd9[361]	speaker: YOU[450]	_	_	_	_	_	
+
+#Text=-
+159-1	3711-3712	-	GWithout[27]	ausleihen\_set1\_21[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-ausleihen\_set1\_21[27]	_	_	_	_	_	false	NA	GWithout	*	*	*	*	feedback	*	female	*	speaker:Finnja	_	_	_	_	_	
+
+#Text=um die Glühbirne zu wechseln
+160-1	3714-3716	um	GWithout[27]	ausleihen\_set1\_21[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-ausleihen\_set1\_21[27]	_	_	_	_	_	false[183]	NA[183]	*[273]	*[273]	*[273]	*[273]	*[273]	input1[273]	42[362]	male[362]	jkqc35grurqg6r29efakrmibd9[362]	speaker: YOU[451]	_	_	_	_	_	
+160-2	3717-3720	die	GWithout[27]	ausleihen\_set1\_21[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-ausleihen\_set1\_21[27]	*[92]	*[92]	DirObj[92]	*[92]	*[92]	false[183]	NA[183]	*[273]	*[273]	*[273]	*[273]	*[273]	input1[273]	42[362]	male[362]	jkqc35grurqg6r29efakrmibd9[362]	speaker: YOU[451]	*->45-1|*->99-1	clause[45]|DefNP[99]	_	_	_	
+160-3	3721-3730	Glühbirne	GWithout[27]	ausleihen\_set1\_21[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-ausleihen\_set1\_21[27]	*[92]	*[92]	DirObj[92]	*[92]	*[92]	false[183]	NA[183]	*[273]	*[273]	*[273]	*[273]	*[273]	input1[273]	42[362]	male[362]	jkqc35grurqg6r29efakrmibd9[362]	speaker: YOU[451]	*->45-1|*->99-1	clause[45]|DefNP[99]	_	_	_	
+160-4	3731-3733	zu	GWithout[27]	ausleihen\_set1\_21[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-ausleihen\_set1\_21[27]	_	_	_	_	_	false[183]	NA[183]	*[273]	*[273]	*[273]	*[273]	*[273]	input1[273]	42[362]	male[362]	jkqc35grurqg6r29efakrmibd9[362]	speaker: YOU[451]	*->45-1	clause[45]	_	_	_	
+160-5	3734-3742	wechseln	GWithout[27]	ausleihen\_set1\_21[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-ausleihen\_set1\_21[27]	_	_	_	_	_	false[183]	NA[183]	*[273]	*[273]	*[273]	*[273]	*[273]	input1[273]	42[362]	male[362]	jkqc35grurqg6r29efakrmibd9[362]	speaker: YOU[451]	*->45-1	clause[45]	_	_	_	
+
+#Text=aber er hat Höhenangst <BR> jetzt muss ich es selbst machen
+161-1	3744-3748	aber	GWithout[27]	ausleihen\_set1\_21[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-ausleihen\_set1\_21[27]	_	_	_	_	_	false[184]	Decl[184]	*[274]	*[274]	*[274]	*[274]	*[274]	input2[274]	42[363]	male[363]	jkqc35grurqg6r29efakrmibd9[363]	speaker: YOU[452]	_	_	result	*	161-6[185_184]	
+161-2	3749-3751	er	GWithout[27]	ausleihen\_set1\_21[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-ausleihen\_set1\_21[27]	3	*	Subj	*	singular	false[184]	Decl[184]	*[274]	*[274]	*[274]	*[274]	*[274]	input2[274]	42[363]	male[363]	jkqc35grurqg6r29efakrmibd9[363]	speaker: YOU[452]	*->15-2	PerPron[15]	_	_	_	
+161-3	3752-3755	hat	GWithout[27]	ausleihen\_set1\_21[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-ausleihen\_set1\_21[27]	_	_	_	_	_	false[184]	Decl[184]	*[274]	*[274]	*[274]	*[274]	*[274]	input2[274]	42[363]	male[363]	jkqc35grurqg6r29efakrmibd9[363]	speaker: YOU[452]	_	_	_	_	_	
+161-4	3756-3766	Höhenangst	GWithout[27]	ausleihen\_set1\_21[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-ausleihen\_set1\_21[27]	*	*	DirObj	*	*	false[184]	Decl[184]	*[274]	*[274]	*[274]	*[274]	*[274]	input2[274]	42[363]	male[363]	jkqc35grurqg6r29efakrmibd9[363]	speaker: YOU[452]	*->140-1	IndefNP[140]	_	_	_	
+161-5	3767-3771	<BR>	GWithout[27]	ausleihen\_set1\_21[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-ausleihen\_set1\_21[27]	_	_	_	_	_	_	_	*[274]	*[274]	*[274]	*[274]	*[274]	input2[274]	42[363]	male[363]	jkqc35grurqg6r29efakrmibd9[363]	speaker: YOU[452]	_	_	_	_	_	
+161-6	3772-3777	jetzt	GWithout[27]	ausleihen\_set1\_21[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-ausleihen\_set1\_21[27]	_	_	_	_	_	false[185]	Decl[185]	*[274]	*[274]	*[274]	*[274]	*[274]	input2[274]	42[363]	male[363]	jkqc35grurqg6r29efakrmibd9[363]	speaker: YOU[452]	_	_	_	_	_	
+161-7	3778-3782	muss	GWithout[27]	ausleihen\_set1\_21[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-ausleihen\_set1\_21[27]	_	_	_	_	_	false[185]	Decl[185]	*[274]	*[274]	*[274]	*[274]	*[274]	input2[274]	42[363]	male[363]	jkqc35grurqg6r29efakrmibd9[363]	speaker: YOU[452]	_	_	_	_	_	
+161-8	3783-3786	ich	GWithout[27]	ausleihen\_set1\_21[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-ausleihen\_set1\_21[27]	1	*	Subj	*	singular	false[185]	Decl[185]	*[274]	*[274]	*[274]	*[274]	*[274]	input2[274]	42[363]	male[363]	jkqc35grurqg6r29efakrmibd9[363]	speaker: YOU[452]	*->35-1	PerPron[35]	_	_	_	
+161-9	3787-3789	es	GWithout[27]	ausleihen\_set1\_21[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-ausleihen\_set1\_21[27]	3	*	DirObj	*	singular	false[185]	Decl[185]	*[274]	*[274]	*[274]	*[274]	*[274]	input2[274]	42[363]	male[363]	jkqc35grurqg6r29efakrmibd9[363]	speaker: YOU[452]	*->45-2	PerPron[45]	_	_	_	
+161-10	3790-3796	selbst	GWithout[27]	ausleihen\_set1\_21[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-ausleihen\_set1\_21[27]	_	_	_	_	_	false[185]	Decl[185]	*[274]	*[274]	*[274]	*[274]	*[274]	input2[274]	42[363]	male[363]	jkqc35grurqg6r29efakrmibd9[363]	speaker: YOU[452]	_	_	_	_	_	
+161-11	3797-3803	machen	GWithout[27]	ausleihen\_set1\_21[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-ausleihen\_set1\_21[27]	_	_	_	_	_	false[185]	Decl[185]	*[274]	*[274]	*[274]	*[274]	*[274]	input2[274]	42[363]	male[363]	jkqc35grurqg6r29efakrmibd9[363]	speaker: YOU[452]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+162-1	3805-3820	END_OF_DOCUMENT	GWithout[27]	ausleihen\_set1\_21[27]	latin1[27]	jkqc35grurqg6r29efakrmibd9-ausleihen\_set1\_21[27]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+163-1	3822-3825	Na?	GWithout[28]	ausleihen\_set1\_21[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-ausleihen\_set1\_21[28]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Finnja	_	_	QAP	*	164-1[186_0]	
+
+#Text=Samuel hat eine Leiter ausgeliehen
+164-1	3827-3833	Samuel	GWithout[28]	ausleihen\_set1\_21[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-ausleihen\_set1\_21[28]	*	*	Subj	*	*	false[186]	Decl[186]	*[275]	ausleihen[275]	transitive[275]	*[275]	*[275]	item0[275]	20[364]	male[364]	lhu26mh95feeqso1qtacqboi3v[364]	speaker: YOU[453]	*->14-1	PropNm[14]	contrast	*	166-1[187_186]	
+164-2	3834-3837	hat	GWithout[28]	ausleihen\_set1\_21[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-ausleihen\_set1\_21[28]	_	_	_	_	_	false[186]	Decl[186]	*[275]	ausleihen[275]	transitive[275]	*[275]	*[275]	item0[275]	20[364]	male[364]	lhu26mh95feeqso1qtacqboi3v[364]	speaker: YOU[453]	_	_	_	_	_	
+164-3	3838-3842	eine	GWithout[28]	ausleihen\_set1\_21[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-ausleihen\_set1\_21[28]	*[93]	*[93]	object[93]	*[93]	*[93]	false[186]	Decl[186]	*[275]	ausleihen[275]	transitive[275]	*[275]	*[275]	item0[275]	20[364]	male[364]	lhu26mh95feeqso1qtacqboi3v[364]	speaker: YOU[453]	*->98-1	IndefNP[98]	_	_	_	
+164-4	3843-3849	Leiter	GWithout[28]	ausleihen\_set1\_21[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-ausleihen\_set1\_21[28]	*[93]	*[93]	object[93]	*[93]	*[93]	false[186]	Decl[186]	*[275]	ausleihen[275]	transitive[275]	*[275]	*[275]	item0[275]	20[364]	male[364]	lhu26mh95feeqso1qtacqboi3v[364]	speaker: YOU[453]	*->98-1	IndefNP[98]	_	_	_	
+164-5	3850-3861	ausgeliehen	GWithout[28]	ausleihen\_set1\_21[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-ausleihen\_set1\_21[28]	_	_	_	_	_	false[186]	Decl[186]	*[275]	ausleihen[275]	transitive[275]	*[275]	*[275]	item0[275]	20[364]	male[364]	lhu26mh95feeqso1qtacqboi3v[364]	speaker: YOU[453]	_	_	_	_	_	
+
+#Text=-
+165-1	3863-3864	-	GWithout[28]	ausleihen\_set1\_21[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-ausleihen\_set1\_21[28]	_	_	_	_	_	false	NA	GWithout	*	*	*	*	feedback	*	female	*	speaker:Finnja	_	_	_	_	_	
+
+#Text=Brauchst du die Leiter noch immer?
+166-1	3866-3874	Brauchst	GWithout[28]	ausleihen\_set1\_21[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-ausleihen\_set1\_21[28]	_	_	_	_	_	false[187]	Int[187]	*[276]	*[276]	*[276]	*[276]	*[276]	input1[276]	20[365]	male[365]	lhu26mh95feeqso1qtacqboi3v[365]	speaker: YOU[454]	*->62-1	clause[62]	result	*	167-1[188_187]	
+166-2	3875-3877	du	GWithout[28]	ausleihen\_set1\_21[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-ausleihen\_set1\_21[28]	2	*	Subj	*	singular	false[187]	Int[187]	*[276]	*[276]	*[276]	*[276]	*[276]	input1[276]	20[365]	male[365]	lhu26mh95feeqso1qtacqboi3v[365]	speaker: YOU[454]	*->62-1|*->134-1	clause[62]|PerPron[134]	_	_	_	
+166-3	3878-3881	die	GWithout[28]	ausleihen\_set1\_21[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-ausleihen\_set1\_21[28]	*[94]	*[94]	DirObj[94]	*[94]	*[94]	false[187]	Int[187]	*[276]	*[276]	*[276]	*[276]	*[276]	input1[276]	20[365]	male[365]	lhu26mh95feeqso1qtacqboi3v[365]	speaker: YOU[454]	*->62-1|*->98-2	clause[62]|DefNP[98]	_	_	_	
+166-4	3882-3888	Leiter	GWithout[28]	ausleihen\_set1\_21[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-ausleihen\_set1\_21[28]	*[94]	*[94]	DirObj[94]	*[94]	*[94]	false[187]	Int[187]	*[276]	*[276]	*[276]	*[276]	*[276]	input1[276]	20[365]	male[365]	lhu26mh95feeqso1qtacqboi3v[365]	speaker: YOU[454]	*->62-1|*->98-2	clause[62]|DefNP[98]	_	_	_	
+166-5	3889-3893	noch	GWithout[28]	ausleihen\_set1\_21[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-ausleihen\_set1\_21[28]	_	_	_	_	_	false[187]	Int[187]	*[276]	*[276]	*[276]	*[276]	*[276]	input1[276]	20[365]	male[365]	lhu26mh95feeqso1qtacqboi3v[365]	speaker: YOU[454]	_	_	_	_	_	
+166-6	3894-3900	immer?	GWithout[28]	ausleihen\_set1\_21[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-ausleihen\_set1\_21[28]	_	_	_	_	_	false[187]	Int[187]	*[276]	*[276]	*[276]	*[276]	*[276]	input1[276]	20[365]	male[365]	lhu26mh95feeqso1qtacqboi3v[365]	speaker: YOU[454]	_	_	_	_	_	
+
+#Text=Wir würden sie dir danach vorbeibringen.
+167-1	3902-3905	Wir	GWithout[28]	ausleihen\_set1\_21[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-ausleihen\_set1\_21[28]	1	*	Subj	*	plural	false[188]	Decl[188]	*[277]	*[277]	*[277]	*[277]	*[277]	input2[277]	20[366]	male[366]	lhu26mh95feeqso1qtacqboi3v[366]	speaker: YOU[455]	*->63-1	PerPron[63]	_	_	_	
+167-2	3906-3912	würden	GWithout[28]	ausleihen\_set1\_21[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-ausleihen\_set1\_21[28]	_	_	_	_	_	false[188]	Decl[188]	*[277]	*[277]	*[277]	*[277]	*[277]	input2[277]	20[366]	male[366]	lhu26mh95feeqso1qtacqboi3v[366]	speaker: YOU[455]	_	_	_	_	_	
+167-3	3913-3916	sie	GWithout[28]	ausleihen\_set1\_21[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-ausleihen\_set1\_21[28]	3	*	DirObj	*	singular	false[188]	Decl[188]	*[277]	*[277]	*[277]	*[277]	*[277]	input2[277]	20[366]	male[366]	lhu26mh95feeqso1qtacqboi3v[366]	speaker: YOU[455]	*->98-3	PerPron[98]	_	_	_	
+167-4	3917-3920	dir	GWithout[28]	ausleihen\_set1\_21[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-ausleihen\_set1\_21[28]	2	*	IndirObj	*	singular	false[188]	Decl[188]	*[277]	*[277]	*[277]	*[277]	*[277]	input2[277]	20[366]	male[366]	lhu26mh95feeqso1qtacqboi3v[366]	speaker: YOU[455]	*->134-2	PerPron[134]	_	_	_	
+167-5	3921-3927	danach	GWithout[28]	ausleihen\_set1\_21[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-ausleihen\_set1\_21[28]	_	_	_	_	_	false[188]	Decl[188]	*[277]	*[277]	*[277]	*[277]	*[277]	input2[277]	20[366]	male[366]	lhu26mh95feeqso1qtacqboi3v[366]	speaker: YOU[455]	*->62-2	DemPron[62]	_	_	_	
+167-6	3928-3942	vorbeibringen.	GWithout[28]	ausleihen\_set1\_21[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-ausleihen\_set1\_21[28]	_	_	_	_	_	false[188]	Decl[188]	*[277]	*[277]	*[277]	*[277]	*[277]	input2[277]	20[366]	male[366]	lhu26mh95feeqso1qtacqboi3v[366]	speaker: YOU[455]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+168-1	3944-3959	END_OF_DOCUMENT	GWithout[28]	ausleihen\_set1\_21[28]	latin1[28]	lhu26mh95feeqso1qtacqboi3v-ausleihen\_set1\_21[28]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+169-1	3961-3964	Na?	GWithout[29]	ausleihen\_set1\_21[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-ausleihen\_set1\_21[29]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Finnja	_	_	QAP	*	170-1[189_0]	
+
+#Text=Samuel hat eine Leiter ausgeliehen
+170-1	3966-3972	Samuel	GWithout[29]	ausleihen\_set1\_21[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-ausleihen\_set1\_21[29]	*	*	Subj	*	*	false[189]	Decl[189]	*[278]	ausleihen[278]	transitive[278]	*[278]	*[278]	item0[278]	21[367]	male[367]	tc4i3rsgsa9bl8tesf4679lok2[367]	speaker: YOU[456]	*->61-1	PropNm[61]	contrast	*	172-1[190_189]	
+170-2	3973-3976	hat	GWithout[29]	ausleihen\_set1\_21[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-ausleihen\_set1\_21[29]	_	_	_	_	_	false[189]	Decl[189]	*[278]	ausleihen[278]	transitive[278]	*[278]	*[278]	item0[278]	21[367]	male[367]	tc4i3rsgsa9bl8tesf4679lok2[367]	speaker: YOU[456]	_	_	_	_	_	
+170-3	3977-3981	eine	GWithout[29]	ausleihen\_set1\_21[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-ausleihen\_set1\_21[29]	*[95]	*[95]	object[95]	*[95]	*[95]	false[189]	Decl[189]	*[278]	ausleihen[278]	transitive[278]	*[278]	*[278]	item0[278]	21[367]	male[367]	tc4i3rsgsa9bl8tesf4679lok2[367]	speaker: YOU[456]	*->125-1	IndefNP[125]	_	_	_	
+170-4	3982-3988	Leiter	GWithout[29]	ausleihen\_set1\_21[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-ausleihen\_set1\_21[29]	*[95]	*[95]	object[95]	*[95]	*[95]	false[189]	Decl[189]	*[278]	ausleihen[278]	transitive[278]	*[278]	*[278]	item0[278]	21[367]	male[367]	tc4i3rsgsa9bl8tesf4679lok2[367]	speaker: YOU[456]	*->125-1	IndefNP[125]	_	_	_	
+170-5	3989-4000	ausgeliehen	GWithout[29]	ausleihen\_set1\_21[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-ausleihen\_set1\_21[29]	_	_	_	_	_	false[189]	Decl[189]	*[278]	ausleihen[278]	transitive[278]	*[278]	*[278]	item0[278]	21[367]	male[367]	tc4i3rsgsa9bl8tesf4679lok2[367]	speaker: YOU[456]	_	_	_	_	_	
+
+#Text=-
+171-1	4002-4003	-	GWithout[29]	ausleihen\_set1\_21[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-ausleihen\_set1\_21[29]	_	_	_	_	_	false	NA	GWithout	*	*	*	*	feedback	*	female	*	speaker:Finnja	_	_	_	_	_	
+
+#Text=Die ist aber fast schon zu groß für das was wir wollen
+172-1	4005-4008	Die	GWithout[29]	ausleihen\_set1\_21[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-ausleihen\_set1\_21[29]	*	*	Subj	*	*	false[190]	Decl[190]	*[279]	*[279]	*[279]	*[279]	*[279]	input1[279]	21[368]	male[368]	tc4i3rsgsa9bl8tesf4679lok2[368]	speaker: YOU[457]	*->125-2	D-Pron[125]	explanation	*	173-1[191_190]	
+172-2	4009-4012	ist	GWithout[29]	ausleihen\_set1\_21[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-ausleihen\_set1\_21[29]	_	_	_	_	_	false[190]	Decl[190]	*[279]	*[279]	*[279]	*[279]	*[279]	input1[279]	21[368]	male[368]	tc4i3rsgsa9bl8tesf4679lok2[368]	speaker: YOU[457]	_	_	_	_	_	
+172-3	4013-4017	aber	GWithout[29]	ausleihen\_set1\_21[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-ausleihen\_set1\_21[29]	_	_	_	_	_	false[190]	Decl[190]	*[279]	*[279]	*[279]	*[279]	*[279]	input1[279]	21[368]	male[368]	tc4i3rsgsa9bl8tesf4679lok2[368]	speaker: YOU[457]	_	_	_	_	_	
+172-4	4018-4022	fast	GWithout[29]	ausleihen\_set1\_21[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-ausleihen\_set1\_21[29]	_	_	_	_	_	false[190]	Decl[190]	*[279]	*[279]	*[279]	*[279]	*[279]	input1[279]	21[368]	male[368]	tc4i3rsgsa9bl8tesf4679lok2[368]	speaker: YOU[457]	_	_	_	_	_	
+172-5	4023-4028	schon	GWithout[29]	ausleihen\_set1\_21[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-ausleihen\_set1\_21[29]	_	_	_	_	_	false[190]	Decl[190]	*[279]	*[279]	*[279]	*[279]	*[279]	input1[279]	21[368]	male[368]	tc4i3rsgsa9bl8tesf4679lok2[368]	speaker: YOU[457]	_	_	_	_	_	
+172-6	4029-4031	zu	GWithout[29]	ausleihen\_set1\_21[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-ausleihen\_set1\_21[29]	_	_	_	_	_	false[190]	Decl[190]	*[279]	*[279]	*[279]	*[279]	*[279]	input1[279]	21[368]	male[368]	tc4i3rsgsa9bl8tesf4679lok2[368]	speaker: YOU[457]	_	_	_	_	_	
+172-7	4032-4036	groß	GWithout[29]	ausleihen\_set1\_21[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-ausleihen\_set1\_21[29]	_	_	_	_	_	false[190]	Decl[190]	*[279]	*[279]	*[279]	*[279]	*[279]	input1[279]	21[368]	male[368]	tc4i3rsgsa9bl8tesf4679lok2[368]	speaker: YOU[457]	_	_	_	_	_	
+172-8	4037-4040	für	GWithout[29]	ausleihen\_set1\_21[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-ausleihen\_set1\_21[29]	_	_	_	_	_	false[190]	Decl[190]	*[279]	*[279]	*[279]	*[279]	*[279]	input1[279]	21[368]	male[368]	tc4i3rsgsa9bl8tesf4679lok2[368]	speaker: YOU[457]	_	_	_	_	_	
+172-9	4041-4044	das	GWithout[29]	ausleihen\_set1\_21[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-ausleihen\_set1\_21[29]	*	*	PrepObj	*	*	false[190]	Decl[190]	*[279]	*[279]	*[279]	*[279]	*[279]	input1[279]	21[368]	male[368]	tc4i3rsgsa9bl8tesf4679lok2[368]	speaker: YOU[457]	*->87-1	DefNP[87]	_	_	_	
+172-10	4045-4048	was	GWithout[29]	ausleihen\_set1\_21[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-ausleihen\_set1\_21[29]	_	_	_	_	_	false[190]	Decl[190]	*[279]	*[279]	*[279]	*[279]	*[279]	input1[279]	21[368]	male[368]	tc4i3rsgsa9bl8tesf4679lok2[368]	speaker: YOU[457]	*->87-1	DefNP[87]	_	_	_	
+172-11	4049-4052	wir	GWithout[29]	ausleihen\_set1\_21[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-ausleihen\_set1\_21[29]	1	*	Subj	*	plural	false[190]	Decl[190]	*[279]	*[279]	*[279]	*[279]	*[279]	input1[279]	21[368]	male[368]	tc4i3rsgsa9bl8tesf4679lok2[368]	speaker: YOU[457]	*->87-1|*->89-1	DefNP[87]|PerPron[89]	_	_	_	
+172-12	4053-4059	wollen	GWithout[29]	ausleihen\_set1\_21[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-ausleihen\_set1\_21[29]	_	_	_	_	_	false[190]	Decl[190]	*[279]	*[279]	*[279]	*[279]	*[279]	input1[279]	21[368]	male[368]	tc4i3rsgsa9bl8tesf4679lok2[368]	speaker: YOU[457]	*->87-1	DefNP[87]	_	_	_	
+
+#Text=Wir wollten eigentlich nur schnell was vom garagendach herunterholen
+173-1	4061-4064	Wir	GWithout[29]	ausleihen\_set1\_21[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-ausleihen\_set1\_21[29]	1	*	Subj	*	plural	false[191]	Decl[191]	*[280]	*[280]	*[280]	*[280]	*[280]	input2[280]	21[369]	male[369]	tc4i3rsgsa9bl8tesf4679lok2[369]	speaker: YOU[458]	*->89-2	PerPron[89]	_	_	_	
+173-2	4065-4072	wollten	GWithout[29]	ausleihen\_set1\_21[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-ausleihen\_set1\_21[29]	_	_	_	_	_	false[191]	Decl[191]	*[280]	*[280]	*[280]	*[280]	*[280]	input2[280]	21[369]	male[369]	tc4i3rsgsa9bl8tesf4679lok2[369]	speaker: YOU[458]	_	_	_	_	_	
+173-3	4073-4083	eigentlich	GWithout[29]	ausleihen\_set1\_21[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-ausleihen\_set1\_21[29]	_	_	_	_	_	false[191]	Decl[191]	*[280]	*[280]	*[280]	*[280]	*[280]	input2[280]	21[369]	male[369]	tc4i3rsgsa9bl8tesf4679lok2[369]	speaker: YOU[458]	_	_	_	_	_	
+173-4	4084-4087	nur	GWithout[29]	ausleihen\_set1\_21[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-ausleihen\_set1\_21[29]	_	_	_	_	_	false[191]	Decl[191]	*[280]	*[280]	*[280]	*[280]	*[280]	input2[280]	21[369]	male[369]	tc4i3rsgsa9bl8tesf4679lok2[369]	speaker: YOU[458]	_	_	_	_	_	
+173-5	4088-4095	schnell	GWithout[29]	ausleihen\_set1\_21[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-ausleihen\_set1\_21[29]	_	_	_	_	_	false[191]	Decl[191]	*[280]	*[280]	*[280]	*[280]	*[280]	input2[280]	21[369]	male[369]	tc4i3rsgsa9bl8tesf4679lok2[369]	speaker: YOU[458]	_	_	_	_	_	
+173-6	4096-4099	was	GWithout[29]	ausleihen\_set1\_21[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-ausleihen\_set1\_21[29]	_	_	_	_	_	false[191]	Decl[191]	*[280]	*[280]	*[280]	*[280]	*[280]	input2[280]	21[369]	male[369]	tc4i3rsgsa9bl8tesf4679lok2[369]	speaker: YOU[458]	*->126-1	IndefNP[126]	_	_	_	
+173-7	4100-4103	vom	GWithout[29]	ausleihen\_set1\_21[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-ausleihen\_set1\_21[29]	_	_	_	_	_	false[191]	Decl[191]	*[280]	*[280]	*[280]	*[280]	*[280]	input2[280]	21[369]	male[369]	tc4i3rsgsa9bl8tesf4679lok2[369]	speaker: YOU[458]	*->38-1	DefNP[38]	_	_	_	
+173-8	4104-4115	garagendach	GWithout[29]	ausleihen\_set1\_21[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-ausleihen\_set1\_21[29]	*	*	PrepObj	*	*	false[191]	Decl[191]	*[280]	*[280]	*[280]	*[280]	*[280]	input2[280]	21[369]	male[369]	tc4i3rsgsa9bl8tesf4679lok2[369]	speaker: YOU[458]	*->38-1	DefNP[38]	_	_	_	
+173-9	4116-4129	herunterholen	GWithout[29]	ausleihen\_set1\_21[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-ausleihen\_set1\_21[29]	_	_	_	_	_	false[191]	Decl[191]	*[280]	*[280]	*[280]	*[280]	*[280]	input2[280]	21[369]	male[369]	tc4i3rsgsa9bl8tesf4679lok2[369]	speaker: YOU[458]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+174-1	4131-4146	END_OF_DOCUMENT	GWithout[29]	ausleihen\_set1\_21[29]	latin1[29]	tc4i3rsgsa9bl8tesf4679lok2-ausleihen\_set1\_21[29]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Na?
+175-1	4148-4151	Na?	GWithout[30]	ausleihen\_set1\_21[30]	latin1[30]	us0adlivem61c2bj5776kudbot-ausleihen\_set1\_21[30]	_	_	_	_	_	false	Int	*	*	*	gen\_1	general\_question	openq	*	female	*	speaker:Finnja	_	_	QAP	*	176-1[192_0]	
+
+#Text=Samuel hat eine Leiter ausgeliehen
+176-1	4153-4159	Samuel	GWithout[30]	ausleihen\_set1\_21[30]	latin1[30]	us0adlivem61c2bj5776kudbot-ausleihen\_set1\_21[30]	*	*	Subj	*	*	false[192]	Decl[192]	*[281]	ausleihen[281]	transitive[281]	*[281]	*[281]	item0[281]	66[370]	male[370]	us0adlivem61c2bj5776kudbot[370]	speaker: YOU[459]	*->95-1	PropNm[95]	explanation	*	178-1[193_192]	
+176-2	4160-4163	hat	GWithout[30]	ausleihen\_set1\_21[30]	latin1[30]	us0adlivem61c2bj5776kudbot-ausleihen\_set1\_21[30]	_	_	_	_	_	false[192]	Decl[192]	*[281]	ausleihen[281]	transitive[281]	*[281]	*[281]	item0[281]	66[370]	male[370]	us0adlivem61c2bj5776kudbot[370]	speaker: YOU[459]	_	_	_	_	_	
+176-3	4164-4168	eine	GWithout[30]	ausleihen\_set1\_21[30]	latin1[30]	us0adlivem61c2bj5776kudbot-ausleihen\_set1\_21[30]	*[96]	*[96]	object[96]	*[96]	*[96]	false[192]	Decl[192]	*[281]	ausleihen[281]	transitive[281]	*[281]	*[281]	item0[281]	66[370]	male[370]	us0adlivem61c2bj5776kudbot[370]	speaker: YOU[459]	*->65-1	IndefNP[65]	_	_	_	
+176-4	4169-4175	Leiter	GWithout[30]	ausleihen\_set1\_21[30]	latin1[30]	us0adlivem61c2bj5776kudbot-ausleihen\_set1\_21[30]	*[96]	*[96]	object[96]	*[96]	*[96]	false[192]	Decl[192]	*[281]	ausleihen[281]	transitive[281]	*[281]	*[281]	item0[281]	66[370]	male[370]	us0adlivem61c2bj5776kudbot[370]	speaker: YOU[459]	*->65-1	IndefNP[65]	_	_	_	
+176-5	4176-4187	ausgeliehen	GWithout[30]	ausleihen\_set1\_21[30]	latin1[30]	us0adlivem61c2bj5776kudbot-ausleihen\_set1\_21[30]	_	_	_	_	_	false[192]	Decl[192]	*[281]	ausleihen[281]	transitive[281]	*[281]	*[281]	item0[281]	66[370]	male[370]	us0adlivem61c2bj5776kudbot[370]	speaker: YOU[459]	_	_	_	_	_	
+
+#Text=-
+177-1	4189-4190	-	GWithout[30]	ausleihen\_set1\_21[30]	latin1[30]	us0adlivem61c2bj5776kudbot-ausleihen\_set1\_21[30]	_	_	_	_	_	false	NA	GWithout	*	*	*	*	feedback	*	female	*	speaker:Finnja	_	_	_	_	_	
+
+#Text=er muss an die Dachrinne ran
+178-1	4192-4194	er	GWithout[30]	ausleihen\_set1\_21[30]	latin1[30]	us0adlivem61c2bj5776kudbot-ausleihen\_set1\_21[30]	3	*	Subj	*	singular	false[193]	Decl[193]	*[282]	*[282]	*[282]	*[282]	*[282]	input1[282]	66[371]	male[371]	us0adlivem61c2bj5776kudbot[371]	speaker: YOU[460]	*->95-2	PerPron[95]	explanation	*	179-1[0_193]	
+178-2	4195-4199	muss	GWithout[30]	ausleihen\_set1\_21[30]	latin1[30]	us0adlivem61c2bj5776kudbot-ausleihen\_set1\_21[30]	_	_	_	_	_	false[193]	Decl[193]	*[282]	*[282]	*[282]	*[282]	*[282]	input1[282]	66[371]	male[371]	us0adlivem61c2bj5776kudbot[371]	speaker: YOU[460]	_	_	_	_	_	
+178-3	4200-4202	an	GWithout[30]	ausleihen\_set1\_21[30]	latin1[30]	us0adlivem61c2bj5776kudbot-ausleihen\_set1\_21[30]	_	_	_	_	_	false[193]	Decl[193]	*[282]	*[282]	*[282]	*[282]	*[282]	input1[282]	66[371]	male[371]	us0adlivem61c2bj5776kudbot[371]	speaker: YOU[460]	_	_	_	_	_	
+178-4	4203-4206	die	GWithout[30]	ausleihen\_set1\_21[30]	latin1[30]	us0adlivem61c2bj5776kudbot-ausleihen\_set1\_21[30]	*[97]	*[97]	PrepObj[97]	*[97]	*[97]	false[193]	Decl[193]	*[282]	*[282]	*[282]	*[282]	*[282]	input1[282]	66[371]	male[371]	us0adlivem61c2bj5776kudbot[371]	speaker: YOU[460]	*->129-1	DefNP[129]	_	_	_	
+178-5	4207-4216	Dachrinne	GWithout[30]	ausleihen\_set1\_21[30]	latin1[30]	us0adlivem61c2bj5776kudbot-ausleihen\_set1\_21[30]	*[97]	*[97]	PrepObj[97]	*[97]	*[97]	false[193]	Decl[193]	*[282]	*[282]	*[282]	*[282]	*[282]	input1[282]	66[371]	male[371]	us0adlivem61c2bj5776kudbot[371]	speaker: YOU[460]	*->129-1	DefNP[129]	_	_	_	
+178-6	4217-4220	ran	GWithout[30]	ausleihen\_set1\_21[30]	latin1[30]	us0adlivem61c2bj5776kudbot-ausleihen\_set1\_21[30]	_	_	_	_	_	false[193]	Decl[193]	*[282]	*[282]	*[282]	*[282]	*[282]	input1[282]	66[371]	male[371]	us0adlivem61c2bj5776kudbot[371]	speaker: YOU[460]	_	_	_	_	_	
+
+#Text=Verstopft
+179-1	4222-4231	Verstopft	GWithout[30]	ausleihen\_set1\_21[30]	latin1[30]	us0adlivem61c2bj5776kudbot-ausleihen\_set1\_21[30]	3	*	*	*	singular	false	NA	*	*	*	*	*	input2	66	male	us0adlivem61c2bj5776kudbot	speaker: YOU	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+180-1	4233-4248	END_OF_DOCUMENT	GWithout[30]	ausleihen\_set1\_21[30]	latin1[30]	us0adlivem61c2bj5776kudbot-ausleihen\_set1\_21[30]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	

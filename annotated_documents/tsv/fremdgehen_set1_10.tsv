@@ -1,0 +1,1028 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Error|Error
+#T_SP=webanno.custom.Item_info|condition|item_id|latinsqr_list|unique_id
+#T_SP=webanno.custom.Ref_info|PersonalPronouns_detailed|ref_def|ref_function|ref_gender|ref_num
+#T_SP=webanno.custom.Segment|complex|segment_type
+#T_SP=webanno.custom.Sent_layer|feedback_id|item0_verb|item0_verbtype|openq_id|openq_type|sent_type
+#T_SP=webanno.custom.Speaker_meta|age|gender|speaker_id
+#T_SP=webanno.custom.Speaker_name|speaker_name
+#T_CH=de.tudarmstadt.ukp.dkpro.core.api.coref.type.CoreferenceLink|referenceRelation|referenceType
+#T_RL=webanno.custom.Relations|discourse_rel|speechAct_rel|BT_webanno.custom.Segment
+
+
+#Text=Hey, was gibts Neues?
+1-1	0-4	Hey,	_	GFailure[3]	fremdgehen\_set1\_10[3]	latin3[3]	0ncaea7aqlpc7oe43khd21qn11-fremdgehen\_set1\_10[3]	_	_	_	_	_	false[60]	Int[60]	*[193]	*[193]	*[193]	wh\_6[193]	wh\_question[193]	openq[193]	*[323]	male[323]	*[323]	speaker:Ulrich[453]	_	_	QAP	*	2-1[61_60]	
+1-2	5-8	was	_	GFailure[3]	fremdgehen\_set1\_10[3]	latin3[3]	0ncaea7aqlpc7oe43khd21qn11-fremdgehen\_set1\_10[3]	_	_	_	_	_	false[60]	Int[60]	*[193]	*[193]	*[193]	wh\_6[193]	wh\_question[193]	openq[193]	*[323]	male[323]	*[323]	speaker:Ulrich[453]	_	_	_	_	_	
+1-3	9-14	gibts	_	GFailure[3]	fremdgehen\_set1\_10[3]	latin3[3]	0ncaea7aqlpc7oe43khd21qn11-fremdgehen\_set1\_10[3]	_	_	_	_	_	false[60]	Int[60]	*[193]	*[193]	*[193]	wh\_6[193]	wh\_question[193]	openq[193]	*[323]	male[323]	*[323]	speaker:Ulrich[453]	_	_	_	_	_	
+1-4	15-21	Neues?	_	GFailure[3]	fremdgehen\_set1\_10[3]	latin3[3]	0ncaea7aqlpc7oe43khd21qn11-fremdgehen\_set1\_10[3]	_	_	_	_	_	false[60]	Int[60]	*[193]	*[193]	*[193]	wh\_6[193]	wh\_question[193]	openq[193]	*[323]	male[323]	*[323]	speaker:Ulrich[453]	_	_	_	_	_	
+
+#Text=Charlotte ist fremdgegangen
+2-1	23-32	Charlotte	_	GFailure[3]	fremdgehen\_set1\_10[3]	latin3[3]	0ncaea7aqlpc7oe43khd21qn11-fremdgehen\_set1\_10[3]	*	*	Subj	*	*	false[61]	Decl[61]	*[194]	fremdgehen[194]	intransitive[194]	*[194]	*[194]	item0[194]	18[324]	female[324]	0ncaea7aqlpc7oe43khd21qn11[324]	speaker: YOU[454]	*->33-1	PropNm[33]	elaboration|CR	*|*	4-1[62_61]|3-1[0_61]	
+2-2	33-36	ist	_	GFailure[3]	fremdgehen\_set1\_10[3]	latin3[3]	0ncaea7aqlpc7oe43khd21qn11-fremdgehen\_set1\_10[3]	_	_	_	_	_	false[61]	Decl[61]	*[194]	fremdgehen[194]	intransitive[194]	*[194]	*[194]	item0[194]	18[324]	female[324]	0ncaea7aqlpc7oe43khd21qn11[324]	speaker: YOU[454]	_	_	_	_	_	
+2-3	37-50	fremdgegangen	_	GFailure[3]	fremdgehen\_set1\_10[3]	latin3[3]	0ncaea7aqlpc7oe43khd21qn11-fremdgehen\_set1\_10[3]	_	_	_	_	_	false[61]	Decl[61]	*[194]	fremdgehen[194]	intransitive[194]	*[194]	*[194]	item0[194]	18[324]	female[324]	0ncaea7aqlpc7oe43khd21qn11[324]	speaker: YOU[454]	_	_	_	_	_	
+
+#Text=Was?
+3-1	52-56	Was?	_	GFailure[3]	fremdgehen\_set1\_10[3]	latin3[3]	0ncaea7aqlpc7oe43khd21qn11-fremdgehen\_set1\_10[3]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	male	*	speaker:Ulrich	_	_	_	_	_	
+
+#Text=EIN GANZES HALBES JAHR HAT SIE MICH HINTERGANGEN.
+4-1	58-61	EIN	_	GFailure[3]	fremdgehen\_set1\_10[3]	latin3[3]	0ncaea7aqlpc7oe43khd21qn11-fremdgehen\_set1\_10[3]	*[33]	*[33]	DirObj[33]	*[33]	*[33]	false[62]	Decl[62]	*[195]	*[195]	*[195]	*[195]	*[195]	input1[195]	18[325]	female[325]	0ncaea7aqlpc7oe43khd21qn11[325]	speaker: YOU[455]	*->28-1|*->76-1	clause[28]|IndefNP[76]	elaboration	*	5-1[63_62]	
+4-2	62-68	GANZES	_	GFailure[3]	fremdgehen\_set1\_10[3]	latin3[3]	0ncaea7aqlpc7oe43khd21qn11-fremdgehen\_set1\_10[3]	*[33]	*[33]	DirObj[33]	*[33]	*[33]	false[62]	Decl[62]	*[195]	*[195]	*[195]	*[195]	*[195]	input1[195]	18[325]	female[325]	0ncaea7aqlpc7oe43khd21qn11[325]	speaker: YOU[455]	*->28-1|*->76-1	clause[28]|IndefNP[76]	_	_	_	
+4-3	69-75	HALBES	_	GFailure[3]	fremdgehen\_set1\_10[3]	latin3[3]	0ncaea7aqlpc7oe43khd21qn11-fremdgehen\_set1\_10[3]	*[33]	*[33]	DirObj[33]	*[33]	*[33]	false[62]	Decl[62]	*[195]	*[195]	*[195]	*[195]	*[195]	input1[195]	18[325]	female[325]	0ncaea7aqlpc7oe43khd21qn11[325]	speaker: YOU[455]	*->28-1|*->76-1	clause[28]|IndefNP[76]	_	_	_	
+4-4	76-80	JAHR	_	GFailure[3]	fremdgehen\_set1\_10[3]	latin3[3]	0ncaea7aqlpc7oe43khd21qn11-fremdgehen\_set1\_10[3]	*[33]	*[33]	DirObj[33]	*[33]	*[33]	false[62]	Decl[62]	*[195]	*[195]	*[195]	*[195]	*[195]	input1[195]	18[325]	female[325]	0ncaea7aqlpc7oe43khd21qn11[325]	speaker: YOU[455]	*->28-1|*->76-1	clause[28]|IndefNP[76]	_	_	_	
+4-5	81-84	HAT	_	GFailure[3]	fremdgehen\_set1\_10[3]	latin3[3]	0ncaea7aqlpc7oe43khd21qn11-fremdgehen\_set1\_10[3]	_	_	_	_	_	false[62]	Decl[62]	*[195]	*[195]	*[195]	*[195]	*[195]	input1[195]	18[325]	female[325]	0ncaea7aqlpc7oe43khd21qn11[325]	speaker: YOU[455]	*->28-1	clause[28]	_	_	_	
+4-6	85-88	SIE	_	GFailure[3]	fremdgehen\_set1\_10[3]	latin3[3]	0ncaea7aqlpc7oe43khd21qn11-fremdgehen\_set1\_10[3]	3	*	Subj	*	singular	false[62]	Decl[62]	*[195]	*[195]	*[195]	*[195]	*[195]	input1[195]	18[325]	female[325]	0ncaea7aqlpc7oe43khd21qn11[325]	speaker: YOU[455]	*->28-1|*->33-2	clause[28]|PerPron[33]	_	_	_	
+4-7	89-93	MICH	_	GFailure[3]	fremdgehen\_set1\_10[3]	latin3[3]	0ncaea7aqlpc7oe43khd21qn11-fremdgehen\_set1\_10[3]	1	*	IndirObj	*	singular	false[62]	Decl[62]	*[195]	*[195]	*[195]	*[195]	*[195]	input1[195]	18[325]	female[325]	0ncaea7aqlpc7oe43khd21qn11[325]	speaker: YOU[455]	*->28-1|*->99-1	clause[28]|PerPron[99]	_	_	_	
+4-8	94-107	HINTERGANGEN.	_	GFailure[3]	fremdgehen\_set1\_10[3]	latin3[3]	0ncaea7aqlpc7oe43khd21qn11-fremdgehen\_set1\_10[3]	_	_	_	_	_	false[62]	Decl[62]	*[195]	*[195]	*[195]	*[195]	*[195]	input1[195]	18[325]	female[325]	0ncaea7aqlpc7oe43khd21qn11[325]	speaker: YOU[455]	*->28-1	clause[28]	_	_	_	
+
+#Text=Ich fasse es nicht <BR> willst du mit mir was trinken gehen?
+5-1	109-112	Ich	_	GFailure[3]	fremdgehen\_set1\_10[3]	latin3[3]	0ncaea7aqlpc7oe43khd21qn11-fremdgehen\_set1\_10[3]	1	*	Subj	*	singular	false[63]	Decl[63]	*[196]	*[196]	*[196]	*[196]	*[196]	input2[196]	18[326]	female[326]	0ncaea7aqlpc7oe43khd21qn11[326]	speaker: YOU[456]	*->99-2	PerPron[99]	result	*	5-6[64_63]	
+5-2	113-118	fasse	_	GFailure[3]	fremdgehen\_set1\_10[3]	latin3[3]	0ncaea7aqlpc7oe43khd21qn11-fremdgehen\_set1\_10[3]	_	_	_	_	_	false[63]	Decl[63]	*[196]	*[196]	*[196]	*[196]	*[196]	input2[196]	18[326]	female[326]	0ncaea7aqlpc7oe43khd21qn11[326]	speaker: YOU[456]	_	_	_	_	_	
+5-3	119-121	es	_	GFailure[3]	fremdgehen\_set1\_10[3]	latin3[3]	0ncaea7aqlpc7oe43khd21qn11-fremdgehen\_set1\_10[3]	3	*	DirObj	*	singular	false[63]	Decl[63]	*[196]	*[196]	*[196]	*[196]	*[196]	input2[196]	18[326]	female[326]	0ncaea7aqlpc7oe43khd21qn11[326]	speaker: YOU[456]	*->28-2	PerPron[28]	_	_	_	
+5-4	122-127	nicht	_	GFailure[3]	fremdgehen\_set1\_10[3]	latin3[3]	0ncaea7aqlpc7oe43khd21qn11-fremdgehen\_set1\_10[3]	_	_	_	_	_	false[63]	Decl[63]	*[196]	*[196]	*[196]	*[196]	*[196]	input2[196]	18[326]	female[326]	0ncaea7aqlpc7oe43khd21qn11[326]	speaker: YOU[456]	_	_	_	_	_	
+5-5	128-132	<BR>	_	GFailure[3]	fremdgehen\_set1\_10[3]	latin3[3]	0ncaea7aqlpc7oe43khd21qn11-fremdgehen\_set1\_10[3]	_	_	_	_	_	_	_	*[196]	*[196]	*[196]	*[196]	*[196]	input2[196]	18[326]	female[326]	0ncaea7aqlpc7oe43khd21qn11[326]	speaker: YOU[456]	_	_	_	_	_	
+5-6	133-139	willst	_	GFailure[3]	fremdgehen\_set1\_10[3]	latin3[3]	0ncaea7aqlpc7oe43khd21qn11-fremdgehen\_set1\_10[3]	_	_	_	_	_	false[64]	Int[64]	*[196]	*[196]	*[196]	*[196]	*[196]	input2[196]	18[326]	female[326]	0ncaea7aqlpc7oe43khd21qn11[326]	speaker: YOU[456]	_	_	_	_	_	
+5-7	140-142	du	_	GFailure[3]	fremdgehen\_set1\_10[3]	latin3[3]	0ncaea7aqlpc7oe43khd21qn11-fremdgehen\_set1\_10[3]	2	*	Subj	*	singular	false[64]	Int[64]	*[196]	*[196]	*[196]	*[196]	*[196]	input2[196]	18[326]	female[326]	0ncaea7aqlpc7oe43khd21qn11[326]	speaker: YOU[456]	*->6-1	PerPron[6]	_	_	_	
+5-8	143-146	mit	_	GFailure[3]	fremdgehen\_set1\_10[3]	latin3[3]	0ncaea7aqlpc7oe43khd21qn11-fremdgehen\_set1\_10[3]	_	_	_	_	_	false[64]	Int[64]	*[196]	*[196]	*[196]	*[196]	*[196]	input2[196]	18[326]	female[326]	0ncaea7aqlpc7oe43khd21qn11[326]	speaker: YOU[456]	_	_	_	_	_	
+5-9	147-150	mir	_	GFailure[3]	fremdgehen\_set1\_10[3]	latin3[3]	0ncaea7aqlpc7oe43khd21qn11-fremdgehen\_set1\_10[3]	1	*	PrepObj	*	singular	false[64]	Int[64]	*[196]	*[196]	*[196]	*[196]	*[196]	input2[196]	18[326]	female[326]	0ncaea7aqlpc7oe43khd21qn11[326]	speaker: YOU[456]	*->99-3	PerPron[99]	_	_	_	
+5-10	151-154	was	_	GFailure[3]	fremdgehen\_set1\_10[3]	latin3[3]	0ncaea7aqlpc7oe43khd21qn11-fremdgehen\_set1\_10[3]	_	_	_	_	_	false[64]	Int[64]	*[196]	*[196]	*[196]	*[196]	*[196]	input2[196]	18[326]	female[326]	0ncaea7aqlpc7oe43khd21qn11[326]	speaker: YOU[456]	*->45-1	IndefNP[45]	_	_	_	
+5-11	155-162	trinken	_	GFailure[3]	fremdgehen\_set1\_10[3]	latin3[3]	0ncaea7aqlpc7oe43khd21qn11-fremdgehen\_set1\_10[3]	_	_	_	_	_	false[64]	Int[64]	*[196]	*[196]	*[196]	*[196]	*[196]	input2[196]	18[326]	female[326]	0ncaea7aqlpc7oe43khd21qn11[326]	speaker: YOU[456]	_	_	_	_	_	
+5-12	163-169	gehen?	_	GFailure[3]	fremdgehen\_set1\_10[3]	latin3[3]	0ncaea7aqlpc7oe43khd21qn11-fremdgehen\_set1\_10[3]	_	_	_	_	_	false[64]	Int[64]	*[196]	*[196]	*[196]	*[196]	*[196]	input2[196]	18[326]	female[326]	0ncaea7aqlpc7oe43khd21qn11[326]	speaker: YOU[456]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+6-1	171-186	END_OF_DOCUMENT	_	GFailure[3]	fremdgehen\_set1\_10[3]	latin3[3]	0ncaea7aqlpc7oe43khd21qn11-fremdgehen\_set1\_10[3]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+7-1	188-192	Hey,	_	GFailure[4]	fremdgehen\_set1\_10[4]	latin3[4]	19gm0uv9ca6mcngf99lirno94a-fremdgehen\_set1\_10[4]	_	_	_	_	_	false[65]	Int[65]	*[197]	*[197]	*[197]	wh\_6[197]	wh\_question[197]	openq[197]	*[327]	male[327]	*[327]	speaker:Ulrich[457]	_	_	QAP	*	8-1[66_65]	
+7-2	193-196	was	_	GFailure[4]	fremdgehen\_set1\_10[4]	latin3[4]	19gm0uv9ca6mcngf99lirno94a-fremdgehen\_set1\_10[4]	_	_	_	_	_	false[65]	Int[65]	*[197]	*[197]	*[197]	wh\_6[197]	wh\_question[197]	openq[197]	*[327]	male[327]	*[327]	speaker:Ulrich[457]	_	_	_	_	_	
+7-3	197-202	gibts	_	GFailure[4]	fremdgehen\_set1\_10[4]	latin3[4]	19gm0uv9ca6mcngf99lirno94a-fremdgehen\_set1\_10[4]	_	_	_	_	_	false[65]	Int[65]	*[197]	*[197]	*[197]	wh\_6[197]	wh\_question[197]	openq[197]	*[327]	male[327]	*[327]	speaker:Ulrich[457]	_	_	_	_	_	
+7-4	203-209	Neues?	_	GFailure[4]	fremdgehen\_set1\_10[4]	latin3[4]	19gm0uv9ca6mcngf99lirno94a-fremdgehen\_set1\_10[4]	_	_	_	_	_	false[65]	Int[65]	*[197]	*[197]	*[197]	wh\_6[197]	wh\_question[197]	openq[197]	*[327]	male[327]	*[327]	speaker:Ulrich[457]	_	_	_	_	_	
+
+#Text=Charlotte ist fremdgegangen
+8-1	211-220	Charlotte	_	GFailure[4]	fremdgehen\_set1\_10[4]	latin3[4]	19gm0uv9ca6mcngf99lirno94a-fremdgehen\_set1\_10[4]	*	*	Subj	*	*	false[66]	Decl[66]	*[198]	fremdgehen[198]	intransitive[198]	*[198]	*[198]	item0[198]	36[328]	male[328]	19gm0uv9ca6mcngf99lirno94a[328]	speaker: YOU[458]	*->35-1|*->98-1	clause[35]|PropNm[98]	elaboration|CR	*|*	10-1[0_66]|9-1[0_66]	
+8-2	221-224	ist	_	GFailure[4]	fremdgehen\_set1\_10[4]	latin3[4]	19gm0uv9ca6mcngf99lirno94a-fremdgehen\_set1\_10[4]	_	_	_	_	_	false[66]	Decl[66]	*[198]	fremdgehen[198]	intransitive[198]	*[198]	*[198]	item0[198]	36[328]	male[328]	19gm0uv9ca6mcngf99lirno94a[328]	speaker: YOU[458]	*->35-1	clause[35]	_	_	_	
+8-3	225-238	fremdgegangen	_	GFailure[4]	fremdgehen\_set1\_10[4]	latin3[4]	19gm0uv9ca6mcngf99lirno94a-fremdgehen\_set1\_10[4]	_	_	_	_	_	false[66]	Decl[66]	*[198]	fremdgehen[198]	intransitive[198]	*[198]	*[198]	item0[198]	36[328]	male[328]	19gm0uv9ca6mcngf99lirno94a[328]	speaker: YOU[458]	*->35-1	clause[35]	_	_	_	
+
+#Text=Was?
+9-1	240-244	Was?	_	GFailure[4]	fremdgehen\_set1\_10[4]	latin3[4]	19gm0uv9ca6mcngf99lirno94a-fremdgehen\_set1\_10[4]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	male	*	speaker:Ulrich	_	_	_	_	_	
+
+#Text=Ja <BR> sie hat es mir gestern gestanden
+10-1	246-248	Ja	_	GFailure[4]	fremdgehen\_set1\_10[4]	latin3[4]	19gm0uv9ca6mcngf99lirno94a-fremdgehen\_set1\_10[4]	_	_	_	_	_	false	NA	*[199]	*[199]	*[199]	*[199]	*[199]	input1[199]	36[329]	male[329]	19gm0uv9ca6mcngf99lirno94a[329]	speaker: YOU[459]	_	_	explanation	*	10-3[67_0]	
+10-2	249-253	<BR>	_	GFailure[4]	fremdgehen\_set1\_10[4]	latin3[4]	19gm0uv9ca6mcngf99lirno94a-fremdgehen\_set1\_10[4]	_	_	_	_	_	_	_	*[199]	*[199]	*[199]	*[199]	*[199]	input1[199]	36[329]	male[329]	19gm0uv9ca6mcngf99lirno94a[329]	speaker: YOU[459]	_	_	_	_	_	
+10-3	254-257	sie	_	GFailure[4]	fremdgehen\_set1\_10[4]	latin3[4]	19gm0uv9ca6mcngf99lirno94a-fremdgehen\_set1\_10[4]	3	*	Subj	*	singular	false[67]	Decl[67]	*[199]	*[199]	*[199]	*[199]	*[199]	input1[199]	36[329]	male[329]	19gm0uv9ca6mcngf99lirno94a[329]	speaker: YOU[459]	*->98-2	PerPron[98]	contrast	*	11-1[68_67]	
+10-4	258-261	hat	_	GFailure[4]	fremdgehen\_set1\_10[4]	latin3[4]	19gm0uv9ca6mcngf99lirno94a-fremdgehen\_set1\_10[4]	_	_	_	_	_	false[67]	Decl[67]	*[199]	*[199]	*[199]	*[199]	*[199]	input1[199]	36[329]	male[329]	19gm0uv9ca6mcngf99lirno94a[329]	speaker: YOU[459]	_	_	_	_	_	
+10-5	262-264	es	_	GFailure[4]	fremdgehen\_set1\_10[4]	latin3[4]	19gm0uv9ca6mcngf99lirno94a-fremdgehen\_set1\_10[4]	3	*	DirObj	*	singular	false[67]	Decl[67]	*[199]	*[199]	*[199]	*[199]	*[199]	input1[199]	36[329]	male[329]	19gm0uv9ca6mcngf99lirno94a[329]	speaker: YOU[459]	*->35-2	PerPron[35]	_	_	_	
+10-6	265-268	mir	_	GFailure[4]	fremdgehen\_set1\_10[4]	latin3[4]	19gm0uv9ca6mcngf99lirno94a-fremdgehen\_set1\_10[4]	1	*	IndirObj	*	singular	false[67]	Decl[67]	*[199]	*[199]	*[199]	*[199]	*[199]	input1[199]	36[329]	male[329]	19gm0uv9ca6mcngf99lirno94a[329]	speaker: YOU[459]	*->2-1	PerPron[2]	_	_	_	
+10-7	269-276	gestern	_	GFailure[4]	fremdgehen\_set1\_10[4]	latin3[4]	19gm0uv9ca6mcngf99lirno94a-fremdgehen\_set1\_10[4]	_	_	_	_	_	false[67]	Decl[67]	*[199]	*[199]	*[199]	*[199]	*[199]	input1[199]	36[329]	male[329]	19gm0uv9ca6mcngf99lirno94a[329]	speaker: YOU[459]	_	_	_	_	_	
+10-8	277-286	gestanden	_	GFailure[4]	fremdgehen\_set1\_10[4]	latin3[4]	19gm0uv9ca6mcngf99lirno94a-fremdgehen\_set1\_10[4]	_	_	_	_	_	false[67]	Decl[67]	*[199]	*[199]	*[199]	*[199]	*[199]	input1[199]	36[329]	male[329]	19gm0uv9ca6mcngf99lirno94a[329]	speaker: YOU[459]	_	_	_	_	_	
+
+#Text=Aber sie wollte mir nicht sagen mit wem...
+11-1	288-292	Aber	_	GFailure[4]	fremdgehen\_set1\_10[4]	latin3[4]	19gm0uv9ca6mcngf99lirno94a-fremdgehen\_set1\_10[4]	_	_	_	_	_	false[68]	Decl[68]	*[200]	*[200]	*[200]	*[200]	*[200]	input2[200]	36[330]	male[330]	19gm0uv9ca6mcngf99lirno94a[330]	speaker: YOU[460]	_	_	_	_	_	
+11-2	293-296	sie	_	GFailure[4]	fremdgehen\_set1\_10[4]	latin3[4]	19gm0uv9ca6mcngf99lirno94a-fremdgehen\_set1\_10[4]	3	*	Subj	*	singular	false[68]	Decl[68]	*[200]	*[200]	*[200]	*[200]	*[200]	input2[200]	36[330]	male[330]	19gm0uv9ca6mcngf99lirno94a[330]	speaker: YOU[460]	*->98-3	PerPron[98]	_	_	_	
+11-3	297-303	wollte	_	GFailure[4]	fremdgehen\_set1\_10[4]	latin3[4]	19gm0uv9ca6mcngf99lirno94a-fremdgehen\_set1\_10[4]	_	_	_	_	_	false[68]	Decl[68]	*[200]	*[200]	*[200]	*[200]	*[200]	input2[200]	36[330]	male[330]	19gm0uv9ca6mcngf99lirno94a[330]	speaker: YOU[460]	_	_	_	_	_	
+11-4	304-307	mir	_	GFailure[4]	fremdgehen\_set1\_10[4]	latin3[4]	19gm0uv9ca6mcngf99lirno94a-fremdgehen\_set1\_10[4]	1	*	IndirObj	*	singular	false[68]	Decl[68]	*[200]	*[200]	*[200]	*[200]	*[200]	input2[200]	36[330]	male[330]	19gm0uv9ca6mcngf99lirno94a[330]	speaker: YOU[460]	*->2-2	PerPron[2]	_	_	_	
+11-5	308-313	nicht	_	GFailure[4]	fremdgehen\_set1\_10[4]	latin3[4]	19gm0uv9ca6mcngf99lirno94a-fremdgehen\_set1\_10[4]	_	_	_	_	_	false[68]	Decl[68]	*[200]	*[200]	*[200]	*[200]	*[200]	input2[200]	36[330]	male[330]	19gm0uv9ca6mcngf99lirno94a[330]	speaker: YOU[460]	_	_	_	_	_	
+11-6	314-319	sagen	_	GFailure[4]	fremdgehen\_set1\_10[4]	latin3[4]	19gm0uv9ca6mcngf99lirno94a-fremdgehen\_set1\_10[4]	_	_	_	_	_	false[68]	Decl[68]	*[200]	*[200]	*[200]	*[200]	*[200]	input2[200]	36[330]	male[330]	19gm0uv9ca6mcngf99lirno94a[330]	speaker: YOU[460]	_	_	_	_	_	
+11-7	320-323	mit	_	GFailure[4]	fremdgehen\_set1\_10[4]	latin3[4]	19gm0uv9ca6mcngf99lirno94a-fremdgehen\_set1\_10[4]	_	_	_	_	_	false[68]	Decl[68]	*[200]	*[200]	*[200]	*[200]	*[200]	input2[200]	36[330]	male[330]	19gm0uv9ca6mcngf99lirno94a[330]	speaker: YOU[460]	_	_	_	_	_	
+11-8	324-330	wem...	_	GFailure[4]	fremdgehen\_set1\_10[4]	latin3[4]	19gm0uv9ca6mcngf99lirno94a-fremdgehen\_set1\_10[4]	_	_	_	_	_	false[68]	Decl[68]	*[200]	*[200]	*[200]	*[200]	*[200]	input2[200]	36[330]	male[330]	19gm0uv9ca6mcngf99lirno94a[330]	speaker: YOU[460]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+12-1	332-347	END_OF_DOCUMENT	_	GFailure[4]	fremdgehen\_set1\_10[4]	latin3[4]	19gm0uv9ca6mcngf99lirno94a-fremdgehen\_set1\_10[4]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+13-1	349-353	Hey,	_	GFailure[5]	fremdgehen\_set1\_10[5]	latin3[5]	4qae3ph27q5gbjcsrgnltv8qld-fremdgehen\_set1\_10[5]	_	_	_	_	_	false[69]	Int[69]	*[201]	*[201]	*[201]	wh\_6[201]	wh\_question[201]	openq[201]	*[331]	male[331]	*[331]	speaker:Ulrich[461]	_	_	QAP	*	14-1[70_69]	
+13-2	354-357	was	_	GFailure[5]	fremdgehen\_set1\_10[5]	latin3[5]	4qae3ph27q5gbjcsrgnltv8qld-fremdgehen\_set1\_10[5]	_	_	_	_	_	false[69]	Int[69]	*[201]	*[201]	*[201]	wh\_6[201]	wh\_question[201]	openq[201]	*[331]	male[331]	*[331]	speaker:Ulrich[461]	_	_	_	_	_	
+13-3	358-363	gibts	_	GFailure[5]	fremdgehen\_set1\_10[5]	latin3[5]	4qae3ph27q5gbjcsrgnltv8qld-fremdgehen\_set1\_10[5]	_	_	_	_	_	false[69]	Int[69]	*[201]	*[201]	*[201]	wh\_6[201]	wh\_question[201]	openq[201]	*[331]	male[331]	*[331]	speaker:Ulrich[461]	_	_	_	_	_	
+13-4	364-370	Neues?	_	GFailure[5]	fremdgehen\_set1\_10[5]	latin3[5]	4qae3ph27q5gbjcsrgnltv8qld-fremdgehen\_set1\_10[5]	_	_	_	_	_	false[69]	Int[69]	*[201]	*[201]	*[201]	wh\_6[201]	wh\_question[201]	openq[201]	*[331]	male[331]	*[331]	speaker:Ulrich[461]	_	_	_	_	_	
+
+#Text=Charlotte ist fremdgegangen
+14-1	372-381	Charlotte	_	GFailure[5]	fremdgehen\_set1\_10[5]	latin3[5]	4qae3ph27q5gbjcsrgnltv8qld-fremdgehen\_set1\_10[5]	*	*	Subj	*	*	false[70]	Decl[70]	*[202]	fremdgehen[202]	intransitive[202]	*[202]	*[202]	item0[202]	18[332]	female[332]	4qae3ph27q5gbjcsrgnltv8qld[332]	speaker: YOU[462]	*->86-1	PropNm[86]	explanation|CR	*|*	17-1[72_70]|15-1[0_70]	
+14-2	382-385	ist	_	GFailure[5]	fremdgehen\_set1\_10[5]	latin3[5]	4qae3ph27q5gbjcsrgnltv8qld-fremdgehen\_set1\_10[5]	_	_	_	_	_	false[70]	Decl[70]	*[202]	fremdgehen[202]	intransitive[202]	*[202]	*[202]	item0[202]	18[332]	female[332]	4qae3ph27q5gbjcsrgnltv8qld[332]	speaker: YOU[462]	*->4-1	clause[4]	_	_	_	
+14-3	386-399	fremdgegangen	_	GFailure[5]	fremdgehen\_set1\_10[5]	latin3[5]	4qae3ph27q5gbjcsrgnltv8qld-fremdgehen\_set1\_10[5]	_	_	_	_	_	false[70]	Decl[70]	*[202]	fremdgehen[202]	intransitive[202]	*[202]	*[202]	item0[202]	18[332]	female[332]	4qae3ph27q5gbjcsrgnltv8qld[332]	speaker: YOU[462]	*->4-1	clause[4]	_	_	_	
+
+#Text=Was?
+15-1	401-405	Was?	_	GFailure[5]	fremdgehen\_set1\_10[5]	latin3[5]	4qae3ph27q5gbjcsrgnltv8qld-fremdgehen\_set1\_10[5]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	male	*	speaker:Ulrich	_	_	acknowledgement	*	16-1[71_0]	
+
+#Text=ja du hast richtig gehört
+16-1	407-409	ja	_	GFailure[5]	fremdgehen\_set1\_10[5]	latin3[5]	4qae3ph27q5gbjcsrgnltv8qld-fremdgehen\_set1\_10[5]	_	_	_	_	_	false[71]	Decl[71]	*[203]	*[203]	*[203]	*[203]	*[203]	input1[203]	18[333]	female[333]	4qae3ph27q5gbjcsrgnltv8qld[333]	speaker: YOU[463]	_	_	_	_	_	
+16-2	410-412	du	_	GFailure[5]	fremdgehen\_set1\_10[5]	latin3[5]	4qae3ph27q5gbjcsrgnltv8qld-fremdgehen\_set1\_10[5]	2	*	Subj	*	singular	false[71]	Decl[71]	*[203]	*[203]	*[203]	*[203]	*[203]	input1[203]	18[333]	female[333]	4qae3ph27q5gbjcsrgnltv8qld[333]	speaker: YOU[463]	*->58-1	PerPron[58]	_	_	_	
+16-3	413-417	hast	_	GFailure[5]	fremdgehen\_set1\_10[5]	latin3[5]	4qae3ph27q5gbjcsrgnltv8qld-fremdgehen\_set1\_10[5]	_	_	_	_	_	false[71]	Decl[71]	*[203]	*[203]	*[203]	*[203]	*[203]	input1[203]	18[333]	female[333]	4qae3ph27q5gbjcsrgnltv8qld[333]	speaker: YOU[463]	_	_	_	_	_	
+16-4	418-425	richtig	_	GFailure[5]	fremdgehen\_set1\_10[5]	latin3[5]	4qae3ph27q5gbjcsrgnltv8qld-fremdgehen\_set1\_10[5]	_	_	_	_	_	false[71]	Decl[71]	*[203]	*[203]	*[203]	*[203]	*[203]	input1[203]	18[333]	female[333]	4qae3ph27q5gbjcsrgnltv8qld[333]	speaker: YOU[463]	_	_	_	_	_	
+16-5	426-432	gehört	_	GFailure[5]	fremdgehen\_set1\_10[5]	latin3[5]	4qae3ph27q5gbjcsrgnltv8qld-fremdgehen\_set1\_10[5]	_	_	_	_	_	false[71]	Decl[71]	*[203]	*[203]	*[203]	*[203]	*[203]	input1[203]	18[333]	female[333]	4qae3ph27q5gbjcsrgnltv8qld[333]	speaker: YOU[463]	_	_	_	_	_	
+
+#Text=ich weis nicht wie sie das machen konnte
+17-1	434-437	ich	_	GFailure[5]	fremdgehen\_set1\_10[5]	latin3[5]	4qae3ph27q5gbjcsrgnltv8qld-fremdgehen\_set1\_10[5]	1	*	Subj	*	singular	false[72]	Decl[72]	*[204]	*[204]	*[204]	*[204]	*[204]	input2[204]	18[334]	female[334]	4qae3ph27q5gbjcsrgnltv8qld[334]	speaker: YOU[464]	*->78-1	PerPron[78]	_	_	_	
+17-2	438-442	weis	_	GFailure[5]	fremdgehen\_set1\_10[5]	latin3[5]	4qae3ph27q5gbjcsrgnltv8qld-fremdgehen\_set1\_10[5]	_	_	_	_	_	false[72]	Decl[72]	*[204]	*[204]	*[204]	*[204]	*[204]	input2[204]	18[334]	female[334]	4qae3ph27q5gbjcsrgnltv8qld[334]	speaker: YOU[464]	_	_	_	_	_	
+17-3	443-448	nicht	_	GFailure[5]	fremdgehen\_set1\_10[5]	latin3[5]	4qae3ph27q5gbjcsrgnltv8qld-fremdgehen\_set1\_10[5]	_	_	_	_	_	false[72]	Decl[72]	*[204]	*[204]	*[204]	*[204]	*[204]	input2[204]	18[334]	female[334]	4qae3ph27q5gbjcsrgnltv8qld[334]	speaker: YOU[464]	_	_	_	_	_	
+17-4	449-452	wie	_	GFailure[5]	fremdgehen\_set1\_10[5]	latin3[5]	4qae3ph27q5gbjcsrgnltv8qld-fremdgehen\_set1\_10[5]	_	_	_	_	_	false[72]	Decl[72]	*[204]	*[204]	*[204]	*[204]	*[204]	input2[204]	18[334]	female[334]	4qae3ph27q5gbjcsrgnltv8qld[334]	speaker: YOU[464]	_	_	_	_	_	
+17-5	453-456	sie	_	GFailure[5]	fremdgehen\_set1\_10[5]	latin3[5]	4qae3ph27q5gbjcsrgnltv8qld-fremdgehen\_set1\_10[5]	3	*	Subj	*	singular	false[72]	Decl[72]	*[204]	*[204]	*[204]	*[204]	*[204]	input2[204]	18[334]	female[334]	4qae3ph27q5gbjcsrgnltv8qld[334]	speaker: YOU[464]	*->86-2	PerPron[86]	_	_	_	
+17-6	457-460	das	_	GFailure[5]	fremdgehen\_set1\_10[5]	latin3[5]	4qae3ph27q5gbjcsrgnltv8qld-fremdgehen\_set1\_10[5]	*	*	DirObj	*	*	false[72]	Decl[72]	*[204]	*[204]	*[204]	*[204]	*[204]	input2[204]	18[334]	female[334]	4qae3ph27q5gbjcsrgnltv8qld[334]	speaker: YOU[464]	*->4-2	D-Pron[4]	_	_	_	
+17-7	461-467	machen	_	GFailure[5]	fremdgehen\_set1\_10[5]	latin3[5]	4qae3ph27q5gbjcsrgnltv8qld-fremdgehen\_set1\_10[5]	_	_	_	_	_	false[72]	Decl[72]	*[204]	*[204]	*[204]	*[204]	*[204]	input2[204]	18[334]	female[334]	4qae3ph27q5gbjcsrgnltv8qld[334]	speaker: YOU[464]	_	_	_	_	_	
+17-8	468-474	konnte	_	GFailure[5]	fremdgehen\_set1\_10[5]	latin3[5]	4qae3ph27q5gbjcsrgnltv8qld-fremdgehen\_set1\_10[5]	_	_	_	_	_	false[72]	Decl[72]	*[204]	*[204]	*[204]	*[204]	*[204]	input2[204]	18[334]	female[334]	4qae3ph27q5gbjcsrgnltv8qld[334]	speaker: YOU[464]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+18-1	476-491	END_OF_DOCUMENT	_	GFailure[5]	fremdgehen\_set1\_10[5]	latin3[5]	4qae3ph27q5gbjcsrgnltv8qld-fremdgehen\_set1\_10[5]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+19-1	493-497	Hey,	_	GFailure[6]	fremdgehen\_set1\_10[6]	latin3[6]	f28ipql67ma8cbjqke6k374ach-fremdgehen\_set1\_10[6]	_	_	_	_	_	false[73]	Int[73]	*[205]	*[205]	*[205]	wh\_6[205]	wh\_question[205]	openq[205]	*[335]	male[335]	*[335]	speaker:Ulrich[465]	_	_	QAP	*	20-1[74_73]	
+19-2	498-501	was	_	GFailure[6]	fremdgehen\_set1\_10[6]	latin3[6]	f28ipql67ma8cbjqke6k374ach-fremdgehen\_set1\_10[6]	_	_	_	_	_	false[73]	Int[73]	*[205]	*[205]	*[205]	wh\_6[205]	wh\_question[205]	openq[205]	*[335]	male[335]	*[335]	speaker:Ulrich[465]	_	_	_	_	_	
+19-3	502-507	gibts	_	GFailure[6]	fremdgehen\_set1\_10[6]	latin3[6]	f28ipql67ma8cbjqke6k374ach-fremdgehen\_set1\_10[6]	_	_	_	_	_	false[73]	Int[73]	*[205]	*[205]	*[205]	wh\_6[205]	wh\_question[205]	openq[205]	*[335]	male[335]	*[335]	speaker:Ulrich[465]	_	_	_	_	_	
+19-4	508-514	Neues?	_	GFailure[6]	fremdgehen\_set1\_10[6]	latin3[6]	f28ipql67ma8cbjqke6k374ach-fremdgehen\_set1\_10[6]	_	_	_	_	_	false[73]	Int[73]	*[205]	*[205]	*[205]	wh\_6[205]	wh\_question[205]	openq[205]	*[335]	male[335]	*[335]	speaker:Ulrich[465]	_	_	_	_	_	
+
+#Text=Charlotte ist fremdgegangen
+20-1	516-525	Charlotte	_	GFailure[6]	fremdgehen\_set1\_10[6]	latin3[6]	f28ipql67ma8cbjqke6k374ach-fremdgehen\_set1\_10[6]	*	*	Subj	*	*	false[74]	Decl[74]	*[206]	fremdgehen[206]	intransitive[206]	*[206]	*[206]	item0[206]	19[336]	male[336]	f28ipql67ma8cbjqke6k374ach[336]	speaker: YOU[466]	*->54-1|*->101-1	clause[54]|PropNm[101]	elaboration|CR	*|*	22-1[0_74]|21-1[0_74]	
+20-2	526-529	ist	_	GFailure[6]	fremdgehen\_set1\_10[6]	latin3[6]	f28ipql67ma8cbjqke6k374ach-fremdgehen\_set1\_10[6]	_	_	_	_	_	false[74]	Decl[74]	*[206]	fremdgehen[206]	intransitive[206]	*[206]	*[206]	item0[206]	19[336]	male[336]	f28ipql67ma8cbjqke6k374ach[336]	speaker: YOU[466]	*->54-1	clause[54]	_	_	_	
+20-3	530-543	fremdgegangen	_	GFailure[6]	fremdgehen\_set1\_10[6]	latin3[6]	f28ipql67ma8cbjqke6k374ach-fremdgehen\_set1\_10[6]	_	_	_	_	_	false[74]	Decl[74]	*[206]	fremdgehen[206]	intransitive[206]	*[206]	*[206]	item0[206]	19[336]	male[336]	f28ipql67ma8cbjqke6k374ach[336]	speaker: YOU[466]	*->54-1	clause[54]	_	_	_	
+
+#Text=Was?
+21-1	545-549	Was?	_	GFailure[6]	fremdgehen\_set1\_10[6]	latin3[6]	f28ipql67ma8cbjqke6k374ach-fremdgehen\_set1\_10[6]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	male	*	speaker:Ulrich	_	_	_	_	_	
+
+#Text=Ja <BR> und willst du wissen was das schlimmste daran ist!
+22-1	551-553	Ja	_	GFailure[6]	fremdgehen\_set1\_10[6]	latin3[6]	f28ipql67ma8cbjqke6k374ach-fremdgehen\_set1\_10[6]	_	_	_	_	_	false	Decl	*[207]	*[207]	*[207]	*[207]	*[207]	input1[207]	19[337]	male[337]	f28ipql67ma8cbjqke6k374ach[337]	speaker: YOU[467]	_	_	elaboration	*	22-3[75_0]	
+22-2	554-558	<BR>	_	GFailure[6]	fremdgehen\_set1\_10[6]	latin3[6]	f28ipql67ma8cbjqke6k374ach-fremdgehen\_set1\_10[6]	_	_	_	_	_	_	_	*[207]	*[207]	*[207]	*[207]	*[207]	input1[207]	19[337]	male[337]	f28ipql67ma8cbjqke6k374ach[337]	speaker: YOU[467]	_	_	_	_	_	
+22-3	559-562	und	_	GFailure[6]	fremdgehen\_set1\_10[6]	latin3[6]	f28ipql67ma8cbjqke6k374ach-fremdgehen\_set1\_10[6]	_	_	_	_	_	true[75]|false[76]	*[75]|Int[76]	*[207]	*[207]	*[207]	*[207]	*[207]	input1[207]	19[337]	male[337]	f28ipql67ma8cbjqke6k374ach[337]	speaker: YOU[467]	_	_	elaboration	*	23-1[77_76]	
+22-4	563-569	willst	_	GFailure[6]	fremdgehen\_set1\_10[6]	latin3[6]	f28ipql67ma8cbjqke6k374ach-fremdgehen\_set1\_10[6]	_	_	_	_	_	true[75]|false[76]	*[75]|Int[76]	*[207]	*[207]	*[207]	*[207]	*[207]	input1[207]	19[337]	male[337]	f28ipql67ma8cbjqke6k374ach[337]	speaker: YOU[467]	_	_	_	_	_	
+22-5	570-572	du	_	GFailure[6]	fremdgehen\_set1\_10[6]	latin3[6]	f28ipql67ma8cbjqke6k374ach-fremdgehen\_set1\_10[6]	2	*	Subj	*	singular	true[75]|false[76]	*[75]|Int[76]	*[207]	*[207]	*[207]	*[207]	*[207]	input1[207]	19[337]	male[337]	f28ipql67ma8cbjqke6k374ach[337]	speaker: YOU[467]	*->82-1	PerPron[82]	_	_	_	
+22-6	573-579	wissen	_	GFailure[6]	fremdgehen\_set1\_10[6]	latin3[6]	f28ipql67ma8cbjqke6k374ach-fremdgehen\_set1\_10[6]	_	_	_	_	_	true[75]|false[76]	*[75]|Int[76]	*[207]	*[207]	*[207]	*[207]	*[207]	input1[207]	19[337]	male[337]	f28ipql67ma8cbjqke6k374ach[337]	speaker: YOU[467]	_	_	_	_	_	
+22-7	580-583	was	_	GFailure[6]	fremdgehen\_set1\_10[6]	latin3[6]	f28ipql67ma8cbjqke6k374ach-fremdgehen\_set1\_10[6]	_	_	_	_	_	true[75]|false[76]	*[75]|Int[76]	*[207]	*[207]	*[207]	*[207]	*[207]	input1[207]	19[337]	male[337]	f28ipql67ma8cbjqke6k374ach[337]	speaker: YOU[467]	_	_	_	_	_	
+22-8	584-587	das	_	GFailure[6]	fremdgehen\_set1\_10[6]	latin3[6]	f28ipql67ma8cbjqke6k374ach-fremdgehen\_set1\_10[6]	*[34]	*[34]	DirObj[34]	*[34]	*[34]	true[75]|false[76]	*[75]|Int[76]	*[207]	*[207]	*[207]	*[207]	*[207]	input1[207]	19[337]	male[337]	f28ipql67ma8cbjqke6k374ach[337]	speaker: YOU[467]	*->59-1	DefNP[59]	_	_	_	
+22-9	588-598	schlimmste	_	GFailure[6]	fremdgehen\_set1\_10[6]	latin3[6]	f28ipql67ma8cbjqke6k374ach-fremdgehen\_set1\_10[6]	*[34]	*[34]	DirObj[34]	*[34]	*[34]	true[75]|false[76]	*[75]|Int[76]	*[207]	*[207]	*[207]	*[207]	*[207]	input1[207]	19[337]	male[337]	f28ipql67ma8cbjqke6k374ach[337]	speaker: YOU[467]	*->59-1	DefNP[59]	_	_	_	
+22-10	599-604	daran	_	GFailure[6]	fremdgehen\_set1\_10[6]	latin3[6]	f28ipql67ma8cbjqke6k374ach-fremdgehen\_set1\_10[6]	_	_	_	_	_	true[75]|false[76]	*[75]|Int[76]	*[207]	*[207]	*[207]	*[207]	*[207]	input1[207]	19[337]	male[337]	f28ipql67ma8cbjqke6k374ach[337]	speaker: YOU[467]	*->59-1|*->54-2	DefNP[59]|DemPron[54]	_	_	_	
+22-11	605-609	ist!	_	GFailure[6]	fremdgehen\_set1\_10[6]	latin3[6]	f28ipql67ma8cbjqke6k374ach-fremdgehen\_set1\_10[6]	_	_	_	_	_	true[75]|false[76]	*[75]|Int[76]	*[207]	*[207]	*[207]	*[207]	*[207]	input1[207]	19[337]	male[337]	f28ipql67ma8cbjqke6k374ach[337]	speaker: YOU[467]	_	_	_	_	_	
+
+#Text=Sie hat mich mit meinem besten Freund betrogen!
+23-1	611-614	Sie	_	GFailure[6]	fremdgehen\_set1\_10[6]	latin3[6]	f28ipql67ma8cbjqke6k374ach-fremdgehen\_set1\_10[6]	3	*	Subj	*	singular	true[75]|false[77]	*[75]|Decl[77]	*[208]	*[208]	*[208]	*[208]	*[208]	input2[208]	19[338]	male[338]	f28ipql67ma8cbjqke6k374ach[338]	speaker: YOU[468]	*->101-2	PerPron[101]	_	_	_	
+23-2	615-618	hat	_	GFailure[6]	fremdgehen\_set1\_10[6]	latin3[6]	f28ipql67ma8cbjqke6k374ach-fremdgehen\_set1\_10[6]	_	_	_	_	_	true[75]|false[77]	*[75]|Decl[77]	*[208]	*[208]	*[208]	*[208]	*[208]	input2[208]	19[338]	male[338]	f28ipql67ma8cbjqke6k374ach[338]	speaker: YOU[468]	_	_	_	_	_	
+23-3	619-623	mich	_	GFailure[6]	fremdgehen\_set1\_10[6]	latin3[6]	f28ipql67ma8cbjqke6k374ach-fremdgehen\_set1\_10[6]	1	*	IndirObj	*	singular	true[75]|false[77]	*[75]|Decl[77]	*[208]	*[208]	*[208]	*[208]	*[208]	input2[208]	19[338]	male[338]	f28ipql67ma8cbjqke6k374ach[338]	speaker: YOU[468]	*->66-1	PerPron[66]	_	_	_	
+23-4	624-627	mit	_	GFailure[6]	fremdgehen\_set1\_10[6]	latin3[6]	f28ipql67ma8cbjqke6k374ach-fremdgehen\_set1\_10[6]	_	_	_	_	_	true[75]|false[77]	*[75]|Decl[77]	*[208]	*[208]	*[208]	*[208]	*[208]	input2[208]	19[338]	male[338]	f28ipql67ma8cbjqke6k374ach[338]	speaker: YOU[468]	_	_	_	_	_	
+23-5	628-634	meinem	_	GFailure[6]	fremdgehen\_set1\_10[6]	latin3[6]	f28ipql67ma8cbjqke6k374ach-fremdgehen\_set1\_10[6]	*[35]|1[36]	*[35]|*[36]	PrepObj[35]|*[36]	*[35]|*[36]	*[35]|singular[36]	true[75]|false[77]	*[75]|Decl[77]	*[208]	*[208]	*[208]	*[208]	*[208]	input2[208]	19[338]	male[338]	f28ipql67ma8cbjqke6k374ach[338]	speaker: YOU[468]	*->60-1|*->66-2	DefNP[60]|PossePron[66]	_	_	_	
+23-6	635-641	besten	_	GFailure[6]	fremdgehen\_set1\_10[6]	latin3[6]	f28ipql67ma8cbjqke6k374ach-fremdgehen\_set1\_10[6]	*[35]	*[35]	PrepObj[35]	*[35]	*[35]	true[75]|false[77]	*[75]|Decl[77]	*[208]	*[208]	*[208]	*[208]	*[208]	input2[208]	19[338]	male[338]	f28ipql67ma8cbjqke6k374ach[338]	speaker: YOU[468]	*->60-1	DefNP[60]	_	_	_	
+23-7	642-648	Freund	_	GFailure[6]	fremdgehen\_set1\_10[6]	latin3[6]	f28ipql67ma8cbjqke6k374ach-fremdgehen\_set1\_10[6]	*[35]	*[35]	PrepObj[35]	*[35]	*[35]	true[75]|false[77]	*[75]|Decl[77]	*[208]	*[208]	*[208]	*[208]	*[208]	input2[208]	19[338]	male[338]	f28ipql67ma8cbjqke6k374ach[338]	speaker: YOU[468]	*->60-1	DefNP[60]	_	_	_	
+23-8	649-658	betrogen!	_	GFailure[6]	fremdgehen\_set1\_10[6]	latin3[6]	f28ipql67ma8cbjqke6k374ach-fremdgehen\_set1\_10[6]	_	_	_	_	_	true[75]|false[77]	*[75]|Decl[77]	*[208]	*[208]	*[208]	*[208]	*[208]	input2[208]	19[338]	male[338]	f28ipql67ma8cbjqke6k374ach[338]	speaker: YOU[468]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+24-1	660-675	END_OF_DOCUMENT	_	GFailure[6]	fremdgehen\_set1\_10[6]	latin3[6]	f28ipql67ma8cbjqke6k374ach-fremdgehen\_set1\_10[6]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+25-1	677-681	Hey,	_	GFailure[7]	fremdgehen\_set1\_10[7]	latin3[7]	ifdbjqro2nfkup12rv8t6k0eu9-fremdgehen\_set1\_10[7]	_	_	_	_	_	false[78]	Int[78]	*[209]	*[209]	*[209]	wh\_6[209]	wh\_question[209]	openq[209]	*[339]	male[339]	*[339]	speaker:Ulrich[469]	_	_	QAP	*	26-1[79_78]	
+25-2	682-685	was	_	GFailure[7]	fremdgehen\_set1\_10[7]	latin3[7]	ifdbjqro2nfkup12rv8t6k0eu9-fremdgehen\_set1\_10[7]	_	_	_	_	_	false[78]	Int[78]	*[209]	*[209]	*[209]	wh\_6[209]	wh\_question[209]	openq[209]	*[339]	male[339]	*[339]	speaker:Ulrich[469]	_	_	_	_	_	
+25-3	686-691	gibts	_	GFailure[7]	fremdgehen\_set1\_10[7]	latin3[7]	ifdbjqro2nfkup12rv8t6k0eu9-fremdgehen\_set1\_10[7]	_	_	_	_	_	false[78]	Int[78]	*[209]	*[209]	*[209]	wh\_6[209]	wh\_question[209]	openq[209]	*[339]	male[339]	*[339]	speaker:Ulrich[469]	_	_	_	_	_	
+25-4	692-698	Neues?	_	GFailure[7]	fremdgehen\_set1\_10[7]	latin3[7]	ifdbjqro2nfkup12rv8t6k0eu9-fremdgehen\_set1\_10[7]	_	_	_	_	_	false[78]	Int[78]	*[209]	*[209]	*[209]	wh\_6[209]	wh\_question[209]	openq[209]	*[339]	male[339]	*[339]	speaker:Ulrich[469]	_	_	_	_	_	
+
+#Text=Charlotte ist fremdgegangen
+26-1	700-709	Charlotte	_	GFailure[7]	fremdgehen\_set1\_10[7]	latin3[7]	ifdbjqro2nfkup12rv8t6k0eu9-fremdgehen\_set1\_10[7]	*	*	Subj	*	*	false[79]	Decl[79]	*[210]	fremdgehen[210]	intransitive[210]	*[210]	*[210]	item0[210]	36[340]	male[340]	ifdbjqro2nfkup12rv8t6k0eu9[340]	speaker: YOU[470]	*->5-1	PropNm[5]	elaboration|CR	*|*	28-1[80_79]|27-1[0_79]	
+26-2	710-713	ist	_	GFailure[7]	fremdgehen\_set1\_10[7]	latin3[7]	ifdbjqro2nfkup12rv8t6k0eu9-fremdgehen\_set1\_10[7]	_	_	_	_	_	false[79]	Decl[79]	*[210]	fremdgehen[210]	intransitive[210]	*[210]	*[210]	item0[210]	36[340]	male[340]	ifdbjqro2nfkup12rv8t6k0eu9[340]	speaker: YOU[470]	_	_	_	_	_	
+26-3	714-727	fremdgegangen	_	GFailure[7]	fremdgehen\_set1\_10[7]	latin3[7]	ifdbjqro2nfkup12rv8t6k0eu9-fremdgehen\_set1\_10[7]	_	_	_	_	_	false[79]	Decl[79]	*[210]	fremdgehen[210]	intransitive[210]	*[210]	*[210]	item0[210]	36[340]	male[340]	ifdbjqro2nfkup12rv8t6k0eu9[340]	speaker: YOU[470]	_	_	_	_	_	
+
+#Text=Was?
+27-1	729-733	Was?	_	GFailure[7]	fremdgehen\_set1\_10[7]	latin3[7]	ifdbjqro2nfkup12rv8t6k0eu9-fremdgehen\_set1\_10[7]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	male	*	speaker:Ulrich	_	_	_	_	_	
+
+#Text=sie hat einen neuen
+28-1	735-738	sie	_	GFailure[7]	fremdgehen\_set1\_10[7]	latin3[7]	ifdbjqro2nfkup12rv8t6k0eu9-fremdgehen\_set1\_10[7]	3	*	Subj	*	singular	false[80]	Decl[80]	*[211]	*[211]	*[211]	*[211]	*[211]	input1[211]	36[341]	male[341]	ifdbjqro2nfkup12rv8t6k0eu9[341]	speaker: YOU[471]	*->5-2	PerPron[5]	elaboration	*	29-1[81_80]	
+28-2	739-742	hat	_	GFailure[7]	fremdgehen\_set1\_10[7]	latin3[7]	ifdbjqro2nfkup12rv8t6k0eu9-fremdgehen\_set1\_10[7]	_	_	_	_	_	false[80]	Decl[80]	*[211]	*[211]	*[211]	*[211]	*[211]	input1[211]	36[341]	male[341]	ifdbjqro2nfkup12rv8t6k0eu9[341]	speaker: YOU[471]	_	_	_	_	_	
+28-3	743-748	einen	_	GFailure[7]	fremdgehen\_set1\_10[7]	latin3[7]	ifdbjqro2nfkup12rv8t6k0eu9-fremdgehen\_set1\_10[7]	_	_	_	_	_	false[80]	Decl[80]	*[211]	*[211]	*[211]	*[211]	*[211]	input1[211]	36[341]	male[341]	ifdbjqro2nfkup12rv8t6k0eu9[341]	speaker: YOU[471]	*->18-1	IndefNP[18]	_	_	_	
+28-4	749-754	neuen	_	GFailure[7]	fremdgehen\_set1\_10[7]	latin3[7]	ifdbjqro2nfkup12rv8t6k0eu9-fremdgehen\_set1\_10[7]	_	_	_	_	_	false[80]	Decl[80]	*[211]	*[211]	*[211]	*[211]	*[211]	input1[211]	36[341]	male[341]	ifdbjqro2nfkup12rv8t6k0eu9[341]	speaker: YOU[471]	*->18-1	IndefNP[18]	_	_	_	
+
+#Text=seit Samstagabend
+29-1	756-760	seit	_	GFailure[7]	fremdgehen\_set1\_10[7]	latin3[7]	ifdbjqro2nfkup12rv8t6k0eu9-fremdgehen\_set1\_10[7]	_	_	_	_	_	false[81]	NA[81]	*[212]	*[212]	*[212]	*[212]	*[212]	input2[212]	36[342]	male[342]	ifdbjqro2nfkup12rv8t6k0eu9[342]	speaker: YOU[472]	_	_	_	_	_	
+29-2	761-773	Samstagabend	_	GFailure[7]	fremdgehen\_set1\_10[7]	latin3[7]	ifdbjqro2nfkup12rv8t6k0eu9-fremdgehen\_set1\_10[7]	_	_	_	_	_	false[81]	NA[81]	*[212]	*[212]	*[212]	*[212]	*[212]	input2[212]	36[342]	male[342]	ifdbjqro2nfkup12rv8t6k0eu9[342]	speaker: YOU[472]	*->13-1	DefNP[13]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+30-1	775-790	END_OF_DOCUMENT	_	GFailure[7]	fremdgehen\_set1\_10[7]	latin3[7]	ifdbjqro2nfkup12rv8t6k0eu9-fremdgehen\_set1\_10[7]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+31-1	792-796	Hey,	_	GFailure[8]	fremdgehen\_set1\_10[8]	latin3[8]	nn1fs9jkn62eo9089lo89usbkb-fremdgehen\_set1\_10[8]	_	_	_	_	_	false[82]	Int[82]	*[213]	*[213]	*[213]	wh\_6[213]	wh\_question[213]	openq[213]	*[343]	male[343]	*[343]	speaker:Ulrich[473]	_	_	QAP	*	32-1[83_82]	
+31-2	797-800	was	_	GFailure[8]	fremdgehen\_set1\_10[8]	latin3[8]	nn1fs9jkn62eo9089lo89usbkb-fremdgehen\_set1\_10[8]	_	_	_	_	_	false[82]	Int[82]	*[213]	*[213]	*[213]	wh\_6[213]	wh\_question[213]	openq[213]	*[343]	male[343]	*[343]	speaker:Ulrich[473]	_	_	_	_	_	
+31-3	801-806	gibts	_	GFailure[8]	fremdgehen\_set1\_10[8]	latin3[8]	nn1fs9jkn62eo9089lo89usbkb-fremdgehen\_set1\_10[8]	_	_	_	_	_	false[82]	Int[82]	*[213]	*[213]	*[213]	wh\_6[213]	wh\_question[213]	openq[213]	*[343]	male[343]	*[343]	speaker:Ulrich[473]	_	_	_	_	_	
+31-4	807-813	Neues?	_	GFailure[8]	fremdgehen\_set1\_10[8]	latin3[8]	nn1fs9jkn62eo9089lo89usbkb-fremdgehen\_set1\_10[8]	_	_	_	_	_	false[82]	Int[82]	*[213]	*[213]	*[213]	wh\_6[213]	wh\_question[213]	openq[213]	*[343]	male[343]	*[343]	speaker:Ulrich[473]	_	_	_	_	_	
+
+#Text=Charlotte ist fremdgegangen
+32-1	815-824	Charlotte	_	GFailure[8]	fremdgehen\_set1\_10[8]	latin3[8]	nn1fs9jkn62eo9089lo89usbkb-fremdgehen\_set1\_10[8]	*	*	Subj	*	*	false[83]	Decl[83]	*[214]	fremdgehen[214]	intransitive[214]	*[214]	*[214]	item0[214]	27[344]	female[344]	nn1fs9jkn62eo9089lo89usbkb[344]	speaker: YOU[474]	*->102-1|*->11-1	clause[102]|PropNm[11]	elaboration|result|CR	*|*|*	34-1[0_83]|35-1[85_83]|33-1[0_83]	
+32-2	825-828	ist	_	GFailure[8]	fremdgehen\_set1\_10[8]	latin3[8]	nn1fs9jkn62eo9089lo89usbkb-fremdgehen\_set1\_10[8]	_	_	_	_	_	false[83]	Decl[83]	*[214]	fremdgehen[214]	intransitive[214]	*[214]	*[214]	item0[214]	27[344]	female[344]	nn1fs9jkn62eo9089lo89usbkb[344]	speaker: YOU[474]	*->102-1	clause[102]	_	_	_	
+32-3	829-842	fremdgegangen	_	GFailure[8]	fremdgehen\_set1\_10[8]	latin3[8]	nn1fs9jkn62eo9089lo89usbkb-fremdgehen\_set1\_10[8]	_	_	_	_	_	false[83]	Decl[83]	*[214]	fremdgehen[214]	intransitive[214]	*[214]	*[214]	item0[214]	27[344]	female[344]	nn1fs9jkn62eo9089lo89usbkb[344]	speaker: YOU[474]	*->102-1	clause[102]	_	_	_	
+
+#Text=Was?
+33-1	844-848	Was?	_	GFailure[8]	fremdgehen\_set1\_10[8]	latin3[8]	nn1fs9jkn62eo9089lo89usbkb-fremdgehen\_set1\_10[8]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	male	*	speaker:Ulrich	_	_	_	_	_	
+
+#Text=Ja <BR> ich war so geschockt.
+34-1	850-852	Ja	_	GFailure[8]	fremdgehen\_set1\_10[8]	latin3[8]	nn1fs9jkn62eo9089lo89usbkb-fremdgehen\_set1\_10[8]	_	_	_	_	_	false	NA	*[215]	*[215]	*[215]	*[215]	*[215]	input1[215]	27[345]	female[345]	nn1fs9jkn62eo9089lo89usbkb[345]	speaker: YOU[475]	_	_	elaboration	*	34-3[84_0]	
+34-2	853-857	<BR>	_	GFailure[8]	fremdgehen\_set1\_10[8]	latin3[8]	nn1fs9jkn62eo9089lo89usbkb-fremdgehen\_set1\_10[8]	_	_	_	_	_	_	_	*[215]	*[215]	*[215]	*[215]	*[215]	input1[215]	27[345]	female[345]	nn1fs9jkn62eo9089lo89usbkb[345]	speaker: YOU[475]	_	_	_	_	_	
+34-3	858-861	ich	_	GFailure[8]	fremdgehen\_set1\_10[8]	latin3[8]	nn1fs9jkn62eo9089lo89usbkb-fremdgehen\_set1\_10[8]	1	*	Subj	*	singular	false[84]	Decl[84]	*[215]	*[215]	*[215]	*[215]	*[215]	input1[215]	27[345]	female[345]	nn1fs9jkn62eo9089lo89usbkb[345]	speaker: YOU[475]	*->40-1	PerPron[40]	_	_	_	
+34-4	862-865	war	_	GFailure[8]	fremdgehen\_set1\_10[8]	latin3[8]	nn1fs9jkn62eo9089lo89usbkb-fremdgehen\_set1\_10[8]	_	_	_	_	_	false[84]	Decl[84]	*[215]	*[215]	*[215]	*[215]	*[215]	input1[215]	27[345]	female[345]	nn1fs9jkn62eo9089lo89usbkb[345]	speaker: YOU[475]	_	_	_	_	_	
+34-5	866-868	so	_	GFailure[8]	fremdgehen\_set1\_10[8]	latin3[8]	nn1fs9jkn62eo9089lo89usbkb-fremdgehen\_set1\_10[8]	_	_	_	_	_	false[84]	Decl[84]	*[215]	*[215]	*[215]	*[215]	*[215]	input1[215]	27[345]	female[345]	nn1fs9jkn62eo9089lo89usbkb[345]	speaker: YOU[475]	_	_	_	_	_	
+34-6	869-879	geschockt.	_	GFailure[8]	fremdgehen\_set1\_10[8]	latin3[8]	nn1fs9jkn62eo9089lo89usbkb-fremdgehen\_set1\_10[8]	_	_	_	_	_	false[84]	Decl[84]	*[215]	*[215]	*[215]	*[215]	*[215]	input1[215]	27[345]	female[345]	nn1fs9jkn62eo9089lo89usbkb[345]	speaker: YOU[475]	_	_	_	_	_	
+
+#Text=Ich frage mich ob es Andreas schon weiß.
+35-1	881-884	Ich	_	GFailure[8]	fremdgehen\_set1\_10[8]	latin3[8]	nn1fs9jkn62eo9089lo89usbkb-fremdgehen\_set1\_10[8]	1	*	Subj	*	singular	false[85]	Decl[85]	*[216]	*[216]	*[216]	*[216]	*[216]	input2[216]	27[346]	female[346]	nn1fs9jkn62eo9089lo89usbkb[346]	speaker: YOU[476]	*->40-2	PerPron[40]	_	_	_	
+35-2	885-890	frage	_	GFailure[8]	fremdgehen\_set1\_10[8]	latin3[8]	nn1fs9jkn62eo9089lo89usbkb-fremdgehen\_set1\_10[8]	_	_	_	_	_	false[85]	Decl[85]	*[216]	*[216]	*[216]	*[216]	*[216]	input2[216]	27[346]	female[346]	nn1fs9jkn62eo9089lo89usbkb[346]	speaker: YOU[476]	_	_	_	_	_	
+35-3	891-895	mich	_	GFailure[8]	fremdgehen\_set1\_10[8]	latin3[8]	nn1fs9jkn62eo9089lo89usbkb-fremdgehen\_set1\_10[8]	*	*	IndirObj	*	*	false[85]	Decl[85]	*[216]	*[216]	*[216]	*[216]	*[216]	input2[216]	27[346]	female[346]	nn1fs9jkn62eo9089lo89usbkb[346]	speaker: YOU[476]	_	_	_	_	_	
+35-4	896-898	ob	_	GFailure[8]	fremdgehen\_set1\_10[8]	latin3[8]	nn1fs9jkn62eo9089lo89usbkb-fremdgehen\_set1\_10[8]	_	_	_	_	_	false[85]	Decl[85]	*[216]	*[216]	*[216]	*[216]	*[216]	input2[216]	27[346]	female[346]	nn1fs9jkn62eo9089lo89usbkb[346]	speaker: YOU[476]	_	_	_	_	_	
+35-5	899-901	es	_	GFailure[8]	fremdgehen\_set1\_10[8]	latin3[8]	nn1fs9jkn62eo9089lo89usbkb-fremdgehen\_set1\_10[8]	3	*	DirObj	*	singular	false[85]	Decl[85]	*[216]	*[216]	*[216]	*[216]	*[216]	input2[216]	27[346]	female[346]	nn1fs9jkn62eo9089lo89usbkb[346]	speaker: YOU[476]	*->102-2	PerPron[102]	_	_	_	
+35-6	902-909	Andreas	_	GFailure[8]	fremdgehen\_set1\_10[8]	latin3[8]	nn1fs9jkn62eo9089lo89usbkb-fremdgehen\_set1\_10[8]	*	*	Subj	*	*	false[85]	Decl[85]	*[216]	*[216]	*[216]	*[216]	*[216]	input2[216]	27[346]	female[346]	nn1fs9jkn62eo9089lo89usbkb[346]	speaker: YOU[476]	*->21-1	PropNm[21]	_	_	_	
+35-7	910-915	schon	_	GFailure[8]	fremdgehen\_set1\_10[8]	latin3[8]	nn1fs9jkn62eo9089lo89usbkb-fremdgehen\_set1\_10[8]	_	_	_	_	_	false[85]	Decl[85]	*[216]	*[216]	*[216]	*[216]	*[216]	input2[216]	27[346]	female[346]	nn1fs9jkn62eo9089lo89usbkb[346]	speaker: YOU[476]	_	_	_	_	_	
+35-8	916-921	weiß.	_	GFailure[8]	fremdgehen\_set1\_10[8]	latin3[8]	nn1fs9jkn62eo9089lo89usbkb-fremdgehen\_set1\_10[8]	_	_	_	_	_	false[85]	Decl[85]	*[216]	*[216]	*[216]	*[216]	*[216]	input2[216]	27[346]	female[346]	nn1fs9jkn62eo9089lo89usbkb[346]	speaker: YOU[476]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+36-1	923-938	END_OF_DOCUMENT	_	GFailure[8]	fremdgehen\_set1\_10[8]	latin3[8]	nn1fs9jkn62eo9089lo89usbkb-fremdgehen\_set1\_10[8]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+37-1	940-944	Hey,	_	GFailure[9]	fremdgehen\_set1\_10[9]	latin3[9]	qaaqp55l485lvs9rdvpvbtmqal-fremdgehen\_set1\_10[9]	_	_	_	_	_	false[86]	Int[86]	*[217]	*[217]	*[217]	wh\_6[217]	wh\_question[217]	openq[217]	*[347]	male[347]	*[347]	speaker:Ulrich[477]	_	_	QAP	*	38-1[87_86]	
+37-2	945-948	was	_	GFailure[9]	fremdgehen\_set1\_10[9]	latin3[9]	qaaqp55l485lvs9rdvpvbtmqal-fremdgehen\_set1\_10[9]	_	_	_	_	_	false[86]	Int[86]	*[217]	*[217]	*[217]	wh\_6[217]	wh\_question[217]	openq[217]	*[347]	male[347]	*[347]	speaker:Ulrich[477]	_	_	_	_	_	
+37-3	949-954	gibts	_	GFailure[9]	fremdgehen\_set1\_10[9]	latin3[9]	qaaqp55l485lvs9rdvpvbtmqal-fremdgehen\_set1\_10[9]	_	_	_	_	_	false[86]	Int[86]	*[217]	*[217]	*[217]	wh\_6[217]	wh\_question[217]	openq[217]	*[347]	male[347]	*[347]	speaker:Ulrich[477]	_	_	_	_	_	
+37-4	955-961	Neues?	_	GFailure[9]	fremdgehen\_set1\_10[9]	latin3[9]	qaaqp55l485lvs9rdvpvbtmqal-fremdgehen\_set1\_10[9]	_	_	_	_	_	false[86]	Int[86]	*[217]	*[217]	*[217]	wh\_6[217]	wh\_question[217]	openq[217]	*[347]	male[347]	*[347]	speaker:Ulrich[477]	_	_	_	_	_	
+
+#Text=Charlotte ist fremdgegangen
+38-1	963-972	Charlotte	_	GFailure[9]	fremdgehen\_set1\_10[9]	latin3[9]	qaaqp55l485lvs9rdvpvbtmqal-fremdgehen\_set1\_10[9]	*	*	Subj	*	*	false[87]	Decl[87]	*[218]	fremdgehen[218]	intransitive[218]	*[218]	*[218]	item0[218]	24[348]	male[348]	qaaqp55l485lvs9rdvpvbtmqal[348]	speaker: YOU[478]	*->51-1|*->26-1	clause[51]|PropNm[26]	explanation|elaboration|CR	*|*|*	40-1[88_87]|41-1[89_87]|39-1[0_87]	
+38-2	973-976	ist	_	GFailure[9]	fremdgehen\_set1\_10[9]	latin3[9]	qaaqp55l485lvs9rdvpvbtmqal-fremdgehen\_set1\_10[9]	_	_	_	_	_	false[87]	Decl[87]	*[218]	fremdgehen[218]	intransitive[218]	*[218]	*[218]	item0[218]	24[348]	male[348]	qaaqp55l485lvs9rdvpvbtmqal[348]	speaker: YOU[478]	*->51-1	clause[51]	_	_	_	
+38-3	977-990	fremdgegangen	_	GFailure[9]	fremdgehen\_set1\_10[9]	latin3[9]	qaaqp55l485lvs9rdvpvbtmqal-fremdgehen\_set1\_10[9]	_	_	_	_	_	false[87]	Decl[87]	*[218]	fremdgehen[218]	intransitive[218]	*[218]	*[218]	item0[218]	24[348]	male[348]	qaaqp55l485lvs9rdvpvbtmqal[348]	speaker: YOU[478]	*->51-1	clause[51]	_	_	_	
+
+#Text=Was?
+39-1	992-996	Was?	_	GFailure[9]	fremdgehen\_set1\_10[9]	latin3[9]	qaaqp55l485lvs9rdvpvbtmqal-fremdgehen\_set1\_10[9]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	male	*	speaker:Ulrich	_	_	_	_	_	
+
+#Text=Hab es heute von Mark erfahren
+40-1	998-1001	Hab	_	GFailure[9]	fremdgehen\_set1\_10[9]	latin3[9]	qaaqp55l485lvs9rdvpvbtmqal-fremdgehen\_set1\_10[9]	1	*	*	*	singular	false[88]	Decl[88]	*[219]	*[219]	*[219]	*[219]	*[219]	input1[219]	24[349]	male[349]	qaaqp55l485lvs9rdvpvbtmqal[349]	speaker: YOU[479]	*->7-1	zero[7]	_	_	_	
+40-2	1002-1004	es	_	GFailure[9]	fremdgehen\_set1\_10[9]	latin3[9]	qaaqp55l485lvs9rdvpvbtmqal-fremdgehen\_set1\_10[9]	3	*	DirObj	*	singular	false[88]	Decl[88]	*[219]	*[219]	*[219]	*[219]	*[219]	input1[219]	24[349]	male[349]	qaaqp55l485lvs9rdvpvbtmqal[349]	speaker: YOU[479]	*->51-2	PerPron[51]	_	_	_	
+40-3	1005-1010	heute	_	GFailure[9]	fremdgehen\_set1\_10[9]	latin3[9]	qaaqp55l485lvs9rdvpvbtmqal-fremdgehen\_set1\_10[9]	_	_	_	_	_	false[88]	Decl[88]	*[219]	*[219]	*[219]	*[219]	*[219]	input1[219]	24[349]	male[349]	qaaqp55l485lvs9rdvpvbtmqal[349]	speaker: YOU[479]	_	_	_	_	_	
+40-4	1011-1014	von	_	GFailure[9]	fremdgehen\_set1\_10[9]	latin3[9]	qaaqp55l485lvs9rdvpvbtmqal-fremdgehen\_set1\_10[9]	_	_	_	_	_	false[88]	Decl[88]	*[219]	*[219]	*[219]	*[219]	*[219]	input1[219]	24[349]	male[349]	qaaqp55l485lvs9rdvpvbtmqal[349]	speaker: YOU[479]	_	_	_	_	_	
+40-5	1015-1019	Mark	_	GFailure[9]	fremdgehen\_set1\_10[9]	latin3[9]	qaaqp55l485lvs9rdvpvbtmqal-fremdgehen\_set1\_10[9]	*	*	PrepObj	*	*	false[88]	Decl[88]	*[219]	*[219]	*[219]	*[219]	*[219]	input1[219]	24[349]	male[349]	qaaqp55l485lvs9rdvpvbtmqal[349]	speaker: YOU[479]	*->70-1	PropNm[70]	_	_	_	
+40-6	1020-1028	erfahren	_	GFailure[9]	fremdgehen\_set1\_10[9]	latin3[9]	qaaqp55l485lvs9rdvpvbtmqal-fremdgehen\_set1\_10[9]	_	_	_	_	_	false[88]	Decl[88]	*[219]	*[219]	*[219]	*[219]	*[219]	input1[219]	24[349]	male[349]	qaaqp55l485lvs9rdvpvbtmqal[349]	speaker: YOU[479]	_	_	_	_	_	
+
+#Text=Weiß nicht wie ich darauf reagieren soll
+41-1	1030-1034	Weiß	_	GFailure[9]	fremdgehen\_set1\_10[9]	latin3[9]	qaaqp55l485lvs9rdvpvbtmqal-fremdgehen\_set1\_10[9]	1	*	*	*	singular	false[89]	Decl[89]	*[220]	*[220]	*[220]	*[220]	*[220]	input2[220]	24[350]	male[350]	qaaqp55l485lvs9rdvpvbtmqal[350]	speaker: YOU[480]	*->7-2	zero[7]	_	_	_	
+41-2	1035-1040	nicht	_	GFailure[9]	fremdgehen\_set1\_10[9]	latin3[9]	qaaqp55l485lvs9rdvpvbtmqal-fremdgehen\_set1\_10[9]	_	_	_	_	_	false[89]	Decl[89]	*[220]	*[220]	*[220]	*[220]	*[220]	input2[220]	24[350]	male[350]	qaaqp55l485lvs9rdvpvbtmqal[350]	speaker: YOU[480]	_	_	_	_	_	
+41-3	1041-1044	wie	_	GFailure[9]	fremdgehen\_set1\_10[9]	latin3[9]	qaaqp55l485lvs9rdvpvbtmqal-fremdgehen\_set1\_10[9]	_	_	_	_	_	false[89]	Decl[89]	*[220]	*[220]	*[220]	*[220]	*[220]	input2[220]	24[350]	male[350]	qaaqp55l485lvs9rdvpvbtmqal[350]	speaker: YOU[480]	_	_	_	_	_	
+41-4	1045-1048	ich	_	GFailure[9]	fremdgehen\_set1\_10[9]	latin3[9]	qaaqp55l485lvs9rdvpvbtmqal-fremdgehen\_set1\_10[9]	1	*	Subj	*	singular	false[89]	Decl[89]	*[220]	*[220]	*[220]	*[220]	*[220]	input2[220]	24[350]	male[350]	qaaqp55l485lvs9rdvpvbtmqal[350]	speaker: YOU[480]	*->7-3	PerPron[7]	_	_	_	
+41-5	1049-1055	darauf	_	GFailure[9]	fremdgehen\_set1\_10[9]	latin3[9]	qaaqp55l485lvs9rdvpvbtmqal-fremdgehen\_set1\_10[9]	*	*	DirObj	*	*	false[89]	Decl[89]	*[220]	*[220]	*[220]	*[220]	*[220]	input2[220]	24[350]	male[350]	qaaqp55l485lvs9rdvpvbtmqal[350]	speaker: YOU[480]	*->51-3	DemPron[51]	_	_	_	
+41-6	1056-1065	reagieren	_	GFailure[9]	fremdgehen\_set1\_10[9]	latin3[9]	qaaqp55l485lvs9rdvpvbtmqal-fremdgehen\_set1\_10[9]	_	_	_	_	_	false[89]	Decl[89]	*[220]	*[220]	*[220]	*[220]	*[220]	input2[220]	24[350]	male[350]	qaaqp55l485lvs9rdvpvbtmqal[350]	speaker: YOU[480]	_	_	_	_	_	
+41-7	1066-1070	soll	_	GFailure[9]	fremdgehen\_set1\_10[9]	latin3[9]	qaaqp55l485lvs9rdvpvbtmqal-fremdgehen\_set1\_10[9]	_	_	_	_	_	false[89]	Decl[89]	*[220]	*[220]	*[220]	*[220]	*[220]	input2[220]	24[350]	male[350]	qaaqp55l485lvs9rdvpvbtmqal[350]	speaker: YOU[480]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+42-1	1072-1087	END_OF_DOCUMENT	_	GFailure[9]	fremdgehen\_set1\_10[9]	latin3[9]	qaaqp55l485lvs9rdvpvbtmqal-fremdgehen\_set1\_10[9]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+43-1	1089-1093	Hey,	_	GFailure[10]	fremdgehen\_set1\_10[10]	latin3[10]	t6ah1r7hfmcncb44kgnh0sjmv6-fremdgehen\_set1\_10[10]	_	_	_	_	_	false[90]	Int[90]	*[221]	*[221]	*[221]	wh\_6[221]	wh\_question[221]	openq[221]	*[351]	male[351]	*[351]	speaker:Ulrich[481]	_	_	QAP	*	44-1[91_90]	
+43-2	1094-1097	was	_	GFailure[10]	fremdgehen\_set1\_10[10]	latin3[10]	t6ah1r7hfmcncb44kgnh0sjmv6-fremdgehen\_set1\_10[10]	_	_	_	_	_	false[90]	Int[90]	*[221]	*[221]	*[221]	wh\_6[221]	wh\_question[221]	openq[221]	*[351]	male[351]	*[351]	speaker:Ulrich[481]	_	_	_	_	_	
+43-3	1098-1103	gibts	_	GFailure[10]	fremdgehen\_set1\_10[10]	latin3[10]	t6ah1r7hfmcncb44kgnh0sjmv6-fremdgehen\_set1\_10[10]	_	_	_	_	_	false[90]	Int[90]	*[221]	*[221]	*[221]	wh\_6[221]	wh\_question[221]	openq[221]	*[351]	male[351]	*[351]	speaker:Ulrich[481]	_	_	_	_	_	
+43-4	1104-1110	Neues?	_	GFailure[10]	fremdgehen\_set1\_10[10]	latin3[10]	t6ah1r7hfmcncb44kgnh0sjmv6-fremdgehen\_set1\_10[10]	_	_	_	_	_	false[90]	Int[90]	*[221]	*[221]	*[221]	wh\_6[221]	wh\_question[221]	openq[221]	*[351]	male[351]	*[351]	speaker:Ulrich[481]	_	_	_	_	_	
+
+#Text=Charlotte ist fremdgegangen
+44-1	1112-1121	Charlotte	_	GFailure[10]	fremdgehen\_set1\_10[10]	latin3[10]	t6ah1r7hfmcncb44kgnh0sjmv6-fremdgehen\_set1\_10[10]	*	*	Subj	*	*	false[91]	Decl[91]	*[222]	fremdgehen[222]	intransitive[222]	*[222]	*[222]	item0[222]	25[352]	female[352]	t6ah1r7hfmcncb44kgnh0sjmv6[352]	speaker: YOU[482]	*->1-1|*->38-1	clause[1]|PropNm[38]	elaboration|elaboration|CR	*|*|*	47-1[93_91]|46-1[92_91]|45-1[0_91]	
+44-2	1122-1125	ist	_	GFailure[10]	fremdgehen\_set1\_10[10]	latin3[10]	t6ah1r7hfmcncb44kgnh0sjmv6-fremdgehen\_set1\_10[10]	_	_	_	_	_	false[91]	Decl[91]	*[222]	fremdgehen[222]	intransitive[222]	*[222]	*[222]	item0[222]	25[352]	female[352]	t6ah1r7hfmcncb44kgnh0sjmv6[352]	speaker: YOU[482]	*->1-1	clause[1]	_	_	_	
+44-3	1126-1139	fremdgegangen	_	GFailure[10]	fremdgehen\_set1\_10[10]	latin3[10]	t6ah1r7hfmcncb44kgnh0sjmv6-fremdgehen\_set1\_10[10]	_	_	_	_	_	false[91]	Decl[91]	*[222]	fremdgehen[222]	intransitive[222]	*[222]	*[222]	item0[222]	25[352]	female[352]	t6ah1r7hfmcncb44kgnh0sjmv6[352]	speaker: YOU[482]	*->1-1	clause[1]	_	_	_	
+
+#Text=Was?
+45-1	1141-1145	Was?	_	GFailure[10]	fremdgehen\_set1\_10[10]	latin3[10]	t6ah1r7hfmcncb44kgnh0sjmv6-fremdgehen\_set1\_10[10]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	male	*	speaker:Ulrich	_	_	_	_	_	
+
+#Text=Ja damit hätte niemand gerechnet
+46-1	1147-1149	Ja	_	GFailure[10]	fremdgehen\_set1\_10[10]	latin3[10]	t6ah1r7hfmcncb44kgnh0sjmv6-fremdgehen\_set1\_10[10]	_	_	_	_	_	false[92]	Decl[92]	*[223]	*[223]	*[223]	*[223]	*[223]	input1[223]	25[353]	female[353]	t6ah1r7hfmcncb44kgnh0sjmv6[353]	speaker: YOU[483]	_	_	_	_	_	
+46-2	1150-1155	damit	_	GFailure[10]	fremdgehen\_set1\_10[10]	latin3[10]	t6ah1r7hfmcncb44kgnh0sjmv6-fremdgehen\_set1\_10[10]	_	_	_	_	_	false[92]	Decl[92]	*[223]	*[223]	*[223]	*[223]	*[223]	input1[223]	25[353]	female[353]	t6ah1r7hfmcncb44kgnh0sjmv6[353]	speaker: YOU[483]	*->1-2	D-Pron[1]	_	_	_	
+46-3	1156-1161	hätte	_	GFailure[10]	fremdgehen\_set1\_10[10]	latin3[10]	t6ah1r7hfmcncb44kgnh0sjmv6-fremdgehen\_set1\_10[10]	_	_	_	_	_	false[92]	Decl[92]	*[223]	*[223]	*[223]	*[223]	*[223]	input1[223]	25[353]	female[353]	t6ah1r7hfmcncb44kgnh0sjmv6[353]	speaker: YOU[483]	_	_	_	_	_	
+46-4	1162-1169	niemand	_	GFailure[10]	fremdgehen\_set1\_10[10]	latin3[10]	t6ah1r7hfmcncb44kgnh0sjmv6-fremdgehen\_set1\_10[10]	*	*	Subj	*	*	false[92]	Decl[92]	*[223]	*[223]	*[223]	*[223]	*[223]	input1[223]	25[353]	female[353]	t6ah1r7hfmcncb44kgnh0sjmv6[353]	speaker: YOU[483]	_	_	_	_	_	
+46-5	1170-1179	gerechnet	_	GFailure[10]	fremdgehen\_set1\_10[10]	latin3[10]	t6ah1r7hfmcncb44kgnh0sjmv6-fremdgehen\_set1\_10[10]	_	_	_	_	_	false[92]	Decl[92]	*[223]	*[223]	*[223]	*[223]	*[223]	input1[223]	25[353]	female[353]	t6ah1r7hfmcncb44kgnh0sjmv6[353]	speaker: YOU[483]	_	_	_	_	_	
+
+#Text=Und dann auch noch mit ihrem Professor!
+47-1	1181-1184	Und	_	GFailure[10]	fremdgehen\_set1\_10[10]	latin3[10]	t6ah1r7hfmcncb44kgnh0sjmv6-fremdgehen\_set1\_10[10]	_	_	_	_	_	false[93]	NA[93]	*[224]	*[224]	*[224]	*[224]	*[224]	input2[224]	25[354]	female[354]	t6ah1r7hfmcncb44kgnh0sjmv6[354]	speaker: YOU[484]	_	_	_	_	_	
+47-2	1185-1189	dann	_	GFailure[10]	fremdgehen\_set1\_10[10]	latin3[10]	t6ah1r7hfmcncb44kgnh0sjmv6-fremdgehen\_set1\_10[10]	_	_	_	_	_	false[93]	NA[93]	*[224]	*[224]	*[224]	*[224]	*[224]	input2[224]	25[354]	female[354]	t6ah1r7hfmcncb44kgnh0sjmv6[354]	speaker: YOU[484]	_	_	_	_	_	
+47-3	1190-1194	auch	_	GFailure[10]	fremdgehen\_set1\_10[10]	latin3[10]	t6ah1r7hfmcncb44kgnh0sjmv6-fremdgehen\_set1\_10[10]	_	_	_	_	_	false[93]	NA[93]	*[224]	*[224]	*[224]	*[224]	*[224]	input2[224]	25[354]	female[354]	t6ah1r7hfmcncb44kgnh0sjmv6[354]	speaker: YOU[484]	_	_	_	_	_	
+47-4	1195-1199	noch	_	GFailure[10]	fremdgehen\_set1\_10[10]	latin3[10]	t6ah1r7hfmcncb44kgnh0sjmv6-fremdgehen\_set1\_10[10]	_	_	_	_	_	false[93]	NA[93]	*[224]	*[224]	*[224]	*[224]	*[224]	input2[224]	25[354]	female[354]	t6ah1r7hfmcncb44kgnh0sjmv6[354]	speaker: YOU[484]	_	_	_	_	_	
+47-5	1200-1203	mit	_	GFailure[10]	fremdgehen\_set1\_10[10]	latin3[10]	t6ah1r7hfmcncb44kgnh0sjmv6-fremdgehen\_set1\_10[10]	_	_	_	_	_	false[93]	NA[93]	*[224]	*[224]	*[224]	*[224]	*[224]	input2[224]	25[354]	female[354]	t6ah1r7hfmcncb44kgnh0sjmv6[354]	speaker: YOU[484]	_	_	_	_	_	
+47-6	1204-1209	ihrem	_	GFailure[10]	fremdgehen\_set1\_10[10]	latin3[10]	t6ah1r7hfmcncb44kgnh0sjmv6-fremdgehen\_set1\_10[10]	*[37]|3[38]	*[37]|*[38]	PrepObj[37]|*[38]	*[37]|*[38]	*[37]|singular[38]	false[93]	NA[93]	*[224]	*[224]	*[224]	*[224]	*[224]	input2[224]	25[354]	female[354]	t6ah1r7hfmcncb44kgnh0sjmv6[354]	speaker: YOU[484]	*->103-1|*->38-2	DefNP[103]|PossePron[38]	_	_	_	
+47-7	1210-1220	Professor!	_	GFailure[10]	fremdgehen\_set1\_10[10]	latin3[10]	t6ah1r7hfmcncb44kgnh0sjmv6-fremdgehen\_set1\_10[10]	*[37]	*[37]	PrepObj[37]	*[37]	*[37]	false[93]	NA[93]	*[224]	*[224]	*[224]	*[224]	*[224]	input2[224]	25[354]	female[354]	t6ah1r7hfmcncb44kgnh0sjmv6[354]	speaker: YOU[484]	*->103-1	DefNP[103]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+48-1	1222-1237	END_OF_DOCUMENT	_	GFailure[10]	fremdgehen\_set1\_10[10]	latin3[10]	t6ah1r7hfmcncb44kgnh0sjmv6-fremdgehen\_set1\_10[10]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+49-1	1239-1243	Hey,	_	GFailure[11]	fremdgehen\_set1\_10[11]	latin3[11]	ue2vk0ts1hkpki58vsa3j8t39j-fremdgehen\_set1\_10[11]	_	_	_	_	_	false[94]	Int[94]	*[225]	*[225]	*[225]	wh\_6[225]	wh\_question[225]	openq[225]	*[355]	male[355]	*[355]	speaker:Ulrich[485]	_	_	QAP	*	50-1[95_94]	
+49-2	1244-1247	was	_	GFailure[11]	fremdgehen\_set1\_10[11]	latin3[11]	ue2vk0ts1hkpki58vsa3j8t39j-fremdgehen\_set1\_10[11]	_	_	_	_	_	false[94]	Int[94]	*[225]	*[225]	*[225]	wh\_6[225]	wh\_question[225]	openq[225]	*[355]	male[355]	*[355]	speaker:Ulrich[485]	_	_	_	_	_	
+49-3	1248-1253	gibts	_	GFailure[11]	fremdgehen\_set1\_10[11]	latin3[11]	ue2vk0ts1hkpki58vsa3j8t39j-fremdgehen\_set1\_10[11]	_	_	_	_	_	false[94]	Int[94]	*[225]	*[225]	*[225]	wh\_6[225]	wh\_question[225]	openq[225]	*[355]	male[355]	*[355]	speaker:Ulrich[485]	_	_	_	_	_	
+49-4	1254-1260	Neues?	_	GFailure[11]	fremdgehen\_set1\_10[11]	latin3[11]	ue2vk0ts1hkpki58vsa3j8t39j-fremdgehen\_set1\_10[11]	_	_	_	_	_	false[94]	Int[94]	*[225]	*[225]	*[225]	wh\_6[225]	wh\_question[225]	openq[225]	*[355]	male[355]	*[355]	speaker:Ulrich[485]	_	_	_	_	_	
+
+#Text=Charlotte ist fremdgegangen
+50-1	1262-1271	Charlotte	_	GFailure[11]	fremdgehen\_set1\_10[11]	latin3[11]	ue2vk0ts1hkpki58vsa3j8t39j-fremdgehen\_set1\_10[11]	*	*	Subj	*	*	false[95]	Decl[95]	*[226]	fremdgehen[226]	intransitive[226]	*[226]	*[226]	item0[226]	29[356]	female[356]	ue2vk0ts1hkpki58vsa3j8t39j[356]	speaker: YOU[486]	*->100-1|*->62-1	clause[100]|PropNm[62]	elaboration|CR	*|*	52-1[96_95]|51-1[0_95]	
+50-2	1272-1275	ist	_	GFailure[11]	fremdgehen\_set1\_10[11]	latin3[11]	ue2vk0ts1hkpki58vsa3j8t39j-fremdgehen\_set1\_10[11]	_	_	_	_	_	false[95]	Decl[95]	*[226]	fremdgehen[226]	intransitive[226]	*[226]	*[226]	item0[226]	29[356]	female[356]	ue2vk0ts1hkpki58vsa3j8t39j[356]	speaker: YOU[486]	*->100-1	clause[100]	_	_	_	
+50-3	1276-1289	fremdgegangen	_	GFailure[11]	fremdgehen\_set1\_10[11]	latin3[11]	ue2vk0ts1hkpki58vsa3j8t39j-fremdgehen\_set1\_10[11]	_	_	_	_	_	false[95]	Decl[95]	*[226]	fremdgehen[226]	intransitive[226]	*[226]	*[226]	item0[226]	29[356]	female[356]	ue2vk0ts1hkpki58vsa3j8t39j[356]	speaker: YOU[486]	*->100-1	clause[100]	_	_	_	
+
+#Text=Was?
+51-1	1291-1295	Was?	_	GFailure[11]	fremdgehen\_set1\_10[11]	latin3[11]	ue2vk0ts1hkpki58vsa3j8t39j-fremdgehen\_set1\_10[11]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	male	*	speaker:Ulrich	_	_	_	_	_	
+
+#Text=Ich bin aber gar nicht überrascht darüber!
+52-1	1297-1300	Ich	_	GFailure[11]	fremdgehen\_set1\_10[11]	latin3[11]	ue2vk0ts1hkpki58vsa3j8t39j-fremdgehen\_set1\_10[11]	1	*	Subj	*	singular	false[96]	Decl[96]	*[227]	*[227]	*[227]	*[227]	*[227]	input1[227]	29[357]	female[357]	ue2vk0ts1hkpki58vsa3j8t39j[357]	speaker: YOU[487]	*->105-1	PerPron[105]	explanation	*	53-1[97_96]	
+52-2	1301-1304	bin	_	GFailure[11]	fremdgehen\_set1\_10[11]	latin3[11]	ue2vk0ts1hkpki58vsa3j8t39j-fremdgehen\_set1\_10[11]	_	_	_	_	_	false[96]	Decl[96]	*[227]	*[227]	*[227]	*[227]	*[227]	input1[227]	29[357]	female[357]	ue2vk0ts1hkpki58vsa3j8t39j[357]	speaker: YOU[487]	_	_	_	_	_	
+52-3	1305-1309	aber	_	GFailure[11]	fremdgehen\_set1\_10[11]	latin3[11]	ue2vk0ts1hkpki58vsa3j8t39j-fremdgehen\_set1\_10[11]	_	_	_	_	_	false[96]	Decl[96]	*[227]	*[227]	*[227]	*[227]	*[227]	input1[227]	29[357]	female[357]	ue2vk0ts1hkpki58vsa3j8t39j[357]	speaker: YOU[487]	_	_	_	_	_	
+52-4	1310-1313	gar	_	GFailure[11]	fremdgehen\_set1\_10[11]	latin3[11]	ue2vk0ts1hkpki58vsa3j8t39j-fremdgehen\_set1\_10[11]	_	_	_	_	_	false[96]	Decl[96]	*[227]	*[227]	*[227]	*[227]	*[227]	input1[227]	29[357]	female[357]	ue2vk0ts1hkpki58vsa3j8t39j[357]	speaker: YOU[487]	_	_	_	_	_	
+52-5	1314-1319	nicht	_	GFailure[11]	fremdgehen\_set1\_10[11]	latin3[11]	ue2vk0ts1hkpki58vsa3j8t39j-fremdgehen\_set1\_10[11]	_	_	_	_	_	false[96]	Decl[96]	*[227]	*[227]	*[227]	*[227]	*[227]	input1[227]	29[357]	female[357]	ue2vk0ts1hkpki58vsa3j8t39j[357]	speaker: YOU[487]	_	_	_	_	_	
+52-6	1320-1330	überrascht	_	GFailure[11]	fremdgehen\_set1\_10[11]	latin3[11]	ue2vk0ts1hkpki58vsa3j8t39j-fremdgehen\_set1\_10[11]	_	_	_	_	_	false[96]	Decl[96]	*[227]	*[227]	*[227]	*[227]	*[227]	input1[227]	29[357]	female[357]	ue2vk0ts1hkpki58vsa3j8t39j[357]	speaker: YOU[487]	_	_	_	_	_	
+52-7	1331-1339	darüber!	_	GFailure[11]	fremdgehen\_set1\_10[11]	latin3[11]	ue2vk0ts1hkpki58vsa3j8t39j-fremdgehen\_set1\_10[11]	*	*	DirObj	*	*	false[96]	Decl[96]	*[227]	*[227]	*[227]	*[227]	*[227]	input1[227]	29[357]	female[357]	ue2vk0ts1hkpki58vsa3j8t39j[357]	speaker: YOU[487]	*->100-2	D-Pron[100]	_	_	_	
+
+#Text=Sie hat Max eh die ganze Zeit nur ausgenutzt.
+53-1	1341-1344	Sie	_	GFailure[11]	fremdgehen\_set1\_10[11]	latin3[11]	ue2vk0ts1hkpki58vsa3j8t39j-fremdgehen\_set1\_10[11]	3	*	Subj	*	singular	false[97]	Decl[97]	*[228]	*[228]	*[228]	*[228]	*[228]	input2[228]	29[358]	female[358]	ue2vk0ts1hkpki58vsa3j8t39j[358]	speaker: YOU[488]	*->62-2	PerPron[62]	_	_	_	
+53-2	1345-1348	hat	_	GFailure[11]	fremdgehen\_set1\_10[11]	latin3[11]	ue2vk0ts1hkpki58vsa3j8t39j-fremdgehen\_set1\_10[11]	_	_	_	_	_	false[97]	Decl[97]	*[228]	*[228]	*[228]	*[228]	*[228]	input2[228]	29[358]	female[358]	ue2vk0ts1hkpki58vsa3j8t39j[358]	speaker: YOU[488]	_	_	_	_	_	
+53-3	1349-1352	Max	_	GFailure[11]	fremdgehen\_set1\_10[11]	latin3[11]	ue2vk0ts1hkpki58vsa3j8t39j-fremdgehen\_set1\_10[11]	*	*	DirObj	*	*	false[97]	Decl[97]	*[228]	*[228]	*[228]	*[228]	*[228]	input2[228]	29[358]	female[358]	ue2vk0ts1hkpki58vsa3j8t39j[358]	speaker: YOU[488]	*->27-1	PropNm[27]	_	_	_	
+53-4	1353-1355	eh	_	GFailure[11]	fremdgehen\_set1\_10[11]	latin3[11]	ue2vk0ts1hkpki58vsa3j8t39j-fremdgehen\_set1\_10[11]	_	_	_	_	_	false[97]	Decl[97]	*[228]	*[228]	*[228]	*[228]	*[228]	input2[228]	29[358]	female[358]	ue2vk0ts1hkpki58vsa3j8t39j[358]	speaker: YOU[488]	_	_	_	_	_	
+53-5	1356-1359	die	_	GFailure[11]	fremdgehen\_set1\_10[11]	latin3[11]	ue2vk0ts1hkpki58vsa3j8t39j-fremdgehen\_set1\_10[11]	_	_	_	_	_	false[97]	Decl[97]	*[228]	*[228]	*[228]	*[228]	*[228]	input2[228]	29[358]	female[358]	ue2vk0ts1hkpki58vsa3j8t39j[358]	speaker: YOU[488]	*->43-1	DefNP[43]	_	_	_	
+53-6	1360-1365	ganze	_	GFailure[11]	fremdgehen\_set1\_10[11]	latin3[11]	ue2vk0ts1hkpki58vsa3j8t39j-fremdgehen\_set1\_10[11]	_	_	_	_	_	false[97]	Decl[97]	*[228]	*[228]	*[228]	*[228]	*[228]	input2[228]	29[358]	female[358]	ue2vk0ts1hkpki58vsa3j8t39j[358]	speaker: YOU[488]	*->43-1	DefNP[43]	_	_	_	
+53-7	1366-1370	Zeit	_	GFailure[11]	fremdgehen\_set1\_10[11]	latin3[11]	ue2vk0ts1hkpki58vsa3j8t39j-fremdgehen\_set1\_10[11]	_	_	_	_	_	false[97]	Decl[97]	*[228]	*[228]	*[228]	*[228]	*[228]	input2[228]	29[358]	female[358]	ue2vk0ts1hkpki58vsa3j8t39j[358]	speaker: YOU[488]	*->43-1	DefNP[43]	_	_	_	
+53-8	1371-1374	nur	_	GFailure[11]	fremdgehen\_set1\_10[11]	latin3[11]	ue2vk0ts1hkpki58vsa3j8t39j-fremdgehen\_set1\_10[11]	_	_	_	_	_	false[97]	Decl[97]	*[228]	*[228]	*[228]	*[228]	*[228]	input2[228]	29[358]	female[358]	ue2vk0ts1hkpki58vsa3j8t39j[358]	speaker: YOU[488]	_	_	_	_	_	
+53-9	1375-1386	ausgenutzt.	_	GFailure[11]	fremdgehen\_set1\_10[11]	latin3[11]	ue2vk0ts1hkpki58vsa3j8t39j-fremdgehen\_set1\_10[11]	_	_	_	_	_	false[97]	Decl[97]	*[228]	*[228]	*[228]	*[228]	*[228]	input2[228]	29[358]	female[358]	ue2vk0ts1hkpki58vsa3j8t39j[358]	speaker: YOU[488]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+54-1	1388-1403	END_OF_DOCUMENT	_	GFailure[11]	fremdgehen\_set1\_10[11]	latin3[11]	ue2vk0ts1hkpki58vsa3j8t39j-fremdgehen\_set1\_10[11]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+55-1	1405-1409	Hey,	_	GFailure[12]	fremdgehen\_set1\_10[12]	latin3[12]	v3le8i0hm1ekj0ps9oou7k56t5-fremdgehen\_set1\_10[12]	_	_	_	_	_	false[98]	Int[98]	*[229]	*[229]	*[229]	wh\_6[229]	wh\_question[229]	openq[229]	*[359]	male[359]	*[359]	speaker:Ulrich[489]	_	_	QAP	*	56-1[99_98]	
+55-2	1410-1413	was	_	GFailure[12]	fremdgehen\_set1\_10[12]	latin3[12]	v3le8i0hm1ekj0ps9oou7k56t5-fremdgehen\_set1\_10[12]	_	_	_	_	_	false[98]	Int[98]	*[229]	*[229]	*[229]	wh\_6[229]	wh\_question[229]	openq[229]	*[359]	male[359]	*[359]	speaker:Ulrich[489]	_	_	_	_	_	
+55-3	1414-1419	gibts	_	GFailure[12]	fremdgehen\_set1\_10[12]	latin3[12]	v3le8i0hm1ekj0ps9oou7k56t5-fremdgehen\_set1\_10[12]	_	_	_	_	_	false[98]	Int[98]	*[229]	*[229]	*[229]	wh\_6[229]	wh\_question[229]	openq[229]	*[359]	male[359]	*[359]	speaker:Ulrich[489]	_	_	_	_	_	
+55-4	1420-1426	Neues?	_	GFailure[12]	fremdgehen\_set1\_10[12]	latin3[12]	v3le8i0hm1ekj0ps9oou7k56t5-fremdgehen\_set1\_10[12]	_	_	_	_	_	false[98]	Int[98]	*[229]	*[229]	*[229]	wh\_6[229]	wh\_question[229]	openq[229]	*[359]	male[359]	*[359]	speaker:Ulrich[489]	_	_	_	_	_	
+
+#Text=Charlotte ist fremdgegangen
+56-1	1428-1437	Charlotte	_	GFailure[12]	fremdgehen\_set1\_10[12]	latin3[12]	v3le8i0hm1ekj0ps9oou7k56t5-fremdgehen\_set1\_10[12]	*	*	Subj	*	*	false[99]	Decl[99]	*[230]	fremdgehen[230]	intransitive[230]	*[230]	*[230]	item0[230]	58[360]	male[360]	v3le8i0hm1ekj0ps9oou7k56t5[360]	speaker: YOU[490]	*->109-1	PropNm[109]	CR	*	57-1[0_99]	
+56-2	1438-1441	ist	_	GFailure[12]	fremdgehen\_set1\_10[12]	latin3[12]	v3le8i0hm1ekj0ps9oou7k56t5-fremdgehen\_set1\_10[12]	_	_	_	_	_	false[99]	Decl[99]	*[230]	fremdgehen[230]	intransitive[230]	*[230]	*[230]	item0[230]	58[360]	male[360]	v3le8i0hm1ekj0ps9oou7k56t5[360]	speaker: YOU[490]	_	_	_	_	_	
+56-3	1442-1455	fremdgegangen	_	GFailure[12]	fremdgehen\_set1\_10[12]	latin3[12]	v3le8i0hm1ekj0ps9oou7k56t5-fremdgehen\_set1\_10[12]	_	_	_	_	_	false[99]	Decl[99]	*[230]	fremdgehen[230]	intransitive[230]	*[230]	*[230]	item0[230]	58[360]	male[360]	v3le8i0hm1ekj0ps9oou7k56t5[360]	speaker: YOU[490]	_	_	_	_	_	
+
+#Text=Was?
+57-1	1457-1461	Was?	_	GFailure[12]	fremdgehen\_set1\_10[12]	latin3[12]	v3le8i0hm1ekj0ps9oou7k56t5-fremdgehen\_set1\_10[12]	_	_	_	_	_	false	NA	was\_question\_3	*	*	*	*	feedback	*	male	*	speaker:Ulrich	_	_	_	_	_	
+
+#Text=würd ich nicht texten
+58-1	1463-1467	würd	MetaCommentError[1]	GFailure[12]	fremdgehen\_set1\_10[12]	latin3[12]	v3le8i0hm1ekj0ps9oou7k56t5-fremdgehen\_set1\_10[12]	_	_	_	_	_	_	_	*[231]	*[231]	*[231]	*[231]	*[231]	input1[231]	58[361]	male[361]	v3le8i0hm1ekj0ps9oou7k56t5[361]	speaker: YOU[491]	_	_	_	_	_	
+58-2	1468-1471	ich	MetaCommentError[1]	GFailure[12]	fremdgehen\_set1\_10[12]	latin3[12]	v3le8i0hm1ekj0ps9oou7k56t5-fremdgehen\_set1\_10[12]	*	*	Subj	*	*	_	_	*[231]	*[231]	*[231]	*[231]	*[231]	input1[231]	58[361]	male[361]	v3le8i0hm1ekj0ps9oou7k56t5[361]	speaker: YOU[491]	_	_	_	_	_	
+58-3	1472-1477	nicht	MetaCommentError[1]	GFailure[12]	fremdgehen\_set1\_10[12]	latin3[12]	v3le8i0hm1ekj0ps9oou7k56t5-fremdgehen\_set1\_10[12]	_	_	_	_	_	_	_	*[231]	*[231]	*[231]	*[231]	*[231]	input1[231]	58[361]	male[361]	v3le8i0hm1ekj0ps9oou7k56t5[361]	speaker: YOU[491]	_	_	_	_	_	
+58-4	1478-1484	texten	MetaCommentError[1]	GFailure[12]	fremdgehen\_set1\_10[12]	latin3[12]	v3le8i0hm1ekj0ps9oou7k56t5-fremdgehen\_set1\_10[12]	_	_	_	_	_	_	_	*[231]	*[231]	*[231]	*[231]	*[231]	input1[231]	58[361]	male[361]	v3le8i0hm1ekj0ps9oou7k56t5[361]	speaker: YOU[491]	_	_	_	_	_	
+
+#Text=da fällt mir nicht's ein
+59-1	1486-1488	da	MetaCommentError[2]	GFailure[12]	fremdgehen\_set1\_10[12]	latin3[12]	v3le8i0hm1ekj0ps9oou7k56t5-fremdgehen\_set1\_10[12]	_	_	_	_	_	_	_	*[232]	*[232]	*[232]	*[232]	*[232]	input2[232]	58[362]	male[362]	v3le8i0hm1ekj0ps9oou7k56t5[362]	speaker: YOU[492]	_	_	_	_	_	
+59-2	1489-1494	fällt	MetaCommentError[2]	GFailure[12]	fremdgehen\_set1\_10[12]	latin3[12]	v3le8i0hm1ekj0ps9oou7k56t5-fremdgehen\_set1\_10[12]	_	_	_	_	_	_	_	*[232]	*[232]	*[232]	*[232]	*[232]	input2[232]	58[362]	male[362]	v3le8i0hm1ekj0ps9oou7k56t5[362]	speaker: YOU[492]	_	_	_	_	_	
+59-3	1495-1498	mir	MetaCommentError[2]	GFailure[12]	fremdgehen\_set1\_10[12]	latin3[12]	v3le8i0hm1ekj0ps9oou7k56t5-fremdgehen\_set1\_10[12]	*	*	IndirObj	*	*	_	_	*[232]	*[232]	*[232]	*[232]	*[232]	input2[232]	58[362]	male[362]	v3le8i0hm1ekj0ps9oou7k56t5[362]	speaker: YOU[492]	_	_	_	_	_	
+59-4	1499-1506	nicht's	MetaCommentError[2]	GFailure[12]	fremdgehen\_set1\_10[12]	latin3[12]	v3le8i0hm1ekj0ps9oou7k56t5-fremdgehen\_set1\_10[12]	_	_	_	_	_	_	_	*[232]	*[232]	*[232]	*[232]	*[232]	input2[232]	58[362]	male[362]	v3le8i0hm1ekj0ps9oou7k56t5[362]	speaker: YOU[492]	_	_	_	_	_	
+59-5	1507-1510	ein	MetaCommentError[2]	GFailure[12]	fremdgehen\_set1\_10[12]	latin3[12]	v3le8i0hm1ekj0ps9oou7k56t5-fremdgehen\_set1\_10[12]	_	_	_	_	_	_	_	*[232]	*[232]	*[232]	*[232]	*[232]	input2[232]	58[362]	male[362]	v3le8i0hm1ekj0ps9oou7k56t5[362]	speaker: YOU[492]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+60-1	1512-1527	END_OF_DOCUMENT	_	GFailure[12]	fremdgehen\_set1\_10[12]	latin3[12]	v3le8i0hm1ekj0ps9oou7k56t5-fremdgehen\_set1\_10[12]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+61-1	1529-1533	Hey,	_	GSuccess[13]	fremdgehen\_set1\_10[13]	latin1[13]	2k56uavscuainedj0q9i1sb693-fremdgehen\_set1\_10[13]	_	_	_	_	_	false[100]	Int[100]	*[233]	*[233]	*[233]	wh\_6[233]	wh\_question[233]	openq[233]	*[363]	male[363]	*[363]	speaker:Ulrich[493]	_	_	QAP	*	62-1[101_100]	
+61-2	1534-1537	was	_	GSuccess[13]	fremdgehen\_set1\_10[13]	latin1[13]	2k56uavscuainedj0q9i1sb693-fremdgehen\_set1\_10[13]	_	_	_	_	_	false[100]	Int[100]	*[233]	*[233]	*[233]	wh\_6[233]	wh\_question[233]	openq[233]	*[363]	male[363]	*[363]	speaker:Ulrich[493]	_	_	_	_	_	
+61-3	1538-1543	gibts	_	GSuccess[13]	fremdgehen\_set1\_10[13]	latin1[13]	2k56uavscuainedj0q9i1sb693-fremdgehen\_set1\_10[13]	_	_	_	_	_	false[100]	Int[100]	*[233]	*[233]	*[233]	wh\_6[233]	wh\_question[233]	openq[233]	*[363]	male[363]	*[363]	speaker:Ulrich[493]	_	_	_	_	_	
+61-4	1544-1550	Neues?	_	GSuccess[13]	fremdgehen\_set1\_10[13]	latin1[13]	2k56uavscuainedj0q9i1sb693-fremdgehen\_set1\_10[13]	_	_	_	_	_	false[100]	Int[100]	*[233]	*[233]	*[233]	wh\_6[233]	wh\_question[233]	openq[233]	*[363]	male[363]	*[363]	speaker:Ulrich[493]	_	_	_	_	_	
+
+#Text=Charlotte ist fremdgegangen
+62-1	1552-1561	Charlotte	_	GSuccess[13]	fremdgehen\_set1\_10[13]	latin1[13]	2k56uavscuainedj0q9i1sb693-fremdgehen\_set1\_10[13]	*	*	Subj	*	*	false[101]	Decl[101]	*[234]	fremdgehen[234]	intransitive[234]	*[234]	*[234]	item0[234]	35[364]	female[364]	2k56uavscuainedj0q9i1sb693[364]	speaker: YOU[494]	*->74-1	PropNm[74]	result|acknowledgement	*|*	64-1[103_101]|63-1[102_101]	
+62-2	1562-1565	ist	_	GSuccess[13]	fremdgehen\_set1\_10[13]	latin1[13]	2k56uavscuainedj0q9i1sb693-fremdgehen\_set1\_10[13]	_	_	_	_	_	false[101]	Decl[101]	*[234]	fremdgehen[234]	intransitive[234]	*[234]	*[234]	item0[234]	35[364]	female[364]	2k56uavscuainedj0q9i1sb693[364]	speaker: YOU[494]	_	_	_	_	_	
+62-3	1566-1579	fremdgegangen	_	GSuccess[13]	fremdgehen\_set1\_10[13]	latin1[13]	2k56uavscuainedj0q9i1sb693-fremdgehen\_set1\_10[13]	_	_	_	_	_	false[101]	Decl[101]	*[234]	fremdgehen[234]	intransitive[234]	*[234]	*[234]	item0[234]	35[364]	female[364]	2k56uavscuainedj0q9i1sb693[364]	speaker: YOU[494]	_	_	_	_	_	
+
+#Text=Oh nein
+63-1	1581-1583	Oh	_	GSuccess[13]	fremdgehen\_set1\_10[13]	latin1[13]	2k56uavscuainedj0q9i1sb693-fremdgehen\_set1\_10[13]	_	_	_	_	_	false[102]	NA[102]	oh-nein\_25[235]	*[235]	*[235]	*[235]	*[235]	feedback[235]	*[365]	male[365]	*[365]	speaker:Ulrich[495]	_	_	_	_	_	
+63-2	1584-1588	nein	_	GSuccess[13]	fremdgehen\_set1\_10[13]	latin1[13]	2k56uavscuainedj0q9i1sb693-fremdgehen\_set1\_10[13]	_	_	_	_	_	false[102]	NA[102]	oh-nein\_25[235]	*[235]	*[235]	*[235]	*[235]	feedback[235]	*[365]	male[365]	*[365]	speaker:Ulrich[495]	_	_	_	_	_	
+
+#Text=Kannst du telefonieren?
+64-1	1590-1596	Kannst	_	GSuccess[13]	fremdgehen\_set1\_10[13]	latin1[13]	2k56uavscuainedj0q9i1sb693-fremdgehen\_set1\_10[13]	_	_	_	_	_	false[103]	Int[103]	*[236]	*[236]	*[236]	*[236]	*[236]	input1[236]	35[366]	female[366]	2k56uavscuainedj0q9i1sb693[366]	speaker: YOU[496]	_	_	explanation	*	65-1[104_103]	
+64-2	1597-1599	du	_	GSuccess[13]	fremdgehen\_set1\_10[13]	latin1[13]	2k56uavscuainedj0q9i1sb693-fremdgehen\_set1\_10[13]	2	*	Subj	*	singular	false[103]	Int[103]	*[236]	*[236]	*[236]	*[236]	*[236]	input1[236]	35[366]	female[366]	2k56uavscuainedj0q9i1sb693[366]	speaker: YOU[496]	*->24-1	PerPron[24]	_	_	_	
+64-3	1600-1613	telefonieren?	_	GSuccess[13]	fremdgehen\_set1\_10[13]	latin1[13]	2k56uavscuainedj0q9i1sb693-fremdgehen\_set1\_10[13]	_	_	_	_	_	false[103]	Int[103]	*[236]	*[236]	*[236]	*[236]	*[236]	input1[236]	35[366]	female[366]	2k56uavscuainedj0q9i1sb693[366]	speaker: YOU[496]	_	_	_	_	_	
+
+#Text=Würde gern mit jemandem reden.
+65-1	1615-1620	Würde	_	GSuccess[13]	fremdgehen\_set1\_10[13]	latin1[13]	2k56uavscuainedj0q9i1sb693-fremdgehen\_set1\_10[13]	1	*	*	*	singular	false[104]	Decl[104]	*[237]	*[237]	*[237]	*[237]	*[237]	input2[237]	35[367]	female[367]	2k56uavscuainedj0q9i1sb693[367]	speaker: YOU[497]	*->89-1	zero[89]	_	_	_	
+65-2	1621-1625	gern	_	GSuccess[13]	fremdgehen\_set1\_10[13]	latin1[13]	2k56uavscuainedj0q9i1sb693-fremdgehen\_set1\_10[13]	_	_	_	_	_	false[104]	Decl[104]	*[237]	*[237]	*[237]	*[237]	*[237]	input2[237]	35[367]	female[367]	2k56uavscuainedj0q9i1sb693[367]	speaker: YOU[497]	_	_	_	_	_	
+65-3	1626-1629	mit	_	GSuccess[13]	fremdgehen\_set1\_10[13]	latin1[13]	2k56uavscuainedj0q9i1sb693-fremdgehen\_set1\_10[13]	_	_	_	_	_	false[104]	Decl[104]	*[237]	*[237]	*[237]	*[237]	*[237]	input2[237]	35[367]	female[367]	2k56uavscuainedj0q9i1sb693[367]	speaker: YOU[497]	_	_	_	_	_	
+65-4	1630-1638	jemandem	_	GSuccess[13]	fremdgehen\_set1\_10[13]	latin1[13]	2k56uavscuainedj0q9i1sb693-fremdgehen\_set1\_10[13]	*	*	PrepObj	*	*	false[104]	Decl[104]	*[237]	*[237]	*[237]	*[237]	*[237]	input2[237]	35[367]	female[367]	2k56uavscuainedj0q9i1sb693[367]	speaker: YOU[497]	*->56-1	IndefNP[56]	_	_	_	
+65-5	1639-1645	reden.	_	GSuccess[13]	fremdgehen\_set1\_10[13]	latin1[13]	2k56uavscuainedj0q9i1sb693-fremdgehen\_set1\_10[13]	_	_	_	_	_	false[104]	Decl[104]	*[237]	*[237]	*[237]	*[237]	*[237]	input2[237]	35[367]	female[367]	2k56uavscuainedj0q9i1sb693[367]	speaker: YOU[497]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+66-1	1647-1662	END_OF_DOCUMENT	_	GSuccess[13]	fremdgehen\_set1\_10[13]	latin1[13]	2k56uavscuainedj0q9i1sb693-fremdgehen\_set1\_10[13]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+67-1	1664-1668	Hey,	_	GSuccess[14]	fremdgehen\_set1\_10[14]	latin1[14]	7bq5ecc5fndmatjvd44havavdp-fremdgehen\_set1\_10[14]	_	_	_	_	_	false[105]	Int[105]	*[238]	*[238]	*[238]	wh\_6[238]	wh\_question[238]	openq[238]	*[368]	male[368]	*[368]	speaker:Ulrich[498]	_	_	QAP	*	68-1[106_105]	
+67-2	1669-1672	was	_	GSuccess[14]	fremdgehen\_set1\_10[14]	latin1[14]	7bq5ecc5fndmatjvd44havavdp-fremdgehen\_set1\_10[14]	_	_	_	_	_	false[105]	Int[105]	*[238]	*[238]	*[238]	wh\_6[238]	wh\_question[238]	openq[238]	*[368]	male[368]	*[368]	speaker:Ulrich[498]	_	_	_	_	_	
+67-3	1673-1678	gibts	_	GSuccess[14]	fremdgehen\_set1\_10[14]	latin1[14]	7bq5ecc5fndmatjvd44havavdp-fremdgehen\_set1\_10[14]	_	_	_	_	_	false[105]	Int[105]	*[238]	*[238]	*[238]	wh\_6[238]	wh\_question[238]	openq[238]	*[368]	male[368]	*[368]	speaker:Ulrich[498]	_	_	_	_	_	
+67-4	1679-1685	Neues?	_	GSuccess[14]	fremdgehen\_set1\_10[14]	latin1[14]	7bq5ecc5fndmatjvd44havavdp-fremdgehen\_set1\_10[14]	_	_	_	_	_	false[105]	Int[105]	*[238]	*[238]	*[238]	wh\_6[238]	wh\_question[238]	openq[238]	*[368]	male[368]	*[368]	speaker:Ulrich[498]	_	_	_	_	_	
+
+#Text=Charlotte ist fremdgegangen
+68-1	1687-1696	Charlotte	_	GSuccess[14]	fremdgehen\_set1\_10[14]	latin1[14]	7bq5ecc5fndmatjvd44havavdp-fremdgehen\_set1\_10[14]	*	*	Subj	*	*	false[106]	Decl[106]	*[239]	fremdgehen[239]	intransitive[239]	*[239]	*[239]	item0[239]	46[369]	male[369]	7bq5ecc5fndmatjvd44havavdp[369]	speaker: YOU[499]	*->93-1	PropNm[93]	elaboration|acknowledgement	*|*	70-1[108_106]|69-1[107_106]	
+68-2	1697-1700	ist	_	GSuccess[14]	fremdgehen\_set1\_10[14]	latin1[14]	7bq5ecc5fndmatjvd44havavdp-fremdgehen\_set1\_10[14]	_	_	_	_	_	false[106]	Decl[106]	*[239]	fremdgehen[239]	intransitive[239]	*[239]	*[239]	item0[239]	46[369]	male[369]	7bq5ecc5fndmatjvd44havavdp[369]	speaker: YOU[499]	_	_	_	_	_	
+68-3	1701-1714	fremdgegangen	_	GSuccess[14]	fremdgehen\_set1\_10[14]	latin1[14]	7bq5ecc5fndmatjvd44havavdp-fremdgehen\_set1\_10[14]	_	_	_	_	_	false[106]	Decl[106]	*[239]	fremdgehen[239]	intransitive[239]	*[239]	*[239]	item0[239]	46[369]	male[369]	7bq5ecc5fndmatjvd44havavdp[369]	speaker: YOU[499]	_	_	_	_	_	
+
+#Text=Oh nein
+69-1	1716-1718	Oh	_	GSuccess[14]	fremdgehen\_set1\_10[14]	latin1[14]	7bq5ecc5fndmatjvd44havavdp-fremdgehen\_set1\_10[14]	_	_	_	_	_	false[107]	NA[107]	oh-nein\_25[240]	*[240]	*[240]	*[240]	*[240]	feedback[240]	*[370]	male[370]	*[370]	speaker:Ulrich[500]	_	_	_	_	_	
+69-2	1719-1723	nein	_	GSuccess[14]	fremdgehen\_set1\_10[14]	latin1[14]	7bq5ecc5fndmatjvd44havavdp-fremdgehen\_set1\_10[14]	_	_	_	_	_	false[107]	NA[107]	oh-nein\_25[240]	*[240]	*[240]	*[240]	*[240]	feedback[240]	*[370]	male[370]	*[370]	speaker:Ulrich[500]	_	_	_	_	_	
+
+#Text=und weisst du mit wem?
+70-1	1725-1728	und	_	GSuccess[14]	fremdgehen\_set1\_10[14]	latin1[14]	7bq5ecc5fndmatjvd44havavdp-fremdgehen\_set1\_10[14]	_	_	_	_	_	false[108]	Int[108]	*[241]	*[241]	*[241]	*[241]	*[241]	input1[241]	46[371]	male[371]	7bq5ecc5fndmatjvd44havavdp[371]	speaker: YOU[501]	_	_	elaboration	*	71-1[109_108]	
+70-2	1729-1735	weisst	_	GSuccess[14]	fremdgehen\_set1\_10[14]	latin1[14]	7bq5ecc5fndmatjvd44havavdp-fremdgehen\_set1\_10[14]	_	_	_	_	_	false[108]	Int[108]	*[241]	*[241]	*[241]	*[241]	*[241]	input1[241]	46[371]	male[371]	7bq5ecc5fndmatjvd44havavdp[371]	speaker: YOU[501]	_	_	_	_	_	
+70-3	1736-1738	du	_	GSuccess[14]	fremdgehen\_set1\_10[14]	latin1[14]	7bq5ecc5fndmatjvd44havavdp-fremdgehen\_set1\_10[14]	2	*	Subj	*	singular	false[108]	Int[108]	*[241]	*[241]	*[241]	*[241]	*[241]	input1[241]	46[371]	male[371]	7bq5ecc5fndmatjvd44havavdp[371]	speaker: YOU[501]	*->55-1	PerPron[55]	_	_	_	
+70-4	1739-1742	mit	_	GSuccess[14]	fremdgehen\_set1\_10[14]	latin1[14]	7bq5ecc5fndmatjvd44havavdp-fremdgehen\_set1\_10[14]	_	_	_	_	_	false[108]	Int[108]	*[241]	*[241]	*[241]	*[241]	*[241]	input1[241]	46[371]	male[371]	7bq5ecc5fndmatjvd44havavdp[371]	speaker: YOU[501]	_	_	_	_	_	
+70-5	1743-1747	wem?	_	GSuccess[14]	fremdgehen\_set1\_10[14]	latin1[14]	7bq5ecc5fndmatjvd44havavdp-fremdgehen\_set1\_10[14]	_	_	_	_	_	false[108]	Int[108]	*[241]	*[241]	*[241]	*[241]	*[241]	input1[241]	46[371]	male[371]	7bq5ecc5fndmatjvd44havavdp[371]	speaker: YOU[501]	_	_	_	_	_	
+
+#Text=Donald Trump
+71-1	1749-1755	Donald	_	GSuccess[14]	fremdgehen\_set1\_10[14]	latin1[14]	7bq5ecc5fndmatjvd44havavdp-fremdgehen\_set1\_10[14]	*[39]	*[39]	PrepObj[39]	*[39]	*[39]	false[109]	NA[109]	*[242]	*[242]	*[242]	*[242]	*[242]	input2[242]	46[372]	male[372]	7bq5ecc5fndmatjvd44havavdp[372]	speaker: YOU[502]	*->110-1	PropNm[110]	_	_	_	
+71-2	1756-1761	Trump	_	GSuccess[14]	fremdgehen\_set1\_10[14]	latin1[14]	7bq5ecc5fndmatjvd44havavdp-fremdgehen\_set1\_10[14]	*[39]	*[39]	PrepObj[39]	*[39]	*[39]	false[109]	NA[109]	*[242]	*[242]	*[242]	*[242]	*[242]	input2[242]	46[372]	male[372]	7bq5ecc5fndmatjvd44havavdp[372]	speaker: YOU[502]	*->110-1	PropNm[110]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+72-1	1763-1778	END_OF_DOCUMENT	_	GSuccess[14]	fremdgehen\_set1\_10[14]	latin1[14]	7bq5ecc5fndmatjvd44havavdp-fremdgehen\_set1\_10[14]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+73-1	1780-1784	Hey,	_	GSuccess[15]	fremdgehen\_set1\_10[15]	latin1[15]	9bb79dhfhst017575orahklqol-fremdgehen\_set1\_10[15]	_	_	_	_	_	false[110]	Int[110]	*[243]	*[243]	*[243]	wh\_6[243]	wh\_question[243]	openq[243]	*[373]	male[373]	*[373]	speaker:Ulrich[503]	_	_	parallel|QAP	*|*	77-1[114_110]|74-1[111_110]	
+73-2	1785-1788	was	_	GSuccess[15]	fremdgehen\_set1\_10[15]	latin1[15]	9bb79dhfhst017575orahklqol-fremdgehen\_set1\_10[15]	_	_	_	_	_	false[110]	Int[110]	*[243]	*[243]	*[243]	wh\_6[243]	wh\_question[243]	openq[243]	*[373]	male[373]	*[373]	speaker:Ulrich[503]	_	_	_	_	_	
+73-3	1789-1794	gibts	_	GSuccess[15]	fremdgehen\_set1\_10[15]	latin1[15]	9bb79dhfhst017575orahklqol-fremdgehen\_set1\_10[15]	_	_	_	_	_	false[110]	Int[110]	*[243]	*[243]	*[243]	wh\_6[243]	wh\_question[243]	openq[243]	*[373]	male[373]	*[373]	speaker:Ulrich[503]	_	_	_	_	_	
+73-4	1795-1801	Neues?	_	GSuccess[15]	fremdgehen\_set1\_10[15]	latin1[15]	9bb79dhfhst017575orahklqol-fremdgehen\_set1\_10[15]	_	_	_	_	_	false[110]	Int[110]	*[243]	*[243]	*[243]	wh\_6[243]	wh\_question[243]	openq[243]	*[373]	male[373]	*[373]	speaker:Ulrich[503]	_	_	_	_	_	
+
+#Text=Charlotte ist fremdgegangen
+74-1	1803-1812	Charlotte	_	GSuccess[15]	fremdgehen\_set1\_10[15]	latin1[15]	9bb79dhfhst017575orahklqol-fremdgehen\_set1\_10[15]	*	*	Subj	*	*	false[111]	Decl[111]	*[244]	fremdgehen[244]	intransitive[244]	*[244]	*[244]	item0[244]	37[374]	female[374]	9bb79dhfhst017575orahklqol[374]	speaker: YOU[504]	*->90-1	PropNm[90]	result|acknowledgement	*|*	76-1[113_111]|75-1[112_111]	
+74-2	1813-1816	ist	_	GSuccess[15]	fremdgehen\_set1\_10[15]	latin1[15]	9bb79dhfhst017575orahklqol-fremdgehen\_set1\_10[15]	_	_	_	_	_	false[111]	Decl[111]	*[244]	fremdgehen[244]	intransitive[244]	*[244]	*[244]	item0[244]	37[374]	female[374]	9bb79dhfhst017575orahklqol[374]	speaker: YOU[504]	_	_	_	_	_	
+74-3	1817-1830	fremdgegangen	_	GSuccess[15]	fremdgehen\_set1\_10[15]	latin1[15]	9bb79dhfhst017575orahklqol-fremdgehen\_set1\_10[15]	_	_	_	_	_	false[111]	Decl[111]	*[244]	fremdgehen[244]	intransitive[244]	*[244]	*[244]	item0[244]	37[374]	female[374]	9bb79dhfhst017575orahklqol[374]	speaker: YOU[504]	_	_	_	_	_	
+
+#Text=Oh nein
+75-1	1832-1834	Oh	_	GSuccess[15]	fremdgehen\_set1\_10[15]	latin1[15]	9bb79dhfhst017575orahklqol-fremdgehen\_set1\_10[15]	_	_	_	_	_	false[112]	NA[112]	oh-nein\_25[245]	*[245]	*[245]	*[245]	*[245]	feedback[245]	*[375]	male[375]	*[375]	speaker:Ulrich[505]	_	_	_	_	_	
+75-2	1835-1839	nein	_	GSuccess[15]	fremdgehen\_set1\_10[15]	latin1[15]	9bb79dhfhst017575orahklqol-fremdgehen\_set1\_10[15]	_	_	_	_	_	false[112]	NA[112]	oh-nein\_25[245]	*[245]	*[245]	*[245]	*[245]	feedback[245]	*[375]	male[375]	*[375]	speaker:Ulrich[505]	_	_	_	_	_	
+
+#Text=bin stinke sauer
+76-1	1841-1844	bin	_	GSuccess[15]	fremdgehen\_set1\_10[15]	latin1[15]	9bb79dhfhst017575orahklqol-fremdgehen\_set1\_10[15]	1	*	*	*	singular	false[113]	Decl[113]	*[246]	*[246]	*[246]	*[246]	*[246]	input1[246]	37[376]	female[376]	9bb79dhfhst017575orahklqol[376]	speaker: YOU[506]	*->16-1	zero[16]	_	_	_	
+76-2	1845-1851	stinke	_	GSuccess[15]	fremdgehen\_set1\_10[15]	latin1[15]	9bb79dhfhst017575orahklqol-fremdgehen\_set1\_10[15]	_	_	_	_	_	false[113]	Decl[113]	*[246]	*[246]	*[246]	*[246]	*[246]	input1[246]	37[376]	female[376]	9bb79dhfhst017575orahklqol[376]	speaker: YOU[506]	_	_	_	_	_	
+76-3	1852-1857	sauer	_	GSuccess[15]	fremdgehen\_set1\_10[15]	latin1[15]	9bb79dhfhst017575orahklqol-fremdgehen\_set1\_10[15]	_	_	_	_	_	false[113]	Decl[113]	*[246]	*[246]	*[246]	*[246]	*[246]	input1[246]	37[376]	female[376]	9bb79dhfhst017575orahklqol[376]	speaker: YOU[506]	_	_	_	_	_	
+
+#Text=was gibts bei dir neues?
+77-1	1859-1862	was	_	GSuccess[15]	fremdgehen\_set1\_10[15]	latin1[15]	9bb79dhfhst017575orahklqol-fremdgehen\_set1\_10[15]	_	_	_	_	_	false[114]	Int[114]	*[247]	*[247]	*[247]	*[247]	*[247]	input2[247]	37[377]	female[377]	9bb79dhfhst017575orahklqol[377]	speaker: YOU[507]	_	_	_	_	_	
+77-2	1863-1868	gibts	_	GSuccess[15]	fremdgehen\_set1\_10[15]	latin1[15]	9bb79dhfhst017575orahklqol-fremdgehen\_set1\_10[15]	_	_	_	_	_	false[114]	Int[114]	*[247]	*[247]	*[247]	*[247]	*[247]	input2[247]	37[377]	female[377]	9bb79dhfhst017575orahklqol[377]	speaker: YOU[507]	_	_	_	_	_	
+77-3	1869-1872	bei	_	GSuccess[15]	fremdgehen\_set1\_10[15]	latin1[15]	9bb79dhfhst017575orahklqol-fremdgehen\_set1\_10[15]	_	_	_	_	_	false[114]	Int[114]	*[247]	*[247]	*[247]	*[247]	*[247]	input2[247]	37[377]	female[377]	9bb79dhfhst017575orahklqol[377]	speaker: YOU[507]	_	_	_	_	_	
+77-4	1873-1876	dir	_	GSuccess[15]	fremdgehen\_set1\_10[15]	latin1[15]	9bb79dhfhst017575orahklqol-fremdgehen\_set1\_10[15]	2	*	PrepObj	*	singular	false[114]	Int[114]	*[247]	*[247]	*[247]	*[247]	*[247]	input2[247]	37[377]	female[377]	9bb79dhfhst017575orahklqol[377]	speaker: YOU[507]	*->79-1	PerPron[79]	_	_	_	
+77-5	1877-1883	neues?	_	GSuccess[15]	fremdgehen\_set1\_10[15]	latin1[15]	9bb79dhfhst017575orahklqol-fremdgehen\_set1\_10[15]	_	_	_	_	_	false[114]	Int[114]	*[247]	*[247]	*[247]	*[247]	*[247]	input2[247]	37[377]	female[377]	9bb79dhfhst017575orahklqol[377]	speaker: YOU[507]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+78-1	1885-1900	END_OF_DOCUMENT	_	GSuccess[15]	fremdgehen\_set1\_10[15]	latin1[15]	9bb79dhfhst017575orahklqol-fremdgehen\_set1\_10[15]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+79-1	1902-1906	Hey,	_	GSuccess[16]	fremdgehen\_set1\_10[16]	latin1[16]	afpst3sherp4732c4se5ajftkq-fremdgehen\_set1\_10[16]	_	_	_	_	_	false[115]	Int[115]	*[248]	*[248]	*[248]	wh\_6[248]	wh\_question[248]	openq[248]	*[378]	male[378]	*[378]	speaker:Ulrich[508]	_	_	QAP	*	80-1[116_115]	
+79-2	1907-1910	was	_	GSuccess[16]	fremdgehen\_set1\_10[16]	latin1[16]	afpst3sherp4732c4se5ajftkq-fremdgehen\_set1\_10[16]	_	_	_	_	_	false[115]	Int[115]	*[248]	*[248]	*[248]	wh\_6[248]	wh\_question[248]	openq[248]	*[378]	male[378]	*[378]	speaker:Ulrich[508]	_	_	_	_	_	
+79-3	1911-1916	gibts	_	GSuccess[16]	fremdgehen\_set1\_10[16]	latin1[16]	afpst3sherp4732c4se5ajftkq-fremdgehen\_set1\_10[16]	_	_	_	_	_	false[115]	Int[115]	*[248]	*[248]	*[248]	wh\_6[248]	wh\_question[248]	openq[248]	*[378]	male[378]	*[378]	speaker:Ulrich[508]	_	_	_	_	_	
+79-4	1917-1923	Neues?	_	GSuccess[16]	fremdgehen\_set1\_10[16]	latin1[16]	afpst3sherp4732c4se5ajftkq-fremdgehen\_set1\_10[16]	_	_	_	_	_	false[115]	Int[115]	*[248]	*[248]	*[248]	wh\_6[248]	wh\_question[248]	openq[248]	*[378]	male[378]	*[378]	speaker:Ulrich[508]	_	_	_	_	_	
+
+#Text=Charlotte ist fremdgegangen
+80-1	1925-1934	Charlotte	_	GSuccess[16]	fremdgehen\_set1\_10[16]	latin1[16]	afpst3sherp4732c4se5ajftkq-fremdgehen\_set1\_10[16]	*	*	Subj	*	*	false[116]	Decl[116]	*[249]	fremdgehen[249]	intransitive[249]	*[249]	*[249]	item0[249]	21[379]	male[379]	afpst3sherp4732c4se5ajftkq[379]	speaker: YOU[509]	*->37-1|*->104-1	clause[37]|PropNm[104]	explanation|elaboration|acknowledgement	*|*|*	82-1[118_116]|83-1[119_116]|81-1[117_116]	
+80-2	1935-1938	ist	_	GSuccess[16]	fremdgehen\_set1\_10[16]	latin1[16]	afpst3sherp4732c4se5ajftkq-fremdgehen\_set1\_10[16]	_	_	_	_	_	false[116]	Decl[116]	*[249]	fremdgehen[249]	intransitive[249]	*[249]	*[249]	item0[249]	21[379]	male[379]	afpst3sherp4732c4se5ajftkq[379]	speaker: YOU[509]	*->37-1	clause[37]	_	_	_	
+80-3	1939-1952	fremdgegangen	_	GSuccess[16]	fremdgehen\_set1\_10[16]	latin1[16]	afpst3sherp4732c4se5ajftkq-fremdgehen\_set1\_10[16]	_	_	_	_	_	false[116]	Decl[116]	*[249]	fremdgehen[249]	intransitive[249]	*[249]	*[249]	item0[249]	21[379]	male[379]	afpst3sherp4732c4se5ajftkq[379]	speaker: YOU[509]	*->37-1	clause[37]	_	_	_	
+
+#Text=Oh nein
+81-1	1954-1956	Oh	_	GSuccess[16]	fremdgehen\_set1\_10[16]	latin1[16]	afpst3sherp4732c4se5ajftkq-fremdgehen\_set1\_10[16]	_	_	_	_	_	false[117]	NA[117]	oh-nein\_25[250]	*[250]	*[250]	*[250]	*[250]	feedback[250]	*[380]	male[380]	*[380]	speaker:Ulrich[510]	_	_	_	_	_	
+81-2	1957-1961	nein	_	GSuccess[16]	fremdgehen\_set1\_10[16]	latin1[16]	afpst3sherp4732c4se5ajftkq-fremdgehen\_set1\_10[16]	_	_	_	_	_	false[117]	NA[117]	oh-nein\_25[250]	*[250]	*[250]	*[250]	*[250]	feedback[250]	*[380]	male[380]	*[380]	speaker:Ulrich[510]	_	_	_	_	_	
+
+#Text=Sie hat es mir heute gestanden.
+82-1	1963-1966	Sie	_	GSuccess[16]	fremdgehen\_set1\_10[16]	latin1[16]	afpst3sherp4732c4se5ajftkq-fremdgehen\_set1\_10[16]	3	*	Subj	*	singular	false[118]	Decl[118]	*[251]	*[251]	*[251]	*[251]	*[251]	input1[251]	21[381]	male[381]	afpst3sherp4732c4se5ajftkq[381]	speaker: YOU[511]	*->104-2	PerPron[104]	_	_	_	
+82-2	1967-1970	hat	_	GSuccess[16]	fremdgehen\_set1\_10[16]	latin1[16]	afpst3sherp4732c4se5ajftkq-fremdgehen\_set1\_10[16]	_	_	_	_	_	false[118]	Decl[118]	*[251]	*[251]	*[251]	*[251]	*[251]	input1[251]	21[381]	male[381]	afpst3sherp4732c4se5ajftkq[381]	speaker: YOU[511]	_	_	_	_	_	
+82-3	1971-1973	es	_	GSuccess[16]	fremdgehen\_set1\_10[16]	latin1[16]	afpst3sherp4732c4se5ajftkq-fremdgehen\_set1\_10[16]	3	*	DirObj	*	singular	false[118]	Decl[118]	*[251]	*[251]	*[251]	*[251]	*[251]	input1[251]	21[381]	male[381]	afpst3sherp4732c4se5ajftkq[381]	speaker: YOU[511]	*->37-2	PerPron[37]	_	_	_	
+82-4	1974-1977	mir	_	GSuccess[16]	fremdgehen\_set1\_10[16]	latin1[16]	afpst3sherp4732c4se5ajftkq-fremdgehen\_set1\_10[16]	1	*	IndirObj	*	singular	false[118]	Decl[118]	*[251]	*[251]	*[251]	*[251]	*[251]	input1[251]	21[381]	male[381]	afpst3sherp4732c4se5ajftkq[381]	speaker: YOU[511]	*->107-1	PerPron[107]	_	_	_	
+82-5	1978-1983	heute	_	GSuccess[16]	fremdgehen\_set1\_10[16]	latin1[16]	afpst3sherp4732c4se5ajftkq-fremdgehen\_set1\_10[16]	_	_	_	_	_	false[118]	Decl[118]	*[251]	*[251]	*[251]	*[251]	*[251]	input1[251]	21[381]	male[381]	afpst3sherp4732c4se5ajftkq[381]	speaker: YOU[511]	_	_	_	_	_	
+82-6	1984-1994	gestanden.	_	GSuccess[16]	fremdgehen\_set1\_10[16]	latin1[16]	afpst3sherp4732c4se5ajftkq-fremdgehen\_set1\_10[16]	_	_	_	_	_	false[118]	Decl[118]	*[251]	*[251]	*[251]	*[251]	*[251]	input1[251]	21[381]	male[381]	afpst3sherp4732c4se5ajftkq[381]	speaker: YOU[511]	_	_	_	_	_	
+
+#Text=Mit Moritz dem Charmeur.
+83-1	1996-1999	Mit	_	GSuccess[16]	fremdgehen\_set1\_10[16]	latin1[16]	afpst3sherp4732c4se5ajftkq-fremdgehen\_set1\_10[16]	_	_	_	_	_	false[119]	NA[119]	*[252]	*[252]	*[252]	*[252]	*[252]	input2[252]	21[382]	male[382]	afpst3sherp4732c4se5ajftkq[382]	speaker: YOU[512]	_	_	_	_	_	
+83-2	2000-2006	Moritz	_	GSuccess[16]	fremdgehen\_set1\_10[16]	latin1[16]	afpst3sherp4732c4se5ajftkq-fremdgehen\_set1\_10[16]	*[40]	*[40]	PrepObj[40]	*[40]	*[40]	false[119]	NA[119]	*[252]	*[252]	*[252]	*[252]	*[252]	input2[252]	21[382]	male[382]	afpst3sherp4732c4se5ajftkq[382]	speaker: YOU[512]	*->75-1	PropNm[75]	_	_	_	
+83-3	2007-2010	dem	_	GSuccess[16]	fremdgehen\_set1\_10[16]	latin1[16]	afpst3sherp4732c4se5ajftkq-fremdgehen\_set1\_10[16]	*[40]	*[40]	PrepObj[40]	*[40]	*[40]	false[119]	NA[119]	*[252]	*[252]	*[252]	*[252]	*[252]	input2[252]	21[382]	male[382]	afpst3sherp4732c4se5ajftkq[382]	speaker: YOU[512]	*->75-2	DefNP[75]	_	_	_	
+83-4	2011-2020	Charmeur.	_	GSuccess[16]	fremdgehen\_set1\_10[16]	latin1[16]	afpst3sherp4732c4se5ajftkq-fremdgehen\_set1\_10[16]	*[40]	*[40]	PrepObj[40]	*[40]	*[40]	false[119]	NA[119]	*[252]	*[252]	*[252]	*[252]	*[252]	input2[252]	21[382]	male[382]	afpst3sherp4732c4se5ajftkq[382]	speaker: YOU[512]	_	_	_	_	_	
+83-4.1	2011-2019	Charmeur	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	*->75-2	DefNP[75]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+84-1	2022-2037	END_OF_DOCUMENT	_	GSuccess[16]	fremdgehen\_set1\_10[16]	latin1[16]	afpst3sherp4732c4se5ajftkq-fremdgehen\_set1\_10[16]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+85-1	2039-2043	Hey,	_	GSuccess[17]	fremdgehen\_set1\_10[17]	latin1[17]	blj8i1h4sc8jti0m6gcav1c9ek-fremdgehen\_set1\_10[17]	_	_	_	_	_	false[120]	Int[120]	*[253]	*[253]	*[253]	wh\_6[253]	wh\_question[253]	openq[253]	*[383]	male[383]	*[383]	speaker:Ulrich[513]	_	_	QAP	*	86-1[121_120]	
+85-2	2044-2047	was	_	GSuccess[17]	fremdgehen\_set1\_10[17]	latin1[17]	blj8i1h4sc8jti0m6gcav1c9ek-fremdgehen\_set1\_10[17]	_	_	_	_	_	false[120]	Int[120]	*[253]	*[253]	*[253]	wh\_6[253]	wh\_question[253]	openq[253]	*[383]	male[383]	*[383]	speaker:Ulrich[513]	_	_	_	_	_	
+85-3	2048-2053	gibts	_	GSuccess[17]	fremdgehen\_set1\_10[17]	latin1[17]	blj8i1h4sc8jti0m6gcav1c9ek-fremdgehen\_set1\_10[17]	_	_	_	_	_	false[120]	Int[120]	*[253]	*[253]	*[253]	wh\_6[253]	wh\_question[253]	openq[253]	*[383]	male[383]	*[383]	speaker:Ulrich[513]	_	_	_	_	_	
+85-4	2054-2060	Neues?	_	GSuccess[17]	fremdgehen\_set1\_10[17]	latin1[17]	blj8i1h4sc8jti0m6gcav1c9ek-fremdgehen\_set1\_10[17]	_	_	_	_	_	false[120]	Int[120]	*[253]	*[253]	*[253]	wh\_6[253]	wh\_question[253]	openq[253]	*[383]	male[383]	*[383]	speaker:Ulrich[513]	_	_	_	_	_	
+
+#Text=Charlotte ist fremdgegangen
+86-1	2062-2071	Charlotte	_	GSuccess[17]	fremdgehen\_set1\_10[17]	latin1[17]	blj8i1h4sc8jti0m6gcav1c9ek-fremdgehen\_set1\_10[17]	*	*	Subj	*	*	false[121]	Decl[121]	*[254]	fremdgehen[254]	intransitive[254]	*[254]	*[254]	item0[254]	42[384]	female[384]	blj8i1h4sc8jti0m6gcav1c9ek[384]	speaker: YOU[514]	*->83-1|*->29-1	clause[83]|PropNm[29]	result|result|acknowledgement	*|*|*	89-1[124_121]|88-1[123_121]|87-1[122_121]	
+86-2	2072-2075	ist	_	GSuccess[17]	fremdgehen\_set1\_10[17]	latin1[17]	blj8i1h4sc8jti0m6gcav1c9ek-fremdgehen\_set1\_10[17]	_	_	_	_	_	false[121]	Decl[121]	*[254]	fremdgehen[254]	intransitive[254]	*[254]	*[254]	item0[254]	42[384]	female[384]	blj8i1h4sc8jti0m6gcav1c9ek[384]	speaker: YOU[514]	*->83-1	clause[83]	_	_	_	
+86-3	2076-2089	fremdgegangen	_	GSuccess[17]	fremdgehen\_set1\_10[17]	latin1[17]	blj8i1h4sc8jti0m6gcav1c9ek-fremdgehen\_set1\_10[17]	_	_	_	_	_	false[121]	Decl[121]	*[254]	fremdgehen[254]	intransitive[254]	*[254]	*[254]	item0[254]	42[384]	female[384]	blj8i1h4sc8jti0m6gcav1c9ek[384]	speaker: YOU[514]	*->83-1	clause[83]	_	_	_	
+
+#Text=Oh nein
+87-1	2091-2093	Oh	_	GSuccess[17]	fremdgehen\_set1\_10[17]	latin1[17]	blj8i1h4sc8jti0m6gcav1c9ek-fremdgehen\_set1\_10[17]	_	_	_	_	_	false[122]	NA[122]	oh-nein\_25[255]	*[255]	*[255]	*[255]	*[255]	feedback[255]	*[385]	male[385]	*[385]	speaker:Ulrich[515]	_	_	_	_	_	
+87-2	2094-2098	nein	_	GSuccess[17]	fremdgehen\_set1\_10[17]	latin1[17]	blj8i1h4sc8jti0m6gcav1c9ek-fremdgehen\_set1\_10[17]	_	_	_	_	_	false[122]	NA[122]	oh-nein\_25[255]	*[255]	*[255]	*[255]	*[255]	feedback[255]	*[385]	male[385]	*[385]	speaker:Ulrich[515]	_	_	_	_	_	
+
+#Text=Ich glaube nicht <BR> dass ich ihr das verzeihen kann.
+88-1	2100-2103	Ich	_	GSuccess[17]	fremdgehen\_set1\_10[17]	latin1[17]	blj8i1h4sc8jti0m6gcav1c9ek-fremdgehen\_set1\_10[17]	1	*	Subj	*	singular	false[123]	Decl[123]	*[256]	*[256]	*[256]	*[256]	*[256]	input1[256]	42[386]	female[386]	blj8i1h4sc8jti0m6gcav1c9ek[386]	speaker: YOU[516]	*->106-1	PerPron[106]	_	_	_	
+88-2	2104-2110	glaube	_	GSuccess[17]	fremdgehen\_set1\_10[17]	latin1[17]	blj8i1h4sc8jti0m6gcav1c9ek-fremdgehen\_set1\_10[17]	_	_	_	_	_	false[123]	Decl[123]	*[256]	*[256]	*[256]	*[256]	*[256]	input1[256]	42[386]	female[386]	blj8i1h4sc8jti0m6gcav1c9ek[386]	speaker: YOU[516]	_	_	_	_	_	
+88-3	2111-2116	nicht	_	GSuccess[17]	fremdgehen\_set1\_10[17]	latin1[17]	blj8i1h4sc8jti0m6gcav1c9ek-fremdgehen\_set1\_10[17]	_	_	_	_	_	false[123]	Decl[123]	*[256]	*[256]	*[256]	*[256]	*[256]	input1[256]	42[386]	female[386]	blj8i1h4sc8jti0m6gcav1c9ek[386]	speaker: YOU[516]	_	_	_	_	_	
+88-4	2117-2121	<BR>	_	GSuccess[17]	fremdgehen\_set1\_10[17]	latin1[17]	blj8i1h4sc8jti0m6gcav1c9ek-fremdgehen\_set1\_10[17]	_	_	_	_	_	false[123]	Decl[123]	*[256]	*[256]	*[256]	*[256]	*[256]	input1[256]	42[386]	female[386]	blj8i1h4sc8jti0m6gcav1c9ek[386]	speaker: YOU[516]	_	_	_	_	_	
+88-5	2122-2126	dass	_	GSuccess[17]	fremdgehen\_set1\_10[17]	latin1[17]	blj8i1h4sc8jti0m6gcav1c9ek-fremdgehen\_set1\_10[17]	_	_	_	_	_	false[123]	Decl[123]	*[256]	*[256]	*[256]	*[256]	*[256]	input1[256]	42[386]	female[386]	blj8i1h4sc8jti0m6gcav1c9ek[386]	speaker: YOU[516]	_	_	_	_	_	
+88-6	2127-2130	ich	_	GSuccess[17]	fremdgehen\_set1\_10[17]	latin1[17]	blj8i1h4sc8jti0m6gcav1c9ek-fremdgehen\_set1\_10[17]	1	*	Embedded	*	singular	false[123]	Decl[123]	*[256]	*[256]	*[256]	*[256]	*[256]	input1[256]	42[386]	female[386]	blj8i1h4sc8jti0m6gcav1c9ek[386]	speaker: YOU[516]	*->106-2	PerPron[106]	_	_	_	
+88-7	2131-2134	ihr	_	GSuccess[17]	fremdgehen\_set1\_10[17]	latin1[17]	blj8i1h4sc8jti0m6gcav1c9ek-fremdgehen\_set1\_10[17]	3	*	Embedded	*	singular	false[123]	Decl[123]	*[256]	*[256]	*[256]	*[256]	*[256]	input1[256]	42[386]	female[386]	blj8i1h4sc8jti0m6gcav1c9ek[386]	speaker: YOU[516]	*->29-2	PerPron[29]	_	_	_	
+88-8	2135-2138	das	_	GSuccess[17]	fremdgehen\_set1\_10[17]	latin1[17]	blj8i1h4sc8jti0m6gcav1c9ek-fremdgehen\_set1\_10[17]	*	*	Embedded	*	*	false[123]	Decl[123]	*[256]	*[256]	*[256]	*[256]	*[256]	input1[256]	42[386]	female[386]	blj8i1h4sc8jti0m6gcav1c9ek[386]	speaker: YOU[516]	*->83-2	D-Pron[83]	_	_	_	
+88-9	2139-2148	verzeihen	_	GSuccess[17]	fremdgehen\_set1\_10[17]	latin1[17]	blj8i1h4sc8jti0m6gcav1c9ek-fremdgehen\_set1\_10[17]	_	_	_	_	_	false[123]	Decl[123]	*[256]	*[256]	*[256]	*[256]	*[256]	input1[256]	42[386]	female[386]	blj8i1h4sc8jti0m6gcav1c9ek[386]	speaker: YOU[516]	_	_	_	_	_	
+88-10	2149-2154	kann.	_	GSuccess[17]	fremdgehen\_set1\_10[17]	latin1[17]	blj8i1h4sc8jti0m6gcav1c9ek-fremdgehen\_set1\_10[17]	_	_	_	_	_	false[123]	Decl[123]	*[256]	*[256]	*[256]	*[256]	*[256]	input1[256]	42[386]	female[386]	blj8i1h4sc8jti0m6gcav1c9ek[386]	speaker: YOU[516]	_	_	_	_	_	
+
+#Text=Kommst Du heute mit einem Sixpack bei mir vorbei?
+89-1	2156-2162	Kommst	_	GSuccess[17]	fremdgehen\_set1\_10[17]	latin1[17]	blj8i1h4sc8jti0m6gcav1c9ek-fremdgehen\_set1\_10[17]	_	_	_	_	_	false[124]	Int[124]	*[257]	*[257]	*[257]	*[257]	*[257]	input2[257]	42[387]	female[387]	blj8i1h4sc8jti0m6gcav1c9ek[387]	speaker: YOU[517]	_	_	_	_	_	
+89-2	2163-2165	Du	_	GSuccess[17]	fremdgehen\_set1\_10[17]	latin1[17]	blj8i1h4sc8jti0m6gcav1c9ek-fremdgehen\_set1\_10[17]	2	*	Subj	*	singular	false[124]	Int[124]	*[257]	*[257]	*[257]	*[257]	*[257]	input2[257]	42[387]	female[387]	blj8i1h4sc8jti0m6gcav1c9ek[387]	speaker: YOU[517]	*->47-1	PerPron[47]	_	_	_	
+89-3	2166-2171	heute	_	GSuccess[17]	fremdgehen\_set1\_10[17]	latin1[17]	blj8i1h4sc8jti0m6gcav1c9ek-fremdgehen\_set1\_10[17]	_	_	_	_	_	false[124]	Int[124]	*[257]	*[257]	*[257]	*[257]	*[257]	input2[257]	42[387]	female[387]	blj8i1h4sc8jti0m6gcav1c9ek[387]	speaker: YOU[517]	_	_	_	_	_	
+89-4	2172-2175	mit	_	GSuccess[17]	fremdgehen\_set1\_10[17]	latin1[17]	blj8i1h4sc8jti0m6gcav1c9ek-fremdgehen\_set1\_10[17]	_	_	_	_	_	false[124]	Int[124]	*[257]	*[257]	*[257]	*[257]	*[257]	input2[257]	42[387]	female[387]	blj8i1h4sc8jti0m6gcav1c9ek[387]	speaker: YOU[517]	_	_	_	_	_	
+89-5	2176-2181	einem	_	GSuccess[17]	fremdgehen\_set1\_10[17]	latin1[17]	blj8i1h4sc8jti0m6gcav1c9ek-fremdgehen\_set1\_10[17]	*[41]	*[41]	PrepObj[41]	*[41]	*[41]	false[124]	Int[124]	*[257]	*[257]	*[257]	*[257]	*[257]	input2[257]	42[387]	female[387]	blj8i1h4sc8jti0m6gcav1c9ek[387]	speaker: YOU[517]	*->68-1	IndefNP[68]	_	_	_	
+89-6	2182-2189	Sixpack	_	GSuccess[17]	fremdgehen\_set1\_10[17]	latin1[17]	blj8i1h4sc8jti0m6gcav1c9ek-fremdgehen\_set1\_10[17]	*[41]	*[41]	PrepObj[41]	*[41]	*[41]	false[124]	Int[124]	*[257]	*[257]	*[257]	*[257]	*[257]	input2[257]	42[387]	female[387]	blj8i1h4sc8jti0m6gcav1c9ek[387]	speaker: YOU[517]	*->68-1	IndefNP[68]	_	_	_	
+89-7	2190-2193	bei	_	GSuccess[17]	fremdgehen\_set1\_10[17]	latin1[17]	blj8i1h4sc8jti0m6gcav1c9ek-fremdgehen\_set1\_10[17]	_	_	_	_	_	false[124]	Int[124]	*[257]	*[257]	*[257]	*[257]	*[257]	input2[257]	42[387]	female[387]	blj8i1h4sc8jti0m6gcav1c9ek[387]	speaker: YOU[517]	_	_	_	_	_	
+89-8	2194-2197	mir	_	GSuccess[17]	fremdgehen\_set1\_10[17]	latin1[17]	blj8i1h4sc8jti0m6gcav1c9ek-fremdgehen\_set1\_10[17]	1	*	PrepObj	*	singular	false[124]	Int[124]	*[257]	*[257]	*[257]	*[257]	*[257]	input2[257]	42[387]	female[387]	blj8i1h4sc8jti0m6gcav1c9ek[387]	speaker: YOU[517]	*->106-3	PerPron[106]	_	_	_	
+89-9	2198-2205	vorbei?	_	GSuccess[17]	fremdgehen\_set1\_10[17]	latin1[17]	blj8i1h4sc8jti0m6gcav1c9ek-fremdgehen\_set1\_10[17]	_	_	_	_	_	false[124]	Int[124]	*[257]	*[257]	*[257]	*[257]	*[257]	input2[257]	42[387]	female[387]	blj8i1h4sc8jti0m6gcav1c9ek[387]	speaker: YOU[517]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+90-1	2207-2222	END_OF_DOCUMENT	_	GSuccess[17]	fremdgehen\_set1\_10[17]	latin1[17]	blj8i1h4sc8jti0m6gcav1c9ek-fremdgehen\_set1\_10[17]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+91-1	2224-2228	Hey,	_	GSuccess[18]	fremdgehen\_set1\_10[18]	latin1[18]	h05ingrcngdnasp07727nvoq59-fremdgehen\_set1\_10[18]	_	_	_	_	_	false[125]	Int[125]	*[258]	*[258]	*[258]	wh\_6[258]	wh\_question[258]	openq[258]	*[388]	male[388]	*[388]	speaker:Ulrich[518]	_	_	QAP	*	92-1[126_125]	
+91-2	2229-2232	was	_	GSuccess[18]	fremdgehen\_set1\_10[18]	latin1[18]	h05ingrcngdnasp07727nvoq59-fremdgehen\_set1\_10[18]	_	_	_	_	_	false[125]	Int[125]	*[258]	*[258]	*[258]	wh\_6[258]	wh\_question[258]	openq[258]	*[388]	male[388]	*[388]	speaker:Ulrich[518]	_	_	_	_	_	
+91-3	2233-2238	gibts	_	GSuccess[18]	fremdgehen\_set1\_10[18]	latin1[18]	h05ingrcngdnasp07727nvoq59-fremdgehen\_set1\_10[18]	_	_	_	_	_	false[125]	Int[125]	*[258]	*[258]	*[258]	wh\_6[258]	wh\_question[258]	openq[258]	*[388]	male[388]	*[388]	speaker:Ulrich[518]	_	_	_	_	_	
+91-4	2239-2245	Neues?	_	GSuccess[18]	fremdgehen\_set1\_10[18]	latin1[18]	h05ingrcngdnasp07727nvoq59-fremdgehen\_set1\_10[18]	_	_	_	_	_	false[125]	Int[125]	*[258]	*[258]	*[258]	wh\_6[258]	wh\_question[258]	openq[258]	*[388]	male[388]	*[388]	speaker:Ulrich[518]	_	_	_	_	_	
+
+#Text=Charlotte ist fremdgegangen
+92-1	2247-2256	Charlotte	_	GSuccess[18]	fremdgehen\_set1\_10[18]	latin1[18]	h05ingrcngdnasp07727nvoq59-fremdgehen\_set1\_10[18]	*	*	Subj	*	*	false[126]	Decl[126]	*[259]	fremdgehen[259]	intransitive[259]	*[259]	*[259]	item0[259]	42[389]	female[389]	h05ingrcngdnasp07727nvoq59[389]	speaker: YOU[519]	*->9-1|*->97-1	clause[9]|PropNm[97]	result|elaboration|acknowledgement	*|*|*	95-1[130_126]|94-1[128_126]|93-1[127_126]	
+92-2	2257-2260	ist	_	GSuccess[18]	fremdgehen\_set1\_10[18]	latin1[18]	h05ingrcngdnasp07727nvoq59-fremdgehen\_set1\_10[18]	_	_	_	_	_	false[126]	Decl[126]	*[259]	fremdgehen[259]	intransitive[259]	*[259]	*[259]	item0[259]	42[389]	female[389]	h05ingrcngdnasp07727nvoq59[389]	speaker: YOU[519]	*->9-1	clause[9]	_	_	_	
+92-3	2261-2274	fremdgegangen	_	GSuccess[18]	fremdgehen\_set1\_10[18]	latin1[18]	h05ingrcngdnasp07727nvoq59-fremdgehen\_set1\_10[18]	_	_	_	_	_	false[126]	Decl[126]	*[259]	fremdgehen[259]	intransitive[259]	*[259]	*[259]	item0[259]	42[389]	female[389]	h05ingrcngdnasp07727nvoq59[389]	speaker: YOU[519]	*->9-1	clause[9]	_	_	_	
+
+#Text=Oh nein
+93-1	2276-2278	Oh	_	GSuccess[18]	fremdgehen\_set1\_10[18]	latin1[18]	h05ingrcngdnasp07727nvoq59-fremdgehen\_set1\_10[18]	_	_	_	_	_	false[127]	NA[127]	oh-nein\_25[260]	*[260]	*[260]	*[260]	*[260]	feedback[260]	*[390]	male[390]	*[390]	speaker:Ulrich[520]	_	_	_	_	_	
+93-2	2279-2283	nein	_	GSuccess[18]	fremdgehen\_set1\_10[18]	latin1[18]	h05ingrcngdnasp07727nvoq59-fremdgehen\_set1\_10[18]	_	_	_	_	_	false[127]	NA[127]	oh-nein\_25[260]	*[260]	*[260]	*[260]	*[260]	feedback[260]	*[390]	male[390]	*[390]	speaker:Ulrich[520]	_	_	_	_	_	
+
+#Text=Doch... mit Stefan <BR> dem Mitbewohner.
+94-1	2285-2292	Doch...	_	GSuccess[18]	fremdgehen\_set1\_10[18]	latin1[18]	h05ingrcngdnasp07727nvoq59-fremdgehen\_set1\_10[18]	_	_	_	_	_	false[128]	NA[128]	*[261]	*[261]	*[261]	*[261]	*[261]	input1[261]	42[391]	female[391]	h05ingrcngdnasp07727nvoq59[391]	speaker: YOU[521]	_	_	elaboration	*	94-5[129_128]	
+94-2	2293-2296	mit	_	GSuccess[18]	fremdgehen\_set1\_10[18]	latin1[18]	h05ingrcngdnasp07727nvoq59-fremdgehen\_set1\_10[18]	_	_	_	_	_	false[128]	NA[128]	*[261]	*[261]	*[261]	*[261]	*[261]	input1[261]	42[391]	female[391]	h05ingrcngdnasp07727nvoq59[391]	speaker: YOU[521]	_	_	_	_	_	
+94-3	2297-2303	Stefan	_	GSuccess[18]	fremdgehen\_set1\_10[18]	latin1[18]	h05ingrcngdnasp07727nvoq59-fremdgehen\_set1\_10[18]	*[42]	*[42]	PrepObj[42]	*[42]	*[42]	false[128]	NA[128]	*[261]	*[261]	*[261]	*[261]	*[261]	input1[261]	42[391]	female[391]	h05ingrcngdnasp07727nvoq59[391]	speaker: YOU[521]	*->94-1	PropNm[94]	_	_	_	
+94-4	2304-2308	<BR>	_	GSuccess[18]	fremdgehen\_set1\_10[18]	latin1[18]	h05ingrcngdnasp07727nvoq59-fremdgehen\_set1\_10[18]	*[42]	*[42]	PrepObj[42]	*[42]	*[42]	_	_	*[261]	*[261]	*[261]	*[261]	*[261]	input1[261]	42[391]	female[391]	h05ingrcngdnasp07727nvoq59[391]	speaker: YOU[521]	_	_	_	_	_	
+94-5	2309-2312	dem	_	GSuccess[18]	fremdgehen\_set1\_10[18]	latin1[18]	h05ingrcngdnasp07727nvoq59-fremdgehen\_set1\_10[18]	*[42]	*[42]	PrepObj[42]	*[42]	*[42]	false[129]	NA[129]	*[261]	*[261]	*[261]	*[261]	*[261]	input1[261]	42[391]	female[391]	h05ingrcngdnasp07727nvoq59[391]	speaker: YOU[521]	*->94-2	DefNP[94]	_	_	_	
+94-6	2313-2325	Mitbewohner.	_	GSuccess[18]	fremdgehen\_set1\_10[18]	latin1[18]	h05ingrcngdnasp07727nvoq59-fremdgehen\_set1\_10[18]	*[42]	*[42]	PrepObj[42]	*[42]	*[42]	false[129]	NA[129]	*[261]	*[261]	*[261]	*[261]	*[261]	input1[261]	42[391]	female[391]	h05ingrcngdnasp07727nvoq59[391]	speaker: YOU[521]	*->94-2	DefNP[94]	_	_	_	
+
+#Text=Sie will es Mark beichten.
+95-1	2327-2330	Sie	_	GSuccess[18]	fremdgehen\_set1\_10[18]	latin1[18]	h05ingrcngdnasp07727nvoq59-fremdgehen\_set1\_10[18]	3	*	Subj	*	singular	false[130]	Decl[130]	*[262]	*[262]	*[262]	*[262]	*[262]	input2[262]	42[392]	female[392]	h05ingrcngdnasp07727nvoq59[392]	speaker: YOU[522]	*->97-2	PerPron[97]	_	_	_	
+95-2	2331-2335	will	_	GSuccess[18]	fremdgehen\_set1\_10[18]	latin1[18]	h05ingrcngdnasp07727nvoq59-fremdgehen\_set1\_10[18]	_	_	_	_	_	false[130]	Decl[130]	*[262]	*[262]	*[262]	*[262]	*[262]	input2[262]	42[392]	female[392]	h05ingrcngdnasp07727nvoq59[392]	speaker: YOU[522]	_	_	_	_	_	
+95-3	2336-2338	es	_	GSuccess[18]	fremdgehen\_set1\_10[18]	latin1[18]	h05ingrcngdnasp07727nvoq59-fremdgehen\_set1\_10[18]	3	*	DirObj	*	singular	false[130]	Decl[130]	*[262]	*[262]	*[262]	*[262]	*[262]	input2[262]	42[392]	female[392]	h05ingrcngdnasp07727nvoq59[392]	speaker: YOU[522]	*->9-2	PerPron[9]	_	_	_	
+95-4	2339-2343	Mark	_	GSuccess[18]	fremdgehen\_set1\_10[18]	latin1[18]	h05ingrcngdnasp07727nvoq59-fremdgehen\_set1\_10[18]	*	*	IndirObj	*	*	false[130]	Decl[130]	*[262]	*[262]	*[262]	*[262]	*[262]	input2[262]	42[392]	female[392]	h05ingrcngdnasp07727nvoq59[392]	speaker: YOU[522]	*->17-1	PropNm[17]	_	_	_	
+95-5	2344-2353	beichten.	_	GSuccess[18]	fremdgehen\_set1\_10[18]	latin1[18]	h05ingrcngdnasp07727nvoq59-fremdgehen\_set1\_10[18]	_	_	_	_	_	false[130]	Decl[130]	*[262]	*[262]	*[262]	*[262]	*[262]	input2[262]	42[392]	female[392]	h05ingrcngdnasp07727nvoq59[392]	speaker: YOU[522]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+96-1	2355-2370	END_OF_DOCUMENT	_	GSuccess[18]	fremdgehen\_set1\_10[18]	latin1[18]	h05ingrcngdnasp07727nvoq59-fremdgehen\_set1\_10[18]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+97-1	2372-2376	Hey,	_	GSuccess[19]	fremdgehen\_set1\_10[19]	latin1[19]	jkqc35grurqg6r29efakrmibd9-fremdgehen\_set1\_10[19]	_	_	_	_	_	false[131]	Int[131]	*[263]	*[263]	*[263]	wh\_6[263]	wh\_question[263]	openq[263]	*[393]	male[393]	*[393]	speaker:Ulrich[523]	_	_	QAP	*	98-1[132_131]	
+97-2	2377-2380	was	_	GSuccess[19]	fremdgehen\_set1\_10[19]	latin1[19]	jkqc35grurqg6r29efakrmibd9-fremdgehen\_set1\_10[19]	_	_	_	_	_	false[131]	Int[131]	*[263]	*[263]	*[263]	wh\_6[263]	wh\_question[263]	openq[263]	*[393]	male[393]	*[393]	speaker:Ulrich[523]	_	_	_	_	_	
+97-3	2381-2386	gibts	_	GSuccess[19]	fremdgehen\_set1\_10[19]	latin1[19]	jkqc35grurqg6r29efakrmibd9-fremdgehen\_set1\_10[19]	_	_	_	_	_	false[131]	Int[131]	*[263]	*[263]	*[263]	wh\_6[263]	wh\_question[263]	openq[263]	*[393]	male[393]	*[393]	speaker:Ulrich[523]	_	_	_	_	_	
+97-4	2387-2393	Neues?	_	GSuccess[19]	fremdgehen\_set1\_10[19]	latin1[19]	jkqc35grurqg6r29efakrmibd9-fremdgehen\_set1\_10[19]	_	_	_	_	_	false[131]	Int[131]	*[263]	*[263]	*[263]	wh\_6[263]	wh\_question[263]	openq[263]	*[393]	male[393]	*[393]	speaker:Ulrich[523]	_	_	_	_	_	
+
+#Text=Charlotte ist fremdgegangen
+98-1	2395-2404	Charlotte	_	GSuccess[19]	fremdgehen\_set1\_10[19]	latin1[19]	jkqc35grurqg6r29efakrmibd9-fremdgehen\_set1\_10[19]	*	*	Subj	*	*	false[132]	Decl[132]	*[264]	fremdgehen[264]	intransitive[264]	*[264]	*[264]	item0[264]	42[394]	male[394]	jkqc35grurqg6r29efakrmibd9[394]	speaker: YOU[524]	*->44-1	PropNm[44]	result|acknowledgement	*|*	100-1[134_132]|99-1[133_132]	
+98-2	2405-2408	ist	_	GSuccess[19]	fremdgehen\_set1\_10[19]	latin1[19]	jkqc35grurqg6r29efakrmibd9-fremdgehen\_set1\_10[19]	_	_	_	_	_	false[132]	Decl[132]	*[264]	fremdgehen[264]	intransitive[264]	*[264]	*[264]	item0[264]	42[394]	male[394]	jkqc35grurqg6r29efakrmibd9[394]	speaker: YOU[524]	_	_	_	_	_	
+98-3	2409-2422	fremdgegangen	_	GSuccess[19]	fremdgehen\_set1\_10[19]	latin1[19]	jkqc35grurqg6r29efakrmibd9-fremdgehen\_set1\_10[19]	_	_	_	_	_	false[132]	Decl[132]	*[264]	fremdgehen[264]	intransitive[264]	*[264]	*[264]	item0[264]	42[394]	male[394]	jkqc35grurqg6r29efakrmibd9[394]	speaker: YOU[524]	_	_	_	_	_	
+
+#Text=Oh nein
+99-1	2424-2426	Oh	_	GSuccess[19]	fremdgehen\_set1\_10[19]	latin1[19]	jkqc35grurqg6r29efakrmibd9-fremdgehen\_set1\_10[19]	_	_	_	_	_	false[133]	NA[133]	oh-nein\_25[265]	*[265]	*[265]	*[265]	*[265]	feedback[265]	*[395]	male[395]	*[395]	speaker:Ulrich[525]	_	_	_	_	_	
+99-2	2427-2431	nein	_	GSuccess[19]	fremdgehen\_set1\_10[19]	latin1[19]	jkqc35grurqg6r29efakrmibd9-fremdgehen\_set1\_10[19]	_	_	_	_	_	false[133]	NA[133]	oh-nein\_25[265]	*[265]	*[265]	*[265]	*[265]	feedback[265]	*[395]	male[395]	*[395]	speaker:Ulrich[525]	_	_	_	_	_	
+
+#Text=ich bin am Boden zerstört
+100-1	2433-2436	ich	_	GSuccess[19]	fremdgehen\_set1\_10[19]	latin1[19]	jkqc35grurqg6r29efakrmibd9-fremdgehen\_set1\_10[19]	1	*	Subj	*	singular	false[134]	Decl[134]	*[266]	*[266]	*[266]	*[266]	*[266]	input1[266]	42[396]	male[396]	jkqc35grurqg6r29efakrmibd9[396]	speaker: YOU[526]	*->10-1	PerPron[10]	elaboration	*	101-1[135_134]	
+100-2	2437-2440	bin	_	GSuccess[19]	fremdgehen\_set1\_10[19]	latin1[19]	jkqc35grurqg6r29efakrmibd9-fremdgehen\_set1\_10[19]	_	_	_	_	_	false[134]	Decl[134]	*[266]	*[266]	*[266]	*[266]	*[266]	input1[266]	42[396]	male[396]	jkqc35grurqg6r29efakrmibd9[396]	speaker: YOU[526]	_	_	_	_	_	
+100-3	2441-2443	am	_	GSuccess[19]	fremdgehen\_set1\_10[19]	latin1[19]	jkqc35grurqg6r29efakrmibd9-fremdgehen\_set1\_10[19]	_	_	_	_	_	false[134]	Decl[134]	*[266]	*[266]	*[266]	*[266]	*[266]	input1[266]	42[396]	male[396]	jkqc35grurqg6r29efakrmibd9[396]	speaker: YOU[526]	_	_	_	_	_	
+100-4	2444-2449	Boden	_	GSuccess[19]	fremdgehen\_set1\_10[19]	latin1[19]	jkqc35grurqg6r29efakrmibd9-fremdgehen\_set1\_10[19]	*	*	PrepObj	*	*	false[134]	Decl[134]	*[266]	*[266]	*[266]	*[266]	*[266]	input1[266]	42[396]	male[396]	jkqc35grurqg6r29efakrmibd9[396]	speaker: YOU[526]	_	_	_	_	_	
+100-5	2450-2458	zerstört	_	GSuccess[19]	fremdgehen\_set1\_10[19]	latin1[19]	jkqc35grurqg6r29efakrmibd9-fremdgehen\_set1\_10[19]	_	_	_	_	_	false[134]	Decl[134]	*[266]	*[266]	*[266]	*[266]	*[266]	input1[266]	42[396]	male[396]	jkqc35grurqg6r29efakrmibd9[396]	speaker: YOU[526]	_	_	_	_	_	
+
+#Text=Vollkommen am Ende mit den Nerven
+101-1	2460-2470	Vollkommen	_	GSuccess[19]	fremdgehen\_set1\_10[19]	latin1[19]	jkqc35grurqg6r29efakrmibd9-fremdgehen\_set1\_10[19]	_	_	_	_	_	false[135]	NA[135]	*[267]	*[267]	*[267]	*[267]	*[267]	input2[267]	42[397]	male[397]	jkqc35grurqg6r29efakrmibd9[397]	speaker: YOU[527]	_	_	_	_	_	
+101-2	2471-2473	am	_	GSuccess[19]	fremdgehen\_set1\_10[19]	latin1[19]	jkqc35grurqg6r29efakrmibd9-fremdgehen\_set1\_10[19]	_	_	_	_	_	false[135]	NA[135]	*[267]	*[267]	*[267]	*[267]	*[267]	input2[267]	42[397]	male[397]	jkqc35grurqg6r29efakrmibd9[397]	speaker: YOU[527]	_	_	_	_	_	
+101-3	2474-2478	Ende	_	GSuccess[19]	fremdgehen\_set1\_10[19]	latin1[19]	jkqc35grurqg6r29efakrmibd9-fremdgehen\_set1\_10[19]	*	*	PrepObj	*	*	false[135]	NA[135]	*[267]	*[267]	*[267]	*[267]	*[267]	input2[267]	42[397]	male[397]	jkqc35grurqg6r29efakrmibd9[397]	speaker: YOU[527]	_	_	_	_	_	
+101-4	2479-2482	mit	_	GSuccess[19]	fremdgehen\_set1\_10[19]	latin1[19]	jkqc35grurqg6r29efakrmibd9-fremdgehen\_set1\_10[19]	_	_	_	_	_	false[135]	NA[135]	*[267]	*[267]	*[267]	*[267]	*[267]	input2[267]	42[397]	male[397]	jkqc35grurqg6r29efakrmibd9[397]	speaker: YOU[527]	_	_	_	_	_	
+101-5	2483-2486	den	_	GSuccess[19]	fremdgehen\_set1\_10[19]	latin1[19]	jkqc35grurqg6r29efakrmibd9-fremdgehen\_set1\_10[19]	*[43]	*[43]	PrepObj[43]	*[43]	*[43]	false[135]	NA[135]	*[267]	*[267]	*[267]	*[267]	*[267]	input2[267]	42[397]	male[397]	jkqc35grurqg6r29efakrmibd9[397]	speaker: YOU[527]	_	_	_	_	_	
+101-6	2487-2493	Nerven	_	GSuccess[19]	fremdgehen\_set1\_10[19]	latin1[19]	jkqc35grurqg6r29efakrmibd9-fremdgehen\_set1\_10[19]	*[43]	*[43]	PrepObj[43]	*[43]	*[43]	false[135]	NA[135]	*[267]	*[267]	*[267]	*[267]	*[267]	input2[267]	42[397]	male[397]	jkqc35grurqg6r29efakrmibd9[397]	speaker: YOU[527]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+102-1	2495-2510	END_OF_DOCUMENT	_	GSuccess[19]	fremdgehen\_set1\_10[19]	latin1[19]	jkqc35grurqg6r29efakrmibd9-fremdgehen\_set1\_10[19]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+103-1	2512-2516	Hey,	_	GSuccess[20]	fremdgehen\_set1\_10[20]	latin1[20]	lhu26mh95feeqso1qtacqboi3v-fremdgehen\_set1\_10[20]	_	_	_	_	_	false[136]	Int[136]	*[268]	*[268]	*[268]	wh\_6[268]	wh\_question[268]	openq[268]	*[398]	male[398]	*[398]	speaker:Ulrich[528]	_	_	QAP	*	104-1[137_136]	
+103-2	2517-2520	was	_	GSuccess[20]	fremdgehen\_set1\_10[20]	latin1[20]	lhu26mh95feeqso1qtacqboi3v-fremdgehen\_set1\_10[20]	_	_	_	_	_	false[136]	Int[136]	*[268]	*[268]	*[268]	wh\_6[268]	wh\_question[268]	openq[268]	*[398]	male[398]	*[398]	speaker:Ulrich[528]	_	_	_	_	_	
+103-3	2521-2526	gibts	_	GSuccess[20]	fremdgehen\_set1\_10[20]	latin1[20]	lhu26mh95feeqso1qtacqboi3v-fremdgehen\_set1\_10[20]	_	_	_	_	_	false[136]	Int[136]	*[268]	*[268]	*[268]	wh\_6[268]	wh\_question[268]	openq[268]	*[398]	male[398]	*[398]	speaker:Ulrich[528]	_	_	_	_	_	
+103-4	2527-2533	Neues?	_	GSuccess[20]	fremdgehen\_set1\_10[20]	latin1[20]	lhu26mh95feeqso1qtacqboi3v-fremdgehen\_set1\_10[20]	_	_	_	_	_	false[136]	Int[136]	*[268]	*[268]	*[268]	wh\_6[268]	wh\_question[268]	openq[268]	*[398]	male[398]	*[398]	speaker:Ulrich[528]	_	_	_	_	_	
+
+#Text=Charlotte ist fremdgegangen
+104-1	2535-2544	Charlotte	_	GSuccess[20]	fremdgehen\_set1\_10[20]	latin1[20]	lhu26mh95feeqso1qtacqboi3v-fremdgehen\_set1\_10[20]	*	*	Subj	*	*	false[137]	Decl[137]	*[269]	fremdgehen[269]	intransitive[269]	*[269]	*[269]	item0[269]	20[399]	male[399]	lhu26mh95feeqso1qtacqboi3v[399]	speaker: YOU[529]	*->50-1|*->14-1	clause[50]|PropNm[14]	elaboration|acknowledgement	*|*	106-1[139_137]|105-1[138_137]	
+104-2	2545-2548	ist	_	GSuccess[20]	fremdgehen\_set1\_10[20]	latin1[20]	lhu26mh95feeqso1qtacqboi3v-fremdgehen\_set1\_10[20]	_	_	_	_	_	false[137]	Decl[137]	*[269]	fremdgehen[269]	intransitive[269]	*[269]	*[269]	item0[269]	20[399]	male[399]	lhu26mh95feeqso1qtacqboi3v[399]	speaker: YOU[529]	*->50-1	clause[50]	_	_	_	
+104-3	2549-2562	fremdgegangen	_	GSuccess[20]	fremdgehen\_set1\_10[20]	latin1[20]	lhu26mh95feeqso1qtacqboi3v-fremdgehen\_set1\_10[20]	_	_	_	_	_	false[137]	Decl[137]	*[269]	fremdgehen[269]	intransitive[269]	*[269]	*[269]	item0[269]	20[399]	male[399]	lhu26mh95feeqso1qtacqboi3v[399]	speaker: YOU[529]	*->50-1	clause[50]	_	_	_	
+
+#Text=Oh nein
+105-1	2564-2566	Oh	_	GSuccess[20]	fremdgehen\_set1\_10[20]	latin1[20]	lhu26mh95feeqso1qtacqboi3v-fremdgehen\_set1\_10[20]	_	_	_	_	_	false[138]	NA[138]	oh-nein\_25[270]	*[270]	*[270]	*[270]	*[270]	feedback[270]	*[400]	male[400]	*[400]	speaker:Ulrich[530]	_	_	_	_	_	
+105-2	2567-2571	nein	_	GSuccess[20]	fremdgehen\_set1\_10[20]	latin1[20]	lhu26mh95feeqso1qtacqboi3v-fremdgehen\_set1\_10[20]	_	_	_	_	_	false[138]	NA[138]	oh-nein\_25[270]	*[270]	*[270]	*[270]	*[270]	feedback[270]	*[400]	male[400]	*[400]	speaker:Ulrich[530]	_	_	_	_	_	
+
+#Text=Es war zu erwarten.
+106-1	2573-2575	Es	_	GSuccess[20]	fremdgehen\_set1\_10[20]	latin1[20]	lhu26mh95feeqso1qtacqboi3v-fremdgehen\_set1\_10[20]	3	*	Subj	*	singular	false[139]	Decl[139]	*[271]	*[271]	*[271]	*[271]	*[271]	input1[271]	20[401]	male[401]	lhu26mh95feeqso1qtacqboi3v[401]	speaker: YOU[531]	*->50-2	PerPron[50]	contrast	*	107-1[140_139]	
+106-2	2576-2579	war	_	GSuccess[20]	fremdgehen\_set1\_10[20]	latin1[20]	lhu26mh95feeqso1qtacqboi3v-fremdgehen\_set1\_10[20]	_	_	_	_	_	false[139]	Decl[139]	*[271]	*[271]	*[271]	*[271]	*[271]	input1[271]	20[401]	male[401]	lhu26mh95feeqso1qtacqboi3v[401]	speaker: YOU[531]	_	_	_	_	_	
+106-3	2580-2582	zu	_	GSuccess[20]	fremdgehen\_set1\_10[20]	latin1[20]	lhu26mh95feeqso1qtacqboi3v-fremdgehen\_set1\_10[20]	_	_	_	_	_	false[139]	Decl[139]	*[271]	*[271]	*[271]	*[271]	*[271]	input1[271]	20[401]	male[401]	lhu26mh95feeqso1qtacqboi3v[401]	speaker: YOU[531]	_	_	_	_	_	
+106-4	2583-2592	erwarten.	_	GSuccess[20]	fremdgehen\_set1\_10[20]	latin1[20]	lhu26mh95feeqso1qtacqboi3v-fremdgehen\_set1\_10[20]	_	_	_	_	_	false[139]	Decl[139]	*[271]	*[271]	*[271]	*[271]	*[271]	input1[271]	20[401]	male[401]	lhu26mh95feeqso1qtacqboi3v[401]	speaker: YOU[531]	_	_	_	_	_	
+
+#Text=Immerhin weiß ich es jetzt definitiv.
+107-1	2594-2602	Immerhin	_	GSuccess[20]	fremdgehen\_set1\_10[20]	latin1[20]	lhu26mh95feeqso1qtacqboi3v-fremdgehen\_set1\_10[20]	_	_	_	_	_	false[140]	Decl[140]	*[272]	*[272]	*[272]	*[272]	*[272]	input2[272]	20[402]	male[402]	lhu26mh95feeqso1qtacqboi3v[402]	speaker: YOU[532]	_	_	_	_	_	
+107-2	2603-2607	weiß	_	GSuccess[20]	fremdgehen\_set1\_10[20]	latin1[20]	lhu26mh95feeqso1qtacqboi3v-fremdgehen\_set1\_10[20]	_	_	_	_	_	false[140]	Decl[140]	*[272]	*[272]	*[272]	*[272]	*[272]	input2[272]	20[402]	male[402]	lhu26mh95feeqso1qtacqboi3v[402]	speaker: YOU[532]	_	_	_	_	_	
+107-3	2608-2611	ich	_	GSuccess[20]	fremdgehen\_set1\_10[20]	latin1[20]	lhu26mh95feeqso1qtacqboi3v-fremdgehen\_set1\_10[20]	1	*	Subj	*	singular	false[140]	Decl[140]	*[272]	*[272]	*[272]	*[272]	*[272]	input2[272]	20[402]	male[402]	lhu26mh95feeqso1qtacqboi3v[402]	speaker: YOU[532]	*->31-1	PerPron[31]	_	_	_	
+107-4	2612-2614	es	_	GSuccess[20]	fremdgehen\_set1\_10[20]	latin1[20]	lhu26mh95feeqso1qtacqboi3v-fremdgehen\_set1\_10[20]	3	*	DirObj	*	singular	false[140]	Decl[140]	*[272]	*[272]	*[272]	*[272]	*[272]	input2[272]	20[402]	male[402]	lhu26mh95feeqso1qtacqboi3v[402]	speaker: YOU[532]	*->50-3	PerPron[50]	_	_	_	
+107-5	2615-2620	jetzt	_	GSuccess[20]	fremdgehen\_set1\_10[20]	latin1[20]	lhu26mh95feeqso1qtacqboi3v-fremdgehen\_set1\_10[20]	_	_	_	_	_	false[140]	Decl[140]	*[272]	*[272]	*[272]	*[272]	*[272]	input2[272]	20[402]	male[402]	lhu26mh95feeqso1qtacqboi3v[402]	speaker: YOU[532]	_	_	_	_	_	
+107-6	2621-2631	definitiv.	_	GSuccess[20]	fremdgehen\_set1\_10[20]	latin1[20]	lhu26mh95feeqso1qtacqboi3v-fremdgehen\_set1\_10[20]	_	_	_	_	_	false[140]	Decl[140]	*[272]	*[272]	*[272]	*[272]	*[272]	input2[272]	20[402]	male[402]	lhu26mh95feeqso1qtacqboi3v[402]	speaker: YOU[532]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+108-1	2633-2648	END_OF_DOCUMENT	_	GSuccess[20]	fremdgehen\_set1\_10[20]	latin1[20]	lhu26mh95feeqso1qtacqboi3v-fremdgehen\_set1\_10[20]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+109-1	2650-2654	Hey,	_	GSuccess[21]	fremdgehen\_set1\_10[21]	latin1[21]	tc4i3rsgsa9bl8tesf4679lok2-fremdgehen\_set1\_10[21]	_	_	_	_	_	false[141]	Int[141]	*[273]	*[273]	*[273]	wh\_6[273]	wh\_question[273]	openq[273]	*[403]	male[403]	*[403]	speaker:Ulrich[533]	_	_	QAP	*	110-1[142_141]	
+109-2	2655-2658	was	_	GSuccess[21]	fremdgehen\_set1\_10[21]	latin1[21]	tc4i3rsgsa9bl8tesf4679lok2-fremdgehen\_set1\_10[21]	_	_	_	_	_	false[141]	Int[141]	*[273]	*[273]	*[273]	wh\_6[273]	wh\_question[273]	openq[273]	*[403]	male[403]	*[403]	speaker:Ulrich[533]	_	_	_	_	_	
+109-3	2659-2664	gibts	_	GSuccess[21]	fremdgehen\_set1\_10[21]	latin1[21]	tc4i3rsgsa9bl8tesf4679lok2-fremdgehen\_set1\_10[21]	_	_	_	_	_	false[141]	Int[141]	*[273]	*[273]	*[273]	wh\_6[273]	wh\_question[273]	openq[273]	*[403]	male[403]	*[403]	speaker:Ulrich[533]	_	_	_	_	_	
+109-4	2665-2671	Neues?	_	GSuccess[21]	fremdgehen\_set1\_10[21]	latin1[21]	tc4i3rsgsa9bl8tesf4679lok2-fremdgehen\_set1\_10[21]	_	_	_	_	_	false[141]	Int[141]	*[273]	*[273]	*[273]	wh\_6[273]	wh\_question[273]	openq[273]	*[403]	male[403]	*[403]	speaker:Ulrich[533]	_	_	_	_	_	
+
+#Text=Charlotte ist fremdgegangen
+110-1	2673-2682	Charlotte	_	GSuccess[21]	fremdgehen\_set1\_10[21]	latin1[21]	tc4i3rsgsa9bl8tesf4679lok2-fremdgehen\_set1\_10[21]	*	*	Subj	*	*	false[142]	Decl[142]	*[274]	fremdgehen[274]	intransitive[274]	*[274]	*[274]	item0[274]	21[404]	male[404]	tc4i3rsgsa9bl8tesf4679lok2[404]	speaker: YOU[534]	*->73-1	PropNm[73]	explanation|acknowledgement	*|*	112-1[144_142]|111-1[143_142]	
+110-2	2683-2686	ist	_	GSuccess[21]	fremdgehen\_set1\_10[21]	latin1[21]	tc4i3rsgsa9bl8tesf4679lok2-fremdgehen\_set1\_10[21]	_	_	_	_	_	false[142]	Decl[142]	*[274]	fremdgehen[274]	intransitive[274]	*[274]	*[274]	item0[274]	21[404]	male[404]	tc4i3rsgsa9bl8tesf4679lok2[404]	speaker: YOU[534]	_	_	_	_	_	
+110-3	2687-2700	fremdgegangen	_	GSuccess[21]	fremdgehen\_set1\_10[21]	latin1[21]	tc4i3rsgsa9bl8tesf4679lok2-fremdgehen\_set1\_10[21]	_	_	_	_	_	false[142]	Decl[142]	*[274]	fremdgehen[274]	intransitive[274]	*[274]	*[274]	item0[274]	21[404]	male[404]	tc4i3rsgsa9bl8tesf4679lok2[404]	speaker: YOU[534]	_	_	_	_	_	
+
+#Text=Oh nein
+111-1	2702-2704	Oh	_	GSuccess[21]	fremdgehen\_set1\_10[21]	latin1[21]	tc4i3rsgsa9bl8tesf4679lok2-fremdgehen\_set1\_10[21]	_	_	_	_	_	false[143]	NA[143]	oh-nein\_25[275]	*[275]	*[275]	*[275]	*[275]	feedback[275]	*[405]	male[405]	*[405]	speaker:Ulrich[535]	_	_	_	_	_	
+111-2	2705-2709	nein	_	GSuccess[21]	fremdgehen\_set1\_10[21]	latin1[21]	tc4i3rsgsa9bl8tesf4679lok2-fremdgehen\_set1\_10[21]	_	_	_	_	_	false[143]	NA[143]	oh-nein\_25[275]	*[275]	*[275]	*[275]	*[275]	feedback[275]	*[405]	male[405]	*[405]	speaker:Ulrich[535]	_	_	_	_	_	
+
+#Text=Anscheinend war sie gestern ziemlich betrunken
+112-1	2711-2722	Anscheinend	_	GSuccess[21]	fremdgehen\_set1\_10[21]	latin1[21]	tc4i3rsgsa9bl8tesf4679lok2-fremdgehen\_set1\_10[21]	_	_	_	_	_	false[144]	Decl[144]	*[276]	*[276]	*[276]	*[276]	*[276]	input1[276]	21[406]	male[406]	tc4i3rsgsa9bl8tesf4679lok2[406]	speaker: YOU[536]	_	_	result	*	113-1[145_144]	
+112-2	2723-2726	war	_	GSuccess[21]	fremdgehen\_set1\_10[21]	latin1[21]	tc4i3rsgsa9bl8tesf4679lok2-fremdgehen\_set1\_10[21]	_	_	_	_	_	false[144]	Decl[144]	*[276]	*[276]	*[276]	*[276]	*[276]	input1[276]	21[406]	male[406]	tc4i3rsgsa9bl8tesf4679lok2[406]	speaker: YOU[536]	_	_	_	_	_	
+112-3	2727-2730	sie	_	GSuccess[21]	fremdgehen\_set1\_10[21]	latin1[21]	tc4i3rsgsa9bl8tesf4679lok2-fremdgehen\_set1\_10[21]	3	*	DirObj	*	singular	false[144]	Decl[144]	*[276]	*[276]	*[276]	*[276]	*[276]	input1[276]	21[406]	male[406]	tc4i3rsgsa9bl8tesf4679lok2[406]	speaker: YOU[536]	*->73-2	PerPron[73]	_	_	_	
+112-4	2731-2738	gestern	_	GSuccess[21]	fremdgehen\_set1\_10[21]	latin1[21]	tc4i3rsgsa9bl8tesf4679lok2-fremdgehen\_set1\_10[21]	_	_	_	_	_	false[144]	Decl[144]	*[276]	*[276]	*[276]	*[276]	*[276]	input1[276]	21[406]	male[406]	tc4i3rsgsa9bl8tesf4679lok2[406]	speaker: YOU[536]	_	_	_	_	_	
+112-5	2739-2747	ziemlich	_	GSuccess[21]	fremdgehen\_set1\_10[21]	latin1[21]	tc4i3rsgsa9bl8tesf4679lok2-fremdgehen\_set1\_10[21]	_	_	_	_	_	false[144]	Decl[144]	*[276]	*[276]	*[276]	*[276]	*[276]	input1[276]	21[406]	male[406]	tc4i3rsgsa9bl8tesf4679lok2[406]	speaker: YOU[536]	_	_	_	_	_	
+112-6	2748-2757	betrunken	_	GSuccess[21]	fremdgehen\_set1\_10[21]	latin1[21]	tc4i3rsgsa9bl8tesf4679lok2-fremdgehen\_set1\_10[21]	_	_	_	_	_	false[144]	Decl[144]	*[276]	*[276]	*[276]	*[276]	*[276]	input1[276]	21[406]	male[406]	tc4i3rsgsa9bl8tesf4679lok2[406]	speaker: YOU[536]	_	_	_	_	_	
+
+#Text=Und hat dann mit irgendeinem Typen in der Bar was angefangen
+113-1	2759-2762	Und	_	GSuccess[21]	fremdgehen\_set1\_10[21]	latin1[21]	tc4i3rsgsa9bl8tesf4679lok2-fremdgehen\_set1\_10[21]	_	_	_	_	_	false[145]	Decl[145]	*[277]	*[277]	*[277]	*[277]	*[277]	input2[277]	21[407]	male[407]	tc4i3rsgsa9bl8tesf4679lok2[407]	speaker: YOU[537]	_	_	_	_	_	
+113-2	2763-2766	hat	_	GSuccess[21]	fremdgehen\_set1\_10[21]	latin1[21]	tc4i3rsgsa9bl8tesf4679lok2-fremdgehen\_set1\_10[21]	3	*	*	*	singular	false[145]	Decl[145]	*[277]	*[277]	*[277]	*[277]	*[277]	input2[277]	21[407]	male[407]	tc4i3rsgsa9bl8tesf4679lok2[407]	speaker: YOU[537]	*->73-3	zero[73]	_	_	_	
+113-3	2767-2771	dann	_	GSuccess[21]	fremdgehen\_set1\_10[21]	latin1[21]	tc4i3rsgsa9bl8tesf4679lok2-fremdgehen\_set1\_10[21]	_	_	_	_	_	false[145]	Decl[145]	*[277]	*[277]	*[277]	*[277]	*[277]	input2[277]	21[407]	male[407]	tc4i3rsgsa9bl8tesf4679lok2[407]	speaker: YOU[537]	_	_	_	_	_	
+113-4	2772-2775	mit	_	GSuccess[21]	fremdgehen\_set1\_10[21]	latin1[21]	tc4i3rsgsa9bl8tesf4679lok2-fremdgehen\_set1\_10[21]	_	_	_	_	_	false[145]	Decl[145]	*[277]	*[277]	*[277]	*[277]	*[277]	input2[277]	21[407]	male[407]	tc4i3rsgsa9bl8tesf4679lok2[407]	speaker: YOU[537]	_	_	_	_	_	
+113-5	2776-2787	irgendeinem	_	GSuccess[21]	fremdgehen\_set1\_10[21]	latin1[21]	tc4i3rsgsa9bl8tesf4679lok2-fremdgehen\_set1\_10[21]	*[44]	*[44]	PrepObj[44]	*[44]	*[44]	false[145]	Decl[145]	*[277]	*[277]	*[277]	*[277]	*[277]	input2[277]	21[407]	male[407]	tc4i3rsgsa9bl8tesf4679lok2[407]	speaker: YOU[537]	*->25-1	IndefNP[25]	_	_	_	
+113-6	2788-2793	Typen	_	GSuccess[21]	fremdgehen\_set1\_10[21]	latin1[21]	tc4i3rsgsa9bl8tesf4679lok2-fremdgehen\_set1\_10[21]	*[44]	*[44]	PrepObj[44]	*[44]	*[44]	false[145]	Decl[145]	*[277]	*[277]	*[277]	*[277]	*[277]	input2[277]	21[407]	male[407]	tc4i3rsgsa9bl8tesf4679lok2[407]	speaker: YOU[537]	*->25-1	IndefNP[25]	_	_	_	
+113-7	2794-2796	in	_	GSuccess[21]	fremdgehen\_set1\_10[21]	latin1[21]	tc4i3rsgsa9bl8tesf4679lok2-fremdgehen\_set1\_10[21]	*[44]	*[44]	PrepObj[44]	*[44]	*[44]	false[145]	Decl[145]	*[277]	*[277]	*[277]	*[277]	*[277]	input2[277]	21[407]	male[407]	tc4i3rsgsa9bl8tesf4679lok2[407]	speaker: YOU[537]	*->25-1	IndefNP[25]	_	_	_	
+113-8	2797-2800	der	_	GSuccess[21]	fremdgehen\_set1\_10[21]	latin1[21]	tc4i3rsgsa9bl8tesf4679lok2-fremdgehen\_set1\_10[21]	*[44]	*[44]	PrepObj[44]	*[44]	*[44]	false[145]	Decl[145]	*[277]	*[277]	*[277]	*[277]	*[277]	input2[277]	21[407]	male[407]	tc4i3rsgsa9bl8tesf4679lok2[407]	speaker: YOU[537]	*->25-1|*->71-1	IndefNP[25]|DefNP[71]	_	_	_	
+113-9	2801-2804	Bar	_	GSuccess[21]	fremdgehen\_set1\_10[21]	latin1[21]	tc4i3rsgsa9bl8tesf4679lok2-fremdgehen\_set1\_10[21]	*[44]	*[44]	PrepObj[44]	*[44]	*[44]	false[145]	Decl[145]	*[277]	*[277]	*[277]	*[277]	*[277]	input2[277]	21[407]	male[407]	tc4i3rsgsa9bl8tesf4679lok2[407]	speaker: YOU[537]	*->25-1|*->71-1	IndefNP[25]|DefNP[71]	_	_	_	
+113-10	2805-2808	was	_	GSuccess[21]	fremdgehen\_set1\_10[21]	latin1[21]	tc4i3rsgsa9bl8tesf4679lok2-fremdgehen\_set1\_10[21]	_	_	_	_	_	false[145]	Decl[145]	*[277]	*[277]	*[277]	*[277]	*[277]	input2[277]	21[407]	male[407]	tc4i3rsgsa9bl8tesf4679lok2[407]	speaker: YOU[537]	_	_	_	_	_	
+113-11	2809-2819	angefangen	_	GSuccess[21]	fremdgehen\_set1\_10[21]	latin1[21]	tc4i3rsgsa9bl8tesf4679lok2-fremdgehen\_set1\_10[21]	_	_	_	_	_	false[145]	Decl[145]	*[277]	*[277]	*[277]	*[277]	*[277]	input2[277]	21[407]	male[407]	tc4i3rsgsa9bl8tesf4679lok2[407]	speaker: YOU[537]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+114-1	2821-2836	END_OF_DOCUMENT	_	GSuccess[21]	fremdgehen\_set1\_10[21]	latin1[21]	tc4i3rsgsa9bl8tesf4679lok2-fremdgehen\_set1\_10[21]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+115-1	2838-2842	Hey,	_	GSuccess[22]	fremdgehen\_set1\_10[22]	latin1[22]	us0adlivem61c2bj5776kudbot-fremdgehen\_set1\_10[22]	_	_	_	_	_	false[146]	Int[146]	*[278]	*[278]	*[278]	wh\_6[278]	wh\_question[278]	openq[278]	*[408]	male[408]	*[408]	speaker:Ulrich[538]	_	_	QAP	*	116-1[147_146]	
+115-2	2843-2846	was	_	GSuccess[22]	fremdgehen\_set1\_10[22]	latin1[22]	us0adlivem61c2bj5776kudbot-fremdgehen\_set1\_10[22]	_	_	_	_	_	false[146]	Int[146]	*[278]	*[278]	*[278]	wh\_6[278]	wh\_question[278]	openq[278]	*[408]	male[408]	*[408]	speaker:Ulrich[538]	_	_	_	_	_	
+115-3	2847-2852	gibts	_	GSuccess[22]	fremdgehen\_set1\_10[22]	latin1[22]	us0adlivem61c2bj5776kudbot-fremdgehen\_set1\_10[22]	_	_	_	_	_	false[146]	Int[146]	*[278]	*[278]	*[278]	wh\_6[278]	wh\_question[278]	openq[278]	*[408]	male[408]	*[408]	speaker:Ulrich[538]	_	_	_	_	_	
+115-4	2853-2859	Neues?	_	GSuccess[22]	fremdgehen\_set1\_10[22]	latin1[22]	us0adlivem61c2bj5776kudbot-fremdgehen\_set1\_10[22]	_	_	_	_	_	false[146]	Int[146]	*[278]	*[278]	*[278]	wh\_6[278]	wh\_question[278]	openq[278]	*[408]	male[408]	*[408]	speaker:Ulrich[538]	_	_	_	_	_	
+
+#Text=Charlotte ist fremdgegangen
+116-1	2861-2870	Charlotte	_	GSuccess[22]	fremdgehen\_set1\_10[22]	latin1[22]	us0adlivem61c2bj5776kudbot-fremdgehen\_set1\_10[22]	*	*	Subj	*	*	false[147]	Decl[147]	*[279]	fremdgehen[279]	intransitive[279]	*[279]	*[279]	item0[279]	66[409]	male[409]	us0adlivem61c2bj5776kudbot[409]	speaker: YOU[539]	*->20-1	PropNm[20]	result|acknowledgement	*|*	118-1[149_147]|117-1[148_147]	
+116-2	2871-2874	ist	_	GSuccess[22]	fremdgehen\_set1\_10[22]	latin1[22]	us0adlivem61c2bj5776kudbot-fremdgehen\_set1\_10[22]	_	_	_	_	_	false[147]	Decl[147]	*[279]	fremdgehen[279]	intransitive[279]	*[279]	*[279]	item0[279]	66[409]	male[409]	us0adlivem61c2bj5776kudbot[409]	speaker: YOU[539]	_	_	_	_	_	
+116-3	2875-2888	fremdgegangen	_	GSuccess[22]	fremdgehen\_set1\_10[22]	latin1[22]	us0adlivem61c2bj5776kudbot-fremdgehen\_set1\_10[22]	_	_	_	_	_	false[147]	Decl[147]	*[279]	fremdgehen[279]	intransitive[279]	*[279]	*[279]	item0[279]	66[409]	male[409]	us0adlivem61c2bj5776kudbot[409]	speaker: YOU[539]	_	_	_	_	_	
+
+#Text=Oh nein
+117-1	2890-2892	Oh	_	GSuccess[22]	fremdgehen\_set1\_10[22]	latin1[22]	us0adlivem61c2bj5776kudbot-fremdgehen\_set1\_10[22]	_	_	_	_	_	false[148]	NA[148]	oh-nein\_25[280]	*[280]	*[280]	*[280]	*[280]	feedback[280]	*[410]	male[410]	*[410]	speaker:Ulrich[540]	_	_	_	_	_	
+117-2	2893-2897	nein	_	GSuccess[22]	fremdgehen\_set1\_10[22]	latin1[22]	us0adlivem61c2bj5776kudbot-fremdgehen\_set1\_10[22]	_	_	_	_	_	false[148]	NA[148]	oh-nein\_25[280]	*[280]	*[280]	*[280]	*[280]	feedback[280]	*[410]	male[410]	*[410]	speaker:Ulrich[540]	_	_	_	_	_	
+
+#Text=bin sehr traurig
+118-1	2899-2902	bin	_	GSuccess[22]	fremdgehen\_set1\_10[22]	latin1[22]	us0adlivem61c2bj5776kudbot-fremdgehen\_set1\_10[22]	1	*	*	*	singular	false[149]	Decl[149]	*[281]	*[281]	*[281]	*[281]	*[281]	input1[281]	66[411]	male[411]	us0adlivem61c2bj5776kudbot[411]	speaker: YOU[541]	*->46-1	zero[46]	elaboration	*	119-1[150_149]	
+118-2	2903-2907	sehr	_	GSuccess[22]	fremdgehen\_set1\_10[22]	latin1[22]	us0adlivem61c2bj5776kudbot-fremdgehen\_set1\_10[22]	_	_	_	_	_	false[149]	Decl[149]	*[281]	*[281]	*[281]	*[281]	*[281]	input1[281]	66[411]	male[411]	us0adlivem61c2bj5776kudbot[411]	speaker: YOU[541]	_	_	_	_	_	
+118-3	2908-2915	traurig	_	GSuccess[22]	fremdgehen\_set1\_10[22]	latin1[22]	us0adlivem61c2bj5776kudbot-fremdgehen\_set1\_10[22]	_	_	_	_	_	false[149]	Decl[149]	*[281]	*[281]	*[281]	*[281]	*[281]	input1[281]	66[411]	male[411]	us0adlivem61c2bj5776kudbot[411]	speaker: YOU[541]	_	_	_	_	_	
+
+#Text=bin echt niedergeschlagen
+119-1	2917-2920	bin	_	GSuccess[22]	fremdgehen\_set1\_10[22]	latin1[22]	us0adlivem61c2bj5776kudbot-fremdgehen\_set1\_10[22]	1	*	*	*	singular	false[150]	Decl[150]	*[282]	*[282]	*[282]	*[282]	*[282]	input2[282]	66[412]	male[412]	us0adlivem61c2bj5776kudbot[412]	speaker: YOU[542]	*->46-2	zero[46]	_	_	_	
+119-2	2921-2925	echt	_	GSuccess[22]	fremdgehen\_set1\_10[22]	latin1[22]	us0adlivem61c2bj5776kudbot-fremdgehen\_set1\_10[22]	_	_	_	_	_	false[150]	Decl[150]	*[282]	*[282]	*[282]	*[282]	*[282]	input2[282]	66[412]	male[412]	us0adlivem61c2bj5776kudbot[412]	speaker: YOU[542]	_	_	_	_	_	
+119-3	2926-2942	niedergeschlagen	_	GSuccess[22]	fremdgehen\_set1\_10[22]	latin1[22]	us0adlivem61c2bj5776kudbot-fremdgehen\_set1\_10[22]	_	_	_	_	_	false[150]	Decl[150]	*[282]	*[282]	*[282]	*[282]	*[282]	input2[282]	66[412]	male[412]	us0adlivem61c2bj5776kudbot[412]	speaker: YOU[542]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+120-1	2944-2959	END_OF_DOCUMENT	_	GSuccess[22]	fremdgehen\_set1\_10[22]	latin1[22]	us0adlivem61c2bj5776kudbot-fremdgehen\_set1\_10[22]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+121-1	2961-2965	Hey,	_	GWithout[23]	fremdgehen\_set1\_10[23]	latin2[23]	2em9nj6n4c2pjudl6n6hfpjc30-fremdgehen\_set1\_10[23]	_	_	_	_	_	false[151]	Int[151]	*[283]	*[283]	*[283]	wh\_6[283]	wh\_question[283]	openq[283]	*[413]	male[413]	*[413]	speaker:Ulrich[543]	_	_	QAP	*	122-1[152_151]	
+121-2	2966-2969	was	_	GWithout[23]	fremdgehen\_set1\_10[23]	latin2[23]	2em9nj6n4c2pjudl6n6hfpjc30-fremdgehen\_set1\_10[23]	_	_	_	_	_	false[151]	Int[151]	*[283]	*[283]	*[283]	wh\_6[283]	wh\_question[283]	openq[283]	*[413]	male[413]	*[413]	speaker:Ulrich[543]	_	_	_	_	_	
+121-3	2970-2975	gibts	_	GWithout[23]	fremdgehen\_set1\_10[23]	latin2[23]	2em9nj6n4c2pjudl6n6hfpjc30-fremdgehen\_set1\_10[23]	_	_	_	_	_	false[151]	Int[151]	*[283]	*[283]	*[283]	wh\_6[283]	wh\_question[283]	openq[283]	*[413]	male[413]	*[413]	speaker:Ulrich[543]	_	_	_	_	_	
+121-4	2976-2982	Neues?	_	GWithout[23]	fremdgehen\_set1\_10[23]	latin2[23]	2em9nj6n4c2pjudl6n6hfpjc30-fremdgehen\_set1\_10[23]	_	_	_	_	_	false[151]	Int[151]	*[283]	*[283]	*[283]	wh\_6[283]	wh\_question[283]	openq[283]	*[413]	male[413]	*[413]	speaker:Ulrich[543]	_	_	_	_	_	
+
+#Text=Charlotte ist fremdgegangen
+122-1	2984-2993	Charlotte	_	GWithout[23]	fremdgehen\_set1\_10[23]	latin2[23]	2em9nj6n4c2pjudl6n6hfpjc30-fremdgehen\_set1\_10[23]	*	*	Subj	*	*	false[152]	Decl[152]	*[284]	fremdgehen[284]	intransitive[284]	*[284]	*[284]	item0[284]	32[414]	female[414]	2em9nj6n4c2pjudl6n6hfpjc30[414]	speaker: YOU[544]	*->72-1	PropNm[72]	elaboration	*	124-1[153_152]	
+122-2	2994-2997	ist	_	GWithout[23]	fremdgehen\_set1\_10[23]	latin2[23]	2em9nj6n4c2pjudl6n6hfpjc30-fremdgehen\_set1\_10[23]	_	_	_	_	_	false[152]	Decl[152]	*[284]	fremdgehen[284]	intransitive[284]	*[284]	*[284]	item0[284]	32[414]	female[414]	2em9nj6n4c2pjudl6n6hfpjc30[414]	speaker: YOU[544]	_	_	_	_	_	
+122-3	2998-3011	fremdgegangen	_	GWithout[23]	fremdgehen\_set1\_10[23]	latin2[23]	2em9nj6n4c2pjudl6n6hfpjc30-fremdgehen\_set1\_10[23]	_	_	_	_	_	false[152]	Decl[152]	*[284]	fremdgehen[284]	intransitive[284]	*[284]	*[284]	item0[284]	32[414]	female[414]	2em9nj6n4c2pjudl6n6hfpjc30[414]	speaker: YOU[544]	_	_	_	_	_	
+
+#Text=-
+123-1	3013-3014	-	_	GWithout[23]	fremdgehen\_set1\_10[23]	latin2[23]	2em9nj6n4c2pjudl6n6hfpjc30-fremdgehen\_set1\_10[23]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	male	*	speaker:Ulrich	_	_	_	_	_	
+
+#Text=Schon wieder.
+124-1	3016-3021	Schon	_	GWithout[23]	fremdgehen\_set1\_10[23]	latin2[23]	2em9nj6n4c2pjudl6n6hfpjc30-fremdgehen\_set1\_10[23]	_	_	_	_	_	false[153]	NA[153]	*[285]	*[285]	*[285]	*[285]	*[285]	input1[285]	32[415]	female[415]	2em9nj6n4c2pjudl6n6hfpjc30[415]	speaker: YOU[545]	_	_	result	*	125-1[154_153]	
+124-2	3022-3029	wieder.	_	GWithout[23]	fremdgehen\_set1\_10[23]	latin2[23]	2em9nj6n4c2pjudl6n6hfpjc30-fremdgehen\_set1\_10[23]	_	_	_	_	_	false[153]	NA[153]	*[285]	*[285]	*[285]	*[285]	*[285]	input1[285]	32[415]	female[415]	2em9nj6n4c2pjudl6n6hfpjc30[415]	speaker: YOU[545]	_	_	_	_	_	
+
+#Text=Arme Chantal...
+125-1	3031-3035	Arme	_	GWithout[23]	fremdgehen\_set1\_10[23]	latin2[23]	2em9nj6n4c2pjudl6n6hfpjc30-fremdgehen\_set1\_10[23]	_	_	_	_	_	false[154]	NA[154]	*[286]	*[286]	*[286]	*[286]	*[286]	input2[286]	32[416]	female[416]	2em9nj6n4c2pjudl6n6hfpjc30[416]	speaker: YOU[546]	_	_	_	_	_	
+125-2	3036-3046	Chantal...	_	GWithout[23]	fremdgehen\_set1\_10[23]	latin2[23]	2em9nj6n4c2pjudl6n6hfpjc30-fremdgehen\_set1\_10[23]	_	_	_	_	_	false[154]	NA[154]	*[286]	*[286]	*[286]	*[286]	*[286]	input2[286]	32[416]	female[416]	2em9nj6n4c2pjudl6n6hfpjc30[416]	speaker: YOU[546]	*->15-1	PropNm[15]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+126-1	3048-3063	END_OF_DOCUMENT	_	GWithout[23]	fremdgehen\_set1\_10[23]	latin2[23]	2em9nj6n4c2pjudl6n6hfpjc30-fremdgehen\_set1\_10[23]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+127-1	3065-3069	Hey,	_	GWithout[24]	fremdgehen\_set1\_10[24]	latin2[24]	2prsavjsjqbmc8hrbo9bovkues-fremdgehen\_set1\_10[24]	_	_	_	_	_	false[155]	Int[155]	*[287]	*[287]	*[287]	wh\_6[287]	wh\_question[287]	openq[287]	*[417]	male[417]	*[417]	speaker:Ulrich[547]	_	_	QAP	*	128-1[156_155]	
+127-2	3070-3073	was	_	GWithout[24]	fremdgehen\_set1\_10[24]	latin2[24]	2prsavjsjqbmc8hrbo9bovkues-fremdgehen\_set1\_10[24]	_	_	_	_	_	false[155]	Int[155]	*[287]	*[287]	*[287]	wh\_6[287]	wh\_question[287]	openq[287]	*[417]	male[417]	*[417]	speaker:Ulrich[547]	_	_	_	_	_	
+127-3	3074-3079	gibts	_	GWithout[24]	fremdgehen\_set1\_10[24]	latin2[24]	2prsavjsjqbmc8hrbo9bovkues-fremdgehen\_set1\_10[24]	_	_	_	_	_	false[155]	Int[155]	*[287]	*[287]	*[287]	wh\_6[287]	wh\_question[287]	openq[287]	*[417]	male[417]	*[417]	speaker:Ulrich[547]	_	_	_	_	_	
+127-4	3080-3086	Neues?	_	GWithout[24]	fremdgehen\_set1\_10[24]	latin2[24]	2prsavjsjqbmc8hrbo9bovkues-fremdgehen\_set1\_10[24]	_	_	_	_	_	false[155]	Int[155]	*[287]	*[287]	*[287]	wh\_6[287]	wh\_question[287]	openq[287]	*[417]	male[417]	*[417]	speaker:Ulrich[547]	_	_	_	_	_	
+
+#Text=Charlotte ist fremdgegangen
+128-1	3088-3097	Charlotte	_	GWithout[24]	fremdgehen\_set1\_10[24]	latin2[24]	2prsavjsjqbmc8hrbo9bovkues-fremdgehen\_set1\_10[24]	*	*	Subj	*	*	false[156]	Decl[156]	*[288]	fremdgehen[288]	intransitive[288]	*[288]	*[288]	item0[288]	41[418]	female[418]	2prsavjsjqbmc8hrbo9bovkues[418]	speaker: YOU[548]	*->64-1|*->34-1	clause[64]|PropNm[34]	elaboration|result	*|*	130-1[157_156]|131-1[158_156]	
+128-2	3098-3101	ist	_	GWithout[24]	fremdgehen\_set1\_10[24]	latin2[24]	2prsavjsjqbmc8hrbo9bovkues-fremdgehen\_set1\_10[24]	_	_	_	_	_	false[156]	Decl[156]	*[288]	fremdgehen[288]	intransitive[288]	*[288]	*[288]	item0[288]	41[418]	female[418]	2prsavjsjqbmc8hrbo9bovkues[418]	speaker: YOU[548]	*->64-1	clause[64]	_	_	_	
+128-3	3102-3115	fremdgegangen	_	GWithout[24]	fremdgehen\_set1\_10[24]	latin2[24]	2prsavjsjqbmc8hrbo9bovkues-fremdgehen\_set1\_10[24]	_	_	_	_	_	false[156]	Decl[156]	*[288]	fremdgehen[288]	intransitive[288]	*[288]	*[288]	item0[288]	41[418]	female[418]	2prsavjsjqbmc8hrbo9bovkues[418]	speaker: YOU[548]	*->64-1	clause[64]	_	_	_	
+
+#Text=-
+129-1	3117-3118	-	_	GWithout[24]	fremdgehen\_set1\_10[24]	latin2[24]	2prsavjsjqbmc8hrbo9bovkues-fremdgehen\_set1\_10[24]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	male	*	speaker:Ulrich	_	_	_	_	_	
+
+#Text=Ich hab's nicht von ihr selbst erfahren.
+130-1	3120-3123	Ich	_	GWithout[24]	fremdgehen\_set1\_10[24]	latin2[24]	2prsavjsjqbmc8hrbo9bovkues-fremdgehen\_set1\_10[24]	1	*	Subj	*	singular	false[157]	Decl[157]	*[289]	*[289]	*[289]	*[289]	*[289]	input1[289]	41[419]	female[419]	2prsavjsjqbmc8hrbo9bovkues[419]	speaker: YOU[549]	*->92-1	PerPron[92]	_	_	_	
+130-2	3124-3129	hab's	_	GWithout[24]	fremdgehen\_set1\_10[24]	latin2[24]	2prsavjsjqbmc8hrbo9bovkues-fremdgehen\_set1\_10[24]	3	*	*	*	singular	false[157]	Decl[157]	*[289]	*[289]	*[289]	*[289]	*[289]	input1[289]	41[419]	female[419]	2prsavjsjqbmc8hrbo9bovkues[419]	speaker: YOU[549]	*->64-2	PerPron[64]	_	_	_	
+130-3	3130-3135	nicht	_	GWithout[24]	fremdgehen\_set1\_10[24]	latin2[24]	2prsavjsjqbmc8hrbo9bovkues-fremdgehen\_set1\_10[24]	_	_	_	_	_	false[157]	Decl[157]	*[289]	*[289]	*[289]	*[289]	*[289]	input1[289]	41[419]	female[419]	2prsavjsjqbmc8hrbo9bovkues[419]	speaker: YOU[549]	_	_	_	_	_	
+130-4	3136-3139	von	_	GWithout[24]	fremdgehen\_set1\_10[24]	latin2[24]	2prsavjsjqbmc8hrbo9bovkues-fremdgehen\_set1\_10[24]	_	_	_	_	_	false[157]	Decl[157]	*[289]	*[289]	*[289]	*[289]	*[289]	input1[289]	41[419]	female[419]	2prsavjsjqbmc8hrbo9bovkues[419]	speaker: YOU[549]	_	_	_	_	_	
+130-5	3140-3143	ihr	_	GWithout[24]	fremdgehen\_set1\_10[24]	latin2[24]	2prsavjsjqbmc8hrbo9bovkues-fremdgehen\_set1\_10[24]	3	*	PrepObj	*	singular	false[157]	Decl[157]	*[289]	*[289]	*[289]	*[289]	*[289]	input1[289]	41[419]	female[419]	2prsavjsjqbmc8hrbo9bovkues[419]	speaker: YOU[549]	*->34-2	PerPron[34]	_	_	_	
+130-6	3144-3150	selbst	_	GWithout[24]	fremdgehen\_set1\_10[24]	latin2[24]	2prsavjsjqbmc8hrbo9bovkues-fremdgehen\_set1\_10[24]	_	_	_	_	_	false[157]	Decl[157]	*[289]	*[289]	*[289]	*[289]	*[289]	input1[289]	41[419]	female[419]	2prsavjsjqbmc8hrbo9bovkues[419]	speaker: YOU[549]	_	_	_	_	_	
+130-7	3151-3160	erfahren.	_	GWithout[24]	fremdgehen\_set1\_10[24]	latin2[24]	2prsavjsjqbmc8hrbo9bovkues-fremdgehen\_set1\_10[24]	_	_	_	_	_	false[157]	Decl[157]	*[289]	*[289]	*[289]	*[289]	*[289]	input1[289]	41[419]	female[419]	2prsavjsjqbmc8hrbo9bovkues[419]	speaker: YOU[549]	_	_	_	_	_	
+
+#Text=Wir haben dann Schluss gemacht.
+131-1	3162-3165	Wir	_	GWithout[24]	fremdgehen\_set1\_10[24]	latin2[24]	2prsavjsjqbmc8hrbo9bovkues-fremdgehen\_set1\_10[24]	1	*	Subj	*	plural	false[158]	Decl[158]	*[290]	*[290]	*[290]	*[290]	*[290]	input2[290]	41[420]	female[420]	2prsavjsjqbmc8hrbo9bovkues[420]	speaker: YOU[550]	*->39-1	PerPron[39]	_	_	_	
+131-2	3166-3171	haben	_	GWithout[24]	fremdgehen\_set1\_10[24]	latin2[24]	2prsavjsjqbmc8hrbo9bovkues-fremdgehen\_set1\_10[24]	_	_	_	_	_	false[158]	Decl[158]	*[290]	*[290]	*[290]	*[290]	*[290]	input2[290]	41[420]	female[420]	2prsavjsjqbmc8hrbo9bovkues[420]	speaker: YOU[550]	_	_	_	_	_	
+131-3	3172-3176	dann	_	GWithout[24]	fremdgehen\_set1\_10[24]	latin2[24]	2prsavjsjqbmc8hrbo9bovkues-fremdgehen\_set1\_10[24]	_	_	_	_	_	false[158]	Decl[158]	*[290]	*[290]	*[290]	*[290]	*[290]	input2[290]	41[420]	female[420]	2prsavjsjqbmc8hrbo9bovkues[420]	speaker: YOU[550]	_	_	_	_	_	
+131-4	3177-3184	Schluss	_	GWithout[24]	fremdgehen\_set1\_10[24]	latin2[24]	2prsavjsjqbmc8hrbo9bovkues-fremdgehen\_set1\_10[24]	*	*	DirObj	*	*	false[158]	Decl[158]	*[290]	*[290]	*[290]	*[290]	*[290]	input2[290]	41[420]	female[420]	2prsavjsjqbmc8hrbo9bovkues[420]	speaker: YOU[550]	_	_	_	_	_	
+131-5	3185-3193	gemacht.	_	GWithout[24]	fremdgehen\_set1\_10[24]	latin2[24]	2prsavjsjqbmc8hrbo9bovkues-fremdgehen\_set1\_10[24]	_	_	_	_	_	false[158]	Decl[158]	*[290]	*[290]	*[290]	*[290]	*[290]	input2[290]	41[420]	female[420]	2prsavjsjqbmc8hrbo9bovkues[420]	speaker: YOU[550]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+132-1	3195-3210	END_OF_DOCUMENT	_	GWithout[24]	fremdgehen\_set1\_10[24]	latin2[24]	2prsavjsjqbmc8hrbo9bovkues-fremdgehen\_set1\_10[24]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+133-1	3212-3216	Hey,	_	GWithout[25]	fremdgehen\_set1\_10[25]	latin2[25]	3jjtes457iqluuhfmeiub8g6qd-fremdgehen\_set1\_10[25]	_	_	_	_	_	false[159]	Int[159]	*[291]	*[291]	*[291]	wh\_6[291]	wh\_question[291]	openq[291]	*[421]	male[421]	*[421]	speaker:Ulrich[551]	_	_	QAP	*	134-1[160_159]	
+133-2	3217-3220	was	_	GWithout[25]	fremdgehen\_set1\_10[25]	latin2[25]	3jjtes457iqluuhfmeiub8g6qd-fremdgehen\_set1\_10[25]	_	_	_	_	_	false[159]	Int[159]	*[291]	*[291]	*[291]	wh\_6[291]	wh\_question[291]	openq[291]	*[421]	male[421]	*[421]	speaker:Ulrich[551]	_	_	_	_	_	
+133-3	3221-3226	gibts	_	GWithout[25]	fremdgehen\_set1\_10[25]	latin2[25]	3jjtes457iqluuhfmeiub8g6qd-fremdgehen\_set1\_10[25]	_	_	_	_	_	false[159]	Int[159]	*[291]	*[291]	*[291]	wh\_6[291]	wh\_question[291]	openq[291]	*[421]	male[421]	*[421]	speaker:Ulrich[551]	_	_	_	_	_	
+133-4	3227-3233	Neues?	_	GWithout[25]	fremdgehen\_set1\_10[25]	latin2[25]	3jjtes457iqluuhfmeiub8g6qd-fremdgehen\_set1\_10[25]	_	_	_	_	_	false[159]	Int[159]	*[291]	*[291]	*[291]	wh\_6[291]	wh\_question[291]	openq[291]	*[421]	male[421]	*[421]	speaker:Ulrich[551]	_	_	_	_	_	
+
+#Text=Charlotte ist fremdgegangen
+134-1	3235-3244	Charlotte	_	GWithout[25]	fremdgehen\_set1\_10[25]	latin2[25]	3jjtes457iqluuhfmeiub8g6qd-fremdgehen\_set1\_10[25]	*	*	Subj	*	*	false[160]	Decl[160]	*[292]	fremdgehen[292]	intransitive[292]	*[292]	*[292]	item0[292]	46[422]	male[422]	3jjtes457iqluuhfmeiub8g6qd[422]	speaker: YOU[552]	*->49-1|*->53-1	clause[49]|PropNm[53]	narration|elaboration	*|*	136-1[161_160]|137-1[163_160]	
+134-2	3245-3248	ist	_	GWithout[25]	fremdgehen\_set1\_10[25]	latin2[25]	3jjtes457iqluuhfmeiub8g6qd-fremdgehen\_set1\_10[25]	_	_	_	_	_	false[160]	Decl[160]	*[292]	fremdgehen[292]	intransitive[292]	*[292]	*[292]	item0[292]	46[422]	male[422]	3jjtes457iqluuhfmeiub8g6qd[422]	speaker: YOU[552]	*->49-1	clause[49]	_	_	_	
+134-3	3249-3262	fremdgegangen	_	GWithout[25]	fremdgehen\_set1\_10[25]	latin2[25]	3jjtes457iqluuhfmeiub8g6qd-fremdgehen\_set1\_10[25]	_	_	_	_	_	false[160]	Decl[160]	*[292]	fremdgehen[292]	intransitive[292]	*[292]	*[292]	item0[292]	46[422]	male[422]	3jjtes457iqluuhfmeiub8g6qd[422]	speaker: YOU[552]	*->49-1	clause[49]	_	_	_	
+
+#Text=-
+135-1	3264-3265	-	_	GWithout[25]	fremdgehen\_set1\_10[25]	latin2[25]	3jjtes457iqluuhfmeiub8g6qd-fremdgehen\_set1\_10[25]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	male	*	speaker:Ulrich	_	_	_	_	_	
+
+#Text=Ihr Freund hat das jetzt irgendwie rausbekommen und war am Boden zerstört.
+136-1	3267-3270	Ihr	_	GWithout[25]	fremdgehen\_set1\_10[25]	latin2[25]	3jjtes457iqluuhfmeiub8g6qd-fremdgehen\_set1\_10[25]	*[45]|3[46]	*[45]|*[46]	Subj[45]|*[46]	*[45]|*[46]	*[45]|singular[46]	false[161]	Decl[161]	*[293]	*[293]	*[293]	*[293]	*[293]	input1[293]	46[423]	male[423]	3jjtes457iqluuhfmeiub8g6qd[423]	speaker: YOU[553]	*->32-1|*->53-2	DefNP[32]|PossePron[53]	result	*	136-8[162_161]	
+136-2	3271-3277	Freund	_	GWithout[25]	fremdgehen\_set1\_10[25]	latin2[25]	3jjtes457iqluuhfmeiub8g6qd-fremdgehen\_set1\_10[25]	*[45]	*[45]	Subj[45]	*[45]	*[45]	false[161]	Decl[161]	*[293]	*[293]	*[293]	*[293]	*[293]	input1[293]	46[423]	male[423]	3jjtes457iqluuhfmeiub8g6qd[423]	speaker: YOU[553]	*->32-1	DefNP[32]	_	_	_	
+136-3	3278-3281	hat	_	GWithout[25]	fremdgehen\_set1\_10[25]	latin2[25]	3jjtes457iqluuhfmeiub8g6qd-fremdgehen\_set1\_10[25]	_	_	_	_	_	false[161]	Decl[161]	*[293]	*[293]	*[293]	*[293]	*[293]	input1[293]	46[423]	male[423]	3jjtes457iqluuhfmeiub8g6qd[423]	speaker: YOU[553]	_	_	_	_	_	
+136-4	3282-3285	das	_	GWithout[25]	fremdgehen\_set1\_10[25]	latin2[25]	3jjtes457iqluuhfmeiub8g6qd-fremdgehen\_set1\_10[25]	*	*	DirObj	*	*	false[161]	Decl[161]	*[293]	*[293]	*[293]	*[293]	*[293]	input1[293]	46[423]	male[423]	3jjtes457iqluuhfmeiub8g6qd[423]	speaker: YOU[553]	*->49-2	D-Pron[49]	_	_	_	
+136-5	3286-3291	jetzt	_	GWithout[25]	fremdgehen\_set1\_10[25]	latin2[25]	3jjtes457iqluuhfmeiub8g6qd-fremdgehen\_set1\_10[25]	_	_	_	_	_	false[161]	Decl[161]	*[293]	*[293]	*[293]	*[293]	*[293]	input1[293]	46[423]	male[423]	3jjtes457iqluuhfmeiub8g6qd[423]	speaker: YOU[553]	_	_	_	_	_	
+136-6	3292-3301	irgendwie	_	GWithout[25]	fremdgehen\_set1\_10[25]	latin2[25]	3jjtes457iqluuhfmeiub8g6qd-fremdgehen\_set1\_10[25]	_	_	_	_	_	false[161]	Decl[161]	*[293]	*[293]	*[293]	*[293]	*[293]	input1[293]	46[423]	male[423]	3jjtes457iqluuhfmeiub8g6qd[423]	speaker: YOU[553]	_	_	_	_	_	
+136-7	3302-3314	rausbekommen	_	GWithout[25]	fremdgehen\_set1\_10[25]	latin2[25]	3jjtes457iqluuhfmeiub8g6qd-fremdgehen\_set1\_10[25]	_	_	_	_	_	false[161]	Decl[161]	*[293]	*[293]	*[293]	*[293]	*[293]	input1[293]	46[423]	male[423]	3jjtes457iqluuhfmeiub8g6qd[423]	speaker: YOU[553]	_	_	_	_	_	
+136-8	3315-3318	und	_	GWithout[25]	fremdgehen\_set1\_10[25]	latin2[25]	3jjtes457iqluuhfmeiub8g6qd-fremdgehen\_set1\_10[25]	_	_	_	_	_	false[162]	Decl[162]	*[293]	*[293]	*[293]	*[293]	*[293]	input1[293]	46[423]	male[423]	3jjtes457iqluuhfmeiub8g6qd[423]	speaker: YOU[553]	_	_	_	_	_	
+136-9	3319-3322	war	_	GWithout[25]	fremdgehen\_set1\_10[25]	latin2[25]	3jjtes457iqluuhfmeiub8g6qd-fremdgehen\_set1\_10[25]	3	*	*	*	singular	false[162]	Decl[162]	*[293]	*[293]	*[293]	*[293]	*[293]	input1[293]	46[423]	male[423]	3jjtes457iqluuhfmeiub8g6qd[423]	speaker: YOU[553]	*->32-2	zero[32]	_	_	_	
+136-10	3323-3325	am	_	GWithout[25]	fremdgehen\_set1\_10[25]	latin2[25]	3jjtes457iqluuhfmeiub8g6qd-fremdgehen\_set1\_10[25]	_	_	_	_	_	false[162]	Decl[162]	*[293]	*[293]	*[293]	*[293]	*[293]	input1[293]	46[423]	male[423]	3jjtes457iqluuhfmeiub8g6qd[423]	speaker: YOU[553]	_	_	_	_	_	
+136-11	3326-3331	Boden	_	GWithout[25]	fremdgehen\_set1\_10[25]	latin2[25]	3jjtes457iqluuhfmeiub8g6qd-fremdgehen\_set1\_10[25]	*	*	PrepObj	*	*	false[162]	Decl[162]	*[293]	*[293]	*[293]	*[293]	*[293]	input1[293]	46[423]	male[423]	3jjtes457iqluuhfmeiub8g6qd[423]	speaker: YOU[553]	_	_	_	_	_	
+136-12	3332-3341	zerstört.	_	GWithout[25]	fremdgehen\_set1\_10[25]	latin2[25]	3jjtes457iqluuhfmeiub8g6qd-fremdgehen\_set1\_10[25]	_	_	_	_	_	false[162]	Decl[162]	*[293]	*[293]	*[293]	*[293]	*[293]	input1[293]	46[423]	male[423]	3jjtes457iqluuhfmeiub8g6qd[423]	speaker: YOU[553]	_	_	_	_	_	
+
+#Text=Hätt ich ihr gar nicht zugetraut.
+137-1	3343-3347	Hätt	_	GWithout[25]	fremdgehen\_set1\_10[25]	latin2[25]	3jjtes457iqluuhfmeiub8g6qd-fremdgehen\_set1\_10[25]	3	*	*	*	singular	false[163]	Decl[163]	*[294]	*[294]	*[294]	*[294]	*[294]	input2[294]	46[424]	male[424]	3jjtes457iqluuhfmeiub8g6qd[424]	speaker: YOU[554]	*->49-3	zero[49]	_	_	_	
+137-2	3348-3351	ich	_	GWithout[25]	fremdgehen\_set1\_10[25]	latin2[25]	3jjtes457iqluuhfmeiub8g6qd-fremdgehen\_set1\_10[25]	1	*	Subj	*	singular	false[163]	Decl[163]	*[294]	*[294]	*[294]	*[294]	*[294]	input2[294]	46[424]	male[424]	3jjtes457iqluuhfmeiub8g6qd[424]	speaker: YOU[554]	*->87-1	PerPron[87]	_	_	_	
+137-3	3352-3355	ihr	_	GWithout[25]	fremdgehen\_set1\_10[25]	latin2[25]	3jjtes457iqluuhfmeiub8g6qd-fremdgehen\_set1\_10[25]	3	*	IndirObj	*	singular	false[163]	Decl[163]	*[294]	*[294]	*[294]	*[294]	*[294]	input2[294]	46[424]	male[424]	3jjtes457iqluuhfmeiub8g6qd[424]	speaker: YOU[554]	*->53-3	PerPron[53]	_	_	_	
+137-4	3356-3359	gar	_	GWithout[25]	fremdgehen\_set1\_10[25]	latin2[25]	3jjtes457iqluuhfmeiub8g6qd-fremdgehen\_set1\_10[25]	_	_	_	_	_	false[163]	Decl[163]	*[294]	*[294]	*[294]	*[294]	*[294]	input2[294]	46[424]	male[424]	3jjtes457iqluuhfmeiub8g6qd[424]	speaker: YOU[554]	_	_	_	_	_	
+137-5	3360-3365	nicht	_	GWithout[25]	fremdgehen\_set1\_10[25]	latin2[25]	3jjtes457iqluuhfmeiub8g6qd-fremdgehen\_set1\_10[25]	_	_	_	_	_	false[163]	Decl[163]	*[294]	*[294]	*[294]	*[294]	*[294]	input2[294]	46[424]	male[424]	3jjtes457iqluuhfmeiub8g6qd[424]	speaker: YOU[554]	_	_	_	_	_	
+137-6	3366-3376	zugetraut.	_	GWithout[25]	fremdgehen\_set1\_10[25]	latin2[25]	3jjtes457iqluuhfmeiub8g6qd-fremdgehen\_set1\_10[25]	_	_	_	_	_	false[163]	Decl[163]	*[294]	*[294]	*[294]	*[294]	*[294]	input2[294]	46[424]	male[424]	3jjtes457iqluuhfmeiub8g6qd[424]	speaker: YOU[554]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+138-1	3378-3393	END_OF_DOCUMENT	_	GWithout[25]	fremdgehen\_set1\_10[25]	latin2[25]	3jjtes457iqluuhfmeiub8g6qd-fremdgehen\_set1\_10[25]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+139-1	3395-3399	Hey,	_	GWithout[26]	fremdgehen\_set1\_10[26]	latin2[26]	65p8m4ujg4fi983365pclnac28-fremdgehen\_set1\_10[26]	_	_	_	_	_	false[164]	Int[164]	*[295]	*[295]	*[295]	wh\_6[295]	wh\_question[295]	openq[295]	*[425]	male[425]	*[425]	speaker:Ulrich[555]	_	_	QAP	*	140-1[165_164]	
+139-2	3400-3403	was	_	GWithout[26]	fremdgehen\_set1\_10[26]	latin2[26]	65p8m4ujg4fi983365pclnac28-fremdgehen\_set1\_10[26]	_	_	_	_	_	false[164]	Int[164]	*[295]	*[295]	*[295]	wh\_6[295]	wh\_question[295]	openq[295]	*[425]	male[425]	*[425]	speaker:Ulrich[555]	_	_	_	_	_	
+139-3	3404-3409	gibts	_	GWithout[26]	fremdgehen\_set1\_10[26]	latin2[26]	65p8m4ujg4fi983365pclnac28-fremdgehen\_set1\_10[26]	_	_	_	_	_	false[164]	Int[164]	*[295]	*[295]	*[295]	wh\_6[295]	wh\_question[295]	openq[295]	*[425]	male[425]	*[425]	speaker:Ulrich[555]	_	_	_	_	_	
+139-4	3410-3416	Neues?	_	GWithout[26]	fremdgehen\_set1\_10[26]	latin2[26]	65p8m4ujg4fi983365pclnac28-fremdgehen\_set1\_10[26]	_	_	_	_	_	false[164]	Int[164]	*[295]	*[295]	*[295]	wh\_6[295]	wh\_question[295]	openq[295]	*[425]	male[425]	*[425]	speaker:Ulrich[555]	_	_	_	_	_	
+
+#Text=Charlotte ist fremdgegangen
+140-1	3418-3427	Charlotte	_	GWithout[26]	fremdgehen\_set1\_10[26]	latin2[26]	65p8m4ujg4fi983365pclnac28-fremdgehen\_set1\_10[26]	*	*	Subj	*	*	false[165]	Decl[165]	*[296]	fremdgehen[296]	intransitive[296]	*[296]	*[296]	item0[296]	27[426]	female[426]	65p8m4ujg4fi983365pclnac28[426]	speaker: YOU[556]	*->77-1	PropNm[77]	narration|elaboration	*|*	142-1[166_165]|143-1[167_165]	
+140-2	3428-3431	ist	_	GWithout[26]	fremdgehen\_set1\_10[26]	latin2[26]	65p8m4ujg4fi983365pclnac28-fremdgehen\_set1\_10[26]	_	_	_	_	_	false[165]	Decl[165]	*[296]	fremdgehen[296]	intransitive[296]	*[296]	*[296]	item0[296]	27[426]	female[426]	65p8m4ujg4fi983365pclnac28[426]	speaker: YOU[556]	_	_	_	_	_	
+140-3	3432-3445	fremdgegangen	_	GWithout[26]	fremdgehen\_set1\_10[26]	latin2[26]	65p8m4ujg4fi983365pclnac28-fremdgehen\_set1\_10[26]	_	_	_	_	_	false[165]	Decl[165]	*[296]	fremdgehen[296]	intransitive[296]	*[296]	*[296]	item0[296]	27[426]	female[426]	65p8m4ujg4fi983365pclnac28[426]	speaker: YOU[556]	_	_	_	_	_	
+
+#Text=-
+141-1	3447-3448	-	_	GWithout[26]	fremdgehen\_set1\_10[26]	latin2[26]	65p8m4ujg4fi983365pclnac28-fremdgehen\_set1\_10[26]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	male	*	speaker:Ulrich	_	_	_	_	_	
+
+#Text=und hat sich danach von ihrem Freund getrennt
+142-1	3450-3453	und	_	GWithout[26]	fremdgehen\_set1\_10[26]	latin2[26]	65p8m4ujg4fi983365pclnac28-fremdgehen\_set1\_10[26]	_	_	_	_	_	false[166]	Decl[166]	*[297]	*[297]	*[297]	*[297]	*[297]	input1[297]	27[427]	female[427]	65p8m4ujg4fi983365pclnac28[427]	speaker: YOU[557]	_	_	_	_	_	
+142-2	3454-3457	hat	_	GWithout[26]	fremdgehen\_set1\_10[26]	latin2[26]	65p8m4ujg4fi983365pclnac28-fremdgehen\_set1\_10[26]	3	*	*	*	singular	false[166]	Decl[166]	*[297]	*[297]	*[297]	*[297]	*[297]	input1[297]	27[427]	female[427]	65p8m4ujg4fi983365pclnac28[427]	speaker: YOU[557]	*->77-2	zero[77]	_	_	_	
+142-3	3458-3462	sich	_	GWithout[26]	fremdgehen\_set1\_10[26]	latin2[26]	65p8m4ujg4fi983365pclnac28-fremdgehen\_set1\_10[26]	_	_	_	_	_	false[166]	Decl[166]	*[297]	*[297]	*[297]	*[297]	*[297]	input1[297]	27[427]	female[427]	65p8m4ujg4fi983365pclnac28[427]	speaker: YOU[557]	_	_	_	_	_	
+142-4	3463-3469	danach	_	GWithout[26]	fremdgehen\_set1\_10[26]	latin2[26]	65p8m4ujg4fi983365pclnac28-fremdgehen\_set1\_10[26]	_	_	_	_	_	false[166]	Decl[166]	*[297]	*[297]	*[297]	*[297]	*[297]	input1[297]	27[427]	female[427]	65p8m4ujg4fi983365pclnac28[427]	speaker: YOU[557]	_	_	_	_	_	
+142-5	3470-3473	von	_	GWithout[26]	fremdgehen\_set1\_10[26]	latin2[26]	65p8m4ujg4fi983365pclnac28-fremdgehen\_set1\_10[26]	_	_	_	_	_	false[166]	Decl[166]	*[297]	*[297]	*[297]	*[297]	*[297]	input1[297]	27[427]	female[427]	65p8m4ujg4fi983365pclnac28[427]	speaker: YOU[557]	_	_	_	_	_	
+142-6	3474-3479	ihrem	_	GWithout[26]	fremdgehen\_set1\_10[26]	latin2[26]	65p8m4ujg4fi983365pclnac28-fremdgehen\_set1\_10[26]	*[47]|3[48]	*[47]|*[48]	PrepObj[47]|*[48]	*[47]|*[48]	*[47]|singular[48]	false[166]	Decl[166]	*[297]	*[297]	*[297]	*[297]	*[297]	input1[297]	27[427]	female[427]	65p8m4ujg4fi983365pclnac28[427]	speaker: YOU[557]	*->52-1|*->77-3	DefNP[52]|PossePron[77]	_	_	_	
+142-7	3480-3486	Freund	_	GWithout[26]	fremdgehen\_set1\_10[26]	latin2[26]	65p8m4ujg4fi983365pclnac28-fremdgehen\_set1\_10[26]	*[47]	*[47]	PrepObj[47]	*[47]	*[47]	false[166]	Decl[166]	*[297]	*[297]	*[297]	*[297]	*[297]	input1[297]	27[427]	female[427]	65p8m4ujg4fi983365pclnac28[427]	speaker: YOU[557]	*->52-1	DefNP[52]	_	_	_	
+142-8	3487-3495	getrennt	_	GWithout[26]	fremdgehen\_set1\_10[26]	latin2[26]	65p8m4ujg4fi983365pclnac28-fremdgehen\_set1\_10[26]	_	_	_	_	_	false[166]	Decl[166]	*[297]	*[297]	*[297]	*[297]	*[297]	input1[297]	27[427]	female[427]	65p8m4ujg4fi983365pclnac28[427]	speaker: YOU[557]	_	_	_	_	_	
+
+#Text=aus heiterem Himmel!
+143-1	3497-3500	aus	_	GWithout[26]	fremdgehen\_set1\_10[26]	latin2[26]	65p8m4ujg4fi983365pclnac28-fremdgehen\_set1\_10[26]	_	_	_	_	_	false[167]	NA[167]	*[298]	*[298]	*[298]	*[298]	*[298]	input2[298]	27[428]	female[428]	65p8m4ujg4fi983365pclnac28[428]	speaker: YOU[558]	_	_	_	_	_	
+143-2	3501-3509	heiterem	_	GWithout[26]	fremdgehen\_set1\_10[26]	latin2[26]	65p8m4ujg4fi983365pclnac28-fremdgehen\_set1\_10[26]	*[49]	*[49]	PrepObj[49]	*[49]	*[49]	false[167]	NA[167]	*[298]	*[298]	*[298]	*[298]	*[298]	input2[298]	27[428]	female[428]	65p8m4ujg4fi983365pclnac28[428]	speaker: YOU[558]	_	_	_	_	_	
+143-3	3510-3517	Himmel!	_	GWithout[26]	fremdgehen\_set1\_10[26]	latin2[26]	65p8m4ujg4fi983365pclnac28-fremdgehen\_set1\_10[26]	*[49]	*[49]	PrepObj[49]	*[49]	*[49]	false[167]	NA[167]	*[298]	*[298]	*[298]	*[298]	*[298]	input2[298]	27[428]	female[428]	65p8m4ujg4fi983365pclnac28[428]	speaker: YOU[558]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+144-1	3519-3534	END_OF_DOCUMENT	_	GWithout[26]	fremdgehen\_set1\_10[26]	latin2[26]	65p8m4ujg4fi983365pclnac28-fremdgehen\_set1\_10[26]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+145-1	3536-3540	Hey,	_	GWithout[27]	fremdgehen\_set1\_10[27]	latin2[27]	ad2p95q44evasm6vmbol4cikit-fremdgehen\_set1\_10[27]	_	_	_	_	_	false[168]	Int[168]	*[299]	*[299]	*[299]	wh\_6[299]	wh\_question[299]	openq[299]	*[429]	male[429]	*[429]	speaker:Ulrich[559]	_	_	QAP	*	146-1[169_168]	
+145-2	3541-3544	was	_	GWithout[27]	fremdgehen\_set1\_10[27]	latin2[27]	ad2p95q44evasm6vmbol4cikit-fremdgehen\_set1\_10[27]	_	_	_	_	_	false[168]	Int[168]	*[299]	*[299]	*[299]	wh\_6[299]	wh\_question[299]	openq[299]	*[429]	male[429]	*[429]	speaker:Ulrich[559]	_	_	_	_	_	
+145-3	3545-3550	gibts	_	GWithout[27]	fremdgehen\_set1\_10[27]	latin2[27]	ad2p95q44evasm6vmbol4cikit-fremdgehen\_set1\_10[27]	_	_	_	_	_	false[168]	Int[168]	*[299]	*[299]	*[299]	wh\_6[299]	wh\_question[299]	openq[299]	*[429]	male[429]	*[429]	speaker:Ulrich[559]	_	_	_	_	_	
+145-4	3551-3557	Neues?	_	GWithout[27]	fremdgehen\_set1\_10[27]	latin2[27]	ad2p95q44evasm6vmbol4cikit-fremdgehen\_set1\_10[27]	_	_	_	_	_	false[168]	Int[168]	*[299]	*[299]	*[299]	wh\_6[299]	wh\_question[299]	openq[299]	*[429]	male[429]	*[429]	speaker:Ulrich[559]	_	_	_	_	_	
+
+#Text=Charlotte ist fremdgegangen
+146-1	3559-3568	Charlotte	_	GWithout[27]	fremdgehen\_set1\_10[27]	latin2[27]	ad2p95q44evasm6vmbol4cikit-fremdgehen\_set1\_10[27]	*	*	Subj	*	*	false[169]	Decl[169]	*[300]	fremdgehen[300]	intransitive[300]	*[300]	*[300]	item0[300]	22[430]	female[430]	ad2p95q44evasm6vmbol4cikit[430]	speaker: YOU[560]	*->8-1|*->41-1	clause[8]|PropNm[41]	elaboration|elaboration	*|*	148-1[170_169]|149-1[171_169]	
+146-2	3569-3572	ist	_	GWithout[27]	fremdgehen\_set1\_10[27]	latin2[27]	ad2p95q44evasm6vmbol4cikit-fremdgehen\_set1\_10[27]	_	_	_	_	_	false[169]	Decl[169]	*[300]	fremdgehen[300]	intransitive[300]	*[300]	*[300]	item0[300]	22[430]	female[430]	ad2p95q44evasm6vmbol4cikit[430]	speaker: YOU[560]	*->8-1	clause[8]	_	_	_	
+146-3	3573-3586	fremdgegangen	_	GWithout[27]	fremdgehen\_set1\_10[27]	latin2[27]	ad2p95q44evasm6vmbol4cikit-fremdgehen\_set1\_10[27]	_	_	_	_	_	false[169]	Decl[169]	*[300]	fremdgehen[300]	intransitive[300]	*[300]	*[300]	item0[300]	22[430]	female[430]	ad2p95q44evasm6vmbol4cikit[430]	speaker: YOU[560]	*->8-1	clause[8]	_	_	_	
+
+#Text=-
+147-1	3588-3589	-	_	GWithout[27]	fremdgehen\_set1\_10[27]	latin2[27]	ad2p95q44evasm6vmbol4cikit-fremdgehen\_set1\_10[27]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	male	*	speaker:Ulrich	_	_	_	_	_	
+
+#Text=Ich kann es nicht fassen
+148-1	3591-3594	Ich	_	GWithout[27]	fremdgehen\_set1\_10[27]	latin2[27]	ad2p95q44evasm6vmbol4cikit-fremdgehen\_set1\_10[27]	1	*	Subj	*	singular	false[170]	Decl[170]	*[301]	*[301]	*[301]	*[301]	*[301]	input1[301]	22[431]	female[431]	ad2p95q44evasm6vmbol4cikit[431]	speaker: YOU[561]	*->108-1	PerPron[108]	_	_	_	
+148-2	3595-3599	kann	_	GWithout[27]	fremdgehen\_set1\_10[27]	latin2[27]	ad2p95q44evasm6vmbol4cikit-fremdgehen\_set1\_10[27]	_	_	_	_	_	false[170]	Decl[170]	*[301]	*[301]	*[301]	*[301]	*[301]	input1[301]	22[431]	female[431]	ad2p95q44evasm6vmbol4cikit[431]	speaker: YOU[561]	_	_	_	_	_	
+148-3	3600-3602	es	_	GWithout[27]	fremdgehen\_set1\_10[27]	latin2[27]	ad2p95q44evasm6vmbol4cikit-fremdgehen\_set1\_10[27]	3	*	DirObj	*	singular	false[170]	Decl[170]	*[301]	*[301]	*[301]	*[301]	*[301]	input1[301]	22[431]	female[431]	ad2p95q44evasm6vmbol4cikit[431]	speaker: YOU[561]	*->8-2	PerPron[8]	_	_	_	
+148-4	3603-3608	nicht	_	GWithout[27]	fremdgehen\_set1\_10[27]	latin2[27]	ad2p95q44evasm6vmbol4cikit-fremdgehen\_set1\_10[27]	_	_	_	_	_	false[170]	Decl[170]	*[301]	*[301]	*[301]	*[301]	*[301]	input1[301]	22[431]	female[431]	ad2p95q44evasm6vmbol4cikit[431]	speaker: YOU[561]	_	_	_	_	_	
+148-5	3609-3615	fassen	_	GWithout[27]	fremdgehen\_set1\_10[27]	latin2[27]	ad2p95q44evasm6vmbol4cikit-fremdgehen\_set1\_10[27]	_	_	_	_	_	false[170]	Decl[170]	*[301]	*[301]	*[301]	*[301]	*[301]	input1[301]	22[431]	female[431]	ad2p95q44evasm6vmbol4cikit[431]	speaker: YOU[561]	_	_	_	_	_	
+
+#Text=Sowas geht gar nicht
+149-1	3617-3622	Sowas	_	GWithout[27]	fremdgehen\_set1\_10[27]	latin2[27]	ad2p95q44evasm6vmbol4cikit-fremdgehen\_set1\_10[27]	*	*	Subj	*	*	false[171]	Decl[171]	*[302]	*[302]	*[302]	*[302]	*[302]	input2[302]	22[432]	female[432]	ad2p95q44evasm6vmbol4cikit[432]	speaker: YOU[562]	_	_	_	_	_	
+149-2	3623-3627	geht	_	GWithout[27]	fremdgehen\_set1\_10[27]	latin2[27]	ad2p95q44evasm6vmbol4cikit-fremdgehen\_set1\_10[27]	_	_	_	_	_	false[171]	Decl[171]	*[302]	*[302]	*[302]	*[302]	*[302]	input2[302]	22[432]	female[432]	ad2p95q44evasm6vmbol4cikit[432]	speaker: YOU[562]	_	_	_	_	_	
+149-3	3628-3631	gar	_	GWithout[27]	fremdgehen\_set1\_10[27]	latin2[27]	ad2p95q44evasm6vmbol4cikit-fremdgehen\_set1\_10[27]	_	_	_	_	_	false[171]	Decl[171]	*[302]	*[302]	*[302]	*[302]	*[302]	input2[302]	22[432]	female[432]	ad2p95q44evasm6vmbol4cikit[432]	speaker: YOU[562]	_	_	_	_	_	
+149-4	3632-3637	nicht	_	GWithout[27]	fremdgehen\_set1\_10[27]	latin2[27]	ad2p95q44evasm6vmbol4cikit-fremdgehen\_set1\_10[27]	_	_	_	_	_	false[171]	Decl[171]	*[302]	*[302]	*[302]	*[302]	*[302]	input2[302]	22[432]	female[432]	ad2p95q44evasm6vmbol4cikit[432]	speaker: YOU[562]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+150-1	3639-3654	END_OF_DOCUMENT	_	GWithout[27]	fremdgehen\_set1\_10[27]	latin2[27]	ad2p95q44evasm6vmbol4cikit-fremdgehen\_set1\_10[27]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+151-1	3656-3660	Hey,	_	GWithout[28]	fremdgehen\_set1\_10[28]	latin2[28]	aoum613lougtk5ql841j63bjo9-fremdgehen\_set1\_10[28]	_	_	_	_	_	false[172]	Int[172]	*[303]	*[303]	*[303]	wh\_6[303]	wh\_question[303]	openq[303]	*[433]	male[433]	*[433]	speaker:Ulrich[563]	_	_	QAP	*	152-1[173_172]	
+151-2	3661-3664	was	_	GWithout[28]	fremdgehen\_set1\_10[28]	latin2[28]	aoum613lougtk5ql841j63bjo9-fremdgehen\_set1\_10[28]	_	_	_	_	_	false[172]	Int[172]	*[303]	*[303]	*[303]	wh\_6[303]	wh\_question[303]	openq[303]	*[433]	male[433]	*[433]	speaker:Ulrich[563]	_	_	_	_	_	
+151-3	3665-3670	gibts	_	GWithout[28]	fremdgehen\_set1\_10[28]	latin2[28]	aoum613lougtk5ql841j63bjo9-fremdgehen\_set1\_10[28]	_	_	_	_	_	false[172]	Int[172]	*[303]	*[303]	*[303]	wh\_6[303]	wh\_question[303]	openq[303]	*[433]	male[433]	*[433]	speaker:Ulrich[563]	_	_	_	_	_	
+151-4	3671-3677	Neues?	_	GWithout[28]	fremdgehen\_set1\_10[28]	latin2[28]	aoum613lougtk5ql841j63bjo9-fremdgehen\_set1\_10[28]	_	_	_	_	_	false[172]	Int[172]	*[303]	*[303]	*[303]	wh\_6[303]	wh\_question[303]	openq[303]	*[433]	male[433]	*[433]	speaker:Ulrich[563]	_	_	_	_	_	
+
+#Text=Charlotte ist fremdgegangen
+152-1	3679-3688	Charlotte	_	GWithout[28]	fremdgehen\_set1\_10[28]	latin2[28]	aoum613lougtk5ql841j63bjo9-fremdgehen\_set1\_10[28]	*	*	Subj	*	*	false[173]	Decl[173]	*[304]	fremdgehen[304]	intransitive[304]	*[304]	*[304]	item0[304]	36[434]	female[434]	aoum613lougtk5ql841j63bjo9[434]	speaker: YOU[564]	*->91-1	PropNm[91]	result|result	*|*	154-1[174_173]|155-1[175_173]	
+152-2	3689-3692	ist	_	GWithout[28]	fremdgehen\_set1\_10[28]	latin2[28]	aoum613lougtk5ql841j63bjo9-fremdgehen\_set1\_10[28]	_	_	_	_	_	false[173]	Decl[173]	*[304]	fremdgehen[304]	intransitive[304]	*[304]	*[304]	item0[304]	36[434]	female[434]	aoum613lougtk5ql841j63bjo9[434]	speaker: YOU[564]	_	_	_	_	_	
+152-3	3693-3706	fremdgegangen	_	GWithout[28]	fremdgehen\_set1\_10[28]	latin2[28]	aoum613lougtk5ql841j63bjo9-fremdgehen\_set1\_10[28]	_	_	_	_	_	false[173]	Decl[173]	*[304]	fremdgehen[304]	intransitive[304]	*[304]	*[304]	item0[304]	36[434]	female[434]	aoum613lougtk5ql841j63bjo9[434]	speaker: YOU[564]	_	_	_	_	_	
+
+#Text=-
+153-1	3708-3709	-	_	GWithout[28]	fremdgehen\_set1\_10[28]	latin2[28]	aoum613lougtk5ql841j63bjo9-fremdgehen\_set1\_10[28]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	male	*	speaker:Ulrich	_	_	_	_	_	
+
+#Text=Jetzt haben sie und Felix natürlich großen Streit.
+154-1	3711-3716	Jetzt	_	GWithout[28]	fremdgehen\_set1\_10[28]	latin2[28]	aoum613lougtk5ql841j63bjo9-fremdgehen\_set1\_10[28]	_	_	_	_	_	false[174]	Decl[174]	*[305]	*[305]	*[305]	*[305]	*[305]	input1[305]	36[435]	female[435]	aoum613lougtk5ql841j63bjo9[435]	speaker: YOU[565]	_	_	_	_	_	
+154-2	3717-3722	haben	_	GWithout[28]	fremdgehen\_set1\_10[28]	latin2[28]	aoum613lougtk5ql841j63bjo9-fremdgehen\_set1\_10[28]	_	_	_	_	_	false[174]	Decl[174]	*[305]	*[305]	*[305]	*[305]	*[305]	input1[305]	36[435]	female[435]	aoum613lougtk5ql841j63bjo9[435]	speaker: YOU[565]	_	_	_	_	_	
+154-3	3723-3726	sie	_	GWithout[28]	fremdgehen\_set1\_10[28]	latin2[28]	aoum613lougtk5ql841j63bjo9-fremdgehen\_set1\_10[28]	*[50]|3[51]	*[50]|*[51]	Subj[50]|*[51]	*[50]|*[51]	*[50]|singular[51]	false[174]	Decl[174]	*[305]	*[305]	*[305]	*[305]	*[305]	input1[305]	36[435]	female[435]	aoum613lougtk5ql841j63bjo9[435]	speaker: YOU[565]	*->22-1|*->91-2	DefNP[22]|PerPron[91]	_	_	_	
+154-4	3727-3730	und	_	GWithout[28]	fremdgehen\_set1\_10[28]	latin2[28]	aoum613lougtk5ql841j63bjo9-fremdgehen\_set1\_10[28]	*[50]	*[50]	Subj[50]	*[50]	*[50]	false[174]	Decl[174]	*[305]	*[305]	*[305]	*[305]	*[305]	input1[305]	36[435]	female[435]	aoum613lougtk5ql841j63bjo9[435]	speaker: YOU[565]	*->22-1	DefNP[22]	_	_	_	
+154-5	3731-3736	Felix	_	GWithout[28]	fremdgehen\_set1\_10[28]	latin2[28]	aoum613lougtk5ql841j63bjo9-fremdgehen\_set1\_10[28]	*[50]	*[50]	Subj[50]	*[50]	*[50]	false[174]	Decl[174]	*[305]	*[305]	*[305]	*[305]	*[305]	input1[305]	36[435]	female[435]	aoum613lougtk5ql841j63bjo9[435]	speaker: YOU[565]	*->22-1|*->61-1	DefNP[22]|PropNm[61]	_	_	_	
+154-6	3737-3746	natürlich	_	GWithout[28]	fremdgehen\_set1\_10[28]	latin2[28]	aoum613lougtk5ql841j63bjo9-fremdgehen\_set1\_10[28]	_	_	_	_	_	false[174]	Decl[174]	*[305]	*[305]	*[305]	*[305]	*[305]	input1[305]	36[435]	female[435]	aoum613lougtk5ql841j63bjo9[435]	speaker: YOU[565]	_	_	_	_	_	
+154-7	3747-3753	großen	_	GWithout[28]	fremdgehen\_set1\_10[28]	latin2[28]	aoum613lougtk5ql841j63bjo9-fremdgehen\_set1\_10[28]	*[52]	*[52]	DirObj[52]	*[52]	*[52]	false[174]	Decl[174]	*[305]	*[305]	*[305]	*[305]	*[305]	input1[305]	36[435]	female[435]	aoum613lougtk5ql841j63bjo9[435]	speaker: YOU[565]	*->67-1	IndefNP[67]	_	_	_	
+154-8	3754-3761	Streit.	_	GWithout[28]	fremdgehen\_set1\_10[28]	latin2[28]	aoum613lougtk5ql841j63bjo9-fremdgehen\_set1\_10[28]	*[52]	*[52]	DirObj[52]	*[52]	*[52]	false[174]	Decl[174]	*[305]	*[305]	*[305]	*[305]	*[305]	input1[305]	36[435]	female[435]	aoum613lougtk5ql841j63bjo9[435]	speaker: YOU[565]	*->67-1	IndefNP[67]	_	_	_	
+
+#Text=Und Felix ist erstmal zu seinem Bruder gezogen.
+155-1	3763-3766	Und	_	GWithout[28]	fremdgehen\_set1\_10[28]	latin2[28]	aoum613lougtk5ql841j63bjo9-fremdgehen\_set1\_10[28]	_	_	_	_	_	false[175]	Decl[175]	*[306]	*[306]	*[306]	*[306]	*[306]	input2[306]	36[436]	female[436]	aoum613lougtk5ql841j63bjo9[436]	speaker: YOU[566]	_	_	_	_	_	
+155-2	3767-3772	Felix	_	GWithout[28]	fremdgehen\_set1\_10[28]	latin2[28]	aoum613lougtk5ql841j63bjo9-fremdgehen\_set1\_10[28]	*	*	Subj	*	*	false[175]	Decl[175]	*[306]	*[306]	*[306]	*[306]	*[306]	input2[306]	36[436]	female[436]	aoum613lougtk5ql841j63bjo9[436]	speaker: YOU[566]	*->61-2	PropNm[61]	_	_	_	
+155-3	3773-3776	ist	_	GWithout[28]	fremdgehen\_set1\_10[28]	latin2[28]	aoum613lougtk5ql841j63bjo9-fremdgehen\_set1\_10[28]	_	_	_	_	_	false[175]	Decl[175]	*[306]	*[306]	*[306]	*[306]	*[306]	input2[306]	36[436]	female[436]	aoum613lougtk5ql841j63bjo9[436]	speaker: YOU[566]	_	_	_	_	_	
+155-4	3777-3784	erstmal	_	GWithout[28]	fremdgehen\_set1\_10[28]	latin2[28]	aoum613lougtk5ql841j63bjo9-fremdgehen\_set1\_10[28]	_	_	_	_	_	false[175]	Decl[175]	*[306]	*[306]	*[306]	*[306]	*[306]	input2[306]	36[436]	female[436]	aoum613lougtk5ql841j63bjo9[436]	speaker: YOU[566]	_	_	_	_	_	
+155-5	3785-3787	zu	_	GWithout[28]	fremdgehen\_set1\_10[28]	latin2[28]	aoum613lougtk5ql841j63bjo9-fremdgehen\_set1\_10[28]	_	_	_	_	_	false[175]	Decl[175]	*[306]	*[306]	*[306]	*[306]	*[306]	input2[306]	36[436]	female[436]	aoum613lougtk5ql841j63bjo9[436]	speaker: YOU[566]	_	_	_	_	_	
+155-6	3788-3794	seinem	_	GWithout[28]	fremdgehen\_set1\_10[28]	latin2[28]	aoum613lougtk5ql841j63bjo9-fremdgehen\_set1\_10[28]	*[53]|3[54]	*[53]|*[54]	PrepObj[53]|*[54]	*[53]|*[54]	*[53]|singular[54]	false[175]	Decl[175]	*[306]	*[306]	*[306]	*[306]	*[306]	input2[306]	36[436]	female[436]	aoum613lougtk5ql841j63bjo9[436]	speaker: YOU[566]	*->12-1|*->61-3	DefNP[12]|PossePron[61]	_	_	_	
+155-7	3795-3801	Bruder	_	GWithout[28]	fremdgehen\_set1\_10[28]	latin2[28]	aoum613lougtk5ql841j63bjo9-fremdgehen\_set1\_10[28]	*[53]	*[53]	PrepObj[53]	*[53]	*[53]	false[175]	Decl[175]	*[306]	*[306]	*[306]	*[306]	*[306]	input2[306]	36[436]	female[436]	aoum613lougtk5ql841j63bjo9[436]	speaker: YOU[566]	*->12-1	DefNP[12]	_	_	_	
+155-8	3802-3810	gezogen.	_	GWithout[28]	fremdgehen\_set1\_10[28]	latin2[28]	aoum613lougtk5ql841j63bjo9-fremdgehen\_set1\_10[28]	_	_	_	_	_	false[175]	Decl[175]	*[306]	*[306]	*[306]	*[306]	*[306]	input2[306]	36[436]	female[436]	aoum613lougtk5ql841j63bjo9[436]	speaker: YOU[566]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+156-1	3812-3827	END_OF_DOCUMENT	_	GWithout[28]	fremdgehen\_set1\_10[28]	latin2[28]	aoum613lougtk5ql841j63bjo9-fremdgehen\_set1\_10[28]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+157-1	3829-3833	Hey,	_	GWithout[29]	fremdgehen\_set1\_10[29]	latin2[29]	c48fsj7kc4kiuorutkbb4be30b-fremdgehen\_set1\_10[29]	_	_	_	_	_	false[176]	Int[176]	*[307]	*[307]	*[307]	wh\_6[307]	wh\_question[307]	openq[307]	*[437]	male[437]	*[437]	speaker:Ulrich[567]	_	_	QAP	*	158-1[177_176]	
+157-2	3834-3837	was	_	GWithout[29]	fremdgehen\_set1\_10[29]	latin2[29]	c48fsj7kc4kiuorutkbb4be30b-fremdgehen\_set1\_10[29]	_	_	_	_	_	false[176]	Int[176]	*[307]	*[307]	*[307]	wh\_6[307]	wh\_question[307]	openq[307]	*[437]	male[437]	*[437]	speaker:Ulrich[567]	_	_	_	_	_	
+157-3	3838-3843	gibts	_	GWithout[29]	fremdgehen\_set1\_10[29]	latin2[29]	c48fsj7kc4kiuorutkbb4be30b-fremdgehen\_set1\_10[29]	_	_	_	_	_	false[176]	Int[176]	*[307]	*[307]	*[307]	wh\_6[307]	wh\_question[307]	openq[307]	*[437]	male[437]	*[437]	speaker:Ulrich[567]	_	_	_	_	_	
+157-4	3844-3850	Neues?	_	GWithout[29]	fremdgehen\_set1\_10[29]	latin2[29]	c48fsj7kc4kiuorutkbb4be30b-fremdgehen\_set1\_10[29]	_	_	_	_	_	false[176]	Int[176]	*[307]	*[307]	*[307]	wh\_6[307]	wh\_question[307]	openq[307]	*[437]	male[437]	*[437]	speaker:Ulrich[567]	_	_	_	_	_	
+
+#Text=Charlotte ist fremdgegangen
+158-1	3852-3861	Charlotte	_	GWithout[29]	fremdgehen\_set1\_10[29]	latin2[29]	c48fsj7kc4kiuorutkbb4be30b-fremdgehen\_set1\_10[29]	*	*	Subj	*	*	false[177]	Decl[177]	*[308]	fremdgehen[308]	intransitive[308]	*[308]	*[308]	item0[308]	26[438]	male[438]	c48fsj7kc4kiuorutkbb4be30b[438]	speaker: YOU[568]	*->42-1|*->23-1	clause[42]|PropNm[23]	elaboration	*	160-1[178_177]	
+158-2	3862-3865	ist	_	GWithout[29]	fremdgehen\_set1\_10[29]	latin2[29]	c48fsj7kc4kiuorutkbb4be30b-fremdgehen\_set1\_10[29]	_	_	_	_	_	false[177]	Decl[177]	*[308]	fremdgehen[308]	intransitive[308]	*[308]	*[308]	item0[308]	26[438]	male[438]	c48fsj7kc4kiuorutkbb4be30b[438]	speaker: YOU[568]	*->42-1	clause[42]	_	_	_	
+158-3	3866-3879	fremdgegangen	_	GWithout[29]	fremdgehen\_set1\_10[29]	latin2[29]	c48fsj7kc4kiuorutkbb4be30b-fremdgehen\_set1\_10[29]	_	_	_	_	_	false[177]	Decl[177]	*[308]	fremdgehen[308]	intransitive[308]	*[308]	*[308]	item0[308]	26[438]	male[438]	c48fsj7kc4kiuorutkbb4be30b[438]	speaker: YOU[568]	*->42-1	clause[42]	_	_	_	
+
+#Text=-
+159-1	3881-3882	-	_	GWithout[29]	fremdgehen\_set1\_10[29]	latin2[29]	c48fsj7kc4kiuorutkbb4be30b-fremdgehen\_set1\_10[29]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	male	*	speaker:Ulrich	_	_	_	_	_	
+
+#Text=Ich kann es einfach nicht glauben.
+160-1	3884-3887	Ich	_	GWithout[29]	fremdgehen\_set1\_10[29]	latin2[29]	c48fsj7kc4kiuorutkbb4be30b-fremdgehen\_set1\_10[29]	1	*	*	*	singular	false[178]	Decl[178]	*[309]	*[309]	*[309]	*[309]	*[309]	input1[309]	26[439]	male[439]	c48fsj7kc4kiuorutkbb4be30b[439]	speaker: YOU[569]	*->65-1	PerPron[65]	explanation	*	161-1[179_178]	
+160-2	3888-3892	kann	_	GWithout[29]	fremdgehen\_set1\_10[29]	latin2[29]	c48fsj7kc4kiuorutkbb4be30b-fremdgehen\_set1\_10[29]	_	_	_	_	_	false[178]	Decl[178]	*[309]	*[309]	*[309]	*[309]	*[309]	input1[309]	26[439]	male[439]	c48fsj7kc4kiuorutkbb4be30b[439]	speaker: YOU[569]	_	_	_	_	_	
+160-3	3893-3895	es	_	GWithout[29]	fremdgehen\_set1\_10[29]	latin2[29]	c48fsj7kc4kiuorutkbb4be30b-fremdgehen\_set1\_10[29]	3	*	DirObj	*	singular	false[178]	Decl[178]	*[309]	*[309]	*[309]	*[309]	*[309]	input1[309]	26[439]	male[439]	c48fsj7kc4kiuorutkbb4be30b[439]	speaker: YOU[569]	*->42-2	PerPron[42]	_	_	_	
+160-4	3896-3903	einfach	_	GWithout[29]	fremdgehen\_set1\_10[29]	latin2[29]	c48fsj7kc4kiuorutkbb4be30b-fremdgehen\_set1\_10[29]	_	_	_	_	_	false[178]	Decl[178]	*[309]	*[309]	*[309]	*[309]	*[309]	input1[309]	26[439]	male[439]	c48fsj7kc4kiuorutkbb4be30b[439]	speaker: YOU[569]	_	_	_	_	_	
+160-5	3904-3909	nicht	_	GWithout[29]	fremdgehen\_set1\_10[29]	latin2[29]	c48fsj7kc4kiuorutkbb4be30b-fremdgehen\_set1\_10[29]	_	_	_	_	_	false[178]	Decl[178]	*[309]	*[309]	*[309]	*[309]	*[309]	input1[309]	26[439]	male[439]	c48fsj7kc4kiuorutkbb4be30b[439]	speaker: YOU[569]	_	_	_	_	_	
+160-6	3910-3918	glauben.	_	GWithout[29]	fremdgehen\_set1\_10[29]	latin2[29]	c48fsj7kc4kiuorutkbb4be30b-fremdgehen\_set1\_10[29]	_	_	_	_	_	false[178]	Decl[178]	*[309]	*[309]	*[309]	*[309]	*[309]	input1[309]	26[439]	male[439]	c48fsj7kc4kiuorutkbb4be30b[439]	speaker: YOU[569]	_	_	_	_	_	
+
+#Text=Dabei dachte ich es läuft perfekt zwische ihr und Markus.
+161-1	3920-3925	Dabei	_	GWithout[29]	fremdgehen\_set1\_10[29]	latin2[29]	c48fsj7kc4kiuorutkbb4be30b-fremdgehen\_set1\_10[29]	_	_	_	_	_	false[179]	Decl[179]	*[310]	*[310]	*[310]	*[310]	*[310]	input2[310]	26[440]	male[440]	c48fsj7kc4kiuorutkbb4be30b[440]	speaker: YOU[570]	*->3-1	D-Pron[3]	_	_	_	
+161-2	3926-3932	dachte	_	GWithout[29]	fremdgehen\_set1\_10[29]	latin2[29]	c48fsj7kc4kiuorutkbb4be30b-fremdgehen\_set1\_10[29]	_	_	_	_	_	false[179]	Decl[179]	*[310]	*[310]	*[310]	*[310]	*[310]	input2[310]	26[440]	male[440]	c48fsj7kc4kiuorutkbb4be30b[440]	speaker: YOU[570]	_	_	_	_	_	
+161-3	3933-3936	ich	_	GWithout[29]	fremdgehen\_set1\_10[29]	latin2[29]	c48fsj7kc4kiuorutkbb4be30b-fremdgehen\_set1\_10[29]	1	*	Subj	*	singular	false[179]	Decl[179]	*[310]	*[310]	*[310]	*[310]	*[310]	input2[310]	26[440]	male[440]	c48fsj7kc4kiuorutkbb4be30b[440]	speaker: YOU[570]	*->65-2	PerPron[65]	_	_	_	
+161-4	3937-3939	es	_	GWithout[29]	fremdgehen\_set1\_10[29]	latin2[29]	c48fsj7kc4kiuorutkbb4be30b-fremdgehen\_set1\_10[29]	*	*	Subj	*	*	false[179]	Decl[179]	*[310]	*[310]	*[310]	*[310]	*[310]	input2[310]	26[440]	male[440]	c48fsj7kc4kiuorutkbb4be30b[440]	speaker: YOU[570]	_	_	_	_	_	
+161-5	3940-3945	läuft	_	GWithout[29]	fremdgehen\_set1\_10[29]	latin2[29]	c48fsj7kc4kiuorutkbb4be30b-fremdgehen\_set1\_10[29]	_	_	_	_	_	false[179]	Decl[179]	*[310]	*[310]	*[310]	*[310]	*[310]	input2[310]	26[440]	male[440]	c48fsj7kc4kiuorutkbb4be30b[440]	speaker: YOU[570]	_	_	_	_	_	
+161-6	3946-3953	perfekt	_	GWithout[29]	fremdgehen\_set1\_10[29]	latin2[29]	c48fsj7kc4kiuorutkbb4be30b-fremdgehen\_set1\_10[29]	_	_	_	_	_	false[179]	Decl[179]	*[310]	*[310]	*[310]	*[310]	*[310]	input2[310]	26[440]	male[440]	c48fsj7kc4kiuorutkbb4be30b[440]	speaker: YOU[570]	_	_	_	_	_	
+161-7	3954-3961	zwische	_	GWithout[29]	fremdgehen\_set1\_10[29]	latin2[29]	c48fsj7kc4kiuorutkbb4be30b-fremdgehen\_set1\_10[29]	_	_	_	_	_	false[179]	Decl[179]	*[310]	*[310]	*[310]	*[310]	*[310]	input2[310]	26[440]	male[440]	c48fsj7kc4kiuorutkbb4be30b[440]	speaker: YOU[570]	_	_	_	_	_	
+161-8	3962-3965	ihr	_	GWithout[29]	fremdgehen\_set1\_10[29]	latin2[29]	c48fsj7kc4kiuorutkbb4be30b-fremdgehen\_set1\_10[29]	3	*	*	*	singular	false[179]	Decl[179]	*[310]	*[310]	*[310]	*[310]	*[310]	input2[310]	26[440]	male[440]	c48fsj7kc4kiuorutkbb4be30b[440]	speaker: YOU[570]	*->95-1|*->23-2	DefNP[95]|PerPron[23]	_	_	_	
+161-9	3966-3969	und	_	GWithout[29]	fremdgehen\_set1\_10[29]	latin2[29]	c48fsj7kc4kiuorutkbb4be30b-fremdgehen\_set1\_10[29]	_	_	_	_	_	false[179]	Decl[179]	*[310]	*[310]	*[310]	*[310]	*[310]	input2[310]	26[440]	male[440]	c48fsj7kc4kiuorutkbb4be30b[440]	speaker: YOU[570]	*->95-1	DefNP[95]	_	_	_	
+161-10	3970-3977	Markus.	_	GWithout[29]	fremdgehen\_set1\_10[29]	latin2[29]	c48fsj7kc4kiuorutkbb4be30b-fremdgehen\_set1\_10[29]	_	_	_	_	_	false[179]	Decl[179]	*[310]	*[310]	*[310]	*[310]	*[310]	input2[310]	26[440]	male[440]	c48fsj7kc4kiuorutkbb4be30b[440]	speaker: YOU[570]	*->95-1|*->85-1	DefNP[95]|PropNm[85]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+162-1	3979-3994	END_OF_DOCUMENT	_	GWithout[29]	fremdgehen\_set1\_10[29]	latin2[29]	c48fsj7kc4kiuorutkbb4be30b-fremdgehen\_set1\_10[29]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+163-1	3996-4000	Hey,	_	GWithout[30]	fremdgehen\_set1\_10[30]	latin2[30]	k0vnav0sqhr0fo3b0jpuaak9s4-fremdgehen\_set1\_10[30]	_	_	_	_	_	false[180]	Int[180]	*[311]	*[311]	*[311]	wh\_6[311]	wh\_question[311]	openq[311]	*[441]	male[441]	*[441]	speaker:Ulrich[571]	_	_	QAP	*	164-1[181_180]	
+163-2	4001-4004	was	_	GWithout[30]	fremdgehen\_set1\_10[30]	latin2[30]	k0vnav0sqhr0fo3b0jpuaak9s4-fremdgehen\_set1\_10[30]	_	_	_	_	_	false[180]	Int[180]	*[311]	*[311]	*[311]	wh\_6[311]	wh\_question[311]	openq[311]	*[441]	male[441]	*[441]	speaker:Ulrich[571]	_	_	_	_	_	
+163-3	4005-4010	gibts	_	GWithout[30]	fremdgehen\_set1\_10[30]	latin2[30]	k0vnav0sqhr0fo3b0jpuaak9s4-fremdgehen\_set1\_10[30]	_	_	_	_	_	false[180]	Int[180]	*[311]	*[311]	*[311]	wh\_6[311]	wh\_question[311]	openq[311]	*[441]	male[441]	*[441]	speaker:Ulrich[571]	_	_	_	_	_	
+163-4	4011-4017	Neues?	_	GWithout[30]	fremdgehen\_set1\_10[30]	latin2[30]	k0vnav0sqhr0fo3b0jpuaak9s4-fremdgehen\_set1\_10[30]	_	_	_	_	_	false[180]	Int[180]	*[311]	*[311]	*[311]	wh\_6[311]	wh\_question[311]	openq[311]	*[441]	male[441]	*[441]	speaker:Ulrich[571]	_	_	_	_	_	
+
+#Text=Charlotte ist fremdgegangen
+164-1	4019-4028	Charlotte	_	GWithout[30]	fremdgehen\_set1\_10[30]	latin2[30]	k0vnav0sqhr0fo3b0jpuaak9s4-fremdgehen\_set1\_10[30]	*	*	Subj	*	*	false[181]	Decl[181]	*[312]	fremdgehen[312]	intransitive[312]	*[312]	*[312]	item0[312]	57[442]	female[442]	k0vnav0sqhr0fo3b0jpuaak9s4[442]	speaker: YOU[572]	*->88-1|*->63-1	clause[88]|PropNm[63]	narration	*	166-1[182_181]	
+164-2	4029-4032	ist	_	GWithout[30]	fremdgehen\_set1\_10[30]	latin2[30]	k0vnav0sqhr0fo3b0jpuaak9s4-fremdgehen\_set1\_10[30]	_	_	_	_	_	false[181]	Decl[181]	*[312]	fremdgehen[312]	intransitive[312]	*[312]	*[312]	item0[312]	57[442]	female[442]	k0vnav0sqhr0fo3b0jpuaak9s4[442]	speaker: YOU[572]	*->88-1	clause[88]	_	_	_	
+164-3	4033-4046	fremdgegangen	_	GWithout[30]	fremdgehen\_set1\_10[30]	latin2[30]	k0vnav0sqhr0fo3b0jpuaak9s4-fremdgehen\_set1\_10[30]	_	_	_	_	_	false[181]	Decl[181]	*[312]	fremdgehen[312]	intransitive[312]	*[312]	*[312]	item0[312]	57[442]	female[442]	k0vnav0sqhr0fo3b0jpuaak9s4[442]	speaker: YOU[572]	*->88-1	clause[88]	_	_	_	
+
+#Text=-
+165-1	4048-4049	-	_	GWithout[30]	fremdgehen\_set1\_10[30]	latin2[30]	k0vnav0sqhr0fo3b0jpuaak9s4-fremdgehen\_set1\_10[30]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	male	*	speaker:Ulrich	_	_	_	_	_	
+
+#Text=Ihr Mann hats mitbekommen und sie rausgeworfen.
+166-1	4051-4054	Ihr	_	GWithout[30]	fremdgehen\_set1\_10[30]	latin2[30]	k0vnav0sqhr0fo3b0jpuaak9s4-fremdgehen\_set1\_10[30]	*[55]|3[56]	*[55]|*[56]	Subj[55]|*[56]	*[55]|*[56]	*[55]|singular[56]	false[182]	Decl[182]	*[313]	*[313]	*[313]	*[313]	*[313]	input1[313]	57[443]	female[443]	k0vnav0sqhr0fo3b0jpuaak9s4[443]	speaker: YOU[573]	*->96-1|*->36-1|*->63-2	clause[96]|DefNP[36]|PossePron[63]	elaboration	*	167-1[183_182]	
+166-2	4055-4059	Mann	_	GWithout[30]	fremdgehen\_set1\_10[30]	latin2[30]	k0vnav0sqhr0fo3b0jpuaak9s4-fremdgehen\_set1\_10[30]	*[55]	*[55]	Subj[55]	*[55]	*[55]	false[182]	Decl[182]	*[313]	*[313]	*[313]	*[313]	*[313]	input1[313]	57[443]	female[443]	k0vnav0sqhr0fo3b0jpuaak9s4[443]	speaker: YOU[573]	*->96-1|*->36-1	clause[96]|DefNP[36]	_	_	_	
+166-3	4060-4064	hats	_	GWithout[30]	fremdgehen\_set1\_10[30]	latin2[30]	k0vnav0sqhr0fo3b0jpuaak9s4-fremdgehen\_set1\_10[30]	3	*	*	*	singular	false[182]	Decl[182]	*[313]	*[313]	*[313]	*[313]	*[313]	input1[313]	57[443]	female[443]	k0vnav0sqhr0fo3b0jpuaak9s4[443]	speaker: YOU[573]	*->96-1|*->88-2	clause[96]|PerPron[88]	_	_	_	
+166-4	4065-4076	mitbekommen	_	GWithout[30]	fremdgehen\_set1\_10[30]	latin2[30]	k0vnav0sqhr0fo3b0jpuaak9s4-fremdgehen\_set1\_10[30]	_	_	_	_	_	false[182]	Decl[182]	*[313]	*[313]	*[313]	*[313]	*[313]	input1[313]	57[443]	female[443]	k0vnav0sqhr0fo3b0jpuaak9s4[443]	speaker: YOU[573]	*->96-1	clause[96]	_	_	_	
+166-5	4077-4080	und	_	GWithout[30]	fremdgehen\_set1\_10[30]	latin2[30]	k0vnav0sqhr0fo3b0jpuaak9s4-fremdgehen\_set1\_10[30]	_	_	_	_	_	false[182]	Decl[182]	*[313]	*[313]	*[313]	*[313]	*[313]	input1[313]	57[443]	female[443]	k0vnav0sqhr0fo3b0jpuaak9s4[443]	speaker: YOU[573]	*->96-1	clause[96]	_	_	_	
+166-6	4081-4084	sie	_	GWithout[30]	fremdgehen\_set1\_10[30]	latin2[30]	k0vnav0sqhr0fo3b0jpuaak9s4-fremdgehen\_set1\_10[30]	3	*	DirObj	*	singular	false[182]	Decl[182]	*[313]	*[313]	*[313]	*[313]	*[313]	input1[313]	57[443]	female[443]	k0vnav0sqhr0fo3b0jpuaak9s4[443]	speaker: YOU[573]	*->96-1|*->63-3	clause[96]|PerPron[63]	_	_	_	
+166-7	4085-4098	rausgeworfen.	_	GWithout[30]	fremdgehen\_set1\_10[30]	latin2[30]	k0vnav0sqhr0fo3b0jpuaak9s4-fremdgehen\_set1\_10[30]	_	_	_	_	_	false[182]	Decl[182]	*[313]	*[313]	*[313]	*[313]	*[313]	input1[313]	57[443]	female[443]	k0vnav0sqhr0fo3b0jpuaak9s4[443]	speaker: YOU[573]	*->96-1	clause[96]	_	_	_	
+
+#Text=Geschieht ihr recht.
+167-1	4100-4109	Geschieht	_	GWithout[30]	fremdgehen\_set1\_10[30]	latin2[30]	k0vnav0sqhr0fo3b0jpuaak9s4-fremdgehen\_set1\_10[30]	_	_	_	_	_	false[183]	Decl[183]	*[314]	*[314]	*[314]	*[314]	*[314]	input2[314]	57[444]	female[444]	k0vnav0sqhr0fo3b0jpuaak9s4[444]	speaker: YOU[574]	*->96-2	zero[96]	_	_	_	
+167-2	4110-4113	ihr	_	GWithout[30]	fremdgehen\_set1\_10[30]	latin2[30]	k0vnav0sqhr0fo3b0jpuaak9s4-fremdgehen\_set1\_10[30]	3	*	IndirObj	*	singular	false[183]	Decl[183]	*[314]	*[314]	*[314]	*[314]	*[314]	input2[314]	57[444]	female[444]	k0vnav0sqhr0fo3b0jpuaak9s4[444]	speaker: YOU[574]	*->63-4	PerPron[63]	_	_	_	
+167-3	4114-4120	recht.	_	GWithout[30]	fremdgehen\_set1\_10[30]	latin2[30]	k0vnav0sqhr0fo3b0jpuaak9s4-fremdgehen\_set1\_10[30]	_	_	_	_	_	false[183]	Decl[183]	*[314]	*[314]	*[314]	*[314]	*[314]	input2[314]	57[444]	female[444]	k0vnav0sqhr0fo3b0jpuaak9s4[444]	speaker: YOU[574]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+168-1	4122-4137	END_OF_DOCUMENT	_	GWithout[30]	fremdgehen\_set1\_10[30]	latin2[30]	k0vnav0sqhr0fo3b0jpuaak9s4-fremdgehen\_set1\_10[30]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+169-1	4139-4143	Hey,	_	GWithout[31]	fremdgehen\_set1\_10[31]	latin2[31]	qjdpg51abd5auurj3bduisfb43-fremdgehen\_set1\_10[31]	_	_	_	_	_	false[184]	Int[184]	*[315]	*[315]	*[315]	wh\_6[315]	wh\_question[315]	openq[315]	*[445]	male[445]	*[445]	speaker:Ulrich[575]	_	_	QAP	*	170-1[185_184]	
+169-2	4144-4147	was	_	GWithout[31]	fremdgehen\_set1\_10[31]	latin2[31]	qjdpg51abd5auurj3bduisfb43-fremdgehen\_set1\_10[31]	_	_	_	_	_	false[184]	Int[184]	*[315]	*[315]	*[315]	wh\_6[315]	wh\_question[315]	openq[315]	*[445]	male[445]	*[445]	speaker:Ulrich[575]	_	_	_	_	_	
+169-3	4148-4153	gibts	_	GWithout[31]	fremdgehen\_set1\_10[31]	latin2[31]	qjdpg51abd5auurj3bduisfb43-fremdgehen\_set1\_10[31]	_	_	_	_	_	false[184]	Int[184]	*[315]	*[315]	*[315]	wh\_6[315]	wh\_question[315]	openq[315]	*[445]	male[445]	*[445]	speaker:Ulrich[575]	_	_	_	_	_	
+169-4	4154-4160	Neues?	_	GWithout[31]	fremdgehen\_set1\_10[31]	latin2[31]	qjdpg51abd5auurj3bduisfb43-fremdgehen\_set1\_10[31]	_	_	_	_	_	false[184]	Int[184]	*[315]	*[315]	*[315]	wh\_6[315]	wh\_question[315]	openq[315]	*[445]	male[445]	*[445]	speaker:Ulrich[575]	_	_	_	_	_	
+
+#Text=Charlotte ist fremdgegangen
+170-1	4162-4171	Charlotte	_	GWithout[31]	fremdgehen\_set1\_10[31]	latin2[31]	qjdpg51abd5auurj3bduisfb43-fremdgehen\_set1\_10[31]	*	*	Subj	*	*	false[185]	Decl[185]	*[316]	fremdgehen[316]	intransitive[316]	*[316]	*[316]	item0[316]	26[446]	female[446]	qjdpg51abd5auurj3bduisfb43[446]	speaker: YOU[576]	*->84-1	PropNm[84]	result|result	*|*	172-1[186_185]|173-1[187_185]	
+170-2	4172-4175	ist	_	GWithout[31]	fremdgehen\_set1\_10[31]	latin2[31]	qjdpg51abd5auurj3bduisfb43-fremdgehen\_set1\_10[31]	_	_	_	_	_	false[185]	Decl[185]	*[316]	fremdgehen[316]	intransitive[316]	*[316]	*[316]	item0[316]	26[446]	female[446]	qjdpg51abd5auurj3bduisfb43[446]	speaker: YOU[576]	_	_	_	_	_	
+170-3	4176-4189	fremdgegangen	_	GWithout[31]	fremdgehen\_set1\_10[31]	latin2[31]	qjdpg51abd5auurj3bduisfb43-fremdgehen\_set1\_10[31]	_	_	_	_	_	false[185]	Decl[185]	*[316]	fremdgehen[316]	intransitive[316]	*[316]	*[316]	item0[316]	26[446]	female[446]	qjdpg51abd5auurj3bduisfb43[446]	speaker: YOU[576]	_	_	_	_	_	
+
+#Text=-
+171-1	4191-4192	-	_	GWithout[31]	fremdgehen\_set1\_10[31]	latin2[31]	qjdpg51abd5auurj3bduisfb43-fremdgehen\_set1\_10[31]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	male	*	speaker:Ulrich	_	_	_	_	_	
+
+#Text=Ich habe die H*** aus der Wohnung geschmissen.
+172-1	4194-4197	Ich	_	GWithout[31]	fremdgehen\_set1\_10[31]	latin2[31]	qjdpg51abd5auurj3bduisfb43-fremdgehen\_set1\_10[31]	1	*	Subj	*	singular	false[186]	Decl[186]	*[317]	*[317]	*[317]	*[317]	*[317]	input1[317]	26[447]	female[447]	qjdpg51abd5auurj3bduisfb43[447]	speaker: YOU[577]	*->80-1	PerPron[80]	_	_	_	
+172-2	4198-4202	habe	_	GWithout[31]	fremdgehen\_set1\_10[31]	latin2[31]	qjdpg51abd5auurj3bduisfb43-fremdgehen\_set1\_10[31]	_	_	_	_	_	false[186]	Decl[186]	*[317]	*[317]	*[317]	*[317]	*[317]	input1[317]	26[447]	female[447]	qjdpg51abd5auurj3bduisfb43[447]	speaker: YOU[577]	_	_	_	_	_	
+172-3	4203-4206	die	_	GWithout[31]	fremdgehen\_set1\_10[31]	latin2[31]	qjdpg51abd5auurj3bduisfb43-fremdgehen\_set1\_10[31]	*[57]	*[57]	DirObj[57]	*[57]	*[57]	false[186]	Decl[186]	*[317]	*[317]	*[317]	*[317]	*[317]	input1[317]	26[447]	female[447]	qjdpg51abd5auurj3bduisfb43[447]	speaker: YOU[577]	*->84-2	DefNP[84]	_	_	_	
+172-4	4207-4211	H***	_	GWithout[31]	fremdgehen\_set1\_10[31]	latin2[31]	qjdpg51abd5auurj3bduisfb43-fremdgehen\_set1\_10[31]	*[57]	*[57]	DirObj[57]	*[57]	*[57]	false[186]	Decl[186]	*[317]	*[317]	*[317]	*[317]	*[317]	input1[317]	26[447]	female[447]	qjdpg51abd5auurj3bduisfb43[447]	speaker: YOU[577]	*->84-2	DefNP[84]	_	_	_	
+172-5	4212-4215	aus	_	GWithout[31]	fremdgehen\_set1\_10[31]	latin2[31]	qjdpg51abd5auurj3bduisfb43-fremdgehen\_set1\_10[31]	_	_	_	_	_	false[186]	Decl[186]	*[317]	*[317]	*[317]	*[317]	*[317]	input1[317]	26[447]	female[447]	qjdpg51abd5auurj3bduisfb43[447]	speaker: YOU[577]	_	_	_	_	_	
+172-6	4216-4219	der	_	GWithout[31]	fremdgehen\_set1\_10[31]	latin2[31]	qjdpg51abd5auurj3bduisfb43-fremdgehen\_set1\_10[31]	*[58]	*[58]	PrepObj[58]	*[58]	*[58]	false[186]	Decl[186]	*[317]	*[317]	*[317]	*[317]	*[317]	input1[317]	26[447]	female[447]	qjdpg51abd5auurj3bduisfb43[447]	speaker: YOU[577]	*->30-1	DefNP[30]	_	_	_	
+172-7	4220-4227	Wohnung	_	GWithout[31]	fremdgehen\_set1\_10[31]	latin2[31]	qjdpg51abd5auurj3bduisfb43-fremdgehen\_set1\_10[31]	*[58]	*[58]	PrepObj[58]	*[58]	*[58]	false[186]	Decl[186]	*[317]	*[317]	*[317]	*[317]	*[317]	input1[317]	26[447]	female[447]	qjdpg51abd5auurj3bduisfb43[447]	speaker: YOU[577]	*->30-1	DefNP[30]	_	_	_	
+172-8	4228-4240	geschmissen.	_	GWithout[31]	fremdgehen\_set1\_10[31]	latin2[31]	qjdpg51abd5auurj3bduisfb43-fremdgehen\_set1\_10[31]	_	_	_	_	_	false[186]	Decl[186]	*[317]	*[317]	*[317]	*[317]	*[317]	input1[317]	26[447]	female[447]	qjdpg51abd5auurj3bduisfb43[447]	speaker: YOU[577]	_	_	_	_	_	
+
+#Text=Ich bin am Ende. Ich habe sie so sehr geliebt
+173-1	4242-4245	Ich	_	GWithout[31]	fremdgehen\_set1\_10[31]	latin2[31]	qjdpg51abd5auurj3bduisfb43-fremdgehen\_set1\_10[31]	1	*	Subj	*	singular	false[187]	Decl[187]	*[318]	*[318]	*[318]	*[318]	*[318]	input2[318]	26[448]	female[448]	qjdpg51abd5auurj3bduisfb43[448]	speaker: YOU[578]	*->80-2	PerPron[80]	explanation	*	173-5[188_187]	
+173-2	4246-4249	bin	_	GWithout[31]	fremdgehen\_set1\_10[31]	latin2[31]	qjdpg51abd5auurj3bduisfb43-fremdgehen\_set1\_10[31]	_	_	_	_	_	false[187]	Decl[187]	*[318]	*[318]	*[318]	*[318]	*[318]	input2[318]	26[448]	female[448]	qjdpg51abd5auurj3bduisfb43[448]	speaker: YOU[578]	_	_	_	_	_	
+173-3	4250-4252	am	_	GWithout[31]	fremdgehen\_set1\_10[31]	latin2[31]	qjdpg51abd5auurj3bduisfb43-fremdgehen\_set1\_10[31]	_	_	_	_	_	false[187]	Decl[187]	*[318]	*[318]	*[318]	*[318]	*[318]	input2[318]	26[448]	female[448]	qjdpg51abd5auurj3bduisfb43[448]	speaker: YOU[578]	_	_	_	_	_	
+173-4	4253-4258	Ende.	_	GWithout[31]	fremdgehen\_set1\_10[31]	latin2[31]	qjdpg51abd5auurj3bduisfb43-fremdgehen\_set1\_10[31]	*	*	PrepObj	*	*	false[187]	Decl[187]	*[318]	*[318]	*[318]	*[318]	*[318]	input2[318]	26[448]	female[448]	qjdpg51abd5auurj3bduisfb43[448]	speaker: YOU[578]	_	_	_	_	_	
+173-5	4259-4262	Ich	_	GWithout[31]	fremdgehen\_set1\_10[31]	latin2[31]	qjdpg51abd5auurj3bduisfb43-fremdgehen\_set1\_10[31]	1	*	Subj	*	singular	false[188]	Decl[188]	*[318]	*[318]	*[318]	*[318]	*[318]	input2[318]	26[448]	female[448]	qjdpg51abd5auurj3bduisfb43[448]	speaker: YOU[578]	*->80-3	PerPron[80]	_	_	_	
+173-6	4263-4267	habe	_	GWithout[31]	fremdgehen\_set1\_10[31]	latin2[31]	qjdpg51abd5auurj3bduisfb43-fremdgehen\_set1\_10[31]	_	_	_	_	_	false[188]	Decl[188]	*[318]	*[318]	*[318]	*[318]	*[318]	input2[318]	26[448]	female[448]	qjdpg51abd5auurj3bduisfb43[448]	speaker: YOU[578]	_	_	_	_	_	
+173-7	4268-4271	sie	_	GWithout[31]	fremdgehen\_set1\_10[31]	latin2[31]	qjdpg51abd5auurj3bduisfb43-fremdgehen\_set1\_10[31]	3	*	DirObj	*	singular	false[188]	Decl[188]	*[318]	*[318]	*[318]	*[318]	*[318]	input2[318]	26[448]	female[448]	qjdpg51abd5auurj3bduisfb43[448]	speaker: YOU[578]	*->84-3	PerPron[84]	_	_	_	
+173-8	4272-4274	so	_	GWithout[31]	fremdgehen\_set1\_10[31]	latin2[31]	qjdpg51abd5auurj3bduisfb43-fremdgehen\_set1\_10[31]	_	_	_	_	_	false[188]	Decl[188]	*[318]	*[318]	*[318]	*[318]	*[318]	input2[318]	26[448]	female[448]	qjdpg51abd5auurj3bduisfb43[448]	speaker: YOU[578]	_	_	_	_	_	
+173-9	4275-4279	sehr	_	GWithout[31]	fremdgehen\_set1\_10[31]	latin2[31]	qjdpg51abd5auurj3bduisfb43-fremdgehen\_set1\_10[31]	_	_	_	_	_	false[188]	Decl[188]	*[318]	*[318]	*[318]	*[318]	*[318]	input2[318]	26[448]	female[448]	qjdpg51abd5auurj3bduisfb43[448]	speaker: YOU[578]	_	_	_	_	_	
+173-10	4280-4287	geliebt	_	GWithout[31]	fremdgehen\_set1\_10[31]	latin2[31]	qjdpg51abd5auurj3bduisfb43-fremdgehen\_set1\_10[31]	_	_	_	_	_	false[188]	Decl[188]	*[318]	*[318]	*[318]	*[318]	*[318]	input2[318]	26[448]	female[448]	qjdpg51abd5auurj3bduisfb43[448]	speaker: YOU[578]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+174-1	4289-4304	END_OF_DOCUMENT	_	GWithout[31]	fremdgehen\_set1\_10[31]	latin2[31]	qjdpg51abd5auurj3bduisfb43-fremdgehen\_set1\_10[31]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hey, was gibts Neues?
+175-1	4306-4310	Hey,	_	GWithout[32]	fremdgehen\_set1\_10[32]	latin2[32]	rhiec6c6hfje484c5bsbj040l0-fremdgehen\_set1\_10[32]	_	_	_	_	_	false[189]	Int[189]	*[319]	*[319]	*[319]	wh\_6[319]	wh\_question[319]	openq[319]	*[449]	male[449]	*[449]	speaker:Ulrich[579]	_	_	QAP	*	176-1[190_189]	
+175-2	4311-4314	was	_	GWithout[32]	fremdgehen\_set1\_10[32]	latin2[32]	rhiec6c6hfje484c5bsbj040l0-fremdgehen\_set1\_10[32]	_	_	_	_	_	false[189]	Int[189]	*[319]	*[319]	*[319]	wh\_6[319]	wh\_question[319]	openq[319]	*[449]	male[449]	*[449]	speaker:Ulrich[579]	_	_	_	_	_	
+175-3	4315-4320	gibts	_	GWithout[32]	fremdgehen\_set1\_10[32]	latin2[32]	rhiec6c6hfje484c5bsbj040l0-fremdgehen\_set1\_10[32]	_	_	_	_	_	false[189]	Int[189]	*[319]	*[319]	*[319]	wh\_6[319]	wh\_question[319]	openq[319]	*[449]	male[449]	*[449]	speaker:Ulrich[579]	_	_	_	_	_	
+175-4	4321-4327	Neues?	_	GWithout[32]	fremdgehen\_set1\_10[32]	latin2[32]	rhiec6c6hfje484c5bsbj040l0-fremdgehen\_set1\_10[32]	_	_	_	_	_	false[189]	Int[189]	*[319]	*[319]	*[319]	wh\_6[319]	wh\_question[319]	openq[319]	*[449]	male[449]	*[449]	speaker:Ulrich[579]	_	_	_	_	_	
+
+#Text=Charlotte ist fremdgegangen
+176-1	4329-4338	Charlotte	_	GWithout[32]	fremdgehen\_set1\_10[32]	latin2[32]	rhiec6c6hfje484c5bsbj040l0-fremdgehen\_set1\_10[32]	*	*	Subj	*	*	false[190]	Decl[190]	*[320]	fremdgehen[320]	intransitive[320]	*[320]	*[320]	item0[320]	72[450]	male[450]	rhiec6c6hfje484c5bsbj040l0[450]	speaker: YOU[580]	*->69-1	PropNm[69]	explanation	*	178-1[191_190]	
+176-2	4339-4342	ist	_	GWithout[32]	fremdgehen\_set1\_10[32]	latin2[32]	rhiec6c6hfje484c5bsbj040l0-fremdgehen\_set1\_10[32]	_	_	_	_	_	false[190]	Decl[190]	*[320]	fremdgehen[320]	intransitive[320]	*[320]	*[320]	item0[320]	72[450]	male[450]	rhiec6c6hfje484c5bsbj040l0[450]	speaker: YOU[580]	_	_	_	_	_	
+176-3	4343-4356	fremdgegangen	_	GWithout[32]	fremdgehen\_set1\_10[32]	latin2[32]	rhiec6c6hfje484c5bsbj040l0-fremdgehen\_set1\_10[32]	_	_	_	_	_	false[190]	Decl[190]	*[320]	fremdgehen[320]	intransitive[320]	*[320]	*[320]	item0[320]	72[450]	male[450]	rhiec6c6hfje484c5bsbj040l0[450]	speaker: YOU[580]	_	_	_	_	_	
+
+#Text=-
+177-1	4358-4359	-	_	GWithout[32]	fremdgehen\_set1\_10[32]	latin2[32]	rhiec6c6hfje484c5bsbj040l0-fremdgehen\_set1\_10[32]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	male	*	speaker:Ulrich	_	_	_	_	_	
+
+#Text=Sie hat die ganze Nacht immer nur oh Uli gesagt.
+178-1	4361-4364	Sie	_	GWithout[32]	fremdgehen\_set1\_10[32]	latin2[32]	rhiec6c6hfje484c5bsbj040l0-fremdgehen\_set1\_10[32]	3	*	Subj	*	singular	false[191]	Decl[191]	*[321]	*[321]	*[321]	*[321]	*[321]	input1[321]	72[451]	male[451]	rhiec6c6hfje484c5bsbj040l0[451]	speaker: YOU[581]	*->69-2	PerPron[69]	explanation	*	179-1[192_191]	
+178-2	4365-4368	hat	_	GWithout[32]	fremdgehen\_set1\_10[32]	latin2[32]	rhiec6c6hfje484c5bsbj040l0-fremdgehen\_set1\_10[32]	_	_	_	_	_	false[191]	Decl[191]	*[321]	*[321]	*[321]	*[321]	*[321]	input1[321]	72[451]	male[451]	rhiec6c6hfje484c5bsbj040l0[451]	speaker: YOU[581]	_	_	_	_	_	
+178-3	4369-4372	die	_	GWithout[32]	fremdgehen\_set1\_10[32]	latin2[32]	rhiec6c6hfje484c5bsbj040l0-fremdgehen\_set1\_10[32]	_	_	_	_	_	false[191]	Decl[191]	*[321]	*[321]	*[321]	*[321]	*[321]	input1[321]	72[451]	male[451]	rhiec6c6hfje484c5bsbj040l0[451]	speaker: YOU[581]	*->19-1	DefNP[19]	_	_	_	
+178-4	4373-4378	ganze	_	GWithout[32]	fremdgehen\_set1\_10[32]	latin2[32]	rhiec6c6hfje484c5bsbj040l0-fremdgehen\_set1\_10[32]	_	_	_	_	_	false[191]	Decl[191]	*[321]	*[321]	*[321]	*[321]	*[321]	input1[321]	72[451]	male[451]	rhiec6c6hfje484c5bsbj040l0[451]	speaker: YOU[581]	*->19-1	DefNP[19]	_	_	_	
+178-5	4379-4384	Nacht	_	GWithout[32]	fremdgehen\_set1\_10[32]	latin2[32]	rhiec6c6hfje484c5bsbj040l0-fremdgehen\_set1\_10[32]	_	_	_	_	_	false[191]	Decl[191]	*[321]	*[321]	*[321]	*[321]	*[321]	input1[321]	72[451]	male[451]	rhiec6c6hfje484c5bsbj040l0[451]	speaker: YOU[581]	*->19-1	DefNP[19]	_	_	_	
+178-6	4385-4390	immer	_	GWithout[32]	fremdgehen\_set1\_10[32]	latin2[32]	rhiec6c6hfje484c5bsbj040l0-fremdgehen\_set1\_10[32]	_	_	_	_	_	false[191]	Decl[191]	*[321]	*[321]	*[321]	*[321]	*[321]	input1[321]	72[451]	male[451]	rhiec6c6hfje484c5bsbj040l0[451]	speaker: YOU[581]	_	_	_	_	_	
+178-7	4391-4394	nur	_	GWithout[32]	fremdgehen\_set1\_10[32]	latin2[32]	rhiec6c6hfje484c5bsbj040l0-fremdgehen\_set1\_10[32]	_	_	_	_	_	false[191]	Decl[191]	*[321]	*[321]	*[321]	*[321]	*[321]	input1[321]	72[451]	male[451]	rhiec6c6hfje484c5bsbj040l0[451]	speaker: YOU[581]	_	_	_	_	_	
+178-8	4395-4397	oh	_	GWithout[32]	fremdgehen\_set1\_10[32]	latin2[32]	rhiec6c6hfje484c5bsbj040l0-fremdgehen\_set1\_10[32]	*[59]	*[59]	DirObj[59]	*[59]	*[59]	false[191]	Decl[191]	*[321]	*[321]	*[321]	*[321]	*[321]	input1[321]	72[451]	male[451]	rhiec6c6hfje484c5bsbj040l0[451]	speaker: YOU[581]	*->48-1	clause[48]	_	_	_	
+178-9	4398-4401	Uli	_	GWithout[32]	fremdgehen\_set1\_10[32]	latin2[32]	rhiec6c6hfje484c5bsbj040l0-fremdgehen\_set1\_10[32]	*[59]	*[59]	DirObj[59]	*[59]	*[59]	false[191]	Decl[191]	*[321]	*[321]	*[321]	*[321]	*[321]	input1[321]	72[451]	male[451]	rhiec6c6hfje484c5bsbj040l0[451]	speaker: YOU[581]	*->48-1|*->81-1	clause[48]|PropNm[81]	_	_	_	
+178-10	4402-4409	gesagt.	_	GWithout[32]	fremdgehen\_set1\_10[32]	latin2[32]	rhiec6c6hfje484c5bsbj040l0-fremdgehen\_set1\_10[32]	_	_	_	_	_	false[191]	Decl[191]	*[321]	*[321]	*[321]	*[321]	*[321]	input1[321]	72[451]	male[451]	rhiec6c6hfje484c5bsbj040l0[451]	speaker: YOU[581]	_	_	_	_	_	
+
+#Text=Weisst du was Sie damit wohl meint?
+179-1	4411-4417	Weisst	_	GWithout[32]	fremdgehen\_set1\_10[32]	latin2[32]	rhiec6c6hfje484c5bsbj040l0-fremdgehen\_set1\_10[32]	_	_	_	_	_	false[192]	Int[192]	*[322]	*[322]	*[322]	*[322]	*[322]	input2[322]	72[452]	male[452]	rhiec6c6hfje484c5bsbj040l0[452]	speaker: YOU[582]	_	_	_	_	_	
+179-2	4418-4420	du	_	GWithout[32]	fremdgehen\_set1\_10[32]	latin2[32]	rhiec6c6hfje484c5bsbj040l0-fremdgehen\_set1\_10[32]	2	*	Subj	*	singular	false[192]	Int[192]	*[322]	*[322]	*[322]	*[322]	*[322]	input2[322]	72[452]	male[452]	rhiec6c6hfje484c5bsbj040l0[452]	speaker: YOU[582]	*->57-1	PerPron[57]	_	_	_	
+179-3	4421-4424	was	_	GWithout[32]	fremdgehen\_set1\_10[32]	latin2[32]	rhiec6c6hfje484c5bsbj040l0-fremdgehen\_set1\_10[32]	_	_	_	_	_	false[192]	Int[192]	*[322]	*[322]	*[322]	*[322]	*[322]	input2[322]	72[452]	male[452]	rhiec6c6hfje484c5bsbj040l0[452]	speaker: YOU[582]	_	_	_	_	_	
+179-4	4425-4428	Sie	_	GWithout[32]	fremdgehen\_set1\_10[32]	latin2[32]	rhiec6c6hfje484c5bsbj040l0-fremdgehen\_set1\_10[32]	3	*	Subj	*	singular	false[192]	Int[192]	*[322]	*[322]	*[322]	*[322]	*[322]	input2[322]	72[452]	male[452]	rhiec6c6hfje484c5bsbj040l0[452]	speaker: YOU[582]	*->69-3	PerPron[69]	_	_	_	
+179-5	4429-4434	damit	_	GWithout[32]	fremdgehen\_set1\_10[32]	latin2[32]	rhiec6c6hfje484c5bsbj040l0-fremdgehen\_set1\_10[32]	*	*	IndirObj	*	*	false[192]	Int[192]	*[322]	*[322]	*[322]	*[322]	*[322]	input2[322]	72[452]	male[452]	rhiec6c6hfje484c5bsbj040l0[452]	speaker: YOU[582]	*->48-2	D-Pron[48]	_	_	_	
+179-6	4435-4439	wohl	_	GWithout[32]	fremdgehen\_set1\_10[32]	latin2[32]	rhiec6c6hfje484c5bsbj040l0-fremdgehen\_set1\_10[32]	_	_	_	_	_	false[192]	Int[192]	*[322]	*[322]	*[322]	*[322]	*[322]	input2[322]	72[452]	male[452]	rhiec6c6hfje484c5bsbj040l0[452]	speaker: YOU[582]	_	_	_	_	_	
+179-7	4440-4446	meint?	_	GWithout[32]	fremdgehen\_set1\_10[32]	latin2[32]	rhiec6c6hfje484c5bsbj040l0-fremdgehen\_set1\_10[32]	_	_	_	_	_	false[192]	Int[192]	*[322]	*[322]	*[322]	*[322]	*[322]	input2[322]	72[452]	male[452]	rhiec6c6hfje484c5bsbj040l0[452]	speaker: YOU[582]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+180-1	4448-4463	END_OF_DOCUMENT	_	GWithout[32]	fremdgehen\_set1\_10[32]	latin2[32]	rhiec6c6hfje484c5bsbj040l0-fremdgehen\_set1\_10[32]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	

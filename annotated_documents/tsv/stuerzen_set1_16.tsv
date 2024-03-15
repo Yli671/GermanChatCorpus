@@ -1,0 +1,962 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Error|Error
+#T_SP=webanno.custom.Item_info|condition|item_id|latinsqr_list|unique_id
+#T_SP=webanno.custom.Ref_info|PersonalPronouns_detailed|ref_def|ref_function|ref_gender|ref_num
+#T_SP=webanno.custom.Segment|complex|segment_type
+#T_SP=webanno.custom.Sent_layer|feedback_id|item0_verb|item0_verbtype|openq_id|openq_type|sent_type
+#T_SP=webanno.custom.Speaker_meta|age|gender|speaker_id
+#T_SP=webanno.custom.Speaker_name|speaker_name
+#T_CH=de.tudarmstadt.ukp.dkpro.core.api.coref.type.CoreferenceLink|referenceRelation|referenceType
+#T_RL=webanno.custom.Relations|discourse_rel|speechAct_rel|BT_webanno.custom.Segment
+
+
+#Text=Alles gut?
+1-1	0-5	Alles	_	GFailure[3]	stuerzen\_set1\_16[3]	latin1[3]	2k56uavscuainedj0q9i1sb693-stuerzen\_set1\_16[3]	_	_	_	_	_	false[33]	Int[33]	*[161]	*[161]	*[161]	yn\_4[161]	yesno\_question[161]	openq[161]	*[280]	female[280]	*[280]	speaker:Elisabeth[399]	_	_	QAP	*	2-1[34_33]	
+1-2	6-10	gut?	_	GFailure[3]	stuerzen\_set1\_16[3]	latin1[3]	2k56uavscuainedj0q9i1sb693-stuerzen\_set1\_16[3]	_	_	_	_	_	false[33]	Int[33]	*[161]	*[161]	*[161]	yn\_4[161]	yesno\_question[161]	openq[161]	*[280]	female[280]	*[280]	speaker:Elisabeth[399]	_	_	_	_	_	
+
+#Text=Till ist gestürzt
+2-1	12-16	Till	_	GFailure[3]	stuerzen\_set1\_16[3]	latin1[3]	2k56uavscuainedj0q9i1sb693-stuerzen\_set1\_16[3]	_	_	_	_	_	false[34]	Decl[34]	*[162]	stürzen[162]	intransitive[162]	*[162]	*[162]	item0[162]	35[281]	female[281]	2k56uavscuainedj0q9i1sb693[281]	speaker: YOU[400]	*->31-1	PropNm[31]	elaboration|result|CR	*|*|*	4-1[35_34]|5-1[36_34]|3-1[0_34]	
+2-2	17-20	ist	_	GFailure[3]	stuerzen\_set1\_16[3]	latin1[3]	2k56uavscuainedj0q9i1sb693-stuerzen\_set1\_16[3]	_	_	_	_	_	false[34]	Decl[34]	*[162]	stürzen[162]	intransitive[162]	*[162]	*[162]	item0[162]	35[281]	female[281]	2k56uavscuainedj0q9i1sb693[281]	speaker: YOU[400]	_	_	_	_	_	
+2-3	21-29	gestürzt	_	GFailure[3]	stuerzen\_set1\_16[3]	latin1[3]	2k56uavscuainedj0q9i1sb693-stuerzen\_set1\_16[3]	_	_	_	_	_	false[34]	Decl[34]	*[162]	stürzen[162]	intransitive[162]	*[162]	*[162]	item0[162]	35[281]	female[281]	2k56uavscuainedj0q9i1sb693[281]	speaker: YOU[400]	_	_	_	_	_	
+
+#Text=Hm?
+3-1	31-34	Hm?	_	GFailure[3]	stuerzen\_set1\_16[3]	latin1[3]	2k56uavscuainedj0q9i1sb693-stuerzen\_set1\_16[3]	_	_	_	_	_	false	NA	hm\_question\_4	*	*	*	*	feedback	*	female	*	speaker:Elisabeth	_	_	_	_	_	
+
+#Text=Von der Leiter.
+4-1	36-39	Von	_	GFailure[3]	stuerzen\_set1\_16[3]	latin1[3]	2k56uavscuainedj0q9i1sb693-stuerzen\_set1\_16[3]	_	_	_	_	_	false[35]	NA[35]	*[163]	*[163]	*[163]	*[163]	*[163]	input1[163]	35[282]	female[282]	2k56uavscuainedj0q9i1sb693[282]	speaker: YOU[401]	_	_	_	_	_	
+4-2	40-43	der	_	GFailure[3]	stuerzen\_set1\_16[3]	latin1[3]	2k56uavscuainedj0q9i1sb693-stuerzen\_set1\_16[3]	_	_	_	_	_	false[35]	NA[35]	*[163]	*[163]	*[163]	*[163]	*[163]	input1[163]	35[282]	female[282]	2k56uavscuainedj0q9i1sb693[282]	speaker: YOU[401]	*->12-1	DefNP[12]	_	_	_	
+4-3	44-51	Leiter.	_	GFailure[3]	stuerzen\_set1\_16[3]	latin1[3]	2k56uavscuainedj0q9i1sb693-stuerzen\_set1\_16[3]	_	_	_	_	_	false[35]	NA[35]	*[163]	*[163]	*[163]	*[163]	*[163]	input1[163]	35[282]	female[282]	2k56uavscuainedj0q9i1sb693[282]	speaker: YOU[401]	*->12-1	DefNP[12]	_	_	_	
+
+#Text=Rettungswagen kommt gleich.
+5-1	53-66	Rettungswagen	_	GFailure[3]	stuerzen\_set1\_16[3]	latin1[3]	2k56uavscuainedj0q9i1sb693-stuerzen\_set1\_16[3]	_	_	_	_	_	false[36]	Decl[36]	*[164]	*[164]	*[164]	*[164]	*[164]	input2[164]	35[283]	female[283]	2k56uavscuainedj0q9i1sb693[283]	speaker: YOU[402]	*->20-1	IndefNP[20]	_	_	_	
+5-2	67-72	kommt	_	GFailure[3]	stuerzen\_set1\_16[3]	latin1[3]	2k56uavscuainedj0q9i1sb693-stuerzen\_set1\_16[3]	_	_	_	_	_	false[36]	Decl[36]	*[164]	*[164]	*[164]	*[164]	*[164]	input2[164]	35[283]	female[283]	2k56uavscuainedj0q9i1sb693[283]	speaker: YOU[402]	_	_	_	_	_	
+5-3	73-80	gleich.	_	GFailure[3]	stuerzen\_set1\_16[3]	latin1[3]	2k56uavscuainedj0q9i1sb693-stuerzen\_set1\_16[3]	_	_	_	_	_	false[36]	Decl[36]	*[164]	*[164]	*[164]	*[164]	*[164]	input2[164]	35[283]	female[283]	2k56uavscuainedj0q9i1sb693[283]	speaker: YOU[402]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+6-1	82-97	END_OF_DOCUMENT	_	GFailure[3]	stuerzen\_set1\_16[3]	latin1[3]	2k56uavscuainedj0q9i1sb693-stuerzen\_set1\_16[3]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+7-1	99-104	Alles	_	GFailure[4]	stuerzen\_set1\_16[4]	latin1[4]	7bq5ecc5fndmatjvd44havavdp-stuerzen\_set1\_16[4]	_	_	_	_	_	false[37]	Int[37]	*[165]	*[165]	*[165]	yn\_4[165]	yesno\_question[165]	openq[165]	*[284]	female[284]	*[284]	speaker:Elisabeth[403]	_	_	QAP	*	8-1[38_37]	
+7-2	105-109	gut?	_	GFailure[4]	stuerzen\_set1\_16[4]	latin1[4]	7bq5ecc5fndmatjvd44havavdp-stuerzen\_set1\_16[4]	_	_	_	_	_	false[37]	Int[37]	*[165]	*[165]	*[165]	yn\_4[165]	yesno\_question[165]	openq[165]	*[284]	female[284]	*[284]	speaker:Elisabeth[403]	_	_	_	_	_	
+
+#Text=Till ist gestürzt
+8-1	111-115	Till	_	GFailure[4]	stuerzen\_set1\_16[4]	latin1[4]	7bq5ecc5fndmatjvd44havavdp-stuerzen\_set1\_16[4]	_	_	_	_	_	false[38]	Decl[38]	*[166]	stürzen[166]	intransitive[166]	*[166]	*[166]	item0[166]	46[285]	male[285]	7bq5ecc5fndmatjvd44havavdp[285]	speaker: YOU[404]	*->56-1	PropNm[56]	elaboration|CR	*|*	10-1[39_38]|9-1[0_38]	
+8-2	116-119	ist	_	GFailure[4]	stuerzen\_set1\_16[4]	latin1[4]	7bq5ecc5fndmatjvd44havavdp-stuerzen\_set1\_16[4]	_	_	_	_	_	false[38]	Decl[38]	*[166]	stürzen[166]	intransitive[166]	*[166]	*[166]	item0[166]	46[285]	male[285]	7bq5ecc5fndmatjvd44havavdp[285]	speaker: YOU[404]	_	_	_	_	_	
+8-3	120-128	gestürzt	_	GFailure[4]	stuerzen\_set1\_16[4]	latin1[4]	7bq5ecc5fndmatjvd44havavdp-stuerzen\_set1\_16[4]	_	_	_	_	_	false[38]	Decl[38]	*[166]	stürzen[166]	intransitive[166]	*[166]	*[166]	item0[166]	46[285]	male[285]	7bq5ecc5fndmatjvd44havavdp[285]	speaker: YOU[404]	_	_	_	_	_	
+
+#Text=Hm?
+9-1	130-133	Hm?	_	GFailure[4]	stuerzen\_set1\_16[4]	latin1[4]	7bq5ecc5fndmatjvd44havavdp-stuerzen\_set1\_16[4]	_	_	_	_	_	false	NA	hm\_question\_4	*	*	*	*	feedback	*	female	*	speaker:Elisabeth	_	_	_	_	_	
+
+#Text=die Treppe runter
+10-1	135-138	die	_	GFailure[4]	stuerzen\_set1\_16[4]	latin1[4]	7bq5ecc5fndmatjvd44havavdp-stuerzen\_set1\_16[4]	_	_	_	_	_	false[39]	NA[39]	*[167]	*[167]	*[167]	*[167]	*[167]	input1[167]	46[286]	male[286]	7bq5ecc5fndmatjvd44havavdp[286]	speaker: YOU[405]	*->45-1	DefNP[45]	contrast	*	11-1[40_39]	
+10-2	139-145	Treppe	_	GFailure[4]	stuerzen\_set1\_16[4]	latin1[4]	7bq5ecc5fndmatjvd44havavdp-stuerzen\_set1\_16[4]	_	_	_	_	_	false[39]	NA[39]	*[167]	*[167]	*[167]	*[167]	*[167]	input1[167]	46[286]	male[286]	7bq5ecc5fndmatjvd44havavdp[286]	speaker: YOU[405]	*->45-1	DefNP[45]	_	_	_	
+10-3	146-152	runter	_	GFailure[4]	stuerzen\_set1\_16[4]	latin1[4]	7bq5ecc5fndmatjvd44havavdp-stuerzen\_set1\_16[4]	_	_	_	_	_	false[39]	NA[39]	*[167]	*[167]	*[167]	*[167]	*[167]	input1[167]	46[286]	male[286]	7bq5ecc5fndmatjvd44havavdp[286]	speaker: YOU[405]	_	_	_	_	_	
+
+#Text=aber nix passiert <BR> der Glückspilz
+11-1	154-158	aber	_	GFailure[4]	stuerzen\_set1\_16[4]	latin1[4]	7bq5ecc5fndmatjvd44havavdp-stuerzen\_set1\_16[4]	_	_	_	_	_	false[40]	NA[40]	*[168]	*[168]	*[168]	*[168]	*[168]	input2[168]	46[287]	male[287]	7bq5ecc5fndmatjvd44havavdp[287]	speaker: YOU[406]	_	_	result	*	11-5[41_40]	
+11-2	159-162	nix	_	GFailure[4]	stuerzen\_set1\_16[4]	latin1[4]	7bq5ecc5fndmatjvd44havavdp-stuerzen\_set1\_16[4]	_	_	_	_	_	false[40]	NA[40]	*[168]	*[168]	*[168]	*[168]	*[168]	input2[168]	46[287]	male[287]	7bq5ecc5fndmatjvd44havavdp[287]	speaker: YOU[406]	_	_	_	_	_	
+11-3	163-171	passiert	_	GFailure[4]	stuerzen\_set1\_16[4]	latin1[4]	7bq5ecc5fndmatjvd44havavdp-stuerzen\_set1\_16[4]	_	_	_	_	_	false[40]	NA[40]	*[168]	*[168]	*[168]	*[168]	*[168]	input2[168]	46[287]	male[287]	7bq5ecc5fndmatjvd44havavdp[287]	speaker: YOU[406]	_	_	_	_	_	
+11-4	172-176	<BR>	_	GFailure[4]	stuerzen\_set1\_16[4]	latin1[4]	7bq5ecc5fndmatjvd44havavdp-stuerzen\_set1\_16[4]	_	_	_	_	_	_	_	*[168]	*[168]	*[168]	*[168]	*[168]	input2[168]	46[287]	male[287]	7bq5ecc5fndmatjvd44havavdp[287]	speaker: YOU[406]	_	_	_	_	_	
+11-5	177-180	der	_	GFailure[4]	stuerzen\_set1\_16[4]	latin1[4]	7bq5ecc5fndmatjvd44havavdp-stuerzen\_set1\_16[4]	_	_	_	_	_	false[41]	NA[41]	*[168]	*[168]	*[168]	*[168]	*[168]	input2[168]	46[287]	male[287]	7bq5ecc5fndmatjvd44havavdp[287]	speaker: YOU[406]	*->56-2	DefNP[56]	_	_	_	
+11-6	181-191	Glückspilz	_	GFailure[4]	stuerzen\_set1\_16[4]	latin1[4]	7bq5ecc5fndmatjvd44havavdp-stuerzen\_set1\_16[4]	_	_	_	_	_	false[41]	NA[41]	*[168]	*[168]	*[168]	*[168]	*[168]	input2[168]	46[287]	male[287]	7bq5ecc5fndmatjvd44havavdp[287]	speaker: YOU[406]	*->56-2	DefNP[56]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+12-1	193-208	END_OF_DOCUMENT	_	GFailure[4]	stuerzen\_set1\_16[4]	latin1[4]	7bq5ecc5fndmatjvd44havavdp-stuerzen\_set1\_16[4]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+13-1	210-215	Alles	_	GFailure[5]	stuerzen\_set1\_16[5]	latin1[5]	9bb79dhfhst017575orahklqol-stuerzen\_set1\_16[5]	_	_	_	_	_	false[42]	Int[42]	*[169]	*[169]	*[169]	yn\_4[169]	yesno\_question[169]	openq[169]	*[288]	female[288]	*[288]	speaker:Elisabeth[407]	_	_	QAP	*	14-1[43_42]	
+13-2	216-220	gut?	_	GFailure[5]	stuerzen\_set1\_16[5]	latin1[5]	9bb79dhfhst017575orahklqol-stuerzen\_set1\_16[5]	_	_	_	_	_	false[42]	Int[42]	*[169]	*[169]	*[169]	yn\_4[169]	yesno\_question[169]	openq[169]	*[288]	female[288]	*[288]	speaker:Elisabeth[407]	_	_	_	_	_	
+
+#Text=Till ist gestürzt
+14-1	222-226	Till	_	GFailure[5]	stuerzen\_set1\_16[5]	latin1[5]	9bb79dhfhst017575orahklqol-stuerzen\_set1\_16[5]	_	_	_	_	_	false[43]	Decl[43]	*[170]	stürzen[170]	intransitive[170]	*[170]	*[170]	item0[170]	37[289]	female[289]	9bb79dhfhst017575orahklqol[289]	speaker: YOU[408]	*->11-1	PropNm[11]	contrast|elaboration|CR	*|*|*	16-1[44_43]|17-1[45_43]|15-1[0_43]	
+14-2	227-230	ist	_	GFailure[5]	stuerzen\_set1\_16[5]	latin1[5]	9bb79dhfhst017575orahklqol-stuerzen\_set1\_16[5]	_	_	_	_	_	false[43]	Decl[43]	*[170]	stürzen[170]	intransitive[170]	*[170]	*[170]	item0[170]	37[289]	female[289]	9bb79dhfhst017575orahklqol[289]	speaker: YOU[408]	_	_	_	_	_	
+14-3	231-239	gestürzt	_	GFailure[5]	stuerzen\_set1\_16[5]	latin1[5]	9bb79dhfhst017575orahklqol-stuerzen\_set1\_16[5]	_	_	_	_	_	false[43]	Decl[43]	*[170]	stürzen[170]	intransitive[170]	*[170]	*[170]	item0[170]	37[289]	female[289]	9bb79dhfhst017575orahklqol[289]	speaker: YOU[408]	_	_	_	_	_	
+
+#Text=Hm?
+15-1	241-244	Hm?	_	GFailure[5]	stuerzen\_set1\_16[5]	latin1[5]	9bb79dhfhst017575orahklqol-stuerzen\_set1\_16[5]	_	_	_	_	_	false	NA	hm\_question\_4	*	*	*	*	feedback	*	female	*	speaker:Elisabeth	_	_	_	_	_	
+
+#Text=ihm gehts aber gut
+16-1	246-249	ihm	_	GFailure[5]	stuerzen\_set1\_16[5]	latin1[5]	9bb79dhfhst017575orahklqol-stuerzen\_set1\_16[5]	3	*	*	*	singular	false[44]	Decl[44]	*[171]	*[171]	*[171]	*[171]	*[171]	input1[171]	37[290]	female[290]	9bb79dhfhst017575orahklqol[290]	speaker: YOU[409]	*->11-2	PerPron[11]	_	_	_	
+16-2	250-255	gehts	_	GFailure[5]	stuerzen\_set1\_16[5]	latin1[5]	9bb79dhfhst017575orahklqol-stuerzen\_set1\_16[5]	_	_	_	_	_	false[44]	Decl[44]	*[171]	*[171]	*[171]	*[171]	*[171]	input1[171]	37[290]	female[290]	9bb79dhfhst017575orahklqol[290]	speaker: YOU[409]	_	_	_	_	_	
+16-3	256-260	aber	_	GFailure[5]	stuerzen\_set1\_16[5]	latin1[5]	9bb79dhfhst017575orahklqol-stuerzen\_set1\_16[5]	_	_	_	_	_	false[44]	Decl[44]	*[171]	*[171]	*[171]	*[171]	*[171]	input1[171]	37[290]	female[290]	9bb79dhfhst017575orahklqol[290]	speaker: YOU[409]	_	_	_	_	_	
+16-4	261-264	gut	_	GFailure[5]	stuerzen\_set1\_16[5]	latin1[5]	9bb79dhfhst017575orahklqol-stuerzen\_set1\_16[5]	_	_	_	_	_	false[44]	Decl[44]	*[171]	*[171]	*[171]	*[171]	*[171]	input1[171]	37[290]	female[290]	9bb79dhfhst017575orahklqol[290]	speaker: YOU[409]	_	_	_	_	_	
+
+#Text=er ist umgeknickt
+17-1	266-268	er	_	GFailure[5]	stuerzen\_set1\_16[5]	latin1[5]	9bb79dhfhst017575orahklqol-stuerzen\_set1\_16[5]	3	*	*	*	singular	false[45]	Decl[45]	*[172]	*[172]	*[172]	*[172]	*[172]	input2[172]	37[291]	female[291]	9bb79dhfhst017575orahklqol[291]	speaker: YOU[410]	*->11-3	PerPron[11]	_	_	_	
+17-2	269-272	ist	_	GFailure[5]	stuerzen\_set1\_16[5]	latin1[5]	9bb79dhfhst017575orahklqol-stuerzen\_set1\_16[5]	_	_	_	_	_	false[45]	Decl[45]	*[172]	*[172]	*[172]	*[172]	*[172]	input2[172]	37[291]	female[291]	9bb79dhfhst017575orahklqol[291]	speaker: YOU[410]	_	_	_	_	_	
+17-3	273-283	umgeknickt	_	GFailure[5]	stuerzen\_set1\_16[5]	latin1[5]	9bb79dhfhst017575orahklqol-stuerzen\_set1\_16[5]	_	_	_	_	_	false[45]	Decl[45]	*[172]	*[172]	*[172]	*[172]	*[172]	input2[172]	37[291]	female[291]	9bb79dhfhst017575orahklqol[291]	speaker: YOU[410]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+18-1	285-300	END_OF_DOCUMENT	_	GFailure[5]	stuerzen\_set1\_16[5]	latin1[5]	9bb79dhfhst017575orahklqol-stuerzen\_set1\_16[5]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+19-1	302-307	Alles	_	GFailure[6]	stuerzen\_set1\_16[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-stuerzen\_set1\_16[6]	_	_	_	_	_	false[46]	Int[46]	*[173]	*[173]	*[173]	yn\_4[173]	yesno\_question[173]	openq[173]	*[292]	female[292]	*[292]	speaker:Elisabeth[411]	_	_	QAP	*	20-1[47_46]	
+19-2	308-312	gut?	_	GFailure[6]	stuerzen\_set1\_16[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-stuerzen\_set1\_16[6]	_	_	_	_	_	false[46]	Int[46]	*[173]	*[173]	*[173]	yn\_4[173]	yesno\_question[173]	openq[173]	*[292]	female[292]	*[292]	speaker:Elisabeth[411]	_	_	_	_	_	
+
+#Text=Till ist gestürzt
+20-1	314-318	Till	_	GFailure[6]	stuerzen\_set1\_16[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-stuerzen\_set1\_16[6]	_	_	_	_	_	false[47]	Decl[47]	*[174]	stürzen[174]	intransitive[174]	*[174]	*[174]	item0[174]	21[293]	male[293]	afpst3sherp4732c4se5ajftkq[293]	speaker: YOU[412]	*->66-1	PropNm[66]	explanation|CR	*|*	22-1[48_47]|21-1[0_47]	
+20-2	319-322	ist	_	GFailure[6]	stuerzen\_set1\_16[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-stuerzen\_set1\_16[6]	_	_	_	_	_	false[47]	Decl[47]	*[174]	stürzen[174]	intransitive[174]	*[174]	*[174]	item0[174]	21[293]	male[293]	afpst3sherp4732c4se5ajftkq[293]	speaker: YOU[412]	_	_	_	_	_	
+20-3	323-331	gestürzt	_	GFailure[6]	stuerzen\_set1\_16[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-stuerzen\_set1\_16[6]	_	_	_	_	_	false[47]	Decl[47]	*[174]	stürzen[174]	intransitive[174]	*[174]	*[174]	item0[174]	21[293]	male[293]	afpst3sherp4732c4se5ajftkq[293]	speaker: YOU[412]	_	_	_	_	_	
+
+#Text=Hm?
+21-1	333-336	Hm?	_	GFailure[6]	stuerzen\_set1\_16[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-stuerzen\_set1\_16[6]	_	_	_	_	_	false	NA	hm\_question\_4	*	*	*	*	feedback	*	female	*	speaker:Elisabeth	_	_	_	_	_	
+
+#Text=Ja beim Skateboard fahren hat er wohl einen Stein übersehen und ist gestürtzt.
+22-1	338-340	Ja	_	GFailure[6]	stuerzen\_set1\_16[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-stuerzen\_set1\_16[6]	_	_	_	_	_	false[48]	Decl[48]	*[175]	*[175]	*[175]	*[175]	*[175]	input1[175]	21[294]	male[294]	afpst3sherp4732c4se5ajftkq[294]	speaker: YOU[413]	_	_	result	*	22-11[49_48]	
+22-2	341-345	beim	_	GFailure[6]	stuerzen\_set1\_16[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-stuerzen\_set1\_16[6]	_	_	_	_	_	false[48]	Decl[48]	*[175]	*[175]	*[175]	*[175]	*[175]	input1[175]	21[294]	male[294]	afpst3sherp4732c4se5ajftkq[294]	speaker: YOU[413]	*->18-1	DefNP[18]	_	_	_	
+22-3	346-356	Skateboard	_	GFailure[6]	stuerzen\_set1\_16[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-stuerzen\_set1\_16[6]	_	_	_	_	_	false[48]	Decl[48]	*[175]	*[175]	*[175]	*[175]	*[175]	input1[175]	21[294]	male[294]	afpst3sherp4732c4se5ajftkq[294]	speaker: YOU[413]	*->18-1	DefNP[18]	_	_	_	
+22-4	357-363	fahren	_	GFailure[6]	stuerzen\_set1\_16[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-stuerzen\_set1\_16[6]	_	_	_	_	_	false[48]	Decl[48]	*[175]	*[175]	*[175]	*[175]	*[175]	input1[175]	21[294]	male[294]	afpst3sherp4732c4se5ajftkq[294]	speaker: YOU[413]	*->18-1	DefNP[18]	_	_	_	
+22-5	364-367	hat	_	GFailure[6]	stuerzen\_set1\_16[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-stuerzen\_set1\_16[6]	_	_	_	_	_	false[48]	Decl[48]	*[175]	*[175]	*[175]	*[175]	*[175]	input1[175]	21[294]	male[294]	afpst3sherp4732c4se5ajftkq[294]	speaker: YOU[413]	_	_	_	_	_	
+22-6	368-370	er	_	GFailure[6]	stuerzen\_set1\_16[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-stuerzen\_set1\_16[6]	3	*	*	*	singular	false[48]	Decl[48]	*[175]	*[175]	*[175]	*[175]	*[175]	input1[175]	21[294]	male[294]	afpst3sherp4732c4se5ajftkq[294]	speaker: YOU[413]	*->66-2	PerPron[66]	_	_	_	
+22-7	371-375	wohl	_	GFailure[6]	stuerzen\_set1\_16[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-stuerzen\_set1\_16[6]	_	_	_	_	_	false[48]	Decl[48]	*[175]	*[175]	*[175]	*[175]	*[175]	input1[175]	21[294]	male[294]	afpst3sherp4732c4se5ajftkq[294]	speaker: YOU[413]	_	_	_	_	_	
+22-8	376-381	einen	_	GFailure[6]	stuerzen\_set1\_16[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-stuerzen\_set1\_16[6]	_	_	_	_	_	false[48]	Decl[48]	*[175]	*[175]	*[175]	*[175]	*[175]	input1[175]	21[294]	male[294]	afpst3sherp4732c4se5ajftkq[294]	speaker: YOU[413]	*->32-1	IndefNP[32]	_	_	_	
+22-9	382-387	Stein	_	GFailure[6]	stuerzen\_set1\_16[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-stuerzen\_set1\_16[6]	_	_	_	_	_	false[48]	Decl[48]	*[175]	*[175]	*[175]	*[175]	*[175]	input1[175]	21[294]	male[294]	afpst3sherp4732c4se5ajftkq[294]	speaker: YOU[413]	*->32-1	IndefNP[32]	_	_	_	
+22-10	388-397	übersehen	_	GFailure[6]	stuerzen\_set1\_16[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-stuerzen\_set1\_16[6]	_	_	_	_	_	false[48]	Decl[48]	*[175]	*[175]	*[175]	*[175]	*[175]	input1[175]	21[294]	male[294]	afpst3sherp4732c4se5ajftkq[294]	speaker: YOU[413]	_	_	_	_	_	
+22-11	398-401	und	_	GFailure[6]	stuerzen\_set1\_16[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-stuerzen\_set1\_16[6]	_	_	_	_	_	false[49]	Decl[49]	*[175]	*[175]	*[175]	*[175]	*[175]	input1[175]	21[294]	male[294]	afpst3sherp4732c4se5ajftkq[294]	speaker: YOU[413]	_	_	result	*	23-1[50_49]	
+22-12	402-405	ist	_	GFailure[6]	stuerzen\_set1\_16[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-stuerzen\_set1\_16[6]	3	*	*	*	singular	false[49]	Decl[49]	*[175]	*[175]	*[175]	*[175]	*[175]	input1[175]	21[294]	male[294]	afpst3sherp4732c4se5ajftkq[294]	speaker: YOU[413]	*->66-3	zero[66]	_	_	_	
+22-13	406-416	gestürtzt.	_	GFailure[6]	stuerzen\_set1\_16[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-stuerzen\_set1\_16[6]	_	_	_	_	_	false[49]	Decl[49]	*[175]	*[175]	*[175]	*[175]	*[175]	input1[175]	21[294]	male[294]	afpst3sherp4732c4se5ajftkq[294]	speaker: YOU[413]	_	_	_	_	_	
+
+#Text=Er hat sich das Bein gebrochen.
+23-1	418-420	Er	_	GFailure[6]	stuerzen\_set1\_16[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-stuerzen\_set1\_16[6]	3	*	*	*	singular	false[50]	Decl[50]	*[176]	*[176]	*[176]	*[176]	*[176]	input2[176]	21[295]	male[295]	afpst3sherp4732c4se5ajftkq[295]	speaker: YOU[414]	*->66-4	PerPron[66]	_	_	_	
+23-2	421-424	hat	_	GFailure[6]	stuerzen\_set1\_16[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-stuerzen\_set1\_16[6]	_	_	_	_	_	false[50]	Decl[50]	*[176]	*[176]	*[176]	*[176]	*[176]	input2[176]	21[295]	male[295]	afpst3sherp4732c4se5ajftkq[295]	speaker: YOU[414]	_	_	_	_	_	
+23-3	425-429	sich	_	GFailure[6]	stuerzen\_set1\_16[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-stuerzen\_set1\_16[6]	_	_	_	_	_	false[50]	Decl[50]	*[176]	*[176]	*[176]	*[176]	*[176]	input2[176]	21[295]	male[295]	afpst3sherp4732c4se5ajftkq[295]	speaker: YOU[414]	_	_	_	_	_	
+23-4	430-433	das	_	GFailure[6]	stuerzen\_set1\_16[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-stuerzen\_set1\_16[6]	_	_	_	_	_	false[50]	Decl[50]	*[176]	*[176]	*[176]	*[176]	*[176]	input2[176]	21[295]	male[295]	afpst3sherp4732c4se5ajftkq[295]	speaker: YOU[414]	*->23-1	DefNP[23]	_	_	_	
+23-5	434-438	Bein	_	GFailure[6]	stuerzen\_set1\_16[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-stuerzen\_set1\_16[6]	_	_	_	_	_	false[50]	Decl[50]	*[176]	*[176]	*[176]	*[176]	*[176]	input2[176]	21[295]	male[295]	afpst3sherp4732c4se5ajftkq[295]	speaker: YOU[414]	*->23-1	DefNP[23]	_	_	_	
+23-6	439-449	gebrochen.	_	GFailure[6]	stuerzen\_set1\_16[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-stuerzen\_set1\_16[6]	_	_	_	_	_	false[50]	Decl[50]	*[176]	*[176]	*[176]	*[176]	*[176]	input2[176]	21[295]	male[295]	afpst3sherp4732c4se5ajftkq[295]	speaker: YOU[414]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+24-1	451-466	END_OF_DOCUMENT	_	GFailure[6]	stuerzen\_set1\_16[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-stuerzen\_set1\_16[6]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+25-1	468-473	Alles	_	GFailure[7]	stuerzen\_set1\_16[7]	latin1[7]	blj8i1h4sc8jti0m6gcav1c9ek-stuerzen\_set1\_16[7]	_	_	_	_	_	false[51]	Int[51]	*[177]	*[177]	*[177]	yn\_4[177]	yesno\_question[177]	openq[177]	*[296]	female[296]	*[296]	speaker:Elisabeth[415]	_	_	QAP	*	26-1[52_51]	
+25-2	474-478	gut?	_	GFailure[7]	stuerzen\_set1\_16[7]	latin1[7]	blj8i1h4sc8jti0m6gcav1c9ek-stuerzen\_set1\_16[7]	_	_	_	_	_	false[51]	Int[51]	*[177]	*[177]	*[177]	yn\_4[177]	yesno\_question[177]	openq[177]	*[296]	female[296]	*[296]	speaker:Elisabeth[415]	_	_	_	_	_	
+
+#Text=Till ist gestürzt
+26-1	480-484	Till	_	GFailure[7]	stuerzen\_set1\_16[7]	latin1[7]	blj8i1h4sc8jti0m6gcav1c9ek-stuerzen\_set1\_16[7]	_	_	_	_	_	false[52]	Decl[52]	*[178]	stürzen[178]	intransitive[178]	*[178]	*[178]	item0[178]	42[297]	female[297]	blj8i1h4sc8jti0m6gcav1c9ek[297]	speaker: YOU[416]	*->65-1	PropNm[65]	narration|CR	*|*	28-1[53_52]|27-1[0_52]	
+26-2	485-488	ist	_	GFailure[7]	stuerzen\_set1\_16[7]	latin1[7]	blj8i1h4sc8jti0m6gcav1c9ek-stuerzen\_set1\_16[7]	_	_	_	_	_	false[52]	Decl[52]	*[178]	stürzen[178]	intransitive[178]	*[178]	*[178]	item0[178]	42[297]	female[297]	blj8i1h4sc8jti0m6gcav1c9ek[297]	speaker: YOU[416]	_	_	_	_	_	
+26-3	489-497	gestürzt	_	GFailure[7]	stuerzen\_set1\_16[7]	latin1[7]	blj8i1h4sc8jti0m6gcav1c9ek-stuerzen\_set1\_16[7]	_	_	_	_	_	false[52]	Decl[52]	*[178]	stürzen[178]	intransitive[178]	*[178]	*[178]	item0[178]	42[297]	female[297]	blj8i1h4sc8jti0m6gcav1c9ek[297]	speaker: YOU[416]	_	_	_	_	_	
+
+#Text=Hm?
+27-1	499-502	Hm?	_	GFailure[7]	stuerzen\_set1\_16[7]	latin1[7]	blj8i1h4sc8jti0m6gcav1c9ek-stuerzen\_set1\_16[7]	_	_	_	_	_	false	NA	hm\_question\_4	*	*	*	*	feedback	*	female	*	speaker:Elisabeth	_	_	_	_	_	
+
+#Text=Wir sind gerade im KH <BR> weil Till gestürzt ist.
+28-1	504-507	Wir	_	GFailure[7]	stuerzen\_set1\_16[7]	latin1[7]	blj8i1h4sc8jti0m6gcav1c9ek-stuerzen\_set1\_16[7]	1	*	*	*	plural	false[53]	Decl[53]	*[179]	*[179]	*[179]	*[179]	*[179]	input1[179]	42[298]	female[298]	blj8i1h4sc8jti0m6gcav1c9ek[298]	speaker: YOU[417]	*->30-1	PerPron[30]	explanation|result	*|*	28-7[54_53]|29-1[55_53]	
+28-2	508-512	sind	_	GFailure[7]	stuerzen\_set1\_16[7]	latin1[7]	blj8i1h4sc8jti0m6gcav1c9ek-stuerzen\_set1\_16[7]	_	_	_	_	_	false[53]	Decl[53]	*[179]	*[179]	*[179]	*[179]	*[179]	input1[179]	42[298]	female[298]	blj8i1h4sc8jti0m6gcav1c9ek[298]	speaker: YOU[417]	_	_	_	_	_	
+28-3	513-519	gerade	_	GFailure[7]	stuerzen\_set1\_16[7]	latin1[7]	blj8i1h4sc8jti0m6gcav1c9ek-stuerzen\_set1\_16[7]	_	_	_	_	_	false[53]	Decl[53]	*[179]	*[179]	*[179]	*[179]	*[179]	input1[179]	42[298]	female[298]	blj8i1h4sc8jti0m6gcav1c9ek[298]	speaker: YOU[417]	_	_	_	_	_	
+28-4	520-522	im	_	GFailure[7]	stuerzen\_set1\_16[7]	latin1[7]	blj8i1h4sc8jti0m6gcav1c9ek-stuerzen\_set1\_16[7]	_	_	_	_	_	false[53]	Decl[53]	*[179]	*[179]	*[179]	*[179]	*[179]	input1[179]	42[298]	female[298]	blj8i1h4sc8jti0m6gcav1c9ek[298]	speaker: YOU[417]	*->49-1	DefNP[49]	_	_	_	
+28-5	523-525	KH	_	GFailure[7]	stuerzen\_set1\_16[7]	latin1[7]	blj8i1h4sc8jti0m6gcav1c9ek-stuerzen\_set1\_16[7]	_	_	_	_	_	false[53]	Decl[53]	*[179]	*[179]	*[179]	*[179]	*[179]	input1[179]	42[298]	female[298]	blj8i1h4sc8jti0m6gcav1c9ek[298]	speaker: YOU[417]	*->49-1	DefNP[49]	_	_	_	
+28-6	526-530	<BR>	_	GFailure[7]	stuerzen\_set1\_16[7]	latin1[7]	blj8i1h4sc8jti0m6gcav1c9ek-stuerzen\_set1\_16[7]	_	_	_	_	_	_	_	*[179]	*[179]	*[179]	*[179]	*[179]	input1[179]	42[298]	female[298]	blj8i1h4sc8jti0m6gcav1c9ek[298]	speaker: YOU[417]	_	_	_	_	_	
+28-7	531-535	weil	_	GFailure[7]	stuerzen\_set1\_16[7]	latin1[7]	blj8i1h4sc8jti0m6gcav1c9ek-stuerzen\_set1\_16[7]	_	_	_	_	_	false[54]	NA[54]	*[179]	*[179]	*[179]	*[179]	*[179]	input1[179]	42[298]	female[298]	blj8i1h4sc8jti0m6gcav1c9ek[298]	speaker: YOU[417]	_	_	_	_	_	
+28-8	536-540	Till	_	GFailure[7]	stuerzen\_set1\_16[7]	latin1[7]	blj8i1h4sc8jti0m6gcav1c9ek-stuerzen\_set1\_16[7]	_	_	_	_	_	false[54]	NA[54]	*[179]	*[179]	*[179]	*[179]	*[179]	input1[179]	42[298]	female[298]	blj8i1h4sc8jti0m6gcav1c9ek[298]	speaker: YOU[417]	*->65-2	PropNm[65]	_	_	_	
+28-9	541-549	gestürzt	_	GFailure[7]	stuerzen\_set1\_16[7]	latin1[7]	blj8i1h4sc8jti0m6gcav1c9ek-stuerzen\_set1\_16[7]	_	_	_	_	_	false[54]	NA[54]	*[179]	*[179]	*[179]	*[179]	*[179]	input1[179]	42[298]	female[298]	blj8i1h4sc8jti0m6gcav1c9ek[298]	speaker: YOU[417]	_	_	_	_	_	
+28-10	550-554	ist.	_	GFailure[7]	stuerzen\_set1\_16[7]	latin1[7]	blj8i1h4sc8jti0m6gcav1c9ek-stuerzen\_set1\_16[7]	_	_	_	_	_	false[54]	NA[54]	*[179]	*[179]	*[179]	*[179]	*[179]	input1[179]	42[298]	female[298]	blj8i1h4sc8jti0m6gcav1c9ek[298]	speaker: YOU[417]	_	_	_	_	_	
+
+#Text=Kann ich mich später melden?
+29-1	556-560	Kann	_	GFailure[7]	stuerzen\_set1\_16[7]	latin1[7]	blj8i1h4sc8jti0m6gcav1c9ek-stuerzen\_set1\_16[7]	_	_	_	_	_	false[55]	Int[55]	*[180]	*[180]	*[180]	*[180]	*[180]	input2[180]	42[299]	female[299]	blj8i1h4sc8jti0m6gcav1c9ek[299]	speaker: YOU[418]	_	_	_	_	_	
+29-2	561-564	ich	_	GFailure[7]	stuerzen\_set1\_16[7]	latin1[7]	blj8i1h4sc8jti0m6gcav1c9ek-stuerzen\_set1\_16[7]	1	*	*	*	singular	false[55]	Int[55]	*[180]	*[180]	*[180]	*[180]	*[180]	input2[180]	42[299]	female[299]	blj8i1h4sc8jti0m6gcav1c9ek[299]	speaker: YOU[418]	*->89-1	PerPron[89]	_	_	_	
+29-3	565-569	mich	_	GFailure[7]	stuerzen\_set1\_16[7]	latin1[7]	blj8i1h4sc8jti0m6gcav1c9ek-stuerzen\_set1\_16[7]	_	_	_	_	_	false[55]	Int[55]	*[180]	*[180]	*[180]	*[180]	*[180]	input2[180]	42[299]	female[299]	blj8i1h4sc8jti0m6gcav1c9ek[299]	speaker: YOU[418]	_	_	_	_	_	
+29-4	570-576	später	_	GFailure[7]	stuerzen\_set1\_16[7]	latin1[7]	blj8i1h4sc8jti0m6gcav1c9ek-stuerzen\_set1\_16[7]	_	_	_	_	_	false[55]	Int[55]	*[180]	*[180]	*[180]	*[180]	*[180]	input2[180]	42[299]	female[299]	blj8i1h4sc8jti0m6gcav1c9ek[299]	speaker: YOU[418]	_	_	_	_	_	
+29-5	577-584	melden?	_	GFailure[7]	stuerzen\_set1\_16[7]	latin1[7]	blj8i1h4sc8jti0m6gcav1c9ek-stuerzen\_set1\_16[7]	_	_	_	_	_	false[55]	Int[55]	*[180]	*[180]	*[180]	*[180]	*[180]	input2[180]	42[299]	female[299]	blj8i1h4sc8jti0m6gcav1c9ek[299]	speaker: YOU[418]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+30-1	586-601	END_OF_DOCUMENT	_	GFailure[7]	stuerzen\_set1\_16[7]	latin1[7]	blj8i1h4sc8jti0m6gcav1c9ek-stuerzen\_set1\_16[7]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+31-1	603-608	Alles	_	GFailure[8]	stuerzen\_set1\_16[8]	latin1[8]	h05ingrcngdnasp07727nvoq59-stuerzen\_set1\_16[8]	_	_	_	_	_	false[56]	Int[56]	*[181]	*[181]	*[181]	yn\_4[181]	yesno\_question[181]	openq[181]	*[300]	female[300]	*[300]	speaker:Elisabeth[419]	_	_	QAP	*	32-1[57_56]	
+31-2	609-613	gut?	_	GFailure[8]	stuerzen\_set1\_16[8]	latin1[8]	h05ingrcngdnasp07727nvoq59-stuerzen\_set1\_16[8]	_	_	_	_	_	false[56]	Int[56]	*[181]	*[181]	*[181]	yn\_4[181]	yesno\_question[181]	openq[181]	*[300]	female[300]	*[300]	speaker:Elisabeth[419]	_	_	_	_	_	
+
+#Text=Till ist gestürzt
+32-1	615-619	Till	_	GFailure[8]	stuerzen\_set1\_16[8]	latin1[8]	h05ingrcngdnasp07727nvoq59-stuerzen\_set1\_16[8]	_	_	_	_	_	false[57]	Decl[57]	*[182]	stürzen[182]	intransitive[182]	*[182]	*[182]	item0[182]	42[301]	female[301]	h05ingrcngdnasp07727nvoq59[301]	speaker: YOU[420]	*->74-1	PropNm[74]	elaboration|CR	*|*	34-1[0_57]|33-1[0_57]	
+32-2	620-623	ist	_	GFailure[8]	stuerzen\_set1\_16[8]	latin1[8]	h05ingrcngdnasp07727nvoq59-stuerzen\_set1\_16[8]	_	_	_	_	_	false[57]	Decl[57]	*[182]	stürzen[182]	intransitive[182]	*[182]	*[182]	item0[182]	42[301]	female[301]	h05ingrcngdnasp07727nvoq59[301]	speaker: YOU[420]	_	_	_	_	_	
+32-3	624-632	gestürzt	_	GFailure[8]	stuerzen\_set1\_16[8]	latin1[8]	h05ingrcngdnasp07727nvoq59-stuerzen\_set1\_16[8]	_	_	_	_	_	false[57]	Decl[57]	*[182]	stürzen[182]	intransitive[182]	*[182]	*[182]	item0[182]	42[301]	female[301]	h05ingrcngdnasp07727nvoq59[301]	speaker: YOU[420]	_	_	_	_	_	
+
+#Text=Hm?
+33-1	634-637	Hm?	_	GFailure[8]	stuerzen\_set1\_16[8]	latin1[8]	h05ingrcngdnasp07727nvoq59-stuerzen\_set1\_16[8]	_	_	_	_	_	false	NA	hm\_question\_4	*	*	*	*	feedback	*	female	*	speaker:Elisabeth	_	_	_	_	_	
+
+#Text=Ja <BR> mit dem Fahrrad.
+34-1	639-641	Ja	_	GFailure[8]	stuerzen\_set1\_16[8]	latin1[8]	h05ingrcngdnasp07727nvoq59-stuerzen\_set1\_16[8]	_	_	_	_	_	false	NA	*[183]	*[183]	*[183]	*[183]	*[183]	input1[183]	42[302]	female[302]	h05ingrcngdnasp07727nvoq59[302]	speaker: YOU[421]	_	_	elaboration|elaboration	*|*	34-3[58_0]|35-1[59_0]	
+34-2	642-646	<BR>	_	GFailure[8]	stuerzen\_set1\_16[8]	latin1[8]	h05ingrcngdnasp07727nvoq59-stuerzen\_set1\_16[8]	_	_	_	_	_	_	_	*[183]	*[183]	*[183]	*[183]	*[183]	input1[183]	42[302]	female[302]	h05ingrcngdnasp07727nvoq59[302]	speaker: YOU[421]	_	_	_	_	_	
+34-3	647-650	mit	_	GFailure[8]	stuerzen\_set1\_16[8]	latin1[8]	h05ingrcngdnasp07727nvoq59-stuerzen\_set1\_16[8]	_	_	_	_	_	false[58]	NA[58]	*[183]	*[183]	*[183]	*[183]	*[183]	input1[183]	42[302]	female[302]	h05ingrcngdnasp07727nvoq59[302]	speaker: YOU[421]	_	_	_	_	_	
+34-4	651-654	dem	_	GFailure[8]	stuerzen\_set1\_16[8]	latin1[8]	h05ingrcngdnasp07727nvoq59-stuerzen\_set1\_16[8]	_	_	_	_	_	false[58]	NA[58]	*[183]	*[183]	*[183]	*[183]	*[183]	input1[183]	42[302]	female[302]	h05ingrcngdnasp07727nvoq59[302]	speaker: YOU[421]	*->76-1	DefNP[76]	_	_	_	
+34-5	655-663	Fahrrad.	_	GFailure[8]	stuerzen\_set1\_16[8]	latin1[8]	h05ingrcngdnasp07727nvoq59-stuerzen\_set1\_16[8]	_	_	_	_	_	false[58]	NA[58]	*[183]	*[183]	*[183]	*[183]	*[183]	input1[183]	42[302]	female[302]	h05ingrcngdnasp07727nvoq59[302]	speaker: YOU[421]	*->76-1	DefNP[76]	_	_	_	
+
+#Text=Er war zu schnell in der Kurve.
+35-1	665-667	Er	_	GFailure[8]	stuerzen\_set1\_16[8]	latin1[8]	h05ingrcngdnasp07727nvoq59-stuerzen\_set1\_16[8]	3	*	*	*	singular	false[59]	Decl[59]	*[184]	*[184]	*[184]	*[184]	*[184]	input2[184]	42[303]	female[303]	h05ingrcngdnasp07727nvoq59[303]	speaker: YOU[422]	*->74-2	PerPron[74]	_	_	_	
+35-2	668-671	war	_	GFailure[8]	stuerzen\_set1\_16[8]	latin1[8]	h05ingrcngdnasp07727nvoq59-stuerzen\_set1\_16[8]	_	_	_	_	_	false[59]	Decl[59]	*[184]	*[184]	*[184]	*[184]	*[184]	input2[184]	42[303]	female[303]	h05ingrcngdnasp07727nvoq59[303]	speaker: YOU[422]	_	_	_	_	_	
+35-3	672-674	zu	_	GFailure[8]	stuerzen\_set1\_16[8]	latin1[8]	h05ingrcngdnasp07727nvoq59-stuerzen\_set1\_16[8]	_	_	_	_	_	false[59]	Decl[59]	*[184]	*[184]	*[184]	*[184]	*[184]	input2[184]	42[303]	female[303]	h05ingrcngdnasp07727nvoq59[303]	speaker: YOU[422]	_	_	_	_	_	
+35-4	675-682	schnell	_	GFailure[8]	stuerzen\_set1\_16[8]	latin1[8]	h05ingrcngdnasp07727nvoq59-stuerzen\_set1\_16[8]	_	_	_	_	_	false[59]	Decl[59]	*[184]	*[184]	*[184]	*[184]	*[184]	input2[184]	42[303]	female[303]	h05ingrcngdnasp07727nvoq59[303]	speaker: YOU[422]	_	_	_	_	_	
+35-5	683-685	in	_	GFailure[8]	stuerzen\_set1\_16[8]	latin1[8]	h05ingrcngdnasp07727nvoq59-stuerzen\_set1\_16[8]	_	_	_	_	_	false[59]	Decl[59]	*[184]	*[184]	*[184]	*[184]	*[184]	input2[184]	42[303]	female[303]	h05ingrcngdnasp07727nvoq59[303]	speaker: YOU[422]	_	_	_	_	_	
+35-6	686-689	der	_	GFailure[8]	stuerzen\_set1\_16[8]	latin1[8]	h05ingrcngdnasp07727nvoq59-stuerzen\_set1\_16[8]	_	_	_	_	_	false[59]	Decl[59]	*[184]	*[184]	*[184]	*[184]	*[184]	input2[184]	42[303]	female[303]	h05ingrcngdnasp07727nvoq59[303]	speaker: YOU[422]	*->78-1	DefNP[78]	_	_	_	
+35-7	690-696	Kurve.	_	GFailure[8]	stuerzen\_set1\_16[8]	latin1[8]	h05ingrcngdnasp07727nvoq59-stuerzen\_set1\_16[8]	_	_	_	_	_	false[59]	Decl[59]	*[184]	*[184]	*[184]	*[184]	*[184]	input2[184]	42[303]	female[303]	h05ingrcngdnasp07727nvoq59[303]	speaker: YOU[422]	*->78-1	DefNP[78]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+36-1	698-713	END_OF_DOCUMENT	_	GFailure[8]	stuerzen\_set1\_16[8]	latin1[8]	h05ingrcngdnasp07727nvoq59-stuerzen\_set1\_16[8]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+37-1	715-720	Alles	_	GFailure[9]	stuerzen\_set1\_16[9]	latin1[9]	jkqc35grurqg6r29efakrmibd9-stuerzen\_set1\_16[9]	_	_	_	_	_	false[60]	Int[60]	*[185]	*[185]	*[185]	yn\_4[185]	yesno\_question[185]	openq[185]	*[304]	female[304]	*[304]	speaker:Elisabeth[423]	_	_	QAP	*	38-1[61_60]	
+37-2	721-725	gut?	_	GFailure[9]	stuerzen\_set1\_16[9]	latin1[9]	jkqc35grurqg6r29efakrmibd9-stuerzen\_set1\_16[9]	_	_	_	_	_	false[60]	Int[60]	*[185]	*[185]	*[185]	yn\_4[185]	yesno\_question[185]	openq[185]	*[304]	female[304]	*[304]	speaker:Elisabeth[423]	_	_	_	_	_	
+
+#Text=Till ist gestürzt
+38-1	727-731	Till	_	GFailure[9]	stuerzen\_set1\_16[9]	latin1[9]	jkqc35grurqg6r29efakrmibd9-stuerzen\_set1\_16[9]	_	_	_	_	_	false[61]	Decl[61]	*[186]	stürzen[186]	intransitive[186]	*[186]	*[186]	item0[186]	42[305]	male[305]	jkqc35grurqg6r29efakrmibd9[305]	speaker: YOU[424]	*->90-1	PropNm[90]	CR	*	39-1[0_61]	
+38-2	732-735	ist	_	GFailure[9]	stuerzen\_set1\_16[9]	latin1[9]	jkqc35grurqg6r29efakrmibd9-stuerzen\_set1\_16[9]	_	_	_	_	_	false[61]	Decl[61]	*[186]	stürzen[186]	intransitive[186]	*[186]	*[186]	item0[186]	42[305]	male[305]	jkqc35grurqg6r29efakrmibd9[305]	speaker: YOU[424]	_	_	_	_	_	
+38-3	736-744	gestürzt	_	GFailure[9]	stuerzen\_set1\_16[9]	latin1[9]	jkqc35grurqg6r29efakrmibd9-stuerzen\_set1\_16[9]	_	_	_	_	_	false[61]	Decl[61]	*[186]	stürzen[186]	intransitive[186]	*[186]	*[186]	item0[186]	42[305]	male[305]	jkqc35grurqg6r29efakrmibd9[305]	speaker: YOU[424]	_	_	_	_	_	
+
+#Text=Hm?
+39-1	746-749	Hm?	_	GFailure[9]	stuerzen\_set1\_16[9]	latin1[9]	jkqc35grurqg6r29efakrmibd9-stuerzen\_set1\_16[9]	_	_	_	_	_	false	NA	hm\_question\_4	*	*	*	*	feedback	*	female	*	speaker:Elisabeth	_	_	explanation	*	40-1[62_0]	
+
+#Text=Wie Hm?
+40-1	751-754	Wie	_	GFailure[9]	stuerzen\_set1\_16[9]	latin1[9]	jkqc35grurqg6r29efakrmibd9-stuerzen\_set1\_16[9]	_	_	_	_	_	false[62]	NA[62]	*[187]	*[187]	*[187]	*[187]	*[187]	input1[187]	42[306]	male[306]	jkqc35grurqg6r29efakrmibd9[306]	speaker: YOU[425]	_	_	explanation	*	41-1[63_62]	
+40-2	755-758	Hm?	_	GFailure[9]	stuerzen\_set1\_16[9]	latin1[9]	jkqc35grurqg6r29efakrmibd9-stuerzen\_set1\_16[9]	_	_	_	_	_	false[62]	NA[62]	*[187]	*[187]	*[187]	*[187]	*[187]	input1[187]	42[306]	male[306]	jkqc35grurqg6r29efakrmibd9[306]	speaker: YOU[425]	_	_	_	_	_	
+
+#Text=Er hat sich echt wehgetan
+41-1	760-762	Er	_	GFailure[9]	stuerzen\_set1\_16[9]	latin1[9]	jkqc35grurqg6r29efakrmibd9-stuerzen\_set1\_16[9]	3	*	*	*	singular	false[63]	Decl[63]	*[188]	*[188]	*[188]	*[188]	*[188]	input2[188]	42[307]	male[307]	jkqc35grurqg6r29efakrmibd9[307]	speaker: YOU[426]	*->90-2	PerPron[90]	_	_	_	
+41-2	763-766	hat	_	GFailure[9]	stuerzen\_set1\_16[9]	latin1[9]	jkqc35grurqg6r29efakrmibd9-stuerzen\_set1\_16[9]	_	_	_	_	_	false[63]	Decl[63]	*[188]	*[188]	*[188]	*[188]	*[188]	input2[188]	42[307]	male[307]	jkqc35grurqg6r29efakrmibd9[307]	speaker: YOU[426]	_	_	_	_	_	
+41-3	767-771	sich	_	GFailure[9]	stuerzen\_set1\_16[9]	latin1[9]	jkqc35grurqg6r29efakrmibd9-stuerzen\_set1\_16[9]	_	_	_	_	_	false[63]	Decl[63]	*[188]	*[188]	*[188]	*[188]	*[188]	input2[188]	42[307]	male[307]	jkqc35grurqg6r29efakrmibd9[307]	speaker: YOU[426]	_	_	_	_	_	
+41-4	772-776	echt	_	GFailure[9]	stuerzen\_set1\_16[9]	latin1[9]	jkqc35grurqg6r29efakrmibd9-stuerzen\_set1\_16[9]	_	_	_	_	_	false[63]	Decl[63]	*[188]	*[188]	*[188]	*[188]	*[188]	input2[188]	42[307]	male[307]	jkqc35grurqg6r29efakrmibd9[307]	speaker: YOU[426]	_	_	_	_	_	
+41-5	777-785	wehgetan	_	GFailure[9]	stuerzen\_set1\_16[9]	latin1[9]	jkqc35grurqg6r29efakrmibd9-stuerzen\_set1\_16[9]	_	_	_	_	_	false[63]	Decl[63]	*[188]	*[188]	*[188]	*[188]	*[188]	input2[188]	42[307]	male[307]	jkqc35grurqg6r29efakrmibd9[307]	speaker: YOU[426]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+42-1	787-802	END_OF_DOCUMENT	_	GFailure[9]	stuerzen\_set1\_16[9]	latin1[9]	jkqc35grurqg6r29efakrmibd9-stuerzen\_set1\_16[9]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+43-1	804-809	Alles	_	GFailure[10]	stuerzen\_set1\_16[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-stuerzen\_set1\_16[10]	_	_	_	_	_	false[64]	Int[64]	*[189]	*[189]	*[189]	yn\_4[189]	yesno\_question[189]	openq[189]	*[308]	female[308]	*[308]	speaker:Elisabeth[427]	_	_	QAP	*	44-1[65_64]	
+43-2	810-814	gut?	_	GFailure[10]	stuerzen\_set1\_16[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-stuerzen\_set1\_16[10]	_	_	_	_	_	false[64]	Int[64]	*[189]	*[189]	*[189]	yn\_4[189]	yesno\_question[189]	openq[189]	*[308]	female[308]	*[308]	speaker:Elisabeth[427]	_	_	_	_	_	
+
+#Text=Till ist gestürzt
+44-1	816-820	Till	_	GFailure[10]	stuerzen\_set1\_16[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-stuerzen\_set1\_16[10]	_	_	_	_	_	false[65]	Decl[65]	*[190]	stürzen[190]	intransitive[190]	*[190]	*[190]	item0[190]	20[309]	male[309]	lhu26mh95feeqso1qtacqboi3v[309]	speaker: YOU[428]	*->87-1	PropNm[87]	elaboration|CR	*|*	46-1[66_65]|45-1[0_65]	
+44-2	821-824	ist	_	GFailure[10]	stuerzen\_set1\_16[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-stuerzen\_set1\_16[10]	_	_	_	_	_	false[65]	Decl[65]	*[190]	stürzen[190]	intransitive[190]	*[190]	*[190]	item0[190]	20[309]	male[309]	lhu26mh95feeqso1qtacqboi3v[309]	speaker: YOU[428]	_	_	_	_	_	
+44-3	825-833	gestürzt	_	GFailure[10]	stuerzen\_set1\_16[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-stuerzen\_set1\_16[10]	_	_	_	_	_	false[65]	Decl[65]	*[190]	stürzen[190]	intransitive[190]	*[190]	*[190]	item0[190]	20[309]	male[309]	lhu26mh95feeqso1qtacqboi3v[309]	speaker: YOU[428]	_	_	_	_	_	
+
+#Text=Hm?
+45-1	835-838	Hm?	_	GFailure[10]	stuerzen\_set1\_16[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-stuerzen\_set1\_16[10]	_	_	_	_	_	false	NA	hm\_question\_4	*	*	*	*	feedback	*	female	*	speaker:Elisabeth	_	_	_	_	_	
+
+#Text=Till ist vor meinen Augen gestürzt; ich bin noch etwas geschockt.
+46-1	840-844	Till	_	GFailure[10]	stuerzen\_set1\_16[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-stuerzen\_set1\_16[10]	_	_	_	_	_	false[66]	Decl[66]	*[191]	*[191]	*[191]	*[191]	*[191]	input1[191]	20[310]	male[310]	lhu26mh95feeqso1qtacqboi3v[310]	speaker: YOU[429]	*->87-2	PropNm[87]	result	*	46-7[67_66]	
+46-2	845-848	ist	_	GFailure[10]	stuerzen\_set1\_16[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-stuerzen\_set1\_16[10]	_	_	_	_	_	false[66]	Decl[66]	*[191]	*[191]	*[191]	*[191]	*[191]	input1[191]	20[310]	male[310]	lhu26mh95feeqso1qtacqboi3v[310]	speaker: YOU[429]	_	_	_	_	_	
+46-3	849-852	vor	_	GFailure[10]	stuerzen\_set1\_16[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-stuerzen\_set1\_16[10]	_	_	_	_	_	false[66]	Decl[66]	*[191]	*[191]	*[191]	*[191]	*[191]	input1[191]	20[310]	male[310]	lhu26mh95feeqso1qtacqboi3v[310]	speaker: YOU[429]	_	_	_	_	_	
+46-4	853-859	meinen	_	GFailure[10]	stuerzen\_set1\_16[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-stuerzen\_set1\_16[10]	1	*	*	*	singular	false[66]	Decl[66]	*[191]	*[191]	*[191]	*[191]	*[191]	input1[191]	20[310]	male[310]	lhu26mh95feeqso1qtacqboi3v[310]	speaker: YOU[429]	_	_	_	_	_	
+46-5	860-865	Augen	_	GFailure[10]	stuerzen\_set1\_16[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-stuerzen\_set1\_16[10]	_	_	_	_	_	false[66]	Decl[66]	*[191]	*[191]	*[191]	*[191]	*[191]	input1[191]	20[310]	male[310]	lhu26mh95feeqso1qtacqboi3v[310]	speaker: YOU[429]	_	_	_	_	_	
+46-6	866-875	gestürzt;	_	GFailure[10]	stuerzen\_set1\_16[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-stuerzen\_set1\_16[10]	_	_	_	_	_	false[66]	Decl[66]	*[191]	*[191]	*[191]	*[191]	*[191]	input1[191]	20[310]	male[310]	lhu26mh95feeqso1qtacqboi3v[310]	speaker: YOU[429]	_	_	_	_	_	
+46-7	876-879	ich	_	GFailure[10]	stuerzen\_set1\_16[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-stuerzen\_set1\_16[10]	1	*	*	*	singular	false[67]	Decl[67]	*[191]	*[191]	*[191]	*[191]	*[191]	input1[191]	20[310]	male[310]	lhu26mh95feeqso1qtacqboi3v[310]	speaker: YOU[429]	*->86-1	PerPron[86]	contrast	*	47-1[68_67]	
+46-8	880-883	bin	_	GFailure[10]	stuerzen\_set1\_16[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-stuerzen\_set1\_16[10]	_	_	_	_	_	false[67]	Decl[67]	*[191]	*[191]	*[191]	*[191]	*[191]	input1[191]	20[310]	male[310]	lhu26mh95feeqso1qtacqboi3v[310]	speaker: YOU[429]	_	_	_	_	_	
+46-9	884-888	noch	_	GFailure[10]	stuerzen\_set1\_16[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-stuerzen\_set1\_16[10]	_	_	_	_	_	false[67]	Decl[67]	*[191]	*[191]	*[191]	*[191]	*[191]	input1[191]	20[310]	male[310]	lhu26mh95feeqso1qtacqboi3v[310]	speaker: YOU[429]	_	_	_	_	_	
+46-10	889-894	etwas	_	GFailure[10]	stuerzen\_set1\_16[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-stuerzen\_set1\_16[10]	_	_	_	_	_	false[67]	Decl[67]	*[191]	*[191]	*[191]	*[191]	*[191]	input1[191]	20[310]	male[310]	lhu26mh95feeqso1qtacqboi3v[310]	speaker: YOU[429]	_	_	_	_	_	
+46-11	895-905	geschockt.	_	GFailure[10]	stuerzen\_set1\_16[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-stuerzen\_set1\_16[10]	_	_	_	_	_	false[67]	Decl[67]	*[191]	*[191]	*[191]	*[191]	*[191]	input1[191]	20[310]	male[310]	lhu26mh95feeqso1qtacqboi3v[310]	speaker: YOU[429]	_	_	_	_	_	
+
+#Text=Ihm geht es aber relativ gut soweit.
+47-1	907-910	Ihm	_	GFailure[10]	stuerzen\_set1\_16[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-stuerzen\_set1\_16[10]	3	*	*	*	singular	false[68]	Decl[68]	*[192]	*[192]	*[192]	*[192]	*[192]	input2[192]	20[311]	male[311]	lhu26mh95feeqso1qtacqboi3v[311]	speaker: YOU[430]	*->87-3	PerPron[87]	_	_	_	
+47-2	911-915	geht	_	GFailure[10]	stuerzen\_set1\_16[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-stuerzen\_set1\_16[10]	_	_	_	_	_	false[68]	Decl[68]	*[192]	*[192]	*[192]	*[192]	*[192]	input2[192]	20[311]	male[311]	lhu26mh95feeqso1qtacqboi3v[311]	speaker: YOU[430]	_	_	_	_	_	
+47-3	916-918	es	_	GFailure[10]	stuerzen\_set1\_16[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-stuerzen\_set1\_16[10]	_	_	_	_	_	false[68]	Decl[68]	*[192]	*[192]	*[192]	*[192]	*[192]	input2[192]	20[311]	male[311]	lhu26mh95feeqso1qtacqboi3v[311]	speaker: YOU[430]	_	_	_	_	_	
+47-4	919-923	aber	_	GFailure[10]	stuerzen\_set1\_16[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-stuerzen\_set1\_16[10]	_	_	_	_	_	false[68]	Decl[68]	*[192]	*[192]	*[192]	*[192]	*[192]	input2[192]	20[311]	male[311]	lhu26mh95feeqso1qtacqboi3v[311]	speaker: YOU[430]	_	_	_	_	_	
+47-5	924-931	relativ	_	GFailure[10]	stuerzen\_set1\_16[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-stuerzen\_set1\_16[10]	_	_	_	_	_	false[68]	Decl[68]	*[192]	*[192]	*[192]	*[192]	*[192]	input2[192]	20[311]	male[311]	lhu26mh95feeqso1qtacqboi3v[311]	speaker: YOU[430]	_	_	_	_	_	
+47-6	932-935	gut	_	GFailure[10]	stuerzen\_set1\_16[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-stuerzen\_set1\_16[10]	_	_	_	_	_	false[68]	Decl[68]	*[192]	*[192]	*[192]	*[192]	*[192]	input2[192]	20[311]	male[311]	lhu26mh95feeqso1qtacqboi3v[311]	speaker: YOU[430]	_	_	_	_	_	
+47-7	936-943	soweit.	_	GFailure[10]	stuerzen\_set1\_16[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-stuerzen\_set1\_16[10]	_	_	_	_	_	false[68]	Decl[68]	*[192]	*[192]	*[192]	*[192]	*[192]	input2[192]	20[311]	male[311]	lhu26mh95feeqso1qtacqboi3v[311]	speaker: YOU[430]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+48-1	945-960	END_OF_DOCUMENT	_	GFailure[10]	stuerzen\_set1\_16[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-stuerzen\_set1\_16[10]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+49-1	962-967	Alles	_	GFailure[11]	stuerzen\_set1\_16[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-stuerzen\_set1\_16[11]	_	_	_	_	_	false[69]	Int[69]	*[193]	*[193]	*[193]	yn\_4[193]	yesno\_question[193]	openq[193]	*[312]	female[312]	*[312]	speaker:Elisabeth[431]	_	_	QAP	*	50-1[70_69]	
+49-2	968-972	gut?	_	GFailure[11]	stuerzen\_set1\_16[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-stuerzen\_set1\_16[11]	_	_	_	_	_	false[69]	Int[69]	*[193]	*[193]	*[193]	yn\_4[193]	yesno\_question[193]	openq[193]	*[312]	female[312]	*[312]	speaker:Elisabeth[431]	_	_	_	_	_	
+
+#Text=Till ist gestürzt
+50-1	974-978	Till	_	GFailure[11]	stuerzen\_set1\_16[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-stuerzen\_set1\_16[11]	_	_	_	_	_	false[70]	Decl[70]	*[194]	stürzen[194]	intransitive[194]	*[194]	*[194]	item0[194]	21[313]	male[313]	tc4i3rsgsa9bl8tesf4679lok2[313]	speaker: YOU[432]	*->59-1	PropNm[59]	explanation|CR	*|*	52-1[71_70]|51-1[0_70]	
+50-2	979-982	ist	_	GFailure[11]	stuerzen\_set1\_16[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-stuerzen\_set1\_16[11]	_	_	_	_	_	false[70]	Decl[70]	*[194]	stürzen[194]	intransitive[194]	*[194]	*[194]	item0[194]	21[313]	male[313]	tc4i3rsgsa9bl8tesf4679lok2[313]	speaker: YOU[432]	_	_	_	_	_	
+50-3	983-991	gestürzt	_	GFailure[11]	stuerzen\_set1\_16[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-stuerzen\_set1\_16[11]	_	_	_	_	_	false[70]	Decl[70]	*[194]	stürzen[194]	intransitive[194]	*[194]	*[194]	item0[194]	21[313]	male[313]	tc4i3rsgsa9bl8tesf4679lok2[313]	speaker: YOU[432]	_	_	_	_	_	
+
+#Text=Hm?
+51-1	993-996	Hm?	_	GFailure[11]	stuerzen\_set1\_16[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-stuerzen\_set1\_16[11]	_	_	_	_	_	false	NA	hm\_question\_4	*	*	*	*	feedback	*	female	*	speaker:Elisabeth	_	_	_	_	_	
+
+#Text=Wir waren auf einem Berg wandern.
+52-1	998-1001	Wir	_	GFailure[11]	stuerzen\_set1\_16[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-stuerzen\_set1\_16[11]	1	*	*	*	plural	false[71]	Decl[71]	*[195]	*[195]	*[195]	*[195]	*[195]	input1[195]	21[314]	male[314]	tc4i3rsgsa9bl8tesf4679lok2[314]	speaker: YOU[433]	*->3-1	PerPron[3]	elaboration	*	53-1[72_71]	
+52-2	1002-1007	waren	_	GFailure[11]	stuerzen\_set1\_16[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-stuerzen\_set1\_16[11]	_	_	_	_	_	false[71]	Decl[71]	*[195]	*[195]	*[195]	*[195]	*[195]	input1[195]	21[314]	male[314]	tc4i3rsgsa9bl8tesf4679lok2[314]	speaker: YOU[433]	_	_	_	_	_	
+52-3	1008-1011	auf	_	GFailure[11]	stuerzen\_set1\_16[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-stuerzen\_set1\_16[11]	_	_	_	_	_	false[71]	Decl[71]	*[195]	*[195]	*[195]	*[195]	*[195]	input1[195]	21[314]	male[314]	tc4i3rsgsa9bl8tesf4679lok2[314]	speaker: YOU[433]	_	_	_	_	_	
+52-4	1012-1017	einem	_	GFailure[11]	stuerzen\_set1\_16[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-stuerzen\_set1\_16[11]	_	_	_	_	_	false[71]	Decl[71]	*[195]	*[195]	*[195]	*[195]	*[195]	input1[195]	21[314]	male[314]	tc4i3rsgsa9bl8tesf4679lok2[314]	speaker: YOU[433]	*->93-1	IndefNP[93]	_	_	_	
+52-5	1018-1022	Berg	_	GFailure[11]	stuerzen\_set1\_16[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-stuerzen\_set1\_16[11]	_	_	_	_	_	false[71]	Decl[71]	*[195]	*[195]	*[195]	*[195]	*[195]	input1[195]	21[314]	male[314]	tc4i3rsgsa9bl8tesf4679lok2[314]	speaker: YOU[433]	*->93-1	IndefNP[93]	_	_	_	
+52-6	1023-1031	wandern.	_	GFailure[11]	stuerzen\_set1\_16[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-stuerzen\_set1\_16[11]	_	_	_	_	_	false[71]	Decl[71]	*[195]	*[195]	*[195]	*[195]	*[195]	input1[195]	21[314]	male[314]	tc4i3rsgsa9bl8tesf4679lok2[314]	speaker: YOU[433]	_	_	_	_	_	
+
+#Text=Und irgendwann ist Till umgeknickt und schwer hingefallen
+53-1	1033-1036	Und	_	GFailure[11]	stuerzen\_set1\_16[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-stuerzen\_set1\_16[11]	_	_	_	_	_	false[72]	Decl[72]	*[196]	*[196]	*[196]	*[196]	*[196]	input2[196]	21[315]	male[315]	tc4i3rsgsa9bl8tesf4679lok2[315]	speaker: YOU[434]	_	_	_	_	_	
+53-2	1037-1047	irgendwann	_	GFailure[11]	stuerzen\_set1\_16[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-stuerzen\_set1\_16[11]	_	_	_	_	_	false[72]	Decl[72]	*[196]	*[196]	*[196]	*[196]	*[196]	input2[196]	21[315]	male[315]	tc4i3rsgsa9bl8tesf4679lok2[315]	speaker: YOU[434]	_	_	_	_	_	
+53-3	1048-1051	ist	_	GFailure[11]	stuerzen\_set1\_16[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-stuerzen\_set1\_16[11]	_	_	_	_	_	false[72]	Decl[72]	*[196]	*[196]	*[196]	*[196]	*[196]	input2[196]	21[315]	male[315]	tc4i3rsgsa9bl8tesf4679lok2[315]	speaker: YOU[434]	_	_	_	_	_	
+53-4	1052-1056	Till	_	GFailure[11]	stuerzen\_set1\_16[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-stuerzen\_set1\_16[11]	_	_	_	_	_	false[72]	Decl[72]	*[196]	*[196]	*[196]	*[196]	*[196]	input2[196]	21[315]	male[315]	tc4i3rsgsa9bl8tesf4679lok2[315]	speaker: YOU[434]	*->39-1	PropNm[39]	_	_	_	
+53-5	1057-1067	umgeknickt	_	GFailure[11]	stuerzen\_set1\_16[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-stuerzen\_set1\_16[11]	_	_	_	_	_	false[72]	Decl[72]	*[196]	*[196]	*[196]	*[196]	*[196]	input2[196]	21[315]	male[315]	tc4i3rsgsa9bl8tesf4679lok2[315]	speaker: YOU[434]	_	_	_	_	_	
+53-6	1068-1071	und	_	GFailure[11]	stuerzen\_set1\_16[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-stuerzen\_set1\_16[11]	_	_	_	_	_	false[72]	Decl[72]	*[196]	*[196]	*[196]	*[196]	*[196]	input2[196]	21[315]	male[315]	tc4i3rsgsa9bl8tesf4679lok2[315]	speaker: YOU[434]	_	_	_	_	_	
+53-7	1072-1078	schwer	_	GFailure[11]	stuerzen\_set1\_16[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-stuerzen\_set1\_16[11]	_	_	_	_	_	false[72]	Decl[72]	*[196]	*[196]	*[196]	*[196]	*[196]	input2[196]	21[315]	male[315]	tc4i3rsgsa9bl8tesf4679lok2[315]	speaker: YOU[434]	_	_	_	_	_	
+53-8	1079-1090	hingefallen	_	GFailure[11]	stuerzen\_set1\_16[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-stuerzen\_set1\_16[11]	_	_	_	_	_	false[72]	Decl[72]	*[196]	*[196]	*[196]	*[196]	*[196]	input2[196]	21[315]	male[315]	tc4i3rsgsa9bl8tesf4679lok2[315]	speaker: YOU[434]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+54-1	1092-1107	END_OF_DOCUMENT	_	GFailure[11]	stuerzen\_set1\_16[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-stuerzen\_set1\_16[11]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+55-1	1109-1114	Alles	_	GFailure[12]	stuerzen\_set1\_16[12]	latin1[12]	us0adlivem61c2bj5776kudbot-stuerzen\_set1\_16[12]	_	_	_	_	_	false[73]	Int[73]	*[197]	*[197]	*[197]	yn\_4[197]	yesno\_question[197]	openq[197]	*[316]	female[316]	*[316]	speaker:Elisabeth[435]	_	_	QAP	*	56-1[74_73]	
+55-2	1115-1119	gut?	_	GFailure[12]	stuerzen\_set1\_16[12]	latin1[12]	us0adlivem61c2bj5776kudbot-stuerzen\_set1\_16[12]	_	_	_	_	_	false[73]	Int[73]	*[197]	*[197]	*[197]	yn\_4[197]	yesno\_question[197]	openq[197]	*[316]	female[316]	*[316]	speaker:Elisabeth[435]	_	_	_	_	_	
+
+#Text=Till ist gestürzt
+56-1	1121-1125	Till	_	GFailure[12]	stuerzen\_set1\_16[12]	latin1[12]	us0adlivem61c2bj5776kudbot-stuerzen\_set1\_16[12]	_	_	_	_	_	false[74]	Decl[74]	*[198]	stürzen[198]	intransitive[198]	*[198]	*[198]	item0[198]	66[317]	male[317]	us0adlivem61c2bj5776kudbot[317]	speaker: YOU[436]	*->44-1	PropNm[44]	elaboration|CR	*|*	58-1[75_74]|57-1[0_74]	
+56-2	1126-1129	ist	_	GFailure[12]	stuerzen\_set1\_16[12]	latin1[12]	us0adlivem61c2bj5776kudbot-stuerzen\_set1\_16[12]	_	_	_	_	_	false[74]	Decl[74]	*[198]	stürzen[198]	intransitive[198]	*[198]	*[198]	item0[198]	66[317]	male[317]	us0adlivem61c2bj5776kudbot[317]	speaker: YOU[436]	_	_	_	_	_	
+56-3	1130-1138	gestürzt	_	GFailure[12]	stuerzen\_set1\_16[12]	latin1[12]	us0adlivem61c2bj5776kudbot-stuerzen\_set1\_16[12]	_	_	_	_	_	false[74]	Decl[74]	*[198]	stürzen[198]	intransitive[198]	*[198]	*[198]	item0[198]	66[317]	male[317]	us0adlivem61c2bj5776kudbot[317]	speaker: YOU[436]	_	_	_	_	_	
+
+#Text=Hm?
+57-1	1140-1143	Hm?	_	GFailure[12]	stuerzen\_set1\_16[12]	latin1[12]	us0adlivem61c2bj5776kudbot-stuerzen\_set1\_16[12]	_	_	_	_	_	false	NA	hm\_question\_4	*	*	*	*	feedback	*	female	*	speaker:Elisabeth	_	_	_	_	_	
+
+#Text=ja hat sich <BR> leicht verletzt
+58-1	1145-1147	ja	_	GFailure[12]	stuerzen\_set1\_16[12]	latin1[12]	us0adlivem61c2bj5776kudbot-stuerzen\_set1\_16[12]	_	_	_	_	_	false[75]	Decl[75]	*[199]	*[199]	*[199]	*[199]	*[199]	input1[199]	66[318]	male[318]	us0adlivem61c2bj5776kudbot[318]	speaker: YOU[437]	_	_	result	*	59-1[76_75]	
+58-2	1148-1151	hat	_	GFailure[12]	stuerzen\_set1\_16[12]	latin1[12]	us0adlivem61c2bj5776kudbot-stuerzen\_set1\_16[12]	3	*	*	*	singular	false[75]	Decl[75]	*[199]	*[199]	*[199]	*[199]	*[199]	input1[199]	66[318]	male[318]	us0adlivem61c2bj5776kudbot[318]	speaker: YOU[437]	*->44-2	zero[44]	_	_	_	
+58-3	1152-1156	sich	_	GFailure[12]	stuerzen\_set1\_16[12]	latin1[12]	us0adlivem61c2bj5776kudbot-stuerzen\_set1\_16[12]	_	_	_	_	_	false[75]	Decl[75]	*[199]	*[199]	*[199]	*[199]	*[199]	input1[199]	66[318]	male[318]	us0adlivem61c2bj5776kudbot[318]	speaker: YOU[437]	_	_	_	_	_	
+58-4	1157-1161	<BR>	_	GFailure[12]	stuerzen\_set1\_16[12]	latin1[12]	us0adlivem61c2bj5776kudbot-stuerzen\_set1\_16[12]	_	_	_	_	_	false[75]	Decl[75]	*[199]	*[199]	*[199]	*[199]	*[199]	input1[199]	66[318]	male[318]	us0adlivem61c2bj5776kudbot[318]	speaker: YOU[437]	_	_	_	_	_	
+58-5	1162-1168	leicht	_	GFailure[12]	stuerzen\_set1\_16[12]	latin1[12]	us0adlivem61c2bj5776kudbot-stuerzen\_set1\_16[12]	_	_	_	_	_	false[75]	Decl[75]	*[199]	*[199]	*[199]	*[199]	*[199]	input1[199]	66[318]	male[318]	us0adlivem61c2bj5776kudbot[318]	speaker: YOU[437]	_	_	_	_	_	
+58-6	1169-1177	verletzt	_	GFailure[12]	stuerzen\_set1\_16[12]	latin1[12]	us0adlivem61c2bj5776kudbot-stuerzen\_set1\_16[12]	_	_	_	_	_	false[75]	Decl[75]	*[199]	*[199]	*[199]	*[199]	*[199]	input1[199]	66[318]	male[318]	us0adlivem61c2bj5776kudbot[318]	speaker: YOU[437]	_	_	_	_	_	
+
+#Text=leichter Verband am Bein
+59-1	1179-1187	leichter	_	GFailure[12]	stuerzen\_set1\_16[12]	latin1[12]	us0adlivem61c2bj5776kudbot-stuerzen\_set1\_16[12]	_	_	_	_	_	false[76]	NA[76]	*[200]	*[200]	*[200]	*[200]	*[200]	input2[200]	66[319]	male[319]	us0adlivem61c2bj5776kudbot[319]	speaker: YOU[438]	*->37-1	IndefNP[37]	_	_	_	
+59-2	1188-1195	Verband	_	GFailure[12]	stuerzen\_set1\_16[12]	latin1[12]	us0adlivem61c2bj5776kudbot-stuerzen\_set1\_16[12]	_	_	_	_	_	false[76]	NA[76]	*[200]	*[200]	*[200]	*[200]	*[200]	input2[200]	66[319]	male[319]	us0adlivem61c2bj5776kudbot[319]	speaker: YOU[438]	*->37-1	IndefNP[37]	_	_	_	
+59-3	1196-1198	am	_	GFailure[12]	stuerzen\_set1\_16[12]	latin1[12]	us0adlivem61c2bj5776kudbot-stuerzen\_set1\_16[12]	_	_	_	_	_	false[76]	NA[76]	*[200]	*[200]	*[200]	*[200]	*[200]	input2[200]	66[319]	male[319]	us0adlivem61c2bj5776kudbot[319]	speaker: YOU[438]	*->28-1	DefNP[28]	_	_	_	
+59-4	1199-1203	Bein	_	GFailure[12]	stuerzen\_set1\_16[12]	latin1[12]	us0adlivem61c2bj5776kudbot-stuerzen\_set1\_16[12]	_	_	_	_	_	false[76]	NA[76]	*[200]	*[200]	*[200]	*[200]	*[200]	input2[200]	66[319]	male[319]	us0adlivem61c2bj5776kudbot[319]	speaker: YOU[438]	*->28-1	DefNP[28]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+60-1	1205-1220	END_OF_DOCUMENT	_	GFailure[12]	stuerzen\_set1\_16[12]	latin1[12]	us0adlivem61c2bj5776kudbot-stuerzen\_set1\_16[12]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+61-1	1222-1227	Alles	_	GSuccess[13]	stuerzen\_set1\_16[13]	latin2[13]	2em9nj6n4c2pjudl6n6hfpjc30-stuerzen\_set1\_16[13]	_	_	_	_	_	false[77]	Int[77]	*[201]	*[201]	*[201]	yn\_4[201]	yesno\_question[201]	openq[201]	*[320]	female[320]	*[320]	speaker:Elisabeth[439]	_	_	QAP	*	62-1[78_77]	
+61-2	1228-1232	gut?	_	GSuccess[13]	stuerzen\_set1\_16[13]	latin2[13]	2em9nj6n4c2pjudl6n6hfpjc30-stuerzen\_set1\_16[13]	_	_	_	_	_	false[77]	Int[77]	*[201]	*[201]	*[201]	yn\_4[201]	yesno\_question[201]	openq[201]	*[320]	female[320]	*[320]	speaker:Elisabeth[439]	_	_	_	_	_	
+
+#Text=Till ist gestürzt
+62-1	1234-1238	Till	_	GSuccess[13]	stuerzen\_set1\_16[13]	latin2[13]	2em9nj6n4c2pjudl6n6hfpjc30-stuerzen\_set1\_16[13]	_	_	_	_	_	false[78]	Decl[78]	*[202]	stürzen[202]	intransitive[202]	*[202]	*[202]	item0[202]	32[321]	female[321]	2em9nj6n4c2pjudl6n6hfpjc30[321]	speaker: YOU[440]	*->35-1	PropNm[35]	elaboration|explanation|acknowledgement	*|*|*	64-1[79_78]|65-1[81_78]|63-1[0_78]	
+62-2	1239-1242	ist	_	GSuccess[13]	stuerzen\_set1\_16[13]	latin2[13]	2em9nj6n4c2pjudl6n6hfpjc30-stuerzen\_set1\_16[13]	_	_	_	_	_	false[78]	Decl[78]	*[202]	stürzen[202]	intransitive[202]	*[202]	*[202]	item0[202]	32[321]	female[321]	2em9nj6n4c2pjudl6n6hfpjc30[321]	speaker: YOU[440]	_	_	_	_	_	
+62-3	1243-1251	gestürzt	_	GSuccess[13]	stuerzen\_set1\_16[13]	latin2[13]	2em9nj6n4c2pjudl6n6hfpjc30-stuerzen\_set1\_16[13]	_	_	_	_	_	false[78]	Decl[78]	*[202]	stürzen[202]	intransitive[202]	*[202]	*[202]	item0[202]	32[321]	female[321]	2em9nj6n4c2pjudl6n6hfpjc30[321]	speaker: YOU[440]	_	_	_	_	_	
+
+#Text=Ohje
+63-1	1253-1257	Ohje	_	GSuccess[13]	stuerzen\_set1\_16[13]	latin2[13]	2em9nj6n4c2pjudl6n6hfpjc30-stuerzen\_set1\_16[13]	_	_	_	_	_	false	NA	ohje\_27	*	*	*	*	feedback	*	female	*	speaker:Elisabeth	_	_	_	_	_	
+
+#Text=Nichts ernstes <BR> aber der Schreck war groß.
+64-1	1259-1265	Nichts	_	GSuccess[13]	stuerzen\_set1\_16[13]	latin2[13]	2em9nj6n4c2pjudl6n6hfpjc30-stuerzen\_set1\_16[13]	_	_	_	_	_	false[79]	NA[79]	*[203]	*[203]	*[203]	*[203]	*[203]	input1[203]	32[322]	female[322]	2em9nj6n4c2pjudl6n6hfpjc30[322]	speaker: YOU[441]	_	_	contrast	*	64-4[80_79]	
+64-2	1266-1273	ernstes	_	GSuccess[13]	stuerzen\_set1\_16[13]	latin2[13]	2em9nj6n4c2pjudl6n6hfpjc30-stuerzen\_set1\_16[13]	_	_	_	_	_	false[79]	NA[79]	*[203]	*[203]	*[203]	*[203]	*[203]	input1[203]	32[322]	female[322]	2em9nj6n4c2pjudl6n6hfpjc30[322]	speaker: YOU[441]	_	_	_	_	_	
+64-3	1274-1278	<BR>	_	GSuccess[13]	stuerzen\_set1\_16[13]	latin2[13]	2em9nj6n4c2pjudl6n6hfpjc30-stuerzen\_set1\_16[13]	_	_	_	_	_	_	_	*[203]	*[203]	*[203]	*[203]	*[203]	input1[203]	32[322]	female[322]	2em9nj6n4c2pjudl6n6hfpjc30[322]	speaker: YOU[441]	_	_	_	_	_	
+64-4	1279-1283	aber	_	GSuccess[13]	stuerzen\_set1\_16[13]	latin2[13]	2em9nj6n4c2pjudl6n6hfpjc30-stuerzen\_set1\_16[13]	_	_	_	_	_	false[80]	Decl[80]	*[203]	*[203]	*[203]	*[203]	*[203]	input1[203]	32[322]	female[322]	2em9nj6n4c2pjudl6n6hfpjc30[322]	speaker: YOU[441]	_	_	_	_	_	
+64-5	1284-1287	der	_	GSuccess[13]	stuerzen\_set1\_16[13]	latin2[13]	2em9nj6n4c2pjudl6n6hfpjc30-stuerzen\_set1\_16[13]	_	_	_	_	_	false[80]	Decl[80]	*[203]	*[203]	*[203]	*[203]	*[203]	input1[203]	32[322]	female[322]	2em9nj6n4c2pjudl6n6hfpjc30[322]	speaker: YOU[441]	*->55-1	DefNP[55]	_	_	_	
+64-6	1288-1295	Schreck	_	GSuccess[13]	stuerzen\_set1\_16[13]	latin2[13]	2em9nj6n4c2pjudl6n6hfpjc30-stuerzen\_set1\_16[13]	_	_	_	_	_	false[80]	Decl[80]	*[203]	*[203]	*[203]	*[203]	*[203]	input1[203]	32[322]	female[322]	2em9nj6n4c2pjudl6n6hfpjc30[322]	speaker: YOU[441]	*->55-1	DefNP[55]	_	_	_	
+64-7	1296-1299	war	_	GSuccess[13]	stuerzen\_set1\_16[13]	latin2[13]	2em9nj6n4c2pjudl6n6hfpjc30-stuerzen\_set1\_16[13]	_	_	_	_	_	false[80]	Decl[80]	*[203]	*[203]	*[203]	*[203]	*[203]	input1[203]	32[322]	female[322]	2em9nj6n4c2pjudl6n6hfpjc30[322]	speaker: YOU[441]	_	_	_	_	_	
+64-8	1300-1305	groß.	_	GSuccess[13]	stuerzen\_set1\_16[13]	latin2[13]	2em9nj6n4c2pjudl6n6hfpjc30-stuerzen\_set1\_16[13]	_	_	_	_	_	false[80]	Decl[80]	*[203]	*[203]	*[203]	*[203]	*[203]	input1[203]	32[322]	female[322]	2em9nj6n4c2pjudl6n6hfpjc30[322]	speaker: YOU[441]	_	_	_	_	_	
+
+#Text=Er ist auf nem T-Shirt ausgerutscht.
+65-1	1307-1309	Er	_	GSuccess[13]	stuerzen\_set1\_16[13]	latin2[13]	2em9nj6n4c2pjudl6n6hfpjc30-stuerzen\_set1\_16[13]	3	*	*	*	singular	false[81]	Decl[81]	*[204]	*[204]	*[204]	*[204]	*[204]	input2[204]	32[323]	female[323]	2em9nj6n4c2pjudl6n6hfpjc30[323]	speaker: YOU[442]	*->35-2	PerPron[35]	_	_	_	
+65-2	1310-1313	ist	_	GSuccess[13]	stuerzen\_set1\_16[13]	latin2[13]	2em9nj6n4c2pjudl6n6hfpjc30-stuerzen\_set1\_16[13]	_	_	_	_	_	false[81]	Decl[81]	*[204]	*[204]	*[204]	*[204]	*[204]	input2[204]	32[323]	female[323]	2em9nj6n4c2pjudl6n6hfpjc30[323]	speaker: YOU[442]	_	_	_	_	_	
+65-3	1314-1317	auf	_	GSuccess[13]	stuerzen\_set1\_16[13]	latin2[13]	2em9nj6n4c2pjudl6n6hfpjc30-stuerzen\_set1\_16[13]	_	_	_	_	_	false[81]	Decl[81]	*[204]	*[204]	*[204]	*[204]	*[204]	input2[204]	32[323]	female[323]	2em9nj6n4c2pjudl6n6hfpjc30[323]	speaker: YOU[442]	_	_	_	_	_	
+65-4	1318-1321	nem	_	GSuccess[13]	stuerzen\_set1\_16[13]	latin2[13]	2em9nj6n4c2pjudl6n6hfpjc30-stuerzen\_set1\_16[13]	_	_	_	_	_	false[81]	Decl[81]	*[204]	*[204]	*[204]	*[204]	*[204]	input2[204]	32[323]	female[323]	2em9nj6n4c2pjudl6n6hfpjc30[323]	speaker: YOU[442]	*->71-1	IndefNP[71]	_	_	_	
+65-5	1322-1329	T-Shirt	_	GSuccess[13]	stuerzen\_set1\_16[13]	latin2[13]	2em9nj6n4c2pjudl6n6hfpjc30-stuerzen\_set1\_16[13]	_	_	_	_	_	false[81]	Decl[81]	*[204]	*[204]	*[204]	*[204]	*[204]	input2[204]	32[323]	female[323]	2em9nj6n4c2pjudl6n6hfpjc30[323]	speaker: YOU[442]	*->71-1	IndefNP[71]	_	_	_	
+65-6	1330-1343	ausgerutscht.	_	GSuccess[13]	stuerzen\_set1\_16[13]	latin2[13]	2em9nj6n4c2pjudl6n6hfpjc30-stuerzen\_set1\_16[13]	_	_	_	_	_	false[81]	Decl[81]	*[204]	*[204]	*[204]	*[204]	*[204]	input2[204]	32[323]	female[323]	2em9nj6n4c2pjudl6n6hfpjc30[323]	speaker: YOU[442]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+66-1	1345-1360	END_OF_DOCUMENT	_	GSuccess[13]	stuerzen\_set1\_16[13]	latin2[13]	2em9nj6n4c2pjudl6n6hfpjc30-stuerzen\_set1\_16[13]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+67-1	1362-1367	Alles	_	GSuccess[14]	stuerzen\_set1\_16[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-stuerzen\_set1\_16[14]	_	_	_	_	_	false[82]	Int[82]	*[205]	*[205]	*[205]	yn\_4[205]	yesno\_question[205]	openq[205]	*[324]	female[324]	*[324]	speaker:Elisabeth[443]	_	_	QAP	*	68-1[83_82]	
+67-2	1368-1372	gut?	_	GSuccess[14]	stuerzen\_set1\_16[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-stuerzen\_set1\_16[14]	_	_	_	_	_	false[82]	Int[82]	*[205]	*[205]	*[205]	yn\_4[205]	yesno\_question[205]	openq[205]	*[324]	female[324]	*[324]	speaker:Elisabeth[443]	_	_	_	_	_	
+
+#Text=Till ist gestürzt
+68-1	1374-1378	Till	_	GSuccess[14]	stuerzen\_set1\_16[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-stuerzen\_set1\_16[14]	_	_	_	_	_	false[83]	Decl[83]	*[206]	stürzen[206]	intransitive[206]	*[206]	*[206]	item0[206]	41[325]	female[325]	2prsavjsjqbmc8hrbo9bovkues[325]	speaker: YOU[444]	*->15-1	PropNm[15]	elaboration|acknowledgement	*|*	70-1[0_83]|69-1[0_83]	
+68-2	1379-1382	ist	_	GSuccess[14]	stuerzen\_set1\_16[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-stuerzen\_set1\_16[14]	_	_	_	_	_	false[83]	Decl[83]	*[206]	stürzen[206]	intransitive[206]	*[206]	*[206]	item0[206]	41[325]	female[325]	2prsavjsjqbmc8hrbo9bovkues[325]	speaker: YOU[444]	_	_	_	_	_	
+68-3	1383-1391	gestürzt	_	GSuccess[14]	stuerzen\_set1\_16[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-stuerzen\_set1\_16[14]	_	_	_	_	_	false[83]	Decl[83]	*[206]	stürzen[206]	intransitive[206]	*[206]	*[206]	item0[206]	41[325]	female[325]	2prsavjsjqbmc8hrbo9bovkues[325]	speaker: YOU[444]	_	_	_	_	_	
+
+#Text=Ohje
+69-1	1393-1397	Ohje	_	GSuccess[14]	stuerzen\_set1\_16[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-stuerzen\_set1\_16[14]	_	_	_	_	_	false	NA	ohje\_27	*	*	*	*	feedback	*	female	*	speaker:Elisabeth	_	_	_	_	_	
+
+#Text=Ja <BR> er hat sich aber zum Glück nichts gebrochen.
+70-1	1399-1401	Ja	_	GSuccess[14]	stuerzen\_set1\_16[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-stuerzen\_set1\_16[14]	_	_	_	_	_	false	NA	*[207]	*[207]	*[207]	*[207]	*[207]	input1[207]	41[326]	female[326]	2prsavjsjqbmc8hrbo9bovkues[326]	speaker: YOU[445]	_	_	contrast	*	70-3[84_0]	
+70-2	1402-1406	<BR>	_	GSuccess[14]	stuerzen\_set1\_16[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-stuerzen\_set1\_16[14]	_	_	_	_	_	_	_	*[207]	*[207]	*[207]	*[207]	*[207]	input1[207]	41[326]	female[326]	2prsavjsjqbmc8hrbo9bovkues[326]	speaker: YOU[445]	_	_	_	_	_	
+70-3	1407-1409	er	_	GSuccess[14]	stuerzen\_set1\_16[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-stuerzen\_set1\_16[14]	3	*	*	*	singular	false[84]	Decl[84]	*[207]	*[207]	*[207]	*[207]	*[207]	input1[207]	41[326]	female[326]	2prsavjsjqbmc8hrbo9bovkues[326]	speaker: YOU[445]	*->15-2	PerPron[15]	contrast	*	71-1[85_84]	
+70-4	1410-1413	hat	_	GSuccess[14]	stuerzen\_set1\_16[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-stuerzen\_set1\_16[14]	_	_	_	_	_	false[84]	Decl[84]	*[207]	*[207]	*[207]	*[207]	*[207]	input1[207]	41[326]	female[326]	2prsavjsjqbmc8hrbo9bovkues[326]	speaker: YOU[445]	_	_	_	_	_	
+70-5	1414-1418	sich	_	GSuccess[14]	stuerzen\_set1\_16[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-stuerzen\_set1\_16[14]	_	_	_	_	_	false[84]	Decl[84]	*[207]	*[207]	*[207]	*[207]	*[207]	input1[207]	41[326]	female[326]	2prsavjsjqbmc8hrbo9bovkues[326]	speaker: YOU[445]	_	_	_	_	_	
+70-6	1419-1423	aber	_	GSuccess[14]	stuerzen\_set1\_16[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-stuerzen\_set1\_16[14]	_	_	_	_	_	false[84]	Decl[84]	*[207]	*[207]	*[207]	*[207]	*[207]	input1[207]	41[326]	female[326]	2prsavjsjqbmc8hrbo9bovkues[326]	speaker: YOU[445]	_	_	_	_	_	
+70-7	1424-1427	zum	_	GSuccess[14]	stuerzen\_set1\_16[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-stuerzen\_set1\_16[14]	_	_	_	_	_	false[84]	Decl[84]	*[207]	*[207]	*[207]	*[207]	*[207]	input1[207]	41[326]	female[326]	2prsavjsjqbmc8hrbo9bovkues[326]	speaker: YOU[445]	_	_	_	_	_	
+70-8	1428-1433	Glück	_	GSuccess[14]	stuerzen\_set1\_16[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-stuerzen\_set1\_16[14]	_	_	_	_	_	false[84]	Decl[84]	*[207]	*[207]	*[207]	*[207]	*[207]	input1[207]	41[326]	female[326]	2prsavjsjqbmc8hrbo9bovkues[326]	speaker: YOU[445]	_	_	_	_	_	
+70-9	1434-1440	nichts	_	GSuccess[14]	stuerzen\_set1\_16[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-stuerzen\_set1\_16[14]	_	_	_	_	_	false[84]	Decl[84]	*[207]	*[207]	*[207]	*[207]	*[207]	input1[207]	41[326]	female[326]	2prsavjsjqbmc8hrbo9bovkues[326]	speaker: YOU[445]	_	_	_	_	_	
+70-10	1441-1451	gebrochen.	_	GSuccess[14]	stuerzen\_set1\_16[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-stuerzen\_set1\_16[14]	_	_	_	_	_	false[84]	Decl[84]	*[207]	*[207]	*[207]	*[207]	*[207]	input1[207]	41[326]	female[326]	2prsavjsjqbmc8hrbo9bovkues[326]	speaker: YOU[445]	_	_	_	_	_	
+
+#Text=Nur sein Ego hat etwas gelitten.
+71-1	1453-1456	Nur	_	GSuccess[14]	stuerzen\_set1\_16[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-stuerzen\_set1\_16[14]	_	_	_	_	_	false[85]	Decl[85]	*[208]	*[208]	*[208]	*[208]	*[208]	input2[208]	41[327]	female[327]	2prsavjsjqbmc8hrbo9bovkues[327]	speaker: YOU[446]	_	_	_	_	_	
+71-2	1457-1461	sein	_	GSuccess[14]	stuerzen\_set1\_16[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-stuerzen\_set1\_16[14]	3	*	*	*	singular	false[85]	Decl[85]	*[208]	*[208]	*[208]	*[208]	*[208]	input2[208]	41[327]	female[327]	2prsavjsjqbmc8hrbo9bovkues[327]	speaker: YOU[446]	*->6-1|*->15-3	DefNP[6]|PossePron[15]	_	_	_	
+71-3	1462-1465	Ego	_	GSuccess[14]	stuerzen\_set1\_16[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-stuerzen\_set1\_16[14]	_	_	_	_	_	false[85]	Decl[85]	*[208]	*[208]	*[208]	*[208]	*[208]	input2[208]	41[327]	female[327]	2prsavjsjqbmc8hrbo9bovkues[327]	speaker: YOU[446]	*->6-1	DefNP[6]	_	_	_	
+71-4	1466-1469	hat	_	GSuccess[14]	stuerzen\_set1\_16[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-stuerzen\_set1\_16[14]	_	_	_	_	_	false[85]	Decl[85]	*[208]	*[208]	*[208]	*[208]	*[208]	input2[208]	41[327]	female[327]	2prsavjsjqbmc8hrbo9bovkues[327]	speaker: YOU[446]	_	_	_	_	_	
+71-5	1470-1475	etwas	_	GSuccess[14]	stuerzen\_set1\_16[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-stuerzen\_set1\_16[14]	_	_	_	_	_	false[85]	Decl[85]	*[208]	*[208]	*[208]	*[208]	*[208]	input2[208]	41[327]	female[327]	2prsavjsjqbmc8hrbo9bovkues[327]	speaker: YOU[446]	_	_	_	_	_	
+71-6	1476-1485	gelitten.	_	GSuccess[14]	stuerzen\_set1\_16[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-stuerzen\_set1\_16[14]	_	_	_	_	_	false[85]	Decl[85]	*[208]	*[208]	*[208]	*[208]	*[208]	input2[208]	41[327]	female[327]	2prsavjsjqbmc8hrbo9bovkues[327]	speaker: YOU[446]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+72-1	1487-1502	END_OF_DOCUMENT	_	GSuccess[14]	stuerzen\_set1\_16[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-stuerzen\_set1\_16[14]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+73-1	1504-1509	Alles	_	GSuccess[15]	stuerzen\_set1\_16[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-stuerzen\_set1\_16[15]	_	_	_	_	_	false[86]	Int[86]	*[209]	*[209]	*[209]	yn\_4[209]	yesno\_question[209]	openq[209]	*[328]	female[328]	*[328]	speaker:Elisabeth[447]	_	_	QAP	*	74-1[87_86]	
+73-2	1510-1514	gut?	_	GSuccess[15]	stuerzen\_set1\_16[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-stuerzen\_set1\_16[15]	_	_	_	_	_	false[86]	Int[86]	*[209]	*[209]	*[209]	yn\_4[209]	yesno\_question[209]	openq[209]	*[328]	female[328]	*[328]	speaker:Elisabeth[447]	_	_	_	_	_	
+
+#Text=Till ist gestürzt
+74-1	1516-1520	Till	_	GSuccess[15]	stuerzen\_set1\_16[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-stuerzen\_set1\_16[15]	_	_	_	_	_	false[87]	Decl[87]	*[210]	stürzen[210]	intransitive[210]	*[210]	*[210]	item0[210]	46[329]	male[329]	3jjtes457iqluuhfmeiub8g6qd[329]	speaker: YOU[448]	*->38-1	PropNm[38]	elaboration|acknowledgement	*|*	76-1[88_87]|75-1[0_87]	
+74-2	1521-1524	ist	_	GSuccess[15]	stuerzen\_set1\_16[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-stuerzen\_set1\_16[15]	_	_	_	_	_	false[87]	Decl[87]	*[210]	stürzen[210]	intransitive[210]	*[210]	*[210]	item0[210]	46[329]	male[329]	3jjtes457iqluuhfmeiub8g6qd[329]	speaker: YOU[448]	_	_	_	_	_	
+74-3	1525-1533	gestürzt	_	GSuccess[15]	stuerzen\_set1\_16[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-stuerzen\_set1\_16[15]	_	_	_	_	_	false[87]	Decl[87]	*[210]	stürzen[210]	intransitive[210]	*[210]	*[210]	item0[210]	46[329]	male[329]	3jjtes457iqluuhfmeiub8g6qd[329]	speaker: YOU[448]	_	_	_	_	_	
+
+#Text=Ohje
+75-1	1535-1539	Ohje	_	GSuccess[15]	stuerzen\_set1\_16[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-stuerzen\_set1\_16[15]	_	_	_	_	_	false	NA	ohje\_27	*	*	*	*	feedback	*	female	*	speaker:Elisabeth	_	_	_	_	_	
+
+#Text=Naja halb so schlimm.
+76-1	1541-1545	Naja	_	GSuccess[15]	stuerzen\_set1\_16[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-stuerzen\_set1\_16[15]	_	_	_	_	_	false[88]	NA[88]	*[211]	*[211]	*[211]	*[211]	*[211]	input1[211]	46[330]	male[330]	3jjtes457iqluuhfmeiub8g6qd[330]	speaker: YOU[449]	_	_	explanation	*	77-1[89_88]	
+76-2	1546-1550	halb	_	GSuccess[15]	stuerzen\_set1\_16[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-stuerzen\_set1\_16[15]	_	_	_	_	_	false[88]	NA[88]	*[211]	*[211]	*[211]	*[211]	*[211]	input1[211]	46[330]	male[330]	3jjtes457iqluuhfmeiub8g6qd[330]	speaker: YOU[449]	_	_	_	_	_	
+76-3	1551-1553	so	_	GSuccess[15]	stuerzen\_set1\_16[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-stuerzen\_set1\_16[15]	_	_	_	_	_	false[88]	NA[88]	*[211]	*[211]	*[211]	*[211]	*[211]	input1[211]	46[330]	male[330]	3jjtes457iqluuhfmeiub8g6qd[330]	speaker: YOU[449]	_	_	_	_	_	
+76-4	1554-1562	schlimm.	_	GSuccess[15]	stuerzen\_set1\_16[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-stuerzen\_set1\_16[15]	_	_	_	_	_	false[88]	NA[88]	*[211]	*[211]	*[211]	*[211]	*[211]	input1[211]	46[330]	male[330]	3jjtes457iqluuhfmeiub8g6qd[330]	speaker: YOU[449]	_	_	_	_	_	
+
+#Text=Er hat sich ein wenig am Arm aufgeschrammt <BR> sonst is alles gut.
+77-1	1564-1566	Er	_	GSuccess[15]	stuerzen\_set1\_16[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-stuerzen\_set1\_16[15]	3	*	*	*	singular	false[89]	Decl[89]	*[212]	*[212]	*[212]	*[212]	*[212]	input2[212]	46[331]	male[331]	3jjtes457iqluuhfmeiub8g6qd[331]	speaker: YOU[450]	*->38-2	PerPron[38]	contrast	*	77-10[90_89]	
+77-2	1567-1570	hat	_	GSuccess[15]	stuerzen\_set1\_16[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-stuerzen\_set1\_16[15]	_	_	_	_	_	false[89]	Decl[89]	*[212]	*[212]	*[212]	*[212]	*[212]	input2[212]	46[331]	male[331]	3jjtes457iqluuhfmeiub8g6qd[331]	speaker: YOU[450]	_	_	_	_	_	
+77-3	1571-1575	sich	_	GSuccess[15]	stuerzen\_set1\_16[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-stuerzen\_set1\_16[15]	_	_	_	_	_	false[89]	Decl[89]	*[212]	*[212]	*[212]	*[212]	*[212]	input2[212]	46[331]	male[331]	3jjtes457iqluuhfmeiub8g6qd[331]	speaker: YOU[450]	_	_	_	_	_	
+77-4	1576-1579	ein	_	GSuccess[15]	stuerzen\_set1\_16[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-stuerzen\_set1\_16[15]	_	_	_	_	_	false[89]	Decl[89]	*[212]	*[212]	*[212]	*[212]	*[212]	input2[212]	46[331]	male[331]	3jjtes457iqluuhfmeiub8g6qd[331]	speaker: YOU[450]	_	_	_	_	_	
+77-5	1580-1585	wenig	_	GSuccess[15]	stuerzen\_set1\_16[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-stuerzen\_set1\_16[15]	_	_	_	_	_	false[89]	Decl[89]	*[212]	*[212]	*[212]	*[212]	*[212]	input2[212]	46[331]	male[331]	3jjtes457iqluuhfmeiub8g6qd[331]	speaker: YOU[450]	_	_	_	_	_	
+77-6	1586-1588	am	_	GSuccess[15]	stuerzen\_set1\_16[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-stuerzen\_set1\_16[15]	_	_	_	_	_	false[89]	Decl[89]	*[212]	*[212]	*[212]	*[212]	*[212]	input2[212]	46[331]	male[331]	3jjtes457iqluuhfmeiub8g6qd[331]	speaker: YOU[450]	*->10-1	DefNP[10]	_	_	_	
+77-7	1589-1592	Arm	_	GSuccess[15]	stuerzen\_set1\_16[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-stuerzen\_set1\_16[15]	_	_	_	_	_	false[89]	Decl[89]	*[212]	*[212]	*[212]	*[212]	*[212]	input2[212]	46[331]	male[331]	3jjtes457iqluuhfmeiub8g6qd[331]	speaker: YOU[450]	*->10-1	DefNP[10]	_	_	_	
+77-8	1593-1606	aufgeschrammt	_	GSuccess[15]	stuerzen\_set1\_16[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-stuerzen\_set1\_16[15]	_	_	_	_	_	false[89]	Decl[89]	*[212]	*[212]	*[212]	*[212]	*[212]	input2[212]	46[331]	male[331]	3jjtes457iqluuhfmeiub8g6qd[331]	speaker: YOU[450]	_	_	_	_	_	
+77-9	1607-1611	<BR>	_	GSuccess[15]	stuerzen\_set1\_16[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-stuerzen\_set1\_16[15]	_	_	_	_	_	_	_	*[212]	*[212]	*[212]	*[212]	*[212]	input2[212]	46[331]	male[331]	3jjtes457iqluuhfmeiub8g6qd[331]	speaker: YOU[450]	_	_	_	_	_	
+77-10	1612-1617	sonst	_	GSuccess[15]	stuerzen\_set1\_16[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-stuerzen\_set1\_16[15]	_	_	_	_	_	false[90]	Decl[90]	*[212]	*[212]	*[212]	*[212]	*[212]	input2[212]	46[331]	male[331]	3jjtes457iqluuhfmeiub8g6qd[331]	speaker: YOU[450]	_	_	_	_	_	
+77-11	1618-1620	is	_	GSuccess[15]	stuerzen\_set1\_16[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-stuerzen\_set1\_16[15]	_	_	_	_	_	false[90]	Decl[90]	*[212]	*[212]	*[212]	*[212]	*[212]	input2[212]	46[331]	male[331]	3jjtes457iqluuhfmeiub8g6qd[331]	speaker: YOU[450]	_	_	_	_	_	
+77-12	1621-1626	alles	_	GSuccess[15]	stuerzen\_set1\_16[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-stuerzen\_set1\_16[15]	_	_	_	_	_	false[90]	Decl[90]	*[212]	*[212]	*[212]	*[212]	*[212]	input2[212]	46[331]	male[331]	3jjtes457iqluuhfmeiub8g6qd[331]	speaker: YOU[450]	*->60-1	Allquantor[60]	_	_	_	
+77-13	1627-1631	gut.	_	GSuccess[15]	stuerzen\_set1\_16[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-stuerzen\_set1\_16[15]	_	_	_	_	_	false[90]	Decl[90]	*[212]	*[212]	*[212]	*[212]	*[212]	input2[212]	46[331]	male[331]	3jjtes457iqluuhfmeiub8g6qd[331]	speaker: YOU[450]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+78-1	1633-1648	END_OF_DOCUMENT	_	GSuccess[15]	stuerzen\_set1\_16[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-stuerzen\_set1\_16[15]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+79-1	1650-1655	Alles	_	GSuccess[16]	stuerzen\_set1\_16[16]	latin2[16]	65p8m4ujg4fi983365pclnac28-stuerzen\_set1\_16[16]	_	_	_	_	_	false[91]	Int[91]	*[213]	*[213]	*[213]	yn\_4[213]	yesno\_question[213]	openq[213]	*[332]	female[332]	*[332]	speaker:Elisabeth[451]	_	_	QAP	*	80-1[92_91]	
+79-2	1656-1660	gut?	_	GSuccess[16]	stuerzen\_set1\_16[16]	latin2[16]	65p8m4ujg4fi983365pclnac28-stuerzen\_set1\_16[16]	_	_	_	_	_	false[91]	Int[91]	*[213]	*[213]	*[213]	yn\_4[213]	yesno\_question[213]	openq[213]	*[332]	female[332]	*[332]	speaker:Elisabeth[451]	_	_	_	_	_	
+
+#Text=Till ist gestürzt
+80-1	1662-1666	Till	_	GSuccess[16]	stuerzen\_set1\_16[16]	latin2[16]	65p8m4ujg4fi983365pclnac28-stuerzen\_set1\_16[16]	_	_	_	_	_	false[92]	Decl[92]	*[214]	stürzen[214]	intransitive[214]	*[214]	*[214]	item0[214]	27[333]	female[333]	65p8m4ujg4fi983365pclnac28[333]	speaker: YOU[452]	*->57-1	PropNm[57]	result|acknowledgement	*|*	82-1[93_92]|81-1[0_92]	
+80-2	1667-1670	ist	_	GSuccess[16]	stuerzen\_set1\_16[16]	latin2[16]	65p8m4ujg4fi983365pclnac28-stuerzen\_set1\_16[16]	_	_	_	_	_	false[92]	Decl[92]	*[214]	stürzen[214]	intransitive[214]	*[214]	*[214]	item0[214]	27[333]	female[333]	65p8m4ujg4fi983365pclnac28[333]	speaker: YOU[452]	_	_	_	_	_	
+80-3	1671-1679	gestürzt	_	GSuccess[16]	stuerzen\_set1\_16[16]	latin2[16]	65p8m4ujg4fi983365pclnac28-stuerzen\_set1\_16[16]	_	_	_	_	_	false[92]	Decl[92]	*[214]	stürzen[214]	intransitive[214]	*[214]	*[214]	item0[214]	27[333]	female[333]	65p8m4ujg4fi983365pclnac28[333]	speaker: YOU[452]	_	_	_	_	_	
+
+#Text=Ohje
+81-1	1681-1685	Ohje	_	GSuccess[16]	stuerzen\_set1\_16[16]	latin2[16]	65p8m4ujg4fi983365pclnac28-stuerzen\_set1\_16[16]	_	_	_	_	_	false	NA	ohje\_27	*	*	*	*	feedback	*	female	*	speaker:Elisabeth	_	_	_	_	_	
+
+#Text=Er ist auf dem Weg ins Krankenhaus
+82-1	1687-1689	Er	_	GSuccess[16]	stuerzen\_set1\_16[16]	latin2[16]	65p8m4ujg4fi983365pclnac28-stuerzen\_set1\_16[16]	3	*	*	*	singular	false[93]	Decl[93]	*[215]	*[215]	*[215]	*[215]	*[215]	input1[215]	27[334]	female[334]	65p8m4ujg4fi983365pclnac28[334]	speaker: YOU[453]	*->57-2	PerPron[57]	elaboration	*	83-1[94_93]	
+82-2	1690-1693	ist	_	GSuccess[16]	stuerzen\_set1\_16[16]	latin2[16]	65p8m4ujg4fi983365pclnac28-stuerzen\_set1\_16[16]	_	_	_	_	_	false[93]	Decl[93]	*[215]	*[215]	*[215]	*[215]	*[215]	input1[215]	27[334]	female[334]	65p8m4ujg4fi983365pclnac28[334]	speaker: YOU[453]	_	_	_	_	_	
+82-3	1694-1697	auf	_	GSuccess[16]	stuerzen\_set1\_16[16]	latin2[16]	65p8m4ujg4fi983365pclnac28-stuerzen\_set1\_16[16]	_	_	_	_	_	false[93]	Decl[93]	*[215]	*[215]	*[215]	*[215]	*[215]	input1[215]	27[334]	female[334]	65p8m4ujg4fi983365pclnac28[334]	speaker: YOU[453]	_	_	_	_	_	
+82-4	1698-1701	dem	_	GSuccess[16]	stuerzen\_set1\_16[16]	latin2[16]	65p8m4ujg4fi983365pclnac28-stuerzen\_set1\_16[16]	_	_	_	_	_	false[93]	Decl[93]	*[215]	*[215]	*[215]	*[215]	*[215]	input1[215]	27[334]	female[334]	65p8m4ujg4fi983365pclnac28[334]	speaker: YOU[453]	*->64-1	DefNP[64]	_	_	_	
+82-5	1702-1705	Weg	_	GSuccess[16]	stuerzen\_set1\_16[16]	latin2[16]	65p8m4ujg4fi983365pclnac28-stuerzen\_set1\_16[16]	_	_	_	_	_	false[93]	Decl[93]	*[215]	*[215]	*[215]	*[215]	*[215]	input1[215]	27[334]	female[334]	65p8m4ujg4fi983365pclnac28[334]	speaker: YOU[453]	*->64-1	DefNP[64]	_	_	_	
+82-6	1706-1709	ins	_	GSuccess[16]	stuerzen\_set1\_16[16]	latin2[16]	65p8m4ujg4fi983365pclnac28-stuerzen\_set1\_16[16]	_	_	_	_	_	false[93]	Decl[93]	*[215]	*[215]	*[215]	*[215]	*[215]	input1[215]	27[334]	female[334]	65p8m4ujg4fi983365pclnac28[334]	speaker: YOU[453]	*->64-1|*->17-1	DefNP[64]|DefNP[17]	_	_	_	
+82-7	1710-1721	Krankenhaus	_	GSuccess[16]	stuerzen\_set1\_16[16]	latin2[16]	65p8m4ujg4fi983365pclnac28-stuerzen\_set1\_16[16]	_	_	_	_	_	false[93]	Decl[93]	*[215]	*[215]	*[215]	*[215]	*[215]	input1[215]	27[334]	female[334]	65p8m4ujg4fi983365pclnac28[334]	speaker: YOU[453]	*->64-1|*->17-1	DefNP[64]|DefNP[17]	_	_	_	
+
+#Text=Hoffentlich ist sein Bein nicht gebrochen
+83-1	1723-1734	Hoffentlich	_	GSuccess[16]	stuerzen\_set1\_16[16]	latin2[16]	65p8m4ujg4fi983365pclnac28-stuerzen\_set1\_16[16]	_	_	_	_	_	false[94]	Decl[94]	*[216]	*[216]	*[216]	*[216]	*[216]	input2[216]	27[335]	female[335]	65p8m4ujg4fi983365pclnac28[335]	speaker: YOU[454]	_	_	_	_	_	
+83-2	1735-1738	ist	_	GSuccess[16]	stuerzen\_set1\_16[16]	latin2[16]	65p8m4ujg4fi983365pclnac28-stuerzen\_set1\_16[16]	_	_	_	_	_	false[94]	Decl[94]	*[216]	*[216]	*[216]	*[216]	*[216]	input2[216]	27[335]	female[335]	65p8m4ujg4fi983365pclnac28[335]	speaker: YOU[454]	_	_	_	_	_	
+83-3	1739-1743	sein	_	GSuccess[16]	stuerzen\_set1\_16[16]	latin2[16]	65p8m4ujg4fi983365pclnac28-stuerzen\_set1\_16[16]	3	*	*	*	singular	false[94]	Decl[94]	*[216]	*[216]	*[216]	*[216]	*[216]	input2[216]	27[335]	female[335]	65p8m4ujg4fi983365pclnac28[335]	speaker: YOU[454]	*->51-1|*->57-3	DefNP[51]|PossePron[57]	_	_	_	
+83-4	1744-1748	Bein	_	GSuccess[16]	stuerzen\_set1\_16[16]	latin2[16]	65p8m4ujg4fi983365pclnac28-stuerzen\_set1\_16[16]	_	_	_	_	_	false[94]	Decl[94]	*[216]	*[216]	*[216]	*[216]	*[216]	input2[216]	27[335]	female[335]	65p8m4ujg4fi983365pclnac28[335]	speaker: YOU[454]	*->51-1	DefNP[51]	_	_	_	
+83-5	1749-1754	nicht	_	GSuccess[16]	stuerzen\_set1\_16[16]	latin2[16]	65p8m4ujg4fi983365pclnac28-stuerzen\_set1\_16[16]	_	_	_	_	_	false[94]	Decl[94]	*[216]	*[216]	*[216]	*[216]	*[216]	input2[216]	27[335]	female[335]	65p8m4ujg4fi983365pclnac28[335]	speaker: YOU[454]	_	_	_	_	_	
+83-6	1755-1764	gebrochen	_	GSuccess[16]	stuerzen\_set1\_16[16]	latin2[16]	65p8m4ujg4fi983365pclnac28-stuerzen\_set1\_16[16]	_	_	_	_	_	false[94]	Decl[94]	*[216]	*[216]	*[216]	*[216]	*[216]	input2[216]	27[335]	female[335]	65p8m4ujg4fi983365pclnac28[335]	speaker: YOU[454]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+84-1	1766-1781	END_OF_DOCUMENT	_	GSuccess[16]	stuerzen\_set1\_16[16]	latin2[16]	65p8m4ujg4fi983365pclnac28-stuerzen\_set1\_16[16]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+85-1	1783-1788	Alles	_	GSuccess[17]	stuerzen\_set1\_16[17]	latin2[17]	ad2p95q44evasm6vmbol4cikit-stuerzen\_set1\_16[17]	_	_	_	_	_	false[95]	Int[95]	*[217]	*[217]	*[217]	yn\_4[217]	yesno\_question[217]	openq[217]	*[336]	female[336]	*[336]	speaker:Elisabeth[455]	_	_	QAP	*	86-1[96_95]	
+85-2	1789-1793	gut?	_	GSuccess[17]	stuerzen\_set1\_16[17]	latin2[17]	ad2p95q44evasm6vmbol4cikit-stuerzen\_set1\_16[17]	_	_	_	_	_	false[95]	Int[95]	*[217]	*[217]	*[217]	yn\_4[217]	yesno\_question[217]	openq[217]	*[336]	female[336]	*[336]	speaker:Elisabeth[455]	_	_	_	_	_	
+
+#Text=Till ist gestürzt
+86-1	1795-1799	Till	_	GSuccess[17]	stuerzen\_set1\_16[17]	latin2[17]	ad2p95q44evasm6vmbol4cikit-stuerzen\_set1\_16[17]	_	_	_	_	_	false[96]	Decl[96]	*[218]	stürzen[218]	intransitive[218]	*[218]	*[218]	item0[218]	22[337]	female[337]	ad2p95q44evasm6vmbol4cikit[337]	speaker: YOU[456]	*->2-1	PropNm[2]	contrast|acknowledgement	*|*	88-1[97_96]|87-1[0_96]	
+86-2	1800-1803	ist	_	GSuccess[17]	stuerzen\_set1\_16[17]	latin2[17]	ad2p95q44evasm6vmbol4cikit-stuerzen\_set1\_16[17]	_	_	_	_	_	false[96]	Decl[96]	*[218]	stürzen[218]	intransitive[218]	*[218]	*[218]	item0[218]	22[337]	female[337]	ad2p95q44evasm6vmbol4cikit[337]	speaker: YOU[456]	_	_	_	_	_	
+86-3	1804-1812	gestürzt	_	GSuccess[17]	stuerzen\_set1\_16[17]	latin2[17]	ad2p95q44evasm6vmbol4cikit-stuerzen\_set1\_16[17]	_	_	_	_	_	false[96]	Decl[96]	*[218]	stürzen[218]	intransitive[218]	*[218]	*[218]	item0[218]	22[337]	female[337]	ad2p95q44evasm6vmbol4cikit[337]	speaker: YOU[456]	_	_	_	_	_	
+
+#Text=Ohje
+87-1	1814-1818	Ohje	_	GSuccess[17]	stuerzen\_set1\_16[17]	latin2[17]	ad2p95q44evasm6vmbol4cikit-stuerzen\_set1\_16[17]	_	_	_	_	_	false	NA	ohje\_27	*	*	*	*	feedback	*	female	*	speaker:Elisabeth	_	_	_	_	_	
+
+#Text=Till ist aber weich gefallen
+88-1	1820-1824	Till	_	GSuccess[17]	stuerzen\_set1\_16[17]	latin2[17]	ad2p95q44evasm6vmbol4cikit-stuerzen\_set1\_16[17]	_	_	_	_	_	false[97]	Decl[97]	*[219]	*[219]	*[219]	*[219]	*[219]	input1[219]	22[338]	female[338]	ad2p95q44evasm6vmbol4cikit[338]	speaker: YOU[457]	*->2-2	PropNm[2]	result	*	89-1[98_97]	
+88-2	1825-1828	ist	_	GSuccess[17]	stuerzen\_set1\_16[17]	latin2[17]	ad2p95q44evasm6vmbol4cikit-stuerzen\_set1\_16[17]	_	_	_	_	_	false[97]	Decl[97]	*[219]	*[219]	*[219]	*[219]	*[219]	input1[219]	22[338]	female[338]	ad2p95q44evasm6vmbol4cikit[338]	speaker: YOU[457]	_	_	_	_	_	
+88-3	1829-1833	aber	_	GSuccess[17]	stuerzen\_set1\_16[17]	latin2[17]	ad2p95q44evasm6vmbol4cikit-stuerzen\_set1\_16[17]	_	_	_	_	_	false[97]	Decl[97]	*[219]	*[219]	*[219]	*[219]	*[219]	input1[219]	22[338]	female[338]	ad2p95q44evasm6vmbol4cikit[338]	speaker: YOU[457]	_	_	_	_	_	
+88-4	1834-1839	weich	_	GSuccess[17]	stuerzen\_set1\_16[17]	latin2[17]	ad2p95q44evasm6vmbol4cikit-stuerzen\_set1\_16[17]	_	_	_	_	_	false[97]	Decl[97]	*[219]	*[219]	*[219]	*[219]	*[219]	input1[219]	22[338]	female[338]	ad2p95q44evasm6vmbol4cikit[338]	speaker: YOU[457]	_	_	_	_	_	
+88-5	1840-1848	gefallen	_	GSuccess[17]	stuerzen\_set1\_16[17]	latin2[17]	ad2p95q44evasm6vmbol4cikit-stuerzen\_set1\_16[17]	_	_	_	_	_	false[97]	Decl[97]	*[219]	*[219]	*[219]	*[219]	*[219]	input1[219]	22[338]	female[338]	ad2p95q44evasm6vmbol4cikit[338]	speaker: YOU[457]	_	_	_	_	_	
+
+#Text=Er ist wohl auf
+89-1	1850-1852	Er	_	GSuccess[17]	stuerzen\_set1\_16[17]	latin2[17]	ad2p95q44evasm6vmbol4cikit-stuerzen\_set1\_16[17]	3	*	*	*	singular	false[98]	Decl[98]	*[220]	*[220]	*[220]	*[220]	*[220]	input2[220]	22[339]	female[339]	ad2p95q44evasm6vmbol4cikit[339]	speaker: YOU[458]	*->2-3	PerPron[2]	_	_	_	
+89-2	1853-1856	ist	_	GSuccess[17]	stuerzen\_set1\_16[17]	latin2[17]	ad2p95q44evasm6vmbol4cikit-stuerzen\_set1\_16[17]	_	_	_	_	_	false[98]	Decl[98]	*[220]	*[220]	*[220]	*[220]	*[220]	input2[220]	22[339]	female[339]	ad2p95q44evasm6vmbol4cikit[339]	speaker: YOU[458]	_	_	_	_	_	
+89-3	1857-1861	wohl	_	GSuccess[17]	stuerzen\_set1\_16[17]	latin2[17]	ad2p95q44evasm6vmbol4cikit-stuerzen\_set1\_16[17]	_	_	_	_	_	false[98]	Decl[98]	*[220]	*[220]	*[220]	*[220]	*[220]	input2[220]	22[339]	female[339]	ad2p95q44evasm6vmbol4cikit[339]	speaker: YOU[458]	_	_	_	_	_	
+89-4	1862-1865	auf	_	GSuccess[17]	stuerzen\_set1\_16[17]	latin2[17]	ad2p95q44evasm6vmbol4cikit-stuerzen\_set1\_16[17]	_	_	_	_	_	false[98]	Decl[98]	*[220]	*[220]	*[220]	*[220]	*[220]	input2[220]	22[339]	female[339]	ad2p95q44evasm6vmbol4cikit[339]	speaker: YOU[458]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+90-1	1867-1882	END_OF_DOCUMENT	_	GSuccess[17]	stuerzen\_set1\_16[17]	latin2[17]	ad2p95q44evasm6vmbol4cikit-stuerzen\_set1\_16[17]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+91-1	1884-1889	Alles	_	GSuccess[18]	stuerzen\_set1\_16[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-stuerzen\_set1\_16[18]	_	_	_	_	_	false[99]	Int[99]	*[221]	*[221]	*[221]	yn\_4[221]	yesno\_question[221]	openq[221]	*[340]	female[340]	*[340]	speaker:Elisabeth[459]	_	_	QAP	*	92-1[100_99]	
+91-2	1890-1894	gut?	_	GSuccess[18]	stuerzen\_set1\_16[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-stuerzen\_set1\_16[18]	_	_	_	_	_	false[99]	Int[99]	*[221]	*[221]	*[221]	yn\_4[221]	yesno\_question[221]	openq[221]	*[340]	female[340]	*[340]	speaker:Elisabeth[459]	_	_	_	_	_	
+
+#Text=Till ist gestürzt
+92-1	1896-1900	Till	_	GSuccess[18]	stuerzen\_set1\_16[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-stuerzen\_set1\_16[18]	_	_	_	_	_	false[100]	Decl[100]	*[222]	stürzen[222]	intransitive[222]	*[222]	*[222]	item0[222]	36[341]	female[341]	aoum613lougtk5ql841j63bjo9[341]	speaker: YOU[460]	*->26-1	PropNm[26]	contrast|acknowledgement	*|*	94-1[101_100]|93-1[0_100]	
+92-2	1901-1904	ist	_	GSuccess[18]	stuerzen\_set1\_16[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-stuerzen\_set1\_16[18]	_	_	_	_	_	false[100]	Decl[100]	*[222]	stürzen[222]	intransitive[222]	*[222]	*[222]	item0[222]	36[341]	female[341]	aoum613lougtk5ql841j63bjo9[341]	speaker: YOU[460]	_	_	_	_	_	
+92-3	1905-1913	gestürzt	_	GSuccess[18]	stuerzen\_set1\_16[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-stuerzen\_set1\_16[18]	_	_	_	_	_	false[100]	Decl[100]	*[222]	stürzen[222]	intransitive[222]	*[222]	*[222]	item0[222]	36[341]	female[341]	aoum613lougtk5ql841j63bjo9[341]	speaker: YOU[460]	_	_	_	_	_	
+
+#Text=Ohje
+93-1	1915-1919	Ohje	_	GSuccess[18]	stuerzen\_set1\_16[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-stuerzen\_set1\_16[18]	_	_	_	_	_	false	NA	ohje\_27	*	*	*	*	feedback	*	female	*	speaker:Elisabeth	_	_	_	_	_	
+
+#Text=Er hat aber noch mal Glück gehabt.
+94-1	1921-1923	Er	_	GSuccess[18]	stuerzen\_set1\_16[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-stuerzen\_set1\_16[18]	3	*	*	*	singular	false[101]	Decl[101]	*[223]	*[223]	*[223]	*[223]	*[223]	input1[223]	36[342]	female[342]	aoum613lougtk5ql841j63bjo9[342]	speaker: YOU[461]	*->26-2	PerPron[26]	result	*	95-1[102_101]	
+94-2	1924-1927	hat	_	GSuccess[18]	stuerzen\_set1\_16[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-stuerzen\_set1\_16[18]	_	_	_	_	_	false[101]	Decl[101]	*[223]	*[223]	*[223]	*[223]	*[223]	input1[223]	36[342]	female[342]	aoum613lougtk5ql841j63bjo9[342]	speaker: YOU[461]	_	_	_	_	_	
+94-3	1928-1932	aber	_	GSuccess[18]	stuerzen\_set1\_16[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-stuerzen\_set1\_16[18]	_	_	_	_	_	false[101]	Decl[101]	*[223]	*[223]	*[223]	*[223]	*[223]	input1[223]	36[342]	female[342]	aoum613lougtk5ql841j63bjo9[342]	speaker: YOU[461]	_	_	_	_	_	
+94-4	1933-1937	noch	_	GSuccess[18]	stuerzen\_set1\_16[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-stuerzen\_set1\_16[18]	_	_	_	_	_	false[101]	Decl[101]	*[223]	*[223]	*[223]	*[223]	*[223]	input1[223]	36[342]	female[342]	aoum613lougtk5ql841j63bjo9[342]	speaker: YOU[461]	_	_	_	_	_	
+94-5	1938-1941	mal	_	GSuccess[18]	stuerzen\_set1\_16[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-stuerzen\_set1\_16[18]	_	_	_	_	_	false[101]	Decl[101]	*[223]	*[223]	*[223]	*[223]	*[223]	input1[223]	36[342]	female[342]	aoum613lougtk5ql841j63bjo9[342]	speaker: YOU[461]	_	_	_	_	_	
+94-6	1942-1947	Glück	_	GSuccess[18]	stuerzen\_set1\_16[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-stuerzen\_set1\_16[18]	_	_	_	_	_	false[101]	Decl[101]	*[223]	*[223]	*[223]	*[223]	*[223]	input1[223]	36[342]	female[342]	aoum613lougtk5ql841j63bjo9[342]	speaker: YOU[461]	*->80-1	IndefNP[80]	_	_	_	
+94-7	1948-1955	gehabt.	_	GSuccess[18]	stuerzen\_set1\_16[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-stuerzen\_set1\_16[18]	_	_	_	_	_	false[101]	Decl[101]	*[223]	*[223]	*[223]	*[223]	*[223]	input1[223]	36[342]	female[342]	aoum613lougtk5ql841j63bjo9[342]	speaker: YOU[461]	_	_	_	_	_	
+
+#Text=Es werden ihm nur ein paar blaue Flecken bleiben.
+95-1	1957-1959	Es	_	GSuccess[18]	stuerzen\_set1\_16[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-stuerzen\_set1\_16[18]	_	_	_	_	_	false[102]	Decl[102]	*[224]	*[224]	*[224]	*[224]	*[224]	input2[224]	36[343]	female[343]	aoum613lougtk5ql841j63bjo9[343]	speaker: YOU[462]	_	_	_	_	_	
+95-2	1960-1966	werden	_	GSuccess[18]	stuerzen\_set1\_16[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-stuerzen\_set1\_16[18]	_	_	_	_	_	false[102]	Decl[102]	*[224]	*[224]	*[224]	*[224]	*[224]	input2[224]	36[343]	female[343]	aoum613lougtk5ql841j63bjo9[343]	speaker: YOU[462]	_	_	_	_	_	
+95-3	1967-1970	ihm	_	GSuccess[18]	stuerzen\_set1\_16[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-stuerzen\_set1\_16[18]	3	*	*	*	singular	false[102]	Decl[102]	*[224]	*[224]	*[224]	*[224]	*[224]	input2[224]	36[343]	female[343]	aoum613lougtk5ql841j63bjo9[343]	speaker: YOU[462]	*->26-3	PerPron[26]	_	_	_	
+95-4	1971-1974	nur	_	GSuccess[18]	stuerzen\_set1\_16[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-stuerzen\_set1\_16[18]	_	_	_	_	_	false[102]	Decl[102]	*[224]	*[224]	*[224]	*[224]	*[224]	input2[224]	36[343]	female[343]	aoum613lougtk5ql841j63bjo9[343]	speaker: YOU[462]	_	_	_	_	_	
+95-5	1975-1978	ein	_	GSuccess[18]	stuerzen\_set1\_16[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-stuerzen\_set1\_16[18]	_	_	_	_	_	false[102]	Decl[102]	*[224]	*[224]	*[224]	*[224]	*[224]	input2[224]	36[343]	female[343]	aoum613lougtk5ql841j63bjo9[343]	speaker: YOU[462]	*->62-1	IndefNP[62]	_	_	_	
+95-6	1979-1983	paar	_	GSuccess[18]	stuerzen\_set1\_16[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-stuerzen\_set1\_16[18]	_	_	_	_	_	false[102]	Decl[102]	*[224]	*[224]	*[224]	*[224]	*[224]	input2[224]	36[343]	female[343]	aoum613lougtk5ql841j63bjo9[343]	speaker: YOU[462]	*->62-1	IndefNP[62]	_	_	_	
+95-7	1984-1989	blaue	_	GSuccess[18]	stuerzen\_set1\_16[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-stuerzen\_set1\_16[18]	_	_	_	_	_	false[102]	Decl[102]	*[224]	*[224]	*[224]	*[224]	*[224]	input2[224]	36[343]	female[343]	aoum613lougtk5ql841j63bjo9[343]	speaker: YOU[462]	*->62-1	IndefNP[62]	_	_	_	
+95-8	1990-1997	Flecken	_	GSuccess[18]	stuerzen\_set1\_16[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-stuerzen\_set1\_16[18]	_	_	_	_	_	false[102]	Decl[102]	*[224]	*[224]	*[224]	*[224]	*[224]	input2[224]	36[343]	female[343]	aoum613lougtk5ql841j63bjo9[343]	speaker: YOU[462]	*->62-1	IndefNP[62]	_	_	_	
+95-9	1998-2006	bleiben.	_	GSuccess[18]	stuerzen\_set1\_16[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-stuerzen\_set1\_16[18]	_	_	_	_	_	false[102]	Decl[102]	*[224]	*[224]	*[224]	*[224]	*[224]	input2[224]	36[343]	female[343]	aoum613lougtk5ql841j63bjo9[343]	speaker: YOU[462]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+96-1	2008-2023	END_OF_DOCUMENT	_	GSuccess[18]	stuerzen\_set1\_16[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-stuerzen\_set1\_16[18]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+97-1	2025-2030	Alles	_	GSuccess[19]	stuerzen\_set1\_16[19]	latin2[19]	c48fsj7kc4kiuorutkbb4be30b-stuerzen\_set1\_16[19]	_	_	_	_	_	false[103]	Int[103]	*[225]	*[225]	*[225]	yn\_4[225]	yesno\_question[225]	openq[225]	*[344]	female[344]	*[344]	speaker:Elisabeth[463]	_	_	QAP	*	98-1[104_103]	
+97-2	2031-2035	gut?	_	GSuccess[19]	stuerzen\_set1\_16[19]	latin2[19]	c48fsj7kc4kiuorutkbb4be30b-stuerzen\_set1\_16[19]	_	_	_	_	_	false[103]	Int[103]	*[225]	*[225]	*[225]	yn\_4[225]	yesno\_question[225]	openq[225]	*[344]	female[344]	*[344]	speaker:Elisabeth[463]	_	_	_	_	_	
+
+#Text=Till ist gestürzt
+98-1	2037-2041	Till	_	GSuccess[19]	stuerzen\_set1\_16[19]	latin2[19]	c48fsj7kc4kiuorutkbb4be30b-stuerzen\_set1\_16[19]	_	_	_	_	_	false[104]	Decl[104]	*[226]	stürzen[226]	intransitive[226]	*[226]	*[226]	item0[226]	26[345]	male[345]	c48fsj7kc4kiuorutkbb4be30b[345]	speaker: YOU[464]	*->70-1	PropNm[70]	result|acknowledgement	*|*	100-1[105_104]|99-1[0_104]	
+98-2	2042-2045	ist	_	GSuccess[19]	stuerzen\_set1\_16[19]	latin2[19]	c48fsj7kc4kiuorutkbb4be30b-stuerzen\_set1\_16[19]	_	_	_	_	_	false[104]	Decl[104]	*[226]	stürzen[226]	intransitive[226]	*[226]	*[226]	item0[226]	26[345]	male[345]	c48fsj7kc4kiuorutkbb4be30b[345]	speaker: YOU[464]	_	_	_	_	_	
+98-3	2046-2054	gestürzt	_	GSuccess[19]	stuerzen\_set1\_16[19]	latin2[19]	c48fsj7kc4kiuorutkbb4be30b-stuerzen\_set1\_16[19]	_	_	_	_	_	false[104]	Decl[104]	*[226]	stürzen[226]	intransitive[226]	*[226]	*[226]	item0[226]	26[345]	male[345]	c48fsj7kc4kiuorutkbb4be30b[345]	speaker: YOU[464]	_	_	_	_	_	
+
+#Text=Ohje
+99-1	2056-2060	Ohje	_	GSuccess[19]	stuerzen\_set1\_16[19]	latin2[19]	c48fsj7kc4kiuorutkbb4be30b-stuerzen\_set1\_16[19]	_	_	_	_	_	false	NA	ohje\_27	*	*	*	*	feedback	*	female	*	speaker:Elisabeth	_	_	_	_	_	
+
+#Text=Wir gehen jetzt ins Krankehaus zum röntgen.
+100-1	2062-2065	Wir	_	GSuccess[19]	stuerzen\_set1\_16[19]	latin2[19]	c48fsj7kc4kiuorutkbb4be30b-stuerzen\_set1\_16[19]	1	*	*	*	plural	false[105]	Decl[105]	*[227]	*[227]	*[227]	*[227]	*[227]	input1[227]	26[346]	male[346]	c48fsj7kc4kiuorutkbb4be30b[346]	speaker: YOU[465]	*->73-1	PerPron[73]	narration	*	101-1[106_105]	
+100-2	2066-2071	gehen	_	GSuccess[19]	stuerzen\_set1\_16[19]	latin2[19]	c48fsj7kc4kiuorutkbb4be30b-stuerzen\_set1\_16[19]	_	_	_	_	_	false[105]	Decl[105]	*[227]	*[227]	*[227]	*[227]	*[227]	input1[227]	26[346]	male[346]	c48fsj7kc4kiuorutkbb4be30b[346]	speaker: YOU[465]	_	_	_	_	_	
+100-3	2072-2077	jetzt	_	GSuccess[19]	stuerzen\_set1\_16[19]	latin2[19]	c48fsj7kc4kiuorutkbb4be30b-stuerzen\_set1\_16[19]	_	_	_	_	_	false[105]	Decl[105]	*[227]	*[227]	*[227]	*[227]	*[227]	input1[227]	26[346]	male[346]	c48fsj7kc4kiuorutkbb4be30b[346]	speaker: YOU[465]	_	_	_	_	_	
+100-4	2078-2081	ins	_	GSuccess[19]	stuerzen\_set1\_16[19]	latin2[19]	c48fsj7kc4kiuorutkbb4be30b-stuerzen\_set1\_16[19]	_	_	_	_	_	false[105]	Decl[105]	*[227]	*[227]	*[227]	*[227]	*[227]	input1[227]	26[346]	male[346]	c48fsj7kc4kiuorutkbb4be30b[346]	speaker: YOU[465]	*->21-1	DefNP[21]	_	_	_	
+100-5	2082-2092	Krankehaus	_	GSuccess[19]	stuerzen\_set1\_16[19]	latin2[19]	c48fsj7kc4kiuorutkbb4be30b-stuerzen\_set1\_16[19]	_	_	_	_	_	false[105]	Decl[105]	*[227]	*[227]	*[227]	*[227]	*[227]	input1[227]	26[346]	male[346]	c48fsj7kc4kiuorutkbb4be30b[346]	speaker: YOU[465]	*->21-1	DefNP[21]	_	_	_	
+100-6	2093-2096	zum	_	GSuccess[19]	stuerzen\_set1\_16[19]	latin2[19]	c48fsj7kc4kiuorutkbb4be30b-stuerzen\_set1\_16[19]	_	_	_	_	_	false[105]	Decl[105]	*[227]	*[227]	*[227]	*[227]	*[227]	input1[227]	26[346]	male[346]	c48fsj7kc4kiuorutkbb4be30b[346]	speaker: YOU[465]	*->68-1	DefNP[68]	_	_	_	
+100-7	2097-2105	röntgen.	_	GSuccess[19]	stuerzen\_set1\_16[19]	latin2[19]	c48fsj7kc4kiuorutkbb4be30b-stuerzen\_set1\_16[19]	_	_	_	_	_	false[105]	Decl[105]	*[227]	*[227]	*[227]	*[227]	*[227]	input1[227]	26[346]	male[346]	c48fsj7kc4kiuorutkbb4be30b[346]	speaker: YOU[465]	*->68-1	DefNP[68]	_	_	_	
+
+#Text=Ich sag dir später bescheid.
+101-1	2107-2110	Ich	_	GSuccess[19]	stuerzen\_set1\_16[19]	latin2[19]	c48fsj7kc4kiuorutkbb4be30b-stuerzen\_set1\_16[19]	1	*	*	*	singular	false[106]	Decl[106]	*[228]	*[228]	*[228]	*[228]	*[228]	input2[228]	26[347]	male[347]	c48fsj7kc4kiuorutkbb4be30b[347]	speaker: YOU[466]	*->46-1	PerPron[46]	_	_	_	
+101-2	2111-2114	sag	_	GSuccess[19]	stuerzen\_set1\_16[19]	latin2[19]	c48fsj7kc4kiuorutkbb4be30b-stuerzen\_set1\_16[19]	_	_	_	_	_	false[106]	Decl[106]	*[228]	*[228]	*[228]	*[228]	*[228]	input2[228]	26[347]	male[347]	c48fsj7kc4kiuorutkbb4be30b[347]	speaker: YOU[466]	_	_	_	_	_	
+101-3	2115-2118	dir	_	GSuccess[19]	stuerzen\_set1\_16[19]	latin2[19]	c48fsj7kc4kiuorutkbb4be30b-stuerzen\_set1\_16[19]	2	*	*	*	singular	false[106]	Decl[106]	*[228]	*[228]	*[228]	*[228]	*[228]	input2[228]	26[347]	male[347]	c48fsj7kc4kiuorutkbb4be30b[347]	speaker: YOU[466]	*->41-1	PerPron[41]	_	_	_	
+101-4	2119-2125	später	_	GSuccess[19]	stuerzen\_set1\_16[19]	latin2[19]	c48fsj7kc4kiuorutkbb4be30b-stuerzen\_set1\_16[19]	_	_	_	_	_	false[106]	Decl[106]	*[228]	*[228]	*[228]	*[228]	*[228]	input2[228]	26[347]	male[347]	c48fsj7kc4kiuorutkbb4be30b[347]	speaker: YOU[466]	_	_	_	_	_	
+101-5	2126-2135	bescheid.	_	GSuccess[19]	stuerzen\_set1\_16[19]	latin2[19]	c48fsj7kc4kiuorutkbb4be30b-stuerzen\_set1\_16[19]	_	_	_	_	_	false[106]	Decl[106]	*[228]	*[228]	*[228]	*[228]	*[228]	input2[228]	26[347]	male[347]	c48fsj7kc4kiuorutkbb4be30b[347]	speaker: YOU[466]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+102-1	2137-2152	END_OF_DOCUMENT	_	GSuccess[19]	stuerzen\_set1\_16[19]	latin2[19]	c48fsj7kc4kiuorutkbb4be30b-stuerzen\_set1\_16[19]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+103-1	2154-2159	Alles	_	GSuccess[20]	stuerzen\_set1\_16[20]	latin2[20]	k0vnav0sqhr0fo3b0jpuaak9s4-stuerzen\_set1\_16[20]	_	_	_	_	_	false[107]	Int[107]	*[229]	*[229]	*[229]	yn\_4[229]	yesno\_question[229]	openq[229]	*[348]	female[348]	*[348]	speaker:Elisabeth[467]	_	_	QAP	*	104-1[108_107]	
+103-2	2160-2164	gut?	_	GSuccess[20]	stuerzen\_set1\_16[20]	latin2[20]	k0vnav0sqhr0fo3b0jpuaak9s4-stuerzen\_set1\_16[20]	_	_	_	_	_	false[107]	Int[107]	*[229]	*[229]	*[229]	yn\_4[229]	yesno\_question[229]	openq[229]	*[348]	female[348]	*[348]	speaker:Elisabeth[467]	_	_	_	_	_	
+
+#Text=Till ist gestürzt
+104-1	2166-2170	Till	_	GSuccess[20]	stuerzen\_set1\_16[20]	latin2[20]	k0vnav0sqhr0fo3b0jpuaak9s4-stuerzen\_set1\_16[20]	_	_	_	_	_	false[108]	Decl[108]	*[230]	stürzen[230]	intransitive[230]	*[230]	*[230]	item0[230]	57[349]	female[349]	k0vnav0sqhr0fo3b0jpuaak9s4[349]	speaker: YOU[468]	*->58-1	PropNm[58]	elaboration|elaboration|elaboration|acknowledgement	*|*|*|*	106-1[0_108]|106-3[109_108]|107-1[111_108]|105-1[0_108]	
+104-2	2171-2174	ist	_	GSuccess[20]	stuerzen\_set1\_16[20]	latin2[20]	k0vnav0sqhr0fo3b0jpuaak9s4-stuerzen\_set1\_16[20]	_	_	_	_	_	false[108]	Decl[108]	*[230]	stürzen[230]	intransitive[230]	*[230]	*[230]	item0[230]	57[349]	female[349]	k0vnav0sqhr0fo3b0jpuaak9s4[349]	speaker: YOU[468]	_	_	_	_	_	
+104-3	2175-2183	gestürzt	_	GSuccess[20]	stuerzen\_set1\_16[20]	latin2[20]	k0vnav0sqhr0fo3b0jpuaak9s4-stuerzen\_set1\_16[20]	_	_	_	_	_	false[108]	Decl[108]	*[230]	stürzen[230]	intransitive[230]	*[230]	*[230]	item0[230]	57[349]	female[349]	k0vnav0sqhr0fo3b0jpuaak9s4[349]	speaker: YOU[468]	_	_	_	_	_	
+
+#Text=Ohje
+105-1	2185-2189	Ohje	_	GSuccess[20]	stuerzen\_set1\_16[20]	latin2[20]	k0vnav0sqhr0fo3b0jpuaak9s4-stuerzen\_set1\_16[20]	_	_	_	_	_	false	NA	ohje\_27	*	*	*	*	feedback	*	female	*	speaker:Elisabeth	_	_	_	_	_	
+
+#Text=Naja <BR> mit siebzig aufm Skateboard<BR>da kann schon einiges schiefehen.
+106-1	2191-2195	Naja	_	GSuccess[20]	stuerzen\_set1\_16[20]	latin2[20]	k0vnav0sqhr0fo3b0jpuaak9s4-stuerzen\_set1\_16[20]	_	_	_	_	_	false	NA	*[231]	*[231]	*[231]	*[231]	*[231]	input1[231]	57[350]	female[350]	k0vnav0sqhr0fo3b0jpuaak9s4[350]	speaker: YOU[469]	_	_	_	_	_	
+106-2	2196-2200	<BR>	_	GSuccess[20]	stuerzen\_set1\_16[20]	latin2[20]	k0vnav0sqhr0fo3b0jpuaak9s4-stuerzen\_set1\_16[20]	_	_	_	_	_	_	_	*[231]	*[231]	*[231]	*[231]	*[231]	input1[231]	57[350]	female[350]	k0vnav0sqhr0fo3b0jpuaak9s4[350]	speaker: YOU[469]	_	_	_	_	_	
+106-3	2201-2204	mit	_	GSuccess[20]	stuerzen\_set1\_16[20]	latin2[20]	k0vnav0sqhr0fo3b0jpuaak9s4-stuerzen\_set1\_16[20]	_	_	_	_	_	false[109]	NA[109]	*[231]	*[231]	*[231]	*[231]	*[231]	input1[231]	57[350]	female[350]	k0vnav0sqhr0fo3b0jpuaak9s4[350]	speaker: YOU[469]	_	_	result|parallel	*|*	106-6.2[110_109]|107-1[111_109]	
+106-4	2205-2212	siebzig	_	GSuccess[20]	stuerzen\_set1\_16[20]	latin2[20]	k0vnav0sqhr0fo3b0jpuaak9s4-stuerzen\_set1\_16[20]	_	_	_	_	_	false[109]	NA[109]	*[231]	*[231]	*[231]	*[231]	*[231]	input1[231]	57[350]	female[350]	k0vnav0sqhr0fo3b0jpuaak9s4[350]	speaker: YOU[469]	_	_	_	_	_	
+106-5	2213-2217	aufm	_	GSuccess[20]	stuerzen\_set1\_16[20]	latin2[20]	k0vnav0sqhr0fo3b0jpuaak9s4-stuerzen\_set1\_16[20]	_	_	_	_	_	false[109]	NA[109]	*[231]	*[231]	*[231]	*[231]	*[231]	input1[231]	57[350]	female[350]	k0vnav0sqhr0fo3b0jpuaak9s4[350]	speaker: YOU[469]	*->52-1	DefNP[52]	_	_	_	
+106-6	2218-2234	Skateboard<BR>da	_	GSuccess[20]	stuerzen\_set1\_16[20]	latin2[20]	k0vnav0sqhr0fo3b0jpuaak9s4-stuerzen\_set1\_16[20]	_	_	_	_	_	_	_	*[231]	*[231]	*[231]	*[231]	*[231]	input1[231]	57[350]	female[350]	k0vnav0sqhr0fo3b0jpuaak9s4[350]	speaker: YOU[469]	_	_	_	_	_	
+106-6.1	2218-2228	Skateboard	_	_	_	_	_	_	_	_	_	_	false[109]	NA[109]	_	_	_	_	_	_	_	_	_	_	*->52-1	DefNP[52]	result|parallel	*|*	106-6.2[110_109]|107-1[111_109]	
+106-6.2	2232-2234	da	_	_	_	_	_	_	_	_	_	_	false[110]	Decl[110]	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	
+106-7	2235-2239	kann	_	GSuccess[20]	stuerzen\_set1\_16[20]	latin2[20]	k0vnav0sqhr0fo3b0jpuaak9s4-stuerzen\_set1\_16[20]	_	_	_	_	_	false[110]	Decl[110]	*[231]	*[231]	*[231]	*[231]	*[231]	input1[231]	57[350]	female[350]	k0vnav0sqhr0fo3b0jpuaak9s4[350]	speaker: YOU[469]	_	_	_	_	_	
+106-8	2240-2245	schon	_	GSuccess[20]	stuerzen\_set1\_16[20]	latin2[20]	k0vnav0sqhr0fo3b0jpuaak9s4-stuerzen\_set1\_16[20]	_	_	_	_	_	false[110]	Decl[110]	*[231]	*[231]	*[231]	*[231]	*[231]	input1[231]	57[350]	female[350]	k0vnav0sqhr0fo3b0jpuaak9s4[350]	speaker: YOU[469]	_	_	_	_	_	
+106-9	2246-2253	einiges	_	GSuccess[20]	stuerzen\_set1\_16[20]	latin2[20]	k0vnav0sqhr0fo3b0jpuaak9s4-stuerzen\_set1\_16[20]	_	_	_	_	_	false[110]	Decl[110]	*[231]	*[231]	*[231]	*[231]	*[231]	input1[231]	57[350]	female[350]	k0vnav0sqhr0fo3b0jpuaak9s4[350]	speaker: YOU[469]	_	_	_	_	_	
+106-10	2254-2265	schiefehen.	_	GSuccess[20]	stuerzen\_set1\_16[20]	latin2[20]	k0vnav0sqhr0fo3b0jpuaak9s4-stuerzen\_set1\_16[20]	_	_	_	_	_	false[110]	Decl[110]	*[231]	*[231]	*[231]	*[231]	*[231]	input1[231]	57[350]	female[350]	k0vnav0sqhr0fo3b0jpuaak9s4[350]	speaker: YOU[469]	_	_	_	_	_	
+
+#Text=Helm hat er auch nicht getragen.
+107-1	2267-2271	Helm	_	GSuccess[20]	stuerzen\_set1\_16[20]	latin2[20]	k0vnav0sqhr0fo3b0jpuaak9s4-stuerzen\_set1\_16[20]	_	_	_	_	_	false[111]	Decl[111]	*[232]	*[232]	*[232]	*[232]	*[232]	input2[232]	57[351]	female[351]	k0vnav0sqhr0fo3b0jpuaak9s4[351]	speaker: YOU[470]	_	_	_	_	_	
+107-2	2272-2275	hat	_	GSuccess[20]	stuerzen\_set1\_16[20]	latin2[20]	k0vnav0sqhr0fo3b0jpuaak9s4-stuerzen\_set1\_16[20]	_	_	_	_	_	false[111]	Decl[111]	*[232]	*[232]	*[232]	*[232]	*[232]	input2[232]	57[351]	female[351]	k0vnav0sqhr0fo3b0jpuaak9s4[351]	speaker: YOU[470]	_	_	_	_	_	
+107-3	2276-2278	er	_	GSuccess[20]	stuerzen\_set1\_16[20]	latin2[20]	k0vnav0sqhr0fo3b0jpuaak9s4-stuerzen\_set1\_16[20]	3	*	*	*	singular	false[111]	Decl[111]	*[232]	*[232]	*[232]	*[232]	*[232]	input2[232]	57[351]	female[351]	k0vnav0sqhr0fo3b0jpuaak9s4[351]	speaker: YOU[470]	*->58-2	PerPron[58]	_	_	_	
+107-4	2279-2283	auch	_	GSuccess[20]	stuerzen\_set1\_16[20]	latin2[20]	k0vnav0sqhr0fo3b0jpuaak9s4-stuerzen\_set1\_16[20]	_	_	_	_	_	false[111]	Decl[111]	*[232]	*[232]	*[232]	*[232]	*[232]	input2[232]	57[351]	female[351]	k0vnav0sqhr0fo3b0jpuaak9s4[351]	speaker: YOU[470]	_	_	_	_	_	
+107-5	2284-2289	nicht	_	GSuccess[20]	stuerzen\_set1\_16[20]	latin2[20]	k0vnav0sqhr0fo3b0jpuaak9s4-stuerzen\_set1\_16[20]	_	_	_	_	_	false[111]	Decl[111]	*[232]	*[232]	*[232]	*[232]	*[232]	input2[232]	57[351]	female[351]	k0vnav0sqhr0fo3b0jpuaak9s4[351]	speaker: YOU[470]	_	_	_	_	_	
+107-6	2290-2299	getragen.	_	GSuccess[20]	stuerzen\_set1\_16[20]	latin2[20]	k0vnav0sqhr0fo3b0jpuaak9s4-stuerzen\_set1\_16[20]	_	_	_	_	_	false[111]	Decl[111]	*[232]	*[232]	*[232]	*[232]	*[232]	input2[232]	57[351]	female[351]	k0vnav0sqhr0fo3b0jpuaak9s4[351]	speaker: YOU[470]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+108-1	2301-2316	END_OF_DOCUMENT	_	GSuccess[20]	stuerzen\_set1\_16[20]	latin2[20]	k0vnav0sqhr0fo3b0jpuaak9s4-stuerzen\_set1\_16[20]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+109-1	2318-2323	Alles	_	GSuccess[21]	stuerzen\_set1\_16[21]	latin2[21]	qjdpg51abd5auurj3bduisfb43-stuerzen\_set1\_16[21]	_	_	_	_	_	false[112]	Int[112]	*[233]	*[233]	*[233]	yn\_4[233]	yesno\_question[233]	openq[233]	*[352]	female[352]	*[352]	speaker:Elisabeth[471]	_	_	QAP	*	110-1[113_112]	
+109-2	2324-2328	gut?	_	GSuccess[21]	stuerzen\_set1\_16[21]	latin2[21]	qjdpg51abd5auurj3bduisfb43-stuerzen\_set1\_16[21]	_	_	_	_	_	false[112]	Int[112]	*[233]	*[233]	*[233]	yn\_4[233]	yesno\_question[233]	openq[233]	*[352]	female[352]	*[352]	speaker:Elisabeth[471]	_	_	_	_	_	
+
+#Text=Till ist gestürzt
+110-1	2330-2334	Till	_	GSuccess[21]	stuerzen\_set1\_16[21]	latin2[21]	qjdpg51abd5auurj3bduisfb43-stuerzen\_set1\_16[21]	_	_	_	_	_	false[113]	Decl[113]	*[234]	stürzen[234]	intransitive[234]	*[234]	*[234]	item0[234]	26[353]	female[353]	qjdpg51abd5auurj3bduisfb43[353]	speaker: YOU[472]	*->94-1	PropNm[94]	result|acknowledgement	*|*	112-1[114_113]|111-1[0_113]	
+110-2	2335-2338	ist	_	GSuccess[21]	stuerzen\_set1\_16[21]	latin2[21]	qjdpg51abd5auurj3bduisfb43-stuerzen\_set1\_16[21]	_	_	_	_	_	false[113]	Decl[113]	*[234]	stürzen[234]	intransitive[234]	*[234]	*[234]	item0[234]	26[353]	female[353]	qjdpg51abd5auurj3bduisfb43[353]	speaker: YOU[472]	_	_	_	_	_	
+110-3	2339-2347	gestürzt	_	GSuccess[21]	stuerzen\_set1\_16[21]	latin2[21]	qjdpg51abd5auurj3bduisfb43-stuerzen\_set1\_16[21]	_	_	_	_	_	false[113]	Decl[113]	*[234]	stürzen[234]	intransitive[234]	*[234]	*[234]	item0[234]	26[353]	female[353]	qjdpg51abd5auurj3bduisfb43[353]	speaker: YOU[472]	_	_	_	_	_	
+
+#Text=Ohje
+111-1	2349-2353	Ohje	_	GSuccess[21]	stuerzen\_set1\_16[21]	latin2[21]	qjdpg51abd5auurj3bduisfb43-stuerzen\_set1\_16[21]	_	_	_	_	_	false	NA	ohje\_27	*	*	*	*	feedback	*	female	*	speaker:Elisabeth	_	_	_	_	_	
+
+#Text=Er hat sich die Hand gebrochen.
+112-1	2355-2357	Er	_	GSuccess[21]	stuerzen\_set1\_16[21]	latin2[21]	qjdpg51abd5auurj3bduisfb43-stuerzen\_set1\_16[21]	3	*	*	*	singular	false[114]	Decl[114]	*[235]	*[235]	*[235]	*[235]	*[235]	input1[235]	26[354]	female[354]	qjdpg51abd5auurj3bduisfb43[354]	speaker: YOU[473]	*->94-2	PerPron[94]	result	*	113-1[115_114]	
+112-2	2358-2361	hat	_	GSuccess[21]	stuerzen\_set1\_16[21]	latin2[21]	qjdpg51abd5auurj3bduisfb43-stuerzen\_set1\_16[21]	_	_	_	_	_	false[114]	Decl[114]	*[235]	*[235]	*[235]	*[235]	*[235]	input1[235]	26[354]	female[354]	qjdpg51abd5auurj3bduisfb43[354]	speaker: YOU[473]	_	_	_	_	_	
+112-3	2362-2366	sich	_	GSuccess[21]	stuerzen\_set1\_16[21]	latin2[21]	qjdpg51abd5auurj3bduisfb43-stuerzen\_set1\_16[21]	_	_	_	_	_	false[114]	Decl[114]	*[235]	*[235]	*[235]	*[235]	*[235]	input1[235]	26[354]	female[354]	qjdpg51abd5auurj3bduisfb43[354]	speaker: YOU[473]	_	_	_	_	_	
+112-4	2367-2370	die	_	GSuccess[21]	stuerzen\_set1\_16[21]	latin2[21]	qjdpg51abd5auurj3bduisfb43-stuerzen\_set1\_16[21]	_	_	_	_	_	false[114]	Decl[114]	*[235]	*[235]	*[235]	*[235]	*[235]	input1[235]	26[354]	female[354]	qjdpg51abd5auurj3bduisfb43[354]	speaker: YOU[473]	*->7-1	DefNP[7]	_	_	_	
+112-5	2371-2375	Hand	_	GSuccess[21]	stuerzen\_set1\_16[21]	latin2[21]	qjdpg51abd5auurj3bduisfb43-stuerzen\_set1\_16[21]	_	_	_	_	_	false[114]	Decl[114]	*[235]	*[235]	*[235]	*[235]	*[235]	input1[235]	26[354]	female[354]	qjdpg51abd5auurj3bduisfb43[354]	speaker: YOU[473]	*->7-1	DefNP[7]	_	_	_	
+112-6	2376-2386	gebrochen.	_	GSuccess[21]	stuerzen\_set1\_16[21]	latin2[21]	qjdpg51abd5auurj3bduisfb43-stuerzen\_set1\_16[21]	_	_	_	_	_	false[114]	Decl[114]	*[235]	*[235]	*[235]	*[235]	*[235]	input1[235]	26[354]	female[354]	qjdpg51abd5auurj3bduisfb43[354]	speaker: YOU[473]	_	_	_	_	_	
+
+#Text=Er muss jetzt 2 Monate einen Gips tragen.
+113-1	2388-2390	Er	_	GSuccess[21]	stuerzen\_set1\_16[21]	latin2[21]	qjdpg51abd5auurj3bduisfb43-stuerzen\_set1\_16[21]	3	*	*	*	singular	false[115]	Decl[115]	*[236]	*[236]	*[236]	*[236]	*[236]	input2[236]	26[355]	female[355]	qjdpg51abd5auurj3bduisfb43[355]	speaker: YOU[474]	*->94-3	PerPron[94]	_	_	_	
+113-2	2391-2395	muss	_	GSuccess[21]	stuerzen\_set1\_16[21]	latin2[21]	qjdpg51abd5auurj3bduisfb43-stuerzen\_set1\_16[21]	_	_	_	_	_	false[115]	Decl[115]	*[236]	*[236]	*[236]	*[236]	*[236]	input2[236]	26[355]	female[355]	qjdpg51abd5auurj3bduisfb43[355]	speaker: YOU[474]	_	_	_	_	_	
+113-3	2396-2401	jetzt	_	GSuccess[21]	stuerzen\_set1\_16[21]	latin2[21]	qjdpg51abd5auurj3bduisfb43-stuerzen\_set1\_16[21]	_	_	_	_	_	false[115]	Decl[115]	*[236]	*[236]	*[236]	*[236]	*[236]	input2[236]	26[355]	female[355]	qjdpg51abd5auurj3bduisfb43[355]	speaker: YOU[474]	_	_	_	_	_	
+113-4	2402-2403	2	_	GSuccess[21]	stuerzen\_set1\_16[21]	latin2[21]	qjdpg51abd5auurj3bduisfb43-stuerzen\_set1\_16[21]	_	_	_	_	_	false[115]	Decl[115]	*[236]	*[236]	*[236]	*[236]	*[236]	input2[236]	26[355]	female[355]	qjdpg51abd5auurj3bduisfb43[355]	speaker: YOU[474]	*->34-1	IndefNP[34]	_	_	_	
+113-5	2404-2410	Monate	_	GSuccess[21]	stuerzen\_set1\_16[21]	latin2[21]	qjdpg51abd5auurj3bduisfb43-stuerzen\_set1\_16[21]	_	_	_	_	_	false[115]	Decl[115]	*[236]	*[236]	*[236]	*[236]	*[236]	input2[236]	26[355]	female[355]	qjdpg51abd5auurj3bduisfb43[355]	speaker: YOU[474]	*->34-1	IndefNP[34]	_	_	_	
+113-6	2411-2416	einen	_	GSuccess[21]	stuerzen\_set1\_16[21]	latin2[21]	qjdpg51abd5auurj3bduisfb43-stuerzen\_set1\_16[21]	_	_	_	_	_	false[115]	Decl[115]	*[236]	*[236]	*[236]	*[236]	*[236]	input2[236]	26[355]	female[355]	qjdpg51abd5auurj3bduisfb43[355]	speaker: YOU[474]	*->75-1	IndefNP[75]	_	_	_	
+113-7	2417-2421	Gips	_	GSuccess[21]	stuerzen\_set1\_16[21]	latin2[21]	qjdpg51abd5auurj3bduisfb43-stuerzen\_set1\_16[21]	_	_	_	_	_	false[115]	Decl[115]	*[236]	*[236]	*[236]	*[236]	*[236]	input2[236]	26[355]	female[355]	qjdpg51abd5auurj3bduisfb43[355]	speaker: YOU[474]	*->75-1	IndefNP[75]	_	_	_	
+113-8	2422-2429	tragen.	_	GSuccess[21]	stuerzen\_set1\_16[21]	latin2[21]	qjdpg51abd5auurj3bduisfb43-stuerzen\_set1\_16[21]	_	_	_	_	_	false[115]	Decl[115]	*[236]	*[236]	*[236]	*[236]	*[236]	input2[236]	26[355]	female[355]	qjdpg51abd5auurj3bduisfb43[355]	speaker: YOU[474]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+114-1	2431-2446	END_OF_DOCUMENT	_	GSuccess[21]	stuerzen\_set1\_16[21]	latin2[21]	qjdpg51abd5auurj3bduisfb43-stuerzen\_set1\_16[21]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+115-1	2448-2453	Alles	_	GSuccess[22]	stuerzen\_set1\_16[22]	latin2[22]	rhiec6c6hfje484c5bsbj040l0-stuerzen\_set1\_16[22]	_	_	_	_	_	false[116]	Int[116]	*[237]	*[237]	*[237]	yn\_4[237]	yesno\_question[237]	openq[237]	*[356]	female[356]	*[356]	speaker:Elisabeth[475]	_	_	QAP	*	116-1[117_116]	
+115-2	2454-2458	gut?	_	GSuccess[22]	stuerzen\_set1\_16[22]	latin2[22]	rhiec6c6hfje484c5bsbj040l0-stuerzen\_set1\_16[22]	_	_	_	_	_	false[116]	Int[116]	*[237]	*[237]	*[237]	yn\_4[237]	yesno\_question[237]	openq[237]	*[356]	female[356]	*[356]	speaker:Elisabeth[475]	_	_	_	_	_	
+
+#Text=Till ist gestürzt
+116-1	2460-2464	Till	_	GSuccess[22]	stuerzen\_set1\_16[22]	latin2[22]	rhiec6c6hfje484c5bsbj040l0-stuerzen\_set1\_16[22]	_	_	_	_	_	false[117]	Decl[117]	*[238]	stürzen[238]	intransitive[238]	*[238]	*[238]	item0[238]	72[357]	male[357]	rhiec6c6hfje484c5bsbj040l0[357]	speaker: YOU[476]	*->82-1	PropNm[82]	acknowledgement	*	117-1[0_117]	
+116-2	2465-2468	ist	_	GSuccess[22]	stuerzen\_set1\_16[22]	latin2[22]	rhiec6c6hfje484c5bsbj040l0-stuerzen\_set1\_16[22]	_	_	_	_	_	false[117]	Decl[117]	*[238]	stürzen[238]	intransitive[238]	*[238]	*[238]	item0[238]	72[357]	male[357]	rhiec6c6hfje484c5bsbj040l0[357]	speaker: YOU[476]	_	_	_	_	_	
+116-3	2469-2477	gestürzt	_	GSuccess[22]	stuerzen\_set1\_16[22]	latin2[22]	rhiec6c6hfje484c5bsbj040l0-stuerzen\_set1\_16[22]	_	_	_	_	_	false[117]	Decl[117]	*[238]	stürzen[238]	intransitive[238]	*[238]	*[238]	item0[238]	72[357]	male[357]	rhiec6c6hfje484c5bsbj040l0[357]	speaker: YOU[476]	_	_	_	_	_	
+
+#Text=Ohje
+117-1	2479-2483	Ohje	_	GSuccess[22]	stuerzen\_set1\_16[22]	latin2[22]	rhiec6c6hfje484c5bsbj040l0-stuerzen\_set1\_16[22]	_	_	_	_	_	false	NA	ohje\_27	*	*	*	*	feedback	*	female	*	speaker:Elisabeth	_	_	_	_	_	
+
+#Text=Hat er sich weh getan?
+118-1	2485-2488	Hat	TurnTakingError[1]	GSuccess[22]	stuerzen\_set1\_16[22]	latin2[22]	rhiec6c6hfje484c5bsbj040l0-stuerzen\_set1\_16[22]	_	_	_	_	_	false[118]	Int[118]	*[239]	*[239]	*[239]	*[239]	*[239]	input1[239]	72[358]	male[358]	rhiec6c6hfje484c5bsbj040l0[358]	speaker: YOU[477]	_	_	_	_	_	
+118-2	2489-2491	er	TurnTakingError[1]	GSuccess[22]	stuerzen\_set1\_16[22]	latin2[22]	rhiec6c6hfje484c5bsbj040l0-stuerzen\_set1\_16[22]	3	*	*	*	singular	false[118]	Int[118]	*[239]	*[239]	*[239]	*[239]	*[239]	input1[239]	72[358]	male[358]	rhiec6c6hfje484c5bsbj040l0[358]	speaker: YOU[477]	*->82-2	PerPron[82]	_	_	_	
+118-3	2492-2496	sich	TurnTakingError[1]	GSuccess[22]	stuerzen\_set1\_16[22]	latin2[22]	rhiec6c6hfje484c5bsbj040l0-stuerzen\_set1\_16[22]	_	_	_	_	_	false[118]	Int[118]	*[239]	*[239]	*[239]	*[239]	*[239]	input1[239]	72[358]	male[358]	rhiec6c6hfje484c5bsbj040l0[358]	speaker: YOU[477]	_	_	_	_	_	
+118-4	2497-2500	weh	TurnTakingError[1]	GSuccess[22]	stuerzen\_set1\_16[22]	latin2[22]	rhiec6c6hfje484c5bsbj040l0-stuerzen\_set1\_16[22]	_	_	_	_	_	false[118]	Int[118]	*[239]	*[239]	*[239]	*[239]	*[239]	input1[239]	72[358]	male[358]	rhiec6c6hfje484c5bsbj040l0[358]	speaker: YOU[477]	_	_	_	_	_	
+118-5	2501-2507	getan?	TurnTakingError[1]	GSuccess[22]	stuerzen\_set1\_16[22]	latin2[22]	rhiec6c6hfje484c5bsbj040l0-stuerzen\_set1\_16[22]	_	_	_	_	_	false[118]	Int[118]	*[239]	*[239]	*[239]	*[239]	*[239]	input1[239]	72[358]	male[358]	rhiec6c6hfje484c5bsbj040l0[358]	speaker: YOU[477]	_	_	_	_	_	
+
+#Text=Was ist denn genau passiert?
+119-1	2509-2512	Was	TurnTakingError[2]	GSuccess[22]	stuerzen\_set1\_16[22]	latin2[22]	rhiec6c6hfje484c5bsbj040l0-stuerzen\_set1\_16[22]	_	_	_	_	_	false[119]	Int[119]	*[240]	*[240]	*[240]	*[240]	*[240]	input2[240]	72[359]	male[359]	rhiec6c6hfje484c5bsbj040l0[359]	speaker: YOU[478]	_	_	_	_	_	
+119-2	2513-2516	ist	TurnTakingError[2]	GSuccess[22]	stuerzen\_set1\_16[22]	latin2[22]	rhiec6c6hfje484c5bsbj040l0-stuerzen\_set1\_16[22]	_	_	_	_	_	false[119]	Int[119]	*[240]	*[240]	*[240]	*[240]	*[240]	input2[240]	72[359]	male[359]	rhiec6c6hfje484c5bsbj040l0[359]	speaker: YOU[478]	_	_	_	_	_	
+119-3	2517-2521	denn	TurnTakingError[2]	GSuccess[22]	stuerzen\_set1\_16[22]	latin2[22]	rhiec6c6hfje484c5bsbj040l0-stuerzen\_set1\_16[22]	_	_	_	_	_	false[119]	Int[119]	*[240]	*[240]	*[240]	*[240]	*[240]	input2[240]	72[359]	male[359]	rhiec6c6hfje484c5bsbj040l0[359]	speaker: YOU[478]	_	_	_	_	_	
+119-4	2522-2527	genau	TurnTakingError[2]	GSuccess[22]	stuerzen\_set1\_16[22]	latin2[22]	rhiec6c6hfje484c5bsbj040l0-stuerzen\_set1\_16[22]	_	_	_	_	_	false[119]	Int[119]	*[240]	*[240]	*[240]	*[240]	*[240]	input2[240]	72[359]	male[359]	rhiec6c6hfje484c5bsbj040l0[359]	speaker: YOU[478]	_	_	_	_	_	
+119-5	2528-2537	passiert?	TurnTakingError[2]	GSuccess[22]	stuerzen\_set1\_16[22]	latin2[22]	rhiec6c6hfje484c5bsbj040l0-stuerzen\_set1\_16[22]	_	_	_	_	_	false[119]	Int[119]	*[240]	*[240]	*[240]	*[240]	*[240]	input2[240]	72[359]	male[359]	rhiec6c6hfje484c5bsbj040l0[359]	speaker: YOU[478]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+120-1	2539-2554	END_OF_DOCUMENT	_	GSuccess[22]	stuerzen\_set1\_16[22]	latin2[22]	rhiec6c6hfje484c5bsbj040l0-stuerzen\_set1\_16[22]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+121-1	2556-2561	Alles	_	GWithout[23]	stuerzen\_set1\_16[23]	latin3[23]	0ncaea7aqlpc7oe43khd21qn11-stuerzen\_set1\_16[23]	_	_	_	_	_	false[120]	Int[120]	*[241]	*[241]	*[241]	yn\_4[241]	yesno\_question[241]	openq[241]	*[360]	female[360]	*[360]	speaker:Elisabeth[479]	_	_	parallel|QAP	*|*	125-1[123_120]|122-1[121_120]	
+121-2	2562-2566	gut?	_	GWithout[23]	stuerzen\_set1\_16[23]	latin3[23]	0ncaea7aqlpc7oe43khd21qn11-stuerzen\_set1\_16[23]	_	_	_	_	_	false[120]	Int[120]	*[241]	*[241]	*[241]	yn\_4[241]	yesno\_question[241]	openq[241]	*[360]	female[360]	*[360]	speaker:Elisabeth[479]	_	_	_	_	_	
+
+#Text=Till ist gestürzt
+122-1	2568-2572	Till	_	GWithout[23]	stuerzen\_set1\_16[23]	latin3[23]	0ncaea7aqlpc7oe43khd21qn11-stuerzen\_set1\_16[23]	_	_	_	_	_	false[121]	Decl[121]	*[242]	stürzen[242]	intransitive[242]	*[242]	*[242]	item0[242]	18[361]	female[361]	0ncaea7aqlpc7oe43khd21qn11[361]	speaker: YOU[480]	*->9-1	PropNm[9]	result	*	124-1[122_121]	
+122-2	2573-2576	ist	_	GWithout[23]	stuerzen\_set1\_16[23]	latin3[23]	0ncaea7aqlpc7oe43khd21qn11-stuerzen\_set1\_16[23]	_	_	_	_	_	false[121]	Decl[121]	*[242]	stürzen[242]	intransitive[242]	*[242]	*[242]	item0[242]	18[361]	female[361]	0ncaea7aqlpc7oe43khd21qn11[361]	speaker: YOU[480]	_	_	_	_	_	
+122-3	2577-2585	gestürzt	_	GWithout[23]	stuerzen\_set1\_16[23]	latin3[23]	0ncaea7aqlpc7oe43khd21qn11-stuerzen\_set1\_16[23]	_	_	_	_	_	false[121]	Decl[121]	*[242]	stürzen[242]	intransitive[242]	*[242]	*[242]	item0[242]	18[361]	female[361]	0ncaea7aqlpc7oe43khd21qn11[361]	speaker: YOU[480]	_	_	_	_	_	
+
+#Text=-
+123-1	2587-2588	-	_	GWithout[23]	stuerzen\_set1\_16[23]	latin3[23]	0ncaea7aqlpc7oe43khd21qn11-stuerzen\_set1\_16[23]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Elisabeth	_	_	_	_	_	
+
+#Text=Wir fahren jetzt zum Arzt.
+124-1	2590-2593	Wir	_	GWithout[23]	stuerzen\_set1\_16[23]	latin3[23]	0ncaea7aqlpc7oe43khd21qn11-stuerzen\_set1\_16[23]	1	*	*	*	plural	false[122]	Decl[122]	*[243]	*[243]	*[243]	*[243]	*[243]	input1[243]	18[362]	female[362]	0ncaea7aqlpc7oe43khd21qn11[362]	speaker: YOU[481]	*->9-2	PerPron[9]	_	_	_	
+124-2	2594-2600	fahren	_	GWithout[23]	stuerzen\_set1\_16[23]	latin3[23]	0ncaea7aqlpc7oe43khd21qn11-stuerzen\_set1\_16[23]	_	_	_	_	_	false[122]	Decl[122]	*[243]	*[243]	*[243]	*[243]	*[243]	input1[243]	18[362]	female[362]	0ncaea7aqlpc7oe43khd21qn11[362]	speaker: YOU[481]	_	_	_	_	_	
+124-3	2601-2606	jetzt	_	GWithout[23]	stuerzen\_set1\_16[23]	latin3[23]	0ncaea7aqlpc7oe43khd21qn11-stuerzen\_set1\_16[23]	_	_	_	_	_	false[122]	Decl[122]	*[243]	*[243]	*[243]	*[243]	*[243]	input1[243]	18[362]	female[362]	0ncaea7aqlpc7oe43khd21qn11[362]	speaker: YOU[481]	_	_	_	_	_	
+124-4	2607-2610	zum	_	GWithout[23]	stuerzen\_set1\_16[23]	latin3[23]	0ncaea7aqlpc7oe43khd21qn11-stuerzen\_set1\_16[23]	_	_	_	_	_	false[122]	Decl[122]	*[243]	*[243]	*[243]	*[243]	*[243]	input1[243]	18[362]	female[362]	0ncaea7aqlpc7oe43khd21qn11[362]	speaker: YOU[481]	*->85-1	DefNP[85]	_	_	_	
+124-5	2611-2616	Arzt.	_	GWithout[23]	stuerzen\_set1\_16[23]	latin3[23]	0ncaea7aqlpc7oe43khd21qn11-stuerzen\_set1\_16[23]	_	_	_	_	_	false[122]	Decl[122]	*[243]	*[243]	*[243]	*[243]	*[243]	input1[243]	18[362]	female[362]	0ncaea7aqlpc7oe43khd21qn11[362]	speaker: YOU[481]	*->85-1	DefNP[85]	_	_	_	
+
+#Text=Geht's dir gut?
+125-1	2618-2624	Geht's	_	GWithout[23]	stuerzen\_set1\_16[23]	latin3[23]	0ncaea7aqlpc7oe43khd21qn11-stuerzen\_set1\_16[23]	_	_	_	_	_	false[123]	Int[123]	*[244]	*[244]	*[244]	*[244]	*[244]	input2[244]	18[363]	female[363]	0ncaea7aqlpc7oe43khd21qn11[363]	speaker: YOU[482]	_	_	_	_	_	
+125-2	2625-2628	dir	_	GWithout[23]	stuerzen\_set1\_16[23]	latin3[23]	0ncaea7aqlpc7oe43khd21qn11-stuerzen\_set1\_16[23]	2	*	*	*	singular	false[123]	Int[123]	*[244]	*[244]	*[244]	*[244]	*[244]	input2[244]	18[363]	female[363]	0ncaea7aqlpc7oe43khd21qn11[363]	speaker: YOU[482]	*->43-1	PerPron[43]	_	_	_	
+125-3	2629-2633	gut?	_	GWithout[23]	stuerzen\_set1\_16[23]	latin3[23]	0ncaea7aqlpc7oe43khd21qn11-stuerzen\_set1\_16[23]	_	_	_	_	_	false[123]	Int[123]	*[244]	*[244]	*[244]	*[244]	*[244]	input2[244]	18[363]	female[363]	0ncaea7aqlpc7oe43khd21qn11[363]	speaker: YOU[482]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+126-1	2635-2650	END_OF_DOCUMENT	_	GWithout[23]	stuerzen\_set1\_16[23]	latin3[23]	0ncaea7aqlpc7oe43khd21qn11-stuerzen\_set1\_16[23]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+127-1	2652-2657	Alles	_	GWithout[24]	stuerzen\_set1\_16[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-stuerzen\_set1\_16[24]	_	_	_	_	_	false[124]	Int[124]	*[245]	*[245]	*[245]	yn\_4[245]	yesno\_question[245]	openq[245]	*[364]	female[364]	*[364]	speaker:Elisabeth[483]	_	_	QAP	*	128-1[125_124]	
+127-2	2658-2662	gut?	_	GWithout[24]	stuerzen\_set1\_16[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-stuerzen\_set1\_16[24]	_	_	_	_	_	false[124]	Int[124]	*[245]	*[245]	*[245]	yn\_4[245]	yesno\_question[245]	openq[245]	*[364]	female[364]	*[364]	speaker:Elisabeth[483]	_	_	_	_	_	
+
+#Text=Till ist gestürzt
+128-1	2664-2668	Till	_	GWithout[24]	stuerzen\_set1\_16[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-stuerzen\_set1\_16[24]	_	_	_	_	_	false[125]	Decl[125]	*[246]	stürzen[246]	intransitive[246]	*[246]	*[246]	item0[246]	36[365]	male[365]	19gm0uv9ca6mcngf99lirno94a[365]	speaker: YOU[484]	*->81-1	PropNm[81]	result	*	130-1[126_125]	
+128-2	2669-2672	ist	_	GWithout[24]	stuerzen\_set1\_16[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-stuerzen\_set1\_16[24]	_	_	_	_	_	false[125]	Decl[125]	*[246]	stürzen[246]	intransitive[246]	*[246]	*[246]	item0[246]	36[365]	male[365]	19gm0uv9ca6mcngf99lirno94a[365]	speaker: YOU[484]	_	_	_	_	_	
+128-3	2673-2681	gestürzt	_	GWithout[24]	stuerzen\_set1\_16[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-stuerzen\_set1\_16[24]	_	_	_	_	_	false[125]	Decl[125]	*[246]	stürzen[246]	intransitive[246]	*[246]	*[246]	item0[246]	36[365]	male[365]	19gm0uv9ca6mcngf99lirno94a[365]	speaker: YOU[484]	_	_	_	_	_	
+
+#Text=-
+129-1	2683-2684	-	_	GWithout[24]	stuerzen\_set1\_16[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-stuerzen\_set1\_16[24]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Elisabeth	_	_	_	_	_	
+
+#Text=Wir sind gerade auf dem Weg zum Krankenhaus.
+130-1	2686-2689	Wir	_	GWithout[24]	stuerzen\_set1\_16[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-stuerzen\_set1\_16[24]	1	*	*	*	plural	false[126]	Decl[126]	*[247]	*[247]	*[247]	*[247]	*[247]	input1[247]	36[366]	male[366]	19gm0uv9ca6mcngf99lirno94a[366]	speaker: YOU[485]	*->47-1	PerPron[47]	elaboration	*	131-1[127_126]	
+130-2	2690-2694	sind	_	GWithout[24]	stuerzen\_set1\_16[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-stuerzen\_set1\_16[24]	_	_	_	_	_	false[126]	Decl[126]	*[247]	*[247]	*[247]	*[247]	*[247]	input1[247]	36[366]	male[366]	19gm0uv9ca6mcngf99lirno94a[366]	speaker: YOU[485]	_	_	_	_	_	
+130-3	2695-2701	gerade	_	GWithout[24]	stuerzen\_set1\_16[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-stuerzen\_set1\_16[24]	_	_	_	_	_	false[126]	Decl[126]	*[247]	*[247]	*[247]	*[247]	*[247]	input1[247]	36[366]	male[366]	19gm0uv9ca6mcngf99lirno94a[366]	speaker: YOU[485]	_	_	_	_	_	
+130-4	2702-2705	auf	_	GWithout[24]	stuerzen\_set1\_16[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-stuerzen\_set1\_16[24]	_	_	_	_	_	false[126]	Decl[126]	*[247]	*[247]	*[247]	*[247]	*[247]	input1[247]	36[366]	male[366]	19gm0uv9ca6mcngf99lirno94a[366]	speaker: YOU[485]	_	_	_	_	_	
+130-5	2706-2709	dem	_	GWithout[24]	stuerzen\_set1\_16[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-stuerzen\_set1\_16[24]	_	_	_	_	_	false[126]	Decl[126]	*[247]	*[247]	*[247]	*[247]	*[247]	input1[247]	36[366]	male[366]	19gm0uv9ca6mcngf99lirno94a[366]	speaker: YOU[485]	*->13-1	DefNP[13]	_	_	_	
+130-6	2710-2713	Weg	_	GWithout[24]	stuerzen\_set1\_16[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-stuerzen\_set1\_16[24]	_	_	_	_	_	false[126]	Decl[126]	*[247]	*[247]	*[247]	*[247]	*[247]	input1[247]	36[366]	male[366]	19gm0uv9ca6mcngf99lirno94a[366]	speaker: YOU[485]	*->13-1	DefNP[13]	_	_	_	
+130-7	2714-2717	zum	_	GWithout[24]	stuerzen\_set1\_16[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-stuerzen\_set1\_16[24]	_	_	_	_	_	false[126]	Decl[126]	*[247]	*[247]	*[247]	*[247]	*[247]	input1[247]	36[366]	male[366]	19gm0uv9ca6mcngf99lirno94a[366]	speaker: YOU[485]	*->13-1|*->22-1	DefNP[13]|DefNP[22]	_	_	_	
+130-8	2718-2730	Krankenhaus.	_	GWithout[24]	stuerzen\_set1\_16[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-stuerzen\_set1\_16[24]	_	_	_	_	_	false[126]	Decl[126]	*[247]	*[247]	*[247]	*[247]	*[247]	input1[247]	36[366]	male[366]	19gm0uv9ca6mcngf99lirno94a[366]	speaker: YOU[485]	*->13-1|*->22-1	DefNP[13]|DefNP[22]	_	_	_	
+
+#Text=Ich mach mir sorgen <BR> dass er sich etwas gebrochen hat...
+131-1	2732-2735	Ich	_	GWithout[24]	stuerzen\_set1\_16[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-stuerzen\_set1\_16[24]	1	*	*	*	singular	false[127]	Decl[127]	*[248]	*[248]	*[248]	*[248]	*[248]	input2[248]	36[367]	male[367]	19gm0uv9ca6mcngf99lirno94a[367]	speaker: YOU[486]	*->63-1	PerPron[63]	_	_	_	
+131-2	2736-2740	mach	_	GWithout[24]	stuerzen\_set1\_16[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-stuerzen\_set1\_16[24]	_	_	_	_	_	false[127]	Decl[127]	*[248]	*[248]	*[248]	*[248]	*[248]	input2[248]	36[367]	male[367]	19gm0uv9ca6mcngf99lirno94a[367]	speaker: YOU[486]	_	_	_	_	_	
+131-3	2741-2744	mir	_	GWithout[24]	stuerzen\_set1\_16[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-stuerzen\_set1\_16[24]	_	_	_	_	_	false[127]	Decl[127]	*[248]	*[248]	*[248]	*[248]	*[248]	input2[248]	36[367]	male[367]	19gm0uv9ca6mcngf99lirno94a[367]	speaker: YOU[486]	_	_	_	_	_	
+131-4	2745-2751	sorgen	_	GWithout[24]	stuerzen\_set1\_16[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-stuerzen\_set1\_16[24]	_	_	_	_	_	false[127]	Decl[127]	*[248]	*[248]	*[248]	*[248]	*[248]	input2[248]	36[367]	male[367]	19gm0uv9ca6mcngf99lirno94a[367]	speaker: YOU[486]	_	_	_	_	_	
+131-5	2752-2756	<BR>	_	GWithout[24]	stuerzen\_set1\_16[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-stuerzen\_set1\_16[24]	_	_	_	_	_	false[127]	Decl[127]	*[248]	*[248]	*[248]	*[248]	*[248]	input2[248]	36[367]	male[367]	19gm0uv9ca6mcngf99lirno94a[367]	speaker: YOU[486]	_	_	_	_	_	
+131-6	2757-2761	dass	_	GWithout[24]	stuerzen\_set1\_16[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-stuerzen\_set1\_16[24]	_	_	_	_	_	false[127]	Decl[127]	*[248]	*[248]	*[248]	*[248]	*[248]	input2[248]	36[367]	male[367]	19gm0uv9ca6mcngf99lirno94a[367]	speaker: YOU[486]	_	_	_	_	_	
+131-7	2762-2764	er	_	GWithout[24]	stuerzen\_set1\_16[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-stuerzen\_set1\_16[24]	3	*	*	*	singular	false[127]	Decl[127]	*[248]	*[248]	*[248]	*[248]	*[248]	input2[248]	36[367]	male[367]	19gm0uv9ca6mcngf99lirno94a[367]	speaker: YOU[486]	*->67-1	PerPron[67]	_	_	_	
+131-8	2765-2769	sich	_	GWithout[24]	stuerzen\_set1\_16[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-stuerzen\_set1\_16[24]	_	_	_	_	_	false[127]	Decl[127]	*[248]	*[248]	*[248]	*[248]	*[248]	input2[248]	36[367]	male[367]	19gm0uv9ca6mcngf99lirno94a[367]	speaker: YOU[486]	_	_	_	_	_	
+131-9	2770-2775	etwas	_	GWithout[24]	stuerzen\_set1\_16[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-stuerzen\_set1\_16[24]	_	_	_	_	_	false[127]	Decl[127]	*[248]	*[248]	*[248]	*[248]	*[248]	input2[248]	36[367]	male[367]	19gm0uv9ca6mcngf99lirno94a[367]	speaker: YOU[486]	*->4-1	IndefNP[4]	_	_	_	
+131-10	2776-2785	gebrochen	_	GWithout[24]	stuerzen\_set1\_16[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-stuerzen\_set1\_16[24]	_	_	_	_	_	false[127]	Decl[127]	*[248]	*[248]	*[248]	*[248]	*[248]	input2[248]	36[367]	male[367]	19gm0uv9ca6mcngf99lirno94a[367]	speaker: YOU[486]	_	_	_	_	_	
+131-11	2786-2792	hat...	_	GWithout[24]	stuerzen\_set1\_16[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-stuerzen\_set1\_16[24]	_	_	_	_	_	false[127]	Decl[127]	*[248]	*[248]	*[248]	*[248]	*[248]	input2[248]	36[367]	male[367]	19gm0uv9ca6mcngf99lirno94a[367]	speaker: YOU[486]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+132-1	2794-2809	END_OF_DOCUMENT	_	GWithout[24]	stuerzen\_set1\_16[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-stuerzen\_set1\_16[24]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+133-1	2811-2816	Alles	_	GWithout[25]	stuerzen\_set1\_16[25]	latin3[25]	4qae3ph27q5gbjcsrgnltv8qld-stuerzen\_set1\_16[25]	_	_	_	_	_	false[128]	Int[128]	*[249]	*[249]	*[249]	yn\_4[249]	yesno\_question[249]	openq[249]	*[368]	female[368]	*[368]	speaker:Elisabeth[487]	_	_	QAP	*	134-1[129_128]	
+133-2	2817-2821	gut?	_	GWithout[25]	stuerzen\_set1\_16[25]	latin3[25]	4qae3ph27q5gbjcsrgnltv8qld-stuerzen\_set1\_16[25]	_	_	_	_	_	false[128]	Int[128]	*[249]	*[249]	*[249]	yn\_4[249]	yesno\_question[249]	openq[249]	*[368]	female[368]	*[368]	speaker:Elisabeth[487]	_	_	_	_	_	
+
+#Text=Till ist gestürzt
+134-1	2823-2827	Till	_	GWithout[25]	stuerzen\_set1\_16[25]	latin3[25]	4qae3ph27q5gbjcsrgnltv8qld-stuerzen\_set1\_16[25]	_	_	_	_	_	false[129]	Decl[129]	*[250]	stürzen[250]	intransitive[250]	*[250]	*[250]	item0[250]	18[369]	female[369]	4qae3ph27q5gbjcsrgnltv8qld[369]	speaker: YOU[488]	*->53-1	PropNm[53]	elaboration|result	*|*	136-1[130_129]|137-1[131_129]	
+134-2	2828-2831	ist	_	GWithout[25]	stuerzen\_set1\_16[25]	latin3[25]	4qae3ph27q5gbjcsrgnltv8qld-stuerzen\_set1\_16[25]	_	_	_	_	_	false[129]	Decl[129]	*[250]	stürzen[250]	intransitive[250]	*[250]	*[250]	item0[250]	18[369]	female[369]	4qae3ph27q5gbjcsrgnltv8qld[369]	speaker: YOU[488]	_	_	_	_	_	
+134-3	2832-2840	gestürzt	_	GWithout[25]	stuerzen\_set1\_16[25]	latin3[25]	4qae3ph27q5gbjcsrgnltv8qld-stuerzen\_set1\_16[25]	_	_	_	_	_	false[129]	Decl[129]	*[250]	stürzen[250]	intransitive[250]	*[250]	*[250]	item0[250]	18[369]	female[369]	4qae3ph27q5gbjcsrgnltv8qld[369]	speaker: YOU[488]	_	_	_	_	_	
+
+#Text=-
+135-1	2842-2843	-	_	GWithout[25]	stuerzen\_set1\_16[25]	latin3[25]	4qae3ph27q5gbjcsrgnltv8qld-stuerzen\_set1\_16[25]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Elisabeth	_	_	_	_	_	
+
+#Text=während dem wandern
+136-1	2845-2852	während	_	GWithout[25]	stuerzen\_set1\_16[25]	latin3[25]	4qae3ph27q5gbjcsrgnltv8qld-stuerzen\_set1\_16[25]	_	_	_	_	_	false[130]	NA[130]	*[251]	*[251]	*[251]	*[251]	*[251]	input1[251]	18[370]	female[370]	4qae3ph27q5gbjcsrgnltv8qld[370]	speaker: YOU[489]	_	_	_	_	_	
+136-2	2853-2856	dem	_	GWithout[25]	stuerzen\_set1\_16[25]	latin3[25]	4qae3ph27q5gbjcsrgnltv8qld-stuerzen\_set1\_16[25]	_	_	_	_	_	false[130]	NA[130]	*[251]	*[251]	*[251]	*[251]	*[251]	input1[251]	18[370]	female[370]	4qae3ph27q5gbjcsrgnltv8qld[370]	speaker: YOU[489]	*->40-1	DefNP[40]	_	_	_	
+136-3	2857-2864	wandern	_	GWithout[25]	stuerzen\_set1\_16[25]	latin3[25]	4qae3ph27q5gbjcsrgnltv8qld-stuerzen\_set1\_16[25]	_	_	_	_	_	false[130]	NA[130]	*[251]	*[251]	*[251]	*[251]	*[251]	input1[251]	18[370]	female[370]	4qae3ph27q5gbjcsrgnltv8qld[370]	speaker: YOU[489]	*->40-1	DefNP[40]	_	_	_	
+
+#Text=sind grad auf dem weg ins krankenhaus
+137-1	2866-2870	sind	_	GWithout[25]	stuerzen\_set1\_16[25]	latin3[25]	4qae3ph27q5gbjcsrgnltv8qld-stuerzen\_set1\_16[25]	1	*	*	*	plural	false[131]	Decl[131]	*[252]	*[252]	*[252]	*[252]	*[252]	input2[252]	18[371]	female[371]	4qae3ph27q5gbjcsrgnltv8qld[371]	speaker: YOU[490]	*->53-2	zero[53]	_	_	_	
+137-2	2871-2875	grad	_	GWithout[25]	stuerzen\_set1\_16[25]	latin3[25]	4qae3ph27q5gbjcsrgnltv8qld-stuerzen\_set1\_16[25]	_	_	_	_	_	false[131]	Decl[131]	*[252]	*[252]	*[252]	*[252]	*[252]	input2[252]	18[371]	female[371]	4qae3ph27q5gbjcsrgnltv8qld[371]	speaker: YOU[490]	_	_	_	_	_	
+137-3	2876-2879	auf	_	GWithout[25]	stuerzen\_set1\_16[25]	latin3[25]	4qae3ph27q5gbjcsrgnltv8qld-stuerzen\_set1\_16[25]	_	_	_	_	_	false[131]	Decl[131]	*[252]	*[252]	*[252]	*[252]	*[252]	input2[252]	18[371]	female[371]	4qae3ph27q5gbjcsrgnltv8qld[371]	speaker: YOU[490]	_	_	_	_	_	
+137-4	2880-2883	dem	_	GWithout[25]	stuerzen\_set1\_16[25]	latin3[25]	4qae3ph27q5gbjcsrgnltv8qld-stuerzen\_set1\_16[25]	_	_	_	_	_	false[131]	Decl[131]	*[252]	*[252]	*[252]	*[252]	*[252]	input2[252]	18[371]	female[371]	4qae3ph27q5gbjcsrgnltv8qld[371]	speaker: YOU[490]	*->42-1	DefNP[42]	_	_	_	
+137-5	2884-2887	weg	_	GWithout[25]	stuerzen\_set1\_16[25]	latin3[25]	4qae3ph27q5gbjcsrgnltv8qld-stuerzen\_set1\_16[25]	_	_	_	_	_	false[131]	Decl[131]	*[252]	*[252]	*[252]	*[252]	*[252]	input2[252]	18[371]	female[371]	4qae3ph27q5gbjcsrgnltv8qld[371]	speaker: YOU[490]	*->42-1	DefNP[42]	_	_	_	
+137-6	2888-2891	ins	_	GWithout[25]	stuerzen\_set1\_16[25]	latin3[25]	4qae3ph27q5gbjcsrgnltv8qld-stuerzen\_set1\_16[25]	_	_	_	_	_	false[131]	Decl[131]	*[252]	*[252]	*[252]	*[252]	*[252]	input2[252]	18[371]	female[371]	4qae3ph27q5gbjcsrgnltv8qld[371]	speaker: YOU[490]	*->42-1|*->1-1	DefNP[42]|DefNP[1]	_	_	_	
+137-7	2892-2903	krankenhaus	_	GWithout[25]	stuerzen\_set1\_16[25]	latin3[25]	4qae3ph27q5gbjcsrgnltv8qld-stuerzen\_set1\_16[25]	_	_	_	_	_	false[131]	Decl[131]	*[252]	*[252]	*[252]	*[252]	*[252]	input2[252]	18[371]	female[371]	4qae3ph27q5gbjcsrgnltv8qld[371]	speaker: YOU[490]	*->42-1|*->1-1	DefNP[42]|DefNP[1]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+138-1	2905-2920	END_OF_DOCUMENT	_	GWithout[25]	stuerzen\_set1\_16[25]	latin3[25]	4qae3ph27q5gbjcsrgnltv8qld-stuerzen\_set1\_16[25]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+139-1	2922-2927	Alles	_	GWithout[26]	stuerzen\_set1\_16[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-stuerzen\_set1\_16[26]	_	_	_	_	_	false[132]	Int[132]	*[253]	*[253]	*[253]	yn\_4[253]	yesno\_question[253]	openq[253]	*[372]	female[372]	*[372]	speaker:Elisabeth[491]	_	_	QAP	*	140-1[133_132]	
+139-2	2928-2932	gut?	_	GWithout[26]	stuerzen\_set1\_16[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-stuerzen\_set1\_16[26]	_	_	_	_	_	false[132]	Int[132]	*[253]	*[253]	*[253]	yn\_4[253]	yesno\_question[253]	openq[253]	*[372]	female[372]	*[372]	speaker:Elisabeth[491]	_	_	_	_	_	
+
+#Text=Till ist gestürzt
+140-1	2934-2938	Till	_	GWithout[26]	stuerzen\_set1\_16[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-stuerzen\_set1\_16[26]	_	_	_	_	_	false[133]	Decl[133]	*[254]	stürzen[254]	intransitive[254]	*[254]	*[254]	item0[254]	19[373]	male[373]	f28ipql67ma8cbjqke6k374ach[373]	speaker: YOU[492]	*->5-1	PropNm[5]	result	*	142-1[134_133]	
+140-2	2939-2942	ist	_	GWithout[26]	stuerzen\_set1\_16[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-stuerzen\_set1\_16[26]	_	_	_	_	_	false[133]	Decl[133]	*[254]	stürzen[254]	intransitive[254]	*[254]	*[254]	item0[254]	19[373]	male[373]	f28ipql67ma8cbjqke6k374ach[373]	speaker: YOU[492]	_	_	_	_	_	
+140-3	2943-2951	gestürzt	_	GWithout[26]	stuerzen\_set1\_16[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-stuerzen\_set1\_16[26]	_	_	_	_	_	false[133]	Decl[133]	*[254]	stürzen[254]	intransitive[254]	*[254]	*[254]	item0[254]	19[373]	male[373]	f28ipql67ma8cbjqke6k374ach[373]	speaker: YOU[492]	_	_	_	_	_	
+
+#Text=-
+141-1	2953-2954	-	_	GWithout[26]	stuerzen\_set1\_16[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-stuerzen\_set1\_16[26]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Elisabeth	_	_	_	_	_	
+
+#Text=Er hat eine Platzwunde am Kopf.
+142-1	2956-2958	Er	_	GWithout[26]	stuerzen\_set1\_16[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-stuerzen\_set1\_16[26]	3	*	*	*	singular	false[134]	Decl[134]	*[255]	*[255]	*[255]	*[255]	*[255]	input1[255]	19[374]	male[374]	f28ipql67ma8cbjqke6k374ach[374]	speaker: YOU[493]	*->5-2	PerPron[5]	contrast	*	143-1[135_134]	
+142-2	2959-2962	hat	_	GWithout[26]	stuerzen\_set1\_16[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-stuerzen\_set1\_16[26]	_	_	_	_	_	false[134]	Decl[134]	*[255]	*[255]	*[255]	*[255]	*[255]	input1[255]	19[374]	male[374]	f28ipql67ma8cbjqke6k374ach[374]	speaker: YOU[493]	_	_	_	_	_	
+142-3	2963-2967	eine	_	GWithout[26]	stuerzen\_set1\_16[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-stuerzen\_set1\_16[26]	_	_	_	_	_	false[134]	Decl[134]	*[255]	*[255]	*[255]	*[255]	*[255]	input1[255]	19[374]	male[374]	f28ipql67ma8cbjqke6k374ach[374]	speaker: YOU[493]	*->24-1	IndefNP[24]	_	_	_	
+142-4	2968-2978	Platzwunde	_	GWithout[26]	stuerzen\_set1\_16[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-stuerzen\_set1\_16[26]	_	_	_	_	_	false[134]	Decl[134]	*[255]	*[255]	*[255]	*[255]	*[255]	input1[255]	19[374]	male[374]	f28ipql67ma8cbjqke6k374ach[374]	speaker: YOU[493]	*->24-1	IndefNP[24]	_	_	_	
+142-5	2979-2981	am	_	GWithout[26]	stuerzen\_set1\_16[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-stuerzen\_set1\_16[26]	_	_	_	_	_	false[134]	Decl[134]	*[255]	*[255]	*[255]	*[255]	*[255]	input1[255]	19[374]	male[374]	f28ipql67ma8cbjqke6k374ach[374]	speaker: YOU[493]	*->24-1|*->77-1	IndefNP[24]|DefNP[77]	_	_	_	
+142-6	2982-2987	Kopf.	_	GWithout[26]	stuerzen\_set1\_16[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-stuerzen\_set1\_16[26]	_	_	_	_	_	false[134]	Decl[134]	*[255]	*[255]	*[255]	*[255]	*[255]	input1[255]	19[374]	male[374]	f28ipql67ma8cbjqke6k374ach[374]	speaker: YOU[493]	*->24-1|*->77-1	IndefNP[24]|DefNP[77]	_	_	_	
+
+#Text=Aber die Ärzte sagen es ist halb so schlimm.
+143-1	2989-2993	Aber	_	GWithout[26]	stuerzen\_set1\_16[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-stuerzen\_set1\_16[26]	_	_	_	_	_	false[135]	Decl[135]	*[256]	*[256]	*[256]	*[256]	*[256]	input2[256]	19[375]	male[375]	f28ipql67ma8cbjqke6k374ach[375]	speaker: YOU[494]	_	_	_	_	_	
+143-2	2994-2997	die	_	GWithout[26]	stuerzen\_set1\_16[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-stuerzen\_set1\_16[26]	_	_	_	_	_	false[135]	Decl[135]	*[256]	*[256]	*[256]	*[256]	*[256]	input2[256]	19[375]	male[375]	f28ipql67ma8cbjqke6k374ach[375]	speaker: YOU[494]	*->69-1	DefNP[69]	_	_	_	
+143-3	2998-3003	Ärzte	_	GWithout[26]	stuerzen\_set1\_16[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-stuerzen\_set1\_16[26]	_	_	_	_	_	false[135]	Decl[135]	*[256]	*[256]	*[256]	*[256]	*[256]	input2[256]	19[375]	male[375]	f28ipql67ma8cbjqke6k374ach[375]	speaker: YOU[494]	*->69-1	DefNP[69]	_	_	_	
+143-4	3004-3009	sagen	_	GWithout[26]	stuerzen\_set1\_16[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-stuerzen\_set1\_16[26]	_	_	_	_	_	false[135]	Decl[135]	*[256]	*[256]	*[256]	*[256]	*[256]	input2[256]	19[375]	male[375]	f28ipql67ma8cbjqke6k374ach[375]	speaker: YOU[494]	_	_	_	_	_	
+143-5	3010-3012	es	_	GWithout[26]	stuerzen\_set1\_16[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-stuerzen\_set1\_16[26]	3	*	*	*	singular	false[135]	Decl[135]	*[256]	*[256]	*[256]	*[256]	*[256]	input2[256]	19[375]	male[375]	f28ipql67ma8cbjqke6k374ach[375]	speaker: YOU[494]	*->24-2	PerPron[24]	_	_	_	
+143-6	3013-3016	ist	_	GWithout[26]	stuerzen\_set1\_16[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-stuerzen\_set1\_16[26]	_	_	_	_	_	false[135]	Decl[135]	*[256]	*[256]	*[256]	*[256]	*[256]	input2[256]	19[375]	male[375]	f28ipql67ma8cbjqke6k374ach[375]	speaker: YOU[494]	_	_	_	_	_	
+143-7	3017-3021	halb	_	GWithout[26]	stuerzen\_set1\_16[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-stuerzen\_set1\_16[26]	_	_	_	_	_	false[135]	Decl[135]	*[256]	*[256]	*[256]	*[256]	*[256]	input2[256]	19[375]	male[375]	f28ipql67ma8cbjqke6k374ach[375]	speaker: YOU[494]	_	_	_	_	_	
+143-8	3022-3024	so	_	GWithout[26]	stuerzen\_set1\_16[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-stuerzen\_set1\_16[26]	_	_	_	_	_	false[135]	Decl[135]	*[256]	*[256]	*[256]	*[256]	*[256]	input2[256]	19[375]	male[375]	f28ipql67ma8cbjqke6k374ach[375]	speaker: YOU[494]	_	_	_	_	_	
+143-9	3025-3033	schlimm.	_	GWithout[26]	stuerzen\_set1\_16[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-stuerzen\_set1\_16[26]	_	_	_	_	_	false[135]	Decl[135]	*[256]	*[256]	*[256]	*[256]	*[256]	input2[256]	19[375]	male[375]	f28ipql67ma8cbjqke6k374ach[375]	speaker: YOU[494]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+144-1	3035-3050	END_OF_DOCUMENT	_	GWithout[26]	stuerzen\_set1\_16[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-stuerzen\_set1\_16[26]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+145-1	3052-3057	Alles	_	GWithout[27]	stuerzen\_set1\_16[27]	latin3[27]	ifdbjqro2nfkup12rv8t6k0eu9-stuerzen\_set1\_16[27]	_	_	_	_	_	false[136]	Int[136]	*[257]	*[257]	*[257]	yn\_4[257]	yesno\_question[257]	openq[257]	*[376]	female[376]	*[376]	speaker:Elisabeth[495]	_	_	QAP	*	146-1[137_136]	
+145-2	3058-3062	gut?	_	GWithout[27]	stuerzen\_set1\_16[27]	latin3[27]	ifdbjqro2nfkup12rv8t6k0eu9-stuerzen\_set1\_16[27]	_	_	_	_	_	false[136]	Int[136]	*[257]	*[257]	*[257]	yn\_4[257]	yesno\_question[257]	openq[257]	*[376]	female[376]	*[376]	speaker:Elisabeth[495]	_	_	_	_	_	
+
+#Text=Till ist gestürzt
+146-1	3064-3068	Till	_	GWithout[27]	stuerzen\_set1\_16[27]	latin3[27]	ifdbjqro2nfkup12rv8t6k0eu9-stuerzen\_set1\_16[27]	_	_	_	_	_	false[137]	Decl[137]	*[258]	stürzen[258]	intransitive[258]	*[258]	*[258]	item0[258]	36[377]	male[377]	ifdbjqro2nfkup12rv8t6k0eu9[377]	speaker: YOU[496]	*->25-1	PropNm[25]	result	*	148-1[138_137]	
+146-2	3069-3072	ist	_	GWithout[27]	stuerzen\_set1\_16[27]	latin3[27]	ifdbjqro2nfkup12rv8t6k0eu9-stuerzen\_set1\_16[27]	_	_	_	_	_	false[137]	Decl[137]	*[258]	stürzen[258]	intransitive[258]	*[258]	*[258]	item0[258]	36[377]	male[377]	ifdbjqro2nfkup12rv8t6k0eu9[377]	speaker: YOU[496]	_	_	_	_	_	
+146-3	3073-3081	gestürzt	_	GWithout[27]	stuerzen\_set1\_16[27]	latin3[27]	ifdbjqro2nfkup12rv8t6k0eu9-stuerzen\_set1\_16[27]	_	_	_	_	_	false[137]	Decl[137]	*[258]	stürzen[258]	intransitive[258]	*[258]	*[258]	item0[258]	36[377]	male[377]	ifdbjqro2nfkup12rv8t6k0eu9[377]	speaker: YOU[496]	_	_	_	_	_	
+
+#Text=-
+147-1	3083-3084	-	_	GWithout[27]	stuerzen\_set1\_16[27]	latin3[27]	ifdbjqro2nfkup12rv8t6k0eu9-stuerzen\_set1\_16[27]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Elisabeth	_	_	_	_	_	
+
+#Text=er liegt im Krankenhaus
+148-1	3086-3088	er	_	GWithout[27]	stuerzen\_set1\_16[27]	latin3[27]	ifdbjqro2nfkup12rv8t6k0eu9-stuerzen\_set1\_16[27]	3	*	*	*	singular	false[138]	Decl[138]	*[259]	*[259]	*[259]	*[259]	*[259]	input1[259]	36[378]	male[378]	ifdbjqro2nfkup12rv8t6k0eu9[378]	speaker: YOU[497]	*->25-2	PerPron[25]	elaboration	*	149-1[139_138]	
+148-2	3089-3094	liegt	_	GWithout[27]	stuerzen\_set1\_16[27]	latin3[27]	ifdbjqro2nfkup12rv8t6k0eu9-stuerzen\_set1\_16[27]	_	_	_	_	_	false[138]	Decl[138]	*[259]	*[259]	*[259]	*[259]	*[259]	input1[259]	36[378]	male[378]	ifdbjqro2nfkup12rv8t6k0eu9[378]	speaker: YOU[497]	_	_	_	_	_	
+148-3	3095-3097	im	_	GWithout[27]	stuerzen\_set1\_16[27]	latin3[27]	ifdbjqro2nfkup12rv8t6k0eu9-stuerzen\_set1\_16[27]	_	_	_	_	_	false[138]	Decl[138]	*[259]	*[259]	*[259]	*[259]	*[259]	input1[259]	36[378]	male[378]	ifdbjqro2nfkup12rv8t6k0eu9[378]	speaker: YOU[497]	*->33-1	DefNP[33]	_	_	_	
+148-4	3098-3109	Krankenhaus	_	GWithout[27]	stuerzen\_set1\_16[27]	latin3[27]	ifdbjqro2nfkup12rv8t6k0eu9-stuerzen\_set1\_16[27]	_	_	_	_	_	false[138]	Decl[138]	*[259]	*[259]	*[259]	*[259]	*[259]	input1[259]	36[378]	male[378]	ifdbjqro2nfkup12rv8t6k0eu9[378]	speaker: YOU[497]	*->33-1	DefNP[33]	_	_	_	
+
+#Text=auf Station
+149-1	3111-3114	auf	_	GWithout[27]	stuerzen\_set1\_16[27]	latin3[27]	ifdbjqro2nfkup12rv8t6k0eu9-stuerzen\_set1\_16[27]	_	_	_	_	_	false[139]	NA[139]	*[260]	*[260]	*[260]	*[260]	*[260]	input2[260]	36[379]	male[379]	ifdbjqro2nfkup12rv8t6k0eu9[379]	speaker: YOU[498]	_	_	_	_	_	
+149-2	3115-3122	Station	_	GWithout[27]	stuerzen\_set1\_16[27]	latin3[27]	ifdbjqro2nfkup12rv8t6k0eu9-stuerzen\_set1\_16[27]	_	_	_	_	_	false[139]	NA[139]	*[260]	*[260]	*[260]	*[260]	*[260]	input2[260]	36[379]	male[379]	ifdbjqro2nfkup12rv8t6k0eu9[379]	speaker: YOU[498]	*->48-1	DefNP[48]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+150-1	3124-3139	END_OF_DOCUMENT	_	GWithout[27]	stuerzen\_set1\_16[27]	latin3[27]	ifdbjqro2nfkup12rv8t6k0eu9-stuerzen\_set1\_16[27]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+151-1	3141-3146	Alles	_	GWithout[28]	stuerzen\_set1\_16[28]	latin3[28]	nn1fs9jkn62eo9089lo89usbkb-stuerzen\_set1\_16[28]	_	_	_	_	_	false[140]	Int[140]	*[261]	*[261]	*[261]	yn\_4[261]	yesno\_question[261]	openq[261]	*[380]	female[380]	*[380]	speaker:Elisabeth[499]	_	_	QAP	*	152-1[141_140]	
+151-2	3147-3151	gut?	_	GWithout[28]	stuerzen\_set1\_16[28]	latin3[28]	nn1fs9jkn62eo9089lo89usbkb-stuerzen\_set1\_16[28]	_	_	_	_	_	false[140]	Int[140]	*[261]	*[261]	*[261]	yn\_4[261]	yesno\_question[261]	openq[261]	*[380]	female[380]	*[380]	speaker:Elisabeth[499]	_	_	_	_	_	
+
+#Text=Till ist gestürzt
+152-1	3153-3157	Till	_	GWithout[28]	stuerzen\_set1\_16[28]	latin3[28]	nn1fs9jkn62eo9089lo89usbkb-stuerzen\_set1\_16[28]	_	_	_	_	_	false[141]	Decl[141]	*[262]	stürzen[262]	intransitive[262]	*[262]	*[262]	item0[262]	27[381]	female[381]	nn1fs9jkn62eo9089lo89usbkb[381]	speaker: YOU[500]	*->83-1	PropNm[83]	result	*	154-1[142_141]	
+152-2	3158-3161	ist	_	GWithout[28]	stuerzen\_set1\_16[28]	latin3[28]	nn1fs9jkn62eo9089lo89usbkb-stuerzen\_set1\_16[28]	_	_	_	_	_	false[141]	Decl[141]	*[262]	stürzen[262]	intransitive[262]	*[262]	*[262]	item0[262]	27[381]	female[381]	nn1fs9jkn62eo9089lo89usbkb[381]	speaker: YOU[500]	_	_	_	_	_	
+152-3	3162-3170	gestürzt	_	GWithout[28]	stuerzen\_set1\_16[28]	latin3[28]	nn1fs9jkn62eo9089lo89usbkb-stuerzen\_set1\_16[28]	_	_	_	_	_	false[141]	Decl[141]	*[262]	stürzen[262]	intransitive[262]	*[262]	*[262]	item0[262]	27[381]	female[381]	nn1fs9jkn62eo9089lo89usbkb[381]	speaker: YOU[500]	_	_	_	_	_	
+
+#Text=-
+153-1	3172-3173	-	_	GWithout[28]	stuerzen\_set1\_16[28]	latin3[28]	nn1fs9jkn62eo9089lo89usbkb-stuerzen\_set1\_16[28]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Elisabeth	_	_	_	_	_	
+
+#Text=Wir sind gerade auf dem Weg ins Krankenhaus.
+154-1	3175-3178	Wir	_	GWithout[28]	stuerzen\_set1\_16[28]	latin3[28]	nn1fs9jkn62eo9089lo89usbkb-stuerzen\_set1\_16[28]	1	*	*	*	plural	false[142]	Decl[142]	*[263]	*[263]	*[263]	*[263]	*[263]	input1[263]	27[382]	female[382]	nn1fs9jkn62eo9089lo89usbkb[382]	speaker: YOU[501]	*->84-1	PerPron[84]	contrast	*	155-1[143_142]	
+154-2	3179-3183	sind	_	GWithout[28]	stuerzen\_set1\_16[28]	latin3[28]	nn1fs9jkn62eo9089lo89usbkb-stuerzen\_set1\_16[28]	_	_	_	_	_	false[142]	Decl[142]	*[263]	*[263]	*[263]	*[263]	*[263]	input1[263]	27[382]	female[382]	nn1fs9jkn62eo9089lo89usbkb[382]	speaker: YOU[501]	_	_	_	_	_	
+154-3	3184-3190	gerade	_	GWithout[28]	stuerzen\_set1\_16[28]	latin3[28]	nn1fs9jkn62eo9089lo89usbkb-stuerzen\_set1\_16[28]	_	_	_	_	_	false[142]	Decl[142]	*[263]	*[263]	*[263]	*[263]	*[263]	input1[263]	27[382]	female[382]	nn1fs9jkn62eo9089lo89usbkb[382]	speaker: YOU[501]	_	_	_	_	_	
+154-4	3191-3194	auf	_	GWithout[28]	stuerzen\_set1\_16[28]	latin3[28]	nn1fs9jkn62eo9089lo89usbkb-stuerzen\_set1\_16[28]	_	_	_	_	_	false[142]	Decl[142]	*[263]	*[263]	*[263]	*[263]	*[263]	input1[263]	27[382]	female[382]	nn1fs9jkn62eo9089lo89usbkb[382]	speaker: YOU[501]	_	_	_	_	_	
+154-5	3195-3198	dem	_	GWithout[28]	stuerzen\_set1\_16[28]	latin3[28]	nn1fs9jkn62eo9089lo89usbkb-stuerzen\_set1\_16[28]	_	_	_	_	_	false[142]	Decl[142]	*[263]	*[263]	*[263]	*[263]	*[263]	input1[263]	27[382]	female[382]	nn1fs9jkn62eo9089lo89usbkb[382]	speaker: YOU[501]	*->61-1	DefNP[61]	_	_	_	
+154-6	3199-3202	Weg	_	GWithout[28]	stuerzen\_set1\_16[28]	latin3[28]	nn1fs9jkn62eo9089lo89usbkb-stuerzen\_set1\_16[28]	_	_	_	_	_	false[142]	Decl[142]	*[263]	*[263]	*[263]	*[263]	*[263]	input1[263]	27[382]	female[382]	nn1fs9jkn62eo9089lo89usbkb[382]	speaker: YOU[501]	*->61-1	DefNP[61]	_	_	_	
+154-7	3203-3206	ins	_	GWithout[28]	stuerzen\_set1\_16[28]	latin3[28]	nn1fs9jkn62eo9089lo89usbkb-stuerzen\_set1\_16[28]	_	_	_	_	_	false[142]	Decl[142]	*[263]	*[263]	*[263]	*[263]	*[263]	input1[263]	27[382]	female[382]	nn1fs9jkn62eo9089lo89usbkb[382]	speaker: YOU[501]	*->61-1|*->79-1	DefNP[61]|DefNP[79]	_	_	_	
+154-8	3207-3219	Krankenhaus.	_	GWithout[28]	stuerzen\_set1\_16[28]	latin3[28]	nn1fs9jkn62eo9089lo89usbkb-stuerzen\_set1\_16[28]	_	_	_	_	_	false[142]	Decl[142]	*[263]	*[263]	*[263]	*[263]	*[263]	input1[263]	27[382]	female[382]	nn1fs9jkn62eo9089lo89usbkb[382]	speaker: YOU[501]	*->61-1|*->79-1	DefNP[61]|DefNP[79]	_	_	_	
+
+#Text=Ich glaube es ist aber nichts Schlimmes.
+155-1	3221-3224	Ich	_	GWithout[28]	stuerzen\_set1\_16[28]	latin3[28]	nn1fs9jkn62eo9089lo89usbkb-stuerzen\_set1\_16[28]	1	*	*	*	singular	false[143]	Decl[143]	*[264]	*[264]	*[264]	*[264]	*[264]	input2[264]	27[383]	female[383]	nn1fs9jkn62eo9089lo89usbkb[383]	speaker: YOU[502]	*->19-1	PerPron[19]	_	_	_	
+155-2	3225-3231	glaube	_	GWithout[28]	stuerzen\_set1\_16[28]	latin3[28]	nn1fs9jkn62eo9089lo89usbkb-stuerzen\_set1\_16[28]	_	_	_	_	_	false[143]	Decl[143]	*[264]	*[264]	*[264]	*[264]	*[264]	input2[264]	27[383]	female[383]	nn1fs9jkn62eo9089lo89usbkb[383]	speaker: YOU[502]	_	_	_	_	_	
+155-3	3232-3234	es	_	GWithout[28]	stuerzen\_set1\_16[28]	latin3[28]	nn1fs9jkn62eo9089lo89usbkb-stuerzen\_set1\_16[28]	3	*	*	*	singular	false[143]	Decl[143]	*[264]	*[264]	*[264]	*[264]	*[264]	input2[264]	27[383]	female[383]	nn1fs9jkn62eo9089lo89usbkb[383]	speaker: YOU[502]	*->27-1	PerPron[27]	_	_	_	
+155-4	3235-3238	ist	_	GWithout[28]	stuerzen\_set1\_16[28]	latin3[28]	nn1fs9jkn62eo9089lo89usbkb-stuerzen\_set1\_16[28]	_	_	_	_	_	false[143]	Decl[143]	*[264]	*[264]	*[264]	*[264]	*[264]	input2[264]	27[383]	female[383]	nn1fs9jkn62eo9089lo89usbkb[383]	speaker: YOU[502]	_	_	_	_	_	
+155-5	3239-3243	aber	_	GWithout[28]	stuerzen\_set1\_16[28]	latin3[28]	nn1fs9jkn62eo9089lo89usbkb-stuerzen\_set1\_16[28]	_	_	_	_	_	false[143]	Decl[143]	*[264]	*[264]	*[264]	*[264]	*[264]	input2[264]	27[383]	female[383]	nn1fs9jkn62eo9089lo89usbkb[383]	speaker: YOU[502]	_	_	_	_	_	
+155-6	3244-3250	nichts	_	GWithout[28]	stuerzen\_set1\_16[28]	latin3[28]	nn1fs9jkn62eo9089lo89usbkb-stuerzen\_set1\_16[28]	_	_	_	_	_	false[143]	Decl[143]	*[264]	*[264]	*[264]	*[264]	*[264]	input2[264]	27[383]	female[383]	nn1fs9jkn62eo9089lo89usbkb[383]	speaker: YOU[502]	_	_	_	_	_	
+155-7	3251-3261	Schlimmes.	_	GWithout[28]	stuerzen\_set1\_16[28]	latin3[28]	nn1fs9jkn62eo9089lo89usbkb-stuerzen\_set1\_16[28]	_	_	_	_	_	false[143]	Decl[143]	*[264]	*[264]	*[264]	*[264]	*[264]	input2[264]	27[383]	female[383]	nn1fs9jkn62eo9089lo89usbkb[383]	speaker: YOU[502]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+156-1	3263-3278	END_OF_DOCUMENT	_	GWithout[28]	stuerzen\_set1\_16[28]	latin3[28]	nn1fs9jkn62eo9089lo89usbkb-stuerzen\_set1\_16[28]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+157-1	3280-3285	Alles	_	GWithout[29]	stuerzen\_set1\_16[29]	latin3[29]	qaaqp55l485lvs9rdvpvbtmqal-stuerzen\_set1\_16[29]	_	_	_	_	_	false[144]	Int[144]	*[265]	*[265]	*[265]	yn\_4[265]	yesno\_question[265]	openq[265]	*[384]	female[384]	*[384]	speaker:Elisabeth[503]	_	_	QAP	*	158-1[145_144]	
+157-2	3286-3290	gut?	_	GWithout[29]	stuerzen\_set1\_16[29]	latin3[29]	qaaqp55l485lvs9rdvpvbtmqal-stuerzen\_set1\_16[29]	_	_	_	_	_	false[144]	Int[144]	*[265]	*[265]	*[265]	yn\_4[265]	yesno\_question[265]	openq[265]	*[384]	female[384]	*[384]	speaker:Elisabeth[503]	_	_	_	_	_	
+
+#Text=Till ist gestürzt
+158-1	3292-3296	Till	_	GWithout[29]	stuerzen\_set1\_16[29]	latin3[29]	qaaqp55l485lvs9rdvpvbtmqal-stuerzen\_set1\_16[29]	_	_	_	_	_	false[145]	Decl[145]	*[266]	stürzen[266]	intransitive[266]	*[266]	*[266]	item0[266]	24[385]	male[385]	qaaqp55l485lvs9rdvpvbtmqal[385]	speaker: YOU[504]	*->54-1	PropNm[54]	contrast	*	160-1[146_145]	
+158-2	3297-3300	ist	_	GWithout[29]	stuerzen\_set1\_16[29]	latin3[29]	qaaqp55l485lvs9rdvpvbtmqal-stuerzen\_set1\_16[29]	_	_	_	_	_	false[145]	Decl[145]	*[266]	stürzen[266]	intransitive[266]	*[266]	*[266]	item0[266]	24[385]	male[385]	qaaqp55l485lvs9rdvpvbtmqal[385]	speaker: YOU[504]	_	_	_	_	_	
+158-3	3301-3309	gestürzt	_	GWithout[29]	stuerzen\_set1\_16[29]	latin3[29]	qaaqp55l485lvs9rdvpvbtmqal-stuerzen\_set1\_16[29]	_	_	_	_	_	false[145]	Decl[145]	*[266]	stürzen[266]	intransitive[266]	*[266]	*[266]	item0[266]	24[385]	male[385]	qaaqp55l485lvs9rdvpvbtmqal[385]	speaker: YOU[504]	_	_	_	_	_	
+
+#Text=-
+159-1	3311-3312	-	_	GWithout[29]	stuerzen\_set1\_16[29]	latin3[29]	qaaqp55l485lvs9rdvpvbtmqal-stuerzen\_set1\_16[29]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Elisabeth	_	_	_	_	_	
+
+#Text=Er sagt <BR> alles sei okay
+160-1	3314-3316	Er	_	GWithout[29]	stuerzen\_set1\_16[29]	latin3[29]	qaaqp55l485lvs9rdvpvbtmqal-stuerzen\_set1\_16[29]	3	*	*	*	singular	false[146]	Decl[146]	*[267]	*[267]	*[267]	*[267]	*[267]	input1[267]	24[386]	male[386]	qaaqp55l485lvs9rdvpvbtmqal[386]	speaker: YOU[505]	*->54-2	PerPron[54]	result	*	161-1[147_146]	
+160-2	3317-3321	sagt	_	GWithout[29]	stuerzen\_set1\_16[29]	latin3[29]	qaaqp55l485lvs9rdvpvbtmqal-stuerzen\_set1\_16[29]	_	_	_	_	_	false[146]	Decl[146]	*[267]	*[267]	*[267]	*[267]	*[267]	input1[267]	24[386]	male[386]	qaaqp55l485lvs9rdvpvbtmqal[386]	speaker: YOU[505]	_	_	_	_	_	
+160-3	3322-3326	<BR>	_	GWithout[29]	stuerzen\_set1\_16[29]	latin3[29]	qaaqp55l485lvs9rdvpvbtmqal-stuerzen\_set1\_16[29]	_	_	_	_	_	false[146]	Decl[146]	*[267]	*[267]	*[267]	*[267]	*[267]	input1[267]	24[386]	male[386]	qaaqp55l485lvs9rdvpvbtmqal[386]	speaker: YOU[505]	_	_	_	_	_	
+160-4	3327-3332	alles	_	GWithout[29]	stuerzen\_set1\_16[29]	latin3[29]	qaaqp55l485lvs9rdvpvbtmqal-stuerzen\_set1\_16[29]	_	_	_	_	_	false[146]	Decl[146]	*[267]	*[267]	*[267]	*[267]	*[267]	input1[267]	24[386]	male[386]	qaaqp55l485lvs9rdvpvbtmqal[386]	speaker: YOU[505]	_	_	_	_	_	
+160-5	3333-3336	sei	_	GWithout[29]	stuerzen\_set1\_16[29]	latin3[29]	qaaqp55l485lvs9rdvpvbtmqal-stuerzen\_set1\_16[29]	_	_	_	_	_	false[146]	Decl[146]	*[267]	*[267]	*[267]	*[267]	*[267]	input1[267]	24[386]	male[386]	qaaqp55l485lvs9rdvpvbtmqal[386]	speaker: YOU[505]	_	_	_	_	_	
+160-6	3337-3341	okay	_	GWithout[29]	stuerzen\_set1\_16[29]	latin3[29]	qaaqp55l485lvs9rdvpvbtmqal-stuerzen\_set1\_16[29]	_	_	_	_	_	false[146]	Decl[146]	*[267]	*[267]	*[267]	*[267]	*[267]	input1[267]	24[386]	male[386]	qaaqp55l485lvs9rdvpvbtmqal[386]	speaker: YOU[505]	_	_	_	_	_	
+
+#Text=Ich versuche ihn zu überzeugen einen Arzt aufzusuchen
+161-1	3343-3346	Ich	_	GWithout[29]	stuerzen\_set1\_16[29]	latin3[29]	qaaqp55l485lvs9rdvpvbtmqal-stuerzen\_set1\_16[29]	1	*	*	*	singular	false[147]	Decl[147]	*[268]	*[268]	*[268]	*[268]	*[268]	input2[268]	24[387]	male[387]	qaaqp55l485lvs9rdvpvbtmqal[387]	speaker: YOU[506]	*->92-1	PerPron[92]	_	_	_	
+161-2	3347-3355	versuche	_	GWithout[29]	stuerzen\_set1\_16[29]	latin3[29]	qaaqp55l485lvs9rdvpvbtmqal-stuerzen\_set1\_16[29]	_	_	_	_	_	false[147]	Decl[147]	*[268]	*[268]	*[268]	*[268]	*[268]	input2[268]	24[387]	male[387]	qaaqp55l485lvs9rdvpvbtmqal[387]	speaker: YOU[506]	_	_	_	_	_	
+161-3	3356-3359	ihn	_	GWithout[29]	stuerzen\_set1\_16[29]	latin3[29]	qaaqp55l485lvs9rdvpvbtmqal-stuerzen\_set1\_16[29]	3	*	*	*	singular	false[147]	Decl[147]	*[268]	*[268]	*[268]	*[268]	*[268]	input2[268]	24[387]	male[387]	qaaqp55l485lvs9rdvpvbtmqal[387]	speaker: YOU[506]	*->54-3	PerPron[54]	_	_	_	
+161-4	3360-3362	zu	_	GWithout[29]	stuerzen\_set1\_16[29]	latin3[29]	qaaqp55l485lvs9rdvpvbtmqal-stuerzen\_set1\_16[29]	_	_	_	_	_	false[147]	Decl[147]	*[268]	*[268]	*[268]	*[268]	*[268]	input2[268]	24[387]	male[387]	qaaqp55l485lvs9rdvpvbtmqal[387]	speaker: YOU[506]	_	_	_	_	_	
+161-5	3363-3373	überzeugen	_	GWithout[29]	stuerzen\_set1\_16[29]	latin3[29]	qaaqp55l485lvs9rdvpvbtmqal-stuerzen\_set1\_16[29]	_	_	_	_	_	false[147]	Decl[147]	*[268]	*[268]	*[268]	*[268]	*[268]	input2[268]	24[387]	male[387]	qaaqp55l485lvs9rdvpvbtmqal[387]	speaker: YOU[506]	_	_	_	_	_	
+161-6	3374-3379	einen	_	GWithout[29]	stuerzen\_set1\_16[29]	latin3[29]	qaaqp55l485lvs9rdvpvbtmqal-stuerzen\_set1\_16[29]	_	_	_	_	_	false[147]	Decl[147]	*[268]	*[268]	*[268]	*[268]	*[268]	input2[268]	24[387]	male[387]	qaaqp55l485lvs9rdvpvbtmqal[387]	speaker: YOU[506]	*->36-1	IndefNP[36]	_	_	_	
+161-7	3380-3384	Arzt	_	GWithout[29]	stuerzen\_set1\_16[29]	latin3[29]	qaaqp55l485lvs9rdvpvbtmqal-stuerzen\_set1\_16[29]	_	_	_	_	_	false[147]	Decl[147]	*[268]	*[268]	*[268]	*[268]	*[268]	input2[268]	24[387]	male[387]	qaaqp55l485lvs9rdvpvbtmqal[387]	speaker: YOU[506]	*->36-1	IndefNP[36]	_	_	_	
+161-8	3385-3396	aufzusuchen	_	GWithout[29]	stuerzen\_set1\_16[29]	latin3[29]	qaaqp55l485lvs9rdvpvbtmqal-stuerzen\_set1\_16[29]	_	_	_	_	_	false[147]	Decl[147]	*[268]	*[268]	*[268]	*[268]	*[268]	input2[268]	24[387]	male[387]	qaaqp55l485lvs9rdvpvbtmqal[387]	speaker: YOU[506]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+162-1	3398-3413	END_OF_DOCUMENT	_	GWithout[29]	stuerzen\_set1\_16[29]	latin3[29]	qaaqp55l485lvs9rdvpvbtmqal-stuerzen\_set1\_16[29]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+163-1	3415-3420	Alles	_	GWithout[30]	stuerzen\_set1\_16[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-stuerzen\_set1\_16[30]	_	_	_	_	_	false[148]	Int[148]	*[269]	*[269]	*[269]	yn\_4[269]	yesno\_question[269]	openq[269]	*[388]	female[388]	*[388]	speaker:Elisabeth[507]	_	_	QAP	*	164-1[149_148]	
+163-2	3421-3425	gut?	_	GWithout[30]	stuerzen\_set1\_16[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-stuerzen\_set1\_16[30]	_	_	_	_	_	false[148]	Int[148]	*[269]	*[269]	*[269]	yn\_4[269]	yesno\_question[269]	openq[269]	*[388]	female[388]	*[388]	speaker:Elisabeth[507]	_	_	_	_	_	
+
+#Text=Till ist gestürzt
+164-1	3427-3431	Till	_	GWithout[30]	stuerzen\_set1\_16[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-stuerzen\_set1\_16[30]	_	_	_	_	_	false[149]	Decl[149]	*[270]	stürzen[270]	intransitive[270]	*[270]	*[270]	item0[270]	25[389]	female[389]	t6ah1r7hfmcncb44kgnh0sjmv6[389]	speaker: YOU[508]	*->50-1	PropNm[50]	explanation	*	166-1[150_149]	
+164-2	3432-3435	ist	_	GWithout[30]	stuerzen\_set1\_16[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-stuerzen\_set1\_16[30]	_	_	_	_	_	false[149]	Decl[149]	*[270]	stürzen[270]	intransitive[270]	*[270]	*[270]	item0[270]	25[389]	female[389]	t6ah1r7hfmcncb44kgnh0sjmv6[389]	speaker: YOU[508]	_	_	_	_	_	
+164-3	3436-3444	gestürzt	_	GWithout[30]	stuerzen\_set1\_16[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-stuerzen\_set1\_16[30]	_	_	_	_	_	false[149]	Decl[149]	*[270]	stürzen[270]	intransitive[270]	*[270]	*[270]	item0[270]	25[389]	female[389]	t6ah1r7hfmcncb44kgnh0sjmv6[389]	speaker: YOU[508]	_	_	_	_	_	
+
+#Text=-
+165-1	3446-3447	-	_	GWithout[30]	stuerzen\_set1\_16[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-stuerzen\_set1\_16[30]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Elisabeth	_	_	_	_	_	
+
+#Text=Er schaut einfach nie auf den Boden und ist heftig gestolpert
+166-1	3449-3451	Er	_	GWithout[30]	stuerzen\_set1\_16[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-stuerzen\_set1\_16[30]	3	*	*	*	singular	false[150]	Decl[150]	*[271]	*[271]	*[271]	*[271]	*[271]	input1[271]	25[390]	female[390]	t6ah1r7hfmcncb44kgnh0sjmv6[390]	speaker: YOU[509]	*->50-2	PerPron[50]	result	*	166-8[151_150]	
+166-2	3452-3458	schaut	_	GWithout[30]	stuerzen\_set1\_16[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-stuerzen\_set1\_16[30]	_	_	_	_	_	false[150]	Decl[150]	*[271]	*[271]	*[271]	*[271]	*[271]	input1[271]	25[390]	female[390]	t6ah1r7hfmcncb44kgnh0sjmv6[390]	speaker: YOU[509]	_	_	_	_	_	
+166-3	3459-3466	einfach	_	GWithout[30]	stuerzen\_set1\_16[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-stuerzen\_set1\_16[30]	_	_	_	_	_	false[150]	Decl[150]	*[271]	*[271]	*[271]	*[271]	*[271]	input1[271]	25[390]	female[390]	t6ah1r7hfmcncb44kgnh0sjmv6[390]	speaker: YOU[509]	_	_	_	_	_	
+166-4	3467-3470	nie	_	GWithout[30]	stuerzen\_set1\_16[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-stuerzen\_set1\_16[30]	_	_	_	_	_	false[150]	Decl[150]	*[271]	*[271]	*[271]	*[271]	*[271]	input1[271]	25[390]	female[390]	t6ah1r7hfmcncb44kgnh0sjmv6[390]	speaker: YOU[509]	_	_	_	_	_	
+166-5	3471-3474	auf	_	GWithout[30]	stuerzen\_set1\_16[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-stuerzen\_set1\_16[30]	_	_	_	_	_	false[150]	Decl[150]	*[271]	*[271]	*[271]	*[271]	*[271]	input1[271]	25[390]	female[390]	t6ah1r7hfmcncb44kgnh0sjmv6[390]	speaker: YOU[509]	_	_	_	_	_	
+166-6	3475-3478	den	_	GWithout[30]	stuerzen\_set1\_16[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-stuerzen\_set1\_16[30]	_	_	_	_	_	false[150]	Decl[150]	*[271]	*[271]	*[271]	*[271]	*[271]	input1[271]	25[390]	female[390]	t6ah1r7hfmcncb44kgnh0sjmv6[390]	speaker: YOU[509]	*->72-1	DefNP[72]	_	_	_	
+166-7	3479-3484	Boden	_	GWithout[30]	stuerzen\_set1\_16[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-stuerzen\_set1\_16[30]	_	_	_	_	_	false[150]	Decl[150]	*[271]	*[271]	*[271]	*[271]	*[271]	input1[271]	25[390]	female[390]	t6ah1r7hfmcncb44kgnh0sjmv6[390]	speaker: YOU[509]	*->72-1	DefNP[72]	_	_	_	
+166-8	3485-3488	und	_	GWithout[30]	stuerzen\_set1\_16[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-stuerzen\_set1\_16[30]	_	_	_	_	_	false[151]	Decl[151]	*[271]	*[271]	*[271]	*[271]	*[271]	input1[271]	25[390]	female[390]	t6ah1r7hfmcncb44kgnh0sjmv6[390]	speaker: YOU[509]	_	_	result	*	167-1[152_151]	
+166-9	3489-3492	ist	_	GWithout[30]	stuerzen\_set1\_16[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-stuerzen\_set1\_16[30]	3	*	*	*	singular	false[151]	Decl[151]	*[271]	*[271]	*[271]	*[271]	*[271]	input1[271]	25[390]	female[390]	t6ah1r7hfmcncb44kgnh0sjmv6[390]	speaker: YOU[509]	*->50-3	zero[50]	_	_	_	
+166-10	3493-3499	heftig	_	GWithout[30]	stuerzen\_set1\_16[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-stuerzen\_set1\_16[30]	_	_	_	_	_	false[151]	Decl[151]	*[271]	*[271]	*[271]	*[271]	*[271]	input1[271]	25[390]	female[390]	t6ah1r7hfmcncb44kgnh0sjmv6[390]	speaker: YOU[509]	_	_	_	_	_	
+166-11	3500-3510	gestolpert	_	GWithout[30]	stuerzen\_set1\_16[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-stuerzen\_set1\_16[30]	_	_	_	_	_	false[151]	Decl[151]	*[271]	*[271]	*[271]	*[271]	*[271]	input1[271]	25[390]	female[390]	t6ah1r7hfmcncb44kgnh0sjmv6[390]	speaker: YOU[509]	_	_	_	_	_	
+
+#Text=Wir sind gerade am Weg zum Arzt
+167-1	3512-3515	Wir	_	GWithout[30]	stuerzen\_set1\_16[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-stuerzen\_set1\_16[30]	1	*	*	*	plural	false[152]	Decl[152]	*[272]	*[272]	*[272]	*[272]	*[272]	input2[272]	25[391]	female[391]	t6ah1r7hfmcncb44kgnh0sjmv6[391]	speaker: YOU[510]	*->50-4	PerPron[50]	_	_	_	
+167-2	3516-3520	sind	_	GWithout[30]	stuerzen\_set1\_16[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-stuerzen\_set1\_16[30]	_	_	_	_	_	false[152]	Decl[152]	*[272]	*[272]	*[272]	*[272]	*[272]	input2[272]	25[391]	female[391]	t6ah1r7hfmcncb44kgnh0sjmv6[391]	speaker: YOU[510]	_	_	_	_	_	
+167-3	3521-3527	gerade	_	GWithout[30]	stuerzen\_set1\_16[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-stuerzen\_set1\_16[30]	_	_	_	_	_	false[152]	Decl[152]	*[272]	*[272]	*[272]	*[272]	*[272]	input2[272]	25[391]	female[391]	t6ah1r7hfmcncb44kgnh0sjmv6[391]	speaker: YOU[510]	_	_	_	_	_	
+167-4	3528-3530	am	_	GWithout[30]	stuerzen\_set1\_16[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-stuerzen\_set1\_16[30]	_	_	_	_	_	false[152]	Decl[152]	*[272]	*[272]	*[272]	*[272]	*[272]	input2[272]	25[391]	female[391]	t6ah1r7hfmcncb44kgnh0sjmv6[391]	speaker: YOU[510]	*->16-1	DefNP[16]	_	_	_	
+167-5	3531-3534	Weg	_	GWithout[30]	stuerzen\_set1\_16[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-stuerzen\_set1\_16[30]	_	_	_	_	_	false[152]	Decl[152]	*[272]	*[272]	*[272]	*[272]	*[272]	input2[272]	25[391]	female[391]	t6ah1r7hfmcncb44kgnh0sjmv6[391]	speaker: YOU[510]	*->16-1	DefNP[16]	_	_	_	
+167-6	3535-3538	zum	_	GWithout[30]	stuerzen\_set1\_16[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-stuerzen\_set1\_16[30]	_	_	_	_	_	false[152]	Decl[152]	*[272]	*[272]	*[272]	*[272]	*[272]	input2[272]	25[391]	female[391]	t6ah1r7hfmcncb44kgnh0sjmv6[391]	speaker: YOU[510]	*->16-1|*->91-1	DefNP[16]|DefNP[91]	_	_	_	
+167-7	3539-3543	Arzt	_	GWithout[30]	stuerzen\_set1\_16[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-stuerzen\_set1\_16[30]	_	_	_	_	_	false[152]	Decl[152]	*[272]	*[272]	*[272]	*[272]	*[272]	input2[272]	25[391]	female[391]	t6ah1r7hfmcncb44kgnh0sjmv6[391]	speaker: YOU[510]	*->16-1|*->91-1	DefNP[16]|DefNP[91]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+168-1	3545-3560	END_OF_DOCUMENT	_	GWithout[30]	stuerzen\_set1\_16[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-stuerzen\_set1\_16[30]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+169-1	3562-3567	Alles	_	GWithout[31]	stuerzen\_set1\_16[31]	latin3[31]	ue2vk0ts1hkpki58vsa3j8t39j-stuerzen\_set1\_16[31]	_	_	_	_	_	false[153]	Int[153]	*[273]	*[273]	*[273]	yn\_4[273]	yesno\_question[273]	openq[273]	*[392]	female[392]	*[392]	speaker:Elisabeth[511]	_	_	QAP	*	170-1[154_153]	
+169-2	3568-3572	gut?	_	GWithout[31]	stuerzen\_set1\_16[31]	latin3[31]	ue2vk0ts1hkpki58vsa3j8t39j-stuerzen\_set1\_16[31]	_	_	_	_	_	false[153]	Int[153]	*[273]	*[273]	*[273]	yn\_4[273]	yesno\_question[273]	openq[273]	*[392]	female[392]	*[392]	speaker:Elisabeth[511]	_	_	_	_	_	
+
+#Text=Till ist gestürzt
+170-1	3574-3578	Till	_	GWithout[31]	stuerzen\_set1\_16[31]	latin3[31]	ue2vk0ts1hkpki58vsa3j8t39j-stuerzen\_set1\_16[31]	_	_	_	_	_	false[154]	Decl[154]	*[274]	stürzen[274]	intransitive[274]	*[274]	*[274]	item0[274]	29[393]	female[393]	ue2vk0ts1hkpki58vsa3j8t39j[393]	speaker: YOU[512]	*->29-1	PropNm[29]	result	*	172-1[155_154]	
+170-2	3579-3582	ist	_	GWithout[31]	stuerzen\_set1\_16[31]	latin3[31]	ue2vk0ts1hkpki58vsa3j8t39j-stuerzen\_set1\_16[31]	_	_	_	_	_	false[154]	Decl[154]	*[274]	stürzen[274]	intransitive[274]	*[274]	*[274]	item0[274]	29[393]	female[393]	ue2vk0ts1hkpki58vsa3j8t39j[393]	speaker: YOU[512]	_	_	_	_	_	
+170-3	3583-3591	gestürzt	_	GWithout[31]	stuerzen\_set1\_16[31]	latin3[31]	ue2vk0ts1hkpki58vsa3j8t39j-stuerzen\_set1\_16[31]	_	_	_	_	_	false[154]	Decl[154]	*[274]	stürzen[274]	intransitive[274]	*[274]	*[274]	item0[274]	29[393]	female[393]	ue2vk0ts1hkpki58vsa3j8t39j[393]	speaker: YOU[512]	_	_	_	_	_	
+
+#Text=-
+171-1	3593-3594	-	_	GWithout[31]	stuerzen\_set1\_16[31]	latin3[31]	ue2vk0ts1hkpki58vsa3j8t39j-stuerzen\_set1\_16[31]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Elisabeth	_	_	_	_	_	
+
+#Text=Er ist jetzt im Krankenhaus.
+172-1	3596-3598	Er	_	GWithout[31]	stuerzen\_set1\_16[31]	latin3[31]	ue2vk0ts1hkpki58vsa3j8t39j-stuerzen\_set1\_16[31]	3	*	*	*	singular	false[155]	Decl[155]	*[275]	*[275]	*[275]	*[275]	*[275]	input1[275]	29[394]	female[394]	ue2vk0ts1hkpki58vsa3j8t39j[394]	speaker: YOU[513]	*->29-2	PerPron[29]	explanation	*	173-1[156_155]	
+172-2	3599-3602	ist	_	GWithout[31]	stuerzen\_set1\_16[31]	latin3[31]	ue2vk0ts1hkpki58vsa3j8t39j-stuerzen\_set1\_16[31]	_	_	_	_	_	false[155]	Decl[155]	*[275]	*[275]	*[275]	*[275]	*[275]	input1[275]	29[394]	female[394]	ue2vk0ts1hkpki58vsa3j8t39j[394]	speaker: YOU[513]	_	_	_	_	_	
+172-3	3603-3608	jetzt	_	GWithout[31]	stuerzen\_set1\_16[31]	latin3[31]	ue2vk0ts1hkpki58vsa3j8t39j-stuerzen\_set1\_16[31]	_	_	_	_	_	false[155]	Decl[155]	*[275]	*[275]	*[275]	*[275]	*[275]	input1[275]	29[394]	female[394]	ue2vk0ts1hkpki58vsa3j8t39j[394]	speaker: YOU[513]	_	_	_	_	_	
+172-4	3609-3611	im	_	GWithout[31]	stuerzen\_set1\_16[31]	latin3[31]	ue2vk0ts1hkpki58vsa3j8t39j-stuerzen\_set1\_16[31]	_	_	_	_	_	false[155]	Decl[155]	*[275]	*[275]	*[275]	*[275]	*[275]	input1[275]	29[394]	female[394]	ue2vk0ts1hkpki58vsa3j8t39j[394]	speaker: YOU[513]	*->8-1	DefNP[8]	_	_	_	
+172-5	3612-3624	Krankenhaus.	_	GWithout[31]	stuerzen\_set1\_16[31]	latin3[31]	ue2vk0ts1hkpki58vsa3j8t39j-stuerzen\_set1\_16[31]	_	_	_	_	_	false[155]	Decl[155]	*[275]	*[275]	*[275]	*[275]	*[275]	input1[275]	29[394]	female[394]	ue2vk0ts1hkpki58vsa3j8t39j[394]	speaker: YOU[513]	*->8-1	DefNP[8]	_	_	_	
+
+#Text=Er hat sich paar Knochen gebrochen. Aber ihm geht es gut soweit.
+173-1	3626-3628	Er	_	GWithout[31]	stuerzen\_set1\_16[31]	latin3[31]	ue2vk0ts1hkpki58vsa3j8t39j-stuerzen\_set1\_16[31]	3	*	*	*	singular	false[156]	Decl[156]	*[276]	*[276]	*[276]	*[276]	*[276]	input2[276]	29[395]	female[395]	ue2vk0ts1hkpki58vsa3j8t39j[395]	speaker: YOU[514]	*->29-3	PerPron[29]	contrast	*	173-7[157_156]	
+173-2	3629-3632	hat	_	GWithout[31]	stuerzen\_set1\_16[31]	latin3[31]	ue2vk0ts1hkpki58vsa3j8t39j-stuerzen\_set1\_16[31]	_	_	_	_	_	false[156]	Decl[156]	*[276]	*[276]	*[276]	*[276]	*[276]	input2[276]	29[395]	female[395]	ue2vk0ts1hkpki58vsa3j8t39j[395]	speaker: YOU[514]	_	_	_	_	_	
+173-3	3633-3637	sich	_	GWithout[31]	stuerzen\_set1\_16[31]	latin3[31]	ue2vk0ts1hkpki58vsa3j8t39j-stuerzen\_set1\_16[31]	_	_	_	_	_	false[156]	Decl[156]	*[276]	*[276]	*[276]	*[276]	*[276]	input2[276]	29[395]	female[395]	ue2vk0ts1hkpki58vsa3j8t39j[395]	speaker: YOU[514]	_	_	_	_	_	
+173-4	3638-3642	paar	_	GWithout[31]	stuerzen\_set1\_16[31]	latin3[31]	ue2vk0ts1hkpki58vsa3j8t39j-stuerzen\_set1\_16[31]	_	_	_	_	_	false[156]	Decl[156]	*[276]	*[276]	*[276]	*[276]	*[276]	input2[276]	29[395]	female[395]	ue2vk0ts1hkpki58vsa3j8t39j[395]	speaker: YOU[514]	*->14-1	IndefNP[14]	_	_	_	
+173-5	3643-3650	Knochen	_	GWithout[31]	stuerzen\_set1\_16[31]	latin3[31]	ue2vk0ts1hkpki58vsa3j8t39j-stuerzen\_set1\_16[31]	_	_	_	_	_	false[156]	Decl[156]	*[276]	*[276]	*[276]	*[276]	*[276]	input2[276]	29[395]	female[395]	ue2vk0ts1hkpki58vsa3j8t39j[395]	speaker: YOU[514]	*->14-1	IndefNP[14]	_	_	_	
+173-6	3651-3661	gebrochen.	_	GWithout[31]	stuerzen\_set1\_16[31]	latin3[31]	ue2vk0ts1hkpki58vsa3j8t39j-stuerzen\_set1\_16[31]	_	_	_	_	_	false[156]	Decl[156]	*[276]	*[276]	*[276]	*[276]	*[276]	input2[276]	29[395]	female[395]	ue2vk0ts1hkpki58vsa3j8t39j[395]	speaker: YOU[514]	_	_	_	_	_	
+173-7	3662-3666	Aber	_	GWithout[31]	stuerzen\_set1\_16[31]	latin3[31]	ue2vk0ts1hkpki58vsa3j8t39j-stuerzen\_set1\_16[31]	_	_	_	_	_	false[157]	Decl[157]	*[276]	*[276]	*[276]	*[276]	*[276]	input2[276]	29[395]	female[395]	ue2vk0ts1hkpki58vsa3j8t39j[395]	speaker: YOU[514]	_	_	_	_	_	
+173-8	3667-3670	ihm	_	GWithout[31]	stuerzen\_set1\_16[31]	latin3[31]	ue2vk0ts1hkpki58vsa3j8t39j-stuerzen\_set1\_16[31]	3	*	*	*	singular	false[157]	Decl[157]	*[276]	*[276]	*[276]	*[276]	*[276]	input2[276]	29[395]	female[395]	ue2vk0ts1hkpki58vsa3j8t39j[395]	speaker: YOU[514]	*->29-4	PerPron[29]	_	_	_	
+173-9	3671-3675	geht	_	GWithout[31]	stuerzen\_set1\_16[31]	latin3[31]	ue2vk0ts1hkpki58vsa3j8t39j-stuerzen\_set1\_16[31]	_	_	_	_	_	false[157]	Decl[157]	*[276]	*[276]	*[276]	*[276]	*[276]	input2[276]	29[395]	female[395]	ue2vk0ts1hkpki58vsa3j8t39j[395]	speaker: YOU[514]	_	_	_	_	_	
+173-10	3676-3678	es	_	GWithout[31]	stuerzen\_set1\_16[31]	latin3[31]	ue2vk0ts1hkpki58vsa3j8t39j-stuerzen\_set1\_16[31]	_	_	_	_	_	false[157]	Decl[157]	*[276]	*[276]	*[276]	*[276]	*[276]	input2[276]	29[395]	female[395]	ue2vk0ts1hkpki58vsa3j8t39j[395]	speaker: YOU[514]	_	_	_	_	_	
+173-11	3679-3682	gut	_	GWithout[31]	stuerzen\_set1\_16[31]	latin3[31]	ue2vk0ts1hkpki58vsa3j8t39j-stuerzen\_set1\_16[31]	_	_	_	_	_	false[157]	Decl[157]	*[276]	*[276]	*[276]	*[276]	*[276]	input2[276]	29[395]	female[395]	ue2vk0ts1hkpki58vsa3j8t39j[395]	speaker: YOU[514]	_	_	_	_	_	
+173-12	3683-3690	soweit.	_	GWithout[31]	stuerzen\_set1\_16[31]	latin3[31]	ue2vk0ts1hkpki58vsa3j8t39j-stuerzen\_set1\_16[31]	_	_	_	_	_	false[157]	Decl[157]	*[276]	*[276]	*[276]	*[276]	*[276]	input2[276]	29[395]	female[395]	ue2vk0ts1hkpki58vsa3j8t39j[395]	speaker: YOU[514]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+174-1	3692-3707	END_OF_DOCUMENT	_	GWithout[31]	stuerzen\_set1\_16[31]	latin3[31]	ue2vk0ts1hkpki58vsa3j8t39j-stuerzen\_set1\_16[31]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Alles gut?
+175-1	3709-3714	Alles	_	GWithout[32]	stuerzen\_set1\_16[32]	latin3[32]	v3le8i0hm1ekj0ps9oou7k56t5-stuerzen\_set1\_16[32]	_	_	_	_	_	false[158]	Int[158]	*[277]	*[277]	*[277]	yn\_4[277]	yesno\_question[277]	openq[277]	*[396]	female[396]	*[396]	speaker:Elisabeth[515]	_	_	QAP	*	176-1[159_158]	
+175-2	3715-3719	gut?	_	GWithout[32]	stuerzen\_set1\_16[32]	latin3[32]	v3le8i0hm1ekj0ps9oou7k56t5-stuerzen\_set1\_16[32]	_	_	_	_	_	false[158]	Int[158]	*[277]	*[277]	*[277]	yn\_4[277]	yesno\_question[277]	openq[277]	*[396]	female[396]	*[396]	speaker:Elisabeth[515]	_	_	_	_	_	
+
+#Text=Till ist gestürzt
+176-1	3721-3725	Till	_	GWithout[32]	stuerzen\_set1\_16[32]	latin3[32]	v3le8i0hm1ekj0ps9oou7k56t5-stuerzen\_set1\_16[32]	_	_	_	_	_	false[159]	Decl[159]	*[278]	stürzen[278]	intransitive[278]	*[278]	*[278]	item0[278]	58[397]	male[397]	v3le8i0hm1ekj0ps9oou7k56t5[397]	speaker: YOU[516]	*->88-1	PropNm[88]	contrast	*	178-1[160_159]	
+176-2	3726-3729	ist	_	GWithout[32]	stuerzen\_set1\_16[32]	latin3[32]	v3le8i0hm1ekj0ps9oou7k56t5-stuerzen\_set1\_16[32]	_	_	_	_	_	false[159]	Decl[159]	*[278]	stürzen[278]	intransitive[278]	*[278]	*[278]	item0[278]	58[397]	male[397]	v3le8i0hm1ekj0ps9oou7k56t5[397]	speaker: YOU[516]	_	_	_	_	_	
+176-3	3730-3738	gestürzt	_	GWithout[32]	stuerzen\_set1\_16[32]	latin3[32]	v3le8i0hm1ekj0ps9oou7k56t5-stuerzen\_set1\_16[32]	_	_	_	_	_	false[159]	Decl[159]	*[278]	stürzen[278]	intransitive[278]	*[278]	*[278]	item0[278]	58[397]	male[397]	v3le8i0hm1ekj0ps9oou7k56t5[397]	speaker: YOU[516]	_	_	_	_	_	
+
+#Text=-
+177-1	3740-3741	-	_	GWithout[32]	stuerzen\_set1\_16[32]	latin3[32]	v3le8i0hm1ekj0ps9oou7k56t5-stuerzen\_set1\_16[32]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Elisabeth	_	_	_	_	_	
+
+#Text=lebt noch
+178-1	3743-3747	lebt	_	GWithout[32]	stuerzen\_set1\_16[32]	latin3[32]	v3le8i0hm1ekj0ps9oou7k56t5-stuerzen\_set1\_16[32]	3	*	*	*	singular	false[160]	Decl[160]	*[279]	*[279]	*[279]	*[279]	*[279]	input1[279]	58[398]	male[398]	v3le8i0hm1ekj0ps9oou7k56t5[398]	speaker: YOU[517]	*->88-2	zero[88]	contrast	*	179-1[0_160]	
+178-2	3748-3752	noch	_	GWithout[32]	stuerzen\_set1\_16[32]	latin3[32]	v3le8i0hm1ekj0ps9oou7k56t5-stuerzen\_set1\_16[32]	_	_	_	_	_	false[160]	Decl[160]	*[279]	*[279]	*[279]	*[279]	*[279]	input1[279]	58[398]	male[398]	v3le8i0hm1ekj0ps9oou7k56t5[398]	speaker: YOU[517]	_	_	_	_	_	
+
+#Text=flucht
+179-1	3754-3760	flucht	_	GWithout[32]	stuerzen\_set1\_16[32]	latin3[32]	v3le8i0hm1ekj0ps9oou7k56t5-stuerzen\_set1\_16[32]	3	*	*	*	singular	false	Decl	*	*	*	*	*	input2	58	male	v3le8i0hm1ekj0ps9oou7k56t5	speaker: YOU	*->88-3	zero[88]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+180-1	3762-3777	END_OF_DOCUMENT	_	GWithout[32]	stuerzen\_set1\_16[32]	latin3[32]	v3le8i0hm1ekj0ps9oou7k56t5-stuerzen\_set1\_16[32]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	

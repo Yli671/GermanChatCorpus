@@ -1,0 +1,1039 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Item_info|condition|item_id|latinsqr_list|unique_id
+#T_SP=webanno.custom.Ref_info|PersonalPronouns_detailed|ref_def|ref_function|ref_gender|ref_num
+#T_SP=webanno.custom.Segment|complex|segment_type
+#T_SP=webanno.custom.Sent_layer|feedback_id|item0_verb|item0_verbtype|openq_id|openq_type|sent_type
+#T_SP=webanno.custom.Speaker_meta|age|gender|speaker_id
+#T_SP=webanno.custom.Speaker_name|speaker_name
+#T_CH=de.tudarmstadt.ukp.dkpro.core.api.coref.type.CoreferenceLink|referenceRelation|referenceType
+#T_RL=webanno.custom.Relations|discourse_rel|speechAct_rel|BT_webanno.custom.Segment
+
+
+#Text=Hi, alles okay soweit?
+1-1	0-3	Hi,	GFailure[1]	zerschmettern\_set1\_5[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-zerschmettern\_set1\_5[1]	_	_	_	_	_	false[31]	Int[31]	*[162]	*[162]	*[162]	yn\_3[162]	yesno\_question[162]	openq[162]	*[279]	female[279]	*[279]	speaker:Anastasia[396]	_	_	QAP|QAP	*|*	5-1[36_31]|2-1[32_31]	
+1-2	4-9	alles	GFailure[1]	zerschmettern\_set1\_5[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-zerschmettern\_set1\_5[1]	_	_	_	_	_	false[31]	Int[31]	*[162]	*[162]	*[162]	yn\_3[162]	yesno\_question[162]	openq[162]	*[279]	female[279]	*[279]	speaker:Anastasia[396]	*->21-1	Allquantor[21]	_	_	_	
+1-3	10-14	okay	GFailure[1]	zerschmettern\_set1\_5[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-zerschmettern\_set1\_5[1]	_	_	_	_	_	false[31]	Int[31]	*[162]	*[162]	*[162]	yn\_3[162]	yesno\_question[162]	openq[162]	*[279]	female[279]	*[279]	speaker:Anastasia[396]	_	_	_	_	_	
+1-4	15-22	soweit?	GFailure[1]	zerschmettern\_set1\_5[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-zerschmettern\_set1\_5[1]	_	_	_	_	_	false[31]	Int[31]	*[162]	*[162]	*[162]	yn\_3[162]	yesno\_question[162]	openq[162]	*[279]	female[279]	*[279]	speaker:Anastasia[396]	_	_	_	_	_	
+
+#Text=Lisa hat Stühle zerschmettert
+2-1	24-28	Lisa	GFailure[1]	zerschmettern\_set1\_5[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-zerschmettern\_set1\_5[1]	_	_	_	_	_	false[32]	Decl[32]	*[163]	zerschmettern[163]	transitive[163]	*[163]	*[163]	item0[163]	18[280]	female[280]	0ncaea7aqlpc7oe43khd21qn11[280]	speaker: YOU[397]	*->50-1	PropNm[50]	elaboration|CR	*|*	4-1[33_32]|3-1[0_32]	
+2-2	29-32	hat	GFailure[1]	zerschmettern\_set1\_5[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-zerschmettern\_set1\_5[1]	_	_	_	_	_	false[32]	Decl[32]	*[163]	zerschmettern[163]	transitive[163]	*[163]	*[163]	item0[163]	18[280]	female[280]	0ncaea7aqlpc7oe43khd21qn11[280]	speaker: YOU[397]	_	_	_	_	_	
+2-3	33-39	Stühle	GFailure[1]	zerschmettern\_set1\_5[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-zerschmettern\_set1\_5[1]	_	_	_	_	_	false[32]	Decl[32]	*[163]	zerschmettern[163]	transitive[163]	*[163]	*[163]	item0[163]	18[280]	female[280]	0ncaea7aqlpc7oe43khd21qn11[280]	speaker: YOU[397]	*->91-1	IndefNP[91]	_	_	_	
+2-4	40-53	zerschmettert	GFailure[1]	zerschmettern\_set1\_5[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-zerschmettern\_set1\_5[1]	_	_	_	_	_	false[32]	Decl[32]	*[163]	zerschmettern[163]	transitive[163]	*[163]	*[163]	item0[163]	18[280]	female[280]	0ncaea7aqlpc7oe43khd21qn11[280]	speaker: YOU[397]	_	_	_	_	_	
+
+#Text=Häh?
+3-1	55-59	Häh?	GFailure[1]	zerschmettern\_set1\_5[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-zerschmettern\_set1\_5[1]	_	_	_	_	_	false	NA	haeh\_question\_1	*	*	*	*	feedback	*	female	*	speaker:Anastasia	_	_	_	_	_	
+
+#Text=Sie hat sich auf die Stühle im Garten gesetzt und die sind gebrochen.
+4-1	61-64	Sie	GFailure[1]	zerschmettern\_set1\_5[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-zerschmettern\_set1\_5[1]	3	*	*	f	singular	true[33]|false[34]	*[33]|Decl[34]	*[164]	*[164]	*[164]	*[164]	*[164]	input1[164]	18[281]	female[281]	0ncaea7aqlpc7oe43khd21qn11[281]	speaker: YOU[398]	*->50-2	PerPron[50]	result	*	4-10[35_34]	
+4-2	65-68	hat	GFailure[1]	zerschmettern\_set1\_5[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-zerschmettern\_set1\_5[1]	_	_	_	_	_	true[33]|false[34]	*[33]|Decl[34]	*[164]	*[164]	*[164]	*[164]	*[164]	input1[164]	18[281]	female[281]	0ncaea7aqlpc7oe43khd21qn11[281]	speaker: YOU[398]	_	_	_	_	_	
+4-3	69-73	sich	GFailure[1]	zerschmettern\_set1\_5[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-zerschmettern\_set1\_5[1]	_	_	_	_	_	true[33]|false[34]	*[33]|Decl[34]	*[164]	*[164]	*[164]	*[164]	*[164]	input1[164]	18[281]	female[281]	0ncaea7aqlpc7oe43khd21qn11[281]	speaker: YOU[398]	_	_	_	_	_	
+4-4	74-77	auf	GFailure[1]	zerschmettern\_set1\_5[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-zerschmettern\_set1\_5[1]	_	_	_	_	_	true[33]|false[34]	*[33]|Decl[34]	*[164]	*[164]	*[164]	*[164]	*[164]	input1[164]	18[281]	female[281]	0ncaea7aqlpc7oe43khd21qn11[281]	speaker: YOU[398]	_	_	_	_	_	
+4-5	78-81	die	GFailure[1]	zerschmettern\_set1\_5[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-zerschmettern\_set1\_5[1]	_	_	_	_	_	true[33]|false[34]	*[33]|Decl[34]	*[164]	*[164]	*[164]	*[164]	*[164]	input1[164]	18[281]	female[281]	0ncaea7aqlpc7oe43khd21qn11[281]	speaker: YOU[398]	*->91-2	DefNP[91]	_	_	_	
+4-6	82-88	Stühle	GFailure[1]	zerschmettern\_set1\_5[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-zerschmettern\_set1\_5[1]	_	_	_	_	_	true[33]|false[34]	*[33]|Decl[34]	*[164]	*[164]	*[164]	*[164]	*[164]	input1[164]	18[281]	female[281]	0ncaea7aqlpc7oe43khd21qn11[281]	speaker: YOU[398]	*->91-2	DefNP[91]	_	_	_	
+4-7	89-91	im	GFailure[1]	zerschmettern\_set1\_5[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-zerschmettern\_set1\_5[1]	_	_	_	_	_	true[33]|false[34]	*[33]|Decl[34]	*[164]	*[164]	*[164]	*[164]	*[164]	input1[164]	18[281]	female[281]	0ncaea7aqlpc7oe43khd21qn11[281]	speaker: YOU[398]	*->91-2|*->78-1	DefNP[91]|DefNP[78]	_	_	_	
+4-8	92-98	Garten	GFailure[1]	zerschmettern\_set1\_5[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-zerschmettern\_set1\_5[1]	_	_	_	_	_	true[33]|false[34]	*[33]|Decl[34]	*[164]	*[164]	*[164]	*[164]	*[164]	input1[164]	18[281]	female[281]	0ncaea7aqlpc7oe43khd21qn11[281]	speaker: YOU[398]	*->91-2|*->78-1	DefNP[91]|DefNP[78]	_	_	_	
+4-9	99-106	gesetzt	GFailure[1]	zerschmettern\_set1\_5[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-zerschmettern\_set1\_5[1]	_	_	_	_	_	true[33]|false[34]	*[33]|Decl[34]	*[164]	*[164]	*[164]	*[164]	*[164]	input1[164]	18[281]	female[281]	0ncaea7aqlpc7oe43khd21qn11[281]	speaker: YOU[398]	_	_	_	_	_	
+4-10	107-110	und	GFailure[1]	zerschmettern\_set1\_5[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-zerschmettern\_set1\_5[1]	_	_	_	_	_	true[33]|false[35]	*[33]|Decl[35]	*[164]	*[164]	*[164]	*[164]	*[164]	input1[164]	18[281]	female[281]	0ncaea7aqlpc7oe43khd21qn11[281]	speaker: YOU[398]	_	_	_	_	_	
+4-11	111-114	die	GFailure[1]	zerschmettern\_set1\_5[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-zerschmettern\_set1\_5[1]	_	_	_	_	_	true[33]|false[35]	*[33]|Decl[35]	*[164]	*[164]	*[164]	*[164]	*[164]	input1[164]	18[281]	female[281]	0ncaea7aqlpc7oe43khd21qn11[281]	speaker: YOU[398]	*->91-3	D-Pron[91]	_	_	_	
+4-12	115-119	sind	GFailure[1]	zerschmettern\_set1\_5[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-zerschmettern\_set1\_5[1]	_	_	_	_	_	true[33]|false[35]	*[33]|Decl[35]	*[164]	*[164]	*[164]	*[164]	*[164]	input1[164]	18[281]	female[281]	0ncaea7aqlpc7oe43khd21qn11[281]	speaker: YOU[398]	_	_	_	_	_	
+4-13	120-130	gebrochen.	GFailure[1]	zerschmettern\_set1\_5[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-zerschmettern\_set1\_5[1]	_	_	_	_	_	true[33]|false[35]	*[33]|Decl[35]	*[164]	*[164]	*[164]	*[164]	*[164]	input1[164]	18[281]	female[281]	0ncaea7aqlpc7oe43khd21qn11[281]	speaker: YOU[398]	_	_	_	_	_	
+
+#Text=Sonst alles super.
+5-1	132-137	Sonst	GFailure[1]	zerschmettern\_set1\_5[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-zerschmettern\_set1\_5[1]	_	_	_	_	_	false[36]	*[36]	*[165]	*[165]	*[165]	*[165]	*[165]	input2[165]	18[282]	female[282]	0ncaea7aqlpc7oe43khd21qn11[282]	speaker: YOU[399]	_	_	_	_	_	
+5-2	138-143	alles	GFailure[1]	zerschmettern\_set1\_5[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-zerschmettern\_set1\_5[1]	_	_	_	_	_	false[36]	*[36]	*[165]	*[165]	*[165]	*[165]	*[165]	input2[165]	18[282]	female[282]	0ncaea7aqlpc7oe43khd21qn11[282]	speaker: YOU[399]	*->109-1	Allquantor[109]	_	_	_	
+5-3	144-150	super.	GFailure[1]	zerschmettern\_set1\_5[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-zerschmettern\_set1\_5[1]	_	_	_	_	_	false[36]	*[36]	*[165]	*[165]	*[165]	*[165]	*[165]	input2[165]	18[282]	female[282]	0ncaea7aqlpc7oe43khd21qn11[282]	speaker: YOU[399]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+6-1	152-167	END_OF_DOCUMENT	GFailure[1]	zerschmettern\_set1\_5[1]	latin3[1]	0ncaea7aqlpc7oe43khd21qn11-zerschmettern\_set1\_5[1]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hi, alles okay soweit?
+7-1	169-172	Hi,	GFailure[2]	zerschmettern\_set1\_5[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-zerschmettern\_set1\_5[2]	_	_	_	_	_	false[37]	Int[37]	*[166]	*[166]	*[166]	yn\_3[166]	yesno\_question[166]	openq[166]	*[283]	female[283]	*[283]	speaker:Anastasia[400]	_	_	QAP	*	8-1[38_37]	
+7-2	173-178	alles	GFailure[2]	zerschmettern\_set1\_5[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-zerschmettern\_set1\_5[2]	_	_	_	_	_	false[37]	Int[37]	*[166]	*[166]	*[166]	yn\_3[166]	yesno\_question[166]	openq[166]	*[283]	female[283]	*[283]	speaker:Anastasia[400]	_	_	_	_	_	
+7-3	179-183	okay	GFailure[2]	zerschmettern\_set1\_5[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-zerschmettern\_set1\_5[2]	_	_	_	_	_	false[37]	Int[37]	*[166]	*[166]	*[166]	yn\_3[166]	yesno\_question[166]	openq[166]	*[283]	female[283]	*[283]	speaker:Anastasia[400]	_	_	_	_	_	
+7-4	184-191	soweit?	GFailure[2]	zerschmettern\_set1\_5[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-zerschmettern\_set1\_5[2]	_	_	_	_	_	false[37]	Int[37]	*[166]	*[166]	*[166]	yn\_3[166]	yesno\_question[166]	openq[166]	*[283]	female[283]	*[283]	speaker:Anastasia[400]	_	_	_	_	_	
+
+#Text=Lisa hat Stühle zerschmettert
+8-1	193-197	Lisa	GFailure[2]	zerschmettern\_set1\_5[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-zerschmettern\_set1\_5[2]	_	_	_	_	_	false[38]	Decl[38]	*[167]	zerschmettern[167]	transitive[167]	*[167]	*[167]	item0[167]	36[284]	male[284]	19gm0uv9ca6mcngf99lirno94a[284]	speaker: YOU[401]	*->107-1	PropNm[107]	explanation|elaboration|CR	*|*|*	10-1[39_38]|10-5[40_38]|9-1[0_38]	
+8-2	198-201	hat	GFailure[2]	zerschmettern\_set1\_5[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-zerschmettern\_set1\_5[2]	_	_	_	_	_	false[38]	Decl[38]	*[167]	zerschmettern[167]	transitive[167]	*[167]	*[167]	item0[167]	36[284]	male[284]	19gm0uv9ca6mcngf99lirno94a[284]	speaker: YOU[401]	_	_	_	_	_	
+8-3	202-208	Stühle	GFailure[2]	zerschmettern\_set1\_5[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-zerschmettern\_set1\_5[2]	_	_	_	_	_	false[38]	Decl[38]	*[167]	zerschmettern[167]	transitive[167]	*[167]	*[167]	item0[167]	36[284]	male[284]	19gm0uv9ca6mcngf99lirno94a[284]	speaker: YOU[401]	*->7-1	IndefNP[7]	_	_	_	
+8-4	209-222	zerschmettert	GFailure[2]	zerschmettern\_set1\_5[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-zerschmettern\_set1\_5[2]	_	_	_	_	_	false[38]	Decl[38]	*[167]	zerschmettern[167]	transitive[167]	*[167]	*[167]	item0[167]	36[284]	male[284]	19gm0uv9ca6mcngf99lirno94a[284]	speaker: YOU[401]	_	_	_	_	_	
+
+#Text=Häh?
+9-1	224-228	Häh?	GFailure[2]	zerschmettern\_set1\_5[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-zerschmettern\_set1\_5[2]	_	_	_	_	_	false	NA	haeh\_question\_1	*	*	*	*	feedback	*	female	*	speaker:Anastasia	_	_	_	_	_	
+
+#Text=Wir hatten einen Streit und auf einmal wirft sie den Stuhl aus dem Fenster.....
+10-1	230-233	Wir	GFailure[2]	zerschmettern\_set1\_5[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-zerschmettern\_set1\_5[2]	1	*	*	*	plural	false[39]	Decl[39]	*[168]	*[168]	*[168]	*[168]	*[168]	input1[168]	36[285]	male[285]	19gm0uv9ca6mcngf99lirno94a[285]	speaker: YOU[402]	*->9-1	PerPron[9]	result	*	10-5[40_39]	
+10-2	234-240	hatten	GFailure[2]	zerschmettern\_set1\_5[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-zerschmettern\_set1\_5[2]	_	_	_	_	_	false[39]	Decl[39]	*[168]	*[168]	*[168]	*[168]	*[168]	input1[168]	36[285]	male[285]	19gm0uv9ca6mcngf99lirno94a[285]	speaker: YOU[402]	_	_	_	_	_	
+10-3	241-246	einen	GFailure[2]	zerschmettern\_set1\_5[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-zerschmettern\_set1\_5[2]	_	_	_	_	_	false[39]	Decl[39]	*[168]	*[168]	*[168]	*[168]	*[168]	input1[168]	36[285]	male[285]	19gm0uv9ca6mcngf99lirno94a[285]	speaker: YOU[402]	*->106-1	IndefNP[106]	_	_	_	
+10-4	247-253	Streit	GFailure[2]	zerschmettern\_set1\_5[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-zerschmettern\_set1\_5[2]	_	_	_	_	_	false[39]	Decl[39]	*[168]	*[168]	*[168]	*[168]	*[168]	input1[168]	36[285]	male[285]	19gm0uv9ca6mcngf99lirno94a[285]	speaker: YOU[402]	*->106-1	IndefNP[106]	_	_	_	
+10-5	254-257	und	GFailure[2]	zerschmettern\_set1\_5[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-zerschmettern\_set1\_5[2]	_	_	_	_	_	false[40]	Decl[40]	*[168]	*[168]	*[168]	*[168]	*[168]	input1[168]	36[285]	male[285]	19gm0uv9ca6mcngf99lirno94a[285]	speaker: YOU[402]	_	_	result	*	11-1[41_40]	
+10-6	258-261	auf	GFailure[2]	zerschmettern\_set1\_5[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-zerschmettern\_set1\_5[2]	_	_	_	_	_	false[40]	Decl[40]	*[168]	*[168]	*[168]	*[168]	*[168]	input1[168]	36[285]	male[285]	19gm0uv9ca6mcngf99lirno94a[285]	speaker: YOU[402]	_	_	_	_	_	
+10-7	262-268	einmal	GFailure[2]	zerschmettern\_set1\_5[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-zerschmettern\_set1\_5[2]	_	_	_	_	_	false[40]	Decl[40]	*[168]	*[168]	*[168]	*[168]	*[168]	input1[168]	36[285]	male[285]	19gm0uv9ca6mcngf99lirno94a[285]	speaker: YOU[402]	_	_	_	_	_	
+10-8	269-274	wirft	GFailure[2]	zerschmettern\_set1\_5[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-zerschmettern\_set1\_5[2]	_	_	_	_	_	false[40]	Decl[40]	*[168]	*[168]	*[168]	*[168]	*[168]	input1[168]	36[285]	male[285]	19gm0uv9ca6mcngf99lirno94a[285]	speaker: YOU[402]	_	_	_	_	_	
+10-9	275-278	sie	GFailure[2]	zerschmettern\_set1\_5[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-zerschmettern\_set1\_5[2]	3	*	*	*	singular	false[40]	Decl[40]	*[168]	*[168]	*[168]	*[168]	*[168]	input1[168]	36[285]	male[285]	19gm0uv9ca6mcngf99lirno94a[285]	speaker: YOU[402]	*->107-2	PerPron[107]	_	_	_	
+10-10	279-282	den	GFailure[2]	zerschmettern\_set1\_5[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-zerschmettern\_set1\_5[2]	_	_	_	_	_	false[40]	Decl[40]	*[168]	*[168]	*[168]	*[168]	*[168]	input1[168]	36[285]	male[285]	19gm0uv9ca6mcngf99lirno94a[285]	speaker: YOU[402]	*->75-1	DefNP[75]	_	_	_	
+10-11	283-288	Stuhl	GFailure[2]	zerschmettern\_set1\_5[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-zerschmettern\_set1\_5[2]	_	_	_	_	_	false[40]	Decl[40]	*[168]	*[168]	*[168]	*[168]	*[168]	input1[168]	36[285]	male[285]	19gm0uv9ca6mcngf99lirno94a[285]	speaker: YOU[402]	*->75-1	DefNP[75]	_	_	_	
+10-12	289-292	aus	GFailure[2]	zerschmettern\_set1\_5[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-zerschmettern\_set1\_5[2]	_	_	_	_	_	false[40]	Decl[40]	*[168]	*[168]	*[168]	*[168]	*[168]	input1[168]	36[285]	male[285]	19gm0uv9ca6mcngf99lirno94a[285]	speaker: YOU[402]	_	_	_	_	_	
+10-13	293-296	dem	GFailure[2]	zerschmettern\_set1\_5[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-zerschmettern\_set1\_5[2]	_	_	_	_	_	false[40]	Decl[40]	*[168]	*[168]	*[168]	*[168]	*[168]	input1[168]	36[285]	male[285]	19gm0uv9ca6mcngf99lirno94a[285]	speaker: YOU[402]	*->2-1	DefNP[2]	_	_	_	
+10-14	297-309	Fenster.....	GFailure[2]	zerschmettern\_set1\_5[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-zerschmettern\_set1\_5[2]	_	_	_	_	_	false[40]	Decl[40]	*[168]	*[168]	*[168]	*[168]	*[168]	input1[168]	36[285]	male[285]	19gm0uv9ca6mcngf99lirno94a[285]	speaker: YOU[402]	*->2-1	DefNP[2]	_	_	_	
+
+#Text=Ich suche mir jetzt eine neue WG
+11-1	311-314	Ich	GFailure[2]	zerschmettern\_set1\_5[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-zerschmettern\_set1\_5[2]	1	*	*	*	singular	false[41]	Decl[41]	*[169]	*[169]	*[169]	*[169]	*[169]	input2[169]	36[286]	male[286]	19gm0uv9ca6mcngf99lirno94a[286]	speaker: YOU[403]	*->104-1	PerPron[104]	_	_	_	
+11-2	315-320	suche	GFailure[2]	zerschmettern\_set1\_5[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-zerschmettern\_set1\_5[2]	_	_	_	_	_	false[41]	Decl[41]	*[169]	*[169]	*[169]	*[169]	*[169]	input2[169]	36[286]	male[286]	19gm0uv9ca6mcngf99lirno94a[286]	speaker: YOU[403]	_	_	_	_	_	
+11-3	321-324	mir	GFailure[2]	zerschmettern\_set1\_5[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-zerschmettern\_set1\_5[2]	_	_	_	_	_	false[41]	Decl[41]	*[169]	*[169]	*[169]	*[169]	*[169]	input2[169]	36[286]	male[286]	19gm0uv9ca6mcngf99lirno94a[286]	speaker: YOU[403]	_	_	_	_	_	
+11-4	325-330	jetzt	GFailure[2]	zerschmettern\_set1\_5[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-zerschmettern\_set1\_5[2]	_	_	_	_	_	false[41]	Decl[41]	*[169]	*[169]	*[169]	*[169]	*[169]	input2[169]	36[286]	male[286]	19gm0uv9ca6mcngf99lirno94a[286]	speaker: YOU[403]	_	_	_	_	_	
+11-5	331-335	eine	GFailure[2]	zerschmettern\_set1\_5[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-zerschmettern\_set1\_5[2]	_	_	_	_	_	false[41]	Decl[41]	*[169]	*[169]	*[169]	*[169]	*[169]	input2[169]	36[286]	male[286]	19gm0uv9ca6mcngf99lirno94a[286]	speaker: YOU[403]	*->48-1	IndefNP[48]	_	_	_	
+11-6	336-340	neue	GFailure[2]	zerschmettern\_set1\_5[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-zerschmettern\_set1\_5[2]	_	_	_	_	_	false[41]	Decl[41]	*[169]	*[169]	*[169]	*[169]	*[169]	input2[169]	36[286]	male[286]	19gm0uv9ca6mcngf99lirno94a[286]	speaker: YOU[403]	*->48-1	IndefNP[48]	_	_	_	
+11-7	341-343	WG	GFailure[2]	zerschmettern\_set1\_5[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-zerschmettern\_set1\_5[2]	_	_	_	_	_	false[41]	Decl[41]	*[169]	*[169]	*[169]	*[169]	*[169]	input2[169]	36[286]	male[286]	19gm0uv9ca6mcngf99lirno94a[286]	speaker: YOU[403]	*->48-1	IndefNP[48]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+12-1	345-360	END_OF_DOCUMENT	GFailure[2]	zerschmettern\_set1\_5[2]	latin3[2]	19gm0uv9ca6mcngf99lirno94a-zerschmettern\_set1\_5[2]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hi, alles okay soweit?
+13-1	362-365	Hi,	GFailure[3]	zerschmettern\_set1\_5[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-zerschmettern\_set1\_5[3]	_	_	_	_	_	false[42]	Int[42]	*[170]	*[170]	*[170]	yn\_3[170]	yesno\_question[170]	openq[170]	*[287]	female[287]	*[287]	speaker:Anastasia[404]	_	_	QAP	*	14-1[43_42]	
+13-2	366-371	alles	GFailure[3]	zerschmettern\_set1\_5[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-zerschmettern\_set1\_5[3]	_	_	_	_	_	false[42]	Int[42]	*[170]	*[170]	*[170]	yn\_3[170]	yesno\_question[170]	openq[170]	*[287]	female[287]	*[287]	speaker:Anastasia[404]	_	_	_	_	_	
+13-3	372-376	okay	GFailure[3]	zerschmettern\_set1\_5[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-zerschmettern\_set1\_5[3]	_	_	_	_	_	false[42]	Int[42]	*[170]	*[170]	*[170]	yn\_3[170]	yesno\_question[170]	openq[170]	*[287]	female[287]	*[287]	speaker:Anastasia[404]	_	_	_	_	_	
+13-4	377-384	soweit?	GFailure[3]	zerschmettern\_set1\_5[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-zerschmettern\_set1\_5[3]	_	_	_	_	_	false[42]	Int[42]	*[170]	*[170]	*[170]	yn\_3[170]	yesno\_question[170]	openq[170]	*[287]	female[287]	*[287]	speaker:Anastasia[404]	_	_	_	_	_	
+
+#Text=Lisa hat Stühle zerschmettert
+14-1	386-390	Lisa	GFailure[3]	zerschmettern\_set1\_5[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-zerschmettern\_set1\_5[3]	_	_	_	_	_	false[43]	Decl[43]	*[171]	zerschmettern[171]	transitive[171]	*[171]	*[171]	item0[171]	18[288]	female[288]	4qae3ph27q5gbjcsrgnltv8qld[288]	speaker: YOU[405]	*->20-1|*->115-1	clause[20]|PropNm[115]	CR	*	15-1[0_43]	
+14-2	391-394	hat	GFailure[3]	zerschmettern\_set1\_5[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-zerschmettern\_set1\_5[3]	_	_	_	_	_	false[43]	Decl[43]	*[171]	zerschmettern[171]	transitive[171]	*[171]	*[171]	item0[171]	18[288]	female[288]	4qae3ph27q5gbjcsrgnltv8qld[288]	speaker: YOU[405]	*->20-1	clause[20]	_	_	_	
+14-3	395-401	Stühle	GFailure[3]	zerschmettern\_set1\_5[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-zerschmettern\_set1\_5[3]	_	_	_	_	_	false[43]	Decl[43]	*[171]	zerschmettern[171]	transitive[171]	*[171]	*[171]	item0[171]	18[288]	female[288]	4qae3ph27q5gbjcsrgnltv8qld[288]	speaker: YOU[405]	*->20-1|*->94-1	clause[20]|IndefNP[94]	_	_	_	
+14-4	402-415	zerschmettert	GFailure[3]	zerschmettern\_set1\_5[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-zerschmettern\_set1\_5[3]	_	_	_	_	_	false[43]	Decl[43]	*[171]	zerschmettern[171]	transitive[171]	*[171]	*[171]	item0[171]	18[288]	female[288]	4qae3ph27q5gbjcsrgnltv8qld[288]	speaker: YOU[405]	*->20-1	clause[20]	_	_	_	
+
+#Text=Häh?
+15-1	417-421	Häh?	GFailure[3]	zerschmettern\_set1\_5[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-zerschmettern\_set1\_5[3]	_	_	_	_	_	false	NA	haeh\_question\_1	*	*	*	*	feedback	*	female	*	speaker:Anastasia	_	_	explanation	*	16-1[44_0]	
+
+#Text=hast du nichts davon gehört
+16-1	423-427	hast	GFailure[3]	zerschmettern\_set1\_5[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-zerschmettern\_set1\_5[3]	_	_	_	_	_	false[44]	Int[44]	*[172]	*[172]	*[172]	*[172]	*[172]	input1[172]	18[289]	female[289]	4qae3ph27q5gbjcsrgnltv8qld[289]	speaker: YOU[406]	_	_	elaboration	*	17-1[0_44]	
+16-2	428-430	du	GFailure[3]	zerschmettern\_set1\_5[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-zerschmettern\_set1\_5[3]	2	*	*	*	singular	false[44]	Int[44]	*[172]	*[172]	*[172]	*[172]	*[172]	input1[172]	18[289]	female[289]	4qae3ph27q5gbjcsrgnltv8qld[289]	speaker: YOU[406]	*->44-1	PerPron[44]	_	_	_	
+16-3	431-437	nichts	GFailure[3]	zerschmettern\_set1\_5[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-zerschmettern\_set1\_5[3]	_	_	_	_	_	false[44]	Int[44]	*[172]	*[172]	*[172]	*[172]	*[172]	input1[172]	18[289]	female[289]	4qae3ph27q5gbjcsrgnltv8qld[289]	speaker: YOU[406]	_	_	_	_	_	
+16-4	438-443	davon	GFailure[3]	zerschmettern\_set1\_5[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-zerschmettern\_set1\_5[3]	_	_	_	_	_	false[44]	Int[44]	*[172]	*[172]	*[172]	*[172]	*[172]	input1[172]	18[289]	female[289]	4qae3ph27q5gbjcsrgnltv8qld[289]	speaker: YOU[406]	*->20-2	D-Pron[20]	_	_	_	
+16-5	444-450	gehört	GFailure[3]	zerschmettern\_set1\_5[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-zerschmettern\_set1\_5[3]	_	_	_	_	_	false[44]	Int[44]	*[172]	*[172]	*[172]	*[172]	*[172]	input1[172]	18[289]	female[289]	4qae3ph27q5gbjcsrgnltv8qld[289]	speaker: YOU[406]	_	_	_	_	_	
+
+#Text=?
+17-1	452-453	?	GFailure[3]	zerschmettern\_set1\_5[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-zerschmettern\_set1\_5[3]	_	_	_	_	_	false	NA	*	*	*	*	*	input2	18	female	4qae3ph27q5gbjcsrgnltv8qld	speaker: YOU	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+18-1	455-470	END_OF_DOCUMENT	GFailure[3]	zerschmettern\_set1\_5[3]	latin3[3]	4qae3ph27q5gbjcsrgnltv8qld-zerschmettern\_set1\_5[3]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hi, alles okay soweit?
+19-1	472-475	Hi,	GFailure[4]	zerschmettern\_set1\_5[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-zerschmettern\_set1\_5[4]	_	_	_	_	_	false[45]	Int[45]	*[173]	*[173]	*[173]	yn\_3[173]	yesno\_question[173]	openq[173]	*[290]	female[290]	*[290]	speaker:Anastasia[407]	_	_	QAP	*	20-1[46_45]	
+19-2	476-481	alles	GFailure[4]	zerschmettern\_set1\_5[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-zerschmettern\_set1\_5[4]	_	_	_	_	_	false[45]	Int[45]	*[173]	*[173]	*[173]	yn\_3[173]	yesno\_question[173]	openq[173]	*[290]	female[290]	*[290]	speaker:Anastasia[407]	_	_	_	_	_	
+19-3	482-486	okay	GFailure[4]	zerschmettern\_set1\_5[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-zerschmettern\_set1\_5[4]	_	_	_	_	_	false[45]	Int[45]	*[173]	*[173]	*[173]	yn\_3[173]	yesno\_question[173]	openq[173]	*[290]	female[290]	*[290]	speaker:Anastasia[407]	_	_	_	_	_	
+19-4	487-494	soweit?	GFailure[4]	zerschmettern\_set1\_5[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-zerschmettern\_set1\_5[4]	_	_	_	_	_	false[45]	Int[45]	*[173]	*[173]	*[173]	yn\_3[173]	yesno\_question[173]	openq[173]	*[290]	female[290]	*[290]	speaker:Anastasia[407]	_	_	_	_	_	
+
+#Text=Lisa hat Stühle zerschmettert
+20-1	496-500	Lisa	GFailure[4]	zerschmettern\_set1\_5[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-zerschmettern\_set1\_5[4]	_	_	_	_	_	false[46]	Decl[46]	*[174]	zerschmettern[174]	transitive[174]	*[174]	*[174]	item0[174]	19[291]	male[291]	f28ipql67ma8cbjqke6k374ach[291]	speaker: YOU[408]	*->68-1	PropNm[68]	explanation|elaboration|CR	*|*|*	22-1[47_46]|23-1[48_46]|21-1[0_46]	
+20-2	501-504	hat	GFailure[4]	zerschmettern\_set1\_5[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-zerschmettern\_set1\_5[4]	_	_	_	_	_	false[46]	Decl[46]	*[174]	zerschmettern[174]	transitive[174]	*[174]	*[174]	item0[174]	19[291]	male[291]	f28ipql67ma8cbjqke6k374ach[291]	speaker: YOU[408]	_	_	_	_	_	
+20-3	505-511	Stühle	GFailure[4]	zerschmettern\_set1\_5[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-zerschmettern\_set1\_5[4]	_	_	_	_	_	false[46]	Decl[46]	*[174]	zerschmettern[174]	transitive[174]	*[174]	*[174]	item0[174]	19[291]	male[291]	f28ipql67ma8cbjqke6k374ach[291]	speaker: YOU[408]	*->1-1	IndefNP[1]	_	_	_	
+20-4	512-525	zerschmettert	GFailure[4]	zerschmettern\_set1\_5[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-zerschmettern\_set1\_5[4]	_	_	_	_	_	false[46]	Decl[46]	*[174]	zerschmettern[174]	transitive[174]	*[174]	*[174]	item0[174]	19[291]	male[291]	f28ipql67ma8cbjqke6k374ach[291]	speaker: YOU[408]	_	_	_	_	_	
+
+#Text=Häh?
+21-1	527-531	Häh?	GFailure[4]	zerschmettern\_set1\_5[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-zerschmettern\_set1\_5[4]	_	_	_	_	_	false	NA	haeh\_question\_1	*	*	*	*	feedback	*	female	*	speaker:Anastasia	_	_	_	_	_	
+
+#Text=Ja sie hatte einen Wutanfall...
+22-1	533-535	Ja	GFailure[4]	zerschmettern\_set1\_5[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-zerschmettern\_set1\_5[4]	_	_	_	_	_	false[47]	Decl[47]	*[175]	*[175]	*[175]	*[175]	*[175]	input1[175]	19[292]	male[292]	f28ipql67ma8cbjqke6k374ach[292]	speaker: YOU[409]	_	_	_	_	_	
+22-2	536-539	sie	GFailure[4]	zerschmettern\_set1\_5[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-zerschmettern\_set1\_5[4]	3	*	*	*	singular	false[47]	Decl[47]	*[175]	*[175]	*[175]	*[175]	*[175]	input1[175]	19[292]	male[292]	f28ipql67ma8cbjqke6k374ach[292]	speaker: YOU[409]	*->68-2	PerPron[68]	_	_	_	
+22-3	540-545	hatte	GFailure[4]	zerschmettern\_set1\_5[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-zerschmettern\_set1\_5[4]	_	_	_	_	_	false[47]	Decl[47]	*[175]	*[175]	*[175]	*[175]	*[175]	input1[175]	19[292]	male[292]	f28ipql67ma8cbjqke6k374ach[292]	speaker: YOU[409]	_	_	_	_	_	
+22-4	546-551	einen	GFailure[4]	zerschmettern\_set1\_5[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-zerschmettern\_set1\_5[4]	_	_	_	_	_	false[47]	Decl[47]	*[175]	*[175]	*[175]	*[175]	*[175]	input1[175]	19[292]	male[292]	f28ipql67ma8cbjqke6k374ach[292]	speaker: YOU[409]	*->33-1	IndefNP[33]	_	_	_	
+22-5	552-564	Wutanfall...	GFailure[4]	zerschmettern\_set1\_5[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-zerschmettern\_set1\_5[4]	_	_	_	_	_	false[47]	Decl[47]	*[175]	*[175]	*[175]	*[175]	*[175]	input1[175]	19[292]	male[292]	f28ipql67ma8cbjqke6k374ach[292]	speaker: YOU[409]	*->33-1	IndefNP[33]	_	_	_	
+
+#Text=Hat die Stühle durch den ganzen Raum geworfen.
+23-1	566-569	Hat	GFailure[4]	zerschmettern\_set1\_5[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-zerschmettern\_set1\_5[4]	3	*	*	*	singular	false[48]	Decl[48]	*[176]	*[176]	*[176]	*[176]	*[176]	input2[176]	19[293]	male[293]	f28ipql67ma8cbjqke6k374ach[293]	speaker: YOU[410]	*->68-3	zero[68]	_	_	_	
+23-2	570-573	die	GFailure[4]	zerschmettern\_set1\_5[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-zerschmettern\_set1\_5[4]	_	_	_	_	_	false[48]	Decl[48]	*[176]	*[176]	*[176]	*[176]	*[176]	input2[176]	19[293]	male[293]	f28ipql67ma8cbjqke6k374ach[293]	speaker: YOU[410]	*->1-2	DefNP[1]	_	_	_	
+23-3	574-580	Stühle	GFailure[4]	zerschmettern\_set1\_5[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-zerschmettern\_set1\_5[4]	_	_	_	_	_	false[48]	Decl[48]	*[176]	*[176]	*[176]	*[176]	*[176]	input2[176]	19[293]	male[293]	f28ipql67ma8cbjqke6k374ach[293]	speaker: YOU[410]	*->1-2	DefNP[1]	_	_	_	
+23-4	581-586	durch	GFailure[4]	zerschmettern\_set1\_5[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-zerschmettern\_set1\_5[4]	_	_	_	_	_	false[48]	Decl[48]	*[176]	*[176]	*[176]	*[176]	*[176]	input2[176]	19[293]	male[293]	f28ipql67ma8cbjqke6k374ach[293]	speaker: YOU[410]	_	_	_	_	_	
+23-5	587-590	den	GFailure[4]	zerschmettern\_set1\_5[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-zerschmettern\_set1\_5[4]	_	_	_	_	_	false[48]	Decl[48]	*[176]	*[176]	*[176]	*[176]	*[176]	input2[176]	19[293]	male[293]	f28ipql67ma8cbjqke6k374ach[293]	speaker: YOU[410]	*->100-1	DefNP[100]	_	_	_	
+23-6	591-597	ganzen	GFailure[4]	zerschmettern\_set1\_5[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-zerschmettern\_set1\_5[4]	_	_	_	_	_	false[48]	Decl[48]	*[176]	*[176]	*[176]	*[176]	*[176]	input2[176]	19[293]	male[293]	f28ipql67ma8cbjqke6k374ach[293]	speaker: YOU[410]	*->100-1	DefNP[100]	_	_	_	
+23-7	598-602	Raum	GFailure[4]	zerschmettern\_set1\_5[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-zerschmettern\_set1\_5[4]	_	_	_	_	_	false[48]	Decl[48]	*[176]	*[176]	*[176]	*[176]	*[176]	input2[176]	19[293]	male[293]	f28ipql67ma8cbjqke6k374ach[293]	speaker: YOU[410]	*->100-1	DefNP[100]	_	_	_	
+23-8	603-612	geworfen.	GFailure[4]	zerschmettern\_set1\_5[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-zerschmettern\_set1\_5[4]	_	_	_	_	_	false[48]	Decl[48]	*[176]	*[176]	*[176]	*[176]	*[176]	input2[176]	19[293]	male[293]	f28ipql67ma8cbjqke6k374ach[293]	speaker: YOU[410]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+24-1	614-629	END_OF_DOCUMENT	GFailure[4]	zerschmettern\_set1\_5[4]	latin3[4]	f28ipql67ma8cbjqke6k374ach-zerschmettern\_set1\_5[4]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hi, alles okay soweit?
+25-1	631-634	Hi,	GFailure[5]	zerschmettern\_set1\_5[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-zerschmettern\_set1\_5[5]	_	_	_	_	_	false[49]	Int[49]	*[177]	*[177]	*[177]	yn\_3[177]	yesno\_question[177]	openq[177]	*[294]	female[294]	*[294]	speaker:Anastasia[411]	_	_	QAP	*	26-1[50_49]	
+25-2	635-640	alles	GFailure[5]	zerschmettern\_set1\_5[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-zerschmettern\_set1\_5[5]	_	_	_	_	_	false[49]	Int[49]	*[177]	*[177]	*[177]	yn\_3[177]	yesno\_question[177]	openq[177]	*[294]	female[294]	*[294]	speaker:Anastasia[411]	_	_	_	_	_	
+25-3	641-645	okay	GFailure[5]	zerschmettern\_set1\_5[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-zerschmettern\_set1\_5[5]	_	_	_	_	_	false[49]	Int[49]	*[177]	*[177]	*[177]	yn\_3[177]	yesno\_question[177]	openq[177]	*[294]	female[294]	*[294]	speaker:Anastasia[411]	_	_	_	_	_	
+25-4	646-653	soweit?	GFailure[5]	zerschmettern\_set1\_5[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-zerschmettern\_set1\_5[5]	_	_	_	_	_	false[49]	Int[49]	*[177]	*[177]	*[177]	yn\_3[177]	yesno\_question[177]	openq[177]	*[294]	female[294]	*[294]	speaker:Anastasia[411]	_	_	_	_	_	
+
+#Text=Lisa hat Stühle zerschmettert
+26-1	655-659	Lisa	GFailure[5]	zerschmettern\_set1\_5[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-zerschmettern\_set1\_5[5]	_	_	_	_	_	false[50]	Decl[50]	*[178]	zerschmettern[178]	transitive[178]	*[178]	*[178]	item0[178]	36[295]	male[295]	ifdbjqro2nfkup12rv8t6k0eu9[295]	speaker: YOU[412]	*->110-1	PropNm[110]	explanation|CR	*|*	28-1[51_50]|27-1[0_50]	
+26-2	660-663	hat	GFailure[5]	zerschmettern\_set1\_5[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-zerschmettern\_set1\_5[5]	_	_	_	_	_	false[50]	Decl[50]	*[178]	zerschmettern[178]	transitive[178]	*[178]	*[178]	item0[178]	36[295]	male[295]	ifdbjqro2nfkup12rv8t6k0eu9[295]	speaker: YOU[412]	_	_	_	_	_	
+26-3	664-670	Stühle	GFailure[5]	zerschmettern\_set1\_5[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-zerschmettern\_set1\_5[5]	_	_	_	_	_	false[50]	Decl[50]	*[178]	zerschmettern[178]	transitive[178]	*[178]	*[178]	item0[178]	36[295]	male[295]	ifdbjqro2nfkup12rv8t6k0eu9[295]	speaker: YOU[412]	*->71-1	IndefNP[71]	_	_	_	
+26-4	671-684	zerschmettert	GFailure[5]	zerschmettern\_set1\_5[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-zerschmettern\_set1\_5[5]	_	_	_	_	_	false[50]	Decl[50]	*[178]	zerschmettern[178]	transitive[178]	*[178]	*[178]	item0[178]	36[295]	male[295]	ifdbjqro2nfkup12rv8t6k0eu9[295]	speaker: YOU[412]	_	_	_	_	_	
+
+#Text=Häh?
+27-1	686-690	Häh?	GFailure[5]	zerschmettern\_set1\_5[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-zerschmettern\_set1\_5[5]	_	_	_	_	_	false	NA	haeh\_question\_1	*	*	*	*	feedback	*	female	*	speaker:Anastasia	_	_	_	_	_	
+
+#Text=die ist durchgedreht
+28-1	692-695	die	GFailure[5]	zerschmettern\_set1\_5[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-zerschmettern\_set1\_5[5]	_	_	_	_	_	false[51]	Decl[51]	*[179]	*[179]	*[179]	*[179]	*[179]	input1[179]	36[296]	male[296]	ifdbjqro2nfkup12rv8t6k0eu9[296]	speaker: YOU[413]	*->110-2	D-Pron[110]	elaboration	*	29-1[52_51]	
+28-2	696-699	ist	GFailure[5]	zerschmettern\_set1\_5[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-zerschmettern\_set1\_5[5]	_	_	_	_	_	false[51]	Decl[51]	*[179]	*[179]	*[179]	*[179]	*[179]	input1[179]	36[296]	male[296]	ifdbjqro2nfkup12rv8t6k0eu9[296]	speaker: YOU[413]	_	_	_	_	_	
+28-3	700-712	durchgedreht	GFailure[5]	zerschmettern\_set1\_5[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-zerschmettern\_set1\_5[5]	_	_	_	_	_	false[51]	Decl[51]	*[179]	*[179]	*[179]	*[179]	*[179]	input1[179]	36[296]	male[296]	ifdbjqro2nfkup12rv8t6k0eu9[296]	speaker: YOU[413]	_	_	_	_	_	
+
+#Text=volkommen irre
+29-1	714-723	volkommen	GFailure[5]	zerschmettern\_set1\_5[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-zerschmettern\_set1\_5[5]	_	_	_	_	_	false[52]	NA[52]	*[180]	*[180]	*[180]	*[180]	*[180]	input2[180]	36[297]	male[297]	ifdbjqro2nfkup12rv8t6k0eu9[297]	speaker: YOU[414]	_	_	_	_	_	
+29-2	724-728	irre	GFailure[5]	zerschmettern\_set1\_5[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-zerschmettern\_set1\_5[5]	_	_	_	_	_	false[52]	NA[52]	*[180]	*[180]	*[180]	*[180]	*[180]	input2[180]	36[297]	male[297]	ifdbjqro2nfkup12rv8t6k0eu9[297]	speaker: YOU[414]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+30-1	730-745	END_OF_DOCUMENT	GFailure[5]	zerschmettern\_set1\_5[5]	latin3[5]	ifdbjqro2nfkup12rv8t6k0eu9-zerschmettern\_set1\_5[5]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hi, alles okay soweit?
+31-1	747-750	Hi,	GFailure[6]	zerschmettern\_set1\_5[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-zerschmettern\_set1\_5[6]	_	_	_	_	_	false[53]	Int[53]	*[181]	*[181]	*[181]	yn\_3[181]	yesno\_question[181]	openq[181]	*[298]	female[298]	*[298]	speaker:Anastasia[415]	_	_	QAP	*	32-1[54_53]	
+31-2	751-756	alles	GFailure[6]	zerschmettern\_set1\_5[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-zerschmettern\_set1\_5[6]	_	_	_	_	_	false[53]	Int[53]	*[181]	*[181]	*[181]	yn\_3[181]	yesno\_question[181]	openq[181]	*[298]	female[298]	*[298]	speaker:Anastasia[415]	_	_	_	_	_	
+31-3	757-761	okay	GFailure[6]	zerschmettern\_set1\_5[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-zerschmettern\_set1\_5[6]	_	_	_	_	_	false[53]	Int[53]	*[181]	*[181]	*[181]	yn\_3[181]	yesno\_question[181]	openq[181]	*[298]	female[298]	*[298]	speaker:Anastasia[415]	_	_	_	_	_	
+31-4	762-769	soweit?	GFailure[6]	zerschmettern\_set1\_5[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-zerschmettern\_set1\_5[6]	_	_	_	_	_	false[53]	Int[53]	*[181]	*[181]	*[181]	yn\_3[181]	yesno\_question[181]	openq[181]	*[298]	female[298]	*[298]	speaker:Anastasia[415]	_	_	_	_	_	
+
+#Text=Lisa hat Stühle zerschmettert
+32-1	771-775	Lisa	GFailure[6]	zerschmettern\_set1\_5[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-zerschmettern\_set1\_5[6]	_	_	_	_	_	false[54]	Decl[54]	*[182]	zerschmettern[182]	transitive[182]	*[182]	*[182]	item0[182]	27[299]	female[299]	nn1fs9jkn62eo9089lo89usbkb[299]	speaker: YOU[416]	*->64-1	PropNm[64]	explanation|result|CR	*|*|*	34-1[55_54]|35-1[56_54]|33-1[0_54]	
+32-2	776-779	hat	GFailure[6]	zerschmettern\_set1\_5[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-zerschmettern\_set1\_5[6]	_	_	_	_	_	false[54]	Decl[54]	*[182]	zerschmettern[182]	transitive[182]	*[182]	*[182]	item0[182]	27[299]	female[299]	nn1fs9jkn62eo9089lo89usbkb[299]	speaker: YOU[416]	_	_	_	_	_	
+32-3	780-786	Stühle	GFailure[6]	zerschmettern\_set1\_5[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-zerschmettern\_set1\_5[6]	_	_	_	_	_	false[54]	Decl[54]	*[182]	zerschmettern[182]	transitive[182]	*[182]	*[182]	item0[182]	27[299]	female[299]	nn1fs9jkn62eo9089lo89usbkb[299]	speaker: YOU[416]	*->54-1	IndefNP[54]	_	_	_	
+32-4	787-800	zerschmettert	GFailure[6]	zerschmettern\_set1\_5[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-zerschmettern\_set1\_5[6]	_	_	_	_	_	false[54]	Decl[54]	*[182]	zerschmettern[182]	transitive[182]	*[182]	*[182]	item0[182]	27[299]	female[299]	nn1fs9jkn62eo9089lo89usbkb[299]	speaker: YOU[416]	_	_	_	_	_	
+
+#Text=Häh?
+33-1	802-806	Häh?	GFailure[6]	zerschmettern\_set1\_5[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-zerschmettern\_set1\_5[6]	_	_	_	_	_	false	NA	haeh\_question\_1	*	*	*	*	feedback	*	female	*	speaker:Anastasia	_	_	_	_	_	
+
+#Text=Sie arbeitet an irgendeinem Kunstprojekt.
+34-1	808-811	Sie	GFailure[6]	zerschmettern\_set1\_5[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-zerschmettern\_set1\_5[6]	3	*	*	*	singular	false[55]	Decl[55]	*[183]	*[183]	*[183]	*[183]	*[183]	input1[183]	27[300]	female[300]	nn1fs9jkn62eo9089lo89usbkb[300]	speaker: YOU[417]	*->23-1|*->64-2	clause[23]|PerPron[64]	_	_	_	
+34-2	812-820	arbeitet	GFailure[6]	zerschmettern\_set1\_5[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-zerschmettern\_set1\_5[6]	_	_	_	_	_	false[55]	Decl[55]	*[183]	*[183]	*[183]	*[183]	*[183]	input1[183]	27[300]	female[300]	nn1fs9jkn62eo9089lo89usbkb[300]	speaker: YOU[417]	*->23-1	clause[23]	_	_	_	
+34-3	821-823	an	GFailure[6]	zerschmettern\_set1\_5[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-zerschmettern\_set1\_5[6]	_	_	_	_	_	false[55]	Decl[55]	*[183]	*[183]	*[183]	*[183]	*[183]	input1[183]	27[300]	female[300]	nn1fs9jkn62eo9089lo89usbkb[300]	speaker: YOU[417]	*->23-1	clause[23]	_	_	_	
+34-4	824-835	irgendeinem	GFailure[6]	zerschmettern\_set1\_5[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-zerschmettern\_set1\_5[6]	_	_	_	_	_	false[55]	Decl[55]	*[183]	*[183]	*[183]	*[183]	*[183]	input1[183]	27[300]	female[300]	nn1fs9jkn62eo9089lo89usbkb[300]	speaker: YOU[417]	*->23-1|*->3-1	clause[23]|IndefNP[3]	_	_	_	
+34-5	836-849	Kunstprojekt.	GFailure[6]	zerschmettern\_set1\_5[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-zerschmettern\_set1\_5[6]	_	_	_	_	_	false[55]	Decl[55]	*[183]	*[183]	*[183]	*[183]	*[183]	input1[183]	27[300]	female[300]	nn1fs9jkn62eo9089lo89usbkb[300]	speaker: YOU[417]	*->23-1|*->3-1	clause[23]|IndefNP[3]	_	_	_	
+
+#Text=Ich bin gespannt was das wird.
+35-1	851-854	Ich	GFailure[6]	zerschmettern\_set1\_5[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-zerschmettern\_set1\_5[6]	1	*	*	*	singular	false[56]	Decl[56]	*[184]	*[184]	*[184]	*[184]	*[184]	input2[184]	27[301]	female[301]	nn1fs9jkn62eo9089lo89usbkb[301]	speaker: YOU[418]	*->55-1	PerPron[55]	_	_	_	
+35-2	855-858	bin	GFailure[6]	zerschmettern\_set1\_5[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-zerschmettern\_set1\_5[6]	_	_	_	_	_	false[56]	Decl[56]	*[184]	*[184]	*[184]	*[184]	*[184]	input2[184]	27[301]	female[301]	nn1fs9jkn62eo9089lo89usbkb[301]	speaker: YOU[418]	_	_	_	_	_	
+35-3	859-867	gespannt	GFailure[6]	zerschmettern\_set1\_5[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-zerschmettern\_set1\_5[6]	_	_	_	_	_	false[56]	Decl[56]	*[184]	*[184]	*[184]	*[184]	*[184]	input2[184]	27[301]	female[301]	nn1fs9jkn62eo9089lo89usbkb[301]	speaker: YOU[418]	_	_	_	_	_	
+35-4	868-871	was	GFailure[6]	zerschmettern\_set1\_5[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-zerschmettern\_set1\_5[6]	_	_	_	_	_	false[56]	Decl[56]	*[184]	*[184]	*[184]	*[184]	*[184]	input2[184]	27[301]	female[301]	nn1fs9jkn62eo9089lo89usbkb[301]	speaker: YOU[418]	_	_	_	_	_	
+35-5	872-875	das	GFailure[6]	zerschmettern\_set1\_5[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-zerschmettern\_set1\_5[6]	3	*	*	*	singular	false[56]	Decl[56]	*[184]	*[184]	*[184]	*[184]	*[184]	input2[184]	27[301]	female[301]	nn1fs9jkn62eo9089lo89usbkb[301]	speaker: YOU[418]	*->23-2	D-Pron[23]	_	_	_	
+35-6	876-881	wird.	GFailure[6]	zerschmettern\_set1\_5[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-zerschmettern\_set1\_5[6]	_	_	_	_	_	false[56]	Decl[56]	*[184]	*[184]	*[184]	*[184]	*[184]	input2[184]	27[301]	female[301]	nn1fs9jkn62eo9089lo89usbkb[301]	speaker: YOU[418]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+36-1	883-898	END_OF_DOCUMENT	GFailure[6]	zerschmettern\_set1\_5[6]	latin3[6]	nn1fs9jkn62eo9089lo89usbkb-zerschmettern\_set1\_5[6]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hi, alles okay soweit?
+37-1	900-903	Hi,	GFailure[7]	zerschmettern\_set1\_5[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-zerschmettern\_set1\_5[7]	_	_	_	_	_	false[57]	Int[57]	*[185]	*[185]	*[185]	yn\_3[185]	yesno\_question[185]	openq[185]	*[302]	female[302]	*[302]	speaker:Anastasia[419]	_	_	QAP	*	38-1[58_57]	
+37-2	904-909	alles	GFailure[7]	zerschmettern\_set1\_5[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-zerschmettern\_set1\_5[7]	_	_	_	_	_	false[57]	Int[57]	*[185]	*[185]	*[185]	yn\_3[185]	yesno\_question[185]	openq[185]	*[302]	female[302]	*[302]	speaker:Anastasia[419]	_	_	_	_	_	
+37-3	910-914	okay	GFailure[7]	zerschmettern\_set1\_5[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-zerschmettern\_set1\_5[7]	_	_	_	_	_	false[57]	Int[57]	*[185]	*[185]	*[185]	yn\_3[185]	yesno\_question[185]	openq[185]	*[302]	female[302]	*[302]	speaker:Anastasia[419]	_	_	_	_	_	
+37-4	915-922	soweit?	GFailure[7]	zerschmettern\_set1\_5[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-zerschmettern\_set1\_5[7]	_	_	_	_	_	false[57]	Int[57]	*[185]	*[185]	*[185]	yn\_3[185]	yesno\_question[185]	openq[185]	*[302]	female[302]	*[302]	speaker:Anastasia[419]	_	_	_	_	_	
+
+#Text=Lisa hat Stühle zerschmettert
+38-1	924-928	Lisa	GFailure[7]	zerschmettern\_set1\_5[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-zerschmettern\_set1\_5[7]	_	_	_	_	_	false[58]	Decl[58]	*[186]	zerschmettern[186]	transitive[186]	*[186]	*[186]	item0[186]	24[303]	male[303]	qaaqp55l485lvs9rdvpvbtmqal[303]	speaker: YOU[420]	*->24-1	PropNm[24]	explanation|elaboration|CR	*|*|*	40-1[59_58]|41-1[60_58]|39-1[0_58]	
+38-2	929-932	hat	GFailure[7]	zerschmettern\_set1\_5[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-zerschmettern\_set1\_5[7]	_	_	_	_	_	false[58]	Decl[58]	*[186]	zerschmettern[186]	transitive[186]	*[186]	*[186]	item0[186]	24[303]	male[303]	qaaqp55l485lvs9rdvpvbtmqal[303]	speaker: YOU[420]	_	_	_	_	_	
+38-3	933-939	Stühle	GFailure[7]	zerschmettern\_set1\_5[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-zerschmettern\_set1\_5[7]	_	_	_	_	_	false[58]	Decl[58]	*[186]	zerschmettern[186]	transitive[186]	*[186]	*[186]	item0[186]	24[303]	male[303]	qaaqp55l485lvs9rdvpvbtmqal[303]	speaker: YOU[420]	*->40-1	IndefNP[40]	_	_	_	
+38-4	940-953	zerschmettert	GFailure[7]	zerschmettern\_set1\_5[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-zerschmettern\_set1\_5[7]	_	_	_	_	_	false[58]	Decl[58]	*[186]	zerschmettern[186]	transitive[186]	*[186]	*[186]	item0[186]	24[303]	male[303]	qaaqp55l485lvs9rdvpvbtmqal[303]	speaker: YOU[420]	_	_	_	_	_	
+
+#Text=Häh?
+39-1	955-959	Häh?	GFailure[7]	zerschmettern\_set1\_5[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-zerschmettern\_set1\_5[7]	_	_	_	_	_	false	NA	haeh\_question\_1	*	*	*	*	feedback	*	female	*	speaker:Anastasia	_	_	_	_	_	
+
+#Text=Lisa stritt mit ihrer Klassenkameradin
+40-1	961-965	Lisa	GFailure[7]	zerschmettern\_set1\_5[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-zerschmettern\_set1\_5[7]	3	*	*	*	singular	false[59]	Decl[59]	*[187]	*[187]	*[187]	*[187]	*[187]	input1[187]	24[304]	male[304]	qaaqp55l485lvs9rdvpvbtmqal[304]	speaker: YOU[421]	*->24-2	PropNm[24]	result	*	41-1[60_59]	
+40-2	966-972	stritt	GFailure[7]	zerschmettern\_set1\_5[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-zerschmettern\_set1\_5[7]	_	_	_	_	_	false[59]	Decl[59]	*[187]	*[187]	*[187]	*[187]	*[187]	input1[187]	24[304]	male[304]	qaaqp55l485lvs9rdvpvbtmqal[304]	speaker: YOU[421]	_	_	_	_	_	
+40-3	973-976	mit	GFailure[7]	zerschmettern\_set1\_5[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-zerschmettern\_set1\_5[7]	_	_	_	_	_	false[59]	Decl[59]	*[187]	*[187]	*[187]	*[187]	*[187]	input1[187]	24[304]	male[304]	qaaqp55l485lvs9rdvpvbtmqal[304]	speaker: YOU[421]	_	_	_	_	_	
+40-4	977-982	ihrer	GFailure[7]	zerschmettern\_set1\_5[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-zerschmettern\_set1\_5[7]	3	*	*	*	singular	false[59]	Decl[59]	*[187]	*[187]	*[187]	*[187]	*[187]	input1[187]	24[304]	male[304]	qaaqp55l485lvs9rdvpvbtmqal[304]	speaker: YOU[421]	*->58-1|*->24-3	DefNP[58]|PossePron[24]	_	_	_	
+40-5	983-999	Klassenkameradin	GFailure[7]	zerschmettern\_set1\_5[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-zerschmettern\_set1\_5[7]	_	_	_	_	_	false[59]	Decl[59]	*[187]	*[187]	*[187]	*[187]	*[187]	input1[187]	24[304]	male[304]	qaaqp55l485lvs9rdvpvbtmqal[304]	speaker: YOU[421]	*->58-1	DefNP[58]	_	_	_	
+
+#Text=Letztenendes zerschmetterte sie einige Stühle im Klassenraum
+41-1	1001-1013	Letztenendes	GFailure[7]	zerschmettern\_set1\_5[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-zerschmettern\_set1\_5[7]	_	_	_	_	_	false[60]	Decl[60]	*[188]	*[188]	*[188]	*[188]	*[188]	input2[188]	24[305]	male[305]	qaaqp55l485lvs9rdvpvbtmqal[305]	speaker: YOU[422]	_	_	_	_	_	
+41-2	1014-1028	zerschmetterte	GFailure[7]	zerschmettern\_set1\_5[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-zerschmettern\_set1\_5[7]	_	_	_	_	_	false[60]	Decl[60]	*[188]	*[188]	*[188]	*[188]	*[188]	input2[188]	24[305]	male[305]	qaaqp55l485lvs9rdvpvbtmqal[305]	speaker: YOU[422]	_	_	_	_	_	
+41-3	1029-1032	sie	GFailure[7]	zerschmettern\_set1\_5[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-zerschmettern\_set1\_5[7]	3	*	*	*	singular	false[60]	Decl[60]	*[188]	*[188]	*[188]	*[188]	*[188]	input2[188]	24[305]	male[305]	qaaqp55l485lvs9rdvpvbtmqal[305]	speaker: YOU[422]	*->24-4	PerPron[24]	_	_	_	
+41-4	1033-1039	einige	GFailure[7]	zerschmettern\_set1\_5[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-zerschmettern\_set1\_5[7]	_	_	_	_	_	false[60]	Decl[60]	*[188]	*[188]	*[188]	*[188]	*[188]	input2[188]	24[305]	male[305]	qaaqp55l485lvs9rdvpvbtmqal[305]	speaker: YOU[422]	*->40-2	IndefNP[40]	_	_	_	
+41-5	1040-1046	Stühle	GFailure[7]	zerschmettern\_set1\_5[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-zerschmettern\_set1\_5[7]	_	_	_	_	_	false[60]	Decl[60]	*[188]	*[188]	*[188]	*[188]	*[188]	input2[188]	24[305]	male[305]	qaaqp55l485lvs9rdvpvbtmqal[305]	speaker: YOU[422]	*->40-2	IndefNP[40]	_	_	_	
+41-6	1047-1049	im	GFailure[7]	zerschmettern\_set1\_5[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-zerschmettern\_set1\_5[7]	_	_	_	_	_	false[60]	Decl[60]	*[188]	*[188]	*[188]	*[188]	*[188]	input2[188]	24[305]	male[305]	qaaqp55l485lvs9rdvpvbtmqal[305]	speaker: YOU[422]	*->40-2|*->31-1	IndefNP[40]|DefNP[31]	_	_	_	
+41-7	1050-1061	Klassenraum	GFailure[7]	zerschmettern\_set1\_5[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-zerschmettern\_set1\_5[7]	_	_	_	_	_	false[60]	Decl[60]	*[188]	*[188]	*[188]	*[188]	*[188]	input2[188]	24[305]	male[305]	qaaqp55l485lvs9rdvpvbtmqal[305]	speaker: YOU[422]	*->40-2|*->31-1	IndefNP[40]|DefNP[31]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+42-1	1063-1078	END_OF_DOCUMENT	GFailure[7]	zerschmettern\_set1\_5[7]	latin3[7]	qaaqp55l485lvs9rdvpvbtmqal-zerschmettern\_set1\_5[7]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hi, alles okay soweit?
+43-1	1080-1083	Hi,	GFailure[8]	zerschmettern\_set1\_5[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-zerschmettern\_set1\_5[8]	_	_	_	_	_	false[61]	Int[61]	*[189]	*[189]	*[189]	yn\_3[189]	yesno\_question[189]	openq[189]	*[306]	female[306]	*[306]	speaker:Anastasia[423]	_	_	QAP	*	44-1[62_61]	
+43-2	1084-1089	alles	GFailure[8]	zerschmettern\_set1\_5[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-zerschmettern\_set1\_5[8]	_	_	_	_	_	false[61]	Int[61]	*[189]	*[189]	*[189]	yn\_3[189]	yesno\_question[189]	openq[189]	*[306]	female[306]	*[306]	speaker:Anastasia[423]	_	_	_	_	_	
+43-3	1090-1094	okay	GFailure[8]	zerschmettern\_set1\_5[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-zerschmettern\_set1\_5[8]	_	_	_	_	_	false[61]	Int[61]	*[189]	*[189]	*[189]	yn\_3[189]	yesno\_question[189]	openq[189]	*[306]	female[306]	*[306]	speaker:Anastasia[423]	_	_	_	_	_	
+43-4	1095-1102	soweit?	GFailure[8]	zerschmettern\_set1\_5[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-zerschmettern\_set1\_5[8]	_	_	_	_	_	false[61]	Int[61]	*[189]	*[189]	*[189]	yn\_3[189]	yesno\_question[189]	openq[189]	*[306]	female[306]	*[306]	speaker:Anastasia[423]	_	_	_	_	_	
+
+#Text=Lisa hat Stühle zerschmettert
+44-1	1104-1108	Lisa	GFailure[8]	zerschmettern\_set1\_5[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-zerschmettern\_set1\_5[8]	_	_	_	_	_	false[62]	Decl[62]	*[190]	zerschmettern[190]	transitive[190]	*[190]	*[190]	item0[190]	25[307]	female[307]	t6ah1r7hfmcncb44kgnh0sjmv6[307]	speaker: YOU[424]	*->11-1	PropNm[11]	CR	*	45-1[0_62]	
+44-2	1109-1112	hat	GFailure[8]	zerschmettern\_set1\_5[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-zerschmettern\_set1\_5[8]	_	_	_	_	_	false[62]	Decl[62]	*[190]	zerschmettern[190]	transitive[190]	*[190]	*[190]	item0[190]	25[307]	female[307]	t6ah1r7hfmcncb44kgnh0sjmv6[307]	speaker: YOU[424]	_	_	_	_	_	
+44-3	1113-1119	Stühle	GFailure[8]	zerschmettern\_set1\_5[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-zerschmettern\_set1\_5[8]	_	_	_	_	_	false[62]	Decl[62]	*[190]	zerschmettern[190]	transitive[190]	*[190]	*[190]	item0[190]	25[307]	female[307]	t6ah1r7hfmcncb44kgnh0sjmv6[307]	speaker: YOU[424]	*->51-1	IndefNP[51]	_	_	_	
+44-4	1120-1133	zerschmettert	GFailure[8]	zerschmettern\_set1\_5[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-zerschmettern\_set1\_5[8]	_	_	_	_	_	false[62]	Decl[62]	*[190]	zerschmettern[190]	transitive[190]	*[190]	*[190]	item0[190]	25[307]	female[307]	t6ah1r7hfmcncb44kgnh0sjmv6[307]	speaker: YOU[424]	_	_	_	_	_	
+
+#Text=Häh?
+45-1	1135-1139	Häh?	GFailure[8]	zerschmettern\_set1\_5[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-zerschmettern\_set1\_5[8]	_	_	_	_	_	false	NA	haeh\_question\_1	*	*	*	*	feedback	*	female	*	speaker:Anastasia	_	_	_	_	_	
+
+#Text=Ja ich konnte meinen Augen kaum glauben
+46-1	1141-1143	Ja	GFailure[8]	zerschmettern\_set1\_5[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-zerschmettern\_set1\_5[8]	_	_	_	_	_	false[63]	Decl[63]	*[191]	*[191]	*[191]	*[191]	*[191]	input1[191]	25[308]	female[308]	t6ah1r7hfmcncb44kgnh0sjmv6[308]	speaker: YOU[425]	_	_	_	_	_	
+46-2	1144-1147	ich	GFailure[8]	zerschmettern\_set1\_5[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-zerschmettern\_set1\_5[8]	1	*	*	*	singular	false[63]	Decl[63]	*[191]	*[191]	*[191]	*[191]	*[191]	input1[191]	25[308]	female[308]	t6ah1r7hfmcncb44kgnh0sjmv6[308]	speaker: YOU[425]	*->29-1	PerPron[29]	_	_	_	
+46-3	1148-1154	konnte	GFailure[8]	zerschmettern\_set1\_5[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-zerschmettern\_set1\_5[8]	_	_	_	_	_	false[63]	Decl[63]	*[191]	*[191]	*[191]	*[191]	*[191]	input1[191]	25[308]	female[308]	t6ah1r7hfmcncb44kgnh0sjmv6[308]	speaker: YOU[425]	_	_	_	_	_	
+46-4	1155-1161	meinen	GFailure[8]	zerschmettern\_set1\_5[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-zerschmettern\_set1\_5[8]	1	*	*	*	singular	false[63]	Decl[63]	*[191]	*[191]	*[191]	*[191]	*[191]	input1[191]	25[308]	female[308]	t6ah1r7hfmcncb44kgnh0sjmv6[308]	speaker: YOU[425]	*->101-1|*->29-2	DefNP[101]|PossePron[29]	_	_	_	
+46-5	1162-1167	Augen	GFailure[8]	zerschmettern\_set1\_5[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-zerschmettern\_set1\_5[8]	_	_	_	_	_	false[63]	Decl[63]	*[191]	*[191]	*[191]	*[191]	*[191]	input1[191]	25[308]	female[308]	t6ah1r7hfmcncb44kgnh0sjmv6[308]	speaker: YOU[425]	*->101-1	DefNP[101]	_	_	_	
+46-6	1168-1172	kaum	GFailure[8]	zerschmettern\_set1\_5[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-zerschmettern\_set1\_5[8]	_	_	_	_	_	false[63]	Decl[63]	*[191]	*[191]	*[191]	*[191]	*[191]	input1[191]	25[308]	female[308]	t6ah1r7hfmcncb44kgnh0sjmv6[308]	speaker: YOU[425]	_	_	_	_	_	
+46-7	1173-1180	glauben	GFailure[8]	zerschmettern\_set1\_5[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-zerschmettern\_set1\_5[8]	_	_	_	_	_	false[63]	Decl[63]	*[191]	*[191]	*[191]	*[191]	*[191]	input1[191]	25[308]	female[308]	t6ah1r7hfmcncb44kgnh0sjmv6[308]	speaker: YOU[425]	_	_	_	_	_	
+
+#Text=Sie war komplett in Rage
+47-1	1182-1185	Sie	GFailure[8]	zerschmettern\_set1\_5[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-zerschmettern\_set1\_5[8]	3	*	*	*	singular	false[64]	Decl[64]	*[192]	*[192]	*[192]	*[192]	*[192]	input2[192]	25[309]	female[309]	t6ah1r7hfmcncb44kgnh0sjmv6[309]	speaker: YOU[426]	*->11-2	PerPron[11]	_	_	_	
+47-2	1186-1189	war	GFailure[8]	zerschmettern\_set1\_5[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-zerschmettern\_set1\_5[8]	_	_	_	_	_	false[64]	Decl[64]	*[192]	*[192]	*[192]	*[192]	*[192]	input2[192]	25[309]	female[309]	t6ah1r7hfmcncb44kgnh0sjmv6[309]	speaker: YOU[426]	_	_	_	_	_	
+47-3	1190-1198	komplett	GFailure[8]	zerschmettern\_set1\_5[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-zerschmettern\_set1\_5[8]	_	_	_	_	_	false[64]	Decl[64]	*[192]	*[192]	*[192]	*[192]	*[192]	input2[192]	25[309]	female[309]	t6ah1r7hfmcncb44kgnh0sjmv6[309]	speaker: YOU[426]	_	_	_	_	_	
+47-4	1199-1201	in	GFailure[8]	zerschmettern\_set1\_5[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-zerschmettern\_set1\_5[8]	_	_	_	_	_	false[64]	Decl[64]	*[192]	*[192]	*[192]	*[192]	*[192]	input2[192]	25[309]	female[309]	t6ah1r7hfmcncb44kgnh0sjmv6[309]	speaker: YOU[426]	_	_	_	_	_	
+47-5	1202-1206	Rage	GFailure[8]	zerschmettern\_set1\_5[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-zerschmettern\_set1\_5[8]	_	_	_	_	_	false[64]	Decl[64]	*[192]	*[192]	*[192]	*[192]	*[192]	input2[192]	25[309]	female[309]	t6ah1r7hfmcncb44kgnh0sjmv6[309]	speaker: YOU[426]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+48-1	1208-1223	END_OF_DOCUMENT	GFailure[8]	zerschmettern\_set1\_5[8]	latin3[8]	t6ah1r7hfmcncb44kgnh0sjmv6-zerschmettern\_set1\_5[8]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hi, alles okay soweit?
+49-1	1225-1228	Hi,	GFailure[9]	zerschmettern\_set1\_5[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-zerschmettern\_set1\_5[9]	_	_	_	_	_	false[65]	Int[65]	*[193]	*[193]	*[193]	yn\_3[193]	yesno\_question[193]	openq[193]	*[310]	female[310]	*[310]	speaker:Anastasia[427]	_	_	QAP	*	50-1[66_65]	
+49-2	1229-1234	alles	GFailure[9]	zerschmettern\_set1\_5[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-zerschmettern\_set1\_5[9]	_	_	_	_	_	false[65]	Int[65]	*[193]	*[193]	*[193]	yn\_3[193]	yesno\_question[193]	openq[193]	*[310]	female[310]	*[310]	speaker:Anastasia[427]	_	_	_	_	_	
+49-3	1235-1239	okay	GFailure[9]	zerschmettern\_set1\_5[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-zerschmettern\_set1\_5[9]	_	_	_	_	_	false[65]	Int[65]	*[193]	*[193]	*[193]	yn\_3[193]	yesno\_question[193]	openq[193]	*[310]	female[310]	*[310]	speaker:Anastasia[427]	_	_	_	_	_	
+49-4	1240-1247	soweit?	GFailure[9]	zerschmettern\_set1\_5[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-zerschmettern\_set1\_5[9]	_	_	_	_	_	false[65]	Int[65]	*[193]	*[193]	*[193]	yn\_3[193]	yesno\_question[193]	openq[193]	*[310]	female[310]	*[310]	speaker:Anastasia[427]	_	_	_	_	_	
+
+#Text=Lisa hat Stühle zerschmettert
+50-1	1249-1253	Lisa	GFailure[9]	zerschmettern\_set1\_5[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-zerschmettern\_set1\_5[9]	_	_	_	_	_	false[66]	Decl[66]	*[194]	zerschmettern[194]	transitive[194]	*[194]	*[194]	item0[194]	29[311]	female[311]	ue2vk0ts1hkpki58vsa3j8t39j[311]	speaker: YOU[428]	*->18-1	PropNm[18]	explanation|CR	*|*	52-1[67_66]|51-1[0_66]	
+50-2	1254-1257	hat	GFailure[9]	zerschmettern\_set1\_5[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-zerschmettern\_set1\_5[9]	_	_	_	_	_	false[66]	Decl[66]	*[194]	zerschmettern[194]	transitive[194]	*[194]	*[194]	item0[194]	29[311]	female[311]	ue2vk0ts1hkpki58vsa3j8t39j[311]	speaker: YOU[428]	_	_	_	_	_	
+50-3	1258-1264	Stühle	GFailure[9]	zerschmettern\_set1\_5[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-zerschmettern\_set1\_5[9]	_	_	_	_	_	false[66]	Decl[66]	*[194]	zerschmettern[194]	transitive[194]	*[194]	*[194]	item0[194]	29[311]	female[311]	ue2vk0ts1hkpki58vsa3j8t39j[311]	speaker: YOU[428]	*->65-1	IndefNP[65]	_	_	_	
+50-4	1265-1278	zerschmettert	GFailure[9]	zerschmettern\_set1\_5[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-zerschmettern\_set1\_5[9]	_	_	_	_	_	false[66]	Decl[66]	*[194]	zerschmettern[194]	transitive[194]	*[194]	*[194]	item0[194]	29[311]	female[311]	ue2vk0ts1hkpki58vsa3j8t39j[311]	speaker: YOU[428]	_	_	_	_	_	
+
+#Text=Häh?
+51-1	1280-1284	Häh?	GFailure[9]	zerschmettern\_set1\_5[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-zerschmettern\_set1\_5[9]	_	_	_	_	_	false	NA	haeh\_question\_1	*	*	*	*	feedback	*	female	*	speaker:Anastasia	_	_	_	_	_	
+
+#Text=Sie hatte einen Wutausbruch.
+52-1	1286-1289	Sie	GFailure[9]	zerschmettern\_set1\_5[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-zerschmettern\_set1\_5[9]	3	*	*	*	singular	false[67]	Decl[67]	*[195]	*[195]	*[195]	*[195]	*[195]	input1[195]	29[312]	female[312]	ue2vk0ts1hkpki58vsa3j8t39j[312]	speaker: YOU[429]	*->18-2	PerPron[18]	result	*	53-1[68_67]	
+52-2	1290-1295	hatte	GFailure[9]	zerschmettern\_set1\_5[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-zerschmettern\_set1\_5[9]	_	_	_	_	_	false[67]	Decl[67]	*[195]	*[195]	*[195]	*[195]	*[195]	input1[195]	29[312]	female[312]	ue2vk0ts1hkpki58vsa3j8t39j[312]	speaker: YOU[429]	_	_	_	_	_	
+52-3	1296-1301	einen	GFailure[9]	zerschmettern\_set1\_5[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-zerschmettern\_set1\_5[9]	_	_	_	_	_	false[67]	Decl[67]	*[195]	*[195]	*[195]	*[195]	*[195]	input1[195]	29[312]	female[312]	ue2vk0ts1hkpki58vsa3j8t39j[312]	speaker: YOU[429]	*->118-1	IndefNP[118]	_	_	_	
+52-4	1302-1314	Wutausbruch.	GFailure[9]	zerschmettern\_set1\_5[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-zerschmettern\_set1\_5[9]	_	_	_	_	_	false[67]	Decl[67]	*[195]	*[195]	*[195]	*[195]	*[195]	input1[195]	29[312]	female[312]	ue2vk0ts1hkpki58vsa3j8t39j[312]	speaker: YOU[429]	*->118-1	IndefNP[118]	_	_	_	
+
+#Text=Ich glaube <BR> sie muss zum Psychologen.
+53-1	1316-1319	Ich	GFailure[9]	zerschmettern\_set1\_5[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-zerschmettern\_set1\_5[9]	1	*	*	*	singular	false[68]	Decl[68]	*[196]	*[196]	*[196]	*[196]	*[196]	input2[196]	29[313]	female[313]	ue2vk0ts1hkpki58vsa3j8t39j[313]	speaker: YOU[430]	*->34-1	PerPron[34]	_	_	_	
+53-2	1320-1326	glaube	GFailure[9]	zerschmettern\_set1\_5[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-zerschmettern\_set1\_5[9]	_	_	_	_	_	false[68]	Decl[68]	*[196]	*[196]	*[196]	*[196]	*[196]	input2[196]	29[313]	female[313]	ue2vk0ts1hkpki58vsa3j8t39j[313]	speaker: YOU[430]	_	_	_	_	_	
+53-3	1327-1331	<BR>	GFailure[9]	zerschmettern\_set1\_5[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-zerschmettern\_set1\_5[9]	_	_	_	_	_	false[68]	Decl[68]	*[196]	*[196]	*[196]	*[196]	*[196]	input2[196]	29[313]	female[313]	ue2vk0ts1hkpki58vsa3j8t39j[313]	speaker: YOU[430]	_	_	_	_	_	
+53-4	1332-1335	sie	GFailure[9]	zerschmettern\_set1\_5[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-zerschmettern\_set1\_5[9]	3	*	*	*	singular	false[68]	Decl[68]	*[196]	*[196]	*[196]	*[196]	*[196]	input2[196]	29[313]	female[313]	ue2vk0ts1hkpki58vsa3j8t39j[313]	speaker: YOU[430]	*->18-3	PerPron[18]	_	_	_	
+53-5	1336-1340	muss	GFailure[9]	zerschmettern\_set1\_5[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-zerschmettern\_set1\_5[9]	_	_	_	_	_	false[68]	Decl[68]	*[196]	*[196]	*[196]	*[196]	*[196]	input2[196]	29[313]	female[313]	ue2vk0ts1hkpki58vsa3j8t39j[313]	speaker: YOU[430]	_	_	_	_	_	
+53-6	1341-1344	zum	GFailure[9]	zerschmettern\_set1\_5[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-zerschmettern\_set1\_5[9]	_	_	_	_	_	false[68]	Decl[68]	*[196]	*[196]	*[196]	*[196]	*[196]	input2[196]	29[313]	female[313]	ue2vk0ts1hkpki58vsa3j8t39j[313]	speaker: YOU[430]	*->52-1	DefNP[52]	_	_	_	
+53-7	1345-1357	Psychologen.	GFailure[9]	zerschmettern\_set1\_5[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-zerschmettern\_set1\_5[9]	_	_	_	_	_	false[68]	Decl[68]	*[196]	*[196]	*[196]	*[196]	*[196]	input2[196]	29[313]	female[313]	ue2vk0ts1hkpki58vsa3j8t39j[313]	speaker: YOU[430]	*->52-1	DefNP[52]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+54-1	1359-1374	END_OF_DOCUMENT	GFailure[9]	zerschmettern\_set1\_5[9]	latin3[9]	ue2vk0ts1hkpki58vsa3j8t39j-zerschmettern\_set1\_5[9]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hi, alles okay soweit?
+55-1	1376-1379	Hi,	GFailure[10]	zerschmettern\_set1\_5[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-zerschmettern\_set1\_5[10]	_	_	_	_	_	false[69]	Int[69]	*[197]	*[197]	*[197]	yn\_3[197]	yesno\_question[197]	openq[197]	*[314]	female[314]	*[314]	speaker:Anastasia[431]	_	_	QAP	*	56-1[70_69]	
+55-2	1380-1385	alles	GFailure[10]	zerschmettern\_set1\_5[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-zerschmettern\_set1\_5[10]	_	_	_	_	_	false[69]	Int[69]	*[197]	*[197]	*[197]	yn\_3[197]	yesno\_question[197]	openq[197]	*[314]	female[314]	*[314]	speaker:Anastasia[431]	_	_	_	_	_	
+55-3	1386-1390	okay	GFailure[10]	zerschmettern\_set1\_5[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-zerschmettern\_set1\_5[10]	_	_	_	_	_	false[69]	Int[69]	*[197]	*[197]	*[197]	yn\_3[197]	yesno\_question[197]	openq[197]	*[314]	female[314]	*[314]	speaker:Anastasia[431]	_	_	_	_	_	
+55-4	1391-1398	soweit?	GFailure[10]	zerschmettern\_set1\_5[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-zerschmettern\_set1\_5[10]	_	_	_	_	_	false[69]	Int[69]	*[197]	*[197]	*[197]	yn\_3[197]	yesno\_question[197]	openq[197]	*[314]	female[314]	*[314]	speaker:Anastasia[431]	_	_	_	_	_	
+
+#Text=Lisa hat Stühle zerschmettert
+56-1	1400-1404	Lisa	GFailure[10]	zerschmettern\_set1\_5[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-zerschmettern\_set1\_5[10]	_	_	_	_	_	false[70]	Decl[70]	*[198]	zerschmettern[198]	transitive[198]	*[198]	*[198]	item0[198]	58[315]	male[315]	v3le8i0hm1ekj0ps9oou7k56t5[315]	speaker: YOU[432]	*->121-1	PropNm[121]	explanation|result|CR	*|*|*	58-1[0_70]|59-1[71_70]|57-1[0_70]	
+56-2	1405-1408	hat	GFailure[10]	zerschmettern\_set1\_5[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-zerschmettern\_set1\_5[10]	_	_	_	_	_	false[70]	Decl[70]	*[198]	zerschmettern[198]	transitive[198]	*[198]	*[198]	item0[198]	58[315]	male[315]	v3le8i0hm1ekj0ps9oou7k56t5[315]	speaker: YOU[432]	_	_	_	_	_	
+56-3	1409-1415	Stühle	GFailure[10]	zerschmettern\_set1\_5[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-zerschmettern\_set1\_5[10]	_	_	_	_	_	false[70]	Decl[70]	*[198]	zerschmettern[198]	transitive[198]	*[198]	*[198]	item0[198]	58[315]	male[315]	v3le8i0hm1ekj0ps9oou7k56t5[315]	speaker: YOU[432]	*->79-1	IndefNP[79]	_	_	_	
+56-4	1416-1429	zerschmettert	GFailure[10]	zerschmettern\_set1\_5[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-zerschmettern\_set1\_5[10]	_	_	_	_	_	false[70]	Decl[70]	*[198]	zerschmettern[198]	transitive[198]	*[198]	*[198]	item0[198]	58[315]	male[315]	v3le8i0hm1ekj0ps9oou7k56t5[315]	speaker: YOU[432]	_	_	_	_	_	
+
+#Text=Häh?
+57-1	1431-1435	Häh?	GFailure[10]	zerschmettern\_set1\_5[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-zerschmettern\_set1\_5[10]	_	_	_	_	_	false	NA	haeh\_question\_1	*	*	*	*	feedback	*	female	*	speaker:Anastasia	_	_	_	_	_	
+
+#Text=wutanfall
+58-1	1437-1446	wutanfall	GFailure[10]	zerschmettern\_set1\_5[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-zerschmettern\_set1\_5[10]	_	_	_	_	_	false	NA	*	*	*	*	*	input1	58	male	v3le8i0hm1ekj0ps9oou7k56t5	speaker: YOU	_	_	_	_	_	
+
+#Text=nun sind wir am aussuchen neuer stühle. schmettersicher.
+59-1	1448-1451	nun	GFailure[10]	zerschmettern\_set1\_5[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-zerschmettern\_set1\_5[10]	_	_	_	_	_	false[71]	Decl[71]	*[199]	*[199]	*[199]	*[199]	*[199]	input2[199]	58[316]	male[316]	v3le8i0hm1ekj0ps9oou7k56t5[316]	speaker: YOU[433]	_	_	elaboration	*	59-8[0_71]	
+59-2	1452-1456	sind	GFailure[10]	zerschmettern\_set1\_5[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-zerschmettern\_set1\_5[10]	_	_	_	_	_	false[71]	Decl[71]	*[199]	*[199]	*[199]	*[199]	*[199]	input2[199]	58[316]	male[316]	v3le8i0hm1ekj0ps9oou7k56t5[316]	speaker: YOU[433]	_	_	_	_	_	
+59-3	1457-1460	wir	GFailure[10]	zerschmettern\_set1\_5[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-zerschmettern\_set1\_5[10]	1	*	*	*	plural	false[71]	Decl[71]	*[199]	*[199]	*[199]	*[199]	*[199]	input2[199]	58[316]	male[316]	v3le8i0hm1ekj0ps9oou7k56t5[316]	speaker: YOU[433]	*->67-1	PerPron[67]	_	_	_	
+59-4	1461-1463	am	GFailure[10]	zerschmettern\_set1\_5[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-zerschmettern\_set1\_5[10]	_	_	_	_	_	false[71]	Decl[71]	*[199]	*[199]	*[199]	*[199]	*[199]	input2[199]	58[316]	male[316]	v3le8i0hm1ekj0ps9oou7k56t5[316]	speaker: YOU[433]	*->53-1	DefNP[53]	_	_	_	
+59-5	1464-1473	aussuchen	GFailure[10]	zerschmettern\_set1\_5[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-zerschmettern\_set1\_5[10]	_	_	_	_	_	false[71]	Decl[71]	*[199]	*[199]	*[199]	*[199]	*[199]	input2[199]	58[316]	male[316]	v3le8i0hm1ekj0ps9oou7k56t5[316]	speaker: YOU[433]	*->53-1	DefNP[53]	_	_	_	
+59-6	1474-1479	neuer	GFailure[10]	zerschmettern\_set1\_5[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-zerschmettern\_set1\_5[10]	_	_	_	_	_	false[71]	Decl[71]	*[199]	*[199]	*[199]	*[199]	*[199]	input2[199]	58[316]	male[316]	v3le8i0hm1ekj0ps9oou7k56t5[316]	speaker: YOU[433]	*->53-1|*->8-1	DefNP[53]|IndefNP[8]	_	_	_	
+59-7	1480-1487	stühle.	GFailure[10]	zerschmettern\_set1\_5[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-zerschmettern\_set1\_5[10]	_	_	_	_	_	false[71]	Decl[71]	*[199]	*[199]	*[199]	*[199]	*[199]	input2[199]	58[316]	male[316]	v3le8i0hm1ekj0ps9oou7k56t5[316]	speaker: YOU[433]	*->53-1|*->8-1	DefNP[53]|IndefNP[8]	_	_	_	
+59-8	1488-1504	schmettersicher.	GFailure[10]	zerschmettern\_set1\_5[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-zerschmettern\_set1\_5[10]	_	_	_	_	_	false	NA	*[199]	*[199]	*[199]	*[199]	*[199]	input2[199]	58[316]	male[316]	v3le8i0hm1ekj0ps9oou7k56t5[316]	speaker: YOU[433]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+60-1	1506-1521	END_OF_DOCUMENT	GFailure[10]	zerschmettern\_set1\_5[10]	latin3[10]	v3le8i0hm1ekj0ps9oou7k56t5-zerschmettern\_set1\_5[10]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hi, alles okay soweit?
+61-1	1523-1526	Hi,	GSuccess[11]	zerschmettern\_set1\_5[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-zerschmettern\_set1\_5[11]	_	_	_	_	_	false[72]	Int[72]	*[200]	*[200]	*[200]	yn\_3[200]	yesno\_question[200]	openq[200]	*[317]	female[317]	*[317]	speaker:Anastasia[434]	_	_	QAP	*	62-1[73_72]	
+61-2	1527-1532	alles	GSuccess[11]	zerschmettern\_set1\_5[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-zerschmettern\_set1\_5[11]	_	_	_	_	_	false[72]	Int[72]	*[200]	*[200]	*[200]	yn\_3[200]	yesno\_question[200]	openq[200]	*[317]	female[317]	*[317]	speaker:Anastasia[434]	_	_	_	_	_	
+61-3	1533-1537	okay	GSuccess[11]	zerschmettern\_set1\_5[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-zerschmettern\_set1\_5[11]	_	_	_	_	_	false[72]	Int[72]	*[200]	*[200]	*[200]	yn\_3[200]	yesno\_question[200]	openq[200]	*[317]	female[317]	*[317]	speaker:Anastasia[434]	_	_	_	_	_	
+61-4	1538-1545	soweit?	GSuccess[11]	zerschmettern\_set1\_5[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-zerschmettern\_set1\_5[11]	_	_	_	_	_	false[72]	Int[72]	*[200]	*[200]	*[200]	yn\_3[200]	yesno\_question[200]	openq[200]	*[317]	female[317]	*[317]	speaker:Anastasia[434]	_	_	_	_	_	
+
+#Text=Lisa hat Stühle zerschmettert
+62-1	1547-1551	Lisa	GSuccess[11]	zerschmettern\_set1\_5[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-zerschmettern\_set1\_5[11]	_	_	_	_	_	false[73]	Decl[73]	*[201]	zerschmettern[201]	transitive[201]	*[201]	*[201]	item0[201]	35[318]	female[318]	2k56uavscuainedj0q9i1sb693[318]	speaker: YOU[435]	*->15-1	PropNm[15]	acknowledgement	*	63-1[0_73]	
+62-2	1552-1555	hat	GSuccess[11]	zerschmettern\_set1\_5[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-zerschmettern\_set1\_5[11]	_	_	_	_	_	false[73]	Decl[73]	*[201]	zerschmettern[201]	transitive[201]	*[201]	*[201]	item0[201]	35[318]	female[318]	2k56uavscuainedj0q9i1sb693[318]	speaker: YOU[435]	_	_	_	_	_	
+62-3	1556-1562	Stühle	GSuccess[11]	zerschmettern\_set1\_5[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-zerschmettern\_set1\_5[11]	_	_	_	_	_	false[73]	Decl[73]	*[201]	zerschmettern[201]	transitive[201]	*[201]	*[201]	item0[201]	35[318]	female[318]	2k56uavscuainedj0q9i1sb693[318]	speaker: YOU[435]	*->116-1	IndefNP[116]	_	_	_	
+62-4	1563-1576	zerschmettert	GSuccess[11]	zerschmettern\_set1\_5[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-zerschmettern\_set1\_5[11]	_	_	_	_	_	false[73]	Decl[73]	*[201]	zerschmettern[201]	transitive[201]	*[201]	*[201]	item0[201]	35[318]	female[318]	2k56uavscuainedj0q9i1sb693[318]	speaker: YOU[435]	_	_	_	_	_	
+
+#Text=Ohje
+63-1	1578-1582	Ohje	GSuccess[11]	zerschmettern\_set1\_5[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-zerschmettern\_set1\_5[11]	_	_	_	_	_	false	NA	ohje\_27	*	*	*	*	feedback	*	female	*	speaker:Anastasia	_	_	_	_	_	
+
+#Text=Ich weiß auch nicht <BR> was mit ihr los ist.
+64-1	1584-1587	Ich	GSuccess[11]	zerschmettern\_set1\_5[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-zerschmettern\_set1\_5[11]	1	*	*	*	singular	true[74]|false[75]	*[74]|Decl[75]	*[202]	*[202]	*[202]	*[202]	*[202]	input1[202]	35[319]	female[319]	2k56uavscuainedj0q9i1sb693[319]	speaker: YOU[436]	*->90-1	PerPron[90]	elaboration	*	64-6[76_75]	
+64-2	1588-1592	weiß	GSuccess[11]	zerschmettern\_set1\_5[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-zerschmettern\_set1\_5[11]	_	_	_	_	_	true[74]|false[75]	*[74]|Decl[75]	*[202]	*[202]	*[202]	*[202]	*[202]	input1[202]	35[319]	female[319]	2k56uavscuainedj0q9i1sb693[319]	speaker: YOU[436]	_	_	_	_	_	
+64-3	1593-1597	auch	GSuccess[11]	zerschmettern\_set1\_5[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-zerschmettern\_set1\_5[11]	_	_	_	_	_	true[74]|false[75]	*[74]|Decl[75]	*[202]	*[202]	*[202]	*[202]	*[202]	input1[202]	35[319]	female[319]	2k56uavscuainedj0q9i1sb693[319]	speaker: YOU[436]	_	_	_	_	_	
+64-4	1598-1603	nicht	GSuccess[11]	zerschmettern\_set1\_5[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-zerschmettern\_set1\_5[11]	_	_	_	_	_	true[74]|false[75]	*[74]|Decl[75]	*[202]	*[202]	*[202]	*[202]	*[202]	input1[202]	35[319]	female[319]	2k56uavscuainedj0q9i1sb693[319]	speaker: YOU[436]	_	_	_	_	_	
+64-5	1604-1608	<BR>	GSuccess[11]	zerschmettern\_set1\_5[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-zerschmettern\_set1\_5[11]	_	_	_	_	_	true[74]	*[74]	*[202]	*[202]	*[202]	*[202]	*[202]	input1[202]	35[319]	female[319]	2k56uavscuainedj0q9i1sb693[319]	speaker: YOU[436]	_	_	_	_	_	
+64-6	1609-1612	was	GSuccess[11]	zerschmettern\_set1\_5[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-zerschmettern\_set1\_5[11]	_	_	_	_	_	true[74]|false[76]	*[74]|NA[76]	*[202]	*[202]	*[202]	*[202]	*[202]	input1[202]	35[319]	female[319]	2k56uavscuainedj0q9i1sb693[319]	speaker: YOU[436]	_	_	_	_	_	
+64-7	1613-1616	mit	GSuccess[11]	zerschmettern\_set1\_5[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-zerschmettern\_set1\_5[11]	_	_	_	_	_	true[74]|false[76]	*[74]|NA[76]	*[202]	*[202]	*[202]	*[202]	*[202]	input1[202]	35[319]	female[319]	2k56uavscuainedj0q9i1sb693[319]	speaker: YOU[436]	_	_	_	_	_	
+64-8	1617-1620	ihr	GSuccess[11]	zerschmettern\_set1\_5[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-zerschmettern\_set1\_5[11]	3	*	*	*	singular	true[74]|false[76]	*[74]|NA[76]	*[202]	*[202]	*[202]	*[202]	*[202]	input1[202]	35[319]	female[319]	2k56uavscuainedj0q9i1sb693[319]	speaker: YOU[436]	*->15-2	PerPron[15]	_	_	_	
+64-9	1621-1624	los	GSuccess[11]	zerschmettern\_set1\_5[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-zerschmettern\_set1\_5[11]	_	_	_	_	_	true[74]|false[76]	*[74]|NA[76]	*[202]	*[202]	*[202]	*[202]	*[202]	input1[202]	35[319]	female[319]	2k56uavscuainedj0q9i1sb693[319]	speaker: YOU[436]	_	_	_	_	_	
+64-10	1625-1629	ist.	GSuccess[11]	zerschmettern\_set1\_5[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-zerschmettern\_set1\_5[11]	_	_	_	_	_	true[74]|false[76]	*[74]|NA[76]	*[202]	*[202]	*[202]	*[202]	*[202]	input1[202]	35[319]	female[319]	2k56uavscuainedj0q9i1sb693[319]	speaker: YOU[436]	_	_	_	_	_	
+
+#Text=Sie ist so wütend.
+65-1	1631-1634	Sie	GSuccess[11]	zerschmettern\_set1\_5[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-zerschmettern\_set1\_5[11]	3	*	*	*	singular	false[77]	Decl[77]	*[203]	*[203]	*[203]	*[203]	*[203]	input2[203]	35[320]	female[320]	2k56uavscuainedj0q9i1sb693[320]	speaker: YOU[437]	*->15-3	PerPron[15]	_	_	_	
+65-2	1635-1638	ist	GSuccess[11]	zerschmettern\_set1\_5[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-zerschmettern\_set1\_5[11]	_	_	_	_	_	false[77]	Decl[77]	*[203]	*[203]	*[203]	*[203]	*[203]	input2[203]	35[320]	female[320]	2k56uavscuainedj0q9i1sb693[320]	speaker: YOU[437]	_	_	_	_	_	
+65-3	1639-1641	so	GSuccess[11]	zerschmettern\_set1\_5[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-zerschmettern\_set1\_5[11]	_	_	_	_	_	false[77]	Decl[77]	*[203]	*[203]	*[203]	*[203]	*[203]	input2[203]	35[320]	female[320]	2k56uavscuainedj0q9i1sb693[320]	speaker: YOU[437]	_	_	_	_	_	
+65-4	1642-1649	wütend.	GSuccess[11]	zerschmettern\_set1\_5[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-zerschmettern\_set1\_5[11]	_	_	_	_	_	false[77]	Decl[77]	*[203]	*[203]	*[203]	*[203]	*[203]	input2[203]	35[320]	female[320]	2k56uavscuainedj0q9i1sb693[320]	speaker: YOU[437]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+66-1	1651-1666	END_OF_DOCUMENT	GSuccess[11]	zerschmettern\_set1\_5[11]	latin1[11]	2k56uavscuainedj0q9i1sb693-zerschmettern\_set1\_5[11]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hi, alles okay soweit?
+67-1	1668-1671	Hi,	GSuccess[12]	zerschmettern\_set1\_5[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-zerschmettern\_set1\_5[12]	_	_	_	_	_	false[78]	Int[78]	*[204]	*[204]	*[204]	yn\_3[204]	yesno\_question[204]	openq[204]	*[321]	female[321]	*[321]	speaker:Anastasia[438]	_	_	QAP	*	68-1[79_78]	
+67-2	1672-1677	alles	GSuccess[12]	zerschmettern\_set1\_5[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-zerschmettern\_set1\_5[12]	_	_	_	_	_	false[78]	Int[78]	*[204]	*[204]	*[204]	yn\_3[204]	yesno\_question[204]	openq[204]	*[321]	female[321]	*[321]	speaker:Anastasia[438]	_	_	_	_	_	
+67-3	1678-1682	okay	GSuccess[12]	zerschmettern\_set1\_5[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-zerschmettern\_set1\_5[12]	_	_	_	_	_	false[78]	Int[78]	*[204]	*[204]	*[204]	yn\_3[204]	yesno\_question[204]	openq[204]	*[321]	female[321]	*[321]	speaker:Anastasia[438]	_	_	_	_	_	
+67-4	1683-1690	soweit?	GSuccess[12]	zerschmettern\_set1\_5[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-zerschmettern\_set1\_5[12]	_	_	_	_	_	false[78]	Int[78]	*[204]	*[204]	*[204]	yn\_3[204]	yesno\_question[204]	openq[204]	*[321]	female[321]	*[321]	speaker:Anastasia[438]	_	_	_	_	_	
+
+#Text=Lisa hat Stühle zerschmettert
+68-1	1692-1696	Lisa	GSuccess[12]	zerschmettern\_set1\_5[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-zerschmettern\_set1\_5[12]	_	_	_	_	_	false[79]	Decl[79]	*[205]	zerschmettern[205]	transitive[205]	*[205]	*[205]	item0[205]	46[322]	male[322]	7bq5ecc5fndmatjvd44havavdp[322]	speaker: YOU[439]	*->111-1	PropNm[111]	explanation|acknowledgement	*|*	70-1[80_79]|69-1[0_79]	
+68-2	1697-1700	hat	GSuccess[12]	zerschmettern\_set1\_5[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-zerschmettern\_set1\_5[12]	_	_	_	_	_	false[79]	Decl[79]	*[205]	zerschmettern[205]	transitive[205]	*[205]	*[205]	item0[205]	46[322]	male[322]	7bq5ecc5fndmatjvd44havavdp[322]	speaker: YOU[439]	_	_	_	_	_	
+68-3	1701-1707	Stühle	GSuccess[12]	zerschmettern\_set1\_5[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-zerschmettern\_set1\_5[12]	_	_	_	_	_	false[79]	Decl[79]	*[205]	zerschmettern[205]	transitive[205]	*[205]	*[205]	item0[205]	46[322]	male[322]	7bq5ecc5fndmatjvd44havavdp[322]	speaker: YOU[439]	*->112-1	IndefNP[112]	_	_	_	
+68-4	1708-1721	zerschmettert	GSuccess[12]	zerschmettern\_set1\_5[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-zerschmettern\_set1\_5[12]	_	_	_	_	_	false[79]	Decl[79]	*[205]	zerschmettern[205]	transitive[205]	*[205]	*[205]	item0[205]	46[322]	male[322]	7bq5ecc5fndmatjvd44havavdp[322]	speaker: YOU[439]	_	_	_	_	_	
+
+#Text=Ohje
+69-1	1723-1727	Ohje	GSuccess[12]	zerschmettern\_set1\_5[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-zerschmettern\_set1\_5[12]	_	_	_	_	_	false	NA	ohje\_27	*	*	*	*	feedback	*	female	*	speaker:Anastasia	_	_	_	_	_	
+
+#Text=sie trainiert für die Trash WM
+70-1	1729-1732	sie	GSuccess[12]	zerschmettern\_set1\_5[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-zerschmettern\_set1\_5[12]	3	*	*	*	singular	false[80]	Decl[80]	*[206]	*[206]	*[206]	*[206]	*[206]	input1[206]	46[323]	male[323]	7bq5ecc5fndmatjvd44havavdp[323]	speaker: YOU[440]	*->111-2	PerPron[111]	elaboration	*	71-1[81_80]	
+70-2	1733-1742	trainiert	GSuccess[12]	zerschmettern\_set1\_5[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-zerschmettern\_set1\_5[12]	_	_	_	_	_	false[80]	Decl[80]	*[206]	*[206]	*[206]	*[206]	*[206]	input1[206]	46[323]	male[323]	7bq5ecc5fndmatjvd44havavdp[323]	speaker: YOU[440]	_	_	_	_	_	
+70-3	1743-1746	für	GSuccess[12]	zerschmettern\_set1\_5[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-zerschmettern\_set1\_5[12]	_	_	_	_	_	false[80]	Decl[80]	*[206]	*[206]	*[206]	*[206]	*[206]	input1[206]	46[323]	male[323]	7bq5ecc5fndmatjvd44havavdp[323]	speaker: YOU[440]	_	_	_	_	_	
+70-4	1747-1750	die	GSuccess[12]	zerschmettern\_set1\_5[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-zerschmettern\_set1\_5[12]	_	_	_	_	_	false[80]	Decl[80]	*[206]	*[206]	*[206]	*[206]	*[206]	input1[206]	46[323]	male[323]	7bq5ecc5fndmatjvd44havavdp[323]	speaker: YOU[440]	*->113-1	DefNP[113]	_	_	_	
+70-5	1751-1756	Trash	GSuccess[12]	zerschmettern\_set1\_5[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-zerschmettern\_set1\_5[12]	_	_	_	_	_	false[80]	Decl[80]	*[206]	*[206]	*[206]	*[206]	*[206]	input1[206]	46[323]	male[323]	7bq5ecc5fndmatjvd44havavdp[323]	speaker: YOU[440]	*->113-1	DefNP[113]	_	_	_	
+70-6	1757-1759	WM	GSuccess[12]	zerschmettern\_set1\_5[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-zerschmettern\_set1\_5[12]	_	_	_	_	_	false[80]	Decl[80]	*[206]	*[206]	*[206]	*[206]	*[206]	input1[206]	46[323]	male[323]	7bq5ecc5fndmatjvd44havavdp[323]	speaker: YOU[440]	*->113-1	DefNP[113]	_	_	_	
+
+#Text=Morgen kommen die Tische dran
+71-1	1761-1767	Morgen	GSuccess[12]	zerschmettern\_set1\_5[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-zerschmettern\_set1\_5[12]	_	_	_	_	_	false[81]	Decl[81]	*[207]	*[207]	*[207]	*[207]	*[207]	input2[207]	46[324]	male[324]	7bq5ecc5fndmatjvd44havavdp[324]	speaker: YOU[441]	_	_	_	_	_	
+71-2	1768-1774	kommen	GSuccess[12]	zerschmettern\_set1\_5[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-zerschmettern\_set1\_5[12]	_	_	_	_	_	false[81]	Decl[81]	*[207]	*[207]	*[207]	*[207]	*[207]	input2[207]	46[324]	male[324]	7bq5ecc5fndmatjvd44havavdp[324]	speaker: YOU[441]	_	_	_	_	_	
+71-3	1775-1778	die	GSuccess[12]	zerschmettern\_set1\_5[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-zerschmettern\_set1\_5[12]	_	_	_	_	_	false[81]	Decl[81]	*[207]	*[207]	*[207]	*[207]	*[207]	input2[207]	46[324]	male[324]	7bq5ecc5fndmatjvd44havavdp[324]	speaker: YOU[441]	*->97-1	DefNP[97]	_	_	_	
+71-4	1779-1785	Tische	GSuccess[12]	zerschmettern\_set1\_5[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-zerschmettern\_set1\_5[12]	_	_	_	_	_	false[81]	Decl[81]	*[207]	*[207]	*[207]	*[207]	*[207]	input2[207]	46[324]	male[324]	7bq5ecc5fndmatjvd44havavdp[324]	speaker: YOU[441]	*->97-1	DefNP[97]	_	_	_	
+71-5	1786-1790	dran	GSuccess[12]	zerschmettern\_set1\_5[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-zerschmettern\_set1\_5[12]	_	_	_	_	_	false[81]	Decl[81]	*[207]	*[207]	*[207]	*[207]	*[207]	input2[207]	46[324]	male[324]	7bq5ecc5fndmatjvd44havavdp[324]	speaker: YOU[441]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+72-1	1792-1807	END_OF_DOCUMENT	GSuccess[12]	zerschmettern\_set1\_5[12]	latin1[12]	7bq5ecc5fndmatjvd44havavdp-zerschmettern\_set1\_5[12]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hi, alles okay soweit?
+73-1	1809-1812	Hi,	GSuccess[13]	zerschmettern\_set1\_5[13]	latin1[13]	9bb79dhfhst017575orahklqol-zerschmettern\_set1\_5[13]	_	_	_	_	_	false[82]	Int[82]	*[208]	*[208]	*[208]	yn\_3[208]	yesno\_question[208]	openq[208]	*[325]	female[325]	*[325]	speaker:Anastasia[442]	_	_	QAP	*	74-1[83_82]	
+73-2	1813-1818	alles	GSuccess[13]	zerschmettern\_set1\_5[13]	latin1[13]	9bb79dhfhst017575orahklqol-zerschmettern\_set1\_5[13]	_	_	_	_	_	false[82]	Int[82]	*[208]	*[208]	*[208]	yn\_3[208]	yesno\_question[208]	openq[208]	*[325]	female[325]	*[325]	speaker:Anastasia[442]	_	_	_	_	_	
+73-3	1819-1823	okay	GSuccess[13]	zerschmettern\_set1\_5[13]	latin1[13]	9bb79dhfhst017575orahklqol-zerschmettern\_set1\_5[13]	_	_	_	_	_	false[82]	Int[82]	*[208]	*[208]	*[208]	yn\_3[208]	yesno\_question[208]	openq[208]	*[325]	female[325]	*[325]	speaker:Anastasia[442]	_	_	_	_	_	
+73-4	1824-1831	soweit?	GSuccess[13]	zerschmettern\_set1\_5[13]	latin1[13]	9bb79dhfhst017575orahklqol-zerschmettern\_set1\_5[13]	_	_	_	_	_	false[82]	Int[82]	*[208]	*[208]	*[208]	yn\_3[208]	yesno\_question[208]	openq[208]	*[325]	female[325]	*[325]	speaker:Anastasia[442]	_	_	_	_	_	
+
+#Text=Lisa hat Stühle zerschmettert
+74-1	1833-1837	Lisa	GSuccess[13]	zerschmettern\_set1\_5[13]	latin1[13]	9bb79dhfhst017575orahklqol-zerschmettern\_set1\_5[13]	_	_	_	_	_	false[83]	Decl[83]	*[209]	zerschmettern[209]	transitive[209]	*[209]	*[209]	item0[209]	37[326]	female[326]	9bb79dhfhst017575orahklqol[326]	speaker: YOU[443]	*->102-1|*->73-1	clause[102]|PropNm[73]	elaboration|acknowledgement	*|*	76-1[84_83]|75-1[0_83]	
+74-2	1838-1841	hat	GSuccess[13]	zerschmettern\_set1\_5[13]	latin1[13]	9bb79dhfhst017575orahklqol-zerschmettern\_set1\_5[13]	_	_	_	_	_	false[83]	Decl[83]	*[209]	zerschmettern[209]	transitive[209]	*[209]	*[209]	item0[209]	37[326]	female[326]	9bb79dhfhst017575orahklqol[326]	speaker: YOU[443]	*->102-1	clause[102]	_	_	_	
+74-3	1842-1848	Stühle	GSuccess[13]	zerschmettern\_set1\_5[13]	latin1[13]	9bb79dhfhst017575orahklqol-zerschmettern\_set1\_5[13]	_	_	_	_	_	false[83]	Decl[83]	*[209]	zerschmettern[209]	transitive[209]	*[209]	*[209]	item0[209]	37[326]	female[326]	9bb79dhfhst017575orahklqol[326]	speaker: YOU[443]	*->102-1|*->84-1	clause[102]|IndefNP[84]	_	_	_	
+74-4	1849-1862	zerschmettert	GSuccess[13]	zerschmettern\_set1\_5[13]	latin1[13]	9bb79dhfhst017575orahklqol-zerschmettern\_set1\_5[13]	_	_	_	_	_	false[83]	Decl[83]	*[209]	zerschmettern[209]	transitive[209]	*[209]	*[209]	item0[209]	37[326]	female[326]	9bb79dhfhst017575orahklqol[326]	speaker: YOU[443]	*->102-1	clause[102]	_	_	_	
+
+#Text=Ohje
+75-1	1864-1868	Ohje	GSuccess[13]	zerschmettern\_set1\_5[13]	latin1[13]	9bb79dhfhst017575orahklqol-zerschmettern\_set1\_5[13]	_	_	_	_	_	false	NA	ohje\_27	*	*	*	*	feedback	*	female	*	speaker:Anastasia	_	_	_	_	_	
+
+#Text=sie war ausser kontrolle
+76-1	1870-1873	sie	GSuccess[13]	zerschmettern\_set1\_5[13]	latin1[13]	9bb79dhfhst017575orahklqol-zerschmettern\_set1\_5[13]	3	*	*	*	singular	false[84]	Decl[84]	*[210]	*[210]	*[210]	*[210]	*[210]	input1[210]	37[327]	female[327]	9bb79dhfhst017575orahklqol[327]	speaker: YOU[444]	*->73-2	PerPron[73]	result	*	77-1[85_84]	
+76-2	1874-1877	war	GSuccess[13]	zerschmettern\_set1\_5[13]	latin1[13]	9bb79dhfhst017575orahklqol-zerschmettern\_set1\_5[13]	_	_	_	_	_	false[84]	Decl[84]	*[210]	*[210]	*[210]	*[210]	*[210]	input1[210]	37[327]	female[327]	9bb79dhfhst017575orahklqol[327]	speaker: YOU[444]	_	_	_	_	_	
+76-3	1878-1884	ausser	GSuccess[13]	zerschmettern\_set1\_5[13]	latin1[13]	9bb79dhfhst017575orahklqol-zerschmettern\_set1\_5[13]	_	_	_	_	_	false[84]	Decl[84]	*[210]	*[210]	*[210]	*[210]	*[210]	input1[210]	37[327]	female[327]	9bb79dhfhst017575orahklqol[327]	speaker: YOU[444]	_	_	_	_	_	
+76-4	1885-1894	kontrolle	GSuccess[13]	zerschmettern\_set1\_5[13]	latin1[13]	9bb79dhfhst017575orahklqol-zerschmettern\_set1\_5[13]	_	_	_	_	_	false[84]	Decl[84]	*[210]	*[210]	*[210]	*[210]	*[210]	input1[210]	37[327]	female[327]	9bb79dhfhst017575orahklqol[327]	speaker: YOU[444]	_	_	_	_	_	
+
+#Text=hoffe das passiert nie wieder
+77-1	1896-1901	hoffe	GSuccess[13]	zerschmettern\_set1\_5[13]	latin1[13]	9bb79dhfhst017575orahklqol-zerschmettern\_set1\_5[13]	1	*	*	*	singular	false[85]	Decl[85]	*[211]	*[211]	*[211]	*[211]	*[211]	input2[211]	37[328]	female[328]	9bb79dhfhst017575orahklqol[328]	speaker: YOU[445]	*->22-1	zero[22]	_	_	_	
+77-2	1902-1905	das	GSuccess[13]	zerschmettern\_set1\_5[13]	latin1[13]	9bb79dhfhst017575orahklqol-zerschmettern\_set1\_5[13]	_	_	_	_	_	false[85]	Decl[85]	*[211]	*[211]	*[211]	*[211]	*[211]	input2[211]	37[328]	female[328]	9bb79dhfhst017575orahklqol[328]	speaker: YOU[445]	*->102-2	D-Pron[102]	_	_	_	
+77-3	1906-1914	passiert	GSuccess[13]	zerschmettern\_set1\_5[13]	latin1[13]	9bb79dhfhst017575orahklqol-zerschmettern\_set1\_5[13]	_	_	_	_	_	false[85]	Decl[85]	*[211]	*[211]	*[211]	*[211]	*[211]	input2[211]	37[328]	female[328]	9bb79dhfhst017575orahklqol[328]	speaker: YOU[445]	_	_	_	_	_	
+77-4	1915-1918	nie	GSuccess[13]	zerschmettern\_set1\_5[13]	latin1[13]	9bb79dhfhst017575orahklqol-zerschmettern\_set1\_5[13]	_	_	_	_	_	false[85]	Decl[85]	*[211]	*[211]	*[211]	*[211]	*[211]	input2[211]	37[328]	female[328]	9bb79dhfhst017575orahklqol[328]	speaker: YOU[445]	_	_	_	_	_	
+77-5	1919-1925	wieder	GSuccess[13]	zerschmettern\_set1\_5[13]	latin1[13]	9bb79dhfhst017575orahklqol-zerschmettern\_set1\_5[13]	_	_	_	_	_	false[85]	Decl[85]	*[211]	*[211]	*[211]	*[211]	*[211]	input2[211]	37[328]	female[328]	9bb79dhfhst017575orahklqol[328]	speaker: YOU[445]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+78-1	1927-1942	END_OF_DOCUMENT	GSuccess[13]	zerschmettern\_set1\_5[13]	latin1[13]	9bb79dhfhst017575orahklqol-zerschmettern\_set1\_5[13]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hi, alles okay soweit?
+79-1	1944-1947	Hi,	GSuccess[14]	zerschmettern\_set1\_5[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-zerschmettern\_set1\_5[14]	_	_	_	_	_	false[86]	Int[86]	*[212]	*[212]	*[212]	yn\_3[212]	yesno\_question[212]	openq[212]	*[329]	female[329]	*[329]	speaker:Anastasia[446]	_	_	QAP	*	80-1[87_86]	
+79-2	1948-1953	alles	GSuccess[14]	zerschmettern\_set1\_5[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-zerschmettern\_set1\_5[14]	_	_	_	_	_	false[86]	Int[86]	*[212]	*[212]	*[212]	yn\_3[212]	yesno\_question[212]	openq[212]	*[329]	female[329]	*[329]	speaker:Anastasia[446]	_	_	_	_	_	
+79-3	1954-1958	okay	GSuccess[14]	zerschmettern\_set1\_5[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-zerschmettern\_set1\_5[14]	_	_	_	_	_	false[86]	Int[86]	*[212]	*[212]	*[212]	yn\_3[212]	yesno\_question[212]	openq[212]	*[329]	female[329]	*[329]	speaker:Anastasia[446]	_	_	_	_	_	
+79-4	1959-1966	soweit?	GSuccess[14]	zerschmettern\_set1\_5[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-zerschmettern\_set1\_5[14]	_	_	_	_	_	false[86]	Int[86]	*[212]	*[212]	*[212]	yn\_3[212]	yesno\_question[212]	openq[212]	*[329]	female[329]	*[329]	speaker:Anastasia[446]	_	_	_	_	_	
+
+#Text=Lisa hat Stühle zerschmettert
+80-1	1968-1972	Lisa	GSuccess[14]	zerschmettern\_set1\_5[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-zerschmettern\_set1\_5[14]	_	_	_	_	_	false[87]	Decl[87]	*[213]	zerschmettern[213]	transitive[213]	*[213]	*[213]	item0[213]	21[330]	male[330]	afpst3sherp4732c4se5ajftkq[330]	speaker: YOU[447]	*->122-1	PropNm[122]	explanation|acknowledgement	*|*	82-1[88_87]|81-1[0_87]	
+80-2	1973-1976	hat	GSuccess[14]	zerschmettern\_set1\_5[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-zerschmettern\_set1\_5[14]	_	_	_	_	_	false[87]	Decl[87]	*[213]	zerschmettern[213]	transitive[213]	*[213]	*[213]	item0[213]	21[330]	male[330]	afpst3sherp4732c4se5ajftkq[330]	speaker: YOU[447]	_	_	_	_	_	
+80-3	1977-1983	Stühle	GSuccess[14]	zerschmettern\_set1\_5[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-zerschmettern\_set1\_5[14]	_	_	_	_	_	false[87]	Decl[87]	*[213]	zerschmettern[213]	transitive[213]	*[213]	*[213]	item0[213]	21[330]	male[330]	afpst3sherp4732c4se5ajftkq[330]	speaker: YOU[447]	*->86-1	IndefNP[86]	_	_	_	
+80-4	1984-1997	zerschmettert	GSuccess[14]	zerschmettern\_set1\_5[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-zerschmettern\_set1\_5[14]	_	_	_	_	_	false[87]	Decl[87]	*[213]	zerschmettern[213]	transitive[213]	*[213]	*[213]	item0[213]	21[330]	male[330]	afpst3sherp4732c4se5ajftkq[330]	speaker: YOU[447]	_	_	_	_	_	
+
+#Text=Ohje
+81-1	1999-2003	Ohje	GSuccess[14]	zerschmettern\_set1\_5[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-zerschmettern\_set1\_5[14]	_	_	_	_	_	false	NA	ohje\_27	*	*	*	*	feedback	*	female	*	speaker:Anastasia	_	_	_	_	_	
+
+#Text=Sie hatte wieder einen Wutanfall.
+82-1	2005-2008	Sie	GSuccess[14]	zerschmettern\_set1\_5[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-zerschmettern\_set1\_5[14]	3	*	*	*	singular	false[88]	Decl[88]	*[214]	*[214]	*[214]	*[214]	*[214]	input1[214]	21[331]	male[331]	afpst3sherp4732c4se5ajftkq[331]	speaker: YOU[448]	*->122-2	PerPron[122]	explanation	*	83-1[89_88]	
+82-2	2009-2014	hatte	GSuccess[14]	zerschmettern\_set1\_5[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-zerschmettern\_set1\_5[14]	_	_	_	_	_	false[88]	Decl[88]	*[214]	*[214]	*[214]	*[214]	*[214]	input1[214]	21[331]	male[331]	afpst3sherp4732c4se5ajftkq[331]	speaker: YOU[448]	_	_	_	_	_	
+82-3	2015-2021	wieder	GSuccess[14]	zerschmettern\_set1\_5[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-zerschmettern\_set1\_5[14]	_	_	_	_	_	false[88]	Decl[88]	*[214]	*[214]	*[214]	*[214]	*[214]	input1[214]	21[331]	male[331]	afpst3sherp4732c4se5ajftkq[331]	speaker: YOU[448]	_	_	_	_	_	
+82-4	2022-2027	einen	GSuccess[14]	zerschmettern\_set1\_5[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-zerschmettern\_set1\_5[14]	_	_	_	_	_	false[88]	Decl[88]	*[214]	*[214]	*[214]	*[214]	*[214]	input1[214]	21[331]	male[331]	afpst3sherp4732c4se5ajftkq[331]	speaker: YOU[448]	*->70-1	IndefNP[70]	_	_	_	
+82-5	2028-2038	Wutanfall.	GSuccess[14]	zerschmettern\_set1\_5[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-zerschmettern\_set1\_5[14]	_	_	_	_	_	false[88]	Decl[88]	*[214]	*[214]	*[214]	*[214]	*[214]	input1[214]	21[331]	male[331]	afpst3sherp4732c4se5ajftkq[331]	speaker: YOU[448]	*->70-1	IndefNP[70]	_	_	_	
+
+#Text=Ihre Lieblingsserie ist wohl abgesetzt worden.
+83-1	2040-2044	Ihre	GSuccess[14]	zerschmettern\_set1\_5[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-zerschmettern\_set1\_5[14]	3	*	*	*	singular	false[89]	Decl[89]	*[215]	*[215]	*[215]	*[215]	*[215]	input2[215]	21[332]	male[332]	afpst3sherp4732c4se5ajftkq[332]	speaker: YOU[449]	*->119-1|*->122-3	DefNP[119]|PossePron[122]	_	_	_	
+83-2	2045-2059	Lieblingsserie	GSuccess[14]	zerschmettern\_set1\_5[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-zerschmettern\_set1\_5[14]	_	_	_	_	_	false[89]	Decl[89]	*[215]	*[215]	*[215]	*[215]	*[215]	input2[215]	21[332]	male[332]	afpst3sherp4732c4se5ajftkq[332]	speaker: YOU[449]	*->119-1	DefNP[119]	_	_	_	
+83-3	2060-2063	ist	GSuccess[14]	zerschmettern\_set1\_5[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-zerschmettern\_set1\_5[14]	_	_	_	_	_	false[89]	Decl[89]	*[215]	*[215]	*[215]	*[215]	*[215]	input2[215]	21[332]	male[332]	afpst3sherp4732c4se5ajftkq[332]	speaker: YOU[449]	_	_	_	_	_	
+83-4	2064-2068	wohl	GSuccess[14]	zerschmettern\_set1\_5[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-zerschmettern\_set1\_5[14]	_	_	_	_	_	false[89]	Decl[89]	*[215]	*[215]	*[215]	*[215]	*[215]	input2[215]	21[332]	male[332]	afpst3sherp4732c4se5ajftkq[332]	speaker: YOU[449]	_	_	_	_	_	
+83-5	2069-2078	abgesetzt	GSuccess[14]	zerschmettern\_set1\_5[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-zerschmettern\_set1\_5[14]	_	_	_	_	_	false[89]	Decl[89]	*[215]	*[215]	*[215]	*[215]	*[215]	input2[215]	21[332]	male[332]	afpst3sherp4732c4se5ajftkq[332]	speaker: YOU[449]	_	_	_	_	_	
+83-6	2079-2086	worden.	GSuccess[14]	zerschmettern\_set1\_5[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-zerschmettern\_set1\_5[14]	_	_	_	_	_	false[89]	Decl[89]	*[215]	*[215]	*[215]	*[215]	*[215]	input2[215]	21[332]	male[332]	afpst3sherp4732c4se5ajftkq[332]	speaker: YOU[449]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+84-1	2088-2103	END_OF_DOCUMENT	GSuccess[14]	zerschmettern\_set1\_5[14]	latin1[14]	afpst3sherp4732c4se5ajftkq-zerschmettern\_set1\_5[14]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hi, alles okay soweit?
+85-1	2105-2108	Hi,	GSuccess[15]	zerschmettern\_set1\_5[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-zerschmettern\_set1\_5[15]	_	_	_	_	_	false[90]	Int[90]	*[216]	*[216]	*[216]	yn\_3[216]	yesno\_question[216]	openq[216]	*[333]	female[333]	*[333]	speaker:Anastasia[450]	_	_	parallel|QAP	*|*	89-1[93_90]|86-1[91_90]	
+85-2	2109-2114	alles	GSuccess[15]	zerschmettern\_set1\_5[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-zerschmettern\_set1\_5[15]	_	_	_	_	_	false[90]	Int[90]	*[216]	*[216]	*[216]	yn\_3[216]	yesno\_question[216]	openq[216]	*[333]	female[333]	*[333]	speaker:Anastasia[450]	_	_	_	_	_	
+85-3	2115-2119	okay	GSuccess[15]	zerschmettern\_set1\_5[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-zerschmettern\_set1\_5[15]	_	_	_	_	_	false[90]	Int[90]	*[216]	*[216]	*[216]	yn\_3[216]	yesno\_question[216]	openq[216]	*[333]	female[333]	*[333]	speaker:Anastasia[450]	_	_	_	_	_	
+85-4	2120-2127	soweit?	GSuccess[15]	zerschmettern\_set1\_5[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-zerschmettern\_set1\_5[15]	_	_	_	_	_	false[90]	Int[90]	*[216]	*[216]	*[216]	yn\_3[216]	yesno\_question[216]	openq[216]	*[333]	female[333]	*[333]	speaker:Anastasia[450]	_	_	_	_	_	
+
+#Text=Lisa hat Stühle zerschmettert
+86-1	2129-2133	Lisa	GSuccess[15]	zerschmettern\_set1\_5[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-zerschmettern\_set1\_5[15]	_	_	_	_	_	false[91]	Decl[91]	*[217]	zerschmettern[217]	transitive[217]	*[217]	*[217]	item0[217]	42[334]	female[334]	blj8i1h4sc8jti0m6gcav1c9ek[334]	speaker: YOU[451]	*->76-1	PropNm[76]	result|acknowledgement	*|*	88-1[92_91]|87-1[0_91]	
+86-2	2134-2137	hat	GSuccess[15]	zerschmettern\_set1\_5[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-zerschmettern\_set1\_5[15]	_	_	_	_	_	false[91]	Decl[91]	*[217]	zerschmettern[217]	transitive[217]	*[217]	*[217]	item0[217]	42[334]	female[334]	blj8i1h4sc8jti0m6gcav1c9ek[334]	speaker: YOU[451]	_	_	_	_	_	
+86-3	2138-2144	Stühle	GSuccess[15]	zerschmettern\_set1\_5[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-zerschmettern\_set1\_5[15]	_	_	_	_	_	false[91]	Decl[91]	*[217]	zerschmettern[217]	transitive[217]	*[217]	*[217]	item0[217]	42[334]	female[334]	blj8i1h4sc8jti0m6gcav1c9ek[334]	speaker: YOU[451]	*->46-1	IndefNP[46]	_	_	_	
+86-4	2145-2158	zerschmettert	GSuccess[15]	zerschmettern\_set1\_5[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-zerschmettern\_set1\_5[15]	_	_	_	_	_	false[91]	Decl[91]	*[217]	zerschmettern[217]	transitive[217]	*[217]	*[217]	item0[217]	42[334]	female[334]	blj8i1h4sc8jti0m6gcav1c9ek[334]	speaker: YOU[451]	_	_	_	_	_	
+
+#Text=Ohje
+87-1	2160-2164	Ohje	GSuccess[15]	zerschmettern\_set1\_5[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-zerschmettern\_set1\_5[15]	_	_	_	_	_	false	NA	ohje\_27	*	*	*	*	feedback	*	female	*	speaker:Anastasia	_	_	_	_	_	
+
+#Text=Sie hat echt ein Aggressionsproblem.
+88-1	2166-2169	Sie	GSuccess[15]	zerschmettern\_set1\_5[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-zerschmettern\_set1\_5[15]	3	*	*	*	singular	false[92]	Decl[92]	*[218]	*[218]	*[218]	*[218]	*[218]	input1[218]	42[335]	female[335]	blj8i1h4sc8jti0m6gcav1c9ek[335]	speaker: YOU[452]	*->76-2	PerPron[76]	_	_	_	
+88-2	2170-2173	hat	GSuccess[15]	zerschmettern\_set1\_5[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-zerschmettern\_set1\_5[15]	_	_	_	_	_	false[92]	Decl[92]	*[218]	*[218]	*[218]	*[218]	*[218]	input1[218]	42[335]	female[335]	blj8i1h4sc8jti0m6gcav1c9ek[335]	speaker: YOU[452]	_	_	_	_	_	
+88-3	2174-2178	echt	GSuccess[15]	zerschmettern\_set1\_5[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-zerschmettern\_set1\_5[15]	_	_	_	_	_	false[92]	Decl[92]	*[218]	*[218]	*[218]	*[218]	*[218]	input1[218]	42[335]	female[335]	blj8i1h4sc8jti0m6gcav1c9ek[335]	speaker: YOU[452]	_	_	_	_	_	
+88-4	2179-2182	ein	GSuccess[15]	zerschmettern\_set1\_5[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-zerschmettern\_set1\_5[15]	_	_	_	_	_	false[92]	Decl[92]	*[218]	*[218]	*[218]	*[218]	*[218]	input1[218]	42[335]	female[335]	blj8i1h4sc8jti0m6gcav1c9ek[335]	speaker: YOU[452]	*->42-1	IndefNP[42]	_	_	_	
+88-5	2183-2202	Aggressionsproblem.	GSuccess[15]	zerschmettern\_set1\_5[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-zerschmettern\_set1\_5[15]	_	_	_	_	_	false[92]	Decl[92]	*[218]	*[218]	*[218]	*[218]	*[218]	input1[218]	42[335]	female[335]	blj8i1h4sc8jti0m6gcav1c9ek[335]	speaker: YOU[452]	*->42-1	IndefNP[42]	_	_	_	
+
+#Text=Bei Dir alles okay?
+89-1	2204-2207	Bei	GSuccess[15]	zerschmettern\_set1\_5[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-zerschmettern\_set1\_5[15]	_	_	_	_	_	false[93]	Int[93]	*[219]	*[219]	*[219]	*[219]	*[219]	input2[219]	42[336]	female[336]	blj8i1h4sc8jti0m6gcav1c9ek[336]	speaker: YOU[453]	_	_	_	_	_	
+89-2	2208-2211	Dir	GSuccess[15]	zerschmettern\_set1\_5[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-zerschmettern\_set1\_5[15]	2	*	*	*	singular	false[93]	Int[93]	*[219]	*[219]	*[219]	*[219]	*[219]	input2[219]	42[336]	female[336]	blj8i1h4sc8jti0m6gcav1c9ek[336]	speaker: YOU[453]	*->61-1	PerPron[61]	_	_	_	
+89-3	2212-2217	alles	GSuccess[15]	zerschmettern\_set1\_5[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-zerschmettern\_set1\_5[15]	_	_	_	_	_	false[93]	Int[93]	*[219]	*[219]	*[219]	*[219]	*[219]	input2[219]	42[336]	female[336]	blj8i1h4sc8jti0m6gcav1c9ek[336]	speaker: YOU[453]	*->83-1	Allquantor[83]	_	_	_	
+89-4	2218-2223	okay?	GSuccess[15]	zerschmettern\_set1\_5[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-zerschmettern\_set1\_5[15]	_	_	_	_	_	false[93]	Int[93]	*[219]	*[219]	*[219]	*[219]	*[219]	input2[219]	42[336]	female[336]	blj8i1h4sc8jti0m6gcav1c9ek[336]	speaker: YOU[453]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+90-1	2225-2240	END_OF_DOCUMENT	GSuccess[15]	zerschmettern\_set1\_5[15]	latin1[15]	blj8i1h4sc8jti0m6gcav1c9ek-zerschmettern\_set1\_5[15]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hi, alles okay soweit?
+91-1	2242-2245	Hi,	GSuccess[16]	zerschmettern\_set1\_5[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-zerschmettern\_set1\_5[16]	_	_	_	_	_	false[94]	Int[94]	*[220]	*[220]	*[220]	yn\_3[220]	yesno\_question[220]	openq[220]	*[337]	female[337]	*[337]	speaker:Anastasia[454]	_	_	QAP	*	92-1[95_94]	
+91-2	2246-2251	alles	GSuccess[16]	zerschmettern\_set1\_5[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-zerschmettern\_set1\_5[16]	_	_	_	_	_	false[94]	Int[94]	*[220]	*[220]	*[220]	yn\_3[220]	yesno\_question[220]	openq[220]	*[337]	female[337]	*[337]	speaker:Anastasia[454]	_	_	_	_	_	
+91-3	2252-2256	okay	GSuccess[16]	zerschmettern\_set1\_5[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-zerschmettern\_set1\_5[16]	_	_	_	_	_	false[94]	Int[94]	*[220]	*[220]	*[220]	yn\_3[220]	yesno\_question[220]	openq[220]	*[337]	female[337]	*[337]	speaker:Anastasia[454]	_	_	_	_	_	
+91-4	2257-2264	soweit?	GSuccess[16]	zerschmettern\_set1\_5[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-zerschmettern\_set1\_5[16]	_	_	_	_	_	false[94]	Int[94]	*[220]	*[220]	*[220]	yn\_3[220]	yesno\_question[220]	openq[220]	*[337]	female[337]	*[337]	speaker:Anastasia[454]	_	_	_	_	_	
+
+#Text=Lisa hat Stühle zerschmettert
+92-1	2266-2270	Lisa	GSuccess[16]	zerschmettern\_set1\_5[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-zerschmettern\_set1\_5[16]	_	_	_	_	_	false[95]	Decl[95]	*[221]	zerschmettern[221]	transitive[221]	*[221]	*[221]	item0[221]	42[338]	female[338]	h05ingrcngdnasp07727nvoq59[338]	speaker: YOU[455]	*->10-1	PropNm[10]	result|acknowledgement	*|*	94-1[96_95]|93-1[0_95]	
+92-2	2271-2274	hat	GSuccess[16]	zerschmettern\_set1\_5[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-zerschmettern\_set1\_5[16]	_	_	_	_	_	false[95]	Decl[95]	*[221]	zerschmettern[221]	transitive[221]	*[221]	*[221]	item0[221]	42[338]	female[338]	h05ingrcngdnasp07727nvoq59[338]	speaker: YOU[455]	_	_	_	_	_	
+92-3	2275-2281	Stühle	GSuccess[16]	zerschmettern\_set1\_5[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-zerschmettern\_set1\_5[16]	_	_	_	_	_	false[95]	Decl[95]	*[221]	zerschmettern[221]	transitive[221]	*[221]	*[221]	item0[221]	42[338]	female[338]	h05ingrcngdnasp07727nvoq59[338]	speaker: YOU[455]	*->43-1	IndefNP[43]	_	_	_	
+92-4	2282-2295	zerschmettert	GSuccess[16]	zerschmettern\_set1\_5[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-zerschmettern\_set1\_5[16]	_	_	_	_	_	false[95]	Decl[95]	*[221]	zerschmettern[221]	transitive[221]	*[221]	*[221]	item0[221]	42[338]	female[338]	h05ingrcngdnasp07727nvoq59[338]	speaker: YOU[455]	_	_	_	_	_	
+
+#Text=Ohje
+93-1	2297-2301	Ohje	GSuccess[16]	zerschmettern\_set1\_5[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-zerschmettern\_set1\_5[16]	_	_	_	_	_	false	NA	ohje\_27	*	*	*	*	feedback	*	female	*	speaker:Anastasia	_	_	_	_	_	
+
+#Text=Bin langsam genervt.
+94-1	2303-2306	Bin	GSuccess[16]	zerschmettern\_set1\_5[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-zerschmettern\_set1\_5[16]	1	*	*	*	singular	false[96]	Decl[96]	*[222]	*[222]	*[222]	*[222]	*[222]	input1[222]	42[339]	female[339]	h05ingrcngdnasp07727nvoq59[339]	speaker: YOU[456]	*->88-1	zero[88]	explanation	*	95-1[97_96]	
+94-2	2307-2314	langsam	GSuccess[16]	zerschmettern\_set1\_5[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-zerschmettern\_set1\_5[16]	_	_	_	_	_	false[96]	Decl[96]	*[222]	*[222]	*[222]	*[222]	*[222]	input1[222]	42[339]	female[339]	h05ingrcngdnasp07727nvoq59[339]	speaker: YOU[456]	_	_	_	_	_	
+94-3	2315-2323	genervt.	GSuccess[16]	zerschmettern\_set1\_5[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-zerschmettern\_set1\_5[16]	_	_	_	_	_	false[96]	Decl[96]	*[222]	*[222]	*[222]	*[222]	*[222]	input1[222]	42[339]	female[339]	h05ingrcngdnasp07727nvoq59[339]	speaker: YOU[456]	_	_	_	_	_	
+
+#Text=Immer diese agressive Art <BR> wenn was nicht passt.
+95-1	2325-2330	Immer	GSuccess[16]	zerschmettern\_set1\_5[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-zerschmettern\_set1\_5[16]	_	_	_	_	_	false[97]	NA[97]	*[223]	*[223]	*[223]	*[223]	*[223]	input2[223]	42[340]	female[340]	h05ingrcngdnasp07727nvoq59[340]	speaker: YOU[457]	_	_	elaboration	*	95-6[98_97]	
+95-2	2331-2336	diese	GSuccess[16]	zerschmettern\_set1\_5[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-zerschmettern\_set1\_5[16]	_	_	_	_	_	false[97]	NA[97]	*[223]	*[223]	*[223]	*[223]	*[223]	input2[223]	42[340]	female[340]	h05ingrcngdnasp07727nvoq59[340]	speaker: YOU[457]	*->19-1	DefNP[19]	_	_	_	
+95-3	2337-2346	agressive	GSuccess[16]	zerschmettern\_set1\_5[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-zerschmettern\_set1\_5[16]	_	_	_	_	_	false[97]	NA[97]	*[223]	*[223]	*[223]	*[223]	*[223]	input2[223]	42[340]	female[340]	h05ingrcngdnasp07727nvoq59[340]	speaker: YOU[457]	*->19-1	DefNP[19]	_	_	_	
+95-4	2347-2350	Art	GSuccess[16]	zerschmettern\_set1\_5[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-zerschmettern\_set1\_5[16]	_	_	_	_	_	false[97]	NA[97]	*[223]	*[223]	*[223]	*[223]	*[223]	input2[223]	42[340]	female[340]	h05ingrcngdnasp07727nvoq59[340]	speaker: YOU[457]	*->19-1	DefNP[19]	_	_	_	
+95-5	2351-2355	<BR>	GSuccess[16]	zerschmettern\_set1\_5[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-zerschmettern\_set1\_5[16]	_	_	_	_	_	_	_	*[223]	*[223]	*[223]	*[223]	*[223]	input2[223]	42[340]	female[340]	h05ingrcngdnasp07727nvoq59[340]	speaker: YOU[457]	_	_	_	_	_	
+95-6	2356-2360	wenn	GSuccess[16]	zerschmettern\_set1\_5[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-zerschmettern\_set1\_5[16]	_	_	_	_	_	false[98]	NA[98]	*[223]	*[223]	*[223]	*[223]	*[223]	input2[223]	42[340]	female[340]	h05ingrcngdnasp07727nvoq59[340]	speaker: YOU[457]	_	_	_	_	_	
+95-7	2361-2364	was	GSuccess[16]	zerschmettern\_set1\_5[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-zerschmettern\_set1\_5[16]	_	_	_	_	_	false[98]	NA[98]	*[223]	*[223]	*[223]	*[223]	*[223]	input2[223]	42[340]	female[340]	h05ingrcngdnasp07727nvoq59[340]	speaker: YOU[457]	*->45-1	IndefNP[45]	_	_	_	
+95-8	2365-2370	nicht	GSuccess[16]	zerschmettern\_set1\_5[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-zerschmettern\_set1\_5[16]	_	_	_	_	_	false[98]	NA[98]	*[223]	*[223]	*[223]	*[223]	*[223]	input2[223]	42[340]	female[340]	h05ingrcngdnasp07727nvoq59[340]	speaker: YOU[457]	_	_	_	_	_	
+95-9	2371-2377	passt.	GSuccess[16]	zerschmettern\_set1\_5[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-zerschmettern\_set1\_5[16]	_	_	_	_	_	false[98]	NA[98]	*[223]	*[223]	*[223]	*[223]	*[223]	input2[223]	42[340]	female[340]	h05ingrcngdnasp07727nvoq59[340]	speaker: YOU[457]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+96-1	2379-2394	END_OF_DOCUMENT	GSuccess[16]	zerschmettern\_set1\_5[16]	latin1[16]	h05ingrcngdnasp07727nvoq59-zerschmettern\_set1\_5[16]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hi, alles okay soweit?
+97-1	2396-2399	Hi,	GSuccess[17]	zerschmettern\_set1\_5[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-zerschmettern\_set1\_5[17]	_	_	_	_	_	false[99]	Int[99]	*[224]	*[224]	*[224]	yn\_3[224]	yesno\_question[224]	openq[224]	*[341]	female[341]	*[341]	speaker:Anastasia[458]	_	_	QAP	*	98-1[100_99]	
+97-2	2400-2405	alles	GSuccess[17]	zerschmettern\_set1\_5[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-zerschmettern\_set1\_5[17]	_	_	_	_	_	false[99]	Int[99]	*[224]	*[224]	*[224]	yn\_3[224]	yesno\_question[224]	openq[224]	*[341]	female[341]	*[341]	speaker:Anastasia[458]	_	_	_	_	_	
+97-3	2406-2410	okay	GSuccess[17]	zerschmettern\_set1\_5[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-zerschmettern\_set1\_5[17]	_	_	_	_	_	false[99]	Int[99]	*[224]	*[224]	*[224]	yn\_3[224]	yesno\_question[224]	openq[224]	*[341]	female[341]	*[341]	speaker:Anastasia[458]	_	_	_	_	_	
+97-4	2411-2418	soweit?	GSuccess[17]	zerschmettern\_set1\_5[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-zerschmettern\_set1\_5[17]	_	_	_	_	_	false[99]	Int[99]	*[224]	*[224]	*[224]	yn\_3[224]	yesno\_question[224]	openq[224]	*[341]	female[341]	*[341]	speaker:Anastasia[458]	_	_	_	_	_	
+
+#Text=Lisa hat Stühle zerschmettert
+98-1	2420-2424	Lisa	GSuccess[17]	zerschmettern\_set1\_5[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-zerschmettern\_set1\_5[17]	_	_	_	_	_	false[100]	Decl[100]	*[225]	zerschmettern[225]	transitive[225]	*[225]	*[225]	item0[225]	42[342]	male[342]	jkqc35grurqg6r29efakrmibd9[342]	speaker: YOU[459]	*->66-1	PropNm[66]	acknowledgement	*	99-1[0_100]	
+98-2	2425-2428	hat	GSuccess[17]	zerschmettern\_set1\_5[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-zerschmettern\_set1\_5[17]	_	_	_	_	_	false[100]	Decl[100]	*[225]	zerschmettern[225]	transitive[225]	*[225]	*[225]	item0[225]	42[342]	male[342]	jkqc35grurqg6r29efakrmibd9[342]	speaker: YOU[459]	_	_	_	_	_	
+98-3	2429-2435	Stühle	GSuccess[17]	zerschmettern\_set1\_5[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-zerschmettern\_set1\_5[17]	_	_	_	_	_	false[100]	Decl[100]	*[225]	zerschmettern[225]	transitive[225]	*[225]	*[225]	item0[225]	42[342]	male[342]	jkqc35grurqg6r29efakrmibd9[342]	speaker: YOU[459]	*->77-1	IndefNP[77]	_	_	_	
+98-4	2436-2449	zerschmettert	GSuccess[17]	zerschmettern\_set1\_5[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-zerschmettern\_set1\_5[17]	_	_	_	_	_	false[100]	Decl[100]	*[225]	zerschmettern[225]	transitive[225]	*[225]	*[225]	item0[225]	42[342]	male[342]	jkqc35grurqg6r29efakrmibd9[342]	speaker: YOU[459]	_	_	_	_	_	
+
+#Text=Ohje
+99-1	2451-2455	Ohje	GSuccess[17]	zerschmettern\_set1\_5[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-zerschmettern\_set1\_5[17]	_	_	_	_	_	false	NA	ohje\_27	*	*	*	*	feedback	*	female	*	speaker:Anastasia	_	_	acknowledgement	*	100-1	
+
+#Text=Ja <BR> sie war so wütend
+100-1	2457-2459	Ja	GSuccess[17]	zerschmettern\_set1\_5[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-zerschmettern\_set1\_5[17]	_	_	_	_	_	false	NA	*[226]	*[226]	*[226]	*[226]	*[226]	input1[226]	42[343]	male[343]	jkqc35grurqg6r29efakrmibd9[343]	speaker: YOU[460]	_	_	explanation	*	100-3[101_0]	
+100-2	2460-2464	<BR>	GSuccess[17]	zerschmettern\_set1\_5[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-zerschmettern\_set1\_5[17]	_	_	_	_	_	_	_	*[226]	*[226]	*[226]	*[226]	*[226]	input1[226]	42[343]	male[343]	jkqc35grurqg6r29efakrmibd9[343]	speaker: YOU[460]	_	_	_	_	_	
+100-3	2465-2468	sie	GSuccess[17]	zerschmettern\_set1\_5[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-zerschmettern\_set1\_5[17]	3	*	*	*	singular	false[101]	Decl[101]	*[226]	*[226]	*[226]	*[226]	*[226]	input1[226]	42[343]	male[343]	jkqc35grurqg6r29efakrmibd9[343]	speaker: YOU[460]	*->66-2	PerPron[66]	explanation	*	101-4[103_101]	
+100-4	2469-2472	war	GSuccess[17]	zerschmettern\_set1\_5[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-zerschmettern\_set1\_5[17]	_	_	_	_	_	false[101]	Decl[101]	*[226]	*[226]	*[226]	*[226]	*[226]	input1[226]	42[343]	male[343]	jkqc35grurqg6r29efakrmibd9[343]	speaker: YOU[460]	_	_	_	_	_	
+100-5	2473-2475	so	GSuccess[17]	zerschmettern\_set1\_5[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-zerschmettern\_set1\_5[17]	_	_	_	_	_	false[101]	Decl[101]	*[226]	*[226]	*[226]	*[226]	*[226]	input1[226]	42[343]	male[343]	jkqc35grurqg6r29efakrmibd9[343]	speaker: YOU[460]	_	_	_	_	_	
+100-6	2476-2482	wütend	GSuccess[17]	zerschmettern\_set1\_5[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-zerschmettern\_set1\_5[17]	_	_	_	_	_	false[101]	Decl[101]	*[226]	*[226]	*[226]	*[226]	*[226]	input1[226]	42[343]	male[343]	jkqc35grurqg6r29efakrmibd9[343]	speaker: YOU[460]	_	_	_	_	_	
+
+#Text=weisst Du <BR> sie hat die Beförderung nicht bekommen sondern ihr doofer Kollege
+101-1	2484-2490	weisst	GSuccess[17]	zerschmettern\_set1\_5[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-zerschmettern\_set1\_5[17]	_	_	_	_	_	false[102]	Int[102]	*[227]	*[227]	*[227]	*[227]	*[227]	input2[227]	42[344]	male[344]	jkqc35grurqg6r29efakrmibd9[344]	speaker: YOU[461]	_	_	_	_	_	
+101-2	2491-2493	Du	GSuccess[17]	zerschmettern\_set1\_5[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-zerschmettern\_set1\_5[17]	2	*	*	*	singular	false[102]	Int[102]	*[227]	*[227]	*[227]	*[227]	*[227]	input2[227]	42[344]	male[344]	jkqc35grurqg6r29efakrmibd9[344]	speaker: YOU[461]	*->93-1	PerPron[93]	_	_	_	
+101-3	2494-2498	<BR>	GSuccess[17]	zerschmettern\_set1\_5[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-zerschmettern\_set1\_5[17]	_	_	_	_	_	_	_	*[227]	*[227]	*[227]	*[227]	*[227]	input2[227]	42[344]	male[344]	jkqc35grurqg6r29efakrmibd9[344]	speaker: YOU[461]	_	_	_	_	_	
+101-4	2499-2502	sie	GSuccess[17]	zerschmettern\_set1\_5[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-zerschmettern\_set1\_5[17]	3	*	*	*	singular	false[103]	Decl[103]	*[227]	*[227]	*[227]	*[227]	*[227]	input2[227]	42[344]	male[344]	jkqc35grurqg6r29efakrmibd9[344]	speaker: YOU[461]	*->66-3	PerPron[66]	_	_	_	
+101-5	2503-2506	hat	GSuccess[17]	zerschmettern\_set1\_5[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-zerschmettern\_set1\_5[17]	_	_	_	_	_	false[103]	Decl[103]	*[227]	*[227]	*[227]	*[227]	*[227]	input2[227]	42[344]	male[344]	jkqc35grurqg6r29efakrmibd9[344]	speaker: YOU[461]	_	_	_	_	_	
+101-6	2507-2510	die	GSuccess[17]	zerschmettern\_set1\_5[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-zerschmettern\_set1\_5[17]	_	_	_	_	_	false[103]	Decl[103]	*[227]	*[227]	*[227]	*[227]	*[227]	input2[227]	42[344]	male[344]	jkqc35grurqg6r29efakrmibd9[344]	speaker: YOU[461]	*->95-1	DefNP[95]	_	_	_	
+101-7	2511-2522	Beförderung	GSuccess[17]	zerschmettern\_set1\_5[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-zerschmettern\_set1\_5[17]	_	_	_	_	_	false[103]	Decl[103]	*[227]	*[227]	*[227]	*[227]	*[227]	input2[227]	42[344]	male[344]	jkqc35grurqg6r29efakrmibd9[344]	speaker: YOU[461]	*->95-1	DefNP[95]	_	_	_	
+101-8	2523-2528	nicht	GSuccess[17]	zerschmettern\_set1\_5[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-zerschmettern\_set1\_5[17]	_	_	_	_	_	false[103]	Decl[103]	*[227]	*[227]	*[227]	*[227]	*[227]	input2[227]	42[344]	male[344]	jkqc35grurqg6r29efakrmibd9[344]	speaker: YOU[461]	_	_	_	_	_	
+101-9	2529-2537	bekommen	GSuccess[17]	zerschmettern\_set1\_5[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-zerschmettern\_set1\_5[17]	_	_	_	_	_	false[103]	Decl[103]	*[227]	*[227]	*[227]	*[227]	*[227]	input2[227]	42[344]	male[344]	jkqc35grurqg6r29efakrmibd9[344]	speaker: YOU[461]	_	_	_	_	_	
+101-10	2538-2545	sondern	GSuccess[17]	zerschmettern\_set1\_5[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-zerschmettern\_set1\_5[17]	_	_	_	_	_	false[103]	Decl[103]	*[227]	*[227]	*[227]	*[227]	*[227]	input2[227]	42[344]	male[344]	jkqc35grurqg6r29efakrmibd9[344]	speaker: YOU[461]	_	_	_	_	_	
+101-11	2546-2549	ihr	GSuccess[17]	zerschmettern\_set1\_5[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-zerschmettern\_set1\_5[17]	3	*	*	*	singular	false[103]	Decl[103]	*[227]	*[227]	*[227]	*[227]	*[227]	input2[227]	42[344]	male[344]	jkqc35grurqg6r29efakrmibd9[344]	speaker: YOU[461]	*->57-1|*->66-4	DefNP[57]|PossePron[66]	_	_	_	
+101-12	2550-2556	doofer	GSuccess[17]	zerschmettern\_set1\_5[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-zerschmettern\_set1\_5[17]	_	_	_	_	_	false[103]	Decl[103]	*[227]	*[227]	*[227]	*[227]	*[227]	input2[227]	42[344]	male[344]	jkqc35grurqg6r29efakrmibd9[344]	speaker: YOU[461]	*->57-1	DefNP[57]	_	_	_	
+101-13	2557-2564	Kollege	GSuccess[17]	zerschmettern\_set1\_5[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-zerschmettern\_set1\_5[17]	_	_	_	_	_	false[103]	Decl[103]	*[227]	*[227]	*[227]	*[227]	*[227]	input2[227]	42[344]	male[344]	jkqc35grurqg6r29efakrmibd9[344]	speaker: YOU[461]	*->57-1	DefNP[57]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+102-1	2566-2581	END_OF_DOCUMENT	GSuccess[17]	zerschmettern\_set1\_5[17]	latin1[17]	jkqc35grurqg6r29efakrmibd9-zerschmettern\_set1\_5[17]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hi, alles okay soweit?
+103-1	2583-2586	Hi,	GSuccess[18]	zerschmettern\_set1\_5[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-zerschmettern\_set1\_5[18]	_	_	_	_	_	false[104]	Int[104]	*[228]	*[228]	*[228]	yn\_3[228]	yesno\_question[228]	openq[228]	*[345]	female[345]	*[345]	speaker:Anastasia[462]	_	_	QAP	*	104-1[105_104]	
+103-2	2587-2592	alles	GSuccess[18]	zerschmettern\_set1\_5[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-zerschmettern\_set1\_5[18]	_	_	_	_	_	false[104]	Int[104]	*[228]	*[228]	*[228]	yn\_3[228]	yesno\_question[228]	openq[228]	*[345]	female[345]	*[345]	speaker:Anastasia[462]	_	_	_	_	_	
+103-3	2593-2597	okay	GSuccess[18]	zerschmettern\_set1\_5[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-zerschmettern\_set1\_5[18]	_	_	_	_	_	false[104]	Int[104]	*[228]	*[228]	*[228]	yn\_3[228]	yesno\_question[228]	openq[228]	*[345]	female[345]	*[345]	speaker:Anastasia[462]	_	_	_	_	_	
+103-4	2598-2605	soweit?	GSuccess[18]	zerschmettern\_set1\_5[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-zerschmettern\_set1\_5[18]	_	_	_	_	_	false[104]	Int[104]	*[228]	*[228]	*[228]	yn\_3[228]	yesno\_question[228]	openq[228]	*[345]	female[345]	*[345]	speaker:Anastasia[462]	_	_	_	_	_	
+
+#Text=Lisa hat Stühle zerschmettert
+104-1	2607-2611	Lisa	GSuccess[18]	zerschmettern\_set1\_5[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-zerschmettern\_set1\_5[18]	_	_	_	_	_	false[105]	Decl[105]	*[229]	zerschmettern[229]	transitive[229]	*[229]	*[229]	item0[229]	20[346]	male[346]	lhu26mh95feeqso1qtacqboi3v[346]	speaker: YOU[463]	*->12-1	PropNm[12]	elaboration|acknowledgement	*|*	106-1[0_105]|105-1[0_105]	
+104-2	2612-2615	hat	GSuccess[18]	zerschmettern\_set1\_5[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-zerschmettern\_set1\_5[18]	_	_	_	_	_	false[105]	Decl[105]	*[229]	zerschmettern[229]	transitive[229]	*[229]	*[229]	item0[229]	20[346]	male[346]	lhu26mh95feeqso1qtacqboi3v[346]	speaker: YOU[463]	_	_	_	_	_	
+104-3	2616-2622	Stühle	GSuccess[18]	zerschmettern\_set1\_5[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-zerschmettern\_set1\_5[18]	_	_	_	_	_	false[105]	Decl[105]	*[229]	zerschmettern[229]	transitive[229]	*[229]	*[229]	item0[229]	20[346]	male[346]	lhu26mh95feeqso1qtacqboi3v[346]	speaker: YOU[463]	*->41-1	IndefNP[41]	_	_	_	
+104-4	2623-2636	zerschmettert	GSuccess[18]	zerschmettern\_set1\_5[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-zerschmettern\_set1\_5[18]	_	_	_	_	_	false[105]	Decl[105]	*[229]	zerschmettern[229]	transitive[229]	*[229]	*[229]	item0[229]	20[346]	male[346]	lhu26mh95feeqso1qtacqboi3v[346]	speaker: YOU[463]	_	_	_	_	_	
+
+#Text=Ohje
+105-1	2638-2642	Ohje	GSuccess[18]	zerschmettern\_set1\_5[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-zerschmettern\_set1\_5[18]	_	_	_	_	_	false	NA	ohje\_27	*	*	*	*	feedback	*	female	*	speaker:Anastasia	_	_	_	_	_	
+
+#Text=Ja <BR> sie hat sich echt nicht im Griff.
+106-1	2644-2646	Ja	GSuccess[18]	zerschmettern\_set1\_5[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-zerschmettern\_set1\_5[18]	_	_	_	_	_	false	NA	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	20[347]	male[347]	lhu26mh95feeqso1qtacqboi3v[347]	speaker: YOU[464]	_	_	explanation	*	106-3[106_0]	
+106-2	2647-2651	<BR>	GSuccess[18]	zerschmettern\_set1\_5[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-zerschmettern\_set1\_5[18]	_	_	_	_	_	_	_	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	20[347]	male[347]	lhu26mh95feeqso1qtacqboi3v[347]	speaker: YOU[464]	_	_	_	_	_	
+106-3	2652-2655	sie	GSuccess[18]	zerschmettern\_set1\_5[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-zerschmettern\_set1\_5[18]	3	*	*	*	singular	false[106]	Decl[106]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	20[347]	male[347]	lhu26mh95feeqso1qtacqboi3v[347]	speaker: YOU[464]	*->12-2	PerPron[12]	result	*	107-1[107_106]	
+106-4	2656-2659	hat	GSuccess[18]	zerschmettern\_set1\_5[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-zerschmettern\_set1\_5[18]	_	_	_	_	_	false[106]	Decl[106]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	20[347]	male[347]	lhu26mh95feeqso1qtacqboi3v[347]	speaker: YOU[464]	_	_	_	_	_	
+106-5	2660-2664	sich	GSuccess[18]	zerschmettern\_set1\_5[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-zerschmettern\_set1\_5[18]	_	_	_	_	_	false[106]	Decl[106]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	20[347]	male[347]	lhu26mh95feeqso1qtacqboi3v[347]	speaker: YOU[464]	_	_	_	_	_	
+106-6	2665-2669	echt	GSuccess[18]	zerschmettern\_set1\_5[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-zerschmettern\_set1\_5[18]	_	_	_	_	_	false[106]	Decl[106]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	20[347]	male[347]	lhu26mh95feeqso1qtacqboi3v[347]	speaker: YOU[464]	_	_	_	_	_	
+106-7	2670-2675	nicht	GSuccess[18]	zerschmettern\_set1\_5[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-zerschmettern\_set1\_5[18]	_	_	_	_	_	false[106]	Decl[106]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	20[347]	male[347]	lhu26mh95feeqso1qtacqboi3v[347]	speaker: YOU[464]	_	_	_	_	_	
+106-8	2676-2678	im	GSuccess[18]	zerschmettern\_set1\_5[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-zerschmettern\_set1\_5[18]	_	_	_	_	_	false[106]	Decl[106]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	20[347]	male[347]	lhu26mh95feeqso1qtacqboi3v[347]	speaker: YOU[464]	_	_	_	_	_	
+106-9	2679-2685	Griff.	GSuccess[18]	zerschmettern\_set1\_5[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-zerschmettern\_set1\_5[18]	_	_	_	_	_	false[106]	Decl[106]	*[230]	*[230]	*[230]	*[230]	*[230]	input1[230]	20[347]	male[347]	lhu26mh95feeqso1qtacqboi3v[347]	speaker: YOU[464]	_	_	_	_	_	
+
+#Text=Ich hoffe sie sucht sich bald professionelle Hilfe.
+107-1	2687-2690	Ich	GSuccess[18]	zerschmettern\_set1\_5[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-zerschmettern\_set1\_5[18]	1	*	*	*	singular	false[107]	Decl[107]	*[231]	*[231]	*[231]	*[231]	*[231]	input2[231]	20[348]	male[348]	lhu26mh95feeqso1qtacqboi3v[348]	speaker: YOU[465]	*->108-1	PerPron[108]	_	_	_	
+107-2	2691-2696	hoffe	GSuccess[18]	zerschmettern\_set1\_5[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-zerschmettern\_set1\_5[18]	_	_	_	_	_	false[107]	Decl[107]	*[231]	*[231]	*[231]	*[231]	*[231]	input2[231]	20[348]	male[348]	lhu26mh95feeqso1qtacqboi3v[348]	speaker: YOU[465]	_	_	_	_	_	
+107-3	2697-2700	sie	GSuccess[18]	zerschmettern\_set1\_5[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-zerschmettern\_set1\_5[18]	3	*	*	*	singular	false[107]	Decl[107]	*[231]	*[231]	*[231]	*[231]	*[231]	input2[231]	20[348]	male[348]	lhu26mh95feeqso1qtacqboi3v[348]	speaker: YOU[465]	*->12-3	PerPron[12]	_	_	_	
+107-4	2701-2706	sucht	GSuccess[18]	zerschmettern\_set1\_5[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-zerschmettern\_set1\_5[18]	_	_	_	_	_	false[107]	Decl[107]	*[231]	*[231]	*[231]	*[231]	*[231]	input2[231]	20[348]	male[348]	lhu26mh95feeqso1qtacqboi3v[348]	speaker: YOU[465]	_	_	_	_	_	
+107-5	2707-2711	sich	GSuccess[18]	zerschmettern\_set1\_5[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-zerschmettern\_set1\_5[18]	_	_	_	_	_	false[107]	Decl[107]	*[231]	*[231]	*[231]	*[231]	*[231]	input2[231]	20[348]	male[348]	lhu26mh95feeqso1qtacqboi3v[348]	speaker: YOU[465]	_	_	_	_	_	
+107-6	2712-2716	bald	GSuccess[18]	zerschmettern\_set1\_5[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-zerschmettern\_set1\_5[18]	_	_	_	_	_	false[107]	Decl[107]	*[231]	*[231]	*[231]	*[231]	*[231]	input2[231]	20[348]	male[348]	lhu26mh95feeqso1qtacqboi3v[348]	speaker: YOU[465]	_	_	_	_	_	
+107-7	2717-2731	professionelle	GSuccess[18]	zerschmettern\_set1\_5[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-zerschmettern\_set1\_5[18]	_	_	_	_	_	false[107]	Decl[107]	*[231]	*[231]	*[231]	*[231]	*[231]	input2[231]	20[348]	male[348]	lhu26mh95feeqso1qtacqboi3v[348]	speaker: YOU[465]	*->103-1	IndefNP[103]	_	_	_	
+107-8	2732-2738	Hilfe.	GSuccess[18]	zerschmettern\_set1\_5[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-zerschmettern\_set1\_5[18]	_	_	_	_	_	false[107]	Decl[107]	*[231]	*[231]	*[231]	*[231]	*[231]	input2[231]	20[348]	male[348]	lhu26mh95feeqso1qtacqboi3v[348]	speaker: YOU[465]	*->103-1	IndefNP[103]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+108-1	2740-2755	END_OF_DOCUMENT	GSuccess[18]	zerschmettern\_set1\_5[18]	latin1[18]	lhu26mh95feeqso1qtacqboi3v-zerschmettern\_set1\_5[18]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hi, alles okay soweit?
+109-1	2757-2760	Hi,	GSuccess[19]	zerschmettern\_set1\_5[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-zerschmettern\_set1\_5[19]	_	_	_	_	_	false[108]	Int[108]	*[232]	*[232]	*[232]	yn\_3[232]	yesno\_question[232]	openq[232]	*[349]	female[349]	*[349]	speaker:Anastasia[466]	_	_	QAP	*	110-1[109_108]	
+109-2	2761-2766	alles	GSuccess[19]	zerschmettern\_set1\_5[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-zerschmettern\_set1\_5[19]	_	_	_	_	_	false[108]	Int[108]	*[232]	*[232]	*[232]	yn\_3[232]	yesno\_question[232]	openq[232]	*[349]	female[349]	*[349]	speaker:Anastasia[466]	_	_	_	_	_	
+109-3	2767-2771	okay	GSuccess[19]	zerschmettern\_set1\_5[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-zerschmettern\_set1\_5[19]	_	_	_	_	_	false[108]	Int[108]	*[232]	*[232]	*[232]	yn\_3[232]	yesno\_question[232]	openq[232]	*[349]	female[349]	*[349]	speaker:Anastasia[466]	_	_	_	_	_	
+109-4	2772-2779	soweit?	GSuccess[19]	zerschmettern\_set1\_5[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-zerschmettern\_set1\_5[19]	_	_	_	_	_	false[108]	Int[108]	*[232]	*[232]	*[232]	yn\_3[232]	yesno\_question[232]	openq[232]	*[349]	female[349]	*[349]	speaker:Anastasia[466]	_	_	_	_	_	
+
+#Text=Lisa hat Stühle zerschmettert
+110-1	2781-2785	Lisa	GSuccess[19]	zerschmettern\_set1\_5[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-zerschmettern\_set1\_5[19]	_	_	_	_	_	false[109]	Decl[109]	*[233]	zerschmettern[233]	transitive[233]	*[233]	*[233]	item0[233]	21[350]	male[350]	tc4i3rsgsa9bl8tesf4679lok2[350]	speaker: YOU[467]	*->36-1	PropNm[36]	explanation|acknowledgement	*|*	112-1[110_109]|111-1[0_109]	
+110-2	2786-2789	hat	GSuccess[19]	zerschmettern\_set1\_5[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-zerschmettern\_set1\_5[19]	_	_	_	_	_	false[109]	Decl[109]	*[233]	zerschmettern[233]	transitive[233]	*[233]	*[233]	item0[233]	21[350]	male[350]	tc4i3rsgsa9bl8tesf4679lok2[350]	speaker: YOU[467]	_	_	_	_	_	
+110-3	2790-2796	Stühle	GSuccess[19]	zerschmettern\_set1\_5[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-zerschmettern\_set1\_5[19]	_	_	_	_	_	false[109]	Decl[109]	*[233]	zerschmettern[233]	transitive[233]	*[233]	*[233]	item0[233]	21[350]	male[350]	tc4i3rsgsa9bl8tesf4679lok2[350]	speaker: YOU[467]	*->4-1	IndefNP[4]	_	_	_	
+110-4	2797-2810	zerschmettert	GSuccess[19]	zerschmettern\_set1\_5[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-zerschmettern\_set1\_5[19]	_	_	_	_	_	false[109]	Decl[109]	*[233]	zerschmettern[233]	transitive[233]	*[233]	*[233]	item0[233]	21[350]	male[350]	tc4i3rsgsa9bl8tesf4679lok2[350]	speaker: YOU[467]	_	_	_	_	_	
+
+#Text=Ohje
+111-1	2812-2816	Ohje	GSuccess[19]	zerschmettern\_set1\_5[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-zerschmettern\_set1\_5[19]	_	_	_	_	_	false	NA	ohje\_27	*	*	*	*	feedback	*	female	*	speaker:Anastasia	_	_	_	_	_	
+
+#Text=Sie hatte vorhin schon schlechte Laune
+112-1	2818-2821	Sie	GSuccess[19]	zerschmettern\_set1\_5[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-zerschmettern\_set1\_5[19]	3	*	*	*	singular	false[110]	Decl[110]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	21[351]	male[351]	tc4i3rsgsa9bl8tesf4679lok2[351]	speaker: YOU[468]	*->36-2	PerPron[36]	_	_	_	
+112-2	2822-2827	hatte	GSuccess[19]	zerschmettern\_set1\_5[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-zerschmettern\_set1\_5[19]	_	_	_	_	_	false[110]	Decl[110]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	21[351]	male[351]	tc4i3rsgsa9bl8tesf4679lok2[351]	speaker: YOU[468]	_	_	_	_	_	
+112-3	2828-2834	vorhin	GSuccess[19]	zerschmettern\_set1\_5[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-zerschmettern\_set1\_5[19]	_	_	_	_	_	false[110]	Decl[110]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	21[351]	male[351]	tc4i3rsgsa9bl8tesf4679lok2[351]	speaker: YOU[468]	_	_	_	_	_	
+112-4	2835-2840	schon	GSuccess[19]	zerschmettern\_set1\_5[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-zerschmettern\_set1\_5[19]	_	_	_	_	_	false[110]	Decl[110]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	21[351]	male[351]	tc4i3rsgsa9bl8tesf4679lok2[351]	speaker: YOU[468]	_	_	_	_	_	
+112-5	2841-2850	schlechte	GSuccess[19]	zerschmettern\_set1\_5[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-zerschmettern\_set1\_5[19]	_	_	_	_	_	false[110]	Decl[110]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	21[351]	male[351]	tc4i3rsgsa9bl8tesf4679lok2[351]	speaker: YOU[468]	*->105-1	IndefNP[105]	_	_	_	
+112-6	2851-2856	Laune	GSuccess[19]	zerschmettern\_set1\_5[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-zerschmettern\_set1\_5[19]	_	_	_	_	_	false[110]	Decl[110]	*[234]	*[234]	*[234]	*[234]	*[234]	input1[234]	21[351]	male[351]	tc4i3rsgsa9bl8tesf4679lok2[351]	speaker: YOU[468]	*->105-1	IndefNP[105]	_	_	_	
+
+#Text=Und nachdem Tim da war ist sie richtig ausgerastet
+113-1	2858-2861	Und	GSuccess[19]	zerschmettern\_set1\_5[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-zerschmettern\_set1\_5[19]	_	_	_	_	_	false[111]	NA[111]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	21[352]	male[352]	tc4i3rsgsa9bl8tesf4679lok2[352]	speaker: YOU[469]	_	_	_	_	_	
+113-2	2862-2869	nachdem	GSuccess[19]	zerschmettern\_set1\_5[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-zerschmettern\_set1\_5[19]	_	_	_	_	_	false[111]	NA[111]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	21[352]	male[352]	tc4i3rsgsa9bl8tesf4679lok2[352]	speaker: YOU[469]	_	_	_	_	_	
+113-3	2870-2873	Tim	GSuccess[19]	zerschmettern\_set1\_5[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-zerschmettern\_set1\_5[19]	_	_	_	_	_	false[111]	NA[111]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	21[352]	male[352]	tc4i3rsgsa9bl8tesf4679lok2[352]	speaker: YOU[469]	*->92-1	PropNm[92]	_	_	_	
+113-4	2874-2876	da	GSuccess[19]	zerschmettern\_set1\_5[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-zerschmettern\_set1\_5[19]	_	_	_	_	_	false[111]	NA[111]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	21[352]	male[352]	tc4i3rsgsa9bl8tesf4679lok2[352]	speaker: YOU[469]	_	_	_	_	_	
+113-5	2877-2880	war	GSuccess[19]	zerschmettern\_set1\_5[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-zerschmettern\_set1\_5[19]	_	_	_	_	_	false[111]	NA[111]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	21[352]	male[352]	tc4i3rsgsa9bl8tesf4679lok2[352]	speaker: YOU[469]	_	_	_	_	_	
+113-6	2881-2884	ist	GSuccess[19]	zerschmettern\_set1\_5[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-zerschmettern\_set1\_5[19]	_	_	_	_	_	false[112]	Decl[112]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	21[352]	male[352]	tc4i3rsgsa9bl8tesf4679lok2[352]	speaker: YOU[469]	_	_	_	_	_	
+113-7	2885-2888	sie	GSuccess[19]	zerschmettern\_set1\_5[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-zerschmettern\_set1\_5[19]	3	*	*	*	singular	false[112]	Decl[112]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	21[352]	male[352]	tc4i3rsgsa9bl8tesf4679lok2[352]	speaker: YOU[469]	*->36-3	PerPron[36]	_	_	_	
+113-8	2889-2896	richtig	GSuccess[19]	zerschmettern\_set1\_5[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-zerschmettern\_set1\_5[19]	_	_	_	_	_	false[112]	Decl[112]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	21[352]	male[352]	tc4i3rsgsa9bl8tesf4679lok2[352]	speaker: YOU[469]	_	_	_	_	_	
+113-9	2897-2908	ausgerastet	GSuccess[19]	zerschmettern\_set1\_5[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-zerschmettern\_set1\_5[19]	_	_	_	_	_	false[112]	Decl[112]	*[235]	*[235]	*[235]	*[235]	*[235]	input2[235]	21[352]	male[352]	tc4i3rsgsa9bl8tesf4679lok2[352]	speaker: YOU[469]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+114-1	2910-2925	END_OF_DOCUMENT	GSuccess[19]	zerschmettern\_set1\_5[19]	latin1[19]	tc4i3rsgsa9bl8tesf4679lok2-zerschmettern\_set1\_5[19]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hi, alles okay soweit?
+115-1	2927-2930	Hi,	GSuccess[20]	zerschmettern\_set1\_5[20]	latin1[20]	us0adlivem61c2bj5776kudbot-zerschmettern\_set1\_5[20]	_	_	_	_	_	false[113]	Int[113]	*[236]	*[236]	*[236]	yn\_3[236]	yesno\_question[236]	openq[236]	*[353]	female[353]	*[353]	speaker:Anastasia[470]	_	_	QAP	*	116-1[114_113]	
+115-2	2931-2936	alles	GSuccess[20]	zerschmettern\_set1\_5[20]	latin1[20]	us0adlivem61c2bj5776kudbot-zerschmettern\_set1\_5[20]	_	_	_	_	_	false[113]	Int[113]	*[236]	*[236]	*[236]	yn\_3[236]	yesno\_question[236]	openq[236]	*[353]	female[353]	*[353]	speaker:Anastasia[470]	_	_	_	_	_	
+115-3	2937-2941	okay	GSuccess[20]	zerschmettern\_set1\_5[20]	latin1[20]	us0adlivem61c2bj5776kudbot-zerschmettern\_set1\_5[20]	_	_	_	_	_	false[113]	Int[113]	*[236]	*[236]	*[236]	yn\_3[236]	yesno\_question[236]	openq[236]	*[353]	female[353]	*[353]	speaker:Anastasia[470]	_	_	_	_	_	
+115-4	2942-2949	soweit?	GSuccess[20]	zerschmettern\_set1\_5[20]	latin1[20]	us0adlivem61c2bj5776kudbot-zerschmettern\_set1\_5[20]	_	_	_	_	_	false[113]	Int[113]	*[236]	*[236]	*[236]	yn\_3[236]	yesno\_question[236]	openq[236]	*[353]	female[353]	*[353]	speaker:Anastasia[470]	_	_	_	_	_	
+
+#Text=Lisa hat Stühle zerschmettert
+116-1	2951-2955	Lisa	GSuccess[20]	zerschmettern\_set1\_5[20]	latin1[20]	us0adlivem61c2bj5776kudbot-zerschmettern\_set1\_5[20]	_	_	_	_	_	false[114]	Decl[114]	*[237]	zerschmettern[237]	transitive[237]	*[237]	*[237]	item0[237]	66[354]	male[354]	us0adlivem61c2bj5776kudbot[354]	speaker: YOU[471]	*->38-1	PropNm[38]	acknowledgement	*	117-1[0_114]	
+116-2	2956-2959	hat	GSuccess[20]	zerschmettern\_set1\_5[20]	latin1[20]	us0adlivem61c2bj5776kudbot-zerschmettern\_set1\_5[20]	_	_	_	_	_	false[114]	Decl[114]	*[237]	zerschmettern[237]	transitive[237]	*[237]	*[237]	item0[237]	66[354]	male[354]	us0adlivem61c2bj5776kudbot[354]	speaker: YOU[471]	_	_	_	_	_	
+116-3	2960-2966	Stühle	GSuccess[20]	zerschmettern\_set1\_5[20]	latin1[20]	us0adlivem61c2bj5776kudbot-zerschmettern\_set1\_5[20]	_	_	_	_	_	false[114]	Decl[114]	*[237]	zerschmettern[237]	transitive[237]	*[237]	*[237]	item0[237]	66[354]	male[354]	us0adlivem61c2bj5776kudbot[354]	speaker: YOU[471]	*->32-1	IndefNP[32]	_	_	_	
+116-4	2967-2980	zerschmettert	GSuccess[20]	zerschmettern\_set1\_5[20]	latin1[20]	us0adlivem61c2bj5776kudbot-zerschmettern\_set1\_5[20]	_	_	_	_	_	false[114]	Decl[114]	*[237]	zerschmettern[237]	transitive[237]	*[237]	*[237]	item0[237]	66[354]	male[354]	us0adlivem61c2bj5776kudbot[354]	speaker: YOU[471]	_	_	_	_	_	
+
+#Text=Ohje
+117-1	2982-2986	Ohje	GSuccess[20]	zerschmettern\_set1\_5[20]	latin1[20]	us0adlivem61c2bj5776kudbot-zerschmettern\_set1\_5[20]	_	_	_	_	_	false	NA	ohje\_27	*	*	*	*	feedback	*	female	*	speaker:Anastasia	_	_	acknowledgement	*	118-1[115_0]	
+
+#Text=ja aber alte
+118-1	2988-2990	ja	GSuccess[20]	zerschmettern\_set1\_5[20]	latin1[20]	us0adlivem61c2bj5776kudbot-zerschmettern\_set1\_5[20]	_	_	_	_	_	false[115]	NA[115]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	66[355]	male[355]	us0adlivem61c2bj5776kudbot[355]	speaker: YOU[472]	_	_	elaboration	*	119-1[0_115]	
+118-2	2991-2995	aber	GSuccess[20]	zerschmettern\_set1\_5[20]	latin1[20]	us0adlivem61c2bj5776kudbot-zerschmettern\_set1\_5[20]	_	_	_	_	_	false[115]	NA[115]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	66[355]	male[355]	us0adlivem61c2bj5776kudbot[355]	speaker: YOU[472]	_	_	_	_	_	
+118-3	2996-3000	alte	GSuccess[20]	zerschmettern\_set1\_5[20]	latin1[20]	us0adlivem61c2bj5776kudbot-zerschmettern\_set1\_5[20]	_	_	_	_	_	false[115]	NA[115]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	66[355]	male[355]	us0adlivem61c2bj5776kudbot[355]	speaker: YOU[472]	_	_	_	_	_	
+
+#Text=Lol
+119-1	3002-3005	Lol	GSuccess[20]	zerschmettern\_set1\_5[20]	latin1[20]	us0adlivem61c2bj5776kudbot-zerschmettern\_set1\_5[20]	_	_	_	_	_	false	NA	*	*	*	*	*	input2	66	male	us0adlivem61c2bj5776kudbot	speaker: YOU	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+120-1	3007-3022	END_OF_DOCUMENT	GSuccess[20]	zerschmettern\_set1\_5[20]	latin1[20]	us0adlivem61c2bj5776kudbot-zerschmettern\_set1\_5[20]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hi, alles okay soweit?
+121-1	3024-3027	Hi,	GWithout[21]	zerschmettern\_set1\_5[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-zerschmettern\_set1\_5[21]	_	_	_	_	_	false[116]	Int[116]	*[239]	*[239]	*[239]	yn\_3[239]	yesno\_question[239]	openq[239]	*[356]	female[356]	*[356]	speaker:Anastasia[473]	_	_	QAP	*	122-1[117_116]	
+121-2	3028-3033	alles	GWithout[21]	zerschmettern\_set1\_5[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-zerschmettern\_set1\_5[21]	_	_	_	_	_	false[116]	Int[116]	*[239]	*[239]	*[239]	yn\_3[239]	yesno\_question[239]	openq[239]	*[356]	female[356]	*[356]	speaker:Anastasia[473]	_	_	_	_	_	
+121-3	3034-3038	okay	GWithout[21]	zerschmettern\_set1\_5[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-zerschmettern\_set1\_5[21]	_	_	_	_	_	false[116]	Int[116]	*[239]	*[239]	*[239]	yn\_3[239]	yesno\_question[239]	openq[239]	*[356]	female[356]	*[356]	speaker:Anastasia[473]	_	_	_	_	_	
+121-4	3039-3046	soweit?	GWithout[21]	zerschmettern\_set1\_5[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-zerschmettern\_set1\_5[21]	_	_	_	_	_	false[116]	Int[116]	*[239]	*[239]	*[239]	yn\_3[239]	yesno\_question[239]	openq[239]	*[356]	female[356]	*[356]	speaker:Anastasia[473]	_	_	_	_	_	
+
+#Text=Lisa hat Stühle zerschmettert
+122-1	3048-3052	Lisa	GWithout[21]	zerschmettern\_set1\_5[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-zerschmettern\_set1\_5[21]	_	_	_	_	_	false[117]	Decl[117]	*[240]	zerschmettern[240]	transitive[240]	*[240]	*[240]	item0[240]	32[357]	female[357]	2em9nj6n4c2pjudl6n6hfpjc30[357]	speaker: YOU[474]	*->99-1	PropNm[99]	explanation	*	124-1[118_117]	
+122-2	3053-3056	hat	GWithout[21]	zerschmettern\_set1\_5[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-zerschmettern\_set1\_5[21]	_	_	_	_	_	false[117]	Decl[117]	*[240]	zerschmettern[240]	transitive[240]	*[240]	*[240]	item0[240]	32[357]	female[357]	2em9nj6n4c2pjudl6n6hfpjc30[357]	speaker: YOU[474]	_	_	_	_	_	
+122-3	3057-3063	Stühle	GWithout[21]	zerschmettern\_set1\_5[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-zerschmettern\_set1\_5[21]	_	_	_	_	_	false[117]	Decl[117]	*[240]	zerschmettern[240]	transitive[240]	*[240]	*[240]	item0[240]	32[357]	female[357]	2em9nj6n4c2pjudl6n6hfpjc30[357]	speaker: YOU[474]	*->96-1	IndefNP[96]	_	_	_	
+122-4	3064-3077	zerschmettert	GWithout[21]	zerschmettern\_set1\_5[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-zerschmettern\_set1\_5[21]	_	_	_	_	_	false[117]	Decl[117]	*[240]	zerschmettern[240]	transitive[240]	*[240]	*[240]	item0[240]	32[357]	female[357]	2em9nj6n4c2pjudl6n6hfpjc30[357]	speaker: YOU[474]	_	_	_	_	_	
+
+#Text=-
+123-1	3079-3080	-	GWithout[21]	zerschmettern\_set1\_5[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-zerschmettern\_set1\_5[21]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Anastasia	_	_	_	_	_	
+
+#Text=Für ihr Kunstprojekt?
+124-1	3082-3085	Für	GWithout[21]	zerschmettern\_set1\_5[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-zerschmettern\_set1\_5[21]	_	_	_	_	_	false[118]	NA[118]	*[241]	*[241]	*[241]	*[241]	*[241]	input1[241]	32[358]	female[358]	2em9nj6n4c2pjudl6n6hfpjc30[358]	speaker: YOU[475]	_	_	_	_	_	
+124-2	3086-3089	ihr	GWithout[21]	zerschmettern\_set1\_5[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-zerschmettern\_set1\_5[21]	_	_	_	_	_	false[118]	NA[118]	*[241]	*[241]	*[241]	*[241]	*[241]	input1[241]	32[358]	female[358]	2em9nj6n4c2pjudl6n6hfpjc30[358]	speaker: YOU[475]	*->6-1|*->99-2	DefNP[6]|PossePron[99]	_	_	_	
+124-3	3090-3103	Kunstprojekt?	GWithout[21]	zerschmettern\_set1\_5[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-zerschmettern\_set1\_5[21]	_	_	_	_	_	false[118]	NA[118]	*[241]	*[241]	*[241]	*[241]	*[241]	input1[241]	32[358]	female[358]	2em9nj6n4c2pjudl6n6hfpjc30[358]	speaker: YOU[475]	*->6-1	DefNP[6]	_	_	_	
+
+#Text=Sie redet seit Tagen über nichts Anderes.
+125-1	3105-3108	Sie	GWithout[21]	zerschmettern\_set1\_5[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-zerschmettern\_set1\_5[21]	3	*	*	*	singular	false[119]	Decl[119]	*[242]	*[242]	*[242]	*[242]	*[242]	input2[242]	32[359]	female[359]	2em9nj6n4c2pjudl6n6hfpjc30[359]	speaker: YOU[476]	*->99-3	PerPron[99]	_	_	_	
+125-2	3109-3114	redet	GWithout[21]	zerschmettern\_set1\_5[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-zerschmettern\_set1\_5[21]	_	_	_	_	_	false[119]	Decl[119]	*[242]	*[242]	*[242]	*[242]	*[242]	input2[242]	32[359]	female[359]	2em9nj6n4c2pjudl6n6hfpjc30[359]	speaker: YOU[476]	_	_	_	_	_	
+125-3	3115-3119	seit	GWithout[21]	zerschmettern\_set1\_5[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-zerschmettern\_set1\_5[21]	_	_	_	_	_	false[119]	Decl[119]	*[242]	*[242]	*[242]	*[242]	*[242]	input2[242]	32[359]	female[359]	2em9nj6n4c2pjudl6n6hfpjc30[359]	speaker: YOU[476]	_	_	_	_	_	
+125-4	3120-3125	Tagen	GWithout[21]	zerschmettern\_set1\_5[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-zerschmettern\_set1\_5[21]	_	_	_	_	_	false[119]	Decl[119]	*[242]	*[242]	*[242]	*[242]	*[242]	input2[242]	32[359]	female[359]	2em9nj6n4c2pjudl6n6hfpjc30[359]	speaker: YOU[476]	_	_	_	_	_	
+125-5	3126-3130	über	GWithout[21]	zerschmettern\_set1\_5[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-zerschmettern\_set1\_5[21]	_	_	_	_	_	false[119]	Decl[119]	*[242]	*[242]	*[242]	*[242]	*[242]	input2[242]	32[359]	female[359]	2em9nj6n4c2pjudl6n6hfpjc30[359]	speaker: YOU[476]	_	_	_	_	_	
+125-6	3131-3137	nichts	GWithout[21]	zerschmettern\_set1\_5[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-zerschmettern\_set1\_5[21]	_	_	_	_	_	false[119]	Decl[119]	*[242]	*[242]	*[242]	*[242]	*[242]	input2[242]	32[359]	female[359]	2em9nj6n4c2pjudl6n6hfpjc30[359]	speaker: YOU[476]	_	_	_	_	_	
+125-7	3138-3146	Anderes.	GWithout[21]	zerschmettern\_set1\_5[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-zerschmettern\_set1\_5[21]	_	_	_	_	_	false[119]	Decl[119]	*[242]	*[242]	*[242]	*[242]	*[242]	input2[242]	32[359]	female[359]	2em9nj6n4c2pjudl6n6hfpjc30[359]	speaker: YOU[476]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+126-1	3148-3163	END_OF_DOCUMENT	GWithout[21]	zerschmettern\_set1\_5[21]	latin2[21]	2em9nj6n4c2pjudl6n6hfpjc30-zerschmettern\_set1\_5[21]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hi, alles okay soweit?
+127-1	3165-3168	Hi,	GWithout[22]	zerschmettern\_set1\_5[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-zerschmettern\_set1\_5[22]	_	_	_	_	_	false[120]	Int[120]	*[243]	*[243]	*[243]	yn\_3[243]	yesno\_question[243]	openq[243]	*[360]	female[360]	*[360]	speaker:Anastasia[477]	_	_	QAP	*	128-1[121_120]	
+127-2	3169-3174	alles	GWithout[22]	zerschmettern\_set1\_5[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-zerschmettern\_set1\_5[22]	_	_	_	_	_	false[120]	Int[120]	*[243]	*[243]	*[243]	yn\_3[243]	yesno\_question[243]	openq[243]	*[360]	female[360]	*[360]	speaker:Anastasia[477]	_	_	_	_	_	
+127-3	3175-3179	okay	GWithout[22]	zerschmettern\_set1\_5[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-zerschmettern\_set1\_5[22]	_	_	_	_	_	false[120]	Int[120]	*[243]	*[243]	*[243]	yn\_3[243]	yesno\_question[243]	openq[243]	*[360]	female[360]	*[360]	speaker:Anastasia[477]	_	_	_	_	_	
+127-4	3180-3187	soweit?	GWithout[22]	zerschmettern\_set1\_5[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-zerschmettern\_set1\_5[22]	_	_	_	_	_	false[120]	Int[120]	*[243]	*[243]	*[243]	yn\_3[243]	yesno\_question[243]	openq[243]	*[360]	female[360]	*[360]	speaker:Anastasia[477]	_	_	_	_	_	
+
+#Text=Lisa hat Stühle zerschmettert
+128-1	3189-3193	Lisa	GWithout[22]	zerschmettern\_set1\_5[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-zerschmettern\_set1\_5[22]	_	_	_	_	_	false[121]	Decl[121]	*[244]	zerschmettern[244]	transitive[244]	*[244]	*[244]	item0[244]	41[361]	female[361]	2prsavjsjqbmc8hrbo9bovkues[361]	speaker: YOU[478]	*->27-1	PropNm[27]	result	*	130-1[122_121]	
+128-2	3194-3197	hat	GWithout[22]	zerschmettern\_set1\_5[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-zerschmettern\_set1\_5[22]	_	_	_	_	_	false[121]	Decl[121]	*[244]	zerschmettern[244]	transitive[244]	*[244]	*[244]	item0[244]	41[361]	female[361]	2prsavjsjqbmc8hrbo9bovkues[361]	speaker: YOU[478]	_	_	_	_	_	
+128-3	3198-3204	Stühle	GWithout[22]	zerschmettern\_set1\_5[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-zerschmettern\_set1\_5[22]	_	_	_	_	_	false[121]	Decl[121]	*[244]	zerschmettern[244]	transitive[244]	*[244]	*[244]	item0[244]	41[361]	female[361]	2prsavjsjqbmc8hrbo9bovkues[361]	speaker: YOU[478]	*->120-1	IndefNP[120]	_	_	_	
+128-4	3205-3218	zerschmettert	GWithout[22]	zerschmettern\_set1\_5[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-zerschmettern\_set1\_5[22]	_	_	_	_	_	false[121]	Decl[121]	*[244]	zerschmettern[244]	transitive[244]	*[244]	*[244]	item0[244]	41[361]	female[361]	2prsavjsjqbmc8hrbo9bovkues[361]	speaker: YOU[478]	_	_	_	_	_	
+
+#Text=-
+129-1	3220-3221	-	GWithout[22]	zerschmettern\_set1\_5[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-zerschmettern\_set1\_5[22]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Anastasia	_	_	_	_	_	
+
+#Text=Jetzt müssen wir aufräumen.
+130-1	3223-3228	Jetzt	GWithout[22]	zerschmettern\_set1\_5[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-zerschmettern\_set1\_5[22]	_	_	_	_	_	false[122]	Decl[122]	*[245]	*[245]	*[245]	*[245]	*[245]	input1[245]	41[362]	female[362]	2prsavjsjqbmc8hrbo9bovkues[362]	speaker: YOU[479]	_	_	result	*	131-1[123_122]	
+130-2	3229-3235	müssen	GWithout[22]	zerschmettern\_set1\_5[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-zerschmettern\_set1\_5[22]	_	_	_	_	_	false[122]	Decl[122]	*[245]	*[245]	*[245]	*[245]	*[245]	input1[245]	41[362]	female[362]	2prsavjsjqbmc8hrbo9bovkues[362]	speaker: YOU[479]	_	_	_	_	_	
+130-3	3236-3239	wir	GWithout[22]	zerschmettern\_set1\_5[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-zerschmettern\_set1\_5[22]	1	*	*	*	plural	false[122]	Decl[122]	*[245]	*[245]	*[245]	*[245]	*[245]	input1[245]	41[362]	female[362]	2prsavjsjqbmc8hrbo9bovkues[362]	speaker: YOU[479]	*->14-1	PerPron[14]	_	_	_	
+130-4	3240-3250	aufräumen.	GWithout[22]	zerschmettern\_set1\_5[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-zerschmettern\_set1\_5[22]	_	_	_	_	_	false[122]	Decl[122]	*[245]	*[245]	*[245]	*[245]	*[245]	input1[245]	41[362]	female[362]	2prsavjsjqbmc8hrbo9bovkues[362]	speaker: YOU[479]	_	_	_	_	_	
+
+#Text=Ich meld mich später mal.
+131-1	3252-3255	Ich	GWithout[22]	zerschmettern\_set1\_5[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-zerschmettern\_set1\_5[22]	1	*	*	*	singular	false[123]	Decl[123]	*[246]	*[246]	*[246]	*[246]	*[246]	input2[246]	41[363]	female[363]	2prsavjsjqbmc8hrbo9bovkues[363]	speaker: YOU[480]	*->16-1	PerPron[16]	_	_	_	
+131-2	3256-3260	meld	GWithout[22]	zerschmettern\_set1\_5[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-zerschmettern\_set1\_5[22]	_	_	_	_	_	false[123]	Decl[123]	*[246]	*[246]	*[246]	*[246]	*[246]	input2[246]	41[363]	female[363]	2prsavjsjqbmc8hrbo9bovkues[363]	speaker: YOU[480]	_	_	_	_	_	
+131-3	3261-3265	mich	GWithout[22]	zerschmettern\_set1\_5[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-zerschmettern\_set1\_5[22]	_	_	_	_	_	false[123]	Decl[123]	*[246]	*[246]	*[246]	*[246]	*[246]	input2[246]	41[363]	female[363]	2prsavjsjqbmc8hrbo9bovkues[363]	speaker: YOU[480]	_	_	_	_	_	
+131-4	3266-3272	später	GWithout[22]	zerschmettern\_set1\_5[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-zerschmettern\_set1\_5[22]	_	_	_	_	_	false[123]	Decl[123]	*[246]	*[246]	*[246]	*[246]	*[246]	input2[246]	41[363]	female[363]	2prsavjsjqbmc8hrbo9bovkues[363]	speaker: YOU[480]	_	_	_	_	_	
+131-5	3273-3277	mal.	GWithout[22]	zerschmettern\_set1\_5[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-zerschmettern\_set1\_5[22]	_	_	_	_	_	false[123]	Decl[123]	*[246]	*[246]	*[246]	*[246]	*[246]	input2[246]	41[363]	female[363]	2prsavjsjqbmc8hrbo9bovkues[363]	speaker: YOU[480]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+132-1	3279-3294	END_OF_DOCUMENT	GWithout[22]	zerschmettern\_set1\_5[22]	latin2[22]	2prsavjsjqbmc8hrbo9bovkues-zerschmettern\_set1\_5[22]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hi, alles okay soweit?
+133-1	3296-3299	Hi,	GWithout[23]	zerschmettern\_set1\_5[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-zerschmettern\_set1\_5[23]	_	_	_	_	_	false[124]	Int[124]	*[247]	*[247]	*[247]	yn\_3[247]	yesno\_question[247]	openq[247]	*[364]	female[364]	*[364]	speaker:Anastasia[481]	_	_	QAP	*	134-1[125_124]	
+133-2	3300-3305	alles	GWithout[23]	zerschmettern\_set1\_5[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-zerschmettern\_set1\_5[23]	_	_	_	_	_	false[124]	Int[124]	*[247]	*[247]	*[247]	yn\_3[247]	yesno\_question[247]	openq[247]	*[364]	female[364]	*[364]	speaker:Anastasia[481]	_	_	_	_	_	
+133-3	3306-3310	okay	GWithout[23]	zerschmettern\_set1\_5[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-zerschmettern\_set1\_5[23]	_	_	_	_	_	false[124]	Int[124]	*[247]	*[247]	*[247]	yn\_3[247]	yesno\_question[247]	openq[247]	*[364]	female[364]	*[364]	speaker:Anastasia[481]	_	_	_	_	_	
+133-4	3311-3318	soweit?	GWithout[23]	zerschmettern\_set1\_5[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-zerschmettern\_set1\_5[23]	_	_	_	_	_	false[124]	Int[124]	*[247]	*[247]	*[247]	yn\_3[247]	yesno\_question[247]	openq[247]	*[364]	female[364]	*[364]	speaker:Anastasia[481]	_	_	_	_	_	
+
+#Text=Lisa hat Stühle zerschmettert
+134-1	3320-3324	Lisa	GWithout[23]	zerschmettern\_set1\_5[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-zerschmettern\_set1\_5[23]	_	_	_	_	_	false[125]	Decl[125]	*[248]	zerschmettern[248]	transitive[248]	*[248]	*[248]	item0[248]	46[365]	male[365]	3jjtes457iqluuhfmeiub8g6qd[365]	speaker: YOU[482]	*->89-1	PropNm[89]	elaboration	*	136-1[126_125]	
+134-2	3325-3328	hat	GWithout[23]	zerschmettern\_set1\_5[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-zerschmettern\_set1\_5[23]	_	_	_	_	_	false[125]	Decl[125]	*[248]	zerschmettern[248]	transitive[248]	*[248]	*[248]	item0[248]	46[365]	male[365]	3jjtes457iqluuhfmeiub8g6qd[365]	speaker: YOU[482]	_	_	_	_	_	
+134-3	3329-3335	Stühle	GWithout[23]	zerschmettern\_set1\_5[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-zerschmettern\_set1\_5[23]	_	_	_	_	_	false[125]	Decl[125]	*[248]	zerschmettern[248]	transitive[248]	*[248]	*[248]	item0[248]	46[365]	male[365]	3jjtes457iqluuhfmeiub8g6qd[365]	speaker: YOU[482]	*->37-1	IndefNP[37]	_	_	_	
+134-4	3336-3349	zerschmettert	GWithout[23]	zerschmettern\_set1\_5[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-zerschmettern\_set1\_5[23]	_	_	_	_	_	false[125]	Decl[125]	*[248]	zerschmettern[248]	transitive[248]	*[248]	*[248]	item0[248]	46[365]	male[365]	3jjtes457iqluuhfmeiub8g6qd[365]	speaker: YOU[482]	_	_	_	_	_	
+
+#Text=-
+135-1	3351-3352	-	GWithout[23]	zerschmettern\_set1\_5[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-zerschmettern\_set1\_5[23]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Anastasia	_	_	_	_	_	
+
+#Text=Die war ganz ausser sich.
+136-1	3354-3357	Die	GWithout[23]	zerschmettern\_set1\_5[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-zerschmettern\_set1\_5[23]	_	_	_	_	_	false[126]	Decl[126]	*[249]	*[249]	*[249]	*[249]	*[249]	input1[249]	46[366]	male[366]	3jjtes457iqluuhfmeiub8g6qd[366]	speaker: YOU[483]	*->89-2	D-Pron[89]	explanation	*	137-1[127_126]	
+136-2	3358-3361	war	GWithout[23]	zerschmettern\_set1\_5[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-zerschmettern\_set1\_5[23]	_	_	_	_	_	false[126]	Decl[126]	*[249]	*[249]	*[249]	*[249]	*[249]	input1[249]	46[366]	male[366]	3jjtes457iqluuhfmeiub8g6qd[366]	speaker: YOU[483]	_	_	_	_	_	
+136-3	3362-3366	ganz	GWithout[23]	zerschmettern\_set1\_5[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-zerschmettern\_set1\_5[23]	_	_	_	_	_	false[126]	Decl[126]	*[249]	*[249]	*[249]	*[249]	*[249]	input1[249]	46[366]	male[366]	3jjtes457iqluuhfmeiub8g6qd[366]	speaker: YOU[483]	_	_	_	_	_	
+136-4	3367-3373	ausser	GWithout[23]	zerschmettern\_set1\_5[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-zerschmettern\_set1\_5[23]	_	_	_	_	_	false[126]	Decl[126]	*[249]	*[249]	*[249]	*[249]	*[249]	input1[249]	46[366]	male[366]	3jjtes457iqluuhfmeiub8g6qd[366]	speaker: YOU[483]	_	_	_	_	_	
+136-5	3374-3379	sich.	GWithout[23]	zerschmettern\_set1\_5[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-zerschmettern\_set1\_5[23]	_	_	_	_	_	false[126]	Decl[126]	*[249]	*[249]	*[249]	*[249]	*[249]	input1[249]	46[366]	male[366]	3jjtes457iqluuhfmeiub8g6qd[366]	speaker: YOU[483]	_	_	_	_	_	
+
+#Text=Keine Ahnung was sie so aufgeregt hat.
+137-1	3381-3386	Keine	GWithout[23]	zerschmettern\_set1\_5[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-zerschmettern\_set1\_5[23]	_	_	_	_	_	false[127]	NA[127]	*[250]	*[250]	*[250]	*[250]	*[250]	input2[250]	46[367]	male[367]	3jjtes457iqluuhfmeiub8g6qd[367]	speaker: YOU[484]	_	_	_	_	_	
+137-2	3387-3393	Ahnung	GWithout[23]	zerschmettern\_set1\_5[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-zerschmettern\_set1\_5[23]	_	_	_	_	_	false[127]	NA[127]	*[250]	*[250]	*[250]	*[250]	*[250]	input2[250]	46[367]	male[367]	3jjtes457iqluuhfmeiub8g6qd[367]	speaker: YOU[484]	_	_	_	_	_	
+137-3	3394-3397	was	GWithout[23]	zerschmettern\_set1\_5[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-zerschmettern\_set1\_5[23]	_	_	_	_	_	false[127]	NA[127]	*[250]	*[250]	*[250]	*[250]	*[250]	input2[250]	46[367]	male[367]	3jjtes457iqluuhfmeiub8g6qd[367]	speaker: YOU[484]	_	_	_	_	_	
+137-4	3398-3401	sie	GWithout[23]	zerschmettern\_set1\_5[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-zerschmettern\_set1\_5[23]	3	*	*	*	singular	false[127]	NA[127]	*[250]	*[250]	*[250]	*[250]	*[250]	input2[250]	46[367]	male[367]	3jjtes457iqluuhfmeiub8g6qd[367]	speaker: YOU[484]	*->89-3	PerPron[89]	_	_	_	
+137-5	3402-3404	so	GWithout[23]	zerschmettern\_set1\_5[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-zerschmettern\_set1\_5[23]	_	_	_	_	_	false[127]	NA[127]	*[250]	*[250]	*[250]	*[250]	*[250]	input2[250]	46[367]	male[367]	3jjtes457iqluuhfmeiub8g6qd[367]	speaker: YOU[484]	_	_	_	_	_	
+137-6	3405-3414	aufgeregt	GWithout[23]	zerschmettern\_set1\_5[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-zerschmettern\_set1\_5[23]	_	_	_	_	_	false[127]	NA[127]	*[250]	*[250]	*[250]	*[250]	*[250]	input2[250]	46[367]	male[367]	3jjtes457iqluuhfmeiub8g6qd[367]	speaker: YOU[484]	_	_	_	_	_	
+137-7	3415-3419	hat.	GWithout[23]	zerschmettern\_set1\_5[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-zerschmettern\_set1\_5[23]	_	_	_	_	_	false[127]	NA[127]	*[250]	*[250]	*[250]	*[250]	*[250]	input2[250]	46[367]	male[367]	3jjtes457iqluuhfmeiub8g6qd[367]	speaker: YOU[484]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+138-1	3421-3436	END_OF_DOCUMENT	GWithout[23]	zerschmettern\_set1\_5[23]	latin2[23]	3jjtes457iqluuhfmeiub8g6qd-zerschmettern\_set1\_5[23]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hi, alles okay soweit?
+139-1	3438-3441	Hi,	GWithout[24]	zerschmettern\_set1\_5[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-zerschmettern\_set1\_5[24]	_	_	_	_	_	false[128]	Int[128]	*[251]	*[251]	*[251]	yn\_3[251]	yesno\_question[251]	openq[251]	*[368]	female[368]	*[368]	speaker:Anastasia[485]	_	_	QAP	*	140-1[129_128]	
+139-2	3442-3447	alles	GWithout[24]	zerschmettern\_set1\_5[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-zerschmettern\_set1\_5[24]	_	_	_	_	_	false[128]	Int[128]	*[251]	*[251]	*[251]	yn\_3[251]	yesno\_question[251]	openq[251]	*[368]	female[368]	*[368]	speaker:Anastasia[485]	_	_	_	_	_	
+139-3	3448-3452	okay	GWithout[24]	zerschmettern\_set1\_5[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-zerschmettern\_set1\_5[24]	_	_	_	_	_	false[128]	Int[128]	*[251]	*[251]	*[251]	yn\_3[251]	yesno\_question[251]	openq[251]	*[368]	female[368]	*[368]	speaker:Anastasia[485]	_	_	_	_	_	
+139-4	3453-3460	soweit?	GWithout[24]	zerschmettern\_set1\_5[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-zerschmettern\_set1\_5[24]	_	_	_	_	_	false[128]	Int[128]	*[251]	*[251]	*[251]	yn\_3[251]	yesno\_question[251]	openq[251]	*[368]	female[368]	*[368]	speaker:Anastasia[485]	_	_	_	_	_	
+
+#Text=Lisa hat Stühle zerschmettert
+140-1	3462-3466	Lisa	GWithout[24]	zerschmettern\_set1\_5[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-zerschmettern\_set1\_5[24]	_	_	_	_	_	false[129]	Decl[129]	*[252]	zerschmettern[252]	transitive[252]	*[252]	*[252]	item0[252]	27[369]	female[369]	65p8m4ujg4fi983365pclnac28[369]	speaker: YOU[486]	*->81-1	PropNm[81]	result	*	142-1[130_129]	
+140-2	3467-3470	hat	GWithout[24]	zerschmettern\_set1\_5[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-zerschmettern\_set1\_5[24]	_	_	_	_	_	false[129]	Decl[129]	*[252]	zerschmettern[252]	transitive[252]	*[252]	*[252]	item0[252]	27[369]	female[369]	65p8m4ujg4fi983365pclnac28[369]	speaker: YOU[486]	_	_	_	_	_	
+140-3	3471-3477	Stühle	GWithout[24]	zerschmettern\_set1\_5[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-zerschmettern\_set1\_5[24]	_	_	_	_	_	false[129]	Decl[129]	*[252]	zerschmettern[252]	transitive[252]	*[252]	*[252]	item0[252]	27[369]	female[369]	65p8m4ujg4fi983365pclnac28[369]	speaker: YOU[486]	*->114-1	IndefNP[114]	_	_	_	
+140-4	3478-3491	zerschmettert	GWithout[24]	zerschmettern\_set1\_5[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-zerschmettern\_set1\_5[24]	_	_	_	_	_	false[129]	Decl[129]	*[252]	zerschmettern[252]	transitive[252]	*[252]	*[252]	item0[252]	27[369]	female[369]	65p8m4ujg4fi983365pclnac28[369]	speaker: YOU[486]	_	_	_	_	_	
+
+#Text=-
+141-1	3493-3494	-	GWithout[24]	zerschmettern\_set1\_5[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-zerschmettern\_set1\_5[24]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Anastasia	_	_	_	_	_	
+
+#Text=und ich musste sie wieder aufsammeln
+142-1	3496-3499	und	GWithout[24]	zerschmettern\_set1\_5[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-zerschmettern\_set1\_5[24]	_	_	_	_	_	false[130]	Decl[130]	*[253]	*[253]	*[253]	*[253]	*[253]	input1[253]	27[370]	female[370]	65p8m4ujg4fi983365pclnac28[370]	speaker: YOU[487]	_	_	elaboration	*	143-1[131_130]	
+142-2	3500-3503	ich	GWithout[24]	zerschmettern\_set1\_5[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-zerschmettern\_set1\_5[24]	1	*	*	*	singular	false[130]	Decl[130]	*[253]	*[253]	*[253]	*[253]	*[253]	input1[253]	27[370]	female[370]	65p8m4ujg4fi983365pclnac28[370]	speaker: YOU[487]	*->59-1	PerPron[59]	_	_	_	
+142-3	3504-3510	musste	GWithout[24]	zerschmettern\_set1\_5[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-zerschmettern\_set1\_5[24]	_	_	_	_	_	false[130]	Decl[130]	*[253]	*[253]	*[253]	*[253]	*[253]	input1[253]	27[370]	female[370]	65p8m4ujg4fi983365pclnac28[370]	speaker: YOU[487]	_	_	_	_	_	
+142-4	3511-3514	sie	GWithout[24]	zerschmettern\_set1\_5[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-zerschmettern\_set1\_5[24]	3	*	*	*	plural	false[130]	Decl[130]	*[253]	*[253]	*[253]	*[253]	*[253]	input1[253]	27[370]	female[370]	65p8m4ujg4fi983365pclnac28[370]	speaker: YOU[487]	*->114-2	PerPron[114]	_	_	_	
+142-5	3515-3521	wieder	GWithout[24]	zerschmettern\_set1\_5[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-zerschmettern\_set1\_5[24]	_	_	_	_	_	false[130]	Decl[130]	*[253]	*[253]	*[253]	*[253]	*[253]	input1[253]	27[370]	female[370]	65p8m4ujg4fi983365pclnac28[370]	speaker: YOU[487]	_	_	_	_	_	
+142-6	3522-3532	aufsammeln	GWithout[24]	zerschmettern\_set1\_5[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-zerschmettern\_set1\_5[24]	_	_	_	_	_	false[130]	Decl[130]	*[253]	*[253]	*[253]	*[253]	*[253]	input1[253]	27[370]	female[370]	65p8m4ujg4fi983365pclnac28[370]	speaker: YOU[487]	_	_	_	_	_	
+
+#Text=was für eine Arbeit!
+143-1	3534-3537	was	GWithout[24]	zerschmettern\_set1\_5[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-zerschmettern\_set1\_5[24]	_	_	_	_	_	false[131]	Excl[131]	*[254]	*[254]	*[254]	*[254]	*[254]	input2[254]	27[371]	female[371]	65p8m4ujg4fi983365pclnac28[371]	speaker: YOU[488]	_	_	_	_	_	
+143-2	3538-3541	für	GWithout[24]	zerschmettern\_set1\_5[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-zerschmettern\_set1\_5[24]	_	_	_	_	_	false[131]	Excl[131]	*[254]	*[254]	*[254]	*[254]	*[254]	input2[254]	27[371]	female[371]	65p8m4ujg4fi983365pclnac28[371]	speaker: YOU[488]	_	_	_	_	_	
+143-3	3542-3546	eine	GWithout[24]	zerschmettern\_set1\_5[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-zerschmettern\_set1\_5[24]	_	_	_	_	_	false[131]	Excl[131]	*[254]	*[254]	*[254]	*[254]	*[254]	input2[254]	27[371]	female[371]	65p8m4ujg4fi983365pclnac28[371]	speaker: YOU[488]	_	_	_	_	_	
+143-4	3547-3554	Arbeit!	GWithout[24]	zerschmettern\_set1\_5[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-zerschmettern\_set1\_5[24]	_	_	_	_	_	false[131]	Excl[131]	*[254]	*[254]	*[254]	*[254]	*[254]	input2[254]	27[371]	female[371]	65p8m4ujg4fi983365pclnac28[371]	speaker: YOU[488]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+144-1	3556-3571	END_OF_DOCUMENT	GWithout[24]	zerschmettern\_set1\_5[24]	latin2[24]	65p8m4ujg4fi983365pclnac28-zerschmettern\_set1\_5[24]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hi, alles okay soweit?
+145-1	3573-3576	Hi,	GWithout[25]	zerschmettern\_set1\_5[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-zerschmettern\_set1\_5[25]	_	_	_	_	_	false[132]	Int[132]	*[255]	*[255]	*[255]	yn\_3[255]	yesno\_question[255]	openq[255]	*[372]	female[372]	*[372]	speaker:Anastasia[489]	_	_	QAP	*	146-1[133_132]	
+145-2	3577-3582	alles	GWithout[25]	zerschmettern\_set1\_5[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-zerschmettern\_set1\_5[25]	_	_	_	_	_	false[132]	Int[132]	*[255]	*[255]	*[255]	yn\_3[255]	yesno\_question[255]	openq[255]	*[372]	female[372]	*[372]	speaker:Anastasia[489]	_	_	_	_	_	
+145-3	3583-3587	okay	GWithout[25]	zerschmettern\_set1\_5[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-zerschmettern\_set1\_5[25]	_	_	_	_	_	false[132]	Int[132]	*[255]	*[255]	*[255]	yn\_3[255]	yesno\_question[255]	openq[255]	*[372]	female[372]	*[372]	speaker:Anastasia[489]	_	_	_	_	_	
+145-4	3588-3595	soweit?	GWithout[25]	zerschmettern\_set1\_5[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-zerschmettern\_set1\_5[25]	_	_	_	_	_	false[132]	Int[132]	*[255]	*[255]	*[255]	yn\_3[255]	yesno\_question[255]	openq[255]	*[372]	female[372]	*[372]	speaker:Anastasia[489]	_	_	_	_	_	
+
+#Text=Lisa hat Stühle zerschmettert
+146-1	3597-3601	Lisa	GWithout[25]	zerschmettern\_set1\_5[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-zerschmettern\_set1\_5[25]	_	_	_	_	_	false[133]	Decl[133]	*[256]	zerschmettern[256]	transitive[256]	*[256]	*[256]	item0[256]	22[373]	female[373]	ad2p95q44evasm6vmbol4cikit[373]	speaker: YOU[490]	*->25-1	PropNm[25]	explanation|elaboration	*|*	148-1[134_133]|149-1[135_133]	
+146-2	3602-3605	hat	GWithout[25]	zerschmettern\_set1\_5[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-zerschmettern\_set1\_5[25]	_	_	_	_	_	false[133]	Decl[133]	*[256]	zerschmettern[256]	transitive[256]	*[256]	*[256]	item0[256]	22[373]	female[373]	ad2p95q44evasm6vmbol4cikit[373]	speaker: YOU[490]	_	_	_	_	_	
+146-3	3606-3612	Stühle	GWithout[25]	zerschmettern\_set1\_5[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-zerschmettern\_set1\_5[25]	_	_	_	_	_	false[133]	Decl[133]	*[256]	zerschmettern[256]	transitive[256]	*[256]	*[256]	item0[256]	22[373]	female[373]	ad2p95q44evasm6vmbol4cikit[373]	speaker: YOU[490]	*->39-1	IndefNP[39]	_	_	_	
+146-4	3613-3626	zerschmettert	GWithout[25]	zerschmettern\_set1\_5[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-zerschmettern\_set1\_5[25]	_	_	_	_	_	false[133]	Decl[133]	*[256]	zerschmettern[256]	transitive[256]	*[256]	*[256]	item0[256]	22[373]	female[373]	ad2p95q44evasm6vmbol4cikit[373]	speaker: YOU[490]	_	_	_	_	_	
+
+#Text=-
+147-1	3628-3629	-	GWithout[25]	zerschmettern\_set1\_5[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-zerschmettern\_set1\_5[25]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Anastasia	_	_	_	_	_	
+
+#Text=Sie hatte einen Wutanfall
+148-1	3631-3634	Sie	GWithout[25]	zerschmettern\_set1\_5[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-zerschmettern\_set1\_5[25]	3	*	*	*	singular	false[134]	Decl[134]	*[257]	*[257]	*[257]	*[257]	*[257]	input1[257]	22[374]	female[374]	ad2p95q44evasm6vmbol4cikit[374]	speaker: YOU[491]	*->25-2	PerPron[25]	_	_	_	
+148-2	3635-3640	hatte	GWithout[25]	zerschmettern\_set1\_5[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-zerschmettern\_set1\_5[25]	_	_	_	_	_	false[134]	Decl[134]	*[257]	*[257]	*[257]	*[257]	*[257]	input1[257]	22[374]	female[374]	ad2p95q44evasm6vmbol4cikit[374]	speaker: YOU[491]	_	_	_	_	_	
+148-3	3641-3646	einen	GWithout[25]	zerschmettern\_set1\_5[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-zerschmettern\_set1\_5[25]	_	_	_	_	_	false[134]	Decl[134]	*[257]	*[257]	*[257]	*[257]	*[257]	input1[257]	22[374]	female[374]	ad2p95q44evasm6vmbol4cikit[374]	speaker: YOU[491]	*->26-1	IndefNP[26]	_	_	_	
+148-4	3647-3656	Wutanfall	GWithout[25]	zerschmettern\_set1\_5[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-zerschmettern\_set1\_5[25]	_	_	_	_	_	false[134]	Decl[134]	*[257]	*[257]	*[257]	*[257]	*[257]	input1[257]	22[374]	female[374]	ad2p95q44evasm6vmbol4cikit[374]	speaker: YOU[491]	*->26-1	IndefNP[26]	_	_	_	
+
+#Text=Es ist viel zu bruch gegangen
+149-1	3658-3660	Es	GWithout[25]	zerschmettern\_set1\_5[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-zerschmettern\_set1\_5[25]	_	_	_	_	_	false[135]	Decl[135]	*[258]	*[258]	*[258]	*[258]	*[258]	input2[258]	22[375]	female[375]	ad2p95q44evasm6vmbol4cikit[375]	speaker: YOU[492]	_	_	_	_	_	
+149-2	3661-3664	ist	GWithout[25]	zerschmettern\_set1\_5[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-zerschmettern\_set1\_5[25]	_	_	_	_	_	false[135]	Decl[135]	*[258]	*[258]	*[258]	*[258]	*[258]	input2[258]	22[375]	female[375]	ad2p95q44evasm6vmbol4cikit[375]	speaker: YOU[492]	_	_	_	_	_	
+149-3	3665-3669	viel	GWithout[25]	zerschmettern\_set1\_5[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-zerschmettern\_set1\_5[25]	_	_	_	_	_	false[135]	Decl[135]	*[258]	*[258]	*[258]	*[258]	*[258]	input2[258]	22[375]	female[375]	ad2p95q44evasm6vmbol4cikit[375]	speaker: YOU[492]	*->63-1	IndefNP[63]	_	_	_	
+149-4	3670-3672	zu	GWithout[25]	zerschmettern\_set1\_5[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-zerschmettern\_set1\_5[25]	_	_	_	_	_	false[135]	Decl[135]	*[258]	*[258]	*[258]	*[258]	*[258]	input2[258]	22[375]	female[375]	ad2p95q44evasm6vmbol4cikit[375]	speaker: YOU[492]	_	_	_	_	_	
+149-5	3673-3678	bruch	GWithout[25]	zerschmettern\_set1\_5[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-zerschmettern\_set1\_5[25]	_	_	_	_	_	false[135]	Decl[135]	*[258]	*[258]	*[258]	*[258]	*[258]	input2[258]	22[375]	female[375]	ad2p95q44evasm6vmbol4cikit[375]	speaker: YOU[492]	_	_	_	_	_	
+149-6	3679-3687	gegangen	GWithout[25]	zerschmettern\_set1\_5[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-zerschmettern\_set1\_5[25]	_	_	_	_	_	false[135]	Decl[135]	*[258]	*[258]	*[258]	*[258]	*[258]	input2[258]	22[375]	female[375]	ad2p95q44evasm6vmbol4cikit[375]	speaker: YOU[492]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+150-1	3689-3704	END_OF_DOCUMENT	GWithout[25]	zerschmettern\_set1\_5[25]	latin2[25]	ad2p95q44evasm6vmbol4cikit-zerschmettern\_set1\_5[25]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hi, alles okay soweit?
+151-1	3706-3709	Hi,	GWithout[26]	zerschmettern\_set1\_5[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-zerschmettern\_set1\_5[26]	_	_	_	_	_	false[136]	Int[136]	*[259]	*[259]	*[259]	yn\_3[259]	yesno\_question[259]	openq[259]	*[376]	female[376]	*[376]	speaker:Anastasia[493]	_	_	QAP	*	152-1[137_136]	
+151-2	3710-3715	alles	GWithout[26]	zerschmettern\_set1\_5[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-zerschmettern\_set1\_5[26]	_	_	_	_	_	false[136]	Int[136]	*[259]	*[259]	*[259]	yn\_3[259]	yesno\_question[259]	openq[259]	*[376]	female[376]	*[376]	speaker:Anastasia[493]	_	_	_	_	_	
+151-3	3716-3720	okay	GWithout[26]	zerschmettern\_set1\_5[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-zerschmettern\_set1\_5[26]	_	_	_	_	_	false[136]	Int[136]	*[259]	*[259]	*[259]	yn\_3[259]	yesno\_question[259]	openq[259]	*[376]	female[376]	*[376]	speaker:Anastasia[493]	_	_	_	_	_	
+151-4	3721-3728	soweit?	GWithout[26]	zerschmettern\_set1\_5[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-zerschmettern\_set1\_5[26]	_	_	_	_	_	false[136]	Int[136]	*[259]	*[259]	*[259]	yn\_3[259]	yesno\_question[259]	openq[259]	*[376]	female[376]	*[376]	speaker:Anastasia[493]	_	_	_	_	_	
+
+#Text=Lisa hat Stühle zerschmettert
+152-1	3730-3734	Lisa	GWithout[26]	zerschmettern\_set1\_5[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-zerschmettern\_set1\_5[26]	_	_	_	_	_	false[137]	Decl[137]	*[260]	zerschmettern[260]	transitive[260]	*[260]	*[260]	item0[260]	36[377]	female[377]	aoum613lougtk5ql841j63bjo9[377]	speaker: YOU[494]	*->72-1	PropNm[72]	elaboration	*	154-1[138_137]	
+152-2	3735-3738	hat	GWithout[26]	zerschmettern\_set1\_5[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-zerschmettern\_set1\_5[26]	_	_	_	_	_	false[137]	Decl[137]	*[260]	zerschmettern[260]	transitive[260]	*[260]	*[260]	item0[260]	36[377]	female[377]	aoum613lougtk5ql841j63bjo9[377]	speaker: YOU[494]	_	_	_	_	_	
+152-3	3739-3745	Stühle	GWithout[26]	zerschmettern\_set1\_5[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-zerschmettern\_set1\_5[26]	_	_	_	_	_	false[137]	Decl[137]	*[260]	zerschmettern[260]	transitive[260]	*[260]	*[260]	item0[260]	36[377]	female[377]	aoum613lougtk5ql841j63bjo9[377]	speaker: YOU[494]	*->5-1	IndefNP[5]	_	_	_	
+152-4	3746-3759	zerschmettert	GWithout[26]	zerschmettern\_set1\_5[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-zerschmettern\_set1\_5[26]	_	_	_	_	_	false[137]	Decl[137]	*[260]	zerschmettern[260]	transitive[260]	*[260]	*[260]	item0[260]	36[377]	female[377]	aoum613lougtk5ql841j63bjo9[377]	speaker: YOU[494]	_	_	_	_	_	
+
+#Text=-
+153-1	3761-3762	-	GWithout[26]	zerschmettern\_set1\_5[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-zerschmettern\_set1\_5[26]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Anastasia	_	_	_	_	_	
+
+#Text=Ich habe sie noch nie so wütend erlebt.
+154-1	3764-3767	Ich	GWithout[26]	zerschmettern\_set1\_5[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-zerschmettern\_set1\_5[26]	1	*	*	*	singular	false[138]	Decl[138]	*[261]	*[261]	*[261]	*[261]	*[261]	input1[261]	36[378]	female[378]	aoum613lougtk5ql841j63bjo9[378]	speaker: YOU[495]	*->98-1	PerPron[98]	result	*	155-1[139_138]	
+154-2	3768-3772	habe	GWithout[26]	zerschmettern\_set1\_5[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-zerschmettern\_set1\_5[26]	_	_	_	_	_	false[138]	Decl[138]	*[261]	*[261]	*[261]	*[261]	*[261]	input1[261]	36[378]	female[378]	aoum613lougtk5ql841j63bjo9[378]	speaker: YOU[495]	_	_	_	_	_	
+154-3	3773-3776	sie	GWithout[26]	zerschmettern\_set1\_5[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-zerschmettern\_set1\_5[26]	3	*	*	*	singular	false[138]	Decl[138]	*[261]	*[261]	*[261]	*[261]	*[261]	input1[261]	36[378]	female[378]	aoum613lougtk5ql841j63bjo9[378]	speaker: YOU[495]	*->72-2	PerPron[72]	_	_	_	
+154-4	3777-3781	noch	GWithout[26]	zerschmettern\_set1\_5[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-zerschmettern\_set1\_5[26]	_	_	_	_	_	false[138]	Decl[138]	*[261]	*[261]	*[261]	*[261]	*[261]	input1[261]	36[378]	female[378]	aoum613lougtk5ql841j63bjo9[378]	speaker: YOU[495]	_	_	_	_	_	
+154-5	3782-3785	nie	GWithout[26]	zerschmettern\_set1\_5[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-zerschmettern\_set1\_5[26]	_	_	_	_	_	false[138]	Decl[138]	*[261]	*[261]	*[261]	*[261]	*[261]	input1[261]	36[378]	female[378]	aoum613lougtk5ql841j63bjo9[378]	speaker: YOU[495]	_	_	_	_	_	
+154-6	3786-3788	so	GWithout[26]	zerschmettern\_set1\_5[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-zerschmettern\_set1\_5[26]	_	_	_	_	_	false[138]	Decl[138]	*[261]	*[261]	*[261]	*[261]	*[261]	input1[261]	36[378]	female[378]	aoum613lougtk5ql841j63bjo9[378]	speaker: YOU[495]	_	_	_	_	_	
+154-7	3789-3795	wütend	GWithout[26]	zerschmettern\_set1\_5[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-zerschmettern\_set1\_5[26]	_	_	_	_	_	false[138]	Decl[138]	*[261]	*[261]	*[261]	*[261]	*[261]	input1[261]	36[378]	female[378]	aoum613lougtk5ql841j63bjo9[378]	speaker: YOU[495]	_	_	_	_	_	
+154-8	3796-3803	erlebt.	GWithout[26]	zerschmettern\_set1\_5[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-zerschmettern\_set1\_5[26]	_	_	_	_	_	false[138]	Decl[138]	*[261]	*[261]	*[261]	*[261]	*[261]	input1[261]	36[378]	female[378]	aoum613lougtk5ql841j63bjo9[378]	speaker: YOU[495]	_	_	_	_	_	
+
+#Text=Sie hat mir richtig Angst gemacht.
+155-1	3805-3808	Sie	GWithout[26]	zerschmettern\_set1\_5[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-zerschmettern\_set1\_5[26]	3	*	*	*	singular	false[139]	Decl[139]	*[262]	*[262]	*[262]	*[262]	*[262]	input2[262]	36[379]	female[379]	aoum613lougtk5ql841j63bjo9[379]	speaker: YOU[496]	*->72-3	PerPron[72]	_	_	_	
+155-2	3809-3812	hat	GWithout[26]	zerschmettern\_set1\_5[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-zerschmettern\_set1\_5[26]	_	_	_	_	_	false[139]	Decl[139]	*[262]	*[262]	*[262]	*[262]	*[262]	input2[262]	36[379]	female[379]	aoum613lougtk5ql841j63bjo9[379]	speaker: YOU[496]	_	_	_	_	_	
+155-3	3813-3816	mir	GWithout[26]	zerschmettern\_set1\_5[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-zerschmettern\_set1\_5[26]	1	*	*	*	singular	false[139]	Decl[139]	*[262]	*[262]	*[262]	*[262]	*[262]	input2[262]	36[379]	female[379]	aoum613lougtk5ql841j63bjo9[379]	speaker: YOU[496]	*->98-2	PerPron[98]	_	_	_	
+155-4	3817-3824	richtig	GWithout[26]	zerschmettern\_set1\_5[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-zerschmettern\_set1\_5[26]	_	_	_	_	_	false[139]	Decl[139]	*[262]	*[262]	*[262]	*[262]	*[262]	input2[262]	36[379]	female[379]	aoum613lougtk5ql841j63bjo9[379]	speaker: YOU[496]	_	_	_	_	_	
+155-5	3825-3830	Angst	GWithout[26]	zerschmettern\_set1\_5[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-zerschmettern\_set1\_5[26]	_	_	_	_	_	false[139]	Decl[139]	*[262]	*[262]	*[262]	*[262]	*[262]	input2[262]	36[379]	female[379]	aoum613lougtk5ql841j63bjo9[379]	speaker: YOU[496]	_	_	_	_	_	
+155-6	3831-3839	gemacht.	GWithout[26]	zerschmettern\_set1\_5[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-zerschmettern\_set1\_5[26]	_	_	_	_	_	false[139]	Decl[139]	*[262]	*[262]	*[262]	*[262]	*[262]	input2[262]	36[379]	female[379]	aoum613lougtk5ql841j63bjo9[379]	speaker: YOU[496]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+156-1	3841-3856	END_OF_DOCUMENT	GWithout[26]	zerschmettern\_set1\_5[26]	latin2[26]	aoum613lougtk5ql841j63bjo9-zerschmettern\_set1\_5[26]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hi, alles okay soweit?
+157-1	3858-3861	Hi,	GWithout[27]	zerschmettern\_set1\_5[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-zerschmettern\_set1\_5[27]	_	_	_	_	_	false[140]	Int[140]	*[263]	*[263]	*[263]	yn\_3[263]	yesno\_question[263]	openq[263]	*[380]	female[380]	*[380]	speaker:Anastasia[497]	_	_	QAP	*	158-1[141_140]	
+157-2	3862-3867	alles	GWithout[27]	zerschmettern\_set1\_5[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-zerschmettern\_set1\_5[27]	_	_	_	_	_	false[140]	Int[140]	*[263]	*[263]	*[263]	yn\_3[263]	yesno\_question[263]	openq[263]	*[380]	female[380]	*[380]	speaker:Anastasia[497]	_	_	_	_	_	
+157-3	3868-3872	okay	GWithout[27]	zerschmettern\_set1\_5[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-zerschmettern\_set1\_5[27]	_	_	_	_	_	false[140]	Int[140]	*[263]	*[263]	*[263]	yn\_3[263]	yesno\_question[263]	openq[263]	*[380]	female[380]	*[380]	speaker:Anastasia[497]	_	_	_	_	_	
+157-4	3873-3880	soweit?	GWithout[27]	zerschmettern\_set1\_5[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-zerschmettern\_set1\_5[27]	_	_	_	_	_	false[140]	Int[140]	*[263]	*[263]	*[263]	yn\_3[263]	yesno\_question[263]	openq[263]	*[380]	female[380]	*[380]	speaker:Anastasia[497]	_	_	_	_	_	
+
+#Text=Lisa hat Stühle zerschmettert
+158-1	3882-3886	Lisa	GWithout[27]	zerschmettern\_set1\_5[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-zerschmettern\_set1\_5[27]	_	_	_	_	_	false[141]	Decl[141]	*[264]	zerschmettern[264]	transitive[264]	*[264]	*[264]	item0[264]	26[381]	male[381]	c48fsj7kc4kiuorutkbb4be30b[381]	speaker: YOU[498]	*->117-1	PropNm[117]	narration|explanation	*|*	161-1[145_141]|160-1[142_141]	
+158-2	3887-3890	hat	GWithout[27]	zerschmettern\_set1\_5[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-zerschmettern\_set1\_5[27]	_	_	_	_	_	false[141]	Decl[141]	*[264]	zerschmettern[264]	transitive[264]	*[264]	*[264]	item0[264]	26[381]	male[381]	c48fsj7kc4kiuorutkbb4be30b[381]	speaker: YOU[498]	_	_	_	_	_	
+158-3	3891-3897	Stühle	GWithout[27]	zerschmettern\_set1\_5[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-zerschmettern\_set1\_5[27]	_	_	_	_	_	false[141]	Decl[141]	*[264]	zerschmettern[264]	transitive[264]	*[264]	*[264]	item0[264]	26[381]	male[381]	c48fsj7kc4kiuorutkbb4be30b[381]	speaker: YOU[498]	*->56-1	IndefNP[56]	_	_	_	
+158-4	3898-3911	zerschmettert	GWithout[27]	zerschmettern\_set1\_5[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-zerschmettern\_set1\_5[27]	_	_	_	_	_	false[141]	Decl[141]	*[264]	zerschmettern[264]	transitive[264]	*[264]	*[264]	item0[264]	26[381]	male[381]	c48fsj7kc4kiuorutkbb4be30b[381]	speaker: YOU[498]	_	_	_	_	_	
+
+#Text=-
+159-1	3913-3914	-	GWithout[27]	zerschmettern\_set1\_5[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-zerschmettern\_set1\_5[27]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Anastasia	_	_	_	_	_	
+
+#Text=Wir ziehen ja um und die Stühle haben wir nicht mehr gebraucht.
+160-1	3916-3919	Wir	GWithout[27]	zerschmettern\_set1\_5[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-zerschmettern\_set1\_5[27]	1	*	*	*	plural	true[142]|false[143]	*[142]|Decl[143]	*[265]	*[265]	*[265]	*[265]	*[265]	input1[265]	26[382]	male[382]	c48fsj7kc4kiuorutkbb4be30b[382]	speaker: YOU[499]	*->80-1	PerPron[80]	elaboration	*	160-5[144_143]	
+160-2	3920-3926	ziehen	GWithout[27]	zerschmettern\_set1\_5[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-zerschmettern\_set1\_5[27]	_	_	_	_	_	true[142]|false[143]	*[142]|Decl[143]	*[265]	*[265]	*[265]	*[265]	*[265]	input1[265]	26[382]	male[382]	c48fsj7kc4kiuorutkbb4be30b[382]	speaker: YOU[499]	_	_	_	_	_	
+160-3	3927-3929	ja	GWithout[27]	zerschmettern\_set1\_5[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-zerschmettern\_set1\_5[27]	_	_	_	_	_	true[142]|false[143]	*[142]|Decl[143]	*[265]	*[265]	*[265]	*[265]	*[265]	input1[265]	26[382]	male[382]	c48fsj7kc4kiuorutkbb4be30b[382]	speaker: YOU[499]	_	_	_	_	_	
+160-4	3930-3932	um	GWithout[27]	zerschmettern\_set1\_5[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-zerschmettern\_set1\_5[27]	_	_	_	_	_	true[142]|false[143]	*[142]|Decl[143]	*[265]	*[265]	*[265]	*[265]	*[265]	input1[265]	26[382]	male[382]	c48fsj7kc4kiuorutkbb4be30b[382]	speaker: YOU[499]	_	_	_	_	_	
+160-5	3933-3936	und	GWithout[27]	zerschmettern\_set1\_5[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-zerschmettern\_set1\_5[27]	_	_	_	_	_	true[142]|false[144]	*[142]|Decl[144]	*[265]	*[265]	*[265]	*[265]	*[265]	input1[265]	26[382]	male[382]	c48fsj7kc4kiuorutkbb4be30b[382]	speaker: YOU[499]	_	_	_	_	_	
+160-6	3937-3940	die	GWithout[27]	zerschmettern\_set1\_5[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-zerschmettern\_set1\_5[27]	_	_	_	_	_	true[142]|false[144]	*[142]|Decl[144]	*[265]	*[265]	*[265]	*[265]	*[265]	input1[265]	26[382]	male[382]	c48fsj7kc4kiuorutkbb4be30b[382]	speaker: YOU[499]	*->56-2	DefNP[56]	_	_	_	
+160-7	3941-3947	Stühle	GWithout[27]	zerschmettern\_set1\_5[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-zerschmettern\_set1\_5[27]	_	_	_	_	_	true[142]|false[144]	*[142]|Decl[144]	*[265]	*[265]	*[265]	*[265]	*[265]	input1[265]	26[382]	male[382]	c48fsj7kc4kiuorutkbb4be30b[382]	speaker: YOU[499]	*->56-2	DefNP[56]	_	_	_	
+160-8	3948-3953	haben	GWithout[27]	zerschmettern\_set1\_5[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-zerschmettern\_set1\_5[27]	_	_	_	_	_	true[142]|false[144]	*[142]|Decl[144]	*[265]	*[265]	*[265]	*[265]	*[265]	input1[265]	26[382]	male[382]	c48fsj7kc4kiuorutkbb4be30b[382]	speaker: YOU[499]	_	_	_	_	_	
+160-9	3954-3957	wir	GWithout[27]	zerschmettern\_set1\_5[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-zerschmettern\_set1\_5[27]	1	*	*	*	plural	true[142]|false[144]	*[142]|Decl[144]	*[265]	*[265]	*[265]	*[265]	*[265]	input1[265]	26[382]	male[382]	c48fsj7kc4kiuorutkbb4be30b[382]	speaker: YOU[499]	*->80-2	PerPron[80]	_	_	_	
+160-10	3958-3963	nicht	GWithout[27]	zerschmettern\_set1\_5[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-zerschmettern\_set1\_5[27]	_	_	_	_	_	true[142]|false[144]	*[142]|Decl[144]	*[265]	*[265]	*[265]	*[265]	*[265]	input1[265]	26[382]	male[382]	c48fsj7kc4kiuorutkbb4be30b[382]	speaker: YOU[499]	_	_	_	_	_	
+160-11	3964-3968	mehr	GWithout[27]	zerschmettern\_set1\_5[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-zerschmettern\_set1\_5[27]	_	_	_	_	_	true[142]|false[144]	*[142]|Decl[144]	*[265]	*[265]	*[265]	*[265]	*[265]	input1[265]	26[382]	male[382]	c48fsj7kc4kiuorutkbb4be30b[382]	speaker: YOU[499]	_	_	_	_	_	
+160-12	3969-3979	gebraucht.	GWithout[27]	zerschmettern\_set1\_5[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-zerschmettern\_set1\_5[27]	_	_	_	_	_	true[142]|false[144]	*[142]|Decl[144]	*[265]	*[265]	*[265]	*[265]	*[265]	input1[265]	26[382]	male[382]	c48fsj7kc4kiuorutkbb4be30b[382]	speaker: YOU[499]	_	_	_	_	_	
+
+#Text=Wir kaufen dann neue.
+161-1	3981-3984	Wir	GWithout[27]	zerschmettern\_set1\_5[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-zerschmettern\_set1\_5[27]	1	*	*	*	plural	false[145]	Decl[145]	*[266]	*[266]	*[266]	*[266]	*[266]	input2[266]	26[383]	male[383]	c48fsj7kc4kiuorutkbb4be30b[383]	speaker: YOU[500]	*->80-3	PerPron[80]	_	_	_	
+161-2	3985-3991	kaufen	GWithout[27]	zerschmettern\_set1\_5[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-zerschmettern\_set1\_5[27]	_	_	_	_	_	false[145]	Decl[145]	*[266]	*[266]	*[266]	*[266]	*[266]	input2[266]	26[383]	male[383]	c48fsj7kc4kiuorutkbb4be30b[383]	speaker: YOU[500]	_	_	_	_	_	
+161-3	3992-3996	dann	GWithout[27]	zerschmettern\_set1\_5[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-zerschmettern\_set1\_5[27]	_	_	_	_	_	false[145]	Decl[145]	*[266]	*[266]	*[266]	*[266]	*[266]	input2[266]	26[383]	male[383]	c48fsj7kc4kiuorutkbb4be30b[383]	speaker: YOU[500]	_	_	_	_	_	
+161-4	3997-4002	neue.	GWithout[27]	zerschmettern\_set1\_5[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-zerschmettern\_set1\_5[27]	_	_	_	_	_	false[145]	Decl[145]	*[266]	*[266]	*[266]	*[266]	*[266]	input2[266]	26[383]	male[383]	c48fsj7kc4kiuorutkbb4be30b[383]	speaker: YOU[500]	*->60-1	IndefNP[60]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+162-1	4004-4019	END_OF_DOCUMENT	GWithout[27]	zerschmettern\_set1\_5[27]	latin2[27]	c48fsj7kc4kiuorutkbb4be30b-zerschmettern\_set1\_5[27]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hi, alles okay soweit?
+163-1	4021-4024	Hi,	GWithout[28]	zerschmettern\_set1\_5[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-zerschmettern\_set1\_5[28]	_	_	_	_	_	false[146]	Int[146]	*[267]	*[267]	*[267]	yn\_3[267]	yesno\_question[267]	openq[267]	*[384]	female[384]	*[384]	speaker:Anastasia[501]	_	_	QAP	*	164-1[147_146]	
+163-2	4025-4030	alles	GWithout[28]	zerschmettern\_set1\_5[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-zerschmettern\_set1\_5[28]	_	_	_	_	_	false[146]	Int[146]	*[267]	*[267]	*[267]	yn\_3[267]	yesno\_question[267]	openq[267]	*[384]	female[384]	*[384]	speaker:Anastasia[501]	_	_	_	_	_	
+163-3	4031-4035	okay	GWithout[28]	zerschmettern\_set1\_5[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-zerschmettern\_set1\_5[28]	_	_	_	_	_	false[146]	Int[146]	*[267]	*[267]	*[267]	yn\_3[267]	yesno\_question[267]	openq[267]	*[384]	female[384]	*[384]	speaker:Anastasia[501]	_	_	_	_	_	
+163-4	4036-4043	soweit?	GWithout[28]	zerschmettern\_set1\_5[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-zerschmettern\_set1\_5[28]	_	_	_	_	_	false[146]	Int[146]	*[267]	*[267]	*[267]	yn\_3[267]	yesno\_question[267]	openq[267]	*[384]	female[384]	*[384]	speaker:Anastasia[501]	_	_	_	_	_	
+
+#Text=Lisa hat Stühle zerschmettert
+164-1	4045-4049	Lisa	GWithout[28]	zerschmettern\_set1\_5[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-zerschmettern\_set1\_5[28]	_	_	_	_	_	false[147]	Decl[147]	*[268]	zerschmettern[268]	transitive[268]	*[268]	*[268]	item0[268]	57[385]	female[385]	k0vnav0sqhr0fo3b0jpuaak9s4[385]	speaker: YOU[502]	*->74-1	PropNm[74]	explanation	*	166-1[148_147]	
+164-2	4050-4053	hat	GWithout[28]	zerschmettern\_set1\_5[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-zerschmettern\_set1\_5[28]	_	_	_	_	_	false[147]	Decl[147]	*[268]	zerschmettern[268]	transitive[268]	*[268]	*[268]	item0[268]	57[385]	female[385]	k0vnav0sqhr0fo3b0jpuaak9s4[385]	speaker: YOU[502]	_	_	_	_	_	
+164-3	4054-4060	Stühle	GWithout[28]	zerschmettern\_set1\_5[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-zerschmettern\_set1\_5[28]	_	_	_	_	_	false[147]	Decl[147]	*[268]	zerschmettern[268]	transitive[268]	*[268]	*[268]	item0[268]	57[385]	female[385]	k0vnav0sqhr0fo3b0jpuaak9s4[385]	speaker: YOU[502]	*->123-1	IndefNP[123]	_	_	_	
+164-4	4061-4074	zerschmettert	GWithout[28]	zerschmettern\_set1\_5[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-zerschmettern\_set1\_5[28]	_	_	_	_	_	false[147]	Decl[147]	*[268]	zerschmettern[268]	transitive[268]	*[268]	*[268]	item0[268]	57[385]	female[385]	k0vnav0sqhr0fo3b0jpuaak9s4[385]	speaker: YOU[502]	_	_	_	_	_	
+
+#Text=-
+165-1	4076-4077	-	GWithout[28]	zerschmettern\_set1\_5[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-zerschmettern\_set1\_5[28]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Anastasia	_	_	_	_	_	
+
+#Text=Wir hatten im Hof eine Tafel für die gemeinsame Mahlzeit aufgebaut <BR> und die dumme Kuh ist ausgebrochen und wie verrückt herumgerannt.
+166-1	4079-4082	Wir	GWithout[28]	zerschmettern\_set1\_5[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-zerschmettern\_set1\_5[28]	1	*	*	*	plural	true[148]|false[149]	*[148]|Decl[149]	*[269]	*[269]	*[269]	*[269]	*[269]	input1[269]	57[386]	female[386]	k0vnav0sqhr0fo3b0jpuaak9s4[386]	speaker: YOU[503]	*->30-1	PerPron[30]	narration	*	166-13[150_149]	
+166-2	4083-4089	hatten	GWithout[28]	zerschmettern\_set1\_5[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-zerschmettern\_set1\_5[28]	_	_	_	_	_	true[148]|false[149]	*[148]|Decl[149]	*[269]	*[269]	*[269]	*[269]	*[269]	input1[269]	57[386]	female[386]	k0vnav0sqhr0fo3b0jpuaak9s4[386]	speaker: YOU[503]	_	_	_	_	_	
+166-3	4090-4092	im	GWithout[28]	zerschmettern\_set1\_5[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-zerschmettern\_set1\_5[28]	_	_	_	_	_	true[148]|false[149]	*[148]|Decl[149]	*[269]	*[269]	*[269]	*[269]	*[269]	input1[269]	57[386]	female[386]	k0vnav0sqhr0fo3b0jpuaak9s4[386]	speaker: YOU[503]	*->17-1	DefNP[17]	_	_	_	
+166-4	4093-4096	Hof	GWithout[28]	zerschmettern\_set1\_5[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-zerschmettern\_set1\_5[28]	_	_	_	_	_	true[148]|false[149]	*[148]|Decl[149]	*[269]	*[269]	*[269]	*[269]	*[269]	input1[269]	57[386]	female[386]	k0vnav0sqhr0fo3b0jpuaak9s4[386]	speaker: YOU[503]	*->17-1	DefNP[17]	_	_	_	
+166-5	4097-4101	eine	GWithout[28]	zerschmettern\_set1\_5[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-zerschmettern\_set1\_5[28]	_	_	_	_	_	true[148]|false[149]	*[148]|Decl[149]	*[269]	*[269]	*[269]	*[269]	*[269]	input1[269]	57[386]	female[386]	k0vnav0sqhr0fo3b0jpuaak9s4[386]	speaker: YOU[503]	*->13-1	IndefNP[13]	_	_	_	
+166-6	4102-4107	Tafel	GWithout[28]	zerschmettern\_set1\_5[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-zerschmettern\_set1\_5[28]	_	_	_	_	_	true[148]|false[149]	*[148]|Decl[149]	*[269]	*[269]	*[269]	*[269]	*[269]	input1[269]	57[386]	female[386]	k0vnav0sqhr0fo3b0jpuaak9s4[386]	speaker: YOU[503]	*->13-1	IndefNP[13]	_	_	_	
+166-7	4108-4111	für	GWithout[28]	zerschmettern\_set1\_5[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-zerschmettern\_set1\_5[28]	_	_	_	_	_	true[148]|false[149]	*[148]|Decl[149]	*[269]	*[269]	*[269]	*[269]	*[269]	input1[269]	57[386]	female[386]	k0vnav0sqhr0fo3b0jpuaak9s4[386]	speaker: YOU[503]	*->13-1	IndefNP[13]	_	_	_	
+166-8	4112-4115	die	GWithout[28]	zerschmettern\_set1\_5[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-zerschmettern\_set1\_5[28]	_	_	_	_	_	true[148]|false[149]	*[148]|Decl[149]	*[269]	*[269]	*[269]	*[269]	*[269]	input1[269]	57[386]	female[386]	k0vnav0sqhr0fo3b0jpuaak9s4[386]	speaker: YOU[503]	*->13-1|*->49-1	IndefNP[13]|DefNP[49]	_	_	_	
+166-9	4116-4126	gemeinsame	GWithout[28]	zerschmettern\_set1\_5[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-zerschmettern\_set1\_5[28]	_	_	_	_	_	true[148]|false[149]	*[148]|Decl[149]	*[269]	*[269]	*[269]	*[269]	*[269]	input1[269]	57[386]	female[386]	k0vnav0sqhr0fo3b0jpuaak9s4[386]	speaker: YOU[503]	*->13-1|*->49-1	IndefNP[13]|DefNP[49]	_	_	_	
+166-10	4127-4135	Mahlzeit	GWithout[28]	zerschmettern\_set1\_5[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-zerschmettern\_set1\_5[28]	_	_	_	_	_	true[148]|false[149]	*[148]|Decl[149]	*[269]	*[269]	*[269]	*[269]	*[269]	input1[269]	57[386]	female[386]	k0vnav0sqhr0fo3b0jpuaak9s4[386]	speaker: YOU[503]	*->13-1|*->49-1	IndefNP[13]|DefNP[49]	_	_	_	
+166-11	4136-4145	aufgebaut	GWithout[28]	zerschmettern\_set1\_5[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-zerschmettern\_set1\_5[28]	_	_	_	_	_	true[148]|false[149]	*[148]|Decl[149]	*[269]	*[269]	*[269]	*[269]	*[269]	input1[269]	57[386]	female[386]	k0vnav0sqhr0fo3b0jpuaak9s4[386]	speaker: YOU[503]	_	_	_	_	_	
+166-12	4146-4150	<BR>	GWithout[28]	zerschmettern\_set1\_5[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-zerschmettern\_set1\_5[28]	_	_	_	_	_	true[148]	*[148]	*[269]	*[269]	*[269]	*[269]	*[269]	input1[269]	57[386]	female[386]	k0vnav0sqhr0fo3b0jpuaak9s4[386]	speaker: YOU[503]	_	_	_	_	_	
+166-13	4151-4154	und	GWithout[28]	zerschmettern\_set1\_5[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-zerschmettern\_set1\_5[28]	_	_	_	_	_	true[148]|false[150]	*[148]|Decl[150]	*[269]	*[269]	*[269]	*[269]	*[269]	input1[269]	57[386]	female[386]	k0vnav0sqhr0fo3b0jpuaak9s4[386]	speaker: YOU[503]	_	_	narration	*	167-1[151_150]	
+166-14	4155-4158	die	GWithout[28]	zerschmettern\_set1\_5[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-zerschmettern\_set1\_5[28]	_	_	_	_	_	true[148]|false[150]	*[148]|Decl[150]	*[269]	*[269]	*[269]	*[269]	*[269]	input1[269]	57[386]	female[386]	k0vnav0sqhr0fo3b0jpuaak9s4[386]	speaker: YOU[503]	*->74-2	DefNP[74]	_	_	_	
+166-15	4159-4164	dumme	GWithout[28]	zerschmettern\_set1\_5[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-zerschmettern\_set1\_5[28]	_	_	_	_	_	true[148]|false[150]	*[148]|Decl[150]	*[269]	*[269]	*[269]	*[269]	*[269]	input1[269]	57[386]	female[386]	k0vnav0sqhr0fo3b0jpuaak9s4[386]	speaker: YOU[503]	*->74-2	DefNP[74]	_	_	_	
+166-16	4165-4168	Kuh	GWithout[28]	zerschmettern\_set1\_5[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-zerschmettern\_set1\_5[28]	_	_	_	_	_	true[148]|false[150]	*[148]|Decl[150]	*[269]	*[269]	*[269]	*[269]	*[269]	input1[269]	57[386]	female[386]	k0vnav0sqhr0fo3b0jpuaak9s4[386]	speaker: YOU[503]	*->74-2	DefNP[74]	_	_	_	
+166-17	4169-4172	ist	GWithout[28]	zerschmettern\_set1\_5[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-zerschmettern\_set1\_5[28]	_	_	_	_	_	true[148]|false[150]	*[148]|Decl[150]	*[269]	*[269]	*[269]	*[269]	*[269]	input1[269]	57[386]	female[386]	k0vnav0sqhr0fo3b0jpuaak9s4[386]	speaker: YOU[503]	_	_	_	_	_	
+166-18	4173-4185	ausgebrochen	GWithout[28]	zerschmettern\_set1\_5[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-zerschmettern\_set1\_5[28]	_	_	_	_	_	true[148]|false[150]	*[148]|Decl[150]	*[269]	*[269]	*[269]	*[269]	*[269]	input1[269]	57[386]	female[386]	k0vnav0sqhr0fo3b0jpuaak9s4[386]	speaker: YOU[503]	_	_	_	_	_	
+166-19	4186-4189	und	GWithout[28]	zerschmettern\_set1\_5[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-zerschmettern\_set1\_5[28]	_	_	_	_	_	true[148]|false[150]	*[148]|Decl[150]	*[269]	*[269]	*[269]	*[269]	*[269]	input1[269]	57[386]	female[386]	k0vnav0sqhr0fo3b0jpuaak9s4[386]	speaker: YOU[503]	_	_	_	_	_	
+166-20	4190-4193	wie	GWithout[28]	zerschmettern\_set1\_5[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-zerschmettern\_set1\_5[28]	_	_	_	_	_	true[148]|false[150]	*[148]|Decl[150]	*[269]	*[269]	*[269]	*[269]	*[269]	input1[269]	57[386]	female[386]	k0vnav0sqhr0fo3b0jpuaak9s4[386]	speaker: YOU[503]	_	_	_	_	_	
+166-21	4194-4202	verrückt	GWithout[28]	zerschmettern\_set1\_5[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-zerschmettern\_set1\_5[28]	_	_	_	_	_	true[148]|false[150]	*[148]|Decl[150]	*[269]	*[269]	*[269]	*[269]	*[269]	input1[269]	57[386]	female[386]	k0vnav0sqhr0fo3b0jpuaak9s4[386]	speaker: YOU[503]	_	_	_	_	_	
+166-22	4203-4216	herumgerannt.	GWithout[28]	zerschmettern\_set1\_5[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-zerschmettern\_set1\_5[28]	_	_	_	_	_	true[148]|false[150]	*[148]|Decl[150]	*[269]	*[269]	*[269]	*[269]	*[269]	input1[269]	57[386]	female[386]	k0vnav0sqhr0fo3b0jpuaak9s4[386]	speaker: YOU[503]	_	_	_	_	_	
+
+#Text=Es hat eine halbe Stunde gedauert <BR> sie wieder einzufangen.
+167-1	4218-4220	Es	GWithout[28]	zerschmettern\_set1\_5[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-zerschmettern\_set1\_5[28]	_	_	_	_	_	false[151]|false[152]	Decl[151]|Decl[152]	*[270]	*[270]	*[270]	*[270]	*[270]	input2[270]	57[387]	female[387]	k0vnav0sqhr0fo3b0jpuaak9s4[387]	speaker: YOU[504]	*->47-1	PerPron[47]	_	_	_	
+167-2	4221-4224	hat	GWithout[28]	zerschmettern\_set1\_5[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-zerschmettern\_set1\_5[28]	_	_	_	_	_	false[151]|false[152]	Decl[151]|Decl[152]	*[270]	*[270]	*[270]	*[270]	*[270]	input2[270]	57[387]	female[387]	k0vnav0sqhr0fo3b0jpuaak9s4[387]	speaker: YOU[504]	_	_	_	_	_	
+167-3	4225-4229	eine	GWithout[28]	zerschmettern\_set1\_5[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-zerschmettern\_set1\_5[28]	_	_	_	_	_	false[151]|false[152]	Decl[151]|Decl[152]	*[270]	*[270]	*[270]	*[270]	*[270]	input2[270]	57[387]	female[387]	k0vnav0sqhr0fo3b0jpuaak9s4[387]	speaker: YOU[504]	*->82-1	IndefNP[82]	_	_	_	
+167-4	4230-4235	halbe	GWithout[28]	zerschmettern\_set1\_5[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-zerschmettern\_set1\_5[28]	_	_	_	_	_	false[151]|false[152]	Decl[151]|Decl[152]	*[270]	*[270]	*[270]	*[270]	*[270]	input2[270]	57[387]	female[387]	k0vnav0sqhr0fo3b0jpuaak9s4[387]	speaker: YOU[504]	*->82-1	IndefNP[82]	_	_	_	
+167-5	4236-4242	Stunde	GWithout[28]	zerschmettern\_set1\_5[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-zerschmettern\_set1\_5[28]	_	_	_	_	_	false[151]|false[152]	Decl[151]|Decl[152]	*[270]	*[270]	*[270]	*[270]	*[270]	input2[270]	57[387]	female[387]	k0vnav0sqhr0fo3b0jpuaak9s4[387]	speaker: YOU[504]	*->82-1	IndefNP[82]	_	_	_	
+167-6	4243-4251	gedauert	GWithout[28]	zerschmettern\_set1\_5[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-zerschmettern\_set1\_5[28]	_	_	_	_	_	false[151]|false[152]	Decl[151]|Decl[152]	*[270]	*[270]	*[270]	*[270]	*[270]	input2[270]	57[387]	female[387]	k0vnav0sqhr0fo3b0jpuaak9s4[387]	speaker: YOU[504]	_	_	_	_	_	
+167-7	4252-4256	<BR>	GWithout[28]	zerschmettern\_set1\_5[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-zerschmettern\_set1\_5[28]	_	_	_	_	_	false[151]	Decl[151]	*[270]	*[270]	*[270]	*[270]	*[270]	input2[270]	57[387]	female[387]	k0vnav0sqhr0fo3b0jpuaak9s4[387]	speaker: YOU[504]	_	_	_	_	_	
+167-8	4257-4260	sie	GWithout[28]	zerschmettern\_set1\_5[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-zerschmettern\_set1\_5[28]	3	*	*	*	singular	false[151]|false[153]	Decl[151]|NA[153]	*[270]	*[270]	*[270]	*[270]	*[270]	input2[270]	57[387]	female[387]	k0vnav0sqhr0fo3b0jpuaak9s4[387]	speaker: YOU[504]	*->47-2|*->74-3	clause[47]|PerPron[74]	_	_	_	
+167-9	4261-4267	wieder	GWithout[28]	zerschmettern\_set1\_5[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-zerschmettern\_set1\_5[28]	_	_	_	_	_	false[151]|false[153]	Decl[151]|NA[153]	*[270]	*[270]	*[270]	*[270]	*[270]	input2[270]	57[387]	female[387]	k0vnav0sqhr0fo3b0jpuaak9s4[387]	speaker: YOU[504]	*->47-2	clause[47]	_	_	_	
+167-10	4268-4280	einzufangen.	GWithout[28]	zerschmettern\_set1\_5[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-zerschmettern\_set1\_5[28]	_	_	_	_	_	false[151]|false[153]	Decl[151]|NA[153]	*[270]	*[270]	*[270]	*[270]	*[270]	input2[270]	57[387]	female[387]	k0vnav0sqhr0fo3b0jpuaak9s4[387]	speaker: YOU[504]	*->47-2	clause[47]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+168-1	4282-4297	END_OF_DOCUMENT	GWithout[28]	zerschmettern\_set1\_5[28]	latin2[28]	k0vnav0sqhr0fo3b0jpuaak9s4-zerschmettern\_set1\_5[28]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hi, alles okay soweit?
+169-1	4299-4302	Hi,	GWithout[29]	zerschmettern\_set1\_5[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-zerschmettern\_set1\_5[29]	_	_	_	_	_	false[154]	Int[154]	*[271]	*[271]	*[271]	yn\_3[271]	yesno\_question[271]	openq[271]	*[388]	female[388]	*[388]	speaker:Anastasia[505]	_	_	QAP	*	170-1[155_154]	
+169-2	4303-4308	alles	GWithout[29]	zerschmettern\_set1\_5[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-zerschmettern\_set1\_5[29]	_	_	_	_	_	false[154]	Int[154]	*[271]	*[271]	*[271]	yn\_3[271]	yesno\_question[271]	openq[271]	*[388]	female[388]	*[388]	speaker:Anastasia[505]	_	_	_	_	_	
+169-3	4309-4313	okay	GWithout[29]	zerschmettern\_set1\_5[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-zerschmettern\_set1\_5[29]	_	_	_	_	_	false[154]	Int[154]	*[271]	*[271]	*[271]	yn\_3[271]	yesno\_question[271]	openq[271]	*[388]	female[388]	*[388]	speaker:Anastasia[505]	_	_	_	_	_	
+169-4	4314-4321	soweit?	GWithout[29]	zerschmettern\_set1\_5[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-zerschmettern\_set1\_5[29]	_	_	_	_	_	false[154]	Int[154]	*[271]	*[271]	*[271]	yn\_3[271]	yesno\_question[271]	openq[271]	*[388]	female[388]	*[388]	speaker:Anastasia[505]	_	_	_	_	_	
+
+#Text=Lisa hat Stühle zerschmettert
+170-1	4323-4327	Lisa	GWithout[29]	zerschmettern\_set1\_5[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-zerschmettern\_set1\_5[29]	_	_	_	_	_	false[155]	Decl[155]	*[272]	zerschmettern[272]	transitive[272]	*[272]	*[272]	item0[272]	26[389]	female[389]	qjdpg51abd5auurj3bduisfb43[389]	speaker: YOU[506]	*->28-1	PropNm[28]	elaboration|explanation	*|*	172-1[156_155]|173-1[157_155]	
+170-2	4328-4331	hat	GWithout[29]	zerschmettern\_set1\_5[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-zerschmettern\_set1\_5[29]	_	_	_	_	_	false[155]	Decl[155]	*[272]	zerschmettern[272]	transitive[272]	*[272]	*[272]	item0[272]	26[389]	female[389]	qjdpg51abd5auurj3bduisfb43[389]	speaker: YOU[506]	_	_	_	_	_	
+170-3	4332-4338	Stühle	GWithout[29]	zerschmettern\_set1\_5[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-zerschmettern\_set1\_5[29]	_	_	_	_	_	false[155]	Decl[155]	*[272]	zerschmettern[272]	transitive[272]	*[272]	*[272]	item0[272]	26[389]	female[389]	qjdpg51abd5auurj3bduisfb43[389]	speaker: YOU[506]	*->69-1	IndefNP[69]	_	_	_	
+170-4	4339-4352	zerschmettert	GWithout[29]	zerschmettern\_set1\_5[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-zerschmettern\_set1\_5[29]	_	_	_	_	_	false[155]	Decl[155]	*[272]	zerschmettern[272]	transitive[272]	*[272]	*[272]	item0[272]	26[389]	female[389]	qjdpg51abd5auurj3bduisfb43[389]	speaker: YOU[506]	_	_	_	_	_	
+
+#Text=-
+171-1	4354-4355	-	GWithout[29]	zerschmettern\_set1\_5[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-zerschmettern\_set1\_5[29]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Anastasia	_	_	_	_	_	
+
+#Text=Die kleine Maus.
+172-1	4357-4360	Die	GWithout[29]	zerschmettern\_set1\_5[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-zerschmettern\_set1\_5[29]	_	_	_	_	_	false[156]	NA[156]	*[273]	*[273]	*[273]	*[273]	*[273]	input1[273]	26[390]	female[390]	qjdpg51abd5auurj3bduisfb43[390]	speaker: YOU[507]	*->28-2	DefNP[28]	_	_	_	
+172-2	4361-4367	kleine	GWithout[29]	zerschmettern\_set1\_5[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-zerschmettern\_set1\_5[29]	_	_	_	_	_	false[156]	NA[156]	*[273]	*[273]	*[273]	*[273]	*[273]	input1[273]	26[390]	female[390]	qjdpg51abd5auurj3bduisfb43[390]	speaker: YOU[507]	*->28-2	DefNP[28]	_	_	_	
+172-3	4368-4373	Maus.	GWithout[29]	zerschmettern\_set1\_5[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-zerschmettern\_set1\_5[29]	_	_	_	_	_	false[156]	NA[156]	*[273]	*[273]	*[273]	*[273]	*[273]	input1[273]	26[390]	female[390]	qjdpg51abd5auurj3bduisfb43[390]	speaker: YOU[507]	*->28-2	DefNP[28]	_	_	_	
+
+#Text=Sie kommt nach ihrem Vater.
+173-1	4375-4378	Sie	GWithout[29]	zerschmettern\_set1\_5[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-zerschmettern\_set1\_5[29]	3	*	*	*	singular	false[157]	Decl[157]	*[274]	*[274]	*[274]	*[274]	*[274]	input2[274]	26[391]	female[391]	qjdpg51abd5auurj3bduisfb43[391]	speaker: YOU[508]	*->28-3	PerPron[28]	_	_	_	
+173-2	4379-4384	kommt	GWithout[29]	zerschmettern\_set1\_5[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-zerschmettern\_set1\_5[29]	_	_	_	_	_	false[157]	Decl[157]	*[274]	*[274]	*[274]	*[274]	*[274]	input2[274]	26[391]	female[391]	qjdpg51abd5auurj3bduisfb43[391]	speaker: YOU[508]	_	_	_	_	_	
+173-3	4385-4389	nach	GWithout[29]	zerschmettern\_set1\_5[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-zerschmettern\_set1\_5[29]	_	_	_	_	_	false[157]	Decl[157]	*[274]	*[274]	*[274]	*[274]	*[274]	input2[274]	26[391]	female[391]	qjdpg51abd5auurj3bduisfb43[391]	speaker: YOU[508]	_	_	_	_	_	
+173-4	4390-4395	ihrem	GWithout[29]	zerschmettern\_set1\_5[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-zerschmettern\_set1\_5[29]	3	*	*	*	singular	false[157]	Decl[157]	*[274]	*[274]	*[274]	*[274]	*[274]	input2[274]	26[391]	female[391]	qjdpg51abd5auurj3bduisfb43[391]	speaker: YOU[508]	*->87-1|*->28-4	DefNP[87]|PossePron[28]	_	_	_	
+173-5	4396-4402	Vater.	GWithout[29]	zerschmettern\_set1\_5[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-zerschmettern\_set1\_5[29]	_	_	_	_	_	false[157]	Decl[157]	*[274]	*[274]	*[274]	*[274]	*[274]	input2[274]	26[391]	female[391]	qjdpg51abd5auurj3bduisfb43[391]	speaker: YOU[508]	*->87-1	DefNP[87]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+174-1	4404-4419	END_OF_DOCUMENT	GWithout[29]	zerschmettern\_set1\_5[29]	latin2[29]	qjdpg51abd5auurj3bduisfb43-zerschmettern\_set1\_5[29]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hi, alles okay soweit?
+175-1	4421-4424	Hi,	GWithout[30]	zerschmettern\_set1\_5[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-zerschmettern\_set1\_5[30]	_	_	_	_	_	false[158]	Int[158]	*[275]	*[275]	*[275]	yn\_3[275]	yesno\_question[275]	openq[275]	*[392]	female[392]	*[392]	speaker:Anastasia[509]	_	_	QAP	*	176-1[159_158]	
+175-2	4425-4430	alles	GWithout[30]	zerschmettern\_set1\_5[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-zerschmettern\_set1\_5[30]	_	_	_	_	_	false[158]	Int[158]	*[275]	*[275]	*[275]	yn\_3[275]	yesno\_question[275]	openq[275]	*[392]	female[392]	*[392]	speaker:Anastasia[509]	_	_	_	_	_	
+175-3	4431-4435	okay	GWithout[30]	zerschmettern\_set1\_5[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-zerschmettern\_set1\_5[30]	_	_	_	_	_	false[158]	Int[158]	*[275]	*[275]	*[275]	yn\_3[275]	yesno\_question[275]	openq[275]	*[392]	female[392]	*[392]	speaker:Anastasia[509]	_	_	_	_	_	
+175-4	4436-4443	soweit?	GWithout[30]	zerschmettern\_set1\_5[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-zerschmettern\_set1\_5[30]	_	_	_	_	_	false[158]	Int[158]	*[275]	*[275]	*[275]	yn\_3[275]	yesno\_question[275]	openq[275]	*[392]	female[392]	*[392]	speaker:Anastasia[509]	_	_	_	_	_	
+
+#Text=Lisa hat Stühle zerschmettert
+176-1	4445-4449	Lisa	GWithout[30]	zerschmettern\_set1\_5[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-zerschmettern\_set1\_5[30]	_	_	_	_	_	false[159]	Decl[159]	*[276]	zerschmettern[276]	transitive[276]	*[276]	*[276]	item0[276]	72[393]	male[393]	rhiec6c6hfje484c5bsbj040l0[393]	speaker: YOU[510]	*->85-1	PropNm[85]	elaboration	*	178-1[160_159]	
+176-2	4450-4453	hat	GWithout[30]	zerschmettern\_set1\_5[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-zerschmettern\_set1\_5[30]	_	_	_	_	_	false[159]	Decl[159]	*[276]	zerschmettern[276]	transitive[276]	*[276]	*[276]	item0[276]	72[393]	male[393]	rhiec6c6hfje484c5bsbj040l0[393]	speaker: YOU[510]	_	_	_	_	_	
+176-3	4454-4460	Stühle	GWithout[30]	zerschmettern\_set1\_5[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-zerschmettern\_set1\_5[30]	_	_	_	_	_	false[159]	Decl[159]	*[276]	zerschmettern[276]	transitive[276]	*[276]	*[276]	item0[276]	72[393]	male[393]	rhiec6c6hfje484c5bsbj040l0[393]	speaker: YOU[510]	*->35-1	IndefNP[35]	_	_	_	
+176-4	4461-4474	zerschmettert	GWithout[30]	zerschmettern\_set1\_5[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-zerschmettern\_set1\_5[30]	_	_	_	_	_	false[159]	Decl[159]	*[276]	zerschmettern[276]	transitive[276]	*[276]	*[276]	item0[276]	72[393]	male[393]	rhiec6c6hfje484c5bsbj040l0[393]	speaker: YOU[510]	_	_	_	_	_	
+
+#Text=-
+177-1	4476-4477	-	GWithout[30]	zerschmettern\_set1\_5[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-zerschmettern\_set1\_5[30]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	female	*	speaker:Anastasia	_	_	_	_	_	
+
+#Text=Wow war die wütend
+178-1	4479-4482	Wow	GWithout[30]	zerschmettern\_set1\_5[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-zerschmettern\_set1\_5[30]	_	_	_	_	_	false[160]	Excl[160]	*[277]	*[277]	*[277]	*[277]	*[277]	input1[277]	72[394]	male[394]	rhiec6c6hfje484c5bsbj040l0[394]	speaker: YOU[511]	_	_	elaboration	*	179-1[161_160]	
+178-2	4483-4486	war	GWithout[30]	zerschmettern\_set1\_5[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-zerschmettern\_set1\_5[30]	_	_	_	_	_	false[160]	Excl[160]	*[277]	*[277]	*[277]	*[277]	*[277]	input1[277]	72[394]	male[394]	rhiec6c6hfje484c5bsbj040l0[394]	speaker: YOU[511]	_	_	_	_	_	
+178-3	4487-4490	die	GWithout[30]	zerschmettern\_set1\_5[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-zerschmettern\_set1\_5[30]	_	_	_	_	_	false[160]	Excl[160]	*[277]	*[277]	*[277]	*[277]	*[277]	input1[277]	72[394]	male[394]	rhiec6c6hfje484c5bsbj040l0[394]	speaker: YOU[511]	*->85-2	D-Pron[85]	_	_	_	
+178-4	4491-4497	wütend	GWithout[30]	zerschmettern\_set1\_5[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-zerschmettern\_set1\_5[30]	_	_	_	_	_	false[160]	Excl[160]	*[277]	*[277]	*[277]	*[277]	*[277]	input1[277]	72[394]	male[394]	rhiec6c6hfje484c5bsbj040l0[394]	speaker: YOU[511]	_	_	_	_	_	
+
+#Text=So hab ich Sie noch nie erlebt
+179-1	4499-4501	So	GWithout[30]	zerschmettern\_set1\_5[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-zerschmettern\_set1\_5[30]	_	_	_	_	_	false[161]	Decl[161]	*[278]	*[278]	*[278]	*[278]	*[278]	input2[278]	72[395]	male[395]	rhiec6c6hfje484c5bsbj040l0[395]	speaker: YOU[512]	_	_	_	_	_	
+179-2	4502-4505	hab	GWithout[30]	zerschmettern\_set1\_5[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-zerschmettern\_set1\_5[30]	_	_	_	_	_	false[161]	Decl[161]	*[278]	*[278]	*[278]	*[278]	*[278]	input2[278]	72[395]	male[395]	rhiec6c6hfje484c5bsbj040l0[395]	speaker: YOU[512]	_	_	_	_	_	
+179-3	4506-4509	ich	GWithout[30]	zerschmettern\_set1\_5[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-zerschmettern\_set1\_5[30]	1	*	*	*	singular	false[161]	Decl[161]	*[278]	*[278]	*[278]	*[278]	*[278]	input2[278]	72[395]	male[395]	rhiec6c6hfje484c5bsbj040l0[395]	speaker: YOU[512]	*->62-1	PerPron[62]	_	_	_	
+179-4	4510-4513	Sie	GWithout[30]	zerschmettern\_set1\_5[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-zerschmettern\_set1\_5[30]	3	*	*	*	singular	false[161]	Decl[161]	*[278]	*[278]	*[278]	*[278]	*[278]	input2[278]	72[395]	male[395]	rhiec6c6hfje484c5bsbj040l0[395]	speaker: YOU[512]	*->85-3	PerPron[85]	_	_	_	
+179-5	4514-4518	noch	GWithout[30]	zerschmettern\_set1\_5[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-zerschmettern\_set1\_5[30]	_	_	_	_	_	false[161]	Decl[161]	*[278]	*[278]	*[278]	*[278]	*[278]	input2[278]	72[395]	male[395]	rhiec6c6hfje484c5bsbj040l0[395]	speaker: YOU[512]	_	_	_	_	_	
+179-6	4519-4522	nie	GWithout[30]	zerschmettern\_set1\_5[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-zerschmettern\_set1\_5[30]	_	_	_	_	_	false[161]	Decl[161]	*[278]	*[278]	*[278]	*[278]	*[278]	input2[278]	72[395]	male[395]	rhiec6c6hfje484c5bsbj040l0[395]	speaker: YOU[512]	_	_	_	_	_	
+179-7	4523-4529	erlebt	GWithout[30]	zerschmettern\_set1\_5[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-zerschmettern\_set1\_5[30]	_	_	_	_	_	false[161]	Decl[161]	*[278]	*[278]	*[278]	*[278]	*[278]	input2[278]	72[395]	male[395]	rhiec6c6hfje484c5bsbj040l0[395]	speaker: YOU[512]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+180-1	4531-4546	END_OF_DOCUMENT	GWithout[30]	zerschmettern\_set1\_5[30]	latin2[30]	rhiec6c6hfje484c5bsbj040l0-zerschmettern\_set1\_5[30]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	

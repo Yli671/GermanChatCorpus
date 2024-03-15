@@ -1,0 +1,1029 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Error|Error
+#T_SP=webanno.custom.Item_info|condition|item_id|latinsqr_list|unique_id
+#T_SP=webanno.custom.Ref_info|PersonalPronouns_detailed|ref_def|ref_function|ref_gender|ref_num
+#T_SP=webanno.custom.Segment|complex|segment_type
+#T_SP=webanno.custom.Sent_layer|feedback_id|item0_verb|item0_verbtype|openq_id|openq_type|sent_type
+#T_SP=webanno.custom.Speaker_meta|age|gender|speaker_id
+#T_SP=webanno.custom.Speaker_name|speaker_name
+#T_CH=de.tudarmstadt.ukp.dkpro.core.api.coref.type.CoreferenceLink|referenceRelation|referenceType
+#T_RL=webanno.custom.Relations|discourse_rel|speechAct_rel|BT_webanno.custom.Segment
+
+
+#Text=Hallo, wie geht's?
+1-1	0-6	Hallo,	_	GFailure[3]	bauen\_set1\_12[3]	latin1[3]	2k56uavscuainedj0q9i1sb693-bauen\_set1\_12[3]	_	_	_	_	_	false[89]	Int[89]	*[225]	*[225]	*[225]	wh\_2[225]	wh\_question[225]	openq[225]	*[355]	male[355]	*[355]	speaker:Tom[485]	_	_	QAP	*	2-1[90_89]	
+1-2	7-10	wie	_	GFailure[3]	bauen\_set1\_12[3]	latin1[3]	2k56uavscuainedj0q9i1sb693-bauen\_set1\_12[3]	_	_	_	_	_	false[89]	Int[89]	*[225]	*[225]	*[225]	wh\_2[225]	wh\_question[225]	openq[225]	*[355]	male[355]	*[355]	speaker:Tom[485]	_	_	_	_	_	
+1-3	11-18	geht's?	_	GFailure[3]	bauen\_set1\_12[3]	latin1[3]	2k56uavscuainedj0q9i1sb693-bauen\_set1\_12[3]	_	_	_	_	_	false[89]	Int[89]	*[225]	*[225]	*[225]	wh\_2[225]	wh\_question[225]	openq[225]	*[355]	male[355]	*[355]	speaker:Tom[485]	_	_	_	_	_	
+
+#Text=Ariana hat ein Regal gebaut
+2-1	20-26	Ariana	_	GFailure[3]	bauen\_set1\_12[3]	latin1[3]	2k56uavscuainedj0q9i1sb693-bauen\_set1\_12[3]	*	*	Subj	*	*	false[90]	Decl[90]	*[226]	bauen[226]	transitive[226]	*[226]	*[226]	item0[226]	35[356]	female[356]	2k56uavscuainedj0q9i1sb693[356]	speaker: YOU[486]	*->56-1	PropNm[56]	explanation|elaboration|CR	*|*|*	4-1[92_90]|5-1[93_90]|3-1[91_90]	
+2-2	27-30	hat	_	GFailure[3]	bauen\_set1\_12[3]	latin1[3]	2k56uavscuainedj0q9i1sb693-bauen\_set1\_12[3]	_	_	_	_	_	false[90]	Decl[90]	*[226]	bauen[226]	transitive[226]	*[226]	*[226]	item0[226]	35[356]	female[356]	2k56uavscuainedj0q9i1sb693[356]	speaker: YOU[486]	*->75-1	clause[75]	_	_	_	
+2-3	31-34	ein	_	GFailure[3]	bauen\_set1\_12[3]	latin1[3]	2k56uavscuainedj0q9i1sb693-bauen\_set1\_12[3]	*[33]	*[33]	object[33]	*[33]	*[33]	false[90]	Decl[90]	*[226]	bauen[226]	transitive[226]	*[226]	*[226]	item0[226]	35[356]	female[356]	2k56uavscuainedj0q9i1sb693[356]	speaker: YOU[486]	*->75-1|*->37-1	clause[75]|IndefNP[37]	_	_	_	
+2-4	35-40	Regal	_	GFailure[3]	bauen\_set1\_12[3]	latin1[3]	2k56uavscuainedj0q9i1sb693-bauen\_set1\_12[3]	*[33]	*[33]	object[33]	*[33]	*[33]	false[90]	Decl[90]	*[226]	bauen[226]	transitive[226]	*[226]	*[226]	item0[226]	35[356]	female[356]	2k56uavscuainedj0q9i1sb693[356]	speaker: YOU[486]	*->75-1|*->37-1	clause[75]|IndefNP[37]	_	_	_	
+2-5	41-47	gebaut	_	GFailure[3]	bauen\_set1\_12[3]	latin1[3]	2k56uavscuainedj0q9i1sb693-bauen\_set1\_12[3]	_	_	_	_	_	false[90]	Decl[90]	*[226]	bauen[226]	transitive[226]	*[226]	*[226]	item0[226]	35[356]	female[356]	2k56uavscuainedj0q9i1sb693[356]	speaker: YOU[486]	*->75-1	clause[75]	_	_	_	
+
+#Text=Wie bitte?
+3-1	49-52	Wie	_	GFailure[3]	bauen\_set1\_12[3]	latin1[3]	2k56uavscuainedj0q9i1sb693-bauen\_set1\_12[3]	_	_	_	_	_	false[91]	NA[91]	wie-bitte\_question\_2[227]	*[227]	*[227]	*[227]	*[227]	feedback[227]	*[357]	male[357]	*[357]	speaker:Tom[487]	_	_	_	_	_	
+3-2	53-59	bitte?	_	GFailure[3]	bauen\_set1\_12[3]	latin1[3]	2k56uavscuainedj0q9i1sb693-bauen\_set1\_12[3]	_	_	_	_	_	false[91]	NA[91]	wie-bitte\_question\_2[227]	*[227]	*[227]	*[227]	*[227]	feedback[227]	*[357]	male[357]	*[357]	speaker:Tom[487]	_	_	_	_	_	
+
+#Text=Für ihr Zimmer.
+4-1	61-64	Für	_	GFailure[3]	bauen\_set1\_12[3]	latin1[3]	2k56uavscuainedj0q9i1sb693-bauen\_set1\_12[3]	_	_	_	_	_	false[92]	NA[92]	*[228]	*[228]	*[228]	*[228]	*[228]	input1[228]	35[358]	female[358]	2k56uavscuainedj0q9i1sb693[358]	speaker: YOU[488]	_	_	_	_	_	
+4-2	65-68	ihr	_	GFailure[3]	bauen\_set1\_12[3]	latin1[3]	2k56uavscuainedj0q9i1sb693-bauen\_set1\_12[3]	*[34]|3[35]	*[34]|*[35]	PrepObj[34]|*[35]	*[34]|*[35]	*[34]|singular[35]	false[92]	NA[92]	*[228]	*[228]	*[228]	*[228]	*[228]	input1[228]	35[358]	female[358]	2k56uavscuainedj0q9i1sb693[358]	speaker: YOU[488]	*->11-1|*->56-2	DefNP[11]|PossePron[56]	_	_	_	
+4-3	69-76	Zimmer.	_	GFailure[3]	bauen\_set1\_12[3]	latin1[3]	2k56uavscuainedj0q9i1sb693-bauen\_set1\_12[3]	*[34]	*[34]	PrepObj[34]	*[34]	*[34]	false[92]	NA[92]	*[228]	*[228]	*[228]	*[228]	*[228]	input1[228]	35[358]	female[358]	2k56uavscuainedj0q9i1sb693[358]	speaker: YOU[488]	*->11-1	DefNP[11]	_	_	_	
+
+#Text=Haben den ganzen Sonntag damit zugebracht.
+5-1	78-83	Haben	_	GFailure[3]	bauen\_set1\_12[3]	latin1[3]	2k56uavscuainedj0q9i1sb693-bauen\_set1\_12[3]	1	*	*	*	plural	false[93]	Decl[93]	*[229]	*[229]	*[229]	*[229]	*[229]	input2[229]	35[359]	female[359]	2k56uavscuainedj0q9i1sb693[359]	speaker: YOU[489]	*->90-1	zero[90]	_	_	_	
+5-2	84-87	den	_	GFailure[3]	bauen\_set1\_12[3]	latin1[3]	2k56uavscuainedj0q9i1sb693-bauen\_set1\_12[3]	_	_	_	_	_	false[93]	Decl[93]	*[229]	*[229]	*[229]	*[229]	*[229]	input2[229]	35[359]	female[359]	2k56uavscuainedj0q9i1sb693[359]	speaker: YOU[489]	*->82-1	DefNP[82]	_	_	_	
+5-3	88-94	ganzen	_	GFailure[3]	bauen\_set1\_12[3]	latin1[3]	2k56uavscuainedj0q9i1sb693-bauen\_set1\_12[3]	_	_	_	_	_	false[93]	Decl[93]	*[229]	*[229]	*[229]	*[229]	*[229]	input2[229]	35[359]	female[359]	2k56uavscuainedj0q9i1sb693[359]	speaker: YOU[489]	*->82-1	DefNP[82]	_	_	_	
+5-4	95-102	Sonntag	_	GFailure[3]	bauen\_set1\_12[3]	latin1[3]	2k56uavscuainedj0q9i1sb693-bauen\_set1\_12[3]	_	_	_	_	_	false[93]	Decl[93]	*[229]	*[229]	*[229]	*[229]	*[229]	input2[229]	35[359]	female[359]	2k56uavscuainedj0q9i1sb693[359]	speaker: YOU[489]	*->82-1	DefNP[82]	_	_	_	
+5-5	103-108	damit	_	GFailure[3]	bauen\_set1\_12[3]	latin1[3]	2k56uavscuainedj0q9i1sb693-bauen\_set1\_12[3]	_	_	_	_	_	false[93]	Decl[93]	*[229]	*[229]	*[229]	*[229]	*[229]	input2[229]	35[359]	female[359]	2k56uavscuainedj0q9i1sb693[359]	speaker: YOU[489]	*->75-2	D-Pron[75]	_	_	_	
+5-6	109-120	zugebracht.	_	GFailure[3]	bauen\_set1\_12[3]	latin1[3]	2k56uavscuainedj0q9i1sb693-bauen\_set1\_12[3]	_	_	_	_	_	false[93]	Decl[93]	*[229]	*[229]	*[229]	*[229]	*[229]	input2[229]	35[359]	female[359]	2k56uavscuainedj0q9i1sb693[359]	speaker: YOU[489]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+6-1	122-137	END_OF_DOCUMENT	_	GFailure[3]	bauen\_set1\_12[3]	latin1[3]	2k56uavscuainedj0q9i1sb693-bauen\_set1\_12[3]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+7-1	139-145	Hallo,	_	GFailure[4]	bauen\_set1\_12[4]	latin1[4]	7bq5ecc5fndmatjvd44havavdp-bauen\_set1\_12[4]	_	_	_	_	_	false[94]	Int[94]	*[230]	*[230]	*[230]	wh\_2[230]	wh\_question[230]	openq[230]	*[360]	male[360]	*[360]	speaker:Tom[490]	_	_	QAP	*	8-1[95_94]	
+7-2	146-149	wie	_	GFailure[4]	bauen\_set1\_12[4]	latin1[4]	7bq5ecc5fndmatjvd44havavdp-bauen\_set1\_12[4]	_	_	_	_	_	false[94]	Int[94]	*[230]	*[230]	*[230]	wh\_2[230]	wh\_question[230]	openq[230]	*[360]	male[360]	*[360]	speaker:Tom[490]	_	_	_	_	_	
+7-3	150-157	geht's?	_	GFailure[4]	bauen\_set1\_12[4]	latin1[4]	7bq5ecc5fndmatjvd44havavdp-bauen\_set1\_12[4]	_	_	_	_	_	false[94]	Int[94]	*[230]	*[230]	*[230]	wh\_2[230]	wh\_question[230]	openq[230]	*[360]	male[360]	*[360]	speaker:Tom[490]	_	_	_	_	_	
+
+#Text=Ariana hat ein Regal gebaut
+8-1	159-165	Ariana	_	GFailure[4]	bauen\_set1\_12[4]	latin1[4]	7bq5ecc5fndmatjvd44havavdp-bauen\_set1\_12[4]	*	*	Subj	*	*	false[95]	Decl[95]	*[231]	bauen[231]	transitive[231]	*[231]	*[231]	item0[231]	46[361]	male[361]	7bq5ecc5fndmatjvd44havavdp[361]	speaker: YOU[491]	*->114-1	PropNm[114]	correction|CR	*|*	10-1[97_95]|9-1[96_95]	
+8-2	166-169	hat	_	GFailure[4]	bauen\_set1\_12[4]	latin1[4]	7bq5ecc5fndmatjvd44havavdp-bauen\_set1\_12[4]	_	_	_	_	_	false[95]	Decl[95]	*[231]	bauen[231]	transitive[231]	*[231]	*[231]	item0[231]	46[361]	male[361]	7bq5ecc5fndmatjvd44havavdp[361]	speaker: YOU[491]	_	_	_	_	_	
+8-3	170-173	ein	_	GFailure[4]	bauen\_set1\_12[4]	latin1[4]	7bq5ecc5fndmatjvd44havavdp-bauen\_set1\_12[4]	*[36]	*[36]	object[36]	*[36]	*[36]	false[95]	Decl[95]	*[231]	bauen[231]	transitive[231]	*[231]	*[231]	item0[231]	46[361]	male[361]	7bq5ecc5fndmatjvd44havavdp[361]	speaker: YOU[491]	*->113-1	IndefNP[113]	_	_	_	
+8-4	174-179	Regal	_	GFailure[4]	bauen\_set1\_12[4]	latin1[4]	7bq5ecc5fndmatjvd44havavdp-bauen\_set1\_12[4]	*[36]	*[36]	object[36]	*[36]	*[36]	false[95]	Decl[95]	*[231]	bauen[231]	transitive[231]	*[231]	*[231]	item0[231]	46[361]	male[361]	7bq5ecc5fndmatjvd44havavdp[361]	speaker: YOU[491]	*->113-1	IndefNP[113]	_	_	_	
+8-5	180-186	gebaut	_	GFailure[4]	bauen\_set1\_12[4]	latin1[4]	7bq5ecc5fndmatjvd44havavdp-bauen\_set1\_12[4]	_	_	_	_	_	false[95]	Decl[95]	*[231]	bauen[231]	transitive[231]	*[231]	*[231]	item0[231]	46[361]	male[361]	7bq5ecc5fndmatjvd44havavdp[361]	speaker: YOU[491]	_	_	_	_	_	
+
+#Text=Wie bitte?
+9-1	188-191	Wie	_	GFailure[4]	bauen\_set1\_12[4]	latin1[4]	7bq5ecc5fndmatjvd44havavdp-bauen\_set1\_12[4]	_	_	_	_	_	false[96]	NA[96]	wie-bitte\_question\_2[232]	*[232]	*[232]	*[232]	*[232]	feedback[232]	*[362]	male[362]	*[362]	speaker:Tom[492]	_	_	_	_	_	
+9-2	192-198	bitte?	_	GFailure[4]	bauen\_set1\_12[4]	latin1[4]	7bq5ecc5fndmatjvd44havavdp-bauen\_set1\_12[4]	_	_	_	_	_	false[96]	NA[96]	wie-bitte\_question\_2[232]	*[232]	*[232]	*[232]	*[232]	feedback[232]	*[362]	male[362]	*[362]	speaker:Tom[492]	_	_	_	_	_	
+
+#Text=sie hat sich ein Regal gekauft
+10-1	200-203	sie	_	GFailure[4]	bauen\_set1\_12[4]	latin1[4]	7bq5ecc5fndmatjvd44havavdp-bauen\_set1\_12[4]	3	*	Subj	*	singular	true[97]|false[98]	*[97]|Decl[98]	*[233]	*[233]	*[233]	*[233]	*[233]	input1[233]	46[363]	male[363]	7bq5ecc5fndmatjvd44havavdp[363]	speaker: YOU[493]	*->114-2	PerPron[114]	narration	*	11-1[99_98]	
+10-2	204-207	hat	_	GFailure[4]	bauen\_set1\_12[4]	latin1[4]	7bq5ecc5fndmatjvd44havavdp-bauen\_set1\_12[4]	_	_	_	_	_	true[97]|false[98]	*[97]|Decl[98]	*[233]	*[233]	*[233]	*[233]	*[233]	input1[233]	46[363]	male[363]	7bq5ecc5fndmatjvd44havavdp[363]	speaker: YOU[493]	_	_	_	_	_	
+10-3	208-212	sich	_	GFailure[4]	bauen\_set1\_12[4]	latin1[4]	7bq5ecc5fndmatjvd44havavdp-bauen\_set1\_12[4]	_	_	_	_	_	true[97]|false[98]	*[97]|Decl[98]	*[233]	*[233]	*[233]	*[233]	*[233]	input1[233]	46[363]	male[363]	7bq5ecc5fndmatjvd44havavdp[363]	speaker: YOU[493]	_	_	_	_	_	
+10-4	213-216	ein	_	GFailure[4]	bauen\_set1\_12[4]	latin1[4]	7bq5ecc5fndmatjvd44havavdp-bauen\_set1\_12[4]	*[37]	*[37]	DirObj[37]	*[37]	*[37]	true[97]|false[98]	*[97]|Decl[98]	*[233]	*[233]	*[233]	*[233]	*[233]	input1[233]	46[363]	male[363]	7bq5ecc5fndmatjvd44havavdp[363]	speaker: YOU[493]	*->113-2	IndefNP[113]	_	_	_	
+10-5	217-222	Regal	_	GFailure[4]	bauen\_set1\_12[4]	latin1[4]	7bq5ecc5fndmatjvd44havavdp-bauen\_set1\_12[4]	*[37]	*[37]	DirObj[37]	*[37]	*[37]	true[97]|false[98]	*[97]|Decl[98]	*[233]	*[233]	*[233]	*[233]	*[233]	input1[233]	46[363]	male[363]	7bq5ecc5fndmatjvd44havavdp[363]	speaker: YOU[493]	*->113-2	IndefNP[113]	_	_	_	
+10-6	223-230	gekauft	_	GFailure[4]	bauen\_set1\_12[4]	latin1[4]	7bq5ecc5fndmatjvd44havavdp-bauen\_set1\_12[4]	_	_	_	_	_	true[97]|false[98]	*[97]|Decl[98]	*[233]	*[233]	*[233]	*[233]	*[233]	input1[233]	46[363]	male[363]	7bq5ecc5fndmatjvd44havavdp[363]	speaker: YOU[493]	_	_	_	_	_	
+
+#Text=und baut dieses jetzt auf <BR> muss ihr helfen
+11-1	232-235	und	_	GFailure[4]	bauen\_set1\_12[4]	latin1[4]	7bq5ecc5fndmatjvd44havavdp-bauen\_set1\_12[4]	_	_	_	_	_	true[97]|false[99]	*[97]|Decl[99]	*[234]	*[234]	*[234]	*[234]	*[234]	input2[234]	46[364]	male[364]	7bq5ecc5fndmatjvd44havavdp[364]	speaker: YOU[494]	_	_	result	*	11-7[100_99]	
+11-2	236-240	baut	_	GFailure[4]	bauen\_set1\_12[4]	latin1[4]	7bq5ecc5fndmatjvd44havavdp-bauen\_set1\_12[4]	3	*	*	*	singular	true[97]|false[99]	*[97]|Decl[99]	*[234]	*[234]	*[234]	*[234]	*[234]	input2[234]	46[364]	male[364]	7bq5ecc5fndmatjvd44havavdp[364]	speaker: YOU[494]	*->114-3	zero[114]	_	_	_	
+11-3	241-247	dieses	_	GFailure[4]	bauen\_set1\_12[4]	latin1[4]	7bq5ecc5fndmatjvd44havavdp-bauen\_set1\_12[4]	*	*	DirObj	*	*	true[97]|false[99]	*[97]|Decl[99]	*[234]	*[234]	*[234]	*[234]	*[234]	input2[234]	46[364]	male[364]	7bq5ecc5fndmatjvd44havavdp[364]	speaker: YOU[494]	*->113-3	DemPron[113]	_	_	_	
+11-4	248-253	jetzt	_	GFailure[4]	bauen\_set1\_12[4]	latin1[4]	7bq5ecc5fndmatjvd44havavdp-bauen\_set1\_12[4]	_	_	_	_	_	true[97]|false[99]	*[97]|Decl[99]	*[234]	*[234]	*[234]	*[234]	*[234]	input2[234]	46[364]	male[364]	7bq5ecc5fndmatjvd44havavdp[364]	speaker: YOU[494]	_	_	_	_	_	
+11-5	254-257	auf	_	GFailure[4]	bauen\_set1\_12[4]	latin1[4]	7bq5ecc5fndmatjvd44havavdp-bauen\_set1\_12[4]	_	_	_	_	_	true[97]|false[99]	*[97]|Decl[99]	*[234]	*[234]	*[234]	*[234]	*[234]	input2[234]	46[364]	male[364]	7bq5ecc5fndmatjvd44havavdp[364]	speaker: YOU[494]	_	_	_	_	_	
+11-6	258-262	<BR>	_	GFailure[4]	bauen\_set1\_12[4]	latin1[4]	7bq5ecc5fndmatjvd44havavdp-bauen\_set1\_12[4]	_	_	_	_	_	_	_	*[234]	*[234]	*[234]	*[234]	*[234]	input2[234]	46[364]	male[364]	7bq5ecc5fndmatjvd44havavdp[364]	speaker: YOU[494]	_	_	_	_	_	
+11-7	263-267	muss	_	GFailure[4]	bauen\_set1\_12[4]	latin1[4]	7bq5ecc5fndmatjvd44havavdp-bauen\_set1\_12[4]	1	*	*	*	singular	false[100]	Decl[100]	*[234]	*[234]	*[234]	*[234]	*[234]	input2[234]	46[364]	male[364]	7bq5ecc5fndmatjvd44havavdp[364]	speaker: YOU[494]	*->96-1	zero[96]	_	_	_	
+11-8	268-271	ihr	_	GFailure[4]	bauen\_set1\_12[4]	latin1[4]	7bq5ecc5fndmatjvd44havavdp-bauen\_set1\_12[4]	3	*	DirObj	*	singular	false[100]	Decl[100]	*[234]	*[234]	*[234]	*[234]	*[234]	input2[234]	46[364]	male[364]	7bq5ecc5fndmatjvd44havavdp[364]	speaker: YOU[494]	*->114-4	PerPron[114]	_	_	_	
+11-9	272-278	helfen	_	GFailure[4]	bauen\_set1\_12[4]	latin1[4]	7bq5ecc5fndmatjvd44havavdp-bauen\_set1\_12[4]	_	_	_	_	_	false[100]	Decl[100]	*[234]	*[234]	*[234]	*[234]	*[234]	input2[234]	46[364]	male[364]	7bq5ecc5fndmatjvd44havavdp[364]	speaker: YOU[494]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+12-1	280-295	END_OF_DOCUMENT	_	GFailure[4]	bauen\_set1\_12[4]	latin1[4]	7bq5ecc5fndmatjvd44havavdp-bauen\_set1\_12[4]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+13-1	297-303	Hallo,	_	GFailure[5]	bauen\_set1\_12[5]	latin1[5]	9bb79dhfhst017575orahklqol-bauen\_set1\_12[5]	_	_	_	_	_	false[101]	Int[101]	*[235]	*[235]	*[235]	wh\_2[235]	wh\_question[235]	openq[235]	*[365]	male[365]	*[365]	speaker:Tom[495]	_	_	QAP	*	14-1[102_101]	
+13-2	304-307	wie	_	GFailure[5]	bauen\_set1\_12[5]	latin1[5]	9bb79dhfhst017575orahklqol-bauen\_set1\_12[5]	_	_	_	_	_	false[101]	Int[101]	*[235]	*[235]	*[235]	wh\_2[235]	wh\_question[235]	openq[235]	*[365]	male[365]	*[365]	speaker:Tom[495]	_	_	_	_	_	
+13-3	308-315	geht's?	_	GFailure[5]	bauen\_set1\_12[5]	latin1[5]	9bb79dhfhst017575orahklqol-bauen\_set1\_12[5]	_	_	_	_	_	false[101]	Int[101]	*[235]	*[235]	*[235]	wh\_2[235]	wh\_question[235]	openq[235]	*[365]	male[365]	*[365]	speaker:Tom[495]	_	_	_	_	_	
+
+#Text=Ariana hat ein Regal gebaut
+14-1	317-323	Ariana	_	GFailure[5]	bauen\_set1\_12[5]	latin1[5]	9bb79dhfhst017575orahklqol-bauen\_set1\_12[5]	*	*	Subj	*	*	false[102]	Decl[102]	*[236]	bauen[236]	transitive[236]	*[236]	*[236]	item0[236]	37[366]	female[366]	9bb79dhfhst017575orahklqol[366]	speaker: YOU[496]	*->9-1	PropNm[9]	elaboration|CR	*|*	16-1[104_102]|15-1[103_102]	
+14-2	324-327	hat	_	GFailure[5]	bauen\_set1\_12[5]	latin1[5]	9bb79dhfhst017575orahklqol-bauen\_set1\_12[5]	_	_	_	_	_	false[102]	Decl[102]	*[236]	bauen[236]	transitive[236]	*[236]	*[236]	item0[236]	37[366]	female[366]	9bb79dhfhst017575orahklqol[366]	speaker: YOU[496]	_	_	_	_	_	
+14-3	328-331	ein	_	GFailure[5]	bauen\_set1\_12[5]	latin1[5]	9bb79dhfhst017575orahklqol-bauen\_set1\_12[5]	*[38]	*[38]	object[38]	*[38]	*[38]	false[102]	Decl[102]	*[236]	bauen[236]	transitive[236]	*[236]	*[236]	item0[236]	37[366]	female[366]	9bb79dhfhst017575orahklqol[366]	speaker: YOU[496]	*->43-1	IndefNP[43]	_	_	_	
+14-4	332-337	Regal	_	GFailure[5]	bauen\_set1\_12[5]	latin1[5]	9bb79dhfhst017575orahklqol-bauen\_set1\_12[5]	*[38]	*[38]	object[38]	*[38]	*[38]	false[102]	Decl[102]	*[236]	bauen[236]	transitive[236]	*[236]	*[236]	item0[236]	37[366]	female[366]	9bb79dhfhst017575orahklqol[366]	speaker: YOU[496]	*->43-1	IndefNP[43]	_	_	_	
+14-5	338-344	gebaut	_	GFailure[5]	bauen\_set1\_12[5]	latin1[5]	9bb79dhfhst017575orahklqol-bauen\_set1\_12[5]	_	_	_	_	_	false[102]	Decl[102]	*[236]	bauen[236]	transitive[236]	*[236]	*[236]	item0[236]	37[366]	female[366]	9bb79dhfhst017575orahklqol[366]	speaker: YOU[496]	_	_	_	_	_	
+
+#Text=Wie bitte?
+15-1	346-349	Wie	_	GFailure[5]	bauen\_set1\_12[5]	latin1[5]	9bb79dhfhst017575orahklqol-bauen\_set1\_12[5]	_	_	_	_	_	false[103]	NA[103]	wie-bitte\_question\_2[237]	*[237]	*[237]	*[237]	*[237]	feedback[237]	*[367]	male[367]	*[367]	speaker:Tom[497]	_	_	_	_	_	
+15-2	350-356	bitte?	_	GFailure[5]	bauen\_set1\_12[5]	latin1[5]	9bb79dhfhst017575orahklqol-bauen\_set1\_12[5]	_	_	_	_	_	false[103]	NA[103]	wie-bitte\_question\_2[237]	*[237]	*[237]	*[237]	*[237]	feedback[237]	*[367]	male[367]	*[367]	speaker:Tom[497]	_	_	_	_	_	
+
+#Text=ist richtig gut geworden
+16-1	358-361	ist	_	GFailure[5]	bauen\_set1\_12[5]	latin1[5]	9bb79dhfhst017575orahklqol-bauen\_set1\_12[5]	3	*	*	*	singular	false[104]	Decl[104]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	37[368]	female[368]	9bb79dhfhst017575orahklqol[368]	speaker: YOU[498]	*->43-2	zero[43]	result	*	17-1[105_104]	
+16-2	362-369	richtig	_	GFailure[5]	bauen\_set1\_12[5]	latin1[5]	9bb79dhfhst017575orahklqol-bauen\_set1\_12[5]	_	_	_	_	_	false[104]	Decl[104]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	37[368]	female[368]	9bb79dhfhst017575orahklqol[368]	speaker: YOU[498]	_	_	_	_	_	
+16-3	370-373	gut	_	GFailure[5]	bauen\_set1\_12[5]	latin1[5]	9bb79dhfhst017575orahklqol-bauen\_set1\_12[5]	_	_	_	_	_	false[104]	Decl[104]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	37[368]	female[368]	9bb79dhfhst017575orahklqol[368]	speaker: YOU[498]	_	_	_	_	_	
+16-4	374-382	geworden	_	GFailure[5]	bauen\_set1\_12[5]	latin1[5]	9bb79dhfhst017575orahklqol-bauen\_set1\_12[5]	_	_	_	_	_	false[104]	Decl[104]	*[238]	*[238]	*[238]	*[238]	*[238]	input1[238]	37[368]	female[368]	9bb79dhfhst017575orahklqol[368]	speaker: YOU[498]	_	_	_	_	_	
+
+#Text=ich schick dir ein foto
+17-1	384-387	ich	_	GFailure[5]	bauen\_set1\_12[5]	latin1[5]	9bb79dhfhst017575orahklqol-bauen\_set1\_12[5]	1	*	Subj	*	singular	false[105]	Decl[105]	*[239]	*[239]	*[239]	*[239]	*[239]	input2[239]	37[369]	female[369]	9bb79dhfhst017575orahklqol[369]	speaker: YOU[499]	*->7-1	PerPron[7]	_	_	_	
+17-2	388-394	schick	_	GFailure[5]	bauen\_set1\_12[5]	latin1[5]	9bb79dhfhst017575orahklqol-bauen\_set1\_12[5]	_	_	_	_	_	false[105]	Decl[105]	*[239]	*[239]	*[239]	*[239]	*[239]	input2[239]	37[369]	female[369]	9bb79dhfhst017575orahklqol[369]	speaker: YOU[499]	_	_	_	_	_	
+17-3	395-398	dir	_	GFailure[5]	bauen\_set1\_12[5]	latin1[5]	9bb79dhfhst017575orahklqol-bauen\_set1\_12[5]	2	*	IndirObj	*	singular	false[105]	Decl[105]	*[239]	*[239]	*[239]	*[239]	*[239]	input2[239]	37[369]	female[369]	9bb79dhfhst017575orahklqol[369]	speaker: YOU[499]	*->77-1	PerPron[77]	_	_	_	
+17-4	399-402	ein	_	GFailure[5]	bauen\_set1\_12[5]	latin1[5]	9bb79dhfhst017575orahklqol-bauen\_set1\_12[5]	*[39]	*[39]	DirObj[39]	*[39]	*[39]	false[105]	Decl[105]	*[239]	*[239]	*[239]	*[239]	*[239]	input2[239]	37[369]	female[369]	9bb79dhfhst017575orahklqol[369]	speaker: YOU[499]	*->47-1	IndefNP[47]	_	_	_	
+17-5	403-407	foto	_	GFailure[5]	bauen\_set1\_12[5]	latin1[5]	9bb79dhfhst017575orahklqol-bauen\_set1\_12[5]	*[39]	*[39]	DirObj[39]	*[39]	*[39]	false[105]	Decl[105]	*[239]	*[239]	*[239]	*[239]	*[239]	input2[239]	37[369]	female[369]	9bb79dhfhst017575orahklqol[369]	speaker: YOU[499]	*->47-1	IndefNP[47]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+18-1	409-424	END_OF_DOCUMENT	_	GFailure[5]	bauen\_set1\_12[5]	latin1[5]	9bb79dhfhst017575orahklqol-bauen\_set1\_12[5]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+19-1	426-432	Hallo,	_	GFailure[6]	bauen\_set1\_12[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-bauen\_set1\_12[6]	_	_	_	_	_	false[106]	Int[106]	*[240]	*[240]	*[240]	wh\_2[240]	wh\_question[240]	openq[240]	*[370]	male[370]	*[370]	speaker:Tom[500]	_	_	QAP	*	20-1[107_106]	
+19-2	433-436	wie	_	GFailure[6]	bauen\_set1\_12[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-bauen\_set1\_12[6]	_	_	_	_	_	false[106]	Int[106]	*[240]	*[240]	*[240]	wh\_2[240]	wh\_question[240]	openq[240]	*[370]	male[370]	*[370]	speaker:Tom[500]	_	_	_	_	_	
+19-3	437-444	geht's?	_	GFailure[6]	bauen\_set1\_12[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-bauen\_set1\_12[6]	_	_	_	_	_	false[106]	Int[106]	*[240]	*[240]	*[240]	wh\_2[240]	wh\_question[240]	openq[240]	*[370]	male[370]	*[370]	speaker:Tom[500]	_	_	_	_	_	
+
+#Text=Ariana hat ein Regal gebaut
+20-1	446-452	Ariana	_	GFailure[6]	bauen\_set1\_12[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-bauen\_set1\_12[6]	*	*	Subj	*	*	false[107]	Decl[107]	*[241]	bauen[241]	transitive[241]	*[241]	*[241]	item0[241]	21[371]	male[371]	afpst3sherp4732c4se5ajftkq[371]	speaker: YOU[501]	*->12-1	PropNm[12]	explanation|explanation|CR	*|*|*	22-1[109_107]|23-1[110_107]|21-1[108_107]	
+20-2	453-456	hat	_	GFailure[6]	bauen\_set1\_12[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-bauen\_set1\_12[6]	_	_	_	_	_	false[107]	Decl[107]	*[241]	bauen[241]	transitive[241]	*[241]	*[241]	item0[241]	21[371]	male[371]	afpst3sherp4732c4se5ajftkq[371]	speaker: YOU[501]	_	_	_	_	_	
+20-3	457-460	ein	_	GFailure[6]	bauen\_set1\_12[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-bauen\_set1\_12[6]	*[40]	*[40]	object[40]	*[40]	*[40]	false[107]	Decl[107]	*[241]	bauen[241]	transitive[241]	*[241]	*[241]	item0[241]	21[371]	male[371]	afpst3sherp4732c4se5ajftkq[371]	speaker: YOU[501]	*->22-1	IndefNP[22]	_	_	_	
+20-4	461-466	Regal	_	GFailure[6]	bauen\_set1\_12[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-bauen\_set1\_12[6]	*[40]	*[40]	object[40]	*[40]	*[40]	false[107]	Decl[107]	*[241]	bauen[241]	transitive[241]	*[241]	*[241]	item0[241]	21[371]	male[371]	afpst3sherp4732c4se5ajftkq[371]	speaker: YOU[501]	*->22-1	IndefNP[22]	_	_	_	
+20-5	467-473	gebaut	_	GFailure[6]	bauen\_set1\_12[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-bauen\_set1\_12[6]	_	_	_	_	_	false[107]	Decl[107]	*[241]	bauen[241]	transitive[241]	*[241]	*[241]	item0[241]	21[371]	male[371]	afpst3sherp4732c4se5ajftkq[371]	speaker: YOU[501]	_	_	_	_	_	
+
+#Text=Wie bitte?
+21-1	475-478	Wie	_	GFailure[6]	bauen\_set1\_12[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-bauen\_set1\_12[6]	_	_	_	_	_	false[108]	NA[108]	wie-bitte\_question\_2[242]	*[242]	*[242]	*[242]	*[242]	feedback[242]	*[372]	male[372]	*[372]	speaker:Tom[502]	_	_	_	_	_	
+21-2	479-485	bitte?	_	GFailure[6]	bauen\_set1\_12[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-bauen\_set1\_12[6]	_	_	_	_	_	false[108]	NA[108]	wie-bitte\_question\_2[242]	*[242]	*[242]	*[242]	*[242]	feedback[242]	*[372]	male[372]	*[372]	speaker:Tom[502]	_	_	_	_	_	
+
+#Text=Ja unser altes ist ja zusammengestürtzt.
+22-1	487-489	Ja	_	GFailure[6]	bauen\_set1\_12[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-bauen\_set1\_12[6]	_	_	_	_	_	false[109]	Decl[109]	*[243]	*[243]	*[243]	*[243]	*[243]	input1[243]	21[373]	male[373]	afpst3sherp4732c4se5ajftkq[373]	speaker: YOU[503]	_	_	_	_	_	
+22-2	490-495	unser	_	GFailure[6]	bauen\_set1\_12[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-bauen\_set1\_12[6]	1	*	*	*	plural	false[109]	Decl[109]	*[243]	*[243]	*[243]	*[243]	*[243]	input1[243]	21[373]	male[373]	afpst3sherp4732c4se5ajftkq[373]	speaker: YOU[503]	*->63-1|*->108-1	DefNP[63]|PossePron[108]	_	_	_	
+22-3	496-501	altes	_	GFailure[6]	bauen\_set1\_12[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-bauen\_set1\_12[6]	_	_	_	_	_	false[109]	Decl[109]	*[243]	*[243]	*[243]	*[243]	*[243]	input1[243]	21[373]	male[373]	afpst3sherp4732c4se5ajftkq[373]	speaker: YOU[503]	*->63-1	DefNP[63]	_	_	_	
+22-4	502-505	ist	_	GFailure[6]	bauen\_set1\_12[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-bauen\_set1\_12[6]	_	_	_	_	_	false[109]	Decl[109]	*[243]	*[243]	*[243]	*[243]	*[243]	input1[243]	21[373]	male[373]	afpst3sherp4732c4se5ajftkq[373]	speaker: YOU[503]	_	_	_	_	_	
+22-5	506-508	ja	_	GFailure[6]	bauen\_set1\_12[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-bauen\_set1\_12[6]	_	_	_	_	_	false[109]	Decl[109]	*[243]	*[243]	*[243]	*[243]	*[243]	input1[243]	21[373]	male[373]	afpst3sherp4732c4se5ajftkq[373]	speaker: YOU[503]	_	_	_	_	_	
+22-6	509-527	zusammengestürtzt.	_	GFailure[6]	bauen\_set1\_12[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-bauen\_set1\_12[6]	_	_	_	_	_	false[109]	Decl[109]	*[243]	*[243]	*[243]	*[243]	*[243]	input1[243]	21[373]	male[373]	afpst3sherp4732c4se5ajftkq[373]	speaker: YOU[503]	_	_	_	_	_	
+
+#Text=Sie bestand darauf es alleine aufzubauen.
+23-1	529-532	Sie	_	GFailure[6]	bauen\_set1\_12[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-bauen\_set1\_12[6]	3	*	Subj	*	singular	false[110]	Decl[110]	*[244]	*[244]	*[244]	*[244]	*[244]	input2[244]	21[374]	male[374]	afpst3sherp4732c4se5ajftkq[374]	speaker: YOU[504]	*->12-2	PerPron[12]	_	_	_	
+23-2	533-540	bestand	_	GFailure[6]	bauen\_set1\_12[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-bauen\_set1\_12[6]	_	_	_	_	_	false[110]	Decl[110]	*[244]	*[244]	*[244]	*[244]	*[244]	input2[244]	21[374]	male[374]	afpst3sherp4732c4se5ajftkq[374]	speaker: YOU[504]	_	_	_	_	_	
+23-3	541-547	darauf	_	GFailure[6]	bauen\_set1\_12[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-bauen\_set1\_12[6]	_	_	_	_	_	false[110]	Decl[110]	*[244]	*[244]	*[244]	*[244]	*[244]	input2[244]	21[374]	male[374]	afpst3sherp4732c4se5ajftkq[374]	speaker: YOU[504]	*->13-1	D-Pron[13]	_	_	_	
+23-4	548-550	es	_	GFailure[6]	bauen\_set1\_12[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-bauen\_set1\_12[6]	3	*	DirObj	*	singular	false[110]	Decl[110]	*[244]	*[244]	*[244]	*[244]	*[244]	input2[244]	21[374]	male[374]	afpst3sherp4732c4se5ajftkq[374]	speaker: YOU[504]	*->13-2|*->22-2	clause[13]|PerPron[22]	_	_	_	
+23-5	551-558	alleine	_	GFailure[6]	bauen\_set1\_12[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-bauen\_set1\_12[6]	_	_	_	_	_	false[110]	Decl[110]	*[244]	*[244]	*[244]	*[244]	*[244]	input2[244]	21[374]	male[374]	afpst3sherp4732c4se5ajftkq[374]	speaker: YOU[504]	*->13-2	clause[13]	_	_	_	
+23-6	559-570	aufzubauen.	_	GFailure[6]	bauen\_set1\_12[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-bauen\_set1\_12[6]	_	_	_	_	_	false[110]	Decl[110]	*[244]	*[244]	*[244]	*[244]	*[244]	input2[244]	21[374]	male[374]	afpst3sherp4732c4se5ajftkq[374]	speaker: YOU[504]	_	_	_	_	_	
+23-6.1	559-569	aufzubauen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	*->13-2	clause[13]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+24-1	572-587	END_OF_DOCUMENT	_	GFailure[6]	bauen\_set1\_12[6]	latin1[6]	afpst3sherp4732c4se5ajftkq-bauen\_set1\_12[6]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+25-1	589-595	Hallo,	_	GFailure[7]	bauen\_set1\_12[7]	latin1[7]	blj8i1h4sc8jti0m6gcav1c9ek-bauen\_set1\_12[7]	_	_	_	_	_	false[111]	Int[111]	*[245]	*[245]	*[245]	wh\_2[245]	wh\_question[245]	openq[245]	*[375]	male[375]	*[375]	speaker:Tom[505]	_	_	QAP|parallel|QAP	*|*|*	29-1[115_111]|29-4[116_111]|26-1[112_111]	
+25-2	596-599	wie	_	GFailure[7]	bauen\_set1\_12[7]	latin1[7]	blj8i1h4sc8jti0m6gcav1c9ek-bauen\_set1\_12[7]	_	_	_	_	_	false[111]	Int[111]	*[245]	*[245]	*[245]	wh\_2[245]	wh\_question[245]	openq[245]	*[375]	male[375]	*[375]	speaker:Tom[505]	_	_	_	_	_	
+25-3	600-607	geht's?	_	GFailure[7]	bauen\_set1\_12[7]	latin1[7]	blj8i1h4sc8jti0m6gcav1c9ek-bauen\_set1\_12[7]	_	_	_	_	_	false[111]	Int[111]	*[245]	*[245]	*[245]	wh\_2[245]	wh\_question[245]	openq[245]	*[375]	male[375]	*[375]	speaker:Tom[505]	_	_	_	_	_	
+
+#Text=Ariana hat ein Regal gebaut
+26-1	609-615	Ariana	_	GFailure[7]	bauen\_set1\_12[7]	latin1[7]	blj8i1h4sc8jti0m6gcav1c9ek-bauen\_set1\_12[7]	*	*	Subj	*	*	false[112]	Decl[112]	*[246]	bauen[246]	transitive[246]	*[246]	*[246]	item0[246]	42[376]	female[376]	blj8i1h4sc8jti0m6gcav1c9ek[376]	speaker: YOU[506]	*->28-1	PropNm[28]	correction|CR	*|*	28-4[114_112]|27-1[113_112]	
+26-2	616-619	hat	_	GFailure[7]	bauen\_set1\_12[7]	latin1[7]	blj8i1h4sc8jti0m6gcav1c9ek-bauen\_set1\_12[7]	_	_	_	_	_	false[112]	Decl[112]	*[246]	bauen[246]	transitive[246]	*[246]	*[246]	item0[246]	42[376]	female[376]	blj8i1h4sc8jti0m6gcav1c9ek[376]	speaker: YOU[506]	_	_	_	_	_	
+26-3	620-623	ein	_	GFailure[7]	bauen\_set1\_12[7]	latin1[7]	blj8i1h4sc8jti0m6gcav1c9ek-bauen\_set1\_12[7]	*[41]	*[41]	object[41]	*[41]	*[41]	false[112]	Decl[112]	*[246]	bauen[246]	transitive[246]	*[246]	*[246]	item0[246]	42[376]	female[376]	blj8i1h4sc8jti0m6gcav1c9ek[376]	speaker: YOU[506]	*->109-1	IndefNP[109]	_	_	_	
+26-4	624-629	Regal	_	GFailure[7]	bauen\_set1\_12[7]	latin1[7]	blj8i1h4sc8jti0m6gcav1c9ek-bauen\_set1\_12[7]	*[41]	*[41]	object[41]	*[41]	*[41]	false[112]	Decl[112]	*[246]	bauen[246]	transitive[246]	*[246]	*[246]	item0[246]	42[376]	female[376]	blj8i1h4sc8jti0m6gcav1c9ek[376]	speaker: YOU[506]	*->109-1	IndefNP[109]	_	_	_	
+26-5	630-636	gebaut	_	GFailure[7]	bauen\_set1\_12[7]	latin1[7]	blj8i1h4sc8jti0m6gcav1c9ek-bauen\_set1\_12[7]	_	_	_	_	_	false[112]	Decl[112]	*[246]	bauen[246]	transitive[246]	*[246]	*[246]	item0[246]	42[376]	female[376]	blj8i1h4sc8jti0m6gcav1c9ek[376]	speaker: YOU[506]	_	_	_	_	_	
+
+#Text=Wie bitte?
+27-1	638-641	Wie	_	GFailure[7]	bauen\_set1\_12[7]	latin1[7]	blj8i1h4sc8jti0m6gcav1c9ek-bauen\_set1\_12[7]	_	_	_	_	_	false[113]	NA[113]	wie-bitte\_question\_2[247]	*[247]	*[247]	*[247]	*[247]	feedback[247]	*[377]	male[377]	*[377]	speaker:Tom[507]	_	_	_	_	_	
+27-2	642-648	bitte?	_	GFailure[7]	bauen\_set1\_12[7]	latin1[7]	blj8i1h4sc8jti0m6gcav1c9ek-bauen\_set1\_12[7]	_	_	_	_	_	false[113]	NA[113]	wie-bitte\_question\_2[247]	*[247]	*[247]	*[247]	*[247]	feedback[247]	*[377]	male[377]	*[377]	speaker:Tom[507]	_	_	_	_	_	
+
+#Text=Sorry <BR>  falscher Chat.
+28-1	650-655	Sorry	_	GFailure[7]	bauen\_set1\_12[7]	latin1[7]	blj8i1h4sc8jti0m6gcav1c9ek-bauen\_set1\_12[7]	_	_	_	_	_	false	NA	*[248]	*[248]	*[248]	*[248]	*[248]	input1[248]	42[378]	female[378]	blj8i1h4sc8jti0m6gcav1c9ek[378]	speaker: YOU[508]	_	_	_	_	_	
+28-2	656-660	<BR>	_	GFailure[7]	bauen\_set1\_12[7]	latin1[7]	blj8i1h4sc8jti0m6gcav1c9ek-bauen\_set1\_12[7]	_	_	_	_	_	_	_	*[248]	*[248]	*[248]	*[248]	*[248]	input1[248]	42[378]	female[378]	blj8i1h4sc8jti0m6gcav1c9ek[378]	speaker: YOU[508]	_	_	_	_	_	
+28-3	661-661		_	GFailure[7]	bauen\_set1\_12[7]	latin1[7]	blj8i1h4sc8jti0m6gcav1c9ek-bauen\_set1\_12[7]	_	_	_	_	_	_	_	*[248]	*[248]	*[248]	*[248]	*[248]	input1[248]	42[378]	female[378]	blj8i1h4sc8jti0m6gcav1c9ek[378]	speaker: YOU[508]	_	_	_	_	_	
+28-4	662-670	falscher	_	GFailure[7]	bauen\_set1\_12[7]	latin1[7]	blj8i1h4sc8jti0m6gcav1c9ek-bauen\_set1\_12[7]	_	_	_	_	_	false[114]	NA[114]	*[248]	*[248]	*[248]	*[248]	*[248]	input1[248]	42[378]	female[378]	blj8i1h4sc8jti0m6gcav1c9ek[378]	speaker: YOU[508]	*->102-1	DefNP[102]	_	_	_	
+28-5	671-676	Chat.	_	GFailure[7]	bauen\_set1\_12[7]	latin1[7]	blj8i1h4sc8jti0m6gcav1c9ek-bauen\_set1\_12[7]	_	_	_	_	_	false[114]	NA[114]	*[248]	*[248]	*[248]	*[248]	*[248]	input1[248]	42[378]	female[378]	blj8i1h4sc8jti0m6gcav1c9ek[378]	speaker: YOU[508]	*->102-1	DefNP[102]	_	_	_	
+
+#Text=Mir geht's gut und selbst?
+29-1	678-681	Mir	_	GFailure[7]	bauen\_set1\_12[7]	latin1[7]	blj8i1h4sc8jti0m6gcav1c9ek-bauen\_set1\_12[7]	*	*	Subj	*	*	false[115]	Decl[115]	*[249]	*[249]	*[249]	*[249]	*[249]	input2[249]	42[379]	female[379]	blj8i1h4sc8jti0m6gcav1c9ek[379]	speaker: YOU[509]	*->67-1	PerPron[67]	_	_	_	
+29-2	682-688	geht's	_	GFailure[7]	bauen\_set1\_12[7]	latin1[7]	blj8i1h4sc8jti0m6gcav1c9ek-bauen\_set1\_12[7]	_	_	_	_	_	false[115]	Decl[115]	*[249]	*[249]	*[249]	*[249]	*[249]	input2[249]	42[379]	female[379]	blj8i1h4sc8jti0m6gcav1c9ek[379]	speaker: YOU[509]	_	_	_	_	_	
+29-3	689-692	gut	_	GFailure[7]	bauen\_set1\_12[7]	latin1[7]	blj8i1h4sc8jti0m6gcav1c9ek-bauen\_set1\_12[7]	_	_	_	_	_	false[115]	Decl[115]	*[249]	*[249]	*[249]	*[249]	*[249]	input2[249]	42[379]	female[379]	blj8i1h4sc8jti0m6gcav1c9ek[379]	speaker: YOU[509]	_	_	_	_	_	
+29-4	693-696	und	_	GFailure[7]	bauen\_set1\_12[7]	latin1[7]	blj8i1h4sc8jti0m6gcav1c9ek-bauen\_set1\_12[7]	_	_	_	_	_	false[116]	Int[116]	*[249]	*[249]	*[249]	*[249]	*[249]	input2[249]	42[379]	female[379]	blj8i1h4sc8jti0m6gcav1c9ek[379]	speaker: YOU[509]	_	_	_	_	_	
+29-5	697-704	selbst?	_	GFailure[7]	bauen\_set1\_12[7]	latin1[7]	blj8i1h4sc8jti0m6gcav1c9ek-bauen\_set1\_12[7]	_	_	_	_	_	false[116]	Int[116]	*[249]	*[249]	*[249]	*[249]	*[249]	input2[249]	42[379]	female[379]	blj8i1h4sc8jti0m6gcav1c9ek[379]	speaker: YOU[509]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+30-1	706-721	END_OF_DOCUMENT	_	GFailure[7]	bauen\_set1\_12[7]	latin1[7]	blj8i1h4sc8jti0m6gcav1c9ek-bauen\_set1\_12[7]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+31-1	723-729	Hallo,	_	GFailure[8]	bauen\_set1\_12[8]	latin1[8]	h05ingrcngdnasp07727nvoq59-bauen\_set1\_12[8]	_	_	_	_	_	false[117]	Int[117]	*[250]	*[250]	*[250]	wh\_2[250]	wh\_question[250]	openq[250]	*[380]	male[380]	*[380]	speaker:Tom[510]	_	_	QAP	*	32-1[118_117]	
+31-2	730-733	wie	_	GFailure[8]	bauen\_set1\_12[8]	latin1[8]	h05ingrcngdnasp07727nvoq59-bauen\_set1\_12[8]	_	_	_	_	_	false[117]	Int[117]	*[250]	*[250]	*[250]	wh\_2[250]	wh\_question[250]	openq[250]	*[380]	male[380]	*[380]	speaker:Tom[510]	_	_	_	_	_	
+31-3	734-741	geht's?	_	GFailure[8]	bauen\_set1\_12[8]	latin1[8]	h05ingrcngdnasp07727nvoq59-bauen\_set1\_12[8]	_	_	_	_	_	false[117]	Int[117]	*[250]	*[250]	*[250]	wh\_2[250]	wh\_question[250]	openq[250]	*[380]	male[380]	*[380]	speaker:Tom[510]	_	_	_	_	_	
+
+#Text=Ariana hat ein Regal gebaut
+32-1	743-749	Ariana	_	GFailure[8]	bauen\_set1\_12[8]	latin1[8]	h05ingrcngdnasp07727nvoq59-bauen\_set1\_12[8]	*	*	Subj	*	*	false[118]	Decl[118]	*[251]	bauen[251]	transitive[251]	*[251]	*[251]	item0[251]	42[381]	female[381]	h05ingrcngdnasp07727nvoq59[381]	speaker: YOU[511]	*->59-1	PropNm[59]	elaboration|CR	*|*	34-1[0_118]|33-1[119_118]	
+32-2	750-753	hat	_	GFailure[8]	bauen\_set1\_12[8]	latin1[8]	h05ingrcngdnasp07727nvoq59-bauen\_set1\_12[8]	_	_	_	_	_	false[118]	Decl[118]	*[251]	bauen[251]	transitive[251]	*[251]	*[251]	item0[251]	42[381]	female[381]	h05ingrcngdnasp07727nvoq59[381]	speaker: YOU[511]	_	_	_	_	_	
+32-3	754-757	ein	_	GFailure[8]	bauen\_set1\_12[8]	latin1[8]	h05ingrcngdnasp07727nvoq59-bauen\_set1\_12[8]	*[42]	*[42]	object[42]	*[42]	*[42]	false[118]	Decl[118]	*[251]	bauen[251]	transitive[251]	*[251]	*[251]	item0[251]	42[381]	female[381]	h05ingrcngdnasp07727nvoq59[381]	speaker: YOU[511]	*->42-1	IndefNP[42]	_	_	_	
+32-4	758-763	Regal	_	GFailure[8]	bauen\_set1\_12[8]	latin1[8]	h05ingrcngdnasp07727nvoq59-bauen\_set1\_12[8]	*[42]	*[42]	object[42]	*[42]	*[42]	false[118]	Decl[118]	*[251]	bauen[251]	transitive[251]	*[251]	*[251]	item0[251]	42[381]	female[381]	h05ingrcngdnasp07727nvoq59[381]	speaker: YOU[511]	*->42-1	IndefNP[42]	_	_	_	
+32-5	764-770	gebaut	_	GFailure[8]	bauen\_set1\_12[8]	latin1[8]	h05ingrcngdnasp07727nvoq59-bauen\_set1\_12[8]	_	_	_	_	_	false[118]	Decl[118]	*[251]	bauen[251]	transitive[251]	*[251]	*[251]	item0[251]	42[381]	female[381]	h05ingrcngdnasp07727nvoq59[381]	speaker: YOU[511]	_	_	_	_	_	
+
+#Text=Wie bitte?
+33-1	772-775	Wie	_	GFailure[8]	bauen\_set1\_12[8]	latin1[8]	h05ingrcngdnasp07727nvoq59-bauen\_set1\_12[8]	_	_	_	_	_	false[119]	NA[119]	wie-bitte\_question\_2[252]	*[252]	*[252]	*[252]	*[252]	feedback[252]	*[382]	male[382]	*[382]	speaker:Tom[512]	_	_	_	_	_	
+33-2	776-782	bitte?	_	GFailure[8]	bauen\_set1\_12[8]	latin1[8]	h05ingrcngdnasp07727nvoq59-bauen\_set1\_12[8]	_	_	_	_	_	false[119]	NA[119]	wie-bitte\_question\_2[252]	*[252]	*[252]	*[252]	*[252]	feedback[252]	*[382]	male[382]	*[382]	speaker:Tom[512]	_	_	_	_	_	
+
+#Text=Ja <BR> kaum zu glauben.
+34-1	784-786	Ja	_	GFailure[8]	bauen\_set1\_12[8]	latin1[8]	h05ingrcngdnasp07727nvoq59-bauen\_set1\_12[8]	_	_	_	_	_	false	NA	*[253]	*[253]	*[253]	*[253]	*[253]	input1[253]	42[383]	female[383]	h05ingrcngdnasp07727nvoq59[383]	speaker: YOU[513]	_	_	elaboration	*	34-3[120_0]	
+34-2	787-791	<BR>	_	GFailure[8]	bauen\_set1\_12[8]	latin1[8]	h05ingrcngdnasp07727nvoq59-bauen\_set1\_12[8]	_	_	_	_	_	_	_	*[253]	*[253]	*[253]	*[253]	*[253]	input1[253]	42[383]	female[383]	h05ingrcngdnasp07727nvoq59[383]	speaker: YOU[513]	_	_	_	_	_	
+34-3	792-796	kaum	_	GFailure[8]	bauen\_set1\_12[8]	latin1[8]	h05ingrcngdnasp07727nvoq59-bauen\_set1\_12[8]	_	_	_	_	_	false[120]	NA[120]	*[253]	*[253]	*[253]	*[253]	*[253]	input1[253]	42[383]	female[383]	h05ingrcngdnasp07727nvoq59[383]	speaker: YOU[513]	_	_	explanation	*	35-1[121_120]	
+34-4	797-799	zu	_	GFailure[8]	bauen\_set1\_12[8]	latin1[8]	h05ingrcngdnasp07727nvoq59-bauen\_set1\_12[8]	_	_	_	_	_	false[120]	NA[120]	*[253]	*[253]	*[253]	*[253]	*[253]	input1[253]	42[383]	female[383]	h05ingrcngdnasp07727nvoq59[383]	speaker: YOU[513]	_	_	_	_	_	
+34-5	800-808	glauben.	_	GFailure[8]	bauen\_set1\_12[8]	latin1[8]	h05ingrcngdnasp07727nvoq59-bauen\_set1\_12[8]	_	_	_	_	_	false[120]	NA[120]	*[253]	*[253]	*[253]	*[253]	*[253]	input1[253]	42[383]	female[383]	h05ingrcngdnasp07727nvoq59[383]	speaker: YOU[513]	_	_	_	_	_	
+
+#Text=Sie ist begabter als erwartet.
+35-1	810-813	Sie	_	GFailure[8]	bauen\_set1\_12[8]	latin1[8]	h05ingrcngdnasp07727nvoq59-bauen\_set1\_12[8]	3	*	Subj	*	singular	false[121]	Decl[121]	*[254]	*[254]	*[254]	*[254]	*[254]	input2[254]	42[384]	female[384]	h05ingrcngdnasp07727nvoq59[384]	speaker: YOU[514]	*->59-2	PerPron[59]	_	_	_	
+35-2	814-817	ist	_	GFailure[8]	bauen\_set1\_12[8]	latin1[8]	h05ingrcngdnasp07727nvoq59-bauen\_set1\_12[8]	_	_	_	_	_	false[121]	Decl[121]	*[254]	*[254]	*[254]	*[254]	*[254]	input2[254]	42[384]	female[384]	h05ingrcngdnasp07727nvoq59[384]	speaker: YOU[514]	_	_	_	_	_	
+35-3	818-826	begabter	_	GFailure[8]	bauen\_set1\_12[8]	latin1[8]	h05ingrcngdnasp07727nvoq59-bauen\_set1\_12[8]	_	_	_	_	_	false[121]	Decl[121]	*[254]	*[254]	*[254]	*[254]	*[254]	input2[254]	42[384]	female[384]	h05ingrcngdnasp07727nvoq59[384]	speaker: YOU[514]	_	_	_	_	_	
+35-4	827-830	als	_	GFailure[8]	bauen\_set1\_12[8]	latin1[8]	h05ingrcngdnasp07727nvoq59-bauen\_set1\_12[8]	_	_	_	_	_	false[121]	Decl[121]	*[254]	*[254]	*[254]	*[254]	*[254]	input2[254]	42[384]	female[384]	h05ingrcngdnasp07727nvoq59[384]	speaker: YOU[514]	_	_	_	_	_	
+35-5	831-840	erwartet.	_	GFailure[8]	bauen\_set1\_12[8]	latin1[8]	h05ingrcngdnasp07727nvoq59-bauen\_set1\_12[8]	_	_	_	_	_	false[121]	Decl[121]	*[254]	*[254]	*[254]	*[254]	*[254]	input2[254]	42[384]	female[384]	h05ingrcngdnasp07727nvoq59[384]	speaker: YOU[514]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+36-1	842-857	END_OF_DOCUMENT	_	GFailure[8]	bauen\_set1\_12[8]	latin1[8]	h05ingrcngdnasp07727nvoq59-bauen\_set1\_12[8]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+37-1	859-865	Hallo,	_	GFailure[9]	bauen\_set1\_12[9]	latin1[9]	jkqc35grurqg6r29efakrmibd9-bauen\_set1\_12[9]	_	_	_	_	_	false[122]	Int[122]	*[255]	*[255]	*[255]	wh\_2[255]	wh\_question[255]	openq[255]	*[385]	male[385]	*[385]	speaker:Tom[515]	_	_	QAP	*	38-1[123_122]	
+37-2	866-869	wie	_	GFailure[9]	bauen\_set1\_12[9]	latin1[9]	jkqc35grurqg6r29efakrmibd9-bauen\_set1\_12[9]	_	_	_	_	_	false[122]	Int[122]	*[255]	*[255]	*[255]	wh\_2[255]	wh\_question[255]	openq[255]	*[385]	male[385]	*[385]	speaker:Tom[515]	_	_	_	_	_	
+37-3	870-877	geht's?	_	GFailure[9]	bauen\_set1\_12[9]	latin1[9]	jkqc35grurqg6r29efakrmibd9-bauen\_set1\_12[9]	_	_	_	_	_	false[122]	Int[122]	*[255]	*[255]	*[255]	wh\_2[255]	wh\_question[255]	openq[255]	*[385]	male[385]	*[385]	speaker:Tom[515]	_	_	_	_	_	
+
+#Text=Ariana hat ein Regal gebaut
+38-1	879-885	Ariana	_	GFailure[9]	bauen\_set1\_12[9]	latin1[9]	jkqc35grurqg6r29efakrmibd9-bauen\_set1\_12[9]	*	*	Subj	*	*	false[123]	Decl[123]	*[256]	bauen[256]	transitive[256]	*[256]	*[256]	item0[256]	42[386]	male[386]	jkqc35grurqg6r29efakrmibd9[386]	speaker: YOU[516]	*->32-1|*->57-1	clause[32]|PropNm[57]	elaboration|CR	*|*	40-1[0_123]|39-1[124_123]	
+38-2	886-889	hat	_	GFailure[9]	bauen\_set1\_12[9]	latin1[9]	jkqc35grurqg6r29efakrmibd9-bauen\_set1\_12[9]	_	_	_	_	_	false[123]	Decl[123]	*[256]	bauen[256]	transitive[256]	*[256]	*[256]	item0[256]	42[386]	male[386]	jkqc35grurqg6r29efakrmibd9[386]	speaker: YOU[516]	*->32-1	clause[32]	_	_	_	
+38-3	890-893	ein	_	GFailure[9]	bauen\_set1\_12[9]	latin1[9]	jkqc35grurqg6r29efakrmibd9-bauen\_set1\_12[9]	*[43]	*[43]	object[43]	*[43]	*[43]	false[123]	Decl[123]	*[256]	bauen[256]	transitive[256]	*[256]	*[256]	item0[256]	42[386]	male[386]	jkqc35grurqg6r29efakrmibd9[386]	speaker: YOU[516]	*->32-1|*->60-1	clause[32]|IndefNP[60]	_	_	_	
+38-4	894-899	Regal	_	GFailure[9]	bauen\_set1\_12[9]	latin1[9]	jkqc35grurqg6r29efakrmibd9-bauen\_set1\_12[9]	*[43]	*[43]	object[43]	*[43]	*[43]	false[123]	Decl[123]	*[256]	bauen[256]	transitive[256]	*[256]	*[256]	item0[256]	42[386]	male[386]	jkqc35grurqg6r29efakrmibd9[386]	speaker: YOU[516]	*->32-1|*->60-1	clause[32]|IndefNP[60]	_	_	_	
+38-5	900-906	gebaut	_	GFailure[9]	bauen\_set1\_12[9]	latin1[9]	jkqc35grurqg6r29efakrmibd9-bauen\_set1\_12[9]	_	_	_	_	_	false[123]	Decl[123]	*[256]	bauen[256]	transitive[256]	*[256]	*[256]	item0[256]	42[386]	male[386]	jkqc35grurqg6r29efakrmibd9[386]	speaker: YOU[516]	*->32-1	clause[32]	_	_	_	
+
+#Text=Wie bitte?
+39-1	908-911	Wie	_	GFailure[9]	bauen\_set1\_12[9]	latin1[9]	jkqc35grurqg6r29efakrmibd9-bauen\_set1\_12[9]	_	_	_	_	_	false[124]	NA[124]	wie-bitte\_question\_2[257]	*[257]	*[257]	*[257]	*[257]	feedback[257]	*[387]	male[387]	*[387]	speaker:Tom[517]	_	_	_	_	_	
+39-2	912-918	bitte?	_	GFailure[9]	bauen\_set1\_12[9]	latin1[9]	jkqc35grurqg6r29efakrmibd9-bauen\_set1\_12[9]	_	_	_	_	_	false[124]	NA[124]	wie-bitte\_question\_2[257]	*[257]	*[257]	*[257]	*[257]	feedback[257]	*[387]	male[387]	*[387]	speaker:Tom[517]	_	_	_	_	_	
+
+#Text=ja <BR> ganz allein!
+40-1	920-922	ja	_	GFailure[9]	bauen\_set1\_12[9]	latin1[9]	jkqc35grurqg6r29efakrmibd9-bauen\_set1\_12[9]	_	_	_	_	_	false	NA	*[258]	*[258]	*[258]	*[258]	*[258]	input1[258]	42[388]	male[388]	jkqc35grurqg6r29efakrmibd9[388]	speaker: YOU[518]	_	_	elaboration	*	40-3[125_0]	
+40-2	923-927	<BR>	_	GFailure[9]	bauen\_set1\_12[9]	latin1[9]	jkqc35grurqg6r29efakrmibd9-bauen\_set1\_12[9]	_	_	_	_	_	_	_	*[258]	*[258]	*[258]	*[258]	*[258]	input1[258]	42[388]	male[388]	jkqc35grurqg6r29efakrmibd9[388]	speaker: YOU[518]	_	_	_	_	_	
+40-3	928-932	ganz	_	GFailure[9]	bauen\_set1\_12[9]	latin1[9]	jkqc35grurqg6r29efakrmibd9-bauen\_set1\_12[9]	_	_	_	_	_	false[125]	NA[125]	*[258]	*[258]	*[258]	*[258]	*[258]	input1[258]	42[388]	male[388]	jkqc35grurqg6r29efakrmibd9[388]	speaker: YOU[518]	_	_	elaboration	*	41-1[126_125]	
+40-4	933-940	allein!	_	GFailure[9]	bauen\_set1\_12[9]	latin1[9]	jkqc35grurqg6r29efakrmibd9-bauen\_set1\_12[9]	_	_	_	_	_	false[125]	NA[125]	*[258]	*[258]	*[258]	*[258]	*[258]	input1[258]	42[388]	male[388]	jkqc35grurqg6r29efakrmibd9[388]	speaker: YOU[518]	_	_	_	_	_	
+
+#Text=Hätte ich ihr nie zugetraut...hahaha
+41-1	942-947	Hätte	_	GFailure[9]	bauen\_set1\_12[9]	latin1[9]	jkqc35grurqg6r29efakrmibd9-bauen\_set1\_12[9]	3	*	*	*	singular	false[126]	Decl[126]	*[259]	*[259]	*[259]	*[259]	*[259]	input2[259]	42[389]	male[389]	jkqc35grurqg6r29efakrmibd9[389]	speaker: YOU[519]	*->32-2	zero[32]	_	_	_	
+41-2	948-951	ich	_	GFailure[9]	bauen\_set1\_12[9]	latin1[9]	jkqc35grurqg6r29efakrmibd9-bauen\_set1\_12[9]	1	*	Subj	*	singular	false[126]	Decl[126]	*[259]	*[259]	*[259]	*[259]	*[259]	input2[259]	42[389]	male[389]	jkqc35grurqg6r29efakrmibd9[389]	speaker: YOU[519]	*->19-1	PerPron[19]	_	_	_	
+41-3	952-955	ihr	_	GFailure[9]	bauen\_set1\_12[9]	latin1[9]	jkqc35grurqg6r29efakrmibd9-bauen\_set1\_12[9]	3	*	IndirObj	*	singular	false[126]	Decl[126]	*[259]	*[259]	*[259]	*[259]	*[259]	input2[259]	42[389]	male[389]	jkqc35grurqg6r29efakrmibd9[389]	speaker: YOU[519]	*->57-2	PerPron[57]	_	_	_	
+41-4	956-959	nie	_	GFailure[9]	bauen\_set1\_12[9]	latin1[9]	jkqc35grurqg6r29efakrmibd9-bauen\_set1\_12[9]	_	_	_	_	_	false[126]	Decl[126]	*[259]	*[259]	*[259]	*[259]	*[259]	input2[259]	42[389]	male[389]	jkqc35grurqg6r29efakrmibd9[389]	speaker: YOU[519]	_	_	_	_	_	
+41-5	960-978	zugetraut...hahaha	TokenizationError	GFailure[9]	bauen\_set1\_12[9]	latin1[9]	jkqc35grurqg6r29efakrmibd9-bauen\_set1\_12[9]	_	_	_	_	_	false[126]	Decl[126]	*[259]	*[259]	*[259]	*[259]	*[259]	input2[259]	42[389]	male[389]	jkqc35grurqg6r29efakrmibd9[389]	speaker: YOU[519]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+42-1	980-995	END_OF_DOCUMENT	_	GFailure[9]	bauen\_set1\_12[9]	latin1[9]	jkqc35grurqg6r29efakrmibd9-bauen\_set1\_12[9]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+43-1	997-1003	Hallo,	_	GFailure[10]	bauen\_set1\_12[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-bauen\_set1\_12[10]	_	_	_	_	_	false[127]	Int[127]	*[260]	*[260]	*[260]	wh\_2[260]	wh\_question[260]	openq[260]	*[390]	male[390]	*[390]	speaker:Tom[520]	_	_	QAP	*	44-1[128_127]	
+43-2	1004-1007	wie	_	GFailure[10]	bauen\_set1\_12[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-bauen\_set1\_12[10]	_	_	_	_	_	false[127]	Int[127]	*[260]	*[260]	*[260]	wh\_2[260]	wh\_question[260]	openq[260]	*[390]	male[390]	*[390]	speaker:Tom[520]	_	_	_	_	_	
+43-3	1008-1015	geht's?	_	GFailure[10]	bauen\_set1\_12[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-bauen\_set1\_12[10]	_	_	_	_	_	false[127]	Int[127]	*[260]	*[260]	*[260]	wh\_2[260]	wh\_question[260]	openq[260]	*[390]	male[390]	*[390]	speaker:Tom[520]	_	_	_	_	_	
+
+#Text=Ariana hat ein Regal gebaut
+44-1	1017-1023	Ariana	_	GFailure[10]	bauen\_set1\_12[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-bauen\_set1\_12[10]	*	*	Subj	*	*	false[128]	Decl[128]	*[261]	bauen[261]	transitive[261]	*[261]	*[261]	item0[261]	20[391]	male[391]	lhu26mh95feeqso1qtacqboi3v[391]	speaker: YOU[521]	*->23-1	PropNm[23]	elaboration|CR	*|*	46-1[0_128]|45-1[129_128]	
+44-2	1024-1027	hat	_	GFailure[10]	bauen\_set1\_12[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-bauen\_set1\_12[10]	_	_	_	_	_	false[128]	Decl[128]	*[261]	bauen[261]	transitive[261]	*[261]	*[261]	item0[261]	20[391]	male[391]	lhu26mh95feeqso1qtacqboi3v[391]	speaker: YOU[521]	_	_	_	_	_	
+44-3	1028-1031	ein	_	GFailure[10]	bauen\_set1\_12[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-bauen\_set1\_12[10]	*[44]	*[44]	object[44]	*[44]	*[44]	false[128]	Decl[128]	*[261]	bauen[261]	transitive[261]	*[261]	*[261]	item0[261]	20[391]	male[391]	lhu26mh95feeqso1qtacqboi3v[391]	speaker: YOU[521]	*->44-1	IndefNP[44]	_	_	_	
+44-4	1032-1037	Regal	_	GFailure[10]	bauen\_set1\_12[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-bauen\_set1\_12[10]	*[44]	*[44]	object[44]	*[44]	*[44]	false[128]	Decl[128]	*[261]	bauen[261]	transitive[261]	*[261]	*[261]	item0[261]	20[391]	male[391]	lhu26mh95feeqso1qtacqboi3v[391]	speaker: YOU[521]	*->44-1	IndefNP[44]	_	_	_	
+44-5	1038-1044	gebaut	_	GFailure[10]	bauen\_set1\_12[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-bauen\_set1\_12[10]	_	_	_	_	_	false[128]	Decl[128]	*[261]	bauen[261]	transitive[261]	*[261]	*[261]	item0[261]	20[391]	male[391]	lhu26mh95feeqso1qtacqboi3v[391]	speaker: YOU[521]	_	_	_	_	_	
+
+#Text=Wie bitte?
+45-1	1046-1049	Wie	_	GFailure[10]	bauen\_set1\_12[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-bauen\_set1\_12[10]	_	_	_	_	_	false[129]	NA[129]	wie-bitte\_question\_2[262]	*[262]	*[262]	*[262]	*[262]	feedback[262]	*[392]	male[392]	*[392]	speaker:Tom[522]	_	_	parallel	*	46-3[130_129]	
+45-2	1050-1056	bitte?	_	GFailure[10]	bauen\_set1\_12[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-bauen\_set1\_12[10]	_	_	_	_	_	false[129]	NA[129]	wie-bitte\_question\_2[262]	*[262]	*[262]	*[262]	*[262]	feedback[262]	*[392]	male[392]	*[392]	speaker:Tom[522]	_	_	_	_	_	
+
+#Text=Ja <BR> ich dachte auch nicht<BR>dass sie so gut ist.
+46-1	1058-1060	Ja	_	GFailure[10]	bauen\_set1\_12[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-bauen\_set1\_12[10]	_	_	_	_	_	false	NA	*[263]	*[263]	*[263]	*[263]	*[263]	input1[263]	20[393]	male[393]	lhu26mh95feeqso1qtacqboi3v[393]	speaker: YOU[523]	_	_	_	_	_	
+46-2	1061-1065	<BR>	_	GFailure[10]	bauen\_set1\_12[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-bauen\_set1\_12[10]	_	_	_	_	_	_	_	*[263]	*[263]	*[263]	*[263]	*[263]	input1[263]	20[393]	male[393]	lhu26mh95feeqso1qtacqboi3v[393]	speaker: YOU[523]	_	_	_	_	_	
+46-3	1066-1069	ich	_	GFailure[10]	bauen\_set1\_12[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-bauen\_set1\_12[10]	1	*	Subj	*	singular	false[130]	Decl[130]	*[263]	*[263]	*[263]	*[263]	*[263]	input1[263]	20[393]	male[393]	lhu26mh95feeqso1qtacqboi3v[393]	speaker: YOU[523]	*->97-1	PerPron[97]	contrast	*	47-1[131_130]	
+46-4	1070-1076	dachte	_	GFailure[10]	bauen\_set1\_12[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-bauen\_set1\_12[10]	_	_	_	_	_	false[130]	Decl[130]	*[263]	*[263]	*[263]	*[263]	*[263]	input1[263]	20[393]	male[393]	lhu26mh95feeqso1qtacqboi3v[393]	speaker: YOU[523]	_	_	_	_	_	
+46-5	1077-1081	auch	_	GFailure[10]	bauen\_set1\_12[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-bauen\_set1\_12[10]	_	_	_	_	_	false[130]	Decl[130]	*[263]	*[263]	*[263]	*[263]	*[263]	input1[263]	20[393]	male[393]	lhu26mh95feeqso1qtacqboi3v[393]	speaker: YOU[523]	_	_	_	_	_	
+46-6	1082-1095	nicht<BR>dass	_	GFailure[10]	bauen\_set1\_12[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-bauen\_set1\_12[10]	_	_	_	_	_	false[130]	Decl[130]	*[263]	*[263]	*[263]	*[263]	*[263]	input1[263]	20[393]	male[393]	lhu26mh95feeqso1qtacqboi3v[393]	speaker: YOU[523]	_	_	_	_	_	
+46-7	1096-1099	sie	_	GFailure[10]	bauen\_set1\_12[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-bauen\_set1\_12[10]	3	*	Embedded	*	singular	false[130]	Decl[130]	*[263]	*[263]	*[263]	*[263]	*[263]	input1[263]	20[393]	male[393]	lhu26mh95feeqso1qtacqboi3v[393]	speaker: YOU[523]	*->23-2	PerPron[23]	_	_	_	
+46-8	1100-1102	so	_	GFailure[10]	bauen\_set1\_12[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-bauen\_set1\_12[10]	_	_	_	_	_	false[130]	Decl[130]	*[263]	*[263]	*[263]	*[263]	*[263]	input1[263]	20[393]	male[393]	lhu26mh95feeqso1qtacqboi3v[393]	speaker: YOU[523]	_	_	_	_	_	
+46-9	1103-1106	gut	_	GFailure[10]	bauen\_set1\_12[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-bauen\_set1\_12[10]	_	_	_	_	_	false[130]	Decl[130]	*[263]	*[263]	*[263]	*[263]	*[263]	input1[263]	20[393]	male[393]	lhu26mh95feeqso1qtacqboi3v[393]	speaker: YOU[523]	_	_	_	_	_	
+46-10	1107-1111	ist.	_	GFailure[10]	bauen\_set1\_12[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-bauen\_set1\_12[10]	_	_	_	_	_	false[130]	Decl[130]	*[263]	*[263]	*[263]	*[263]	*[263]	input1[263]	20[393]	male[393]	lhu26mh95feeqso1qtacqboi3v[393]	speaker: YOU[523]	_	_	_	_	_	
+
+#Text=Aber sie hat uns alle mit ihren handwerklichen Fähigkeiten überrascht.
+47-1	1113-1117	Aber	_	GFailure[10]	bauen\_set1\_12[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-bauen\_set1\_12[10]	_	_	_	_	_	false[131]	Decl[131]	*[264]	*[264]	*[264]	*[264]	*[264]	input2[264]	20[394]	male[394]	lhu26mh95feeqso1qtacqboi3v[394]	speaker: YOU[524]	_	_	_	_	_	
+47-2	1118-1121	sie	_	GFailure[10]	bauen\_set1\_12[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-bauen\_set1\_12[10]	3	*	Subj	f	singular	false[131]	Decl[131]	*[264]	*[264]	*[264]	*[264]	*[264]	input2[264]	20[394]	male[394]	lhu26mh95feeqso1qtacqboi3v[394]	speaker: YOU[524]	*->23-3	PerPron[23]	_	_	_	
+47-3	1122-1125	hat	_	GFailure[10]	bauen\_set1\_12[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-bauen\_set1\_12[10]	_	_	_	_	_	false[131]	Decl[131]	*[264]	*[264]	*[264]	*[264]	*[264]	input2[264]	20[394]	male[394]	lhu26mh95feeqso1qtacqboi3v[394]	speaker: YOU[524]	_	_	_	_	_	
+47-4	1126-1129	uns	_	GFailure[10]	bauen\_set1\_12[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-bauen\_set1\_12[10]	1	*	IndirObj	*	plural	false[131]	Decl[131]	*[264]	*[264]	*[264]	*[264]	*[264]	input2[264]	20[394]	male[394]	lhu26mh95feeqso1qtacqboi3v[394]	speaker: YOU[524]	*->86-1	PerPron[86]	_	_	_	
+47-5	1130-1134	alle	_	GFailure[10]	bauen\_set1\_12[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-bauen\_set1\_12[10]	_	_	_	_	_	false[131]	Decl[131]	*[264]	*[264]	*[264]	*[264]	*[264]	input2[264]	20[394]	male[394]	lhu26mh95feeqso1qtacqboi3v[394]	speaker: YOU[524]	_	_	_	_	_	
+47-6	1135-1138	mit	_	GFailure[10]	bauen\_set1\_12[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-bauen\_set1\_12[10]	_	_	_	_	_	false[131]	Decl[131]	*[264]	*[264]	*[264]	*[264]	*[264]	input2[264]	20[394]	male[394]	lhu26mh95feeqso1qtacqboi3v[394]	speaker: YOU[524]	_	_	_	_	_	
+47-7	1139-1144	ihren	_	GFailure[10]	bauen\_set1\_12[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-bauen\_set1\_12[10]	*[45]|3[46]	*[45]|*[46]	PrepObj[45]|*[46]	*[45]|*[46]	*[45]|singular[46]	false[131]	Decl[131]	*[264]	*[264]	*[264]	*[264]	*[264]	input2[264]	20[394]	male[394]	lhu26mh95feeqso1qtacqboi3v[394]	speaker: YOU[524]	*->4-1|*->23-4	DefNP[4]|PossePron[23]	_	_	_	
+47-8	1145-1159	handwerklichen	_	GFailure[10]	bauen\_set1\_12[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-bauen\_set1\_12[10]	*[45]	*[45]	PrepObj[45]	*[45]	*[45]	false[131]	Decl[131]	*[264]	*[264]	*[264]	*[264]	*[264]	input2[264]	20[394]	male[394]	lhu26mh95feeqso1qtacqboi3v[394]	speaker: YOU[524]	*->4-1	DefNP[4]	_	_	_	
+47-9	1160-1171	Fähigkeiten	_	GFailure[10]	bauen\_set1\_12[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-bauen\_set1\_12[10]	*[45]	*[45]	PrepObj[45]	*[45]	*[45]	false[131]	Decl[131]	*[264]	*[264]	*[264]	*[264]	*[264]	input2[264]	20[394]	male[394]	lhu26mh95feeqso1qtacqboi3v[394]	speaker: YOU[524]	*->4-1	DefNP[4]	_	_	_	
+47-10	1172-1183	überrascht.	_	GFailure[10]	bauen\_set1\_12[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-bauen\_set1\_12[10]	_	_	_	_	_	false[131]	Decl[131]	*[264]	*[264]	*[264]	*[264]	*[264]	input2[264]	20[394]	male[394]	lhu26mh95feeqso1qtacqboi3v[394]	speaker: YOU[524]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+48-1	1185-1200	END_OF_DOCUMENT	_	GFailure[10]	bauen\_set1\_12[10]	latin1[10]	lhu26mh95feeqso1qtacqboi3v-bauen\_set1\_12[10]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+49-1	1202-1208	Hallo,	_	GFailure[11]	bauen\_set1\_12[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-bauen\_set1\_12[11]	_	_	_	_	_	false[132]	Int[132]	*[265]	*[265]	*[265]	wh\_2[265]	wh\_question[265]	openq[265]	*[395]	male[395]	*[395]	speaker:Tom[525]	_	_	QAP	*	50-1[133_132]	
+49-2	1209-1212	wie	_	GFailure[11]	bauen\_set1\_12[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-bauen\_set1\_12[11]	_	_	_	_	_	false[132]	Int[132]	*[265]	*[265]	*[265]	wh\_2[265]	wh\_question[265]	openq[265]	*[395]	male[395]	*[395]	speaker:Tom[525]	_	_	_	_	_	
+49-3	1213-1220	geht's?	_	GFailure[11]	bauen\_set1\_12[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-bauen\_set1\_12[11]	_	_	_	_	_	false[132]	Int[132]	*[265]	*[265]	*[265]	wh\_2[265]	wh\_question[265]	openq[265]	*[395]	male[395]	*[395]	speaker:Tom[525]	_	_	_	_	_	
+
+#Text=Ariana hat ein Regal gebaut
+50-1	1222-1228	Ariana	_	GFailure[11]	bauen\_set1\_12[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-bauen\_set1\_12[11]	*	*	Subj	*	*	false[133]	Decl[133]	*[266]	bauen[266]	transitive[266]	*[266]	*[266]	item0[266]	21[396]	male[396]	tc4i3rsgsa9bl8tesf4679lok2[396]	speaker: YOU[526]	*->53-1	PropNm[53]	explanation|elaboration|CR	*|*|*	52-1[135_133]|53-1[136_133]|51-1[134_133]	
+50-2	1229-1232	hat	_	GFailure[11]	bauen\_set1\_12[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-bauen\_set1\_12[11]	_	_	_	_	_	false[133]	Decl[133]	*[266]	bauen[266]	transitive[266]	*[266]	*[266]	item0[266]	21[396]	male[396]	tc4i3rsgsa9bl8tesf4679lok2[396]	speaker: YOU[526]	_	_	_	_	_	
+50-3	1233-1236	ein	_	GFailure[11]	bauen\_set1\_12[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-bauen\_set1\_12[11]	*[47]	*[47]	object[47]	*[47]	*[47]	false[133]	Decl[133]	*[266]	bauen[266]	transitive[266]	*[266]	*[266]	item0[266]	21[396]	male[396]	tc4i3rsgsa9bl8tesf4679lok2[396]	speaker: YOU[526]	*->89-1	IndefNP[89]	_	_	_	
+50-4	1237-1242	Regal	_	GFailure[11]	bauen\_set1\_12[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-bauen\_set1\_12[11]	*[47]	*[47]	object[47]	*[47]	*[47]	false[133]	Decl[133]	*[266]	bauen[266]	transitive[266]	*[266]	*[266]	item0[266]	21[396]	male[396]	tc4i3rsgsa9bl8tesf4679lok2[396]	speaker: YOU[526]	*->89-1	IndefNP[89]	_	_	_	
+50-5	1243-1249	gebaut	_	GFailure[11]	bauen\_set1\_12[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-bauen\_set1\_12[11]	_	_	_	_	_	false[133]	Decl[133]	*[266]	bauen[266]	transitive[266]	*[266]	*[266]	item0[266]	21[396]	male[396]	tc4i3rsgsa9bl8tesf4679lok2[396]	speaker: YOU[526]	_	_	_	_	_	
+
+#Text=Wie bitte?
+51-1	1251-1254	Wie	_	GFailure[11]	bauen\_set1\_12[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-bauen\_set1\_12[11]	_	_	_	_	_	false[134]	NA[134]	wie-bitte\_question\_2[267]	*[267]	*[267]	*[267]	*[267]	feedback[267]	*[397]	male[397]	*[397]	speaker:Tom[527]	_	_	_	_	_	
+51-2	1255-1261	bitte?	_	GFailure[11]	bauen\_set1\_12[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-bauen\_set1\_12[11]	_	_	_	_	_	false[134]	NA[134]	wie-bitte\_question\_2[267]	*[267]	*[267]	*[267]	*[267]	feedback[267]	*[397]	male[397]	*[397]	speaker:Tom[527]	_	_	_	_	_	
+
+#Text=Sie wollte mehr Platz für ihre Sachen
+52-1	1263-1266	Sie	_	GFailure[11]	bauen\_set1\_12[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-bauen\_set1\_12[11]	3	*	Subj	*	singular	false[135]	Decl[135]	*[268]	*[268]	*[268]	*[268]	*[268]	input1[268]	21[398]	male[398]	tc4i3rsgsa9bl8tesf4679lok2[398]	speaker: YOU[528]	*->53-2	PerPron[53]	result	*	53-1[136_135]	
+52-2	1267-1273	wollte	_	GFailure[11]	bauen\_set1\_12[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-bauen\_set1\_12[11]	_	_	_	_	_	false[135]	Decl[135]	*[268]	*[268]	*[268]	*[268]	*[268]	input1[268]	21[398]	male[398]	tc4i3rsgsa9bl8tesf4679lok2[398]	speaker: YOU[528]	_	_	_	_	_	
+52-3	1274-1278	mehr	_	GFailure[11]	bauen\_set1\_12[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-bauen\_set1\_12[11]	_	_	_	_	_	false[135]	Decl[135]	*[268]	*[268]	*[268]	*[268]	*[268]	input1[268]	21[398]	male[398]	tc4i3rsgsa9bl8tesf4679lok2[398]	speaker: YOU[528]	_	_	_	_	_	
+52-4	1279-1284	Platz	_	GFailure[11]	bauen\_set1\_12[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-bauen\_set1\_12[11]	*	*	DirObj	*	*	false[135]	Decl[135]	*[268]	*[268]	*[268]	*[268]	*[268]	input1[268]	21[398]	male[398]	tc4i3rsgsa9bl8tesf4679lok2[398]	speaker: YOU[528]	*->68-1	IndefNP[68]	_	_	_	
+52-5	1285-1288	für	_	GFailure[11]	bauen\_set1\_12[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-bauen\_set1\_12[11]	_	_	_	_	_	false[135]	Decl[135]	*[268]	*[268]	*[268]	*[268]	*[268]	input1[268]	21[398]	male[398]	tc4i3rsgsa9bl8tesf4679lok2[398]	speaker: YOU[528]	_	_	_	_	_	
+52-6	1289-1293	ihre	_	GFailure[11]	bauen\_set1\_12[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-bauen\_set1\_12[11]	*[48]|3[49]	*[48]|*[49]	PrepObj[48]|*[49]	*[48]|*[49]	*[48]|singular[49]	false[135]	Decl[135]	*[268]	*[268]	*[268]	*[268]	*[268]	input1[268]	21[398]	male[398]	tc4i3rsgsa9bl8tesf4679lok2[398]	speaker: YOU[528]	*->38-1|*->53-3	DefNP[38]|PossePron[53]	_	_	_	
+52-7	1294-1300	Sachen	_	GFailure[11]	bauen\_set1\_12[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-bauen\_set1\_12[11]	*[48]	*[48]	PrepObj[48]	*[48]	*[48]	false[135]	Decl[135]	*[268]	*[268]	*[268]	*[268]	*[268]	input1[268]	21[398]	male[398]	tc4i3rsgsa9bl8tesf4679lok2[398]	speaker: YOU[528]	*->38-1	DefNP[38]	_	_	_	
+
+#Text=Und hat jetzt kurzerhand ein Regal bestellt un d zusammengevbaut
+53-1	1302-1305	Und	_	GFailure[11]	bauen\_set1\_12[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-bauen\_set1\_12[11]	_	_	_	_	_	false[136]	Decl[136]	*[269]	*[269]	*[269]	*[269]	*[269]	input2[269]	21[399]	male[399]	tc4i3rsgsa9bl8tesf4679lok2[399]	speaker: YOU[529]	_	_	_	_	_	
+53-2	1306-1309	hat	_	GFailure[11]	bauen\_set1\_12[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-bauen\_set1\_12[11]	3	*	*	*	singular	false[136]	Decl[136]	*[269]	*[269]	*[269]	*[269]	*[269]	input2[269]	21[399]	male[399]	tc4i3rsgsa9bl8tesf4679lok2[399]	speaker: YOU[529]	*->53-4	zero[53]	_	_	_	
+53-3	1310-1315	jetzt	_	GFailure[11]	bauen\_set1\_12[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-bauen\_set1\_12[11]	_	_	_	_	_	false[136]	Decl[136]	*[269]	*[269]	*[269]	*[269]	*[269]	input2[269]	21[399]	male[399]	tc4i3rsgsa9bl8tesf4679lok2[399]	speaker: YOU[529]	_	_	_	_	_	
+53-4	1316-1326	kurzerhand	_	GFailure[11]	bauen\_set1\_12[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-bauen\_set1\_12[11]	_	_	_	_	_	false[136]	Decl[136]	*[269]	*[269]	*[269]	*[269]	*[269]	input2[269]	21[399]	male[399]	tc4i3rsgsa9bl8tesf4679lok2[399]	speaker: YOU[529]	_	_	_	_	_	
+53-5	1327-1330	ein	_	GFailure[11]	bauen\_set1\_12[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-bauen\_set1\_12[11]	*[50]	*[50]	DirObj[50]	*[50]	*[50]	false[136]	Decl[136]	*[269]	*[269]	*[269]	*[269]	*[269]	input2[269]	21[399]	male[399]	tc4i3rsgsa9bl8tesf4679lok2[399]	speaker: YOU[529]	*->89-2	IndefNP[89]	_	_	_	
+53-6	1331-1336	Regal	_	GFailure[11]	bauen\_set1\_12[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-bauen\_set1\_12[11]	*[50]	*[50]	DirObj[50]	*[50]	*[50]	false[136]	Decl[136]	*[269]	*[269]	*[269]	*[269]	*[269]	input2[269]	21[399]	male[399]	tc4i3rsgsa9bl8tesf4679lok2[399]	speaker: YOU[529]	*->89-2	IndefNP[89]	_	_	_	
+53-7	1337-1345	bestellt	_	GFailure[11]	bauen\_set1\_12[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-bauen\_set1\_12[11]	_	_	_	_	_	false[136]	Decl[136]	*[269]	*[269]	*[269]	*[269]	*[269]	input2[269]	21[399]	male[399]	tc4i3rsgsa9bl8tesf4679lok2[399]	speaker: YOU[529]	_	_	_	_	_	
+53-8	1346-1348	un	_	GFailure[11]	bauen\_set1\_12[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-bauen\_set1\_12[11]	_	_	_	_	_	false[136]	Decl[136]	*[269]	*[269]	*[269]	*[269]	*[269]	input2[269]	21[399]	male[399]	tc4i3rsgsa9bl8tesf4679lok2[399]	speaker: YOU[529]	_	_	_	_	_	
+53-9	1349-1350	d	_	GFailure[11]	bauen\_set1\_12[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-bauen\_set1\_12[11]	_	_	_	_	_	false[136]	Decl[136]	*[269]	*[269]	*[269]	*[269]	*[269]	input2[269]	21[399]	male[399]	tc4i3rsgsa9bl8tesf4679lok2[399]	speaker: YOU[529]	_	_	_	_	_	
+53-10	1351-1366	zusammengevbaut	_	GFailure[11]	bauen\_set1\_12[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-bauen\_set1\_12[11]	_	_	_	_	_	false[136]	Decl[136]	*[269]	*[269]	*[269]	*[269]	*[269]	input2[269]	21[399]	male[399]	tc4i3rsgsa9bl8tesf4679lok2[399]	speaker: YOU[529]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+54-1	1368-1383	END_OF_DOCUMENT	_	GFailure[11]	bauen\_set1\_12[11]	latin1[11]	tc4i3rsgsa9bl8tesf4679lok2-bauen\_set1\_12[11]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+55-1	1385-1391	Hallo,	_	GFailure[12]	bauen\_set1\_12[12]	latin1[12]	us0adlivem61c2bj5776kudbot-bauen\_set1\_12[12]	_	_	_	_	_	false[137]	Int[137]	*[270]	*[270]	*[270]	wh\_2[270]	wh\_question[270]	openq[270]	*[400]	male[400]	*[400]	speaker:Tom[530]	_	_	QAP	*	56-1[138_137]	
+55-2	1392-1395	wie	_	GFailure[12]	bauen\_set1\_12[12]	latin1[12]	us0adlivem61c2bj5776kudbot-bauen\_set1\_12[12]	_	_	_	_	_	false[137]	Int[137]	*[270]	*[270]	*[270]	wh\_2[270]	wh\_question[270]	openq[270]	*[400]	male[400]	*[400]	speaker:Tom[530]	_	_	_	_	_	
+55-3	1396-1403	geht's?	_	GFailure[12]	bauen\_set1\_12[12]	latin1[12]	us0adlivem61c2bj5776kudbot-bauen\_set1\_12[12]	_	_	_	_	_	false[137]	Int[137]	*[270]	*[270]	*[270]	wh\_2[270]	wh\_question[270]	openq[270]	*[400]	male[400]	*[400]	speaker:Tom[530]	_	_	_	_	_	
+
+#Text=Ariana hat ein Regal gebaut
+56-1	1405-1411	Ariana	_	GFailure[12]	bauen\_set1\_12[12]	latin1[12]	us0adlivem61c2bj5776kudbot-bauen\_set1\_12[12]	*	*	Subj	*	*	false[138]	Decl[138]	*[271]	bauen[271]	transitive[271]	*[271]	*[271]	item0[271]	66[401]	male[401]	us0adlivem61c2bj5776kudbot[401]	speaker: YOU[531]	*->20-1|*->104-1	clause[20]|PropNm[104]	explanation|CR	*|*	58-1[140_138]|57-1[139_138]	
+56-2	1412-1415	hat	_	GFailure[12]	bauen\_set1\_12[12]	latin1[12]	us0adlivem61c2bj5776kudbot-bauen\_set1\_12[12]	_	_	_	_	_	false[138]	Decl[138]	*[271]	bauen[271]	transitive[271]	*[271]	*[271]	item0[271]	66[401]	male[401]	us0adlivem61c2bj5776kudbot[401]	speaker: YOU[531]	*->20-1	clause[20]	_	_	_	
+56-3	1416-1419	ein	_	GFailure[12]	bauen\_set1\_12[12]	latin1[12]	us0adlivem61c2bj5776kudbot-bauen\_set1\_12[12]	*[51]	*[51]	object[51]	*[51]	*[51]	false[138]	Decl[138]	*[271]	bauen[271]	transitive[271]	*[271]	*[271]	item0[271]	66[401]	male[401]	us0adlivem61c2bj5776kudbot[401]	speaker: YOU[531]	*->20-1|*->2-1	clause[20]|IndefNP[2]	_	_	_	
+56-4	1420-1425	Regal	_	GFailure[12]	bauen\_set1\_12[12]	latin1[12]	us0adlivem61c2bj5776kudbot-bauen\_set1\_12[12]	*[51]	*[51]	object[51]	*[51]	*[51]	false[138]	Decl[138]	*[271]	bauen[271]	transitive[271]	*[271]	*[271]	item0[271]	66[401]	male[401]	us0adlivem61c2bj5776kudbot[401]	speaker: YOU[531]	*->20-1|*->2-1	clause[20]|IndefNP[2]	_	_	_	
+56-5	1426-1432	gebaut	_	GFailure[12]	bauen\_set1\_12[12]	latin1[12]	us0adlivem61c2bj5776kudbot-bauen\_set1\_12[12]	_	_	_	_	_	false[138]	Decl[138]	*[271]	bauen[271]	transitive[271]	*[271]	*[271]	item0[271]	66[401]	male[401]	us0adlivem61c2bj5776kudbot[401]	speaker: YOU[531]	*->20-1	clause[20]	_	_	_	
+
+#Text=Wie bitte?
+57-1	1434-1437	Wie	_	GFailure[12]	bauen\_set1\_12[12]	latin1[12]	us0adlivem61c2bj5776kudbot-bauen\_set1\_12[12]	_	_	_	_	_	false[139]	NA[139]	wie-bitte\_question\_2[272]	*[272]	*[272]	*[272]	*[272]	feedback[272]	*[402]	male[402]	*[402]	speaker:Tom[532]	_	_	_	_	_	
+57-2	1438-1444	bitte?	_	GFailure[12]	bauen\_set1\_12[12]	latin1[12]	us0adlivem61c2bj5776kudbot-bauen\_set1\_12[12]	_	_	_	_	_	false[139]	NA[139]	wie-bitte\_question\_2[272]	*[272]	*[272]	*[272]	*[272]	feedback[272]	*[402]	male[402]	*[402]	speaker:Tom[532]	_	_	_	_	_	
+
+#Text=ja das kann sie
+58-1	1446-1448	ja	_	GFailure[12]	bauen\_set1\_12[12]	latin1[12]	us0adlivem61c2bj5776kudbot-bauen\_set1\_12[12]	_	_	_	_	_	false[140]	Decl[140]	*[273]	*[273]	*[273]	*[273]	*[273]	input1[273]	66[403]	male[403]	us0adlivem61c2bj5776kudbot[403]	speaker: YOU[533]	_	_	explanation	*	59-1[141_140]	
+58-2	1449-1452	das	_	GFailure[12]	bauen\_set1\_12[12]	latin1[12]	us0adlivem61c2bj5776kudbot-bauen\_set1\_12[12]	_	_	_	_	_	false[140]	Decl[140]	*[273]	*[273]	*[273]	*[273]	*[273]	input1[273]	66[403]	male[403]	us0adlivem61c2bj5776kudbot[403]	speaker: YOU[533]	*->20-2	D-Pron[20]	_	_	_	
+58-3	1453-1457	kann	_	GFailure[12]	bauen\_set1\_12[12]	latin1[12]	us0adlivem61c2bj5776kudbot-bauen\_set1\_12[12]	_	_	_	_	_	false[140]	Decl[140]	*[273]	*[273]	*[273]	*[273]	*[273]	input1[273]	66[403]	male[403]	us0adlivem61c2bj5776kudbot[403]	speaker: YOU[533]	_	_	_	_	_	
+58-4	1458-1461	sie	_	GFailure[12]	bauen\_set1\_12[12]	latin1[12]	us0adlivem61c2bj5776kudbot-bauen\_set1\_12[12]	3	*	Subj	*	singular	false[140]	Decl[140]	*[273]	*[273]	*[273]	*[273]	*[273]	input1[273]	66[403]	male[403]	us0adlivem61c2bj5776kudbot[403]	speaker: YOU[533]	*->104-2	PerPron[104]	_	_	_	
+
+#Text=schreinern ist ihr Hobby
+59-1	1463-1473	schreinern	_	GFailure[12]	bauen\_set1\_12[12]	latin1[12]	us0adlivem61c2bj5776kudbot-bauen\_set1\_12[12]	_	_	_	_	_	false[141]	Decl[141]	*[274]	*[274]	*[274]	*[274]	*[274]	input2[274]	66[404]	male[404]	us0adlivem61c2bj5776kudbot[404]	speaker: YOU[534]	*->20-3	IndefNP[20]	_	_	_	
+59-2	1474-1477	ist	_	GFailure[12]	bauen\_set1\_12[12]	latin1[12]	us0adlivem61c2bj5776kudbot-bauen\_set1\_12[12]	_	_	_	_	_	false[141]	Decl[141]	*[274]	*[274]	*[274]	*[274]	*[274]	input2[274]	66[404]	male[404]	us0adlivem61c2bj5776kudbot[404]	speaker: YOU[534]	_	_	_	_	_	
+59-3	1478-1481	ihr	_	GFailure[12]	bauen\_set1\_12[12]	latin1[12]	us0adlivem61c2bj5776kudbot-bauen\_set1\_12[12]	*[52]|3[53]	*[52]|*[53]	Subj[52]|*[53]	*[52]|*[53]	*[52]|singular[53]	false[141]	Decl[141]	*[274]	*[274]	*[274]	*[274]	*[274]	input2[274]	66[404]	male[404]	us0adlivem61c2bj5776kudbot[404]	speaker: YOU[534]	*->104-3	PossePron[104]	_	_	_	
+59-4	1482-1487	Hobby	_	GFailure[12]	bauen\_set1\_12[12]	latin1[12]	us0adlivem61c2bj5776kudbot-bauen\_set1\_12[12]	*[52]	*[52]	Subj[52]	*[52]	*[52]	false[141]	Decl[141]	*[274]	*[274]	*[274]	*[274]	*[274]	input2[274]	66[404]	male[404]	us0adlivem61c2bj5776kudbot[404]	speaker: YOU[534]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+60-1	1489-1504	END_OF_DOCUMENT	_	GFailure[12]	bauen\_set1\_12[12]	latin1[12]	us0adlivem61c2bj5776kudbot-bauen\_set1\_12[12]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+61-1	1506-1512	Hallo,	_	GSuccess[13]	bauen\_set1\_12[13]	latin2[13]	2em9nj6n4c2pjudl6n6hfpjc30-bauen\_set1\_12[13]	_	_	_	_	_	false[142]	Int[142]	*[275]	*[275]	*[275]	wh\_2[275]	wh\_question[275]	openq[275]	*[405]	male[405]	*[405]	speaker:Tom[535]	_	_	QAP	*	62-1[143_142]	
+61-2	1513-1516	wie	_	GSuccess[13]	bauen\_set1\_12[13]	latin2[13]	2em9nj6n4c2pjudl6n6hfpjc30-bauen\_set1\_12[13]	_	_	_	_	_	false[142]	Int[142]	*[275]	*[275]	*[275]	wh\_2[275]	wh\_question[275]	openq[275]	*[405]	male[405]	*[405]	speaker:Tom[535]	_	_	_	_	_	
+61-3	1517-1524	geht's?	_	GSuccess[13]	bauen\_set1\_12[13]	latin2[13]	2em9nj6n4c2pjudl6n6hfpjc30-bauen\_set1\_12[13]	_	_	_	_	_	false[142]	Int[142]	*[275]	*[275]	*[275]	wh\_2[275]	wh\_question[275]	openq[275]	*[405]	male[405]	*[405]	speaker:Tom[535]	_	_	_	_	_	
+
+#Text=Ariana hat ein Regal gebaut
+62-1	1526-1532	Ariana	_	GSuccess[13]	bauen\_set1\_12[13]	latin2[13]	2em9nj6n4c2pjudl6n6hfpjc30-bauen\_set1\_12[13]	*	*	Subj	*	*	false[143]	Decl[143]	*[276]	bauen[276]	transitive[276]	*[276]	*[276]	item0[276]	32[406]	female[406]	2em9nj6n4c2pjudl6n6hfpjc30[406]	speaker: YOU[536]	*->91-1	PropNm[91]	acknowledgement	*	63-1[0_143]	
+62-2	1533-1536	hat	_	GSuccess[13]	bauen\_set1\_12[13]	latin2[13]	2em9nj6n4c2pjudl6n6hfpjc30-bauen\_set1\_12[13]	_	_	_	_	_	false[143]	Decl[143]	*[276]	bauen[276]	transitive[276]	*[276]	*[276]	item0[276]	32[406]	female[406]	2em9nj6n4c2pjudl6n6hfpjc30[406]	speaker: YOU[536]	_	_	_	_	_	
+62-3	1537-1540	ein	_	GSuccess[13]	bauen\_set1\_12[13]	latin2[13]	2em9nj6n4c2pjudl6n6hfpjc30-bauen\_set1\_12[13]	*[54]	*[54]	object[54]	*[54]	*[54]	false[143]	Decl[143]	*[276]	bauen[276]	transitive[276]	*[276]	*[276]	item0[276]	32[406]	female[406]	2em9nj6n4c2pjudl6n6hfpjc30[406]	speaker: YOU[536]	*->119-1	IndefNP[119]	_	_	_	
+62-4	1541-1546	Regal	_	GSuccess[13]	bauen\_set1\_12[13]	latin2[13]	2em9nj6n4c2pjudl6n6hfpjc30-bauen\_set1\_12[13]	*[54]	*[54]	object[54]	*[54]	*[54]	false[143]	Decl[143]	*[276]	bauen[276]	transitive[276]	*[276]	*[276]	item0[276]	32[406]	female[406]	2em9nj6n4c2pjudl6n6hfpjc30[406]	speaker: YOU[536]	*->119-1	IndefNP[119]	_	_	_	
+62-5	1547-1553	gebaut	_	GSuccess[13]	bauen\_set1\_12[13]	latin2[13]	2em9nj6n4c2pjudl6n6hfpjc30-bauen\_set1\_12[13]	_	_	_	_	_	false[143]	Decl[143]	*[276]	bauen[276]	transitive[276]	*[276]	*[276]	item0[276]	32[406]	female[406]	2em9nj6n4c2pjudl6n6hfpjc30[406]	speaker: YOU[536]	_	_	_	_	_	
+
+#Text=Krass!
+63-1	1555-1561	Krass!	_	GSuccess[13]	bauen\_set1\_12[13]	latin2[13]	2em9nj6n4c2pjudl6n6hfpjc30-bauen\_set1\_12[13]	_	_	_	_	_	false	NA	krass\_exclamation\_18	*	*	*	*	feedback	*	male	*	speaker:Tom	_	_	_	_	_	
+
+#Text=Ikea halt ne?
+64-1	1563-1567	Ikea	_	GSuccess[13]	bauen\_set1\_12[13]	latin2[13]	2em9nj6n4c2pjudl6n6hfpjc30-bauen\_set1\_12[13]	_	_	_	_	_	false[144]	NA[144]	*[277]	*[277]	*[277]	*[277]	*[277]	input1[277]	32[407]	female[407]	2em9nj6n4c2pjudl6n6hfpjc30[407]	speaker: YOU[537]	*->85-1	PropNm[85]	contrast	*	65-1[145_144]	
+64-2	1568-1572	halt	_	GSuccess[13]	bauen\_set1\_12[13]	latin2[13]	2em9nj6n4c2pjudl6n6hfpjc30-bauen\_set1\_12[13]	_	_	_	_	_	false[144]	NA[144]	*[277]	*[277]	*[277]	*[277]	*[277]	input1[277]	32[407]	female[407]	2em9nj6n4c2pjudl6n6hfpjc30[407]	speaker: YOU[537]	_	_	_	_	_	
+64-3	1573-1576	ne?	_	GSuccess[13]	bauen\_set1\_12[13]	latin2[13]	2em9nj6n4c2pjudl6n6hfpjc30-bauen\_set1\_12[13]	_	_	_	_	_	false[144]	NA[144]	*[277]	*[277]	*[277]	*[277]	*[277]	input1[277]	32[407]	female[407]	2em9nj6n4c2pjudl6n6hfpjc30[407]	speaker: YOU[537]	_	_	_	_	_	
+
+#Text=Aber ganz alleine!
+65-1	1578-1582	Aber	_	GSuccess[13]	bauen\_set1\_12[13]	latin2[13]	2em9nj6n4c2pjudl6n6hfpjc30-bauen\_set1\_12[13]	_	_	_	_	_	false[145]	NA[145]	*[278]	*[278]	*[278]	*[278]	*[278]	input2[278]	32[408]	female[408]	2em9nj6n4c2pjudl6n6hfpjc30[408]	speaker: YOU[538]	_	_	_	_	_	
+65-2	1583-1587	ganz	_	GSuccess[13]	bauen\_set1\_12[13]	latin2[13]	2em9nj6n4c2pjudl6n6hfpjc30-bauen\_set1\_12[13]	_	_	_	_	_	false[145]	NA[145]	*[278]	*[278]	*[278]	*[278]	*[278]	input2[278]	32[408]	female[408]	2em9nj6n4c2pjudl6n6hfpjc30[408]	speaker: YOU[538]	_	_	_	_	_	
+65-3	1588-1596	alleine!	_	GSuccess[13]	bauen\_set1\_12[13]	latin2[13]	2em9nj6n4c2pjudl6n6hfpjc30-bauen\_set1\_12[13]	_	_	_	_	_	false[145]	NA[145]	*[278]	*[278]	*[278]	*[278]	*[278]	input2[278]	32[408]	female[408]	2em9nj6n4c2pjudl6n6hfpjc30[408]	speaker: YOU[538]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+66-1	1598-1613	END_OF_DOCUMENT	_	GSuccess[13]	bauen\_set1\_12[13]	latin2[13]	2em9nj6n4c2pjudl6n6hfpjc30-bauen\_set1\_12[13]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+67-1	1615-1621	Hallo,	_	GSuccess[14]	bauen\_set1\_12[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-bauen\_set1\_12[14]	_	_	_	_	_	false[146]	Int[146]	*[279]	*[279]	*[279]	wh\_2[279]	wh\_question[279]	openq[279]	*[409]	male[409]	*[409]	speaker:Tom[539]	_	_	QAP	*	68-1[147_146]	
+67-2	1622-1625	wie	_	GSuccess[14]	bauen\_set1\_12[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-bauen\_set1\_12[14]	_	_	_	_	_	false[146]	Int[146]	*[279]	*[279]	*[279]	wh\_2[279]	wh\_question[279]	openq[279]	*[409]	male[409]	*[409]	speaker:Tom[539]	_	_	_	_	_	
+67-3	1626-1633	geht's?	_	GSuccess[14]	bauen\_set1\_12[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-bauen\_set1\_12[14]	_	_	_	_	_	false[146]	Int[146]	*[279]	*[279]	*[279]	wh\_2[279]	wh\_question[279]	openq[279]	*[409]	male[409]	*[409]	speaker:Tom[539]	_	_	_	_	_	
+
+#Text=Ariana hat ein Regal gebaut
+68-1	1635-1641	Ariana	_	GSuccess[14]	bauen\_set1\_12[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-bauen\_set1\_12[14]	*	*	Subj	*	*	false[147]	Decl[147]	*[280]	bauen[280]	transitive[280]	*[280]	*[280]	item0[280]	41[410]	female[410]	2prsavjsjqbmc8hrbo9bovkues[410]	speaker: YOU[540]	*->64-1	PropNm[64]	elaboration|acknowledgement	*|*	70-1[0_147]|69-1[0_147]	
+68-2	1642-1645	hat	_	GSuccess[14]	bauen\_set1\_12[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-bauen\_set1\_12[14]	_	_	_	_	_	false[147]	Decl[147]	*[280]	bauen[280]	transitive[280]	*[280]	*[280]	item0[280]	41[410]	female[410]	2prsavjsjqbmc8hrbo9bovkues[410]	speaker: YOU[540]	_	_	_	_	_	
+68-3	1646-1649	ein	_	GSuccess[14]	bauen\_set1\_12[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-bauen\_set1\_12[14]	*[55]	*[55]	object[55]	*[55]	*[55]	false[147]	Decl[147]	*[280]	bauen[280]	transitive[280]	*[280]	*[280]	item0[280]	41[410]	female[410]	2prsavjsjqbmc8hrbo9bovkues[410]	speaker: YOU[540]	*->73-1	IndefNP[73]	_	_	_	
+68-4	1650-1655	Regal	_	GSuccess[14]	bauen\_set1\_12[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-bauen\_set1\_12[14]	*[55]	*[55]	object[55]	*[55]	*[55]	false[147]	Decl[147]	*[280]	bauen[280]	transitive[280]	*[280]	*[280]	item0[280]	41[410]	female[410]	2prsavjsjqbmc8hrbo9bovkues[410]	speaker: YOU[540]	*->73-1	IndefNP[73]	_	_	_	
+68-5	1656-1662	gebaut	_	GSuccess[14]	bauen\_set1\_12[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-bauen\_set1\_12[14]	_	_	_	_	_	false[147]	Decl[147]	*[280]	bauen[280]	transitive[280]	*[280]	*[280]	item0[280]	41[410]	female[410]	2prsavjsjqbmc8hrbo9bovkues[410]	speaker: YOU[540]	_	_	_	_	_	
+
+#Text=Krass!
+69-1	1664-1670	Krass!	_	GSuccess[14]	bauen\_set1\_12[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-bauen\_set1\_12[14]	_	_	_	_	_	false	NA	krass\_exclamation\_18	*	*	*	*	feedback	*	male	*	speaker:Tom	_	_	_	_	_	
+
+#Text=Ja <BR> es sieht echt toll aus!
+70-1	1672-1674	Ja	_	GSuccess[14]	bauen\_set1\_12[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-bauen\_set1\_12[14]	_	_	_	_	_	false	NA	*[281]	*[281]	*[281]	*[281]	*[281]	input1[281]	41[411]	female[411]	2prsavjsjqbmc8hrbo9bovkues[411]	speaker: YOU[541]	_	_	elaboration	*	70-3[148_0]	
+70-2	1675-1679	<BR>	_	GSuccess[14]	bauen\_set1\_12[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-bauen\_set1\_12[14]	_	_	_	_	_	_	_	*[281]	*[281]	*[281]	*[281]	*[281]	input1[281]	41[411]	female[411]	2prsavjsjqbmc8hrbo9bovkues[411]	speaker: YOU[541]	_	_	_	_	_	
+70-3	1680-1682	es	_	GSuccess[14]	bauen\_set1\_12[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-bauen\_set1\_12[14]	3	*	Subj	*	singular	false[148]	Decl[148]	*[281]	*[281]	*[281]	*[281]	*[281]	input1[281]	41[411]	female[411]	2prsavjsjqbmc8hrbo9bovkues[411]	speaker: YOU[541]	*->73-2	PerPron[73]	result	*	71-1[149_148]	
+70-4	1683-1688	sieht	_	GSuccess[14]	bauen\_set1\_12[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-bauen\_set1\_12[14]	_	_	_	_	_	false[148]	Decl[148]	*[281]	*[281]	*[281]	*[281]	*[281]	input1[281]	41[411]	female[411]	2prsavjsjqbmc8hrbo9bovkues[411]	speaker: YOU[541]	_	_	_	_	_	
+70-5	1689-1693	echt	_	GSuccess[14]	bauen\_set1\_12[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-bauen\_set1\_12[14]	_	_	_	_	_	false[148]	Decl[148]	*[281]	*[281]	*[281]	*[281]	*[281]	input1[281]	41[411]	female[411]	2prsavjsjqbmc8hrbo9bovkues[411]	speaker: YOU[541]	_	_	_	_	_	
+70-6	1694-1698	toll	_	GSuccess[14]	bauen\_set1\_12[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-bauen\_set1\_12[14]	_	_	_	_	_	false[148]	Decl[148]	*[281]	*[281]	*[281]	*[281]	*[281]	input1[281]	41[411]	female[411]	2prsavjsjqbmc8hrbo9bovkues[411]	speaker: YOU[541]	_	_	_	_	_	
+70-7	1699-1703	aus!	_	GSuccess[14]	bauen\_set1\_12[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-bauen\_set1\_12[14]	_	_	_	_	_	false[148]	Decl[148]	*[281]	*[281]	*[281]	*[281]	*[281]	input1[281]	41[411]	female[411]	2prsavjsjqbmc8hrbo9bovkues[411]	speaker: YOU[541]	_	_	_	_	_	
+
+#Text=Ich schick dir mal ein Foto.
+71-1	1705-1708	Ich	_	GSuccess[14]	bauen\_set1\_12[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-bauen\_set1\_12[14]	1	*	Subj	*	singular	false[149]	Decl[149]	*[282]	*[282]	*[282]	*[282]	*[282]	input2[282]	41[412]	female[412]	2prsavjsjqbmc8hrbo9bovkues[412]	speaker: YOU[542]	*->101-1	PerPron[101]	_	_	_	
+71-2	1709-1715	schick	_	GSuccess[14]	bauen\_set1\_12[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-bauen\_set1\_12[14]	_	_	_	_	_	false[149]	Decl[149]	*[282]	*[282]	*[282]	*[282]	*[282]	input2[282]	41[412]	female[412]	2prsavjsjqbmc8hrbo9bovkues[412]	speaker: YOU[542]	_	_	_	_	_	
+71-3	1716-1719	dir	_	GSuccess[14]	bauen\_set1\_12[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-bauen\_set1\_12[14]	2	*	IndirObj	*	singular	false[149]	Decl[149]	*[282]	*[282]	*[282]	*[282]	*[282]	input2[282]	41[412]	female[412]	2prsavjsjqbmc8hrbo9bovkues[412]	speaker: YOU[542]	*->69-1	PerPron[69]	_	_	_	
+71-4	1720-1723	mal	_	GSuccess[14]	bauen\_set1\_12[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-bauen\_set1\_12[14]	_	_	_	_	_	false[149]	Decl[149]	*[282]	*[282]	*[282]	*[282]	*[282]	input2[282]	41[412]	female[412]	2prsavjsjqbmc8hrbo9bovkues[412]	speaker: YOU[542]	_	_	_	_	_	
+71-5	1724-1727	ein	_	GSuccess[14]	bauen\_set1\_12[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-bauen\_set1\_12[14]	*[56]	*[56]	DirObj[56]	*[56]	*[56]	false[149]	Decl[149]	*[282]	*[282]	*[282]	*[282]	*[282]	input2[282]	41[412]	female[412]	2prsavjsjqbmc8hrbo9bovkues[412]	speaker: YOU[542]	*->98-1	IndefNP[98]	_	_	_	
+71-6	1728-1733	Foto.	_	GSuccess[14]	bauen\_set1\_12[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-bauen\_set1\_12[14]	*[56]	*[56]	DirObj[56]	*[56]	*[56]	false[149]	Decl[149]	*[282]	*[282]	*[282]	*[282]	*[282]	input2[282]	41[412]	female[412]	2prsavjsjqbmc8hrbo9bovkues[412]	speaker: YOU[542]	*->98-1	IndefNP[98]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+72-1	1735-1750	END_OF_DOCUMENT	_	GSuccess[14]	bauen\_set1\_12[14]	latin2[14]	2prsavjsjqbmc8hrbo9bovkues-bauen\_set1\_12[14]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+73-1	1752-1758	Hallo,	_	GSuccess[15]	bauen\_set1\_12[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-bauen\_set1\_12[15]	_	_	_	_	_	false[150]	Int[150]	*[283]	*[283]	*[283]	wh\_2[283]	wh\_question[283]	openq[283]	*[413]	male[413]	*[413]	speaker:Tom[543]	_	_	QAP	*	74-1[151_150]	
+73-2	1759-1762	wie	_	GSuccess[15]	bauen\_set1\_12[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-bauen\_set1\_12[15]	_	_	_	_	_	false[150]	Int[150]	*[283]	*[283]	*[283]	wh\_2[283]	wh\_question[283]	openq[283]	*[413]	male[413]	*[413]	speaker:Tom[543]	_	_	_	_	_	
+73-3	1763-1770	geht's?	_	GSuccess[15]	bauen\_set1\_12[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-bauen\_set1\_12[15]	_	_	_	_	_	false[150]	Int[150]	*[283]	*[283]	*[283]	wh\_2[283]	wh\_question[283]	openq[283]	*[413]	male[413]	*[413]	speaker:Tom[543]	_	_	_	_	_	
+
+#Text=Ariana hat ein Regal gebaut
+74-1	1772-1778	Ariana	_	GSuccess[15]	bauen\_set1\_12[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-bauen\_set1\_12[15]	*	*	Subj	*	*	false[151]	Decl[151]	*[284]	bauen[284]	transitive[284]	*[284]	*[284]	item0[284]	46[414]	male[414]	3jjtes457iqluuhfmeiub8g6qd[414]	speaker: YOU[544]	*->83-1|*->112-1	clause[83]|PropNm[112]	acknowledgement	*	75-1[0_151]	
+74-2	1779-1782	hat	_	GSuccess[15]	bauen\_set1\_12[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-bauen\_set1\_12[15]	_	_	_	_	_	false[151]	Decl[151]	*[284]	bauen[284]	transitive[284]	*[284]	*[284]	item0[284]	46[414]	male[414]	3jjtes457iqluuhfmeiub8g6qd[414]	speaker: YOU[544]	*->83-1	clause[83]	_	_	_	
+74-3	1783-1786	ein	_	GSuccess[15]	bauen\_set1\_12[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-bauen\_set1\_12[15]	*[57]	*[57]	object[57]	*[57]	*[57]	false[151]	Decl[151]	*[284]	bauen[284]	transitive[284]	*[284]	*[284]	item0[284]	46[414]	male[414]	3jjtes457iqluuhfmeiub8g6qd[414]	speaker: YOU[544]	*->83-1|*->62-1	clause[83]|IndefNP[62]	_	_	_	
+74-4	1787-1792	Regal	_	GSuccess[15]	bauen\_set1\_12[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-bauen\_set1\_12[15]	*[57]	*[57]	object[57]	*[57]	*[57]	false[151]	Decl[151]	*[284]	bauen[284]	transitive[284]	*[284]	*[284]	item0[284]	46[414]	male[414]	3jjtes457iqluuhfmeiub8g6qd[414]	speaker: YOU[544]	*->83-1|*->62-1	clause[83]|IndefNP[62]	_	_	_	
+74-5	1793-1799	gebaut	_	GSuccess[15]	bauen\_set1\_12[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-bauen\_set1\_12[15]	_	_	_	_	_	false[151]	Decl[151]	*[284]	bauen[284]	transitive[284]	*[284]	*[284]	item0[284]	46[414]	male[414]	3jjtes457iqluuhfmeiub8g6qd[414]	speaker: YOU[544]	*->83-1	clause[83]	_	_	_	
+
+#Text=Krass!
+75-1	1801-1807	Krass!	_	GSuccess[15]	bauen\_set1\_12[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-bauen\_set1\_12[15]	_	_	_	_	_	false	NA	krass\_exclamation\_18	*	*	*	*	feedback	*	male	*	speaker:Tom	_	_	_	_	_	
+
+#Text=Ja das hätt ich ihr egentlich gar nicht zugetraut.
+76-1	1809-1811	Ja	_	GSuccess[15]	bauen\_set1\_12[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-bauen\_set1\_12[15]	_	_	_	_	_	false[152]	Decl[152]	*[285]	*[285]	*[285]	*[285]	*[285]	input1[285]	46[415]	male[415]	3jjtes457iqluuhfmeiub8g6qd[415]	speaker: YOU[545]	_	_	_	_	_	
+76-2	1812-1815	das	_	GSuccess[15]	bauen\_set1\_12[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-bauen\_set1\_12[15]	*	*	IndirObj	*	*	false[152]	Decl[152]	*[285]	*[285]	*[285]	*[285]	*[285]	input1[285]	46[415]	male[415]	3jjtes457iqluuhfmeiub8g6qd[415]	speaker: YOU[545]	*->83-2	D-Pron[83]	_	_	_	
+76-3	1816-1820	hätt	_	GSuccess[15]	bauen\_set1\_12[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-bauen\_set1\_12[15]	_	_	_	_	_	false[152]	Decl[152]	*[285]	*[285]	*[285]	*[285]	*[285]	input1[285]	46[415]	male[415]	3jjtes457iqluuhfmeiub8g6qd[415]	speaker: YOU[545]	_	_	_	_	_	
+76-4	1821-1824	ich	_	GSuccess[15]	bauen\_set1\_12[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-bauen\_set1\_12[15]	1[58]|*[59]	*[58]|*[59]	*[58]|Subj[59]	*[58]|*[59]	singular[58]|*[59]	false[152]	Decl[152]	*[285]	*[285]	*[285]	*[285]	*[285]	input1[285]	46[415]	male[415]	3jjtes457iqluuhfmeiub8g6qd[415]	speaker: YOU[545]	*->14-1	PerPron[14]	_	_	_	
+76-5	1825-1828	ihr	_	GSuccess[15]	bauen\_set1\_12[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-bauen\_set1\_12[15]	3[60]|*[61]	*[60]|*[61]	*[60]|DirObj[61]	*[60]|*[61]	singular[60]|*[61]	false[152]	Decl[152]	*[285]	*[285]	*[285]	*[285]	*[285]	input1[285]	46[415]	male[415]	3jjtes457iqluuhfmeiub8g6qd[415]	speaker: YOU[545]	*->112-2	PerPron[112]	_	_	_	
+76-6	1829-1838	egentlich	_	GSuccess[15]	bauen\_set1\_12[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-bauen\_set1\_12[15]	_	_	_	_	_	false[152]	Decl[152]	*[285]	*[285]	*[285]	*[285]	*[285]	input1[285]	46[415]	male[415]	3jjtes457iqluuhfmeiub8g6qd[415]	speaker: YOU[545]	_	_	_	_	_	
+76-7	1839-1842	gar	_	GSuccess[15]	bauen\_set1\_12[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-bauen\_set1\_12[15]	_	_	_	_	_	false[152]	Decl[152]	*[285]	*[285]	*[285]	*[285]	*[285]	input1[285]	46[415]	male[415]	3jjtes457iqluuhfmeiub8g6qd[415]	speaker: YOU[545]	_	_	_	_	_	
+76-8	1843-1848	nicht	_	GSuccess[15]	bauen\_set1\_12[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-bauen\_set1\_12[15]	_	_	_	_	_	false[152]	Decl[152]	*[285]	*[285]	*[285]	*[285]	*[285]	input1[285]	46[415]	male[415]	3jjtes457iqluuhfmeiub8g6qd[415]	speaker: YOU[545]	_	_	_	_	_	
+76-9	1849-1859	zugetraut.	_	GSuccess[15]	bauen\_set1\_12[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-bauen\_set1\_12[15]	_	_	_	_	_	false[152]	Decl[152]	*[285]	*[285]	*[285]	*[285]	*[285]	input1[285]	46[415]	male[415]	3jjtes457iqluuhfmeiub8g6qd[415]	speaker: YOU[545]	_	_	_	_	_	
+
+#Text=Aber gut <BR> IKEA ist ja eh easy.
+77-1	1861-1865	Aber	_	GSuccess[15]	bauen\_set1\_12[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-bauen\_set1\_12[15]	_	_	_	_	_	false[153]	NA[153]	*[286]	*[286]	*[286]	*[286]	*[286]	input2[286]	46[416]	male[416]	3jjtes457iqluuhfmeiub8g6qd[416]	speaker: YOU[546]	_	_	_	_	_	
+77-2	1866-1869	gut	_	GSuccess[15]	bauen\_set1\_12[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-bauen\_set1\_12[15]	_	_	_	_	_	false[153]	NA[153]	*[286]	*[286]	*[286]	*[286]	*[286]	input2[286]	46[416]	male[416]	3jjtes457iqluuhfmeiub8g6qd[416]	speaker: YOU[546]	_	_	_	_	_	
+77-3	1870-1874	<BR>	_	GSuccess[15]	bauen\_set1\_12[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-bauen\_set1\_12[15]	_	_	_	_	_	_	_	*[286]	*[286]	*[286]	*[286]	*[286]	input2[286]	46[416]	male[416]	3jjtes457iqluuhfmeiub8g6qd[416]	speaker: YOU[546]	_	_	_	_	_	
+77-4	1875-1879	IKEA	_	GSuccess[15]	bauen\_set1\_12[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-bauen\_set1\_12[15]	*	*	Subj	*	*	false[154]	Decl[154]	*[286]	*[286]	*[286]	*[286]	*[286]	input2[286]	46[416]	male[416]	3jjtes457iqluuhfmeiub8g6qd[416]	speaker: YOU[546]	*->80-1	PropNm[80]	_	_	_	
+77-5	1880-1883	ist	_	GSuccess[15]	bauen\_set1\_12[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-bauen\_set1\_12[15]	_	_	_	_	_	false[154]	Decl[154]	*[286]	*[286]	*[286]	*[286]	*[286]	input2[286]	46[416]	male[416]	3jjtes457iqluuhfmeiub8g6qd[416]	speaker: YOU[546]	_	_	_	_	_	
+77-6	1884-1886	ja	_	GSuccess[15]	bauen\_set1\_12[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-bauen\_set1\_12[15]	_	_	_	_	_	false[154]	Decl[154]	*[286]	*[286]	*[286]	*[286]	*[286]	input2[286]	46[416]	male[416]	3jjtes457iqluuhfmeiub8g6qd[416]	speaker: YOU[546]	_	_	_	_	_	
+77-7	1887-1889	eh	_	GSuccess[15]	bauen\_set1\_12[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-bauen\_set1\_12[15]	_	_	_	_	_	false[154]	Decl[154]	*[286]	*[286]	*[286]	*[286]	*[286]	input2[286]	46[416]	male[416]	3jjtes457iqluuhfmeiub8g6qd[416]	speaker: YOU[546]	_	_	_	_	_	
+77-8	1890-1895	easy.	_	GSuccess[15]	bauen\_set1\_12[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-bauen\_set1\_12[15]	_	_	_	_	_	false[154]	Decl[154]	*[286]	*[286]	*[286]	*[286]	*[286]	input2[286]	46[416]	male[416]	3jjtes457iqluuhfmeiub8g6qd[416]	speaker: YOU[546]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+78-1	1897-1912	END_OF_DOCUMENT	_	GSuccess[15]	bauen\_set1\_12[15]	latin2[15]	3jjtes457iqluuhfmeiub8g6qd-bauen\_set1\_12[15]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+79-1	1914-1920	Hallo,	_	GSuccess[16]	bauen\_set1\_12[16]	latin2[16]	65p8m4ujg4fi983365pclnac28-bauen\_set1\_12[16]	_	_	_	_	_	false[155]	Int[155]	*[287]	*[287]	*[287]	wh\_2[287]	wh\_question[287]	openq[287]	*[417]	male[417]	*[417]	speaker:Tom[547]	_	_	QAP	*	80-1[156_155]	
+79-2	1921-1924	wie	_	GSuccess[16]	bauen\_set1\_12[16]	latin2[16]	65p8m4ujg4fi983365pclnac28-bauen\_set1\_12[16]	_	_	_	_	_	false[155]	Int[155]	*[287]	*[287]	*[287]	wh\_2[287]	wh\_question[287]	openq[287]	*[417]	male[417]	*[417]	speaker:Tom[547]	_	_	_	_	_	
+79-3	1925-1932	geht's?	_	GSuccess[16]	bauen\_set1\_12[16]	latin2[16]	65p8m4ujg4fi983365pclnac28-bauen\_set1\_12[16]	_	_	_	_	_	false[155]	Int[155]	*[287]	*[287]	*[287]	wh\_2[287]	wh\_question[287]	openq[287]	*[417]	male[417]	*[417]	speaker:Tom[547]	_	_	_	_	_	
+
+#Text=Ariana hat ein Regal gebaut
+80-1	1934-1940	Ariana	_	GSuccess[16]	bauen\_set1\_12[16]	latin2[16]	65p8m4ujg4fi983365pclnac28-bauen\_set1\_12[16]	*	*	Subj	*	*	false[156]	Decl[156]	*[288]	bauen[288]	transitive[288]	*[288]	*[288]	item0[288]	27[418]	female[418]	65p8m4ujg4fi983365pclnac28[418]	speaker: YOU[548]	*->46-1	PropNm[46]	elaboration|elaboration|acknowledgement	*|*|*	82-1[157_156]|83-1[158_156]|81-1[0_156]	
+80-2	1941-1944	hat	_	GSuccess[16]	bauen\_set1\_12[16]	latin2[16]	65p8m4ujg4fi983365pclnac28-bauen\_set1\_12[16]	_	_	_	_	_	false[156]	Decl[156]	*[288]	bauen[288]	transitive[288]	*[288]	*[288]	item0[288]	27[418]	female[418]	65p8m4ujg4fi983365pclnac28[418]	speaker: YOU[548]	*->92-1	clause[92]	_	_	_	
+80-3	1945-1948	ein	_	GSuccess[16]	bauen\_set1\_12[16]	latin2[16]	65p8m4ujg4fi983365pclnac28-bauen\_set1\_12[16]	*[62]	*[62]	object[62]	*[62]	*[62]	false[156]	Decl[156]	*[288]	bauen[288]	transitive[288]	*[288]	*[288]	item0[288]	27[418]	female[418]	65p8m4ujg4fi983365pclnac28[418]	speaker: YOU[548]	*->92-1|*->93-1	clause[92]|IndefNP[93]	_	_	_	
+80-4	1949-1954	Regal	_	GSuccess[16]	bauen\_set1\_12[16]	latin2[16]	65p8m4ujg4fi983365pclnac28-bauen\_set1\_12[16]	*[62]	*[62]	object[62]	*[62]	*[62]	false[156]	Decl[156]	*[288]	bauen[288]	transitive[288]	*[288]	*[288]	item0[288]	27[418]	female[418]	65p8m4ujg4fi983365pclnac28[418]	speaker: YOU[548]	*->92-1|*->93-1	clause[92]|IndefNP[93]	_	_	_	
+80-5	1955-1961	gebaut	_	GSuccess[16]	bauen\_set1\_12[16]	latin2[16]	65p8m4ujg4fi983365pclnac28-bauen\_set1\_12[16]	_	_	_	_	_	false[156]	Decl[156]	*[288]	bauen[288]	transitive[288]	*[288]	*[288]	item0[288]	27[418]	female[418]	65p8m4ujg4fi983365pclnac28[418]	speaker: YOU[548]	*->92-1	clause[92]	_	_	_	
+
+#Text=Krass!
+81-1	1963-1969	Krass!	_	GSuccess[16]	bauen\_set1\_12[16]	latin2[16]	65p8m4ujg4fi983365pclnac28-bauen\_set1\_12[16]	_	_	_	_	_	false	NA	krass\_exclamation\_18	*	*	*	*	feedback	*	male	*	speaker:Tom	_	_	_	_	_	
+
+#Text=Sie hat es ganz alleine gemacht
+82-1	1971-1974	Sie	_	GSuccess[16]	bauen\_set1\_12[16]	latin2[16]	65p8m4ujg4fi983365pclnac28-bauen\_set1\_12[16]	3	*	Subj	*	singular	false[157]	Decl[157]	*[289]	*[289]	*[289]	*[289]	*[289]	input1[289]	27[419]	female[419]	65p8m4ujg4fi983365pclnac28[419]	speaker: YOU[549]	*->46-2	PerPron[46]	_	_	_	
+82-2	1975-1978	hat	_	GSuccess[16]	bauen\_set1\_12[16]	latin2[16]	65p8m4ujg4fi983365pclnac28-bauen\_set1\_12[16]	_	_	_	_	_	false[157]	Decl[157]	*[289]	*[289]	*[289]	*[289]	*[289]	input1[289]	27[419]	female[419]	65p8m4ujg4fi983365pclnac28[419]	speaker: YOU[549]	_	_	_	_	_	
+82-3	1979-1981	es	_	GSuccess[16]	bauen\_set1\_12[16]	latin2[16]	65p8m4ujg4fi983365pclnac28-bauen\_set1\_12[16]	3	*	DirObj	*	singular	false[157]	Decl[157]	*[289]	*[289]	*[289]	*[289]	*[289]	input1[289]	27[419]	female[419]	65p8m4ujg4fi983365pclnac28[419]	speaker: YOU[549]	*->92-2	PerPron[92]	_	_	_	
+82-4	1982-1986	ganz	_	GSuccess[16]	bauen\_set1\_12[16]	latin2[16]	65p8m4ujg4fi983365pclnac28-bauen\_set1\_12[16]	_	_	_	_	_	false[157]	Decl[157]	*[289]	*[289]	*[289]	*[289]	*[289]	input1[289]	27[419]	female[419]	65p8m4ujg4fi983365pclnac28[419]	speaker: YOU[549]	_	_	_	_	_	
+82-5	1987-1994	alleine	_	GSuccess[16]	bauen\_set1\_12[16]	latin2[16]	65p8m4ujg4fi983365pclnac28-bauen\_set1\_12[16]	_	_	_	_	_	false[157]	Decl[157]	*[289]	*[289]	*[289]	*[289]	*[289]	input1[289]	27[419]	female[419]	65p8m4ujg4fi983365pclnac28[419]	speaker: YOU[549]	_	_	_	_	_	
+82-6	1995-2002	gemacht	_	GSuccess[16]	bauen\_set1\_12[16]	latin2[16]	65p8m4ujg4fi983365pclnac28-bauen\_set1\_12[16]	_	_	_	_	_	false[157]	Decl[157]	*[289]	*[289]	*[289]	*[289]	*[289]	input1[289]	27[419]	female[419]	65p8m4ujg4fi983365pclnac28[419]	speaker: YOU[549]	_	_	_	_	_	
+
+#Text=und es sieht toll aus!
+83-1	2004-2007	und	_	GSuccess[16]	bauen\_set1\_12[16]	latin2[16]	65p8m4ujg4fi983365pclnac28-bauen\_set1\_12[16]	_	_	_	_	_	false[158]	Decl[158]	*[290]	*[290]	*[290]	*[290]	*[290]	input2[290]	27[420]	female[420]	65p8m4ujg4fi983365pclnac28[420]	speaker: YOU[550]	_	_	_	_	_	
+83-2	2008-2010	es	_	GSuccess[16]	bauen\_set1\_12[16]	latin2[16]	65p8m4ujg4fi983365pclnac28-bauen\_set1\_12[16]	3	*	Subj	*	singular	false[158]	Decl[158]	*[290]	*[290]	*[290]	*[290]	*[290]	input2[290]	27[420]	female[420]	65p8m4ujg4fi983365pclnac28[420]	speaker: YOU[550]	*->93-2	PerPron[93]	_	_	_	
+83-3	2011-2016	sieht	_	GSuccess[16]	bauen\_set1\_12[16]	latin2[16]	65p8m4ujg4fi983365pclnac28-bauen\_set1\_12[16]	_	_	_	_	_	false[158]	Decl[158]	*[290]	*[290]	*[290]	*[290]	*[290]	input2[290]	27[420]	female[420]	65p8m4ujg4fi983365pclnac28[420]	speaker: YOU[550]	_	_	_	_	_	
+83-4	2017-2021	toll	_	GSuccess[16]	bauen\_set1\_12[16]	latin2[16]	65p8m4ujg4fi983365pclnac28-bauen\_set1\_12[16]	_	_	_	_	_	false[158]	Decl[158]	*[290]	*[290]	*[290]	*[290]	*[290]	input2[290]	27[420]	female[420]	65p8m4ujg4fi983365pclnac28[420]	speaker: YOU[550]	_	_	_	_	_	
+83-5	2022-2026	aus!	_	GSuccess[16]	bauen\_set1\_12[16]	latin2[16]	65p8m4ujg4fi983365pclnac28-bauen\_set1\_12[16]	_	_	_	_	_	false[158]	Decl[158]	*[290]	*[290]	*[290]	*[290]	*[290]	input2[290]	27[420]	female[420]	65p8m4ujg4fi983365pclnac28[420]	speaker: YOU[550]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+84-1	2028-2043	END_OF_DOCUMENT	_	GSuccess[16]	bauen\_set1\_12[16]	latin2[16]	65p8m4ujg4fi983365pclnac28-bauen\_set1\_12[16]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+85-1	2045-2051	Hallo,	_	GSuccess[17]	bauen\_set1\_12[17]	latin2[17]	ad2p95q44evasm6vmbol4cikit-bauen\_set1\_12[17]	_	_	_	_	_	false[159]	Int[159]	*[291]	*[291]	*[291]	wh\_2[291]	wh\_question[291]	openq[291]	*[421]	male[421]	*[421]	speaker:Tom[551]	_	_	QAP	*	86-1[160_159]	
+85-2	2052-2055	wie	_	GSuccess[17]	bauen\_set1\_12[17]	latin2[17]	ad2p95q44evasm6vmbol4cikit-bauen\_set1\_12[17]	_	_	_	_	_	false[159]	Int[159]	*[291]	*[291]	*[291]	wh\_2[291]	wh\_question[291]	openq[291]	*[421]	male[421]	*[421]	speaker:Tom[551]	_	_	_	_	_	
+85-3	2056-2063	geht's?	_	GSuccess[17]	bauen\_set1\_12[17]	latin2[17]	ad2p95q44evasm6vmbol4cikit-bauen\_set1\_12[17]	_	_	_	_	_	false[159]	Int[159]	*[291]	*[291]	*[291]	wh\_2[291]	wh\_question[291]	openq[291]	*[421]	male[421]	*[421]	speaker:Tom[551]	_	_	_	_	_	
+
+#Text=Ariana hat ein Regal gebaut
+86-1	2065-2071	Ariana	_	GSuccess[17]	bauen\_set1\_12[17]	latin2[17]	ad2p95q44evasm6vmbol4cikit-bauen\_set1\_12[17]	*	*	Subj	*	*	false[160]	Decl[160]	*[292]	bauen[292]	transitive[292]	*[292]	*[292]	item0[292]	22[422]	female[422]	ad2p95q44evasm6vmbol4cikit[422]	speaker: YOU[552]	*->30-1	PropNm[30]	elaboration|elaboration|acknowledgement	*|*|*	88-1[161_160]|89-1[162_160]|87-1[0_160]	
+86-2	2072-2075	hat	_	GSuccess[17]	bauen\_set1\_12[17]	latin2[17]	ad2p95q44evasm6vmbol4cikit-bauen\_set1\_12[17]	_	_	_	_	_	false[160]	Decl[160]	*[292]	bauen[292]	transitive[292]	*[292]	*[292]	item0[292]	22[422]	female[422]	ad2p95q44evasm6vmbol4cikit[422]	speaker: YOU[552]	_	_	_	_	_	
+86-3	2076-2079	ein	_	GSuccess[17]	bauen\_set1\_12[17]	latin2[17]	ad2p95q44evasm6vmbol4cikit-bauen\_set1\_12[17]	*[63]	*[63]	object[63]	*[63]	*[63]	false[160]	Decl[160]	*[292]	bauen[292]	transitive[292]	*[292]	*[292]	item0[292]	22[422]	female[422]	ad2p95q44evasm6vmbol4cikit[422]	speaker: YOU[552]	*->111-1	IndefNP[111]	_	_	_	
+86-4	2080-2085	Regal	_	GSuccess[17]	bauen\_set1\_12[17]	latin2[17]	ad2p95q44evasm6vmbol4cikit-bauen\_set1\_12[17]	*[63]	*[63]	object[63]	*[63]	*[63]	false[160]	Decl[160]	*[292]	bauen[292]	transitive[292]	*[292]	*[292]	item0[292]	22[422]	female[422]	ad2p95q44evasm6vmbol4cikit[422]	speaker: YOU[552]	*->111-1	IndefNP[111]	_	_	_	
+86-5	2086-2092	gebaut	_	GSuccess[17]	bauen\_set1\_12[17]	latin2[17]	ad2p95q44evasm6vmbol4cikit-bauen\_set1\_12[17]	_	_	_	_	_	false[160]	Decl[160]	*[292]	bauen[292]	transitive[292]	*[292]	*[292]	item0[292]	22[422]	female[422]	ad2p95q44evasm6vmbol4cikit[422]	speaker: YOU[552]	_	_	_	_	_	
+
+#Text=Krass!
+87-1	2094-2100	Krass!	_	GSuccess[17]	bauen\_set1\_12[17]	latin2[17]	ad2p95q44evasm6vmbol4cikit-bauen\_set1\_12[17]	_	_	_	_	_	false	NA	krass\_exclamation\_18	*	*	*	*	feedback	*	male	*	speaker:Tom	_	_	_	_	_	
+
+#Text=Sie hat es innerhalb von 2 Stunden geschafft
+88-1	2102-2105	Sie	_	GSuccess[17]	bauen\_set1\_12[17]	latin2[17]	ad2p95q44evasm6vmbol4cikit-bauen\_set1\_12[17]	3	*	Subj	*	singular	false[161]	Decl[161]	*[293]	*[293]	*[293]	*[293]	*[293]	input1[293]	22[423]	female[423]	ad2p95q44evasm6vmbol4cikit[423]	speaker: YOU[553]	*->30-2	PerPron[30]	_	_	_	
+88-2	2106-2109	hat	_	GSuccess[17]	bauen\_set1\_12[17]	latin2[17]	ad2p95q44evasm6vmbol4cikit-bauen\_set1\_12[17]	_	_	_	_	_	false[161]	Decl[161]	*[293]	*[293]	*[293]	*[293]	*[293]	input1[293]	22[423]	female[423]	ad2p95q44evasm6vmbol4cikit[423]	speaker: YOU[553]	_	_	_	_	_	
+88-3	2110-2112	es	_	GSuccess[17]	bauen\_set1\_12[17]	latin2[17]	ad2p95q44evasm6vmbol4cikit-bauen\_set1\_12[17]	3	*	DirObj	*	singular	false[161]	Decl[161]	*[293]	*[293]	*[293]	*[293]	*[293]	input1[293]	22[423]	female[423]	ad2p95q44evasm6vmbol4cikit[423]	speaker: YOU[553]	*->111-2	PerPron[111]	_	_	_	
+88-4	2113-2122	innerhalb	_	GSuccess[17]	bauen\_set1\_12[17]	latin2[17]	ad2p95q44evasm6vmbol4cikit-bauen\_set1\_12[17]	_	_	_	_	_	false[161]	Decl[161]	*[293]	*[293]	*[293]	*[293]	*[293]	input1[293]	22[423]	female[423]	ad2p95q44evasm6vmbol4cikit[423]	speaker: YOU[553]	_	_	_	_	_	
+88-5	2123-2126	von	_	GSuccess[17]	bauen\_set1\_12[17]	latin2[17]	ad2p95q44evasm6vmbol4cikit-bauen\_set1\_12[17]	_	_	_	_	_	false[161]	Decl[161]	*[293]	*[293]	*[293]	*[293]	*[293]	input1[293]	22[423]	female[423]	ad2p95q44evasm6vmbol4cikit[423]	speaker: YOU[553]	_	_	_	_	_	
+88-6	2127-2128	2	_	GSuccess[17]	bauen\_set1\_12[17]	latin2[17]	ad2p95q44evasm6vmbol4cikit-bauen\_set1\_12[17]	_	_	_	_	_	false[161]	Decl[161]	*[293]	*[293]	*[293]	*[293]	*[293]	input1[293]	22[423]	female[423]	ad2p95q44evasm6vmbol4cikit[423]	speaker: YOU[553]	*->16-1	IndefNP[16]	_	_	_	
+88-7	2129-2136	Stunden	_	GSuccess[17]	bauen\_set1\_12[17]	latin2[17]	ad2p95q44evasm6vmbol4cikit-bauen\_set1\_12[17]	_	_	_	_	_	false[161]	Decl[161]	*[293]	*[293]	*[293]	*[293]	*[293]	input1[293]	22[423]	female[423]	ad2p95q44evasm6vmbol4cikit[423]	speaker: YOU[553]	*->16-1	IndefNP[16]	_	_	_	
+88-8	2137-2146	geschafft	_	GSuccess[17]	bauen\_set1\_12[17]	latin2[17]	ad2p95q44evasm6vmbol4cikit-bauen\_set1\_12[17]	_	_	_	_	_	false[161]	Decl[161]	*[293]	*[293]	*[293]	*[293]	*[293]	input1[293]	22[423]	female[423]	ad2p95q44evasm6vmbol4cikit[423]	speaker: YOU[553]	_	_	_	_	_	
+
+#Text=Sie hat es alleine aufgebaut
+89-1	2148-2151	Sie	_	GSuccess[17]	bauen\_set1\_12[17]	latin2[17]	ad2p95q44evasm6vmbol4cikit-bauen\_set1\_12[17]	3	*	Subj	*	singular	false[162]	Decl[162]	*[294]	*[294]	*[294]	*[294]	*[294]	input2[294]	22[424]	female[424]	ad2p95q44evasm6vmbol4cikit[424]	speaker: YOU[554]	*->30-3	PerPron[30]	_	_	_	
+89-2	2152-2155	hat	_	GSuccess[17]	bauen\_set1\_12[17]	latin2[17]	ad2p95q44evasm6vmbol4cikit-bauen\_set1\_12[17]	_	_	_	_	_	false[162]	Decl[162]	*[294]	*[294]	*[294]	*[294]	*[294]	input2[294]	22[424]	female[424]	ad2p95q44evasm6vmbol4cikit[424]	speaker: YOU[554]	_	_	_	_	_	
+89-3	2156-2158	es	_	GSuccess[17]	bauen\_set1\_12[17]	latin2[17]	ad2p95q44evasm6vmbol4cikit-bauen\_set1\_12[17]	3	*	DirObj	*	singular	false[162]	Decl[162]	*[294]	*[294]	*[294]	*[294]	*[294]	input2[294]	22[424]	female[424]	ad2p95q44evasm6vmbol4cikit[424]	speaker: YOU[554]	*->111-3	PerPron[111]	_	_	_	
+89-4	2159-2166	alleine	_	GSuccess[17]	bauen\_set1\_12[17]	latin2[17]	ad2p95q44evasm6vmbol4cikit-bauen\_set1\_12[17]	_	_	_	_	_	false[162]	Decl[162]	*[294]	*[294]	*[294]	*[294]	*[294]	input2[294]	22[424]	female[424]	ad2p95q44evasm6vmbol4cikit[424]	speaker: YOU[554]	_	_	_	_	_	
+89-5	2167-2176	aufgebaut	_	GSuccess[17]	bauen\_set1\_12[17]	latin2[17]	ad2p95q44evasm6vmbol4cikit-bauen\_set1\_12[17]	_	_	_	_	_	false[162]	Decl[162]	*[294]	*[294]	*[294]	*[294]	*[294]	input2[294]	22[424]	female[424]	ad2p95q44evasm6vmbol4cikit[424]	speaker: YOU[554]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+90-1	2178-2193	END_OF_DOCUMENT	_	GSuccess[17]	bauen\_set1\_12[17]	latin2[17]	ad2p95q44evasm6vmbol4cikit-bauen\_set1\_12[17]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+91-1	2195-2201	Hallo,	_	GSuccess[18]	bauen\_set1\_12[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-bauen\_set1\_12[18]	_	_	_	_	_	false[163]	Int[163]	*[295]	*[295]	*[295]	wh\_2[295]	wh\_question[295]	openq[295]	*[425]	male[425]	*[425]	speaker:Tom[555]	_	_	QAP	*	92-1[164_163]	
+91-2	2202-2205	wie	_	GSuccess[18]	bauen\_set1\_12[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-bauen\_set1\_12[18]	_	_	_	_	_	false[163]	Int[163]	*[295]	*[295]	*[295]	wh\_2[295]	wh\_question[295]	openq[295]	*[425]	male[425]	*[425]	speaker:Tom[555]	_	_	_	_	_	
+91-3	2206-2213	geht's?	_	GSuccess[18]	bauen\_set1\_12[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-bauen\_set1\_12[18]	_	_	_	_	_	false[163]	Int[163]	*[295]	*[295]	*[295]	wh\_2[295]	wh\_question[295]	openq[295]	*[425]	male[425]	*[425]	speaker:Tom[555]	_	_	_	_	_	
+
+#Text=Ariana hat ein Regal gebaut
+92-1	2215-2221	Ariana	_	GSuccess[18]	bauen\_set1\_12[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-bauen\_set1\_12[18]	*	*	Subj	*	*	false[164]	Decl[164]	*[296]	bauen[296]	transitive[296]	*[296]	*[296]	item0[296]	36[426]	female[426]	aoum613lougtk5ql841j63bjo9[426]	speaker: YOU[556]	*->70-1	PropNm[70]	elaboration|acknowledgement	*|*	94-1[165_164]|93-1[0_164]	
+92-2	2222-2225	hat	_	GSuccess[18]	bauen\_set1\_12[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-bauen\_set1\_12[18]	_	_	_	_	_	false[164]	Decl[164]	*[296]	bauen[296]	transitive[296]	*[296]	*[296]	item0[296]	36[426]	female[426]	aoum613lougtk5ql841j63bjo9[426]	speaker: YOU[556]	_	_	_	_	_	
+92-3	2226-2229	ein	_	GSuccess[18]	bauen\_set1\_12[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-bauen\_set1\_12[18]	*[64]	*[64]	object[64]	*[64]	*[64]	false[164]	Decl[164]	*[296]	bauen[296]	transitive[296]	*[296]	*[296]	item0[296]	36[426]	female[426]	aoum613lougtk5ql841j63bjo9[426]	speaker: YOU[556]	*->24-1	IndefNP[24]	_	_	_	
+92-4	2230-2235	Regal	_	GSuccess[18]	bauen\_set1\_12[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-bauen\_set1\_12[18]	*[64]	*[64]	object[64]	*[64]	*[64]	false[164]	Decl[164]	*[296]	bauen[296]	transitive[296]	*[296]	*[296]	item0[296]	36[426]	female[426]	aoum613lougtk5ql841j63bjo9[426]	speaker: YOU[556]	*->24-1	IndefNP[24]	_	_	_	
+92-5	2236-2242	gebaut	_	GSuccess[18]	bauen\_set1\_12[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-bauen\_set1\_12[18]	_	_	_	_	_	false[164]	Decl[164]	*[296]	bauen[296]	transitive[296]	*[296]	*[296]	item0[296]	36[426]	female[426]	aoum613lougtk5ql841j63bjo9[426]	speaker: YOU[556]	_	_	_	_	_	
+
+#Text=Krass!
+93-1	2244-2250	Krass!	_	GSuccess[18]	bauen\_set1\_12[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-bauen\_set1\_12[18]	_	_	_	_	_	false	NA	krass\_exclamation\_18	*	*	*	*	feedback	*	male	*	speaker:Tom	_	_	_	_	_	
+
+#Text=Es ist total schön geworden.
+94-1	2252-2254	Es	_	GSuccess[18]	bauen\_set1\_12[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-bauen\_set1\_12[18]	3	*	Subj	*	singular	false[165]	Decl[165]	*[297]	*[297]	*[297]	*[297]	*[297]	input1[297]	36[427]	female[427]	aoum613lougtk5ql841j63bjo9[427]	speaker: YOU[557]	*->24-2	PerPron[24]	result	*	95-1[166_165]	
+94-2	2255-2258	ist	_	GSuccess[18]	bauen\_set1\_12[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-bauen\_set1\_12[18]	_	_	_	_	_	false[165]	Decl[165]	*[297]	*[297]	*[297]	*[297]	*[297]	input1[297]	36[427]	female[427]	aoum613lougtk5ql841j63bjo9[427]	speaker: YOU[557]	_	_	_	_	_	
+94-3	2259-2264	total	_	GSuccess[18]	bauen\_set1\_12[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-bauen\_set1\_12[18]	_	_	_	_	_	false[165]	Decl[165]	*[297]	*[297]	*[297]	*[297]	*[297]	input1[297]	36[427]	female[427]	aoum613lougtk5ql841j63bjo9[427]	speaker: YOU[557]	_	_	_	_	_	
+94-4	2265-2270	schön	_	GSuccess[18]	bauen\_set1\_12[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-bauen\_set1\_12[18]	_	_	_	_	_	false[165]	Decl[165]	*[297]	*[297]	*[297]	*[297]	*[297]	input1[297]	36[427]	female[427]	aoum613lougtk5ql841j63bjo9[427]	speaker: YOU[557]	_	_	_	_	_	
+94-5	2271-2280	geworden.	_	GSuccess[18]	bauen\_set1\_12[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-bauen\_set1\_12[18]	_	_	_	_	_	false[165]	Decl[165]	*[297]	*[297]	*[297]	*[297]	*[297]	input1[297]	36[427]	female[427]	aoum613lougtk5ql841j63bjo9[427]	speaker: YOU[557]	_	_	_	_	_	
+
+#Text=Und sie ist richtig stolz und will es uns sobald wie möglich zeigen.
+95-1	2282-2285	Und	_	GSuccess[18]	bauen\_set1\_12[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-bauen\_set1\_12[18]	_	_	_	_	_	false[166]	Decl[166]	*[298]	*[298]	*[298]	*[298]	*[298]	input2[298]	36[428]	female[428]	aoum613lougtk5ql841j63bjo9[428]	speaker: YOU[558]	_	_	result	*	95-6[167_166]	
+95-2	2286-2289	sie	_	GSuccess[18]	bauen\_set1\_12[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-bauen\_set1\_12[18]	3	*	Subj	*	singular	false[166]	Decl[166]	*[298]	*[298]	*[298]	*[298]	*[298]	input2[298]	36[428]	female[428]	aoum613lougtk5ql841j63bjo9[428]	speaker: YOU[558]	*->70-2	PerPron[70]	_	_	_	
+95-3	2290-2293	ist	_	GSuccess[18]	bauen\_set1\_12[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-bauen\_set1\_12[18]	_	_	_	_	_	false[166]	Decl[166]	*[298]	*[298]	*[298]	*[298]	*[298]	input2[298]	36[428]	female[428]	aoum613lougtk5ql841j63bjo9[428]	speaker: YOU[558]	_	_	_	_	_	
+95-4	2294-2301	richtig	_	GSuccess[18]	bauen\_set1\_12[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-bauen\_set1\_12[18]	_	_	_	_	_	false[166]	Decl[166]	*[298]	*[298]	*[298]	*[298]	*[298]	input2[298]	36[428]	female[428]	aoum613lougtk5ql841j63bjo9[428]	speaker: YOU[558]	_	_	_	_	_	
+95-5	2302-2307	stolz	_	GSuccess[18]	bauen\_set1\_12[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-bauen\_set1\_12[18]	_	_	_	_	_	false[166]	Decl[166]	*[298]	*[298]	*[298]	*[298]	*[298]	input2[298]	36[428]	female[428]	aoum613lougtk5ql841j63bjo9[428]	speaker: YOU[558]	_	_	_	_	_	
+95-6	2308-2311	und	_	GSuccess[18]	bauen\_set1\_12[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-bauen\_set1\_12[18]	_	_	_	_	_	false[167]	Decl[167]	*[298]	*[298]	*[298]	*[298]	*[298]	input2[298]	36[428]	female[428]	aoum613lougtk5ql841j63bjo9[428]	speaker: YOU[558]	_	_	_	_	_	
+95-7	2312-2316	will	_	GSuccess[18]	bauen\_set1\_12[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-bauen\_set1\_12[18]	_	_	_	_	_	false[167]	Decl[167]	*[298]	*[298]	*[298]	*[298]	*[298]	input2[298]	36[428]	female[428]	aoum613lougtk5ql841j63bjo9[428]	speaker: YOU[558]	*->70-3	zero[70]	_	_	_	
+95-8	2317-2319	es	_	GSuccess[18]	bauen\_set1\_12[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-bauen\_set1\_12[18]	3	*	DirObj	*	singular	false[167]	Decl[167]	*[298]	*[298]	*[298]	*[298]	*[298]	input2[298]	36[428]	female[428]	aoum613lougtk5ql841j63bjo9[428]	speaker: YOU[558]	*->24-3	PerPron[24]	_	_	_	
+95-9	2320-2323	uns	_	GSuccess[18]	bauen\_set1\_12[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-bauen\_set1\_12[18]	1	*	IndirObj	*	plural	false[167]	Decl[167]	*[298]	*[298]	*[298]	*[298]	*[298]	input2[298]	36[428]	female[428]	aoum613lougtk5ql841j63bjo9[428]	speaker: YOU[558]	*->3-1	PerPron[3]	_	_	_	
+95-10	2324-2330	sobald	_	GSuccess[18]	bauen\_set1\_12[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-bauen\_set1\_12[18]	_	_	_	_	_	false[167]	Decl[167]	*[298]	*[298]	*[298]	*[298]	*[298]	input2[298]	36[428]	female[428]	aoum613lougtk5ql841j63bjo9[428]	speaker: YOU[558]	_	_	_	_	_	
+95-11	2331-2334	wie	_	GSuccess[18]	bauen\_set1\_12[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-bauen\_set1\_12[18]	_	_	_	_	_	false[167]	Decl[167]	*[298]	*[298]	*[298]	*[298]	*[298]	input2[298]	36[428]	female[428]	aoum613lougtk5ql841j63bjo9[428]	speaker: YOU[558]	_	_	_	_	_	
+95-12	2335-2342	möglich	_	GSuccess[18]	bauen\_set1\_12[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-bauen\_set1\_12[18]	_	_	_	_	_	false[167]	Decl[167]	*[298]	*[298]	*[298]	*[298]	*[298]	input2[298]	36[428]	female[428]	aoum613lougtk5ql841j63bjo9[428]	speaker: YOU[558]	_	_	_	_	_	
+95-13	2343-2350	zeigen.	_	GSuccess[18]	bauen\_set1\_12[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-bauen\_set1\_12[18]	_	_	_	_	_	false[167]	Decl[167]	*[298]	*[298]	*[298]	*[298]	*[298]	input2[298]	36[428]	female[428]	aoum613lougtk5ql841j63bjo9[428]	speaker: YOU[558]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+96-1	2352-2367	END_OF_DOCUMENT	_	GSuccess[18]	bauen\_set1\_12[18]	latin2[18]	aoum613lougtk5ql841j63bjo9-bauen\_set1\_12[18]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+97-1	2369-2375	Hallo,	_	GSuccess[19]	bauen\_set1\_12[19]	latin2[19]	c48fsj7kc4kiuorutkbb4be30b-bauen\_set1\_12[19]	_	_	_	_	_	false[168]	Int[168]	*[299]	*[299]	*[299]	wh\_2[299]	wh\_question[299]	openq[299]	*[429]	male[429]	*[429]	speaker:Tom[559]	_	_	QAP	*	98-1[169_168]	
+97-2	2376-2379	wie	_	GSuccess[19]	bauen\_set1\_12[19]	latin2[19]	c48fsj7kc4kiuorutkbb4be30b-bauen\_set1\_12[19]	_	_	_	_	_	false[168]	Int[168]	*[299]	*[299]	*[299]	wh\_2[299]	wh\_question[299]	openq[299]	*[429]	male[429]	*[429]	speaker:Tom[559]	_	_	_	_	_	
+97-3	2380-2387	geht's?	_	GSuccess[19]	bauen\_set1\_12[19]	latin2[19]	c48fsj7kc4kiuorutkbb4be30b-bauen\_set1\_12[19]	_	_	_	_	_	false[168]	Int[168]	*[299]	*[299]	*[299]	wh\_2[299]	wh\_question[299]	openq[299]	*[429]	male[429]	*[429]	speaker:Tom[559]	_	_	_	_	_	
+
+#Text=Ariana hat ein Regal gebaut
+98-1	2389-2395	Ariana	_	GSuccess[19]	bauen\_set1\_12[19]	latin2[19]	c48fsj7kc4kiuorutkbb4be30b-bauen\_set1\_12[19]	*	*	Subj	*	*	false[169]	Decl[169]	*[300]	bauen[300]	transitive[300]	*[300]	*[300]	item0[300]	26[430]	male[430]	c48fsj7kc4kiuorutkbb4be30b[430]	speaker: YOU[560]	*->50-1|*->17-1	clause[50]|PropNm[17]	acknowledgement	*	99-1[0_169]	
+98-2	2396-2399	hat	_	GSuccess[19]	bauen\_set1\_12[19]	latin2[19]	c48fsj7kc4kiuorutkbb4be30b-bauen\_set1\_12[19]	_	_	_	_	_	false[169]	Decl[169]	*[300]	bauen[300]	transitive[300]	*[300]	*[300]	item0[300]	26[430]	male[430]	c48fsj7kc4kiuorutkbb4be30b[430]	speaker: YOU[560]	*->50-1	clause[50]	_	_	_	
+98-3	2400-2403	ein	_	GSuccess[19]	bauen\_set1\_12[19]	latin2[19]	c48fsj7kc4kiuorutkbb4be30b-bauen\_set1\_12[19]	*[65]	*[65]	object[65]	*[65]	*[65]	false[169]	Decl[169]	*[300]	bauen[300]	transitive[300]	*[300]	*[300]	item0[300]	26[430]	male[430]	c48fsj7kc4kiuorutkbb4be30b[430]	speaker: YOU[560]	*->50-1|*->26-1	clause[50]|IndefNP[26]	_	_	_	
+98-4	2404-2409	Regal	_	GSuccess[19]	bauen\_set1\_12[19]	latin2[19]	c48fsj7kc4kiuorutkbb4be30b-bauen\_set1\_12[19]	*[65]	*[65]	object[65]	*[65]	*[65]	false[169]	Decl[169]	*[300]	bauen[300]	transitive[300]	*[300]	*[300]	item0[300]	26[430]	male[430]	c48fsj7kc4kiuorutkbb4be30b[430]	speaker: YOU[560]	*->50-1|*->26-1	clause[50]|IndefNP[26]	_	_	_	
+98-5	2410-2416	gebaut	_	GSuccess[19]	bauen\_set1\_12[19]	latin2[19]	c48fsj7kc4kiuorutkbb4be30b-bauen\_set1\_12[19]	_	_	_	_	_	false[169]	Decl[169]	*[300]	bauen[300]	transitive[300]	*[300]	*[300]	item0[300]	26[430]	male[430]	c48fsj7kc4kiuorutkbb4be30b[430]	speaker: YOU[560]	*->50-1	clause[50]	_	_	_	
+
+#Text=Krass!
+99-1	2418-2424	Krass!	_	GSuccess[19]	bauen\_set1\_12[19]	latin2[19]	c48fsj7kc4kiuorutkbb4be30b-bauen\_set1\_12[19]	_	_	_	_	_	false	NA	krass\_exclamation\_18	*	*	*	*	feedback	*	male	*	speaker:Tom	_	_	acknowledgement	*	100-1	
+
+#Text=Ja <BR> oder?
+100-1	2426-2428	Ja	_	GSuccess[19]	bauen\_set1\_12[19]	latin2[19]	c48fsj7kc4kiuorutkbb4be30b-bauen\_set1\_12[19]	_	_	_	_	_	false	NA	*[301]	*[301]	*[301]	*[301]	*[301]	input1[301]	26[431]	male[431]	c48fsj7kc4kiuorutkbb4be30b[431]	speaker: YOU[561]	_	_	acknowledgement|elaboration	*|*	100-3|101-1[170_0]	
+100-2	2429-2433	<BR>	_	GSuccess[19]	bauen\_set1\_12[19]	latin2[19]	c48fsj7kc4kiuorutkbb4be30b-bauen\_set1\_12[19]	_	_	_	_	_	_	_	*[301]	*[301]	*[301]	*[301]	*[301]	input1[301]	26[431]	male[431]	c48fsj7kc4kiuorutkbb4be30b[431]	speaker: YOU[561]	_	_	_	_	_	
+100-3	2434-2439	oder?	_	GSuccess[19]	bauen\_set1\_12[19]	latin2[19]	c48fsj7kc4kiuorutkbb4be30b-bauen\_set1\_12[19]	_	_	_	_	_	false	NA	*[301]	*[301]	*[301]	*[301]	*[301]	input1[301]	26[431]	male[431]	c48fsj7kc4kiuorutkbb4be30b[431]	speaker: YOU[561]	_	_	_	_	_	
+
+#Text=Hätte ich ihr gar nicht zugetraut.
+101-1	2441-2446	Hätte	_	GSuccess[19]	bauen\_set1\_12[19]	latin2[19]	c48fsj7kc4kiuorutkbb4be30b-bauen\_set1\_12[19]	3	*	*	*	singular	false[170]	Decl[170]	*[302]	*[302]	*[302]	*[302]	*[302]	input2[302]	26[432]	male[432]	c48fsj7kc4kiuorutkbb4be30b[432]	speaker: YOU[562]	*->26-2	zero[26]	_	_	_	
+101-2	2447-2450	ich	_	GSuccess[19]	bauen\_set1\_12[19]	latin2[19]	c48fsj7kc4kiuorutkbb4be30b-bauen\_set1\_12[19]	1	*	Subj	*	singular	false[170]	Decl[170]	*[302]	*[302]	*[302]	*[302]	*[302]	input2[302]	26[432]	male[432]	c48fsj7kc4kiuorutkbb4be30b[432]	speaker: YOU[562]	*->65-1	PerPron[65]	_	_	_	
+101-3	2451-2454	ihr	_	GSuccess[19]	bauen\_set1\_12[19]	latin2[19]	c48fsj7kc4kiuorutkbb4be30b-bauen\_set1\_12[19]	3	*	DirObj	*	singular	false[170]	Decl[170]	*[302]	*[302]	*[302]	*[302]	*[302]	input2[302]	26[432]	male[432]	c48fsj7kc4kiuorutkbb4be30b[432]	speaker: YOU[562]	*->17-2	PerPron[17]	_	_	_	
+101-4	2455-2458	gar	_	GSuccess[19]	bauen\_set1\_12[19]	latin2[19]	c48fsj7kc4kiuorutkbb4be30b-bauen\_set1\_12[19]	_	_	_	_	_	false[170]	Decl[170]	*[302]	*[302]	*[302]	*[302]	*[302]	input2[302]	26[432]	male[432]	c48fsj7kc4kiuorutkbb4be30b[432]	speaker: YOU[562]	_	_	_	_	_	
+101-5	2459-2464	nicht	_	GSuccess[19]	bauen\_set1\_12[19]	latin2[19]	c48fsj7kc4kiuorutkbb4be30b-bauen\_set1\_12[19]	_	_	_	_	_	false[170]	Decl[170]	*[302]	*[302]	*[302]	*[302]	*[302]	input2[302]	26[432]	male[432]	c48fsj7kc4kiuorutkbb4be30b[432]	speaker: YOU[562]	_	_	_	_	_	
+101-6	2465-2475	zugetraut.	_	GSuccess[19]	bauen\_set1\_12[19]	latin2[19]	c48fsj7kc4kiuorutkbb4be30b-bauen\_set1\_12[19]	_	_	_	_	_	false[170]	Decl[170]	*[302]	*[302]	*[302]	*[302]	*[302]	input2[302]	26[432]	male[432]	c48fsj7kc4kiuorutkbb4be30b[432]	speaker: YOU[562]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+102-1	2477-2492	END_OF_DOCUMENT	_	GSuccess[19]	bauen\_set1\_12[19]	latin2[19]	c48fsj7kc4kiuorutkbb4be30b-bauen\_set1\_12[19]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+103-1	2494-2500	Hallo,	_	GSuccess[20]	bauen\_set1\_12[20]	latin2[20]	k0vnav0sqhr0fo3b0jpuaak9s4-bauen\_set1\_12[20]	_	_	_	_	_	false[171]	Int[171]	*[303]	*[303]	*[303]	wh\_2[303]	wh\_question[303]	openq[303]	*[433]	male[433]	*[433]	speaker:Tom[563]	_	_	QAP	*	104-1[172_171]	
+103-2	2501-2504	wie	_	GSuccess[20]	bauen\_set1\_12[20]	latin2[20]	k0vnav0sqhr0fo3b0jpuaak9s4-bauen\_set1\_12[20]	_	_	_	_	_	false[171]	Int[171]	*[303]	*[303]	*[303]	wh\_2[303]	wh\_question[303]	openq[303]	*[433]	male[433]	*[433]	speaker:Tom[563]	_	_	_	_	_	
+103-3	2505-2512	geht's?	_	GSuccess[20]	bauen\_set1\_12[20]	latin2[20]	k0vnav0sqhr0fo3b0jpuaak9s4-bauen\_set1\_12[20]	_	_	_	_	_	false[171]	Int[171]	*[303]	*[303]	*[303]	wh\_2[303]	wh\_question[303]	openq[303]	*[433]	male[433]	*[433]	speaker:Tom[563]	_	_	_	_	_	
+
+#Text=Ariana hat ein Regal gebaut
+104-1	2514-2520	Ariana	_	GSuccess[20]	bauen\_set1\_12[20]	latin2[20]	k0vnav0sqhr0fo3b0jpuaak9s4-bauen\_set1\_12[20]	*	*	Subj	*	*	false[172]	Decl[172]	*[304]	bauen[304]	transitive[304]	*[304]	*[304]	item0[304]	57[434]	female[434]	k0vnav0sqhr0fo3b0jpuaak9s4[434]	speaker: YOU[564]	*->33-1	PropNm[33]	elaboration|elaboration|acknowledgement	*|*|*	106-1[173_172]|107-1[174_172]|105-1[0_172]	
+104-2	2521-2524	hat	_	GSuccess[20]	bauen\_set1\_12[20]	latin2[20]	k0vnav0sqhr0fo3b0jpuaak9s4-bauen\_set1\_12[20]	_	_	_	_	_	false[172]	Decl[172]	*[304]	bauen[304]	transitive[304]	*[304]	*[304]	item0[304]	57[434]	female[434]	k0vnav0sqhr0fo3b0jpuaak9s4[434]	speaker: YOU[564]	_	_	_	_	_	
+104-3	2525-2528	ein	_	GSuccess[20]	bauen\_set1\_12[20]	latin2[20]	k0vnav0sqhr0fo3b0jpuaak9s4-bauen\_set1\_12[20]	*[66]	*[66]	object[66]	*[66]	*[66]	false[172]	Decl[172]	*[304]	bauen[304]	transitive[304]	*[304]	*[304]	item0[304]	57[434]	female[434]	k0vnav0sqhr0fo3b0jpuaak9s4[434]	speaker: YOU[564]	*->117-1	IndefNP[117]	_	_	_	
+104-4	2529-2534	Regal	_	GSuccess[20]	bauen\_set1\_12[20]	latin2[20]	k0vnav0sqhr0fo3b0jpuaak9s4-bauen\_set1\_12[20]	*[66]	*[66]	object[66]	*[66]	*[66]	false[172]	Decl[172]	*[304]	bauen[304]	transitive[304]	*[304]	*[304]	item0[304]	57[434]	female[434]	k0vnav0sqhr0fo3b0jpuaak9s4[434]	speaker: YOU[564]	*->117-1	IndefNP[117]	_	_	_	
+104-5	2535-2541	gebaut	_	GSuccess[20]	bauen\_set1\_12[20]	latin2[20]	k0vnav0sqhr0fo3b0jpuaak9s4-bauen\_set1\_12[20]	_	_	_	_	_	false[172]	Decl[172]	*[304]	bauen[304]	transitive[304]	*[304]	*[304]	item0[304]	57[434]	female[434]	k0vnav0sqhr0fo3b0jpuaak9s4[434]	speaker: YOU[564]	_	_	_	_	_	
+
+#Text=Krass!
+105-1	2543-2549	Krass!	_	GSuccess[20]	bauen\_set1\_12[20]	latin2[20]	k0vnav0sqhr0fo3b0jpuaak9s4-bauen\_set1\_12[20]	_	_	_	_	_	false	NA	krass\_exclamation\_18	*	*	*	*	feedback	*	male	*	speaker:Tom	_	_	_	_	_	
+
+#Text=Sie hat eine alte Leiter recycled.
+106-1	2551-2554	Sie	_	GSuccess[20]	bauen\_set1\_12[20]	latin2[20]	k0vnav0sqhr0fo3b0jpuaak9s4-bauen\_set1\_12[20]	3	*	Subj	*	singular	false[173]	Decl[173]	*[305]	*[305]	*[305]	*[305]	*[305]	input1[305]	57[435]	female[435]	k0vnav0sqhr0fo3b0jpuaak9s4[435]	speaker: YOU[565]	*->33-2	PerPron[33]	_	_	_	
+106-2	2555-2558	hat	_	GSuccess[20]	bauen\_set1\_12[20]	latin2[20]	k0vnav0sqhr0fo3b0jpuaak9s4-bauen\_set1\_12[20]	_	_	_	_	_	false[173]	Decl[173]	*[305]	*[305]	*[305]	*[305]	*[305]	input1[305]	57[435]	female[435]	k0vnav0sqhr0fo3b0jpuaak9s4[435]	speaker: YOU[565]	_	_	_	_	_	
+106-3	2559-2563	eine	_	GSuccess[20]	bauen\_set1\_12[20]	latin2[20]	k0vnav0sqhr0fo3b0jpuaak9s4-bauen\_set1\_12[20]	*[67]	*[67]	DirObj[67]	*[67]	*[67]	false[173]	Decl[173]	*[305]	*[305]	*[305]	*[305]	*[305]	input1[305]	57[435]	female[435]	k0vnav0sqhr0fo3b0jpuaak9s4[435]	speaker: YOU[565]	*->48-1	IndefNP[48]	_	_	_	
+106-4	2564-2568	alte	_	GSuccess[20]	bauen\_set1\_12[20]	latin2[20]	k0vnav0sqhr0fo3b0jpuaak9s4-bauen\_set1\_12[20]	*[67]	*[67]	DirObj[67]	*[67]	*[67]	false[173]	Decl[173]	*[305]	*[305]	*[305]	*[305]	*[305]	input1[305]	57[435]	female[435]	k0vnav0sqhr0fo3b0jpuaak9s4[435]	speaker: YOU[565]	*->48-1	IndefNP[48]	_	_	_	
+106-5	2569-2575	Leiter	_	GSuccess[20]	bauen\_set1\_12[20]	latin2[20]	k0vnav0sqhr0fo3b0jpuaak9s4-bauen\_set1\_12[20]	*[67]	*[67]	DirObj[67]	*[67]	*[67]	false[173]	Decl[173]	*[305]	*[305]	*[305]	*[305]	*[305]	input1[305]	57[435]	female[435]	k0vnav0sqhr0fo3b0jpuaak9s4[435]	speaker: YOU[565]	*->48-1	IndefNP[48]	_	_	_	
+106-6	2576-2585	recycled.	_	GSuccess[20]	bauen\_set1\_12[20]	latin2[20]	k0vnav0sqhr0fo3b0jpuaak9s4-bauen\_set1\_12[20]	_	_	_	_	_	false[173]	Decl[173]	*[305]	*[305]	*[305]	*[305]	*[305]	input1[305]	57[435]	female[435]	k0vnav0sqhr0fo3b0jpuaak9s4[435]	speaker: YOU[565]	_	_	_	_	_	
+
+#Text=Sieht ganz okay aus.
+107-1	2587-2592	Sieht	_	GSuccess[20]	bauen\_set1\_12[20]	latin2[20]	k0vnav0sqhr0fo3b0jpuaak9s4-bauen\_set1\_12[20]	3	*	*	*	singular	false[174]	Decl[174]	*[306]	*[306]	*[306]	*[306]	*[306]	input2[306]	57[436]	female[436]	k0vnav0sqhr0fo3b0jpuaak9s4[436]	speaker: YOU[566]	*->117-2	zero[117]	_	_	_	
+107-2	2593-2597	ganz	_	GSuccess[20]	bauen\_set1\_12[20]	latin2[20]	k0vnav0sqhr0fo3b0jpuaak9s4-bauen\_set1\_12[20]	_	_	_	_	_	false[174]	Decl[174]	*[306]	*[306]	*[306]	*[306]	*[306]	input2[306]	57[436]	female[436]	k0vnav0sqhr0fo3b0jpuaak9s4[436]	speaker: YOU[566]	_	_	_	_	_	
+107-3	2598-2602	okay	_	GSuccess[20]	bauen\_set1\_12[20]	latin2[20]	k0vnav0sqhr0fo3b0jpuaak9s4-bauen\_set1\_12[20]	_	_	_	_	_	false[174]	Decl[174]	*[306]	*[306]	*[306]	*[306]	*[306]	input2[306]	57[436]	female[436]	k0vnav0sqhr0fo3b0jpuaak9s4[436]	speaker: YOU[566]	_	_	_	_	_	
+107-4	2603-2607	aus.	_	GSuccess[20]	bauen\_set1\_12[20]	latin2[20]	k0vnav0sqhr0fo3b0jpuaak9s4-bauen\_set1\_12[20]	_	_	_	_	_	false[174]	Decl[174]	*[306]	*[306]	*[306]	*[306]	*[306]	input2[306]	57[436]	female[436]	k0vnav0sqhr0fo3b0jpuaak9s4[436]	speaker: YOU[566]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+108-1	2609-2624	END_OF_DOCUMENT	_	GSuccess[20]	bauen\_set1\_12[20]	latin2[20]	k0vnav0sqhr0fo3b0jpuaak9s4-bauen\_set1\_12[20]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+109-1	2626-2632	Hallo,	_	GSuccess[21]	bauen\_set1\_12[21]	latin2[21]	qjdpg51abd5auurj3bduisfb43-bauen\_set1\_12[21]	_	_	_	_	_	false[175]	Int[175]	*[307]	*[307]	*[307]	wh\_2[307]	wh\_question[307]	openq[307]	*[437]	male[437]	*[437]	speaker:Tom[567]	_	_	QAP	*	110-1[176_175]	
+109-2	2633-2636	wie	_	GSuccess[21]	bauen\_set1\_12[21]	latin2[21]	qjdpg51abd5auurj3bduisfb43-bauen\_set1\_12[21]	_	_	_	_	_	false[175]	Int[175]	*[307]	*[307]	*[307]	wh\_2[307]	wh\_question[307]	openq[307]	*[437]	male[437]	*[437]	speaker:Tom[567]	_	_	_	_	_	
+109-3	2637-2644	geht's?	_	GSuccess[21]	bauen\_set1\_12[21]	latin2[21]	qjdpg51abd5auurj3bduisfb43-bauen\_set1\_12[21]	_	_	_	_	_	false[175]	Int[175]	*[307]	*[307]	*[307]	wh\_2[307]	wh\_question[307]	openq[307]	*[437]	male[437]	*[437]	speaker:Tom[567]	_	_	_	_	_	
+
+#Text=Ariana hat ein Regal gebaut
+110-1	2646-2652	Ariana	_	GSuccess[21]	bauen\_set1\_12[21]	latin2[21]	qjdpg51abd5auurj3bduisfb43-bauen\_set1\_12[21]	*	*	Subj	*	*	false[176]	Decl[176]	*[308]	bauen[308]	transitive[308]	*[308]	*[308]	item0[308]	26[438]	female[438]	qjdpg51abd5auurj3bduisfb43[438]	speaker: YOU[568]	*->18-1	PropNm[18]	elaboration|elaboration|acknowledgement	*|*|*	113-1[178_176]|112-1[177_176]|111-1[0_176]	
+110-2	2653-2656	hat	_	GSuccess[21]	bauen\_set1\_12[21]	latin2[21]	qjdpg51abd5auurj3bduisfb43-bauen\_set1\_12[21]	_	_	_	_	_	false[176]	Decl[176]	*[308]	bauen[308]	transitive[308]	*[308]	*[308]	item0[308]	26[438]	female[438]	qjdpg51abd5auurj3bduisfb43[438]	speaker: YOU[568]	_	_	_	_	_	
+110-3	2657-2660	ein	_	GSuccess[21]	bauen\_set1\_12[21]	latin2[21]	qjdpg51abd5auurj3bduisfb43-bauen\_set1\_12[21]	*[68]	*[68]	object[68]	*[68]	*[68]	false[176]	Decl[176]	*[308]	bauen[308]	transitive[308]	*[308]	*[308]	item0[308]	26[438]	female[438]	qjdpg51abd5auurj3bduisfb43[438]	speaker: YOU[568]	*->72-1	IndefNP[72]	_	_	_	
+110-4	2661-2666	Regal	_	GSuccess[21]	bauen\_set1\_12[21]	latin2[21]	qjdpg51abd5auurj3bduisfb43-bauen\_set1\_12[21]	*[68]	*[68]	object[68]	*[68]	*[68]	false[176]	Decl[176]	*[308]	bauen[308]	transitive[308]	*[308]	*[308]	item0[308]	26[438]	female[438]	qjdpg51abd5auurj3bduisfb43[438]	speaker: YOU[568]	*->72-1	IndefNP[72]	_	_	_	
+110-5	2667-2673	gebaut	_	GSuccess[21]	bauen\_set1\_12[21]	latin2[21]	qjdpg51abd5auurj3bduisfb43-bauen\_set1\_12[21]	_	_	_	_	_	false[176]	Decl[176]	*[308]	bauen[308]	transitive[308]	*[308]	*[308]	item0[308]	26[438]	female[438]	qjdpg51abd5auurj3bduisfb43[438]	speaker: YOU[568]	_	_	_	_	_	
+
+#Text=Krass!
+111-1	2675-2681	Krass!	_	GSuccess[21]	bauen\_set1\_12[21]	latin2[21]	qjdpg51abd5auurj3bduisfb43-bauen\_set1\_12[21]	_	_	_	_	_	false	NA	krass\_exclamation\_18	*	*	*	*	feedback	*	male	*	speaker:Tom	_	_	_	_	_	
+
+#Text=Du wirst es lieben.
+112-1	2683-2685	Du	_	GSuccess[21]	bauen\_set1\_12[21]	latin2[21]	qjdpg51abd5auurj3bduisfb43-bauen\_set1\_12[21]	2	*	Subj	*	singular	false[177]	Decl[177]	*[309]	*[309]	*[309]	*[309]	*[309]	input1[309]	26[439]	female[439]	qjdpg51abd5auurj3bduisfb43[439]	speaker: YOU[569]	*->1-1	PerPron[1]	_	_	_	
+112-2	2686-2691	wirst	_	GSuccess[21]	bauen\_set1\_12[21]	latin2[21]	qjdpg51abd5auurj3bduisfb43-bauen\_set1\_12[21]	_	_	_	_	_	false[177]	Decl[177]	*[309]	*[309]	*[309]	*[309]	*[309]	input1[309]	26[439]	female[439]	qjdpg51abd5auurj3bduisfb43[439]	speaker: YOU[569]	_	_	_	_	_	
+112-3	2692-2694	es	_	GSuccess[21]	bauen\_set1\_12[21]	latin2[21]	qjdpg51abd5auurj3bduisfb43-bauen\_set1\_12[21]	3	*	DirObj	*	singular	false[177]	Decl[177]	*[309]	*[309]	*[309]	*[309]	*[309]	input1[309]	26[439]	female[439]	qjdpg51abd5auurj3bduisfb43[439]	speaker: YOU[569]	*->72-2	PerPron[72]	_	_	_	
+112-4	2695-2702	lieben.	_	GSuccess[21]	bauen\_set1\_12[21]	latin2[21]	qjdpg51abd5auurj3bduisfb43-bauen\_set1\_12[21]	_	_	_	_	_	false[177]	Decl[177]	*[309]	*[309]	*[309]	*[309]	*[309]	input1[309]	26[439]	female[439]	qjdpg51abd5auurj3bduisfb43[439]	speaker: YOU[569]	_	_	_	_	_	
+
+#Text=Ich bin begeistert.
+113-1	2704-2707	Ich	_	GSuccess[21]	bauen\_set1\_12[21]	latin2[21]	qjdpg51abd5auurj3bduisfb43-bauen\_set1\_12[21]	1	*	Subj	*	singular	false[178]	Decl[178]	*[310]	*[310]	*[310]	*[310]	*[310]	input2[310]	26[440]	female[440]	qjdpg51abd5auurj3bduisfb43[440]	speaker: YOU[570]	*->81-1	PerPron[81]	_	_	_	
+113-2	2708-2711	bin	_	GSuccess[21]	bauen\_set1\_12[21]	latin2[21]	qjdpg51abd5auurj3bduisfb43-bauen\_set1\_12[21]	_	_	_	_	_	false[178]	Decl[178]	*[310]	*[310]	*[310]	*[310]	*[310]	input2[310]	26[440]	female[440]	qjdpg51abd5auurj3bduisfb43[440]	speaker: YOU[570]	_	_	_	_	_	
+113-3	2712-2723	begeistert.	_	GSuccess[21]	bauen\_set1\_12[21]	latin2[21]	qjdpg51abd5auurj3bduisfb43-bauen\_set1\_12[21]	_	_	_	_	_	false[178]	Decl[178]	*[310]	*[310]	*[310]	*[310]	*[310]	input2[310]	26[440]	female[440]	qjdpg51abd5auurj3bduisfb43[440]	speaker: YOU[570]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+114-1	2725-2740	END_OF_DOCUMENT	_	GSuccess[21]	bauen\_set1\_12[21]	latin2[21]	qjdpg51abd5auurj3bduisfb43-bauen\_set1\_12[21]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+115-1	2742-2748	Hallo,	_	GSuccess[22]	bauen\_set1\_12[22]	latin2[22]	rhiec6c6hfje484c5bsbj040l0-bauen\_set1\_12[22]	_	_	_	_	_	false[179]	Int[179]	*[311]	*[311]	*[311]	wh\_2[311]	wh\_question[311]	openq[311]	*[441]	male[441]	*[441]	speaker:Tom[571]	_	_	QAP	*	116-1[180_179]	
+115-2	2749-2752	wie	_	GSuccess[22]	bauen\_set1\_12[22]	latin2[22]	rhiec6c6hfje484c5bsbj040l0-bauen\_set1\_12[22]	_	_	_	_	_	false[179]	Int[179]	*[311]	*[311]	*[311]	wh\_2[311]	wh\_question[311]	openq[311]	*[441]	male[441]	*[441]	speaker:Tom[571]	_	_	_	_	_	
+115-3	2753-2760	geht's?	_	GSuccess[22]	bauen\_set1\_12[22]	latin2[22]	rhiec6c6hfje484c5bsbj040l0-bauen\_set1\_12[22]	_	_	_	_	_	false[179]	Int[179]	*[311]	*[311]	*[311]	wh\_2[311]	wh\_question[311]	openq[311]	*[441]	male[441]	*[441]	speaker:Tom[571]	_	_	_	_	_	
+
+#Text=Ariana hat ein Regal gebaut
+116-1	2762-2768	Ariana	_	GSuccess[22]	bauen\_set1\_12[22]	latin2[22]	rhiec6c6hfje484c5bsbj040l0-bauen\_set1\_12[22]	*	*	Subj	*	*	false[180]	Decl[180]	*[312]	bauen[312]	transitive[312]	*[312]	*[312]	item0[312]	72[442]	male[442]	rhiec6c6hfje484c5bsbj040l0[442]	speaker: YOU[572]	*->66-1	PropNm[66]	elaboration|acknowledgement	*|*	119-1[182_180]|117-1[0_180]	
+116-2	2769-2772	hat	_	GSuccess[22]	bauen\_set1\_12[22]	latin2[22]	rhiec6c6hfje484c5bsbj040l0-bauen\_set1\_12[22]	_	_	_	_	_	false[180]	Decl[180]	*[312]	bauen[312]	transitive[312]	*[312]	*[312]	item0[312]	72[442]	male[442]	rhiec6c6hfje484c5bsbj040l0[442]	speaker: YOU[572]	_	_	_	_	_	
+116-3	2773-2776	ein	_	GSuccess[22]	bauen\_set1\_12[22]	latin2[22]	rhiec6c6hfje484c5bsbj040l0-bauen\_set1\_12[22]	*[69]	*[69]	object[69]	*[69]	*[69]	false[180]	Decl[180]	*[312]	bauen[312]	transitive[312]	*[312]	*[312]	item0[312]	72[442]	male[442]	rhiec6c6hfje484c5bsbj040l0[442]	speaker: YOU[572]	*->21-1	IndefNP[21]	_	_	_	
+116-4	2777-2782	Regal	_	GSuccess[22]	bauen\_set1\_12[22]	latin2[22]	rhiec6c6hfje484c5bsbj040l0-bauen\_set1\_12[22]	*[69]	*[69]	object[69]	*[69]	*[69]	false[180]	Decl[180]	*[312]	bauen[312]	transitive[312]	*[312]	*[312]	item0[312]	72[442]	male[442]	rhiec6c6hfje484c5bsbj040l0[442]	speaker: YOU[572]	*->21-1	IndefNP[21]	_	_	_	
+116-5	2783-2789	gebaut	_	GSuccess[22]	bauen\_set1\_12[22]	latin2[22]	rhiec6c6hfje484c5bsbj040l0-bauen\_set1\_12[22]	_	_	_	_	_	false[180]	Decl[180]	*[312]	bauen[312]	transitive[312]	*[312]	*[312]	item0[312]	72[442]	male[442]	rhiec6c6hfje484c5bsbj040l0[442]	speaker: YOU[572]	_	_	_	_	_	
+
+#Text=Krass!
+117-1	2791-2797	Krass!	_	GSuccess[22]	bauen\_set1\_12[22]	latin2[22]	rhiec6c6hfje484c5bsbj040l0-bauen\_set1\_12[22]	_	_	_	_	_	false	NA	krass\_exclamation\_18	*	*	*	*	feedback	*	male	*	speaker:Tom	*->78-1	clause[78]	parallel	*	118-1[181_0]	
+
+#Text=Ja find ich auch
+118-1	2799-2801	Ja	_	GSuccess[22]	bauen\_set1\_12[22]	latin2[22]	rhiec6c6hfje484c5bsbj040l0-bauen\_set1\_12[22]	_	_	_	_	_	false[181]	Decl[181]	*[313]	*[313]	*[313]	*[313]	*[313]	input1[313]	72[443]	male[443]	rhiec6c6hfje484c5bsbj040l0[443]	speaker: YOU[573]	_	_	_	_	_	
+118-2	2802-2806	find	_	GSuccess[22]	bauen\_set1\_12[22]	latin2[22]	rhiec6c6hfje484c5bsbj040l0-bauen\_set1\_12[22]	3	*	*	*	singular	false[181]	Decl[181]	*[313]	*[313]	*[313]	*[313]	*[313]	input1[313]	72[443]	male[443]	rhiec6c6hfje484c5bsbj040l0[443]	speaker: YOU[573]	*->78-2	zero[78]	_	_	_	
+118-3	2807-2810	ich	_	GSuccess[22]	bauen\_set1\_12[22]	latin2[22]	rhiec6c6hfje484c5bsbj040l0-bauen\_set1\_12[22]	1	*	Subj	*	singular	false[181]	Decl[181]	*[313]	*[313]	*[313]	*[313]	*[313]	input1[313]	72[443]	male[443]	rhiec6c6hfje484c5bsbj040l0[443]	speaker: YOU[573]	*->25-1	PerPron[25]	_	_	_	
+118-4	2811-2815	auch	_	GSuccess[22]	bauen\_set1\_12[22]	latin2[22]	rhiec6c6hfje484c5bsbj040l0-bauen\_set1\_12[22]	_	_	_	_	_	false[181]	Decl[181]	*[313]	*[313]	*[313]	*[313]	*[313]	input1[313]	72[443]	male[443]	rhiec6c6hfje484c5bsbj040l0[443]	speaker: YOU[573]	_	_	_	_	_	
+
+#Text=Es steht und wackelt nicht. Krass wie du sagst.
+119-1	2817-2819	Es	_	GSuccess[22]	bauen\_set1\_12[22]	latin2[22]	rhiec6c6hfje484c5bsbj040l0-bauen\_set1\_12[22]	3	*	Subj	*	singular	false[182]	Decl[182]	*[314]	*[314]	*[314]	*[314]	*[314]	input2[314]	72[444]	male[444]	rhiec6c6hfje484c5bsbj040l0[444]	speaker: YOU[574]	*->21-2	PerPron[21]	elaboration	*	119-6[0_182]	
+119-2	2820-2825	steht	_	GSuccess[22]	bauen\_set1\_12[22]	latin2[22]	rhiec6c6hfje484c5bsbj040l0-bauen\_set1\_12[22]	_	_	_	_	_	false[182]	Decl[182]	*[314]	*[314]	*[314]	*[314]	*[314]	input2[314]	72[444]	male[444]	rhiec6c6hfje484c5bsbj040l0[444]	speaker: YOU[574]	_	_	_	_	_	
+119-3	2826-2829	und	_	GSuccess[22]	bauen\_set1\_12[22]	latin2[22]	rhiec6c6hfje484c5bsbj040l0-bauen\_set1\_12[22]	_	_	_	_	_	false[182]	Decl[182]	*[314]	*[314]	*[314]	*[314]	*[314]	input2[314]	72[444]	male[444]	rhiec6c6hfje484c5bsbj040l0[444]	speaker: YOU[574]	_	_	_	_	_	
+119-4	2830-2837	wackelt	_	GSuccess[22]	bauen\_set1\_12[22]	latin2[22]	rhiec6c6hfje484c5bsbj040l0-bauen\_set1\_12[22]	_	_	_	_	_	false[182]	Decl[182]	*[314]	*[314]	*[314]	*[314]	*[314]	input2[314]	72[444]	male[444]	rhiec6c6hfje484c5bsbj040l0[444]	speaker: YOU[574]	_	_	_	_	_	
+119-5	2838-2844	nicht.	_	GSuccess[22]	bauen\_set1\_12[22]	latin2[22]	rhiec6c6hfje484c5bsbj040l0-bauen\_set1\_12[22]	_	_	_	_	_	false[182]	Decl[182]	*[314]	*[314]	*[314]	*[314]	*[314]	input2[314]	72[444]	male[444]	rhiec6c6hfje484c5bsbj040l0[444]	speaker: YOU[574]	_	_	_	_	_	
+119-6	2845-2850	Krass	_	GSuccess[22]	bauen\_set1\_12[22]	latin2[22]	rhiec6c6hfje484c5bsbj040l0-bauen\_set1\_12[22]	_	_	_	_	_	false	Decl	*[314]	*[314]	*[314]	*[314]	*[314]	input2[314]	72[444]	male[444]	rhiec6c6hfje484c5bsbj040l0[444]	speaker: YOU[574]	_	_	elaboration	*	119-7[183_0]	
+119-7	2851-2854	wie	_	GSuccess[22]	bauen\_set1\_12[22]	latin2[22]	rhiec6c6hfje484c5bsbj040l0-bauen\_set1\_12[22]	_	_	_	_	_	false[183]	NA[183]	*[314]	*[314]	*[314]	*[314]	*[314]	input2[314]	72[444]	male[444]	rhiec6c6hfje484c5bsbj040l0[444]	speaker: YOU[574]	_	_	_	_	_	
+119-8	2855-2857	du	_	GSuccess[22]	bauen\_set1\_12[22]	latin2[22]	rhiec6c6hfje484c5bsbj040l0-bauen\_set1\_12[22]	2	*	Subj	*	singular	false[183]	NA[183]	*[314]	*[314]	*[314]	*[314]	*[314]	input2[314]	72[444]	male[444]	rhiec6c6hfje484c5bsbj040l0[444]	speaker: YOU[574]	*->35-1	PerPron[35]	_	_	_	
+119-9	2858-2864	sagst.	_	GSuccess[22]	bauen\_set1\_12[22]	latin2[22]	rhiec6c6hfje484c5bsbj040l0-bauen\_set1\_12[22]	_	_	_	_	_	false[183]	NA[183]	*[314]	*[314]	*[314]	*[314]	*[314]	input2[314]	72[444]	male[444]	rhiec6c6hfje484c5bsbj040l0[444]	speaker: YOU[574]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+120-1	2866-2881	END_OF_DOCUMENT	_	GSuccess[22]	bauen\_set1\_12[22]	latin2[22]	rhiec6c6hfje484c5bsbj040l0-bauen\_set1\_12[22]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+121-1	2883-2889	Hallo,	_	GWithout[23]	bauen\_set1\_12[23]	latin3[23]	0ncaea7aqlpc7oe43khd21qn11-bauen\_set1\_12[23]	_	_	_	_	_	false[184]	Int[184]	*[315]	*[315]	*[315]	wh\_2[315]	wh\_question[315]	openq[315]	*[445]	male[445]	*[445]	speaker:Tom[575]	_	_	parallel|QAP	*|*	125-1[188_184]|122-1[185_184]	
+121-2	2890-2893	wie	_	GWithout[23]	bauen\_set1\_12[23]	latin3[23]	0ncaea7aqlpc7oe43khd21qn11-bauen\_set1\_12[23]	_	_	_	_	_	false[184]	Int[184]	*[315]	*[315]	*[315]	wh\_2[315]	wh\_question[315]	openq[315]	*[445]	male[445]	*[445]	speaker:Tom[575]	_	_	_	_	_	
+121-3	2894-2901	geht's?	_	GWithout[23]	bauen\_set1\_12[23]	latin3[23]	0ncaea7aqlpc7oe43khd21qn11-bauen\_set1\_12[23]	_	_	_	_	_	false[184]	Int[184]	*[315]	*[315]	*[315]	wh\_2[315]	wh\_question[315]	openq[315]	*[445]	male[445]	*[445]	speaker:Tom[575]	_	_	_	_	_	
+
+#Text=Ariana hat ein Regal gebaut
+122-1	2903-2909	Ariana	_	GWithout[23]	bauen\_set1\_12[23]	latin3[23]	0ncaea7aqlpc7oe43khd21qn11-bauen\_set1\_12[23]	*	*	Subj	*	*	false[185]	Decl[185]	*[316]	bauen[316]	transitive[316]	*[316]	*[316]	item0[316]	18[446]	female[446]	0ncaea7aqlpc7oe43khd21qn11[446]	speaker: YOU[576]	*->58-1|*->36-1	clause[58]|PropNm[36]	elaboration	*	124-1[186_185]	
+122-2	2910-2913	hat	_	GWithout[23]	bauen\_set1\_12[23]	latin3[23]	0ncaea7aqlpc7oe43khd21qn11-bauen\_set1\_12[23]	_	_	_	_	_	false[185]	Decl[185]	*[316]	bauen[316]	transitive[316]	*[316]	*[316]	item0[316]	18[446]	female[446]	0ncaea7aqlpc7oe43khd21qn11[446]	speaker: YOU[576]	*->58-1	clause[58]	_	_	_	
+122-3	2914-2917	ein	_	GWithout[23]	bauen\_set1\_12[23]	latin3[23]	0ncaea7aqlpc7oe43khd21qn11-bauen\_set1\_12[23]	*[70]	*[70]	object[70]	*[70]	*[70]	false[185]	Decl[185]	*[316]	bauen[316]	transitive[316]	*[316]	*[316]	item0[316]	18[446]	female[446]	0ncaea7aqlpc7oe43khd21qn11[446]	speaker: YOU[576]	*->58-1|*->105-1	clause[58]|IndefNP[105]	_	_	_	
+122-4	2918-2923	Regal	_	GWithout[23]	bauen\_set1\_12[23]	latin3[23]	0ncaea7aqlpc7oe43khd21qn11-bauen\_set1\_12[23]	*[70]	*[70]	object[70]	*[70]	*[70]	false[185]	Decl[185]	*[316]	bauen[316]	transitive[316]	*[316]	*[316]	item0[316]	18[446]	female[446]	0ncaea7aqlpc7oe43khd21qn11[446]	speaker: YOU[576]	*->58-1|*->105-1	clause[58]|IndefNP[105]	_	_	_	
+122-5	2924-2930	gebaut	_	GWithout[23]	bauen\_set1\_12[23]	latin3[23]	0ncaea7aqlpc7oe43khd21qn11-bauen\_set1\_12[23]	_	_	_	_	_	false[185]	Decl[185]	*[316]	bauen[316]	transitive[316]	*[316]	*[316]	item0[316]	18[446]	female[446]	0ncaea7aqlpc7oe43khd21qn11[446]	speaker: YOU[576]	*->58-1	clause[58]	_	_	_	
+
+#Text=-
+123-1	2932-2933	-	_	GWithout[23]	bauen\_set1\_12[23]	latin3[23]	0ncaea7aqlpc7oe43khd21qn11-bauen\_set1\_12[23]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	male	*	speaker:Tom	_	_	_	_	_	
+
+#Text=Es war etwas anstrengend aber im Endeffekt steht es nun.
+124-1	2935-2937	Es	_	GWithout[23]	bauen\_set1\_12[23]	latin3[23]	0ncaea7aqlpc7oe43khd21qn11-bauen\_set1\_12[23]	3	*	Subj	*	singular	false[186]	Decl[186]	*[317]	*[317]	*[317]	*[317]	*[317]	input1[317]	18[447]	female[447]	0ncaea7aqlpc7oe43khd21qn11[447]	speaker: YOU[577]	*->58-2	PerPron[58]	contrast	*	124-5[187_186]	
+124-2	2938-2941	war	_	GWithout[23]	bauen\_set1\_12[23]	latin3[23]	0ncaea7aqlpc7oe43khd21qn11-bauen\_set1\_12[23]	_	_	_	_	_	false[186]	Decl[186]	*[317]	*[317]	*[317]	*[317]	*[317]	input1[317]	18[447]	female[447]	0ncaea7aqlpc7oe43khd21qn11[447]	speaker: YOU[577]	_	_	_	_	_	
+124-3	2942-2947	etwas	_	GWithout[23]	bauen\_set1\_12[23]	latin3[23]	0ncaea7aqlpc7oe43khd21qn11-bauen\_set1\_12[23]	_	_	_	_	_	false[186]	Decl[186]	*[317]	*[317]	*[317]	*[317]	*[317]	input1[317]	18[447]	female[447]	0ncaea7aqlpc7oe43khd21qn11[447]	speaker: YOU[577]	_	_	_	_	_	
+124-4	2948-2959	anstrengend	_	GWithout[23]	bauen\_set1\_12[23]	latin3[23]	0ncaea7aqlpc7oe43khd21qn11-bauen\_set1\_12[23]	_	_	_	_	_	false[186]	Decl[186]	*[317]	*[317]	*[317]	*[317]	*[317]	input1[317]	18[447]	female[447]	0ncaea7aqlpc7oe43khd21qn11[447]	speaker: YOU[577]	_	_	_	_	_	
+124-5	2960-2964	aber	_	GWithout[23]	bauen\_set1\_12[23]	latin3[23]	0ncaea7aqlpc7oe43khd21qn11-bauen\_set1\_12[23]	_	_	_	_	_	false[187]	Decl[187]	*[317]	*[317]	*[317]	*[317]	*[317]	input1[317]	18[447]	female[447]	0ncaea7aqlpc7oe43khd21qn11[447]	speaker: YOU[577]	_	_	_	_	_	
+124-6	2965-2967	im	_	GWithout[23]	bauen\_set1\_12[23]	latin3[23]	0ncaea7aqlpc7oe43khd21qn11-bauen\_set1\_12[23]	_	_	_	_	_	false[187]	Decl[187]	*[317]	*[317]	*[317]	*[317]	*[317]	input1[317]	18[447]	female[447]	0ncaea7aqlpc7oe43khd21qn11[447]	speaker: YOU[577]	_	_	_	_	_	
+124-7	2968-2977	Endeffekt	_	GWithout[23]	bauen\_set1\_12[23]	latin3[23]	0ncaea7aqlpc7oe43khd21qn11-bauen\_set1\_12[23]	*	*	PrepObj	*	*	false[187]	Decl[187]	*[317]	*[317]	*[317]	*[317]	*[317]	input1[317]	18[447]	female[447]	0ncaea7aqlpc7oe43khd21qn11[447]	speaker: YOU[577]	_	_	_	_	_	
+124-8	2978-2983	steht	_	GWithout[23]	bauen\_set1\_12[23]	latin3[23]	0ncaea7aqlpc7oe43khd21qn11-bauen\_set1\_12[23]	_	_	_	_	_	false[187]	Decl[187]	*[317]	*[317]	*[317]	*[317]	*[317]	input1[317]	18[447]	female[447]	0ncaea7aqlpc7oe43khd21qn11[447]	speaker: YOU[577]	_	_	_	_	_	
+124-9	2984-2986	es	_	GWithout[23]	bauen\_set1\_12[23]	latin3[23]	0ncaea7aqlpc7oe43khd21qn11-bauen\_set1\_12[23]	3	*	Subj	*	singular	false[187]	Decl[187]	*[317]	*[317]	*[317]	*[317]	*[317]	input1[317]	18[447]	female[447]	0ncaea7aqlpc7oe43khd21qn11[447]	speaker: YOU[577]	*->105-2	PerPron[105]	_	_	_	
+124-10	2987-2991	nun.	_	GWithout[23]	bauen\_set1\_12[23]	latin3[23]	0ncaea7aqlpc7oe43khd21qn11-bauen\_set1\_12[23]	_	_	_	_	_	false[187]	Decl[187]	*[317]	*[317]	*[317]	*[317]	*[317]	input1[317]	18[447]	female[447]	0ncaea7aqlpc7oe43khd21qn11[447]	speaker: YOU[577]	_	_	_	_	_	
+
+#Text=Wie geht's dir?
+125-1	2993-2996	Wie	_	GWithout[23]	bauen\_set1\_12[23]	latin3[23]	0ncaea7aqlpc7oe43khd21qn11-bauen\_set1\_12[23]	_	_	_	_	_	false[188]	Int[188]	*[318]	*[318]	*[318]	*[318]	*[318]	input2[318]	18[448]	female[448]	0ncaea7aqlpc7oe43khd21qn11[448]	speaker: YOU[578]	_	_	_	_	_	
+125-2	2997-3003	geht's	_	GWithout[23]	bauen\_set1\_12[23]	latin3[23]	0ncaea7aqlpc7oe43khd21qn11-bauen\_set1\_12[23]	_	_	_	_	_	false[188]	Int[188]	*[318]	*[318]	*[318]	*[318]	*[318]	input2[318]	18[448]	female[448]	0ncaea7aqlpc7oe43khd21qn11[448]	speaker: YOU[578]	_	_	_	_	_	
+125-3	3004-3008	dir?	_	GWithout[23]	bauen\_set1\_12[23]	latin3[23]	0ncaea7aqlpc7oe43khd21qn11-bauen\_set1\_12[23]	2	*	DirObj	*	singular	false[188]	Int[188]	*[318]	*[318]	*[318]	*[318]	*[318]	input2[318]	18[448]	female[448]	0ncaea7aqlpc7oe43khd21qn11[448]	speaker: YOU[578]	*->94-1	PerPron[94]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+126-1	3010-3025	END_OF_DOCUMENT	_	GWithout[23]	bauen\_set1\_12[23]	latin3[23]	0ncaea7aqlpc7oe43khd21qn11-bauen\_set1\_12[23]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+127-1	3027-3033	Hallo,	_	GWithout[24]	bauen\_set1\_12[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-bauen\_set1\_12[24]	_	_	_	_	_	false[189]	Int[189]	*[319]	*[319]	*[319]	wh\_2[319]	wh\_question[319]	openq[319]	*[449]	male[449]	*[449]	speaker:Tom[579]	_	_	QAP	*	128-1[190_189]	
+127-2	3034-3037	wie	_	GWithout[24]	bauen\_set1\_12[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-bauen\_set1\_12[24]	_	_	_	_	_	false[189]	Int[189]	*[319]	*[319]	*[319]	wh\_2[319]	wh\_question[319]	openq[319]	*[449]	male[449]	*[449]	speaker:Tom[579]	_	_	_	_	_	
+127-3	3038-3045	geht's?	_	GWithout[24]	bauen\_set1\_12[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-bauen\_set1\_12[24]	_	_	_	_	_	false[189]	Int[189]	*[319]	*[319]	*[319]	wh\_2[319]	wh\_question[319]	openq[319]	*[449]	male[449]	*[449]	speaker:Tom[579]	_	_	_	_	_	
+
+#Text=Ariana hat ein Regal gebaut
+128-1	3047-3053	Ariana	_	GWithout[24]	bauen\_set1\_12[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-bauen\_set1\_12[24]	*	*	Subj	*	*	false[190]	Decl[190]	*[320]	bauen[320]	transitive[320]	*[320]	*[320]	item0[320]	36[450]	male[450]	19gm0uv9ca6mcngf99lirno94a[450]	speaker: YOU[580]	*->55-1	PropNm[55]	elaboration|elaboration	*|*	130-1[191_190]|131-1[192_190]	
+128-2	3054-3057	hat	_	GWithout[24]	bauen\_set1\_12[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-bauen\_set1\_12[24]	_	_	_	_	_	false[190]	Decl[190]	*[320]	bauen[320]	transitive[320]	*[320]	*[320]	item0[320]	36[450]	male[450]	19gm0uv9ca6mcngf99lirno94a[450]	speaker: YOU[580]	_	_	_	_	_	
+128-3	3058-3061	ein	_	GWithout[24]	bauen\_set1\_12[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-bauen\_set1\_12[24]	*[71]	*[71]	object[71]	*[71]	*[71]	false[190]	Decl[190]	*[320]	bauen[320]	transitive[320]	*[320]	*[320]	item0[320]	36[450]	male[450]	19gm0uv9ca6mcngf99lirno94a[450]	speaker: YOU[580]	*->41-1	IndefNP[41]	_	_	_	
+128-4	3062-3067	Regal	_	GWithout[24]	bauen\_set1\_12[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-bauen\_set1\_12[24]	*[71]	*[71]	object[71]	*[71]	*[71]	false[190]	Decl[190]	*[320]	bauen[320]	transitive[320]	*[320]	*[320]	item0[320]	36[450]	male[450]	19gm0uv9ca6mcngf99lirno94a[450]	speaker: YOU[580]	*->41-1	IndefNP[41]	_	_	_	
+128-5	3068-3074	gebaut	_	GWithout[24]	bauen\_set1\_12[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-bauen\_set1\_12[24]	_	_	_	_	_	false[190]	Decl[190]	*[320]	bauen[320]	transitive[320]	*[320]	*[320]	item0[320]	36[450]	male[450]	19gm0uv9ca6mcngf99lirno94a[450]	speaker: YOU[580]	_	_	_	_	_	
+
+#Text=-
+129-1	3076-3077	-	_	GWithout[24]	bauen\_set1\_12[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-bauen\_set1\_12[24]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	male	*	speaker:Tom	_	_	_	_	_	
+
+#Text=Sieht total klasse aus!
+130-1	3079-3084	Sieht	_	GWithout[24]	bauen\_set1\_12[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-bauen\_set1\_12[24]	3	*	*	*	singular	false[191]	Decl[191]	*[321]	*[321]	*[321]	*[321]	*[321]	input1[321]	36[451]	male[451]	19gm0uv9ca6mcngf99lirno94a[451]	speaker: YOU[581]	*->41-2	zero[41]	_	_	_	
+130-2	3085-3090	total	_	GWithout[24]	bauen\_set1\_12[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-bauen\_set1\_12[24]	_	_	_	_	_	false[191]	Decl[191]	*[321]	*[321]	*[321]	*[321]	*[321]	input1[321]	36[451]	male[451]	19gm0uv9ca6mcngf99lirno94a[451]	speaker: YOU[581]	_	_	_	_	_	
+130-3	3091-3097	klasse	_	GWithout[24]	bauen\_set1\_12[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-bauen\_set1\_12[24]	_	_	_	_	_	false[191]	Decl[191]	*[321]	*[321]	*[321]	*[321]	*[321]	input1[321]	36[451]	male[451]	19gm0uv9ca6mcngf99lirno94a[451]	speaker: YOU[581]	_	_	_	_	_	
+130-4	3098-3102	aus!	_	GWithout[24]	bauen\_set1\_12[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-bauen\_set1\_12[24]	_	_	_	_	_	false[191]	Decl[191]	*[321]	*[321]	*[321]	*[321]	*[321]	input1[321]	36[451]	male[451]	19gm0uv9ca6mcngf99lirno94a[451]	speaker: YOU[581]	_	_	_	_	_	
+
+#Text=Sie hat ein super Talent für handwerkliches Zeug
+131-1	3104-3107	Sie	_	GWithout[24]	bauen\_set1\_12[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-bauen\_set1\_12[24]	3	*	Subj	*	singular	false[192]	Decl[192]	*[322]	*[322]	*[322]	*[322]	*[322]	input2[322]	36[452]	male[452]	19gm0uv9ca6mcngf99lirno94a[452]	speaker: YOU[582]	*->55-2	PerPron[55]	_	_	_	
+131-2	3108-3111	hat	_	GWithout[24]	bauen\_set1\_12[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-bauen\_set1\_12[24]	_	_	_	_	_	false[192]	Decl[192]	*[322]	*[322]	*[322]	*[322]	*[322]	input2[322]	36[452]	male[452]	19gm0uv9ca6mcngf99lirno94a[452]	speaker: YOU[582]	_	_	_	_	_	
+131-3	3112-3115	ein	_	GWithout[24]	bauen\_set1\_12[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-bauen\_set1\_12[24]	*[72]	*[72]	DirObj[72]	*[72]	*[72]	false[192]	Decl[192]	*[322]	*[322]	*[322]	*[322]	*[322]	input2[322]	36[452]	male[452]	19gm0uv9ca6mcngf99lirno94a[452]	speaker: YOU[582]	*->115-1	IndefNP[115]	_	_	_	
+131-4	3116-3121	super	_	GWithout[24]	bauen\_set1\_12[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-bauen\_set1\_12[24]	*[72]	*[72]	DirObj[72]	*[72]	*[72]	false[192]	Decl[192]	*[322]	*[322]	*[322]	*[322]	*[322]	input2[322]	36[452]	male[452]	19gm0uv9ca6mcngf99lirno94a[452]	speaker: YOU[582]	*->115-1	IndefNP[115]	_	_	_	
+131-5	3122-3128	Talent	_	GWithout[24]	bauen\_set1\_12[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-bauen\_set1\_12[24]	*[72]	*[72]	DirObj[72]	*[72]	*[72]	false[192]	Decl[192]	*[322]	*[322]	*[322]	*[322]	*[322]	input2[322]	36[452]	male[452]	19gm0uv9ca6mcngf99lirno94a[452]	speaker: YOU[582]	*->115-1	IndefNP[115]	_	_	_	
+131-6	3129-3132	für	_	GWithout[24]	bauen\_set1\_12[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-bauen\_set1\_12[24]	_	_	_	_	_	false[192]	Decl[192]	*[322]	*[322]	*[322]	*[322]	*[322]	input2[322]	36[452]	male[452]	19gm0uv9ca6mcngf99lirno94a[452]	speaker: YOU[582]	*->115-1	IndefNP[115]	_	_	_	
+131-7	3133-3147	handwerkliches	_	GWithout[24]	bauen\_set1\_12[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-bauen\_set1\_12[24]	*[73]	*[73]	PrepObj[73]	*[73]	*[73]	false[192]	Decl[192]	*[322]	*[322]	*[322]	*[322]	*[322]	input2[322]	36[452]	male[452]	19gm0uv9ca6mcngf99lirno94a[452]	speaker: YOU[582]	*->115-1|*->40-1	IndefNP[115]|DefNP[40]	_	_	_	
+131-8	3148-3152	Zeug	_	GWithout[24]	bauen\_set1\_12[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-bauen\_set1\_12[24]	*[73]	*[73]	PrepObj[73]	*[73]	*[73]	false[192]	Decl[192]	*[322]	*[322]	*[322]	*[322]	*[322]	input2[322]	36[452]	male[452]	19gm0uv9ca6mcngf99lirno94a[452]	speaker: YOU[582]	*->115-1|*->40-1	IndefNP[115]|DefNP[40]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+132-1	3154-3169	END_OF_DOCUMENT	_	GWithout[24]	bauen\_set1\_12[24]	latin3[24]	19gm0uv9ca6mcngf99lirno94a-bauen\_set1\_12[24]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+133-1	3171-3177	Hallo,	_	GWithout[25]	bauen\_set1\_12[25]	latin3[25]	4qae3ph27q5gbjcsrgnltv8qld-bauen\_set1\_12[25]	_	_	_	_	_	false[193]	Int[193]	*[323]	*[323]	*[323]	wh\_2[323]	wh\_question[323]	openq[323]	*[453]	male[453]	*[453]	speaker:Tom[583]	_	_	QAP	*	134-1[194_193]	
+133-2	3178-3181	wie	_	GWithout[25]	bauen\_set1\_12[25]	latin3[25]	4qae3ph27q5gbjcsrgnltv8qld-bauen\_set1\_12[25]	_	_	_	_	_	false[193]	Int[193]	*[323]	*[323]	*[323]	wh\_2[323]	wh\_question[323]	openq[323]	*[453]	male[453]	*[453]	speaker:Tom[583]	_	_	_	_	_	
+133-3	3182-3189	geht's?	_	GWithout[25]	bauen\_set1\_12[25]	latin3[25]	4qae3ph27q5gbjcsrgnltv8qld-bauen\_set1\_12[25]	_	_	_	_	_	false[193]	Int[193]	*[323]	*[323]	*[323]	wh\_2[323]	wh\_question[323]	openq[323]	*[453]	male[453]	*[453]	speaker:Tom[583]	_	_	_	_	_	
+
+#Text=Ariana hat ein Regal gebaut
+134-1	3191-3197	Ariana	_	GWithout[25]	bauen\_set1\_12[25]	latin3[25]	4qae3ph27q5gbjcsrgnltv8qld-bauen\_set1\_12[25]	*	*	Subj	*	*	false[194]	Decl[194]	*[324]	bauen[324]	transitive[324]	*[324]	*[324]	item0[324]	18[454]	female[454]	4qae3ph27q5gbjcsrgnltv8qld[454]	speaker: YOU[584]	*->79-1	PropNm[79]	elaboration	*	136-1[195_194]	
+134-2	3198-3201	hat	_	GWithout[25]	bauen\_set1\_12[25]	latin3[25]	4qae3ph27q5gbjcsrgnltv8qld-bauen\_set1\_12[25]	_	_	_	_	_	false[194]	Decl[194]	*[324]	bauen[324]	transitive[324]	*[324]	*[324]	item0[324]	18[454]	female[454]	4qae3ph27q5gbjcsrgnltv8qld[454]	speaker: YOU[584]	_	_	_	_	_	
+134-3	3202-3205	ein	_	GWithout[25]	bauen\_set1\_12[25]	latin3[25]	4qae3ph27q5gbjcsrgnltv8qld-bauen\_set1\_12[25]	*[74]	*[74]	object[74]	*[74]	*[74]	false[194]	Decl[194]	*[324]	bauen[324]	transitive[324]	*[324]	*[324]	item0[324]	18[454]	female[454]	4qae3ph27q5gbjcsrgnltv8qld[454]	speaker: YOU[584]	*->87-1	IndefNP[87]	_	_	_	
+134-4	3206-3211	Regal	_	GWithout[25]	bauen\_set1\_12[25]	latin3[25]	4qae3ph27q5gbjcsrgnltv8qld-bauen\_set1\_12[25]	*[74]	*[74]	object[74]	*[74]	*[74]	false[194]	Decl[194]	*[324]	bauen[324]	transitive[324]	*[324]	*[324]	item0[324]	18[454]	female[454]	4qae3ph27q5gbjcsrgnltv8qld[454]	speaker: YOU[584]	*->87-1	IndefNP[87]	_	_	_	
+134-5	3212-3218	gebaut	_	GWithout[25]	bauen\_set1\_12[25]	latin3[25]	4qae3ph27q5gbjcsrgnltv8qld-bauen\_set1\_12[25]	_	_	_	_	_	false[194]	Decl[194]	*[324]	bauen[324]	transitive[324]	*[324]	*[324]	item0[324]	18[454]	female[454]	4qae3ph27q5gbjcsrgnltv8qld[454]	speaker: YOU[584]	_	_	_	_	_	
+
+#Text=-
+135-1	3220-3221	-	_	GWithout[25]	bauen\_set1\_12[25]	latin3[25]	4qae3ph27q5gbjcsrgnltv8qld-bauen\_set1\_12[25]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	male	*	speaker:Tom	_	_	_	_	_	
+
+#Text=ganz alleine
+136-1	3223-3227	ganz	_	GWithout[25]	bauen\_set1\_12[25]	latin3[25]	4qae3ph27q5gbjcsrgnltv8qld-bauen\_set1\_12[25]	_	_	_	_	_	false[195]	NA[195]	*[325]	*[325]	*[325]	*[325]	*[325]	input1[325]	18[455]	female[455]	4qae3ph27q5gbjcsrgnltv8qld[455]	speaker: YOU[585]	_	_	elaboration	*	137-1[196_195]	
+136-2	3228-3235	alleine	_	GWithout[25]	bauen\_set1\_12[25]	latin3[25]	4qae3ph27q5gbjcsrgnltv8qld-bauen\_set1\_12[25]	_	_	_	_	_	false[195]	NA[195]	*[325]	*[325]	*[325]	*[325]	*[325]	input1[325]	18[455]	female[455]	4qae3ph27q5gbjcsrgnltv8qld[455]	speaker: YOU[585]	_	_	_	_	_	
+
+#Text=ohne hilfe
+137-1	3237-3241	ohne	_	GWithout[25]	bauen\_set1\_12[25]	latin3[25]	4qae3ph27q5gbjcsrgnltv8qld-bauen\_set1\_12[25]	_	_	_	_	_	false[196]	NA[196]	*[326]	*[326]	*[326]	*[326]	*[326]	input2[326]	18[456]	female[456]	4qae3ph27q5gbjcsrgnltv8qld[456]	speaker: YOU[586]	_	_	_	_	_	
+137-2	3242-3247	hilfe	_	GWithout[25]	bauen\_set1\_12[25]	latin3[25]	4qae3ph27q5gbjcsrgnltv8qld-bauen\_set1\_12[25]	_	_	_	_	_	false[196]	NA[196]	*[326]	*[326]	*[326]	*[326]	*[326]	input2[326]	18[456]	female[456]	4qae3ph27q5gbjcsrgnltv8qld[456]	speaker: YOU[586]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+138-1	3249-3264	END_OF_DOCUMENT	_	GWithout[25]	bauen\_set1\_12[25]	latin3[25]	4qae3ph27q5gbjcsrgnltv8qld-bauen\_set1\_12[25]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+139-1	3266-3272	Hallo,	_	GWithout[26]	bauen\_set1\_12[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-bauen\_set1\_12[26]	_	_	_	_	_	false[197]	Int[197]	*[327]	*[327]	*[327]	wh\_2[327]	wh\_question[327]	openq[327]	*[457]	male[457]	*[457]	speaker:Tom[587]	_	_	QAP	*	140-1[198_197]	
+139-2	3273-3276	wie	_	GWithout[26]	bauen\_set1\_12[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-bauen\_set1\_12[26]	_	_	_	_	_	false[197]	Int[197]	*[327]	*[327]	*[327]	wh\_2[327]	wh\_question[327]	openq[327]	*[457]	male[457]	*[457]	speaker:Tom[587]	_	_	_	_	_	
+139-3	3277-3284	geht's?	_	GWithout[26]	bauen\_set1\_12[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-bauen\_set1\_12[26]	_	_	_	_	_	false[197]	Int[197]	*[327]	*[327]	*[327]	wh\_2[327]	wh\_question[327]	openq[327]	*[457]	male[457]	*[457]	speaker:Tom[587]	_	_	_	_	_	
+
+#Text=Ariana hat ein Regal gebaut
+140-1	3286-3292	Ariana	_	GWithout[26]	bauen\_set1\_12[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-bauen\_set1\_12[26]	*	*	Subj	*	*	false[198]	Decl[198]	*[328]	bauen[328]	transitive[328]	*[328]	*[328]	item0[328]	19[458]	male[458]	f28ipql67ma8cbjqke6k374ach[458]	speaker: YOU[588]	*->45-1	PropNm[45]	result|elaboration	*|*	142-1[199_198]|143-1[200_198]	
+140-2	3293-3296	hat	_	GWithout[26]	bauen\_set1\_12[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-bauen\_set1\_12[26]	_	_	_	_	_	false[198]	Decl[198]	*[328]	bauen[328]	transitive[328]	*[328]	*[328]	item0[328]	19[458]	male[458]	f28ipql67ma8cbjqke6k374ach[458]	speaker: YOU[588]	_	_	_	_	_	
+140-3	3297-3300	ein	_	GWithout[26]	bauen\_set1\_12[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-bauen\_set1\_12[26]	*[75]	*[75]	object[75]	*[75]	*[75]	false[198]	Decl[198]	*[328]	bauen[328]	transitive[328]	*[328]	*[328]	item0[328]	19[458]	male[458]	f28ipql67ma8cbjqke6k374ach[458]	speaker: YOU[588]	*->51-1	IndefNP[51]	_	_	_	
+140-4	3301-3306	Regal	_	GWithout[26]	bauen\_set1\_12[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-bauen\_set1\_12[26]	*[75]	*[75]	object[75]	*[75]	*[75]	false[198]	Decl[198]	*[328]	bauen[328]	transitive[328]	*[328]	*[328]	item0[328]	19[458]	male[458]	f28ipql67ma8cbjqke6k374ach[458]	speaker: YOU[588]	*->51-1	IndefNP[51]	_	_	_	
+140-5	3307-3313	gebaut	_	GWithout[26]	bauen\_set1\_12[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-bauen\_set1\_12[26]	_	_	_	_	_	false[198]	Decl[198]	*[328]	bauen[328]	transitive[328]	*[328]	*[328]	item0[328]	19[458]	male[458]	f28ipql67ma8cbjqke6k374ach[458]	speaker: YOU[588]	_	_	_	_	_	
+
+#Text=-
+141-1	3315-3316	-	_	GWithout[26]	bauen\_set1\_12[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-bauen\_set1\_12[26]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	male	*	speaker:Tom	_	_	_	_	_	
+
+#Text=Jetzt kann ich meine ganzen Bücher verstauen
+142-1	3318-3323	Jetzt	_	GWithout[26]	bauen\_set1\_12[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-bauen\_set1\_12[26]	_	_	_	_	_	false[199]	Decl[199]	*[329]	*[329]	*[329]	*[329]	*[329]	input1[329]	19[459]	male[459]	f28ipql67ma8cbjqke6k374ach[459]	speaker: YOU[589]	_	_	_	_	_	
+142-2	3324-3328	kann	_	GWithout[26]	bauen\_set1\_12[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-bauen\_set1\_12[26]	_	_	_	_	_	false[199]	Decl[199]	*[329]	*[329]	*[329]	*[329]	*[329]	input1[329]	19[459]	male[459]	f28ipql67ma8cbjqke6k374ach[459]	speaker: YOU[589]	_	_	_	_	_	
+142-3	3329-3332	ich	_	GWithout[26]	bauen\_set1\_12[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-bauen\_set1\_12[26]	1	*	Subj	*	singular	false[199]	Decl[199]	*[329]	*[329]	*[329]	*[329]	*[329]	input1[329]	19[459]	male[459]	f28ipql67ma8cbjqke6k374ach[459]	speaker: YOU[589]	*->76-1	PerPron[76]	_	_	_	
+142-4	3333-3338	meine	_	GWithout[26]	bauen\_set1\_12[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-bauen\_set1\_12[26]	*[76]|1[77]	*[76]|*[77]	DirObj[76]|*[77]	*[76]|*[77]	*[76]|singular[77]	false[199]	Decl[199]	*[329]	*[329]	*[329]	*[329]	*[329]	input1[329]	19[459]	male[459]	f28ipql67ma8cbjqke6k374ach[459]	speaker: YOU[589]	*->15-1|*->76-2	DefNP[15]|PossePron[76]	_	_	_	
+142-5	3339-3345	ganzen	_	GWithout[26]	bauen\_set1\_12[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-bauen\_set1\_12[26]	*[76]	*[76]	DirObj[76]	*[76]	*[76]	false[199]	Decl[199]	*[329]	*[329]	*[329]	*[329]	*[329]	input1[329]	19[459]	male[459]	f28ipql67ma8cbjqke6k374ach[459]	speaker: YOU[589]	*->15-1	DefNP[15]	_	_	_	
+142-6	3346-3352	Bücher	_	GWithout[26]	bauen\_set1\_12[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-bauen\_set1\_12[26]	*[76]	*[76]	DirObj[76]	*[76]	*[76]	false[199]	Decl[199]	*[329]	*[329]	*[329]	*[329]	*[329]	input1[329]	19[459]	male[459]	f28ipql67ma8cbjqke6k374ach[459]	speaker: YOU[589]	*->15-1	DefNP[15]	_	_	_	
+142-7	3353-3362	verstauen	_	GWithout[26]	bauen\_set1\_12[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-bauen\_set1\_12[26]	_	_	_	_	_	false[199]	Decl[199]	*[329]	*[329]	*[329]	*[329]	*[329]	input1[329]	19[459]	male[459]	f28ipql67ma8cbjqke6k374ach[459]	speaker: YOU[589]	_	_	_	_	_	
+
+#Text=Leider hat sie sich mit dem Hammer auf die Hand gehauen...
+143-1	3364-3370	Leider	_	GWithout[26]	bauen\_set1\_12[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-bauen\_set1\_12[26]	_	_	_	_	_	false[200]	Decl[200]	*[330]	*[330]	*[330]	*[330]	*[330]	input2[330]	19[460]	male[460]	f28ipql67ma8cbjqke6k374ach[460]	speaker: YOU[590]	_	_	_	_	_	
+143-2	3371-3374	hat	_	GWithout[26]	bauen\_set1\_12[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-bauen\_set1\_12[26]	_	_	_	_	_	false[200]	Decl[200]	*[330]	*[330]	*[330]	*[330]	*[330]	input2[330]	19[460]	male[460]	f28ipql67ma8cbjqke6k374ach[460]	speaker: YOU[590]	_	_	_	_	_	
+143-3	3375-3378	sie	_	GWithout[26]	bauen\_set1\_12[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-bauen\_set1\_12[26]	3	*	Subj	*	singular	false[200]	Decl[200]	*[330]	*[330]	*[330]	*[330]	*[330]	input2[330]	19[460]	male[460]	f28ipql67ma8cbjqke6k374ach[460]	speaker: YOU[590]	*->45-2	PerPron[45]	_	_	_	
+143-4	3379-3383	sich	_	GWithout[26]	bauen\_set1\_12[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-bauen\_set1\_12[26]	_	_	_	_	_	false[200]	Decl[200]	*[330]	*[330]	*[330]	*[330]	*[330]	input2[330]	19[460]	male[460]	f28ipql67ma8cbjqke6k374ach[460]	speaker: YOU[590]	_	_	_	_	_	
+143-5	3384-3387	mit	_	GWithout[26]	bauen\_set1\_12[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-bauen\_set1\_12[26]	_	_	_	_	_	false[200]	Decl[200]	*[330]	*[330]	*[330]	*[330]	*[330]	input2[330]	19[460]	male[460]	f28ipql67ma8cbjqke6k374ach[460]	speaker: YOU[590]	_	_	_	_	_	
+143-6	3388-3391	dem	_	GWithout[26]	bauen\_set1\_12[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-bauen\_set1\_12[26]	*[78]	*[78]	PrepObj[78]	*[78]	*[78]	false[200]	Decl[200]	*[330]	*[330]	*[330]	*[330]	*[330]	input2[330]	19[460]	male[460]	f28ipql67ma8cbjqke6k374ach[460]	speaker: YOU[590]	*->110-1	DefNP[110]	_	_	_	
+143-7	3392-3398	Hammer	_	GWithout[26]	bauen\_set1\_12[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-bauen\_set1\_12[26]	*[78]	*[78]	PrepObj[78]	*[78]	*[78]	false[200]	Decl[200]	*[330]	*[330]	*[330]	*[330]	*[330]	input2[330]	19[460]	male[460]	f28ipql67ma8cbjqke6k374ach[460]	speaker: YOU[590]	*->110-1	DefNP[110]	_	_	_	
+143-8	3399-3402	auf	_	GWithout[26]	bauen\_set1\_12[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-bauen\_set1\_12[26]	_	_	_	_	_	false[200]	Decl[200]	*[330]	*[330]	*[330]	*[330]	*[330]	input2[330]	19[460]	male[460]	f28ipql67ma8cbjqke6k374ach[460]	speaker: YOU[590]	_	_	_	_	_	
+143-9	3403-3406	die	_	GWithout[26]	bauen\_set1\_12[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-bauen\_set1\_12[26]	_	_	_	_	_	false[200]	Decl[200]	*[330]	*[330]	*[330]	*[330]	*[330]	input2[330]	19[460]	male[460]	f28ipql67ma8cbjqke6k374ach[460]	speaker: YOU[590]	*->29-1	DefNP[29]	_	_	_	
+143-10	3407-3411	Hand	_	GWithout[26]	bauen\_set1\_12[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-bauen\_set1\_12[26]	_	_	_	_	_	false[200]	Decl[200]	*[330]	*[330]	*[330]	*[330]	*[330]	input2[330]	19[460]	male[460]	f28ipql67ma8cbjqke6k374ach[460]	speaker: YOU[590]	*->29-1	DefNP[29]	_	_	_	
+143-11	3412-3422	gehauen...	_	GWithout[26]	bauen\_set1\_12[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-bauen\_set1\_12[26]	_	_	_	_	_	false[200]	Decl[200]	*[330]	*[330]	*[330]	*[330]	*[330]	input2[330]	19[460]	male[460]	f28ipql67ma8cbjqke6k374ach[460]	speaker: YOU[590]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+144-1	3424-3439	END_OF_DOCUMENT	_	GWithout[26]	bauen\_set1\_12[26]	latin3[26]	f28ipql67ma8cbjqke6k374ach-bauen\_set1\_12[26]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+145-1	3441-3447	Hallo,	_	GWithout[27]	bauen\_set1\_12[27]	latin3[27]	ifdbjqro2nfkup12rv8t6k0eu9-bauen\_set1\_12[27]	_	_	_	_	_	false[201]	Int[201]	*[331]	*[331]	*[331]	wh\_2[331]	wh\_question[331]	openq[331]	*[461]	male[461]	*[461]	speaker:Tom[591]	_	_	QAP	*	146-1[202_201]	
+145-2	3448-3451	wie	_	GWithout[27]	bauen\_set1\_12[27]	latin3[27]	ifdbjqro2nfkup12rv8t6k0eu9-bauen\_set1\_12[27]	_	_	_	_	_	false[201]	Int[201]	*[331]	*[331]	*[331]	wh\_2[331]	wh\_question[331]	openq[331]	*[461]	male[461]	*[461]	speaker:Tom[591]	_	_	_	_	_	
+145-3	3452-3459	geht's?	_	GWithout[27]	bauen\_set1\_12[27]	latin3[27]	ifdbjqro2nfkup12rv8t6k0eu9-bauen\_set1\_12[27]	_	_	_	_	_	false[201]	Int[201]	*[331]	*[331]	*[331]	wh\_2[331]	wh\_question[331]	openq[331]	*[461]	male[461]	*[461]	speaker:Tom[591]	_	_	_	_	_	
+
+#Text=Ariana hat ein Regal gebaut
+146-1	3461-3467	Ariana	_	GWithout[27]	bauen\_set1\_12[27]	latin3[27]	ifdbjqro2nfkup12rv8t6k0eu9-bauen\_set1\_12[27]	*	*	Subj	*	*	false[202]	Decl[202]	*[332]	bauen[332]	transitive[332]	*[332]	*[332]	item0[332]	36[462]	male[462]	ifdbjqro2nfkup12rv8t6k0eu9[462]	speaker: YOU[592]	*->71-1	PropNm[71]	elaboration|elaboration	*|*	148-1[203_202]|149-1[204_202]	
+146-2	3468-3471	hat	_	GWithout[27]	bauen\_set1\_12[27]	latin3[27]	ifdbjqro2nfkup12rv8t6k0eu9-bauen\_set1\_12[27]	_	_	_	_	_	false[202]	Decl[202]	*[332]	bauen[332]	transitive[332]	*[332]	*[332]	item0[332]	36[462]	male[462]	ifdbjqro2nfkup12rv8t6k0eu9[462]	speaker: YOU[592]	_	_	_	_	_	
+146-3	3472-3475	ein	_	GWithout[27]	bauen\_set1\_12[27]	latin3[27]	ifdbjqro2nfkup12rv8t6k0eu9-bauen\_set1\_12[27]	*[79]	*[79]	object[79]	*[79]	*[79]	false[202]	Decl[202]	*[332]	bauen[332]	transitive[332]	*[332]	*[332]	item0[332]	36[462]	male[462]	ifdbjqro2nfkup12rv8t6k0eu9[462]	speaker: YOU[592]	*->100-1	IndefNP[100]	_	_	_	
+146-4	3476-3481	Regal	_	GWithout[27]	bauen\_set1\_12[27]	latin3[27]	ifdbjqro2nfkup12rv8t6k0eu9-bauen\_set1\_12[27]	*[79]	*[79]	object[79]	*[79]	*[79]	false[202]	Decl[202]	*[332]	bauen[332]	transitive[332]	*[332]	*[332]	item0[332]	36[462]	male[462]	ifdbjqro2nfkup12rv8t6k0eu9[462]	speaker: YOU[592]	*->100-1	IndefNP[100]	_	_	_	
+146-5	3482-3488	gebaut	_	GWithout[27]	bauen\_set1\_12[27]	latin3[27]	ifdbjqro2nfkup12rv8t6k0eu9-bauen\_set1\_12[27]	_	_	_	_	_	false[202]	Decl[202]	*[332]	bauen[332]	transitive[332]	*[332]	*[332]	item0[332]	36[462]	male[462]	ifdbjqro2nfkup12rv8t6k0eu9[462]	speaker: YOU[592]	_	_	_	_	_	
+
+#Text=-
+147-1	3490-3491	-	_	GWithout[27]	bauen\_set1\_12[27]	latin3[27]	ifdbjqro2nfkup12rv8t6k0eu9-bauen\_set1\_12[27]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	male	*	speaker:Tom	_	_	_	_	_	
+
+#Text=komplett aus Holz
+148-1	3493-3501	komplett	_	GWithout[27]	bauen\_set1\_12[27]	latin3[27]	ifdbjqro2nfkup12rv8t6k0eu9-bauen\_set1\_12[27]	_	_	_	_	_	false[203]	NA[203]	*[333]	*[333]	*[333]	*[333]	*[333]	input1[333]	36[463]	male[463]	ifdbjqro2nfkup12rv8t6k0eu9[463]	speaker: YOU[593]	_	_	_	_	_	
+148-2	3502-3505	aus	_	GWithout[27]	bauen\_set1\_12[27]	latin3[27]	ifdbjqro2nfkup12rv8t6k0eu9-bauen\_set1\_12[27]	_	_	_	_	_	false[203]	NA[203]	*[333]	*[333]	*[333]	*[333]	*[333]	input1[333]	36[463]	male[463]	ifdbjqro2nfkup12rv8t6k0eu9[463]	speaker: YOU[593]	_	_	_	_	_	
+148-3	3506-3510	Holz	_	GWithout[27]	bauen\_set1\_12[27]	latin3[27]	ifdbjqro2nfkup12rv8t6k0eu9-bauen\_set1\_12[27]	*	*	PrepObj	*	*	false[203]	NA[203]	*[333]	*[333]	*[333]	*[333]	*[333]	input1[333]	36[463]	male[463]	ifdbjqro2nfkup12rv8t6k0eu9[463]	speaker: YOU[593]	_	_	_	_	_	
+
+#Text=bei Ikea
+149-1	3512-3515	bei	_	GWithout[27]	bauen\_set1\_12[27]	latin3[27]	ifdbjqro2nfkup12rv8t6k0eu9-bauen\_set1\_12[27]	_	_	_	_	_	false[204]	NA[204]	*[334]	*[334]	*[334]	*[334]	*[334]	input2[334]	36[464]	male[464]	ifdbjqro2nfkup12rv8t6k0eu9[464]	speaker: YOU[594]	_	_	_	_	_	
+149-2	3516-3520	Ikea	_	GWithout[27]	bauen\_set1\_12[27]	latin3[27]	ifdbjqro2nfkup12rv8t6k0eu9-bauen\_set1\_12[27]	*	*	PrepObj	*	*	false[204]	NA[204]	*[334]	*[334]	*[334]	*[334]	*[334]	input2[334]	36[464]	male[464]	ifdbjqro2nfkup12rv8t6k0eu9[464]	speaker: YOU[594]	*->49-1	PropNm[49]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+150-1	3522-3537	END_OF_DOCUMENT	_	GWithout[27]	bauen\_set1\_12[27]	latin3[27]	ifdbjqro2nfkup12rv8t6k0eu9-bauen\_set1\_12[27]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+151-1	3539-3545	Hallo,	_	GWithout[28]	bauen\_set1\_12[28]	latin3[28]	nn1fs9jkn62eo9089lo89usbkb-bauen\_set1\_12[28]	_	_	_	_	_	false[205]	Int[205]	*[335]	*[335]	*[335]	wh\_2[335]	wh\_question[335]	openq[335]	*[465]	male[465]	*[465]	speaker:Tom[595]	_	_	QAP	*	152-1[206_205]	
+151-2	3546-3549	wie	_	GWithout[28]	bauen\_set1\_12[28]	latin3[28]	nn1fs9jkn62eo9089lo89usbkb-bauen\_set1\_12[28]	_	_	_	_	_	false[205]	Int[205]	*[335]	*[335]	*[335]	wh\_2[335]	wh\_question[335]	openq[335]	*[465]	male[465]	*[465]	speaker:Tom[595]	_	_	_	_	_	
+151-3	3550-3557	geht's?	_	GWithout[28]	bauen\_set1\_12[28]	latin3[28]	nn1fs9jkn62eo9089lo89usbkb-bauen\_set1\_12[28]	_	_	_	_	_	false[205]	Int[205]	*[335]	*[335]	*[335]	wh\_2[335]	wh\_question[335]	openq[335]	*[465]	male[465]	*[465]	speaker:Tom[595]	_	_	_	_	_	
+
+#Text=Ariana hat ein Regal gebaut
+152-1	3559-3565	Ariana	_	GWithout[28]	bauen\_set1\_12[28]	latin3[28]	nn1fs9jkn62eo9089lo89usbkb-bauen\_set1\_12[28]	*	*	Subj	*	*	false[206]	Decl[206]	*[336]	bauen[336]	transitive[336]	*[336]	*[336]	item0[336]	27[466]	female[466]	nn1fs9jkn62eo9089lo89usbkb[466]	speaker: YOU[596]	*->54-1|*->10-1	clause[54]|PropNm[10]	elaboration	*	154-1[207_206]	
+152-2	3566-3569	hat	_	GWithout[28]	bauen\_set1\_12[28]	latin3[28]	nn1fs9jkn62eo9089lo89usbkb-bauen\_set1\_12[28]	_	_	_	_	_	false[206]	Decl[206]	*[336]	bauen[336]	transitive[336]	*[336]	*[336]	item0[336]	27[466]	female[466]	nn1fs9jkn62eo9089lo89usbkb[466]	speaker: YOU[596]	*->54-1	clause[54]	_	_	_	
+152-3	3570-3573	ein	_	GWithout[28]	bauen\_set1\_12[28]	latin3[28]	nn1fs9jkn62eo9089lo89usbkb-bauen\_set1\_12[28]	*[80]	*[80]	object[80]	*[80]	*[80]	false[206]	Decl[206]	*[336]	bauen[336]	transitive[336]	*[336]	*[336]	item0[336]	27[466]	female[466]	nn1fs9jkn62eo9089lo89usbkb[466]	speaker: YOU[596]	*->54-1|*->27-1	clause[54]|IndefNP[27]	_	_	_	
+152-4	3574-3579	Regal	_	GWithout[28]	bauen\_set1\_12[28]	latin3[28]	nn1fs9jkn62eo9089lo89usbkb-bauen\_set1\_12[28]	*[80]	*[80]	object[80]	*[80]	*[80]	false[206]	Decl[206]	*[336]	bauen[336]	transitive[336]	*[336]	*[336]	item0[336]	27[466]	female[466]	nn1fs9jkn62eo9089lo89usbkb[466]	speaker: YOU[596]	*->54-1|*->27-1	clause[54]|IndefNP[27]	_	_	_	
+152-5	3580-3586	gebaut	_	GWithout[28]	bauen\_set1\_12[28]	latin3[28]	nn1fs9jkn62eo9089lo89usbkb-bauen\_set1\_12[28]	_	_	_	_	_	false[206]	Decl[206]	*[336]	bauen[336]	transitive[336]	*[336]	*[336]	item0[336]	27[466]	female[466]	nn1fs9jkn62eo9089lo89usbkb[466]	speaker: YOU[596]	*->54-1	clause[54]	_	_	_	
+
+#Text=-
+153-1	3588-3589	-	_	GWithout[28]	bauen\_set1\_12[28]	latin3[28]	nn1fs9jkn62eo9089lo89usbkb-bauen\_set1\_12[28]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	male	*	speaker:Tom	_	_	_	_	_	
+
+#Text=Dabei hat sie sich verletzt.
+154-1	3591-3596	Dabei	_	GWithout[28]	bauen\_set1\_12[28]	latin3[28]	nn1fs9jkn62eo9089lo89usbkb-bauen\_set1\_12[28]	_	_	_	_	_	false[207]	Decl[207]	*[337]	*[337]	*[337]	*[337]	*[337]	input1[337]	27[467]	female[467]	nn1fs9jkn62eo9089lo89usbkb[467]	speaker: YOU[597]	*->84-1|*->54-2	clause[84]|D-Pron[54]	result	*	155-1[208_207]	
+154-2	3597-3600	hat	_	GWithout[28]	bauen\_set1\_12[28]	latin3[28]	nn1fs9jkn62eo9089lo89usbkb-bauen\_set1\_12[28]	_	_	_	_	_	false[207]	Decl[207]	*[337]	*[337]	*[337]	*[337]	*[337]	input1[337]	27[467]	female[467]	nn1fs9jkn62eo9089lo89usbkb[467]	speaker: YOU[597]	*->84-1	clause[84]	_	_	_	
+154-3	3601-3604	sie	_	GWithout[28]	bauen\_set1\_12[28]	latin3[28]	nn1fs9jkn62eo9089lo89usbkb-bauen\_set1\_12[28]	3	*	Subj	*	singular	false[207]	Decl[207]	*[337]	*[337]	*[337]	*[337]	*[337]	input1[337]	27[467]	female[467]	nn1fs9jkn62eo9089lo89usbkb[467]	speaker: YOU[597]	*->84-1|*->10-2	clause[84]|PerPron[10]	_	_	_	
+154-4	3605-3609	sich	_	GWithout[28]	bauen\_set1\_12[28]	latin3[28]	nn1fs9jkn62eo9089lo89usbkb-bauen\_set1\_12[28]	_	_	_	_	_	false[207]	Decl[207]	*[337]	*[337]	*[337]	*[337]	*[337]	input1[337]	27[467]	female[467]	nn1fs9jkn62eo9089lo89usbkb[467]	speaker: YOU[597]	*->84-1	clause[84]	_	_	_	
+154-5	3610-3619	verletzt.	_	GWithout[28]	bauen\_set1\_12[28]	latin3[28]	nn1fs9jkn62eo9089lo89usbkb-bauen\_set1\_12[28]	_	_	_	_	_	false[207]	Decl[207]	*[337]	*[337]	*[337]	*[337]	*[337]	input1[337]	27[467]	female[467]	nn1fs9jkn62eo9089lo89usbkb[467]	speaker: YOU[597]	*->84-1	clause[84]	_	_	_	
+
+#Text=Deshalb ist der Umzug für heute mal beendet.
+155-1	3621-3628	Deshalb	_	GWithout[28]	bauen\_set1\_12[28]	latin3[28]	nn1fs9jkn62eo9089lo89usbkb-bauen\_set1\_12[28]	_	_	_	_	_	false[208]	Decl[208]	*[338]	*[338]	*[338]	*[338]	*[338]	input2[338]	27[468]	female[468]	nn1fs9jkn62eo9089lo89usbkb[468]	speaker: YOU[598]	*->84-2	DemPron[84]	_	_	_	
+155-2	3629-3632	ist	_	GWithout[28]	bauen\_set1\_12[28]	latin3[28]	nn1fs9jkn62eo9089lo89usbkb-bauen\_set1\_12[28]	_	_	_	_	_	false[208]	Decl[208]	*[338]	*[338]	*[338]	*[338]	*[338]	input2[338]	27[468]	female[468]	nn1fs9jkn62eo9089lo89usbkb[468]	speaker: YOU[598]	_	_	_	_	_	
+155-3	3633-3636	der	_	GWithout[28]	bauen\_set1\_12[28]	latin3[28]	nn1fs9jkn62eo9089lo89usbkb-bauen\_set1\_12[28]	*[81]	*[81]	Subj[81]	*[81]	*[81]	false[208]	Decl[208]	*[338]	*[338]	*[338]	*[338]	*[338]	input2[338]	27[468]	female[468]	nn1fs9jkn62eo9089lo89usbkb[468]	speaker: YOU[598]	*->107-1	DefNP[107]	_	_	_	
+155-4	3637-3642	Umzug	_	GWithout[28]	bauen\_set1\_12[28]	latin3[28]	nn1fs9jkn62eo9089lo89usbkb-bauen\_set1\_12[28]	*[81]	*[81]	Subj[81]	*[81]	*[81]	false[208]	Decl[208]	*[338]	*[338]	*[338]	*[338]	*[338]	input2[338]	27[468]	female[468]	nn1fs9jkn62eo9089lo89usbkb[468]	speaker: YOU[598]	*->107-1	DefNP[107]	_	_	_	
+155-5	3643-3646	für	_	GWithout[28]	bauen\_set1\_12[28]	latin3[28]	nn1fs9jkn62eo9089lo89usbkb-bauen\_set1\_12[28]	_	_	_	_	_	false[208]	Decl[208]	*[338]	*[338]	*[338]	*[338]	*[338]	input2[338]	27[468]	female[468]	nn1fs9jkn62eo9089lo89usbkb[468]	speaker: YOU[598]	_	_	_	_	_	
+155-6	3647-3652	heute	_	GWithout[28]	bauen\_set1\_12[28]	latin3[28]	nn1fs9jkn62eo9089lo89usbkb-bauen\_set1\_12[28]	_	_	_	_	_	false[208]	Decl[208]	*[338]	*[338]	*[338]	*[338]	*[338]	input2[338]	27[468]	female[468]	nn1fs9jkn62eo9089lo89usbkb[468]	speaker: YOU[598]	_	_	_	_	_	
+155-7	3653-3656	mal	_	GWithout[28]	bauen\_set1\_12[28]	latin3[28]	nn1fs9jkn62eo9089lo89usbkb-bauen\_set1\_12[28]	_	_	_	_	_	false[208]	Decl[208]	*[338]	*[338]	*[338]	*[338]	*[338]	input2[338]	27[468]	female[468]	nn1fs9jkn62eo9089lo89usbkb[468]	speaker: YOU[598]	_	_	_	_	_	
+155-8	3657-3665	beendet.	_	GWithout[28]	bauen\_set1\_12[28]	latin3[28]	nn1fs9jkn62eo9089lo89usbkb-bauen\_set1\_12[28]	_	_	_	_	_	false[208]	Decl[208]	*[338]	*[338]	*[338]	*[338]	*[338]	input2[338]	27[468]	female[468]	nn1fs9jkn62eo9089lo89usbkb[468]	speaker: YOU[598]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+156-1	3667-3682	END_OF_DOCUMENT	_	GWithout[28]	bauen\_set1\_12[28]	latin3[28]	nn1fs9jkn62eo9089lo89usbkb-bauen\_set1\_12[28]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+157-1	3684-3690	Hallo,	_	GWithout[29]	bauen\_set1\_12[29]	latin3[29]	qaaqp55l485lvs9rdvpvbtmqal-bauen\_set1\_12[29]	_	_	_	_	_	false[209]	Int[209]	*[339]	*[339]	*[339]	wh\_2[339]	wh\_question[339]	openq[339]	*[469]	male[469]	*[469]	speaker:Tom[599]	_	_	QAP	*	158-1[210_209]	
+157-2	3691-3694	wie	_	GWithout[29]	bauen\_set1\_12[29]	latin3[29]	qaaqp55l485lvs9rdvpvbtmqal-bauen\_set1\_12[29]	_	_	_	_	_	false[209]	Int[209]	*[339]	*[339]	*[339]	wh\_2[339]	wh\_question[339]	openq[339]	*[469]	male[469]	*[469]	speaker:Tom[599]	_	_	_	_	_	
+157-3	3695-3702	geht's?	_	GWithout[29]	bauen\_set1\_12[29]	latin3[29]	qaaqp55l485lvs9rdvpvbtmqal-bauen\_set1\_12[29]	_	_	_	_	_	false[209]	Int[209]	*[339]	*[339]	*[339]	wh\_2[339]	wh\_question[339]	openq[339]	*[469]	male[469]	*[469]	speaker:Tom[599]	_	_	_	_	_	
+
+#Text=Ariana hat ein Regal gebaut
+158-1	3704-3710	Ariana	_	GWithout[29]	bauen\_set1\_12[29]	latin3[29]	qaaqp55l485lvs9rdvpvbtmqal-bauen\_set1\_12[29]	*	*	Subj	*	*	false[210]	Decl[210]	*[340]	bauen[340]	transitive[340]	*[340]	*[340]	item0[340]	24[470]	male[470]	qaaqp55l485lvs9rdvpvbtmqal[470]	speaker: YOU[600]	*->61-1	PropNm[61]	elaboration	*	160-1[211_210]	
+158-2	3711-3714	hat	_	GWithout[29]	bauen\_set1\_12[29]	latin3[29]	qaaqp55l485lvs9rdvpvbtmqal-bauen\_set1\_12[29]	_	_	_	_	_	false[210]	Decl[210]	*[340]	bauen[340]	transitive[340]	*[340]	*[340]	item0[340]	24[470]	male[470]	qaaqp55l485lvs9rdvpvbtmqal[470]	speaker: YOU[600]	_	_	_	_	_	
+158-3	3715-3718	ein	_	GWithout[29]	bauen\_set1\_12[29]	latin3[29]	qaaqp55l485lvs9rdvpvbtmqal-bauen\_set1\_12[29]	*[82]	*[82]	object[82]	*[82]	*[82]	false[210]	Decl[210]	*[340]	bauen[340]	transitive[340]	*[340]	*[340]	item0[340]	24[470]	male[470]	qaaqp55l485lvs9rdvpvbtmqal[470]	speaker: YOU[600]	*->118-1	IndefNP[118]	_	_	_	
+158-4	3719-3724	Regal	_	GWithout[29]	bauen\_set1\_12[29]	latin3[29]	qaaqp55l485lvs9rdvpvbtmqal-bauen\_set1\_12[29]	*[82]	*[82]	object[82]	*[82]	*[82]	false[210]	Decl[210]	*[340]	bauen[340]	transitive[340]	*[340]	*[340]	item0[340]	24[470]	male[470]	qaaqp55l485lvs9rdvpvbtmqal[470]	speaker: YOU[600]	*->118-1	IndefNP[118]	_	_	_	
+158-5	3725-3731	gebaut	_	GWithout[29]	bauen\_set1\_12[29]	latin3[29]	qaaqp55l485lvs9rdvpvbtmqal-bauen\_set1\_12[29]	_	_	_	_	_	false[210]	Decl[210]	*[340]	bauen[340]	transitive[340]	*[340]	*[340]	item0[340]	24[470]	male[470]	qaaqp55l485lvs9rdvpvbtmqal[470]	speaker: YOU[600]	_	_	_	_	_	
+
+#Text=-
+159-1	3733-3734	-	_	GWithout[29]	bauen\_set1\_12[29]	latin3[29]	qaaqp55l485lvs9rdvpvbtmqal-bauen\_set1\_12[29]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	male	*	speaker:Tom	_	_	_	_	_	
+
+#Text=Ich war ziemlich begeistert
+160-1	3736-3739	Ich	_	GWithout[29]	bauen\_set1\_12[29]	latin3[29]	qaaqp55l485lvs9rdvpvbtmqal-bauen\_set1\_12[29]	1	*	Subj	*	singular	false[211]	Decl[211]	*[341]	*[341]	*[341]	*[341]	*[341]	input1[341]	24[471]	male[471]	qaaqp55l485lvs9rdvpvbtmqal[471]	speaker: YOU[601]	*->95-1	PerPron[95]	explanation	*	161-1[212_211]	
+160-2	3740-3743	war	_	GWithout[29]	bauen\_set1\_12[29]	latin3[29]	qaaqp55l485lvs9rdvpvbtmqal-bauen\_set1\_12[29]	_	_	_	_	_	false[211]	Decl[211]	*[341]	*[341]	*[341]	*[341]	*[341]	input1[341]	24[471]	male[471]	qaaqp55l485lvs9rdvpvbtmqal[471]	speaker: YOU[601]	_	_	_	_	_	
+160-3	3744-3752	ziemlich	_	GWithout[29]	bauen\_set1\_12[29]	latin3[29]	qaaqp55l485lvs9rdvpvbtmqal-bauen\_set1\_12[29]	_	_	_	_	_	false[211]	Decl[211]	*[341]	*[341]	*[341]	*[341]	*[341]	input1[341]	24[471]	male[471]	qaaqp55l485lvs9rdvpvbtmqal[471]	speaker: YOU[601]	_	_	_	_	_	
+160-4	3753-3763	begeistert	_	GWithout[29]	bauen\_set1\_12[29]	latin3[29]	qaaqp55l485lvs9rdvpvbtmqal-bauen\_set1\_12[29]	_	_	_	_	_	false[211]	Decl[211]	*[341]	*[341]	*[341]	*[341]	*[341]	input1[341]	24[471]	male[471]	qaaqp55l485lvs9rdvpvbtmqal[471]	speaker: YOU[601]	_	_	_	_	_	
+
+#Text=Das Regal war in unter 1 Stunde aufgebaut
+161-1	3765-3768	Das	_	GWithout[29]	bauen\_set1\_12[29]	latin3[29]	qaaqp55l485lvs9rdvpvbtmqal-bauen\_set1\_12[29]	*[83]	*[83]	Subj[83]	*[83]	*[83]	false[212]	Decl[212]	*[342]	*[342]	*[342]	*[342]	*[342]	input2[342]	24[472]	male[472]	qaaqp55l485lvs9rdvpvbtmqal[472]	speaker: YOU[602]	*->118-2	DefNP[118]	_	_	_	
+161-2	3769-3774	Regal	_	GWithout[29]	bauen\_set1\_12[29]	latin3[29]	qaaqp55l485lvs9rdvpvbtmqal-bauen\_set1\_12[29]	*[83]	*[83]	Subj[83]	*[83]	*[83]	false[212]	Decl[212]	*[342]	*[342]	*[342]	*[342]	*[342]	input2[342]	24[472]	male[472]	qaaqp55l485lvs9rdvpvbtmqal[472]	speaker: YOU[602]	*->118-2	DefNP[118]	_	_	_	
+161-3	3775-3778	war	_	GWithout[29]	bauen\_set1\_12[29]	latin3[29]	qaaqp55l485lvs9rdvpvbtmqal-bauen\_set1\_12[29]	_	_	_	_	_	false[212]	Decl[212]	*[342]	*[342]	*[342]	*[342]	*[342]	input2[342]	24[472]	male[472]	qaaqp55l485lvs9rdvpvbtmqal[472]	speaker: YOU[602]	_	_	_	_	_	
+161-4	3779-3781	in	_	GWithout[29]	bauen\_set1\_12[29]	latin3[29]	qaaqp55l485lvs9rdvpvbtmqal-bauen\_set1\_12[29]	_	_	_	_	_	false[212]	Decl[212]	*[342]	*[342]	*[342]	*[342]	*[342]	input2[342]	24[472]	male[472]	qaaqp55l485lvs9rdvpvbtmqal[472]	speaker: YOU[602]	_	_	_	_	_	
+161-5	3782-3787	unter	_	GWithout[29]	bauen\_set1\_12[29]	latin3[29]	qaaqp55l485lvs9rdvpvbtmqal-bauen\_set1\_12[29]	_	_	_	_	_	false[212]	Decl[212]	*[342]	*[342]	*[342]	*[342]	*[342]	input2[342]	24[472]	male[472]	qaaqp55l485lvs9rdvpvbtmqal[472]	speaker: YOU[602]	_	_	_	_	_	
+161-6	3788-3789	1	_	GWithout[29]	bauen\_set1\_12[29]	latin3[29]	qaaqp55l485lvs9rdvpvbtmqal-bauen\_set1\_12[29]	_	_	_	_	_	false[212]	Decl[212]	*[342]	*[342]	*[342]	*[342]	*[342]	input2[342]	24[472]	male[472]	qaaqp55l485lvs9rdvpvbtmqal[472]	speaker: YOU[602]	*->99-1	IndefNP[99]	_	_	_	
+161-7	3790-3796	Stunde	_	GWithout[29]	bauen\_set1\_12[29]	latin3[29]	qaaqp55l485lvs9rdvpvbtmqal-bauen\_set1\_12[29]	_	_	_	_	_	false[212]	Decl[212]	*[342]	*[342]	*[342]	*[342]	*[342]	input2[342]	24[472]	male[472]	qaaqp55l485lvs9rdvpvbtmqal[472]	speaker: YOU[602]	*->99-1	IndefNP[99]	_	_	_	
+161-8	3797-3806	aufgebaut	_	GWithout[29]	bauen\_set1\_12[29]	latin3[29]	qaaqp55l485lvs9rdvpvbtmqal-bauen\_set1\_12[29]	_	_	_	_	_	false[212]	Decl[212]	*[342]	*[342]	*[342]	*[342]	*[342]	input2[342]	24[472]	male[472]	qaaqp55l485lvs9rdvpvbtmqal[472]	speaker: YOU[602]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+162-1	3808-3823	END_OF_DOCUMENT	_	GWithout[29]	bauen\_set1\_12[29]	latin3[29]	qaaqp55l485lvs9rdvpvbtmqal-bauen\_set1\_12[29]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+163-1	3825-3831	Hallo,	_	GWithout[30]	bauen\_set1\_12[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-bauen\_set1\_12[30]	_	_	_	_	_	false[213]	Int[213]	*[343]	*[343]	*[343]	wh\_2[343]	wh\_question[343]	openq[343]	*[473]	male[473]	*[473]	speaker:Tom[603]	_	_	QAP	*	164-1[214_213]	
+163-2	3832-3835	wie	_	GWithout[30]	bauen\_set1\_12[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-bauen\_set1\_12[30]	_	_	_	_	_	false[213]	Int[213]	*[343]	*[343]	*[343]	wh\_2[343]	wh\_question[343]	openq[343]	*[473]	male[473]	*[473]	speaker:Tom[603]	_	_	_	_	_	
+163-3	3836-3843	geht's?	_	GWithout[30]	bauen\_set1\_12[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-bauen\_set1\_12[30]	_	_	_	_	_	false[213]	Int[213]	*[343]	*[343]	*[343]	wh\_2[343]	wh\_question[343]	openq[343]	*[473]	male[473]	*[473]	speaker:Tom[603]	_	_	_	_	_	
+
+#Text=Ariana hat ein Regal gebaut
+164-1	3845-3851	Ariana	_	GWithout[30]	bauen\_set1\_12[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-bauen\_set1\_12[30]	*	*	Subj	*	*	false[214]	Decl[214]	*[344]	bauen[344]	transitive[344]	*[344]	*[344]	item0[344]	25[474]	female[474]	t6ah1r7hfmcncb44kgnh0sjmv6[474]	speaker: YOU[604]	*->6-1	PropNm[6]	elaboration	*	166-1[215_214]	
+164-2	3852-3855	hat	_	GWithout[30]	bauen\_set1\_12[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-bauen\_set1\_12[30]	_	_	_	_	_	false[214]	Decl[214]	*[344]	bauen[344]	transitive[344]	*[344]	*[344]	item0[344]	25[474]	female[474]	t6ah1r7hfmcncb44kgnh0sjmv6[474]	speaker: YOU[604]	_	_	_	_	_	
+164-3	3856-3859	ein	_	GWithout[30]	bauen\_set1\_12[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-bauen\_set1\_12[30]	*[84]	*[84]	object[84]	*[84]	*[84]	false[214]	Decl[214]	*[344]	bauen[344]	transitive[344]	*[344]	*[344]	item0[344]	25[474]	female[474]	t6ah1r7hfmcncb44kgnh0sjmv6[474]	speaker: YOU[604]	*->106-1	IndefNP[106]	_	_	_	
+164-4	3860-3865	Regal	_	GWithout[30]	bauen\_set1\_12[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-bauen\_set1\_12[30]	*[84]	*[84]	object[84]	*[84]	*[84]	false[214]	Decl[214]	*[344]	bauen[344]	transitive[344]	*[344]	*[344]	item0[344]	25[474]	female[474]	t6ah1r7hfmcncb44kgnh0sjmv6[474]	speaker: YOU[604]	*->106-1	IndefNP[106]	_	_	_	
+164-5	3866-3872	gebaut	_	GWithout[30]	bauen\_set1\_12[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-bauen\_set1\_12[30]	_	_	_	_	_	false[214]	Decl[214]	*[344]	bauen[344]	transitive[344]	*[344]	*[344]	item0[344]	25[474]	female[474]	t6ah1r7hfmcncb44kgnh0sjmv6[474]	speaker: YOU[604]	_	_	_	_	_	
+
+#Text=-
+165-1	3874-3875	-	_	GWithout[30]	bauen\_set1\_12[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-bauen\_set1\_12[30]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	male	*	speaker:Tom	_	_	_	_	_	
+
+#Text=Es passt richtig gut in die neue Wohnung!
+166-1	3877-3879	Es	_	GWithout[30]	bauen\_set1\_12[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-bauen\_set1\_12[30]	3	*	Subj	*	singular	false[215]	Decl[215]	*[345]	*[345]	*[345]	*[345]	*[345]	input1[345]	25[475]	female[475]	t6ah1r7hfmcncb44kgnh0sjmv6[475]	speaker: YOU[605]	*->106-2	PerPron[106]	_	_	_	
+166-2	3880-3885	passt	_	GWithout[30]	bauen\_set1\_12[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-bauen\_set1\_12[30]	_	_	_	_	_	false[215]	Decl[215]	*[345]	*[345]	*[345]	*[345]	*[345]	input1[345]	25[475]	female[475]	t6ah1r7hfmcncb44kgnh0sjmv6[475]	speaker: YOU[605]	_	_	_	_	_	
+166-3	3886-3893	richtig	_	GWithout[30]	bauen\_set1\_12[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-bauen\_set1\_12[30]	_	_	_	_	_	false[215]	Decl[215]	*[345]	*[345]	*[345]	*[345]	*[345]	input1[345]	25[475]	female[475]	t6ah1r7hfmcncb44kgnh0sjmv6[475]	speaker: YOU[605]	_	_	_	_	_	
+166-4	3894-3897	gut	_	GWithout[30]	bauen\_set1\_12[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-bauen\_set1\_12[30]	_	_	_	_	_	false[215]	Decl[215]	*[345]	*[345]	*[345]	*[345]	*[345]	input1[345]	25[475]	female[475]	t6ah1r7hfmcncb44kgnh0sjmv6[475]	speaker: YOU[605]	_	_	_	_	_	
+166-5	3898-3900	in	_	GWithout[30]	bauen\_set1\_12[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-bauen\_set1\_12[30]	_	_	_	_	_	false[215]	Decl[215]	*[345]	*[345]	*[345]	*[345]	*[345]	input1[345]	25[475]	female[475]	t6ah1r7hfmcncb44kgnh0sjmv6[475]	speaker: YOU[605]	_	_	_	_	_	
+166-6	3901-3904	die	_	GWithout[30]	bauen\_set1\_12[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-bauen\_set1\_12[30]	*[85]	*[85]	PrepObj[85]	*[85]	*[85]	false[215]	Decl[215]	*[345]	*[345]	*[345]	*[345]	*[345]	input1[345]	25[475]	female[475]	t6ah1r7hfmcncb44kgnh0sjmv6[475]	speaker: YOU[605]	*->8-1	DefNP[8]	_	_	_	
+166-7	3905-3909	neue	_	GWithout[30]	bauen\_set1\_12[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-bauen\_set1\_12[30]	*[85]	*[85]	PrepObj[85]	*[85]	*[85]	false[215]	Decl[215]	*[345]	*[345]	*[345]	*[345]	*[345]	input1[345]	25[475]	female[475]	t6ah1r7hfmcncb44kgnh0sjmv6[475]	speaker: YOU[605]	*->8-1	DefNP[8]	_	_	_	
+166-8	3910-3918	Wohnung!	_	GWithout[30]	bauen\_set1\_12[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-bauen\_set1\_12[30]	*[85]	*[85]	PrepObj[85]	*[85]	*[85]	false[215]	Decl[215]	*[345]	*[345]	*[345]	*[345]	*[345]	input1[345]	25[475]	female[475]	t6ah1r7hfmcncb44kgnh0sjmv6[475]	speaker: YOU[605]	*->8-1	DefNP[8]	_	_	_	
+
+#Text=Wann kommst du mal vorbei?
+167-1	3920-3924	Wann	_	GWithout[30]	bauen\_set1\_12[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-bauen\_set1\_12[30]	_	_	_	_	_	false[216]	Int[216]	*[346]	*[346]	*[346]	*[346]	*[346]	input2[346]	25[476]	female[476]	t6ah1r7hfmcncb44kgnh0sjmv6[476]	speaker: YOU[606]	_	_	_	_	_	
+167-2	3925-3931	kommst	_	GWithout[30]	bauen\_set1\_12[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-bauen\_set1\_12[30]	_	_	_	_	_	false[216]	Int[216]	*[346]	*[346]	*[346]	*[346]	*[346]	input2[346]	25[476]	female[476]	t6ah1r7hfmcncb44kgnh0sjmv6[476]	speaker: YOU[606]	_	_	_	_	_	
+167-3	3932-3934	du	_	GWithout[30]	bauen\_set1\_12[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-bauen\_set1\_12[30]	2	*	Subj	*	singular	false[216]	Int[216]	*[346]	*[346]	*[346]	*[346]	*[346]	input2[346]	25[476]	female[476]	t6ah1r7hfmcncb44kgnh0sjmv6[476]	speaker: YOU[606]	*->116-1	PerPron[116]	_	_	_	
+167-4	3935-3938	mal	_	GWithout[30]	bauen\_set1\_12[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-bauen\_set1\_12[30]	_	_	_	_	_	false[216]	Int[216]	*[346]	*[346]	*[346]	*[346]	*[346]	input2[346]	25[476]	female[476]	t6ah1r7hfmcncb44kgnh0sjmv6[476]	speaker: YOU[606]	_	_	_	_	_	
+167-5	3939-3946	vorbei?	_	GWithout[30]	bauen\_set1\_12[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-bauen\_set1\_12[30]	_	_	_	_	_	false[216]	Int[216]	*[346]	*[346]	*[346]	*[346]	*[346]	input2[346]	25[476]	female[476]	t6ah1r7hfmcncb44kgnh0sjmv6[476]	speaker: YOU[606]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+168-1	3948-3963	END_OF_DOCUMENT	_	GWithout[30]	bauen\_set1\_12[30]	latin3[30]	t6ah1r7hfmcncb44kgnh0sjmv6-bauen\_set1\_12[30]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+169-1	3965-3971	Hallo,	_	GWithout[31]	bauen\_set1\_12[31]	latin3[31]	ue2vk0ts1hkpki58vsa3j8t39j-bauen\_set1\_12[31]	_	_	_	_	_	false[217]	Int[217]	*[347]	*[347]	*[347]	wh\_2[347]	wh\_question[347]	openq[347]	*[477]	male[477]	*[477]	speaker:Tom[607]	_	_	QAP	*	170-1[218_217]	
+169-2	3972-3975	wie	_	GWithout[31]	bauen\_set1\_12[31]	latin3[31]	ue2vk0ts1hkpki58vsa3j8t39j-bauen\_set1\_12[31]	_	_	_	_	_	false[217]	Int[217]	*[347]	*[347]	*[347]	wh\_2[347]	wh\_question[347]	openq[347]	*[477]	male[477]	*[477]	speaker:Tom[607]	_	_	_	_	_	
+169-3	3976-3983	geht's?	_	GWithout[31]	bauen\_set1\_12[31]	latin3[31]	ue2vk0ts1hkpki58vsa3j8t39j-bauen\_set1\_12[31]	_	_	_	_	_	false[217]	Int[217]	*[347]	*[347]	*[347]	wh\_2[347]	wh\_question[347]	openq[347]	*[477]	male[477]	*[477]	speaker:Tom[607]	_	_	_	_	_	
+
+#Text=Ariana hat ein Regal gebaut
+170-1	3985-3991	Ariana	_	GWithout[31]	bauen\_set1\_12[31]	latin3[31]	ue2vk0ts1hkpki58vsa3j8t39j-bauen\_set1\_12[31]	*	*	Subj	*	*	false[218]	Decl[218]	*[348]	bauen[348]	transitive[348]	*[348]	*[348]	item0[348]	29[478]	female[478]	ue2vk0ts1hkpki58vsa3j8t39j[478]	speaker: YOU[608]	*->5-1	PropNm[5]	elaboration	*	172-1[219_218]	
+170-2	3992-3995	hat	_	GWithout[31]	bauen\_set1\_12[31]	latin3[31]	ue2vk0ts1hkpki58vsa3j8t39j-bauen\_set1\_12[31]	_	_	_	_	_	false[218]	Decl[218]	*[348]	bauen[348]	transitive[348]	*[348]	*[348]	item0[348]	29[478]	female[478]	ue2vk0ts1hkpki58vsa3j8t39j[478]	speaker: YOU[608]	_	_	_	_	_	
+170-3	3996-3999	ein	_	GWithout[31]	bauen\_set1\_12[31]	latin3[31]	ue2vk0ts1hkpki58vsa3j8t39j-bauen\_set1\_12[31]	*[86]	*[86]	object[86]	*[86]	*[86]	false[218]	Decl[218]	*[348]	bauen[348]	transitive[348]	*[348]	*[348]	item0[348]	29[478]	female[478]	ue2vk0ts1hkpki58vsa3j8t39j[478]	speaker: YOU[608]	*->31-1	IndefNP[31]	_	_	_	
+170-4	4000-4005	Regal	_	GWithout[31]	bauen\_set1\_12[31]	latin3[31]	ue2vk0ts1hkpki58vsa3j8t39j-bauen\_set1\_12[31]	*[86]	*[86]	object[86]	*[86]	*[86]	false[218]	Decl[218]	*[348]	bauen[348]	transitive[348]	*[348]	*[348]	item0[348]	29[478]	female[478]	ue2vk0ts1hkpki58vsa3j8t39j[478]	speaker: YOU[608]	*->31-1	IndefNP[31]	_	_	_	
+170-5	4006-4012	gebaut	_	GWithout[31]	bauen\_set1\_12[31]	latin3[31]	ue2vk0ts1hkpki58vsa3j8t39j-bauen\_set1\_12[31]	_	_	_	_	_	false[218]	Decl[218]	*[348]	bauen[348]	transitive[348]	*[348]	*[348]	item0[348]	29[478]	female[478]	ue2vk0ts1hkpki58vsa3j8t39j[478]	speaker: YOU[608]	_	_	_	_	_	
+
+#Text=-
+171-1	4014-4015	-	_	GWithout[31]	bauen\_set1\_12[31]	latin3[31]	ue2vk0ts1hkpki58vsa3j8t39j-bauen\_set1\_12[31]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	male	*	speaker:Tom	_	_	_	_	_	
+
+#Text=Es sieht voll cool aus!
+172-1	4017-4019	Es	_	GWithout[31]	bauen\_set1\_12[31]	latin3[31]	ue2vk0ts1hkpki58vsa3j8t39j-bauen\_set1\_12[31]	3	*	Subj	*	singular	false[219]	Decl[219]	*[349]	*[349]	*[349]	*[349]	*[349]	input1[349]	29[479]	female[479]	ue2vk0ts1hkpki58vsa3j8t39j[479]	speaker: YOU[609]	*->31-2	PerPron[31]	result	*	173-1[220_219]	
+172-2	4020-4025	sieht	_	GWithout[31]	bauen\_set1\_12[31]	latin3[31]	ue2vk0ts1hkpki58vsa3j8t39j-bauen\_set1\_12[31]	_	_	_	_	_	false[219]	Decl[219]	*[349]	*[349]	*[349]	*[349]	*[349]	input1[349]	29[479]	female[479]	ue2vk0ts1hkpki58vsa3j8t39j[479]	speaker: YOU[609]	_	_	_	_	_	
+172-3	4026-4030	voll	_	GWithout[31]	bauen\_set1\_12[31]	latin3[31]	ue2vk0ts1hkpki58vsa3j8t39j-bauen\_set1\_12[31]	_	_	_	_	_	false[219]	Decl[219]	*[349]	*[349]	*[349]	*[349]	*[349]	input1[349]	29[479]	female[479]	ue2vk0ts1hkpki58vsa3j8t39j[479]	speaker: YOU[609]	_	_	_	_	_	
+172-4	4031-4035	cool	_	GWithout[31]	bauen\_set1\_12[31]	latin3[31]	ue2vk0ts1hkpki58vsa3j8t39j-bauen\_set1\_12[31]	_	_	_	_	_	false[219]	Decl[219]	*[349]	*[349]	*[349]	*[349]	*[349]	input1[349]	29[479]	female[479]	ue2vk0ts1hkpki58vsa3j8t39j[479]	speaker: YOU[609]	_	_	_	_	_	
+172-5	4036-4040	aus!	_	GWithout[31]	bauen\_set1\_12[31]	latin3[31]	ue2vk0ts1hkpki58vsa3j8t39j-bauen\_set1\_12[31]	_	_	_	_	_	false[219]	Decl[219]	*[349]	*[349]	*[349]	*[349]	*[349]	input1[349]	29[479]	female[479]	ue2vk0ts1hkpki58vsa3j8t39j[479]	speaker: YOU[609]	_	_	_	_	_	
+
+#Text=Willst du Fotos sehen?
+173-1	4042-4048	Willst	_	GWithout[31]	bauen\_set1\_12[31]	latin3[31]	ue2vk0ts1hkpki58vsa3j8t39j-bauen\_set1\_12[31]	_	_	_	_	_	false[220]	Int[220]	*[350]	*[350]	*[350]	*[350]	*[350]	input2[350]	29[480]	female[480]	ue2vk0ts1hkpki58vsa3j8t39j[480]	speaker: YOU[610]	_	_	_	_	_	
+173-2	4049-4051	du	_	GWithout[31]	bauen\_set1\_12[31]	latin3[31]	ue2vk0ts1hkpki58vsa3j8t39j-bauen\_set1\_12[31]	2	*	Subj	*	singular	false[220]	Int[220]	*[350]	*[350]	*[350]	*[350]	*[350]	input2[350]	29[480]	female[480]	ue2vk0ts1hkpki58vsa3j8t39j[480]	speaker: YOU[610]	*->39-1	PerPron[39]	_	_	_	
+173-3	4052-4057	Fotos	_	GWithout[31]	bauen\_set1\_12[31]	latin3[31]	ue2vk0ts1hkpki58vsa3j8t39j-bauen\_set1\_12[31]	*	*	DirObj	*	*	false[220]	Int[220]	*[350]	*[350]	*[350]	*[350]	*[350]	input2[350]	29[480]	female[480]	ue2vk0ts1hkpki58vsa3j8t39j[480]	speaker: YOU[610]	*->74-1	IndefNP[74]	_	_	_	
+173-4	4058-4064	sehen?	_	GWithout[31]	bauen\_set1\_12[31]	latin3[31]	ue2vk0ts1hkpki58vsa3j8t39j-bauen\_set1\_12[31]	_	_	_	_	_	false[220]	Int[220]	*[350]	*[350]	*[350]	*[350]	*[350]	input2[350]	29[480]	female[480]	ue2vk0ts1hkpki58vsa3j8t39j[480]	speaker: YOU[610]	_	_	_	_	_	
+
+#Text=END_OF_DOCUMENT
+174-1	4066-4081	END_OF_DOCUMENT	_	GWithout[31]	bauen\_set1\_12[31]	latin3[31]	ue2vk0ts1hkpki58vsa3j8t39j-bauen\_set1\_12[31]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
+
+#Text=Hallo, wie geht's?
+175-1	4083-4089	Hallo,	_	GWithout[32]	bauen\_set1\_12[32]	latin3[32]	v3le8i0hm1ekj0ps9oou7k56t5-bauen\_set1\_12[32]	_	_	_	_	_	false[221]	Int[221]	*[351]	*[351]	*[351]	wh\_2[351]	wh\_question[351]	openq[351]	*[481]	male[481]	*[481]	speaker:Tom[611]	_	_	QAP	*	176-1[222_221]	
+175-2	4090-4093	wie	_	GWithout[32]	bauen\_set1\_12[32]	latin3[32]	v3le8i0hm1ekj0ps9oou7k56t5-bauen\_set1\_12[32]	_	_	_	_	_	false[221]	Int[221]	*[351]	*[351]	*[351]	wh\_2[351]	wh\_question[351]	openq[351]	*[481]	male[481]	*[481]	speaker:Tom[611]	_	_	_	_	_	
+175-3	4094-4101	geht's?	_	GWithout[32]	bauen\_set1\_12[32]	latin3[32]	v3le8i0hm1ekj0ps9oou7k56t5-bauen\_set1\_12[32]	_	_	_	_	_	false[221]	Int[221]	*[351]	*[351]	*[351]	wh\_2[351]	wh\_question[351]	openq[351]	*[481]	male[481]	*[481]	speaker:Tom[611]	_	_	_	_	_	
+
+#Text=Ariana hat ein Regal gebaut
+176-1	4103-4109	Ariana	_	GWithout[32]	bauen\_set1\_12[32]	latin3[32]	v3le8i0hm1ekj0ps9oou7k56t5-bauen\_set1\_12[32]	*	*	Subj	*	*	false[222]	Decl[222]	*[352]	bauen[352]	transitive[352]	*[352]	*[352]	item0[352]	58[482]	male[482]	v3le8i0hm1ekj0ps9oou7k56t5[482]	speaker: YOU[612]	*->88-1|*->34-1	clause[88]|PropNm[34]	_	_	_	
+176-2	4110-4113	hat	_	GWithout[32]	bauen\_set1\_12[32]	latin3[32]	v3le8i0hm1ekj0ps9oou7k56t5-bauen\_set1\_12[32]	_	_	_	_	_	false[222]	Decl[222]	*[352]	bauen[352]	transitive[352]	*[352]	*[352]	item0[352]	58[482]	male[482]	v3le8i0hm1ekj0ps9oou7k56t5[482]	speaker: YOU[612]	*->88-1	clause[88]	_	_	_	
+176-3	4114-4117	ein	_	GWithout[32]	bauen\_set1\_12[32]	latin3[32]	v3le8i0hm1ekj0ps9oou7k56t5-bauen\_set1\_12[32]	*[87]	*[87]	object[87]	*[87]	*[87]	false[222]	Decl[222]	*[352]	bauen[352]	transitive[352]	*[352]	*[352]	item0[352]	58[482]	male[482]	v3le8i0hm1ekj0ps9oou7k56t5[482]	speaker: YOU[612]	*->88-1|*->103-1	clause[88]|IndefNP[103]	_	_	_	
+176-4	4118-4123	Regal	_	GWithout[32]	bauen\_set1\_12[32]	latin3[32]	v3le8i0hm1ekj0ps9oou7k56t5-bauen\_set1\_12[32]	*[87]	*[87]	object[87]	*[87]	*[87]	false[222]	Decl[222]	*[352]	bauen[352]	transitive[352]	*[352]	*[352]	item0[352]	58[482]	male[482]	v3le8i0hm1ekj0ps9oou7k56t5[482]	speaker: YOU[612]	*->88-1|*->103-1	clause[88]|IndefNP[103]	_	_	_	
+176-5	4124-4130	gebaut	_	GWithout[32]	bauen\_set1\_12[32]	latin3[32]	v3le8i0hm1ekj0ps9oou7k56t5-bauen\_set1\_12[32]	_	_	_	_	_	false[222]	Decl[222]	*[352]	bauen[352]	transitive[352]	*[352]	*[352]	item0[352]	58[482]	male[482]	v3le8i0hm1ekj0ps9oou7k56t5[482]	speaker: YOU[612]	*->88-1	clause[88]	_	_	_	
+
+#Text=-
+177-1	4132-4133	-	_	GWithout[32]	bauen\_set1\_12[32]	latin3[32]	v3le8i0hm1ekj0ps9oou7k56t5-bauen\_set1\_12[32]	_	_	_	_	_	false	NA	Gwithout	*	*	*	*	feedback	*	male	*	speaker:Tom	_	_	_	_	_	
+
+#Text=hat ja ganz schön lang gedauert
+178-1	4135-4138	hat	TurnTakingError[1]	GWithout[32]	bauen\_set1\_12[32]	latin3[32]	v3le8i0hm1ekj0ps9oou7k56t5-bauen\_set1\_12[32]	3	*	*	*	singular	false[223]	Decl[223]	*[353]	*[353]	*[353]	*[353]	*[353]	input1[353]	58[483]	male[483]	v3le8i0hm1ekj0ps9oou7k56t5[483]	speaker: YOU[613]	*->88-2	zero[88]	_	_	_	
+178-2	4139-4141	ja	TurnTakingError[1]	GWithout[32]	bauen\_set1\_12[32]	latin3[32]	v3le8i0hm1ekj0ps9oou7k56t5-bauen\_set1\_12[32]	_	_	_	_	_	false[223]	Decl[223]	*[353]	*[353]	*[353]	*[353]	*[353]	input1[353]	58[483]	male[483]	v3le8i0hm1ekj0ps9oou7k56t5[483]	speaker: YOU[613]	_	_	_	_	_	
+178-3	4142-4146	ganz	TurnTakingError[1]	GWithout[32]	bauen\_set1\_12[32]	latin3[32]	v3le8i0hm1ekj0ps9oou7k56t5-bauen\_set1\_12[32]	_	_	_	_	_	false[223]	Decl[223]	*[353]	*[353]	*[353]	*[353]	*[353]	input1[353]	58[483]	male[483]	v3le8i0hm1ekj0ps9oou7k56t5[483]	speaker: YOU[613]	_	_	_	_	_	
+178-4	4147-4152	schön	TurnTakingError[1]	GWithout[32]	bauen\_set1\_12[32]	latin3[32]	v3le8i0hm1ekj0ps9oou7k56t5-bauen\_set1\_12[32]	_	_	_	_	_	false[223]	Decl[223]	*[353]	*[353]	*[353]	*[353]	*[353]	input1[353]	58[483]	male[483]	v3le8i0hm1ekj0ps9oou7k56t5[483]	speaker: YOU[613]	_	_	_	_	_	
+178-5	4153-4157	lang	TurnTakingError[1]	GWithout[32]	bauen\_set1\_12[32]	latin3[32]	v3le8i0hm1ekj0ps9oou7k56t5-bauen\_set1\_12[32]	_	_	_	_	_	false[223]	Decl[223]	*[353]	*[353]	*[353]	*[353]	*[353]	input1[353]	58[483]	male[483]	v3le8i0hm1ekj0ps9oou7k56t5[483]	speaker: YOU[613]	_	_	_	_	_	
+178-6	4158-4166	gedauert	TurnTakingError[1]	GWithout[32]	bauen\_set1\_12[32]	latin3[32]	v3le8i0hm1ekj0ps9oou7k56t5-bauen\_set1\_12[32]	_	_	_	_	_	false[223]	Decl[223]	*[353]	*[353]	*[353]	*[353]	*[353]	input1[353]	58[483]	male[483]	v3le8i0hm1ekj0ps9oou7k56t5[483]	speaker: YOU[613]	_	_	_	_	_	
+
+#Text=was stellt ihr in das Regal
+179-1	4168-4171	was	TurnTakingError[2]	GWithout[32]	bauen\_set1\_12[32]	latin3[32]	v3le8i0hm1ekj0ps9oou7k56t5-bauen\_set1\_12[32]	_	_	_	_	_	false[224]	Int[224]	*[354]	*[354]	*[354]	*[354]	*[354]	input2[354]	58[484]	male[484]	v3le8i0hm1ekj0ps9oou7k56t5[484]	speaker: YOU[614]	_	_	_	_	_	
+179-2	4172-4178	stellt	TurnTakingError[2]	GWithout[32]	bauen\_set1\_12[32]	latin3[32]	v3le8i0hm1ekj0ps9oou7k56t5-bauen\_set1\_12[32]	_	_	_	_	_	false[224]	Int[224]	*[354]	*[354]	*[354]	*[354]	*[354]	input2[354]	58[484]	male[484]	v3le8i0hm1ekj0ps9oou7k56t5[484]	speaker: YOU[614]	_	_	_	_	_	
+179-3	4179-4182	ihr	TurnTakingError[2]	GWithout[32]	bauen\_set1\_12[32]	latin3[32]	v3le8i0hm1ekj0ps9oou7k56t5-bauen\_set1\_12[32]	3	*	Subj	*	singular	false[224]	Int[224]	*[354]	*[354]	*[354]	*[354]	*[354]	input2[354]	58[484]	male[484]	v3le8i0hm1ekj0ps9oou7k56t5[484]	speaker: YOU[614]	*->52-1	PerPron[52]	_	_	_	
+179-4	4183-4185	in	TurnTakingError[2]	GWithout[32]	bauen\_set1\_12[32]	latin3[32]	v3le8i0hm1ekj0ps9oou7k56t5-bauen\_set1\_12[32]	_	_	_	_	_	false[224]	Int[224]	*[354]	*[354]	*[354]	*[354]	*[354]	input2[354]	58[484]	male[484]	v3le8i0hm1ekj0ps9oou7k56t5[484]	speaker: YOU[614]	_	_	_	_	_	
+179-5	4186-4189	das	TurnTakingError[2]	GWithout[32]	bauen\_set1\_12[32]	latin3[32]	v3le8i0hm1ekj0ps9oou7k56t5-bauen\_set1\_12[32]	*[88]	*[88]	PrepObj[88]	*[88]	*[88]	false[224]	Int[224]	*[354]	*[354]	*[354]	*[354]	*[354]	input2[354]	58[484]	male[484]	v3le8i0hm1ekj0ps9oou7k56t5[484]	speaker: YOU[614]	*->103-2	DefNP[103]	_	_	_	
+179-6	4190-4195	Regal	TurnTakingError[2]	GWithout[32]	bauen\_set1\_12[32]	latin3[32]	v3le8i0hm1ekj0ps9oou7k56t5-bauen\_set1\_12[32]	*[88]	*[88]	PrepObj[88]	*[88]	*[88]	false[224]	Int[224]	*[354]	*[354]	*[354]	*[354]	*[354]	input2[354]	58[484]	male[484]	v3le8i0hm1ekj0ps9oou7k56t5[484]	speaker: YOU[614]	*->103-2	DefNP[103]	_	_	_	
+
+#Text=END_OF_DOCUMENT
+180-1	4197-4212	END_OF_DOCUMENT	_	GWithout[32]	bauen\_set1\_12[32]	latin3[32]	v3le8i0hm1ekj0ps9oou7k56t5-bauen\_set1\_12[32]	_	_	_	_	_	_	_	*	*	*	*	*	end	*	*	*	*	_	_	_	_	_	
